@@ -1,0 +1,19 @@
+{
+    "name": "aternos/codex-minecraft",
+    "description": "PHP library to read, parse, print and analyse Minecraft server log files.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthias",
+            "email": "matthias@aternos.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "aternos/codex": "^0.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    }
+}
