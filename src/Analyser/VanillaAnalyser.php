@@ -12,8 +12,9 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OldPlayerDirectoryProblem;
  */
 class VanillaAnalyser extends MinecraftAnalyser
 {
-    protected $possibleInsightClasses = [
-        OldPlayerDirectoryProblem::class,
-        AquaticWorldOnOlderVersionProblem::class
-    ];
+    public function __construct()
+    {
+        $this->addPossibleInsightClass(OldPlayerDirectoryProblem::class);
+        $this->addPossibleInsightClass(AquaticWorldOnOlderVersionProblem::class);
+    }
 }
