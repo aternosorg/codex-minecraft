@@ -1,0 +1,24 @@
+[07:20:32] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[07:20:32] [Server thread/INFO]: Loading properties
+[07:20:32] [Server thread/INFO]: Default game type: SURVIVAL
+[07:20:32] [Server thread/INFO]: Generating keypair
+[07:20:32] [Server thread/INFO]: Starting Minecraft server on *:10890
+[07:20:32] [Server thread/INFO]: Using epoll channel type
+[07:20:33] [Server thread/INFO]: Preparing level "world"
+[07:20:34] [Server thread/INFO]: Loaded 488 advancements
+[07:20:34] [Server thread/INFO]: Preparing start region for level 0
+[07:20:34] [Server thread/WARN]: Could not set level chunk heightmap, array length is 0 instead of 256
+[07:20:34] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.IllegalArgumentException: ChunkNibbleArrays should be 2048 bytes not: 0
+at axs<init>(SourceFile:16) ~[minecraft_server.jar:?]
+at aye.a(SourceFile:315) ~[minecraft_server.jar:?]
+at aye.a(SourceFile:97) ~[minecraft_server.jar:?]
+at aye.a(SourceFile:72) ~[minecraft_server.jar:?]
+at on.f(SourceFile:124) [minecraft_server.jar:?]
+at on.b(SourceFile:81) [minecraft_server.jar:?]
+at on.c(SourceFile:95) [minecraft_server.jar:?]
+at net.minecraft.server.MinecraftServer.l(SourceFile:328) [minecraft_server.jar:?]
+at net.minecraft.server.MinecraftServer.a(SourceFile:299) [minecraft_server.jar:?]
+at nz.j(SourceFile:233) [minecraft_server.jar:?]
+at net.minecraft.server.MinecraftServer.run(SourceFile:434) [minecraft_server.jar:?]
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]

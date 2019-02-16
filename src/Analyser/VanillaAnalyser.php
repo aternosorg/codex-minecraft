@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analyser;
 
+use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\AquaticWorldOnOlderVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OldPlayerDirectoryProblem;
 
 /**
@@ -12,6 +13,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OldPlayerDirectoryProblem;
 class VanillaAnalyser extends MinecraftAnalyser
 {
     protected $possibleInsightClasses = [
-        OldPlayerDirectoryProblem::class
+        OldPlayerDirectoryProblem::class,
+        AquaticWorldOnOlderVersionProblem::class
     ];
 }
