@@ -1,0 +1,35 @@
+2019-02-08 23:33:19 [INFO] Starting minecraft server version 1.1
+2019-02-08 23:33:19 [INFO] Loading properties
+2019-02-08 23:33:19 [INFO] Starting Minecraft server on *:10719
+2019-02-08 23:33:20 [INFO] This server is running CraftBukkit version git-Bukkit-1.1-R6-b1988jnks (MC: 1.1) (Implementing API version 1.1-R6)
+2019-02-08 23:33:20 [INFO] [ItemNBTAPI] Loading ItemNBTAPI v1.1
+2019-02-08 23:33:20 [INFO] [Admin Chat] Loading Admin Chat v1.0
+2019-02-08 23:33:20 [INFO] Preparing level "world"
+2019-02-08 23:33:20 [INFO] Default game type: 0
+2019-02-08 23:33:20 [INFO] Preparing start region for level 0 (Seed: 2360843)
+2019-02-08 23:33:21 [INFO] Preparing spawn area: 65%
+2019-02-08 23:33:22 [INFO] Preparing start region for level 1 (Seed: 2360843)
+2019-02-08 23:33:22 [INFO] Preparing spawn area: 60%
+2019-02-08 23:33:23 [INFO] [ItemNBTAPI] Enabling ItemNBTAPI v1.1
+2019-02-08 23:33:23 [SEVERE] Error occurred while enabling ItemNBTAPI v1.1 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.scheduler.BukkitScheduler.runTaskTimerAsynchronously(Lorg/bukkit/plugin/Plugin;Ljava/lang/Runnable;JJ)Lorg/bukkit/scheduler/BukkitTask;
+	at org.mcstats.Metrics.start(Metrics.java:205)
+	at de.tr7zw.itemnbtapi.Itemnbtapi.initmcstats(Itemnbtapi.java:83)
+	at de.tr7zw.itemnbtapi.Itemnbtapi.onEnable(Itemnbtapi.java:16)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:215)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:336)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:363)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugin(CraftServer.java:249)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:231)
+	at net.minecraft.server.MinecraftServer.t(MinecraftServer.java:356)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:343)
+	at net.minecraft.server.MinecraftServer.init(MinecraftServer.java:174)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:407)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:465)
+2019-02-08 23:33:23 [INFO] [Admin Chat] Enabling Admin Chat v1.0
+2019-02-08 23:33:23 [INFO] Admin Chat v1.0 is now enabled!
+2019-02-08 23:33:23 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2019-02-08 23:33:23 [INFO] Done (2.709s)! For help, type "help" or "?"
+2019-02-08 23:33:23 [INFO] Starting GS4 status listener
+2019-02-08 23:33:23 [INFO] 'spawn-protection' in server.properties has been moved to 'settings.spawn-radius' in bukkit.yml. I will move your config for you.
+2019-02-08 23:33:23 [INFO] Query running on **.**.**.**:10719

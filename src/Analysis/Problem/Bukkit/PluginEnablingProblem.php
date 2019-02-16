@@ -3,24 +3,19 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 
 /**
- * Class PluginLoadProblem
+ * Class PluginEnablingProblem
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class PluginLoadProblem extends BukkitProblem
+class PluginEnablingProblem extends BukkitProblem
 {
     /**
      * @var string
      */
     protected $pluginName;
-
-    /**
-     * @var string
-     */
-    protected $pluginPath;
 
     /**
      * Get a human readable message
@@ -29,7 +24,7 @@ class PluginLoadProblem extends BukkitProblem
      */
     public function getMessage(): string
     {
-        return "The plugin '" . $this->getPluginName() . "'  could not be loaded.";
+        return "The plugin '" . $this->getPluginName() . "'  could not be enabled.";
     }
 
     /**
@@ -41,7 +36,7 @@ class PluginLoadProblem extends BukkitProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in folder \'[^\']+\'(?!\norg.bukkit.plugin.UnknownDependencyException)/'];
+        return ['/Error occurred while enabling (\w+) [^\(]*\(Is it up to date\?\)/'];
     }
 
     /**
@@ -53,11 +48,10 @@ class PluginLoadProblem extends BukkitProblem
      */
     public function setMatches(array $matches, $patternKey)
     {
-        $this->pluginPath = $matches[1];
-        $this->pluginName = $matches[2];
+        $this->pluginName = $matches[1];
 
         $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
-        $this->addSolution((new FileDeleteSolution())->setPath($this->getPluginPath()));
+        $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
     }
 
     /**
@@ -66,23 +60,5 @@ class PluginLoadProblem extends BukkitProblem
     public function getPluginName(): string
     {
         return $this->pluginName;
-    }
-
-    /**
-     * @return string
-     */
-    public function getPluginPath(): string
-    {
-        return $this->pluginPath;
-    }
-
-    /**
-     * @param static $insight
-     * @return bool
-     */
-    public function isEqual($insight): bool
-    {
-        return $this->getPluginPath() === $insight->getPluginPath()
-            && $this->getPluginName() === $insight->getPluginName();
     }
 }
