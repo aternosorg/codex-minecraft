@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analyser;
 
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem;
 
 /**
@@ -15,5 +16,6 @@ class BukkitAnalyser extends VanillaAnalyser
     {
         parent::__construct();
         $this->addPossibleInsightClass(PluginDependencyProblem::class);
+        $this->addPossibleInsightClass(AmbiguousPluginNameProblem::class);
     }
 }

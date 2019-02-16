@@ -1,0 +1,12 @@
+[19:23:07] [main/INFO]: Loaded 0 recipes
+[19:23:08] [Server thread/INFO]: Starting minecraft server version 1.13.2
+[19:23:08] [Server thread/INFO]: Loading properties
+[19:23:08] [Server thread/INFO]: Default game type: SURVIVAL
+[19:23:09] [Server thread/INFO]: This server is running Paper version git-Paper-522 (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
+[19:23:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:23:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:23:10] [Server thread/INFO]: Debug logging is disabled
+[19:23:10] [Server thread/INFO]: Generating keypair
+[19:23:11] [Server thread/INFO]: Starting Minecraft server on *:10730
+[19:23:11] [Server thread/INFO]: Using epoll channel type
+[19:23:12] [Server thread/ERROR]: Ambiguous plugin name `WorldEdit' for files `plugins/worldedit-bukkit-7.0.0-beta-05.jar' and `plugins/worldedit-bukkit-7.0.0-beta-01.jar' in `plugins'
