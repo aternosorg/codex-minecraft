@@ -11,9 +11,17 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "aternos/codex": "^0.1.0"
+        "aternos/codex": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aternos\\Codex\\Minecraft\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit test/tests"
     }
 }

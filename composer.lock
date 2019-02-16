@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "577e758c69f18c9a33587534ae55f33b",
+    "content-hash": "22fd94be974e4c9ba2c779a470da167d",
     "packages": [
         {
             "name": "aternos/codex",
-            "version": "v0.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aternosorg/codex.git",
-                "reference": "2f995f631dd50f3b5ffd348be03b1e5e4847ac96"
+                "reference": "1b6119a2f5f298223aa2788e93b46c7e37a457ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aternosorg/codex/zipball/2f995f631dd50f3b5ffd348be03b1e5e4847ac96",
-                "reference": "2f995f631dd50f3b5ffd348be03b1e5e4847ac96",
+                "url": "https://api.github.com/repos/aternosorg/codex/zipball/1b6119a2f5f298223aa2788e93b46c7e37a457ad",
+                "reference": "1b6119a2f5f298223aa2788e93b46c7e37a457ad",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +43,7 @@
                 }
             ],
             "description": "PHP library to read, parse, print and analyse log files.",
-            "time": "2019-02-15T05:49:43+00:00"
+            "time": "2019-02-16T00:19:43+00:00"
         }
     ],
     "packages-dev": [
@@ -1521,9 +1521,13 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "aternos/codex": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.0.0"
+    },
     "platform-dev": []
 }

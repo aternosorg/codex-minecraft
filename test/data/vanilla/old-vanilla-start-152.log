@@ -1,0 +1,24 @@
+2019-02-16 00:25:12 [INFO] Starting minecraft server version 1.5.2
+2019-02-16 00:25:12 [INFO] Loading properties
+2019-02-16 00:25:12 [INFO] Default game type: SURVIVAL
+2019-02-16 00:25:12 [INFO] Generating keypair
+2019-02-16 00:25:13 [INFO] Starting Minecraft server on *:10791
+2019-02-16 00:25:13 [INFO] Preparing level "world"
+2019-02-16 00:25:14 [INFO] Preparing start region for level 0
+2019-02-16 00:25:15 [INFO] Preparing spawn area: 2%
+2019-02-16 00:25:16 [INFO] Preparing spawn area: 5%
+2019-02-16 00:25:17 [INFO] Preparing spawn area: 9%
+2019-02-16 00:25:18 [INFO] Preparing spawn area: 16%
+2019-02-16 00:25:19 [INFO] Preparing spawn area: 23%
+2019-02-16 00:25:20 [INFO] Preparing spawn area: 30%
+2019-02-16 00:25:21 [INFO] Preparing spawn area: 36%
+2019-02-16 00:25:22 [INFO] Preparing spawn area: 43%
+2019-02-16 00:25:23 [INFO] Preparing spawn area: 48%
+2019-02-16 00:25:24 [INFO] Preparing spawn area: 54%
+2019-02-16 00:25:25 [INFO] Preparing spawn area: 63%
+2019-02-16 00:25:26 [INFO] Preparing spawn area: 72%
+2019-02-16 00:25:27 [INFO] Preparing spawn area: 81%
+2019-02-16 00:25:28 [INFO] Preparing spawn area: 91%
+2019-02-16 00:25:29 [INFO] Done (15.748s)! For help, type "help" or "?"
+2019-02-16 00:25:29 [INFO] Starting GS4 status listener
+2019-02-16 00:25:29 [INFO] Query running on 0.0.0.0:10791
