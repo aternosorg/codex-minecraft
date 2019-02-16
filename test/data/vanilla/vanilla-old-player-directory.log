@@ -1,0 +1,11 @@
+[10:03:34] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[10:03:34] [Server thread/INFO]: Loading properties
+[10:03:34] [Server thread/INFO]: Default game type: ADVENTURE
+[10:03:34] [Server thread/INFO]: Generating keypair
+[10:03:35] [Server thread/INFO]: Starting Minecraft server on *:10335
+[10:03:35] [Server thread/INFO]: Using epoll channel type
+[10:03:35] [Server thread/WARN]: **** DETECTED OLD PLAYER DIRECTORY IN THE WORLD SAVE
+[10:03:35] [Server thread/WARN]: **** THIS USUALLY HAPPENS WHEN THE AUTOMATIC CONVERSION FAILED IN SOME WAY
+[10:03:35] [Server thread/WARN]: ** please restart the server and if the problem persists, remove the directory 'world/players'
+[10:03:35] [Server thread/INFO]: Stopping server
+[10:03:35] [Server Shutdown Thread/INFO]: Stopping server

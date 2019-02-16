@@ -2,16 +2,17 @@
 
 class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
 {
-    public function testParse()
+    public function testParseAndAnalyse()
     {
         date_default_timezone_set('UTC');
-        $logFile = new \Aternos\Codex\Log\File\PathLogFile("/home/matthias/Development/aternos/codex-minecraft/test/data/bukkit/glowstone-start-1122.log");
+        $logFile = new \Aternos\Codex\Log\File\PathLogFile(__DIR__ . "/../../../data/bukkit/glowstone-start-1122.log");
         $detective = new \Aternos\Codex\Minecraft\Detective\Detective();
         $detective->setLogFile($logFile);
         $log = $detective->detect();
         $log->parse();
+        $analysis = $log->analyse();
         
-        $expected = 'Aternos\Codex\Minecraft\Log\GlowstoneLog Object
+        $expectedLog = 'Aternos\Codex\Minecraft\Log\GlowstoneLog Object
 (
     [entries:protected] => Array
         (
@@ -719,7 +720,7 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 39
     [logFile:protected] => Aternos\Codex\Log\File\PathLogFile Object
         (
             [content:protected] => 2019/02/16 00:12:45 [INFO] Scanning plugins...
@@ -766,6 +767,17 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
 )
 ';
         
-        $this->assertEquals($expected, print_r($log, true));
+        $expectedAnalysis = 'Aternos\Codex\Analysis\Analysis Object
+(
+    [insights:protected] => Array
+        (
+        )
+
+    [iterator:protected] => 0
+)
+';
+        
+        $this->assertEquals($expectedLog, print_r($log, true));
+        $this->assertEquals($expectedAnalysis, print_r($analysis, true));
     }
 }

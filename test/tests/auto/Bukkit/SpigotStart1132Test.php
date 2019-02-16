@@ -2,16 +2,17 @@
 
 class SpigotStart1132Test extends PHPUnit\Framework\TestCase
 {
-    public function testParse()
+    public function testParseAndAnalyse()
     {
         date_default_timezone_set('UTC');
-        $logFile = new \Aternos\Codex\Log\File\PathLogFile("/home/matthias/Development/aternos/codex-minecraft/test/data/bukkit/spigot-start-1132.log");
+        $logFile = new \Aternos\Codex\Log\File\PathLogFile(__DIR__ . "/../../../data/bukkit/spigot-start-1132.log");
         $detective = new \Aternos\Codex\Minecraft\Detective\Detective();
         $detective->setLogFile($logFile);
         $log = $detective->detect();
         $log->parse();
+        $analysis = $log->analyse();
         
-        $expected = 'Aternos\Codex\Minecraft\Log\SpigotLog Object
+        $expectedLog = 'Aternos\Codex\Minecraft\Log\SpigotLog Object
 (
     [entries:protected] => Array
         (
@@ -3383,7 +3384,7 @@ class SpigotStart1132Test extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 187
     [logFile:protected] => Aternos\Codex\Log\File\PathLogFile Object
         (
             [content:protected] => [23:40:28] [main/INFO]: Loaded 0 recipes
@@ -3578,6 +3579,17 @@ class SpigotStart1132Test extends PHPUnit\Framework\TestCase
 )
 ';
         
-        $this->assertEquals($expected, print_r($log, true));
+        $expectedAnalysis = 'Aternos\Codex\Analysis\Analysis Object
+(
+    [insights:protected] => Array
+        (
+        )
+
+    [iterator:protected] => 0
+)
+';
+        
+        $this->assertEquals($expectedLog, print_r($log, true));
+        $this->assertEquals($expectedAnalysis, print_r($analysis, true));
     }
 }

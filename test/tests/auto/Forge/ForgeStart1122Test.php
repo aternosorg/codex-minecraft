@@ -2,16 +2,17 @@
 
 class ForgeStart1122Test extends PHPUnit\Framework\TestCase
 {
-    public function testParse()
+    public function testParseAndAnalyse()
     {
         date_default_timezone_set('UTC');
-        $logFile = new \Aternos\Codex\Log\File\PathLogFile("/home/matthias/Development/aternos/codex-minecraft/test/data/forge/forge-start-1122.log");
+        $logFile = new \Aternos\Codex\Log\File\PathLogFile(__DIR__ . "/../../../data/forge/forge-start-1122.log");
         $detective = new \Aternos\Codex\Minecraft\Detective\Detective();
         $detective->setLogFile($logFile);
         $log = $detective->detect();
         $log->parse();
+        $analysis = $log->analyse();
         
-        $expected = 'Aternos\Codex\Minecraft\Log\ForgeLog Object
+        $expectedLog = 'Aternos\Codex\Minecraft\Log\ForgeLog Object
 (
     [entries:protected] => Array
         (
@@ -1403,7 +1404,7 @@ class ForgeStart1122Test extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 77
     [logFile:protected] => Aternos\Codex\Log\File\PathLogFile Object
         (
             [content:protected] => [00:36:52] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
@@ -1488,6 +1489,17 @@ class ForgeStart1122Test extends PHPUnit\Framework\TestCase
 )
 ';
         
-        $this->assertEquals($expected, print_r($log, true));
+        $expectedAnalysis = 'Aternos\Codex\Analysis\Analysis Object
+(
+    [insights:protected] => Array
+        (
+        )
+
+    [iterator:protected] => 0
+)
+';
+        
+        $this->assertEquals($expectedLog, print_r($log, true));
+        $this->assertEquals($expectedAnalysis, print_r($analysis, true));
     }
 }

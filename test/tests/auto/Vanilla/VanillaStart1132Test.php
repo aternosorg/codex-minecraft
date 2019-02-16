@@ -2,16 +2,17 @@
 
 class VanillaStart1132Test extends PHPUnit\Framework\TestCase
 {
-    public function testParse()
+    public function testParseAndAnalyse()
     {
         date_default_timezone_set('UTC');
-        $logFile = new \Aternos\Codex\Log\File\PathLogFile("/home/matthias/Development/aternos/codex-minecraft/test/data/vanilla/vanilla-start-1132.log");
+        $logFile = new \Aternos\Codex\Log\File\PathLogFile(__DIR__ . "/../../../data/vanilla/vanilla-start-1132.log");
         $detective = new \Aternos\Codex\Minecraft\Detective\Detective();
         $detective->setLogFile($logFile);
         $log = $detective->detect();
         $log->parse();
+        $analysis = $log->analyse();
         
-        $expected = 'Aternos\Codex\Minecraft\Log\VanillaLog Object
+        $expectedLog = 'Aternos\Codex\Minecraft\Log\VanillaLog Object
 (
     [entries:protected] => Array
         (
@@ -1961,7 +1962,7 @@ class VanillaStart1132Test extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 108
     [logFile:protected] => Aternos\Codex\Log\File\PathLogFile Object
         (
             [content:protected] => [18:25:32] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
@@ -2077,6 +2078,17 @@ class VanillaStart1132Test extends PHPUnit\Framework\TestCase
 )
 ';
         
-        $this->assertEquals($expected, print_r($log, true));
+        $expectedAnalysis = 'Aternos\Codex\Analysis\Analysis Object
+(
+    [insights:protected] => Array
+        (
+        )
+
+    [iterator:protected] => 0
+)
+';
+        
+        $this->assertEquals($expectedLog, print_r($log, true));
+        $this->assertEquals($expectedAnalysis, print_r($analysis, true));
     }
 }

@@ -3,8 +3,9 @@
 date_default_timezone_set('UTC');
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$input = $argv[1] ?? __DIR__ . "/data/";
-$output = $argv[2] ?? __DIR__ . "/tests/auto/";
+$input = __DIR__ . "/data/";
+$output = __DIR__ . "/tests/auto/";
+$outputToInput = "/../..";
 
 if (substr($input, -1) !== "/") {
     $input .= "/";
@@ -16,6 +17,7 @@ if (substr($output, -1) !== "/") {
 
 $inputFiles = new RegexIterator(new RecursiveIteratorIterator(new RecursiveDirectoryIterator($input)), '/.+\.log/i', RecursiveRegexIterator::GET_MATCH);
 foreach ($inputFiles as $inputFilePath => $inputFile) {
+    $inputFilePathToDir = $outputToInput . str_replace(__DIR__, '', $inputFilePath);
     $relativeInputPath = substr($inputFilePath, strlen($input));
     $pathParts = explode("/", $relativeInputPath);
     $fileName = $pathParts[count($pathParts) - 1];
@@ -23,6 +25,7 @@ foreach ($inputFiles as $inputFilePath => $inputFile) {
 
     $outputPath = $output;
     foreach ($pathParts as $pathPart) {
+        $inputFilePathToDir = "/.." . $inputFilePathToDir;
         $outputPath .= ucfirst($pathPart) . "/";
     }
 
@@ -42,25 +45,31 @@ foreach ($inputFiles as $inputFilePath => $inputFile) {
     $logFile = new \Aternos\Codex\Log\File\PathLogFile($inputFilePath);
     $detective = new \Aternos\Codex\Minecraft\Detective\Detective();
     $detective->setLogFile($logFile);
+    /** @var \Aternos\Codex\Minecraft\Log\Log $log */
     $log = $detective->detect();
     $log->parse();
+    $analysis = $log->analyse();
 
     $testClassContent = '<?php
 
 class ' . $className . ' extends PHPUnit\Framework\TestCase
 {
-    public function testParse()
+    public function testParseAndAnalyse()
     {
         date_default_timezone_set(\'UTC\');
-        $logFile = new \Aternos\Codex\Log\File\PathLogFile("' . $inputFilePath . '");
+        $logFile = new \Aternos\Codex\Log\File\PathLogFile(__DIR__ . "' . $inputFilePathToDir . '");
         $detective = new \Aternos\Codex\Minecraft\Detective\Detective();
         $detective->setLogFile($logFile);
         $log = $detective->detect();
         $log->parse();
+        $analysis = $log->analyse();
         
-        $expected = \'' . str_replace("'", "\\'", print_r($log, true)) . '\';
+        $expectedLog = \'' . str_replace("'", "\\'", print_r($log, true)) . '\';
         
-        $this->assertEquals($expected, print_r($log, true));
+        $expectedAnalysis = \'' . str_replace("'", "\\'", print_r($analysis, true)) . '\';
+        
+        $this->assertEquals($expectedLog, print_r($log, true));
+        $this->assertEquals($expectedAnalysis, print_r($analysis, true));
     }
 }';
     if (file_exists($outputPath) && file_get_contents($outputPath) === $testClassContent) {
