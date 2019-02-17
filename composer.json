@@ -22,6 +22,7 @@
         }
     },
     "scripts": {
-        "test": "phpunit test/tests"
+        "test": "phpunit test/tests",
+        "generate-tests": "php ./test/generate-tests.php"
     }
 }
