@@ -6,6 +6,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginRuntimeProblem;
 
 /**
  * Class BukkitAnalyser
@@ -21,5 +22,6 @@ class BukkitAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(AmbiguousPluginNameProblem::class);
         $this->addPossibleInsightClass(PluginLoadProblem::class);
         $this->addPossibleInsightClass(PluginEnablingProblem::class);
+        $this->addPossibleInsightClass(PluginRuntimeProblem::class);
     }
 }
