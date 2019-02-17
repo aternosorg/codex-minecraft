@@ -3,11 +3,11 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 /**
- * Class PluginRuntimeProblem
+ * Class PluginDisablingProblem
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class PluginRuntimeProblem extends PluginProblem
+class PluginDisablingProblem extends PluginProblem
 {
     /**
      * Get a human readable message
@@ -16,7 +16,7 @@ class PluginRuntimeProblem extends PluginProblem
      */
     public function getMessage(): string
     {
-        return "The plugin '" . $this->getPluginName() . "' has a problem while running.";
+        return "The plugin '" . $this->getPluginName() . "'  could not be disabled.";
     }
 
     /**
@@ -28,9 +28,6 @@ class PluginRuntimeProblem extends PluginProblem
      */
     public static function getPatterns(): array
     {
-        return [
-            '/Could not pass event \w+ to (\w+) .*/',
-            '/Task \S+ for (\w+) \S+ generated an exception/'
-        ];
+        return ['/Error occurred while disabling (\w+) [^\(]*\(Is it up to date\?\)/'];
     }
 }

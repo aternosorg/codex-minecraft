@@ -10,13 +10,8 @@ use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class PluginLoadProblem extends BukkitProblem
+class PluginLoadProblem extends PluginProblem
 {
-    /**
-     * @var string
-     */
-    protected $pluginName;
-
     /**
      * @var string
      */
@@ -63,14 +58,6 @@ class PluginLoadProblem extends BukkitProblem
     /**
      * @return string
      */
-    public function getPluginName(): string
-    {
-        return $this->pluginName;
-    }
-
-    /**
-     * @return string
-     */
     public function getPluginPath(): string
     {
         return $this->pluginPath;
@@ -83,6 +70,6 @@ class PluginLoadProblem extends BukkitProblem
     public function isEqual($insight): bool
     {
         return $this->getPluginPath() === $insight->getPluginPath()
-            && $this->getPluginName() === $insight->getPluginName();
+            && parent::isEqual($insight);
     }
 }

@@ -2,21 +2,13 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
-
 /**
  * Class PluginEnablingProblem
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class PluginEnablingProblem extends BukkitProblem
+class PluginEnablingProblem extends PluginProblem
 {
-    /**
-     * @var string
-     */
-    protected $pluginName;
-
     /**
      * Get a human readable message
      *
@@ -37,28 +29,5 @@ class PluginEnablingProblem extends BukkitProblem
     public static function getPatterns(): array
     {
         return ['/Error occurred while enabling (\w+) [^\(]*\(Is it up to date\?\)/'];
-    }
-
-    /**
-     * Apply the matches from the pattern
-     *
-     * @param array $matches
-     * @param $patternKey
-     * @return mixed
-     */
-    public function setMatches(array $matches, $patternKey)
-    {
-        $this->pluginName = $matches[1];
-
-        $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
-        $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
-    }
-
-    /**
-     * @return string
-     */
-    public function getPluginName(): string
-    {
-        return $this->pluginName;
     }
 }

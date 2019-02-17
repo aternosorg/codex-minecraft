@@ -1,0 +1,170 @@
+[12:04:31] [main/INFO]: Loaded 0 recipes
+[12:04:31] [Server thread/INFO]: Starting minecraft server version 1.13.2
+[12:04:31] [Server thread/INFO]: Loading properties
+[12:04:31] [Server thread/INFO]: Default game type: SURVIVAL
+[12:04:33] [Server thread/INFO]: This server is running Paper version git-Paper-521 (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
+[12:04:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:04:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:04:36] [Server thread/INFO]: Debug logging is disabled
+[12:04:37] [Server thread/INFO]: Generating keypair
+[12:04:38] [Server thread/INFO]: Starting Minecraft server on *:10434
+[12:04:39] [Server thread/INFO]: Using epoll channel type
+[12:05:05] [Server thread/INFO]: [SuperLobbyPlus] Loading SuperLobbyPlus v1.3.3
+[12:05:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:05:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:05:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:05:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:05:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:05:06] [Server thread/INFO]: Preparing level "world"
+[12:05:06] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[12:05:08] [Server thread/INFO]: Loaded 524 recipes
+[12:05:10] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:05:10] [Server thread/INFO]: Mob Spawn Range: 8
+[12:05:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:05:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:05:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:05:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:05:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:05:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:05:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:05:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:05:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:05:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:05:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:05:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:05:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:05:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:05:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:05:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:05:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:05:10] [Server thread/INFO]: Random Lighting Updates: false
+[12:05:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:05:10] [Server thread/INFO]: Max TNT Explosions: 100
+[12:05:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:05:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:05:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:05:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:05:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:05:10] [Server thread/INFO]: View Distance: 10
+[12:05:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:05:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:05:11] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:05:11] [Server thread/INFO]: Mob Spawn Range: 8
+[12:05:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:05:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:05:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:05:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:05:11] [Server thread/INFO]: Random Lighting Updates: false
+[12:05:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:05:11] [Server thread/INFO]: Max TNT Explosions: 100
+[12:05:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:05:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:05:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:05:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:05:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:05:11] [Server thread/INFO]: View Distance: 10
+[12:05:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:05:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:05:11] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:05:11] [Server thread/INFO]: Mob Spawn Range: 8
+[12:05:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:05:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:05:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:05:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:05:11] [Server thread/INFO]: Random Lighting Updates: false
+[12:05:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:05:11] [Server thread/INFO]: Max TNT Explosions: 100
+[12:05:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:05:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:05:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:05:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:05:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:05:11] [Server thread/INFO]: View Distance: 10
+[12:05:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:05:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:05:11] [Server thread/INFO]: Preparing start region for level minecraft:overworld (Seed: 1582517021810822702)
+[12:05:12] [Server thread/INFO]: Preparing start region for level minecraft:the_nether (Seed: 1582517021810822702)
+[12:05:12] [Server thread/INFO]: Preparing start region for level minecraft:the_end (Seed: 1582517021810822702)
+[12:05:12] [Server thread/INFO]: Time elapsed: 364 ms
+[12:05:12] [Server thread/INFO]: [SuperLobbyPlus] Enabling SuperLobbyPlus v1.3.3*
+[12:05:12] [Server thread/INFO]: ==================================
+[12:05:12] [Server thread/INFO]: #[SuperLobbPlus]#
+[12:05:12] [Server thread/INFO]: #Activado correctamente#
+[12:05:12] [Server thread/INFO]: #Plugin by Maurittoh#
+[12:05:12] [Server thread/INFO]: #Twitter: @MauroReviews#
+[12:05:12] [Server thread/INFO]: #Version: 1.3.1#
+[12:05:12] [Server thread/INFO]: #[SuperLobbPlus]#
+[12:05:12] [Server thread/INFO]: ==================================
+[12:05:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[12:05:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[12:05:14] [Server thread/ERROR]: Error occurred while enabling SuperLobbyPlus v1.3.3 (Is it up to date?)
+java.lang.RuntimeException: Could not find PlaceholderAPI!! Plugin can not work without it!
+	at maurittoh.com.MainCommand.onEnable(MainCommand.java:161) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:254) ~[minecraft_server.jar:git-Paper-521]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:326) ~[minecraft_server.jar:git-Paper-521]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[minecraft_server.jar:git-Paper-521]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugin(CraftServer.java:443) ~[minecraft_server.jar:git-Paper-521]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugins(CraftServer.java:357) ~[minecraft_server.jar:git-Paper-521]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.l(MinecraftServer.java:608) ~[minecraft_server.jar:git-Paper-521]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:570) ~[minecraft_server.jar:git-Paper-521]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:431) ~[minecraft_server.jar:git-Paper-521]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.init(DedicatedServer.java:316) ~[minecraft_server.jar:git-Paper-521]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:786) ~[minecraft_server.jar:git-Paper-521]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[12:05:14] [Server thread/INFO]: [SuperLobbyPlus] Disabling SuperLobbyPlus v1.3.3
+[12:05:14] [Server thread/INFO]: 
+[12:05:14] [Server thread/INFO]: ==================================
+[12:05:14] [Server thread/INFO]: #[SuperLobbPlus]#
+[12:05:14] [Server thread/INFO]: #Desactivado correctamente#
+[12:05:14] [Server thread/INFO]: #Plugin by Maurittoh#
+[12:05:14] [Server thread/INFO]: #Twitter: @MauroReviews#
+[12:05:14] [Server thread/INFO]: #Version: 1.3.1#
+[12:05:14] [Server thread/INFO]: #[SuperLobbPlus]#
+[12:05:14] [Server thread/INFO]: ==================================
+[12:05:14] [Server thread/ERROR]: Error occurred while disabling SuperLobbyPlus v1.3.3 (Is it up to date?)
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register maurittoh.com.comandos.CommandSpawn@4db8a1fd while not enabled
+	at org.bukkit.plugin.SimplePluginManager.registerEvents(SimplePluginManager.java:541) ~[minecraft_server.jar:git-Paper-521]
+	at maurittoh.com.MainCommand.registerEvents(MainCommand.java:492) ~[?:?]
+	at maurittoh.com.MainCommand.onDisable(MainCommand.java:213) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:256) ~[minecraft_server.jar:git-Paper-521]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:360) ~[minecraft_server.jar:git-Paper-521]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:437) ~[minecraft_server.jar:git-Paper-521]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:330) ~[minecraft_server.jar:git-Paper-521]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[minecraft_server.jar:git-Paper-521]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugin(CraftServer.java:443) ~[minecraft_server.jar:git-Paper-521]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugins(CraftServer.java:357) ~[minecraft_server.jar:git-Paper-521]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.l(MinecraftServer.java:608) ~[minecraft_server.jar:git-Paper-521]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:570) ~[minecraft_server.jar:git-Paper-521]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:431) ~[minecraft_server.jar:git-Paper-521]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.init(DedicatedServer.java:316) ~[minecraft_server.jar:git-Paper-521]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:786) ~[minecraft_server.jar:git-Paper-521]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[12:05:15] [Server thread/INFO]: Done (9.503s)! For help, type "help"
+[12:05:15] [Server thread/INFO]: Starting GS4 status listener
+[12:05:15] [Query Listener #1/INFO]: Query running on **.**.**.**:10434

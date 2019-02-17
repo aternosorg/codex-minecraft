@@ -344,8 +344,8 @@ Caused by: java.lang.NullPointerException
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
-                    [pluginName:protected] => GamenixText
                     [pluginPath:protected] => plugins/GamenixText.jar
+                    [pluginName:protected] => GamenixText
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
