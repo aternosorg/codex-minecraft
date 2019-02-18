@@ -4,7 +4,6 @@ namespace Aternos\Codex\Minecraft\Log;
 
 use Aternos\Codex\Detective\LinePatternDetector;
 use Aternos\Codex\Log\DetectableLogInterface;
-use Aternos\Codex\Minecraft\Analyser\MinecraftAnalyser;
 use Aternos\Codex\Minecraft\Parser\Parser;
 use Aternos\Codex\Parser\ParserInterface;
 
@@ -28,14 +27,6 @@ abstract class MinecraftLog extends \Aternos\Codex\Log\AnalysableLog implements 
         return (new Parser())
             ->setPattern(static::$pattern)
             ->setMatches([Parser::PREFIX, Parser::LEVEL]);
-    }
-
-    /**
-     * @return MinecraftAnalyser
-     */
-    public static function getDefaultAnalyser()
-    {
-        return new MinecraftAnalyser();
     }
 
     /**

@@ -9,7 +9,7 @@ use Aternos\Codex\Analyser\PatternAnalyser;
  *
  * @package Aternos\Codex\Minecraft\Analyser
  */
-class MinecraftAnalyser extends PatternAnalyser
+abstract class MinecraftAnalyser extends PatternAnalyser
 {
     protected $possibleInsightClasses = [];
 }

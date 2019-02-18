@@ -182,6 +182,31 @@ class BedrockStart19Test extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Bedrock\BedrockVersionInformation Object
+                (
+                    [label:protected] => Bedrock version
+                    [value:protected] => 1.9.0.15
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [2019-02-16 01:16:14 INFO]
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [2019-02-16 01:16:14 INFO] Version 1.9.0.15
+                                            [number:protected] => 2
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 1550279774
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
         )
 
     [iterator:protected] => 0

@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Log;
 
+use Aternos\Codex\Minecraft\Analyser\BedrockAnalyser;
 use Aternos\Codex\Minecraft\Parser\Parser;
 use Aternos\Codex\Parser\ParserInterface;
 
@@ -23,6 +24,14 @@ class BedrockLog extends MinecraftServerLog
             ->setPattern(static::$pattern)
             ->setTimeFormat('Y-m-d H:i:s')
             ->setMatches([Parser::PREFIX, Parser::TIME, Parser::LEVEL]);
+    }
+
+    /**
+     * @return BedrockAnalyser
+     */
+    public static function getDefaultAnalyser()
+    {
+        return new BedrockAnalyser();
     }
 
     /**
