@@ -372,9 +372,59 @@ class PocketmineStart362Test extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Pocketmine\PocketmineBedrockVersionInformation Object
+                (
+                    [label:protected] => Bedrock version
+                    [value:protected] => 1.9.0
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => 2019-02-16 [00:48:04] [Server thread/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 2019-02-16 [00:48:04] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.9.0
+                                            [number:protected] => 4
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 1550278084
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Pocketmine\PocketmineVersionInformation Object
+                (
+                    [label:protected] => Pocketmine version
+                    [value:protected] => 3.6.2
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => 2019-02-16 [00:48:04] [Server thread/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 2019-02-16 [00:48:04] [Server thread/INFO]: This server is running PocketMine-MP version 3.6.2
+                                            [number:protected] => 8
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 1550278084
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         

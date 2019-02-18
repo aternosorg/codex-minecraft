@@ -904,7 +904,57 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine\PluginIncompatibleProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Pocketmine\PocketmineBedrockVersionInformation Object
+                (
+                    [label:protected] => Bedrock version
+                    [value:protected] => 1.9.0
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.9.0
+                                            [number:protected] => 4
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 1550007025
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Pocketmine\PocketmineVersionInformation Object
+                (
+                    [label:protected] => Pocketmine version
+                    [value:protected] => 3.6.1
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]: This server is running PocketMine-MP version 3.6.1
+                                            [number:protected] => 8
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 1550007025
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine\PluginIncompatibleProblem Object
                 (
                     [pluginName:protected] => EconomyJob
                     [solutions:protected] => Array
@@ -943,7 +993,7 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [counter:protected] => 1
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine\PluginIncompatibleProblem Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine\PluginIncompatibleProblem Object
                 (
                     [pluginName:protected] => CustomAlerts
                     [solutions:protected] => Array
@@ -984,7 +1034,7 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 1
+    [iterator:protected] => 3
 )
 ';
         
