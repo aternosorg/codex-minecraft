@@ -33,8 +33,8 @@ class AmbiguousPluginNameProblem extends BukkitProblem
      */
     public function getMessage(): string
     {
-        $first = end(explode("/", $this->getFirstPluginPath()));
-        $second = end(explode("/", $this->getSecondPluginPath()));
+        $first = end($pathParts = explode("/", $this->getFirstPluginPath()));
+        $second = end($pathParts = explode("/", $this->getSecondPluginPath()));
         return "There are multiple plugin files for the plugin name '" . $this->getPluginName() . "': '" . $first . "' and '" . $second . "'.";
     }
 

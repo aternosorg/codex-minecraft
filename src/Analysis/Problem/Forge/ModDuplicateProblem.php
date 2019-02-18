@@ -28,8 +28,8 @@ class ModDuplicateProblem extends ModProblem
      */
     public function getMessage(): string
     {
-        $first = end(explode("/", $this->getFirstModPath()));
-        $second = end(explode("/", $this->getSecondModPath()));
+        $first = end($pathParts = explode("/", $this->getFirstModPath()));
+        $second = end($pathParts = explode("/", $this->getSecondModPath()));
 
         return "There are multiple mod files for the mod name '" . $this->getModName() . "': '" . $first . "' and '" . $second . "'.";
     }
