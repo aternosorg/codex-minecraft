@@ -13,7 +13,7 @@ use Aternos\Codex\Parser\ParserInterface;
  * @author Matthias Neid
  * @package Aternos\Codex\Minecraft\Log
  */
-class PocketmineLog extends Log
+class PocketmineLog extends MinecraftLog
 {
     /**
      * @var string

@@ -9,11 +9,11 @@ use Aternos\Codex\Minecraft\Parser\Parser;
 use Aternos\Codex\Parser\ParserInterface;
 
 /**
- * Class Log
+ * Class MinecraftLog
  *
  * @package Aternos\Codex\Minecraft\Log
  */
-abstract class Log extends \Aternos\Codex\Log\AnalysableLog implements DetectableLogInterface
+abstract class MinecraftLog extends \Aternos\Codex\Log\AnalysableLog implements DetectableLogInterface
 {
     /**
      * @var string

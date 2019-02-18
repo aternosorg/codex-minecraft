@@ -18,6 +18,11 @@ class OldVanillaLog extends VanillaLog
     protected static $pattern = '/^(((?:[0-9]{2,4}-?){3} (?:[0-9]{2}\:?){3}) \[(\w+)\]).*$/';
 
     /**
+     * @var string
+     */
+    protected static $prefixPattern = '(((?:[0-9]{2,4}-?){3} (?:[0-9]{2}\:?){3}) \[(\w+)\]) ';
+
+    /**
      * @return ParserInterface
      */
     public static function getDefaultParser()

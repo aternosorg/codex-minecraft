@@ -17,7 +17,7 @@ class PaperLog extends BukkitLog
     public static function getDetectors()
     {
         return array_merge(parent::getDetectors(), [
-            (new SinglePatternDetector())->setPattern('/This server is running Paper version git\-Paper/')
+            (new SinglePatternDetector())->setPattern('/' . static::$prefixPattern . 'This server is running Paper version git\-Paper/')
         ]);
     }
 }

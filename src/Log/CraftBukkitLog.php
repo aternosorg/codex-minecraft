@@ -17,7 +17,7 @@ class CraftBukkitLog extends BukkitLog
     public static function getDetectors()
     {
         return array_merge(parent::getDetectors(), [
-            (new SinglePatternDetector())->setPattern('/This server is running CraftBukkit version git\-Bukkit/')
+            (new SinglePatternDetector())->setPattern('/'. static::$prefixPattern .'This server is running CraftBukkit version git\-Bukkit/')
         ]);
     }
 }

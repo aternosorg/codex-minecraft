@@ -45,7 +45,7 @@ foreach ($inputFiles as $inputFilePath => $inputFile) {
     $logFile = new \Aternos\Codex\Log\File\PathLogFile($inputFilePath);
     $detective = new \Aternos\Codex\Minecraft\Detective\Detective();
     $detective->setLogFile($logFile);
-    /** @var \Aternos\Codex\Minecraft\Log\Log $log */
+    /** @var \Aternos\Codex\Minecraft\Log\MinecraftLog $log */
     $log = $detective->detect();
     $log->parse();
     $analysis = $log->analyse();
