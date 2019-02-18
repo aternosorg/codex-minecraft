@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Analyser;
 
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\AuthMeShutdownProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\PermissionsExConfigProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem;
@@ -28,5 +29,6 @@ class BukkitAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(PluginDisablingProblem::class);
 
         $this->addPossibleInsightClass(AuthMeShutdownProblem::class);
+        $this->addPossibleInsightClass(PermissionsExConfigProblem::class);
     }
 }

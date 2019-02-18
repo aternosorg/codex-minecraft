@@ -10564,7 +10564,34 @@ org.bukkit.plugin.UnknownDependencyException: Languagy
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\AuthMeShutdownProblem Object
                 (
-                    [solutions:protected] => 
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\Plugin\AuthMeShutdownSolution Object
+                                (
+                                    [path:protected] => plugins/AuthMe/config.yml
+                                    [relativePath:protected] => 1
+                                    [pattern:protected] => /^(\s+)stopServer\: true$/
+                                    [replacement:protected] => $1stopServer: false
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginConfigureSolution Object
+                                (
+                                    [suggestedFile:protected] => plugins/AuthMe/config.yml
+                                    [pluginName:protected] => AuthMe
+                                )
+
+                            [2] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
+                                (
+                                    [pluginName:protected] => AuthMe
+                                )
+
+                            [3] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution Object
+                                (
+                                    [pluginName:protected] => AuthMe
+                                )
+
+                        )
+
                     [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
