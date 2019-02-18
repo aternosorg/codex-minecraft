@@ -32,7 +32,7 @@ class ModExceptionProblem extends ModProblem
     public static function getPatterns(): array
     {
         return [
-            '/Caught exception from (\w+)/'
+            '/Caught exception from ([^\(\n]+)/'
         ];
     }
 
@@ -45,7 +45,7 @@ class ModExceptionProblem extends ModProblem
      */
     public function setMatches(array $matches, $patternKey)
     {
-        $this->modName = $matches[1];
+        $this->modName = trim($matches[1]);
 
         $this->addSolution((new ModInstallDifferentVersionSolution())->setModName($this->getModName()));
         $this->addSolution((new ModRemoveSolution())->setModName($this->getModName()));

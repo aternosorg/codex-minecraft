@@ -4518,31 +4518,13 @@ class ForgeModExceptionTest extends PHPUnit\Framework\TestCase
 
             [233] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [Forge/Forge]:
+                    [prefix:protected] => [13:17:36] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+                                    [text:protected] => [13:17:36] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Just Enough Items took 0.000s
                                     [number:protected] => 285
-                                )
-
-                        )
-
-                    [level:protected] => TRACE
-                    [time:protected] => 
-                    [iterator:protected] => 0
-                )
-
-            [234] => Aternos\Codex\Minecraft\Log\Entry Object
-                (
-                    [prefix:protected] => [22:50:33] [Server thread/DEBUG] [FML/]:
-                    [lines:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Log\Line Object
-                                (
-                                    [text:protected] => [22:50:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.001s
-                                    [number:protected] => 286
                                 )
 
                         )
@@ -4552,14 +4534,32 @@ class ForgeModExceptionTest extends PHPUnit\Framework\TestCase
                     [iterator:protected] => 0
                 )
 
-            [235] => Aternos\Codex\Minecraft\Log\Entry Object
+            [234] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [IC2/IC2]:
+                    [prefix:protected] => [13:17:36] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerStoppedEvent to mod IC2
+                                    [text:protected] => [13:17:36] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod botania
+                                    [number:protected] => 286
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [235] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/TRACE] [FML]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod botania
                                     [number:protected] => 287
                                 )
 
@@ -4572,31 +4572,13 @@ class ForgeModExceptionTest extends PHPUnit\Framework\TestCase
 
             [236] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [IC2/IC2]:
+                    [prefix:protected] => [13:17:36] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerStoppedEvent to mod IC2
+                                    [text:protected] => [13:17:36] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Botania took 0.003s
                                     [number:protected] => 288
-                                )
-
-                        )
-
-                    [level:protected] => TRACE
-                    [time:protected] => 
-                    [iterator:protected] => 0
-                )
-
-            [237] => Aternos\Codex\Minecraft\Log\Entry Object
-                (
-                    [prefix:protected] => [22:50:33] [Server thread/DEBUG] [FML/]:
-                    [lines:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Log\Line Object
-                                (
-                                    [text:protected] => [22:50:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - IndustrialCraft 2 Classic took 0.001s
-                                    [number:protected] => 289
                                 )
 
                         )
@@ -4606,14 +4588,32 @@ class ForgeModExceptionTest extends PHPUnit\Framework\TestCase
                     [iterator:protected] => 0
                 )
 
-            [238] => Aternos\Codex\Minecraft\Log\Entry Object
+            [237] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [IC2-Classic-Spmod/IC2-Classic-Spmod]:
+                    [prefix:protected] => [13:17:36] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/TRACE] [IC2-Classic-Spmod/IC2-Classic-Spmod]: Sending event FMLServerStoppedEvent to mod IC2-Classic-Spmod
+                                    [text:protected] => [13:17:36] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod car
+                                    [number:protected] => 289
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [238] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/TRACE] [FML]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod car
                                     [number:protected] => 290
                                 )
 
@@ -4626,31 +4626,13 @@ class ForgeModExceptionTest extends PHPUnit\Framework\TestCase
 
             [239] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [IC2-Classic-Spmod/IC2-Classic-Spmod]:
+                    [prefix:protected] => [13:17:36] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/TRACE] [IC2-Classic-Spmod/IC2-Classic-Spmod]: Sent event FMLServerStoppedEvent to mod IC2-Classic-Spmod
+                                    [text:protected] => [13:17:36] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Ultimate Car Mod took 0.000s
                                     [number:protected] => 291
-                                )
-
-                        )
-
-                    [level:protected] => TRACE
-                    [time:protected] => 
-                    [iterator:protected] => 0
-                )
-
-            [240] => Aternos\Codex\Minecraft\Log\Entry Object
-                (
-                    [prefix:protected] => [22:50:33] [Server thread/DEBUG] [FML/]:
-                    [lines:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Log\Line Object
-                                (
-                                    [text:protected] => [22:50:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - IC2 Classic Detection Helper took 0.002s
-                                    [number:protected] => 292
                                 )
 
                         )
@@ -4660,14 +4642,32 @@ class ForgeModExceptionTest extends PHPUnit\Framework\TestCase
                     [iterator:protected] => 0
                 )
 
-            [241] => Aternos\Codex\Minecraft\Log\Entry Object
+            [240] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [IronChest/IronChest]:
+                    [prefix:protected] => [13:17:36] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLServerStoppedEvent to mod IronChest
+                                    [text:protected] => [13:17:36] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod codechickenlib
+                                    [number:protected] => 292
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [241] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/TRACE] [FML]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod codechickenlib
                                     [number:protected] => 293
                                 )
 
@@ -4680,31 +4680,13 @@ class ForgeModExceptionTest extends PHPUnit\Framework\TestCase
 
             [242] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [IronChest/IronChest]:
+                    [prefix:protected] => [13:17:36] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLServerStoppedEvent to mod IronChest
+                                    [text:protected] => [13:17:36] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - CodeChicken Lib took 0.000s
                                     [number:protected] => 294
-                                )
-
-                        )
-
-                    [level:protected] => TRACE
-                    [time:protected] => 
-                    [iterator:protected] => 0
-                )
-
-            [243] => Aternos\Codex\Minecraft\Log\Entry Object
-                (
-                    [prefix:protected] => [22:50:33] [Server thread/DEBUG] [FML/]:
-                    [lines:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Log\Line Object
-                                (
-                                    [text:protected] => [22:50:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Iron Chest took 0.001s
-                                    [number:protected] => 295
                                 )
 
                         )
@@ -4714,14 +4696,32 @@ class ForgeModExceptionTest extends PHPUnit\Framework\TestCase
                     [iterator:protected] => 0
                 )
 
-            [244] => Aternos\Codex\Minecraft\Log\Entry Object
+            [243] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [TwilightForest/TwilightForest]:
+                    [prefix:protected] => [13:17:36] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/TRACE] [TwilightForest/TwilightForest]: Sending event FMLServerStoppedEvent to mod TwilightForest
+                                    [text:protected] => [13:17:36] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod cdm
+                                    [number:protected] => 295
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [244] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/TRACE] [FML]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod cdm
                                     [number:protected] => 296
                                 )
 
@@ -4734,120 +4734,120 @@ class ForgeModExceptionTest extends PHPUnit\Framework\TestCase
 
             [245] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [TwilightForest/TwilightForest]:
+                    [prefix:protected] => [13:17:36] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/TRACE] [TwilightForest/TwilightForest]: Sent event FMLServerStoppedEvent to mod TwilightForest
+                                    [text:protected] => [13:17:36] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - MrCrayfish\'s Device Mod took 0.000s
                                     [number:protected] => 297
                                 )
 
                         )
 
-                    [level:protected] => TRACE
+                    [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [246] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/DEBUG] [FML/]:
+                    [prefix:protected] => [13:17:36] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - The Twilight Forest took 0.001s
+                                    [text:protected] => [13:17:36] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod discordchat
                                     [number:protected] => 298
                                 )
 
                         )
 
-                    [level:protected] => DEBUG
+                    [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [247] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [xaerominimap/xaerominimap]:
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/TRACE] [xaerominimap/xaerominimap]: Sending event FMLServerStoppedEvent to mod xaerominimap
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Discord Chat (discordchat)
                                     [number:protected] => 299
                                 )
 
                         )
 
-                    [level:protected] => TRACE
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [248] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [xaerominimap/xaerominimap]:
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/TRACE] [xaerominimap/xaerominimap]: Sent event FMLServerStoppedEvent to mod xaerominimap
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: Caused by: java.lang.NullPointerException
                                     [number:protected] => 300
                                 )
 
                         )
 
-                    [level:protected] => TRACE
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [249] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/DEBUG] [FML/]:
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Xaero\'s Minimap took 0.002s
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.shadowfacts.discordchat.one_twelve_two.OneTwelveTwoMod.serverStopped(OneTwelveTwoMod.java:53)
                                     [number:protected] => 301
                                 )
 
                         )
 
-                    [level:protected] => DEBUG
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [250] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/DEBUG] [FML/]:
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.011s
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
                                     [number:protected] => 302
                                 )
 
                         )
 
-                    [level:protected] => DEBUG
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [251] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:50:33] [Server thread/INFO] [FML/]:
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [22:50:33] [Server thread/INFO] [FML/]: The state engine was in incorrect state ERRORED and forced into state SERVER_STOPPED. Errors may have been discarded.
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
                                     [number:protected] => 303
                                 )
 
@@ -4860,13 +4860,913 @@ class ForgeModExceptionTest extends PHPUnit\Framework\TestCase
 
             [252] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                                    [number:protected] => 304
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [253] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at java.lang.reflect.Method.invoke(Method.java:498)
+                                    [number:protected] => 305
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [254] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:624)
+                                    [number:protected] => 306
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [255] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+                                    [number:protected] => 307
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [256] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                                    [number:protected] => 308
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [257] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at java.lang.reflect.Method.invoke(Method.java:498)
+                                    [number:protected] => 309
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [258] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+                                    [number:protected] => 310
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [259] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+                                    [number:protected] => 311
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [260] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+                                    [number:protected] => 312
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [261] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+                                    [number:protected] => 313
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [262] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+                                    [number:protected] => 314
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [263] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+                                    [number:protected] => 315
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [264] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+                                    [number:protected] => 316
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [265] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+                                    [number:protected] => 317
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [266] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+                                    [number:protected] => 318
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [267] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                                    [number:protected] => 319
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [268] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                                    [number:protected] => 320
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [269] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                                    [number:protected] => 321
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [270] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at java.lang.reflect.Method.invoke(Method.java:498)
+                                    [number:protected] => 322
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [271] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+                                    [number:protected] => 323
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [272] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+                                    [number:protected] => 324
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [273] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+                                    [number:protected] => 325
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [274] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+                                    [number:protected] => 326
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [275] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+                                    [number:protected] => 327
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [276] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+                                    [number:protected] => 328
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [277] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+                                    [number:protected] => 329
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [278] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+                                    [number:protected] => 330
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [279] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.Loader.serverStopped(Loader.java:847)
+                                    [number:protected] => 331
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [280] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.FMLCommonHandler.handleServerStopped(FMLCommonHandler.java:508)
+                                    [number:protected] => 332
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [281] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:587)
+                                    [number:protected] => 333
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [282] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at java.lang.Thread.run(Thread.java:748)
+                                    [number:protected] => 334
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [283] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [Forge/Forge]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+                                    [number:protected] => 335
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [284] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/DEBUG] [FML/]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.001s
+                                    [number:protected] => 336
+                                )
+
+                        )
+
+                    [level:protected] => DEBUG
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [285] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [IC2/IC2]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerStoppedEvent to mod IC2
+                                    [number:protected] => 337
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [286] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [IC2/IC2]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerStoppedEvent to mod IC2
+                                    [number:protected] => 338
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [287] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/DEBUG] [FML/]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - IndustrialCraft 2 Classic took 0.001s
+                                    [number:protected] => 339
+                                )
+
+                        )
+
+                    [level:protected] => DEBUG
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [288] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [IC2-Classic-Spmod/IC2-Classic-Spmod]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/TRACE] [IC2-Classic-Spmod/IC2-Classic-Spmod]: Sending event FMLServerStoppedEvent to mod IC2-Classic-Spmod
+                                    [number:protected] => 340
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [289] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [IC2-Classic-Spmod/IC2-Classic-Spmod]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/TRACE] [IC2-Classic-Spmod/IC2-Classic-Spmod]: Sent event FMLServerStoppedEvent to mod IC2-Classic-Spmod
+                                    [number:protected] => 341
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [290] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/DEBUG] [FML/]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - IC2 Classic Detection Helper took 0.002s
+                                    [number:protected] => 342
+                                )
+
+                        )
+
+                    [level:protected] => DEBUG
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [291] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [IronChest/IronChest]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLServerStoppedEvent to mod IronChest
+                                    [number:protected] => 343
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [292] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [IronChest/IronChest]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLServerStoppedEvent to mod IronChest
+                                    [number:protected] => 344
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [293] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/DEBUG] [FML/]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Iron Chest took 0.001s
+                                    [number:protected] => 345
+                                )
+
+                        )
+
+                    [level:protected] => DEBUG
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [294] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [TwilightForest/TwilightForest]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/TRACE] [TwilightForest/TwilightForest]: Sending event FMLServerStoppedEvent to mod TwilightForest
+                                    [number:protected] => 346
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [295] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [TwilightForest/TwilightForest]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/TRACE] [TwilightForest/TwilightForest]: Sent event FMLServerStoppedEvent to mod TwilightForest
+                                    [number:protected] => 347
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [296] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/DEBUG] [FML/]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - The Twilight Forest took 0.001s
+                                    [number:protected] => 348
+                                )
+
+                        )
+
+                    [level:protected] => DEBUG
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [297] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [xaerominimap/xaerominimap]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/TRACE] [xaerominimap/xaerominimap]: Sending event FMLServerStoppedEvent to mod xaerominimap
+                                    [number:protected] => 349
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [298] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/TRACE] [xaerominimap/xaerominimap]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/TRACE] [xaerominimap/xaerominimap]: Sent event FMLServerStoppedEvent to mod xaerominimap
+                                    [number:protected] => 350
+                                )
+
+                        )
+
+                    [level:protected] => TRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [299] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/DEBUG] [FML/]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Xaero\'s Minimap took 0.002s
+                                    [number:protected] => 351
+                                )
+
+                        )
+
+                    [level:protected] => DEBUG
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [300] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/DEBUG] [FML/]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.011s
+                                    [number:protected] => 352
+                                )
+
+                        )
+
+                    [level:protected] => DEBUG
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [301] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [22:50:33] [Server thread/INFO] [FML/]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [22:50:33] [Server thread/INFO] [FML/]: The state engine was in incorrect state ERRORED and forced into state SERVER_STOPPED. Errors may have been discarded.
+                                    [number:protected] => 353
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [302] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
                     [prefix:protected] => [22:50:33] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
                                     [text:protected] => [22:50:33] [Server thread/INFO] [FML/]: The state engine was in incorrect state ERRORED and forced into state AVAILABLE. Errors may have been discarded.
-                                    [number:protected] => 304
+                                    [number:protected] => 354
                                 )
 
                         )
@@ -4878,7 +5778,7 @@ class ForgeModExceptionTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 253
+    [iterator:protected] => 303
     [logFile:protected] => Aternos\Codex\Log\File\PathLogFile Object
         (
             [content:protected] => [22:50:06] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
@@ -5165,6 +6065,56 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
 [22:50:33] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
 [22:50:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.003s
 [22:50:33] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[13:17:36] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Just Enough Items took 0.000s
+[13:17:36] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod botania
+[13:17:36] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod botania
+[13:17:36] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Botania took 0.003s
+[13:17:36] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod car
+[13:17:36] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod car
+[13:17:36] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Ultimate Car Mod took 0.000s
+[13:17:36] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod codechickenlib
+[13:17:36] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod codechickenlib
+[13:17:36] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - CodeChicken Lib took 0.000s
+[13:17:36] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod cdm
+[13:17:36] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod cdm
+[13:17:36] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - MrCrayfish\'s Device Mod took 0.000s
+[13:17:36] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod discordchat
+[13:17:36] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Discord Chat (discordchat)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: Caused by: java.lang.NullPointerException
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.shadowfacts.discordchat.one_twelve_two.OneTwelveTwoMod.serverStopped(OneTwelveTwoMod.java:53)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at java.lang.reflect.Method.invoke(Method.java:498)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:624)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at java.lang.reflect.Method.invoke(Method.java:498)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at java.lang.reflect.Method.invoke(Method.java:498)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.Loader.serverStopped(Loader.java:847)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.FMLCommonHandler.handleServerStopped(FMLCommonHandler.java:508)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:587)
+[13:17:36] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at java.lang.Thread.run(Thread.java:748)
 [22:50:33] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
 [22:50:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.001s
 [22:50:33] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerStoppedEvent to mod IC2
@@ -5607,9 +6557,48 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModExceptionProblem Object
+                (
+                    [modName:protected] => Discord Chat
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallDifferentVersionSolution Object
+                                (
+                                    [modName:protected] => Discord Chat
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModRemoveSolution Object
+                                (
+                                    [modName:protected] => Discord Chat
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [13:17:36] [Server thread/INFO] [STDERR]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [13:17:36] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Discord Chat (discordchat)
+                                            [number:protected] => 299
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
         )
 
-    [iterator:protected] => 2
+    [iterator:protected] => 3
 )
 ';
         
