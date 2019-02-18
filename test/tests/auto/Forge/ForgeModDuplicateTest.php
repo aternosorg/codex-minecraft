@@ -5941,7 +5941,32 @@ class ForgeModDuplicateTest extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDuplicateProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+                (
+                    [label:protected] => Forge version
+                    [value:protected] => 10.13.4.1614
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [22:32:38] [Server thread/INFO] [FML/]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [22:32:38] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+                                            [number:protected] => 168
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDuplicateProblem Object
                 (
                     [firstModPath:protected] => /aternos/server/mods/1.7.10/Baubles-1.7.10-1.0.1.10.jar
                     [secondModPath:protected] => /aternos/server/mods/Baubles-1.7.10-1.0.1.10.jar
@@ -5986,7 +6011,7 @@ class ForgeModDuplicateTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         

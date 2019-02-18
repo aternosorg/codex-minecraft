@@ -1251,7 +1251,32 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                     [counter:protected] => 1
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+                (
+                    [label:protected] => Forge version
+                    [value:protected] => 14.23.5.2814
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [00:05:11] [Server thread/INFO] [FML]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [00:05:11] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2814 Initialized
+                                            [number:protected] => 7
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [dependencyMods:protected] => Array
                         (
@@ -1291,7 +1316,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                     [counter:protected] => 1
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [dependencyMods:protected] => Array
                         (
@@ -1331,7 +1356,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                     [counter:protected] => 1
                 )
 
-            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [dependencyMods:protected] => Array
                         (
@@ -1371,7 +1396,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                     [counter:protected] => 1
                 )
 
-            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [5] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [dependencyMods:protected] => Array
                         (
@@ -1411,7 +1436,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                     [counter:protected] => 1
                 )
 
-            [5] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [6] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [dependencyMods:protected] => Array
                         (
@@ -1451,7 +1476,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                     [counter:protected] => 1
                 )
 
-            [6] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [7] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [dependencyMods:protected] => Array
                         (
@@ -1491,7 +1516,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                     [counter:protected] => 1
                 )
 
-            [7] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [8] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [dependencyMods:protected] => Array
                         (
@@ -1531,7 +1556,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                     [counter:protected] => 1
                 )
 
-            [8] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [9] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [dependencyMods:protected] => Array
                         (
@@ -1571,7 +1596,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                     [counter:protected] => 1
                 )
 
-            [9] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [10] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [dependencyMods:protected] => Array
                         (
@@ -1618,7 +1643,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                     [counter:protected] => 1
                 )
 
-            [10] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [11] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [dependencyMods:protected] => Array
                         (
@@ -1660,7 +1685,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
 
         )
 
-    [iterator:protected] => 10
+    [iterator:protected] => 11
 )
 ';
         

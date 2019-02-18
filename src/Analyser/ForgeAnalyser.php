@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analyser;
 
+use Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\FmlConfirmProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDuplicateProblem;
@@ -20,6 +21,8 @@ class ForgeAnalyser extends VanillaAnalyser
     public function __construct()
     {
         parent::__construct();
+        $this->addPossibleInsightClass(ForgeVersionInformation::class);
+
         $this->addPossibleInsightClass(FmlConfirmProblem::class);
         $this->addPossibleInsightClass(WorldMissingModProblem::class);
         $this->addPossibleInsightClass(WorldModVersionProblem::class);

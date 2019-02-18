@@ -1518,9 +1518,34 @@ class ForgeStart1122Test extends PHPUnit\Framework\TestCase
                     [counter:protected] => 1
                 )
 
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+                (
+                    [label:protected] => Forge version
+                    [value:protected] => 14.23.5.2814
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [00:37:06] [Server thread/INFO] [FML]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [00:37:06] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2814 Initialized
+                                            [number:protected] => 8
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         

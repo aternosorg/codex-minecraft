@@ -2392,7 +2392,32 @@ class ForgeWorldModVersionTest extends PHPUnit\Framework\TestCase
                     [counter:protected] => 1
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldModVersionProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+                (
+                    [label:protected] => Forge version
+                    [value:protected] => 14.23.5.2811
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [16:48:57] [Server thread/INFO] [FML]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [16:48:57] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2811 Initialized
+                                            [number:protected] => 19
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldModVersionProblem Object
                 (
                     [currentVersion:protected] => 0.11.1
                     [expectedVersion:protected] => 0.13.0
@@ -2431,7 +2456,7 @@ class ForgeWorldModVersionTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 1
+    [iterator:protected] => 2
 )
 ';
         

@@ -6494,7 +6494,32 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldModVersionProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+                (
+                    [label:protected] => Forge version
+                    [value:protected] => 11.15.1.2318
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [21:33:19] [Server thread/INFO] [FML/]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [21:33:19] [Server thread/INFO] [FML/]: MinecraftForge v11.15.1.2318 Initialized
+                                            [number:protected] => 59
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldModVersionProblem Object
                 (
                     [currentVersion:protected] => 9.19
                     [expectedVersion:protected] => 9.42
@@ -6531,7 +6556,7 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [counter:protected] => 1
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldMissingModProblem Object
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldMissingModProblem Object
                 (
                     [modName:protected] => lucraftcore
                     [solutions:protected] => Array
@@ -6568,7 +6593,7 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 1
+    [iterator:protected] => 2
 )
 ';
         

@@ -5194,7 +5194,32 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModFatalProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+                (
+                    [label:protected] => Forge version
+                    [value:protected] => 10.13.4.1614
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [22:50:26] [Server thread/INFO] [FML/]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [22:50:26] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+                                            [number:protected] => 55
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModFatalProblem Object
                 (
                     [modFileName:protected] => Xaeros_Minimap_1.16_Forge_1.7.10.jar
                     [modVersion:protected] => 1.16
@@ -5291,7 +5316,7 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModExceptionProblem Object
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModExceptionProblem Object
                 (
                     [modName:protected] => xaerominimap
                     [solutions:protected] => Array
@@ -5584,7 +5609,7 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
 
         )
 
-    [iterator:protected] => 1
+    [iterator:protected] => 2
 )
 ';
         
