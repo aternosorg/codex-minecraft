@@ -6,12 +6,17 @@ use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\BukkitAnalyser;
 
 /**
- * Class OldBukkitLog
+ * Class OldCraftBukkitLog
  *
  * @package Aternos\Codex\Minecraft\Log
  */
-class OldBukkitLog extends OldVanillaLog
+class OldCraftBukkitLog extends OldVanillaLog
 {
+    /**
+     * @var string
+     */
+    protected static $logIdentifier = "CraftBukkit version git\-Bukkit";
+
     /**
      * @return BukkitAnalyser
      */
@@ -26,7 +31,7 @@ class OldBukkitLog extends OldVanillaLog
     public static function getDetectors()
     {
         return array_merge(parent::getDetectors(), [
-            (new SinglePatternDetector())->setPattern('/' . static::$prefixPattern . 'This server is running CraftBukkit version/')
+            (new SinglePatternDetector())->setPattern('/' . static::$prefixPattern . 'This server is running ' . static::$logIdentifier . '/')
         ]);
     }
 }

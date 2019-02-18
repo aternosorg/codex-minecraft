@@ -12,7 +12,7 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
         $log->parse();
         $analysis = $log->analyse();
         
-        $expectedLog = 'Aternos\Codex\Minecraft\Log\OldBukkitLog Object
+        $expectedLog = 'Aternos\Codex\Minecraft\Log\OldCraftBukkitLog Object
 (
     [entries:protected] => Array
         (
