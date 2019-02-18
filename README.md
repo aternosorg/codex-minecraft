@@ -56,8 +56,7 @@ $log = $detective->detect();
 ```php
 <?php
 
-$detective = new \Aternos\Codex\Minecraft\Detective\Detective();
-$log = $detective->detect();
+$log->parse();
 ```
 
 ### Analyse the log
