@@ -13,6 +13,11 @@ use Aternos\Codex\Minecraft\Analyser\ForgeAnalyser;
 class ForgeLog extends VanillaLog
 {
     /**
+     * @var string
+     */
+    protected static $pattern = '/^(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?\:).*$/';
+
+    /**
      * @return array
      */
     public static function getDetectors()

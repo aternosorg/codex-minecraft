@@ -14,7 +14,7 @@ class VanillaLog extends ServerLog
     /**
      * @var string
      */
-    protected static $pattern = '/^(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?\:).*$/';
+    protected static $pattern = '/^(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\]\:).*$/';
 
     /**
      * @return VanillaAnalyser
