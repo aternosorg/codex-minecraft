@@ -13,4 +13,14 @@ class PaperLog extends SpigotLog
      * @var string
      */
     protected static $logIdentifier = "Paper version git\-Paper";
+
+    /**
+     * Get the name of the used server software
+     *
+     * @return string
+     */
+    public function getServerSoftware(): string
+    {
+        return "Paper";
+    }
 }

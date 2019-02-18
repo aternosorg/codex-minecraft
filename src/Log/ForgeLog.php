@@ -34,4 +34,14 @@ class ForgeLog extends VanillaLog
     {
         return new ForgeAnalyser();
     }
+
+    /**
+     * Get the name of the used server software
+     *
+     * @return string
+     */
+    public function getServerSoftware(): string
+    {
+        return "Forge";
+    }
 }

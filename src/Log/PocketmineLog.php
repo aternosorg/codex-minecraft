@@ -48,4 +48,14 @@ class PocketmineLog extends MinecraftServerLog
     {
         return new PocketmineAnalyser();
     }
+
+    /**
+     * Get the name of the used server software
+     *
+     * @return string
+     */
+    public function getServerSoftware(): string
+    {
+        return "Pocketmine";
+    }
 }

@@ -25,4 +25,14 @@ class CraftBukkitLog extends BukkitLog
             (new SinglePatternDetector())->setPattern('/' . static::$prefixPattern . 'This server is running ' . static::$logIdentifier . '/')
         ]);
     }
+
+    /**
+     * Get the name of the used server software
+     *
+     * @return string
+     */
+    public function getServerSoftware(): string
+    {
+        return "CraftBukkit";
+    }
 }

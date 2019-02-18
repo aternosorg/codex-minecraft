@@ -32,4 +32,14 @@ class OldVanillaLog extends VanillaLog
             ->setTimeFormat('Y-m-d H:i:s')
             ->setMatches([Parser::PREFIX, Parser::TIME, Parser::LEVEL]);
     }
+
+    /**
+     * Get the name of the used server software
+     *
+     * @return string
+     */
+    public function getServerSoftware(): string
+    {
+        return "Vanilla";
+    }
 }

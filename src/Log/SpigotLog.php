@@ -13,4 +13,14 @@ class SpigotLog extends CraftBukkitLog
      * @var string
      */
     protected static $logIdentifier = "CraftBukkit version git\-Spigot";
+
+    /**
+     * Get the name of the used server software
+     *
+     * @return string
+     */
+    public function getServerSoftware(): string
+    {
+        return "Spigot";
+    }
 }
