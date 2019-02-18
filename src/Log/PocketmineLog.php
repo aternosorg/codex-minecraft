@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Log;
 
 use Aternos\Codex\Detective\SinglePatternDetector;
+use Aternos\Codex\Minecraft\Analyser\PocketmineAnalyser;
 use Aternos\Codex\Minecraft\Parser\Parser;
 use Aternos\Codex\Parser\ParserInterface;
 
@@ -38,5 +39,13 @@ class PocketmineLog extends Log
         return array_merge(parent::getDetectors(), [
             (new SinglePatternDetector())->setPattern('/This server is running PocketMine-MP version/')
         ]);
+    }
+
+    /**
+     * @return PocketmineAnalyser
+     */
+    public static function getDefaultAnalyser()
+    {
+        return new PocketmineAnalyser();
     }
 }

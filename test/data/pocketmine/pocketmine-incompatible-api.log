@@ -1,0 +1,46 @@
+2019-02-12 [21:30:25] [Server thread/INFO]: Loading pocketmine.yml...
+2019-02-12 [21:30:25] [Server thread/INFO]: Loading server properties...
+2019-02-12 [21:30:25] [Server thread/INFO]: Selected English (eng) as the base language
+2019-02-12 [21:30:25] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.9.0
+2019-02-12 [21:30:25] [Server thread/NOTICE]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2019-02-12 [21:30:25] [Server thread/NOTICE]: To disable authentication, set "xbox-auth" to "false" in server.properties.
+2019-02-12 [21:30:25] [Server thread/INFO]: Opening server on **.**.**.**:16166
+2019-02-12 [21:30:25] [Server thread/INFO]: This server is running PocketMine-MP version 3.6.1
+2019-02-12 [21:30:25] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2019-02-12 [21:30:25] [Server thread/INFO]: Loading resource packs...
+2019-02-12 [21:30:25] [Server thread/ERROR]: Could not load plugin 'EconomyJob': Incompatible API version (plugin requires one of: 3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11)
+2019-02-12 [21:30:25] [Server thread/ERROR]: Could not load plugin 'CustomAlerts': Incompatible API version (plugin requires one of: 3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10)
+2019-02-12 [21:30:25] [Server thread/INFO]: Loading KitUI v1.3.1
+2019-02-12 [21:30:25] [Server thread/INFO]: Loading essentialsTP v1.2.1
+2019-02-12 [21:30:25] [Server thread/INFO]: Loading MysteryCrate v8.0.0
+2019-02-12 [21:30:25] [Server thread/INFO]: [MysteryCrate] Checking for updates...
+2019-02-12 [21:30:25] [Server thread/INFO]: Loading BuilderTools v1.1.0
+2019-02-12 [21:30:25] [Server thread/INFO]: Loading EasyTeleporter v1.1.0
+2019-02-12 [21:30:25] [Server thread/INFO]: Loading GMPermissions v1.2.6
+2019-02-12 [21:30:25] [Server thread/INFO]: Loading FactionsProBeta v1.4.6
+2019-02-12 [21:30:25] [Server thread/NOTICE]: Level "world" not found
+2019-02-12 [21:30:25] [Server thread/INFO]: Preparing level "world"
+2019-02-12 [21:30:25] [Server thread/NOTICE]: Spawn terrain for level "world" is being generated in the background
+2019-02-12 [21:30:25] [Server thread/INFO]: Enabling KitUI v1.3.1
+2019-02-12 [21:30:25] [Server thread/NOTICE]: [KitUI] Enabled! - By Infernus101
+2019-02-12 [21:30:25] [Server thread/INFO]: Enabling essentialsTP v1.2.1
+2019-02-12 [21:30:25] [Server thread/INFO]: [essentialsTP] essentialsTP+ loading...
+2019-02-12 [21:30:25] [Server thread/INFO]: [essentialsTP] essentialsTP+ Homes database created!
+2019-02-12 [21:30:25] [Server thread/INFO]: [essentialsTP] essentialsTP+ request database created!
+2019-02-12 [21:30:25] [Server thread/INFO]: [essentialsTP] essentialsTP+ warps database created!
+2019-02-12 [21:30:25] [Server thread/INFO]: [essentialsTP] essentialsTP+ Spawns database created!
+2019-02-12 [21:30:25] [Server thread/INFO]: [essentialsTP] essentialsTP+ cooldown database created!
+2019-02-12 [21:30:25] [Server thread/INFO]: [essentialsTP] [INFO] loading [config.yml]....
+2019-02-12 [21:30:25] [Server thread/INFO]: [essentialsTP] [INFO] loading [config.yml] DONE
+2019-02-12 [21:30:25] [Server thread/INFO]: [essentialsTP] essentialsTP+ loaded!
+2019-02-12 [21:30:25] [Server thread/INFO]: Enabling MysteryCrate v8.0.0
+2019-02-12 [21:30:25] [Server thread/INFO]: [MysteryCrate] Plugin Enabled.
+2019-02-12 [21:30:25] [Server thread/INFO]: Enabling BuilderTools v1.1.0
+2019-02-12 [21:30:25] [Server thread/INFO]: Enabling EasyTeleporter v1.1.0
+2019-02-12 [21:30:25] [Server thread/INFO]: Enabling GMPermissions v1.2.6
+2019-02-12 [21:30:25] [Server thread/INFO]: Enabling FactionsProBeta v1.4.6
+2019-02-12 [21:30:26] [Server thread/INFO]: Starting GS4 status listener
+2019-02-12 [21:30:26] [Server thread/INFO]: Setting query port to 16166
+2019-02-12 [21:30:26] [Server thread/INFO]: Query running on **.**.**.**:16166
+2019-02-12 [21:30:26] [Server thread/INFO]: Default game type: Survival Mode
+2019-02-12 [21:30:26] [Server thread/INFO]: Done (1.139s)! For help, type "help" or "?"
