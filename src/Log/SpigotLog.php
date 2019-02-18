@@ -2,22 +2,15 @@
 
 namespace Aternos\Codex\Minecraft\Log;
 
-use Aternos\Codex\Detective\SinglePatternDetector;
-
 /**
  * Class SpigotLog
  *
  * @package Aternos\Codex\Minecraft\Log
  */
-class SpigotLog extends BukkitLog
+class SpigotLog extends CraftBukkitLog
 {
     /**
-     * @return array
+     * @var string
      */
-    public static function getDetectors()
-    {
-        return array_merge(parent::getDetectors(), [
-            (new SinglePatternDetector())->setPattern('/'. self::$prefixPattern .'This server is running CraftBukkit version git\-Spigot/')
-        ]);
-    }
+    protected static $logIdentifier = "CraftBukkit version git\-Spigot";
 }

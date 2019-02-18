@@ -10,7 +10,7 @@ use Aternos\Codex\Parser\ParserInterface;
  *
  * @package Aternos\Codex\Minecraft\Log
  */
-class BedrockLog extends MinecraftLog
+class BedrockLog extends MinecraftServerLog
 {
     protected static $pattern = '/^(\[((?:[0-9]{2,4}-?){3} (?:[0-9]{2}\:?){3}) (\w+)\]).*$/';
 

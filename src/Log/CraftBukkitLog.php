@@ -12,12 +12,17 @@ use Aternos\Codex\Detective\SinglePatternDetector;
 class CraftBukkitLog extends BukkitLog
 {
     /**
+     * @var string
+     */
+    protected static $logIdentifier = "CraftBukkit version git\-Bukkit";
+
+    /**
      * @return array
      */
     public static function getDetectors()
     {
         return array_merge(parent::getDetectors(), [
-            (new SinglePatternDetector())->setPattern('/'. static::$prefixPattern .'This server is running CraftBukkit version git\-Bukkit/')
+            (new SinglePatternDetector())->setPattern('/' . static::$prefixPattern . 'This server is running ' . static::$logIdentifier . '/')
         ]);
     }
 }

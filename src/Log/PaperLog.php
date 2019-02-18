@@ -2,22 +2,15 @@
 
 namespace Aternos\Codex\Minecraft\Log;
 
-use Aternos\Codex\Detective\SinglePatternDetector;
-
 /**
  * Class PaperLog
  *
  * @package Aternos\Codex\Minecraft\Log
  */
-class PaperLog extends BukkitLog
+class PaperLog extends SpigotLog
 {
     /**
-     * @return array
+     * @var string
      */
-    public static function getDetectors()
-    {
-        return array_merge(parent::getDetectors(), [
-            (new SinglePatternDetector())->setPattern('/' . static::$prefixPattern . 'This server is running Paper version git\-Paper/')
-        ]);
-    }
+    protected static $logIdentifier = "Paper version git\-Paper";
 }
