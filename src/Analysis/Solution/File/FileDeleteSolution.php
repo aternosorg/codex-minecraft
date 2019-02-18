@@ -18,6 +18,6 @@ class FileDeleteSolution extends FileSolution implements AutomatableSolutionInte
      */
     public function getMessage(): string
     {
-        return "Delete '" . $this->getPath() . "' in the server directory.";
+        return "Delete the file '" . $this->getPath() . "'.";
     }
 }

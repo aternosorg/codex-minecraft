@@ -7,13 +7,8 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Bukkit;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Solution\Bukkit
  */
-class PluginRemoveSolution extends BukkitSolution
+class PluginRemoveSolution extends PluginSolution
 {
-    /**
-     * @var string
-     */
-    protected $pluginName;
-
     /**
      * Get the solution as a human readable message
      *
@@ -22,23 +17,5 @@ class PluginRemoveSolution extends BukkitSolution
     public function getMessage(): string
     {
         return "Remove the plugin '" . $this->getPluginName() . "'.";
-    }
-
-    /**
-     * @return string
-     */
-    public function getPluginName(): string
-    {
-        return $this->pluginName;
-    }
-
-    /**
-     * @param string $pluginName
-     * @return $this
-     */
-    public function setPluginName(string $pluginName)
-    {
-        $this->pluginName = $pluginName;
-        return $this;
     }
 }
