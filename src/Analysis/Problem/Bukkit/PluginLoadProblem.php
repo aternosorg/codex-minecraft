@@ -52,7 +52,7 @@ class PluginLoadProblem extends PluginProblem
         $this->pluginName = $matches[2];
 
         $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
-        $this->addSolution((new FileDeleteSolution())->setPath($this->getPluginPath()));
+        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginPath()));
     }
 
     /**

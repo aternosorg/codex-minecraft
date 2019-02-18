@@ -356,6 +356,7 @@ Caused by: java.lang.NullPointerException
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
                                 (
                                     [path:protected] => plugins/GamenixText.jar
+                                    [relativePath:protected] => 1
                                 )
 
                         )

@@ -268,11 +268,13 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
                                 (
                                     [path:protected] => plugins/worldedit-bukkit-7.0.0-beta-05.jar
+                                    [relativePath:protected] => 1
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
                                 (
                                     [path:protected] => plugins/worldedit-bukkit-7.0.0-beta-01.jar
+                                    [relativePath:protected] => 1
                                 )
 
                         )

@@ -18,97 +18,61 @@ class ForgeConfirmTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:37:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
-                    [lines:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Log\Line Object
-                                (
-                                    [text:protected] => [00:37:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-                                    [number:protected] => 1
-                                )
-
-                        )
-
-                    [level:protected] => INFO
-                    [time:protected] => 
-                    [iterator:protected] => 0
-                )
-
-            [1] => Aternos\Codex\Minecraft\Log\Entry Object
-                (
-                    [prefix:protected] => [00:37:06] [Server thread/INFO] [FML]:
-                    [lines:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Log\Line Object
-                                (
-                                    [text:protected] => [00:37:06] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2814 Initialized
-                                    [number:protected] => 2
-                                )
-
-                        )
-
-                    [level:protected] => INFO
-                    [time:protected] => 
-                    [iterator:protected] => 0
-                )
-
-            [2] => Aternos\Codex\Minecraft\Log\Entry Object
-                (
                     [prefix:protected] => [13:31:32] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
                                     [text:protected] => [13:31:32] [Server thread/WARN] [FML/]: Forge Mod Loader detected that the backup level.dat is being used.
-                                    [number:protected] => 3
+                                    [number:protected] => 1
                                 )
 
                             [1] => Aternos\Codex\Log\Line Object
                                 (
                                     [text:protected] => 
-                                    [number:protected] => 4
+                                    [number:protected] => 2
                                 )
 
                             [2] => Aternos\Codex\Log\Line Object
                                 (
                                     [text:protected] => This may happen due to a bug or corruption, continuing can damage
-                                    [number:protected] => 5
+                                    [number:protected] => 3
                                 )
 
                             [3] => Aternos\Codex\Log\Line Object
                                 (
                                     [text:protected] => your world beyond repair or lose data / progress.
-                                    [number:protected] => 6
+                                    [number:protected] => 4
                                 )
 
                             [4] => Aternos\Codex\Log\Line Object
                                 (
                                     [text:protected] => 
-                                    [number:protected] => 7
+                                    [number:protected] => 5
                                 )
 
                             [5] => Aternos\Codex\Log\Line Object
                                 (
                                     [text:protected] => It\'s recommended to create a world backup before continuing.
-                                    [number:protected] => 8
+                                    [number:protected] => 6
                                 )
 
                             [6] => Aternos\Codex\Log\Line Object
                                 (
                                     [text:protected] => 
-                                    [number:protected] => 9
+                                    [number:protected] => 7
                                 )
 
                             [7] => Aternos\Codex\Log\Line Object
                                 (
                                     [text:protected] => Run the command /fml confirm or or /fml cancel to proceed.
-                                    [number:protected] => 10
+                                    [number:protected] => 8
                                 )
 
                             [8] => Aternos\Codex\Log\Line Object
                                 (
                                     [text:protected] => Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResult=cancel to preselect the answer.
-                                    [number:protected] => 11
+                                    [number:protected] => 9
                                 )
 
                         )
@@ -120,12 +84,10 @@ class ForgeConfirmTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 3
+    [iterator:protected] => 1
     [logFile:protected] => Aternos\Codex\Log\File\PathLogFile Object
         (
-            [content:protected] => [00:37:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[00:37:06] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2814 Initialized
-[13:31:32] [Server thread/WARN] [FML/]: Forge Mod Loader detected that the backup level.dat is being used.
+            [content:protected] => [13:31:32] [Server thread/WARN] [FML/]: Forge Mod Loader detected that the backup level.dat is being used.
 
 This may happen due to a bug or corruption, continuing can damage
 your world beyond repair or lose data / progress.
@@ -163,55 +125,55 @@ Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResu
                                     [0] => Aternos\Codex\Log\Line Object
                                         (
                                             [text:protected] => [13:31:32] [Server thread/WARN] [FML/]: Forge Mod Loader detected that the backup level.dat is being used.
-                                            [number:protected] => 3
+                                            [number:protected] => 1
                                         )
 
                                     [1] => Aternos\Codex\Log\Line Object
                                         (
                                             [text:protected] => 
-                                            [number:protected] => 4
+                                            [number:protected] => 2
                                         )
 
                                     [2] => Aternos\Codex\Log\Line Object
                                         (
                                             [text:protected] => This may happen due to a bug or corruption, continuing can damage
-                                            [number:protected] => 5
+                                            [number:protected] => 3
                                         )
 
                                     [3] => Aternos\Codex\Log\Line Object
                                         (
                                             [text:protected] => your world beyond repair or lose data / progress.
-                                            [number:protected] => 6
+                                            [number:protected] => 4
                                         )
 
                                     [4] => Aternos\Codex\Log\Line Object
                                         (
                                             [text:protected] => 
-                                            [number:protected] => 7
+                                            [number:protected] => 5
                                         )
 
                                     [5] => Aternos\Codex\Log\Line Object
                                         (
                                             [text:protected] => It\'s recommended to create a world backup before continuing.
-                                            [number:protected] => 8
+                                            [number:protected] => 6
                                         )
 
                                     [6] => Aternos\Codex\Log\Line Object
                                         (
                                             [text:protected] => 
-                                            [number:protected] => 9
+                                            [number:protected] => 7
                                         )
 
                                     [7] => Aternos\Codex\Log\Line Object
                                         (
                                             [text:protected] => Run the command /fml confirm or or /fml cancel to proceed.
-                                            [number:protected] => 10
+                                            [number:protected] => 8
                                         )
 
                                     [8] => Aternos\Codex\Log\Line Object
                                         (
                                             [text:protected] => Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResult=cancel to preselect the answer.
-                                            [number:protected] => 11
+                                            [number:protected] => 9
                                         )
 
                                 )

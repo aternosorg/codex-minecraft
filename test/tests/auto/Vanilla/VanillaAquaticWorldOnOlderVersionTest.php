@@ -337,6 +337,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
                                 (
                                     [path:protected] => world
+                                    [relativePath:protected] => 1
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\AquaticVersionInstallSolution Object

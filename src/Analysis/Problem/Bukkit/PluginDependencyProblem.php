@@ -87,7 +87,7 @@ class PluginDependencyProblem extends BukkitProblem
         $this->dependencyPluginName = $matches[3];
 
         $this->addSolution((new PluginInstallSolution())->setPluginName($this->getDependencyPluginName()));
-        $this->addSolution((new FileDeleteSolution())->setPath($this->getPluginPath()));
+        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginPath()));
     }
 
     /**

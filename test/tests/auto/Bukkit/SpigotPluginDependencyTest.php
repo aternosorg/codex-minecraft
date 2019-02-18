@@ -421,6 +421,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
                                 (
                                     [path:protected] => plugins/FactionsShop.jar
+                                    [relativePath:protected] => 1
                                 )
 
                         )
@@ -498,6 +499,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
                                 (
                                     [path:protected] => plugins/BasicTab.jar
+                                    [relativePath:protected] => 1
                                 )
 
                         )

@@ -33,7 +33,9 @@ class AmbiguousPluginNameProblem extends BukkitProblem
      */
     public function getMessage(): string
     {
-        return "There are multiple plugin files for the plugin name '" . $this->getPluginName() . "': '" . $this->getFirstPluginPath() . "' and '" . $this->getSecondPluginPath() . "'.";
+        $first = end(explode("/", $this->getFirstPluginPath()));
+        $second = end(explode("/", $this->getSecondPluginPath()));
+        return "There are multiple plugin files for the plugin name '" . $this->getPluginName() . "': '" . $first . "' and '" . $second . "'.";
     }
 
     /**
@@ -61,8 +63,8 @@ class AmbiguousPluginNameProblem extends BukkitProblem
         $this->firstPluginPath = $matches[2];
         $this->secondPluginPath = $matches[3];
 
-        $this->addSolution((new FileDeleteSolution())->setPath($this->getFirstPluginPath()));
-        $this->addSolution((new FileDeleteSolution())->setPath($this->getSecondPluginPath()));
+        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getFirstPluginPath()));
+        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getSecondPluginPath()));
     }
 
     /**

@@ -246,6 +246,7 @@ class VanillaOldPlayerDirectoryTest extends PHPUnit\Framework\TestCase
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
                                 (
                                     [path:protected] => world/players
+                                    [relativePath:protected] => 1
                                 )
 
                         )

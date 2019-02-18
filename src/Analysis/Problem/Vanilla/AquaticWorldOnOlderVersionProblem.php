@@ -44,7 +44,7 @@ class AquaticWorldOnOlderVersionProblem extends VanillaProblem
      */
     public function setMatches(array $matches, $patternKey)
     {
-        $this->addSolution((new FileDeleteSolution())->setPath('world'));
+        $this->addSolution((new FileDeleteSolution())->setRelativePath('world'));
         $this->addSolution(new AquaticVersionInstallSolution());
     }
 }
