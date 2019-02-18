@@ -1,0 +1,16 @@
+2019-02-08 23:33:19 [INFO] Starting minecraft server version 1.1
+2019-02-08 23:33:19 [INFO] Loading properties
+2019-02-08 23:33:19 [INFO] Starting Minecraft server on *:10719
+2019-02-08 23:33:20 [INFO] This server is running CraftBukkit version git-Spigot-1.1-R6-b1988jnks (MC: 1.1) (Implementing API version 1.1-R6)
+2019-02-08 23:33:20 [INFO] [ItemNBTAPI] Loading ItemNBTAPI v1.1
+2019-02-08 23:33:20 [INFO] [Admin Chat] Loading Admin Chat v1.0
+2019-02-08 23:33:20 [INFO] Preparing level "world"
+2019-02-08 23:33:20 [INFO] Default game type: 0
+2019-02-08 23:33:20 [INFO] Preparing start region for level 0 (Seed: 2360843)
+2019-02-08 23:33:21 [INFO] Preparing spawn area: 65%
+2019-02-08 23:33:22 [INFO] Preparing start region for level 1 (Seed: 2360843)
+2019-02-08 23:33:22 [INFO] Preparing spawn area: 60%
+2019-02-08 23:33:23 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2019-02-08 23:33:23 [INFO] Done (2.709s)! For help, type "help" or "?"
+2019-02-08 23:33:23 [INFO] Starting GS4 status listener
+2019-02-08 23:33:23 [INFO] Query running on **.**.**.**:10719
