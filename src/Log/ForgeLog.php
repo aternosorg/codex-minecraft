@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Log;
 
 use Aternos\Codex\Detective\SinglePatternDetector;
+use Aternos\Codex\Minecraft\Analyser\ForgeAnalyser;
 
 /**
  * Class ForgeLog
@@ -19,5 +20,13 @@ class ForgeLog extends VanillaLog
         return array_merge(parent::getDetectors(), [
             (new SinglePatternDetector())->setPattern('/MinecraftForge v[0-9\.]+ Initialized/')
         ]);
+    }
+
+    /**
+     * @return ForgeAnalyser
+     */
+    public static function getDefaultAnalyser()
+    {
+        return new ForgeAnalyser();
     }
 }

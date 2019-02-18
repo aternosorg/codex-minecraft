@@ -1,0 +1,11 @@
+[00:37:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[00:37:06] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2814 Initialized
+[13:31:32] [Server thread/WARN] [FML/]: Forge Mod Loader detected that the backup level.dat is being used.
+
+This may happen due to a bug or corruption, continuing can damage
+your world beyond repair or lose data / progress.
+
+It's recommended to create a world backup before continuing.
+
+Run the command /fml confirm or or /fml cancel to proceed.
+Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResult=cancel to preselect the answer.
