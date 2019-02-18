@@ -24471,7 +24471,32 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+                (
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.8
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [21:08:50] [Server thread/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [21:08:50] [Server thread/INFO]: Starting minecraft server version 1.8
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
                     [pluginPath:protected] => plugins/Troll_v3.8.jar
                     [pluginName:protected] => Troll_v3.8
@@ -24602,7 +24627,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
                     [pluginPath:protected] => plugins/AdminSystem ???.jar
                     [pluginName:protected] => AdminSystem ???
@@ -24733,7 +24758,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
                     [pluginPath:protected] => plugins/ChatTroll_v2.1.jar
                     [pluginName:protected] => ChatTroll_v2.1
@@ -24828,7 +24853,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
+            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
                 (
                     [firstPluginPath:protected] => plugins/SkyPvPFree.jar
                     [secondPluginPath:protected] => plugins/SkyPvP.jar
@@ -24871,7 +24896,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+            [5] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
                     [pluginPath:protected] => plugins/CommunityBETA.jar
                     [pluginName:protected] => CommunityBETA
@@ -25002,7 +25027,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [5] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
+            [6] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
                 (
                     [firstPluginPath:protected] => plugins/BetterNick 1.13.X.jar
                     [secondPluginPath:protected] => plugins/BetterNick 1.8.3 - 1.12.2.jar
@@ -25045,7 +25070,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [6] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+            [7] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
                     [pluginPath:protected] => plugins/bstats-bukkit-1.2.jar
                     [pluginName:protected] => bstats-bukkit-1.2
@@ -25140,7 +25165,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [7] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+            [8] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
                     [pluginPath:protected] => plugins/SlashServer.jar
                     [pluginName:protected] => SlashServer
@@ -25487,7 +25512,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [8] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
+            [9] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
                 (
                     [pluginPath:protected] => plugins/AreaShop.jar
                     [pluginName:protected] => AreaShop
@@ -25565,7 +25590,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [9] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+            [10] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
                     [pluginPath:protected] => plugins/PortalStones1.5.jar
                     [pluginName:protected] => PortalStones1.5
@@ -25768,7 +25793,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [10] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+            [11] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
                 (
                     [pluginName:protected] => SuperLobbyPlus
                     [solutions:protected] => Array
@@ -25885,7 +25910,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [11] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+            [12] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
                 (
                     [pluginName:protected] => GlobalMarket
                     [solutions:protected] => Array
@@ -26056,7 +26081,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [12] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\PermissionsExConfigProblem Object
+            [13] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\PermissionsExConfigProblem Object
                 (
                     [solutions:protected] => Array
                         (
@@ -26617,7 +26642,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [13] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+            [14] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
                 (
                     [pluginName:protected] => TalkingBot
                     [solutions:protected] => Array
@@ -26740,7 +26765,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [14] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
+            [15] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
                 (
                     [pluginName:protected] => CustomRanks
                     [solutions:protected] => Array
@@ -26893,7 +26918,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [15] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+            [16] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
                 (
                     [pluginName:protected] => CustomRanks
                     [solutions:protected] => Array
@@ -27010,7 +27035,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [16] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
+            [17] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
                 (
                     [pluginName:protected] => CitizensCMD
                     [solutions:protected] => Array
@@ -27151,7 +27176,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [17] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+            [18] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
                 (
                     [pluginName:protected] => RedProtect
                     [solutions:protected] => Array
@@ -27334,7 +27359,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [18] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
+            [19] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
                 (
                     [pluginName:protected] => RedProtect
                     [solutions:protected] => Array
@@ -27511,7 +27536,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [counter:protected] => 1
                 )
 
-            [19] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
+            [20] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
                 (
                     [pluginName:protected] => SuperLobbyPlus
                     [solutions:protected] => Array
@@ -27624,7 +27649,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
 
         )
 
-    [iterator:protected] => 19
+    [iterator:protected] => 20
 )
 ';
         

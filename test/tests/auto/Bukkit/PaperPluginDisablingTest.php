@@ -2900,7 +2900,32 @@ org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register mau
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+                (
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.13.2
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [12:04:31] [Server thread/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [12:04:31] [Server thread/INFO]: Starting minecraft server version 1.13.2
+                                            [number:protected] => 2
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
                 (
                     [pluginName:protected] => SuperLobbyPlus
                     [solutions:protected] => Array
@@ -3017,7 +3042,7 @@ org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register mau
                     [counter:protected] => 1
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
                 (
                     [pluginName:protected] => SuperLobbyPlus
                     [solutions:protected] => Array
@@ -3160,7 +3185,7 @@ org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register mau
 
         )
 
-    [iterator:protected] => 1
+    [iterator:protected] => 2
 )
 ';
         

@@ -2344,7 +2344,32 @@ Caused by: java.lang.NullPointerException
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginRuntimeProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+                (
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.8
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [03:41:13] [Server thread/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [03:41:13] [Server thread/INFO]: Starting minecraft server version 1.8
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginRuntimeProblem Object
                 (
                     [pluginName:protected] => TrollBoss
                     [solutions:protected] => Array
@@ -2547,7 +2572,7 @@ Caused by: java.lang.NullPointerException
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         

@@ -10484,7 +10484,32 @@ org.bukkit.plugin.UnknownDependencyException: Languagy
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+                (
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.12
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [16:00:32] [Server thread/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [16:00:32] [Server thread/INFO]: Starting minecraft server version 1.12
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
                 (
                     [pluginPath:protected] => plugins/AnvilLogin.jar
                     [pluginName:protected] => AnvilLogin
@@ -10562,7 +10587,7 @@ org.bukkit.plugin.UnknownDependencyException: Languagy
                     [counter:protected] => 1
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\AuthMeShutdownProblem Object
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\AuthMeShutdownProblem Object
                 (
                     [solutions:protected] => Array
                         (
@@ -10616,7 +10641,7 @@ org.bukkit.plugin.UnknownDependencyException: Languagy
 
         )
 
-    [iterator:protected] => 1
+    [iterator:protected] => 2
 )
 ';
         

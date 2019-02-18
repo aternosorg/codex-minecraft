@@ -406,7 +406,32 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+                (
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.8.8
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [11:47:42] [Server thread/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [11:47:42] [Server thread/INFO]: Starting minecraft server version 1.8.8
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
                 (
                     [pluginPath:protected] => plugins/FactionsShop.jar
                     [pluginName:protected] => FactionsShop
@@ -484,7 +509,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
                     [counter:protected] => 1
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
                 (
                     [pluginPath:protected] => plugins/BasicTab.jar
                     [pluginName:protected] => BasicTab
@@ -564,7 +589,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 
         )
 
-    [iterator:protected] => 1
+    [iterator:protected] => 2
 )
 ';
         

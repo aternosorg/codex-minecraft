@@ -258,7 +258,32 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+                (
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.13.2
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [19:23:08] [Server thread/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [19:23:08] [Server thread/INFO]: Starting minecraft server version 1.13.2
+                                            [number:protected] => 2
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
                 (
                     [firstPluginPath:protected] => plugins/worldedit-bukkit-7.0.0-beta-05.jar
                     [secondPluginPath:protected] => plugins/worldedit-bukkit-7.0.0-beta-01.jar
@@ -303,7 +328,7 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         

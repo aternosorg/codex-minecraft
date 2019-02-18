@@ -239,7 +239,32 @@ class VanillaOldPlayerDirectoryTest extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OldPlayerDirectoryProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+                (
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.12.2
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [10:03:34] [Server thread/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [10:03:34] [Server thread/INFO]: Starting minecraft server version 1.12.2
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OldPlayerDirectoryProblem Object
                 (
                     [solutions:protected] => Array
                         (
@@ -275,7 +300,7 @@ class VanillaOldPlayerDirectoryTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         

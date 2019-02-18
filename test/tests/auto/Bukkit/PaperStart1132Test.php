@@ -2177,6 +2177,31 @@ class PaperStart1132Test extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+                (
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.13.2
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [00:09:02] [Server thread/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [00:09:02] [Server thread/INFO]: Starting minecraft server version 1.13.2
+                                            [number:protected] => 2
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
         )
 
     [iterator:protected] => 0

@@ -4726,7 +4726,32 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginRuntimeProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+                (
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.13.2
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [11:22:59] [Server thread/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [11:22:59] [Server thread/INFO]: Starting minecraft server version 1.13.2
+                                            [number:protected] => 2
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginRuntimeProblem Object
                 (
                     [pluginName:protected] => Essentials
                     [solutions:protected] => Array
@@ -4833,7 +4858,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         

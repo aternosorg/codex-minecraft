@@ -493,6 +493,31 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+                (
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.5.2
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => 2019-02-16 00:25:12 [INFO]
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 2019-02-16 00:25:12 [INFO] Starting minecraft server version 1.5.2
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 1550276712
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
         )
 
     [iterator:protected] => 0
