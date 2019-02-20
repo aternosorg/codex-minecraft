@@ -118,7 +118,6 @@ class Translator
     {
         if (!isset($this->translations[$this->language])) {
             $file = $this->getTranslationFile($this->language);
-            echo $file;
             $content = file_get_contents($file);
             $translations = json_decode($content, true);
             if (!is_array($translations)) {
