@@ -26,7 +26,11 @@ class ModDependencyProblem extends ModProblem
     {
         $mods = "'" . implode("', '", $this->getDependencyMods()) . "'";
 
-        return Translator::getInstance()->getTranslation("mod-dependency-problem", ["mod-name" => $this->getModName(), "mod-list" => $mods]);
+        if (count($this->getDependencyMods()) === 1) {
+            return Translator::getInstance()->getTranslation("mod-dependency-problem", ["mod-name" => $this->getModName(), "dependency-mod-name" => $mods]);
+        } else {
+            return Translator::getInstance()->getTranslation("mod-dependency-problem-plural", ["mod-name" => $this->getModName(), "dependency-mod-list" => $mods]);
+        }
     }
 
     /**
