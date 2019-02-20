@@ -29,9 +29,9 @@ class Entry extends \Aternos\Codex\Log\Entry
     /**
      * Get the prefix
      *
-     * @return string
+     * @return string|null
      */
-    public function getPrefix(): string
+    public function getPrefix()
     {
         return $this->prefix;
     }
