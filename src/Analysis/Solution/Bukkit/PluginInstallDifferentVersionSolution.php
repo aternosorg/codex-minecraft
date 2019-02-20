@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Solution\Bukkit;
 
+use Aternos\Codex\Minecraft\Translator\Translator;
+
 /**
  * Class PluginInstallDifferentVersionSolution
  *
@@ -16,6 +18,6 @@ class PluginInstallDifferentVersionSolution extends PluginInstallSolution
      */
     public function getMessage(): string
     {
-        return "Install a different version of the plugin '" . $this->pluginName . "'.";
+        return Translator::getInstance()->getTranslation("plugin-install-different-version-solution", ["plugin-name" => $this->getPluginName()]);
     }
 }

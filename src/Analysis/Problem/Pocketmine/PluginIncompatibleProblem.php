@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine\PluginInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine\PluginRemoveSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class PluginIncompatibleProblem
@@ -19,7 +20,7 @@ class PluginIncompatibleProblem extends PluginProblem
      */
     public function getMessage(): string
     {
-        return "The plugin '" . $this->getPluginName() . "' is incompatible with your current server version";
+        return Translator::getInstance()->getTranslation("plugin-incompatible-problem", ["plugin-name" => $this->getPluginName()]);
     }
 
     /**

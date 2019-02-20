@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Solution;
 
 use Aternos\Codex\Analysis\AutomatableSolutionInterface;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class CommandRunSolution
@@ -23,7 +24,7 @@ class CommandRunSolution extends MinecraftSolution implements AutomatableSolutio
      */
     public function getMessage(): string
     {
-        return "Run the command '" . $this->getCommand() . "'.";
+        return Translator::getInstance()->getTranslation("command-run-solution", ["command" => $this->getCommand()]);
     }
 
     /**

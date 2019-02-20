@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Solution\Forge;
 
+use Aternos\Codex\Minecraft\Translator\Translator;
+
 /**
  * Class ModInstallDifferentVersionSolution
  *
@@ -16,6 +18,6 @@ class ModInstallDifferentVersionSolution extends ModSolution
      */
     public function getMessage(): string
     {
-        return "Install a different version of the mod '" . $this->getModName() . "'.";
+        return Translator::getInstance()->getTranslation("mod-install-different-version-solution", ["mod-name" => $this->getModName()]);
     }
 }

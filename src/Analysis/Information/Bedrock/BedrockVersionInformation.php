@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Information\Bedrock;
 
+use Aternos\Codex\Minecraft\Translator\Translator;
+
 /**
  * Class BedrockVersionInformation
  *
@@ -9,7 +11,13 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Bedrock;
  */
 class BedrockVersionInformation extends BedrockInformation
 {
-    protected $label = "Bedrock version";
+    /**
+     * BedrockVersionInformation constructor.
+     */
+    public function __construct()
+    {
+        $this->label = Translator::getInstance()->getTranslation("bedrock-version");
+    }
 
     /**
      * Get an array of possible patterns

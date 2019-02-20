@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class PluginDependencyProblem
@@ -58,7 +59,10 @@ class PluginDependencyProblem extends BukkitProblem
      */
     public function getMessage(): string
     {
-        return "The plugin '" . $this->getPluginName() . "' is missing the required the plugin '" . $this->getDependencyPluginName() . "'.";
+        return Translator::getInstance()->getTranslation("plugin-dependency-problem", [
+            "plugin-name" => $this->getPluginName(),
+            "dependency-plugin-name" => $this->getDependencyPluginName()
+        ]);
     }
 
     /**

@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Solution\Forge;
 
+use Aternos\Codex\Minecraft\Translator\Translator;
+
 /**
  * Class ModRemoveSolution
  *
@@ -16,6 +18,6 @@ class ModRemoveSolution extends ModSolution
      */
     public function getMessage(): string
     {
-        return "Remove the mod '" . $this->getModName() . "'.";
+        return Translator::getInstance()->getTranslation("mod-remove-solution");
     }
 }

@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\Plugin;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileEditSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class AuthMeShutdownSolution
@@ -36,6 +37,6 @@ class AuthMeShutdownSolution extends FileEditSolution
      */
     public function getMessage(): string
     {
-        return parent::getMessage() . " Set 'stopServer' to true.";
+        return parent::getMessage() . " " . Translator::getInstance()->getTranslation("authme-shutdown-solution");
     }
 }

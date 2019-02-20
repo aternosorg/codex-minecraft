@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\CommandRunSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class FmlConfirmProblem
@@ -18,7 +19,7 @@ class FmlConfirmProblem extends ForgeProblem
      */
     public function getMessage(): string
     {
-        // TODO: Implement getMessage() method.
+        return Translator::getInstance()->getTranslation("forge-confirm-problem");
     }
 
     /**

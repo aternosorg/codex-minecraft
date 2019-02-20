@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Solution\Forge;
 
+use Aternos\Codex\Minecraft\Translator\Translator;
+
 /**
  * Class ModInstallSolution
  *
@@ -21,7 +23,14 @@ class ModInstallSolution extends ModSolution
      */
     public function getMessage(): string
     {
-        return "Install the mod '" . $this->getModName() . "'" . (($this->getModVersion() !== null) ? " with version '" . $this->getModVersion() . "'" : "") . ".";
+        if ($this->getModName() === null) {
+            return Translator::getInstance()->getTranslation("mod-install-version", ["mod-name" => $this->getModName()]);
+        } else {
+            return Translator::getInstance()->getTranslation("mod-install-version-with-version", [
+                "mod-name" => $this->getModName(),
+                "mod-version" => $this->getModVersion()
+            ]);
+        }
     }
 
     /**

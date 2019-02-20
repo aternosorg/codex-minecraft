@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Solution\File;
 
 use Aternos\Codex\Analysis\AutomatableSolutionInterface;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class FileEditSolution
@@ -28,7 +29,7 @@ class FileEditSolution extends FileSolution implements AutomatableSolutionInterf
      */
     public function getMessage(): string
     {
-        return "Edit the file '" . $this->getPath() . "'.";
+        return Translator::getInstance()->getTranslation("file-edit-solution", ["file-path" => $this->getPath()]);
     }
 
     /**

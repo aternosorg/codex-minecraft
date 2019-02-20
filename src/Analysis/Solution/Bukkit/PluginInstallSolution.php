@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Solution\Bukkit;
 
+use Aternos\Codex\Minecraft\Translator\Translator;
+
 /**
  * Class PluginInstallSolution
  *
@@ -16,6 +18,6 @@ class PluginInstallSolution extends PluginSolution
      */
     public function getMessage(): string
     {
-        return "Install the plugin '" . $this->pluginName . "'.";
+        return Translator::getInstance()->getTranslation("plugin-install-solution", ["plugin-name" => $this->getPluginName()]);
     }
 }

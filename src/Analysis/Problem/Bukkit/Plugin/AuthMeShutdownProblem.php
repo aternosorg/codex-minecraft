@@ -6,6 +6,7 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\Plugin\AuthMeShutdownSoluti
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginConfigureSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class AuthMeShutdownProblem
@@ -21,7 +22,7 @@ class AuthMeShutdownProblem extends SpecificPluginProblem
      */
     public function getMessage(): string
     {
-        return "The plugin 'AuthMe' fails to load and shuts the server down.";
+        return Translator::getInstance()->getTranslation("authme-shutdown-problem");
     }
 
     /**

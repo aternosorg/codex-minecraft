@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class ModDuplicateProblem
@@ -31,7 +32,11 @@ class ModDuplicateProblem extends ModProblem
         $first = end($pathParts = explode("/", $this->getFirstModPath()));
         $second = end($pathParts = explode("/", $this->getSecondModPath()));
 
-        return "There are multiple mod files for the mod name '" . $this->getModName() . "': '" . $first . "' and '" . $second . "'.";
+        return Translator::getInstance()->getTranslation("mod-duplicate-problem", [
+            "mod-name" => $this->getModName(),
+            "first-mod-path" => $first,
+            "second-mod-path" => $second
+        ]);
     }
 
     /**

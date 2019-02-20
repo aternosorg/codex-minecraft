@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class WorldModVersionProblem
@@ -28,7 +29,11 @@ class WorldModVersionProblem extends ModProblem
      */
     public function getMessage(): string
     {
-        return "This world was saved with mod " . $this->getModName() . " version " . $this->getExpectedVersion() . " and it is now at version " . $this->getCurrentVersion() . ".";
+        return Translator::getInstance()->getTranslation("world-mod-version-problem", [
+            "mod-name" => $this->getModName(),
+            "mod-expected-version" => $this->getExpectedVersion(),
+            "mod-current-version" => $this->getCurrentVersion()
+        ]);
     }
 
     /**

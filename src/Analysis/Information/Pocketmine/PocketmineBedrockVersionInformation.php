@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Information\Pocketmine;
 
 use Aternos\Codex\Minecraft\Analysis\Information\Bedrock\BedrockVersionInformationInterface;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class PocketmineBedrockVersionInformation
@@ -11,7 +12,13 @@ use Aternos\Codex\Minecraft\Analysis\Information\Bedrock\BedrockVersionInformati
  */
 class PocketmineBedrockVersionInformation extends PocketmineInformation implements BedrockVersionInformationInterface
 {
-    protected $label = "Bedrock version";
+    /**
+     * PocketmineBedrockVersionInformation constructor.
+     */
+    public function __construct()
+    {
+        $this->label = Translator::getInstance()->getTranslation("bedrock-version");
+    }
 
     /**
      * Get an array of possible patterns

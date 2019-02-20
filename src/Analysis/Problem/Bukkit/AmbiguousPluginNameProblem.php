@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class AmbiguousPluginNameProblem
@@ -35,7 +36,11 @@ class AmbiguousPluginNameProblem extends BukkitProblem
     {
         $first = end($pathParts = explode("/", $this->getFirstPluginPath()));
         $second = end($pathParts = explode("/", $this->getSecondPluginPath()));
-        return "There are multiple plugin files for the plugin name '" . $this->getPluginName() . "': '" . $first . "' and '" . $second . "'.";
+        return Translator::getInstance()->getTranslation("ambiguous-plugin-name-problem", [
+            "plugin-name" => $this->getPluginName(),
+            "first-plugin-path" => $first,
+            "second-plugin-path" => $second
+        ]);
     }
 
     /**

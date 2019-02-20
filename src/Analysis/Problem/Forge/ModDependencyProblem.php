@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class ModDependencyProblem
@@ -23,10 +24,9 @@ class ModDependencyProblem extends ModProblem
      */
     public function getMessage(): string
     {
-        $modString = count($this->getDependencyMods()) === 1 ? "mod" : "mods";
         $mods = "'" . implode("', '", $this->getDependencyMods()) . "'";
 
-        return "The mod '" . $this->getModName() . "' is missing the required " . $modString . " " . $mods . ".";
+        return Translator::getInstance()->getTranslation("mod-dependency-problem", ["mod-name" => $this->getModName(), "mod-list" => $mods]);
     }
 
     /**

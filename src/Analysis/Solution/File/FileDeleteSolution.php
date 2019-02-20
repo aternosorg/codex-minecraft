@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Solution\File;
 
 use Aternos\Codex\Analysis\AutomatableSolutionInterface;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class FileDeleteSolution
@@ -18,6 +19,6 @@ class FileDeleteSolution extends FileSolution implements AutomatableSolutionInte
      */
     public function getMessage(): string
     {
-        return "Delete the file '" . $this->getPath() . "'.";
+        return Translator::getInstance()->getTranslation("file-delete-solution", ["file-path" => $this->getPath()]);
     }
 }

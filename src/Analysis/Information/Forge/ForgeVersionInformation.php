@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Information\Forge;
 
+use Aternos\Codex\Minecraft\Translator\Translator;
+
 /**
  * Class ForgeVersionInformation
  *
@@ -9,7 +11,13 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Forge;
  */
 class ForgeVersionInformation extends ForgeInformation
 {
-    protected $label = "Forge version";
+    /**
+     * ForgeVersionInformation constructor.
+     */
+    public function __construct()
+    {
+        $this->label = Translator::getInstance()->getTranslation("forge-version");
+    }
 
     /**
      * Get an array of possible patterns

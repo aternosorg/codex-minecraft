@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Solution\Bukkit;
 
+use Aternos\Codex\Minecraft\Translator\Translator;
+
 /**
  * Class PluginConfigureSolution
  *
@@ -21,8 +23,16 @@ class PluginConfigureSolution extends PluginSolution
      */
     public function getMessage(): string
     {
-        $suggested = ($this->suggestedFile) ? " (" . $this->suggestedFile . ")" : "";
-        return "Configure the plugin '" . $this->getPluginName() . "'" . $suggested . ".";
+        if ($this->suggestedFile) {
+            return Translator::getInstance()->getTranslation("configure-plugin-with-file", [
+                "plugin-name" => $this->getPluginName(),
+                "suggested-file" => $this->getSuggestedFile()
+            ]);
+        } else {
+            return Translator::getInstance()->getTranslation("configure-plugin", [
+                "plugin-name" => $this->getPluginName(),
+            ]);
+        }
     }
 
     /**

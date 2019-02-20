@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class PluginLoadProblem
@@ -24,7 +25,7 @@ class PluginLoadProblem extends PluginProblem
      */
     public function getMessage(): string
     {
-        return "The plugin '" . $this->getPluginName() . "'  could not be loaded.";
+        return Translator::getInstance()->getTranslation("plugin-load-problem", ["plugin-name" => $this->getPluginName()]);
     }
 
     /**

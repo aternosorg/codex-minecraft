@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class WorldMissingModProblem
@@ -18,7 +19,7 @@ class WorldMissingModProblem extends ModProblem
      */
     public function getMessage(): string
     {
-        return "This world was saved with mod '" . $this->getModName() . "' which appears to be missing";
+        return Translator::getInstance()->getTranslation("world-missing-mod-problem", ["mod-name" => $this->getModName()]);
     }
 
     /**

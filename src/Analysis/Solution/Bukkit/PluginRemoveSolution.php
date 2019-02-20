@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Solution\Bukkit;
 
+use Aternos\Codex\Minecraft\Translator\Translator;
+
 /**
  * Class PluginRemoveSolution
  *
@@ -16,6 +18,6 @@ class PluginRemoveSolution extends PluginSolution
      */
     public function getMessage(): string
     {
-        return "Remove the plugin '" . $this->getPluginName() . "'.";
+        return Translator::getInstance()->getTranslation("plugin-remove-solution", ["plugin-name" => $this->getPluginName()]);
     }
 }

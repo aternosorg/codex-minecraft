@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Solution\Vanilla;
 
+use Aternos\Codex\Minecraft\Translator\Translator;
+
 /**
  * Class AquaticVersionInstallSolution
  *
@@ -16,6 +18,6 @@ class AquaticVersionInstallSolution extends VanillaSolution
      */
     public function getMessage(): string
     {
-        return 'Update the server software to 1.13 or newer.';
+        return Translator::getInstance()->getTranslation("aquatic-version-install-solution");
     }
 }

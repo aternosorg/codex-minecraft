@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginConfigureSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class PermissionsExConfigProblem
@@ -19,7 +20,7 @@ class PermissionsExConfigProblem extends SpecificPluginProblem
      */
     public function getMessage(): string
     {
-        return "The configuration of the the plugin 'PermissionsEx' is invalid.";
+        return Translator::getInstance()->getTranslation("pex-config-problem");
     }
 
     /**

@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallDifferentVersionSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class ModFatalProblem
@@ -34,7 +35,7 @@ class ModFatalProblem extends ModProblem
      */
     public function getMessage(): string
     {
-        return "The mod '" . $this->getModName() . "' has a fatal error.";
+        return Translator::getInstance()->getTranslation("mod-fatal-problem", ["mod-name" => $this->getModName()]);
     }
 
     /**

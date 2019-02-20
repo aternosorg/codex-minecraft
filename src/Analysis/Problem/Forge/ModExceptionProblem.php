@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModRemoveSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class ModExceptionProblem
@@ -19,7 +20,7 @@ class ModExceptionProblem extends ModProblem
      */
     public function getMessage(): string
     {
-        return "The mod '" . $this->getModName() . "' has thrown an exception.";
+        return Translator::getInstance()->getTranslation("mod-exception-problem", ["mod-name" => $this->getModName()]);
     }
 
     /**

@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Information\Pocketmine;
 
+use Aternos\Codex\Minecraft\Translator\Translator;
+
 /**
  * Class PocketmineVersionInformation
  *
@@ -9,7 +11,13 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Pocketmine;
  */
 class PocketmineVersionInformation extends PocketmineInformation
 {
-    protected $label = "Pocketmine version";
+    /**
+     * PocketmineVersionInformation constructor.
+     */
+    public function __construct()
+    {
+        $this->label = Translator::getInstance()->getTranslation("pocketmine-version");
+    }
 
     /**
      * Get an array of possible patterns

@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Information\Vanilla;
 
+use Aternos\Codex\Minecraft\Translator\Translator;
+
 /**
  * Class VanillaVersionInformation
  *
@@ -9,7 +11,13 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Vanilla;
  */
 class VanillaVersionInformation extends VanillaInformation
 {
-    protected $label = "Minecraft version";
+    /**
+     * VanillaVersionInformation constructor.
+     */
+    public function __construct()
+    {
+        $this->label = Translator::getInstance()->getTranslation("minecraft-version");
+    }
 
     /**
      * Get an array of possible patterns

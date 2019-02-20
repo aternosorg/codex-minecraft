@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Vanilla;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class OldPlayerDirectoryProblem
@@ -18,7 +19,7 @@ class OldPlayerDirectoryProblem extends VanillaProblem
      */
     public function getMessage(): string
     {
-        return "The server has detected an old player directory in the world save.";
+        return Translator::getInstance()->getTranslation("old-player-directory-problem");
     }
 
     /**

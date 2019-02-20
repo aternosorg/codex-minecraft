@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Vanilla;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\AquaticVersionInstallSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class AquaticWorldOnOlderVersionProblem
@@ -20,7 +21,7 @@ class AquaticWorldOnOlderVersionProblem extends VanillaProblem
      */
     public function getMessage(): string
     {
-        return "The current world was created/loaded with Minecraft 1.13 or higher. The new format cannot be loaded in any older version.";
+        return Translator::getInstance()->getTranslation("aquatic-world-on-older-version-problem");
     }
 
     /**

@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
+use Aternos\Codex\Minecraft\Translator\Translator;
+
 /**
  * Class PluginRuntimeProblem
  *
@@ -16,7 +18,7 @@ class PluginRuntimeProblem extends PluginProblem
      */
     public function getMessage(): string
     {
-        return "The plugin '" . $this->getPluginName() . "' has a problem while running.";
+        return Translator::getInstance()->getTranslation("plugin-runtime-problem", ["plugin-name" => $this->getPluginName()]);
     }
 
     /**

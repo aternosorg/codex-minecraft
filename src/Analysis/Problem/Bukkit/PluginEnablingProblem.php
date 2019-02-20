@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
+use Aternos\Codex\Minecraft\Translator\Translator;
+
 /**
  * Class PluginEnablingProblem
  *
@@ -16,7 +18,7 @@ class PluginEnablingProblem extends PluginProblem
      */
     public function getMessage(): string
     {
-        return "The plugin '" . $this->getPluginName() . "'  could not be enabled.";
+        return Translator::getInstance()->getTranslation("plugin-enabling-problem", ["plugin-name" => $this->getPluginName()]);
     }
 
     /**
