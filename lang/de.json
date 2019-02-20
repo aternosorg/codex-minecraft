@@ -35,5 +35,6 @@
   "mod-install-solution": "Installiere den Mod '{{mod-name}}'.",
   "mod-install-solution-with-version": "Installiere den Mod '{{mod-name}}' in der Version {{mod-version}}.",
   "mod-remove-solution": "Entferne den Mod '{{mod-name}}'.",
-  "aquatic-version-install-solution": "Aktualisiere die Serversoftware auf 1.13 oder neuer."
+  "aquatic-version-install-solution": "Aktualisiere die Serversoftware auf 1.13 oder neuer.",
+  "plugin-command-exception-problem": "Das Plugin '{{plugin-name}}' kann den Befehl '{{command}}' nicht ausführen."
 }
