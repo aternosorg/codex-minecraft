@@ -86,3 +86,15 @@ foreach ($analysis->getProblems() as $problem) {
     }
 }
 ```
+
+### Translations
+
+The output messages, e.g. for problems and solutions are translated by the [`Translator`](src/Translator/Translator.php). The available
+translations are in the [`lang`](lang) folder. They are not complete (yet) and you can help to translate them here: [https://crowdin.com/project/aternos](https://crowdin.com/project/aternos).
+You can set the translation language with the `setLanguage()` function before using any `getMessage()` function.
+
+```php
+<?php
+
+\Aternos\Codex\Minecraft\Translator\Translator::getInstance()->setLanguage("de");
+```
