@@ -24,9 +24,9 @@ class ModInstallSolution extends ModSolution
     public function getMessage(): string
     {
         if ($this->getModName() === null) {
-            return Translator::getInstance()->getTranslation("mod-install-version", ["mod-name" => $this->getModName()]);
+            return Translator::getInstance()->getTranslation("mod-install-solution", ["mod-name" => $this->getModName()]);
         } else {
-            return Translator::getInstance()->getTranslation("mod-install-version-with-version", [
+            return Translator::getInstance()->getTranslation("mod-install-solution-with-version", [
                 "mod-name" => $this->getModName(),
                 "mod-version" => $this->getModVersion()
             ]);
