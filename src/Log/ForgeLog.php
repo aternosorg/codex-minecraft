@@ -15,7 +15,7 @@ class ForgeLog extends VanillaLog
     /**
      * @var string
      */
-    protected static $pattern = '/^(\[(?:[0-9]{2}\:?){3}\] \[[^\]]+\/(\w+)\](?: \[[^\]]+\])?\:).*$/';
+    protected static $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[[^\]]+\])?\:).*$/';
 
     /**
      * @return array
