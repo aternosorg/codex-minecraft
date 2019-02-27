@@ -1,0 +1,48 @@
+<?php
+
+namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
+
+use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
+
+/**
+ * Class ChunkLoadExceptionProblem
+ *
+ * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
+ */
+class ChunkLoadExceptionProblem extends BukkitProblem
+{
+    /**
+     * Get a human readable message
+     *
+     * @return string
+     */
+    public function getMessage(): string
+    {
+        return Translator::getInstance()->getTranslation("chunk-load-exception-problem");
+    }
+
+    /**
+     * Get an array of possible patterns
+     *
+     * The array key of the pattern will be passed to setMatches()
+     *
+     * @return array
+     */
+    public static function getPatterns(): array
+    {
+        return ['/Encountered an unexpected exception(\n.*)*at.*ChunkRegionLoader\.loadChunk/'];
+    }
+
+    /**
+     * Apply the matches from the pattern
+     *
+     * @param array $matches
+     * @param $patternKey
+     * @return mixed
+     */
+    public function setMatches(array $matches, $patternKey)
+    {
+        $this->addSolution((new FileDeleteSolution())->setRelativePath("world"));
+    }
+}
