@@ -36,5 +36,8 @@
   "mod-install-solution-with-version": "{{mod-version}} 버전의 '{{mod-name}}' 모드를 설치합니다.",
   "mod-remove-solution": "'{{mod-name}} ' 모드를 제거 합니다.",
   "aquatic-version-install-solution": "1.13 또는 최신 서버 소프트웨어로 업데이트 합니다.",
-  "plugin-command-exception-problem": "플러그인 '{{plugin-name}}'의 명령 '{{command}} '을 실행할 수 없습니다."
+  "plugin-command-exception-problem": "플러그인 '{{plugin-name}}'의 명령 '{{command}} '을 실행할 수 없습니다.",
+  "ticking-block-entity-problem": "A block in the world is causing problems.",
+  "remove-block-solution": "Remove the block from the world, e.g. with MCEdit.",
+  "do-nothing-solution": "Do nothing. This problem might fix itself."
 }

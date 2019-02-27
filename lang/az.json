@@ -36,5 +36,8 @@
   "mod-install-solution-with-version": "{{mod-version}} versiyası olan '{{mod-name}}' modunu quraşdır.",
   "mod-remove-solution": "'{{mod-name}}' modunu çıxart.",
   "aquatic-version-install-solution": "Server proqram təminatını 1.13 və ya daha yeni versiyaya yenilə.",
-  "plugin-command-exception-problem": "'{{plugin-name}}' əlavəsi '{{command}}' əmrini icra edə bilmir."
+  "plugin-command-exception-problem": "'{{plugin-name}}' əlavəsi '{{command}}' əmrini icra edə bilmir.",
+  "ticking-block-entity-problem": "Dünyadakı bir blok problem yaradır.",
+  "remove-block-solution": "Bloku dünyadan çıxart, məs. MCEdit ilə.",
+  "do-nothing-solution": "Do nothing. This problem might fix itself."
 }

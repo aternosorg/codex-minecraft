@@ -36,5 +36,8 @@
   "mod-install-solution-with-version": "{{mod-name}} modunu {{mod-version}} sürümüyle kurun.",
   "mod-remove-solution": "{{mod-name}} ismli modu kaldır.",
   "aquatic-version-install-solution": "Sunucu yazılımını 1.13 veya üzerine yükseltin.",
-  "plugin-command-exception-problem": "'{{plugin-name}}' eklentisi '{{command}} ' komudunu yürütemiyor."
+  "plugin-command-exception-problem": "'{{plugin-name}}' eklentisi '{{command}} ' komudunu yürütemiyor.",
+  "ticking-block-entity-problem": "A block in the world is causing problems.",
+  "remove-block-solution": "Remove the block from the world, e.g. with MCEdit.",
+  "do-nothing-solution": "Do nothing. This problem might fix itself."
 }

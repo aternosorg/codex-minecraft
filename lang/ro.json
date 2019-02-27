@@ -36,5 +36,8 @@
   "mod-install-solution-with-version": "Instalează modul '{{mod-name}}' cu versiunea {{mod-version}}.",
   "mod-remove-solution": "Șterge modul '{{mod-name}}'.",
   "aquatic-version-install-solution": "Îmbunătățește software-ul server-ului la 1.13 sau mai nou.",
-  "plugin-command-exception-problem": "Plugin-ul '{{plugin-name}}' nu a putut executa comanda '{{command}}'."
+  "plugin-command-exception-problem": "Plugin-ul '{{plugin-name}}' nu a putut executa comanda '{{command}}'.",
+  "ticking-block-entity-problem": "Un bloc din lume cauzează probleme.",
+  "remove-block-solution": "Șterge blocul din lume, ex. cu MCEdit.",
+  "do-nothing-solution": "Do nothing. This problem might fix itself."
 }

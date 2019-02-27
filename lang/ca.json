@@ -36,5 +36,8 @@
   "mod-install-solution-with-version": "Instal·la el mod '{{mod-name}}' amb la versió {{mod-version}}.",
   "mod-remove-solution": "Elimina el mod '{{mod-name}}'.",
   "aquatic-version-install-solution": "Actualitza la versió del servidor a l'1.13 o superior.",
-  "plugin-command-exception-problem": "El plugin '{{plugin-name}}' no pot executar el comandament '{{command}}'."
+  "plugin-command-exception-problem": "El plugin '{{plugin-name}}' no pot executar el comandament '{{command}}'.",
+  "ticking-block-entity-problem": "A block in the world is causing problems.",
+  "remove-block-solution": "Remove the block from the world, e.g. with MCEdit.",
+  "do-nothing-solution": "Do nothing. This problem might fix itself."
 }

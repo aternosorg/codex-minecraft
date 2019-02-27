@@ -36,5 +36,8 @@
   "mod-install-solution-with-version": "Install the mod '{{mod-name}}' with version {{mod-version}}.",
   "mod-remove-solution": "Pašalinkite \"{{mod-name}}\" modifikaciją.",
   "aquatic-version-install-solution": "Update the server software to 1.13 or newer.",
-  "plugin-command-exception-problem": "Papildinys \"{{plugin-name}}\" negali vykdyti komandos \"{{command}}\"."
+  "plugin-command-exception-problem": "Papildinys \"{{plugin-name}}\" negali vykdyti komandos \"{{command}}\".",
+  "ticking-block-entity-problem": "A block in the world is causing problems.",
+  "remove-block-solution": "Remove the block from the world, e.g. with MCEdit.",
+  "do-nothing-solution": "Do nothing. This problem might fix itself."
 }

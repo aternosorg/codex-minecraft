@@ -36,5 +36,8 @@
   "mod-install-solution-with-version": "Installer moden {{mod-name}} med versjon: {{mod-version}}.",
   "mod-remove-solution": "Fjern moden {{mod-name}}.",
   "aquatic-version-install-solution": "Oppdater serverprogramvaren til 1.13 eller nyere.",
-  "plugin-command-exception-problem": "Pluginen {{plugin-name}} kan ikke utføre kommandoen {{command}}."
+  "plugin-command-exception-problem": "Pluginen {{plugin-name}} kan ikke utføre kommandoen {{command}}.",
+  "ticking-block-entity-problem": "En blokk i verden lager problemer.",
+  "remove-block-solution": "Fjern blokken som lager problemer, eksempelvis med verktøyet MCEdit.",
+  "do-nothing-solution": "Do nothing. This problem might fix itself."
 }
