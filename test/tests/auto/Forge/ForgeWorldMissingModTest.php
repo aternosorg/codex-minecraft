@@ -6532,6 +6532,10 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                                     [modName:protected] => mcp
                                 )
 
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\DoNothingSolution Object
+                                (
+                                )
+
                         )
 
                     [iterator:protected] => 0
@@ -6565,6 +6569,10 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                                 (
                                     [modVersion:protected] => 
                                     [modName:protected] => lucraftcore
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\DoNothingSolution Object
+                                (
                                 )
 
                         )

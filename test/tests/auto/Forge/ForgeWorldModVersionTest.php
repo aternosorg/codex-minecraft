@@ -2430,6 +2430,10 @@ class ForgeWorldModVersionTest extends PHPUnit\Framework\TestCase
                                     [modName:protected] => betterbuilderswands
                                 )
 
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\DoNothingSolution Object
+                                (
+                                )
+
                         )
 
                     [iterator:protected] => 0
