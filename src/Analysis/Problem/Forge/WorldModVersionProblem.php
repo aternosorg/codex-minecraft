@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
+use Aternos\Codex\Minecraft\Analysis\Solution\DoNothingSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -62,6 +63,7 @@ class WorldModVersionProblem extends ModProblem
         $this->currentVersion = $matches[3];
 
         $this->addSolution((new ModInstallSolution())->setModName($this->getModName())->setModVersion($this->getExpectedVersion()));
+        $this->addSolution((new DoNothingSolution()));
     }
 
     /**

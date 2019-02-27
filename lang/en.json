@@ -38,5 +38,6 @@
   "aquatic-version-install-solution": "Update the server software to 1.13 or newer.",
   "plugin-command-exception-problem": "The plugin '{{plugin-name}}' cannot execute the command '{{command}}'.",
   "ticking-block-entity-problem": "A block in the world is causing problems.",
-  "remove-block-solution": "Remove the block from the world, e.g. with MCEdit."
+  "remove-block-solution": "Remove the block from the world, e.g. with MCEdit.",
+  "do-nothing-solution": "Do nothing. This problem might fix itself."
 }

@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
+use Aternos\Codex\Minecraft\Analysis\Solution\DoNothingSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -46,5 +47,6 @@ class WorldMissingModProblem extends ModProblem
         $this->modName = $matches[1];
 
         $this->addSolution((new ModInstallSolution())->setModName($this->getModName()));
+        $this->addSolution((new DoNothingSolution()));
     }
 }
