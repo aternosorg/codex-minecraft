@@ -47,6 +47,7 @@ If you don't know the log type, you can let the [Detective](src/Detective/Detect
 <?php
 
 $detective = new \Aternos\Codex\Minecraft\Detective\Detective();
+$detective->setLogFile($logFile);
 $log = $detective->detect();
 ```
 
