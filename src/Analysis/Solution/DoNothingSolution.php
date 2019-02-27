@@ -18,6 +18,6 @@ class DoNothingSolution extends MinecraftSolution
      */
     public function getMessage(): string
     {
-        return Translator::getInstance()->getTranslation("do-nothing");
+        return Translator::getInstance()->getTranslation("do-nothing-solution");
     }
 }
