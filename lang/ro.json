@@ -39,5 +39,6 @@
   "plugin-command-exception-problem": "Plugin-ul '{{plugin-name}}' nu a putut executa comanda '{{command}}'.",
   "ticking-block-entity-problem": "Un bloc din lume cauzează probleme.",
   "remove-block-solution": "Șterge blocul din lume, ex. cu MCEdit.",
-  "do-nothing-solution": "Do nothing. This problem might fix itself."
+  "do-nothing-solution": "Do nothing. This problem might fix itself.",
+  "chunk-load-exception-problem": "There was an exception while loading the world chunks."
 }

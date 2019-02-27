@@ -6,13 +6,13 @@
   "forge-version": "Versión de Forge",
   "authme-shutdown-problem": "El plugin 'AuthMe' falló en cargar y ha cerrado el servidor.",
   "pex-config-problem": "La configuración del plugin 'PermissionsEx' es invalida.",
-  "ambiguous-plugin-name-problem": "There are multiple plugin files for the plugin name '{{plugin-name}}': '{{first-plugin-path}}' and '{{second-plugin-path}}'.",
+  "ambiguous-plugin-name-problem": "Hay varios archivos de plugin para el plugin de nombre '{{plugin-name}}':'{{first-plugin-path}}' y '{{second-plugin-path}}'.",
   "plugin-dependency-problem": "El plugin '{{plugin-name}}' necesita el plugin '{{dependency-plugin-name}}'.",
-  "plugin-disabling-problem": "The plugin '{{plugin-name}}' could not be disabled.",
-  "plugin-enabling-problem": "The plugin '{{plugin-name}}' could not be enabled.",
-  "plugin-runtime-problem": "The plugin '{{plugin-name}} has a problem while running.",
-  "forge-confirm-problem": "Forge requires your confirmation to apply changes and start the server.",
-  "mod-dependency-problem": "The mod '{{mod-name}}' is missing the required mod {{dependency-mod-name}}.",
+  "plugin-disabling-problem": "El plugin '{{plugin-name}}' no pudo ser desactivado.",
+  "plugin-enabling-problem": "El plugin '{{plugin-name}}' no pudo ser activado.",
+  "plugin-runtime-problem": "El plugin '{{plugin-name}}' tiene un problema mientras está ejecutado.",
+  "forge-confirm-problem": "Forge requiere tu confirmación para aplicar cambios e iniciar el servidor.",
+  "mod-dependency-problem": "El mod '{{mod-name}}' no tiene el mod requerido '{{dependency-mod-name}}'.",
   "mod-dependency-problem-plural": "The mod '{{mod-name}}' is missing the required mods {{dependency-mod-list}}.",
   "mod-duplicate-problem": "There are multiple mod files for the mod name '{{mod-name}}': '{{first-mod-path}}' and '{{second-mod-path}}'.",
   "mod-exception-problem": "El mod '{{mod-name}}' ha lanzado una excepción.",
@@ -39,5 +39,6 @@
   "plugin-command-exception-problem": "El plugin '{{plugin-name}}' no puede ejecutar el comando '{{command}}'.",
   "ticking-block-entity-problem": "A block in the world is causing problems.",
   "remove-block-solution": "Remove the block from the world, e.g. with MCEdit.",
-  "do-nothing-solution": "Do nothing. This problem might fix itself."
+  "do-nothing-solution": "Do nothing. This problem might fix itself.",
+  "chunk-load-exception-problem": "There was an exception while loading the world chunks."
 }

@@ -37,7 +37,8 @@
   "mod-remove-solution": "Verwijder de mod '{{mod-name}}'.",
   "aquatic-version-install-solution": "Update je server software naar 1.13 of nieuwer.",
   "plugin-command-exception-problem": "De plugin '{{plugin-name}}' kan het commando '{{command}} niet executeren.",
-  "ticking-block-entity-problem": "A block in the world is causing problems.",
-  "remove-block-solution": "Remove the block from the world, e.g. with MCEdit.",
-  "do-nothing-solution": "Do nothing. This problem might fix itself."
+  "ticking-block-entity-problem": "Een blok in de wereld veroorzaakt problemen.",
+  "remove-block-solution": "Verwijder het blok van de wereld, bijv. met MCEdit.",
+  "do-nothing-solution": "Doe niks. Dit probleem kan zichzelf oplossen.",
+  "chunk-load-exception-problem": "Er was een uitzondering tijdens het laden van de wereld chunks."
 }

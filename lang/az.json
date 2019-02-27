@@ -39,5 +39,6 @@
   "plugin-command-exception-problem": "'{{plugin-name}}' əlavəsi '{{command}}' əmrini icra edə bilmir.",
   "ticking-block-entity-problem": "Dünyadakı bir blok problem yaradır.",
   "remove-block-solution": "Bloku dünyadan çıxart, məs. MCEdit ilə.",
-  "do-nothing-solution": "Do nothing. This problem might fix itself."
+  "do-nothing-solution": "Do nothing. This problem might fix itself.",
+  "chunk-load-exception-problem": "There was an exception while loading the world chunks."
 }

@@ -39,5 +39,6 @@
   "plugin-command-exception-problem": "Das Plugin '{{plugin-name}}' kann den Befehl '{{command}}' nicht ausführen.",
   "ticking-block-entity-problem": "Ein Block in der Welt verursacht Probleme.",
   "remove-block-solution": "Entferne den Block aus der Welt, z.B. mit MCEdit.",
-  "do-nothing-solution": "Mach gar nichts. Dieses Problem könnte sich selbst beheben."
+  "do-nothing-solution": "Mach gar nichts. Dieses Problem könnte sich selbst beheben.",
+  "chunk-load-exception-problem": "Es gab eine Ausnahme beim Laden der Welt-Chunks."
 }

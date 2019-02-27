@@ -39,5 +39,6 @@
   "plugin-command-exception-problem": "Le plugin '{{plugin-name}}' ne peut pas exécuter la commande '{{command}}'.",
   "ticking-block-entity-problem": "A block in the world is causing problems.",
   "remove-block-solution": "Remove the block from the world, e.g. with MCEdit.",
-  "do-nothing-solution": "Do nothing. This problem might fix itself."
+  "do-nothing-solution": "Do nothing. This problem might fix itself.",
+  "chunk-load-exception-problem": "There was an exception while loading the world chunks."
 }
