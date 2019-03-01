@@ -3247,6 +3247,10 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                                     [relativePath:protected] => 1
                                 )
 
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\ChunkRemoveSolution Object
+                                (
+                                )
+
                         )
 
                     [iterator:protected] => 0

@@ -5857,6 +5857,10 @@ at net.minecraft.server.v1_13_R1.ChunkProviderServer.generateChunk(ChunkProvider
                                     [relativePath:protected] => 1
                                 )
 
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\ChunkRemoveSolution Object
+                                (
+                                )
+
                         )
 
                     [iterator:protected] => 0
