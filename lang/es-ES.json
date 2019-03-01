@@ -40,5 +40,6 @@
   "ticking-block-entity-problem": "Un bloque del mundo está causando problemas.",
   "remove-block-solution": "Quita el bloque del mundo, por ejemplo con MCEdit.",
   "do-nothing-solution": "No hagas nada. Este problema podría arreglarse por si solo.",
-  "chunk-load-exception-problem": "Hubo una excepción mientras el mundo cargaba los chunks."
+  "chunk-load-exception-problem": "Hubo una excepción mientras el mundo cargaba los chunks.",
+  "remove-chunk-solution": "Quite el chunk problemático del mundo, por ejemplo con MCEdit o eliminando el archivo de región."
 }

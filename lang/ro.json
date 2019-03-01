@@ -40,5 +40,6 @@
   "ticking-block-entity-problem": "Un bloc din lume cauzează probleme.",
   "remove-block-solution": "Șterge blocul din lume, ex. cu MCEdit.",
   "do-nothing-solution": "Nu fă nimic. Această problemă s-ar putea rezolva singură.",
-  "chunk-load-exception-problem": "A existat o excepție în timpul încărcării părților(Chunks) lumii."
+  "chunk-load-exception-problem": "A existat o excepție în timpul încărcării părților(Chunks) lumii.",
+  "remove-chunk-solution": "Șterge chunkul problematic din lume, ex. cu MCEdit sau șteargând din fișiere."
 }

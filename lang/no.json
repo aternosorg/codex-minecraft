@@ -40,5 +40,6 @@
   "ticking-block-entity-problem": "En blokk i verden lager problemer.",
   "remove-block-solution": "Fjern blokken som lager problemer, eksempelvis med verktøyet MCEdit.",
   "do-nothing-solution": "Her trenger du ikke gjøre noenting. Problemet vil mest sannsynlig fikse seg selv.",
-  "chunk-load-exception-problem": "Det oppstod et unntak under innlasting av verdenens deler(Chunks)."
+  "chunk-load-exception-problem": "Det oppstod et unntak under innlasting av verdenens deler(Chunks).",
+  "remove-chunk-solution": "Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file."
 }

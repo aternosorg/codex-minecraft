@@ -40,5 +40,6 @@
   "ticking-block-entity-problem": "Dünyadakı bir blok problem yaradır.",
   "remove-block-solution": "Bloku dünyadan çıxart, məs. MCEdit ilə.",
   "do-nothing-solution": "Heç nə etmə. Problem özü həll olacaq.",
-  "chunk-load-exception-problem": "Dünya parçalarını yükləyərkən bir istisna var idi."
+  "chunk-load-exception-problem": "Dünya parçalarını yükləyərkən bir istisna var idi.",
+  "remove-chunk-solution": "Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file."
 }

@@ -40,5 +40,6 @@
   "ticking-block-entity-problem": "Un bloc en el món està provocant problemes.",
   "remove-block-solution": "Treu el bloc del món amb, per exemple, amb MCEdit.",
   "do-nothing-solution": "No faigis res. Aquest problema pot solucionar-se sol.",
-  "chunk-load-exception-problem": "Hi havia una excepció mentre carregaven els 'chunks'."
+  "chunk-load-exception-problem": "Hi havia una excepció mentre carregaven els 'chunks'.",
+  "remove-chunk-solution": "Elimina el 'chunk' problematic del món, exemple, amb MCEdit o eliminat l'arxiu de regió."
 }

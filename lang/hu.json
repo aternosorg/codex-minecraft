@@ -40,5 +40,6 @@
   "ticking-block-entity-problem": "Egy blokk a világban problémákat okoz.",
   "remove-block-solution": "Blokk eltávolítása a világból, pl. MCEdit-el.",
   "do-nothing-solution": "Nem csinál semmit. A probléma magától megoldódik.",
-  "chunk-load-exception-problem": "Hiba lépett fel a világ darabjainak betöltésekor."
+  "chunk-load-exception-problem": "Hiba lépett fel a világ darabjainak betöltésekor.",
+  "remove-chunk-solution": "Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file."
 }
