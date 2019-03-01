@@ -31,7 +31,11 @@ class ChunkLoadExceptionProblem extends BukkitProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Encountered an unexpected exception(\n.*)*at.*ChunkRegionLoader\.loadChunk/'];
+        return [
+            '/Encountered an unexpected exception(\n.*)*at.*ChunkRegionLoader\.loadChunk/',
+            '/Encountered an unexpected exception(\n.*)*Exception generating new chunk/',
+            '/Couldn\'t load chunk\n/'
+        ];
     }
 
     /**

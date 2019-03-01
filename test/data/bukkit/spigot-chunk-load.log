@@ -1,0 +1,463 @@
+[15:36:37] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:36:37] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:36:37] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:36:37] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:36:37] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:36:37] [main/INFO]: Loaded 0 recipes
+[15:36:38] [Server thread/INFO]: Starting minecraft server version 1.13
+[15:36:38] [Server thread/INFO]: Loading properties
+[15:36:38] [Server thread/INFO]: Default game type: SURVIVAL
+[15:36:41] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-fe3ab0d-3418f8d (MC: 1.13) (Implementing API version 1.13-R0.1-SNAPSHOT)
+[15:36:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:36:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:36:42] [Server thread/INFO]: Debug logging is disabled
+[15:36:42] [Server thread/INFO]: Generating keypair
+[15:36:43] [Server thread/INFO]: Starting Minecraft server on *:10873
+[15:36:43] [Server thread/INFO]: Using epoll channel type
+[15:37:10] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[15:37:11] [Server thread/INFO]: [MySkin] Loading MySkin v2.2
+[15:37:11] [Server thread/INFO]: [NoTrashPl] Loading NoTrashPl v2.6
+[15:37:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:37:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:37:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:37:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:37:11] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[15:37:11] [Server thread/INFO]: Preparing level "world"
+[15:37:12] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[15:37:21] [Server thread/INFO]: Loaded 524 recipes
+[15:37:27] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:37:27] [Server thread/INFO]: Random Lighting Updates: false
+[15:37:27] [Server thread/INFO]: Custom Map Seeds: Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:37:27] [Server thread/INFO]: Max TNT Explosions: 100
+[15:37:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:37:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:37:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:37:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:37:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:37:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:37:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:37:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:37:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:37:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:37:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:37:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[15:37:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:37:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:37:27] [Server thread/INFO]: Mob Spawn Range: 8
+[15:37:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:37:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:37:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:37:27] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:37:27] [Server thread/INFO]: View Distance: 10
+[15:37:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:37:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:37:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:37:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:37:29] [Server thread/INFO]: Random Lighting Updates: false
+[15:37:29] [Server thread/INFO]: Custom Map Seeds: Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:37:29] [Server thread/INFO]: Max TNT Explosions: 100
+[15:37:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:37:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[15:37:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:37:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:37:29] [Server thread/INFO]: Mob Spawn Range: 8
+[15:37:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:37:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:37:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:37:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:37:29] [Server thread/INFO]: View Distance: 10
+[15:37:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:37:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:37:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:37:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:37:29] [Server thread/INFO]: Random Lighting Updates: false
+[15:37:29] [Server thread/INFO]: Custom Map Seeds: Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:37:29] [Server thread/INFO]: Max TNT Explosions: 100
+[15:37:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:37:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:37:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[15:37:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:37:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:37:29] [Server thread/INFO]: Mob Spawn Range: 8
+[15:37:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:37:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:37:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:37:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:37:29] [Server thread/INFO]: View Distance: 10
+[15:37:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:37:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:37:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:37:30] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6105420291853735988)
+[15:37:32] [Server thread/INFO]: Preparing spawn area: 4%
+[15:37:32] [Server thread/INFO]: Preparing spawn area: 8%
+[15:37:33] [Server thread/INFO]: Preparing spawn area: 12%
+[15:37:33] [Server thread/INFO]: Preparing spawn area: 16%
+[15:37:34] [Server thread/INFO]: Preparing spawn area: 20%
+[15:37:34] [Server thread/INFO]: Preparing spawn area: 24%
+[15:37:34] [Server thread/INFO]: Preparing spawn area: 28%
+[15:37:35] [Server thread/INFO]: Preparing spawn area: 32%
+[15:37:35] [Server thread/INFO]: Preparing spawn area: 36%
+[15:37:35] [Server thread/INFO]: Preparing spawn area: 40%
+[15:37:36] [Server thread/INFO]: Preparing spawn area: 44%
+[15:37:36] [Server thread/INFO]: Preparing spawn area: 48%
+[15:37:37] [Server thread/INFO]: Preparing spawn area: 52%
+[15:37:37] [Server thread/INFO]: Preparing spawn area: 56%
+[15:37:37] [Server thread/INFO]: Preparing spawn area: 60%
+[15:37:38] [Server thread/INFO]: Preparing spawn area: 64%
+[15:37:40] [Server thread/INFO]: Preparing spawn area: 68%
+[15:37:42] [Server thread/INFO]: Preparing spawn area: 72%
+[15:37:42] [Server thread/INFO]: Preparing spawn area: 76%
+[15:37:43] [Server thread/INFO]: Preparing spawn area: 80%
+[15:37:43] [Server thread/INFO]: Preparing spawn area: 84%
+[15:37:43] [Server thread/INFO]: Preparing spawn area: 88%
+[15:37:43] [Server thread/INFO]: Preparing spawn area: 92%
+[15:37:44] [Server thread/INFO]: Preparing spawn area: 96%
+[15:37:44] [Server thread/INFO]: Preparing spawn area: 100%
+[15:37:44] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6525236373467463498)
+[15:37:44] [Server thread/INFO]: Preparing spawn area: 4%
+[15:37:44] [Server thread/INFO]: Preparing spawn area: 8%
+[15:37:44] [Server thread/INFO]: Preparing spawn area: 12%
+[15:37:44] [Server thread/INFO]: Preparing spawn area: 16%
+[15:37:45] [Server thread/INFO]: Preparing spawn area: 20%
+[15:37:46] [Server thread/INFO]: Preparing spawn area: 24%
+[15:37:46] [Server thread/INFO]: Preparing spawn area: 28%
+[15:37:46] [Server thread/INFO]: Preparing spawn area: 32%
+[15:37:46] [Server thread/INFO]: Preparing spawn area: 36%
+[15:37:47] [Server thread/INFO]: Preparing spawn area: 40%
+[15:37:47] [Server thread/INFO]: Preparing spawn area: 44%
+[15:37:47] [Server thread/INFO]: Preparing spawn area: 48%
+[15:37:47] [Server thread/INFO]: Preparing spawn area: 52%
+[15:37:48] [Server thread/INFO]: Preparing spawn area: 56%
+[15:37:48] [Server thread/INFO]: Preparing spawn area: 60%
+[15:37:48] [Server thread/INFO]: Preparing spawn area: 64%
+[15:37:48] [Server thread/INFO]: Preparing spawn area: 68%
+[15:37:49] [Server thread/INFO]: Preparing spawn area: 72%
+[15:37:49] [Server thread/INFO]: Preparing spawn area: 76%
+[15:37:49] [Server thread/INFO]: Preparing spawn area: 80%
+[15:37:49] [Server thread/INFO]: Preparing spawn area: 84%
+[15:37:50] [Server thread/INFO]: Preparing spawn area: 88%
+[15:37:50] [Server thread/INFO]: Preparing spawn area: 92%
+[15:37:50] [Server thread/INFO]: Preparing spawn area: 96%
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 100%
+[15:37:51] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6525236373467463498)
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 4%
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 8%
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 12%
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 16%
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 20%
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 24%
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 28%
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 32%
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 36%
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 40%
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 44%
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 48%
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 52%
+[15:37:51] [Server thread/INFO]: Preparing spawn area: 56%
+[15:37:52] [Server thread/INFO]: Preparing spawn area: 60%
+[15:37:52] [Server thread/INFO]: Preparing spawn area: 64%
+[15:37:52] [Server thread/INFO]: Preparing spawn area: 68%
+[15:37:52] [Server thread/INFO]: Preparing spawn area: 72%
+[15:37:52] [Server thread/INFO]: Preparing spawn area: 76%
+[15:37:52] [Server thread/INFO]: Preparing spawn area: 80%
+[15:37:52] [Server thread/INFO]: Preparing spawn area: 84%
+[15:37:52] [Server thread/INFO]: Preparing spawn area: 88%
+[15:37:52] [Server thread/INFO]: Preparing spawn area: 92%
+[15:37:52] [Server thread/INFO]: Preparing spawn area: 96%
+[15:37:52] [Server thread/INFO]: Preparing spawn area: 100%
+[15:37:52] [Server thread/INFO]: [MySkin] Enabling MySkin v2.2
+[15:37:52] [Server thread/INFO]: [MySkin] Running on server version v1_13_R1
+[15:37:52] [Server thread/INFO]: [NoTrashPl] Enabling NoTrashPl v2.6
+[15:37:52] [Server thread/INFO]: [NoTrashPl] is now activated!
+[15:37:52] [Server thread/INFO]: [NoTrashPl] Loading current File-Content: messages.yml
+[15:37:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:37:53] [Server thread/INFO]: Time elapsed: 23050 ms
+[15:37:53] [Server thread/INFO]: Done (41.555s)! For help, type "help"
+[15:37:53] [Server thread/INFO]: Starting GS4 status listener
+[15:37:53] [Query Listener #1/INFO]: Query running on **.**.**.**:10873
+[15:53:18] [User Authenticator #11/INFO]: UUID of player player is uuid
+[15:53:19] [Server thread/ERROR]: Couldn't load chunk
+net.minecraft.server.v1_13_R1.ReportedException: Loading NBT data
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:443) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagList.load(SourceFile:69) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:84) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:53) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:43) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.RegionFileCache.read(RegionFileCache.java:89) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:85) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:53) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.loadChunk(ChunkRegionLoader.java:144) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:129) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.loadChunkAt(ChunkProviderServer.java:86) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.getOrLoadChunkAt(ChunkProviderServer.java:109) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerChunk.&lt;init&gt;(PlayerChunk.java:43) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerChunkMap.c(PlayerChunkMap.java:206) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerChunkMap.addPlayer(PlayerChunkMap.java:261) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerList.a(PlayerList.java:287) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerList.onPlayerJoin(PlayerList.java:384) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerList.a(PlayerList.java:163) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.LoginListener.b(LoginListener.java:150) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.LoginListener.Y_(LoginListener.java:54) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NetworkManager.a(NetworkManager.java:231) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ServerConnection.c(ServerConnection.java:120) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.MinecraftServer.w(MinecraftServer.java:984) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.DedicatedServer.w(DedicatedServer.java:411) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.MinecraftServer.v(MinecraftServer.java:819) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.MinecraftServer.run(MinecraftServer.java:717) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+Caused by: java.util.zip.ZipException: incorrect data check
+at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:164) ~[?:1.8.0_144]
+at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_144]
+at java.io.BufferedInputStream.read1(BufferedInputStream.java:286) ~[?:1.8.0_144]
+at java.io.BufferedInputStream.read(BufferedInputStream.java:345) ~[?:1.8.0_144]
+at java.io.DataInputStream.readFully(DataInputStream.java:195) ~[?:1.8.0_144]
+at java.io.DataInputStream.readFully(DataInputStream.java:169) ~[?:1.8.0_144]
+at net.minecraft.server.v1_13_R1.NBTTagByteArray.load(NBTTagByteArray.java:48) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+... 31 more
+[15:53:20] [Server thread/INFO]: Player[/**.**.**.**:12345] logged in with entity id 23423 at ([world]-3434.9219973876916, 34.0, -345346.9902068545332)
+[15:53:20] [Server thread/ERROR]: Couldn't load chunk
+net.minecraft.server.v1_13_R1.ReportedException: Loading NBT data
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:443) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagList.load(SourceFile:69) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:84) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:53) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:43) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.RegionFileCache.read(RegionFileCache.java:89) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:85) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:53) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.loadChunk(ChunkRegionLoader.java:144) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:129) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.loadChunkAt(ChunkProviderServer.java:86) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.getOrLoadChunkAt(ChunkProviderServer.java:109) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:120) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerChunk.a(PlayerChunk.java:85) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerChunkMap.flush(PlayerChunkMap.java:143) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.WorldServer.doTick(WorldServer.java:309) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.MinecraftServer.w(MinecraftServer.java:940) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.DedicatedServer.w(DedicatedServer.java:411) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.MinecraftServer.v(MinecraftServer.java:819) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.MinecraftServer.run(MinecraftServer.java:717) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+Caused by: java.util.zip.ZipException: incorrect data check
+at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:164) ~[?:1.8.0_144]
+at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_144]
+at java.io.BufferedInputStream.read1(BufferedInputStream.java:286) ~[?:1.8.0_144]
+at java.io.BufferedInputStream.read(BufferedInputStream.java:345) ~[?:1.8.0_144]
+at java.io.DataInputStream.readFully(DataInputStream.java:195) ~[?:1.8.0_144]
+at java.io.DataInputStream.readFully(DataInputStream.java:169) ~[?:1.8.0_144]
+at net.minecraft.server.v1_13_R1.NBTTagByteArray.load(NBTTagByteArray.java:48) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+... 25 more
+[15:53:20] [Server thread/ERROR]: Encountered an unexpected exception
+net.minecraft.server.v1_13_R1.ReportedException: Exception generating new chunk
+at net.minecraft.server.v1_13_R1.MinecraftServer.w(MinecraftServer.java:951) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.DedicatedServer.w(DedicatedServer.java:411) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.MinecraftServer.v(MinecraftServer.java:819) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.MinecraftServer.run(MinecraftServer.java:717) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+Caused by: java.util.concurrent.ExecutionException: net.minecraft.server.v1_13_R1.ReportedException: Loading NBT data
+at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357) ~[?:1.8.0_144]
+at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895) ~[?:1.8.0_144]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:127) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerChunk.a(PlayerChunk.java:85) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerChunkMap.flush(PlayerChunkMap.java:143) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.WorldServer.doTick(WorldServer.java:309) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.MinecraftServer.w(MinecraftServer.java:940) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+... 4 more
+Caused by: net.minecraft.server.v1_13_R1.ReportedException: Loading NBT data
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:443) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagList.load(SourceFile:69) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:84) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:53) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:43) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.RegionFileCache.read(RegionFileCache.java:89) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:85) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:53) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.b(ChunkRegionLoader.java:166) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.a(ChunkTaskScheduler.java:68) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.lambda$2(ChunkTaskScheduler.java:50) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.util.Map.computeIfAbsent(Map.java:957) ~[?:1.8.0_144]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.a(ChunkTaskScheduler.java:49) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.a(ChunkTaskScheduler.java:1) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.Scheduler.a(SourceFile:60) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[?:1.8.0_144]
+at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:260) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1604) ~[?:1.8.0_144]
+at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:1830) ~[?:1.8.0_144]
+at net.minecraft.server.v1_13_R1.Scheduler.b(SourceFile:61) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.SchedulerBatch.a(SourceFile:39) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.generateChunk(ChunkProviderServer.java:176) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.generateChunk(ChunkProviderServer.java:166) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:127) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerChunk.a(PlayerChunk.java:85) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerChunkMap.flush(PlayerChunkMap.java:143) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.WorldServer.doTick(WorldServer.java:309) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.MinecraftServer.w(MinecraftServer.java:940) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+... 4 more
+Caused by: java.util.zip.ZipException: incorrect data check
+at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:164) ~[?:1.8.0_144]
+at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_144]
+at java.io.BufferedInputStream.read1(BufferedInputStream.java:286) ~[?:1.8.0_144]
+at java.io.BufferedInputStream.read(BufferedInputStream.java:345) ~[?:1.8.0_144]
+at java.io.DataInputStream.readFully(DataInputStream.java:195) ~[?:1.8.0_144]
+at java.io.DataInputStream.readFully(DataInputStream.java:169) ~[?:1.8.0_144]
+at net.minecraft.server.v1_13_R1.NBTTagByteArray.load(NBTTagByteArray.java:48) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagList.load(SourceFile:69) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:84) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:53) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:43) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.RegionFileCache.read(RegionFileCache.java:89) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:85) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:53) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.b(ChunkRegionLoader.java:166) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.a(ChunkTaskScheduler.java:68) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.lambda$2(ChunkTaskScheduler.java:50) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.util.Map.computeIfAbsent(Map.java:957) ~[?:1.8.0_144]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.a(ChunkTaskScheduler.java:49) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.a(ChunkTaskScheduler.java:1) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.Scheduler.a(SourceFile:60) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[?:1.8.0_144]
+at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:260) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1604) ~[?:1.8.0_144]
+at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:1830) ~[?:1.8.0_144]
+at net.minecraft.server.v1_13_R1.Scheduler.b(SourceFile:61) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.SchedulerBatch.a(SourceFile:39) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.generateChunk(ChunkProviderServer.java:176) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.generateChunk(ChunkProviderServer.java:166) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:127) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerChunk.a(PlayerChunk.java:85) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerChunkMap.flush(PlayerChunkMap.java:143) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.WorldServer.doTick(WorldServer.java:309) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.MinecraftServer.w(MinecraftServer.java:940) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+... 4 more
+[15:53:20] [Server thread/ERROR]: Cause of unexpected exception was
+java.util.concurrent.ExecutionException: net.minecraft.server.v1_13_R1.ReportedException: Loading NBT data
+at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357) ~[?:1.8.0_144]
+at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895) ~[?:1.8.0_144]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:127) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerChunk.a(PlayerChunk.java:85) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.PlayerChunkMap.flush(PlayerChunkMap.java:143) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.WorldServer.doTick(WorldServer.java:309) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.MinecraftServer.w(MinecraftServer.java:940) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.DedicatedServer.w(DedicatedServer.java:411) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.MinecraftServer.v(MinecraftServer.java:819) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.MinecraftServer.run(MinecraftServer.java:717) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+Caused by: net.minecraft.server.v1_13_R1.ReportedException: Loading NBT data
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:443) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagList.load(SourceFile:69) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:84) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:53) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:43) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.RegionFileCache.read(RegionFileCache.java:89) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:85) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:53) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.b(ChunkRegionLoader.java:166) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.a(ChunkTaskScheduler.java:68) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.lambda$2(ChunkTaskScheduler.java:50) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.util.Map.computeIfAbsent(Map.java:957) ~[?:1.8.0_144]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.a(ChunkTaskScheduler.java:49) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.a(ChunkTaskScheduler.java:1) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.Scheduler.a(SourceFile:60) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[?:1.8.0_144]
+at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:260) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1604) ~[?:1.8.0_144]
+at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:1830) ~[?:1.8.0_144]
+at net.minecraft.server.v1_13_R1.Scheduler.b(SourceFile:61) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.SchedulerBatch.a(SourceFile:39) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.generateChunk(ChunkProviderServer.java:176) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.generateChunk(ChunkProviderServer.java:166) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+... 9 more
+Caused by: java.util.zip.ZipException: incorrect data check
+at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:164) ~[?:1.8.0_144]
+at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_144]
+at java.io.BufferedInputStream.read1(BufferedInputStream.java:286) ~[?:1.8.0_144]
+at java.io.BufferedInputStream.read(BufferedInputStream.java:345) ~[?:1.8.0_144]
+at java.io.DataInputStream.readFully(DataInputStream.java:195) ~[?:1.8.0_144]
+at java.io.DataInputStream.readFully(DataInputStream.java:169) ~[?:1.8.0_144]
+at net.minecraft.server.v1_13_R1.NBTTagByteArray.load(NBTTagByteArray.java:48) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagList.load(SourceFile:69) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.a(SourceFile:437) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTTagCompound.load(SourceFile:81) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:84) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:53) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:43) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.RegionFileCache.read(RegionFileCache.java:89) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:85) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:53) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkRegionLoader.b(ChunkRegionLoader.java:166) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.a(ChunkTaskScheduler.java:68) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.lambda$2(ChunkTaskScheduler.java:50) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.util.Map.computeIfAbsent(Map.java:957) ~[?:1.8.0_144]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.a(ChunkTaskScheduler.java:49) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkTaskScheduler.a(ChunkTaskScheduler.java:1) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.Scheduler.a(SourceFile:60) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[?:1.8.0_144]
+at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:260) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1604) ~[?:1.8.0_144]
+at java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:1830) ~[?:1.8.0_144]
+at net.minecraft.server.v1_13_R1.Scheduler.b(SourceFile:61) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.SchedulerBatch.a(SourceFile:39) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.generateChunk(ChunkProviderServer.java:176) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+at net.minecraft.server.v1_13_R1.ChunkProviderServer.generateChunk(ChunkProviderServer.java:166) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]
+... 9 more
+[15:53:20] [Server thread/ERROR]: This crash report has been saved to: /aternos/server/./crash-reports/crash-2019-03-01_15.53.20-server.txt
+[15:53:20] [Server thread/INFO]: Stopping server
+[15:53:20] [Server thread/INFO]: [NoTrashPl] Disabling NoTrashPl v2.6
+[15:53:20] [Server thread/INFO]: [NoTrashPl] is now deactivated!
+[15:53:20] [Server thread/INFO]: [MySkin] Disabling MySkin v2.2
+[15:53:20] [Server thread/INFO]: Saving players
+[15:53:20] [Server thread/INFO]: Saving worlds
+[15:53:20] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[15:53:22] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[15:53:22] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
