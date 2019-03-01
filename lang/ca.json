@@ -37,8 +37,8 @@
   "mod-remove-solution": "Elimina el mod '{{mod-name}}'.",
   "aquatic-version-install-solution": "Actualitza la versió del servidor a l'1.13 o superior.",
   "plugin-command-exception-problem": "El plugin '{{plugin-name}}' no pot executar el comandament '{{command}}'.",
-  "ticking-block-entity-problem": "A block in the world is causing problems.",
-  "remove-block-solution": "Remove the block from the world, e.g. with MCEdit.",
-  "do-nothing-solution": "Do nothing. This problem might fix itself.",
-  "chunk-load-exception-problem": "There was an exception while loading the world chunks."
+  "ticking-block-entity-problem": "Un bloc en el món està provocant problemes.",
+  "remove-block-solution": "Treu el bloc del món amb, per exemple, amb MCEdit.",
+  "do-nothing-solution": "No faigis res. Aquest problema pot solucionar-se sol.",
+  "chunk-load-exception-problem": "Hi havia una excepció mentre carregaven els 'chunks'."
 }

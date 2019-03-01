@@ -1,16 +1,16 @@
 {
-  "minecraft-version": "Minecraft verze",
+  "minecraft-version": "verze Minecraft",
   "plugin-load-problem": "plugin '{{plugin-name}}' nemohl být načten.",
   "pocketmine-version": "Pocketmine verze",
   "bedrock-version": "Bedrock verze",
   "forge-version": "Forge verze",
-  "authme-shutdown-problem": "Plugin \"AuthMe\" se nepodařilo spustit a vypnul server.",
-  "pex-config-problem": "konfigurace pluginu 'PermissionsEx' je neplatná.",
+  "authme-shutdown-problem": "Plugin \"AuthMe\" se nepodařilo načíst a vypnul server.",
+  "pex-config-problem": "Konfigurace pluginu 'PermissionsEx' je neplatná.",
   "ambiguous-plugin-name-problem": "Existuje více plugin souborů pro plugin jméno '{{plugin-name}}': '{{first-plugin-path}}' a '{{second-plugin-path}}'.",
-  "plugin-dependency-problem": "pluginu '{{plugin-name}}' chybí požadovaný plugin '{{dependency-plugin-name}}'.",
+  "plugin-dependency-problem": "Pluginu '{{plugin-name}}' chybí požadovaný plugin '{{dependency-plugin-name}}'.",
   "plugin-disabling-problem": "Nelze zakázat plugin \"{{plugin-name}}\".",
   "plugin-enabling-problem": "Nelze povolit plugin \"{{plugin-name}}\".",
-  "plugin-runtime-problem": "plugin '{{plugin-name}} má problém když je spuštený.",
+  "plugin-runtime-problem": "Plugin '{{plugin-name}} má problém když je spuštený.",
   "forge-confirm-problem": "Forge vyžaduje vaše potvrzení pro použití změn a spuštění serveru.",
   "mod-dependency-problem": "módu '{{mod-name}}' chybí požadovaný mód {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "módu '{{mod-name}}' chybí požadované módy {{dependency-mod-list}}.",
@@ -40,5 +40,5 @@
   "ticking-block-entity-problem": "A block in the world is causing problems.",
   "remove-block-solution": "Remove the block from the world, e.g. with MCEdit.",
   "do-nothing-solution": "Do nothing. This problem might fix itself.",
-  "chunk-load-exception-problem": "There was an exception while loading the world chunks."
+  "chunk-load-exception-problem": "Došlo k chybě při načítání chunků světa."
 }

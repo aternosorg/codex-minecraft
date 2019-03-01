@@ -13,8 +13,8 @@
   "plugin-runtime-problem": "El plugin '{{plugin-name}}' tiene un problema mientras está ejecutado.",
   "forge-confirm-problem": "Forge requiere tu confirmación para aplicar cambios e iniciar el servidor.",
   "mod-dependency-problem": "El mod '{{mod-name}}' no tiene el mod requerido '{{dependency-mod-name}}'.",
-  "mod-dependency-problem-plural": "The mod '{{mod-name}}' is missing the required mods {{dependency-mod-list}}.",
-  "mod-duplicate-problem": "There are multiple mod files for the mod name '{{mod-name}}': '{{first-mod-path}}' and '{{second-mod-path}}'.",
+  "mod-dependency-problem-plural": "El mod '{{mod-name}}' le falta los mods requeridos {{dependency-mod-list}}.",
+  "mod-duplicate-problem": "Hay archivos de mod duplicados para el mod de nombre '{{mod-name}}' en '{{first-mod-path}}' y '{{second-mod-path}}'.",
   "mod-exception-problem": "El mod '{{mod-name}}' ha lanzado una excepción.",
   "mod-fatal-problem": "El mod '{{mod-name}}' tiene un error fatal.",
   "world-missing-mod-problem": "El mundo fue guardado con el mod '{{mod-name}}' que parece estar ausente.",
@@ -37,8 +37,8 @@
   "mod-remove-solution": "Eliminar mod '{{mod-name}}'.",
   "aquatic-version-install-solution": "Actualiza el software del servidor a 1.13 o superior.",
   "plugin-command-exception-problem": "El plugin '{{plugin-name}}' no puede ejecutar el comando '{{command}}'.",
-  "ticking-block-entity-problem": "A block in the world is causing problems.",
-  "remove-block-solution": "Remove the block from the world, e.g. with MCEdit.",
-  "do-nothing-solution": "Do nothing. This problem might fix itself.",
-  "chunk-load-exception-problem": "There was an exception while loading the world chunks."
+  "ticking-block-entity-problem": "Un bloque del mundo está causando problemas.",
+  "remove-block-solution": "Quita el bloque del mundo, por ejemplo con MCEdit.",
+  "do-nothing-solution": "No hagas nada. Este problema podría arreglarse por si solo.",
+  "chunk-load-exception-problem": "Hubo una excepción mientras el mundo cargaba los chunks."
 }

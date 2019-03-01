@@ -1,5 +1,5 @@
 {
-  "minecraft-version": "Minecraft version",
+  "minecraft-version": "Minecraft верзија",
   "plugin-load-problem": "The plugin '{{plugin-name}}' could not be loaded.",
   "pocketmine-version": "Pocketmine version",
   "bedrock-version": "Bedrock version",

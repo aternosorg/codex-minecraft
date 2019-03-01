@@ -1,11 +1,11 @@
 {
-  "minecraft-version": "Minecraft version",
-  "plugin-load-problem": "The plugin '{{plugin-name}}' could not be loaded.",
-  "pocketmine-version": "Pocketmine version",
-  "bedrock-version": "Bedrock version",
-  "forge-version": "Forge version",
-  "authme-shutdown-problem": "The plugin 'AuthMe' fails to load and shuts the server down.",
-  "pex-config-problem": "The configuration of the plugin 'PermissionsEx' is invalid.",
+  "minecraft-version": "Minecraft versioon",
+  "plugin-load-problem": "Pluginat '{{plugin-name}}' ei saa laadida.",
+  "pocketmine-version": "Pocketmine versioon",
+  "bedrock-version": "Bedrock versioon",
+  "forge-version": "Forge versioon",
+  "authme-shutdown-problem": "Plugin 'AuthMe' ebaõnnestus laadida ja paneb serveri kinni.",
+  "pex-config-problem": "Plugin \"PermissionsEx\" konfiguratsioon ei sobi.",
   "ambiguous-plugin-name-problem": "There are multiple plugin files for the plugin name '{{plugin-name}}': '{{first-plugin-path}}' and '{{second-plugin-path}}'.",
   "plugin-dependency-problem": "The plugin '{{plugin-name}}' is missing the required the plugin '{{dependency-plugin-name}}'.",
   "plugin-disabling-problem": "The plugin '{{plugin-name}}' could not be disabled.",
@@ -40,5 +40,5 @@
   "ticking-block-entity-problem": "A block in the world is causing problems.",
   "remove-block-solution": "Remove the block from the world, e.g. with MCEdit.",
   "do-nothing-solution": "Do nothing. This problem might fix itself.",
-  "chunk-load-exception-problem": "There was an exception while loading the world chunks."
+  "chunk-load-exception-problem": "Maailma tükkideks laadimisel ilmnes erand."
 }

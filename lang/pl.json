@@ -37,8 +37,8 @@
   "mod-remove-solution": "Usuń modyfikację '{{mod-name}}'.",
   "aquatic-version-install-solution": "Zaktualizuj oprogramowanie serwera do wersji 1.13 lub nowszej.",
   "plugin-command-exception-problem": "Wtyczka '{{plugin-name}}' nie mogła wykonać polecenia '{{command}}'.",
-  "ticking-block-entity-problem": "A block in the world is causing problems.",
-  "remove-block-solution": "Remove the block from the world, e.g. with MCEdit.",
-  "do-nothing-solution": "Do nothing. This problem might fix itself.",
-  "chunk-load-exception-problem": "There was an exception while loading the world chunks."
+  "ticking-block-entity-problem": "Blok w świecie powoduje problemy.",
+  "remove-block-solution": "Usuń blok ze świata, np. za pomocą MCEdit.",
+  "do-nothing-solution": "Nic nie rób. Problem może rozwiązać się sam.",
+  "chunk-load-exception-problem": "Wystąpił problem podczas ładowania fragmentów świata."
 }
