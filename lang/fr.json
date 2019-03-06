@@ -13,7 +13,7 @@
   "plugin-runtime-problem": "Le plugin '{{plugin-name}} ' a un problème durant son exécution.",
   "forge-confirm-problem": "Forge nécessite votre confirmation pour appliquer les changements et démarrer le serveur.",
   "mod-dependency-problem": "Le mod '{{mod-name}}' a besoin du mod {{dependency-mod-name}}.",
-  "mod-dependency-problem-plural": "Le mod '{{mod-name}}' à besoin des mods {{dependency-mod-list}}.",
+  "mod-dependency-problem-plural": "Le mod '{{mod-name}}' a besoin des mods {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Il y a plusieurs fichiers de mod pour le nom du mod '{{mod-name}}': '{{first-mod-path}}' et '{{second-mod-path}}'.",
   "mod-exception-problem": "Le mod '{{mod-name}}' a levé une exception.",
   "mod-fatal-problem": "Le mod '{{mod-name}}' a une erreur critique.",
@@ -37,9 +37,9 @@
   "mod-remove-solution": "Supprimer le mod '{{mod-name}}'.",
   "aquatic-version-install-solution": "Mettre à jour le logiciel serveur à 1.13 ou plus récent.",
   "plugin-command-exception-problem": "Le plugin '{{plugin-name}}' ne peut pas exécuter la commande '{{command}}'.",
-  "ticking-block-entity-problem": "Un bloc dans le monde pose problème.",
+  "ticking-block-entity-problem": "Un bloc dans le monde pose des problèmes.",
   "remove-block-solution": "Retirez le bloc du monde, par exemple avec MCEdit.",
   "do-nothing-solution": "Ne faites rien. Le problème pourrait se régler de lui-même.",
   "chunk-load-exception-problem": "Une erreur s'est produite durant le chargement des tronçons du monde.",
-  "remove-chunk-solution": "Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file."
+  "remove-chunk-solution": "Retirez le tronçon problématique du monde, par exemple avec MCEdit ou en supprimant le fichier concerné."
 }
