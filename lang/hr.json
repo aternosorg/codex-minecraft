@@ -42,6 +42,6 @@
   "do-nothing-solution": "Ne radite ništa. Problem će se popraviti sam.",
   "chunk-load-exception-problem": "Pojavila se greška prilikom učitavanja komada svijeta.",
   "remove-chunk-solution": "Obrišite problematičan koman iz svijeta, naprimjer sa MCEdit ili brisanjem fajla regije.",
-  "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
-  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit."
+  "multiverse-load-problem": "Svijet {{world-name}} nemože se učitati jer sadrži greške i vjerojatno je pokvaren.",
+  "world-repair-solution": "Popravite svijet {{world-name}}, naprimjer korištenjem Minecraft Region Fixer ili MCEdit."
 }

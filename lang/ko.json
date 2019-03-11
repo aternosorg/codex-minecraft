@@ -42,6 +42,6 @@
   "do-nothing-solution": "아무것도 하지마세요! 이 문제는 곧 해결 됩니다.",
   "chunk-load-exception-problem": "월드 파일을 불러오는 도중 일부 예외가 있었습니다.",
   "remove-chunk-solution": "문제를 일으키는 청크를 월드에서 제거하세요. 예를 들어 MCEdit 또는 지역파일을 지우세요.",
-  "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
-  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit."
+  "multiverse-load-problem": "'{{world-name}}' 월드는 올바르지 않은 값과 오류를 포함하고 있어, 불러올 수 없습니다.",
+  "world-repair-solution": "Minecraft Region 또는 MCEdit 등을 이용하여 '{{world-name}}' 를 복구하세요."
 }

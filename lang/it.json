@@ -42,6 +42,6 @@
   "do-nothing-solution": "Non fare nulla. Questo problema potrebbe risolversi da solo.",
   "chunk-load-exception-problem": "C'è stata un'eccezione durante il caricamento dei chunk del mondo.",
   "remove-chunk-solution": "Rimuovi il chunk problematico dal mondo,\nEs. Con MCEdit o rimuovendo il file region.",
-  "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
-  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit."
+  "multiverse-load-problem": "Il mondo '{{world-name}}' con puo essere caricato perché contiene errori ed é probabilmente corrotto.",
+  "world-repair-solution": "Ripara il mondo '{{world-name}}', es. usando Minecraft Region Fixer o MCEdit."
 }
