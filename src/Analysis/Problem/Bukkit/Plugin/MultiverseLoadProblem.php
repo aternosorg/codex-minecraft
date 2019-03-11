@@ -33,7 +33,7 @@ class MultiverseLoadProblem extends SpecificPluginProblem
      */
     public function getMessage(): string
     {
-        return Translator::getInstance()->getTranslation("multiverse-load-problem", ["world-name", $this->getWorldName()]);
+        return Translator::getInstance()->getTranslation("multiverse-load-problem", ["world-name" => $this->getWorldName()]);
     }
 
     /**
