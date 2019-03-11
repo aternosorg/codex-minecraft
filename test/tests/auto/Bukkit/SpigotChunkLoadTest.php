@@ -5851,13 +5851,18 @@ at net.minecraft.server.v1_13_R1.ChunkProviderServer.generateChunk(ChunkProvider
                 (
                     [solutions:protected] => Array
                         (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\WorldRepairSolution Object
+                                (
+                                    [worldName:protected] => world
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
                                 (
                                     [path:protected] => world
                                     [relativePath:protected] => 1
                                 )
 
-                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\ChunkRemoveSolution Object
+                            [2] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\ChunkRemoveSolution Object
                                 (
                                 )
 

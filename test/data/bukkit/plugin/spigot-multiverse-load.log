@@ -1,0 +1,267 @@
+[14:33:05] [main/INFO]: Loaded 0 recipes
+[14:33:06] [Server thread/INFO]: Starting minecraft server version 1.13.2
+[14:33:06] [Server thread/INFO]: Loading properties
+[14:33:06] [Server thread/INFO]: Default game type: SURVIVAL
+[14:33:07] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-3cb9dcb-77ca7ca (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
+[14:33:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:33:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:33:09] [Server thread/INFO]: Debug logging is disabled
+[14:33:09] [Server thread/INFO]: Generating keypair
+[14:33:11] [Server thread/INFO]: Starting Minecraft server on *:10160
+[14:33:11] [Server thread/INFO]: Using epoll channel type
+[14:33:33] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.0-beta-05;6bbf29b
+[14:33:33] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-b727
+[14:33:34] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.5.0-b751
+[14:33:34] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v2.5-b675
+[14:33:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:33:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:33:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:33:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:33:34] [Server thread/INFO]: Preparing level "world"
+[14:33:35] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[14:33:38] [Server thread/INFO]: Loaded 524 recipes
+[14:33:40] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:33:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:33:40] [Server thread/INFO]: Mob Spawn Range: 6
+[14:33:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:33:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:33:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:33:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:33:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:33:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:33:40] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:33:40] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:33:40] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:33:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:33:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:33:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:33:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:33:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:33:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:33:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:33:40] [Server thread/INFO]: Random Lighting Updates: false
+[14:33:40] [Server thread/INFO]: Custom Map Seeds: Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[14:33:40] [Server thread/INFO]: Max TNT Explosions: 100
+[14:33:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:33:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:33:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:33:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:33:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:33:40] [Server thread/INFO]: View Distance: 7
+[14:33:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:33:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:33:41] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:33:41] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:33:41] [Server thread/INFO]: Mob Spawn Range: 6
+[14:33:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:33:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:33:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:33:41] [Server thread/INFO]: Random Lighting Updates: false
+[14:33:41] [Server thread/INFO]: Custom Map Seeds: Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[14:33:41] [Server thread/INFO]: Max TNT Explosions: 100
+[14:33:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:33:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:33:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:33:41] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:33:41] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:33:41] [Server thread/INFO]: View Distance: 7
+[14:33:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:33:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:33:41] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:33:41] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:33:41] [Server thread/INFO]: Mob Spawn Range: 6
+[14:33:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:33:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:33:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:33:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:33:41] [Server thread/INFO]: Random Lighting Updates: false
+[14:33:41] [Server thread/INFO]: Custom Map Seeds: Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[14:33:41] [Server thread/INFO]: Max TNT Explosions: 100
+[14:33:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:33:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:33:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:33:41] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:33:41] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:33:41] [Server thread/INFO]: View Distance: 7
+[14:33:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:33:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:33:42] [Server thread/INFO]: Preparing start region for level minecraft:overworld (Seed: 3557810)
+[14:33:43] [Server thread/INFO]: Preparing spawn area: 4%
+[14:33:44] [Server thread/INFO]: Preparing spawn area: 8%
+[14:33:45] [Server thread/INFO]: Preparing spawn area: 12%
+[14:33:45] [Server thread/INFO]: Preparing spawn area: 16%
+[14:33:45] [Server thread/INFO]: Preparing spawn area: 20%
+[14:33:45] [Server thread/INFO]: Preparing spawn area: 24%
+[14:33:46] [Server thread/INFO]: Preparing spawn area: 28%
+[14:33:46] [Server thread/INFO]: Preparing spawn area: 32%
+[14:33:46] [Server thread/INFO]: Preparing spawn area: 36%
+[14:33:46] [Server thread/INFO]: Preparing spawn area: 40%
+[14:33:47] [Server thread/INFO]: Preparing spawn area: 44%
+[14:33:48] [Server thread/INFO]: Preparing spawn area: 48%
+[14:33:48] [Server thread/INFO]: Preparing spawn area: 52%
+[14:33:48] [Server thread/INFO]: Preparing spawn area: 56%
+[14:33:48] [Server thread/INFO]: Preparing spawn area: 60%
+[14:33:49] [Server thread/INFO]: Preparing spawn area: 64%
+[14:33:49] [Server thread/INFO]: Preparing spawn area: 68%
+[14:33:49] [Server thread/INFO]: Preparing spawn area: 72%
+[14:33:49] [Server thread/INFO]: Preparing spawn area: 76%
+[14:33:50] [Server thread/INFO]: Preparing spawn area: 80%
+[14:33:50] [Server thread/INFO]: Preparing spawn area: 84%
+[14:33:50] [Server thread/INFO]: Preparing spawn area: 88%
+[14:33:51] [Server thread/INFO]: Preparing spawn area: 92%
+[14:33:52] [Server thread/INFO]: Preparing spawn area: 96%
+[14:33:52] [Server thread/INFO]: Preparing spawn area: 100%
+[14:33:52] [Server thread/INFO]: Preparing start region for level minecraft:the_nether (Seed: 3557810)
+[14:33:52] [Server thread/INFO]: Preparing spawn area: 4%
+[14:33:53] [Server thread/INFO]: Preparing spawn area: 8%
+[14:33:53] [Server thread/INFO]: Preparing spawn area: 12%
+[14:33:53] [Server thread/INFO]: Preparing spawn area: 16%
+[14:33:53] [Server thread/INFO]: Preparing spawn area: 20%
+[14:33:54] [Server thread/INFO]: Preparing spawn area: 24%
+[14:33:54] [Server thread/INFO]: Preparing spawn area: 28%
+[14:33:54] [Server thread/INFO]: Preparing spawn area: 32%
+[14:33:54] [Server thread/INFO]: Preparing spawn area: 36%
+[14:33:54] [Server thread/INFO]: Preparing spawn area: 40%
+[14:33:54] [Server thread/INFO]: Preparing spawn area: 44%
+[14:33:55] [Server thread/INFO]: Preparing spawn area: 48%
+[14:33:55] [Server thread/INFO]: Preparing spawn area: 52%
+[14:33:55] [Server thread/INFO]: Preparing spawn area: 56%
+[14:33:55] [Server thread/INFO]: Preparing spawn area: 60%
+[14:33:55] [Server thread/INFO]: Preparing spawn area: 64%
+[14:33:56] [Server thread/INFO]: Preparing spawn area: 68%
+[14:33:56] [Server thread/INFO]: Preparing spawn area: 72%
+[14:33:56] [Server thread/INFO]: Preparing spawn area: 76%
+[14:33:57] [Server thread/INFO]: Preparing spawn area: 80%
+[14:33:57] [Server thread/INFO]: Preparing spawn area: 84%
+[14:33:57] [Server thread/INFO]: Preparing spawn area: 88%
+[14:33:57] [Server thread/INFO]: Preparing spawn area: 92%
+[14:33:57] [Server thread/INFO]: Preparing spawn area: 96%
+[14:33:57] [Server thread/INFO]: Preparing spawn area: 100%
+[14:33:57] [Server thread/INFO]: Preparing start region for level minecraft:the_end (Seed: 3557810)
+[14:33:57] [Server thread/INFO]: Preparing spawn area: 4%
+[14:33:57] [Server thread/INFO]: Preparing spawn area: 8%
+[14:33:57] [Server thread/INFO]: Preparing spawn area: 12%
+[14:33:57] [Server thread/INFO]: Preparing spawn area: 16%
+[14:33:57] [Server thread/INFO]: Preparing spawn area: 20%
+[14:33:57] [Server thread/INFO]: Preparing spawn area: 24%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 28%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 32%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 36%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 40%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 44%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 48%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 52%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 56%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 60%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 64%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 68%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 72%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 76%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 80%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 84%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 88%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 92%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 96%
+[14:33:58] [Server thread/INFO]: Preparing spawn area: 100%
+[14:33:58] [Server thread/INFO]: Time elapsed: 16576 ms
+[14:33:58] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.0-beta-05;6bbf29b
+[14:34:00] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_13_R2_2 as the Bukkit adapter
+[14:34:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:34:11] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5.0-b727
+[14:34:11] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[14:34:11] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[14:34:11] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[14:34:11] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[14:34:11] [Server thread/WARN]: java.lang.NullPointerException
+[14:34:11] [Server thread/WARN]: at net.minecraft.server.v1_13_R2.WorldServer.&lt;init&gt;(WorldServer.java:55)
+[14:34:11] [Server thread/WARN]: at org.bukkit.craftbukkit.v1_13_R2.CraftServer.createWorld(CraftServer.java:951)
+[14:34:11] [Server thread/WARN]: at org.bukkit.Bukkit.createWorld(Bukkit.java:462)
+[14:34:11] [Server thread/WARN]: at org.bukkit.WorldCreator.createWorld(WorldCreator.java:261)
+[14:34:11] [Server thread/WARN]: at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:466)
+[14:34:11] [Server thread/WARN]: at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:447)
+[14:34:11] [Server thread/WARN]: at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:422)
+[14:34:11] [Server thread/WARN]: at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:725)
+[14:34:11] [Server thread/WARN]: at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:312)
+[14:34:11] [Server thread/WARN]: at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:254)
+[14:34:11] [Server thread/WARN]: at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340)
+[14:34:11] [Server thread/WARN]: at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:404)
+[14:34:11] [Server thread/WARN]: at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugin(CraftServer.java:436)
+[14:34:11] [Server thread/WARN]: at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugins(CraftServer.java:350)
+[14:34:11] [Server thread/WARN]: at net.minecraft.server.v1_13_R2.MinecraftServer.l(MinecraftServer.java:580)
+[14:34:11] [Server thread/WARN]: at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:542)
+[14:34:11] [Server thread/WARN]: at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:420)
+[14:34:11] [Server thread/WARN]: at net.minecraft.server.v1_13_R2.DedicatedServer.init(DedicatedServer.java:294)
+[14:34:11] [Server thread/WARN]: at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:698)
+[14:34:11] [Server thread/WARN]: at java.lang.Thread.run(Thread.java:748)
+[14:34:11] [Server thread/ERROR]: [Multiverse-Core] The world 'New_world' could NOT be loaded because it contains errors and is probably corrupt!
+[14:34:11] [Server thread/ERROR]: [Multiverse-Core] Try using Minecraft Region Fixer to repair your world! 'New_world'
+[14:34:11] [Server thread/ERROR]: [Multiverse-Core] https://github.com/Fenixin/Minecraft-Region-Fixer
+[14:34:12] [Server thread/WARN]: java.lang.NullPointerException
+[14:34:12] [Server thread/WARN]: at net.minecraft.server.v1_13_R2.WorldServer.&lt;init&gt;(WorldServer.java:55)
+[14:34:12] [Server thread/WARN]: at org.bukkit.craftbukkit.v1_13_R2.CraftServer.createWorld(CraftServer.java:951)
+[14:34:12] [Server thread/WARN]: at org.bukkit.Bukkit.createWorld(Bukkit.java:462)
+[14:34:12] [Server thread/WARN]: at org.bukkit.WorldCreator.createWorld(WorldCreator.java:261)
+[14:34:12] [Server thread/WARN]: at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:466)
+[14:34:12] [Server thread/WARN]: at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:447)
+[14:34:12] [Server thread/WARN]: at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:422)
+[14:34:12] [Server thread/WARN]: at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:725)
+[14:34:12] [Server thread/WARN]: at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:312)
+[14:34:12] [Server thread/WARN]: at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:254)
+[14:34:12] [Server thread/WARN]: at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340)
+[14:34:12] [Server thread/WARN]: at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:404)
+[14:34:12] [Server thread/WARN]: at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugin(CraftServer.java:436)
+[14:34:12] [Server thread/WARN]: at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugins(CraftServer.java:350)
+[14:34:12] [Server thread/WARN]: at net.minecraft.server.v1_13_R2.MinecraftServer.l(MinecraftServer.java:580)
+[14:34:12] [Server thread/WARN]: at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:542)
+[14:34:12] [Server thread/WARN]: at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:420)
+[14:34:12] [Server thread/WARN]: at net.minecraft.server.v1_13_R2.DedicatedServer.init(DedicatedServer.java:294)
+[14:34:12] [Server thread/WARN]: at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:698)
+[14:34:12] [Server thread/WARN]: at java.lang.Thread.run(Thread.java:748)
+[14:34:12] [Server thread/ERROR]: [Multiverse-Core] The world 'New_World' could NOT be loaded because it contains errors and is probably corrupt!
+[14:34:12] [Server thread/ERROR]: [Multiverse-Core] Try using Minecraft Region Fixer to repair your world! 'New_World'
+[14:34:12] [Server thread/ERROR]: [Multiverse-Core] https://github.com/Fenixin/Minecraft-Region-Fixer
+[14:34:12] [Server thread/INFO]: -------- World Settings For [island] --------
+[14:34:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:34:12] [Server thread/INFO]: Mob Spawn Range: 6
+[14:34:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:34:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:34:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:34:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:34:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:34:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:34:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:34:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:34:12] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:34:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:34:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:34:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:34:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:34:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:34:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:34:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:34:12] [Server thread/INFO]: Random Lighting Updates: false

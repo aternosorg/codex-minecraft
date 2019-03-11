@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\ChunkRemoveSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\WorldRepairSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -49,6 +50,7 @@ class ChunkLoadExceptionProblem extends BukkitProblem
      */
     public function setMatches(array $matches, $patternKey)
     {
+        $this->addSolution((new WorldRepairSolution())->setWorldName("world"));
         $this->addSolution((new FileDeleteSolution())->setRelativePath("world"));
         $this->addSolution((new ChunkRemoveSolution()));
     }
