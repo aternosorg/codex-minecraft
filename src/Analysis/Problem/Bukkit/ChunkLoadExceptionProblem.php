@@ -34,6 +34,7 @@ class ChunkLoadExceptionProblem extends BukkitProblem
     {
         return [
             '/Encountered an unexpected exception(\n.*)*at.*ChunkRegionLoader\.loadChunk/',
+            '/Encountered an unexpected exception(\n.*)*at.*ChunkRegionLoader\.loadEntities/',
             '/Encountered an unexpected exception(\n.*)*Exception generating new chunk/',
             '/Couldn\'t load chunk\n/'
         ];

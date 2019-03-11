@@ -1,0 +1,50 @@
+[23:49:54] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[23:49:54] [Server thread/INFO]: Loading properties
+[23:49:54] [Server thread/INFO]: Default game type: SURVIVAL
+[23:49:54] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[23:49:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:49:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:49:56] [Server thread/INFO]: Debug logging is disabled
+[23:49:56] [Server thread/INFO]: Generating keypair
+[23:49:57] [Server thread/INFO]: Starting Minecraft server on *:10182
+[23:49:57] [Server thread/INFO]: Using epoll channel type
+[23:49:59] [Server thread/INFO]: Attempted to place a tile entity (net.minecraft.server.v1_8_R3.TileEntityCommand@615d8ac7) at -31,62,-34 (AIR) where there was no entity tile!
+[23:49:59] [Server thread/INFO]: Chunk coordinates: -32,-48
+[23:49:59] [Server thread/WARN]: java.lang.Exception
+[23:49:59] [Server thread/WARN]: at net.minecraft.server.v1_8_R3.Chunk.a(Chunk.java:791)
+[23:49:59] [Server thread/WARN]: at net.minecraft.server.v1_8_R3.Chunk.a(Chunk.java:769)
+[23:49:59] [Server thread/WARN]: at net.minecraft.server.v1_8_R3.ChunkRegionLoader.loadEntities(ChunkRegionLoader.java:433)
+[23:49:59] [Server thread/WARN]: at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:46)
+[23:49:59] [Server thread/WARN]: at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:1)
+[23:49:59] [Server thread/WARN]: at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:337)
+[23:49:59] [Server thread/WARN]: at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:295)
+[23:49:59] [Server thread/WARN]: at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:16)
+[23:49:59] [Server thread/WARN]: at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:115)
+[23:49:59] [Server thread/WARN]: at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:97)
+[23:49:59] [Server thread/WARN]: at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:369)
+[23:49:59] [Server thread/WARN]: at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333)
+[23:49:59] [Server thread/WARN]: at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263)
+[23:49:59] [Server thread/WARN]: at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525)
+[23:49:59] [Server thread/WARN]: at java.lang.Thread.run(Thread.java:748)
+[23:49:59] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.NullPointerException
+at net.minecraft.server.v1_8_R3.WorldServer.b(WorldServer.java:577) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]
+at net.minecraft.server.v1_8_R3.ChunkRegionLoader.loadEntities(ChunkRegionLoader.java:454) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]
+at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:46) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]
+at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:1) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]
+at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:337) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]
+at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:295) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]
+at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:16) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]
+at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:115) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]
+at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:97) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]
+at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:369) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]
+at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]
+at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]
+at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[23:49:59] [Server thread/ERROR]: This crash report has been saved to: /aternos/server/./crash-reports/crash-2019-03-08_23.49.59-server.txt
+[23:49:59] [Server thread/INFO]: Stopping server
+[23:49:59] [Server thread/INFO]: Saving players
+[23:49:59] [Server thread/INFO]: Saving worlds
+[23:49:59] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[23:49:59] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
