@@ -4,7 +4,7 @@
   "pocketmine-version": "Pocketmine Version",
   "bedrock-version": "Bedrock Version",
   "forge-version": "Forge Version",
-  "authme-shutdown-problem": "Das Plugin 'AuthMe' kann nicht geladen werden und schaltet den Server aus.",
+  "authme-shutdown-problem": "Das Plugin 'AuthMe' kann nicht geladen werden, schaltet den Server aus.",
   "pex-config-problem": "Die Konfiguration des Plugins 'PermissionsEx' ist ungültig.",
   "ambiguous-plugin-name-problem": "Es gibt mehrere Plugin-Dateien für den Plugin-Namen '{{plugin-name}}': '{{first-plugin-path}}' und '{{second-plugin-path}}'.",
   "plugin-dependency-problem": "Für das Plugin '{{plugin-name}}' fehlt das notwendige Plugin '{{dependency-plugin-name}}'.",
@@ -41,5 +41,7 @@
   "remove-block-solution": "Entferne den Block aus der Welt, z.B. mit MCEdit.",
   "do-nothing-solution": "Mach gar nichts. Dieses Problem könnte sich selbst beheben.",
   "chunk-load-exception-problem": "Es gab eine Ausnahme beim Laden der Welt-Chunks.",
-  "remove-chunk-solution": "Entferne den problematischen Chunk aus der Welt, z.B. mit MCEdit oder indem du die Region-Datei entfernst."
+  "remove-chunk-solution": "Entferne den problematischen Chunk aus der Welt, z.B. mit MCEdit oder indem du die Region-Datei entfernst.",
+  "multiverse-load-problem": "Die Welt '{{world-name}}' konnte nicht geladen werden, weil sie Fehler enthält und wahrscheinlich beschädigt ist.",
+  "world-repair-solution": "Repariere die Welt '{{world-name}}', z.B. mithilfe von Minecraft Region Fixer oder MCEdit."
 }

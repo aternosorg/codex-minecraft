@@ -40,6 +40,8 @@
   "ticking-block-entity-problem": "Et blokk i verden lagar problemer.",
   "remove-block-solution": "Ta bort blokket som lagar problem, eksempeltvis med verktyget MCEdit.",
   "do-nothing-solution": "Här behöver du inte göra nogot. Problemet vill formodentligvis fixa sig utan din innblandan.",
-  "chunk-load-exception-problem": "Det uppstog ett undantag medan lastning av världens bitar(chunks).",
-  "remove-chunk-solution": "Ta bort det problematiska segmentet från världen, e.g. med MCEdit eller genom att ta bort regionfilen."
+  "chunk-load-exception-problem": "Det uppstod ett undantag medan laddningen av världens bitar(chunks) genomfördes.",
+  "remove-chunk-solution": "Ta bort det problematiska segmentet från världen, e.g. med MCEdit eller genom att ta bort regionfilen.",
+  "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
+  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit."
 }

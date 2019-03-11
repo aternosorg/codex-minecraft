@@ -41,5 +41,7 @@
   "remove-block-solution": "Blokk eltávolítása a világból, pl. MCEdit-el.",
   "do-nothing-solution": "Nem csinál semmit. A probléma magától megoldódik.",
   "chunk-load-exception-problem": "Hiba lépett fel a világ darabjainak betöltésekor.",
-  "remove-chunk-solution": "Problémás darab eltávolítása a világból, pl. az MCEdit vagy a régiófájl törlésével."
+  "remove-chunk-solution": "Problémás darab eltávolítása a világból, pl. az MCEdit vagy a régiófájl törlésével.",
+  "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
+  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit."
 }

@@ -41,5 +41,7 @@
   "remove-block-solution": "從世界中移除該方塊，例如利用MCEdit",
   "do-nothing-solution": "什麼都不用做。此問題可能會自行解決。",
   "chunk-load-exception-problem": "載入世界區塊(chunks)時發生異常。",
-  "remove-chunk-solution": "從世界中移除該問題區塊(chunks)，例如使用MCEdit 或刪除區域檔案(region file)"
+  "remove-chunk-solution": "從世界中移除該問題區塊(chunks)，例如使用MCEdit 或刪除區域檔案(region file)",
+  "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
+  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit."
 }

@@ -33,13 +33,15 @@
   "file-edit-solution": "Edit the file '{{file-path}}'.",
   "mod-install-different-version-solution": "Install a different version of the mod '{{mod-name}}'.",
   "mod-install-solution": "Install the mod '{{mod-name}}'.",
-  "mod-install-solution-with-version": "Install the mod '{{mod-name}}' with version {{mod-version}}.",
+  "mod-install-solution-with-version": "Instaliuokite mod'ą '{{mod-name}}' su versiją {{mod-version}}.",
   "mod-remove-solution": "Pašalinkite \"{{mod-name}}\" modifikaciją.",
-  "aquatic-version-install-solution": "Update the server software to 1.13 or newer.",
+  "aquatic-version-install-solution": "Atnaujinkite serverio proraminę įrangą į 1.13 arba naujesnę.",
   "plugin-command-exception-problem": "Papildinys \"{{plugin-name}}\" negali vykdyti komandos \"{{command}}\".",
-  "ticking-block-entity-problem": "A block in the world is causing problems.",
-  "remove-block-solution": "Remove the block from the world, e.g. with MCEdit.",
-  "do-nothing-solution": "Do nothing. This problem might fix itself.",
+  "ticking-block-entity-problem": "Pasaulyje yra kubas, kuris kelia problemas.",
+  "remove-block-solution": "Pašalinkite kubą iš pasaulio, pvz: su MCEdit.",
+  "do-nothing-solution": "Nieko nedarykite. Problema turėtų išsispręsti pati.",
   "chunk-load-exception-problem": "There was an exception while loading the world chunks.",
-  "remove-chunk-solution": "Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file."
+  "remove-chunk-solution": "Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file.",
+  "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
+  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit."
 }

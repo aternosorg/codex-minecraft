@@ -41,5 +41,7 @@
   "remove-block-solution": "Șterge blocul din lume, ex. cu MCEdit.",
   "do-nothing-solution": "Nu fă nimic. Această problemă s-ar putea rezolva singură.",
   "chunk-load-exception-problem": "A existat o excepție în timpul încărcării părților(Chunks) lumii.",
-  "remove-chunk-solution": "Șterge chunkul problematic din lume, ex. cu MCEdit sau șteargând din fișiere."
+  "remove-chunk-solution": "Șterge chunkul problematic din lume, ex. cu MCEdit sau șteargând din fișiere.",
+  "multiverse-load-problem": "Lumea numită '{{world-name}}' nu a putut fi încărcată pentru că aceasta conține erori și este probabil corupta.",
+  "world-repair-solution": "Repară lumea '{{world-name}}', ex. folosind Minecraft Region Fixer sau MCEdit."
 }

@@ -41,5 +41,7 @@
   "remove-block-solution": "إزالة الكتلة من العالم، على سبيل المثال مع مساعدة.",
   "do-nothing-solution": "لا تفعل شيئا. هذه المشكلة سوف تصلح نفسها.",
   "chunk-load-exception-problem": "There was an exception while loading the world chunks.",
-  "remove-chunk-solution": "Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file."
+  "remove-chunk-solution": "Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file.",
+  "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
+  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit."
 }

@@ -41,5 +41,7 @@
   "remove-block-solution": "Bloğu dünyadan kaldırın. Örnek olarak MCedit 'le.",
   "do-nothing-solution": "Hiçbirşey yapmayın. Bu sorunun kendini düzeltme ihtimali var.",
   "chunk-load-exception-problem": "Dünya öbeklerini (chunklarını) yüklerken bir sorun oluştu.",
-  "remove-chunk-solution": "Sorunlu chunk'u mcedit gibi bir program kullanarak veya bölge dosyasını silerek düzeltiniz."
+  "remove-chunk-solution": "Sorunlu chunk'u mcedit gibi bir program kullanarak veya bölge dosyasını silerek düzeltiniz.",
+  "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
+  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit."
 }

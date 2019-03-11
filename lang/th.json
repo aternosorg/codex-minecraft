@@ -41,5 +41,7 @@
   "remove-block-solution": "ลบบล็อกออกจากโลก โดยใช้ MCEdit",
   "do-nothing-solution": "ไม่ต้องทำอะไร ปัญหานี้อาจจะถูกแก้ไขได้ด้วยตัวของมันเอง",
   "chunk-load-exception-problem": "มีการคัดค้านในระหว่างการโหลด chunk ของโลก",
-  "remove-chunk-solution": "ลบ chunk ที่มีปัญหาออกจากโลก โดยใช้ MCEdit หรือลบไฟล์ chunk ดังกล่าวออกจากโฟลเดอร์ region"
+  "remove-chunk-solution": "ลบ chunk ที่มีปัญหาออกจากโลก โดยใช้ MCEdit หรือลบไฟล์ chunk ดังกล่าวออกจากโฟลเดอร์ region",
+  "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
+  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit."
 }
