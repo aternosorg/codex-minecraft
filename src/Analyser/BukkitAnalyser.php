@@ -13,6 +13,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginRuntimeProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\WorldDuplicateProblem;
 
 /**
  * Class BukkitAnalyser
@@ -32,6 +33,7 @@ class BukkitAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(PluginDisablingProblem::class);
         $this->addPossibleInsightClass(PluginCommandExceptionProblem::class);
         $this->addPossibleInsightClass(ChunkLoadExceptionProblem::class);
+        $this->addPossibleInsightClass(WorldDuplicateProblem::class);
 
         $this->addPossibleInsightClass(AuthMeShutdownProblem::class);
         $this->addPossibleInsightClass(PermissionsExConfigProblem::class);
