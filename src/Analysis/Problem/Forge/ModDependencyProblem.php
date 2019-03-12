@@ -15,7 +15,7 @@ class ModDependencyProblem extends ModProblem
     /**
      * @var array
      */
-    protected $dependencyMods;
+    protected $dependencyMods = [];
 
     /**
      * Get a human readable message
