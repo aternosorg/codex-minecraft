@@ -42,6 +42,7 @@
   "do-nothing-solution": "Ничего не трогайте! Эта ошибка сама себя починит.",
   "chunk-load-exception-problem": "Произошла ошибка при загрузке чанков.",
   "remove-chunk-solution": "Удалите проблемный чанк из мира, например, с MCEdit или удалив местонахождение файла.",
-  "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
-  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit."
+  "multiverse-load-problem": "Мир '{{world-name}}' не может быть загружен, потому что в нем есть ошибки и, возможно, поврежден.",
+  "world-repair-solution": "Восстановить мир '{{world-name}}', например, используя Minecraft Region Fixer или MCEdit.",
+  "world-duplicate-problem": "Мир '{{world-name}}' является дубликатом другого мира и загрузка была прервана."
 }

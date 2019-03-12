@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Versión de Minecraft",
   "plugin-load-problem": "El plugin '{{plugin-name}}' no se pudo cargar.",
-  "pocketmine-version": "Versión de Poketmine",
+  "pocketmine-version": "Versión de Pocketmine",
   "bedrock-version": "Versión de Bedrock",
   "forge-version": "Versión de Forge",
   "authme-shutdown-problem": "El plugin 'AuthMe' falló en cargar y ha cerrado el servidor.",
@@ -16,14 +16,14 @@
   "mod-dependency-problem-plural": "El mod '{{mod-name}}' le falta los mods requeridos {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Hay archivos de mod duplicados para el mod de nombre '{{mod-name}}' en '{{first-mod-path}}' y '{{second-mod-path}}'.",
   "mod-exception-problem": "El mod '{{mod-name}}' ha lanzado una excepción.",
-  "mod-fatal-problem": "El mod '{{mod-name}}' tiene un error fatal.",
+  "mod-fatal-problem": "El mod '{{mod-name}}' tiene un error crítico.",
   "world-missing-mod-problem": "El mundo fue guardado con el mod '{{mod-name}}' que parece estar ausente.",
   "world-mod-version-problem": "El mundo fue guardado con mod '{{mod-name}}' versión {{mod-expected-version}} y ahora está en la versión {{mod-current-version}}.",
   "plugin-incompatible-problem": "El plugin '{{plugin-name}}' es incompatible con la versión actual del servidor.",
   "aquatic-world-on-older-version-problem": "El mundo actual fue creado/cargado con Minecraft 1.13 o superior. El nuevo formato no puede ser cargado en ninguna versión anterior.",
   "old-player-directory-problem": "El servidor ha detectado un antiguo directorio de jugador en el mundo guardado.",
   "command-run-solution": "Ejecuta el comando '{{command}}'.",
-  "authme-shutdown-solution": "Establecer 'stopServer' a 'true'.",
+  "authme-shutdown-solution": "La regla 'stopServer' cambió a 'true'.",
   "configure-plugin": "Configurar el plugin {{plugin-name}}.",
   "configure-plugin-with-file": "Configurar el plugin {{plugin-name}} ({{suggested-file}}).",
   "plugin-install-different-version-solution": "Instalar una versión diferente del plugin '{{plugin-name}}'.",
@@ -43,5 +43,6 @@
   "chunk-load-exception-problem": "Hubo una excepción mientras el mundo cargaba los chunks.",
   "remove-chunk-solution": "Quite el chunk problemático del mundo, por ejemplo con MCEdit o eliminando el archivo de región.",
   "multiverse-load-problem": "El mundo '{{world-name}}' no se pudo cargar por que contiene errores y es probablemente corrupto.",
-  "world-repair-solution": "Arregla el mundo '{{world-name}}' usando, por ejemplo, Minecraft Region Fixer o MCEdit."
+  "world-repair-solution": "Reparar el mundo '{{world-name}}', por ejemplo, usando Minecraft Region Fixer o MCEdit.",
+  "world-duplicate-problem": "El mundo '{{world-name}}' es un duplicado de otro mundo y ha sido prevenido en la carga."
 }

@@ -43,5 +43,6 @@
   "chunk-load-exception-problem": "A existat o excepție în timpul încărcării părților(Chunks) lumii.",
   "remove-chunk-solution": "Șterge chunkul problematic din lume, ex. cu MCEdit sau șteargând din fișiere.",
   "multiverse-load-problem": "Lumea numită '{{world-name}}' nu a putut fi încărcată pentru că aceasta conține erori și este probabil corupta.",
-  "world-repair-solution": "Repară lumea '{{world-name}}', ex. folosind Minecraft Region Fixer sau MCEdit."
+  "world-repair-solution": "Repară lumea '{{world-name}}', ex. folosind Minecraft Region Fixer sau MCEdit.",
+  "world-duplicate-problem": "Lumea \"{{world-name}}\" este o copie a unei alte lumi și împiedică încărcarea acesteia."
 }

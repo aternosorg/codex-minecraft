@@ -10,7 +10,7 @@
   "plugin-dependency-problem": "The plugin '{{plugin-name}}' is missing the required the plugin '{{dependency-plugin-name}}'.",
   "plugin-disabling-problem": "The plugin '{{plugin-name}}' could not be disabled.",
   "plugin-enabling-problem": "The plugin '{{plugin-name}}' could not be enabled.",
-  "plugin-runtime-problem": "The plugin '{{plugin-name}} has a problem while running.",
+  "plugin-runtime-problem": "The plugin '{{plugin-name}}' has a problem while running.",
   "forge-confirm-problem": "Forge requires your confirmation to apply changes and start the server.",
   "mod-dependency-problem": "The mod '{{mod-name}}' is missing the required mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "The mod '{{mod-name}}' is missing the required mods {{dependency-mod-list}}.",
@@ -43,5 +43,6 @@
   "chunk-load-exception-problem": "There was an exception while loading the world chunks.",
   "remove-chunk-solution": "Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file.",
   "multiverse-load-problem": "Светът '{{world-name}}' не може да бъде зареден, защото съдържа грешки и вероятно е повреден.",
-  "world-repair-solution": "Поправете света '{{world-name}}' с инструменти като Minecraft Region Fixer или MCEdit."
+  "world-repair-solution": "Поправете света '{{world-name}}' с инструменти като Minecraft Region Fixer или MCEdit.",
+  "world-duplicate-problem": "World '{{world-name}}' is a duplicate of another world and has been prevented from loading."
 }

@@ -43,5 +43,6 @@
   "chunk-load-exception-problem": "มีการคัดค้านในระหว่างการโหลด chunk ของโลก",
   "remove-chunk-solution": "ลบ chunk ที่มีปัญหาออกจากโลก โดยใช้ MCEdit หรือลบไฟล์ chunk ดังกล่าวออกจากโฟลเดอร์ region",
   "multiverse-load-problem": "ไม่สามารถโหลดโลก '{{world-name}}' ได้ เนื่องจากมีข้อผิดพลาดและอาจทำให้เกิดความเสียหายได้",
-  "world-repair-solution": "กรุณาซ่อมแซมโลก '{{world-name}}' โดยอาจใช้ Minecraft Region Fixer หรือ MCEdit"
+  "world-repair-solution": "กรุณาซ่อมแซมโลก '{{world-name}}' โดยอาจใช้ Minecraft Region Fixer หรือ MCEdit",
+  "world-duplicate-problem": "โลก '{{world-name}}' เป็นโลกที่ซ้ำกับอีกโลกหนึ่ง จึงไม่สามารถโหลดได้"
 }

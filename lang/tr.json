@@ -43,5 +43,6 @@
   "chunk-load-exception-problem": "Dünya öbeklerini (chunklarını) yüklerken bir sorun oluştu.",
   "remove-chunk-solution": "Sorunlu chunk'u mcedit gibi bir program kullanarak veya bölge dosyasını silerek düzeltiniz.",
   "multiverse-load-problem": "\"{{world-name}}\" isimli dünya çalıştırılamaz çünkü içinde hatalar taşıyor ve büyük ihtimallede bozuk.",
-  "world-repair-solution": "\"{{world-name}}\" adlı dünyayı MCEdit veya Minecraft Region Fixer kullanarak tamir edin."
+  "world-repair-solution": "\"{{world-name}}\" adlı dünyayı MCEdit veya Minecraft Region Fixer kullanarak tamir edin.",
+  "world-duplicate-problem": "World '{{world-name}}' is a duplicate of another world and has been prevented from loading."
 }

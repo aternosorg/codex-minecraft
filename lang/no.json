@@ -43,5 +43,6 @@
   "chunk-load-exception-problem": "Det oppstod et unntak under innlasting av verdenens deler(Chunks).",
   "remove-chunk-solution": "Fjern den problematiske delen(chunk) fra verdenen, eksempelvis med MCEdit, eller fjerne regionsfilen.",
   "multiverse-load-problem": "Verdenen '{{world-name}}' kunne ikke lastes inn fordi den inneholder feil og er sannsynligvis korrupt.",
-  "world-repair-solution": "Reparer verdenen '{{world-name}}', f.eks. ved hjelp av Minecraft Region Fixer eller MCEdit."
+  "world-repair-solution": "Reparer verdenen '{{world-name}}', f.eks. ved hjelp av Minecraft Region Fixer eller MCEdit.",
+  "world-duplicate-problem": "Verdenen '{{world-name}}' er et duplikat av en annen verden, og har blitt forhindret fra å starte."
 }

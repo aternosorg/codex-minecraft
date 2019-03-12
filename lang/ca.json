@@ -43,5 +43,6 @@
   "chunk-load-exception-problem": "Hi havia una excepció mentre carregaven els 'chunks'.",
   "remove-chunk-solution": "Elimina el 'chunk' problematic del món, exemple, amb MCEdit o eliminat l'arxiu de regió.",
   "multiverse-load-problem": "El món '{{world-name}}' no ha pogut ser carregat per que conté errors i és probablement corrupte.",
-  "world-repair-solution": "Arregla el món '{{world-name}}' utilitzant Minecraft Region Fixer o MCEdit."
+  "world-repair-solution": "Arregla el món '{{world-name}}' utilitzant Minecraft Region Fixer o MCEdit.",
+  "world-duplicate-problem": "World '{{world-name}}' is a duplicate of another world and has been prevented from loading."
 }

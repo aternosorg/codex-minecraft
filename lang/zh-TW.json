@@ -43,5 +43,6 @@
   "chunk-load-exception-problem": "載入世界區塊(chunks)時發生異常。",
   "remove-chunk-solution": "從世界中移除該問題區塊(chunks)，例如使用MCEdit 或刪除區域檔案(region file)",
   "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
-  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit."
+  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit.",
+  "world-duplicate-problem": "World '{{world-name}}' is a duplicate of another world and has been prevented from loading."
 }

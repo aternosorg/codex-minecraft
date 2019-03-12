@@ -10,7 +10,7 @@
   "plugin-dependency-problem": "Für das Plugin '{{plugin-name}}' fehlt das notwendige Plugin '{{dependency-plugin-name}}'.",
   "plugin-disabling-problem": "Das Plugin '{{plugin-name}}' konnte nicht deaktiviert werden.",
   "plugin-enabling-problem": "Das Plugin '{{plugin-name}}' konnte nicht aktiviert werden.",
-  "plugin-runtime-problem": "Das Plugin '{{plugin-name}} hat ein Problem während es läuft.",
+  "plugin-runtime-problem": "Das Plugin '{{plugin-name}}' hat ein Problem während es läuft.",
   "forge-confirm-problem": "Forge benötigt deine Bestätigung, um Änderungen anzuwenden und den Server zu starten.",
   "mod-dependency-problem": "Dem Mod '{{mod-name}}' fehlt der benötigte Mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Dem Mod '{{mod-name}}' fehlen die benötigten Mods {{dependency-mod-list}}.",
@@ -43,5 +43,6 @@
   "chunk-load-exception-problem": "Es gab eine Ausnahme beim Laden der Welt-Chunks.",
   "remove-chunk-solution": "Entferne den problematischen Chunk aus der Welt, z.B. mit MCEdit oder indem du die Region-Datei entfernst.",
   "multiverse-load-problem": "Die Welt '{{world-name}}' konnte nicht geladen werden, weil sie Fehler enthält und wahrscheinlich beschädigt ist.",
-  "world-repair-solution": "Repariere die Welt '{{world-name}}', z.B. mithilfe von Minecraft Region Fixer oder MCEdit."
+  "world-repair-solution": "Repariere die Welt '{{world-name}}', z.B. mithilfe von Minecraft Region Fixer oder MCEdit.",
+  "world-duplicate-problem": "Die Welt '{{world-name}}' ist ein Duplikat einer anderen Welt und konnte nicht geladen werden."
 }
