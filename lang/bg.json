@@ -44,5 +44,7 @@
   "remove-chunk-solution": "Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file.",
   "multiverse-load-problem": "Светът '{{world-name}}' не може да бъде зареден, защото съдържа грешки и вероятно е повреден.",
   "world-repair-solution": "Поправете света '{{world-name}}' с инструменти като Minecraft Region Fixer или MCEdit.",
-  "world-duplicate-problem": "World '{{world-name}}' is a duplicate of another world and has been prevented from loading."
+  "world-duplicate-problem": "World '{{world-name}}' is a duplicate of another world and has been prevented from loading.",
+  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Install a different Forge version."
 }

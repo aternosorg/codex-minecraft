@@ -44,5 +44,7 @@
   "remove-chunk-solution": "Remover o chunk problemático do mundo, por exemplo, com MCEdit ou removendo o arquivo de região.",
   "multiverse-load-problem": "O mundo '{{world-name}}' não pôde ser carregado porque contém erros e provavelmente está corrompido.",
   "world-repair-solution": "Repare o mundo '{{world-name}}, por exemplo, usando o Fixador de Região do Minecraft ou MCEdit.",
-  "world-duplicate-problem": "O mundo '{{world-name}}' é uma duplicata de outro mundo e foi impedido de carregar."
+  "world-duplicate-problem": "O mundo '{{world-name}}' é uma duplicata de outro mundo e foi impedido de carregar.",
+  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Install a different Forge version."
 }

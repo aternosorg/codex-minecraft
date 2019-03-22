@@ -42,7 +42,9 @@
   "do-nothing-solution": "什麼都不用做。此問題可能會自行解決。",
   "chunk-load-exception-problem": "載入世界區塊(chunks)時發生異常。",
   "remove-chunk-solution": "從世界中移除該問題區塊(chunks)，例如使用MCEdit 或刪除區域檔案(region file)",
-  "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
-  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit.",
-  "world-duplicate-problem": "World '{{world-name}}' is a duplicate of another world and has been prevented from loading."
+  "multiverse-load-problem": "無法載入世界 \"{{world-name}}\", 因為它存在錯誤, 並且可能已損壞。",
+  "world-repair-solution": "修復世界 \"{{world-name}}\", 例如, 通過使用 minecraft 區域修復程式或 mcedit。",
+  "world-duplicate-problem": "世界 '{{world-name}}' 是另一個世界的副本, 並已被阻止載入。",
+  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Install a different Forge version."
 }

@@ -42,7 +42,9 @@
   "do-nothing-solution": "No hagas nada. Este problema podría arreglarse por si solo.",
   "chunk-load-exception-problem": "Hubo una excepción mientras el mundo cargaba los chunks.",
   "remove-chunk-solution": "Quite el chunk problemático del mundo, por ejemplo con MCEdit o eliminando el archivo de región.",
-  "multiverse-load-problem": "El mundo '{{world-name}}' no se pudo cargar por que contiene errores y es probablemente corrupto.",
-  "world-repair-solution": "Reparar el mundo '{{world-name}}', por ejemplo, usando Minecraft Region Fixer o MCEdit.",
-  "world-duplicate-problem": "El mundo '{{world-name}}' es un duplicado de otro mundo y ha sido prevenido en la carga."
+  "multiverse-load-problem": "El mundo '{{world-name}}' no se pudo cargar porque contiene errores y está probablemente dañado.",
+  "world-repair-solution": "Repara el mundo '{{world-name}}', por ejemplo, usando Minecraft Region Fixer o MCEdit.",
+  "world-duplicate-problem": "El mundo '{{world-name}}' es un duplicado de otro mundo y ha sido prevenido en la carga.",
+  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Install a different Forge version."
 }

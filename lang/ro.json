@@ -44,5 +44,7 @@
   "remove-chunk-solution": "Șterge chunkul problematic din lume, ex. cu MCEdit sau șteargând din fișiere.",
   "multiverse-load-problem": "Lumea numită '{{world-name}}' nu a putut fi încărcată pentru că aceasta conține erori și este probabil corupta.",
   "world-repair-solution": "Repară lumea '{{world-name}}', ex. folosind Minecraft Region Fixer sau MCEdit.",
-  "world-duplicate-problem": "Lumea \"{{world-name}}\" este o copie a unei alte lumi și împiedică încărcarea acesteia."
+  "world-duplicate-problem": "Lumea \"{{world-name}}\" este o copie a unei alte lumi și împiedică încărcarea acesteia.",
+  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Install a different Forge version."
 }

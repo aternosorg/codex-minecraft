@@ -94,6 +94,8 @@ The output messages, e.g. for problems and solutions are translated by the [`Tra
 translations are in the [`lang`](lang) folder. They are not complete (yet) and you can help to translate them here: [https://crowdin.com/project/aternos](https://crowdin.com/project/aternos).
 You can set the translation language with the `setLanguage()` function before using any `getMessage()` function.
 
+See the current translation status here: [TRANSLATION.md](TRANSLATION.md)
+
 ```php
 <?php
 

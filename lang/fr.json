@@ -44,5 +44,7 @@
   "remove-chunk-solution": "Retirez le tronçon problématique du monde, par exemple avec MCEdit ou en supprimant le fichier concerné.",
   "multiverse-load-problem": "Le monde '{{world-name}}' n'a pas pu être chargé car il contient des erreurs et est probablement corrompu.",
   "world-repair-solution": "Réparez le monde '{{world-name}}', par exemple en utilisant Minecraft Region Fixer ou MCEdit.",
-  "world-duplicate-problem": "Le monde '{{world-name}}' est une copie d'un autre monde et a été empêché de charger."
+  "world-duplicate-problem": "Le monde '{{world-name}}' est une copie d'un autre monde et a été empêché d'être charger.",
+  "mod-wrong-minecraft-version-problem": "Le mod '{{mod-name}}' n'est pas compatible avec la version {{minecraft-version}} de Minecraft.",
+  "forge-install-different-version-solution": "Installez une version différente de Forge."
 }

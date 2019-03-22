@@ -44,5 +44,7 @@
   "remove-chunk-solution": "Ta bort det problematiska segmentet från världen, e.g. med MCEdit eller genom att ta bort regionfilen.",
   "multiverse-load-problem": "Världen '{{world-name}}' kunde inte läsas eftersom den innehåller fel och är förmodligen skadad.",
   "world-repair-solution": "Reparera världen '{{world-name}}', t.ex. med hjälp av Minecraft Region Fixer eller MCEdit.",
-  "world-duplicate-problem": "Världen '{{world-name}}' är ett duplikat av en annan värld och har hindrats från att läsa in."
+  "world-duplicate-problem": "Världen '{{world-name}}' är ett duplikat av en annan värld och har hindrats från att läsa in.",
+  "mod-wrong-minecraft-version-problem": "Modet '{{mod-name}}' är inte kompatibel med Minecraft versionen {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Installera en annan version av Forge."
 }

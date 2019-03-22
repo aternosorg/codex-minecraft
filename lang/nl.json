@@ -44,5 +44,7 @@
   "remove-chunk-solution": "Verwijder de problematische chunk van de wereld, met bijvoorbeeld MCEdit of door het verwijderen van het regiobestand.",
   "multiverse-load-problem": "De wereld '{{world-name}}' kan niet worden geladen omdat het fouten bevat en waarschijnlijk corrupt is.",
   "world-repair-solution": "Repareer de wereld '{{world-name}}', bijv. Door gebruik van Minecraft Region Fixer of MCEdit.",
-  "world-duplicate-problem": "Wereld '{{world-name}}' is een duplicaat van een andere wereld en wordt gehinderd om te laden."
+  "world-duplicate-problem": "Wereld '{{world-name}}' is een duplicaat van een andere wereld en wordt gehinderd om te laden.",
+  "mod-wrong-minecraft-version-problem": "De mod '{{mod-name}}' is niet compatibel met de minecraft versie {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Installeer een andere Forge versie."
 }

@@ -15,9 +15,9 @@
   "mod-dependency-problem": "Modifikacijai \"{{mod-name}}\" trūksta būtino priedo \"{{dependency-mod-name}}\".",
   "mod-dependency-problem-plural": "Modifikacijai \"{{mod-name}}\" trūksta būtino priedų \"{{dependency-mod-list}}\".",
   "mod-duplicate-problem": "Yra keli papildinio failai pavadinimu \"{{plugin-name}}\": \"{{first-plugin-path}}\" ir \"{{second-plugin-path}}\".",
-  "mod-exception-problem": "The mod '{{mod-name}}' has thrown an exception.",
-  "mod-fatal-problem": "The mod '{{mod-name}}' has a fatal error.",
-  "world-missing-mod-problem": "The world was saved with mod '{{mod-name}}' which appears to be missing.",
+  "mod-exception-problem": "Šitas modas “{{mod-name}}” turi mesti išimtį.",
+  "mod-fatal-problem": "Šitas modas “{{mod-name}}” turi lemtingą klaidą.",
+  "world-missing-mod-problem": "Šitas pasaulis buvo išsaugotas su modu “{{mod-name}}” atrodo, kad dingo.",
   "world-mod-version-problem": "This world was saved with mod '{{mod-name}}' version {{mod-expected-version}} and it is now at version {{mod-current-version}}.",
   "plugin-incompatible-problem": "The plugin '{{plugin-name}}' is incompatible with your current server version.",
   "aquatic-world-on-older-version-problem": "The current world was created/loaded with Minecraft 1.13 or higher. The new format cannot be loaded in any older version.",
@@ -44,5 +44,7 @@
   "remove-chunk-solution": "Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file.",
   "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
   "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit.",
-  "world-duplicate-problem": "World '{{world-name}}' is a duplicate of another world and has been prevented from loading."
+  "world-duplicate-problem": "World '{{world-name}}' is a duplicate of another world and has been prevented from loading.",
+  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Install a different Forge version."
 }

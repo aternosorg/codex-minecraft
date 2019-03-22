@@ -44,5 +44,7 @@
   "remove-chunk-solution": "Problémás darab eltávolítása a világból, pl. az MCEdit vagy a régiófájl törlésével.",
   "multiverse-load-problem": "A(z) '{{world-name}}' világot nem lehetett betölteni, mert hibákat tartalmat és valószínűleg sérült.",
   "world-repair-solution": "'{{world-name}}' világ javítása, pl. a Minecraft Region Fixer vagy az MCEdit használatával.",
-  "world-duplicate-problem": "World '{{world-name}}' is a duplicate of another world and has been prevented from loading."
+  "world-duplicate-problem": "A(z) '{{world-name}}' egy duplikált másik világból, és megakadályozta a betöltést.",
+  "mod-wrong-minecraft-version-problem": "A mod '{{mod-name}}' nem kompatibilis a(z) {{minecraft-version}} Minecraft verziójával.",
+  "forge-install-different-version-solution": "Telepíts egy másik Forge verziót."
 }

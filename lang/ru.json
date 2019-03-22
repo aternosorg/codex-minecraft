@@ -44,5 +44,7 @@
   "remove-chunk-solution": "Удалите проблемный чанк из мира, например, с MCEdit или удалив местонахождение файла.",
   "multiverse-load-problem": "Мир '{{world-name}}' не может быть загружен, потому что в нем есть ошибки и, возможно, поврежден.",
   "world-repair-solution": "Восстановить мир '{{world-name}}', например, используя Minecraft Region Fixer или MCEdit.",
-  "world-duplicate-problem": "Мир '{{world-name}}' является дубликатом другого мира и загрузка была прервана."
+  "world-duplicate-problem": "Мир '{{world-name}}' является дубликатом другого мира и загрузка была прервана.",
+  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Install a different Forge version."
 }

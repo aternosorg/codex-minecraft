@@ -5,9 +5,9 @@
   "bedrock-version": "เวอร์ชั่น Bedrock",
   "forge-version": "เวอร์ชั่น Forge",
   "authme-shutdown-problem": "โหลดปลั๊กอิน 'AuthMe' ล้มเหลว และเซิร์ฟถูกปิดลง",
-  "pex-config-problem": "การตั้งค่าปลั๊กอิน 'PermissionsEx' ไม่ถูกต้อง",
+  "pex-config-problem": "การกำหนดค่าของปลั๊กอิน 'PermissionsEx' ไม่ถูกต้อง",
   "ambiguous-plugin-name-problem": "มีไฟล์ปลั๊กอินหลายไฟล์ สำหรับปลั๊กอิน '{{plugin-name}}': '{{first-plugin-path}}' และ '{{second-plugin-path}}'",
-  "plugin-dependency-problem": "ไม่พบปลั๊กอิน '{{plugin-name}}' จำเป็นต้องติดตั้งปลั๊กอิน '{{dependency-plugin-name}}'",
+  "plugin-dependency-problem": "ไม่พบปลั๊กอิน '{{plugin-name}}' จำเป็นต้องติดตั้งปลั๊กอิน '{{dependency-plugin-name}} '",
   "plugin-disabling-problem": "ไม่สามารถปิดการใช้งานปลั๊กอิน '{{plugin-name}}' ได้",
   "plugin-enabling-problem": "ไม่สามารถเปิดการใช้งานปลั๊กอิน '{{plugin-name}}' ได้",
   "plugin-runtime-problem": "ปลั๊กอิน '{{plugin-name}}' เกิดปัญหาในขณะกำลังทำงาน",
@@ -44,5 +44,7 @@
   "remove-chunk-solution": "ลบ chunk ที่มีปัญหาออกจากโลก โดยใช้ MCEdit หรือลบไฟล์ chunk ดังกล่าวออกจากโฟลเดอร์ region",
   "multiverse-load-problem": "ไม่สามารถโหลดโลก '{{world-name}}' ได้ เนื่องจากมีข้อผิดพลาดและอาจทำให้เกิดความเสียหายได้",
   "world-repair-solution": "กรุณาซ่อมแซมโลก '{{world-name}}' โดยอาจใช้ Minecraft Region Fixer หรือ MCEdit",
-  "world-duplicate-problem": "โลก '{{world-name}}' เป็นโลกที่ซ้ำกับอีกโลกหนึ่ง จึงไม่สามารถโหลดได้"
+  "world-duplicate-problem": "โลก '{{world-name}}' เป็นโลกที่ซ้ำกับอีกโลกหนึ่ง จึงไม่สามารถโหลดได้",
+  "mod-wrong-minecraft-version-problem": "มอด '{{mod-name}}' ไม่สามารถเข้ากับ Minecraft รุ่น {{minecraft-version}} ได้",
+  "forge-install-different-version-solution": "ติดตั้ง Forge รุ่นอื่น"
 }
