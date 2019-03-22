@@ -430,5 +430,10 @@ class PocketmineStart362Test extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Bedrock version: 1.9.0", $analysis[0]->getMessage());
+
+        $this->assertEquals("Pocketmine version: 3.6.2", $analysis[1]->getMessage());
+
     }
 }

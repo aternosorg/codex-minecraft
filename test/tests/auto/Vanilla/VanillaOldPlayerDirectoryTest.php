@@ -306,5 +306,11 @@ class VanillaOldPlayerDirectoryTest extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.12.2", $analysis[0]->getMessage());
+
+        $this->assertEquals("The server has detected an old player directory in the world save.", $analysis[1]->getMessage());
+        $this->assertEquals("Delete the file 'world/players'.", $analysis[1][0]->getMessage());
+
     }
 }

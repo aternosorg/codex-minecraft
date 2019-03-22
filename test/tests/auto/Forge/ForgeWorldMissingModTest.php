@@ -6607,5 +6607,16 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Forge version: 11.15.1.2318", $analysis[0]->getMessage());
+
+        $this->assertEquals("This world was saved with mod 'mcp' version 9.42 and it is now at version 9.19.", $analysis[1]->getMessage());
+        $this->assertEquals("Install the mod 'mcp' with version 9.42.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Do nothing. This problem might fix itself.", $analysis[1][1]->getMessage());
+
+        $this->assertEquals("The world was saved with mod 'lucraftcore' which appears to be missing.", $analysis[2]->getMessage());
+        $this->assertEquals("Install the mod 'lucraftcore'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Do nothing. This problem might fix itself.", $analysis[2][1]->getMessage());
+
     }
 }

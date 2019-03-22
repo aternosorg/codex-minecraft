@@ -4864,5 +4864,12 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.13.2", $analysis[0]->getMessage());
+
+        $this->assertEquals("The plugin 'Essentials' has a problem while running.", $analysis[1]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'Essentials'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'Essentials'.", $analysis[1][1]->getMessage());
+
     }
 }

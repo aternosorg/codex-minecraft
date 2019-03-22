@@ -1691,5 +1691,41 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.12.2", $analysis[0]->getMessage());
+
+        $this->assertEquals("Forge version: 14.23.5.2814", $analysis[1]->getMessage());
+
+        $this->assertEquals("The mod 'CoFH Core' is missing the required mod 'redstoneflux'.", $analysis[2]->getMessage());
+        $this->assertEquals("Install the mod 'redstoneflux' with version 2.1.0.", $analysis[2][0]->getMessage());
+
+        $this->assertEquals("The mod 'Thermal Dynamics' is missing the required mod 'codechickenlib'.", $analysis[3]->getMessage());
+        $this->assertEquals("Install the mod 'codechickenlib' with version 3.2.2.", $analysis[3][0]->getMessage());
+
+        $this->assertEquals("The mod 'EvilCraft' is missing the required mod 'cyclopscore'.", $analysis[4]->getMessage());
+        $this->assertEquals("Install the mod 'cyclopscore' with version 1.0.0.", $analysis[4][0]->getMessage());
+
+        $this->assertEquals("The mod 'EvilCraft-Compat' is missing the required mod 'cyclopscore'.", $analysis[5]->getMessage());
+        $this->assertEquals("Install the mod 'cyclopscore' with version 0.11.6.", $analysis[5][0]->getMessage());
+
+        $this->assertEquals("The mod 'Applied Energistics 2' is missing the required mod 'forge'.", $analysis[6]->getMessage());
+        $this->assertEquals("Install the mod 'forge' with version 14.23.5.2768.", $analysis[6][0]->getMessage());
+
+        $this->assertEquals("The mod 'Ex Nihilo Creatio' is missing the required mod 'forgelin'.", $analysis[7]->getMessage());
+        $this->assertEquals("Install the mod 'forgelin'.", $analysis[7][0]->getMessage());
+
+        $this->assertEquals("The mod 'Clay Soldiers Mod' is missing the required mod 'sanlib'.", $analysis[8]->getMessage());
+        $this->assertEquals("Install the mod 'sanlib' with version 1.2.0.", $analysis[8][0]->getMessage());
+
+        $this->assertEquals("The mod 'Biomes O' Plenty' is missing the required mod 'forge'.", $analysis[9]->getMessage());
+        $this->assertEquals("Install the mod 'forge' with version 14.23.5.2768.", $analysis[9][0]->getMessage());
+
+        $this->assertEquals("The mod 'Forge Multipart CBE' is missing the required mods 'codechickenlib', 'forge'.", $analysis[10]->getMessage());
+        $this->assertEquals("Install the mod 'codechickenlib' with version 3.2.2.", $analysis[10][0]->getMessage());
+        $this->assertEquals("Install the mod 'forge' with version 14.23.5.2768.", $analysis[10][1]->getMessage());
+
+        $this->assertEquals("The mod 'Dragon Mounts' is missing the required mod 'llibrary'.", $analysis[11]->getMessage());
+        $this->assertEquals("Install the mod 'llibrary' with version 1.7.9.", $analysis[11][0]->getMessage());
+
     }
 }

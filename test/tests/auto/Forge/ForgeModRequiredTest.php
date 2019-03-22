@@ -8211,5 +8211,11 @@ class ForgeModRequiredTest extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Forge version: 10.13.4.1614", $analysis[0]->getMessage());
+
+        $this->assertEquals("The mod 'Archimedes' Ships Plus' is missing the required mod 'MovingWorld'.", $analysis[1]->getMessage());
+        $this->assertEquals("Install the mod 'MovingWorld'.", $analysis[1][0]->getMessage());
+
     }
 }

@@ -840,5 +840,6 @@ at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
     }
 }

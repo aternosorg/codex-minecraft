@@ -1456,5 +1456,10 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.13.2", $analysis[0]->getMessage());
+
+        $this->assertEquals("Forge version: 25.0.54", $analysis[1]->getMessage());
+
     }
 }

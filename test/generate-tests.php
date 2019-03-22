@@ -70,7 +70,23 @@ class ' . $className . ' extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+';
+
+    foreach ($analysis as $insightKey => $insight) {
+        /** @var \Aternos\Codex\Analysis\Insight $insight */
+        $testClassContent .= '        $this->assertEquals("' . $insight->getMessage() . '", $analysis[' . $insightKey . ']->getMessage());' . PHP_EOL;
+
+        if ($insight instanceof \Aternos\Codex\Analysis\ProblemInterface) {
+            foreach ($insight as $solutionKey => $solution) {
+                /** @var \Aternos\Codex\Analysis\SolutionInterface $solution */
+                $testClassContent .= '        $this->assertEquals("' . $solution->getMessage() . '", $analysis[' . $insightKey . '][' . $solutionKey . ']->getMessage());' . PHP_EOL;
+            }
+        }
+        $testClassContent .= PHP_EOL;
     }
+
+    $testClassContent .= '    }
 }';
     if (file_exists($outputPath) && file_get_contents($outputPath) === $testClassContent) {
         continue;

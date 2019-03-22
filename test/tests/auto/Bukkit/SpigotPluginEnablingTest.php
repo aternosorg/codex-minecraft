@@ -1091,5 +1091,12 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.13.2", $analysis[0]->getMessage());
+
+        $this->assertEquals("The plugin 'Multiverse-Portals' could not be enabled.", $analysis[1]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'Multiverse-Portals'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'Multiverse-Portals'.", $analysis[1][1]->getMessage());
+
     }
 }

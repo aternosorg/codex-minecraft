@@ -1057,5 +1057,12 @@ at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709) ~
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.10.2", $analysis[0]->getMessage());
+
+        $this->assertEquals("A block in the world is causing problems.", $analysis[1]->getMessage());
+        $this->assertEquals("Delete the file 'world'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Remove the block from the world, e.g. with MCEdit.", $analysis[1][1]->getMessage());
+
     }
 }

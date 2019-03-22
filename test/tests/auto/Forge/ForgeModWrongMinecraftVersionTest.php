@@ -9792,5 +9792,12 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Forge version: 12.18.3.2511", $analysis[0]->getMessage());
+
+        $this->assertEquals("The mod 'journeymap' is not compatible with the Minecraft version 1.10.2.", $analysis[1]->getMessage());
+        $this->assertEquals("Remove the mod '{{mod-name}}'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Install a different Forge version.", $analysis[1][1]->getMessage());
+
     }
 }

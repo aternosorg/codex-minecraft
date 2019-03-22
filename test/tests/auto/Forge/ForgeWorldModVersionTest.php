@@ -2466,5 +2466,14 @@ class ForgeWorldModVersionTest extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.12.2", $analysis[0]->getMessage());
+
+        $this->assertEquals("Forge version: 14.23.5.2811", $analysis[1]->getMessage());
+
+        $this->assertEquals("This world was saved with mod 'betterbuilderswands' version 0.13.0 and it is now at version 0.11.1.", $analysis[2]->getMessage());
+        $this->assertEquals("Install the mod 'betterbuilderswands' with version 0.13.0.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Do nothing. This problem might fix itself.", $analysis[2][1]->getMessage());
+
     }
 }

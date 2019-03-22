@@ -215,5 +215,8 @@ class BedrockStart19Test extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Bedrock version: 1.9.0.15", $analysis[0]->getMessage());
+
     }
 }

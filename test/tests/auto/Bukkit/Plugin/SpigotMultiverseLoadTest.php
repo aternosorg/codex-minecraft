@@ -5183,5 +5183,12 @@ class SpigotMultiverseLoadTest extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.13.2", $analysis[0]->getMessage());
+
+        $this->assertEquals("The world 'New_world' could not be loaded because it contains errors and is probably corrupt.", $analysis[1]->getMessage());
+        $this->assertEquals("Repair the world 'New_world', e.g. by using Minecraft Region Fixer or MCEdit.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Delete the file 'New_world'.", $analysis[1][1]->getMessage());
+
     }
 }

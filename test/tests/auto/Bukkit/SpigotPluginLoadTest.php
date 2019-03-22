@@ -488,5 +488,12 @@ Caused by: java.lang.NullPointerException
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.8.8", $analysis[0]->getMessage());
+
+        $this->assertEquals("The plugin 'GamenixText' could not be loaded.", $analysis[1]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'GamenixText'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/GamenixText.jar'.", $analysis[1][1]->getMessage());
+
     }
 }

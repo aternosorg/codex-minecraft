@@ -194,5 +194,9 @@ Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResu
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Forge requires your confirmation to apply changes and start the server.", $analysis[0]->getMessage());
+        $this->assertEquals("Run the command '/fml confirm'.", $analysis[0][0]->getMessage());
+
     }
 }

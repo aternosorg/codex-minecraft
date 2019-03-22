@@ -683,5 +683,12 @@ java.lang.NoSuchMethodError: org.bukkit.scheduler.BukkitScheduler.runTaskTimerAs
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.1", $analysis[0]->getMessage());
+
+        $this->assertEquals("The plugin 'ItemNBTAPI' could not be enabled.", $analysis[1]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'ItemNBTAPI'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'ItemNBTAPI'.", $analysis[1][1]->getMessage());
+
     }
 }

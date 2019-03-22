@@ -3191,5 +3191,16 @@ org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register mau
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.13.2", $analysis[0]->getMessage());
+
+        $this->assertEquals("The plugin 'SuperLobbyPlus' could not be enabled.", $analysis[1]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'SuperLobbyPlus'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'SuperLobbyPlus'.", $analysis[1][1]->getMessage());
+
+        $this->assertEquals("The plugin 'SuperLobbyPlus' could not be disabled.", $analysis[2]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'SuperLobbyPlus'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'SuperLobbyPlus'.", $analysis[2][1]->getMessage());
+
     }
 }

@@ -6017,5 +6017,12 @@ class ForgeModDuplicateTest extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Forge version: 10.13.4.1614", $analysis[0]->getMessage());
+
+        $this->assertEquals("There are multiple mod files for the mod name 'Baubles': 'Baubles-1.7.10-1.0.1.10.jar' and 'Baubles-1.7.10-1.0.1.10.jar'.", $analysis[1]->getMessage());
+        $this->assertEquals("Delete the file '/aternos/server/mods/1.7.10/Baubles-1.7.10-1.0.1.10.jar'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Delete the file '/aternos/server/mods/Baubles-1.7.10-1.0.1.10.jar'.", $analysis[1][1]->getMessage());
+
     }
 }

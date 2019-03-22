@@ -479,5 +479,12 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.12.2", $analysis[0]->getMessage());
+
+        $this->assertEquals("The current world was created/loaded with Minecraft 1.13 or higher. The new format cannot be loaded in any older version.", $analysis[1]->getMessage());
+        $this->assertEquals("Delete the file 'world'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Update the server software to 1.13 or newer.", $analysis[1][1]->getMessage());
+
     }
 }

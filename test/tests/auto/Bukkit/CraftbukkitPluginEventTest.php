@@ -2578,5 +2578,12 @@ Caused by: java.lang.NullPointerException
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.8", $analysis[0]->getMessage());
+
+        $this->assertEquals("The plugin 'TrollBoss' has a problem while running.", $analysis[1]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'TrollBoss'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'TrollBoss'.", $analysis[1][1]->getMessage());
+
     }
 }

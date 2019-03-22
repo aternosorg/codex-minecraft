@@ -334,5 +334,12 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.13.2", $analysis[0]->getMessage());
+
+        $this->assertEquals("There are multiple plugin files for the plugin name 'WorldEdit': 'worldedit-bukkit-7.0.0-beta-05.jar' and 'worldedit-bukkit-7.0.0-beta-01.jar'.", $analysis[1]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/worldedit-bukkit-7.0.0-beta-05.jar'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/worldedit-bukkit-7.0.0-beta-01.jar'.", $analysis[1][1]->getMessage());
+
     }
 }

@@ -1040,5 +1040,18 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Bedrock version: 1.9.0", $analysis[0]->getMessage());
+
+        $this->assertEquals("Pocketmine version: 3.6.1", $analysis[1]->getMessage());
+
+        $this->assertEquals("The plugin 'EconomyJob' is incompatible with your current server version.", $analysis[2]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'EconomyJob'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'EconomyJob'.", $analysis[2][1]->getMessage());
+
+        $this->assertEquals("The plugin 'CustomAlerts' is incompatible with your current server version.", $analysis[3]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'CustomAlerts'.", $analysis[3][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'CustomAlerts'.", $analysis[3][1]->getMessage());
+
     }
 }

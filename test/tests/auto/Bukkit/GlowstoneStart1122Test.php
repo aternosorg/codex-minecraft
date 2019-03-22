@@ -779,5 +779,6 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
     }
 }

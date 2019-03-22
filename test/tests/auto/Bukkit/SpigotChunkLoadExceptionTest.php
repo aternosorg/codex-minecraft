@@ -3426,5 +3426,13 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.8.8", $analysis[0]->getMessage());
+
+        $this->assertEquals("There was an exception while loading the world chunks.", $analysis[1]->getMessage());
+        $this->assertEquals("Repair the world 'world', e.g. by using Minecraft Region Fixer or MCEdit.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Delete the file 'world'.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file.", $analysis[1][2]->getMessage());
+
     }
 }

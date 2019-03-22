@@ -743,5 +743,10 @@ class ForgeModFatalTest extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("The mod 'Techguns' has a fatal error.", $analysis[0]->getMessage());
+        $this->assertEquals("Delete the file 'mods/Techguns.beta.1.2_alphatest4.1.jar'.", $analysis[0][0]->getMessage());
+        $this->assertEquals("Install a different version of the mod 'Techguns'.", $analysis[0][1]->getMessage());
+
     }
 }

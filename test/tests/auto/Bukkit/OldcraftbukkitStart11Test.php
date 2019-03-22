@@ -367,5 +367,8 @@ class OldcraftbukkitStart11Test extends PHPUnit\Framework\TestCase
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.1", $analysis[0]->getMessage());
+
     }
 }

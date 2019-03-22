@@ -10647,5 +10647,18 @@ org.bukkit.plugin.UnknownDependencyException: Languagy
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Minecraft version: 1.12", $analysis[0]->getMessage());
+
+        $this->assertEquals("The plugin 'AnvilLogin' is missing the required the plugin 'Languagy'.", $analysis[1]->getMessage());
+        $this->assertEquals("Install the plugin 'Languagy'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/AnvilLogin.jar'.", $analysis[1][1]->getMessage());
+
+        $this->assertEquals("The plugin 'AuthMe' fails to load and shuts the server down.", $analysis[2]->getMessage());
+        $this->assertEquals("Edit the file 'plugins/AuthMe/config.yml'. Set 'stopServer' to 'true'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Configure the plugin AuthMe (plugins/AuthMe/config.yml).", $analysis[2][1]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'AuthMe'.", $analysis[2][2]->getMessage());
+        $this->assertEquals("Remove the plugin 'AuthMe'.", $analysis[2][3]->getMessage());
+
     }
 }

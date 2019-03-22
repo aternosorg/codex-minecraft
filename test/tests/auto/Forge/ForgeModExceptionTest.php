@@ -6604,5 +6604,20 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Forge version: 10.13.4.1614", $analysis[0]->getMessage());
+
+        $this->assertEquals("The mod 'Xaero's Minimap' has a fatal error.", $analysis[1]->getMessage());
+        $this->assertEquals("Delete the file 'mods/Xaeros_Minimap_1.16_Forge_1.7.10.jar'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Install a different version of the mod 'Xaero's Minimap'.", $analysis[1][1]->getMessage());
+
+        $this->assertEquals("The mod 'xaerominimap' has thrown an exception.", $analysis[2]->getMessage());
+        $this->assertEquals("Install a different version of the mod 'xaerominimap'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Remove the mod '{{mod-name}}'.", $analysis[2][1]->getMessage());
+
+        $this->assertEquals("The mod 'Discord Chat' has thrown an exception.", $analysis[3]->getMessage());
+        $this->assertEquals("Install a different version of the mod 'Discord Chat'.", $analysis[3][0]->getMessage());
+        $this->assertEquals("Remove the mod '{{mod-name}}'.", $analysis[3][1]->getMessage());
+
     }
 }
