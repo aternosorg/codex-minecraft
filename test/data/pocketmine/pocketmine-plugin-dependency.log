@@ -1,0 +1,20 @@
+2019-03-21 [17:32:34] [Server thread/INFO]: Loading pocketmine.yml...
+2019-03-21 [17:32:34] [Server thread/INFO]: Loading server properties...
+2019-03-21 [17:32:34] [Server thread/INFO]: Selected English (eng) as the base language
+2019-03-21 [17:32:34] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.10.0
+2019-03-21 [17:32:34] [Server thread/NOTICE]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2019-03-21 [17:32:34] [Server thread/NOTICE]: To disable authentication, set "xbox-auth" to "false" in server.properties.
+2019-03-21 [17:32:34] [Server thread/INFO]: Opening server on **.**.**.**:46551
+2019-03-21 [17:32:34] [Server thread/INFO]: This server is running PocketMine-MP version 3.7.0
+2019-03-21 [17:32:34] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2019-03-21 [17:32:34] [Server thread/INFO]: Loading resource packs...
+2019-03-21 [17:32:35] [Server thread/INFO]: Loading PCFly v3.0.0
+2019-03-21 [17:32:35] [Server thread/INFO]: Loading AdvancedJoin v1.0.9
+2019-03-21 [17:32:35] [Server thread/INFO]: Loading BlazinJump v1.0.3
+2019-03-21 [17:32:35] [Server thread/INFO]: Loading 8ball v1.0
+2019-03-21 [17:32:35] [Server thread/INFO]: Loading 1vs1 v1.0.1
+2019-03-21 [17:32:35] [Server thread/CRITICAL]: Could not load plugin 'BankNotes': Unknown dependency: EconomyAPI
+2019-03-21 [17:32:35] [Server thread/INFO]: Loading Afterlife v3.2.9
+2019-03-21 [17:32:35] [Server thread/INFO]: Loading SkyWars v1.1.0
+2019-03-21 [17:32:35] [Server thread/INFO]: Loading BanWarn v1.2.3
+2019-03-21 [17:32:35] [Server thread/INFO]: Loading PurePerms v1.4.2-c2a
