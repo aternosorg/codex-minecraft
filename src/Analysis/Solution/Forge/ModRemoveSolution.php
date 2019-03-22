@@ -18,6 +18,6 @@ class ModRemoveSolution extends ModSolution
      */
     public function getMessage(): string
     {
-        return Translator::getInstance()->getTranslation("mod-remove-solution");
+        return Translator::getInstance()->getTranslation("mod-remove-solution", ["mod-name" => $this->getModName()]);
     }
 }

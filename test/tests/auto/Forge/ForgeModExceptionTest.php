@@ -6613,11 +6613,11 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
 
         $this->assertEquals("The mod 'xaerominimap' has thrown an exception.", $analysis[2]->getMessage());
         $this->assertEquals("Install a different version of the mod 'xaerominimap'.", $analysis[2][0]->getMessage());
-        $this->assertEquals("Remove the mod '{{mod-name}}'.", $analysis[2][1]->getMessage());
+        $this->assertEquals("Remove the mod 'xaerominimap'.", $analysis[2][1]->getMessage());
 
         $this->assertEquals("The mod 'Discord Chat' has thrown an exception.", $analysis[3]->getMessage());
         $this->assertEquals("Install a different version of the mod 'Discord Chat'.", $analysis[3][0]->getMessage());
-        $this->assertEquals("Remove the mod '{{mod-name}}'.", $analysis[3][1]->getMessage());
+        $this->assertEquals("Remove the mod 'Discord Chat'.", $analysis[3][1]->getMessage());
 
     }
 }
