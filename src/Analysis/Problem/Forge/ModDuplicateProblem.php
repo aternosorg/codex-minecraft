@@ -29,13 +29,16 @@ class ModDuplicateProblem extends ModProblem
      */
     public function getMessage(): string
     {
-        $first = end($pathParts = explode("/", $this->getFirstModPath()));
-        $second = end($pathParts = explode("/", $this->getSecondModPath()));
+        $firstModPathParts = explode("/", $this->getFirstModPath());
+        $firstModName = end($firstModPathParts);
+
+        $secondModPathParts = explode("/", $this->getSecondModPath());
+        $secondModName = end($secondModPathParts);
 
         return Translator::getInstance()->getTranslation("mod-duplicate-problem", [
             "mod-name" => $this->getModName(),
-            "first-mod-path" => $first,
-            "second-mod-path" => $second
+            "first-mod-path" => $firstModName,
+            "second-mod-path" => $secondModName
         ]);
     }
 
