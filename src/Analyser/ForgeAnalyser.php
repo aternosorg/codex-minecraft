@@ -8,6 +8,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDuplicateProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModExceptionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModFatalProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModWrongMinecraftVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldMissingModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldModVersionProblem;
 
@@ -30,5 +31,6 @@ class ForgeAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(ModDuplicateProblem::class);
         $this->addPossibleInsightClass(ModFatalProblem::class);
         $this->addPossibleInsightClass(ModExceptionProblem::class);
+        $this->addPossibleInsightClass(ModWrongMinecraftVersionProblem::class);
     }
 }

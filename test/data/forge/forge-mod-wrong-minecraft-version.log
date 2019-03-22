@@ -1,0 +1,510 @@
+[13:41:24] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[13:41:25] [main/INFO] [FML/]: Forge Mod Loader version 12.18.3.2511 for Minecraft 1.10.2 loading
+[13:41:25] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_202, running on Linux:amd64:4.4.0-141-generic, installed at /aternos/bin/jdk1.8.0_202/jre
+[13:41:25] [main/DEBUG] [FML/]: Java classpath at launch is forge.jar
+[13:41:25] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[13:41:25] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[13:41:25] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[13:41:25] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[13:41:25] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[13:41:25] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[13:41:25] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[13:41:25] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[13:41:25] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /aternos/server/.
+[13:41:25] [main/DEBUG] [FML/]: Discovering coremods
+[13:41:25] [main/DEBUG] [FML/]: Examining for coremod candidacy BiomesOPlenty-1.10.2-5.0.0.2290-universal.jar
+[13:41:25] [main/DEBUG] [FML/]: Not found coremod data in BiomesOPlenty-1.10.2-5.0.0.2290-universal.jar
+[13:41:25] [main/DEBUG] [FML/]: Examining for coremod candidacy CustomMobSpawner 3.10.1.jar
+[13:41:25] [main/DEBUG] [FML/]: Not found coremod data in CustomMobSpawner 3.10.1.jar
+[13:41:25] [main/DEBUG] [FML/]: Examining for coremod candidacy Decocraft-2.5.2_1.10.2.jar
+[13:41:25] [main/DEBUG] [FML/]: Not found coremod data in Decocraft-2.5.2_1.10.2.jar
+[13:41:25] [main/DEBUG] [FML/]: Examining for coremod candidacy DrZhark's Mo'Creatures Mod-10.0.6.jar
+[13:41:25] [main/DEBUG] [FML/]: Not found coremod data in DrZhark's Mo'Creatures Mod-10.0.6.jar
+[13:41:25] [main/DEBUG] [FML/]: Examining for coremod candidacy forgeessentials-1.10.2-10.3.1380-server.jar
+[13:41:25] [main/INFO] [FML/]: Loading tweaker com.forgeessentials.core.preloader.FELaunchHandler from forgeessentials-1.10.2-10.3.1380-server.jar
+[13:41:25] [main/DEBUG] [FML/]: Examining for coremod candidacy journeymap-1.12.2-5.5.4.jar
+[13:41:25] [main/DEBUG] [FML/]: Not found coremod data in journeymap-1.12.2-5.5.4.jar
+[13:41:25] [main/DEBUG] [FML/]: Examining for coremod candidacy JurassiCraft-2.1.3-Fix.jar
+[13:41:25] [main/DEBUG] [FML/]: Not found coremod data in JurassiCraft-2.1.3-Fix.jar
+[13:41:25] [main/DEBUG] [FML/]: Examining for coremod candidacy llibrary-1.7.7-1.10.2.jar
+[13:41:25] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in llibrary-1.7.7-1.10.2.jar, it will be examined later for regular @Mod instances
+[13:41:25] [main/DEBUG] [FML/]: Instantiating coremod class LLibraryPlugin
+[13:41:26] [main/TRACE] [FML/]: coremod named llibrary is loading
+[13:41:26] [main/DEBUG] [FML/]: The coremod net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugin requested minecraft version 1.10.2 and minecraft is 1.10.2. It will be loaded.
+[13:41:26] [main/DEBUG] [FML/]: Enqueued coremod llibrary
+[13:41:26] [main/DEBUG] [FML/]: Examining for coremod candidacy llibrary-core-1.0.11-1.12.2.jar
+[13:41:26] [main/TRACE] [FML/]: Adding llibrary-core-1.0.11-1.12.2.jar to the list of known coremods, it will not be examined again
+[13:41:26] [main/DEBUG] [FML/]: Instantiating coremod class LLibraryPlugin
+[13:41:26] [main/TRACE] [FML/]: coremod named llibrary is loading
+[13:41:26] [main/DEBUG] [FML/]: The coremod net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugin requested minecraft version 1.10.2 and minecraft is 1.10.2. It will be loaded.
+[13:41:26] [main/DEBUG] [FML/]: Enqueued coremod llibrary
+[13:41:26] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:41:26] [main/INFO] [LaunchWrapper/]: Loading tweak class name com.forgeessentials.core.preloader.FELaunchHandler
+[13:41:26] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:41:26] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:41:26] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:41:26] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:41:26] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[13:41:26] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[13:41:26] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[13:41:26] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[13:41:26] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[13:41:26] [main/DEBUG] [FML/]: Injection complete
+[13:41:26] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[13:41:26] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[13:41:29] [main/DEBUG] [FML/]: Read 915 binary patches
+[13:41:30] [main/DEBUG] [FML/]: Loading deobfuscation resource /deobfuscation_data-1.10.2.lzma with 32371 records
+[13:41:32] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[13:41:32] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[13:41:32] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:41:32] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[13:41:32] [main/DEBUG] [FML/]: Injection complete
+[13:41:32] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[13:41:32] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[13:41:32] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[13:41:32] [main/INFO] [LaunchWrapper/]: Calling tweak class com.forgeessentials.core.preloader.FELaunchHandler
+[13:41:32] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.6.10 Source=file:/aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar Env=SERVER
+[13:41:32] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #1
+[13:41:32] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[13:41:32] [main/DEBUG] [mixin/]: Mixin platform: primary container is file:/aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar
+[13:41:32] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar
+[13:41:32] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar
+[13:41:32] [main/DEBUG] [mixin/]: ForceLoadAsMod was specified for forgeessentials-1.10.2-10.3.1380-server.jar, attempting force-load
+[13:41:32] [main/DEBUG] [mixin/]: Adding forgeessentials-1.10.2-10.3.1380-server.jar to reparseable coremod collection
+[13:41:32] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar
+[13:41:32] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/forge.jar for mixin tweaker
+[13:41:32] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/mods/llibrary-1.7.7-1.10.2.jar for mixin tweaker
+[13:41:32] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/mods/1.10.2/llibrary-core-1.0.11-1.12.2.jar for mixin tweaker
+[13:41:32] [main/DEBUG] [mixin/]: Scanning asmgen:/ for mixin tweaker
+[13:41:32] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar]
+[13:41:32] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar]
+[13:41:32] [main/DEBUG] [mixin/]: Setting mixin compatibility level: JAVA_8
+[13:41:32] [main/WARN] [mixin/]: MixinEnvironment::setCompatibilityLevel is deprecated and will be removed. Set level via config instead!
+[13:41:32] [main/INFO] [mixin/]: Compatibility level set to JAVA_8
+[13:41:32] [main/DEBUG] [mixin/]: Registering mixin config: mixins.forgeessentials.json
+[13:41:32] [main/WARN] [mixin/]: MixinEnvironment::setCompatibilityLevel is deprecated and will be removed. Set level via config instead!
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/cdi-api-1.1.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/jsr250-api-1.0.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/mysql-connector-java-5.1.22.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/javassist-3.20.0-GA.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/classmate-1.3.0.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/dom4j-1.6.1.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/antlr-2.7.7.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/geronimo-jta_1.1_spec-1.1.1.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/javax.inject-1.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/pircbotx-2.0.1.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/jandex-2.0.0.Final.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/el-api-2.2.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/hibernate-commons-annotations-5.0.1.Final.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/hibernate-core-5.2.2.Final.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/h2-1.3.175.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/jboss-logging-3.3.0.Final.jar to classpath
+[13:41:32] [main/INFO] [ForgeEssentials/]: Added library /aternos/server/ForgeEssentials/lib/slf4j-api-1.7.5.jar to classpath
+[13:41:32] [main/INFO] [ASM_ClassInjector/]: Scanning injector class com.forgeessentials.core.preloader.injections.MixinEntity
+[13:41:32] [main/INFO] [ASM_ClassInjector/]: Found injector method attackEntityFrom_event =&gt; func_70097_a(Lnet/minecraft/util/DamageSource;F)Z
+[13:41:32] [main/INFO] [ASM_ClassInjector/]: Scanning injector class com.forgeessentials.core.preloader.injections.MixinBlock
+[13:41:32] [main/INFO] [ASM_ClassInjector/]: Found injector method onFallenUpon_event =&gt; func_149746_a(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/Entity;F)V
+[13:41:32] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:41:32] [main/DEBUG] [FML/]: Loaded 195 rules from AccessTransformer config file forge_at.cfg
+[13:41:32] [main/DEBUG] [FML/]: Loaded 1 rules from AccessTransformer mod jar file /aternos/server/mods/journeymap-1.12.2-5.5.4.jar!META-INF/journeymap_at.cfg
+[13:41:32] [main/DEBUG] [FML/]: Loaded 5 rules from AccessTransformer mod jar file /aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar!META-INF/forgeessentials_at.cfg
+[13:41:32] [main/DEBUG] [FML/]: Loaded 9 rules from AccessTransformer mod jar file /aternos/server/mods/llibrary-1.7.7-1.10.2.jar!META-INF/llibrary_at.cfg
+[13:41:32] [main/DEBUG] [FML/]: Loaded 9 rules from AccessTransformer mod jar file /aternos/server/mods/BiomesOPlenty-1.10.2-5.0.0.2290-universal.jar!META-INF/biomesoplenty_at.cfg
+[13:41:32] [main/DEBUG] [FML/]: Loaded 1 rules from AccessTransformer mod jar file /aternos/server/mods/Decocraft-2.5.2_1.10.2.jar!META-INF/decocraft_at.cfg
+[13:41:32] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #2
+[13:41:32] [main/DEBUG] [FML/]: Validating minecraft
+[13:41:33] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[INIT]
+[13:41:34] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[13:41:34] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:41:34] [main/DEBUG] [FML/]: Injecting coremod llibrary {net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugin} class transformers
+[13:41:34] [main/TRACE] [FML/]: Registering transformer net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+[13:41:34] [main/TRACE] [FML/]: Registering transformer net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+[13:41:35] [main/INFO] [FML/]: Found runtime patcher net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+[13:41:35] [main/DEBUG] [FML/]: Injection complete
+[13:41:35] [main/DEBUG] [FML/]: Running coremod plugin for llibrary {net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugin}
+[13:41:35] [main/DEBUG] [FML/]: Running coremod plugin llibrary
+[13:41:35] [main/DEBUG] [FML/]: Coremod plugin class LLibraryPlugin run successfully
+[13:41:35] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:41:35] [main/DEBUG] [FML/]: Injecting coremod llibrary {net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugin} class transformers
+[13:41:35] [main/TRACE] [FML/]: Registering transformer net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+[13:41:35] [main/TRACE] [FML/]: Registering transformer net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+[13:41:35] [main/DEBUG] [FML/]: Injection complete
+[13:41:35] [main/DEBUG] [FML/]: Running coremod plugin for llibrary {net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugin}
+[13:41:35] [main/DEBUG] [FML/]: Running coremod plugin llibrary
+[13:41:35] [main/DEBUG] [FML/]: Coremod plugin class LLibraryPlugin run successfully
+[13:41:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:41:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[13:41:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker
+[13:41:35] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:41:35] [main/INFO] [LaunchWrapper/]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[13:41:35] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar]
+[13:41:35] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar]
+[13:41:35] [main/DEBUG] [mixin/]: Setting mixin compatibility level: JAVA_8
+[13:41:35] [main/WARN] [mixin/]: MixinEnvironment::setCompatibilityLevel is deprecated and will be removed. Set level via config instead!
+[13:41:35] [main/DEBUG] [mixin/]: Registering mixin config: mixins.forgeessentials.json
+[13:41:35] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentFML:file:/aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar]
+[13:41:35] [main/DEBUG] [mixin/]: Creating FML remapper adapter: org.spongepowered.asm.bridge.RemapperAdapterFML
+[13:41:42] [main/INFO] [mixin/]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@5149f008
+[13:41:42] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:file:/aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar]
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/forge.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/mods/llibrary-1.7.7-1.10.2.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/mods/1.10.2/llibrary-core-1.0.11-1.12.2.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning asmgen:/ for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/cdi-api-1.1.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/jsr250-api-1.0.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/mysql-connector-java-5.1.22.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/javassist-3.20.0-GA.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/classmate-1.3.0.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/dom4j-1.6.1.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/antlr-2.7.7.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/geronimo-jta_1.1_spec-1.1.1.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/javax.inject-1.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/pircbotx-2.0.1.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/jandex-2.0.0.Final.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/el-api-2.2.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/hibernate-commons-annotations-5.0.1.Final.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/hibernate-core-5.2.2.Final.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/h2-1.3.175.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/jboss-logging-3.3.0.Final.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: Scanning file:/aternos/server/ForgeEssentials/lib/slf4j-api-1.7.5.jar for mixin tweaker
+[13:41:42] [main/DEBUG] [mixin/]: injectIntoClassLoader running with 1 agents
+[13:41:42] [main/DEBUG] [mixin/]: Processing injectIntoClassLoader() for PlatformAgent[MixinPlatformAgentFML:file:/aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar]
+[13:41:42] [main/DEBUG] [mixin/]: Processing injectIntoClassLoader() for PlatformAgent[MixinPlatformAgentDefault:file:/aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar]
+[13:41:42] [main/INFO] [LaunchWrapper/]: Calling tweak class org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker
+[13:41:42] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker has already been visited -- skipping
+[13:41:42] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #3
+[13:41:42] [main/INFO] [FML/]: Patching class net/minecraft/server/MinecraftServer
+[13:41:42] [main/INFO] [FML/]: Patching method run()V
+[13:41:42] [main/INFO] [FML/]: Patching class net/minecraft/server/MinecraftServer
+[13:41:42] [main/INFO] [FML/]: Patching method run()V
+[13:41:42] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[13:41:42] [main/DEBUG] [mixin/]: Selecting config mixins.forgeessentials.json
+[13:41:42] [main/DEBUG] [mixin/]: Preparing mixins.forgeessentials.json (10)
+[13:41:42] [main/DEBUG] [mixin/]: Rebuilding transformer delegation list:
+[13:41:42] [main/DEBUG] [mixin/]: Adding: net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[13:41:42] [main/DEBUG] [mixin/]: Adding: $wrapper.net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[13:41:42] [main/DEBUG] [mixin/]: Adding: $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[13:41:42] [main/DEBUG] [mixin/]: Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[13:41:42] [main/DEBUG] [mixin/]: Adding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[13:41:42] [main/DEBUG] [mixin/]: Excluding: org.spongepowered.asm.mixin.transformer.MixinTransformer$Proxy
+[13:41:42] [main/DEBUG] [mixin/]: Adding: com.forgeessentials.core.preloader.EventTransformer
+[13:41:42] [main/DEBUG] [mixin/]: Adding: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[13:41:42] [main/DEBUG] [mixin/]: Adding: net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[13:41:42] [main/DEBUG] [mixin/]: Adding: net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[13:41:42] [main/DEBUG] [mixin/]: Adding: net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[13:41:42] [main/DEBUG] [mixin/]: Excluding: org.spongepowered.asm.mixin.transformer.MixinTransformer$Proxy
+[13:41:42] [main/DEBUG] [mixin/]: Adding: $wrapper.net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+[13:41:42] [main/DEBUG] [mixin/]: Adding: $wrapper.net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+[13:41:42] [main/DEBUG] [mixin/]: Adding: $wrapper.net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+[13:41:42] [main/DEBUG] [mixin/]: Adding: $wrapper.net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+[13:41:42] [main/DEBUG] [mixin/]: Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[13:41:42] [main/DEBUG] [mixin/]: Excluding: org.spongepowered.asm.mixin.transformer.MixinTransformer$Proxy
+[13:41:42] [main/DEBUG] [mixin/]: Transformer delegation list created with 13 entries
+[13:41:42] [main/DEBUG] [mixin/]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[13:41:42] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockPortal to metadata cache
+[13:41:42] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockFire to metadata cache
+[13:41:42] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockEndPortal to metadata cache
+[13:41:42] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/CommandHandler to metadata cache
+[13:41:42] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/Entity to metadata cache
+[13:41:43] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/player/EntityPlayer to metadata cache
+[13:41:43] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/player/EntityPlayerMP to metadata cache
+[13:41:43] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/item/crafting/CraftingManager to metadata cache
+[13:41:43] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/NetHandlerPlayServer to metadata cache
+[13:41:43] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/common/DimensionManager to metadata cache
+[13:41:43] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fe/event/world/FireEvent$Destroy to metadata cache
+[13:41:43] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fe/event/world/FireEvent$Spread to metadata cache
+[13:41:43] [main/TRACE] [mixin/]: Added class metadata for com/forgeessentials/api/UserIdent$NpcUserIdent to metadata cache
+[13:41:43] [main/DEBUG] [mixin/]: Prepared 10 mixins in 1.111 sec (111.1 msec avg.)
+[13:41:43] [main/DEBUG] [mixin/]: Mixing command.MixinCommandHandler from mixins.forgeessentials.json into net.minecraft.command.CommandHandler
+[13:41:43] [main/TRACE] [mixin/]: Added class metadata for com/forgeessentials/core/misc/PermissionManager to metadata cache
+[13:41:43] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/server/permission/PermissionAPI to metadata cache
+[13:41:43] [main/TRACE] [mixin/]: Added class metadata for com/forgeessentials/util/DoAsCommandSender to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for com/forgeessentials/api/UserIdent to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/ICommandSender to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/event/CommandEvent to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/text/TextComponentTranslation to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/eventhandler/Event to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/text/TextComponentBase to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/CommandException to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/WrongUsageException to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for java/lang/Exception to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for java/lang/Throwable to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/SyntaxErrorException to metadata cache
+[13:41:44] [main/DEBUG] [mixin/]: Mixing entity.MixinEntity from mixins.forgeessentials.json into net.minecraft.entity.Entity
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/common/MinecraftForge to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fe/event/world/PressurePlateEvent to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/event/entity/EntityEvent to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/eventhandler/EventBus to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for java/util/List to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for java/util/ArrayList to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for java/util/AbstractList to metadata cache
+[13:41:44] [main/TRACE] [mixin/]: Added class metadata for java/util/AbstractCollection to metadata cache
+[13:41:45] [main/DEBUG] [mixin/]: Mixing entity.player.MixinEntityPlayer from mixins.forgeessentials.json into net.minecraft.entity.player.EntityPlayer
+[13:41:45] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/EntityLivingBase to metadata cache
+[13:41:45] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/player/PlayerCapabilities to metadata cache
+[13:41:45] [main/TRACE] [mixin/]: Added class metadata for java/lang/String to metadata cache
+[13:41:45] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[13:41:48] [main/DEBUG] [mixin/]: Mixing block.MixinBlockFire from mixins.forgeessentials.json into net.minecraft.block.BlockFire
+[13:41:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/Block to metadata cache
+[13:41:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/registry/IForgeRegistryEntry$Impl to metadata cache
+[13:41:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fe/event/world/FireEvent to metadata cache
+[13:41:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/event/world/BlockEvent to metadata cache
+[13:41:48] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfo to metadata cache
+[13:41:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/EnumFacing to metadata cache
+[13:41:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/math/BlockPos to metadata cache
+[13:41:48] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/World to metadata cache
+[13:41:49] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/registry/IForgeRegistryEntry to metadata cache
+[13:41:51] [main/DEBUG] [mixin/]: Mixing block.MixinBlockPortal from mixins.forgeessentials.json into net.minecraft.block.BlockPortal
+[13:41:51] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockBreakable to metadata cache
+[13:41:51] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/math/Vec3i to metadata cache
+[13:41:51] [main/TRACE] [mixin/]: Added class metadata for java/lang/Comparable to metadata cache
+[13:41:51] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fe/event/entity/EntityPortalEvent to metadata cache
+[13:41:51] [main/DEBUG] [mixin/]: Mixing block.MixinBlockEndPortal from mixins.forgeessentials.json into net.minecraft.block.BlockEndPortal
+[13:41:51] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockContainer to metadata cache
+[13:41:51] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/state/IBlockState to metadata cache
+[13:41:51] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/state/IBlockBehaviors to metadata cache
+[13:41:51] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/state/IBlockProperties to metadata cache
+[13:41:51] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/math/AxisAlignedBB to metadata cache
+[13:41:51] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/ITileEntityProvider to metadata cache
+[13:41:54] [main/DEBUG] [mixin/]: Mixing entity.player.MixinEntityPlayerMP from mixins.forgeessentials.json into net.minecraft.entity.player.EntityPlayerMP
+[13:41:56] [main/DEBUG] [mixin/]: Mixing item.crafting.MixinCraftingManager from mixins.forgeessentials.json into net.minecraft.item.crafting.CraftingManager
+[13:41:56] [main/TRACE] [mixin/]: Added class metadata for com/forgeessentials/protection/ModuleProtection to metadata cache
+[13:41:56] [main/TRACE] [mixin/]: Added class metadata for java/util/Iterator to metadata cache
+[13:41:56] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/item/crafting/IRecipe to metadata cache
+[13:41:57] [main/DEBUG] [FML/]: Creating vanilla freeze snapshot
+[13:41:57] [main/DEBUG] [FML/]: Vanilla freeze snapshot created
+[13:41:58] [Server thread/INFO] [FML/]: MinecraftForge v12.18.3.2511 Initialized
+[13:41:59] [Server thread/INFO] [FML/]: Replaced 231 ore recipes
+[13:41:59] [Server thread/DEBUG] [FML/]: File /aternos/server/config/injectedDependencies.json not found. No dependencies injected
+[13:41:59] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[13:42:00] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/forge.jar, examining for mod candidates
+[13:42:00] [Server thread/TRACE] [FML/]: Skipping known library file /aternos/server/mods/forgeessentials-1.10.2-10.3.1380-server.jar
+[13:42:00] [Server thread/TRACE] [FML/]: Skipping known library file /aternos/server/mods/llibrary-1.7.7-1.10.2.jar
+[13:42:00] [Server thread/TRACE] [FML/]: Skipping known library file /aternos/server/mods/1.10.2/llibrary-core-1.0.11-1.12.2.jar
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/cdi-api-1.1.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/jsr250-api-1.0.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/mysql-connector-java-5.1.22.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/javassist-3.20.0-GA.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/classmate-1.3.0.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/dom4j-1.6.1.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/antlr-2.7.7.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/geronimo-jta_1.1_spec-1.1.1.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/javax.inject-1.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/pircbotx-2.0.1.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/jandex-2.0.0.Final.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/el-api-2.2.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/hibernate-commons-annotations-5.0.1.Final.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/hibernate-core-5.2.2.Final.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/h2-1.3.175.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/jboss-logging-3.3.0.Final.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /aternos/server/ForgeEssentials/lib/slf4j-api-1.7.5.jar, examining for mod candidates
+[13:42:00] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[13:42:00] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[13:42:00] [Server thread/INFO] [FML/]: Searching /aternos/server/mods for mods
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a candidate mod directory 1.10.2
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file BiomesOPlenty-1.10.2-5.0.0.2290-universal.jar
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CustomMobSpawner 3.10.1.jar
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Decocraft-2.5.2_1.10.2.jar
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file DrZhark's Mo'Creatures Mod-10.0.6.jar
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file forgeessentials-1.10.2-10.3.1380-server.jar
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file journeymap-1.12.2-5.5.4.jar
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file JurassiCraft-2.1.3-Fix.jar
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file llibrary-1.7.7-1.10.2.jar
+[13:42:00] [Server thread/DEBUG] [FML/]: Found a candidate mod directory memory_repo
+[13:42:00] [Server thread/INFO] [FML/]: Also searching /aternos/server/mods/1.10.2 for mods
+[13:42:00] [Server thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker llibrary-core-1.0.11-1.12.2.jar
+[13:42:00] [Server thread/DEBUG] [FML/]: Examining file forge.jar for potential mods
+[13:42:00] [Server thread/DEBUG] [FML/]: The mod container forge.jar appears to be missing an mcmod.info file
+[13:42:02] [Server thread/DEBUG] [FML/]: Examining file cdi-api-1.1.jar for potential mods
+[13:42:02] [Server thread/DEBUG] [FML/]: The mod container cdi-api-1.1.jar appears to be missing an mcmod.info file
+[13:42:02] [Server thread/DEBUG] [FML/]: Examining file jsr250-api-1.0.jar for potential mods
+[13:42:02] [Server thread/DEBUG] [FML/]: The mod container jsr250-api-1.0.jar appears to be missing an mcmod.info file
+[13:42:02] [Server thread/DEBUG] [FML/]: Examining file mysql-connector-java-5.1.22.jar for potential mods
+[13:42:02] [Server thread/DEBUG] [FML/]: The mod container mysql-connector-java-5.1.22.jar appears to be missing an mcmod.info file
+[13:42:03] [Server thread/DEBUG] [FML/]: Examining file javassist-3.20.0-GA.jar for potential mods
+[13:42:03] [Server thread/DEBUG] [FML/]: The mod container javassist-3.20.0-GA.jar appears to be missing an mcmod.info file
+[13:42:03] [Server thread/DEBUG] [FML/]: Examining file classmate-1.3.0.jar for potential mods
+[13:42:03] [Server thread/DEBUG] [FML/]: The mod container classmate-1.3.0.jar appears to be missing an mcmod.info file
+[13:42:03] [Server thread/DEBUG] [FML/]: Examining file dom4j-1.6.1.jar for potential mods
+[13:42:03] [Server thread/DEBUG] [FML/]: The mod container dom4j-1.6.1.jar appears to be missing an mcmod.info file
+[13:42:03] [Server thread/DEBUG] [FML/]: Examining file antlr-2.7.7.jar for potential mods
+[13:42:03] [Server thread/DEBUG] [FML/]: The mod container antlr-2.7.7.jar appears to be missing an mcmod.info file
+[13:42:04] [Server thread/DEBUG] [FML/]: Examining file geronimo-jta_1.1_spec-1.1.1.jar for potential mods
+[13:42:04] [Server thread/DEBUG] [FML/]: The mod container geronimo-jta_1.1_spec-1.1.1.jar appears to be missing an mcmod.info file
+[13:42:04] [Server thread/DEBUG] [FML/]: Examining file jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar for potential mods
+[13:42:04] [Server thread/DEBUG] [FML/]: The mod container jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar appears to be missing an mcmod.info file
+[13:42:04] [Server thread/DEBUG] [FML/]: Examining file javax.inject-1.jar for potential mods
+[13:42:04] [Server thread/DEBUG] [FML/]: The mod container javax.inject-1.jar appears to be missing an mcmod.info file
+[13:42:04] [Server thread/DEBUG] [FML/]: Examining file pircbotx-2.0.1.jar for potential mods
+[13:42:04] [Server thread/DEBUG] [FML/]: The mod container pircbotx-2.0.1.jar appears to be missing an mcmod.info file
+[13:42:04] [Server thread/DEBUG] [FML/]: Examining file jandex-2.0.0.Final.jar for potential mods
+[13:42:04] [Server thread/DEBUG] [FML/]: The mod container jandex-2.0.0.Final.jar appears to be missing an mcmod.info file
+[13:42:04] [Server thread/DEBUG] [FML/]: Examining file hibernate-jpa-2.1-api-1.0.0.Final.jar for potential mods
+[13:42:04] [Server thread/DEBUG] [FML/]: The mod container hibernate-jpa-2.1-api-1.0.0.Final.jar appears to be missing an mcmod.info file
+[13:42:04] [Server thread/DEBUG] [FML/]: Examining file el-api-2.2.jar for potential mods
+[13:42:04] [Server thread/DEBUG] [FML/]: The mod container el-api-2.2.jar appears to be missing an mcmod.info file
+[13:42:04] [Server thread/DEBUG] [FML/]: Examining file hibernate-commons-annotations-5.0.1.Final.jar for potential mods
+[13:42:04] [Server thread/DEBUG] [FML/]: The mod container hibernate-commons-annotations-5.0.1.Final.jar appears to be missing an mcmod.info file
+[13:42:04] [Server thread/DEBUG] [FML/]: Examining file hibernate-core-5.2.2.Final.jar for potential mods
+[13:42:04] [Server thread/DEBUG] [FML/]: The mod container hibernate-core-5.2.2.Final.jar appears to be missing an mcmod.info file
+[13:42:08] [Server thread/DEBUG] [FML/]: Examining file h2-1.3.175.jar for potential mods
+[13:42:08] [Server thread/DEBUG] [FML/]: The mod container h2-1.3.175.jar appears to be missing an mcmod.info file
+[13:42:09] [Server thread/DEBUG] [FML/]: Examining file jboss-logging-3.3.0.Final.jar for potential mods
+[13:42:09] [Server thread/DEBUG] [FML/]: The mod container jboss-logging-3.3.0.Final.jar appears to be missing an mcmod.info file
+[13:42:09] [Server thread/DEBUG] [FML/]: Examining file slf4j-api-1.7.5.jar for potential mods
+[13:42:09] [Server thread/DEBUG] [FML/]: The mod container slf4j-api-1.7.5.jar appears to be missing an mcmod.info file
+[13:42:09] [Server thread/DEBUG] [FML/]: Examining directory 1.10.2 for potential mods
+[13:42:09] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory 1.10.2
+[13:42:09] [Server thread/DEBUG] [FML/]: Examining file BiomesOPlenty-1.10.2-5.0.0.2290-universal.jar for potential mods
+[13:42:09] [Server thread/TRACE] [FML/]: Located mcmod.info file in file BiomesOPlenty-1.10.2-5.0.0.2290-universal.jar
+[13:42:09] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (biomesoplenty.core.BiomesOPlenty) - loading
+[13:42:09] [Server thread/WARN] [FML/]: ****************************************
+[13:42:09] [Server thread/WARN] [FML/]: * The modid BiomesOPlenty is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
+[13:42:09] [Server thread/WARN] [FML/]: * at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
+[13:42:09] [Server thread/WARN] [FML/]: * at net.minecraftforge.fml.common.FMLModContainer.&lt;init&gt;(FMLModContainer.java:128)
+[13:42:09] [Server thread/WARN] [FML/]: * at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[13:42:09] [Server thread/WARN] [FML/]: * at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[13:42:09] [Server thread/WARN] [FML/]: * at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[13:42:09] [Server thread/WARN] [FML/]: * at java.lang.reflect.Constructor.newInstance(Constructor.java:423)...
+[13:42:09] [Server thread/WARN] [FML/]: ****************************************
+[13:42:09] [Server thread/TRACE] [BiomesOPlenty/]: Parsed dependency info : [Forge@[12.18.1.2039,)] [Forge@[12.18.1.2039,)] []
+[13:42:09] [Server thread/DEBUG] [FML/]: Examining file CustomMobSpawner 3.10.1.jar for potential mods
+[13:42:09] [Server thread/TRACE] [FML/]: Located mcmod.info file in file CustomMobSpawner 3.10.1.jar
+[13:42:09] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (drzhark.customspawner.CustomSpawner) - loading
+[13:42:09] [Server thread/TRACE] [customspawner/]: Parsed dependency info : [] [] []
+[13:42:09] [Server thread/DEBUG] [FML/]: Examining file Decocraft-2.5.2_1.10.2.jar for potential mods
+[13:42:09] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Decocraft-2.5.2_1.10.2.jar
+[13:42:09] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.mia.craftstudio.minecraft.forge.CSLibMod) - loading
+[13:42:09] [Server thread/WARN] [FML/]: ****************************************
+[13:42:09] [Server thread/WARN] [FML/]: * The modid PTRModelLib is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
+[13:42:09] [Server thread/WARN] [FML/]: * at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
+[13:42:09] [Server thread/WARN] [FML/]: * at net.minecraftforge.fml.common.FMLModContainer.&lt;init&gt;(FMLModContainer.java:128)
+[13:42:09] [Server thread/WARN] [FML/]: * at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[13:42:09] [Server thread/WARN] [FML/]: * at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[13:42:09] [Server thread/WARN] [FML/]: * at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[13:42:09] [Server thread/WARN] [FML/]: * at java.lang.reflect.Constructor.newInstance(Constructor.java:423)...
+[13:42:09] [Server thread/WARN] [FML/]: ****************************************
+[13:42:09] [Server thread/TRACE] [PTRModelLib/]: Parsed dependency info : [] [] []
+[13:42:10] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.mia.props.Props) - loading
+[13:42:10] [Server thread/TRACE] [props/]: Parsed dependency info : [] [PTRModelLib@[1.0.0,)] []
+[13:42:10] [Server thread/DEBUG] [FML/]: Examining file DrZhark's Mo'Creatures Mod-10.0.6.jar for potential mods
+[13:42:10] [Server thread/TRACE] [FML/]: Located mcmod.info file in file DrZhark's Mo'Creatures Mod-10.0.6.jar
+[13:42:10] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (drzhark.mocreatures.MoCreatures) - loading
+[13:42:10] [Server thread/TRACE] [mocreatures/]: Using mcmod dependency info : [] [CustomSpawner] []
+[13:42:10] [Server thread/DEBUG] [FML/]: Examining file forgeessentials-1.10.2-10.3.1380-server.jar for potential mods
+[13:42:10] [Server thread/TRACE] [FML/]: Located mcmod.info file in file forgeessentials-1.10.2-10.3.1380-server.jar
+[13:42:10] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.forgeessentials.core.ForgeEssentials) - loading
+[13:42:10] [Server thread/TRACE] [forgeessentials/]: Parsed dependency info : [Forge] [Forge, WorldEdit] []
+[13:42:11] [Server thread/DEBUG] [FML/]: Examining file journeymap-1.12.2-5.5.4.jar for potential mods
+[13:42:11] [Server thread/TRACE] [FML/]: Located mcmod.info file in file journeymap-1.12.2-5.5.4.jar
+[13:42:11] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (journeymap.common.Journeymap) - loading
+[13:42:11] [Server thread/TRACE] [journeymap/]: Using mcmod dependency info : [] [Forge@[14.23.5.2768,)] []
+[13:42:11] [Server thread/DEBUG] [FML/]: Examining file JurassiCraft-2.1.3-Fix.jar for potential mods
+[13:42:11] [Server thread/TRACE] [FML/]: Located mcmod.info file in file JurassiCraft-2.1.3-Fix.jar
+[13:42:11] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (org.jurassicraft.JurassiCraft) - loading
+[13:42:11] [Server thread/TRACE] [jurassicraft/]: Parsed dependency info : [llibrary@[1.7.7,)] [llibrary@[1.7.7,)] []
+[13:42:12] [Server thread/DEBUG] [FML/]: Examining file llibrary-1.7.7-1.10.2.jar for potential mods
+[13:42:12] [Server thread/TRACE] [FML/]: Located mcmod.info file in file llibrary-1.7.7-1.10.2.jar
+[13:42:12] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.ilexiconn.llibrary.LLibrary) - loading
+[13:42:12] [Server thread/TRACE] [llibrary/]: Parsed dependency info : [] [] []
+[13:42:12] [Server thread/DEBUG] [FML/]: Examining directory memory_repo for potential mods
+[13:42:12] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory memory_repo
+[13:42:12] [Server thread/TRACE] [FML/]: Recursing into package net
+[13:42:12] [Server thread/TRACE] [FML/]: Recursing into package net/ilexiconn
+[13:42:12] [Server thread/TRACE] [FML/]: Recursing into package net/ilexiconn/llibrary-core
+[13:42:12] [Server thread/TRACE] [FML/]: Recursing into package net/ilexiconn/llibrary-core/1.0.11-1.12.2
+[13:42:12] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 12 mods to load
+[13:42:12] [Server thread/DEBUG] [FML/]: Found API com.forgeessentials.api.remote (owned by ForgeEssentials providing ForgeEssentialsAPI|Remote) embedded in forgeessentials
+[13:42:12] [Server thread/DEBUG] [FML/]: Found API journeymap.client.api.util (owned by journeymap providing journeymap|client-api-util) embedded in journeymap
+[13:42:12] [Server thread/DEBUG] [FML/]: Found API com.forgeessentials.api (owned by ForgeEssentials providing ForgeEssentialsAPI) embedded in forgeessentials
+[13:42:12] [Server thread/DEBUG] [FML/]: Found API journeymap.client.api.event (owned by journeymap providing journeymap|client-api-event) embedded in journeymap
+[13:42:12] [Server thread/DEBUG] [FML/]: Found API journeymap.client.api.model (owned by journeymap providing journeymap|client-api-model) embedded in journeymap
+[13:42:12] [Server thread/DEBUG] [FML/]: Found API com.mia.craftstudio (owned by PTRModelLib providing CSLib|API) embedded in PTRModelLib
+[13:42:12] [Server thread/DEBUG] [FML/]: Found API com.mia.craftstudio (owned by PTRModelLib providing CSLib|API) embedded in props
+[13:42:12] [Server thread/DEBUG] [FML/]: Found API com.forgeessentials.api.permissions (owned by ForgeEssentials providing ForgeEssentialsAPI|Perms) embedded in forgeessentials
+[13:42:12] [Server thread/DEBUG] [FML/]: Found API journeymap.client.api.display (owned by journeymap providing journeymap|client-api-display) embedded in journeymap
+[13:42:12] [Server thread/DEBUG] [FML/]: Found API com.forgeessentials.api.economy (owned by ForgeEssentials providing ForgeEssentialsAPI|Economy) embedded in forgeessentials
+[13:42:12] [Server thread/DEBUG] [FML/]: Found API net.minecraftforge.fe (owned by ForgeEssentials providing Forge-FEHooks) embedded in forgeessentials
+[13:42:12] [Server thread/DEBUG] [FML/]: Found API journeymap.client.api (owned by journeymap providing journeymap|client-api) embedded in journeymap
+[13:42:12] [Server thread/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api-model: owner: journeymap, dependents: []
+[13:42:12] [Server thread/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api-display: owner: journeymap, dependents: []
+[13:42:12] [Server thread/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api: owner: journeymap, dependents: []
+[13:42:12] [Server thread/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api-event: owner: journeymap, dependents: []
+[13:42:12] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ForgeEssentialsAPI|Economy: owner: ForgeEssentials, dependents: [forgeessentials]
+[13:42:12] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ForgeEssentialsAPI|Perms: owner: ForgeEssentials, dependents: [forgeessentials]
+[13:42:12] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ForgeEssentialsAPI|Remote: owner: ForgeEssentials, dependents: [forgeessentials]
+[13:42:12] [Server thread/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api-util: owner: journeymap, dependents: []
+[13:42:12] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ForgeEssentialsAPI: owner: ForgeEssentials, dependents: [forgeessentials]
+[13:42:12] [Server thread/DEBUG] [FML/]: Creating API container dummy for API Forge-FEHooks: owner: ForgeEssentials, dependents: [forgeessentials]
+[13:42:12] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CSLib|API: owner: PTRModelLib, dependents: [props]
+[13:42:12] [Server thread/TRACE] [FML/]: Received a system property request ''
+[13:42:12] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[13:42:12] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[13:42:12] [Server thread/DEBUG] [BiomesOPlenty/]: Enabling mod BiomesOPlenty
+[13:42:12] [Server thread/DEBUG] [customspawner/]: Enabling mod customspawner
+[13:42:12] [Server thread/DEBUG] [PTRModelLib/]: Enabling mod PTRModelLib
+[13:42:12] [Server thread/DEBUG] [props/]: Enabling mod props
+[13:42:12] [Server thread/DEBUG] [mocreatures/]: Enabling mod mocreatures
+[13:42:12] [Server thread/DEBUG] [forgeessentials/]: Enabling mod forgeessentials
+[13:42:12] [Server thread/DEBUG] [journeymap/]: Enabling mod journeymap
+[13:42:12] [Server thread/DEBUG] [jurassicraft/]: Enabling mod jurassicraft
+[13:42:12] [Server thread/DEBUG] [llibrary/]: Enabling mod llibrary
+[13:42:12] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[13:42:12] [Server thread/ERROR] [FML/]: The mod journeymap does not wish to run in Minecraft version Minecraft 1.10.2. You will have to remove it to play.
+[13:42:12] [Server thread/ERROR] [FML/]: Wrong Minecraft version for journeymap
+[13:42:12] [Server thread/DEBUG] [FML/]: Mod sorting data
+[13:42:12] [Server thread/DEBUG] [FML/]: BiomesOPlenty(Biomes O' Plenty:5.0.0.2290): BiomesOPlenty-1.10.2-5.0.0.2290-universal.jar (required-after:Forge@[12.18.1.2039,))
+[13:42:12] [Server thread/DEBUG] [FML/]: customspawner(DrZhark's CustomSpawner:3.10.1): CustomMobSpawner 3.10.1.jar ()
+[13:42:12] [Server thread/DEBUG] [FML/]: PTRModelLib(PTRModelLib:1.0.0): Decocraft-2.5.2_1.10.2.jar ()
+[13:42:12] [Server thread/DEBUG] [FML/]: props(Decocraft:2.5.2): Decocraft-2.5.2_1.10.2.jar (after:PTRModelLib@[1.0.0,))
+[13:42:12] [Server thread/DEBUG] [FML/]: mocreatures(DrZhark's Mo'Creatures Mod:10.0.6): DrZhark's Mo'Creatures Mod-10.0.6.jar ()
+[13:42:12] [Server thread/DEBUG] [FML/]: forgeessentials(Forge Essentials:10.3): forgeessentials-1.10.2-10.3.1380-server.jar (required-after:Forge;after:WorldEdit)
+[13:42:12] [Server thread/DEBUG] [FML/]: journeymap(JourneyMap:1.12.2-5.5.4): journeymap-1.12.2-5.5.4.jar ()
+[13:42:12] [Server thread/DEBUG] [FML/]: jurassicraft(JurassiCraft:2.1.3): JurassiCraft-2.1.3-Fix.jar (required-after:llibrary@[1.7.7,))
+[13:42:12] [Server thread/DEBUG] [FML/]: llibrary(LLibrary:1.7.7): llibrary-1.7.7-1.10.2.jar ()
+[13:42:12] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
+[13:42:12] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[13:42:12] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[13:42:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.002s
+[13:42:12] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[13:42:12] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[13:42:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.002s
+[13:42:12] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[13:42:12] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[13:42:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.001s
+[13:42:12] [Server thread/TRACE] [BiomesOPlenty/BiomesOPlenty]: Sending event FMLServerStoppedEvent to mod BiomesOPlenty
+[13:42:12] [Server thread/TRACE] [BiomesOPlenty/BiomesOPlenty]: Sent event FMLServerStoppedEvent to mod BiomesOPlenty
+[13:42:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Biomes O' Plenty took 0.001s
+[13:42:12] [Server thread/TRACE] [customspawner/customspawner]: Sending event FMLServerStoppedEvent to mod customspawner
+[13:42:12] [Server thread/TRACE] [customspawner/customspawner]: Sent event FMLServerStoppedEvent to mod customspawner
+[13:42:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - DrZhark's CustomSpawner took 0.000s
+[13:42:12] [Server thread/TRACE] [PTRModelLib/PTRModelLib]: Sending event FMLServerStoppedEvent to mod PTRModelLib
+[13:42:12] [Server thread/TRACE] [PTRModelLib/PTRModelLib]: Sent event FMLServerStoppedEvent to mod PTRModelLib
+[13:42:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - PTRModelLib took 0.000s
+[13:42:12] [Server thread/TRACE] [props/props]: Sending event FMLServerStoppedEvent to mod props
+[13:42:12] [Server thread/TRACE] [props/props]: Sent event FMLServerStoppedEvent to mod props
+[13:42:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Decocraft took 0.000s
+[13:42:12] [Server thread/TRACE] [mocreatures/mocreatures]: Sending event FMLServerStoppedEvent to mod mocreatures
+[13:42:12] [Server thread/TRACE] [mocreatures/mocreatures]: Sent event FMLServerStoppedEvent to mod mocreatures
+[13:42:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - DrZhark's Mo'Creatures Mod took 0.000s
+[13:42:12] [Server thread/TRACE] [forgeessentials/forgeessentials]: Sending event FMLServerStoppedEvent to mod forgeessentials
+[13:42:12] [Server thread/TRACE] [forgeessentials/forgeessentials]: Sent event FMLServerStoppedEvent to mod forgeessentials
+[13:42:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Essentials took 0.000s
+[13:42:12] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerStoppedEvent to mod journeymap
+[13:42:12] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerStoppedEvent to mod journeymap
+[13:42:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - JourneyMap took 0.004s
+[13:42:12] [Server thread/TRACE] [jurassicraft/jurassicraft]: Sending event FMLServerStoppedEvent to mod jurassicraft
+[13:42:12] [Server thread/TRACE] [jurassicraft/jurassicraft]: Sent event FMLServerStoppedEvent to mod jurassicraft
+[13:42:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - JurassiCraft took 0.001s
+[13:42:12] [Server thread/TRACE] [llibrary/llibrary]: Sending event FMLServerStoppedEvent to mod llibrary
+[13:42:12] [Server thread/TRACE] [llibrary/llibrary]: Sent event FMLServerStoppedEvent to mod llibrary
+[13:42:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - LLibrary took 0.001s
+[13:42:12] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.012s
+[13:42:12] [Server thread/INFO] [FML/]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded.
