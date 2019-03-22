@@ -34,12 +34,16 @@ class AmbiguousPluginNameProblem extends BukkitProblem
      */
     public function getMessage(): string
     {
-        $first = end($pathParts = explode("/", $this->getFirstPluginPath()));
-        $second = end($pathParts = explode("/", $this->getSecondPluginPath()));
+        $firstPluginPathParts = explode("/", $this->getFirstPluginPath());
+        $firstPluginName = end($firstPluginPathParts);
+
+        $secondPluginPathParts = explode("/", $this->getSecondPluginPath());
+        $secondPluginName = end($secondPluginPathParts);
+
         return Translator::getInstance()->getTranslation("ambiguous-plugin-name-problem", [
             "plugin-name" => $this->getPluginName(),
-            "first-plugin-path" => $first,
-            "second-plugin-path" => $second
+            "first-plugin-path" => $firstPluginName,
+            "second-plugin-path" => $secondPluginName
         ]);
     }
 
