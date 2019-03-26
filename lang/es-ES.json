@@ -45,6 +45,6 @@
   "multiverse-load-problem": "El mundo '{{world-name}}' no se pudo cargar porque contiene errores y está probablemente dañado.",
   "world-repair-solution": "Repara el mundo '{{world-name}}', por ejemplo, usando Minecraft Region Fixer o MCEdit.",
   "world-duplicate-problem": "El mundo '{{world-name}}' es un duplicado de otro mundo y ha sido prevenido en la carga.",
-  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Install a different Forge version."
+  "mod-wrong-minecraft-version-problem": "El mod '{{mod-name}}' no es compatible con la versión de Minecraft {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Instalar una versión diferente de Forge."
 }

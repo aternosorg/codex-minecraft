@@ -1,10 +1,10 @@
 {
   "minecraft-version": "Έκδοση Minecraft",
-  "plugin-load-problem": "The plugin '{{plugin-name}}' could not be loaded.",
-  "pocketmine-version": "Pocketmine version",
-  "bedrock-version": "Bedrock version",
-  "forge-version": "Forge version",
-  "authme-shutdown-problem": "The plugin 'AuthMe' fails to load and shuts the server down.",
+  "plugin-load-problem": "Το πρόσθετο '{{plugin-name}}' δεν μπορεί να φορτωθεί.",
+  "pocketmine-version": "Έκδοση Pocketmine",
+  "bedrock-version": "Έκδοση Bedrock",
+  "forge-version": "Έκδοση Forge",
+  "authme-shutdown-problem": "Το πρόσθετο 'AuthMe' απέτυχε να φορτωθεί και απενεργοποίησε τον διακομιστή.",
   "pex-config-problem": "The configuration of the plugin 'PermissionsEx' is invalid.",
   "ambiguous-plugin-name-problem": "There are multiple plugin files for the plugin name '{{plugin-name}}': '{{first-plugin-path}}' and '{{second-plugin-path}}'.",
   "plugin-dependency-problem": "The plugin '{{plugin-name}}' is missing the required the plugin '{{dependency-plugin-name}}'.",
@@ -45,6 +45,6 @@
   "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
   "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit.",
   "world-duplicate-problem": "Ο κόσμος '{{world-name}}' είναι αντίγραφο από άλλο κόσμο και εμποδίστηκε η φόρτωσή του.",
-  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Install a different Forge version."
+  "mod-wrong-minecraft-version-problem": "To mod '{{mod-name}}' δεν είναι συμβατό με την έκδοση Minecraft {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Εγκαταστήστε μια διαφορετική έκδοση του Forge."
 }

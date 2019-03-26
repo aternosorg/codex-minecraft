@@ -4,10 +4,10 @@
   "pocketmine-version": "PE 版",
   "bedrock-version": "基岩版",
   "forge-version": "Forge 版本",
-  "authme-shutdown-problem": "插件 \"AuthMe\" 无法加载，服务器已关闭。",
-  "pex-config-problem": "插件 \"PermissionsEx\" 的配置无效。",
-  "ambiguous-plugin-name-problem": "插件名称 \"{{plugin-name}}\" 有多个插件程式档: \"{{first-plugin-path}}\" 和 \"{{second-plugin-path}}\"。",
-  "plugin-dependency-problem": "插件 \"{{plugin-name}}\" 缺少所需的插件 \"{{dependency-plugin-name}}\"。",
+  "authme-shutdown-problem": "登录插件无法加载，服务器已关闭。",
+  "pex-config-problem": "基础插件的配置无效。",
+  "ambiguous-plugin-name-problem": "插件名称 \"{{plugin-name}}\" 有多个插件文件: \"{{first-plugin-path}}\" 和 \"{{second-plugin-path}}\"。",
+  "plugin-dependency-problem": "插件 \"{{plugin-name}}\" 缺少所需的前置插件 \"{{dependency-plugin-name}}\"。",
   "plugin-disabling-problem": "插件 '{{plugin-name}}'' 不能被禁用。",
   "plugin-enabling-problem": "插件 '{{plugin-name}}'' 无法被启用。",
   "plugin-runtime-problem": "插件 \"{{plugin-name}}\" 在运行时出现了一个问题。",
@@ -15,7 +15,7 @@
   "mod-dependency-problem": "模组 '{{mod-name}}' 缺失所需的前置 mod {{dependency-mod-name}}。",
   "mod-dependency-problem-plural": "模组 '{{mod-name}}' 缺失所需的一些前置 mod {{dependency-mod-list}}。",
   "mod-duplicate-problem": "模组名称 \"{{mod-name}}\" 有多个模组档: \"{{first-mod-path}}\" 和 \"{{second-mod-path}}\"。",
-  "mod-exception-problem": "模组 '{{mod-name}}' 引发了异常。",
+  "mod-exception-problem": "模组 '{{mod-name}}' 发生错误。",
   "mod-fatal-problem": "模组 '{{mod-name}}' 出现了一个致命错误。",
   "world-missing-mod-problem": "'{{mod-name}}'储存的世界消失了",
   "world-mod-version-problem": "这世界曾在'{{mod-name}}'模组的{{mod-expected-version}} 版本被储存，而现在的模组版本是'\n{{mod-current-version}}",
@@ -45,6 +45,6 @@
   "multiverse-load-problem": "无法载入世界 \"{{world-name}}\", 因为它存在错误, 并且可能已损坏。",
   "world-repair-solution": "修复世界 \"{{world-name}}\", 例如, 通过使用 minecraft 区域修复程序(Minecraft region fixer)或 MCEdit。",
   "world-duplicate-problem": "世界 '{{world-name}}' 是另一个世界的副本, 该世界的加载已被阻止。",
-  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Install a different Forge version."
+  "mod-wrong-minecraft-version-problem": "模组“{{mod-name}}”与Minecraft版本{{minecraft-version}}不兼容。",
+  "forge-install-different-version-solution": "安装一个不同的Forge版本"
 }

@@ -45,6 +45,6 @@
   "multiverse-load-problem": "El món '{{world-name}}' no ha pogut ser carregat per que conté errors i és probablement corrupte.",
   "world-repair-solution": "Arregla el món '{{world-name}}' utilitzant Minecraft Region Fixer o MCEdit.",
   "world-duplicate-problem": "El món '{{world-name}}' és una còpia d'un altre món que no ha pogut ser carregat.",
-  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Install a different Forge version."
+  "mod-wrong-minecraft-version-problem": "L'mod \"{{mod-name}}\" no és compatible amb la versió de Minecraft {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Instal·lar una versió diferent de forge."
 }

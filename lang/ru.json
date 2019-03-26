@@ -45,6 +45,6 @@
   "multiverse-load-problem": "Мир '{{world-name}}' не может быть загружен, потому что в нем есть ошибки и, возможно, поврежден.",
   "world-repair-solution": "Восстановить мир '{{world-name}}', например, используя Minecraft Region Fixer или MCEdit.",
   "world-duplicate-problem": "Мир '{{world-name}}' является дубликатом другого мира и загрузка была прервана.",
-  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Install a different Forge version."
+  "mod-wrong-minecraft-version-problem": "Мод '{{mod-name}}' несовместим с версией Minecraft {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Установите другую версию Forge."
 }

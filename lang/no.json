@@ -1,9 +1,9 @@
 {
-  "minecraft-version": "Minecraft versjon",
-  "plugin-load-problem": "Plugin {{plugin-name}} kunne ikke lastes.",
-  "pocketmine-version": "Pocketmine versjon",
-  "bedrock-version": "Bedrock versjon",
-  "forge-version": "Forge versjon",
+  "minecraft-version": "Minecraft-versjon",
+  "plugin-load-problem": "Pluginen {{plugin-name}} kunne ikke lastes.",
+  "pocketmine-version": "Pocketmine-versjon",
+  "bedrock-version": "Bedrock-versjon",
+  "forge-version": "Forge-versjon",
   "authme-shutdown-problem": "Pluginen 'AuthMe' ble ikke lastet korrekt, og avsluttet serveren.",
   "pex-config-problem": "Konfigurasjonen av pluginen 'PermissionsEx' er ugyldig.",
   "ambiguous-plugin-name-problem": "Det eksisterer flere pluginfiler for pluginen ved navn: {{plugin-name}}: {{first-plugin-path}} og {{second-plugin-path}}.",
@@ -45,6 +45,6 @@
   "multiverse-load-problem": "Verdenen '{{world-name}}' kunne ikke lastes inn fordi den inneholder feil og er sannsynligvis korrupt.",
   "world-repair-solution": "Reparer verdenen '{{world-name}}', f.eks. ved hjelp av Minecraft Region Fixer eller MCEdit.",
   "world-duplicate-problem": "Verdenen '{{world-name}}' er et duplikat av en annen verden, og har blitt forhindret fra å starte.",
-  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Install a different Forge version."
+  "mod-wrong-minecraft-version-problem": "Modden '{{mod-name}}' er ikke kompatibel med Minecraft-versjonen {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Installer en annen Forge-versjon."
 }

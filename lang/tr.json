@@ -44,7 +44,7 @@
   "remove-chunk-solution": "Sorunlu chunk'u mcedit gibi bir program kullanarak veya bölge dosyasını silerek düzeltiniz.",
   "multiverse-load-problem": "\"{{world-name}}\" isimli dünya çalıştırılamaz çünkü içinde hatalar taşıyor ve büyük ihtimallede bozuk.",
   "world-repair-solution": "\"{{world-name}}\" adlı dünyayı MCEdit veya Minecraft Region Fixer kullanarak tamir edin.",
-  "world-duplicate-problem": "World '{{world-name}}' is a duplicate of another world and has been prevented from loading.",
-  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Install a different Forge version."
+  "world-duplicate-problem": "\"{{world-name}}\" adlı dünya başka bir dünyanın kopyasıdır. yüklenmesi engellenmiştir.",
+  "mod-wrong-minecraft-version-problem": "\"{{mod-name}}\" adlı mod {{minecraft-version}} minecraft versiyonu ile uyumlu değildir.",
+  "forge-install-different-version-solution": "Başka bir forge sürümü indir."
 }

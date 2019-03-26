@@ -6,11 +6,11 @@
   "forge-version": "Forge version",
   "authme-shutdown-problem": "Plugin 'AuthMe' kunne ikke indlæses og lukkede serveren ned.",
   "pex-config-problem": "Konfigurationen af plugin 'PermissionsEx' er ugyldig.",
-  "ambiguous-plugin-name-problem": "Der er flere plugin filer for plugin navn '{{plugin-name}}': '{{first-plugin-path}}' og '{{second-plugin-path}}'.",
+  "ambiguous-plugin-name-problem": "Der er flere pluginfiler for plugin navn '{{plugin-name}}': '{{first-plugin-path}}' og '{{second-plugin-path}}'.",
   "plugin-dependency-problem": "Plugin '{{plugin-name}}' mangler de nødvendige plugin '{{dependency-plugin-name}} '.",
   "plugin-disabling-problem": "Plugin '{{plugin-name}}' kunne ikke blive deaktiveret.",
   "plugin-enabling-problem": "Plugin '{{plugin-name}}' kunne ikke blive aktiveret.",
-  "plugin-runtime-problem": "The plugin '{{plugin-name}}' has a problem while running.",
+  "plugin-runtime-problem": "Plugin '{{plugin-name}}' fik et problem mens den kørte.",
   "forge-confirm-problem": "Forge kræver din bekræftelse for at kunne anvende ændringerne og starte serveren.",
   "mod-dependency-problem": "Mod '{{mod-name}}' mangler den krævede mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Mod '{{mod-name}}' mangler påkrævede mods {{dependency-mod-list}}.",
@@ -45,6 +45,6 @@
   "multiverse-load-problem": "Verdenen '{{world-name}}' kunne ikke indlæses, fordi det indeholder fejl og er formentlig beskadiget.",
   "world-repair-solution": "Reparer verden '{{world-name}}', fx ved hjælp af Minecraft Region Fixer eller MCEdit.",
   "world-duplicate-problem": "Verden '{{world-name}}' er en kopi af en anden verden og er blevet forhindret i at blive indlæst.",
-  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Install a different Forge version."
+  "mod-wrong-minecraft-version-problem": "Mod '{{mod-name}}', er ikke kompatibel med Minecraft version {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Installer en anden forge version."
 }
