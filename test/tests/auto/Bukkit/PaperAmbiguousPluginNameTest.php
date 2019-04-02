@@ -216,13 +216,31 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
+                    [prefix:protected] => [16:13:42] [Server thread/ERROR]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [16:13:42] [Server thread/ERROR]: Ambiguous plugin name `Multiverse-Core\' for files `plugins/Multiverse-Core-3.0.0-SNAPSHOT.jar\' and `plugins/Multiverse-Core-2.5.jar\' in `plugins\'
+                                    [number:protected] => 12
+                                )
+
+                        )
+
+                    [level:protected] => ERROR
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [12] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
                     [prefix:protected] => [19:23:12] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
                                     [text:protected] => [19:23:12] [Server thread/ERROR]: Ambiguous plugin name `WorldEdit\' for files `plugins/worldedit-bukkit-7.0.0-beta-05.jar\' and `plugins/worldedit-bukkit-7.0.0-beta-01.jar\' in `plugins\'
-                                    [number:protected] => 12
+                                    [number:protected] => 13
                                 )
 
                         )
@@ -234,7 +252,7 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 12
+    [iterator:protected] => 13
     [logFile:protected] => Aternos\Codex\Log\File\PathLogFile Object
         (
             [content:protected] => [19:23:07] [main/INFO]: Loaded 0 recipes
@@ -248,6 +266,7 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
 [19:23:10] [Server thread/INFO]: Generating keypair
 [19:23:11] [Server thread/INFO]: Starting Minecraft server on *:10730
 [19:23:11] [Server thread/INFO]: Using epoll channel type
+[16:13:42] [Server thread/ERROR]: Ambiguous plugin name `Multiverse-Core\' for files `plugins/Multiverse-Core-3.0.0-SNAPSHOT.jar\' and `plugins/Multiverse-Core-2.5.jar\' in `plugins\'
 [19:23:12] [Server thread/ERROR]: Ambiguous plugin name `WorldEdit\' for files `plugins/worldedit-bukkit-7.0.0-beta-05.jar\' and `plugins/worldedit-bukkit-7.0.0-beta-01.jar\' in `plugins\'
         )
 
@@ -285,6 +304,49 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
                 (
+                    [firstPluginPath:protected] => plugins/Multiverse-Core-3.0.0-SNAPSHOT.jar
+                    [secondPluginPath:protected] => plugins/Multiverse-Core-2.5.jar
+                    [pluginName:protected] => Multiverse-Core
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
+                                (
+                                    [path:protected] => plugins/Multiverse-Core-3.0.0-SNAPSHOT.jar
+                                    [relativePath:protected] => 1
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
+                                (
+                                    [path:protected] => plugins/Multiverse-Core-2.5.jar
+                                    [relativePath:protected] => 1
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [16:13:42] [Server thread/ERROR]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [16:13:42] [Server thread/ERROR]: Ambiguous plugin name `Multiverse-Core\' for files `plugins/Multiverse-Core-3.0.0-SNAPSHOT.jar\' and `plugins/Multiverse-Core-2.5.jar\' in `plugins\'
+                                            [number:protected] => 12
+                                        )
+
+                                )
+
+                            [level:protected] => ERROR
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
+                (
                     [firstPluginPath:protected] => plugins/worldedit-bukkit-7.0.0-beta-05.jar
                     [secondPluginPath:protected] => plugins/worldedit-bukkit-7.0.0-beta-01.jar
                     [pluginName:protected] => WorldEdit
@@ -313,7 +375,7 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                                     [0] => Aternos\Codex\Log\Line Object
                                         (
                                             [text:protected] => [19:23:12] [Server thread/ERROR]: Ambiguous plugin name `WorldEdit\' for files `plugins/worldedit-bukkit-7.0.0-beta-05.jar\' and `plugins/worldedit-bukkit-7.0.0-beta-01.jar\' in `plugins\'
-                                            [number:protected] => 12
+                                            [number:protected] => 13
                                         )
 
                                 )
@@ -328,7 +390,7 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 1
+    [iterator:protected] => 2
 )
 ';
         
@@ -337,9 +399,13 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
 
         $this->assertEquals("Minecraft version: 1.13.2", $analysis[0]->getMessage());
 
-        $this->assertEquals("There are multiple plugin files for the plugin name 'WorldEdit': 'worldedit-bukkit-7.0.0-beta-05.jar' and 'worldedit-bukkit-7.0.0-beta-01.jar'.", $analysis[1]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/worldedit-bukkit-7.0.0-beta-05.jar'.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/worldedit-bukkit-7.0.0-beta-01.jar'.", $analysis[1][1]->getMessage());
+        $this->assertEquals("There are multiple plugin files for the plugin name 'Multiverse-Core': 'Multiverse-Core-3.0.0-SNAPSHOT.jar' and 'Multiverse-Core-2.5.jar'.", $analysis[1]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/Multiverse-Core-3.0.0-SNAPSHOT.jar'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/Multiverse-Core-2.5.jar'.", $analysis[1][1]->getMessage());
+
+        $this->assertEquals("There are multiple plugin files for the plugin name 'WorldEdit': 'worldedit-bukkit-7.0.0-beta-05.jar' and 'worldedit-bukkit-7.0.0-beta-01.jar'.", $analysis[2]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/worldedit-bukkit-7.0.0-beta-05.jar'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/worldedit-bukkit-7.0.0-beta-01.jar'.", $analysis[2][1]->getMessage());
 
     }
 }
