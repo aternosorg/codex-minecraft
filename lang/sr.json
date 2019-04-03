@@ -45,6 +45,6 @@
   "multiverse-load-problem": "Свет {{world-name}} није могао да се учита јер садрзи греске и вероватно је оштећен.",
   "world-repair-solution": "Поправите свет {{world-name}}, например користећи Минецрафт регион фиџер или МЦЕдит.",
   "world-duplicate-problem": "Свет {{world-name}} је дупликат од другог света и заустављен је при учитавању.",
-  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Install a different Forge version."
+  "mod-wrong-minecraft-version-problem": "Mod {{mod-name}} nije kompatibilan sa verzijom Minecrafta {{minecraft-version}}.",
+  "forge-install-different-version-solution": "Instalirajte drugaciju verziju Forgea."
 }
