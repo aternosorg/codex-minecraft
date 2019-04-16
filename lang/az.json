@@ -41,10 +41,10 @@
   "remove-block-solution": "Bloku dünyadan çıxart, məs. MCEdit ilə.",
   "do-nothing-solution": "Heç nə etmə. Problem özü həll olacaq.",
   "chunk-load-exception-problem": "Dünya parçalarını yükləyərkən bir istisna var idi.",
-  "remove-chunk-solution": "Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file.",
-  "multiverse-load-problem": "The world '{{world-name}}' could not be loaded because it contains errors and is probably corrupt.",
-  "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit.",
-  "world-duplicate-problem": "World '{{world-name}}' is a duplicate of another world and has been prevented from loading.",
-  "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Install a different Forge version."
+  "remove-chunk-solution": "Problemli chunk-ı dünyadan çıxarın, məs. MCEdit ilə və ya region faylını çıxardaraq.",
+  "multiverse-load-problem": "'{{world-name}}' dünyası xətalar ehtiva etdiyi və zədələndiyi üçün yüklənilə bilmədi.",
+  "world-repair-solution": "'{{world-name}}' dünyasını Minecraft Region Fixer və ya MCEdit istifadə edərək təmir edin.",
+  "world-duplicate-problem": "'{{world-name}}' dünyası başqa bir dünyanın kopyasıdır, yüklənməsi əngəllənib.",
+  "mod-wrong-minecraft-version-problem": "'{{mod-name}}' modu, Minecraft-ın {{minecraft-version}} versiyası ilə uyğunlaşmır.",
+  "forge-install-different-version-solution": "Fərqli bir Forge versiyası quraşdır."
 }

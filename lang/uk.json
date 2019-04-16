@@ -1,5 +1,5 @@
 {
-  "minecraft-version": "Версія ядра",
+  "minecraft-version": "Версія Minecraft\n",
   "plugin-load-problem": "Не вдалося завантажити плагін \"{{plugin-name}}\".",
   "pocketmine-version": "Версія Pocketmine",
   "bedrock-version": "Bedrock версія",
@@ -46,5 +46,5 @@
   "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit.",
   "world-duplicate-problem": "World '{{world-name}}' is a duplicate of another world and has been prevented from loading.",
   "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Install a different Forge version."
+  "forge-install-different-version-solution": "\nвстановити іншу версію Forge"
 }
