@@ -46,5 +46,7 @@
   "world-repair-solution": "Reparer verden '{{world-name}}', fx ved hjælp af Minecraft Region Fixer eller MCEdit.",
   "world-duplicate-problem": "Verden '{{world-name}}' er en kopi af en anden verden og er blevet forhindret i at blive indlæst.",
   "mod-wrong-minecraft-version-problem": "Mod '{{mod-name}}', er ikke kompatibel med Minecraft version {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Installer en anden forge version."
+  "forge-install-different-version-solution": "Installer en anden forge version.",
+  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
+  "change-motd-solution": "Change the server MOTD."
 }

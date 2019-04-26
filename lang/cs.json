@@ -46,5 +46,7 @@
   "world-repair-solution": "Opravte svět '{{world-name}}' v Minecraft Region Fixer nebo MCEdit.",
   "world-duplicate-problem": "Svět '{{world-name}}' je duplikát jiného světa a jeho načítání bylo zastaveno.",
   "mod-wrong-minecraft-version-problem": "Mód '{{mod-name}}' není kompabilitní s verzí {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Nainstalujte jinou verzi Forge."
+  "forge-install-different-version-solution": "Nainstalujte jinou verzi Forge.",
+  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
+  "change-motd-solution": "Change the server MOTD."
 }

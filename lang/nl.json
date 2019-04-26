@@ -46,5 +46,7 @@
   "world-repair-solution": "Repareer de wereld '{{world-name}}', bijv. Door gebruik van Minecraft Region Fixer of MCEdit.",
   "world-duplicate-problem": "Wereld '{{world-name}}' is een duplicaat van een andere wereld en wordt gehinderd om te laden.",
   "mod-wrong-minecraft-version-problem": "De mod '{{mod-name}}' is niet compatibel met de minecraft versie {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Installeer een andere Forge versie."
+  "forge-install-different-version-solution": "Installeer een andere Forge versie.",
+  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
+  "change-motd-solution": "Change the server MOTD."
 }

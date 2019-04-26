@@ -46,5 +46,7 @@
   "world-repair-solution": "Sửa lại thế giới '{{world-name}}', ví dụ như bằng cách sử dụng Minecraft Region Fixer hoặc MCEdit.",
   "world-duplicate-problem": "Thế giới '{{world-name}}' là một bản sao của một thế giới khác và đã bị ngăn không cho nạp vào.",
   "mod-wrong-minecraft-version-problem": "Mod '{{mod-name}}' không tương thích với phiên bản Minecraft {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Hãy cài một phiên bản khác của Forge."
+  "forge-install-different-version-solution": "Hãy cài một phiên bản khác của Forge.",
+  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
+  "change-motd-solution": "Change the server MOTD."
 }

@@ -46,5 +46,7 @@
   "world-repair-solution": "Поправите свет {{world-name}}, например користећи Минецрафт регион фиџер или МЦЕдит.",
   "world-duplicate-problem": "Свет {{world-name}} је дупликат од другог света и заустављен је при учитавању.",
   "mod-wrong-minecraft-version-problem": "Mod {{mod-name}} nije kompatibilan sa verzijom Minecrafta {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Instalirajte drugaciju verziju Forgea."
+  "forge-install-different-version-solution": "Instalirajte drugaciju verziju Forgea.",
+  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
+  "change-motd-solution": "Change the server MOTD."
 }

@@ -46,5 +46,7 @@
   "world-repair-solution": "Minecraft 地域定着液または 'mcedit' を使用して例えば、世界 '{{world-name}}' を修復します。",
   "world-duplicate-problem": "世界 '{{world-name}}' は、別の世界の重複、読み込みを禁止されています。",
   "mod-wrong-minecraft-version-problem": "Mod '{{mod-name}}' は Minecraft のバージョン {{minecraft-version}} と互換性がありません。",
-  "forge-install-different-version-solution": "別の偽造バージョンをインストールします。"
+  "forge-install-different-version-solution": "別の偽造バージョンをインストールします。",
+  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
+  "change-motd-solution": "Change the server MOTD."
 }

@@ -46,5 +46,7 @@
   "world-repair-solution": "Repair the world '{{world-name}}', e.g. by using Minecraft Region Fixer or MCEdit.",
   "world-duplicate-problem": "Ο κόσμος '{{world-name}}' είναι αντίγραφο από άλλο κόσμο και εμποδίστηκε η φόρτωσή του.",
   "mod-wrong-minecraft-version-problem": "To mod '{{mod-name}}' δεν είναι συμβατό με την έκδοση Minecraft {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Εγκαταστήστε μια διαφορετική έκδοση του Forge."
+  "forge-install-different-version-solution": "Εγκαταστήστε μια διαφορετική έκδοση του Forge.",
+  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
+  "change-motd-solution": "Change the server MOTD."
 }

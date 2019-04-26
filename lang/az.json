@@ -46,5 +46,7 @@
   "world-repair-solution": "'{{world-name}}' dünyasını Minecraft Region Fixer və ya MCEdit istifadə edərək təmir edin.",
   "world-duplicate-problem": "'{{world-name}}' dünyası başqa bir dünyanın kopyasıdır, yüklənməsi əngəllənib.",
   "mod-wrong-minecraft-version-problem": "'{{mod-name}}' modu, Minecraft-ın {{minecraft-version}} versiyası ilə uyğunlaşmır.",
-  "forge-install-different-version-solution": "Fərqli bir Forge versiyası quraşdır."
+  "forge-install-different-version-solution": "Fərqli bir Forge versiyası quraşdır.",
+  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
+  "change-motd-solution": "Change the server MOTD."
 }

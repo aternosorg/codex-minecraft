@@ -46,5 +46,7 @@
   "world-repair-solution": "修复世界 \"{{world-name}}\", 例如, 通过使用 minecraft 区域修复程序(Minecraft region fixer)或 MCEdit。",
   "world-duplicate-problem": "世界 '{{world-name}}' 是另一个世界的副本, 该世界的加载已被阻止。",
   "mod-wrong-minecraft-version-problem": "模组“{{mod-name}}”与Minecraft版本{{minecraft-version}}不兼容。",
-  "forge-install-different-version-solution": "安装一个不同的Forge版本"
+  "forge-install-different-version-solution": "安装一个不同的Forge版本",
+  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
+  "change-motd-solution": "Change the server MOTD."
 }

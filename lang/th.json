@@ -46,5 +46,7 @@
   "world-repair-solution": "กรุณาซ่อมแซมโลก '{{world-name}}' โดยอาจใช้ Minecraft Region Fixer หรือ MCEdit",
   "world-duplicate-problem": "โลก '{{world-name}}' เป็นโลกที่ซ้ำกับอีกโลกหนึ่ง จึงไม่สามารถโหลดได้",
   "mod-wrong-minecraft-version-problem": "มอด '{{mod-name}}' ไม่สามารถเข้ากับ Minecraft รุ่น {{minecraft-version}} ได้",
-  "forge-install-different-version-solution": "ติดตั้ง Forge รุ่นอื่น"
+  "forge-install-different-version-solution": "ติดตั้ง Forge รุ่นอื่น",
+  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
+  "change-motd-solution": "Change the server MOTD."
 }

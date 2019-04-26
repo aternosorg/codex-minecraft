@@ -1,0 +1,9 @@
+[21:28:50] [main/FATAL]: Failed to start the minecraft server
+java.lang.IllegalArgumentException: Malformed \uxxxx encoding.
+at java.util.Properties.loadConvert(Properties.java:574) ~[?:1.8.0_202]
+at java.util.Properties.load0(Properties.java:391) ~[?:1.8.0_202]
+at java.util.Properties.load(Properties.java:341) ~[?:1.8.0_202]
+at uk.b(SourceFile:55) ~[minecraft_server.jar:?]
+at uh.a(SourceFile:69) ~[minecraft_server.jar:?]
+at ui.&lt;init&gt;(SourceFile:12) ~[minecraft_server.jar:?]
+at net.minecraft.server.MinecraftServer.main(SourceFile:887) [minecraft_server.jar:?]

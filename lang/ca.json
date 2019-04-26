@@ -46,5 +46,7 @@
   "world-repair-solution": "Arregla el món '{{world-name}}' utilitzant Minecraft Region Fixer o MCEdit.",
   "world-duplicate-problem": "El món '{{world-name}}' és una còpia d'un altre món que no ha pogut ser carregat.",
   "mod-wrong-minecraft-version-problem": "L'mod \"{{mod-name}}\" no és compatible amb la versió de Minecraft {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Instal·lar una versió diferent de forge."
+  "forge-install-different-version-solution": "Instal·lar una versió diferent de forge.",
+  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
+  "change-motd-solution": "Change the server MOTD."
 }

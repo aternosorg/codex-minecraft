@@ -46,5 +46,7 @@
   "world-repair-solution": "'{{world-name}}' világ javítása, pl. a Minecraft Region Fixer vagy az MCEdit használatával.",
   "world-duplicate-problem": "A(z) '{{world-name}}' egy duplikált másik világból, és megakadályozta a betöltést.",
   "mod-wrong-minecraft-version-problem": "A mod '{{mod-name}}' nem kompatibilis a(z) {{minecraft-version}} Minecraft verziójával.",
-  "forge-install-different-version-solution": "Telepíts egy másik Forge verziót."
+  "forge-install-different-version-solution": "Telepíts egy másik Forge verziót.",
+  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
+  "change-motd-solution": "Change the server MOTD."
 }

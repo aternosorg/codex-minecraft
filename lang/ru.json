@@ -46,5 +46,7 @@
   "world-repair-solution": "Восстановить мир '{{world-name}}', например, используя Minecraft Region Fixer или MCEdit.",
   "world-duplicate-problem": "Мир '{{world-name}}' является дубликатом другого мира и загрузка была прервана.",
   "mod-wrong-minecraft-version-problem": "Мод '{{mod-name}}' несовместим с версией Minecraft {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Установите другую версию Forge."
+  "forge-install-different-version-solution": "Установите другую версию Forge.",
+  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
+  "change-motd-solution": "Change the server MOTD."
 }
