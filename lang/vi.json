@@ -1,6 +1,6 @@
 {
   "minecraft-version": "Phiên bản Minecraft",
-  "plugin-load-problem": "Không thể nạp các plugin '{{plugin-name}}'.",
+  "plugin-load-problem": "Không thể tải plugin '{{plugin-name}}'.",
   "pocketmine-version": "Phiên bản Pocketmine",
   "bedrock-version": "Phiên bản Bedrock",
   "forge-version": "Phiên bản Forge",
