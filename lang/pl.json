@@ -47,6 +47,6 @@
   "world-duplicate-problem": "Świat \"{{world-name}}\" jest duplikatem innego świata i uniemożliwił jego załadowanie.",
   "mod-wrong-minecraft-version-problem": "Mod '{{mod-name}}' jest niekompatybilny z wersją Minecrafta {{minecraft-version}}.",
   "forge-install-different-version-solution": "Zainstaluj inną wersje Forge.",
-  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Change the server MOTD."
+  "malformed-encoding-problem": "Coś (prawdopodobnie wiadomość dnia) zawiera zniekształcone kody formatowania.",
+  "change-motd-solution": "Zmienić wiadomość dnia na serwerze."
 }

@@ -47,6 +47,6 @@
   "world-duplicate-problem": "'{{world-name}}' dünyası başqa bir dünyanın kopyasıdır, yüklənməsi əngəllənib.",
   "mod-wrong-minecraft-version-problem": "'{{mod-name}}' modu, Minecraft-ın {{minecraft-version}} versiyası ilə uyğunlaşmır.",
   "forge-install-different-version-solution": "Fərqli bir Forge versiyası quraşdır.",
-  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Change the server MOTD."
+  "malformed-encoding-problem": "Bir şey (ehtimal ki, MOTD) səhv formatlı kodları ehtiva edir.",
+  "change-motd-solution": "MOTD serverini dəyişdirin."
 }

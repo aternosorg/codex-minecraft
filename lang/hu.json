@@ -32,9 +32,9 @@
   "file-delete-solution": "'{{file-path}}' fájl törlése.",
   "file-edit-solution": "'{{file-path}}' fájl szerkesztése.",
   "mod-install-different-version-solution": "Másik verzió telepítése a(z) '{{mod-name}}' modhoz.",
-  "mod-install-solution": "'{{mod-name}}' mod telepítése.",
-  "mod-install-solution-with-version": "'{{mod-name}}' mod telepítése {{mod-version}} verzióval.",
-  "mod-remove-solution": "'{{mod-name}}' mod eltávolítása.",
+  "mod-install-solution": "'{{mod-name}}' mód telepítése.",
+  "mod-install-solution-with-version": "'{{mod-name}}' mód telepítése {{mod-version}} verzióval.",
+  "mod-remove-solution": "'{{mod-name}}' mód eltávolítása.",
   "aquatic-version-install-solution": "Frissítsd a szerver szoftvert 1.13-ra vagy újabbra.",
   "plugin-command-exception-problem": "A plugin '{{plugin-name}}' nem futtatja a parancsot '{{command}}'.",
   "ticking-block-entity-problem": "Egy blokk a világban problémákat okoz.",
@@ -45,8 +45,8 @@
   "multiverse-load-problem": "A(z) '{{world-name}}' világot nem lehetett betölteni, mert hibákat tartalmat és valószínűleg sérült.",
   "world-repair-solution": "'{{world-name}}' világ javítása, pl. a Minecraft Region Fixer vagy az MCEdit használatával.",
   "world-duplicate-problem": "A(z) '{{world-name}}' egy duplikált másik világból, és megakadályozta a betöltést.",
-  "mod-wrong-minecraft-version-problem": "A mod '{{mod-name}}' nem kompatibilis a(z) {{minecraft-version}} Minecraft verziójával.",
+  "mod-wrong-minecraft-version-problem": "A mód '{{mod-name}}' nem kompatibilis a(z) {{minecraft-version}} Minecraft verziójával.",
   "forge-install-different-version-solution": "Telepíts egy másik Forge verziót.",
-  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Change the server MOTD."
+  "malformed-encoding-problem": "Valami (talán a MOTD) hibás formázási kódokat tartalmaz.",
+  "change-motd-solution": "Szerver MOTD megváltozása."
 }

@@ -6,7 +6,7 @@
   "forge-version": "Versão Forge",
   "authme-shutdown-problem": "O plugin \"AuthMe\" falhou ao carregar e desligou o servidor.",
   "pex-config-problem": "A configuração do plugin 'PermissionsEx' é inválida.",
-  "ambiguous-plugin-name-problem": "Existem vários arquivos de plugin para o nome do plugin '{{plugin-name}}'{{first-plugin-path}}' e '{{second-plugin-path}}'.",
+  "ambiguous-plugin-name-problem": "Existem vários ficheiros de plugin para o nome do plugin '{{plugin-name}}'{{first-plugin-path}}' e '{{second-plugin-path}}'.",
   "plugin-dependency-problem": "O plugin '{{plugin-name}}' está sem a dependência '{{dependency-plugin-name}}'.",
   "plugin-disabling-problem": "O plugin '{{plugin-name}}' não pôde ser carregado.",
   "plugin-enabling-problem": "O plugin '{{plugin-name}}' não pôde ser carregado.",
@@ -41,12 +41,12 @@
   "remove-block-solution": "Remove o bloco do mundo, por exemplo, com o MCEdit.",
   "do-nothing-solution": "Não faça nada. Este problema pode resolver-se.",
   "chunk-load-exception-problem": "Houve uma falha ao carregar as chunks mundiais.",
-  "remove-chunk-solution": "Remova a parte problemática do mundo, por exemplo, com o MCEdit ou removendo o arquivo de região.",
+  "remove-chunk-solution": "Remove a parte problemática do mundo, por exemplo, com o MCEdit ou removendo o ficheiro de região.",
   "multiverse-load-problem": "O mundo '{{world-name}}' não pôde ser carregado porque contém erros e provavelmente está corrompido.",
   "world-repair-solution": "Reparar o mundo '{{world-name}}', por ex. usando Minecraft Region Fixer ou MCEdit.",
   "world-duplicate-problem": "O mundo '{{world-name}}' é uma duplicata de outro mundo e foi impedido de ser carregado.",
   "mod-wrong-minecraft-version-problem": "O mod '{{mod-name}}' não é compatível com a versão do Minecraft {{minecraft-version}}.",
   "forge-install-different-version-solution": "Instale uma versão diferente do Forge.",
-  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Change the server MOTD."
+  "malformed-encoding-problem": "Algo (provavelmente o MOTD) contém códigos de formatação deformados.",
+  "change-motd-solution": "Altera o MOTD do servidor."
 }

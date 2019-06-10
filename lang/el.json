@@ -15,7 +15,7 @@
   "mod-dependency-problem": "Το '{{mod-name}}' λείπει το απαιτούμενο mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Το '{{mod-name}}' λείπει το απαιτούμενο mod {{dependency-mod-name}}.",
   "mod-duplicate-problem": "Υπάρχουν πολλά αρχεία για το plugin για το plugin όνομα «{{plugin-name}}»: «{{first-plugin-path}}» και «{{second-plugin-path}}».",
-  "mod-exception-problem": "The mod '{{mod-name}}' has thrown an exception.",
+  "mod-exception-problem": "Το mod {{mod-name}} εχει εμφανιση μια εξαίρεση.",
   "mod-fatal-problem": "Το mod {{mod-name}} έχει ένα πρόβλημα.",
   "world-missing-mod-problem": "Ο κόσμος αποθηκευτικέ με το mod {{mod-name}} που φαίνεται να έχει χαθεί.",
   "world-mod-version-problem": "Ο κόσμος αποθηκευτικέ με το mod {{mod-name}} στην version {{mod-expected-version}} ενώ τώρα είναι στην version {{mod-current-version}}.",

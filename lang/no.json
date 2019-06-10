@@ -47,6 +47,6 @@
   "world-duplicate-problem": "Verdenen '{{world-name}}' er et duplikat av en annen verden, og har blitt forhindret fra å starte.",
   "mod-wrong-minecraft-version-problem": "Modden '{{mod-name}}' er ikke kompatibel med Minecraft-versjonen {{minecraft-version}}.",
   "forge-install-different-version-solution": "Installer en annen Forge-versjon.",
-  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Change the server MOTD."
+  "malformed-encoding-problem": "Noe (antageligvis MOTD) inneholder feil i formatteringskodene.",
+  "change-motd-solution": "Bytt serverens MOTD."
 }

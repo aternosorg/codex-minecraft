@@ -1,9 +1,9 @@
 {
   "minecraft-version": "Версия Майнкрафта",
   "plugin-load-problem": "Плагин '{{plugin-name}}' не может быть загружен.",
-  "pocketmine-version": "Карманная версия Майнкрафта",
-  "bedrock-version": "Бедрок версия Майнрафта",
-  "forge-version": "Версия майнкрафта Forge",
+  "pocketmine-version": "Карманная версия",
+  "bedrock-version": "Бедрок версия",
+  "forge-version": "Версия фордж",
   "authme-shutdown-problem": "Плагин 'AuthMe' не может быть загружен и выключает сервер.",
   "pex-config-problem": "Конфигурация плагина 'PermissionsEx' недействительна.",
   "ambiguous-plugin-name-problem": "Есть несколько файлов плагинов для этого названия: '{{plugin-name}}': '{{first-plugin-path}}' и '{{second-plugin-path}}'.",
@@ -47,6 +47,6 @@
   "world-duplicate-problem": "Мир '{{world-name}}' является дубликатом другого мира и загрузка была прервана.",
   "mod-wrong-minecraft-version-problem": "Мод '{{mod-name}}' несовместим с версией Minecraft {{minecraft-version}}.",
   "forge-install-different-version-solution": "Установите другую версию Forge.",
-  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Change the server MOTD."
+  "malformed-encoding-problem": "Что-то (возможно, MOTD) содержит неверные коды форматирования.",
+  "change-motd-solution": "Изменение MOTD сервера."
 }

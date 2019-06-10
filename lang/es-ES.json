@@ -47,6 +47,6 @@
   "world-duplicate-problem": "El mundo '{{world-name}}' es un duplicado de otro mundo y ha sido prevenido en la carga.",
   "mod-wrong-minecraft-version-problem": "El mod '{{mod-name}}' no es compatible con la versión de Minecraft {{minecraft-version}}.",
   "forge-install-different-version-solution": "Instalar otra versión diferente de Forge.\n",
-  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Change the server MOTD."
+  "malformed-encoding-problem": "Algo (probablemente el MOTD) contiene códigos de formato incorrecto.",
+  "change-motd-solution": "Modificar el MOTD del servidor."
 }

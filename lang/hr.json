@@ -47,6 +47,6 @@
   "world-duplicate-problem": "Svijet {{world-name}} je duplikat drugog svijeta i spriječeno je njegovo učitavanje.",
   "mod-wrong-minecraft-version-problem": "Mod {{mod-name}} nije kompatibilan sa verzijom Minecrafta {{minecraft-version}}.",
   "forge-install-different-version-solution": "Instaliraj neku drugu verziju Forgea.",
-  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Change the server MOTD."
+  "malformed-encoding-problem": "Nesto (vjerojatno MOTD) sadrzi neispravne kodove za formatiranje.",
+  "change-motd-solution": "Promijenite MOTD servera."
 }

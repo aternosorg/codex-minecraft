@@ -47,6 +47,6 @@
   "world-duplicate-problem": "Thế giới '{{world-name}}' là một bản sao của một thế giới khác và đã bị ngăn không cho nạp vào.",
   "mod-wrong-minecraft-version-problem": "Mod '{{mod-name}}' không tương thích với phiên bản Minecraft {{minecraft-version}}.",
   "forge-install-different-version-solution": "Hãy cài một phiên bản khác của Forge.",
-  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Change the server MOTD."
+  "malformed-encoding-problem": "Mã định dạng bị thay đổi (có thể là MOTD).",
+  "change-motd-solution": "Thay đổi máy chủ MOTD."
 }

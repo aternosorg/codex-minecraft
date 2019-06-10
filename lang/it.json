@@ -8,7 +8,7 @@
   "pex-config-problem": "La configurazione del plugin 'PermissionsEx' è invalida.",
   "ambiguous-plugin-name-problem": "Ci sono più files di plugins per il nome del plugin '{{plugin-nome}}':'((primo-plugin-composizione}}' e ''{{secondo-plugin-composizione}}'.",
   "plugin-dependency-problem": "Nel plugin '{{plugin-name}}' manca il plugin richiesto '{{dependency-plugin-name}}'.",
-  "plugin-disabling-problem": "Il plugin '{{plugin-name}}' non è potuto essere disabilitato.",
+  "plugin-disabling-problem": "Il plugin '{{plugin-name}}' non può essere disabilitato.",
   "plugin-enabling-problem": "Il plugin '{{plugin-name}}' non può essere abilitato.",
   "plugin-runtime-problem": "Il plugin '{{plugin-name}}' ha un problema nel funzionamento.",
   "forge-confirm-problem": "Forge richiede la tua conferma per applicare le modifiche e avviare il server.",
@@ -44,9 +44,9 @@
   "remove-chunk-solution": "Rimuovi il chunk problematico dal mondo,\nEs. Con MCEdit o rimuovendo il file region.",
   "multiverse-load-problem": "Il mondo '{{world-name}}' non può essere caricato perché contiene errori e probabilmente è corrotto.",
   "world-repair-solution": "Ripara il mondo '{{world-name}}', es. usando Minecraft Region Fixer o MCEdit.",
-  "world-duplicate-problem": "E' stato impedito il caricamento del mondo '{{world-name}}' perchè è uguale ad un altro mondo.",
+  "world-duplicate-problem": "E' stato impedito il caricamento del mondo '{{world-name}}' perchè è il duplicato di un altro mondo.",
   "mod-wrong-minecraft-version-problem": "La mod '{{mod-name}}' non é compadibile con la versione di Minecraft {{minecraft-version}}.",
   "forge-install-different-version-solution": "Installa una versione diversa di forge.",
-  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Change the server MOTD."
+  "malformed-encoding-problem": "Qualcosa (Probabilmente il MOTD) contiene codici di formattazione malformati.",
+  "change-motd-solution": "Cambia il MOTD del server."
 }

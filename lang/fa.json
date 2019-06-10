@@ -47,6 +47,6 @@
   "world-duplicate-problem": "ورلد {{world-name}} یک کپی از یک ورلد دیگر است و از لود آن جلوگیری شد.",
   "mod-wrong-minecraft-version-problem": "مد {{mod-name}} با ورژن ماینکرافت {{minecraft-version}} سازکار نیست.",
   "forge-install-different-version-solution": "ورژن دیگری از Forge نصب کنید.",
-  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Change the server MOTD."
+  "malformed-encoding-problem": "چیزی (احتمالا MOTD) حاوی کدهای قالب بندی نادرست است.",
+  "change-motd-solution": "تغییر MOTD سرور."
 }

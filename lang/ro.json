@@ -47,6 +47,6 @@
   "world-duplicate-problem": "Lumea \"{{world-name}}\" este o copie a unei alte lumi și împiedică încărcarea acesteia.",
   "mod-wrong-minecraft-version-problem": "Modul '{{mod-name}}' nu este compatibil cu versiunea {{minecraft-version}} de Minecraft.",
   "forge-install-different-version-solution": "Instalează o altă versiune de Forge.",
-  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Change the server MOTD."
+  "malformed-encoding-problem": "Ceva (probabil MOTD) contine coduri de formatare malformat.",
+  "change-motd-solution": "Schimba MOTD server."
 }

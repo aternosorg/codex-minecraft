@@ -47,6 +47,6 @@
   "world-duplicate-problem": "世界 '{{world-name}}' 是另一个世界的副本, 该世界的加载已被阻止。",
   "mod-wrong-minecraft-version-problem": "模组“{{mod-name}}”与Minecraft版本{{minecraft-version}}不兼容。",
   "forge-install-different-version-solution": "安装一个不同的Forge版本",
-  "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Change the server MOTD."
+  "malformed-encoding-problem": "有些不正确的代码存在 (可能是标语)。",
+  "change-motd-solution": "请更改服务器的MOTD."
 }
