@@ -6,7 +6,7 @@
   "forge-version": "Forge različica",
   "authme-shutdown-problem": "Vtičnik 'AuthMe' se ne naloži in izklopi strežnik.",
   "pex-config-problem": "Konfiguracija vtičnika 'PermissionsEx' je napačna.",
-  "ambiguous-plugin-name-problem": "There are multiple plugin files for the plugin name '{{plugin-name}}': '{{first-plugin-path}}' and '{{second-plugin-path}}'.",
+  "ambiguous-plugin-name-problem": "Tukaj je več plugin dadotek za plugin z imenom \"{{plugin-name}}\": \"{{first-plugin-path}}\" in \"{{second-plugin-path}}\".",
   "plugin-dependency-problem": "The plugin '{{plugin-name}}' is missing the required the plugin '{{dependency-plugin-name}}'.",
   "plugin-disabling-problem": "The plugin '{{plugin-name}}' could not be disabled.",
   "plugin-enabling-problem": "The plugin '{{plugin-name}}' could not be enabled.",

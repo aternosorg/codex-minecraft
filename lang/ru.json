@@ -3,7 +3,7 @@
   "plugin-load-problem": "Плагин '{{plugin-name}}' не может быть загружен.",
   "pocketmine-version": "Карманная версия",
   "bedrock-version": "Бедрок версия",
-  "forge-version": "Версия фордж",
+  "forge-version": "Версия Forge",
   "authme-shutdown-problem": "Плагин 'AuthMe' не может быть загружен и выключает сервер.",
   "pex-config-problem": "Конфигурация плагина 'PermissionsEx' недействительна.",
   "ambiguous-plugin-name-problem": "Есть несколько файлов плагинов для этого названия: '{{plugin-name}}': '{{first-plugin-path}}' и '{{second-plugin-path}}'.",

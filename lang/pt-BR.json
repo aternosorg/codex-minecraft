@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Versão do Minecraft",
-  "plugin-load-problem": "Não foi possível carregar o plugin '{{plugin-name}}'.",
-  "pocketmine-version": "Versão do Minecraft Pe",
+  "plugin-load-problem": "O plugin '{{plugin-name}}' não pôde ser ativado.",
+  "pocketmine-version": "Versão do Minecraft pirata\n",
   "bedrock-version": "Versão Bedrock",
   "forge-version": "Versão do Forge",
   "authme-shutdown-problem": "O plugin 'AuthMe' não consegue iniciar e desliga o servidor.",
@@ -28,7 +28,7 @@
   "configure-plugin-with-file": "Configura o plugin {{plugin-name}} ({{suggested-file}}).",
   "plugin-install-different-version-solution": "Instale uma versão diferente do plugin '{{plugin-name}}'.",
   "plugin-install-solution": "Instale o plugin '{{plugin-name}}'.",
-  "plugin-remove-solution": "Remove o plugin '{{nome-do-plugin}}'.",
+  "plugin-remove-solution": "Remove o plugin '{{plugin-name}}'.",
   "file-delete-solution": "Deleta o arquivo '{{caminho-do-arquivo}}'.",
   "file-edit-solution": "Edita o arquivo '{{caminho-do-arquivo}}'.",
   "mod-install-different-version-solution": "Instale uma versão diferente do mod '{{mod-name}}'.",

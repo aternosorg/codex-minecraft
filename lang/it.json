@@ -1,6 +1,6 @@
 {
   "minecraft-version": "Versione di Minecraft",
-  "plugin-load-problem": "Il plugin '{{plugin-name}}' non può essere caricato.",
+  "plugin-load-problem": "Il plugin '{{plugin-name}}' non può essere disabilitato.",
   "pocketmine-version": "Versione Pocketmine",
   "bedrock-version": "Versione Bedrock",
   "forge-version": "Versione di Forge",

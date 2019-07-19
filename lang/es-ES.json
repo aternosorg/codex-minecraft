@@ -1,9 +1,9 @@
 {
-  "minecraft-version": "Versión de Minecraft\n",
+  "minecraft-version": "Versión de Minecraft\n1.12.2",
   "plugin-load-problem": "El plugin '{{plugin-name}}' no se pudo cargar.",
   "pocketmine-version": "Versión de Pocketmine",
   "bedrock-version": "Versión de Bedrock",
-  "forge-version": "Versión de Forge",
+  "forge-version": "Versión de Forge 1.12.2",
   "authme-shutdown-problem": "El plugin 'AuthMe' falló en cargar y ha cerrado el servidor.",
   "pex-config-problem": "La configuración del plugin 'PermissionsEx' es invalida.",
   "ambiguous-plugin-name-problem": "Hay varios archivos de plugin para el plugin de nombre '{{plugin-name}}':'{{first-plugin-path}}' y '{{second-plugin-path}}'.",
@@ -48,5 +48,5 @@
   "mod-wrong-minecraft-version-problem": "El mod '{{mod-name}}' no es compatible con la versión de Minecraft {{minecraft-version}}.",
   "forge-install-different-version-solution": "Instalar otra versión diferente de Forge.\n",
   "malformed-encoding-problem": "Algo (probablemente el MOTD) contiene códigos de formato incorrecto.",
-  "change-motd-solution": "Modificar el MOTD del servidor."
+  "change-motd-solution": "Cambiar el servidor MOTD."
 }
