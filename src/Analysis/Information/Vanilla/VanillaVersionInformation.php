@@ -28,6 +28,6 @@ class VanillaVersionInformation extends VanillaInformation
      */
     public static function getPatterns(): array
     {
-        return ['/Starting minecraft server version ([0-9\.]+)/'];
+        return ['/Starting minecraft server version ([0-9\.wa]+)/'];
     }
 }
