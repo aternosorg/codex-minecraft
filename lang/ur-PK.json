@@ -48,5 +48,5 @@
   "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
   "forge-install-different-version-solution": "Install a different Forge version.",
   "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Change the server MOTD."
+  "change-motd-solution": "MOTD سرور کو تبدیل کریں۔."
 }

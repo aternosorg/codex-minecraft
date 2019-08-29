@@ -1,9 +1,9 @@
 {
   "minecraft-version": "Minecraft sürümü",
   "plugin-load-problem": "Şu plugin '{{plugin-name}}' yüklenemedi.",
-  "pocketmine-version": "Pocketmine Versiyonu",
-  "bedrock-version": "Bedrock versiyonu",
-  "forge-version": "Forge versiyonu",
+  "pocketmine-version": "Pocketmine Sürümü",
+  "bedrock-version": "Bedrock sürümü",
+  "forge-version": "Forge sürümü",
   "authme-shutdown-problem": "'AuthMe' eklentisinin yüklenmesi başarısız oldu ve sunucu kapandı.",
   "pex-config-problem": "\"PermissionsEx\" adlı plugin`in ayarları geçersizdir.",
   "ambiguous-plugin-name-problem": "'{{plugin-name}}' adlı eklenti için birden çok eklenti dosyası bulunmaktadır: '{{first-plugin-path}}' ve '{{second-plugin-path}} '.",
@@ -40,13 +40,13 @@
   "ticking-block-entity-problem": "Dünyadaki bir blok sorun çıkarıyor.",
   "remove-block-solution": "Bloğu dünyadan kaldırın. Örnek olarak MCedit 'le.",
   "do-nothing-solution": "Hiçbirşey yapmayın. Bu sorunun kendini düzeltme ihtimali var.",
-  "chunk-load-exception-problem": "Dünya öbeklerini (chunklarını) yüklerken bir sorun oluştu.",
-  "remove-chunk-solution": "Sorunlu chunk'u mcedit gibi bir program kullanarak veya bölge dosyasını silerek düzeltiniz.",
+  "chunk-load-exception-problem": "Dünya öbeklerini (chunk'larını) yüklerken bir sorun oluştu.",
+  "remove-chunk-solution": "Sorunlu öbeği (chunk'ı) MCEdit gibi bir program kullanarak veya bölge dosyasını silerek düzeltiniz.",
   "multiverse-load-problem": "\"{{world-name}}\" isimli dünya çalıştırılamaz çünkü içinde hatalar taşıyor ve büyük ihtimallede bozuk.",
   "world-repair-solution": "\"{{world-name}}\" adlı dünyayı MCEdit veya Minecraft Region Fixer kullanarak tamir edin.",
-  "world-duplicate-problem": "\"{{world-name}}\" adlı dünya başka bir dünyanın kopyasıdır. yüklenmesi engellenmiştir.",
-  "mod-wrong-minecraft-version-problem": "\"{{mod-name}}\" adlı mod {{minecraft-version}} minecraft versiyonu ile uyumlu değildir.",
+  "world-duplicate-problem": "\"{{world-name}}\" adlı dünya başka bir dünyanın kopyasıdır ve yüklenmesi engellenmiştir.",
+  "mod-wrong-minecraft-version-problem": "\"{{mod-name}}\" adlı mod {{minecraft-version}} minecraft sürümü ile uyumlu değildir.",
   "forge-install-different-version-solution": "Başka bir forge sürümü indirin.",
-  "malformed-encoding-problem": "Bir şey (muhtemelen MOTD) hatalı biçimlendirilmiş biçimlendirme kodları içeriyor.",
-  "change-motd-solution": "MOTD sunucusunu değiştirin."
+  "malformed-encoding-problem": "Bir şey (muhtemelen MOTD) hatalı biçimlendirme kodları içeriyor.",
+  "change-motd-solution": "Sunucu MOTD'unu değiştirin."
 }

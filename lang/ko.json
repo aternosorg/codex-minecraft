@@ -1,9 +1,9 @@
 {
-  "minecraft-version": "마인크래프트 버전",
+  "minecraft-version": "Minecraft 버전",
   "plugin-load-problem": "'{{plugin-name}}' 플러그인을 로드할 수 없습니다.",
   "pocketmine-version": "Pocketmine 버전",
   "bedrock-version": "Bedrock 버전",
-  "forge-version": "구축된 버전",
+  "forge-version": "Forge 버전",
   "authme-shutdown-problem": "'AuthMe' 플러그인 로드에 실패하였으며 서버를 종료합니다.",
   "pex-config-problem": "'PermissionsEx' 플러그인의 구성은 유효하지 않습니다.",
   "ambiguous-plugin-name-problem": "'{{mod-name}}' 모드를 위한 모드 '{{first-mod-path}}'(와)과 '{{second-mod-path}} '(이)가 있습니다.",

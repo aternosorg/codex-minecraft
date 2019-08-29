@@ -29,7 +29,7 @@
   "plugin-install-different-version-solution": "Instale uma versão diferente do plugin '{{plugin-name}}'.",
   "plugin-install-solution": "Instale o plugin '{{plugin-name}}'.",
   "plugin-remove-solution": "Remove o plugin '{{plugin-name}}'.",
-  "file-delete-solution": "Deleta o arquivo '{{caminho-do-arquivo}}'.",
+  "file-delete-solution": "Deleta o arquivo '{{file-path}}'.",
   "file-edit-solution": "Edita o arquivo '{{caminho-do-arquivo}}'.",
   "mod-install-different-version-solution": "Instale uma versão diferente do mod '{{mod-name}}'.",
   "mod-install-solution": "Instale o mod '{{mod-name}}'.",

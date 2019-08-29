@@ -1,6 +1,6 @@
 {
   "minecraft-version": "Verzia Minecraftu",
-  "plugin-load-problem": "Záložku '{{plugin-name}}' nebolo možné načítať.",
+  "plugin-load-problem": "Plugin '{{plugin-name}}' nebolo možné načítať.",
   "pocketmine-version": "Pocketmine verzia",
   "bedrock-version": "Bedrock verzia",
   "forge-version": "Forge verzia",

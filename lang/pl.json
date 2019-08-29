@@ -48,5 +48,5 @@
   "mod-wrong-minecraft-version-problem": "Mod '{{mod-name}}' jest niekompatybilny z wersją Minecrafta {{minecraft-version}}.",
   "forge-install-different-version-solution": "Zainstaluj inną wersje Forge.",
   "malformed-encoding-problem": "Coś (prawdopodobnie wiadomość dnia) zawiera zniekształcone kody formatowania.",
-  "change-motd-solution": "Zmień wiadomość dnia na serwerze."
+  "change-motd-solution": "Zmień wiadomość dnia 'MOTD' na serwerze."
 }

@@ -42,7 +42,7 @@
   "do-nothing-solution": "Đừng làm gì hết. Vấn đề này có thể tự sửa.",
   "chunk-load-exception-problem": "Đã có một ngoại lệ trong khi tải các chunk trong thế giới.",
   "remove-chunk-solution": "Loại bỏ chunk có vấn đề khỏi thế giới, ví dụ như bằng MCEdit hoặc bằng cách loại bỏ tệp vùng.",
-  "multiverse-load-problem": "Thế giới '{{world-name}}' không thể nạp được vì nó có chứa lỗi và có thể bị hỏng.",
+  "multiverse-load-problem": "Thế giới '{{world-name}}' không thể tải được vì nó có chứa lỗi và có thể bị hỏng.",
   "world-repair-solution": "Sửa lại thế giới '{{world-name}}', ví dụ như bằng cách sử dụng Minecraft Region Fixer hoặc MCEdit.",
   "world-duplicate-problem": "Thế giới '{{world-name}}' là một bản sao của một thế giới khác và đã bị ngăn không cho nạp vào.",
   "mod-wrong-minecraft-version-problem": "Mod '{{mod-name}}' không tương thích với phiên bản Minecraft {{minecraft-version}}.",

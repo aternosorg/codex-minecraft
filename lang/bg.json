@@ -1,8 +1,8 @@
 {
   "minecraft-version": "Версия на Minecraft",
   "plugin-load-problem": "Плъгинът '{{plugin-name}}' не можа да бъде зареден.",
-  "pocketmine-version": "Pocketmine версия",
-  "bedrock-version": "Бедрок версия",
+  "pocketmine-version": "Версия Pocketmine",
+  "bedrock-version": "Версия Bedrock",
   "forge-version": "Версия на Forge",
   "authme-shutdown-problem": "Плъгина 'AuthMe' не може да зареди и спира сървъра.",
   "pex-config-problem": "Конфигурацията на плъгина \"PermissionsEx\" е невалидна.",
@@ -16,8 +16,8 @@
   "mod-dependency-problem-plural": "Модификацията '{{mod-name}}' липсва необходимите модификации {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Има няколко модификационни файла за името на модификацията '{{mod-name}}': '{{first-mod-path}}' and '{{second-mod-path}}'.",
   "mod-exception-problem": "Модификацията '{{mod-name}}' имаше фатална грешка.",
-  "mod-fatal-problem": "Модификацията '{{mod-name}}' имаше фатална грешка.",
-  "world-missing-mod-problem": "Светът беше запазен с модификация '{{mod-name}}', която липсва.",
+  "mod-fatal-problem": "Mодът '{{mod-name}}' имаше фатална грешка.",
+  "world-missing-mod-problem": "Светът беше запазен с мода '{{mod-name}}', която липсва.",
   "world-mod-version-problem": "Този свят е записан с модификация '{{mod-name}}' версия {{mod-expected-version}} и сега е на версия {{mod-current-version}}.",
   "plugin-incompatible-problem": "Плъгинът '{{plugin-name}}' е несъвместим с текущата версия на сървъра Ви.",
   "aquatic-world-on-older-version-problem": "Настоящият свят е бил създаден/зареден с Minecraft 1.13 или по-висока. Новият формат не може да бъде зареден във всяка по-стара версия.",
@@ -46,7 +46,7 @@
   "world-repair-solution": "Поправете света '{{world-name}}' с инструменти като Minecraft Region Fixer или MCEdit.",
   "world-duplicate-problem": "Светът '{{world-name}}' е дубликат на друг свят и беше предотвратен от зареждане.",
   "mod-wrong-minecraft-version-problem": "Модът '{{mod-name}}' не е съвместим с Minecraft версия {{minecraft-version}}.",
-  "forge-install-different-version-solution": "Инсталирай друга версия на Forge.",
-  "malformed-encoding-problem": "Нещо (принципно MODT) има проблемен код.",
+  "forge-install-different-version-solution": "Инсталирайте друга версия на Forge.",
+  "malformed-encoding-problem": "Нещо (попринцип MOTD) има неформатиран код.\n",
   "change-motd-solution": "Променете настройката MOTD."
 }

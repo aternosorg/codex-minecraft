@@ -6,7 +6,7 @@
   "forge-version": "Versione di Forge",
   "authme-shutdown-problem": "Il plugin 'AuthMe' non riesce a caricare e arresta il server.",
   "pex-config-problem": "La configurazione del plugin 'PermissionsEx' è invalida.",
-  "ambiguous-plugin-name-problem": "Ci sono più files di plugins per il nome del plugin '{{plugin-nome}}':'((primo-plugin-composizione}}' e ''{{secondo-plugin-composizione}}'.",
+  "ambiguous-plugin-name-problem": "Ci sono più files di plugins per il nome del plugin '{{plugin-name}}':'{{first-plugin-path}}' e ''{{second-plugin-path}}'.",
   "plugin-dependency-problem": "Nel plugin '{{plugin-name}}' manca il plugin richiesto '{{dependency-plugin-name}}'.",
   "plugin-disabling-problem": "Il plugin '{{plugin-name}}' non può essere disabilitato.",
   "plugin-enabling-problem": "Il plugin '{{plugin-name}}' non può essere abilitato.",
