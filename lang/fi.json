@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "Mod {{mod-name}} 'ei ole yhteensopiva Minecraftin {{minecraft-version}} version kanssa.",
   "forge-install-different-version-solution": "Asenna eri forge versio.",
   "malformed-encoding-problem": "Jotain (mahdollisesti MOTD) sisältää virheellisiä muotokoodeja.",
-  "change-motd-solution": "Vaihda serverin kuvaus."
+  "change-motd-solution": "Vaihda serverin kuvaus.",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }

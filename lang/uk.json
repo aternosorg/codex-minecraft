@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "Мод '{{mod-name}}' несумісний з версією Minecraft {{minecraft-version}}.",
   "forge-install-different-version-solution": "\nВстановити іншу версію Forge.",
   "malformed-encoding-problem": "Щось (ймовірно, Повідомлення Дня) містить неправильне форматування кодів.",
-  "change-motd-solution": "Змінити Повідомлення Дня."
+  "change-motd-solution": "Змінити Повідомлення Дня.",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }

@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "模組'{{mod-name}}'與Minecraft版本{{minecraft-version}} 不兼容。",
   "forge-install-different-version-solution": "安裝不同的鍛造版本。",
   "malformed-encoding-problem": "有些東西(可能是MOTD) 出現不合規格的寫法",
-  "change-motd-solution": "更變伺服器的MOTD"
+  "change-motd-solution": "更變伺服器的MOTD",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }

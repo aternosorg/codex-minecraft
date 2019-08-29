@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "Modet '{{mod-name}}' är inte kompatibel med Minecraft versionen {{minecraft-version}}.",
   "forge-install-different-version-solution": "Installera en annan version av Forge.",
   "malformed-encoding-problem": "Någonting (troligen serverns MOTD) innehåller felformaterade koder.",
-  "change-motd-solution": "Ändra serverns MOTD."
+  "change-motd-solution": "Ändra serverns MOTD.",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }

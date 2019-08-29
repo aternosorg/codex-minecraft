@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "Модът '{{mod-name}}' не е съвместим с Minecraft версия {{minecraft-version}}.",
   "forge-install-different-version-solution": "Инсталирайте друга версия на Forge.",
   "malformed-encoding-problem": "Нещо (попринцип MOTD) има неформатиран код.\n",
-  "change-motd-solution": "Променете настройката MOTD."
+  "change-motd-solution": "Променете настройката MOTD.",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }

@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "Il-mod '{{mod-name}}' mhux kompatibbli mal-verżjoni Minecraft {{minecraft-version}}.",
   "forge-install-different-version-solution": "Installa verżjoni differenti tal-Forge.",
   "malformed-encoding-problem": "Xi ħaġa (x'aktarx l-MOTD) fiha kodiċi ta 'ifformattjar malformati.",
-  "change-motd-solution": "Biddel is-server MOTD."
+  "change-motd-solution": "Biddel is-server MOTD.",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }

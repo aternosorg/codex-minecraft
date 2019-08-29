@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "\"{{mod-name}}\" adlı mod {{minecraft-version}} minecraft sürümü ile uyumlu değildir.",
   "forge-install-different-version-solution": "Başka bir forge sürümü indirin.",
   "malformed-encoding-problem": "Bir şey (muhtemelen MOTD) hatalı biçimlendirme kodları içeriyor.",
-  "change-motd-solution": "Sunucu MOTD'unu değiştirin."
+  "change-motd-solution": "Sunucu MOTD'unu değiştirin.",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }

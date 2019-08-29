@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "Ši modifikacija {{mod-name}} negali būti siejama su šia minecraft versija {{minecraft-version}}.",
   "forge-install-different-version-solution": "Įrašykite kitą Forge versiją.",
   "malformed-encoding-problem": "Tikėtina, kad dienos serverio žinutė turi netinkamo formatavimo kodą.",
-  "change-motd-solution": "Pakeiskite serverio dienos žinutę."
+  "change-motd-solution": "Pakeiskite serverio dienos žinutę.",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }

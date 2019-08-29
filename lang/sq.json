@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "The mod '{{mod-name}}' is not compatible with the Minecraft version {{minecraft-version}}.",
   "forge-install-different-version-solution": "Install a different Forge version.",
   "malformed-encoding-problem": "Something (probably the MOTD) contains malformed formatting codes.",
-  "change-motd-solution": "Ndryshimi i serverit MOTD."
+  "change-motd-solution": "Ndryshimi i serverit MOTD.",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }

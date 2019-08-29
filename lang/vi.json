@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "Mod '{{mod-name}}' không tương thích với phiên bản Minecraft {{minecraft-version}}.",
   "forge-install-different-version-solution": "Hãy cài một phiên bản khác của Forge.",
   "malformed-encoding-problem": "Một thứ gì đó (có thể là MOTD) chứa mã định dạng sai cú pháp.",
-  "change-motd-solution": "Thay đổi MOTD của máy chủ."
+  "change-motd-solution": "Thay đổi MOTD của máy chủ.",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }

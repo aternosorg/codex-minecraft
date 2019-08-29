@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "To mod '{{mod-name}}' δεν είναι συμβατό με την έκδοση Minecraft {{minecraft-version}}.",
   "forge-install-different-version-solution": "Εγκαταστήστε μια διαφορετική έκδοση του Forge.",
   "malformed-encoding-problem": "Κατι (μαλον το MOTD) περιεχει malformed formatting codes.",
-  "change-motd-solution": "Αλαξε το MOTD του διακοσμητη."
+  "change-motd-solution": "Αλαξε το MOTD του διακοσμητη.",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }

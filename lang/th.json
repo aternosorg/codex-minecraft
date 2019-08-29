@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "มอด '{{mod-name}}' ไม่สามารถเข้ากับ Minecraft รุ่น {{minecraft-version}} ได้",
   "forge-install-different-version-solution": "ติดตั้ง Forge รุ่นอื่น",
   "malformed-encoding-problem": "บางอย่าง (โดยเฉพาะ MOTD) มีการเรียงรูปแบบผิดพลาด",
-  "change-motd-solution": "เปลี่ยน MOTD ของเซิฟเวอร์"
+  "change-motd-solution": "เปลี่ยน MOTD ของเซิฟเวอร์",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }

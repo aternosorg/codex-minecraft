@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "مد {{mod-name}} با ورژن ماینکرافت {{minecraft-version}} سازکار نیست.",
   "forge-install-different-version-solution": "ورژن دیگری از Forge نصب کنید.",
   "malformed-encoding-problem": "چیزی (احتمالا MOTD) حاوی کدهای قالب بندی نادرست است.",
-  "change-motd-solution": "تغییر MOTD سرور."
+  "change-motd-solution": "تغییر MOTD سرور.",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }

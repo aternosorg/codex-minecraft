@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "'{{mod-name}}' 모드는 현재 사용중인 마인크래프트 버전 {{minecraft-version}})와 호환되지 않습니다.",
   "forge-install-different-version-solution": "다른 포지 버전을 설치합니다.",
   "malformed-encoding-problem": "apk3123",
-  "change-motd-solution": "MOTD로 서버를 변경합니다."
+  "change-motd-solution": "MOTD로 서버를 변경합니다.",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }

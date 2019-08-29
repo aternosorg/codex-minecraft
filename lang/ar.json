@@ -48,5 +48,8 @@
   "mod-wrong-minecraft-version-problem": "التعديل '{{mod-name}}' ليس متوافقًا مع اصدار اللعبة {{minecraft-version}}.",
   "forge-install-different-version-solution": "قم بتحميل اصدار اخر من فورج.",
   "malformed-encoding-problem": "شئ (غالبًا الMOTD) يحتوي على رموز تنسيق مشوهة.",
-  "change-motd-solution": "غير MOTD الخادم."
+  "change-motd-solution": "غير MOTD الخادم.",
+  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
+  "disable-whitelist-solution": "Disable the whitelist.",
+  "enable-authentication-solution": "Enable the online authentication."
 }
