@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "Zainstaluj inną wersje Forge.",
   "malformed-encoding-problem": "Coś (prawdopodobnie wiadomość dnia) zawiera zniekształcone kody formatowania.",
   "change-motd-solution": "Zmień wiadomość dnia 'MOTD' na serwerze.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Używanie białej listy bez autoryzacji online nie jest dozwolone.",
+  "disable-whitelist-solution": "Wyłącz białą listę.",
+  "enable-authentication-solution": "Włącz autoryzację online."
 }

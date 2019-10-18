@@ -2,8 +2,8 @@
   "minecraft-version": "Minecraft versija",
   "plugin-load-problem": "Nepavyko įkelti papildinio \"{{plugin-name}}\".",
   "pocketmine-version": "Pocketmine versija",
-  "bedrock-version": "\"Bedrock\" versija",
-  "forge-version": "\"Forge\" Versija",
+  "bedrock-version": "Bedrock versija",
+  "forge-version": "Forge versija",
   "authme-shutdown-problem": "Papildinys \"AuthMe\" neužsikrauna ir išsijungia serveris.",
   "pex-config-problem": "Konfiguracija papildinio \"PermissionsEx\" netinka.",
   "ambiguous-plugin-name-problem": "Yra keli papildinio failai pavadinimu \"{{plugin-name}}\": \"{{first-plugin-path}}\" ir \"{{second-plugin-path}}\".",
@@ -45,11 +45,11 @@
   "multiverse-load-problem": "Neina užkrauti pasaulio pavadinimo nes jis turi klaidų arba yra pavogtas.",
   "world-repair-solution": "Susitaisykite pasaulį. {{world-name}}', naudodami Minecraft Regijono taisytoją arba,,MCEdit\".",
   "world-duplicate-problem": "Pasaulis {{world-name}} yra dublikuotas su kitu pasauliu ir buvo atšauktas nuo krovimo.",
-  "mod-wrong-minecraft-version-problem": "Ši modifikacija {{mod-name}} negali būti siejama su šia minecraft versija {{minecraft-version}}.",
+  "mod-wrong-minecraft-version-problem": "Modifikacija {{mod-name}} negali būti siejama su {{minecraft-version}} minecraft versija.",
   "forge-install-different-version-solution": "Įrašykite kitą Forge versiją.",
   "malformed-encoding-problem": "Tikėtina, kad dienos serverio žinutė turi netinkamo formatavimo kodą.",
   "change-motd-solution": "Pakeiskite serverio dienos žinutę.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Baltasis sąrašas negali būti įgalintas be apsaugos patvirtinimų.",
+  "disable-whitelist-solution": "Išjungti baltąjį sąrašą.",
+  "enable-authentication-solution": "Įgalinti apsaugos patvirtinimus."
 }

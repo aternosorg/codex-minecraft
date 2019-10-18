@@ -1,5 +1,5 @@
 {
-  "minecraft-version": "גירסת מיינקראפט",
+  "minecraft-version": "גרסת מיינקראפט",
   "plugin-load-problem": "לא היתה אפשרות לטעון את התוסף '{{plugin-name}}'.",
   "pocketmine-version": "גירסת \"poketmine\"",
   "bedrock-version": "גרסת \"bedrock\"",
@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "התקן גירסא אחרת של Forge.",
   "malformed-encoding-problem": "משהו (כנראה הודעת היום) מכיל קוד אירגוני שגוי.",
   "change-motd-solution": "שנה את הודעת היום של השרת.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "אסור להשתמש ברשימה לבנה ללא אימות מקוון.",
+  "disable-whitelist-solution": "כבה את הרשימה הלבנה.",
+  "enable-authentication-solution": "אפשר את האימות המקוון."
 }

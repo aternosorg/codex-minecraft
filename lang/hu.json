@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "Telepíts egy másik Forge verziót.",
   "malformed-encoding-problem": "Valami (talán a MOTD) hibás formázási kódokat tartalmaz.",
   "change-motd-solution": "Szerver MOTD megváltozása.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Fehérlista használata online hitelesítés nélkül nem engedélyezett.",
+  "disable-whitelist-solution": "Fehérlista letiltása.",
+  "enable-authentication-solution": "Online hitelesítés engedélyezése."
 }

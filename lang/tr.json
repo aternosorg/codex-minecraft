@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "Başka bir forge sürümü indirin.",
   "malformed-encoding-problem": "Bir şey (muhtemelen MOTD) hatalı biçimlendirme kodları içeriyor.",
   "change-motd-solution": "Sunucu MOTD'unu değiştirin.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Whitelist için internet bağlantısı zorunludur.",
+  "disable-whitelist-solution": "Whitelist’i devre dışı bırakın.",
+  "enable-authentication-solution": "Çevrimiçi doğrulamayı etkinleştir."
 }

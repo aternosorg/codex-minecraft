@@ -6,7 +6,7 @@
   "forge-version": "Έκδοση Forge",
   "authme-shutdown-problem": "Το πρόσθετο 'AuthMe' απέτυχε να φορτωθεί και απενεργοποίει τον διακομιστή.",
   "pex-config-problem": "Η διαμόρφωση του plugin 'PermissionsEx' δεν είναι έγκυρη.",
-  "ambiguous-plugin-name-problem": "Υπάρχουν πολλά αρχεία για το plugin για το plugin όνομα «{{plugin-name}}»: «{{first-plugin-path}}» και «{{second-plugin-path}}».",
+  "ambiguous-plugin-name-problem": "Υπάρχουν πολλά αρχεία plugin για το plugin «{{plugin-name}}»: «{{first-plugin-path}}» και «{{second-plugin-path}}».",
   "plugin-dependency-problem": "Το προσθετο '{{plugin-name}}' λείπει το απαιτούμενο το προσθετο '{{dependency-plugin-name}} '.",
   "plugin-disabling-problem": "Το πρόσθετο '{{plugin-name}}' δεν μπορεί να απενεργοποιηθει.",
   "plugin-enabling-problem": "Το Προσθετο {{plugin-name}} δεν μπορει να ενεργοποιηθει.",
@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "Εγκαταστήστε μια διαφορετική έκδοση του Forge.",
   "malformed-encoding-problem": "Κατι (μαλον το MOTD) περιεχει malformed formatting codes.",
   "change-motd-solution": "Αλαξε το MOTD του διακοσμητη.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Δεν επιτρέπεται η χρήση whitelist χωρίς online αυθεντικοποίηση,.",
+  "disable-whitelist-solution": "Απενεργοποίησε το whitelist.",
+  "enable-authentication-solution": "Ενεργοποίησε την online αυθεντικοποίηση."
 }

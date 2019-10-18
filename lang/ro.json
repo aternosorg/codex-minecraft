@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "Instalează o altă versiune de Forge.",
   "malformed-encoding-problem": "Ceva (probabil MOTD) contine coduri de formatare malformat.",
   "change-motd-solution": "Schimba MOTD server.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Utilizatea unui whitelist fără autentificare online nu este posibilă.",
+  "disable-whitelist-solution": "Dezactivează whitelist-ul.",
+  "enable-authentication-solution": "Activează autentificarea online."
 }

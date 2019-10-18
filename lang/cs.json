@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "Nainstalujte jinou verzi Forge.",
   "malformed-encoding-problem": "Něco (asi možná MOTD) obsahuje chybně formátované kódy.",
   "change-motd-solution": "Změňte MOTD serveru.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Použití bílé listiny bez online autentizace není dovoleno.",
+  "disable-whitelist-solution": "Zakázat bílou listinu.",
+  "enable-authentication-solution": "Povolit online autentizaci."
 }

@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "他のバージョンの Forge をインストールします。",
   "malformed-encoding-problem": "いずれかの書式定義コード (MOTD の設定など) に誤りがあります。",
   "change-motd-solution": "サーバーのMOTD(説明文) を変更してください",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "ホワイトリストを使用する場合、『不正を許可』をオフにする必要があります。",
+  "disable-whitelist-solution": "ホワイトリストを使用しない。",
+  "enable-authentication-solution": "『不正を許可』をオフにして、オンライン認証を有効にする。"
 }

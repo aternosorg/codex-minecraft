@@ -30,7 +30,7 @@
   "plugin-install-solution": "تحميل الاضافة '{{plugin-name}}'.",
   "plugin-remove-solution": "حذف الاضافة '{{plugin-name}}'.",
   "file-delete-solution": "حذف الملف '{{file-path}}'.",
-  "file-edit-solution": "تعديل الملف '{{file-path}}'.",
+  "file-edit-solution": "عدل الملف '{{file-path}}'.",
   "mod-install-different-version-solution": "حمل اصدار أخر من التعديل '{{mod-name}}'.",
   "mod-install-solution": "ثبت التعديل '{{mod-name}}'.",
   "mod-install-solution-with-version": "ثبت التعديل '{{mod-name}}' بأِصدار {{mod-version}}.",
@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "قم بتحميل اصدار اخر من فورج.",
   "malformed-encoding-problem": "شئ (غالبًا الMOTD) يحتوي على رموز تنسيق مشوهة.",
   "change-motd-solution": "غير MOTD الخادم.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "لا يُسمح باستخدام القائمة البيضاء دون مصادقة عبر الإنترنت.",
+  "disable-whitelist-solution": "عطل القائمة البيضاء.",
+  "enable-authentication-solution": "فعل المصادقة عبر الإنترنت."
 }

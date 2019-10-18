@@ -3,7 +3,7 @@
   "plugin-load-problem": "El plugin '{{plugin-name}}' no se pudo cargar.",
   "pocketmine-version": "Versión de Pocketmine",
   "bedrock-version": "Versión de Bedrock",
-  "forge-version": "Versión de Forge 1.12.2",
+  "forge-version": "Versión de beta\n 1.13.0. 6",
   "authme-shutdown-problem": "El plugin 'AuthMe' falló en cargar y ha cerrado el servidor.",
   "pex-config-problem": "La configuración del plugin 'PermissionsEx' es invalida.",
   "ambiguous-plugin-name-problem": "Hay varios archivos de plugin para el plugin de nombre '{{plugin-name}}':'{{first-plugin-path}}' y '{{second-plugin-path}}'.",
@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "Instalar otra versión diferente de Forge.\n",
   "malformed-encoding-problem": "Algo (probablemente el MOTD) contiene códigos de formato incorrecto.",
   "change-motd-solution": "Cambiar el servidor MOTD.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "No está permitido el uso de la withelist sin autentificación en linea.",
+  "disable-whitelist-solution": "Desactivar la whitelist.",
+  "enable-authentication-solution": "Activa la autentificación en línea."
 }

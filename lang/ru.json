@@ -1,5 +1,5 @@
 {
-  "minecraft-version": "Версия Майнкрафта",
+  "minecraft-version": "Версия Minecraft",
   "plugin-load-problem": "Плагин '{{plugin-name}}' не может быть загружен.",
   "pocketmine-version": "Карманная версия 1.11.4.2",
   "bedrock-version": "Версия Bedrock",
@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "Установите другую версию Forge.",
   "malformed-encoding-problem": "Что-то (возможно, MOTD) содержит неверные коды форматирования.",
   "change-motd-solution": "Изменение MOTD сервера.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Использование белого списка без онлайн-аутентификации не допускается.",
+  "disable-whitelist-solution": "Отключить белый список.",
+  "enable-authentication-solution": "Включить онлайн-аутентификацию."
 }

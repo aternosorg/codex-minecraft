@@ -1,10 +1,10 @@
 {
   "minecraft-version": "Версия на Minecraft",
   "plugin-load-problem": "Плъгинът '{{plugin-name}}' не можа да бъде зареден.",
-  "pocketmine-version": "Версия Pocketmine",
-  "bedrock-version": "Версия Bedrock",
+  "pocketmine-version": "Версия на Pocketmine",
+  "bedrock-version": "Версия на Bedrock",
   "forge-version": "Версия на Forge",
-  "authme-shutdown-problem": "Плъгина 'AuthMe' не може да зареди и спира сървъра.",
+  "authme-shutdown-problem": "Добавката 'AuthMe' не може да зареди и спира сървъра.",
   "pex-config-problem": "Конфигурацията на плъгина \"PermissionsEx\" е невалидна.",
   "ambiguous-plugin-name-problem": "Има повече от един файл за плъгина с име '{{plugin-name}}': '{{first-plugin-path}}' и '{{second-plugin-path}}'.",
   "plugin-dependency-problem": "Плъгинът '{{plugin-name}}' се нуждае от плъгина '{{dependency-plugin-name}}'.",
@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "Инсталирайте друга версия на Forge.",
   "malformed-encoding-problem": "Нещо (попринцип MOTD) има неформатиран код.\n",
   "change-motd-solution": "Променете настройката MOTD.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Използване на бял списък без интернет потвърждение не е позволено.",
+  "disable-whitelist-solution": "Забранете белият лист.",
+  "enable-authentication-solution": "Разрешете интернет потвърждението."
 }

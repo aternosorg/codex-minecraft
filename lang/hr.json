@@ -1,6 +1,6 @@
 {
   "minecraft-version": "Minecraft verzija",
-  "plugin-load-problem": "Dodatak {{plugin-name}} nemože biti učitan.",
+  "plugin-load-problem": "Dodatak {{plugin-name}} ne može biti učitan.",
   "pocketmine-version": "Verzija pocketmine-a",
   "bedrock-version": "Mobilna/Bedrock verzija",
   "forge-version": "Forge/Mod Verzija",
@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "Instaliraj neku drugu verziju Forgea.",
   "malformed-encoding-problem": "Nesto (vjerojatno MOTD) sadrzi neispravne kodove za formatiranje.",
   "change-motd-solution": "Promijenite MOTD servera.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Korištenje liste dopuštenih korisnika bez internet autentikacije nije dozvoljeno.",
+  "disable-whitelist-solution": "Onemogući listu dopuštenih korisnika.",
+  "enable-authentication-solution": "Dozvolite internet autentikaciju."
 }

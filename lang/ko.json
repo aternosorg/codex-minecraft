@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "다른 포지 버전을 설치합니다.",
   "malformed-encoding-problem": "apk3123",
   "change-motd-solution": "MOTD로 서버를 변경합니다.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "xbox 온라인 인증없이 화이트리스트를 사용하는것은 허용되지 않습니다",
+  "disable-whitelist-solution": "화이트리스트를 꺼주세요.",
+  "enable-authentication-solution": "xbox 온라인 인증을 켜주세요."
 }

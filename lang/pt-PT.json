@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "Instale uma versão diferente do Forge.",
   "malformed-encoding-problem": "Algo (provavelmente o MOTD) contém códigos de formatação deformados.",
   "change-motd-solution": "Altera o MOTD do servidor.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Não é permitido usar uma whitelist sem autenticação online.",
+  "disable-whitelist-solution": "Desativar a whitelist.",
+  "enable-authentication-solution": "Ativa a autenticação on-line."
 }

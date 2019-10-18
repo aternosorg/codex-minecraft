@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "Hãy cài một phiên bản khác của Forge.",
   "malformed-encoding-problem": "Một thứ gì đó (có thể là MOTD) chứa mã định dạng sai cú pháp.",
   "change-motd-solution": "Thay đổi MOTD của máy chủ.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Sử dụng danh sách trắng mà không có sự xác thực trực tuyến sẽ không được cho phép.",
+  "disable-whitelist-solution": "Tắt danh sách trắng.",
+  "enable-authentication-solution": "Kích hoạt xác thực trực tuyến."
 }

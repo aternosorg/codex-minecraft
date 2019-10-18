@@ -1,6 +1,6 @@
 {
   "minecraft-version": "Versão do Minecraft",
-  "plugin-load-problem": "O plugin '{{plugin-name}}' não pôde ser ativado.",
+  "plugin-load-problem": "O plugin '{{plugin-name}}' não pôde ser desativado.",
   "pocketmine-version": "Versão do Minecraft pirata\n",
   "bedrock-version": "Versão Bedrock",
   "forge-version": "Versão do Forge",
@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "Instale uma versão diferente do Forge.",
   "malformed-encoding-problem": "Alguma coisa (Provavelmente o MOTD) contém formatção defeituosa.",
   "change-motd-solution": "Altere o MOTD do servidor.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Não é permitido usar uma whitelist sem autenticação online.",
+  "disable-whitelist-solution": "Desativar a whitelist.",
+  "enable-authentication-solution": "Ativar a autenticação online."
 }

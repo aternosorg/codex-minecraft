@@ -49,7 +49,7 @@
   "forge-install-different-version-solution": "Installer en annen Forge-versjon.",
   "malformed-encoding-problem": "Noe (antageligvis MOTD) inneholder feil i formatteringskodene.",
   "change-motd-solution": "Bytt serverens MOTD.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Det er ikke tillatt å bruke en hviteliste uten online godkjenning.",
+  "disable-whitelist-solution": "Deaktiver hvitelisten.",
+  "enable-authentication-solution": "Aktiver online godkjenning."
 }
