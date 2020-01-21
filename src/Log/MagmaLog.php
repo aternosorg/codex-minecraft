@@ -2,15 +2,15 @@
 
 namespace Aternos\Codex\Minecraft\Log;
 
-use Aternos\Codex\Detective\WeightedSinglePatternDetector;
-use Aternos\Codex\Minecraft\Analyser\ForgeAnalyser;
+use Aternos\Codex\Detective\SinglePatternDetector;
+use Aternos\Codex\Minecraft\Analyser\MagmaAnalyser;
 
 /**
- * Class ForgeLog
+ * Class MagmaLog
  *
  * @package Aternos\Codex\Minecraft\Log
  */
-class ForgeLog extends VanillaLog
+class MagmaLog extends VanillaLog
 {
     /**
      * @var string
@@ -18,21 +18,26 @@ class ForgeLog extends VanillaLog
     protected static $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[[^\]]+\])?\:).*$/';
 
     /**
+     * @var string
+     */
+    protected static $prefixPattern = '(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?\:) ';
+
+    /**
      * @return array
      */
     public static function getDetectors()
     {
-        return array_merge(parent::getDetectors(), [
-            (new WeightedSinglePatternDetector())->setPattern('/MinecraftForge v[0-9\.]+ Initialized/')->setWeight(1)
-        ]);
+        return [
+            (new SinglePatternDetector())->setPattern('/' . static::$prefixPattern . 'This server is running Magma version/')
+        ];
     }
 
     /**
-     * @return ForgeAnalyser
+     * @return MagmaAnalyser
      */
     public static function getDefaultAnalyser()
     {
-        return new ForgeAnalyser();
+        return new MagmaAnalyser();
     }
 
     /**
@@ -42,6 +47,6 @@ class ForgeLog extends VanillaLog
      */
     public function getServerSoftware(): string
     {
-        return "Forge";
+        return "Magma";
     }
 }

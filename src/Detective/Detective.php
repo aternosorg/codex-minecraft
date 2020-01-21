@@ -6,6 +6,7 @@ use Aternos\Codex\Minecraft\Log\BedrockLog;
 use Aternos\Codex\Minecraft\Log\CraftBukkitLog;
 use Aternos\Codex\Minecraft\Log\ForgeLog;
 use Aternos\Codex\Minecraft\Log\GlowstoneLog;
+use Aternos\Codex\Minecraft\Log\MagmaLog;
 use Aternos\Codex\Minecraft\Log\OldCraftBukkitLog;
 use Aternos\Codex\Minecraft\Log\OldSpigotLog;
 use Aternos\Codex\Minecraft\Log\OldVanillaLog;
@@ -32,6 +33,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
         CraftBukkitLog::class,
         SpigotLog::class,
         PaperLog::class,
+        MagmaLog::class,
         GlowstoneLog::class,
         ForgeLog::class,
         PocketmineLog::class,

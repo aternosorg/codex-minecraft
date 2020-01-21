@@ -1,0 +1,299 @@
+[15:02:23] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[15:02:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:02:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:02:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:02:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:02:26] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[15:02:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[15:02:42] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[15:02:42] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[15:02:43] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[15:02:44] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[15:02:44] [Server thread/INFO] [FML]: Config directory created successfully
+[15:02:45] [Server thread/INFO] [FML]: Searching /aternos/server/./mods for mods
+[15:02:48] [Server thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
+[15:02:49] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[15:02:50] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at CLIENT
+[15:02:50] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at SERVER
+[15:02:51] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[15:02:51] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[15:02:51] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[15:02:51] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[15:02:51] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[15:02:52] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[15:02:52] [Server thread/INFO] [FML]: Applying holder lookups
+[15:02:52] [Server thread/INFO] [FML]: Holder lookups applied
+[15:02:52] [Server thread/INFO] [FML]: Applying holder lookups
+[15:02:52] [Server thread/INFO] [FML]: Holder lookups applied
+[15:02:52] [Server thread/INFO] [FML]: Applying holder lookups
+[15:02:52] [Server thread/INFO] [FML]: Holder lookups applied
+[15:02:52] [Server thread/INFO] [FML]: Applying holder lookups
+[15:02:52] [Server thread/INFO] [FML]: Holder lookups applied
+[15:02:52] [Server thread/INFO] [FML]: Injecting itemstacks
+[15:02:52] [Server thread/INFO] [FML]: Itemstack injection complete
+[15:02:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[15:02:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[15:02:52] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[15:02:53] [Server thread/INFO] [Minecraft]: This server is running Magma version e2b9ab6 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[15:02:53] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[15:02:53] [Server thread/INFO] [Spigot]: Server Ping Player Sample Count: 12
+[15:02:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[15:02:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on **.**.**.**:10149
+[15:02:54] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[15:02:55] [Server thread/INFO] [FML]: Applying holder lookups
+[15:02:55] [Server thread/INFO] [FML]: Holder lookups applied
+[15:02:55] [Server thread/INFO] [FML]: Injecting itemstacks
+[15:02:55] [Server thread/INFO] [FML]: Itemstack injection complete
+[15:02:56] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
+[15:02:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command time with permission node commandtime.time
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command gamemode with permission node commandgamemode.gamemode
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command difficulty with permission node commanddifficulty.difficulty
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command defaultgamemode with permission node commanddefaultgamemode.defaultgamemode
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command kill with permission node commandkill.kill
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command toggledownfall with permission node commandtoggledownfall.toggledownfall
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command weather with permission node commandweather.weather
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command xp with permission node commandxp.xp
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command tp with permission node commandtp.tp
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command teleport with permission node commandteleport.teleport
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command give with permission node commandgive.give
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command replaceitem with permission node commandreplaceitem.replaceitem
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command stats with permission node commandstats.stats
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command effect with permission node commandeffect.effect
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command enchant with permission node commandenchant.enchant
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command particle with permission node commandparticle.particle
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command me with permission node commandemote.me
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command seed with permission node commandshowseed.seed
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command help with permission node commandhelp.help
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command debug with permission node commanddebug.debug
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command tell with permission node commandmessage.tell
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command say with permission node commandbroadcast.say
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command spawnpoint with permission node commandsetspawnpoint.spawnpoint
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command setworldspawn with permission node commandsetdefaultspawnpoint.setworldspawn
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command gamerule with permission node commandgamerule.gamerule
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command clear with permission node commandclearinventory.clear
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command testfor with permission node commandtestfor.testfor
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command spreadplayers with permission node commandspreadplayers.spreadplayers
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command playsound with permission node commandplaysound.playsound
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command scoreboard with permission node commandscoreboard.scoreboard
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command execute with permission node commandexecuteat.execute
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command trigger with permission node commandtrigger.trigger
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command advancement with permission node advancementcommand.advancement
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command recipe with permission node recipecommand.recipe
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command summon with permission node commandsummon.summon
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command setblock with permission node commandsetblock.setblock
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command fill with permission node commandfill.fill
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command clone with permission node commandclone.clone
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command testforblocks with permission node commandcompare.testforblocks
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command blockdata with permission node commandblockdata.blockdata
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command testforblock with permission node commandtestforblock.testforblock
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command tellraw with permission node commandmessageraw.tellraw
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command worldborder with permission node commandworldborder.worldborder
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command title with permission node commandtitle.title
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command entitydata with permission node commandentitydata.entitydata
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command stopsound with permission node commandstopsound.stopsound
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command locate with permission node commandlocate.locate
+[15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command reload with permission node commandreload.reload
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command function with permission node commandfunction.function
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command op with permission node commandop.op
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command deop with permission node commanddeop.deop
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command stop with permission node commandstop.stop
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command save-all with permission node commandsaveall.save-all
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command save-off with permission node commandsaveoff.save-off
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command save-on with permission node commandsaveon.save-on
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command ban-ip with permission node commandbanip.ban-ip
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command pardon-ip with permission node commandpardonip.pardon-ip
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command ban with permission node commandbanplayer.ban
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command banlist with permission node commandlistbans.banlist
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command pardon with permission node commandpardonplayer.pardon
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command kick with permission node commandserverkick.kick
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command list with permission node commandlistplayers.list
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command whitelist with permission node commandwhitelist.whitelist
+[15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command setidletimeout with permission node commandsetplayertimeout.setidletimeout
+[15:02:58] [Server thread/INFO] [Minecraft]: -------- World Settings For [world] --------
+[15:02:58] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[15:02:58] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[15:02:58] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[15:02:58] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[15:02:58] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[15:02:58] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[15:02:58] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[15:02:58] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[15:02:58] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[15:02:58] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[15:02:58] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
+[15:02:58] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[15:02:58] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:02:58] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
+[15:02:58] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
+[15:02:58] [Server thread/INFO] [Minecraft]: Custom Map Seeds: Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:02:58] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[15:02:58] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:02:58] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[15:02:58] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[15:02:58] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[15:02:58] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:02:58] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
+[15:02:58] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[15:02:58] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[15:02:58] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:02:58] [Server thread/INFO] [Minecraft]: View Distance: 10
+[15:02:58] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@42667fb1)
+[15:03:00] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[15:03:03] [Server thread/INFO] [Minecraft]: -------- World Settings For [DIM-1] --------
+[15:03:03] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
+[15:03:03] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[15:03:03] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:03:03] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
+[15:03:03] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
+[15:03:03] [Server thread/INFO] [Minecraft]: Custom Map Seeds: Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:03:03] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[15:03:03] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:03:03] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[15:03:03] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[15:03:03] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[15:03:03] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:03:03] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
+[15:03:03] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[15:03:03] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[15:03:03] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:03:03] [Server thread/INFO] [Minecraft]: View Distance: 10
+[15:03:03] [Server thread/INFO] [FML]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@42667fb1)
+[15:03:03] [Server thread/INFO] [Minecraft]: -------- World Settings For [DIM1] --------
+[15:03:03] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[15:03:03] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
+[15:03:03] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[15:03:03] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:03:03] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
+[15:03:03] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
+[15:03:03] [Server thread/INFO] [Minecraft]: Custom Map Seeds: Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:03:03] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[15:03:03] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:03:03] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[15:03:03] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[15:03:03] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[15:03:03] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:03:03] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
+[15:03:03] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[15:03:03] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[15:03:03] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:03:03] [Server thread/INFO] [Minecraft]: View Distance: 10
+[15:03:03] [Server thread/INFO] [FML]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@42667fb1)
+[15:03:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0 (Seed: 3374806643051400431)
+[15:03:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 1%
+[15:03:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 4%
+[15:03:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 4%
+[15:03:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 5%
+[15:03:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 5%
+[15:03:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 7%
+[15:03:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 9%
+[15:03:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 9%
+[15:03:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 10%
+[15:03:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 11%
+[15:03:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 12%
+[15:03:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 13%
+[15:03:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 14%
+[15:03:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 15%
+[15:03:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 15%
+[15:03:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 16%
+[15:03:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 17%
+[15:03:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 18%
+[15:03:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 18%
+[15:03:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 19%
+[15:03:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 20%
+[15:03:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 21%
+[15:03:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 23%
+[15:03:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 25%
+[15:03:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 26%
+[15:03:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 28%
+[15:03:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 30%
+[15:03:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 32%
+[15:03:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 34%
+[15:03:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 36%
+[15:03:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 39%
+[15:03:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 43%
+[15:03:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 46%
+[15:03:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 47%
+[15:03:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 49%
+[15:03:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 52%
+[15:03:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 55%
+[15:03:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 58%
+[15:03:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 60%
+[15:03:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 64%
+[15:03:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 66%
+[15:03:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 67%
+[15:03:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 70%
+[15:03:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 72%
+[15:03:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 76%
+[15:03:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 79%
+[15:03:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 83%
+[15:03:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 85%
+[15:03:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 88%
+[15:03:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 91%
+[15:03:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 94%
+[15:04:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 96%
+[15:04:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 98%
+[15:04:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 1 (Seed: 3374806643051400431)
+[15:04:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 2%
+[15:04:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 6%
+[15:04:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 9%
+[15:04:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 14%
+[15:04:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 16%
+[15:04:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 23%
+[15:04:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 30%
+[15:04:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 37%
+[15:04:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 41%
+[15:04:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 48%
+[15:04:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 51%
+[15:04:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 54%
+[15:04:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 60%
+[15:04:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 70%
+[15:04:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 79%
+[15:04:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 81%
+[15:04:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 84%
+[15:04:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 89%
+[15:04:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 94%
+[15:04:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 95%
+[15:04:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 99%
+[15:04:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 2 (Seed: 3374806643051400431)
+[15:04:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 16%
+[15:04:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 34%
+[15:04:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 49%
+[15:04:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 61%
+[15:04:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 78%
+[15:04:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 90%
+[15:04:31] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[15:04:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (95.058s)! For help, type "help" or "?"
+[15:04:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on **.**.**.**:10149
+[15:04:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting GS4 status listener
+[15:04:31] [Query Listener #1/INFO] [net.minecraft.server.MinecraftServer]: Query running on **.**.**.**:10149
+[15:04:31] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command forge with permission node forgecommand.forge
+[15:04:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[15:04:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[15:04:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[15:04:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[15:04:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[15:04:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM-1'/the_nether
+[15:04:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM1'/the_end
+[15:04:49] [Server thread/INFO] [FML]: Unloading dimension 0
+[15:04:49] [Server thread/INFO] [FML]: Unloading dimension -1
+[15:04:49] [Server thread/INFO] [FML]: Unloading dimension 1
