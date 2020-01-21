@@ -4,6 +4,7 @@
   "pocketmine-version": "Bersyon ng Pocketmine",
   "bedrock-version": "Bersyon ng Bedrock",
   "forge-version": "Bersyon ng Forge",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "Hindi mai-load ang plugin na 'AuthMe' at nagsasara ang server.",
   "pex-config-problem": "Ang configuration ng plugin na 'PermissionsEx' ay mali.",
   "ambiguous-plugin-name-problem": "Maraming plugin files ang may pangalang '{{plugin-name}}': '{{first-plugin-path}}' at '{{second-plugin-path}}'.",

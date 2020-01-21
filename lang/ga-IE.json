@@ -4,6 +4,7 @@
   "pocketmine-version": "Leagan Pocketmine",
   "bedrock-version": "Leagan Bedrock",
   "forge-version": "Leagan Forge",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "Teipeann ar an mbreiseán 'AuthMe' an freastalaí a luchtú agus a dhúnadh.",
   "pex-config-problem": "Tá cumraíocht an mbreiseáin 'PermissionsEx' neamhbhailí.",
   "ambiguous-plugin-name-problem": "Tá il-chomhaid breiseáin ann don ainm breiseáin '{{plugin-name}}': '{{first-plugin-path}}' agus {{second-plugin-path}} '.",
@@ -49,7 +50,7 @@
   "forge-install-different-version-solution": "Suiteáil leagan Forge difriúil.",
   "malformed-encoding-problem": "Tá cóid formáidithe míchumtha i rud éigin (an MOTD is dócha).",
   "change-motd-solution": "Athraigh an freastalaí MOTD.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Ní cheadaítear whitelist gan fíordheimhniú ar líne.",
+  "disable-whitelist-solution": "Díchumasaigh an breoiteoir.",
+  "enable-authentication-solution": "Cumasaigh an fíordheimhniú ar líne."
 }

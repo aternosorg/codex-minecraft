@@ -4,6 +4,7 @@
   "pocketmine-version": "Pocketmine-versio",
   "bedrock-version": "Bedrock-versio",
   "forge-version": "Forge-versio",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "Laajennus 'AuthMe' ei lataudu oikein ja sammuttaa palvelimen.",
   "pex-config-problem": "'PermissionEx' laajennus ei ole käytettävissä.",
   "ambiguous-plugin-name-problem": "Löydetty useita samannimisiä tiedostoja laajennukselle '{{plugin-name}}': '{{first-plugin-path}}' sekä '{{second-plugin-path}}'.",

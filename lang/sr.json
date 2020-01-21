@@ -4,6 +4,7 @@
   "pocketmine-version": "Портабилна верзија",
   "bedrock-version": "Бедрок верзија",
   "forge-version": "Forge верзија",
+  "magma-version": "Магма верзија",
   "authme-shutdown-problem": "Додатак 'AuthMe' није успео да се учита и угасио је сервер.",
   "pex-config-problem": "Конфигурација додатка 'PermissionsEx' је неисправна.",
   "ambiguous-plugin-name-problem": "Има више датотека додатака са именом {{plugin-name}}': {{first-plugin-path}}' и {{second-plugin-path}}.",

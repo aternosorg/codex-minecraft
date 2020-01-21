@@ -4,6 +4,7 @@
   "pocketmine-version": "Pocketmine verzia",
   "bedrock-version": "Bedrock verzia",
   "forge-version": "Forge verzia",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "Plugin 'AuthMe' sa nepodarilo načítať a vypnúť server.",
   "pex-config-problem": "Konfigurácia pluginu 'PermissionsEx' je neplatná.",
   "ambiguous-plugin-name-problem": "Existuje viacero pluginov pre názov pluginu '{{plugin-name}}': '{{first-plugin-path}}' a '{{second-plugin-path}}'.",

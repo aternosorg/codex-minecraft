@@ -4,6 +4,7 @@
   "pocketmine-version": "पॉकेटमाइन संस्करण",
   "bedrock-version": "आधार संस्करण",
   "forge-version": "संस्करण तैयार करना",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "प्लगइन 'लेखक' लोड करने में विफल रहता है और सर्वर को बंद कर देता है.",
   "pex-config-problem": "प्लगइन 'अनुमतियाँ' का विन्यास अमान्य है।",
   "ambiguous-plugin-name-problem": "प्लगइन नाम '{{प्लगइन-नाम}}': '{{पहला-प्लगइन-पथ}} \"और' {{दूसरा-प्लगइन-पथ}}\" के लिए कई प्लगइन फाइलें हैं।",

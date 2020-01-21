@@ -4,6 +4,7 @@
   "pocketmine-version": "גירסת \"poketmine\"",
   "bedrock-version": "גרסת \"bedrock\"",
   "forge-version": "גירסת \"Forge\"",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "התוסף 'AuthMe'  לא מצליח לטעון ומכבה את השרת.",
   "pex-config-problem": "הגדרות הפלאגין 'PermissionEx' אינה תקינה.",
   "ambiguous-plugin-name-problem": "יש כמה קבצי פלאגין בשם '{{plugin-name}}': '{{first-plugin-path}}' ו- '{{second-plugin-path}}'.",

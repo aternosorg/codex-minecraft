@@ -4,6 +4,7 @@
   "pocketmine-version": "Phiên bản Pocketmine",
   "bedrock-version": "Phiên bản Bedrock",
   "forge-version": "Phiên bản Forge",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "Plugin 'AuthMe' thất bại khi tải và khiến server ngừng lại.",
   "pex-config-problem": "Cấu hình của plugin 'PermissionsEx' không hợp lệ.",
   "ambiguous-plugin-name-problem": "Có nhiều tệp plugin cho plugin tên '{{plugin-name}}': '{{first-plugin-path}}' và '{{second-plugin-path}} '.",

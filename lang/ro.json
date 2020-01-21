@@ -4,6 +4,7 @@
   "pocketmine-version": "Versiunea PocketMine",
   "bedrock-version": "Versiunea Bedrock",
   "forge-version": "Versiunea Forge",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "Plugin-ul 'AuthMe' nu a fost încărcat și a închis server-ul.",
   "pex-config-problem": "Configurația plugin-ului 'PermissionsEx' este invalid.",
   "ambiguous-plugin-name-problem": "Sunt mai multe fișiere de la plugin-ul cu numele '{{plugin-name}}': '{{first-plugin-path}}' și '{{second-plugin-path}}'.",

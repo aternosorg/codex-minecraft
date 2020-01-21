@@ -4,6 +4,7 @@
   "pocketmine-version": "Версия на Pocketmine",
   "bedrock-version": "Версия на Bedrock",
   "forge-version": "Версия на Forge",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "Добавката 'AuthMe' не може да зареди и спира сървъра.",
   "pex-config-problem": "Конфигурацията на плъгина \"PermissionsEx\" е невалидна.",
   "ambiguous-plugin-name-problem": "Има повече от един файл за плъгина с име '{{plugin-name}}': '{{first-plugin-path}}' и '{{second-plugin-path}}'.",

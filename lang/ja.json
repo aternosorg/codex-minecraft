@@ -4,6 +4,7 @@
   "pocketmine-version": "PocketMine バージョン",
   "bedrock-version": "BE版 バージョン",
   "forge-version": "Forge バージョン",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "プラグイン 'AuthMe' をロードできませんでした。サーバーを終了します。",
   "pex-config-problem": "プラグイン 'PermissionsEx' の設定ファイルにエラーがあります。",
   "ambiguous-plugin-name-problem": "同名のプラグイン「{{plugin-name}}」が「{{first-plugin-path}}」と 「{{second-plugin-path}}」に複数存在しています。",

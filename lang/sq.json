@@ -4,6 +4,7 @@
   "pocketmine-version": "Versioni për xhep",
   "bedrock-version": "Versioni i shtratit",
   "forge-version": "Versioni i falsifikuar",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "Shtojca 'AuthMe' nuk arrin të ngarkojë dhe mbyll serverin poshtë.",
   "pex-config-problem": "Konfigurimi i shtojcës 'PermissionEx' është i pavlefshëm.",
   "ambiguous-plugin-name-problem": "Ekzistojnë skedarë të shumëfishtë pluginash për emrin e shtojcës '{-plugin-name}}': '{{first-plugin-path}}' dhe '{{plugin second-plugin}}'.",

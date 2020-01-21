@@ -4,6 +4,7 @@
   "pocketmine-version": "Pocketmine versiyası",
   "bedrock-version": "Bedrock versiyası",
   "forge-version": "Forge versiyası",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "'AuthMe' əlavəsi yüklənə bilmədi və serveri bağladı.",
   "pex-config-problem": "'PermissionsEx' əlavəsinin konfiqurasiyası etibarsızdır.",
   "ambiguous-plugin-name-problem": "'{{plugin-name}}': '{{first-plugin-path}}' və '{{second-plugin-path}}' əlavə adları üçün çoxlu əlavə faylları var.",
@@ -49,7 +50,7 @@
   "forge-install-different-version-solution": "Fərqli bir Forge versiyası quraşdır.",
   "malformed-encoding-problem": "Bir şey (ehtimal ki, MOTD) səhv formatlı kodları ehtiva edir.",
   "change-motd-solution": "MOTD serverini dəyişdirin.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Ağ siyahı faydalanmaq üçün internet bağlantısı olmalıdır.",
+  "disable-whitelist-solution": "Ağ siyahını sıradan çıxart.",
+  "enable-authentication-solution": "Onlayn kimlik təsdiqləməsini fəallaşdır."
 }

@@ -4,6 +4,7 @@
   "pocketmine-version": "Pocketmine 版本",
   "bedrock-version": "基岩版",
   "forge-version": "Forge版本",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "插件 \"AuthMe\" 無法載入並關閉伺服器。",
   "pex-config-problem": "插件 \"PermissionsEx\" 的配置無效。",
   "ambiguous-plugin-name-problem": "插件名稱 \"{{plugin-name}}\" 有多個插件程式檔: \"{{first-plugin-path}}\" 和 \"{{second-plugin-path}}\"。",
@@ -49,7 +50,7 @@
   "forge-install-different-version-solution": "安裝不同的鍛造版本。",
   "malformed-encoding-problem": "有些東西(可能是MOTD) 出現不合規格的寫法",
   "change-motd-solution": "更變伺服器的MOTD",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "未經在線上驗證的用戶不可使用白名單",
+  "disable-whitelist-solution": "禁用白名單",
+  "enable-authentication-solution": "啟用在線上驗證"
 }

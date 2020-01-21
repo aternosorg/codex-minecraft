@@ -4,6 +4,7 @@
   "pocketmine-version": "Versión de Pocketmine",
   "bedrock-version": "Versión de bedrock",
   "forge-version": "Versión de Forge",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "O complemento 'AuthMe' non pode cargar e desactivar o servidor.",
   "pex-config-problem": "A configuración do complemento 'PermissionsEx' non é válida.",
   "ambiguous-plugin-name-problem": "Hai varios ficheiros de complementos para o nome do complemento '{{plugin-name}}': '{{first-plugin-path}}' e '{{second-plugin-path}}'.",
@@ -49,7 +50,7 @@
   "forge-install-different-version-solution": "Instala unha versión de Forge diferente.",
   "malformed-encoding-problem": "Algo (probablemente o MOTD) contén códigos de formato mal formados.",
   "change-motd-solution": "Cambia o servidor MOTD.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Non está permitido utilizar unha lista branca sen autenticación en liña.",
+  "disable-whitelist-solution": "Desactivar a lista branca.",
+  "enable-authentication-solution": "Activar a autenticación en liña."
 }

@@ -4,6 +4,7 @@
   "pocketmine-version": "Версія Pocketmine",
   "bedrock-version": "Bedrock версія",
   "forge-version": "Версія ядра Forge",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "Плагін 'AuthMe' не може завантажитись та завершує роботу сервера.",
   "pex-config-problem": "Неприпустима конфігурація плагіна 'PermissionsEx'.",
   "ambiguous-plugin-name-problem": "Виявлено декілька одинакових версій одного й того ж плагіна: '{{plugin-name}}': '{{first-plugin-path}}' і '{{second-plugin-path}} '.",

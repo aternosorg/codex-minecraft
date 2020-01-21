@@ -4,6 +4,7 @@
   "pocketmine-version": "Verżjoni Pocketmine",
   "bedrock-version": "Verżjoni Bedrock",
   "forge-version": "Verżjoni Forge",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "Il-plugin 'AuthMe' ma jgħaddix u jagħlaq is-server.",
   "pex-config-problem": "Il-konfigurazzjoni tal-plugin 'PermissionsEx' mhix valida.",
   "ambiguous-plugin-name-problem": "Hemm bosta fajls tal-plugin għall-isem tal-plugin '{{plugin-name}}': '{{first-plugin-path}}' u '{{second-plugin-path}}'.",
@@ -49,7 +50,7 @@
   "forge-install-different-version-solution": "Installa verżjoni differenti tal-Forge.",
   "malformed-encoding-problem": "Xi ħaġa (x'aktarx l-MOTD) fiha kodiċi ta 'ifformattjar malformati.",
   "change-motd-solution": "Biddel is-server MOTD.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "L-użu ta 'whitelist mingħajr l-awtentikazzjoni online mhux permess.",
+  "disable-whitelist-solution": "Itfi l-whitelist.",
+  "enable-authentication-solution": "Ippermetti l-awtentikazzjoni online."
 }

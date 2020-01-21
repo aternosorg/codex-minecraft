@@ -4,6 +4,7 @@
   "pocketmine-version": "Pocketmine versija",
   "bedrock-version": "Bedrock versija",
   "forge-version": "Forge versija",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "Spraudni 'AuthMe' neizdodas ielādet un aizver serveri lejā.",
   "pex-config-problem": "Spraudņa 'PermissionsEx' konfigurācija nav derīga.",
   "ambiguous-plugin-name-problem": "Tur ir daudzāk spraudņi faili priekš spraudni vārdu '{{plugin-name}}': '{{first-plugin-path}}' un '{{second-plugin-path}}'.",
@@ -30,7 +31,7 @@
   "plugin-install-solution": "Ievadiet spraudni '{{plugin-name}}'.",
   "plugin-remove-solution": "Noņemiet spraudni '{{plugin-name}}'.",
   "file-delete-solution": "Izdzēst failu '{{file-path}}'.",
-  "file-edit-solution": "Rediģē failu '{{file-path}}'.",
+  "file-edit-solution": "Rediģējiet failu '{{file-path}}'.",
   "mod-install-different-version-solution": "Ievadiet citādu versiju par modu '{{mod-name}}'.",
   "mod-install-solution": "Ievadiet modu '{{mod-name}}'.",
   "mod-install-solution-with-version": "Ievadiet modu '{{mod-name}}' ar versiju {{mod-version}}.",
@@ -49,7 +50,7 @@
   "forge-install-different-version-solution": "Instalējiet citu Forge versiju.",
   "malformed-encoding-problem": "Kaut kas (droši vien MOTD) satur nepareizi formatētus formatējuma kodus.",
   "change-motd-solution": "Pārmaini serverim MOTD.",
-  "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
-  "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "bedrock-authentication-whitelist-problem": "Baltā saraksta izmantošana bez tiešsaistes autentifikācijas nav atļauta.",
+  "disable-whitelist-solution": "Atspējojiet balto sarakstu.",
+  "enable-authentication-solution": "Iespējo tiešsaistes autentifikāciju."
 }
