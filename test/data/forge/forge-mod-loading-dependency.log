@@ -1,0 +1,157 @@
+[07Feb2020 20:20:01.329] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.1.117, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, nogui]
+[07Feb2020 20:20:01.360] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_242 by Oracle Corporation
+[07Feb2020 20:20:01.429] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
+[07Feb2020 20:20:01.467] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
+[07Feb2020 20:20:01.499] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]
+[07Feb2020 20:20:01.526] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[07Feb2020 20:20:01.547] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[07Feb2020 20:20:01.652] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [fml]
+[07Feb2020 20:20:01.653] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[07Feb2020 20:20:01.709] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[07Feb2020 20:20:01.710] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[07Feb2020 20:20:01.757] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 28.1
+[07Feb2020 20:20:01.774] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 28.1 loading
+[07Feb2020 20:20:01.775] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 4.1.0+62+5bfa59b
+[07Feb2020 20:20:01.775] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[07Feb2020 20:20:01.778] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 1.0.1-milestone.0.1+94458e7+46+94458e7
+[07Feb2020 20:20:01.780] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 1.0.0+54+3f83a9e
+[07Feb2020 20:20:01.781] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[07Feb2020 20:20:01.917] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 1.0.0+4+e6fed88
+[07Feb2020 20:20:01.919] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 1.5.0+6+478760f
+[07Feb2020 20:20:01.940] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[07Feb2020 20:20:02.953] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[07Feb2020 20:20:02.965] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[07Feb2020 20:20:03.014] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[07Feb2020 20:20:03.105] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[07Feb2020 20:20:03.107] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[07Feb2020 20:20:03.107] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[07Feb2020 20:20:03.126] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : /aternos/server
+[07Feb2020 20:20:03.131] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /aternos/server
+[07Feb2020 20:20:03.132] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : /aternos/server/mods
+[07Feb2020 20:20:03.132] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /aternos/server/mods
+[07Feb2020 20:20:03.132] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : /aternos/server/config
+[07Feb2020 20:20:03.132] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /aternos/server/config
+[07Feb2020 20:20:03.133] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /aternos/server/config/fml.toml
+[07Feb2020 20:20:03.133] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[07Feb2020 20:20:03.558] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : /aternos/server/defaultconfigs
+[07Feb2020 20:20:03.559] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[07Feb2020 20:20:03.560] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlserver as launch service
+[07Feb2020 20:20:03.602] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data : MC Version: '1.14.4' MCP Version: '20190829.143755' Forge Version: '28.1.117' Forge group: 'net.minecraftforge'
+[07Feb2020 20:20:03.637] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path /aternos/server/libraries/org/ow2/asm/asm/6.2/asm-6.2.jar
+[07Feb2020 20:20:03.637] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path /aternos/server/libraries
+[07Feb2020 20:20:03.639] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path /aternos/server/libraries/net/minecraftforge/forge/1.14.4-28.1.117/forge-1.14.4-28.1.117-universal.jar is present
+[07Feb2020 20:20:03.640] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at /aternos/server/libraries/net/minecraft/server/1.14.4-20190829.143755/server-1.14.4-20190829.143755-srg.jar is present
+[07Feb2020 20:20:03.641] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at /aternos/server/libraries/net/minecraft/server/1.14.4/server-1.14.4-extra-stable.jar is present
+[07Feb2020 20:20:03.641] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at /aternos/server/libraries/net/minecraftforge/forge/1.14.4-28.1.117/forge-1.14.4-28.1.117-server.jar is present
+[07Feb2020 20:20:03.669] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[07Feb2020 20:20:03.694] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from /aternos/server/libraries/net/minecraftforge/forge/1.14.4-28.1.117/forge-1.14.4-28.1.117-universal.jar
+[07Feb2020 20:20:03.699] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/aternos/server/libraries/net/minecraftforge/forge/1.14.4-28.1.117/forge-1.14.4-28.1.117-universal.jar to languageloader classloader
+[07Feb2020 20:20:04.148] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[07Feb2020 20:20:04.148] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 28.1
+[07Feb2020 20:20:04.228] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[07Feb2020 20:20:04.267] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[07Feb2020 20:20:04.287] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[07Feb2020 20:20:04.297] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[07Feb2020 20:20:04.300] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[07Feb2020 20:20:04.311] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[07Feb2020 20:20:04.313] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[07Feb2020 20:20:04.416] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[07Feb2020 20:20:04.474] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[07Feb2020 20:20:04.663] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /aternos/server/mods/MS Auto-Compat-1.14.4-1.5.1.jar
+[07Feb2020 20:20:04.876] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file MS Auto-Compat-1.14.4-1.5.1.jar with {azurecompat} mods - versions {1.5.1}
+[07Feb2020 20:20:04.877] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /aternos/server/mods/MS Auto-Compat-1.14.4-1.5.1.jar with language javafml
+[07Feb2020 20:20:04.879] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /aternos/server/mods/u_team_core-1.14.4-2.8.2.150.jar
+[07Feb2020 20:20:04.898] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file u_team_core-1.14.4-2.8.2.150.jar with {uteamcore} mods - versions {**.**.**.**}
+[07Feb2020 20:20:04.898] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /aternos/server/mods/u_team_core-1.14.4-2.8.2.150.jar with language javafml
+[07Feb2020 20:20:04.899] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /aternos/server/libraries/net/minecraftforge/forge/1.14.4-28.1.117/forge-1.14.4-28.1.117-universal.jar
+[07Feb2020 20:20:04.901] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.14.4-28.1.117-universal.jar with {forge} mods - versions {28.1.117}
+[07Feb2020 20:20:04.902] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /aternos/server/libraries/net/minecraftforge/forge/1.14.4-28.1.117/forge-1.14.4-28.1.117-universal.jar with language javafml
+[07Feb2020 20:20:05.153] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[07Feb2020 20:20:05.153] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[07Feb2020 20:20:05.166] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /aternos/server/libraries/net/minecraftforge/forge/1.14.4-28.1.117/forge-1.14.4-28.1.117-server.jar
+[07Feb2020 20:20:05.170] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.14.4-28.1.117-server.jar with {minecraft} mods - versions {1.14.4}
+[07Feb2020 20:20:05.170] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /aternos/server/libraries/net/minecraftforge/forge/1.14.4-28.1.117/forge-1.14.4-28.1.117-server.jar with language minecraft
+[07Feb2020 20:20:05.267] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 3 mandatory requirements
+[07Feb2020 20:20:05.270] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 2 mandatory mod requirements missing
+[07Feb2020 20:20:08.550] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[07Feb2020 20:20:08.550] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[07Feb2020 20:20:08.559] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[07Feb2020 20:20:08.560] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[07Feb2020 20:20:08.561] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[07Feb2020 20:20:10.211] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[07Feb2020 20:20:10.245] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6722db6e to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[07Feb2020 20:20:10.249] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5049d8b2 to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[07Feb2020 20:20:10.250] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6d0b5baf to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[07Feb2020 20:20:10.250] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@631e06ab to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[07Feb2020 20:20:10.252] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2a3591c5 to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[07Feb2020 20:20:10.253] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@34a75079 to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[07Feb2020 20:20:10.255] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[07Feb2020 20:20:10.484] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[07Feb2020 20:20:21.824] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
+[07Feb2020 20:20:22.899] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
+[07Feb2020 20:20:24.048] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
+[07Feb2020 20:21:08.931] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
+[07Feb2020 20:21:09.099] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
+[07Feb2020 20:21:12.368] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
+[07Feb2020 20:21:36.556] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07Feb2020 20:21:36.560] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07Feb2020 20:21:36.564] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07Feb2020 20:21:36.567] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07Feb2020 20:21:36.592] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07Feb2020 20:21:37.212] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.14.4
+[07Feb2020 20:21:38.952] [Server thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4468
+[07Feb2020 20:21:41.413] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[07Feb2020 20:21:41.817] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Using 3 threads for parallel mod-loading
+[07Feb2020 20:21:41.818] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §eazurecompat§r requires §6mmorpg§r §o1 or above§r
+§7Currently, §6mmorpg§r§7 is §o§nnot installed
+at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:63) ~[?:?]
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_242]
+at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]
+at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:1.8.0_242]
+at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:1.8.0_242]
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]
+at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485) ~[?:1.8.0_242]
+at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:272) ~[?:1.8.0_242]
+at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]
+at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_242]
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]
+at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566) ~[?:1.8.0_242]
+at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:117) ~[?:?]
+at net.minecraftforge.fml.ModLoader.get(ModLoader.java:146) [?:?]
+at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) [?:?]
+at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121) [?:?]
+at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[07Feb2020 20:21:42.054] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+Mod §eazurecompat§r requires §6mmorpg§r §o1 or above§r
+§7Currently, §6mmorpg§r§7 is §o§nnot installed,
+Mod §euteamcore§r requires §6forge§r §o28.2.0 or above§r
+§7Currently, §6forge§r§7 is §o28.1.117
+]
+at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:168) ~[?:?]
+at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) ~[?:?]
+at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121) ~[?:?]
+at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[07Feb2020 20:21:42.117] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 28.1 from cpw.mods.modlauncher.TransformingClassLoader@4ebea12c
+[07Feb2020 20:21:42.118] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 28.1.117
+[07Feb2020 20:21:42.118] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 28.1
+[07Feb2020 20:21:42.118] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[07Feb2020 20:21:42.303] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /aternos/server/./crash-reports/crash-2020-02-07_20.21.42-server.txt
+[07Feb2020 20:21:42.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07Feb2020 20:21:42.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07Feb2020 20:21:42.718] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Exception stopping the server
+java.lang.RuntimeException: The server has failed to initialize correctly due to mod loading errors. Examine the crash report for more details.
+at net.minecraftforge.common.DimensionManager.getWorld(DimensionManager.java:182) ~[?:?]
+at net.minecraft.server.MinecraftServer.func_71218_a(MinecraftServer.java:979) ~[?:?]
+at net.minecraft.server.MinecraftServer.func_213211_a(MinecraftServer.java:521) ~[?:?]
+at net.minecraft.server.MinecraftServer.func_71260_j(MinecraftServer.java:553) ~[?:?]
+at net.minecraft.server.dedicated.DedicatedServer.func_71260_j(DedicatedServer.java:544) ~[?:?]
+at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:661) [?:?]
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
