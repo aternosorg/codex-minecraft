@@ -52,5 +52,6 @@
   "change-motd-solution": "Athraigh an freastalaí MOTD.",
   "bedrock-authentication-whitelist-problem": "Ní cheadaítear whitelist gan fíordheimhniú ar líne.",
   "disable-whitelist-solution": "Díchumasaigh an breoiteoir.",
-  "enable-authentication-solution": "Cumasaigh an fíordheimhniú ar líne."
+  "enable-authentication-solution": "Cumasaigh an fíordheimhniú ar líne.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

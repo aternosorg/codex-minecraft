@@ -52,5 +52,6 @@
   "change-motd-solution": "MOTD سرور کو تبدیل کریں۔.",
   "bedrock-authentication-whitelist-problem": "آن لائن توثیق کے بغیر وائٹ لسٹ کے استعمال کی اجازت نہیں ہے۔.",
   "disable-whitelist-solution": "Disable the whitelist.",
-  "enable-authentication-solution": "Enable the online authentication."
+  "enable-authentication-solution": "Enable the online authentication.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

@@ -4,7 +4,7 @@
   "pocketmine-version": "גירסת \"poketmine\"",
   "bedrock-version": "גרסת \"bedrock\"",
   "forge-version": "גירסת \"Forge\"",
-  "magma-version": "Magma version",
+  "magma-version": "גרסת מאגמה",
   "authme-shutdown-problem": "התוסף 'AuthMe'  לא מצליח לטעון ומכבה את השרת.",
   "pex-config-problem": "הגדרות הפלאגין 'PermissionEx' אינה תקינה.",
   "ambiguous-plugin-name-problem": "יש כמה קבצי פלאגין בשם '{{plugin-name}}': '{{first-plugin-path}}' ו- '{{second-plugin-path}}'.",
@@ -52,5 +52,6 @@
   "change-motd-solution": "שנה את הודעת היום של השרת.",
   "bedrock-authentication-whitelist-problem": "אסור להשתמש ברשימה לבנה ללא אימות מקוון.",
   "disable-whitelist-solution": "כבה את הרשימה הלבנה.",
-  "enable-authentication-solution": "אפשר את האימות המקוון."
+  "enable-authentication-solution": "אפשר את האימות המקוון.",
+  "undefined-mod-dependency-problem": "חסר את המוד הדרוש."
 }

@@ -52,5 +52,6 @@
   "change-motd-solution": "เปลี่ยน MOTD ของเซิฟเวอร์",
   "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
   "disable-whitelist-solution": "ปิดใช้งาน Whitelist",
-  "enable-authentication-solution": "Enable the online authentication."
+  "enable-authentication-solution": "Enable the online authentication.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

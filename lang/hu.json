@@ -4,7 +4,7 @@
   "pocketmine-version": "Pocketmine verzió",
   "bedrock-version": "Bedrock verzió",
   "forge-version": "Forge verzió",
-  "magma-version": "Magma version",
+  "magma-version": "Magma verzió",
   "authme-shutdown-problem": "Az 'AuthMe' plugin nem tud betöltődni és leállítja a szervert.",
   "pex-config-problem": "A konfiguráció a 'PermissionsEx' pluginnak érvénytelen.",
   "ambiguous-plugin-name-problem": "A plugin nevéhez több plugin fájl található '{{plugin-name}}': '{{first-plugin-path}}' és '{{second-plugin-path}}'.",
@@ -52,5 +52,6 @@
   "change-motd-solution": "Szerver MOTD megváltozása.",
   "bedrock-authentication-whitelist-problem": "Fehérlista használata online hitelesítés nélkül nem engedélyezett.",
   "disable-whitelist-solution": "Fehérlista letiltása.",
-  "enable-authentication-solution": "Online hitelesítés engedélyezése."
+  "enable-authentication-solution": "Online hitelesítés engedélyezése.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

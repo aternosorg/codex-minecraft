@@ -4,7 +4,7 @@
   "pocketmine-version": "Versão PocketMine",
   "bedrock-version": "Versão Bedrock",
   "forge-version": "Versão Forge",
-  "magma-version": "Magma version",
+  "magma-version": "Versão magma",
   "authme-shutdown-problem": "O plugin \"AuthMe\" falhou ao carregar e desligou o servidor.",
   "pex-config-problem": "A configuração do plugin 'PermissionsEx' é inválida.",
   "ambiguous-plugin-name-problem": "Existem vários ficheiros de plugin para o nome do plugin '{{plugin-name}}'{{first-plugin-path}}' e '{{second-plugin-path}}'.",
@@ -52,5 +52,6 @@
   "change-motd-solution": "Altera o MOTD do servidor.",
   "bedrock-authentication-whitelist-problem": "Não é permitido usar uma whitelist sem autenticação online.",
   "disable-whitelist-solution": "Desativar a whitelist.",
-  "enable-authentication-solution": "Ativa a autenticação on-line."
+  "enable-authentication-solution": "Ativa a autenticação on-line.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

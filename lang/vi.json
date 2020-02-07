@@ -52,5 +52,6 @@
   "change-motd-solution": "Thay đổi MOTD của máy chủ.",
   "bedrock-authentication-whitelist-problem": "Sử dụng danh sách trắng mà không có sự xác thực trực tuyến sẽ không được cho phép.",
   "disable-whitelist-solution": "Tắt danh sách trắng.",
-  "enable-authentication-solution": "Kích hoạt xác thực trực tuyến."
+  "enable-authentication-solution": "Kích hoạt xác thực trực tuyến.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

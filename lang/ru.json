@@ -4,7 +4,7 @@
   "pocketmine-version": "Карманная версия 1.11.4.2",
   "bedrock-version": "Версия Bedrock",
   "forge-version": "Версия Forge",
-  "magma-version": "Magma version",
+  "magma-version": "Версия Magma",
   "authme-shutdown-problem": "Плагин 'AuthMe' не может быть загружен и выключает сервер.",
   "pex-config-problem": "Конфигурация плагина 'PermissionsEx' недействительна.",
   "ambiguous-plugin-name-problem": "Есть несколько файлов плагинов для имени плагина '{{plugin-name}}': '{{first-plugin-path}}' и '{{second-plugin-path}}'.",
@@ -52,5 +52,6 @@
   "change-motd-solution": "Изменение MOTD сервера.",
   "bedrock-authentication-whitelist-problem": "Использование белого списка без онлайн-аутентификации не допускается.",
   "disable-whitelist-solution": "Отключить белый список.",
-  "enable-authentication-solution": "Включить онлайн-аутентификацию."
+  "enable-authentication-solution": "Включить онлайн-аутентификацию.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

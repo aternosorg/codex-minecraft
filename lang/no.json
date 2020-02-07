@@ -52,5 +52,6 @@
   "change-motd-solution": "Bytt serverens MOTD.",
   "bedrock-authentication-whitelist-problem": "Det er ikke tillatt å bruke en hviteliste uten online godkjenning.",
   "disable-whitelist-solution": "Deaktiver hvitelisten.",
-  "enable-authentication-solution": "Aktiver online godkjenning."
+  "enable-authentication-solution": "Aktiver online godkjenning.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

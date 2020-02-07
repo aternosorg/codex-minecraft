@@ -52,5 +52,6 @@
   "change-motd-solution": "更變伺服器的MOTD",
   "bedrock-authentication-whitelist-problem": "未經在線上驗證的用戶不可使用白名單",
   "disable-whitelist-solution": "禁用白名單",
-  "enable-authentication-solution": "啟用在線上驗證"
+  "enable-authentication-solution": "啟用在線上驗證",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

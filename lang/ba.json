@@ -52,5 +52,6 @@
   "change-motd-solution": "Change the server MOTD.",
   "bedrock-authentication-whitelist-problem": "Аҡ бит, онлайн ауҙентификацияһыҙ, эшлә алмай.",
   "disable-whitelist-solution": "Аҡ битте туҡтатырға.",
-  "enable-authentication-solution": "Онлайн ауҙентификацияны эшләтә башлау."
+  "enable-authentication-solution": "Онлайн ауҙентификацияны эшләтә башлау.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

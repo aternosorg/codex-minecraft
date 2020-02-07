@@ -40,7 +40,7 @@
   "plugin-command-exception-problem": "Този плугин '{{plugin-name}}' неможе да изпълни командата '{{command}}'.",
   "ticking-block-entity-problem": "Блокче в светът причинява проблеми.",
   "remove-block-solution": "Премахнете блокчето от светът.",
-  "do-nothing-solution": "Не правете нищо. Проблема може да се оправи от само себе си.",
+  "do-nothing-solution": "Не правете нищо. Проблема може да се оправи от само себе си. dasdas.",
   "chunk-load-exception-problem": "Имаше проблем докато разрезите в света се зареждаха.",
   "remove-chunk-solution": "Премахнете проблемнoто парче земя (chunk) от света с MCEdit или като премахнете регионния файл.",
   "multiverse-load-problem": "Светът '{{world-name}}' не може да бъде зареден, защото съдържа грешки и вероятно е повреден.",
@@ -52,5 +52,6 @@
   "change-motd-solution": "Променете настройката MOTD.",
   "bedrock-authentication-whitelist-problem": "Използване на бял списък без интернет потвърждение не е позволено.",
   "disable-whitelist-solution": "Забранете белият лист.",
-  "enable-authentication-solution": "Разрешете интернет потвърждението."
+  "enable-authentication-solution": "Разрешете интернет потвърждението.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

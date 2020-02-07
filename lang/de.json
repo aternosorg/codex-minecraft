@@ -4,7 +4,7 @@
   "pocketmine-version": "Pocketmine Version",
   "bedrock-version": "Bedrock Version",
   "forge-version": "Forge Version",
-  "magma-version": "Magma Version",
+  "magma-version": "Magma-Version",
   "authme-shutdown-problem": "Das Plugin 'AuthMe' konnte nicht geladen werden und hat den Server ausgeschaltet.",
   "pex-config-problem": "Die Konfiguration des Plugins 'PermissionsEx' ist ungültig.",
   "ambiguous-plugin-name-problem": "Es gibt mehrere Plugin-Dateien für das Plugin '{{plugin-name}}': '{{first-plugin-path}}' und '{{second-plugin-path}}'.",
@@ -40,7 +40,7 @@
   "plugin-command-exception-problem": "Das Plugin '{{plugin-name}}' kann den Befehl '{{command}}' nicht ausführen.",
   "ticking-block-entity-problem": "Ein Block in der Welt verursacht Probleme.",
   "remove-block-solution": "Entfernen Sie den Block aus der Welt, z.B. mit MCEdit.",
-  "do-nothing-solution": "Mach gar nichts. Dieses Problem könnte sich selbst beheben.",
+  "do-nothing-solution": "Tue gar nichts. Das Problem kann sich von selber lösen.",
   "chunk-load-exception-problem": "Es gab ein Problem beim Laden der Welt-Chunks.",
   "remove-chunk-solution": "Entferne den problematischen Chunk aus der Welt, z.B. mit MCEdit oder indem du die Region-Datei entfernst.",
   "multiverse-load-problem": "Die Welt '{{world-name}}' konnte nicht geladen werden, weil sie Fehler enthält und wahrscheinlich beschädigt ist.",
@@ -50,7 +50,8 @@
   "forge-install-different-version-solution": "Installiere eine andere Forge-Version.",
   "malformed-encoding-problem": "Etwas (vermutlich die MOTD) enthält fehlerhafte Formatierungscodes.",
   "change-motd-solution": "Ändere die MOTD des Servers.",
-  "bedrock-authentication-whitelist-problem": "Das benutzen einer Whitelist ohne online Authentifizierung ist nicht erlaubt.",
+  "bedrock-authentication-whitelist-problem": "Das benutzen einer Whitelist ohne Online-Authentifizierung ist nicht erlaubt.",
   "disable-whitelist-solution": "Deaktiviere die Whitelist.",
-  "enable-authentication-solution": "Aktiviere die Online-Authentifizierung."
+  "enable-authentication-solution": "Aktiviere die Online-Authentifizierung.",
+  "undefined-mod-dependency-problem": "Einer Mod fehlt die benötigte Mod {{dependency-mod-name}}."
 }

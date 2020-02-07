@@ -52,5 +52,6 @@
   "change-motd-solution": "Promijenite MOTD servera.",
   "bedrock-authentication-whitelist-problem": "Korištenje liste dopuštenih korisnika bez internet autentikacije nije dozvoljeno.",
   "disable-whitelist-solution": "Onemogući listu dopuštenih korisnika.",
-  "enable-authentication-solution": "Dozvolite internet autentikaciju."
+  "enable-authentication-solution": "Dozvolite internet autentikaciju.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

@@ -52,5 +52,6 @@
   "change-motd-solution": "请更改服务器的MOTD.",
   "bedrock-authentication-whitelist-problem": "不允许使用无正版验证的白名单。",
   "disable-whitelist-solution": "禁用白名单。",
-  "enable-authentication-solution": "启用正版验证"
+  "enable-authentication-solution": "启用正版验证",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

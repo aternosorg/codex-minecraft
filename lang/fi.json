@@ -52,5 +52,6 @@
   "change-motd-solution": "Vaihda serverin kuvaus.",
   "bedrock-authentication-whitelist-problem": "Sallittujen pelaajien listan käyttäminen ilman verkkotunnistautumista ei ole sallittua.",
   "disable-whitelist-solution": "Ota sallittujen pelaajien lista pois käytöstä.",
-  "enable-authentication-solution": "Ota verkkotunnistautuminen käyttöön."
+  "enable-authentication-solution": "Ota verkkotunnistautuminen käyttöön.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

@@ -4,7 +4,7 @@
   "pocketmine-version": "PocketMine バージョン",
   "bedrock-version": "BE版 バージョン",
   "forge-version": "Forge バージョン",
-  "magma-version": "Magma version",
+  "magma-version": "マグマのバージョン",
   "authme-shutdown-problem": "プラグイン 'AuthMe' をロードできませんでした。サーバーを終了します。",
   "pex-config-problem": "プラグイン 'PermissionsEx' の設定ファイルにエラーがあります。",
   "ambiguous-plugin-name-problem": "同名のプラグイン「{{plugin-name}}」が「{{first-plugin-path}}」と 「{{second-plugin-path}}」に複数存在しています。",
@@ -52,5 +52,6 @@
   "change-motd-solution": "サーバーのMOTD(説明文) を変更してください",
   "bedrock-authentication-whitelist-problem": "ホワイトリストを使用する場合、『不正を許可』をオフにする必要があります。",
   "disable-whitelist-solution": "ホワイトリストを使用しない。",
-  "enable-authentication-solution": "『不正を許可』をオフにして、オンライン認証を有効にする。"
+  "enable-authentication-solution": "『不正を許可』をオフにして、オンライン認証を有効にする。",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

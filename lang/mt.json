@@ -52,5 +52,6 @@
   "change-motd-solution": "Biddel is-server MOTD.",
   "bedrock-authentication-whitelist-problem": "L-użu ta 'whitelist mingħajr l-awtentikazzjoni online mhux permess.",
   "disable-whitelist-solution": "Itfi l-whitelist.",
-  "enable-authentication-solution": "Ippermetti l-awtentikazzjoni online."
+  "enable-authentication-solution": "Ippermetti l-awtentikazzjoni online.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

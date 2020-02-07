@@ -52,5 +52,6 @@
   "change-motd-solution": "Spremeni strežnikov MOTD.",
   "bedrock-authentication-whitelist-problem": "Uporabljanje seznama dovoljenih igralcev brez spletne overitve ni dovoljena.",
   "disable-whitelist-solution": "Onemogočite seznam dovoljenih igralcev.",
-  "enable-authentication-solution": "Vklopite medmrežno preverjanje pristnosti."
+  "enable-authentication-solution": "Vklopite medmrežno preverjanje pristnosti.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

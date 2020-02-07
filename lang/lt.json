@@ -52,5 +52,6 @@
   "change-motd-solution": "Pakeiskite serverio dienos žinutę.",
   "bedrock-authentication-whitelist-problem": "Baltasis sąrašas negali būti įgalintas be apsaugos patvirtinimų.",
   "disable-whitelist-solution": "Išjungti baltąjį sąrašą.",
-  "enable-authentication-solution": "Įgalinti apsaugos patvirtinimus."
+  "enable-authentication-solution": "Įgalinti apsaugos patvirtinimus.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

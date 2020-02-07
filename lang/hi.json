@@ -52,5 +52,6 @@
   "change-motd-solution": "सर्वर MOTD बदलें।",
   "bedrock-authentication-whitelist-problem": "ऑनलाइन प्रमाणीकरण के बिना एक श्वेतसूची का उपयोग करने की अनुमति नहीं है।",
   "disable-whitelist-solution": "श्वेतसूची को अक्षम करें।",
-  "enable-authentication-solution": "ऑनलाइन प्रमाणीकरण सक्षम करें।"
+  "enable-authentication-solution": "ऑनलाइन प्रमाणीकरण सक्षम करें।",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

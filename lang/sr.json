@@ -52,5 +52,6 @@
   "change-motd-solution": "Промените МОТД сервера.",
   "bedrock-authentication-whitelist-problem": "Коришћење беле листе без купљеног налога није дозвољено.",
   "disable-whitelist-solution": "Онемогући белу листу.",
-  "enable-authentication-solution": "Омогући проверу врсте налога."
+  "enable-authentication-solution": "Омогући проверу врсте налога.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

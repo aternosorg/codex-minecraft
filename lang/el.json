@@ -4,7 +4,7 @@
   "pocketmine-version": "Έκδοση Pocketmine",
   "bedrock-version": "Έκδοση Bedrock",
   "forge-version": "Έκδοση Forge",
-  "magma-version": "Magma version",
+  "magma-version": "Έκδοση Magma",
   "authme-shutdown-problem": "Το πρόσθετο 'AuthMe' απέτυχε να φορτωθεί και απενεργοποίησε τον διακομιστή.",
   "pex-config-problem": "Η διαμόρφωση του plugin 'PermissionsEx' δεν είναι έγκυρη.",
   "ambiguous-plugin-name-problem": "Υπάρχουν πολλά αρχεία plugin για το plugin «{{plugin-name}}»: «{{first-plugin-path}}» και «{{second-plugin-path}}».",
@@ -16,7 +16,7 @@
   "mod-dependency-problem": "Το mod '{{mod-name}}' λείπει το απαιτούμενο mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Το mod '{{mod-name}}' λείπει τα απαιτούμενα mods {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Υπάρχουν πολλά αρχεία mod για το όνομα mod «{{mod-name}}»: «{{first-mod-path}}» και «{{second-mod-path}}».",
-  "mod-exception-problem": "Το mod {{mod-name}} έχει ρίξει μια εξαίρεση.",
+  "mod-exception-problem": "Το mod '{{mod-name}}' έχει εμφανίσει μια εξαίρεση.",
   "mod-fatal-problem": "Το mod {{mod-name}} έχει ένα σοβαρό πρόβλημα.",
   "world-missing-mod-problem": "Ο κόσμος αποθηκεύτηκε με το mod {{mod-name}} που φαίνεται να έχει χαθεί.",
   "world-mod-version-problem": "Ο κόσμος αποθηκεύτηκε με το mod {{mod-name}} στην έκδοση {{mod-expected-version}} και είναι τώρα είναι στην εκδοση {{mod-current-version}}.",
@@ -52,5 +52,6 @@
   "change-motd-solution": "Αλλάξτε το MOTD του διακοσμητή.",
   "bedrock-authentication-whitelist-problem": "Δεν επιτρέπεται η χρήση whitelist χωρίς online αυθεντικοποίηση.",
   "disable-whitelist-solution": "Απενεργοποιήστε το whitelist.",
-  "enable-authentication-solution": "Ενεργοποιήστε την online αυθεντικοποίηση."
+  "enable-authentication-solution": "Ενεργοποιήστε την online αυθεντικοποίηση.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

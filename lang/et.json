@@ -52,5 +52,6 @@
   "change-motd-solution": "Muuda serveri MOTD.",
   "bedrock-authentication-whitelist-problem": "Valge nimekirja kasutamine ilma veebipõhise autentimiseta pole lubatud.",
   "disable-whitelist-solution": "Keela valge nimekiri.",
-  "enable-authentication-solution": "Luba veebipõhine autentimine."
+  "enable-authentication-solution": "Luba veebipõhine autentimine.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

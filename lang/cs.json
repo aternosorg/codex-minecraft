@@ -4,7 +4,7 @@
   "pocketmine-version": "Pocketmine verze",
   "bedrock-version": "Bedrock verze",
   "forge-version": "Forge verze",
-  "magma-version": "Magma version",
+  "magma-version": "Magma verze",
   "authme-shutdown-problem": "Plugin \"AuthMe\" se nenačetl správně, a vypíná server.",
   "pex-config-problem": "Konfigurace pluginu 'PermissionsEx' je neplatná.",
   "ambiguous-plugin-name-problem": "Existuje více plugin souborů pro plugin jméno '{{plugin-name}}': '{{first-plugin-path}}' a '{{second-plugin-path}}'.",
@@ -52,5 +52,6 @@
   "change-motd-solution": "Změňte MOTD serveru.",
   "bedrock-authentication-whitelist-problem": "Použití bílé listiny bez online autentizace není dovoleno.",
   "disable-whitelist-solution": "Zakázat bílou listinu.",
-  "enable-authentication-solution": "Povolit online autentizaci."
+  "enable-authentication-solution": "Povolit online autentizaci.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

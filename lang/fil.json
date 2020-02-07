@@ -52,5 +52,6 @@
   "change-motd-solution": "Palitan ang MOTD ng server.",
   "bedrock-authentication-whitelist-problem": "Používání bílé listiny bez online přihlášení není povoleno.",
   "disable-whitelist-solution": "Huwag paganahin ang whitelist.",
-  "enable-authentication-solution": "Zapnout online přihlášení."
+  "enable-authentication-solution": "Zapnout online přihlášení.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

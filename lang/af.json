@@ -52,5 +52,6 @@
   "change-motd-solution": "Verander die bediener MOTD.",
   "bedrock-authentication-whitelist-problem": "Die gebruik van 'n witlys sonder aanlynverifikasie is nie toegelaat nie.",
   "disable-whitelist-solution": "Deaktiveer die witlys.",
-  "enable-authentication-solution": "Aktiveer die aanlyn-verifikasie."
+  "enable-authentication-solution": "Aktiveer die aanlyn-verifikasie.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }

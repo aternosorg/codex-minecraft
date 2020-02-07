@@ -52,5 +52,6 @@
   "change-motd-solution": "Cambia o servidor MOTD.",
   "bedrock-authentication-whitelist-problem": "Non está permitido utilizar unha lista branca sen autenticación en liña.",
   "disable-whitelist-solution": "Desactivar a lista branca.",
-  "enable-authentication-solution": "Activar a autenticación en liña."
+  "enable-authentication-solution": "Activar a autenticación en liña.",
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
 }
