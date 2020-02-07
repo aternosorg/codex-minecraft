@@ -22,6 +22,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDuplicateProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModExceptionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModFatalProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModWrongMinecraftVersionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Forge\PTRLibDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldMissingModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldModVersionProblem;
 
@@ -46,6 +47,7 @@ class MagmaAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(ModFatalProblem::class);
         $this->addPossibleInsightClass(ModExceptionProblem::class);
         $this->addPossibleInsightClass(ModWrongMinecraftVersionProblem::class);
+        $this->addPossibleInsightClass(PTRLibDependencyProblem::class);
 
         $this->addPossibleInsightClass(PluginDependencyProblem::class);
         $this->addPossibleInsightClass(AmbiguousPluginNameProblem::class);
