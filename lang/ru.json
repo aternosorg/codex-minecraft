@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "Использование белого списка без онлайн-аутентификации не допускается.",
   "disable-whitelist-solution": "Отключить белый список.",
   "enable-authentication-solution": "Включить онлайн-аутентификацию.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "В моде отсутствует требуемый мод {{dependency-mod-name}}."
 }

@@ -4,7 +4,7 @@
   "pocketmine-version": "Pocketmine versiyası",
   "bedrock-version": "Bedrock versiyası",
   "forge-version": "Forge versiyası",
-  "magma-version": "Magma version",
+  "magma-version": "Magma versiyası",
   "authme-shutdown-problem": "'AuthMe' əlavəsi yüklənə bilmədi və serveri bağladı.",
   "pex-config-problem": "'PermissionsEx' əlavəsinin konfiqurasiyası etibarsızdır.",
   "ambiguous-plugin-name-problem": "'{{plugin-name}}': '{{first-plugin-path}}' və '{{second-plugin-path}}' əlavə adları üçün çoxlu əlavə faylları var.",
@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "Ağ siyahı faydalanmaq üçün internet bağlantısı olmalıdır.",
   "disable-whitelist-solution": "Ağ siyahını sıradan çıxart.",
   "enable-authentication-solution": "Onlayn kimlik təsdiqləməsini fəallaşdır.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Bir modun, tələb olunan {{dependency-mod-name}} adlı modu əskikdir."
 }

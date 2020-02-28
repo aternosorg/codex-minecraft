@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "لا يُسمح باستخدام القائمة البيضاء دون مصادقة عبر الإنترنت.",
   "disable-whitelist-solution": "عطل القائمة البيضاء.",
   "enable-authentication-solution": "فعل المصادقة عبر الإنترنت.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "هناك مود يتطلب المود {{dependency-mod-name}} لكي يعمل."
 }

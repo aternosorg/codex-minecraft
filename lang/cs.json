@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "Použití bílé listiny bez online autentizace není dovoleno.",
   "disable-whitelist-solution": "Zakázat bílou listinu.",
   "enable-authentication-solution": "Povolit online autentizaci.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Módu chybí požadovaný mód."
 }

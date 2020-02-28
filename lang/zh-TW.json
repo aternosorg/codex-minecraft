@@ -4,7 +4,7 @@
   "pocketmine-version": "Pocketmine 版本",
   "bedrock-version": "基岩版",
   "forge-version": "Forge版本",
-  "magma-version": "Magma version",
+  "magma-version": "Magma 版本",
   "authme-shutdown-problem": "插件 \"AuthMe\" 無法載入並關閉伺服器。",
   "pex-config-problem": "插件 \"PermissionsEx\" 的配置無效。",
   "ambiguous-plugin-name-problem": "插件名稱 \"{{plugin-name}}\" 有多個插件程式檔: \"{{first-plugin-path}}\" 和 \"{{second-plugin-path}}\"。",
@@ -47,11 +47,11 @@
   "world-repair-solution": "修復世界 \"{{world-name}}\", 例如, 通過使用 minecraft 區域修復程式或 mcedit。",
   "world-duplicate-problem": "世界 '{{world-name}}' 是另一個世界的副本, 並已被阻止載入。",
   "mod-wrong-minecraft-version-problem": "模組'{{mod-name}}'與Minecraft版本{{minecraft-version}} 不兼容。",
-  "forge-install-different-version-solution": "安裝不同的鍛造版本。",
+  "forge-install-different-version-solution": "安裝一個不同的 Forge 版本。",
   "malformed-encoding-problem": "有些東西(可能是MOTD) 出現不合規格的寫法",
   "change-motd-solution": "更變伺服器的MOTD",
   "bedrock-authentication-whitelist-problem": "未經在線上驗證的用戶不可使用白名單",
   "disable-whitelist-solution": "禁用白名單",
   "enable-authentication-solution": "啟用在線上驗證",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "模組缺少所需的模組 {{dependency-mod-name}}。"
 }

@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "Memakai whitelist tanpa mode premium tidak diperbolehkan.",
   "disable-whitelist-solution": "Nonaktifkan whitelist.",
   "enable-authentication-solution": "Aktifkan mode online.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Mod memperlukan {{dependency-mod-name}}."
 }

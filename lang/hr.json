@@ -4,7 +4,7 @@
   "pocketmine-version": "Verzija pocketmine-a",
   "bedrock-version": "Bedrock verzija",
   "forge-version": "Forge verzija",
-  "magma-version": "Magma version",
+  "magma-version": "Magma verzija",
   "authme-shutdown-problem": "Plugin 'AuthMe' se ne može učitati i gasi server.",
   "pex-config-problem": "Konfiguracija dodatka 'PermissionsEx' je nevažeća.",
   "ambiguous-plugin-name-problem": "Postoji nekoliko dodataka sa nazivom '{{plugin-name}}': '{{first-plugin-path}}' i '{{second-plugin-path}}'.",
@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "Korištenje liste dopuštenih korisnika bez internet autentikacije nije dozvoljeno.",
   "disable-whitelist-solution": "Onemogući listu dopuštenih korisnika.",
   "enable-authentication-solution": "Dozvolite internet autentikaciju.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Modu nedostaje mod {{dependency-mod-name}}."
 }

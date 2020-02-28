@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "Användning av whitelist utan online autentisering är ej tillåtet.",
   "disable-whitelist-solution": "Inaktivera whitelist.",
   "enable-authentication-solution": "Aktivera online autentisering.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Ett mod är beroende av {{dependency-mod-name}} för att fungera."
 }

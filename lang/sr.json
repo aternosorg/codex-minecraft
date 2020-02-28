@@ -49,9 +49,9 @@
   "mod-wrong-minecraft-version-problem": "Мод {{mod-name}} није компатибилан са верзијом Minecrafta {{minecraft-version}}.",
   "forge-install-different-version-solution": "Инсталирајте другачију верзију Fоrgеа.",
   "malformed-encoding-problem": "Нешто (вероватно опис) садржи погрешно обликоване кодове за форматирање.",
-  "change-motd-solution": "Промените МОТД сервера.",
+  "change-motd-solution": "Промените опис сервера.",
   "bedrock-authentication-whitelist-problem": "Коришћење беле листе без купљеног налога није дозвољено.",
   "disable-whitelist-solution": "Онемогући белу листу.",
   "enable-authentication-solution": "Омогући проверу врсте налога.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Моду недостаје потребан мод {{dependency-mod-name}}."
 }

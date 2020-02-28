@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "xbox 온라인 인증없이 화이트리스트를 사용하는것은 허용되지 않습니다",
   "disable-whitelist-solution": "화이트리스트를 꺼주세요.",
   "enable-authentication-solution": "xbox 온라인 인증을 켜주세요.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "해당 모드에 필요한 {{dependency-mod-name}} 모드가 존재하지 않습니다."
 }

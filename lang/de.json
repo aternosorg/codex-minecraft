@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "Das benutzen einer Whitelist ohne Online-Authentifizierung ist nicht erlaubt.",
   "disable-whitelist-solution": "Deaktiviere die Whitelist.",
   "enable-authentication-solution": "Aktiviere die Online-Authentifizierung.",
-  "undefined-mod-dependency-problem": "Einer Mod fehlt die benötigte Mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Die Modifikation {{dependency-mod-name}} fehlt, wovon eine Modifikation abhängig ist."
 }

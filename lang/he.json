@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "אסור להשתמש ברשימה לבנה ללא אימות מקוון.",
   "disable-whitelist-solution": "כבה את הרשימה הלבנה.",
   "enable-authentication-solution": "אפשר את האימות המקוון.",
-  "undefined-mod-dependency-problem": "חסר את המוד הדרוש."
+  "undefined-mod-dependency-problem": "חסר המוד הדרוש {{dependency-mod-name}}."
 }

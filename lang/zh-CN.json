@@ -4,7 +4,7 @@
   "pocketmine-version": "PE 版",
   "bedrock-version": "基岩版",
   "forge-version": "Forge 版本",
-  "magma-version": "Magma version",
+  "magma-version": "Magma 版本",
   "authme-shutdown-problem": "登录插件无法加载，服务器已关闭。",
   "pex-config-problem": "插件 \"PermissionsEx\" 的配置无效。",
   "ambiguous-plugin-name-problem": "插件名称 \"{{plugin-name}}\" 有多个插件文件: \"{{first-plugin-path}}\" 和 \"{{second-plugin-path}}\"。",
@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "不允许使用无正版验证的白名单。",
   "disable-whitelist-solution": "禁用白名单。",
   "enable-authentication-solution": "启用正版验证",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "缺失所需的前置 依赖模组 {{dependency-mod-name}}。"
 }

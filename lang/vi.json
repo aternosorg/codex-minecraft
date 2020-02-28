@@ -11,7 +11,7 @@
   "plugin-dependency-problem": "Plugin '{{plugin-name}}' bị thiếu plugin '{{dependency-plugin-name}} ' được yêu cầu.",
   "plugin-disabling-problem": "Plugin '{{plugin-name}}' không thể vô hiệu hóa được.",
   "plugin-enabling-problem": "Plugin '{{plugin-name}}' không thể kích hoạt được.",
-  "plugin-runtime-problem": "Plugin '{{plugin-name}}' gặp một vấn đề trong khi chạy.",
+  "plugin-runtime-problem": "Play.tungtram.net",
   "forge-confirm-problem": "Forge yêu cầu sự xác nhận của bạn để áp dụng thay đổi và bắt đầu máy chủ.",
   "mod-dependency-problem": "Mod '{{mod-name}}' thiếu mod {{dependency-mod-name}} được yêu cầu.",
   "mod-dependency-problem-plural": "Mod '{{mod-name}}' thiếu mod yêu cầu {{dependency-mod-list}}.",
@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "Sử dụng danh sách trắng mà không có sự xác thực trực tuyến sẽ không được cho phép.",
   "disable-whitelist-solution": "Tắt danh sách trắng.",
   "enable-authentication-solution": "Kích hoạt xác thực trực tuyến.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Một mod bị thiếu mod yêu cầu {{Depencies-mod-name}}."
 }

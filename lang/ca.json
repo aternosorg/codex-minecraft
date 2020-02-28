@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "Utilitzar una llista blanca sense l'autenticació en línia no està permès.",
   "disable-whitelist-solution": "Desactiva la llista blanca.",
   "enable-authentication-solution": "Activa la autenticació en línia.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "A un mod li falta el mod {{dependency-mod-name}}."
 }

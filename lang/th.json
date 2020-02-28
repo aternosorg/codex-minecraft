@@ -4,7 +4,7 @@
   "pocketmine-version": "เวอร์ชั่น Pocketmine",
   "bedrock-version": "เวอร์ชั่น Bedrock",
   "forge-version": "เวอร์ชั่น Forge",
-  "magma-version": "Magma version",
+  "magma-version": "รุ่น Magma",
   "authme-shutdown-problem": "โหลดปลั๊กอิน 'AuthMe' ล้มเหลว และเซิร์ฟถูกปิดลง",
   "pex-config-problem": "การตั้งค่าปลั๊กอิน 'PermissionsEx' ไม่ถูกต้อง",
   "ambiguous-plugin-name-problem": "ปลั๊กอิน '{{plugin-name}}' มีไฟล์ซ้ำซ้อนกัน: '{{first-plugin-path}}' และ '{{second-plugin-path}}'",
@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
   "disable-whitelist-solution": "ปิดใช้งาน Whitelist",
   "enable-authentication-solution": "Enable the online authentication.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "ตัวดัดแปลง หายไปจากตัวดัดแปลงที่ต้องการ{{dependency-mod-name}}"
 }

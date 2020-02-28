@@ -50,8 +50,8 @@
   "forge-install-different-version-solution": "ورژن دیگری از Forge نصب کنید.",
   "malformed-encoding-problem": "چیزی (احتمالا MOTD) حاوی کدهای قالب بندی نادرست است.",
   "change-motd-solution": "تغییر MOTD سرور.",
-  "bedrock-authentication-whitelist-problem": "استفاده از لیست سفید بدون سندیت آنلاین مجاز نیست.",
+  "bedrock-authentication-whitelist-problem": "استفاده از لیست سفید بدون احراز هویت آنلاین مجاز نیست.",
   "disable-whitelist-solution": "غیرفعال کردن لیست سفید.",
-  "enable-authentication-solution": "فعال کردن سنیدت آنلاین.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "enable-authentication-solution": "فعال کردن احراز هویت آنلاین.",
+  "undefined-mod-dependency-problem": "یک مود گمشده است مد موردنیاز:{{dependency-mod-name}}."
 }

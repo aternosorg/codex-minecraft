@@ -4,7 +4,7 @@
   "pocketmine-version": "Pocketmine versioon",
   "bedrock-version": "Bedrock versioon",
   "forge-version": "Forge versioon",
-  "magma-version": "Magma version",
+  "magma-version": "Magma versioon",
   "authme-shutdown-problem": "Plugina 'AuthMe' laadimine ebaõnnestus ja see sulgeb serveri.",
   "pex-config-problem": "Plugin \"PermissionsEx\" konfiguratsioon ei sobi.",
   "ambiguous-plugin-name-problem": "On mitu plugina faili pluginale '{{plugin-name}}': '{{first-plugin-path}}' ja '{{second-plugin-path}}'.",
@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "Valge nimekirja kasutamine ilma veebipõhise autentimiseta pole lubatud.",
   "disable-whitelist-solution": "Keela valge nimekiri.",
   "enable-authentication-solution": "Luba veebipõhine autentimine.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Moodil puudub vajalik mood {{dependency-mod-name}}."
 }

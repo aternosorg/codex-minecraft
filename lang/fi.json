@@ -4,7 +4,7 @@
   "pocketmine-version": "Pocketmine-versio",
   "bedrock-version": "Bedrock-versio",
   "forge-version": "Forge-versio",
-  "magma-version": "Magma version",
+  "magma-version": "Magma versio",
   "authme-shutdown-problem": "Laajennus 'AuthMe' ei lataudu oikein ja sammuttaa palvelimen.",
   "pex-config-problem": "'PermissionEx' laajennus ei ole käytettävissä.",
   "ambiguous-plugin-name-problem": "Löydetty useita samannimisiä tiedostoja laajennukselle '{{plugin-name}}': '{{first-plugin-path}}' sekä '{{second-plugin-path}}'.",
@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "Sallittujen pelaajien listan käyttäminen ilman verkkotunnistautumista ei ole sallittua.",
   "disable-whitelist-solution": "Ota sallittujen pelaajien lista pois käytöstä.",
   "enable-authentication-solution": "Ota verkkotunnistautuminen käyttöön.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Yksi modi vaatii modin {{dependency-mod-name}} toimiakseen oikein."
 }

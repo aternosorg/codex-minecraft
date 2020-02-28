@@ -1,6 +1,6 @@
 {
   "minecraft-version": "Versione di Minecraft",
-  "plugin-load-problem": "Il plugin '{{plugin-name}}' non può essere disabilitato.",
+  "plugin-load-problem": "Il plugin '{{plugin-name}}' non è stato possibile caricarlo.",
   "pocketmine-version": "Versione per dispositivi Android",
   "bedrock-version": "Versione Bedrock",
   "forge-version": "Versione di Forge",
@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "Usare la whitelist senza autenticazione online non e' permesso.",
   "disable-whitelist-solution": "Disabilita la whitelist.",
   "enable-authentication-solution": "Abilita l'autenticazione online.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "La Mod \"{{mod-name}}\" richiede la \"{{dependency-mod-name}}\"."
 }

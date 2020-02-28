@@ -4,7 +4,7 @@
   "pocketmine-version": "Pocketmine-versjon",
   "bedrock-version": "Bedrock-versjon",
   "forge-version": "Forge-versjon",
-  "magma-version": "Magma version",
+  "magma-version": "Magma-versjon",
   "authme-shutdown-problem": "Pluginen 'AuthMe' ble ikke lastet korrekt, og avsluttet serveren.",
   "pex-config-problem": "Konfigurasjonen av pluginen 'PermissionsEx' er ugyldig.",
   "ambiguous-plugin-name-problem": "Det eksisterer flere pluginfiler for pluginen ved navn: {{plugin-name}}: {{first-plugin-path}} og {{second-plugin-path}}.",
@@ -53,5 +53,5 @@
   "bedrock-authentication-whitelist-problem": "Det er ikke tillatt å bruke en hviteliste uten online godkjenning.",
   "disable-whitelist-solution": "Deaktiver hvitelisten.",
   "enable-authentication-solution": "Aktiver online godkjenning.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "En mod mangler den påkrevde modden {{dependency-mod-name}}."
 }
