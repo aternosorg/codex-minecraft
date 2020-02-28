@@ -2326,9 +2326,249 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [iterator:protected] => 0
                 )
 
+            [114] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [15Feb2020 14:45:26.737] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [15Feb2020 14:45:26.737] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+                                    [number:protected] => 158
+                                )
+
+                            [1] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => net.minecraftforge.fml.ModLoadingException: Mod §ecar§r requires §6minecraft§r §o1.15.1§r
+                                    [number:protected] => 159
+                                )
+
+                            [2] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => §7Currently, §6minecraft§r§7 is §o1.15.2
+                                    [number:protected] => 160
+                                )
+
+                            [3] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:63) ~[?:?]
+                                    [number:protected] => 161
+                                )
+
+                            [4] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_242]
+                                    [number:protected] => 162
+                                )
+
+                            [5] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]
+                                    [number:protected] => 163
+                                )
+
+                            [6] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]
+                                    [number:protected] => 164
+                                )
+
+                            [7] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]
+                                    [number:protected] => 165
+                                )
+
+                            [8] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:1.8.0_242]
+                                    [number:protected] => 166
+                                )
+
+                            [9] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:1.8.0_242]
+                                    [number:protected] => 167
+                                )
+
+                            [10] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]
+                                    [number:protected] => 168
+                                )
+
+                            [11] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485) ~[?:1.8.0_242]
+                                    [number:protected] => 169
+                                )
+
+                            [12] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:272) ~[?:1.8.0_242]
+                                    [number:protected] => 170
+                                )
+
+                            [13] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]
+                                    [number:protected] => 171
+                                )
+
+                            [14] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]
+                                    [number:protected] => 172
+                                )
+
+                            [15] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]
+                                    [number:protected] => 173
+                                )
+
+                            [16] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_242]
+                                    [number:protected] => 174
+                                )
+
+                            [17] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]
+                                    [number:protected] => 175
+                                )
+
+                            [18] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566) ~[?:1.8.0_242]
+                                    [number:protected] => 176
+                                )
+
+                            [19] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:117) ~[?:?]
+                                    [number:protected] => 177
+                                )
+
+                            [20] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at net.minecraftforge.fml.ModLoader.get(ModLoader.java:146) [?:?]
+                                    [number:protected] => 178
+                                )
+
+                            [21] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) [?:?]
+                                    [number:protected] => 179
+                                )
+
+                            [22] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) [?:?]
+                                    [number:protected] => 180
+                                )
+
+                            [23] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:611) [?:?]
+                                    [number:protected] => 181
+                                )
+
+                            [24] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+                                    [number:protected] => 182
+                                )
+
+                        )
+
+                    [level:protected] => FATAL
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [115] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => [15Feb2020 14:45:27.141] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => [15Feb2020 14:45:27.141] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+                                    [number:protected] => 183
+                                )
+
+                            [1] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+                                    [number:protected] => 184
+                                )
+
+                            [2] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => Mod §ecar§r requires §6minecraft§r §o1.15.1§r
+                                    [number:protected] => 185
+                                )
+
+                            [3] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => §7Currently, §6minecraft§r§7 is §o1.15.2
+                                    [number:protected] => 186
+                                )
+
+                            [4] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => ]
+                                    [number:protected] => 187
+                                )
+
+                            [5] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:168) ~[?:?]
+                                    [number:protected] => 188
+                                )
+
+                            [6] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) ~[?:?]
+                                    [number:protected] => 189
+                                )
+
+                            [7] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) ~[?:?]
+                                    [number:protected] => 190
+                                )
+
+                            [8] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:611) [?:?]
+                                    [number:protected] => 191
+                                )
+
+                            [9] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+                                    [number:protected] => 192
+                                )
+
+                            [10] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 
+                                    [number:protected] => 193
+                                )
+
+                        )
+
+                    [level:protected] => ERROR
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
         )
 
-    [iterator:protected] => 114
+    [iterator:protected] => 116
     [logFile:protected] => Aternos\Codex\Log\File\PathLogFile Object
         (
             [content:protected] => [07Feb2020 20:20:01.329] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.1.117, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, nogui]
@@ -2488,6 +2728,42 @@ at net.minecraft.server.MinecraftServer.func_71260_j(MinecraftServer.java:553) ~
 at net.minecraft.server.dedicated.DedicatedServer.func_71260_j(DedicatedServer.java:544) ~[?:?]
 at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:661) [?:?]
 at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[15Feb2020 14:45:26.737] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §ecar§r requires §6minecraft§r §o1.15.1§r
+§7Currently, §6minecraft§r§7 is §o1.15.2
+at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:63) ~[?:?]
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_242]
+at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]
+at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:1.8.0_242]
+at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:1.8.0_242]
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]
+at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485) ~[?:1.8.0_242]
+at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:272) ~[?:1.8.0_242]
+at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]
+at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_242]
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]
+at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566) ~[?:1.8.0_242]
+at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:117) ~[?:?]
+at net.minecraftforge.fml.ModLoader.get(ModLoader.java:146) [?:?]
+at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) [?:?]
+at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) [?:?]
+at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:611) [?:?]
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[15Feb2020 14:45:27.141] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+Mod §ecar§r requires §6minecraft§r §o1.15.1§r
+§7Currently, §6minecraft§r§7 is §o1.15.2
+]
+at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:168) ~[?:?]
+at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) ~[?:?]
+at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) ~[?:?]
+at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:611) [?:?]
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+
         )
 
 )
@@ -2812,9 +3088,193 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
                     [counter:protected] => 1
                 )
 
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+                (
+                    [dependencyMods:protected] => Array
+                        (
+                            [0] => minecraft
+                        )
+
+                    [modName:protected] => car
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
+                                (
+                                    [modVersion:protected] => 1.15.1
+                                    [modName:protected] => minecraft
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [15Feb2020 14:45:26.737] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [15Feb2020 14:45:26.737] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+                                            [number:protected] => 158
+                                        )
+
+                                    [1] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => net.minecraftforge.fml.ModLoadingException: Mod §ecar§r requires §6minecraft§r §o1.15.1§r
+                                            [number:protected] => 159
+                                        )
+
+                                    [2] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => §7Currently, §6minecraft§r§7 is §o1.15.2
+                                            [number:protected] => 160
+                                        )
+
+                                    [3] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:63) ~[?:?]
+                                            [number:protected] => 161
+                                        )
+
+                                    [4] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_242]
+                                            [number:protected] => 162
+                                        )
+
+                                    [5] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]
+                                            [number:protected] => 163
+                                        )
+
+                                    [6] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]
+                                            [number:protected] => 164
+                                        )
+
+                                    [7] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]
+                                            [number:protected] => 165
+                                        )
+
+                                    [8] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:1.8.0_242]
+                                            [number:protected] => 166
+                                        )
+
+                                    [9] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:1.8.0_242]
+                                            [number:protected] => 167
+                                        )
+
+                                    [10] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]
+                                            [number:protected] => 168
+                                        )
+
+                                    [11] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485) ~[?:1.8.0_242]
+                                            [number:protected] => 169
+                                        )
+
+                                    [12] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:272) ~[?:1.8.0_242]
+                                            [number:protected] => 170
+                                        )
+
+                                    [13] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]
+                                            [number:protected] => 171
+                                        )
+
+                                    [14] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]
+                                            [number:protected] => 172
+                                        )
+
+                                    [15] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]
+                                            [number:protected] => 173
+                                        )
+
+                                    [16] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_242]
+                                            [number:protected] => 174
+                                        )
+
+                                    [17] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]
+                                            [number:protected] => 175
+                                        )
+
+                                    [18] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566) ~[?:1.8.0_242]
+                                            [number:protected] => 176
+                                        )
+
+                                    [19] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:117) ~[?:?]
+                                            [number:protected] => 177
+                                        )
+
+                                    [20] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at net.minecraftforge.fml.ModLoader.get(ModLoader.java:146) [?:?]
+                                            [number:protected] => 178
+                                        )
+
+                                    [21] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) [?:?]
+                                            [number:protected] => 179
+                                        )
+
+                                    [22] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) [?:?]
+                                            [number:protected] => 180
+                                        )
+
+                                    [23] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:611) [?:?]
+                                            [number:protected] => 181
+                                        )
+
+                                    [24] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+                                            [number:protected] => 182
+                                        )
+
+                                )
+
+                            [level:protected] => FATAL
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 2
+                )
+
         )
 
-    [iterator:protected] => 2
+    [iterator:protected] => 3
 )
 ';
         
@@ -2828,6 +3288,9 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
 
         $this->assertEquals("The mod 'uteamcore' is missing the required mod 'forge'.", $analysis[2]->getMessage());
         $this->assertEquals("Install the mod 'forge' with version 28.2.0.", $analysis[2][0]->getMessage());
+
+        $this->assertEquals("The mod 'car' is missing the required mod 'minecraft'.", $analysis[3]->getMessage());
+        $this->assertEquals("Install the mod 'minecraft' with version 1.15.1.", $analysis[3][0]->getMessage());
 
     }
 }

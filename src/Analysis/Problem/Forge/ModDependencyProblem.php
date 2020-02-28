@@ -45,8 +45,8 @@ class ModDependencyProblem extends ModProblem
         return [
             '/The mod \S+ \(([^\)]+)\) requires mods \[([^\]]+)\] to be available/',
             '/net\.minecraftforge\.fml\.common\.MissingModsException: Mod \S+ \(([^\)]+)\) requires (.+)/',
-            '/net\.minecraftforge\.fml\.ModLoadingException: Mod \§.([^\§]+)\§. requires \§.([^\§]+)\§. \§.([^ ]+)[^\§]+\§./',
-            '/net\.minecraftforge\.fml\.LoadingFailedException: Loading errors encountered: \[\n(?:.*\n)*Mod \§.([^\§]+)§. requires \§.([^\§]+)\§. \§.([^ ]+)[^\§]+\§./'
+            '/net\.minecraftforge\.fml\.ModLoadingException: Mod \§.([^\§]+)\§. requires \§.([^\§]+)\§. \§.([^ \§]+)[^\§]*\§./',
+            '/net\.minecraftforge\.fml\.LoadingFailedException: Loading errors encountered: \[\n(?:.*\n)*Mod \§.([^\§]+)§. requires \§.([^\§]+)\§. \§.([^ \§]+)[^\§]*\§./'
         ];
     }
 
