@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallDifferentVersionSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -49,6 +50,7 @@ class ModFatalProblem extends ModProblem
     {
         return [
             '/\s*U[LCHIJAD]*E\s+(\w+)\{([^\}]+)\} \[([^\]]+)\] \(([^\)]+)\)/',
+            '/Loading errors encountered: \[\n([^\(]+) \(([^\)]+)\) has failed to load correctly/'
         ];
     }
 
@@ -61,12 +63,21 @@ class ModFatalProblem extends ModProblem
      */
     public function setMatches(array $matches, $patternKey)
     {
-        $this->modId = $matches[1];
-        $this->modVersion = $matches[2];
-        $this->modName = $matches[3];
-        $this->modFileName = $matches[4];
+        switch ($patternKey) {
+            case 0:
+                $this->modId = $matches[1];
+                $this->modVersion = $matches[2];
+                $this->modName = $matches[3];
+                $this->modFileName = $matches[4];
+                $this->addSolution((new FileDeleteSolution())->setRelativePath("mods/" . $this->getModFileName()));
+                break;
+            case 1:
+                $this->modId = $matches[2];
+                $this->modName = $matches[1];
+                $this->addSolution((new ModRemoveSolution())->setModName($this->getModName()));
+                break;
+        }
 
-        $this->addSolution((new FileDeleteSolution())->setRelativePath("mods/" . $this->getModFileName()));
         $this->addSolution((new ModInstallDifferentVersionSolution())->setModName($this->getModName()));
     }
 
