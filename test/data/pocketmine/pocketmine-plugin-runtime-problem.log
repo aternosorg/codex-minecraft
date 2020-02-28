@@ -1,0 +1,144 @@
+2020-02-22 [20:56:29] [Server thread/INFO]: Loading pocketmine.yml...
+2020-02-22 [20:56:29] [Server thread/INFO]: Loading server properties...
+2020-02-22 [20:56:29] [Server thread/INFO]: Selected English (eng) as the base language
+2020-02-22 [20:56:29] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.14.0
+2020-02-22 [20:56:29] [Server thread/NOTICE]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2020-02-22 [20:56:29] [Server thread/NOTICE]: To disable authentication, set "xbox-auth" to "false" in server.properties.
+2020-02-22 [20:56:29] [Server thread/INFO]: Opening server on **.**.**.**:52912
+2020-02-22 [20:56:29] [Server thread/INFO]: This server is running PocketMine-MP version 3.11.6
+2020-02-22 [20:56:29] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading resource packs...
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading CustomAlerts v2.1
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading AutoInv v0.0.10
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading BuilderTools v1.2.0-beta2
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading ServerChannels v2.3
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading SizePlayer v1.1.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading MorphX v1.0.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading Newspaper v1.0.1
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading ProfileUI v4.2.1
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading InvSee v1.0.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading Neon v1.1.1
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading BlazinVanish v1.0.4
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading BlazinFly v1.8.7
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading PurePerms v1.4.3
+2020-02-22 [20:56:30] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2020-02-22 [20:56:30] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2020-02-22 [20:56:30] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading Slapper v1.5.2
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading Wilderness v0.0.1
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading PiggyCustomEnchants v2.0.5
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading PlayerHead v1.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading VanillaCoordinates v1.0.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading AdvancedKits v5.3.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading CustomSetting v1.0.3
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading AntiSpamPro v1.4.1
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading KeepInventory v1.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading EconomyAPI v5.7.2
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading HealthTag v2.0.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading ChatScrambler v1.0.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading SignPortal v1.1.4
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading SellAll v1.3.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading CustomShopUI v4.0.5
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading FactionsPro v1.3.20
+2020-02-22 [20:56:30] [Server thread/INFO]: Loading PureChat v1.4.11
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling CustomAlerts v2.1
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling ServerChannels v2.3
+2020-02-22 [20:56:30] [Server thread/INFO]: Preparing world "world"
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling AutoInv v0.0.10
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling BuilderTools v1.2.0-beta2
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling SizePlayer v1.1.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling MorphX v1.0.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling Newspaper v1.0.1
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling ProfileUI v4.2.1
+2020-02-22 [20:56:30] [Server thread/NOTICE]: [ProfielUI] Enabled! - By Infernus101
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling InvSee v1.0.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling Neon v1.1.1
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling BlazinVanish v1.0.4
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling BlazinFly v1.8.7
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling PurePerms v1.4.3
+2020-02-22 [20:56:30] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling Slapper v1.5.2
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling Wilderness v0.0.1
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling PiggyCustomEnchants v2.0.5
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling PlayerHead v1.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling VanillaCoordinates v1.0.0
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling AdvancedKits v5.3.0
+2020-02-22 [20:56:30] [Server thread/NOTICE]: [AdvancedKits] PiggyCustomEnchants detected. Activated custom enchants support
+2020-02-22 [20:56:30] [Server thread/WARNING]: [AdvancedKits] Bad configuration in kit starter kit. Image type not supported. Please use 'path' or 'url'
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling CustomSetting v1.0.3
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling AntiSpamPro v1.4.1
+2020-02-22 [20:56:30] [Server thread/INFO]: [AntiSpamPro] AntiSpamPro Swear Filter Enabled
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling KeepInventory v1.0
+2020-02-22 [20:56:30] [Server thread/INFO]: -=-++-=-++-=-++-=-++-=-++-=-++-=-++-=-
+2020-02-22 [20:56:30] [Server thread/INFO]: [KeepInventory] Plugin enabled!
+2020-02-22 [20:56:30] [Server thread/INFO]: [KeepInventory] Plugin by KhoaGamingPro
+2020-02-22 [20:56:30] [Server thread/INFO]: [KeepInventory] Plugin version: 1.0
+2020-02-22 [20:56:30] [Server thread/INFO]: -=-++-=-++-=-++-=-++-=-++-=-++-=-++-=-
+2020-02-22 [20:56:30] [Server thread/NOTICE]: [KeepInventory] Keep inventory enabled. Player's inventory will keep after death.
+2020-02-22 [20:56:30] [Server thread/NOTICE]: [KeepInventory] You can disable it in config.yml
+2020-02-22 [20:56:30] [Server thread/INFO]: Enabling EconomyAPI v5.7.2
+2020-02-22 [20:56:31] [Server thread/NOTICE]: [EconomyAPI] Something went wrong on update server.
+2020-02-22 [20:56:31] [Server thread/NOTICE]: [EconomyAPI] Database provider was set to: Yaml
+2020-02-22 [20:56:31] [Server thread/INFO]: Enabling HealthTag v2.0.0
+2020-02-22 [20:56:31] [Server thread/INFO]: Enabling ChatScrambler v1.0.0
+2020-02-22 [20:56:31] [Server thread/INFO]: [ChatScrambler] Version: 1.0.0 for API: 3.0.0
+2020-02-22 [20:56:31] [Server thread/INFO]: Enabling SignPortal v1.1.4
+2020-02-22 [20:56:31] [Server thread/INFO]: Enabling SellAll v1.3.0
+2020-02-22 [20:56:31] [Server thread/INFO]: Enabling CustomShopUI v4.0.5
+2020-02-22 [20:56:31] [Server thread/INFO]: Enabling FactionsPro v1.3.20
+2020-02-22 [20:56:31] [Server thread/INFO]: Enabling PureChat v1.4.11
+2020-02-22 [20:56:31] [Server thread/NOTICE]: [PureChat] FactionsPro < 1.4 support enabled.
+2020-02-22 [20:56:31] [Server thread/INFO]: Starting GS4 status listener
+2020-02-22 [20:56:31] [Server thread/INFO]: Setting query port to 52912
+2020-02-22 [20:56:31] [Server thread/INFO]: Query running on **.**.**.**:52912
+2020-02-22 [20:56:31] [Server thread/INFO]: Default game type: Survival Mode
+2020-02-22 [20:56:31] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2020-02-22 [20:56:31] [Server thread/INFO]: Done (1.795s)! For help, type "help" or "?"
+2020-02-22 [22:02:23] [Server thread/INFO]: Plugins (30): PiggyCustomEnchants v2.0.5, Slapper v1.5.2, AutoInv v0.0.10, ServerChannels v2.3, EconomyAPI v5.7.2, AdvancedKits v5.3.0, BuilderTools v1.2.0-beta2, PlayerHead v1.0, KeepInventory v1.0, AntiSpamPro v1.4.1, BlazinFly v1.8.7, SizePlayer v1.1.0, CustomAlerts v2.1, ChatScrambler v1.0.0, PurePerms v1.4.3, Neon v1.1.1, BlazinVanish v1.0.4, Wilderness v0.0.1, SellAll v1.3.0, HealthTag v2.0.0, MorphX v1.0.0, Newspaper v1.0.1, InvSee v1.0.0, CustomSetting v1.0.3, CustomShopUI v4.0.5, ProfileUI v4.2.1, VanillaCoordinates v1.0.0, SignPortal v1.1.4, FactionsPro v1.3.20, PureChat v1.4.11
+2020-02-22 [22:02:37] [Server thread/CRITICAL]: Error: "Call to undefined method pocketmine\command\ConsoleCommandSender::dataPacket()" (EXCEPTION) in "plugins/VanillaCoordinates.phar/src/shelly7w7/VanillaCoordinates/command/CoordinateCommand" at line 37
+2020-02-22 [22:02:37] [Server thread/DEBUG]: #0 src/pocketmine/command/SimpleCommandMap(248): shelly7w7\VanillaCoordinates\command\CoordinateCommand->execute(object pocketmine\command\ConsoleCommandSender, string[6] coords, array[1])
+2020-02-22 [22:02:37] [Server thread/DEBUG]: #1 src/pocketmine/Server(1807): pocketmine\command\SimpleCommandMap->dispatch(object pocketmine\command\ConsoleCommandSender, string[9] coords on)
+2020-02-22 [22:02:37] [Server thread/DEBUG]: #2 src/pocketmine/Server(1419): pocketmine\Server->dispatchCommand(object pocketmine\command\ConsoleCommandSender, string[9] coords on)
+2020-02-22 [22:02:37] [Server thread/DEBUG]: #3 vendor/pocketmine/snooze/src/SleeperHandler(123): pocketmine\Server->pocketmine\{closure}()
+2020-02-22 [22:02:37] [Server thread/DEBUG]: #4 vendor/pocketmine/snooze/src/SleeperHandler(85): pocketmine\snooze\SleeperHandler->processNotifications()
+2020-02-22 [22:02:37] [Server thread/DEBUG]: #5 src/pocketmine/Server(2146): pocketmine\snooze\SleeperHandler->sleepUntil(double 1582437757.3646)
+2020-02-22 [22:02:37] [Server thread/DEBUG]: #6 src/pocketmine/Server(1990): pocketmine\Server->tickProcessor()
+2020-02-22 [22:02:37] [Server thread/DEBUG]: #7 src/pocketmine/Server(1584): pocketmine\Server->start()
+2020-02-22 [22:02:37] [Server thread/DEBUG]: #8 src/pocketmine/PocketMine(273): pocketmine\Server->__construct(object BaseClassLoader, object pocketmine\utils\MainLogger, string[16] /aternos/server/, string[24] /aternos/server/plugins/)
+2020-02-22 [22:02:37] [Server thread/DEBUG]: #9 src/pocketmine/PocketMine(296): pocketmine\server()
+2020-02-22 [22:02:37] [Server thread/DEBUG]: #10 (11): require(string[64] phar:///aternos/server/server.phar/src/pocketmine/PocketMine.php)
+2020-02-22 [22:02:37] [Server thread/EMERGENCY]: An unrecoverable error has occurred and the server has crashed. Creating a crash dump
+2020-02-22 [22:02:37] [Server thread/EMERGENCY]: Please upload the "/aternos/server/crashdumps/Sat_Feb_22-22.02.37-PST_2020.log" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling PiggyCustomEnchants v2.0.5
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling Slapper v1.5.2
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling AutoInv v0.0.10
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling ServerChannels v2.3
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling EconomyAPI v5.7.2
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling AdvancedKits v5.3.0
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling BuilderTools v1.2.0-beta2
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling PlayerHead v1.0
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling KeepInventory v1.0
+2020-02-22 [22:02:37] [Server thread/INFO]: [KeepInventory] Plugin disabled!
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling AntiSpamPro v1.4.1
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling BlazinFly v1.8.7
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling SizePlayer v1.1.0
+2020-02-22 [22:02:37] [Server thread/INFO]: [SizePlayer] SizePlayer plugin is currently disabled!
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling CustomAlerts v2.1
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling ChatScrambler v1.0.0
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling PurePerms v1.4.3
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling Neon v1.1.1
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling BlazinVanish v1.0.4
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling Wilderness v0.0.1
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling SellAll v1.3.0
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling HealthTag v2.0.0
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling MorphX v1.0.0
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling Newspaper v1.0.1
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling InvSee v1.0.0
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling CustomSetting v1.0.3
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling CustomShopUI v4.0.5
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling ProfileUI v4.2.1
+2020-02-22 [22:02:37] [Server thread/NOTICE]: [ProfielUI] Disabled! - By Infernus101
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling VanillaCoordinates v1.0.0
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling SignPortal v1.1.4
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling FactionsPro v1.3.20
+2020-02-22 [22:02:37] [Server thread/INFO]: Disabling PureChat v1.4.11

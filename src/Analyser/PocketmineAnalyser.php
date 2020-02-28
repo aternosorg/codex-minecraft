@@ -6,6 +6,7 @@ use Aternos\Codex\Minecraft\Analysis\Information\Pocketmine\PocketmineBedrockVer
 use Aternos\Codex\Minecraft\Analysis\Information\Pocketmine\PocketmineVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine\PluginDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine\PluginIncompatibleProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine\PluginRuntimeProblem;
 
 /**
  * Class PocketmineAnalyser
@@ -21,5 +22,6 @@ class PocketmineAnalyser extends MinecraftAnalyser
 
         $this->addPossibleInsightClass(PluginIncompatibleProblem::class);
         $this->addPossibleInsightClass(PluginDependencyProblem::class);
+        $this->addPossibleInsightClass(PluginRuntimeProblem::class);
     }
 }
