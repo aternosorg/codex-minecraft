@@ -74,7 +74,7 @@ class PluginDependencyProblem extends BukkitProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in folder \'[^\']+\'\norg\.bukkit\.plugin\.UnknownDependencyException\: (\w+)/'];
+        return ['/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in folder \'[^\']+\'\norg\.bukkit\.plugin\.UnknownDependencyException\: (?:(\w+)\n|Unknown dependency (\w+)\.)/'];
     }
 
     /**
@@ -88,7 +88,7 @@ class PluginDependencyProblem extends BukkitProblem
     {
         $this->pluginPath = $matches[1];
         $this->pluginName = $matches[2];
-        $this->dependencyPluginName = $matches[3];
+        $this->dependencyPluginName = $matches[3] ?: $matches[4];
 
         $this->addSolution((new PluginInstallSolution())->setPluginName($this->getDependencyPluginName()));
         $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginPath()));
