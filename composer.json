@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "aternos/codex": "^1.1.0",
+        "aternos/codex": "^1.2.0",
         "ext-json": "*"
     },
     "require-dev": {

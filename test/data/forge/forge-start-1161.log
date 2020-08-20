@@ -1,0 +1,178 @@
+
+[20Aug2020 16:34:09.142] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 32.0.108, --fml.mcpVersion, 20200625.160719, --fml.mcVersion, 1.16.1, --fml.forgeGroup, net.minecraftforge, nogui]
+[20Aug2020 16:34:09.173] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 6.1.1+74+master.966c698 starting: java version 1.8.0_222 by Oracle Corporation
+[20Aug2020 16:34:09.216] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
+[20Aug2020 16:34:09.308] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
+[20Aug2020 16:34:09.719] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]
+[20Aug2020 16:34:09.848] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[20Aug2020 16:34:09.904] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[20Aug2020 16:34:09.947] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[20Aug2020 16:34:09.948] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[20Aug2020 16:34:09.959] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[20Aug2020 16:34:09.962] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[20Aug2020 16:34:09.963] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[20Aug2020 16:34:09.963] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[20Aug2020 16:34:09.986] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 32.0
+[20Aug2020 16:34:09.986] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 32.0 loading
+[20Aug2020 16:34:09.986] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 6.1.1+74+master.966c698
+[20Aug2020 16:34:09.987] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[20Aug2020 16:34:09.991] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 2.2.0+57+master.16c1bdb
+[20Aug2020 16:34:09.993] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 3.0.3+63+master.b6b4769
+[20Aug2020 16:34:09.995] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[20Aug2020 16:34:10.021] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 3.0.0+9+master.3817658
+[20Aug2020 16:34:10.021] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 3.1.1+12+master.3ce14ad
+[20Aug2020 16:34:10.021] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[20Aug2020 16:34:11.076] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[20Aug2020 16:34:11.112] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[20Aug2020 16:34:11.119] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[20Aug2020 16:34:11.247] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[20Aug2020 16:34:11.263] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[20Aug2020 16:34:11.326] [main/DEBUG] [mixin/]: Mixin bootstrap service org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapperBootstrap is not available: LaunchWrapper is not available
+[20Aug2020 16:34:11.372] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in sun.misc.Launcher$AppClassLoader@232204a1
+[20Aug2020 16:34:11.498] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/server/libraries/org/spongepowered/mixin/0.8/mixin-0.8.jar Service=ModLauncher Env=SERVER
+[20Aug2020 16:34:11.504] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[20Aug2020 16:34:11.505] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(4f56a0a2)
+[20Aug2020 16:34:11.513] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(4f56a0a2)
+[20Aug2020 16:34:11.515] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(4f56a0a2)
+[20Aug2020 16:34:11.516] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(4f56a0a2)
+[20Aug2020 16:34:11.517] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(4f56a0a2)
+[20Aug2020 16:34:11.524] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[20Aug2020 16:34:11.525] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[20Aug2020 16:34:11.525] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[20Aug2020 16:34:11.530] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : /server
+[20Aug2020 16:34:11.540] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /server
+[20Aug2020 16:34:11.540] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : /server/mods
+[20Aug2020 16:34:11.541] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /server/mods
+[20Aug2020 16:34:11.541] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : /server/config
+[20Aug2020 16:34:11.541] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /server/config
+[20Aug2020 16:34:11.541] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /server/config/fml.toml
+[20Aug2020 16:34:11.542] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[20Aug2020 16:34:11.876] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : /server/defaultconfigs
+[20Aug2020 16:34:11.877] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[20Aug2020 16:34:11.897] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[20Aug2020 16:34:11.898] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlserver as launch service
+[20Aug2020 16:34:11.924] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data : MC Version: '1.16.1' MCP Version: '20200625.160719' Forge Version: '32.0.108' Forge group: 'net.minecraftforge'
+[20Aug2020 16:34:11.926] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path /server/libraries/org/ow2/asm/asm/7.2/asm-7.2.jar
+[20Aug2020 16:34:11.927] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path /server/libraries
+[20Aug2020 16:34:11.928] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path /server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-universal.jar is present
+[20Aug2020 16:34:11.929] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at /server/libraries/net/minecraft/server/1.16.1-20200625.160719/server-1.16.1-20200625.160719-srg.jar is present
+[20Aug2020 16:34:11.929] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at /server/libraries/net/minecraft/server/1.16.1-20200625.160719/server-1.16.1-20200625.160719-extra.jar is present
+[20Aug2020 16:34:11.930] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at /server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-server.jar is present
+[20Aug2020 16:34:12.033] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[20Aug2020 16:34:12.034] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from /server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-universal.jar
+[20Aug2020 16:34:12.058] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-universal.jar to languageloader classloader
+[20Aug2020 16:34:12.182] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[20Aug2020 16:34:12.183] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 32.0
+[20Aug2020 16:34:12.208] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[20Aug2020 16:34:12.229] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[20Aug2020 16:34:12.232] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[20Aug2020 16:34:12.236] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[20Aug2020 16:34:12.237] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[20Aug2020 16:34:12.239] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[20Aug2020 16:34:12.241] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[20Aug2020 16:34:12.241] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[20Aug2020 16:34:12.241] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[20Aug2020 16:34:12.384] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[20Aug2020 16:34:12.540] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[20Aug2020 16:34:12.624] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /server/mods/tombstone-4.5.6.jar
+[20Aug2020 16:34:13.006] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file tombstone-4.5.6.jar with {tombstone} mods - versions {4.5.6}
+[20Aug2020 16:34:13.006] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /server/mods/tombstone-4.5.6.jar with language javafml
+[20Aug2020 16:34:13.026] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /server/mods/tombstone-5.0.0.jar
+[20Aug2020 16:34:13.030] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file tombstone-5.0.0.jar with {tombstone} mods - versions {5.0.0}
+[20Aug2020 16:34:13.031] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /server/mods/tombstone-5.0.0.jar with language javafml
+[20Aug2020 16:34:13.031] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-universal.jar
+[20Aug2020 16:34:13.046] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.16.1-32.0.108-universal.jar with {forge} mods - versions {32.0.108}
+[20Aug2020 16:34:13.046] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-universal.jar with language javafml
+[20Aug2020 16:34:13.237] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[20Aug2020 16:34:13.278] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[20Aug2020 16:34:13.323] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-server.jar
+[20Aug2020 16:34:13.328] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.16.1-32.0.108-server.jar with {minecraft} mods - versions {1.16.1}
+[20Aug2020 16:34:13.328] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-server.jar with language minecraft
+[20Aug2020 16:34:13.339] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found 2 mods for first modid tombstone, selecting most recent based on version data
+[20Aug2020 16:34:13.340] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Selected file tombstone-5.0.0.jar for modid tombstone with version 5.0.0
+[20Aug2020 16:34:13.359] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 2 mandatory requirements
+[20Aug2020 16:34:13.364] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory mod requirements missing
+[20Aug2020 16:34:17.473] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[20Aug2020 16:34:17.474] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[20Aug2020 16:34:17.475] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[20Aug2020 16:34:17.476] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[20Aug2020 16:34:17.476] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[20Aug2020 16:34:17.476] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[20Aug2020 16:34:17.527] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[20Aug2020 16:34:19.545] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[20Aug2020 16:34:19.728] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@791cbf87 to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[20Aug2020 16:34:19.731] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2f08c4b to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[20Aug2020 16:34:19.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3f19b8b3 to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[20Aug2020 16:34:19.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7de0c6ae to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[20Aug2020 16:34:19.733] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@a486d78 to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[20Aug2020 16:34:19.733] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@cdc3aae to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[20Aug2020 16:34:19.733] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[20Aug2020 16:34:20.038] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
+[20Aug2020 16:34:20.041] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
+[20Aug2020 16:34:20.049] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(tombstone-4.5.6.jar:/server/mods/tombstone-4.5.6.jar)
+[20Aug2020 16:34:20.054] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(tombstone-4.5.6.jar:/server/mods/tombstone-4.5.6.jar)
+[20Aug2020 16:34:20.057] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(tombstone-4.5.6.jar:/server/mods/tombstone-4.5.6.jar)
+[20Aug2020 16:34:20.058] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(tombstone-4.5.6.jar:/server/mods/tombstone-4.5.6.jar)
+[20Aug2020 16:34:20.058] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(tombstone-4.5.6.jar:/server/mods/tombstone-4.5.6.jar)
+[20Aug2020 16:34:20.058] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(tombstone-4.5.6.jar:/server/mods/tombstone-4.5.6.jar)]
+[20Aug2020 16:34:20.059] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(tombstone-5.0.0.jar:/server/mods/tombstone-5.0.0.jar)
+[20Aug2020 16:34:20.059] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(tombstone-5.0.0.jar:/server/mods/tombstone-5.0.0.jar)
+[20Aug2020 16:34:20.059] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(tombstone-5.0.0.jar:/server/mods/tombstone-5.0.0.jar)
+[20Aug2020 16:34:20.059] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(tombstone-5.0.0.jar:/server/mods/tombstone-5.0.0.jar)
+[20Aug2020 16:34:20.060] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(tombstone-5.0.0.jar:/server/mods/tombstone-5.0.0.jar)
+[20Aug2020 16:34:20.060] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(tombstone-5.0.0.jar:/server/mods/tombstone-5.0.0.jar)]
+[20Aug2020 16:34:20.060] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(forge-1.16.1-32.0.108-universal.jar:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-universal.jar)
+[20Aug2020 16:34:20.061] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(forge-1.16.1-32.0.108-universal.jar:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-universal.jar)
+[20Aug2020 16:34:20.061] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(forge-1.16.1-32.0.108-universal.jar:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-universal.jar)
+[20Aug2020 16:34:20.061] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(forge-1.16.1-32.0.108-universal.jar:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-universal.jar)
+[20Aug2020 16:34:20.062] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(forge-1.16.1-32.0.108-universal.jar:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-universal.jar)
+[20Aug2020 16:34:20.062] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.1-32.0.108-universal.jar:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-universal.jar)]
+[20Aug2020 16:34:20.062] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(forge-1.16.1-32.0.108-server.jar:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-server.jar)
+[20Aug2020 16:34:20.062] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(forge-1.16.1-32.0.108-server.jar:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-server.jar)
+[20Aug2020 16:34:20.063] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(forge-1.16.1-32.0.108-server.jar:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-server.jar)
+[20Aug2020 16:34:20.063] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(forge-1.16.1-32.0.108-server.jar:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-server.jar)
+[20Aug2020 16:34:20.063] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(forge-1.16.1-32.0.108-server.jar:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-server.jar)
+[20Aug2020 16:34:20.064] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.1-32.0.108-server.jar:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-server.jar)]
+[20Aug2020 16:34:20.064] [main/DEBUG] [mixin/]: inject() running with 5 agents
+[20Aug2020 16:34:20.064] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
+[20Aug2020 16:34:20.118] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(tombstone-4.5.6.jar:/server/mods/tombstone-4.5.6.jar)]
+[20Aug2020 16:34:20.121] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(tombstone-5.0.0.jar:/server/mods/tombstone-5.0.0.jar)]
+[20Aug2020 16:34:20.122] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.1-32.0.108-universal.jar:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-universal.jar)]
+[20Aug2020 16:34:20.124] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.1-32.0.108-server.jar:/server/libraries/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-server.jar)]
+[20Aug2020 16:34:20.131] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[20Aug2020 16:34:20.526] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out/class: failed to delete one or more files; see suppressed exceptions for details
+[20Aug2020 16:34:20.547] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[20Aug2020 16:34:28.157] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
+[20Aug2020 16:34:28.748] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
+[20Aug2020 16:34:29.256] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
+[20Aug2020 16:34:51.454] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
+[20Aug2020 16:34:51.772] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
+[20Aug2020 16:34:54.258] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
+[20Aug2020 16:35:22.283] [main/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4903
+[20Aug2020 16:35:26.080] [main/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[20Aug2020 16:35:26.419] [main/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Using 3 threads for parallel mod-loading
+[20Aug2020 16:35:30.861] [main/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@25f9407e
+[20Aug2020 16:35:31.152] [main/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@25f9407e
+[20Aug2020 16:35:31.187] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@25f9407e - got cpw.mods.modlauncher.TransformingClassLoader@25f9407e
+[20Aug2020 16:35:31.190] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for ovh.corail.tombstone.ModTombstone with classLoader cpw.mods.modlauncher.TransformingClassLoader@25f9407e & cpw.mods.modlauncher.TransformingClassLoader@25f9407e
+[20Aug2020 16:35:31.779] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass ovh.corail.tombstone.ModTombstone with cpw.mods.modlauncher.TransformingClassLoader@25f9407e
+[20Aug2020 16:35:31.780] [main/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@25f9407e
+[20Aug2020 16:35:31.780] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@25f9407e - got cpw.mods.modlauncher.TransformingClassLoader@25f9407e
+[20Aug2020 16:35:31.780] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@25f9407e & cpw.mods.modlauncher.TransformingClassLoader@25f9407e
+[20Aug2020 16:35:32.299] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.minecraftforge.common.ForgeMod with cpw.mods.modlauncher.TransformingClassLoader@25f9407e
+[20Aug2020 16:35:32.631] [main/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:CONSTRUCT
+[20Aug2020 16:35:32.833] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance tombstone of type ovh.corail.tombstone.ModTombstone
+[20Aug2020 16:35:32.828] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance forge of type net.minecraftforge.common.ForgeMod
+[20Aug2020 16:35:32.895] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 32.0 from cpw.mods.modlauncher.TransformingClassLoader@25f9407e
+[20Aug2020 16:35:32.896] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 32.0.108
+[20Aug2020 16:35:32.896] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 32.0
+[20Aug2020 16:35:32.896] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[20Aug2020 16:35:33.006] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.16.1
+[20Aug2020 16:35:33.007] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20200625.160719
+[20Aug2020 16:35:33.007] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 32.0.108, for MC 1.16.1 with MCP 20200625.160719
+[20Aug2020 16:35:33.117] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v32.0.108 Initialized
+[20Aug2020 16:35:36.084] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[20Aug2020 16:35:36.085] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[20Aug2020 16:35:37.766] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file tombstone-client.toml for tombstone tracking
+[20Aug2020 16:35:37.767] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file tombstone-common.toml for tombstone tracking
+[20Aug2020 16:35:37.775] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file tombstone-server.toml for tombstone tracking

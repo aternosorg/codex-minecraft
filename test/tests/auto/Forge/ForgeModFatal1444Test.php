@@ -10368,29 +10368,29 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVanillaVersionInformation Object
                 (
                     [label:protected] => Minecraft version
                     [value:protected] => 1.14.4
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [14Feb2020 20:35:52.598] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
+                            [prefix:protected] => [14Feb2020 20:34:34.768] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
                                         (
-                                            [text:protected] => [14Feb2020 20:35:52.598] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.14.4
-                                            [number:protected] => 176
+                                            [text:protected] => [14Feb2020 20:34:34.768] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data : MC Version: \'1.14.4\' MCP Version: \'20190829.143755\' Forge Version: \'28.1.117\' Forge group: \'net.minecraftforge\'
+                                            [number:protected] => 39
                                         )
 
                                 )
 
-                            [level:protected] => INFO
+                            [level:protected] => DEBUG
                             [time:protected] => 
                             [iterator:protected] => 0
                         )
 
-                    [counter:protected] => 1
+                    [counter:protected] => 2
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object

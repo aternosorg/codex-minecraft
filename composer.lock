@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5beed8785de9ce5714d3a46e78cf09ab",
+    "content-hash": "971b32fba83484d7a3564bc3b5ec563a",
     "packages": [
         {
             "name": "aternos/codex",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aternosorg/codex.git",
-                "reference": "08cccf3447961f7ab08c409dafffb720ea2dad59"
+                "reference": "1673e412a51ff182bead2379b1a81c8da5fa537e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aternosorg/codex/zipball/08cccf3447961f7ab08c409dafffb720ea2dad59",
-                "reference": "08cccf3447961f7ab08c409dafffb720ea2dad59",
+                "url": "https://api.github.com/repos/aternosorg/codex/zipball/1673e412a51ff182bead2379b1a81c8da5fa537e",
+                "reference": "1673e412a51ff182bead2379b1a81c8da5fa537e",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +43,7 @@
                 }
             ],
             "description": "PHP library to read, parse, print and analyse log files.",
-            "time": "2020-01-21T15:43:20+00:00"
+            "time": "2020-08-20T23:36:46+00:00"
         }
     ],
     "packages-dev": [
@@ -716,6 +716,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2018-10-30T05:52:18+00:00"
         },
         {
@@ -1527,5 +1528,6 @@
         "php": ">=7.1.0",
         "ext-json": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

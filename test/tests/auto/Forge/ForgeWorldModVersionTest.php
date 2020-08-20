@@ -2367,7 +2367,7 @@ class ForgeWorldModVersionTest extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVanillaVersionInformation Object
                 (
                     [label:protected] => Minecraft version
                     [value:protected] => 1.12.2

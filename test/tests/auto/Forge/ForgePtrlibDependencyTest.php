@@ -13493,7 +13493,7 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_232]
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVanillaVersionInformation Object
                 (
                     [label:protected] => Minecraft version
                     [value:protected] => 1.12.2
