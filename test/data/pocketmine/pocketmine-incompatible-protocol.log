@@ -1,0 +1,179 @@
+2020-11-26 [11:19:56] [Server thread/INFO]: Loading pocketmine.yml...
+2020-11-26 [11:19:56] [Server thread/INFO]: Loading server properties...
+2020-11-26 [11:19:56] [Server thread/INFO]: Selected English (eng) as the base language
+2020-11-26 [11:19:56] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.16.100
+2020-11-26 [11:19:56] [Server thread/NOTICE]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2020-11-26 [11:19:56] [Server thread/NOTICE]: To disable authentication, set "xbox-auth" to "false" in server.properties.
+2020-11-26 [11:19:56] [Server thread/INFO]: Opening server on **.**.**.**:47616
+2020-11-26 [11:19:57] [Server thread/INFO]: This server is running PocketMine-MP version 3.16.0
+2020-11-26 [11:19:57] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading resource packs...
+2020-11-26 [11:19:58] [Server thread/ERROR]: Could not load plugin 'Slapper': Incompatible network protocol version (plugin requires one of: 361, 388, 389, 390, 407, 408)
+2020-11-26 [11:19:58] [Server thread/ERROR]: Could not load plugin 'EasyCommandAutofill': Incompatible network protocol version (plugin requires one of: 389, 390, 407, 408)
+2020-11-26 [11:19:58] [Server thread/ERROR]: Could not load plugin 'Texter': Incompatible network protocol version (plugin requires one of: 388, 389, 390, 407, 408)
+2020-11-26 [11:19:58] [Server thread/ERROR]: Could not load plugin 'RankText': Incompatible network protocol version (plugin requires one of: 407)
+2020-11-26 [11:19:58] [Server thread/ERROR]: Could not load plugin 'Mineflow': Incompatible network protocol version (plugin requires one of: 389, 390, 407, 408)
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading EconomyAPI v5.7.2
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading MailPlugin v3.5
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading XGTShowPlayerHP v1.0.1
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading CustomShopUI v4.0.5
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading BuilderTools v1.2.0-beta2
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading BedWars v1.1.7
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading AutoClearLagg v3.1.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading EC-TableUI v1.1.2-pre
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading RealTime v1.1.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading PlayerSkinStealer v1.0.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading TapToPot v2.0.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading Parkour v1.5.7
+2020-11-26 [11:19:58] [Server thread/CRITICAL]: Could not load plugin 'QuestPlugin': Unknown dependency: Slapper
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading ChatScrambler v1.0.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading Relics v1.1.2
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading HealthTag v2.0.2
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading SimpleHome v1.0.3
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading SocialSpy v1.0.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading ItemCloud v1.3.1
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading GroupsUI v1.2.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading BankNotes v2.0.3
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading KygekJoinUI v1.2.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading PortalsPE v1.1.1
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading PingTag v0.4
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading Dragons v1.0.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading WhatCrates v2.0.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading OreGen v1.2.5
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading HeadHunter v0.1
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading NoFallDamage v1.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading PiggyCustomEnchants v2.3.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading MultiEconomy v2.0.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading KillStreak v1.0.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading SizePlayer v1.1.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading PlayerInfo v2.1.4
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading Bounty v1.1.2
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading BetterVoting v2.0.2
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading PCEBookShop v1.0.3
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading CombatLogger v0.0.6
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading BlazinFly v1.8.7
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading SellAll v1.3.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading BurgerSpawners v0.1.4
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading Rewards v4.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading Powertools v1.0.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading RedSkyBlock v3.1.1
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading HubDelay v1.0.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading MyPlot v1.9.0-pre
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading PlayerVaults v3.2.3
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading PlayerSelectors v1.0.8
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading AddNetherite-HiroTeam v2.0.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading PiggyShopUI v2.1.1
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading AdvancedJobs v0.2
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading ProfileUI v4.2.1
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading SimpleBanner v0.1.0
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading PurePerms v1.4.3
+2020-11-26 [11:19:58] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2020-11-26 [11:19:58] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2020-11-26 [11:19:58] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2020-11-26 [11:19:58] [Server thread/INFO]: Loading EasyKits v1.1.5
+2020-11-26 [11:19:58] [Server thread/INFO]: [EasyKits] loaded PiggyCustomEnchants
+2020-11-26 [11:19:58] [Server thread/INFO]: [EasyKits] loaded EconomyAPI
+2020-11-26 [11:19:59] [Server thread/INFO]: Loading FactionsPro v1.3.20
+2020-11-26 [11:19:59] [Server thread/INFO]: Loading MultiWorld v1.5.2
+2020-11-26 [11:19:59] [Server thread/INFO]: Loading KOTH v1.0.0-Beta4
+2020-11-26 [11:19:59] [Server thread/INFO]: Loading KygekRulesUI v1.1.0
+2020-11-26 [11:19:59] [Server thread/INFO]: Loading KygekRanksUI v1.3.0
+2020-11-26 [11:19:59] [Server thread/INFO]: Loading MineReset v3.2.0
+2020-11-26 [11:19:59] [Server thread/INFO]: Loading SkyBlock v3.0.0
+2020-11-26 [11:19:59] [Server thread/INFO]: Loading essentialsTP v1.2.2
+2020-11-26 [11:19:59] [Server thread/INFO]: Loading PiggyFactions v1.1.2
+2020-11-26 [11:19:59] [Server thread/INFO]: Loading PiggyCustomEnchantsShop v1.3.5
+2020-11-26 [11:19:59] [Server thread/INFO]: Loading PiggyCrates v2.0.9
+2020-11-26 [11:19:59] [Server thread/INFO]: Loading PureChat v1.4.11
+2020-11-26 [11:19:59] [Server thread/INFO]: Loading SkyBlockUI v1.1.0
+2020-11-26 [11:19:59] [Server thread/INFO]: Enabling MyPlot v1.9.0-pre
+2020-11-26 [11:19:59] [Server thread/INFO]: Preparing world "lobby"
+2020-11-26 [11:19:59] [Server thread/INFO]: Enabling EconomyAPI v5.7.2
+2020-11-26 [11:19:59] [Server thread/NOTICE]: [EconomyAPI] The update server is now online!
+2020-11-26 [11:19:59] [Server thread/NOTICE]: [EconomyAPI] Database provider was set to: Yaml
+2020-11-26 [11:19:59] [Server thread/INFO]: Enabling MailPlugin v3.5
+2020-11-26 [11:19:59] [Server thread/INFO]: Enabling XGTShowPlayerHP v1.0.1
+2020-11-26 [11:19:59] [Server thread/INFO]: Enabling CustomShopUI v4.0.5
+2020-11-26 [11:19:59] [Server thread/INFO]: Enabling BuilderTools v1.2.0-beta2
+2020-11-26 [11:19:59] [Server thread/INFO]: Enabling BedWars v1.1.7
+2020-11-26 [11:19:59] [Server thread/NOTICE]: Registered /games command
+2020-11-26 [11:19:59] [Server thread/NOTICE]: Registered /gamestatus command
+2020-11-26 [11:19:59] [Server thread/NOTICE]: Registered game BedWars by XenialDan
+2020-11-26 [11:19:59] [Server thread/INFO]: Enabling AutoClearLagg v3.1.0
+2020-11-26 [11:19:59] [Server thread/INFO]: Enabling EC-TableUI v1.1.2-pre
+2020-11-26 [11:19:59] [Server thread/INFO]: Enabling RealTime v1.1.0
+2020-11-26 [11:19:59] [Server thread/INFO]: Enabling PlayerSkinStealer v1.0.0
+2020-11-26 [11:19:59] [Server thread/INFO]: Enabling TapToPot v2.0.0
+2020-11-26 [11:19:59] [Server thread/INFO]: Enabling Parkour v1.5.7
+2020-11-26 [11:19:59] [Server thread/INFO]: [Parkour] EconomyAPI is installed, you can use $ amounts as rewards
+2020-11-26 [11:19:59] [Server thread/INFO]: Enabling ChatScrambler v1.0.0
+2020-11-26 [11:20:00] [Server thread/INFO]: [ChatScrambler] Version: 1.0.0 for API: 3.0.0
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling Relics v1.1.2
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling HealthTag v2.0.2
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling SimpleHome v1.0.3
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling SocialSpy v1.0.0
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling ItemCloud v1.3.1
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling GroupsUI v1.2.0
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling BankNotes v2.0.3
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling KygekJoinUI v1.2.0
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling PortalsPE v1.1.1
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling PingTag v0.4
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling Dragons v1.0.0
+2020-11-26 [11:20:00] [Server thread/ERROR]: [Dragons] Invalid lobby level!
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling WhatCrates v2.0.0
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling OreGen v1.2.5
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling HeadHunter v0.1
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling NoFallDamage v1.0
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling PiggyCustomEnchants v2.3.0
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling MultiEconomy v2.0.0
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling KillStreak v1.0.0
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling SizePlayer v1.1.0
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling PlayerInfo v2.1.4
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling Bounty v1.1.2
+2020-11-26 [11:20:00] [Server thread/INFO]: Enabling BetterVoting v2.0.2
+2020-11-26 [11:20:01] [Server thread/INFO]: Enabling PCEBookShop v1.0.3
+2020-11-26 [11:20:01] [Server thread/INFO]: Enabling CombatLogger v0.0.6
+2020-11-26 [11:20:01] [Server thread/INFO]: Enabling BlazinFly v1.8.7
+2020-11-26 [11:20:01] [Server thread/INFO]: Enabling SellAll v1.3.0
+2020-11-26 [11:20:01] [Server thread/INFO]: Enabling BurgerSpawners v0.1.4
+2020-11-26 [11:20:01] [Server thread/INFO]: Enabling Rewards v4.0
+2020-11-26 [11:20:01] [Server thread/INFO]: Enabling Powertools v1.0.0
+2020-11-26 [11:20:01] [Server thread/INFO]: Enabling RedSkyBlock v3.1.1
+2020-11-26 [11:20:01] [Server thread/INFO]: Preparing world "SB"
+2020-11-26 [11:20:01] [Server thread/INFO]: [RedSkyBlock] SkyBlock is running on the world SB
+2020-11-26 [11:20:01] [Server thread/INFO]: Enabling HubDelay v1.0.0
+2020-11-26 [11:20:01] [Server thread/INFO]: Enabling PlayerVaults v3.2.3
+2020-11-26 [11:20:01] [Server thread/INFO]: Enabling PlayerSelectors v1.0.8
+2020-11-26 [11:20:01] [Server thread/INFO]: Enabling AddNetherite-HiroTeam v2.0.0
+2020-11-26 [11:20:02] [Server thread/INFO]: Enabling PiggyShopUI v2.1.1
+2020-11-26 [11:20:02] [Server thread/INFO]: Enabling AdvancedJobs v0.2
+2020-11-26 [11:20:02] [Server thread/INFO]: Enabling ProfileUI v4.2.1
+2020-11-26 [11:20:02] [Server thread/NOTICE]: [ProfielUI] Enabled! - By Infernus101
+2020-11-26 [11:20:02] [Server thread/INFO]: Enabling SimpleBanner v0.1.0
+2020-11-26 [11:20:02] [Server thread/INFO]: Enabling PurePerms v1.4.3
+2020-11-26 [11:20:02] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2020-11-26 [11:20:02] [Server thread/INFO]: Enabling EasyKits v1.1.5
+2020-11-26 [11:20:02] [Server thread/INFO]: Enabling FactionsPro v1.3.20
+2020-11-26 [11:20:02] [Server thread/INFO]: [FactionsPro] Add AntiSpamPro to ban rude Faction names
+2020-11-26 [11:20:02] [Server thread/INFO]: Enabling MultiWorld v1.5.2
+2020-11-26 [11:20:02] [Server thread/INFO]: Enabling KOTH v1.0.0-Beta4
+2020-11-26 [11:20:02] [Server thread/INFO]: Enabling KygekRulesUI v1.1.0
+2020-11-26 [11:20:02] [Server thread/INFO]: Enabling KygekRanksUI v1.3.0
+2020-11-26 [11:20:02] [Server thread/INFO]: Enabling MineReset v3.2.0
+2020-11-26 [11:20:03] [Server thread/INFO]: Enabling SkyBlock v3.0.0
+2020-11-26 [11:20:03] [Server thread/WARNING]: [SkyBlock] Disable the spawn protection on your server.properties, otherwise SkyBlock won't work
+2020-11-26 [11:20:03] [Server thread/INFO]: Disabling SkyBlock v3.0.0
+2020-11-26 [11:20:03] [Server thread/INFO]: Enabling essentialsTP v1.2.2
+2020-11-26 [11:20:03] [Server thread/INFO]: [essentialsTP] essentialsTP+ loading...
+2020-11-26 [11:20:03] [Server thread/INFO]: [essentialsTP] [INFO] loading [config.yml]....
+2020-11-26 [11:20:03] [Server thread/INFO]: [essentialsTP] [INFO] loading [config.yml] DONE
+2020-11-26 [11:20:03] [Server thread/INFO]: [essentialsTP] essentialsTP+ loaded!
+2020-11-26 [11:20:03] [Server thread/INFO]: Enabling PiggyFactions v1.1.2
+2020-11-26 [11:20:03] [Server thread/INFO]: Enabling PiggyCustomEnchantsShop v1.3.5
+2020-11-26 [11:20:03] [Server thread/INFO]: Enabling PiggyCrates v2.0.9
+2020-11-26 [11:20:04] [Server thread/INFO]: Enabling PureChat v1.4.11
+2020-11-26 [11:20:04] [Server thread/NOTICE]: [PureChat] FactionsPro < 1.4 support enabled.
+2020-11-26 [11:20:04] [Server thread/INFO]: Enabling SkyBlockUI v1.1.0
+2020-11-26 [11:20:04] [Server thread/INFO]: Starting GS4 status listener
+2020-11-26 [11:20:04] [Server thread/INFO]: Setting query port to 47616
+2020-11-26 [11:20:04] [Server thread/INFO]: Query running on **.**.**.**:47616
