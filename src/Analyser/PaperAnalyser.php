@@ -1,0 +1,19 @@
+<?php
+
+namespace Aternos\Codex\Minecraft\Analyser;
+
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\VersionDowngradeProblem;
+
+/**
+ * Class BukkitAnalyser
+ *
+ * @package Aternos\Codex\Minecraft\Analyser
+ */
+class PaperAnalyser extends BukkitAnalyser
+{
+    public function __construct()
+    {
+        parent::__construct();
+        $this->addPossibleInsightClass(VersionDowngradeProblem::class);
+    }
+}
