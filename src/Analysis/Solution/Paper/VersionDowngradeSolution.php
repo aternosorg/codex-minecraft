@@ -5,7 +5,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Paper;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
- * Class AquaticVersionInstallSolution
+ * Class VersionDowngradeSolution
  *
  * @package Aternos\Codex\Minecraft\Analysis\Solution\Vanilla
  */

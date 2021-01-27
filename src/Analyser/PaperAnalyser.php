@@ -5,7 +5,7 @@ namespace Aternos\Codex\Minecraft\Analyser;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\VersionDowngradeProblem;
 
 /**
- * Class BukkitAnalyser
+ * Class PaperAnalyser
  *
  * @package Aternos\Codex\Minecraft\Analyser
  */
