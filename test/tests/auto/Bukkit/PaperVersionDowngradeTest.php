@@ -3014,6 +3014,10 @@ Caused by: java.lang.ThreadDeath
                                 (
                                 )
 
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution Object
+                                (
+                                )
+
                         )
 
                     [iterator:protected] => 0
@@ -3051,6 +3055,7 @@ Caused by: java.lang.ThreadDeath
 
         $this->assertEquals("Your world was used on a newer version before.", $analysis[1]->getMessage());
         $this->assertEquals("Install a newer version of Minecraft.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Generate a new world.", $analysis[1][1]->getMessage());
 
     }
 }

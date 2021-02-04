@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Vanilla;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\AquaticVersionInstallSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -45,7 +46,7 @@ class AquaticWorldOnOlderVersionProblem extends VanillaProblem
      */
     public function setMatches(array $matches, $patternKey)
     {
-        $this->addSolution((new FileDeleteSolution())->setRelativePath('world'));
+        $this->addSolution(new GenerateNewWorldSolution());
         $this->addSolution(new AquaticVersionInstallSolution());
     }
 }

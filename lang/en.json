@@ -23,7 +23,6 @@
   "plugin-incompatible-problem": "The plugin '{{plugin-name}}' is incompatible with your current server version.",
   "aquatic-world-on-older-version-problem": "The current world was created/loaded with Minecraft 1.13 or higher. The new format cannot be loaded in any older version.",
   "old-player-directory-problem": "The server has detected an old player directory in the world save.",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
   "command-run-solution": "Run the command '{{command}}'.",
   "authme-shutdown-solution": "Set 'stopServer' to 'true'.",
   "configure-plugin": "Configure the plugin {{plugin-name}}.",
@@ -55,5 +54,7 @@
   "disable-whitelist-solution": "Disable the whitelist.",
   "enable-authentication-solution": "Enable the online authentication.",
   "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}.",
-  "version-downgrade-solution": "Install a newer version of Minecraft."
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }

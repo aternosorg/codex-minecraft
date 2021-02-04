@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Paper;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\Paper\VersionDowngradeSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -45,5 +46,6 @@ class VersionDowngradeProblem extends PaperProblem
     public function setMatches(array $matches, $patternKey)
     {
         $this->addSolution(new VersionDowngradeSolution());
+        $this->addSolution(new GenerateNewWorldSolution());
     }
 }
