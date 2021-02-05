@@ -3,7 +3,7 @@
   "plugin-load-problem": "Не вдалося завантажити плагін \"{{plugin-name}}\".",
   "pocketmine-version": "Версія Pocketmine",
   "bedrock-version": "Bedrock версія",
-  "forge-version": "Версія ядра Forge",
+  "forge-version": "Версія Forge",
   "magma-version": "Версія Magma",
   "authme-shutdown-problem": "Плагін 'AuthMe' не може завантажитись та завершує роботу сервера.",
   "pex-config-problem": "Неприпустима конфігурація плагіна 'PermissionsEx'.",
@@ -53,5 +53,8 @@
   "bedrock-authentication-whitelist-problem": "Використання білого списку без онлайн-аутентифікації не допускається.",
   "disable-whitelist-solution": "Відключити білий список.",
   "enable-authentication-solution": "Активувати онлайн-аутентифікацію.",
-  "undefined-mod-dependency-problem": "Мод {{mod-name}} не може працювати без моду {{dependency-mod-name}}. Будь ласка встановіть цей мод."
+  "undefined-mod-dependency-problem": "У моді відсутній необхідний мод {{dependency-mod-name}}",
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }

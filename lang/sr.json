@@ -53,5 +53,8 @@
   "bedrock-authentication-whitelist-problem": "Коришћење беле листе без купљеног налога није дозвољено.",
   "disable-whitelist-solution": "Онемогући белу листу.",
   "enable-authentication-solution": "Омогући проверу врсте налога.",
-  "undefined-mod-dependency-problem": "Моду недостаје потребан мод {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Моду недостаје потребан мод {{dependency-mod-name}}.",
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }

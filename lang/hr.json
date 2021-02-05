@@ -2,7 +2,7 @@
   "minecraft-version": "Minecraft verzija",
   "plugin-load-problem": "Dodatak {{plugin-name}} ne može biti učitan.",
   "pocketmine-version": "Verzija pocketmine-a",
-  "bedrock-version": "Bedrock verzija",
+  "bedrock-version": "Mobilna/Bedrock verzija",
   "forge-version": "Forge verzija",
   "magma-version": "Magma verzija",
   "authme-shutdown-problem": "Plugin 'AuthMe' se ne može učitati i gasi server.",
@@ -49,9 +49,12 @@
   "mod-wrong-minecraft-version-problem": "Mod '{{mod-name}}' nije kompatibilan s Minecraft verzijom {{minecraft-version}}.",
   "forge-install-different-version-solution": "Instaliraj neku drugu verziju Forgea.",
   "malformed-encoding-problem": "Nešto (vjerojatno MOTD) sadrži neispravne kodove za formatiranje.",
-  "change-motd-solution": "Promijenite MOTD servera.",
+  "change-motd-solution": "Promijenite MOTD (Poruku Dana) servera.",
   "bedrock-authentication-whitelist-problem": "Korištenje liste dopuštenih korisnika bez internet autentikacije nije dozvoljeno.",
   "disable-whitelist-solution": "Onemogući listu dopuštenih korisnika.",
   "enable-authentication-solution": "Dozvolite internet autentikaciju.",
-  "undefined-mod-dependency-problem": "Modu nedostaje mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Modu nedostaje potreban mod {{dependency-mod-name}}.",
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }

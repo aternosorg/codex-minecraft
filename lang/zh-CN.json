@@ -53,5 +53,8 @@
   "bedrock-authentication-whitelist-problem": "不允许使用无正版验证的白名单。",
   "disable-whitelist-solution": "禁用白名单。",
   "enable-authentication-solution": "启用正版验证",
-  "undefined-mod-dependency-problem": "缺失所需的前置 依赖模组 {{dependency-mod-name}}。"
+  "undefined-mod-dependency-problem": "缺失所需的前置 依赖模组 {{dependency-mod-name}}。",
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }

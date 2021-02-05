@@ -1,10 +1,10 @@
 {
   "minecraft-version": "Minecraft verzija",
-  "plugin-load-problem": "Plugina \"{{plugin-name}}\" ni bilo mogoče naložiti.",
+  "plugin-load-problem": "Vtičnika \"{{plugin-name}}\" ni bilo mogoče naložiti.",
   "pocketmine-version": "Pocketmine različica",
   "bedrock-version": "Bedrock različica",
   "forge-version": "Forge različica",
-  "magma-version": "Magma version",
+  "magma-version": "Magma verzija",
   "authme-shutdown-problem": "Vtičnik 'AuthMe' se ne naloži in izklopi strežnik.",
   "pex-config-problem": "Konfiguracija vtičnika 'PermissionsEx' je napačna.",
   "ambiguous-plugin-name-problem": "Tukaj je več plugin dadotek za plugin z imenom \"{{plugin-name}}\": \"{{first-plugin-path}}\" in \"{{second-plugin-path}}\".",
@@ -16,8 +16,8 @@
   "mod-dependency-problem": "Modu {{mod-name}} manjka potreben mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Modu {{mod-name}} manjkajo potrebni modi {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Tukaj je več mod dadotek za mod z imenom \"{{mod-name}}\": \"{{first-mod-path}}\" in \"{{second-mod-path}}\".",
-  "mod-exception-problem": "The mod '{{mod-name}}' has thrown an exception.",
-  "mod-fatal-problem": "The mod '{{mod-name}}' has a fatal error.",
+  "mod-exception-problem": "Mod '{{mod-name}}' je izjema",
+  "mod-fatal-problem": "Mod '{{mod-name}}' ima usodno napako",
   "world-missing-mod-problem": "Vaš svet je bil shranjen iz modifikacijo {{mod-name}}, ki ga ne moremo zaznati.",
   "world-mod-version-problem": "Ta svet je bil shranjen z modifikacijo {{mod-name}} verzija {{mod-expected-version}} in zdaj je na verziji {{mod-current-version}}.",
   "plugin-incompatible-problem": "Ta dodatek {{plugin-name}} je nezdružljiv z vašo trenutno verzijo strežnika.",
@@ -53,5 +53,8 @@
   "bedrock-authentication-whitelist-problem": "Uporabljanje seznama dovoljenih igralcev brez spletne overitve ni dovoljena.",
   "disable-whitelist-solution": "Onemogočite seznam dovoljenih igralcev.",
   "enable-authentication-solution": "Vklopite medmrežno preverjanje pristnosti.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "V modu manjka zahtevani mod {{dependency-mod-name}}.",
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }

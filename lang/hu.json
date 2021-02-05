@@ -1,6 +1,6 @@
 {
   "minecraft-version": "Minecraft verzió",
-  "plugin-load-problem": "A plugin '{{plugin-name}}' nem lehet betölteni.",
+  "plugin-load-problem": "Nem lehet betölteni a {{plugin-name}} plugint.",
   "pocketmine-version": "Pocketmine verzió",
   "bedrock-version": "Bedrock verzió",
   "forge-version": "Forge verzió",
@@ -46,12 +46,15 @@
   "multiverse-load-problem": "A(z) '{{world-name}}' világot nem lehetett betölteni, mert hibákat tartalmat és valószínűleg sérült.",
   "world-repair-solution": "'{{world-name}}' világ javítása, pl. a Minecraft Region Fixer vagy az MCEdit használatával.",
   "world-duplicate-problem": "A(z) '{{world-name}}' egy duplikált másik világból, és megakadályozta a betöltést.",
-  "mod-wrong-minecraft-version-problem": "A mód '{{mod-name}}' nem kompatibilis a(z) {{minecraft-version}} Minecraft verziójával.",
+  "mod-wrong-minecraft-version-problem": "A '{{mod-name}}' mod nem kompatibilis a Minecraft {{minecraft-version}} verziójával.",
   "forge-install-different-version-solution": "Telepíts egy másik Forge verziót.",
   "malformed-encoding-problem": "Valami (talán a MOTD) hibás formázási kódokat tartalmaz.",
   "change-motd-solution": "Szerver MOTD megváltozása.",
   "bedrock-authentication-whitelist-problem": "Fehérlista használata online hitelesítés nélkül nem engedélyezett.",
   "disable-whitelist-solution": "Fehérlista letiltása.",
   "enable-authentication-solution": "Online hitelesítés engedélyezése.",
-  "undefined-mod-dependency-problem": "Egy mod hiányzik, a szükséges mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Egy mod hiányzik, a szükséges mod {{dependency-mod-name}}.",
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }

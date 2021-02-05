@@ -9,7 +9,7 @@
   "pex-config-problem": "فایل پیکربندی پلاگین 'PermissionsEx' نامعتبر است.",
   "ambiguous-plugin-name-problem": "درحال حاضر چندین فایل برای پلاگین '{{plugin-name}}' وجود دارد: '{{first-plugin-path}}' و '{{second-plugin-path}}'.",
   "plugin-dependency-problem": "پلاگین '{{plugin-name}}' به پلاگین '{{dependency-plugin-name}}' نیاز دارد.",
-  "plugin-disabling-problem": "پلاگین '{{plugin-name}}' را غیر فعال نمیشود.",
+  "plugin-disabling-problem": "افزونه '{{plugin-name}}' قادر به بارگیری نمی باشد.",
   "plugin-enabling-problem": "نمیتوان پلاگین '{{plugin-name}}' را فعال کرد.",
   "plugin-runtime-problem": "این افزونه '{{plugin-name}}' در حال اجرا با مشکلی مواجه شد.",
   "forge-confirm-problem": "فورج به تایید شما نیاز دارد تا تغییرات را اعمال کند و سرور را راه اندازی کند.",
@@ -21,7 +21,7 @@
   "world-missing-mod-problem": "دنیا با مد {{mod-name}} ذخیره شده بود که به نظر میرسد که گم شده.",
   "world-mod-version-problem": "این دنیا با مد {{mod-name}} ورژن {{mod-expected-version}} و الان در ورژن {{mod-current-version}} دخیره شده بود.",
   "plugin-incompatible-problem": "پلاگین {{plugin-name}} با ورژن سرور شما سازگار نمیباشد.",
-  "aquatic-world-on-older-version-problem": "این دنیا با ورژن 1.13 یا بالاتر ساخته/لود شده بود. فرمت جدید نمیتواند در هیچ یک از ورژن های قدیمی تر لود شود.",
+  "aquatic-world-on-older-version-problem": "این ورلد با ورژن 1.13 یا بالاتر ساخته/لود شده بود. فرمت جدید نمیتواند در هیچ یک از ورژن های قدیمی تر لود شود.",
   "old-player-directory-problem": "سرور یک دایرکتوری قدیمی پلیر در سیو ورلد شناسایی کرده است.",
   "command-run-solution": "دستور {{command}} اجرا کنید.",
   "authme-shutdown-solution": "'stopServer' را 'true' قرار دهید.",
@@ -40,7 +40,7 @@
   "plugin-command-exception-problem": "پلاگین {{plugin-name}} نمیتواند دستور {{command}} اجرا کند.",
   "ticking-block-entity-problem": "یک بلاگ در ورلد مشکل به وجود می آورد.",
   "remove-block-solution": "بلاک را از ورلد حذف کنید،برای مثال با MCEdit.",
-  "do-nothing-solution": "کاری نکنید. مشکل ممکن است خودش حل شود.",
+  "do-nothing-solution": "کاری انجام ندهید. مشکل ممکن است خودش حل شود.",
   "chunk-load-exception-problem": "استثنایی در هنگام لود کردن چانک های ورلد وجود داشت.",
   "remove-chunk-solution": "چانک مشکل دار را از ورلد بردارید، برای مثال با استفاده از MCEdit یا با پاک کردن فایل منطقه.",
   "multiverse-load-problem": "ورلد {{world-name}} نمیتواند لود شود به دلیل اینکه دارای عرور های است و احتملا خراب است.",
@@ -53,5 +53,8 @@
   "bedrock-authentication-whitelist-problem": "استفاده از لیست سفید بدون احراز هویت آنلاین مجاز نیست.",
   "disable-whitelist-solution": "غیرفعال کردن لیست سفید.",
   "enable-authentication-solution": "فعال کردن احراز هویت آنلاین.",
-  "undefined-mod-dependency-problem": "یک مود گمشده است مد موردنیاز:{{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "یک مود گمشده است مد موردنیاز:{{dependency-mod-name}}.",
+  "version-downgrade-problem": "دنیای شما قبلا در ورژن بالاتری استفاده شده است.",
+  "version-downgrade-solution": "ورژن جدیدتری از ماینکرفت را نصب کنید.",
+  "generate-new-world-solution": "ایجاد یک دنیای جدید."
 }

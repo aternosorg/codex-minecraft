@@ -14,7 +14,7 @@
   "plugin-runtime-problem": "'{{plugin-name}}' əlavəsi işləyərkən problem yaşadı.",
   "forge-confirm-problem": "Forge, dəyişiklikləri tətbiq etmək və serveri başlatmaq üçün təsdiqinizi tələb edir.",
   "mod-dependency-problem": "Tələb olunan {{dependency-mod-name}} modunda '{{mod-name}}' modu buraxılıb.",
-  "mod-dependency-problem-plural": "Tələb olunan {{dependency-mod-name}} modlarında '{{mod-name}}' modu buraxılıb.",
+  "mod-dependency-problem-plural": "'{{mod-name}}' modu, tələb edilən {{dependency-mod-list}} modlar siyahısında əskikdir.",
   "mod-duplicate-problem": "'{{mod-name}}': '{{first-mod-path}}' və '{{second-mod-path}}' mod adları üçün çoxlu mod faylları var.",
   "mod-exception-problem": "'{{mod-name}}' modu bir istisna atdı.",
   "mod-fatal-problem": "'{{mod-name}}' modunda ölümcül xəta baş verdi.",
@@ -48,10 +48,13 @@
   "world-duplicate-problem": "'{{world-name}}' dünyası başqa bir dünyanın kopyasıdır, yüklənməsi əngəllənib.",
   "mod-wrong-minecraft-version-problem": "'{{mod-name}}' modu, Minecraft-ın {{minecraft-version}} versiyası ilə uyğunlaşmır.",
   "forge-install-different-version-solution": "Fərqli bir Forge versiyası quraşdır.",
-  "malformed-encoding-problem": "Bir şey (ehtimal ki, MOTD) səhv formatlı kodları ehtiva edir.",
+  "malformed-encoding-problem": "Nəsə (yəqin ki, MOTD) səhv formatlama kodlarını ehtiva edir.",
   "change-motd-solution": "MOTD serverini dəyişdirin.",
   "bedrock-authentication-whitelist-problem": "Ağ siyahı faydalanmaq üçün internet bağlantısı olmalıdır.",
   "disable-whitelist-solution": "Ağ siyahını sıradan çıxart.",
   "enable-authentication-solution": "Onlayn kimlik təsdiqləməsini fəallaşdır.",
-  "undefined-mod-dependency-problem": "Bir modun, tələb olunan {{dependency-mod-name}} adlı modu əskikdir."
+  "undefined-mod-dependency-problem": "Bir modun, tələb olunan {{dependency-mod-name}} adlı modu əskikdir.",
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }

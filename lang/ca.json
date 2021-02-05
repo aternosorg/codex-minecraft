@@ -53,5 +53,8 @@
   "bedrock-authentication-whitelist-problem": "Utilitzar una llista blanca sense l'autenticació en línia no està permès.",
   "disable-whitelist-solution": "Desactiva la llista blanca.",
   "enable-authentication-solution": "Activa la autenticació en línia.",
-  "undefined-mod-dependency-problem": "A un mod li falta el mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "A un mod li falta el mod {{dependency-mod-name}}.",
+  "version-downgrade-problem": "El teu món s'ha utilitzat en una versió més nova anteriorment.",
+  "version-downgrade-solution": "Instal·lar una versió més nova del Minecraft.",
+  "generate-new-world-solution": "Generar un nou món."
 }

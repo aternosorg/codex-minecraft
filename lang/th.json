@@ -45,7 +45,7 @@
   "remove-chunk-solution": "ลบ chunk ที่มีปัญหาออกจากโลก โดยใช้ MCEdit หรือลบไฟล์ chunk ดังกล่าวออกจากโฟลเดอร์ region",
   "multiverse-load-problem": "ไม่สามารถโหลดโลก '{{world-name}}' ได้ เนื่องจากมีข้อผิดพลาดและอาจทำให้เกิดความเสียหายได้",
   "world-repair-solution": "กรุณาซ่อมแซมโลก '{{world-name}}' โดยอาจใช้ Minecraft Region Fixer หรือ MCEdit",
-  "world-duplicate-problem": "โลก '{{world-name}}' ซ้ำอีกโลกหนึ่ง และถูกป้องกันจากการโหลด",
+  "world-duplicate-problem": "โลก '{{world-name}}' เป็นโลกที่ซ้ำกับอีกโลกหนึ่ง จึงไม่สามารถโหลดได้",
   "mod-wrong-minecraft-version-problem": "มอด '{{mod-name}}' ไม่สามารถเข้ากับ Minecraft รุ่น {{minecraft-version}} ได้",
   "forge-install-different-version-solution": "ติดตั้ง Forge รุ่นอื่น",
   "malformed-encoding-problem": "บางอย่าง (โดยเฉพาะ MOTD) มีการเรียงรูปแบบผิดพลาด",
@@ -53,5 +53,8 @@
   "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
   "disable-whitelist-solution": "ปิดใช้งาน Whitelist",
   "enable-authentication-solution": "Enable the online authentication.",
-  "undefined-mod-dependency-problem": "ตัวดัดแปลง หายไปจากตัวดัดแปลงที่ต้องการ{{dependency-mod-name}}"
+  "undefined-mod-dependency-problem": "ตัวดัดแปลง หายไปจากตัวดัดแปลงที่ต้องการ{{dependency-mod-name}}",
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }

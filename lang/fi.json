@@ -47,11 +47,14 @@
   "world-repair-solution": "Korjaa maailma '{{world-name}}', esimerkiksi käyttämällä Minecraft Region Fixer tai MCEdit -ohjelmaa.",
   "world-duplicate-problem": "Maailma '{{world-name}}' on kopio toisesta maailmasta, ja sitä on estetty lataamasta.",
   "mod-wrong-minecraft-version-problem": "Modi '{{mod-name}}' ei ole yhteensopiva Minecraftin version {{minecraft-version}} kanssa.",
-  "forge-install-different-version-solution": "Asenna eri forge versio.",
-  "malformed-encoding-problem": "Jotain (mahdollisesti MOTD) sisältää virheellisiä muotokoodeja.",
+  "forge-install-different-version-solution": "Asenna eri Forge versio.",
+  "malformed-encoding-problem": "Jokin asia (mahdollisesti MOTD) sisältää virheellisiä muotokoodeja.",
   "change-motd-solution": "Vaihda serverin kuvaus.",
   "bedrock-authentication-whitelist-problem": "Sallittujen pelaajien listan käyttäminen ilman verkkotunnistautumista ei ole sallittua.",
   "disable-whitelist-solution": "Ota sallittujen pelaajien lista pois käytöstä.",
   "enable-authentication-solution": "Ota verkkotunnistautuminen käyttöön.",
-  "undefined-mod-dependency-problem": "Yksi modi vaatii modin {{dependency-mod-name}} toimiakseen oikein."
+  "undefined-mod-dependency-problem": "Yksi modi vaatii modin {{dependency-mod-name}} toimiakseen oikein.",
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }
