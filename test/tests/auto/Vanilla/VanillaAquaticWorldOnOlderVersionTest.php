@@ -359,10 +359,8 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                 (
                     [solutions:protected] => Array
                         (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution Object
                                 (
-                                    [path:protected] => world
-                                    [relativePath:protected] => 1
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\AquaticVersionInstallSolution Object
@@ -483,7 +481,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
         $this->assertEquals("Minecraft version: 1.12.2", $analysis[0]->getMessage());
 
         $this->assertEquals("The current world was created/loaded with Minecraft 1.13 or higher. The new format cannot be loaded in any older version.", $analysis[1]->getMessage());
-        $this->assertEquals("Delete the file 'world'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Generate a new world.", $analysis[1][0]->getMessage());
         $this->assertEquals("Update the server software to 1.13 or newer.", $analysis[1][1]->getMessage());
 
     }
