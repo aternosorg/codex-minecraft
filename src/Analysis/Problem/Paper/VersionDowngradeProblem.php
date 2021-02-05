@@ -1,17 +1,17 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analysis\Problem\Vanilla;
+namespace Aternos\Codex\Minecraft\Analysis\Problem\Paper;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\AquaticVersionInstallSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Paper\VersionDowngradeSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
- * Class AquaticWorldOnOlderVersionProblem
+ * Class VersionDowngradeProblem
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Vanilla
  */
-class AquaticWorldOnOlderVersionProblem extends VanillaProblem
+class VersionDowngradeProblem extends PaperProblem
 {
 
     /**
@@ -21,7 +21,7 @@ class AquaticWorldOnOlderVersionProblem extends VanillaProblem
      */
     public function getMessage(): string
     {
-        return Translator::getInstance()->getTranslation("aquatic-world-on-older-version-problem");
+        return Translator::getInstance()->getTranslation("version-downgrade-problem");
     }
 
     /**
@@ -33,7 +33,7 @@ class AquaticWorldOnOlderVersionProblem extends VanillaProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Encountered an unexpected exception\njava\.lang\.IllegalArgumentException\: ChunkNibbleArrays should be 2048 bytes not\: 0/'];
+        return ['/java\.lang\.RuntimeException: Server attempted to load chunk saved with newer version of minecraft! \d+ > \d+/'];
     }
 
     /**
@@ -45,7 +45,7 @@ class AquaticWorldOnOlderVersionProblem extends VanillaProblem
      */
     public function setMatches(array $matches, $patternKey)
     {
+        $this->addSolution(new VersionDowngradeSolution());
         $this->addSolution(new GenerateNewWorldSolution());
-        $this->addSolution(new AquaticVersionInstallSolution());
     }
 }

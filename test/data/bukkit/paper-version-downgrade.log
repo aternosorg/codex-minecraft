@@ -1,0 +1,305 @@
+[13:51:07] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:51:07] [main/INFO]: Found new data pack file/bukkit, loading it automatically
+[13:51:07] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[13:51:08] [Worker-Main-1/INFO]: Loaded 7 recipes
+[13:51:11] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[13:51:11] [Server thread/INFO]: Loading properties
+[13:51:11] [Server thread/INFO]: This server is running Paper version git-Paper-416 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[13:51:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:51:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:51:11] [Server thread/INFO]: Debug logging is disabled
+[13:51:11] [Server thread/INFO]: Default game type: SURVIVAL
+[13:51:11] [Server thread/INFO]: Generating keypair
+[13:51:11] [Server thread/INFO]: Starting Minecraft server on *:54860
+[13:51:11] [Server thread/INFO]: Using epoll channel type
+[13:51:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:51:11] [Server thread/INFO]: Preparing level "world"
+[13:51:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:51:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[13:51:12] [Server thread/INFO]: Preparing spawn area: 0%
+[13:51:12] [Server thread/INFO]: Time elapsed: 297 ms
+[13:51:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:51:16] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[13:51:16] [Paper Async Chunk Task Thread #0/WARN]: java.lang.RuntimeException: Server attempted to load chunk saved with newer version of minecraft! 2586 > 2584
+[13:51:16] [Paper Async Chunk Task Thread #0/WARN]: 	at net.minecraft.server.v1_16_R3.ChunkRegionLoader.loadChunk(ChunkRegionLoader.java:67)
+[13:51:16] [Paper Async Chunk Task Thread #0/WARN]: 	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:114)
+[13:51:16] [Paper Async Chunk Task Thread #0/WARN]: 	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:39)
+[13:51:16] [Paper Async Chunk Task Thread #0/WARN]: 	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:105)
+[13:51:16] [Paper Async Chunk Task Thread #0/WARN]: 	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:38)
+[13:51:16] [Server thread/INFO]: Preparing spawn area: 0%
+[13:51:16] [Server thread/INFO]: Preparing spawn area: 0%
+[13:51:16] [Server thread/INFO]: Preparing spawn area: 0%
+[13:51:16] [Server thread/INFO]: Preparing spawn area: 0%
+[13:51:16] [Server thread/INFO]: Preparing spawn area: 0%
+[13:51:16] [Server thread/INFO]: Preparing spawn area: 0%
+[13:51:16] [Server thread/INFO]: Preparing spawn area: 0%
+[13:51:16] [Server thread/INFO]: Preparing spawn area: 0%
+[13:51:16] [Server thread/INFO]: Preparing spawn area: 0%
+[13:51:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:51:17] [Thread-3/INFO]: Stopping main thread (Ignore any thread death message you see! - DO NOT REPORT THREAD DEATH TO PAPER)
+[13:51:17] [Server thread/FATAL]: Failed to schedule load callback for chunk [22, -33]
+java.util.concurrent.CompletionException: java.lang.ThreadDeath
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300) ~[minecraft_server.jar:git-Paper-416]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:994) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:1041) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer.runTasks(ChunkProviderServer.java:627) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1141) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1125) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeModerately(MinecraftServer.java:1079) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadSpawn(MinecraftServer.java:635) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:446) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[minecraft_server.jar:git-Paper-416]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+	Suppressed: java.lang.ThreadDeath
+		at java.lang.Thread.stop(Thread.java:942) [?:?]
+		at net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]
+		at net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]
+		at net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]
+		at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]
+Caused by: java.lang.ThreadDeath
+	at java.lang.Thread.stop(Thread.java:942) ~[?:?]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]
+	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]
+[13:51:17] [Server thread/FATAL]: Failed to schedule load callback for chunk [22, -31]
+java.util.concurrent.CompletionException: java.lang.ThreadDeath
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300) ~[minecraft_server.jar:git-Paper-416]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:994) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:1041) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer.runTasks(ChunkProviderServer.java:627) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1141) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1125) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeModerately(MinecraftServer.java:1079) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadSpawn(MinecraftServer.java:635) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:446) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[minecraft_server.jar:git-Paper-416]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.ThreadDeath
+	at java.lang.Thread.stop(Thread.java:942) ~[?:?]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]
+	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]
+[13:51:17] [Server thread/FATAL]: Failed to schedule load callback for chunk [22, -29]
+java.util.concurrent.CompletionException: java.lang.ThreadDeath
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300) ~[minecraft_server.jar:git-Paper-416]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:994) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:1041) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer.runTasks(ChunkProviderServer.java:627) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1141) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1125) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeModerately(MinecraftServer.java:1079) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadSpawn(MinecraftServer.java:635) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:446) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[minecraft_server.jar:git-Paper-416]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.ThreadDeath
+	at java.lang.Thread.stop(Thread.java:942) ~[?:?]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]
+	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]
+[13:51:17] [Server thread/WARN]: java.util.concurrent.CompletionException: java.lang.ThreadDeath
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081)
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[13:51:17] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300)
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568)
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069)
+[13:51:17] [Server thread/FATAL]: Failed to schedule load callback for chunk [22, -28]
+java.util.concurrent.CompletionException: java.lang.ThreadDeath
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300) ~[minecraft_server.jar:git-Paper-416]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:994) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:1041) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer.runTasks(ChunkProviderServer.java:627) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1141) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1125) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeModerately(MinecraftServer.java:1079) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadSpawn(MinecraftServer.java:635) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:446) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[minecraft_server.jar:git-Paper-416]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.ThreadDeath
+	at java.lang.Thread.stop(Thread.java:942) ~[?:?]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]
+	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)java.util.concurrent.CompletionException: java.lang.ThreadDeath
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081)
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[13:51:17] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300)
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568)
+[13:51:17] [Server thread/FATAL]: Failed to schedule load callback for chunk [22, -27]
+java.util.concurrent.CompletionException: java.lang.ThreadDeath
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300) ~[minecraft_server.jar:git-Paper-416]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:994) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:1041) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer.runTasks(ChunkProviderServer.java:627) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1141) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1125) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeModerately(MinecraftServer.java:1079) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadSpawn(MinecraftServer.java:635) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:446) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[minecraft_server.jar:git-Paper-416]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.ThreadDeath
+	at java.lang.Thread.stop(Thread.java:942) ~[?:?]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]
+	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069)
+[13:51:17] [Server thread/WARN]: java.util.concurrent.CompletionException: java.lang.ThreadDeath
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+[13:51:17] [Server thread/FATAL]: Failed to schedule load callback for chunk [22, -26]
+java.util.concurrent.CompletionException: java.lang.ThreadDeath
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300) ~[minecraft_server.jar:git-Paper-416]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:994) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:1041) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer.runTasks(ChunkProviderServer.java:627) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1141) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1125) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeModerately(MinecraftServer.java:1079) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadSpawn(MinecraftServer.java:635) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:446) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[minecraft_server.jar:git-Paper-416]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.ThreadDeath
+	at java.lang.Thread.stop(Thread.java:942) ~[?:?]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]
+	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+[13:51:17] [Server thread/FATAL]: Failed to schedule load callback for chunk [22, -25]
+java.util.concurrent.CompletionException: java.lang.ThreadDeath
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300) ~[minecraft_server.jar:git-Paper-416]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:994) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:1041) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.ChunkProviderServer.runTasks(ChunkProviderServer.java:627) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1141) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1125) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeModerately(MinecraftServer.java:1079) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadSpawn(MinecraftServer.java:635) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:446) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[minecraft_server.jar:git-Paper-416]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.ThreadDeath
+	at java.lang.Thread.stop(Thread.java:942) ~[?:?]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]
+	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]
+[13:51:17] [Server thread/WARN]: jjava.util.concurrent.CompletionException: java.lang.ThreadDeathjava.util.concurrent.CompletionException: java.lang.ThreadDeath
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+[13:51:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)

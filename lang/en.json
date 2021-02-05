@@ -53,5 +53,8 @@
   "bedrock-authentication-whitelist-problem": "Using a whitelist without online authentication is not allowed.",
   "disable-whitelist-solution": "Disable the whitelist.",
   "enable-authentication-solution": "Enable the online authentication.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}.",
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }
