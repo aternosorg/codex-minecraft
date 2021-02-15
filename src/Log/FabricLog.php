@@ -19,7 +19,8 @@ class FabricLog extends VanillaLog
     public static function getDetectors()
     {
         return array_merge(parent::getDetectors(), [
-            (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . '[FabricLoader] Loading \d+ mods/')
+            (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . '\[FabricLoader\] Loading \d+ mods:/m'),
+            (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . 'A critical error occurred\nnet.fabricmc.loader/m')
         ]);
     }
 
