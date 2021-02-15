@@ -268,11 +268,7 @@ Caused by: net.fabricmc.loader.util.sat4j.specs.ContradictionException: Creating
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => fabric
-                        )
-
+                    [dependency:protected] => fabric
                     [modName:protected] => origins
                     [solutions:protected] => Array
                         (

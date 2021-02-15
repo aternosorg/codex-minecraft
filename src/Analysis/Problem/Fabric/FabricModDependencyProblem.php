@@ -70,7 +70,7 @@ class FabricModDependencyProblem extends FabricModProblem
         switch ($patternKey) {
             case 0:
                 $this->modName = $matches[1];
-                $this->dependency[] = $matches[5];
+                $this->dependency = $matches[5];
                 $solution = (new ModInstallSolution())->setModName($matches[5]);
                 if ($matches[6] != '*') {
                     $solution->setModVersion($matches[6]);
@@ -79,31 +79,31 @@ class FabricModDependencyProblem extends FabricModProblem
                 break;
             case 1:
                 $this->modName = $matches[2];
-                $this->dependency[] = $matches[5];
+                $this->dependency = $matches[5];
                 $this->addSolution((new ModInstallSolution())->setModName($matches[5]));
                 break;
 
             case 2:
                 $this->modName = $matches[2];
-                $this->dependency[] = $matches[6];
+                $this->dependency = $matches[6];
                 $this->addSolution((new ModInstallSolution())->setModName($matches[6])->setModVersion(">=" . $matches[5]));
                 break;
 
             case 3:
                 $this->modName = $matches[2];
-                $this->dependency[] = $matches[6];
+                $this->dependency = $matches[6];
                 $this->addSolution((new ModInstallSolution())->setModName($matches[6])->setModVersion(">" . $matches[5]));
                 break;
 
             case 4:
                 $this->modName = $matches[2];
-                $this->dependency[] = $matches[6];
+                $this->dependency = $matches[6];
                 $this->addSolution((new ModInstallSolution())->setModName($matches[6])->setModVersion("<" . $matches[5]));
                 break;
 
             case 5:
                 $this->modName = $matches[2];
-                $this->dependency[] = $matches[6];
+                $this->dependency = $matches[6];
                 $this->addSolution((new ModInstallSolution())->setModName($matches[6])->setModVersion($matches[5]));
                 break;
 
@@ -113,7 +113,7 @@ class FabricModDependencyProblem extends FabricModProblem
     /**
      * @return array
      */
-    public function getDependency(): array
+    public function getDependency(): String
     {
         return $this->dependency;
     }

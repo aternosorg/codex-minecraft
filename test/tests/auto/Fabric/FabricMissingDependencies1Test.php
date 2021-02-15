@@ -191,11 +191,7 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => pehkui
-                        )
-
+                    [dependency:protected] => pehkui
                     [modName:protected] => Extra Origins
                     [solutions:protected] => Array
                         (
@@ -351,11 +347,7 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => origins
-                        )
-
+                    [dependency:protected] => origins
                     [modName:protected] => Extra Origins
                     [solutions:protected] => Array
                         (

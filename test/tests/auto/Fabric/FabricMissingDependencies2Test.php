@@ -249,11 +249,7 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => fabric
-                        )
-
+                    [dependency:protected] => fabric
                     [modName:protected] => Example Mod
                     [solutions:protected] => Array
                         (
@@ -421,11 +417,7 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
 
             [2] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => yet-another-mod
-                        )
-
+                    [dependency:protected] => yet-another-mod
                     [modName:protected] => Example Mod
                     [solutions:protected] => Array
                         (
@@ -593,11 +585,7 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
 
             [3] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => other-mod
-                        )
-
+                    [dependency:protected] => other-mod
                     [modName:protected] => Example Mod
                     [solutions:protected] => Array
                         (
@@ -765,11 +753,7 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
 
             [4] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => specific
-                        )
-
+                    [dependency:protected] => specific
                     [modName:protected] => Example Mod
                     [solutions:protected] => Array
                         (
