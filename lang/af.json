@@ -4,7 +4,7 @@
   "pocketmine-version": "Pocketmine weergawe",
   "bedrock-version": "Bedrock weergawe",
   "forge-version": "Forge weergawe",
-  "magma-version": "Magma version",
+  "magma-version": "\nMagma weergawe",
   "authme-shutdown-problem": "Die plugin 'AuthMe' misluk en sluit die server af.",
   "pex-config-problem": "Die opset van die plugin 'PermissionsEx' is ongeldig.",
   "ambiguous-plugin-name-problem": "Daar is verskeie plugin-lêers vir die inpropnaam '{{plugin-name}}': '{{first-plugin-path}}' en '{{second-plugin-path}}'.",
@@ -53,5 +53,8 @@
   "bedrock-authentication-whitelist-problem": "Die gebruik van 'n witlys sonder aanlynverifikasie is nie toegelaat nie.",
   "disable-whitelist-solution": "Deaktiveer die witlys.",
   "enable-authentication-solution": "Aktiveer die aanlyn-verifikasie.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "'N Mod ontbreek die vereiste mod {{dependency-mod-name}}.",
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }

@@ -25,7 +25,7 @@
   "old-player-directory-problem": "Server on leidunud vana mängija kataloogi maailma salvestused.",
   "command-run-solution": "Lae käsk nii '{{command}}'.",
   "authme-shutdown-solution": "Seatud 'stopServer' kohale 'true'.",
-  "configure-plugin": "Konfiguuri plugin {{plugin-name}}.",
+  "configure-plugin": "Konfigureeri plugin {{plugin-name}}.",
   "configure-plugin-with-file": "Konfiguuri plugin {{plugin-name}}({{suggested-file}}).",
   "plugin-install-different-version-solution": "Lae all erinev versioon pluginist '{{plugin-name}}'.",
   "plugin-install-solution": "Installi plugin '{{plugin-name}}'.",
@@ -53,5 +53,8 @@
   "bedrock-authentication-whitelist-problem": "Valge nimekirja kasutamine ilma veebipõhise autentimiseta pole lubatud.",
   "disable-whitelist-solution": "Keela valge nimekiri.",
   "enable-authentication-solution": "Luba veebipõhine autentimine.",
-  "undefined-mod-dependency-problem": "Moodil puudub vajalik mood {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Moodil puudub vajalik mood {{dependency-mod-name}}.",
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }

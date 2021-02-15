@@ -31,7 +31,7 @@
   "plugin-install-solution": "Ievadiet spraudni '{{plugin-name}}'.",
   "plugin-remove-solution": "Noņemiet spraudni '{{plugin-name}}'.",
   "file-delete-solution": "Izdzēst failu '{{file-path}}'.",
-  "file-edit-solution": "Rediģējiet failu '{{file-path}}'.",
+  "file-edit-solution": "Rediģē failu '{{file-path}}'.",
   "mod-install-different-version-solution": "Ievadiet citādu versiju par modu '{{mod-name}}'.",
   "mod-install-solution": "Ievadiet modu '{{mod-name}}'.",
   "mod-install-solution-with-version": "Ievadiet modu '{{mod-name}}' ar versiju {{mod-version}}.",
@@ -52,6 +52,9 @@
   "change-motd-solution": "Pārmaini serverim MOTD.",
   "bedrock-authentication-whitelist-problem": "Baltā saraksta izmantošana bez tiešsaistes autentifikācijas nav atļauta.",
   "disable-whitelist-solution": "Atspējojiet balto sarakstu.",
-  "enable-authentication-solution": "Iespējo tiešsaistes autentifikāciju.",
-  "undefined-mod-dependency-problem": "Modam ir pazudis vajadzīgais mods. "
+  "enable-authentication-solution": "Iespējot tiešsaistes autentifikāciju.",
+  "undefined-mod-dependency-problem": "Modifikatoram trūkst vajadzīgā mod {{dependency-mod-name}}.",
+  "version-downgrade-problem": "Jūsu pasaule iepriekš tika izmantota jaunākā versijā.",
+  "version-downgrade-solution": "installēt jaunāku Minecraft versiju",
+  "generate-new-world-solution": "Izveidot jaunu pasauli"
 }

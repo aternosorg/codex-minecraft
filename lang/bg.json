@@ -4,14 +4,14 @@
   "pocketmine-version": "Версия на Pocketmine",
   "bedrock-version": "Версия на Bedrock",
   "forge-version": "Версия на Forge",
-  "magma-version": "Magma version",
-  "authme-shutdown-problem": "Добавката 'AuthMe' не може да зареди и спира сървъра.",
+  "magma-version": "Версия на Магма",
+  "authme-shutdown-problem": "Плъгинът 'AuthMe' не може да зареди и спря сървъра.",
   "pex-config-problem": "Конфигурацията на плъгина \"PermissionsEx\" е невалидна.",
   "ambiguous-plugin-name-problem": "Има повече от един файл за плъгина с име '{{plugin-name}}': '{{first-plugin-path}}' и '{{second-plugin-path}}'.",
   "plugin-dependency-problem": "Плъгинът '{{plugin-name}}' се нуждае от плъгина '{{dependency-plugin-name}}'.",
   "plugin-disabling-problem": "Плъгинът '{{plugin-name}}' не може да бъде деактивиран.",
   "plugin-enabling-problem": "Плъгинът '{{plugin-name}}' не може да бъде активиран.",
-  "plugin-runtime-problem": "Плъгинът '{{plugin-name}}' има проблем по време на работа.",
+  "plugin-runtime-problem": "Плъгинът '{{plugin-name}}' се сблъска с проблем по време на работа.",
   "forge-confirm-problem": "Forge изисква потвърждението Ви, за да приложи промените и да стартира сървъра.",
   "mod-dependency-problem": "Модификацията '{{mod-name}}' липсва необходимата модификация {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Модификацията '{{mod-name}}' липсва необходимите модификации {{dependency-mod-list}}.",
@@ -53,5 +53,8 @@
   "bedrock-authentication-whitelist-problem": "Използване на бял списък без интернет потвърждение не е позволено.",
   "disable-whitelist-solution": "Забранете белият лист.",
   "enable-authentication-solution": "Разрешете интернет потвърждението.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "Мод липсва или трябва мод {{dependency-mod-name}}.",
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }

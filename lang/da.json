@@ -1,10 +1,10 @@
 {
   "minecraft-version": "Minecraft version",
-  "plugin-load-problem": "Plugin '{{plugin-name}}' kunne ikke indlæses.",
+  "plugin-load-problem": "Pluginet '{{plugin-name}}' kunne ikke indlæses.",
   "pocketmine-version": "Pocketmine version",
   "bedrock-version": "Bedrock version",
   "forge-version": "Forge version",
-  "magma-version": "Magma-version",
+  "magma-version": "Magma version",
   "authme-shutdown-problem": "Plugin 'AuthMe' kunne ikke indlæses og lukkede serveren ned.",
   "pex-config-problem": "Konfigurationen af plugin 'PermissionsEx' er ugyldig.",
   "ambiguous-plugin-name-problem": "Der er flere pluginfiler for plugin navn '{{plugin-name}}': '{{first-plugin-path}}' og '{{second-plugin-path}}'.",
@@ -36,7 +36,7 @@
   "mod-install-solution": "Installer mod '{{mod-name}} '.",
   "mod-install-solution-with-version": "Installer mod '{{mod-name}}' med version {{mod-version}}.",
   "mod-remove-solution": "Fjern mod '{{mod-name}} '.",
-  "aquatic-version-install-solution": "Opdater serveren til version 1.13 eller nyere.",
+  "aquatic-version-install-solution": "Opdater serversoftwaren til 1.13 eller nyere.",
   "plugin-command-exception-problem": "Plugin '{{plugin-name}}' kan ikke udføre kommandoen '{{command}} '.",
   "ticking-block-entity-problem": "En blok i verdenen skaber problemer.",
   "remove-block-solution": "Fjern blokken fra verden, fx med MCEdit.",
@@ -53,5 +53,8 @@
   "bedrock-authentication-whitelist-problem": "At bruge en whitelist uden en online godkendelse er ikke tilladt.",
   "disable-whitelist-solution": "Slå whitelisten fra.",
   "enable-authentication-solution": "Slå onlinegodkendelsen til.",
-  "undefined-mod-dependency-problem": "A mod is missing the required mod {{dependency-mod-name}}."
+  "undefined-mod-dependency-problem": "En mod mangler den krævede mod '{{dependency-mod-name}}'.",
+  "version-downgrade-problem": "Your world was used on a newer version before.",
+  "version-downgrade-solution": "Install a newer version of Minecraft.",
+  "generate-new-world-solution": "Generate a new world."
 }
