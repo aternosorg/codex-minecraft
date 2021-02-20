@@ -38,4 +38,9 @@ class VanillaLog extends MinecraftServerLog
     {
         return "Vanilla";
     }
+
+    public static function getPrefixPattern(): string
+    {
+        return static::$prefixPattern;
+    }
 }
