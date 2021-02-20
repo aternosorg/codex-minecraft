@@ -268,14 +268,14 @@ Caused by: net.fabricmc.loader.util.sat4j.specs.ContradictionException: Creating
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
-                    [dependency:protected] => fabric
+                    [dependency:protected] => FabricAPI
                     [modName:protected] => origins
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
                                     [modVersion:protected] => 1.0.0
-                                    [modName:protected] => fabric
+                                    [modName:protected] => FabricAPI
                                 )
 
                         )
@@ -439,8 +439,8 @@ Caused by: net.fabricmc.loader.util.sat4j.specs.ContradictionException: Creating
 
         $this->assertEquals("Minecraft version: 1.16.5", $analysis[0]->getMessage());
 
-        $this->assertEquals("The mod 'origins' is missing the required mod 'fabric'.", $analysis[1]->getMessage());
-        $this->assertEquals("Install the mod 'fabric' with version 1.0.0.", $analysis[1][0]->getMessage());
+        $this->assertEquals("The mod 'origins' is missing the required mod 'FabricAPI'.", $analysis[1]->getMessage());
+        $this->assertEquals("Install the mod 'FabricAPI' with version 1.0.0.", $analysis[1][0]->getMessage());
 
     }
 }
