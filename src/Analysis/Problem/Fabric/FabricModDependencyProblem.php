@@ -15,16 +15,6 @@ class FabricModDependencyProblem extends FabricModProblem
     /**
      * @var string
      */
-    protected static $modNamePattern = "('([^\']+)' \(([^\)]+)\)|(\w+))";
-
-    /**
-     * @var string
-     */
-    protected static $modIDPattern = "([^ ,]+)";
-
-    /**
-     * @var string
-     */
     protected $dependency;
 
     /**
@@ -49,12 +39,12 @@ class FabricModDependencyProblem extends FabricModProblem
     public static function getPatterns(): array
     {
         return [
-            'short-error' => '/net\.fabricmc\.loader\.discovery\.ModResolutionException: Could not find required mod: '. static::$modNamePattern .' requires {'. static::$modIDPattern .' @ \[([0-9*\.]+)\]}/',
+            'short-error' => '/net\.fabricmc\.loader\.discovery\.ModResolutionException: Could not find required mod: '. static::$modNamePattern .' requires {'. static::$modIDPattern .' @ \[([^\]]+)\]}/',
             'any' => "/\s- Mod ". static::$modNamePattern ." requires any version of mod ". static::$modIDPattern .", which is missing!\n/",
-            'minimum' => "/\s- Mod ". static::$modNamePattern ." requires version ([0-9\.]+) or later of mod ". static::$modIDPattern .", which is missing!\n/",
-            'any-after' => "/\s- Mod ". static::$modNamePattern ." requires any version after ([0-9\.]+) of mod ". static::$modIDPattern .", which is missing!\n/",
-            'any-before' => "/\s- Mod ". static::$modNamePattern ." requires any version before ([0-9\.]+) of mod ". static::$modIDPattern .", which is missing!\n/",
-            'specific' => "/\s- Mod ". static::$modNamePattern ." requires version ([0-9\.]+) of mod ". static::$modIDPattern .", which is missing!\n/"
+            'minimum' => "/\s- Mod ". static::$modNamePattern ." requires version ([^ ]+) or later of mod ". static::$modIDPattern .", which is missing!\n/",
+            'any-after' => "/\s- Mod ". static::$modNamePattern ." requires any version after ([^ ]+) of mod ". static::$modIDPattern .", which is missing!\n/",
+            'any-before' => "/\s- Mod ". static::$modNamePattern ." requires any version before ([^ ]+) of mod ". static::$modIDPattern .", which is missing!\n/",
+            'specific' => "/\s- Mod ". static::$modNamePattern ." requires version ([^ ]+) of mod ". static::$modIDPattern .", which is missing!\n/"
         ];
     }
 
