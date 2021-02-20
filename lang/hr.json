@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Minecraft verzija",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "Dodatak {{plugin-name}} ne može biti učitan.",
   "pocketmine-version": "Verzija pocketmine-a",
   "bedrock-version": "Mobilna/Bedrock verzija",

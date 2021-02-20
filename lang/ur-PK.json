@@ -1,5 +1,7 @@
 {
   "minecraft-version": "مائن کرافٹ ورژن",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "پلگ ان'{{plugin-name}}' لوڈ نہیں کیا جاسکا۔.",
   "pocketmine-version": "پاکٹ مائن ورژن",
   "bedrock-version": "بیڈرک ورژن",

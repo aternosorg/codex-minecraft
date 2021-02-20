@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Versjoni tal-Minecraft",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "Il-plugin '{{plugin-name}}' ma setax jitgħabba.",
   "pocketmine-version": "Verżjoni Pocketmine",
   "bedrock-version": "Verżjoni Bedrock",

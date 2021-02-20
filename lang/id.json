@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Versi Minecraft",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "Plugin '{{plugin-name}}' tak dapat dimuat.",
   "pocketmine-version": "Versi Pocketmine",
   "bedrock-version": "Versi Bedrock",
@@ -54,7 +56,7 @@
   "disable-whitelist-solution": "Nonaktifkan whitelist.",
   "enable-authentication-solution": "Aktifkan mode online.",
   "undefined-mod-dependency-problem": "Mod memperlukan {{dependency-mod-name}}.",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "Dunia Anda sebelumnya telah digunakan pada versi yang lebih baru.",
+  "version-downgrade-solution": "Pasang Minecraft versi terbaru.",
+  "generate-new-world-solution": "Ciptakan dunia baru."
 }

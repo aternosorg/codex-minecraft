@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Minecraft 版本",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "这个插件 '{{plugin-name}}' '无法被加载。",
   "pocketmine-version": "PE 版",
   "bedrock-version": "基岩版",
@@ -24,7 +26,7 @@
   "aquatic-world-on-older-version-problem": "当前世界曾在 Minecraft 1.13 或以上的版本中被创建/加载。该世界不能在旧的版本中被加载。",
   "old-player-directory-problem": "服务器在世界保存中检测到旧的玩家目录。",
   "command-run-solution": "运行命令 '{{command}}'.",
-  "authme-shutdown-solution": "将 \"停止服务器\" 设置为 \"是\"。",
+  "authme-shutdown-solution": "将“ stopServer”设置为“ 真的”",
   "configure-plugin": "配置插件 {{plugin-name}}。",
   "configure-plugin-with-file": "配置插件 {{plugin-name}} ({{suggested-file}})。",
   "plugin-install-different-version-solution": "请安装 '{{plugin-name}}'插件的另一个版本.",
@@ -54,7 +56,7 @@
   "disable-whitelist-solution": "禁用白名单。",
   "enable-authentication-solution": "启用正版验证",
   "undefined-mod-dependency-problem": "缺失所需的前置 依赖模组 {{dependency-mod-name}}。",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "你的世界之前曾被用于较新的版本",
+  "version-downgrade-solution": "安装一个新的我的世界版本",
+  "generate-new-world-solution": "创造新世界"
 }

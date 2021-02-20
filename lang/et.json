@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Minecrafti versioon",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "Pluginat '{{plugin-name}}' ei saa laadida.",
   "pocketmine-version": "Pocketmine versioon",
   "bedrock-version": "Bedrock versioon",
@@ -54,7 +56,7 @@
   "disable-whitelist-solution": "Keela valge nimekiri.",
   "enable-authentication-solution": "Luba veebipõhine autentimine.",
   "undefined-mod-dependency-problem": "Moodil puudub vajalik mood {{dependency-mod-name}}.",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "Teie maailma kasutati varem uuemas versioonis.",
+  "version-downgrade-solution": "Installige Minecrafti uuem versioon.",
+  "generate-new-world-solution": "Looge uus maailm."
 }

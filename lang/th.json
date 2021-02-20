@@ -1,5 +1,7 @@
 {
   "minecraft-version": "เวอร์ชั่น Minecraft",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "ไม่สามารถโหลดปลั๊กอิน '{{plugin-name}}' ได้",
   "pocketmine-version": "เวอร์ชั่น Pocketmine",
   "bedrock-version": "เวอร์ชั่น Bedrock",

@@ -1,14 +1,16 @@
 {
   "minecraft-version": "1.16.1\n",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "Không thể tải plugin '{{plugin-name}}'.",
   "pocketmine-version": "Phiên bản Pocketmine",
   "bedrock-version": "Phiên bản Bedrock",
   "forge-version": "Phiên bản Forge",
   "magma-version": "Phiên bản Magma",
-  "authme-shutdown-problem": "Plugin 'AuthMe' thất bại khi tải và khiến server ngừng lại.",
-  "pex-config-problem": "Cấu hình của plugin 'PermissionsEx' không hợp lệ.",
-  "ambiguous-plugin-name-problem": "Có nhiều tệp plugin cho plugin tên '{{plugin-name}}': '{{first-plugin-path}}' và '{{second-plugin-path}} '.",
-  "plugin-dependency-problem": "Plugin '{{plugin-name}}' bị thiếu plugin '{{dependency-plugin-name}} ' được yêu cầu.",
+  "authme-shutdown-problem": "Plugin 'AuthMe' thất bại khi đang tải và khiến server ngừng lại.",
+  "pex-config-problem": "Cấu hình plugin 'PermissionsEx' không hợp lệ.",
+  "ambiguous-plugin-name-problem": "Có nhiều tệp plugin mang tên '{{plugin-name}}': '{{first-plugin-path}}' và '{{second-plugin-path}} '.",
+  "plugin-dependency-problem": "Plugin '{{plugin-name}}' bị thiếu '{{dependency-plugin-name}} ' được yêu cầu.",
   "plugin-disabling-problem": "Plugin '{{plugin-name}}' không thể vô hiệu hóa được.",
   "plugin-enabling-problem": "Plugin '{{plugin-name}}' không thể kích hoạt được.",
   "plugin-runtime-problem": "Plugin '{{plugin-name}}' gặp một vấn đề trong khi chạy.",
@@ -54,7 +56,7 @@
   "disable-whitelist-solution": "Tắt danh sách trắng.",
   "enable-authentication-solution": "Kích hoạt xác thực trực tuyến.",
   "undefined-mod-dependency-problem": "Một mod đang bị'thiếu mod {{dependency-mod-name}} được yêu cầu.",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "Thế giới của bạn đã được sử dụng trên phiên bản mới hơn trước đây.",
+  "version-downgrade-solution": "Cài đặt phiên bản Minecraft mới hơn.",
+  "generate-new-world-solution": "Tạo thế giới mới."
 }

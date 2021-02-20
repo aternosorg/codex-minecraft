@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Minecraft-versio",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "Laajennusta '{{plugin-name}}' ei voitu ladata.",
   "pocketmine-version": "Pocketmine-versio",
   "bedrock-version": "Bedrock-versio",
@@ -54,7 +56,7 @@
   "disable-whitelist-solution": "Ota sallittujen pelaajien lista pois käytöstä.",
   "enable-authentication-solution": "Ota verkkotunnistautuminen käyttöön.",
   "undefined-mod-dependency-problem": "Yksi modi vaatii modin {{dependency-mod-name}} toimiakseen oikein.",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "Maailmaasi on käytetty aikaisemmin uudemmassa versiossa.",
+  "version-downgrade-solution": "Asenna uudempi Minecraft -versio.",
+  "generate-new-world-solution": "Luo uusi maailma."
 }

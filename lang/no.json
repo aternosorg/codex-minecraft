@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Minecraft-versjon",
+  "java-version": "Java versjon",
+  "fabric-version": "Fabric modlaster versjon",
   "plugin-load-problem": "Pluginen {{plugin-name}} kunne ikke lastes.",
   "pocketmine-version": "Pocketmine-versjon",
   "bedrock-version": "Bedrock-versjon",
@@ -54,7 +56,7 @@
   "disable-whitelist-solution": "Deaktiver hvitelisten.",
   "enable-authentication-solution": "Aktiver online godkjenning.",
   "undefined-mod-dependency-problem": "En mod mangler den påkrevde modden {{dependency-mod-name}}.",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "Verdenen din er brukt på en nyere versjon før.",
+  "version-downgrade-solution": "Installer en nyere versjon av Minecraft.",
+  "generate-new-world-solution": "Generer en ny verden"
 }

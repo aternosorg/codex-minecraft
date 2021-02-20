@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Bersyon ng Minecraft",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "Hindi mai-load ang plugin na '{{plugin-name}}'.",
   "pocketmine-version": "Bersyon ng Pocketmine",
   "bedrock-version": "Bersyon ng Bedrock",
@@ -54,7 +56,7 @@
   "disable-whitelist-solution": "Huwag paganahin ang whitelist.",
   "enable-authentication-solution": "I-pagana ang online authentication.",
   "undefined-mod-dependency-problem": "Mayroong nawawala na mod na kailangan ng mod '{{dependency-mod-name}}'.",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "Ang iyong mundo ay ginamit na sa mas bagong bersyon.",
+  "version-downgrade-solution": "Mag-install ng mas bagong bersyon ng Minecraft.",
+  "generate-new-world-solution": "Gumawa ng bagong mundo."
 }

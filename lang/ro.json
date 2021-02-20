@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Versiunea de Minecraft",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "Plugin-ul '{{plugin-name}}' nu a putut fi încărcat.",
   "pocketmine-version": "Versiune PocketMine",
   "bedrock-version": "Versiune Bedrock",

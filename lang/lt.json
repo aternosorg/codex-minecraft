@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Minecraft versija",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "Nepavyko įkelti papildinio \"{{plugin-name}}\".",
   "pocketmine-version": "Pocketmine versija",
   "bedrock-version": "Bedrock versija norvile123",

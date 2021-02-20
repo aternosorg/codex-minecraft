@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Leagan Minecraft",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "Níorbh fhéidir '{{plugin-name}}' a lódáil.",
   "pocketmine-version": "Leagan Pocketmine",
   "bedrock-version": "Leagan Bedrock",

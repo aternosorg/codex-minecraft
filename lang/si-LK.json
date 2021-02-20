@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Minecraft අනුවාදය",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "'{{ප්ලගිනය-නම}}' ප්ලගිනය පූරණය කළ නොහැක.",
   "pocketmine-version": "Pocketmine පිටපත",
   "bedrock-version": "Bedrock පිටපත",

@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Версия Minecraft",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "Плагин '{{plugin-name}}' не может быть загружен.",
   "pocketmine-version": "Версия Pocketmine",
   "bedrock-version": "Версия Bedrock",
@@ -54,7 +56,7 @@
   "disable-whitelist-solution": "Отключите белый список.",
   "enable-authentication-solution": "Включите онлайн-аутентификацию.",
   "undefined-mod-dependency-problem": "Отсутствует необходимый мод для корректной работы мода {{dependency-mod-name}}.",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "Ваш мир использовался в более новой версии.",
+  "version-downgrade-solution": "Установите новую версию Minecraft.",
+  "generate-new-world-solution": "Создать новый мир."
 }

@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Έκδοση Minecraft",
+  "java-version": "Έκδοση Java",
+  "fabric-version": "Έκδοση Fabric Loader",
   "plugin-load-problem": "Το πρόσθετο '{{plugin-name}}' δεν μπορεί να φορτωθεί.",
   "pocketmine-version": "Έκδοση Pocketmine",
   "bedrock-version": "Έκδοση Bedrock",

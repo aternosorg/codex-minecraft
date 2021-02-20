@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Versioni i Minecraftit",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "Plugin '{{plugin-name}}' nuk mund të ngarkohet.",
   "pocketmine-version": "Versioni për xhep",
   "bedrock-version": "Versioni i shtratit",
@@ -54,7 +56,7 @@
   "disable-whitelist-solution": "çaktivizoj whitelist",
   "enable-authentication-solution": "Aktivizoj vërtetimi ne intërnet.",
   "undefined-mod-dependency-problem": "Një modifikim i mungon modifikimi i kërkuar {{dependency-mod-name}}",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "Bota jote është përdorur në një version më të ri më parë.",
+  "version-downgrade-solution": "Instalo versionin e ri të Minecraft",
+  "generate-new-world-solution": "Gjenero një botë të re."
 }

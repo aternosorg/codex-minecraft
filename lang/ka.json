@@ -1,5 +1,7 @@
 {
   "minecraft-version": "Minecraft kur",
+  "java-version": "Java version",
+  "fabric-version": "Fabric loader version",
   "plugin-load-problem": "'{{plugin-name}}' -ის ჩატვირთვა შეუძლებელია.\n\n",
   "pocketmine-version": "Pocketmine version",
   "bedrock-version": "Bedrock ვერსია",
@@ -54,7 +56,7 @@
   "disable-whitelist-solution": "გათიშეთ whitelist.",
   "enable-authentication-solution": "ჩართეთ online authentication.",
   "undefined-mod-dependency-problem": "მოდს აკლია საჭირო მოდი {{dependency-mod-name}}",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "თქვენი მსოფლია ახალ ვერსიაზე იყო გამოყენებული.",
+  "version-downgrade-solution": "დააყენეტ ახალი ვერსია მაინქრაფტის.",
+  "generate-new-world-solution": "შექმენი ახალი მსოფლიო"
 }
