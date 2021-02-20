@@ -49,12 +49,12 @@ class FabricModDependencyProblem extends FabricModProblem
     public static function getPatterns(): array
     {
         return [
-            '/net\.fabricmc\.loader\.discovery\.ModResolutionException: Could not find required mod: '. static::$modNamePattern .' requires {'. static::$modIDPattern .' @ \[([0-9*\.]+)\]}/',
-            "/\s- Mod ". static::$modNamePattern ." requires any version of mod ". static::$modIDPattern .", which is missing!\n/",
-            "/\s- Mod ". static::$modNamePattern ." requires version ([0-9\.]+) or later of mod ". static::$modIDPattern .", which is missing!\n/",
-            "/\s- Mod ". static::$modNamePattern ." requires any version after ([0-9\.]+) of mod ". static::$modIDPattern .", which is missing!\n/",
-            "/\s- Mod ". static::$modNamePattern ." requires any version before ([0-9\.]+) of mod ". static::$modIDPattern .", which is missing!\n/",
-            "/\s- Mod ". static::$modNamePattern ." requires version ([0-9\.]+) of mod ". static::$modIDPattern .", which is missing!\n/"
+            'short-error' => '/net\.fabricmc\.loader\.discovery\.ModResolutionException: Could not find required mod: '. static::$modNamePattern .' requires {'. static::$modIDPattern .' @ \[([0-9*\.]+)\]}/',
+            'any' => "/\s- Mod ". static::$modNamePattern ." requires any version of mod ". static::$modIDPattern .", which is missing!\n/",
+            'minimum' => "/\s- Mod ". static::$modNamePattern ." requires version ([0-9\.]+) or later of mod ". static::$modIDPattern .", which is missing!\n/",
+            'any-after' => "/\s- Mod ". static::$modNamePattern ." requires any version after ([0-9\.]+) of mod ". static::$modIDPattern .", which is missing!\n/",
+            'any-before' => "/\s- Mod ". static::$modNamePattern ." requires any version before ([0-9\.]+) of mod ". static::$modIDPattern .", which is missing!\n/",
+            'specific' => "/\s- Mod ". static::$modNamePattern ." requires version ([0-9\.]+) of mod ". static::$modIDPattern .", which is missing!\n/"
         ];
     }
 
@@ -68,7 +68,7 @@ class FabricModDependencyProblem extends FabricModProblem
     public function setMatches(array $matches, $patternKey)
     {
         switch ($patternKey) {
-            case 0:
+            case 'short-error':
                 $this->modName = $matches[1];
                 $this->dependency = $matches[5];
                 $solution = (new ModInstallSolution())->setModName($matches[5]);
@@ -77,31 +77,32 @@ class FabricModDependencyProblem extends FabricModProblem
                 }
                 $this->addSolution($solution);
                 break;
-            case 1:
+
+            case 'any':
                 $this->modName = $matches[2];
                 $this->dependency = $matches[5];
                 $this->addSolution((new ModInstallSolution())->setModName($matches[5]));
                 break;
 
-            case 2:
+            case 'minimum':
                 $this->modName = $matches[2];
                 $this->dependency = $matches[6];
                 $this->addSolution((new ModInstallSolution())->setModName($matches[6])->setModVersion(">=" . $matches[5]));
                 break;
 
-            case 3:
+            case 'any-after':
                 $this->modName = $matches[2];
                 $this->dependency = $matches[6];
                 $this->addSolution((new ModInstallSolution())->setModName($matches[6])->setModVersion(">" . $matches[5]));
                 break;
 
-            case 4:
+            case 'any-before':
                 $this->modName = $matches[2];
                 $this->dependency = $matches[6];
                 $this->addSolution((new ModInstallSolution())->setModName($matches[6])->setModVersion("<" . $matches[5]));
                 break;
 
-            case 5:
+            case 'specific':
                 $this->modName = $matches[2];
                 $this->dependency = $matches[6];
                 $this->addSolution((new ModInstallSolution())->setModName($matches[6])->setModVersion($matches[5]));
