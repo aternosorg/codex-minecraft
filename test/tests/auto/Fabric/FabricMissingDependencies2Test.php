@@ -222,7 +222,32 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Fabric\FabricVanillaVersionInformation Object
+                (
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.16.5
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [17:22:11] [main/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [17:22:11] [main/INFO]: Loading for game Minecraft 1.16.5
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
                     [dependency:protected] => fabric
                     [modName:protected] => Example Mod
@@ -390,7 +415,7 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
                     [counter:protected] => 1
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
                     [dependency:protected] => yet-another-mod
                     [modName:protected] => Example Mod
@@ -558,7 +583,7 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
                     [counter:protected] => 1
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
                     [dependency:protected] => other-mod
                     [modName:protected] => Example Mod
@@ -726,7 +751,7 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
                     [counter:protected] => 1
                 )
 
-            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
+            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
                     [dependency:protected] => specific
                     [modName:protected] => Example Mod
@@ -896,24 +921,26 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
 
         )
 
-    [iterator:protected] => 3
+    [iterator:protected] => 4
 )
 ';
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("The mod 'Example Mod' is missing the required mod 'fabric'.", $analysis[0]->getMessage());
-        $this->assertEquals("Install the mod 'fabric'.", $analysis[0][0]->getMessage());
+        $this->assertEquals("Minecraft version: 1.16.5", $analysis[0]->getMessage());
 
-        $this->assertEquals("The mod 'Example Mod' is missing the required mod 'yet-another-mod'.", $analysis[1]->getMessage());
-        $this->assertEquals("Install the mod 'yet-another-mod' with version >0.3.5.", $analysis[1][0]->getMessage());
+        $this->assertEquals("The mod 'Example Mod' is missing the required mod 'fabric'.", $analysis[1]->getMessage());
+        $this->assertEquals("Install the mod 'fabric'.", $analysis[1][0]->getMessage());
 
-        $this->assertEquals("The mod 'Example Mod' is missing the required mod 'other-mod'.", $analysis[2]->getMessage());
-        $this->assertEquals("Install the mod 'other-mod' with version <0.73.", $analysis[2][0]->getMessage());
+        $this->assertEquals("The mod 'Example Mod' is missing the required mod 'yet-another-mod'.", $analysis[2]->getMessage());
+        $this->assertEquals("Install the mod 'yet-another-mod' with version >0.3.5.", $analysis[2][0]->getMessage());
 
-        $this->assertEquals("The mod 'Example Mod' is missing the required mod 'specific'.", $analysis[3]->getMessage());
-        $this->assertEquals("Install the mod 'specific' with version 1.0.9.", $analysis[3][0]->getMessage());
+        $this->assertEquals("The mod 'Example Mod' is missing the required mod 'other-mod'.", $analysis[3]->getMessage());
+        $this->assertEquals("Install the mod 'other-mod' with version <0.73.", $analysis[3][0]->getMessage());
+
+        $this->assertEquals("The mod 'Example Mod' is missing the required mod 'specific'.", $analysis[4]->getMessage());
+        $this->assertEquals("Install the mod 'specific' with version 1.0.9.", $analysis[4][0]->getMessage());
 
     }
 }

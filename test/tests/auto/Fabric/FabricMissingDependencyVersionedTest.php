@@ -241,7 +241,32 @@ Caused by: net.fabricmc.loader.util.sat4j.specs.ContradictionException: Creating
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Fabric\FabricVanillaVersionInformation Object
+                (
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.16.5
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [18:50:43] [main/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [18:50:43] [main/INFO]: Loading for game Minecraft 1.16.5
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
                     [dependency:protected] => fabric
                     [modName:protected] => origins
@@ -405,15 +430,17 @@ Caused by: net.fabricmc.loader.util.sat4j.specs.ContradictionException: Creating
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("The mod 'origins' is missing the required mod 'fabric'.", $analysis[0]->getMessage());
-        $this->assertEquals("Install the mod 'fabric' with version 1.0.0.", $analysis[0][0]->getMessage());
+        $this->assertEquals("Minecraft version: 1.16.5", $analysis[0]->getMessage());
+
+        $this->assertEquals("The mod 'origins' is missing the required mod 'fabric'.", $analysis[1]->getMessage());
+        $this->assertEquals("Install the mod 'fabric' with version 1.0.0.", $analysis[1][0]->getMessage());
 
     }
 }
