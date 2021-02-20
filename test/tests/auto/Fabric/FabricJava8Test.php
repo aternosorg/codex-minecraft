@@ -550,32 +550,7 @@ class FabricJava8Test extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Information\Fabric\FabricVanillaVersionInformation Object
-                (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.16.5
-                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
-                        (
-                            [prefix:protected] => [13:31:46] [main/INFO]:
-                            [lines:protected] => Array
-                                (
-                                    [0] => Aternos\Codex\Log\Line Object
-                                        (
-                                            [text:protected] => [13:31:46] [main/INFO]: Loading for game Minecraft 1.16.5
-                                            [number:protected] => 1
-                                        )
-
-                                )
-
-                            [level:protected] => INFO
-                            [time:protected] => 
-                            [iterator:protected] => 0
-                        )
-
-                    [counter:protected] => 3
-                )
-
-            [1] => Aternos\Codex\Minecraft\Analysis\Information\Fabric\FabricVersionInformation Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Fabric\FabricVersionInformation Object
                 (
                     [label:protected] => Fabric loader version
                     [value:protected] => 0.11.1
@@ -600,7 +575,7 @@ class FabricJava8Test extends PHPUnit\Framework\TestCase
                     [counter:protected] => 1
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Information\Fabric\FabricJavaVersionInformation Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Fabric\FabricJavaVersionInformation Object
                 (
                     [label:protected] => Java version
                     [value:protected] => 8
@@ -625,20 +600,45 @@ class FabricJava8Test extends PHPUnit\Framework\TestCase
                     [counter:protected] => 1
                 )
 
+            [2] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+                (
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.16.5
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [prefix:protected] => [13:33:01] [Server thread/INFO]:
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [13:33:01] [Server thread/INFO]: Starting minecraft server version 1.16.5
+                                            [number:protected] => 13
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                        )
+
+                    [counter:protected] => 1
+                )
+
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 2
 )
 ';
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("Minecraft version: 1.16.5", $analysis[0]->getMessage());
+        $this->assertEquals("Fabric loader version: 0.11.1", $analysis[0]->getMessage());
 
-        $this->assertEquals("Fabric loader version: 0.11.1", $analysis[1]->getMessage());
+        $this->assertEquals("Java version: 8", $analysis[1]->getMessage());
 
-        $this->assertEquals("Java version: 8", $analysis[2]->getMessage());
+        $this->assertEquals("Minecraft version: 1.16.5", $analysis[2]->getMessage());
 
     }
 }

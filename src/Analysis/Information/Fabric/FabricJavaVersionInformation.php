@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Information\Fabric;
 
+use Aternos\Codex\Minecraft\Log\VanillaLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -28,6 +29,11 @@ class FabricJavaVersionInformation extends FabricInformation
      */
     public static function getPatterns(): array
     {
-        return ['/ java@([0-9]+)/'];
+        return ['/'. VanillaLog::getPrefixPattern() . '\[FabricLoader\] Loading [0-9]+ mods: (?:\w{1,63}@[^, ]+)*, java@([0-9]+)/'];
+    }
+
+    public function setMatches(array $matches, $patternKey)
+    {
+        $this->value = $matches[3];
     }
 }
