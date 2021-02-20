@@ -23,7 +23,7 @@ class FabricModDependencyProblem extends FabricModProblem
     protected static $modIDPattern = "([^ ,]+)";
 
     /**
-     * @var array
+     * @var string
      */
     protected $dependency;
 
@@ -112,7 +112,7 @@ class FabricModDependencyProblem extends FabricModProblem
     }
 
     /**
-     * @return array
+     * @return string
      */
     public function getDependency(): String
     {
