@@ -347,14 +347,14 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
-                    [dependency:protected] => fabric
+                    [dependency:protected] => FabricAPI
                     [modName:protected] => Extra Origins
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
                                     [modVersion:protected] => 
-                                    [modName:protected] => fabric
+                                    [modName:protected] => FabricAPI
                                 )
 
                         )
@@ -669,8 +669,8 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
         $this->assertEquals("The mod 'Extra Origins' is missing the required mod 'pehkui'.", $analysis[0]->getMessage());
         $this->assertEquals("Install the mod 'pehkui'.", $analysis[0][0]->getMessage());
 
-        $this->assertEquals("The mod 'Extra Origins' is missing the required mod 'fabric'.", $analysis[1]->getMessage());
-        $this->assertEquals("Install the mod 'fabric'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("The mod 'Extra Origins' is missing the required mod 'FabricAPI'.", $analysis[1]->getMessage());
+        $this->assertEquals("Install the mod 'FabricAPI'.", $analysis[1][0]->getMessage());
 
         $this->assertEquals("The mod 'Extra Origins' is missing the required mod 'origins'.", $analysis[2]->getMessage());
         $this->assertEquals("Install the mod 'origins' with version >=0.4.6.", $analysis[2][0]->getMessage());

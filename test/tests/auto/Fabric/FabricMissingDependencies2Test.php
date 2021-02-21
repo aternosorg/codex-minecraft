@@ -249,14 +249,14 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
-                    [dependency:protected] => fabric
+                    [dependency:protected] => FabricAPI
                     [modName:protected] => Example Mod
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
                                     [modVersion:protected] => 
-                                    [modName:protected] => fabric
+                                    [modName:protected] => FabricAPI
                                 )
 
                         )
@@ -930,8 +930,8 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
 
         $this->assertEquals("Minecraft version: 1.16.5", $analysis[0]->getMessage());
 
-        $this->assertEquals("The mod 'Example Mod' is missing the required mod 'fabric'.", $analysis[1]->getMessage());
-        $this->assertEquals("Install the mod 'fabric'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("The mod 'Example Mod' is missing the required mod 'FabricAPI'.", $analysis[1]->getMessage());
+        $this->assertEquals("Install the mod 'FabricAPI'.", $analysis[1][0]->getMessage());
 
         $this->assertEquals("The mod 'Example Mod' is missing the required mod 'yet-another-mod'.", $analysis[2]->getMessage());
         $this->assertEquals("Install the mod 'yet-another-mod' with version >0.3.5.", $analysis[2][0]->getMessage());
