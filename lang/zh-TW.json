@@ -18,6 +18,7 @@
   "mod-dependency-problem": "模組 '{{mod-name}}' 缺少所需的 模組 {{dependency-mod-name}}。",
   "mod-dependency-problem-plural": "模組 '{{mod-name}}' 缺少所需的 模組 {{dependency-mod-list}}。",
   "mod-duplicate-problem": "模組 \"{{mod-name}}\" 有多個模組檔: \"{{first-mod-path}}\" 和 \"{{second-mod-path}}\"。",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "模組'{{mod-name}}'出現異常",
   "mod-fatal-problem": "模組'{{mod-name}}'出現嚴重錯誤",
   "world-missing-mod-problem": "與該世界一同儲存的模組 '{{mod-name}}' 丟失了。",

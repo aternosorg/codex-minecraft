@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Modifikacijai \"{{mod-name}}\" trūksta būtino priedo \"{{dependency-mod-name}}\".",
   "mod-dependency-problem-plural": "Modifikacijai \"{{mod-name}}\" trūksta būtino priedų \"{{dependency-mod-list}}\".",
   "mod-duplicate-problem": "Yra keli papildinių failai su pavadinimu \"{{mod-name}}\": \"{{first-mod-path}}\" ir \"{{second-mod-path}}\".",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Šitas modas “{{mod-name}}” turi mesti išimtį.",
   "mod-fatal-problem": "Šitas modas “{{mod-name}}” turi lemtingą klaidą.",
   "world-missing-mod-problem": "Šitas pasaulis buvo išsaugotas su modu “{{mod-name}}” atrodo, kad dingo.",

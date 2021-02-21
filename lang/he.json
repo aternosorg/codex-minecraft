@@ -18,6 +18,7 @@
   "mod-dependency-problem": "המוד '{{mod-name}}' צריך את המוד {{dependency-mod-name}} כדי לפעול.",
   "mod-dependency-problem-plural": "המוד '{{mod-name}}' צריך את המוד  {{dependency-mod-list}} כדי לפעול.",
   "mod-duplicate-problem": "יש כמה מודים עם השם '{{mod-name}}': '{{first-mod-path}}' ו '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "המוד '{{mod-name}}' גרם לחריגה.",
   "mod-fatal-problem": "למוד '{{mod-name}} יש שגיאה חריגה.",
   "world-missing-mod-problem": "העולם נשמר עם המוד '{{mod-name}}' אשר נראה שחסר.",

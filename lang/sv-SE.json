@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Mod '{{mod-name}}' är beroende av mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Mod '{{mod-name}}' är beroende av mod {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Det finns flera pluginfiler för plugin namn '{{mod-name}}': '{{first-mod-path}}' och '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Ett undantagsfel hände i mod '{{mod-name}}'.",
   "mod-fatal-problem": "Mod '{{mod-name}}' har ett allvarligt fel.",
   "world-missing-mod-problem": "Världen har tidigare sparats med mod '{{mod-name}}' som verkar saknas nu.",

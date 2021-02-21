@@ -18,6 +18,7 @@
   "mod-dependency-problem": "De mod '{{mod-name}}' mist de vereiste mod {{dependency-mod-name}}'.",
   "mod-dependency-problem-plural": "De mod '{{mod-name}}' mist de vereiste mods {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Er zijn meerdere mod bestanden met de mod-naam '{{mod-name}}':'{{first-mod-path}}' en '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "De mod '{{mod-name}}' heeft een uitzondering genegeerd.",
   "mod-fatal-problem": "De mod '{{mod-name}}' heeft een fatale fout.",
   "world-missing-mod-problem": "De wereld was opgeslagen met mod '{{mod-name}}' die lijkt te ontbreken.",

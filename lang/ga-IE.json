@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Tá an mod {{dependency-mod-name}} ar iarraidh ag an mod '{{mod-name}}'.",
   "mod-dependency-problem-plural": "Tá na modhanna riachtanacha {{dependency-mod-list}} in easnamh ar an mhodh '{{mod-name}}'",
   "mod-duplicate-problem": "Tá go leor comhad modha le haghaidh ainm na modhanna '{{mod-name}}': '{{first-mod-path}}' agus '{{second-mod-path}}'",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Tá eisceacht caite ag an mhodh '{{mod-name}}'.",
   "mod-fatal-problem": "Tá earráid mharfach sa mhodh '{{mod-name}}'.",
   "world-missing-mod-problem": "Sábháladh an domhan le modh '{{mod-name}}' atá a chuma air go bhfuil sé in easnamh.",

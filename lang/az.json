@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Minecraft versiyası",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "Java versiyası",
+  "fabric-version": "Parça yükləyici versiyası",
   "plugin-load-problem": "'{{plugin-name}}' əlavəsi yüklənilə bilmədi.",
   "pocketmine-version": "Pocketmine versiyası",
   "bedrock-version": "Bedrock versiyası",
@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Tələb olunan {{dependency-mod-name}} modunda '{{mod-name}}' modu buraxılıb.",
   "mod-dependency-problem-plural": "'{{mod-name}}' modu, tələb edilən {{dependency-mod-list}} modlar siyahısında əskikdir.",
   "mod-duplicate-problem": "'{{mod-name}}': '{{first-mod-path}}' və '{{second-mod-path}}' mod adları üçün çoxlu mod faylları var.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "'{{mod-name}}' modu bir istisna atdı.",
   "mod-fatal-problem": "'{{mod-name}}' modunda ölümcül xəta baş verdi.",
   "world-missing-mod-problem": "Dünya, '{{mod-name}}' modu ilə saxlanılıb və bu da əskik görünür.",
@@ -56,7 +57,7 @@
   "disable-whitelist-solution": "Ağ siyahını sıradan çıxart.",
   "enable-authentication-solution": "Onlayn kimlik təsdiqləməsini fəallaşdır.",
   "undefined-mod-dependency-problem": "Bir modun, tələb olunan {{dependency-mod-name}} adlı modu əskikdir.",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "Dünyanız əvvəllər daha yeni bir versiyada istifadə edilib",
+  "version-downgrade-solution": "Minecraft-ın son versiyasını quraşdırın.",
+  "generate-new-world-solution": "Yeni bir dünya yaradın."
 }

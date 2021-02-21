@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Die mod '{{mod-name}}' ontbreek die vereiste mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Die mod '{{mod-name}}' ontbreek die vereiste mods {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Daar is verskeie mod-lêers vir die mod-naam '{{mod-name}}': '{{first-mod-path}}' en '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Die mod '{{mod-name}}' het 'n uitsondering gemaak.",
   "mod-fatal-problem": "Die mod '{{mod-name}}' het 'n fatale fout.",
   "world-missing-mod-problem": "Die wêreld is gered met mod '{{mod-name}}' wat blyk te ontbreek.",

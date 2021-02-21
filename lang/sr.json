@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Моду {{mod-name}} недостаје захтеван мод {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Моду {{mod-name}} недостаје захтеван мод {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Има више датотеки за мод {{mod-name}}:{{first-mod-path}} и {{second-mod-path}}.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Мод{{mod-name}} је избацила грешку.",
   "mod-fatal-problem": "Модификација {{mod-name}} има критичну грешку.",
   "world-missing-mod-problem": "Свет је сачуван са модификацијом {{mod-name}} која изгледа да недостаје.",

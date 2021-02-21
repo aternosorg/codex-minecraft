@@ -18,6 +18,7 @@
   "mod-dependency-problem": "موڈ '{{Mod-name}}' میں مطلوبہ Mod {{depend depend-mod-name} missing غائب ہے۔",
   "mod-dependency-problem-plural": "موڈ '{{Mod-name}}' میں مطلوبہ موڈ missing {depend depend-mod-list missing missing غائب ہے۔",
   "mod-duplicate-problem": "موڈ نام '{{موڈ-نام}}' کے لئے متعدد موڈ فائلیں ہیں: '{{فرسٹ-موڈ-پاتھ}}' اور '{{سیکنڈ موڈ-پاتھ}}'۔",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "موڈ '{{Mod-name}}' نے ایک استثناء پیش کر دیا ہے۔",
   "mod-fatal-problem": "'Mod' {{Mod-name}} 'میں مہلک خرابی ہے۔",
   "world-missing-mod-problem": "اس کی دنیا کو موڈ '{{Mod-Name}}' سے بچایا گیا تھا جو لگتا ہے کہ گمشدہ ہے۔",

@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Ang mod na '{{mod-name}}' ay nagkukulang ng kinakailangang mod na '{{dependency-mod-name}}'.",
   "mod-dependency-problem-plural": "Ang mod na '{{mod-name}}' ay nagkukulang ng kinakailangang mga mod na {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Maraming mod ang may pangalang '{{mod-name}}': '{{first-mod-path}}' at '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Nagbigay ng exception ang mod na '{{mod-name}}'.",
   "mod-fatal-problem": "Mayroong malubhang pagkakamali ang mod na '{{mod-name}}'.",
   "world-missing-mod-problem": "Nag-save ang mundo na may kasamang mod na '{{mod-name}}' na mukhang nawawala.",

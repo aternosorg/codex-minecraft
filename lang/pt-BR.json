@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Versão do Minecraft",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "Versão Java",
+  "fabric-version": "Versão Fabric loader",
   "plugin-load-problem": "O plugin '{{plugin-name}}' não pôde ser carregado.",
   "pocketmine-version": "Versão Pocketmine",
   "bedrock-version": "Versão Bedrock",
@@ -18,6 +18,7 @@
   "mod-dependency-problem": "O mod '{{mod-name}}' necessita do mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "O mod '{{mod-name}}' necessita dos mods {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Há múltiplos arquivos para o mod '{{mod-name}}': '{{first-mod-path}}' e '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "O mod '{{mod-name}}' lançou uma exceção.",
   "mod-fatal-problem": "O mod '{{mod-name}}' teve um erro crítico.",
   "world-missing-mod-problem": "O mundo foi salvo com o mod '{{mod-name}}' que parece estar faltando.",

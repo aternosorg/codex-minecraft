@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Modyfikacja '{{mod-name}}' wymaga modyfikacji '{{dependency-mod-name}}' do prawidłowego działania.",
   "mod-dependency-problem-plural": "Modyfikacja „{{mod-name}}” wymaga zainstalowania modyfikacji {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Istnieje kilka plików dla modyfikacji „{{mod-name}}”: „{{first-mod-path}}” oraz „{{second-mod-path}}”.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Modyfikacja '{{mod-name}}' posiada nieznany błąd.",
   "mod-fatal-problem": "Modyfikacja '{{mod-name}}' posiada nieznany błąd.",
   "world-missing-mod-problem": "Świat został zapisany z modyfikacją '{{mod-name}}'. Której prawdopodobnie nie ma",

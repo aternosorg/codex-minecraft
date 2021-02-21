@@ -18,6 +18,7 @@
   "mod-dependency-problem": " '{{mod-name}}' აკლია საჭირო მოდი {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "მოდში '{{mod-name}}' აკლია საჭირო მოდები {{dependency-mod-list}}.",
   "mod-duplicate-problem": "რამოდენი მსგავსი მოდის ფაილია '{{mod-name}}': '{{first-mod-path}}' და '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "{{mod-name}} პრობლემა აქვს",
   "mod-fatal-problem": "საბედისწერო ერორი განხორციელდა {{mod-name}}-ის მიერ",
   "world-missing-mod-problem": "სამყარო შენახულია {{mod-name}}-ის მიერ რომელიც დაკარგულია",

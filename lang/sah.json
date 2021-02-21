@@ -18,6 +18,7 @@
   "mod-dependency-problem": "\"Оккирочка\" диэн ааттанар ньир- бааччы тэрилтэ суох.",
   "mod-dependency-problem-plural": "\"Мода-оккирочнай тэрилтэ суох.",
   "mod-duplicate-problem": "\"Бытархай суол\" уонна \"оккирочнай\" диэн ааттанар хас да Файл баар.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "\"Модьу- ночооттоох\" тэрилтэ ыҥырда.",
   "mod-fatal-problem": "Ньир- бааччы, оккирочнай алҕастардаах.",
   "world-missing-mod-problem": "Аан дойду модьу- Н тэрилтэ көмөтүнэн быыһанна , кини, суох курдук аакка- суолга үктэннэ.",

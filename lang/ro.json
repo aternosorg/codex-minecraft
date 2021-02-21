@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Modului '{{mod-name}}' ii lipseste modul necesar {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Modului '{{mod-name}}' îi lipsesc modurile necesare {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Sunt multiple fișiere pentru mod-ul cu numele '{{mod-name}}': '{{first-mod-path}}' și '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Modul '{{mod-name}}' a aruncat o excepție.",
   "mod-fatal-problem": "Modul '{{mod-name}}' are o eroare fatală.",
   "world-missing-mod-problem": "Lumea a fost salvată cu modul '{{mod-name}}' care apare să lipsească.",

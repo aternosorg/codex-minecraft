@@ -18,6 +18,7 @@
   "mod-dependency-problem": "mod '{{mod-name}}' を使用するには、mod '{{dependency-mod-name}}' が必要です。",
   "mod-dependency-problem-plural": "mod '{{mod-name}}' を使用するには、mod '{{dependency-mod-list}}' が必要です。",
   "mod-duplicate-problem": "mod '{{mod-name}}' は、重複しています。\n'{{first-mod-path}}' と '{{second-mod-path}}' が該当します。",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Mod「{{mod-name}}」で予期しない例外が発生しました。",
   "mod-fatal-problem": "mod '{{mod-name}}' で致命的エラーが発生しました。",
   "world-missing-mod-problem": "このワールドの起動に必要な mod {{mod-name}} が見つかりません。",

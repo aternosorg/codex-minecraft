@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Мод '{{mod-name}}' æнæмæнгхъæугæ мод æнæруад {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Мод '{{mod-name}}' æнæмæнгхъæугæ мод æнæруад {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Модæй номæн ис файлы цалдæр мод '{{mod-name}}': '{{first-mod-path}}' æмæ '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Мод '{{mod-name}}' ацухкæнын фæсид.",
   "mod-fatal-problem": "Мод '{{mod-name}}' адзалон ошибкæ ис.\n",
   "world-missing-mod-problem": "Дуней тас мод æххуысимæ '{{mod-name}}' кæцы æнæфаг æнгæс.",

@@ -18,6 +18,7 @@
   "mod-dependency-problem": "A(z) '{{mod-name}}' modhoz szükséges a(z) {{dependency-mod-name}} mod.",
   "mod-dependency-problem-plural": "A(z) '{{mod-name}}' hiányzik egy szükséges mód {{dependency-mod-list}}.",
   "mod-duplicate-problem": "A mod '{{mod-name}}' nevéhez tőbb mod fálj található: '{{first-mod-path}}' és '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "A mod '{{mod-name}}' dob egy hibát.",
   "mod-fatal-problem": "A '{{mod-name}}' meghibásodott.",
   "world-missing-mod-problem": "A világ elmentve a(z) '{{mod-name}}' moddal, amely hiányzik.",

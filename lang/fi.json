@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Modi '{{mod-name}}' vaatii modin {{dependency-mod-name}} toimiakseen.",
   "mod-dependency-problem-plural": "Modi '{{mod-name}}' vaatii seuraavat modit toimiakseen: {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Modille '{{mod-name}}' löydettiin useita samannimisiä tiedostoja: '{{first-mod-path}}' sekä '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Poikkeama modissa '{{mod-name}}'.",
   "mod-fatal-problem": "Tapahtui virhe modissa '{{mod-name}}'.",
   "world-missing-mod-problem": "Tallennetusta maailmasta puuttuu modi '{{mod-name}}'.",

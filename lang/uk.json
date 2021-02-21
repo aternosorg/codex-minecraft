@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Мод '{{mod-name}}' вимагає для роботи мод {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Мод '{{mod-name}}' потребує для роботи мод(и) {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Виявлено декілька одинакових версій одного й того ж моду: '{{mod-name}}': '{{first-mod-path}}' і '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Мод '{{mod-name}}' викинув виняток.",
   "mod-fatal-problem": "Мод '{{mod-name}}' має невиправну помилку.",
   "world-missing-mod-problem": "Світ був збережений з модом '{{mod-name}}', який, можливо, відсутній.",

@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Λείπει το απαιτούμενο mod {{dependency-mod-name}} από το mod '{{mod-name}}'.",
   "mod-dependency-problem-plural": "Λείπουν τα απαιτούμενα mod  {{dependency-mod-list}} από το mod '{{mod-name}}'.",
   "mod-duplicate-problem": "Υπάρχουν πολλά αρχεία mod με το όνομα '{{mod-name}}': '{{first-mod-path}}' και '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Το mod '{{mod-name}}' έχει εμφανίσει μια εξαίρεση.",
   "mod-fatal-problem": "Το mod '{{mod-name}}' έχει ένα σοβαρό πρόβλημα.",
   "world-missing-mod-problem": "Ο κόσμος αποθηκεύτηκε με το mod '{{mod-name}}' που φαίνεται να λείπει.",

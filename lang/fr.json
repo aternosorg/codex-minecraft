@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Le mod '{{mod-name}}' a besoin du mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Le mod '{{mod-name}}' à besoin des mods {{dependency-mod-list}} pour fonctionner correctement.",
   "mod-duplicate-problem": "Il y a plusieurs fichiers de mod pour le nom du mod '{{mod-name}}': '{{first-mod-path}}' et '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Le mod '{{mod-name}}' a levé une exception.",
   "mod-fatal-problem": "Le mod '{{mod-name}}' a une erreur critique.",
   "world-missing-mod-problem": "Le monde a été sauvegardé avec le mod '{{mod-name}}' qui semble être manquant.",

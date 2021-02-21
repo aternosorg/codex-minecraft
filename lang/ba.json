@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Мода '{{мо-исеме}}' кәрәкле мода юҡ {{ҡарап-мода-исем}}.",
   "mod-dependency-problem-plural": "Мода '{{мо-исеме}} түбәнге мод кәрәк {{ҡарап-мода-исемлеге}}.",
   "mod-duplicate-problem": "Файл нисә булып, мода өсөн Мода исеме '{{мо-исеме}}': '{{беренсе мо-юл}} \" һәм \" {{икенсе мо-юл}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Мода '{{mod-исемең}} ' башҡа тыуҙыра.",
   "mod-fatal-problem": "Мода '{{mod-исемең}} ' хата бар фатальный.",
   "world-missing-mod-problem": "Бар донъяны ҡотҡарыр ярҙамы менән mod ' {{mod-исемең}}', ул, күрәһең, юҡ.",

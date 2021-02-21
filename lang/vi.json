@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Mod '{{mod-name}}' thiếu mod {{dependency-mod-name}} được yêu cầu.",
   "mod-dependency-problem-plural": "Mod '{{mod-name}}' thiếu mod yêu cầu {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Có nhiều tệp plugin cho plugin tên '{{mod-name}}': '{{first-mod-path}}' và '{{second-mod-path}} '.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Mod '{{mod-name}}' đã bị đưa ra một ngoại lệ.",
   "mod-fatal-problem": "Mod '{{mod-name}}' gặp một lỗi nghiêm trọng.",
   "world-missing-mod-problem": "Thế giới đã được lưu với mod '{{mod-name}}' hiện đang bị thiếu.",

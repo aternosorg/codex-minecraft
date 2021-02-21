@@ -18,6 +18,7 @@
   "mod-dependency-problem": "El mod '{{mod-name}}' necessita un altre mod anomenat {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "El mod '{{mod-name}}' necessita uns altres mods anomenats {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Hi ha múltiples arxius del mod '{{mod-name}}': '{{first-mod-path}}' i '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "El mod '{{mod-name}}' ha fet una excepció.",
   "mod-fatal-problem": "El mod '{{mod-name}}' té un error important.",
   "world-missing-mod-problem": "El món s'ha desat amb el mod '{{mod-name}}' que semblava estar absent.",

@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Modu {{mod-name}} manjka potreben mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Modu {{mod-name}} manjkajo potrebni modi {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Tukaj je več mod dadotek za mod z imenom \"{{mod-name}}\": \"{{first-mod-path}}\" in \"{{second-mod-path}}\".",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Mod '{{mod-name}}' je izjema",
   "mod-fatal-problem": "Mod '{{mod-name}}' ima usodno napako",
   "world-missing-mod-problem": "Vaš svet je bil shranjen iz modifikacijo {{mod-name}}, ki ga ne moremo zaznati.",

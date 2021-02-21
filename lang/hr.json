@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Modu '{{mod-name}}' nedostaje potreban mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Modu '{{mod-name}}' nedostaju potrebni modovi {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Postoji nekoliko modova s imenom '{{mod-name}}': '{{first-mod-path}}' i '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Mod '{{mod-name}}' ima grešku.",
   "mod-fatal-problem": "Mod '{{mod-name}}' ima fatalnu grešku.",
   "world-missing-mod-problem": "Svijet je spremljen s modom '{{mod-name}}' za koji se čini da nedostaje.",

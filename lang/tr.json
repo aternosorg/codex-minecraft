@@ -18,6 +18,7 @@
   "mod-dependency-problem": "\"{{mod-name}}\" isimli mod \"{{dependency-mod-name}}\" adlı gerekli modu bulamıyor.",
   "mod-dependency-problem-plural": "\"{{mod-name}}\" adlı modun çalışabilmesi için \"{{dependency-mod-list}}\" modlarına ihtiyacı var.",
   "mod-duplicate-problem": "\"{{mod-name}}\" adlı mod için birden çok mod dosyası bulunmaktadır: \"{{first-mod-path}}\" ve \"{{second-mod-path}}\".\n",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "\"{{mod-name}}\" adlı mod tarafından özel bir mod oluşturuldu.",
   "mod-fatal-problem": "\"{{mod-name}}\" adlı modda önemli bir hata var.",
   "world-missing-mod-problem": "Dünya \"{{mod-name}}\" adlı mod ile birlikte kaydedilmiş ama o mod şu an yok gibi gözüküyor.\n",

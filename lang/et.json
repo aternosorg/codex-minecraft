@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Moodil '{{mod-name}}' puudub vajalik mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Moodil '{{mod-name}}' puuduvad vajalikud moodid {{dependency-mod-list}}.",
   "mod-duplicate-problem": "On mitu modi faili modi nime '{{mod-name}}': '{{first-mod-path}}' ja '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Mod '{{mod-name}}' on visanud erandi.",
   "mod-fatal-problem": "Modil '{{mod-name}}' on suur viga.",
   "world-missing-mod-problem": "See maailm salvestati modiga '{{mod-name}}' mis on kadunud.",

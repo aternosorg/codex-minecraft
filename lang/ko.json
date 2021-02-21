@@ -18,6 +18,7 @@
   "mod-dependency-problem": "'{{mod-name}}' 모드를 실행하려면 {{dependency-mod-name}} 모드가 필요합니다.",
   "mod-dependency-problem-plural": "'{{mod-name}}' 모드를 실행하려면 {{dependency-mod-list}} 모드가 필요합니다.",
   "mod-duplicate-problem": "'{{mod-name}}' 모드가 '{{first-mod-path}}' (와) 과 '{{second-mod-path}}' 에 중복 적용되어 있습니다.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "'{{mod-name}}' 모드는 예외 처리되었습니다.",
   "mod-fatal-problem": "'{{mod-name}}' 모드에는 오류가 있습니다.",
   "world-missing-mod-problem": "월드가 삭제된 모드 '{{mod-name}}'(와)과 함께 저장되었습니다.",

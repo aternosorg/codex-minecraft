@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Il-mod '{{mod-name}}' huwa nieqes mill-mod meħtieġ {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Il-mod '{{mod-name}}' huwa nieqes mill-mods meħtieġa {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Hemm bosta fajls mod għall-isem mod '{{mod-name}}': '{{first-mod-path}}' u '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Il-mod '{{mod-name}}' tefa 'eċċezzjoni.",
   "mod-fatal-problem": "Il-mod '{{mod-name}}' għandu żball fatali.",
   "world-missing-mod-problem": "Id-dinja ġiet salvata bil-mod '{{mod-name}}' li tidher nieqsa.",

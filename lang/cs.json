@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Módu '{{mod-name}}' chybí požadovaný mód {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Módu '{{mod-name}}' chybí požadované módy {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Existuje více souborů pro mód se jménem '{{mod-name}}': '{{first-mod-path}}' a '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Mód '{{mod-name}}' udělal výjimku.",
   "mod-fatal-problem": "Mod '{{mod-name}}' má kritickou chybu.",
   "world-missing-mod-problem": "Svět byl uložen s módem '{{mod-name}}', který vypadá, že chybí.",

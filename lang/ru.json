@@ -18,6 +18,7 @@
   "mod-dependency-problem": "В моде '{{mod-name}}' отсутствует необходимый мод {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Моду '{{mod-name}}' не хватает необходимых модов {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Есть несколько файлов для мода '{{mod-name}}': '{{first-mod-path}}' и '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Мод '{{mod-name}}' выдал исключение.",
   "mod-fatal-problem": "Мод '{{mod-name}}' выдал критическую ошибку.",
   "world-missing-mod-problem": "Мир был сохранен с модом '{{mod-name}}', который отсутствует.",

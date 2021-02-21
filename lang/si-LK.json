@@ -18,6 +18,7 @@
   "mod-dependency-problem": "'{{mod-name}}' මෝඩයට අවශ්‍ය මෝඩය අස්ථානගත වී ඇත {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "'{{Mod-name}}' මෝඩයට අවශ්‍ය මෝඩයන් නොමැත {{පරායත්තතා-මොඩ්-ලැයිස්තුව}}.",
   "mod-duplicate-problem": "'{{Mod-name}}': '{{first-mod-path}}' සහ '{{second-mod-path}}' යන මෝඩ් නාමය සඳහා බහු මොඩ් ගොනු තිබේ.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "මෝඩ් '{{මොඩ්-නම}}' ව්‍යතිරේකයක් විසි කර ඇත.",
   "mod-fatal-problem": "'{{Mod-name}}' මෝඩයට මාරාන්තික දෝෂයක් ඇත.",
   "world-missing-mod-problem": "ලෝකය සුරකින ලද්දේ mod '{{mod-name}}' ය.",

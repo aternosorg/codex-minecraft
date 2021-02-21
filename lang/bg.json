@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Модификацията '{{mod-name}}' липсва необходимата модификация {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Модификацията '{{mod-name}}' липсва необходимите модификации {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Има няколко модификационни файла за името на модификацията '{{mod-name}}': '{{first-mod-path}}' and '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Модификацията '{{mod-name}}' имаше фатална грешка.",
   "mod-fatal-problem": "Mодът '{{mod-name}}' имаше фатална грешка.",
   "world-missing-mod-problem": "Светът беше запазен с мода '{{mod-name}}', която липсва.",

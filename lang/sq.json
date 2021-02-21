@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Modifikimi {{mod-name}} i mungon një modifikim i kërkuar {{dependency-mod-name}}",
   "mod-dependency-problem-plural": "Modifikimi {{mod-name}} i mungon një modifikim e kërkuara {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Ka disa skedare mod-i për mod-in '{{mod-name}}': '{{first-mod-path}}' dhe '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Mod-i '{{mod-name}}' ka shkaktuar gabime.",
   "mod-fatal-problem": "Mod-i '{{mod-name}}' ka gabime fatale.",
   "world-missing-mod-problem": "Bota është ruajtur me mod-in '{{mod-name}}' qe mungon tani.",

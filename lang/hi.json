@@ -18,6 +18,7 @@
   "mod-dependency-problem": "मॉड '{{mod-name}}' आवश्यक मॉड को याद कर रहा है {{निर्भरता-mod-name}}।",
   "mod-dependency-problem-plural": "मॉड '{{मॉड-नेम}} \"आवश्यक मॉड्स को याद कर रहा है {{निर्भरता-मॉड-लिस्ट}}।",
   "mod-duplicate-problem": "'{{Mod-name}}': '{{first-mod-path}}' और '{{second-mod-path}}' के लिए कई मॉड फाइलें हैं।",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Mod '{{mod-name}}' ने एक अपवाद को फेंक दिया है।",
   "mod-fatal-problem": "Mod '{{mod-name}}' में एक घातक त्रुटि है।",
   "world-missing-mod-problem": "दुनिया को '{{mod-name}}' के साथ सहेजा गया था जो गायब प्रतीत होता है।",

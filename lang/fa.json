@@ -18,6 +18,7 @@
   "mod-dependency-problem": "مود '{{mod-name}}' نیازمند به مود {{dependency-mod-name}} است.",
   "mod-dependency-problem-plural": "مود '{{mod-name}}' نیازمند به مود {{dependency-mod-list}} است.",
   "mod-duplicate-problem": "برای مود '{{mod-name}}' چندین فایل یافت شده است: '{{first-mod-path}}' و '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "مود '{{mod-name}}' یک مشکل ایجاد کرده است.",
   "mod-fatal-problem": "مد {{mod-name}} یک خطای جدی دارد.",
   "world-missing-mod-problem": "دنیا با مد {{mod-name}} ذخیره شده بود که به نظر میرسد که گم شده.",

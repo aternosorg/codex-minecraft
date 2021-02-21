@@ -18,6 +18,7 @@
   "mod-dependency-problem": "El mod '{{mod-name}}' no encuentra el mod requerido '{{dependency-mod-name}}'.",
   "mod-dependency-problem-plural": "El mod '{{mod-name}}' no encuentra los mods requeridos {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Hay archivos de mods duplicados en el mod de nombre '{{mod-name}}' en '{{first-mod-path}}' y '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "Hay múltiples archivos repetidos para el mod '{{mod-name}}'.",
   "mod-exception-problem": "El mod '{{mod-name}}' ha generado un error.",
   "mod-fatal-problem": "El mod '{{mod-name}}' tiene un error crítico.",
   "world-missing-mod-problem": "El mundo fue guardado con el mod '{{mod-name}}' que parece estar ausente.",

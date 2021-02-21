@@ -18,6 +18,7 @@
   "mod-dependency-problem": "Mods '{{mod-name}}' ir vajadzīgs ar mod '{{dependency-mod-name}}'.",
   "mod-dependency-problem-plural": "Mods '{{mod-name}}' ir vajadzīgs ar mod '{{dependency-mod-list}}'.",
   "mod-duplicate-problem": "Tur ir daudzāk modi faili priekš mod vārdu '{{mod-name}}': '{{first-mod-path}}' un '{{second-mod-path}}'.",
+  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "Mods '{{mod-name}}' ir izgājis izņēmumu.",
   "mod-fatal-problem": "Modam '{{mod-name}}' bija fatāla kļūda.",
   "world-missing-mod-problem": "Pasaule bija saglabāts are mod '{{mod-name}}' kas izskatās ka ir pazudis.",
