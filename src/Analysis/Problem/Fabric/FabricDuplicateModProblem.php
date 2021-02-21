@@ -23,7 +23,7 @@ class FabricDuplicateModProblem extends FabricModProblem
 
     public function setMatches(array $matches, $patternKey)
     {
-        $this->modName = $matches[3];
+        $this->setModName($matches[3]);
         $this->addSolution((new FileDeleteSolution())->setAbsolutePath($matches[4]));
     }
 }

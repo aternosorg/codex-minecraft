@@ -200,7 +200,7 @@ net.fabricmc.loader.discovery.ModResolutionException: Duplicate versions for mod
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricDuplicateModProblem Object
                 (
-                    [modName:protected] => fabric
+                    [modName:protected] => FabricAPI
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
@@ -334,7 +334,7 @@ net.fabricmc.loader.discovery.ModResolutionException: Duplicate versions for mod
 
         $this->assertEquals("Minecraft version: 1.16.5", $analysis[0]->getMessage());
 
-        $this->assertEquals("There are multiple mod files for the mod name 'fabric'.", $analysis[1]->getMessage());
+        $this->assertEquals("There are multiple mod files for the mod name 'FabricAPI'.", $analysis[1]->getMessage());
         $this->assertEquals("Delete the file '/server/mods/fabric-api-0.30.3+1.16.jar'.", $analysis[1][0]->getMessage());
 
     }
