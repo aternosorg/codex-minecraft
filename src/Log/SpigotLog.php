@@ -12,7 +12,7 @@ class SpigotLog extends CraftBukkitLog
     /**
      * @var string
      */
-    protected static $logIdentifier = "CraftBukkit version git\-Spigot";
+    protected static $logIdentifier = "CraftBukkit version (?:git|\d+)\-Spigot";
 
     /**
      * Get the name of the used server software

@@ -1,0 +1,13 @@
+[21:41:38] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:41:43] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[21:41:48] [Worker-Main-3/INFO]: Loaded 7 recipes
+[21:42:06] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[21:42:06] [Server thread/INFO]: Loading properties
+[21:42:10] [Server thread/INFO]: This server is running CraftBukkit version 3016-Spigot-73fb609-ea050e6 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[21:42:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:42:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:42:17] [Server thread/INFO]: Debug logging is disabled
+[21:42:17] [Server thread/INFO]: Default game type: SURVIVAL
+[21:42:17] [Server thread/INFO]: Generating keypair
+[21:42:21] [Server thread/INFO]: Starting Minecraft server on *:51374
+[21:42:21] [Server thread/INFO]: Using epoll channel type
