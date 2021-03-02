@@ -11,6 +11,8 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class VanillaVersionInformation extends VanillaInformation
 {
+    protected static $vanillaVersionPattern = '[0-9\.w]+[a-z]?';
+
     /**
      * VanillaVersionInformation constructor.
      */
@@ -28,6 +30,6 @@ class VanillaVersionInformation extends VanillaInformation
      */
     public static function getPatterns(): array
     {
-        return ['/Starting minecraft server version ([0-9\.wa]+)/'];
+        return ['/Starting minecraft server version (' . static::$vanillaVersionPattern . ')/'];
     }
 }
