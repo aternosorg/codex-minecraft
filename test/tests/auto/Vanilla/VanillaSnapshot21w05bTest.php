@@ -1,11 +1,11 @@
 <?php
 
-class VanillaSnapshot20w05bTest extends PHPUnit\Framework\TestCase
+class VanillaSnapshot21w05bTest extends PHPUnit\Framework\TestCase
 {
     public function testParseAndAnalyse()
     {
         date_default_timezone_set('UTC');
-        $logFile = new \Aternos\Codex\Log\File\PathLogFile(__DIR__ . "/../../../data/vanilla/vanilla-snapshot-20w05b.log");
+        $logFile = new \Aternos\Codex\Log\File\PathLogFile(__DIR__ . "/../../../data/vanilla/vanilla-snapshot-21w05b.log");
         $detective = new \Aternos\Codex\Minecraft\Detective\Detective();
         $detective->setLogFile($logFile);
         $log = $detective->detect();
