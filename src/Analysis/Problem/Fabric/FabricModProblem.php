@@ -14,7 +14,7 @@ abstract class FabricModProblem extends FabricProblem
     /**
      * @var string
      */
-    protected static $modNamePattern = "('([^\']+)' \(([^\)]+)\)|(\w+))";
+    protected static $modNamePattern = "('([^\']+)' \(([^\)]+)\)|([\w-]+))";
 
     /**
      * @var string
