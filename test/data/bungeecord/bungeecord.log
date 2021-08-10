@@ -1,0 +1,38 @@
+14:24:22 [INFO] Using mbed TLS based native cipher.
+14:24:22 [INFO] Using zlib based native compressor.
+14:24:22 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.17-R0.1-SNAPSHOT:bda1605:1598
+14:24:22 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+14:24:22 [INFO] Epoll is working, utilising it!
+14:24:22 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+14:24:22 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+14:24:22 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+14:24:22 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+14:24:22 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+14:24:22 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+14:24:22 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+14:24:22 [INFO] Loaded plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+14:24:22 [INFO] Loaded plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+14:24:22 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+14:24:22 [INFO] Loaded plugin ExarotonBungeePlugin version 1.0.0 by null
+14:24:22 [INFO] Loaded plugin BungeeGuard version 1.2-SNAPSHOT by Luck
+14:24:22 [INFO] Loaded plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+14:24:22 [INFO] Loaded plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+14:24:22 [WARNING] Forced host server pvp is not defined
+14:24:22 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+14:24:22 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+14:24:22 [INFO] Enabled plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+14:24:22 [INFO] Enabled plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+14:24:22 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+14:24:22 [INFO] Enabled plugin ExarotonBungeePlugin version 1.0.0 by null
+14:24:22 [INFO] Enabled plugin BungeeGuard version 1.2-SNAPSHOT by Luck
+14:24:22 [INFO] Enabled plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+14:24:22 [INFO] Enabled plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+14:24:22 [INFO] Listening on /0.0.0.0:55134
+14:24:22 [INFO] Started query on /0.0.0.0:9898
+14:24:45 [INFO] Closing listener [id: 0xefd6c3d7, L:/0.0.0.0:9898]
+14:24:45 [INFO] Closing listener [id: 0xb3abf524, L:/0.0.0.0:55134]
+14:24:45 [INFO] Closing pending connections
+14:24:45 [INFO] Disconnecting 0 connections
+14:24:45 [INFO] Saving reconnect locations
+14:24:45 [INFO] Disabling plugins
+14:24:45 [INFO] Closing IO threads

@@ -1,0 +1,38 @@
+[14:51:07] [main/INFO]: Using mbed TLS based native cipher.
+[14:51:07] [main/INFO]: Using zlib based native compressor.
+[14:51:07] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.17-R0.1-SNAPSHOT:93773f9:448
+[14:51:07] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[14:51:07] [main/INFO]: Epoll is working, utilising it!
+[14:51:07] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[14:51:07] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[14:51:07] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[14:51:07] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[14:51:07] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[14:51:07] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[14:51:07] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:93773f9:448 by WaterfallMC
+[14:51:07] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:93773f9:448 by WaterfallMC
+[14:51:07] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:93773f9:448 by WaterfallMC
+[14:51:07] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:93773f9:448 by WaterfallMC
+[14:51:07] [main/INFO]: Loaded plugin ExarotonBungeePlugin version 1.0.0 by null
+[14:51:07] [main/INFO]: Loaded plugin BungeeGuard version 1.2-SNAPSHOT by Luck
+[14:51:08] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:93773f9:448 by WaterfallMC
+[14:51:08] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:93773f9:448 by WaterfallMC
+[14:51:08] [main/WARN]: Forced host server pvp is not defined
+[14:51:08] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:93773f9:448 by WaterfallMC
+[14:51:08] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:93773f9:448 by WaterfallMC
+[14:51:08] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:93773f9:448 by WaterfallMC
+[14:51:08] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:93773f9:448 by WaterfallMC
+[14:51:08] [main/INFO]: Enabled plugin ExarotonBungeePlugin version 1.0.0 by null
+[14:51:08] [main/INFO]: Enabled plugin BungeeGuard version 1.2-SNAPSHOT by Luck
+[14:51:08] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:93773f9:448 by WaterfallMC
+[14:51:08] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:93773f9:448 by WaterfallMC
+[14:51:08] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:55134
+[14:51:08] [Netty Worker IO Thread #0/INFO]: Started query on /0.0.0.0:9898
+[14:51:14] [Shutdown Thread/INFO]: Closing listener [id: 0xa3367a0e, L:/0.0.0.0:9898]
+[14:51:14] [Shutdown Thread/INFO]: Closing listener [id: 0x629648f6, L:/0.0.0.0:55134]
+[14:51:14] [Shutdown Thread/INFO]: Closing pending connections
+[14:51:14] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[14:51:15] [Shutdown Thread/INFO]: Saving reconnect locations
+[14:51:15] [Shutdown Thread/INFO]: Disabling plugins
+[14:51:15] [Shutdown Thread/INFO]: Closing IO threads
+[14:51:17] [Shutdown Thread/INFO]: Thank you and goodbye

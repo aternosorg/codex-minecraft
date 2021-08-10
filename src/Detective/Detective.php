@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Detective;
 
 use Aternos\Codex\Minecraft\Log\BedrockLog;
+use Aternos\Codex\Minecraft\Log\BungeeCordLog;
 use Aternos\Codex\Minecraft\Log\CraftBukkitLog;
 use Aternos\Codex\Minecraft\Log\FabricLog;
 use Aternos\Codex\Minecraft\Log\ForgeLog;
@@ -15,6 +16,8 @@ use Aternos\Codex\Minecraft\Log\PaperLog;
 use Aternos\Codex\Minecraft\Log\PocketmineLog;
 use Aternos\Codex\Minecraft\Log\SpigotLog;
 use Aternos\Codex\Minecraft\Log\VanillaLog;
+use Aternos\Codex\Minecraft\Log\VelocityLog;
+use Aternos\Codex\Minecraft\Log\WaterfallLog;
 
 /**
  * Class Detective
@@ -39,6 +42,9 @@ class Detective extends \Aternos\Codex\Detective\Detective
         ForgeLog::class,
         PocketmineLog::class,
         BedrockLog::class,
-        FabricLog::class
+        FabricLog::class,
+        BungeeCordLog::class,
+        WaterfallLog::class,
+        VelocityLog::class
     ];
 }
