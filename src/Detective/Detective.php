@@ -7,6 +7,7 @@ use Aternos\Codex\Minecraft\Log\BungeeCordLog;
 use Aternos\Codex\Minecraft\Log\CraftBukkitLog;
 use Aternos\Codex\Minecraft\Log\FabricLog;
 use Aternos\Codex\Minecraft\Log\ForgeLog;
+use Aternos\Codex\Minecraft\Log\GeyserLog;
 use Aternos\Codex\Minecraft\Log\GlowstoneLog;
 use Aternos\Codex\Minecraft\Log\MagmaLog;
 use Aternos\Codex\Minecraft\Log\OldCraftBukkitLog;
@@ -38,13 +39,14 @@ class Detective extends \Aternos\Codex\Detective\Detective
         SpigotLog::class,
         PaperLog::class,
         MagmaLog::class,
-        GlowstoneLog::class,
         ForgeLog::class,
         PocketmineLog::class,
         BedrockLog::class,
         FabricLog::class,
         BungeeCordLog::class,
         WaterfallLog::class,
-        VelocityLog::class
+        VelocityLog::class,
+        GeyserLog::class,
+        GlowstoneLog::class,
     ];
 }

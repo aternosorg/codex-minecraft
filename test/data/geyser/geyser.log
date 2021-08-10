@@ -1,0 +1,15 @@
+[15:15:16.779 main/INFO] ******************************************
+[15:15:16.781 main/INFO]
+[15:15:16.784 main/INFO] Loading Geyser version 1.4.1-SNAPSHOT (git-master-71e2ec9)
+[15:15:16.784 main/INFO]
+[15:15:16.784 main/INFO] ******************************************
+[15:15:18.578 main/INFO] Started Geyser on 0.0.0.0:19132
+[15:15:18.581 main/INFO] Done (1.804s)! Run /geyser help for help!
+[15:15:18.582 main/WARN] Geyser doesn't translate Bedrock movements perfectly! Using Geyser in servers that have an anticheat could get you banned.
+[15:15:18.582 main/WARN] *********************************************
+[15:15:18.582 main/WARN]
+[15:15:18.582 main/WARN] YOU ARE RUNNING AN UNSUPPORTED VERSION OF JAVA!
+[15:15:18.582 main/WARN] Geyser will not work on your version of Java in the future. Please update to Java 16. Current Java version: 1.8.0_292
+[15:15:18.582 main/WARN]
+[15:15:18.583 main/WARN] *********************************************
+[15:15:19.089 ForkJoinPool.commonPool-worker-1/INFO] Downloading Minecraft JAR to extract en_us locale, please wait... (this may take some time depending on the speed of your internet connection)
