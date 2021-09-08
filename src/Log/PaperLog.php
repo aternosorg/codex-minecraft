@@ -14,7 +14,7 @@ class PaperLog extends SpigotLog
     /**
      * @var string
      */
-    protected static $logIdentifier = "(Paper|CraftBukkit) version git\-Paper";
+    protected static $logIdentifier = "(?:Paper|CraftBukkit) version git\-Paper";
 
     /**
      * @return PaperAnalyser
