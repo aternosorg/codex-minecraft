@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Analyser;
 
 use Aternos\Codex\Minecraft\Analysis\Information\Bedrock\BedrockVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bedrock\BedrockAuthenticationWhitelistProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bedrock\BedrockDBStorageChainProblem;
 
 /**
  * Class BedrockAnalyser
@@ -16,5 +17,6 @@ class BedrockAnalyser extends MinecraftAnalyser
     {
         $this->addPossibleInsightClass(BedrockVersionInformation::class);
         $this->addPossibleInsightClass(BedrockAuthenticationWhitelistProblem::class);
+        $this->addPossibleInsightClass(BedrockDBStorageChainProblem::class);
     }
 }

@@ -1,0 +1,11 @@
+NO LOG FILE! - setting up server logging...
+[2021-09-15 10:35:25 INFO] Starting Server
+[2021-09-15 10:35:25 INFO] Version **.**.**.**
+[2021-09-15 10:35:25 INFO] Session ID aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa
+[2021-09-15 10:35:25 INFO] Level Name: world
+[2021-09-15 10:35:25 INFO] Game mode: 0 Survival
+[2021-09-15 10:35:25 INFO] Difficulty: 1 EASY
+[INFO] opening worlds/world/db
+[ERROR] DBStorage chain is invalid. Possibly encryption-related, or bad DBStorageConfig passed. Reason: Unable to decipher/decrypt LevelDB.
+[ERROR] Network port occupied, can't start server.
+[2021-09-15 10:40:38 ERROR] [Aternos System]: Server was stopped because it took too long to start. Try reducing the load to avoid this in the future.
