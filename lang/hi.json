@@ -1,7 +1,7 @@
 {
-  "minecraft-version": "Minecraft सर्वर",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "minecraft-version": "Minecraft संस्करण",
+  "java-version": "जावा संस्करण",
+  "fabric-version": "फैब्रिक लोडर संस्करण",
   "plugin-load-problem": "The plugin '{{plugin-name}}' could not be loaded.",
   "pocketmine-version": "पॉकेटमाइन संस्करण",
   "bedrock-version": "आधार संस्करण",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "मॉड '{{mod-name}}' आवश्यक मॉड को याद कर रहा है {{निर्भरता-mod-name}}।",
   "mod-dependency-problem-plural": "मॉड '{{मॉड-नेम}} \"आवश्यक मॉड्स को याद कर रहा है {{निर्भरता-मॉड-लिस्ट}}।",
   "mod-duplicate-problem": "'{{Mod-name}}': '{{first-mod-path}}' और '{{second-mod-path}}' के लिए कई मॉड फाइलें हैं।",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "मॉड नाम के लिए कई मॉड फाइलें हैं",
   "mod-exception-problem": "Mod '{{mod-name}}' ने एक अपवाद को फेंक दिया है।",
   "mod-fatal-problem": "Mod '{{mod-name}}' में एक घातक त्रुटि है।",
   "world-missing-mod-problem": "दुनिया को '{{mod-name}}' के साथ सहेजा गया था जो गायब प्रतीत होता है।",
@@ -48,8 +48,8 @@
   "remove-chunk-solution": "दुनिया से समस्याग्रस्त हिस्सा निकालें, उदा।  MCEdit के साथ या क्षेत्र फ़ाइल को हटाकर।",
   "multiverse-load-problem": "दुनिया '{{विश्व-नाम}} \"को लोड नहीं किया जा सका क्योंकि इसमें त्रुटियां हैं और संभवतः भ्रष्ट है।",
   "world-repair-solution": "दुनिया की मरम्मत {{{दुनिया-नाम}}}, उदा। Minecraft क्षेत्र फिक्सर या MCEdit का उपयोग करके।",
-  "world-duplicate-problem": "World '{{world-name}}' दूसरी दुनिया का डुप्लिकेट है और इसे लोड होने से रोका गया है।",
-  "mod-wrong-minecraft-version-problem": "Mod '{{mod-name}}' Minecraft संस्करण {{minecraft-version}} के साथ संगत नहीं है।",
+  "world-duplicate-problem": "World '{{world-name}}' दूसरी दुनिया का डुप्लिकेट है और इसे लोड होने से रोका गया है",
+  "mod-wrong-minecraft-version-problem": "Mod '{{mod-name}}' Minecraft संस्करण {{minecraft-version}} के साथ संगत नहीं है",
   "forge-install-different-version-solution": "दूसरा संस्करण इनस्टॉल करें",
   "malformed-encoding-problem": "कुछ (शायद MOTD) में विकृत स्वरूपण कोड हैं।",
   "change-motd-solution": "सर्वर MOTD बदलें।",
@@ -57,7 +57,8 @@
   "disable-whitelist-solution": "श्वेतसूची को अक्षम करें।",
   "enable-authentication-solution": "ऑनलाइन प्रमाणीकरण सक्षम करें।",
   "undefined-mod-dependency-problem": "एक मॉड आवश्यक मॉड {{डिपेंडेंसी-मॉड-नेम}} गायब है।",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "आपके वॉर्ल्ड को पहले एक नए संस्करण में उपयोग किया गया था",
+  "version-downgrade-solution": "खेल का एक नया संस्करण स्थापित करें",
+  "generate-new-world-solution": "एक नई दुनिया पैदा करें",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

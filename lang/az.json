@@ -18,7 +18,7 @@
   "mod-dependency-problem": "Tələb olunan {{dependency-mod-name}} modunda '{{mod-name}}' modu buraxılıb.",
   "mod-dependency-problem-plural": "'{{mod-name}}' modu, tələb edilən {{dependency-mod-list}} modlar siyahısında əskikdir.",
   "mod-duplicate-problem": "'{{mod-name}}': '{{first-mod-path}}' və '{{second-mod-path}}' mod adları üçün çoxlu mod faylları var.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "'{{mod-name}}' adlı mod üçün çoxlu mod faylları var.",
   "mod-exception-problem": "'{{mod-name}}' modu bir istisna atdı.",
   "mod-fatal-problem": "'{{mod-name}}' modunda ölümcül xəta baş verdi.",
   "world-missing-mod-problem": "Dünya, '{{mod-name}}' modu ilə saxlanılıb və bu da əskik görünür.",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "Bir modun, tələb olunan {{dependency-mod-name}} adlı modu əskikdir.",
   "version-downgrade-problem": "Dünyanız əvvəllər daha yeni bir versiyada istifadə edilib",
   "version-downgrade-solution": "Minecraft-ın son versiyasını quraşdırın.",
-  "generate-new-world-solution": "Yeni bir dünya yaradın."
+  "generate-new-world-solution": "Yeni bir dünya yaradın.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

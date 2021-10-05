@@ -1,11 +1,11 @@
 {
-  "minecraft-version": "Minecraft අනුවාදය",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "minecraft-version": "මිනෙක්‍රාෆ්ට් අනුවාදය",
+  "java-version": "ජාවා අනුවාදය",
+  "fabric-version": "ෆැබ්රික් ලෝඩර් අනුවාදය",
   "plugin-load-problem": "'{{ප්ලගිනය-නම}}' ප්ලගිනය පූරණය කළ නොහැක.",
-  "pocketmine-version": "Pocketmine පිටපත",
-  "bedrock-version": "Bedrock පිටපත",
-  "forge-version": "Forge පිටපත",
+  "pocketmine-version": "පොකට්මයින් අනුවාදය",
+  "bedrock-version": "බෙඩ්රොක් අනුවාදය",
+  "forge-version": "ෆෝග් අනුවාදය",
   "magma-version": "මැග්මා අනුවාදය",
   "authme-shutdown-problem": "'AuthMe' ප්ලගිනය පූරණය කිරීමට අපොහොසත් වී සේවාදායකය වසා දමයි.",
   "pex-config-problem": "'PermissionsEx' ප්ලගිනයේ වින්‍යාසය අවලංගුය.",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "'{{mod-name}}' මෝඩයට අවශ්‍ය මෝඩය අස්ථානගත වී ඇත {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "'{{Mod-name}}' මෝඩයට අවශ්‍ය මෝඩයන් නොමැත {{පරායත්තතා-මොඩ්-ලැයිස්තුව}}.",
   "mod-duplicate-problem": "'{{Mod-name}}': '{{first-mod-path}}' සහ '{{second-mod-path}}' යන මෝඩ් නාමය සඳහා බහු මොඩ් ගොනු තිබේ.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "'{{mod-name}}' යන මෝඩ් නාමයෙන් මොඩ් ගොනු කිහිපයක් තිබේ.",
   "mod-exception-problem": "මෝඩ් '{{මොඩ්-නම}}' ව්‍යතිරේකයක් විසි කර ඇත.",
   "mod-fatal-problem": "'{{Mod-name}}' මෝඩයට මාරාන්තික දෝෂයක් ඇත.",
   "world-missing-mod-problem": "ලෝකය සුරකින ලද්දේ mod '{{mod-name}}' ය.",
@@ -57,7 +57,8 @@
   "disable-whitelist-solution": "සුදු ලැයිස්තුව අක්‍රීය කරන්න.",
   "enable-authentication-solution": "සබැඳි සත්‍යාපනය සක්‍රීය කරන්න.",
   "undefined-mod-dependency-problem": "මෝඩයක් අවශ්‍ය මෝඩය අස්ථානගත වී ඇත {{dependency-mod-name}}",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "ඔබගේ ලෝකය මීට පෙර නවත ම අනුවාදයක භාවිතා කරන ලදි.",
+  "version-downgrade-solution": "Minecraftහි නවත ම අනුවාදයක් ස්ථාපනය කරන්න.",
+  "generate-new-world-solution": "නව ලෝකයක් සකසන්න.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Bersyon ng Minecraft",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "Bersyon ng Java",
+  "fabric-version": "Bersyon ng Fabric loader",
   "plugin-load-problem": "Hindi mai-load ang plugin na '{{plugin-name}}'.",
   "pocketmine-version": "Bersyon ng Pocketmine",
   "bedrock-version": "Bersyon ng Bedrock",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "Ang mod na '{{mod-name}}' ay nagkukulang ng kinakailangang mod na '{{dependency-mod-name}}'.",
   "mod-dependency-problem-plural": "Ang mod na '{{mod-name}}' ay nagkukulang ng kinakailangang mga mod na {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Maraming mod ang may pangalang '{{mod-name}}': '{{first-mod-path}}' at '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Maraming mod files para sa mod nangangalan na '{{mod-name}}'",
   "mod-exception-problem": "Nagbigay ng exception ang mod na '{{mod-name}}'.",
   "mod-fatal-problem": "Mayroong malubhang pagkakamali ang mod na '{{mod-name}}'.",
   "world-missing-mod-problem": "Nag-save ang mundo na may kasamang mod na '{{mod-name}}' na mukhang nawawala.",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "Mayroong nawawala na mod na kailangan ng mod '{{dependency-mod-name}}'.",
   "version-downgrade-problem": "Ang iyong mundo ay nagamit sa bagong bersyon dati pa.",
   "version-downgrade-solution": "I-install ang bagong bersyon ng Minecraft.",
-  "generate-new-world-solution": "Mag gawa ka ng bagong mundo."
+  "generate-new-world-solution": "Mag gawa ka ng bagong mundo.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

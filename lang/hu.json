@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Minecraft verzió",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "Java verzió",
+  "fabric-version": "Fabric loader verzió",
   "plugin-load-problem": "Nem lehet betölteni a {{plugin-name}} plugint.",
   "pocketmine-version": "Pocketmine verzió",
   "bedrock-version": "Bedrock verzió",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "A(z) '{{mod-name}}' modhoz szükséges a(z) {{dependency-mod-name}} mod.",
   "mod-dependency-problem-plural": "A(z) '{{mod-name}}' hiányzik egy szükséges mód {{dependency-mod-list}}.",
   "mod-duplicate-problem": "A mod '{{mod-name}}' nevéhez tőbb mod fálj található: '{{first-mod-path}}' és '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Több mod fájl található a következő néven: '{{mod-name}}'.",
   "mod-exception-problem": "A mod '{{mod-name}}' dob egy hibát.",
   "mod-fatal-problem": "A '{{mod-name}}' meghibásodott.",
   "world-missing-mod-problem": "A világ elmentve a(z) '{{mod-name}}' moddal, amely hiányzik.",
@@ -28,7 +28,7 @@
   "old-player-directory-problem": "A szerver egy régebbi játékos könyvet észlelt a világ elmentésében.",
   "command-run-solution": "Parancs '{{command}}' futtatása.",
   "authme-shutdown-solution": "Állítsd 'stopServer' opciót 'true'-ra.",
-  "configure-plugin": "{{plugin-name}} plugint konfigurálása.",
+  "configure-plugin": "{{plugin-name}} plugin konfigurálása.",
   "configure-plugin-with-file": "Konfiguráld a {{plugin-name}} plugint: ({{suggested-file}}).",
   "plugin-install-different-version-solution": "Másik verzió telepítése a(z) '{{plugin-name}}' pluginhoz.",
   "plugin-install-solution": "'{{plugin-name}}' plugin telepítése.",
@@ -43,7 +43,7 @@
   "plugin-command-exception-problem": "A plugin '{{plugin-name}}' nem futtatja a parancsot '{{command}}'.",
   "ticking-block-entity-problem": "Egy blokk a világban problémákat okoz.",
   "remove-block-solution": "Blokk eltávolítása a világból, pl. MCEdit-el.",
-  "do-nothing-solution": "Nem csinál semmit. A probléma magától megoldódik.",
+  "do-nothing-solution": "Ne csinálj semmit. A probléma magától megoldódik.",
   "chunk-load-exception-problem": "Hiba lépett fel a világ darabjainak betöltésekor.",
   "remove-chunk-solution": "Problémás darab eltávolítása a világból, pl. az MCEdit vagy a régiófájl törlésével.",
   "multiverse-load-problem": "A(z) '{{world-name}}' világot nem lehetett betölteni, mert hibákat tartalmat és valószínűleg sérült.",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "Egy mod hiányzik, a szükséges mod {{dependency-mod-name}}.",
   "version-downgrade-problem": "A világod egy újabb verzióban volt korábban.",
   "version-downgrade-solution": "Telepítse a Minecraft újabb verzióját.",
-  "generate-new-world-solution": "Hozzlétre egy új világot"
+  "generate-new-world-solution": "Hozzlétre egy új világot",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

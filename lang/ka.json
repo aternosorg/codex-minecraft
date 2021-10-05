@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Minecraft kur",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "ჯავა ვერსია",
+  "fabric-version": "ქსოვილის მტვირთავი ვერსია",
   "plugin-load-problem": "'{{plugin-name}}' -ის ჩატვირთვა შეუძლებელია.\n\n",
   "pocketmine-version": "Pocketmine version",
   "bedrock-version": "Bedrock ვერსია",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": " '{{mod-name}}' აკლია საჭირო მოდი {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "მოდში '{{mod-name}}' აკლია საჭირო მოდები {{dependency-mod-list}}.",
   "mod-duplicate-problem": "რამოდენი მსგავსი მოდის ფაილია '{{mod-name}}': '{{first-mod-path}}' და '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "მრავალჯერადი მოდელის ფაილი არსებობს მოდელის სახელისთვის '{{mod-name}}'.",
   "mod-exception-problem": "{{mod-name}} პრობლემა აქვს",
   "mod-fatal-problem": "საბედისწერო ერორი განხორციელდა {{mod-name}}-ის მიერ",
   "world-missing-mod-problem": "სამყარო შენახულია {{mod-name}}-ის მიერ რომელიც დაკარგულია",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "მოდს აკლია საჭირო მოდი {{dependency-mod-name}}",
   "version-downgrade-problem": "თქვენი მსოფლია ახალ ვერსიაზე იყო გამოყენებული.",
   "version-downgrade-solution": "დააყენეტ ახალი ვერსია მაინქრაფტის.",
-  "generate-new-world-solution": "შექმენი ახალი მსოფლიო"
+  "generate-new-world-solution": "შექმენი ახალი მსოფლიო",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

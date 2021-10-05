@@ -1,7 +1,7 @@
 {
   "minecraft-version": "مائن کرافٹ ورژن",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "جاوا ورژن",
+  "fabric-version": "فیبرک لوڈر ورژن",
   "plugin-load-problem": "پلگ ان'{{plugin-name}}' لوڈ نہیں کیا جاسکا۔.",
   "pocketmine-version": "پاکٹ مائن ورژن",
   "bedrock-version": "بیڈرک ورژن",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "موڈ '{{Mod-name}}' میں مطلوبہ Mod {{depend depend-mod-name} missing غائب ہے۔",
   "mod-dependency-problem-plural": "موڈ '{{Mod-name}}' میں مطلوبہ موڈ missing {depend depend-mod-list missing missing غائب ہے۔",
   "mod-duplicate-problem": "موڈ نام '{{موڈ-نام}}' کے لئے متعدد موڈ فائلیں ہیں: '{{فرسٹ-موڈ-پاتھ}}' اور '{{سیکنڈ موڈ-پاتھ}}'۔",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "موڈ نام '{{mod-name}}' کیلئے متعدد موڈ فائلیں ہیں۔",
   "mod-exception-problem": "موڈ '{{Mod-name}}' نے ایک استثناء پیش کر دیا ہے۔",
   "mod-fatal-problem": "'Mod' {{Mod-name}} 'میں مہلک خرابی ہے۔",
   "world-missing-mod-problem": "اس کی دنیا کو موڈ '{{Mod-Name}}' سے بچایا گیا تھا جو لگتا ہے کہ گمشدہ ہے۔",
@@ -57,7 +57,8 @@
   "disable-whitelist-solution": "وائٹ لسٹ کو غیر فعال کریں۔",
   "enable-authentication-solution": "آن لائن تصدیق کو قابل بنائیں۔",
   "undefined-mod-dependency-problem": "ایک موڈ میں مطلوبہ وضع غائب ہے {{dependency-mod-name}}",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "آپ کی دنیا اس سے پہلے ایک نئے ورژن پر استعمال ہوتی تھی۔",
+  "version-downgrade-solution": "منی کرافٹ کا ایک نیا ورژن انسٹال کریں۔",
+  "generate-new-world-solution": "ایک نئی دنیا تیار کریں۔",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

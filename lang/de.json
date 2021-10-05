@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "Die Mod {{dependency-mod-name}} fehlt, wovon eine Modifikation abhängig ist.",
   "version-downgrade-problem": "Deine Welt wurde zuvor auf einer neueren Version verwendet.",
   "version-downgrade-solution": "Installiere eine neuere version von Minecraft.",
-  "generate-new-world-solution": "Generiere eine neue Welt."
+  "generate-new-world-solution": "Generiere eine neue Welt.",
+  "bedrock-dbstorage-chain-problem": "Die Welt kann nicht entschlüsselt werden. Marktplatz-Welten können nicht auf dedizierten Servern installiert werden."
 }

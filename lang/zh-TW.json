@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Minecraft 版本",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "Java 版本",
+  "fabric-version": "Fabric Loader 版本",
   "plugin-load-problem": "無法啟用／載入插件 \"{{plugin-name}}\"。",
   "pocketmine-version": "Pocketmine 版本",
   "bedrock-version": "基岩版 版本",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "模組 '{{mod-name}}' 缺少所需的 模組 {{dependency-mod-name}}。",
   "mod-dependency-problem-plural": "模組 '{{mod-name}}' 缺少所需的 模組 {{dependency-mod-list}}。",
   "mod-duplicate-problem": "模組 \"{{mod-name}}\" 有多個模組檔: \"{{first-mod-path}}\" 和 \"{{second-mod-path}}\"。",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "有多個模組檔案使用了相同的名稱 '{{mod-name}} ' 。",
   "mod-exception-problem": "模組'{{mod-name}}'出現異常",
   "mod-fatal-problem": "模組'{{mod-name}}'出現嚴重錯誤",
   "world-missing-mod-problem": "與該世界一同儲存的模組 '{{mod-name}}' 丟失了。",
@@ -47,7 +47,7 @@
   "chunk-load-exception-problem": "載入世界區塊時發生異常。",
   "remove-chunk-solution": "從世界中移除該問題區塊(chunks)，例如使用MCEdit 或刪除區域檔案(region file)",
   "multiverse-load-problem": "無法載入世界 \"{{world-name}}\", 因為它存在錯誤, 並且可能已損壞。",
-  "world-repair-solution": "修復世界 \"{{world-name}}\", 例如, 通過使用 minecraft 區域修復程式或 mcedit。",
+  "world-repair-solution": "修復世界 \"{{world-name}}\"，例如: 通過使用 Minecraft 區域修復程式或 MCEdit。",
   "world-duplicate-problem": "世界 '{{world-name}}' 是另一個世界的副本, 並已被阻止載入。",
   "mod-wrong-minecraft-version-problem": "模組'{{mod-name}}'與Minecraft版本{{minecraft-version}} 不兼容。",
   "forge-install-different-version-solution": "安裝一個不同的 Forge 版本。",
@@ -57,7 +57,8 @@
   "disable-whitelist-solution": "關閉白名單",
   "enable-authentication-solution": "啟用正版驗證",
   "undefined-mod-dependency-problem": "模組缺少所需的模組 {{dependency-mod-name}}。",
-  "version-downgrade-problem": "你的世界曾經在更新的版本開啟過",
-  "version-downgrade-solution": "下載我的世界的最新版本",
-  "generate-new-world-solution": "生成一個新的世界"
+  "version-downgrade-problem": "您的世界曾在更新的版本開啟過。",
+  "version-downgrade-solution": "下載較新版本的 Minecraft。",
+  "generate-new-world-solution": "生成一個新的世界",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

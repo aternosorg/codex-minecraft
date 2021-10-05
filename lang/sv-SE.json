@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Minecraft-version",
   "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "fabric-version": "Fabric-loader version",
   "plugin-load-problem": "Plugin '{{plugin-name}}' kunde inte laddas.",
   "pocketmine-version": "Pocketmine version",
   "bedrock-version": "Bedrock version",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "Mod '{{mod-name}}' är beroende av mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Mod '{{mod-name}}' är beroende av mod {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Det finns flera pluginfiler för plugin namn '{{mod-name}}': '{{first-mod-path}}' och '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Det finns flera modfiler med modnamnet '{{mod-name}}'.",
   "mod-exception-problem": "Ett undantagsfel hände i mod '{{mod-name}}'.",
   "mod-fatal-problem": "Mod '{{mod-name}}' har ett allvarligt fel.",
   "world-missing-mod-problem": "Världen har tidigare sparats med mod '{{mod-name}}' som verkar saknas nu.",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "Ett mod är beroende av {{dependency-mod-name}} för att fungera.",
   "version-downgrade-problem": "Din värld har använts i en nyare version tidigare.",
   "version-downgrade-solution": "Installera en nyare version av Minecraft.",
-  "generate-new-world-solution": "Generera en ny värld."
+  "generate-new-world-solution": "Generera en ny värld.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

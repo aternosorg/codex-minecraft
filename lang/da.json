@@ -1,6 +1,6 @@
 {
   "minecraft-version": "Minecraft version",
-  "java-version": "Java version",
+  "java-version": "Java-version",
   "fabric-version": "Fabric loader version",
   "plugin-load-problem": "Pluginet '{{plugin-name}}' kunne ikke indlæses.",
   "pocketmine-version": "Pocketmine version",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "Mod '{{mod-name}}' mangler den krævede mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Mod '{{mod-name}}' mangler påkrævede mods {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Der er flere mods filer for mod navnet '{{mod-name}}': '{{first-mod-path}}' og '{{second-mod-path}} '.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "der er flere mod filer for det mod navn '{{mod-name}}'.",
   "mod-exception-problem": "Mod '{{mod-name}}' har givet en undtagelse.",
   "mod-fatal-problem": "Mod '{{mod-name}}' har en fatal fejl.",
   "world-missing-mod-problem": "Verden blev gemt med mod '{{mod-name}}', der syntes at mangle.",
@@ -57,7 +57,8 @@
   "disable-whitelist-solution": "Slå whitelisten fra.",
   "enable-authentication-solution": "Slå onlinegodkendelsen til.",
   "undefined-mod-dependency-problem": "En mod mangler den krævede mod '{{dependency-mod-name}}'.",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "Din verden blev brugt på en nyere version.",
+  "version-downgrade-solution": "Installer en nyere version af Minecraft.",
+  "generate-new-world-solution": "Skabe en ny verden\n",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

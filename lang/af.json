@@ -2,7 +2,7 @@
   "minecraft-version": "Minecraft weergawe",
   "java-version": "Java version",
   "fabric-version": "Fabric loader version",
-  "plugin-load-problem": "Die plugin '{{plugin-name}}' kon nie gelaai word nie.",
+  "plugin-load-problem": "Die plugin '{{plugin-name}}' kon nie gelaai word nie",
   "pocketmine-version": "Pocketmine weergawe",
   "bedrock-version": "Bedrock weergawe",
   "forge-version": "Forge weergawe",
@@ -57,7 +57,8 @@
   "disable-whitelist-solution": "Deaktiveer die witlys.",
   "enable-authentication-solution": "Aktiveer die aanlyn-verifikasie.",
   "undefined-mod-dependency-problem": "'N Mod ontbreek die vereiste mod {{dependency-mod-name}}.",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "Jou wêreld is vroeër in 'n nuwer weergawe gebruik.",
+  "version-downgrade-solution": "Installeer 'n nuwer weergawe van Minecraft.",
+  "generate-new-world-solution": "Genereer 'n nuwe wêreld.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

@@ -1,7 +1,7 @@
 {
-  "minecraft-version": "Versioni i Minecraftit",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "minecraft-version": "Minecraft version",
+  "java-version": "إصدار الجافا",
+  "fabric-version": "Versioni Fabric",
   "plugin-load-problem": "Plugin '{{plugin-name}}' nuk mund të ngarkohet.",
   "pocketmine-version": "Versioni për xhep",
   "bedrock-version": "Versioni i shtratit",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "Modifikimi {{mod-name}} i mungon një modifikim i kërkuar {{dependency-mod-name}}",
   "mod-dependency-problem-plural": "Modifikimi {{mod-name}} i mungon një modifikim e kërkuara {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Ka disa skedare mod-i për mod-in '{{mod-name}}': '{{first-mod-path}}' dhe '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Ka shumë skedarë mod për emrin e modit '{{mod-name}}'.",
   "mod-exception-problem": "Mod-i '{{mod-name}}' ka shkaktuar gabime.",
   "mod-fatal-problem": "Mod-i '{{mod-name}}' ka gabime fatale.",
   "world-missing-mod-problem": "Bota është ruajtur me mod-in '{{mod-name}}' qe mungon tani.",
@@ -52,12 +52,13 @@
   "mod-wrong-minecraft-version-problem": "Modifikimi '{{mod-name}}' nuk punon me versioni i Minecraftit {{minecraft-version}}",
   "forge-install-different-version-solution": "Installoni tjëter versionë Forge",
   "malformed-encoding-problem": "Diçka (ndoshta MOTD) përmban kode formatimi të keqformuara.",
-  "change-motd-solution": "Ndryshimi i serverit MOTD.",
+  "change-motd-solution": "Ndryshimi i MOTD server-it.",
   "bedrock-authentication-whitelist-problem": "Përdorim listë i bardhe pa vërtetim ne intërnet nuk lejohet.",
   "disable-whitelist-solution": "çaktivizoj whitelist",
   "enable-authentication-solution": "Aktivizoj vërtetimi ne intërnet.",
   "undefined-mod-dependency-problem": "Një modifikim i mungon modifikimi i kërkuar {{dependency-mod-name}}",
   "version-downgrade-problem": "Bota jote është përdorur në një version më të ri më parë.",
   "version-downgrade-solution": "Instalo versionin e ri të Minecraft",
-  "generate-new-world-solution": "Gjenero një botë të re."
+  "generate-new-world-solution": "Gjenero një botë të re.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

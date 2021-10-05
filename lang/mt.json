@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Versjoni tal-Minecraft",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "Verżjoni Java",
+  "fabric-version": "verżjoni tal-loader Fabric",
   "plugin-load-problem": "Il-plugin '{{plugin-name}}' ma setax jitgħabba.",
   "pocketmine-version": "Verżjoni Pocketmine",
   "bedrock-version": "Verżjoni Bedrock",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "Il-mod '{{mod-name}}' huwa nieqes mill-mod meħtieġ {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Il-mod '{{mod-name}}' huwa nieqes mill-mods meħtieġa {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Hemm bosta fajls mod għall-isem mod '{{mod-name}}': '{{first-mod-path}}' u '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Hemm bosta fajls mod għall-isem mod {{mod-name}}",
   "mod-exception-problem": "Il-mod '{{mod-name}}' tefa 'eċċezzjoni.",
   "mod-fatal-problem": "Il-mod '{{mod-name}}' għandu żball fatali.",
   "world-missing-mod-problem": "Id-dinja ġiet salvata bil-mod '{{mod-name}}' li tidher nieqsa.",
@@ -57,7 +57,8 @@
   "disable-whitelist-solution": "Itfi l-whitelist.",
   "enable-authentication-solution": "Ippermetti l-awtentikazzjoni online.",
   "undefined-mod-dependency-problem": "Mod huwa nieqes mill-mod meħtieġ {{dependency-mod-name}}",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "Id-dinja tiegħek intużat fuq verżjoni aktar ġdida qabel.",
+  "version-downgrade-solution": "Installa verżjoni aktar ġdida ta 'Minecraft.",
+  "generate-new-world-solution": "Iġġenera dinja ġdida.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

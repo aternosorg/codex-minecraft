@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Версія Minecraft\n",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "Версія Java",
+  "fabric-version": "Версія завантажувача Fabric",
   "plugin-load-problem": "Не вдалося завантажити плагін \"{{plugin-name}}\".",
   "pocketmine-version": "Версія Pocketmine",
   "bedrock-version": "Bedrock версія",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "Мод '{{mod-name}}' вимагає для роботи мод {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Мод '{{mod-name}}' потребує для роботи мод(и) {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Виявлено декілька одинакових версій одного й того ж моду: '{{mod-name}}': '{{first-mod-path}}' і '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Є декілька файлів модифікацій для назви моду '{{mod-name}}'.",
   "mod-exception-problem": "Мод '{{mod-name}}' викинув виняток.",
   "mod-fatal-problem": "Мод '{{mod-name}}' має невиправну помилку.",
   "world-missing-mod-problem": "Світ був збережений з модом '{{mod-name}}', який, можливо, відсутній.",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "У моді відсутній необхідний мод {{dependency-mod-name}}",
   "version-downgrade-problem": "Ваш світ використовувався в новішій версії раніше.",
   "version-downgrade-solution": "Встановіть новішу версію Minecraft.",
-  "generate-new-world-solution": "Створити новий світ."
+  "generate-new-world-solution": "Створити новий світ.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

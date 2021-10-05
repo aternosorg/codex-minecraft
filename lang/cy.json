@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Fersiwn Meincrafft",
   "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "fabric-version": "fersiwn llwythwr Fabric",
   "plugin-load-problem": "Ni allwyd llwytho ategyn '{{plugin-name}}'.",
   "pocketmine-version": "Fersiwn Pocketmine",
   "bedrock-version": "Fersiwn Bedrock",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "Mae'r mod '{{mod-name}}' yn colli'r mod gofynnol {{dibyniaeth-mod-enw}}.",
   "mod-dependency-problem-plural": "Mae'r mod '{{mod-name}}' ar goll o'r mods {{dibyniaeth-mod-rhestr}} sy'n ofynnol.",
   "mod-duplicate-problem": "Mae yna ffeiliau mod lluosog ar gyfer yr enw mod '{{mod-name}}': '{{first-mod-path}}' a '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Mae yna ffeiliau mod lluosog ar gyfer enw'r mod '{{mod-name}}'",
   "mod-exception-problem": "Mae'r mod '{{mod-name}}' wedi taflu eithriad.",
   "mod-fatal-problem": "Mae gwall angheuol yn y mod '{{mod-name}}'.",
   "world-missing-mod-problem": "Arbedwyd y byd gyda mod '{{mod-name}}' yr ymddengys ei fod ar goll.",
@@ -57,7 +57,8 @@
   "disable-whitelist-solution": "Analluogi'r rhestr wen",
   "enable-authentication-solution": "Galluogwch y dilysiad ar-lein",
   "undefined-mod-dependency-problem": "Mae mod yn colli'r mod gofynnol {{dibyniaeth-mod-enw}}.",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "Defnyddiwyd eich byd ar fersiwn mwy diweddar o'r blaen.",
+  "version-downgrade-solution": "Gosod fersiwn mwy diweddar o Minecraft.",
+  "generate-new-world-solution": "Cynhyrchu byd newydd.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

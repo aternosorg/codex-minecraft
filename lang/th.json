@@ -1,7 +1,7 @@
 {
   "minecraft-version": "เวอร์ชั่น Minecraft",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "เวอร์ชั้น จาวา",
+  "fabric-version": "เวอร์ชั้น Fabric",
   "plugin-load-problem": "ไม่สามารถโหลดปลั๊กอิน '{{plugin-name}}' ได้",
   "pocketmine-version": "เวอร์ชั่น Pocketmine",
   "bedrock-version": "เวอร์ชั่น Bedrock",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "ไม่พบม็อด '{{mod-name}}' จำเป็นต้องติดตั้งม็อด '{{dependency-mod-name}}'",
   "mod-dependency-problem-plural": "ไม่พบม็อด '{{mod-name}}' จำเป็นต้องติดตั้งม็อด '{{dependency-mod-list}}'",
   "mod-duplicate-problem": "มีไฟล์ม็อดหลายไฟล์ สำหรับม็อด '{{mod-name}}': '{{first-mod-path}}' และ '{{second-mod-path}}'",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "\nมีไฟล์มอดหลายไฟล์สำหรับชื่อมอด {{mod-name}}",
   "mod-exception-problem": "ม็อด '{{mod-name}}' ถูกละเว้น",
   "mod-fatal-problem": "ม็อด '{{mod-name}}' เกิดข้อผิดพลาดร้ายแรง",
   "world-missing-mod-problem": "ม็อด '{{mod-name}}' ที่ปรากฏอยู่ในโลกนี้ จะหายไป",
@@ -57,7 +57,8 @@
   "disable-whitelist-solution": "ปิดใช้งาน Whitelist",
   "enable-authentication-solution": "Enable the online authentication.",
   "undefined-mod-dependency-problem": "ตัวดัดแปลง หายไปจากตัวดัดแปลงที่ต้องการ{{dependency-mod-name}}",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "\nโลกของคุณเคยใช้เวอร์ชันที่ใหม่กว่ามาก่อน",
+  "version-downgrade-solution": "ติดตั้งเวอร์ชั้นมายคราฟ ให้ใหม่กว่านี้",
+  "generate-new-world-solution": "กำลังสร้างโลกใหม่\n",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

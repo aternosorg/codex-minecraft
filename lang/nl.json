@@ -18,7 +18,7 @@
   "mod-dependency-problem": "De mod '{{mod-name}}' mist de vereiste mod {{dependency-mod-name}}'.",
   "mod-dependency-problem-plural": "De mod '{{mod-name}}' mist de vereiste mods {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Er zijn meerdere mod bestanden met de mod-naam '{{mod-name}}':'{{first-mod-path}}' en '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Er zijn meerdere mod bestanden voor de mod naam '{{mod-naam}}'.",
   "mod-exception-problem": "De mod '{{mod-name}}' heeft een uitzondering genegeerd.",
   "mod-fatal-problem": "De mod '{{mod-name}}' heeft een fatale fout.",
   "world-missing-mod-problem": "De wereld was opgeslagen met mod '{{mod-name}}' die lijkt te ontbreken.",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "Een mod mist de vereiste mod {{dependency-mod-name}}.",
   "version-downgrade-problem": "Je wereld is eerder op een nieuwere versie gebruikt.",
   "version-downgrade-solution": "Installeer een nieuwere versie van Minecraft.",
-  "generate-new-world-solution": "Genereer een nieuwe wereld."
+  "generate-new-world-solution": "Genereer een nieuwe wereld.",
+  "bedrock-dbstorage-chain-problem": "Kan de wereld niet decoderen. Marketplace-werelden kunnen niet worden geïnstalleerd op toegewijde servers."
 }

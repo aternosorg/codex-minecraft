@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Versión de Minecraft",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "versión do java",
+  "fabric-version": "versión fabric",
   "plugin-load-problem": "Non foi posíbel cargar o complemento '{{plugin-name}}'.",
   "pocketmine-version": "Versión de Pocketmine",
   "bedrock-version": "Versión de bedrock",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "O mod '{{mod-name}}' falta no mod requirido {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "O mod '{{mod-name}}' falta aos mods requiridos {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Hai varios ficheiros mod para o nome mod '{{mod-name}}': '{{first-mod-path}}' e '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "მრავალჯერადი მოდელის ფაილი არსებობს მოდელის სახელისთვის '{{mod-name}}'.",
   "mod-exception-problem": "O mod '{{mod-name}} lanzou unha excepción.",
   "mod-fatal-problem": "O mod '{{mod-name}}' ten un erro moi grave.",
   "world-missing-mod-problem": "O mundo foi gardado con mod '{{mod-name}}' que parece faltar.",
@@ -57,7 +57,8 @@
   "disable-whitelist-solution": "Desactivar a lista branca.",
   "enable-authentication-solution": "Activar a autenticación en liña.",
   "undefined-mod-dependency-problem": "Un mod falta o mod necesario {{dependency-mod-name}}.",
-  "version-downgrade-problem": "Your world was used on a newer version before.",
-  "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "version-downgrade-problem": "თქვენი სამყარო ადრე იყენებდნენ ახალ ვერსიას.",
+  "version-downgrade-solution": "დააინსტალირეთ Minecraft- ის ახალი ვერსია.",
+  "generate-new-world-solution": "Generate a new world.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

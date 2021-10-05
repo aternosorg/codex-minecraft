@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "Кәрәк модалы модный юҡ {{dependency-mod-исемең}}.",
   "version-downgrade-problem": "Your world was used on a newer version before.",
   "version-downgrade-solution": "Install a newer version of Minecraft.",
-  "generate-new-world-solution": "Generate a new world."
+  "generate-new-world-solution": "Generate a new world.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

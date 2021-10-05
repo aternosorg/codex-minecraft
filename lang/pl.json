@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Wersja Minecrafta",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "Wersja Java",
+  "fabric-version": "wersja ładowania wersji Fabric",
   "plugin-load-problem": "Wtyczka {{plugin-name}}' nie może zostać załadowana.",
   "pocketmine-version": "Wersja Pocketmine",
   "bedrock-version": "Wersja Bedrock",
@@ -10,15 +10,15 @@
   "authme-shutdown-problem": "Wtyczka ''AuthMe' nie może się załadować oraz wyłącza serwer.",
   "pex-config-problem": "Konfiguracja wtyczki 'PermissionsEx' jest nie prawidłowa.",
   "ambiguous-plugin-name-problem": "Istnieje kilka plików dla wtyczki '{{plugin-name}}': '{{first-plugin-path}}' oraz '{{second-plugin-path}}'.",
-  "plugin-dependency-problem": "Do prawidłowego działania wtyczki '{{plugin-name}}' wymagane jest zainstalowanie „{{dependency-plugin-name}}”.",
-  "plugin-disabling-problem": "Nie udało się wyłączyć wtyczki '{{plugin-name}}'.",
+  "plugin-dependency-problem": "Do prawidłowego działania wtyczki '{{plugin-name}}' wymagane jest zainstalowanie wtyczki „{{dependency-plugin-name}}”.",
+  "plugin-disabling-problem": "Wystąpił problem przy wyłączaniu wtyczki '{{plugin-name}}'.",
   "plugin-enabling-problem": "Nie udało się włączyć wtyczki '{{plugin-name}}'.",
   "plugin-runtime-problem": "Wystąpił problem przy próbie uruchomienia wtyczki „{{plugin-name}}”.",
-  "forge-confirm-problem": "Forge wymaga potwierdzenia, aby zastosować zmiany i uruchomić serwer.",
+  "forge-confirm-problem": "Wymagane potwierdzenie dla Forge, aby zastosować zmiany i uruchomić serwer.",
   "mod-dependency-problem": "Modyfikacja '{{mod-name}}' wymaga modyfikacji '{{dependency-mod-name}}' do prawidłowego działania.",
   "mod-dependency-problem-plural": "Modyfikacja „{{mod-name}}” wymaga zainstalowania modyfikacji {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Istnieje kilka plików dla modyfikacji „{{mod-name}}”: „{{first-mod-path}}” oraz „{{second-mod-path}}”.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Istnieje wiele plików modów dla nazwy moda",
   "mod-exception-problem": "Modyfikacja '{{mod-name}}' posiada nieznany błąd.",
   "mod-fatal-problem": "Modyfikacja '{{mod-name}}' posiada nieznany błąd.",
   "world-missing-mod-problem": "Świat został zapisany z modyfikacją '{{mod-name}}'. Której prawdopodobnie nie ma",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "Modyfikacja nie posiada innej modyfikacji która jest wymagana ({{dependency-mod-name}}).",
   "version-downgrade-problem": "Twój świat był używany wcześniej w nowszej wersji.",
   "version-downgrade-solution": "Zainstaluj nowszą wersję Minecrafta.",
-  "generate-new-world-solution": "Wygeneruj nowy świat"
+  "generate-new-world-solution": "Wygeneruj nowy świat",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

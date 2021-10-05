@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Version de Minecraft",
   "java-version": "Version Java",
-  "fabric-version": "Version de Fabric Loader",
+  "fabric-version": "Version du loader Fabric",
   "plugin-load-problem": "Le plugin '{{plugin-name}}' n'a pas pu être chargé.",
   "pocketmine-version": "Version Pocketmine",
   "bedrock-version": "Version de Bedrock",
@@ -13,12 +13,12 @@
   "plugin-dependency-problem": "Le plugin '{{plugin-name}}' a besoin du plugin '{{dependency-plugin-name}}'.",
   "plugin-disabling-problem": "Le plugin '{{plugin-name}}' n'a pas pu être désactivé.",
   "plugin-enabling-problem": "Le plugin '{{plugin-name}}' n'a pas pu être activé.",
-  "plugin-runtime-problem": "Le plugin '{{plugin-name}} ' a rencontré un problème durant son exécution.",
+  "plugin-runtime-problem": "Le plugin '{{plugin-name}} ' a un problème durant son exécution.",
   "forge-confirm-problem": "Forge nécessite votre confirmation pour appliquer les changements et démarrer le serveur.",
   "mod-dependency-problem": "Le mod '{{mod-name}}' a besoin du mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Le mod '{{mod-name}}' à besoin des mods {{dependency-mod-list}} pour fonctionner correctement.",
   "mod-duplicate-problem": "Il y a plusieurs fichiers de mod pour le nom du mod '{{mod-name}}': '{{first-mod-path}}' et '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Il y a plusieurs fichiers de mod pour le mod \"{{mod-name}}\".",
   "mod-exception-problem": "Le mod '{{mod-name}}' a levé une exception.",
   "mod-fatal-problem": "Le mod '{{mod-name}}' a une erreur critique.",
   "world-missing-mod-problem": "Le monde a été sauvegardé avec le mod '{{mod-name}}' qui semble être manquant.",
@@ -54,10 +54,11 @@
   "malformed-encoding-problem": "Quelque chose (surement le MOTD) contiendrait des caractères invalides et / ou mal formés.",
   "change-motd-solution": "Changer le MOTD (texte d'accueil) du serveur.",
   "bedrock-authentication-whitelist-problem": "Utiliser une liste blanche sans authentification en ligne n'est pas autorisée.",
-  "disable-whitelist-solution": "Désactivez la liste blanche.",
+  "disable-whitelist-solution": "Désactiver la liste blanche.",
   "enable-authentication-solution": "Activer l'authentification en ligne.",
   "undefined-mod-dependency-problem": "Un mod nécessite {{dependency-mod-name}} pour fonctionner.",
   "version-downgrade-problem": "Votre monde a déjà été utilisé avec une version plus récente.",
-  "version-downgrade-solution": "Installer une version récente de Minecraft.",
-  "generate-new-world-solution": "Générer un nouveau monde."
+  "version-downgrade-solution": "Installer une version plus récente de Minecraft.",
+  "generate-new-world-solution": "Générer un nouveau monde.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

@@ -1,7 +1,7 @@
 {
-  "minecraft-version": "1.16.1\n",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "minecraft-version": "Phiên bản Minecraft",
+  "java-version": "Phiên bản Java",
+  "fabric-version": "Phiên bản Fabric Loader",
   "plugin-load-problem": "Không thể tải plugin '{{plugin-name}}'.",
   "pocketmine-version": "Phiên bản Pocketmine",
   "bedrock-version": "Phiên bản Bedrock",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "Mod '{{mod-name}}' thiếu mod {{dependency-mod-name}} được yêu cầu.",
   "mod-dependency-problem-plural": "Mod '{{mod-name}}' thiếu mod yêu cầu {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Có nhiều tệp plugin cho plugin tên '{{mod-name}}': '{{first-mod-path}}' và '{{second-mod-path}} '.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Có nhiều mod cho tên mod '{{mod-name}}'.",
   "mod-exception-problem": "Mod '{{mod-name}}' đã bị đưa ra một ngoại lệ.",
   "mod-fatal-problem": "Mod '{{mod-name}}' gặp một lỗi nghiêm trọng.",
   "world-missing-mod-problem": "Thế giới đã được lưu với mod '{{mod-name}}' hiện đang bị thiếu.",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "Một mod đang bị'thiếu mod {{dependency-mod-name}} được yêu cầu.",
   "version-downgrade-problem": "Thế giới của bạn đã được sử dụng trên phiên bản mới hơn trước đây.",
   "version-downgrade-solution": "Cài đặt phiên bản Minecraft mới hơn.",
-  "generate-new-world-solution": "Tạo thế giới mới."
+  "generate-new-world-solution": "Tạo thế giới mới.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

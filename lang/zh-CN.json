@@ -1,13 +1,13 @@
 {
   "minecraft-version": "Minecraft 版本",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "Java 版本",
+  "fabric-version": "Fabric 加载器版本",
   "plugin-load-problem": "这个插件 '{{plugin-name}}' '无法被加载。",
   "pocketmine-version": "PE 版",
   "bedrock-version": "基岩版",
   "forge-version": "Forge 版本",
   "magma-version": "Magma 版本",
-  "authme-shutdown-problem": "登录插件无法加载，服务器已关闭。",
+  "authme-shutdown-problem": "插件 \"AuthMe\" 无法加载，服务器已关闭。",
   "pex-config-problem": "插件 \"PermissionsEx\" 的配置无效。",
   "ambiguous-plugin-name-problem": "插件名称 \"{{plugin-name}}\" 有多个插件文件: \"{{first-plugin-path}}\" 和 \"{{second-plugin-path}}\"。",
   "plugin-dependency-problem": "插件 \"{{plugin-name}}\" 缺少所需的前置插件 \"{{dependency-plugin-name}}\"。",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "模组 '{{mod-name}}' 缺失所需的前置 mod {{dependency-mod-name}}。",
   "mod-dependency-problem-plural": "模组 '{{mod-name}}' 缺失所需的一些前置 mod {{dependency-mod-list}}。",
   "mod-duplicate-problem": "模组名称 \"{{mod-name}}\" 有多个模组档: \"{{first-mod-path}}\" 和 \"{{second-mod-path}}\"。",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "模组名称 '{{mod-name}} ' 有多个模组文件。",
   "mod-exception-problem": "模组 '{{mod-name}}' 发生错误。",
   "mod-fatal-problem": "模组 '{{mod-name}}' 出现了一个致命错误。",
   "world-missing-mod-problem": "和世界共同被保存的模组{{mod-name}} 丢失。",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "缺失所需的前置 依赖模组 {{dependency-mod-name}}。",
   "version-downgrade-problem": "你的世界之前曾被用于较新的版本",
   "version-downgrade-solution": "安装一个新的我的世界版本",
-  "generate-new-world-solution": "创造新世界"
+  "generate-new-world-solution": "创造新世界",
+  "bedrock-dbstorage-chain-problem": "无法解密世界。来自市场的世界是无法在服务器上使用的。"
 }

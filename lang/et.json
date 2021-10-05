@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Minecrafti versioon",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "Java versioon",
+  "fabric-version": "Fabric Loaderi versioon",
   "plugin-load-problem": "Pluginat '{{plugin-name}}' ei saa laadida.",
   "pocketmine-version": "Pocketmine versioon",
   "bedrock-version": "Bedrock versioon",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "Moodil '{{mod-name}}' puudub vajalik mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Moodil '{{mod-name}}' puuduvad vajalikud moodid {{dependency-mod-list}}.",
   "mod-duplicate-problem": "On mitu modi faili modi nime '{{mod-name}}': '{{first-mod-path}}' ja '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "On mitu mod faili modi nimega {{mod-name}}.",
   "mod-exception-problem": "Mod '{{mod-name}}' on visanud erandi.",
   "mod-fatal-problem": "Modil '{{mod-name}}' on suur viga.",
   "world-missing-mod-problem": "See maailm salvestati modiga '{{mod-name}}' mis on kadunud.",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "Moodil puudub vajalik mood {{dependency-mod-name}}.",
   "version-downgrade-problem": "Teie maailma kasutati varem uuemas versioonis.",
   "version-downgrade-solution": "Installige Minecrafti uuem versioon.",
-  "generate-new-world-solution": "Looge uus maailm."
+  "generate-new-world-solution": "Looge uus maailm.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

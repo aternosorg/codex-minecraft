@@ -18,7 +18,7 @@
   "mod-dependency-problem": "Moden {{mod-name}} mangler den påkrevde moden {{dependency-mod-name}} for å lastes.",
   "mod-dependency-problem-plural": "Modden '{{mod-name}}' mangler de følgende påkrevde moddene: {{dependency-mod-list}}; for å lastes.",
   "mod-duplicate-problem": "Det eksisterer flere pluginfiler for pluginen ved navn: {{mod-name}}: {{first-mod-path}}} og {{second-mod-path}}.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Det er flere mod-filer med navnet '{{mod-name}}'.",
   "mod-exception-problem": "Moden {{mod-name}} har fått et unntak.",
   "mod-fatal-problem": "Moden {{mod-name}} fikk en fatal feil.",
   "world-missing-mod-problem": "Verdenen ble lagret med moden {{mod-name}}, som ser ut til å mangle.",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "En mod mangler den påkrevde modden {{dependency-mod-name}}.",
   "version-downgrade-problem": "Verdenen din er brukt på en nyere versjon før.",
   "version-downgrade-solution": "Installer en nyere versjon av Minecraft.",
-  "generate-new-world-solution": "Generer en ny verden"
+  "generate-new-world-solution": "Generer en ny verden",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

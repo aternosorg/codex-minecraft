@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Minecraft 버전",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "Java 버전",
+  "fabric-version": "Fabric 로더 버전",
   "plugin-load-problem": "'{{plugin-name}}' 플러그인을 불러올 수 없습니다.",
   "pocketmine-version": "Pocketmine 버전",
   "bedrock-version": "Bedrock 버전",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "'{{mod-name}}' 모드를 실행하려면 {{dependency-mod-name}} 모드가 필요합니다.",
   "mod-dependency-problem-plural": "'{{mod-name}}' 모드를 실행하려면 {{dependency-mod-list}} 모드가 필요합니다.",
   "mod-duplicate-problem": "'{{mod-name}}' 모드가 '{{first-mod-path}}' (와) 과 '{{second-mod-path}}' 에 중복 적용되어 있습니다.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "'{{mod-name}}' 모드에 필요한 모드 파일이 중복되었습니다.",
   "mod-exception-problem": "'{{mod-name}}' 모드는 예외 처리되었습니다.",
   "mod-fatal-problem": "'{{mod-name}}' 모드에는 오류가 있습니다.",
   "world-missing-mod-problem": "월드가 삭제된 모드 '{{mod-name}}'(와)과 함께 저장되었습니다.",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "해당 모드에 필요한 {{dependency-mod-name}} 모드가 존재하지 않습니다.",
   "version-downgrade-problem": "당신의 월드는 상위 버전에서 사용되었습니다.",
   "version-downgrade-solution": "상위 버전의 Minecraft를 설치하세요.",
-  "generate-new-world-solution": "새로운 세계를 만드세요."
+  "generate-new-world-solution": "새로운 세계를 만드세요.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Versió de Minecraft",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "Versió de Java",
+  "fabric-version": "Versió de carregador de tela",
   "plugin-load-problem": "El plugin '{{plugin-name}}' no s'ha pogut carregar.",
   "pocketmine-version": "Versió del Pocketmine",
   "bedrock-version": "Versió de Bedrock",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "El mod '{{mod-name}}' necessita un altre mod anomenat {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "El mod '{{mod-name}}' necessita uns altres mods anomenats {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Hi ha múltiples arxius del mod '{{mod-name}}': '{{first-mod-path}}' i '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Hi ha diversos fitxers de modificacions per al nom de modificació {{mod-name}}",
   "mod-exception-problem": "El mod '{{mod-name}}' ha fet una excepció.",
   "mod-fatal-problem": "El mod '{{mod-name}}' té un error important.",
   "world-missing-mod-problem": "El món s'ha desat amb el mod '{{mod-name}}' que semblava estar absent.",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "A un mod li falta el mod {{dependency-mod-name}}.",
   "version-downgrade-problem": "El teu món s'ha utilitzat en una versió més nova anteriorment.",
   "version-downgrade-solution": "Instal·lar una versió més nova del Minecraft.",
-  "generate-new-world-solution": "Generar un nou món."
+  "generate-new-world-solution": "Generar un nou món.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

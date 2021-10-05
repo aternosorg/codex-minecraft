@@ -1,7 +1,7 @@
 {
   "minecraft-version": "verze Minecraftu",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "Verze Javy",
+  "fabric-version": "Verze Fabric loaderu",
   "plugin-load-problem": "Plugin '{{plugin-name}}' nemohl být načten.",
   "pocketmine-version": "Pocketmine verze",
   "bedrock-version": "Bedrock verze",
@@ -18,7 +18,7 @@
   "mod-dependency-problem": "Módu '{{mod-name}}' chybí požadovaný mód {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "Módu '{{mod-name}}' chybí požadované módy {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Existuje více souborů pro mód se jménem '{{mod-name}}': '{{first-mod-path}}' a '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Existuje více souborů módu pro název '{{mod-name}}'",
   "mod-exception-problem": "Mód '{{mod-name}}' udělal výjimku.",
   "mod-fatal-problem": "Mod '{{mod-name}}' má kritickou chybu.",
   "world-missing-mod-problem": "Svět byl uložen s módem '{{mod-name}}', který vypadá, že chybí.",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "Chybí požadovaný mód {{dependency-mod-name}}.",
   "version-downgrade-problem": "Váš svět byl dříve použit na novějši verzi",
   "version-downgrade-solution": "Nainstalujte novější verzi Minecraftu",
-  "generate-new-world-solution": "Vygenerovat nový svět"
+  "generate-new-world-solution": "Vygenerovat nový svět",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }

@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Minecraft Верси",
-  "java-version": "Java version",
-  "fabric-version": "Fabric loader version",
+  "java-version": "Java верси",
+  "fabric-version": "Версийы байдзагæнæг уæфтагтæ",
   "plugin-load-problem": "Плагин '{{plugin-name}}' чи зоны нæй æвгæнын.",
   "pocketmine-version": "Pocketmine Верси",
   "bedrock-version": "Bedrock Верси",
@@ -16,9 +16,9 @@
   "plugin-runtime-problem": "Плагин '{{plugin-name}}' проблемæ куысты рæстæгмæ.",
   "forge-confirm-problem": "Forge домын бæлвырдгæнæнджы сымах, цæмæй сбæззын ивынад æмæ сервер фехсын.",
   "mod-dependency-problem": "Мод '{{mod-name}}' æнæмæнгхъæугæ мод æнæруад {{dependency-mod-name}}.",
-  "mod-dependency-problem-plural": "Мод '{{mod-name}}' æнæмæнгхъæугæ мод æнæруад {{dependency-mod-list}}.",
+  "mod-dependency-problem-plural": "Мод '{{mod-name}}' æнæмæнгхъæугæ модытæ æнæруад {{dependency-mod-list}}.",
   "mod-duplicate-problem": "Модæй номæн ис файлы цалдæр мод '{{mod-name}}': '{{first-mod-path}}' æмæ '{{second-mod-path}}'.",
-  "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
+  "mod-duplicate-problem-no-path": "Цалдæр уын файлы модæн ном '{{mod-name}}'.",
   "mod-exception-problem": "Мод '{{mod-name}}' ацухкæнын фæсид.",
   "mod-fatal-problem": "Мод '{{mod-name}}' адзалон ошибкæ ис.\n",
   "world-missing-mod-problem": "Дуней тас мод æххуысимæ '{{mod-name}}' кæцы æнæфаг æнгæс.",
@@ -59,5 +59,6 @@
   "undefined-mod-dependency-problem": "Модæй уын нæ æнæмæнгхъæугæ мод {{dependency-mod-name}}.",
   "version-downgrade-problem": "Дæ дуне спайда версийы ногдæр.",
   "version-downgrade-solution": "Равæрдæр Minecraft ног верси.",
-  "generate-new-world-solution": "Ног дунейы сфæлдис."
+  "generate-new-world-solution": "Ног дунейы сфæлдис.",
+  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
 }
