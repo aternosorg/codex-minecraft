@@ -1,0 +1,6 @@
+NO LOG FILE! - setting up server logging...
+[2021-10-22 15:14:07:643 INFO] Starting Server
+[2021-10-22 15:14:07:644 INFO] Version **.**.**.**
+[2021-10-22 15:14:07:644 INFO] Session ID 40c11d92-4fcf-4494-9820-5c5433fa5c9e
+[2021-10-22 15:14:07:645 ERROR] Using a whitelist but without online authentication can be dangerous and is not allowed.
+Quit correctly
