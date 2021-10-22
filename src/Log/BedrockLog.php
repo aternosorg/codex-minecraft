@@ -13,7 +13,7 @@ use Aternos\Codex\Parser\ParserInterface;
  */
 class BedrockLog extends MinecraftServerLog
 {
-    protected static $pattern = '/^(\[((?:[0-9]{2,4}-?){3} (?:[0-9]{2}\:?){3}) (\w+)\]).*$/';
+    protected static $pattern = '/^(\[((?:[0-9]{2,4}-?){3} (?:[0-9]{2,3}\:?){3,4}) (\w+)\]).*$/';
 
     /**
      * @return ParserInterface
