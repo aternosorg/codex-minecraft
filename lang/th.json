@@ -60,5 +60,5 @@
   "version-downgrade-problem": "\nโลกของคุณเคยใช้เวอร์ชันที่ใหม่กว่ามาก่อน",
   "version-downgrade-solution": "ติดตั้งเวอร์ชั้นมายคราฟ ให้ใหม่กว่านี้",
   "generate-new-world-solution": "กำลังสร้างโลกใหม่\n",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "ไม่สามารถถอดรหัสโลกได้ ไม่สามารถติดตั้ง โลกของตลาด บนเซิร์ฟเวอร์เฉพาะได้"
 }

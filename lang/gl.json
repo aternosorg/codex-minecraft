@@ -59,6 +59,6 @@
   "undefined-mod-dependency-problem": "Un mod falta o mod necesario {{dependency-mod-name}}.",
   "version-downgrade-problem": "თქვენი სამყარო ადრე იყენებდნენ ახალ ვერსიას.",
   "version-downgrade-solution": "დააინსტალირეთ Minecraft- ის ახალი ვერსია.",
-  "generate-new-world-solution": "Generate a new world.",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "generate-new-world-solution": "Xerar un novo mundo",
+  "bedrock-dbstorage-chain-problem": "Non se pode descifrar o mundo. Os mundos do mercado non se poden instalar en servidores dedicados."
 }

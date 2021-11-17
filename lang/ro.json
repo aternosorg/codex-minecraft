@@ -60,5 +60,5 @@
   "version-downgrade-problem": "Lumea ta a fost folosită cu o versiune mai nouă înainte.",
   "version-downgrade-solution": "Instalează o versiune mai nouă a Minecraft-ului.",
   "generate-new-world-solution": "Generează o lume nouă.",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "Imposibil de decriptat lumea. Lumile Marketplace-ului nu pot fi instalate pe servere dedicate."
 }

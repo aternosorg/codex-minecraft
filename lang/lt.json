@@ -60,5 +60,5 @@
   "version-downgrade-problem": "Jūsų pasaulis anksčiau buvo naudotas naujesnioje versijoje .",
   "version-downgrade-solution": "Instaliuokite naujesnę Minecraft versiją.",
   "generate-new-world-solution": "Generuoti naują pasaulį.",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "Neįmanoma iššifruoti šio pasaulio. Prekyviečių pasauliai negali būti įdiegti tam skirtuose serveriuose."
 }

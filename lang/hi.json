@@ -60,5 +60,5 @@
   "version-downgrade-problem": "आपके वॉर्ल्ड को पहले एक नए संस्करण में उपयोग किया गया था",
   "version-downgrade-solution": "खेल का एक नया संस्करण स्थापित करें",
   "generate-new-world-solution": "एक नई दुनिया पैदा करें",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "दुनिया को डिक्रिप्ट करने में असमर्थ। बाज़ार की दुनिया को समर्पित सर्वर पर स्थापित नहीं किया जा सकता है।"
 }

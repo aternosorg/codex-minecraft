@@ -1,7 +1,7 @@
 {
   "minecraft-version": "Versione di Minecraft",
-  "java-version": "Versione di Java",
-  "fabric-version": "Versione di Fabric loader",
+  "java-version": "Versione Java",
+  "fabric-version": "Versione Fabric loader",
   "plugin-load-problem": "Non è stato possibile caricare il plugin '{{plugin-name}}'.",
   "pocketmine-version": "Versione per dispositivi Android",
   "bedrock-version": "Versione Bedrock",
@@ -17,12 +17,12 @@
   "forge-confirm-problem": "Forge richiede la tua conferma per applicare le modifiche e avviare il server.",
   "mod-dependency-problem": "Nella mod '{{mod-name}}' manca la mod richiesta '{{dependency-mod-name}}'.",
   "mod-dependency-problem-plural": "Nella mod '{{mod-name}}' mancano le mod richieste: '{{dependency-mod-list}}'.",
-  "mod-duplicate-problem": "Ci sono multipli nomi uguali per la mod: '{{mod-name}}': '{{first-mod-path}}' e '{{second-mod-path}}'.",
+  "mod-duplicate-problem": "Ci sono multeplici nomi uguali per la mod: '{{mod-name}}': '{{first-mod-path}}' e '{{second-mod-path}}'.",
   "mod-duplicate-problem-no-path": "Ci sono più file identici della mod chiamata '{{mod-name}}'.",
   "mod-exception-problem": "La mod '{{mod-name}}' ha generato un'eccezione.",
   "mod-fatal-problem": "La mod '{{mod-name}}' ha generato un errore fatale",
   "world-missing-mod-problem": "Il mondo è stato salvato con mod la '{{mod-name}}' che sembra mancare.",
-  "world-mod-version-problem": "Questo mondo è stato salvato con mod '{{mod-name}}' versione {{mod-expected-version}} ed è ora alla versione {{mod-current-version}}.",
+  "world-mod-version-problem": "Questo mondo è stato salvato con la mod '{{mod-name}}' versione {{mod-expected-version}} ed è ora alla versione {{mod-current-version}}.",
   "plugin-incompatible-problem": "Il plugin '{{plugin-name}}' non è compatibile con la versione del software scelto.",
   "aquatic-world-on-older-version-problem": "Il mondo attuale è stato creato/caricato con Minecraft 1.13 o successivo. Il nuovo formato non può essere caricato in nessuna versione precedente.",
   "old-player-directory-problem": "Il server ha rilevato una vecchia cartella del giocatore nel salvataggio del mondo.",
@@ -60,5 +60,5 @@
   "version-downgrade-problem": "Il mondo è stato precedentemente usato con una versione più recente.",
   "version-downgrade-solution": "Installa una versione di Minecraft più recente.",
   "generate-new-world-solution": "Crea un nuovo mondo.",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "Impossible decrittografare il mondo. I mondi del Marketplace non possono essere installati su server dedicati."
 }

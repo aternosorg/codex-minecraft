@@ -60,5 +60,5 @@
   "version-downgrade-problem": "Thế giới của bạn đã được sử dụng trên phiên bản mới hơn trước đây.",
   "version-downgrade-solution": "Cài đặt phiên bản Minecraft mới hơn.",
   "generate-new-world-solution": "Tạo thế giới mới.",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "Không thể giải mã thế giới. Thế giới thương trường không thể được tải về trên những máy chủ tận tụy."
 }

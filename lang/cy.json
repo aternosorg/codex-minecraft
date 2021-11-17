@@ -60,5 +60,5 @@
   "version-downgrade-problem": "Defnyddiwyd eich byd ar fersiwn mwy diweddar o'r blaen.",
   "version-downgrade-solution": "Gosod fersiwn mwy diweddar o Minecraft.",
   "generate-new-world-solution": "Cynhyrchu byd newydd.",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "Methu dadgryptio byd. Ni ellir gosod bydoedd marchnad ar weinyddion pwrpasol."
 }

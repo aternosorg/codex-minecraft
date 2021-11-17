@@ -2,7 +2,7 @@
   "minecraft-version": "Minecraft verzió",
   "java-version": "Java verzió",
   "fabric-version": "Fabric loader verzió",
-  "plugin-load-problem": "Nem lehet betölteni a {{plugin-name}} plugint.",
+  "plugin-load-problem": "A plugin '{{plugin-name}}' nem lehet betölteni.",
   "pocketmine-version": "Pocketmine verzió",
   "bedrock-version": "Bedrock verzió",
   "forge-version": "Forge verzió",
@@ -60,5 +60,5 @@
   "version-downgrade-problem": "A világod egy újabb verzióban volt korábban.",
   "version-downgrade-solution": "Telepítse a Minecraft újabb verzióját.",
   "generate-new-world-solution": "Hozzlétre egy új világot",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "Nem sikerült dekódolni a világot. A Marketplace világok nem telepíthetők dedikált szervereken."
 }

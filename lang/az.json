@@ -60,5 +60,5 @@
   "version-downgrade-problem": "Dünyanız əvvəllər daha yeni bir versiyada istifadə edilib",
   "version-downgrade-solution": "Minecraft-ın son versiyasını quraşdırın.",
   "generate-new-world-solution": "Yeni bir dünya yaradın.",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "Dünyanın şifrəsi açıla bilmir. Marketplace dünyaları xüsusi serverlərdə quraşdırıla bilməz."
 }

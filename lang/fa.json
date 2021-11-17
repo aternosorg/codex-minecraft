@@ -60,5 +60,5 @@
   "version-downgrade-problem": "دنیای شما قبلا در ورژن بالاتری استفاده شده است.",
   "version-downgrade-solution": "ورژن جدیدتری از ماینکرفت را نصب کنید.",
   "generate-new-world-solution": "ایجاد یک دنیای جدید.",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "رمزگشایی جهان امکان پذیر نیست. جهان‌های بازار را نمی‌توان روی سرورهای اختصاصی نصب کرد."
 }

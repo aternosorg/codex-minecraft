@@ -60,5 +60,5 @@
   "version-downgrade-problem": "당신의 월드는 상위 버전에서 사용되었습니다.",
   "version-downgrade-solution": "상위 버전의 Minecraft를 설치하세요.",
   "generate-new-world-solution": "새로운 세계를 만드세요.",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "세계를 복호화할 수 없습니다. 마켓플레이스 세계는 데디케이트 서버에 설치될 수 없습니다."
 }

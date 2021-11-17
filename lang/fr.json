@@ -60,5 +60,5 @@
   "version-downgrade-problem": "Votre monde a déjà été utilisé avec une version plus récente.",
   "version-downgrade-solution": "Installer une version plus récente de Minecraft.",
   "generate-new-world-solution": "Générer un nouveau monde.",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "Impossible de décrypter le monde. Les mondes provenant du marché ne peuvent pas être installés sur des serveurs dédiés. "
 }

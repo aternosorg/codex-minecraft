@@ -60,5 +60,5 @@
   "version-downgrade-problem": "تم استخدام عالمك على إصدار أحدث من قبل.",
   "version-downgrade-solution": "تثبيت نسخة أحدث من ماين كرافت.",
   "generate-new-world-solution": "إنشاء عالم جديد.",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "غير قادر على فك تشفير العالم. لا يمكن تثبيت عوالم المتجر على الخوادم."
 }

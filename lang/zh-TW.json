@@ -60,5 +60,5 @@
   "version-downgrade-problem": "您的世界曾在更新的版本開啟過。",
   "version-downgrade-solution": "下載較新版本的 Minecraft。",
   "generate-new-world-solution": "生成一個新的世界",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "無法解鎖世界。來自市場的世界是無法在伺服器上使用的。"
 }

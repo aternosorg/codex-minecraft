@@ -5,7 +5,7 @@
   "plugin-load-problem": "El plugin '{{plugin-name}}' no se pudo cargar correctamente.",
   "pocketmine-version": "Versión de PocketMine-MP\n\n",
   "bedrock-version": "Versión de Bedrock",
-  "forge-version": "forge-version",
+  "forge-version": "Versión de Forge",
   "magma-version": "Versión de Magma",
   "authme-shutdown-problem": "El plugin 'AuthMe' falló al cargar y ha cerrado el servidor.",
   "pex-config-problem": "La configuración de la extensión 'PermissionsEx' es inválida.",
@@ -60,5 +60,5 @@
   "version-downgrade-problem": "Tu mundo fue usado en una versión más reciente antes.",
   "version-downgrade-solution": "Instalar una nueva versión de Minecraft.",
   "generate-new-world-solution": "Generar un nuevo mundo",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "No se ha podido desencriptar el mundo. Los mundos de la Marketplace no pueden ser instalados en servidores dedicados."
 }

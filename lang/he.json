@@ -60,5 +60,5 @@
   "version-downgrade-problem": "העולם שלך שומש פעם בגרסה חדשה יותר.",
   "version-downgrade-solution": "התקן גרסה חדשה יותר של מיינקראפט.",
   "generate-new-world-solution": "ליצור עולם חדש.",
-  "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers."
+  "bedrock-dbstorage-chain-problem": "השרת לא הצליח לפענח את העולם. לא ניתן להתקין עולמות מ-Marketplace בשרתים ייעודיים."
 }
