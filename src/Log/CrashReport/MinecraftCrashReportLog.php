@@ -26,4 +26,9 @@ class MinecraftCrashReportLog extends MinecraftLog implements DetectableLogInter
     {
         return (new CrashReportParser());
     }
+
+    public function getSoftware(): string
+    {
+        return "Minecraft";
+    }
 }

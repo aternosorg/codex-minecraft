@@ -1,11 +1,11 @@
 <?php
 
-class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
+class Forge1165Test extends PHPUnit\Framework\TestCase
 {
     public function testParseAndAnalyse()
     {
         date_default_timezone_set('UTC');
-        $logFile = new \Aternos\Codex\Log\File\PathLogFile(__DIR__ . "/../../../data/crash-reports/forge-crash-report.log");
+        $logFile = new \Aternos\Codex\Log\File\PathLogFile(__DIR__ . "/../../../data/crash-reports/forge-1165.log");
         $detective = new \Aternos\Codex\Minecraft\Detective\Detective();
         $detective->setLogFile($logFile);
         $log = $detective->detect();
@@ -41,13 +41,13 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 
+                                    [text:protected] => // But it works on my machine.
                                     [number:protected] => 2
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => COMMENT
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
@@ -59,25 +59,25 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => WARNING: coremods are present:
+                                    [text:protected] => 
                                     [number:protected] => 3
                                 )
 
                         )
 
-                    [level:protected] => WARN
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => Time:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] =>   llibrary (llibrary-1.7.7-1.10.2.jar)
+                                    [text:protected] => Time: 2/2/22 12:16 AM
                                     [number:protected] => 4
                                 )
 
@@ -90,12 +90,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => Description:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] =>   IceAndFireForgeLoading (iceandfire-1.0.1.jar)
+                                    [text:protected] => Description: Ticking entity
                                     [number:protected] => 5
                                 )
 
@@ -113,7 +113,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] =>   IvToolkit (IvToolkit-1.3.3-1.10.jar)
+                                    [text:protected] => 
                                     [number:protected] => 6
                                 )
 
@@ -131,13 +131,13 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => Contact their authors BEFORE contacting forge
+                                    [text:protected] => java.lang.RuntimeException: Attempted to load class net/minecraft/server/integrated/IntegratedServer for invalid dist DEDICATED_SERVER
                                     [number:protected] => 7
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
@@ -149,13 +149,13 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 
+                                    [text:protected] => 	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:71) ~[forge.jar:36.2] {}
                                     [number:protected] => 8
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
@@ -167,13 +167,13 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => // I blame Dinnerbone.
+                                    [text:protected] => 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.0.9.jar:?] {}
                                     [number:protected] => 9
                                 )
 
                         )
 
-                    [level:protected] => COMMENT
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
@@ -185,49 +185,49 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 
+                                    [text:protected] => 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.0.9.jar:?] {}
                                     [number:protected] => 10
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Time:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => Time: 2/3/22 8:45 PM
+                                    [text:protected] => 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.0.9.jar:?] {}
                                     [number:protected] => 11
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Description:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => Description: Ticking entity
+                                    [text:protected] => 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.0.9.jar:?] {re:classloading}
                                     [number:protected] => 12
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
@@ -239,13 +239,13 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 
+                                    [text:protected] => 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.0.9.jar:?] {re:classloading}
                                     [number:protected] => 13
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
@@ -257,7 +257,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => java.lang.NullPointerException: Ticking entity
+                                    [text:protected] => 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_292] {}
                                     [number:protected] => 14
                                 )
 
@@ -275,7 +275,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraftforge.common.BiomeDictionary.containsType(BiomeDictionary.java:440)
+                                    [text:protected] => 	at net.silentchaos512.scalinghealth.event.DifficultyEvents.onLivingUpdate(DifficultyEvents.java:81) ~[scalinghealth:4.1.3+9] {re:classloading}
                                     [number:protected] => 15
                                 )
 
@@ -293,7 +293,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraftforge.common.BiomeDictionary.isBiomeOfType(BiomeDictionary.java:261)
+                                    [text:protected] => 	at net.minecraftforge.eventbus.ASMEventHandler_98_DifficultyEvents_onLivingUpdate_LivingUpdateEvent.invoke(.dynamic) ~[?:?] {}
                                     [number:protected] => 16
                                 )
 
@@ -311,7 +311,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at com.ferreusveritas.dynamictrees.util.CompatHelper.biomeHasType(CompatHelper.java:51)
+                                    [text:protected] => 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-4.0.0.jar:?] {}
                                     [number:protected] => 17
                                 )
 
@@ -329,7 +329,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at com.ferreusveritas.dynamictrees.trees.TreeSpruce$SpeciesSpruce.isBiomePerfect(TreeSpruce.java:51)
+                                    [text:protected] => 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
                                     [number:protected] => 18
                                 )
 
@@ -347,7 +347,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at com.ferreusveritas.dynamictrees.trees.Species.biomeSuitability(Species.java:735)
+                                    [text:protected] => 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
                                     [number:protected] => 19
                                 )
 
@@ -365,7 +365,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at com.ferreusveritas.dynamictrees.items.Seed.onEntityItemUpdate(Seed.java:63)
+                                    [text:protected] => 	at net.minecraftforge.common.ForgeHooks.onLivingUpdate(ForgeHooks.java:340) ~[forge:?] {re:classloading}
                                     [number:protected] => 20
                                 )
 
@@ -383,7 +383,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.entity.item.EntityItem.func_70071_h_(EntityItem.java:91)
+                                    [text:protected] => 	at net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:2112) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:cgm.mixins.json:common.LivingEntityMixin,pl:mixin:A,pl:runtimedistcleaner:A}
                                     [number:protected] => 21
                                 )
 
@@ -401,7 +401,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.world.World.func_72866_a(World.java:1967)
+                                    [text:protected] => 	at net.minecraft.entity.MobEntity.func_70071_h_(MobEntity.java:300) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
                                     [number:protected] => 22
                                 )
 
@@ -419,7 +419,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:839)
+                                    [text:protected] => 	at net.minecraft.entity.monster.ZombieEntity.func_70071_h_(ZombieEntity.java:205) ~[?:?] {re:classloading}
                                     [number:protected] => 23
                                 )
 
@@ -437,7 +437,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.world.World.func_72870_g(World.java:1937)
+                                    [text:protected] => 	at net.minecraft.world.server.ServerWorld.func_217479_a(ServerWorld.java:611) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
                                     [number:protected] => 24
                                 )
 
@@ -455,7 +455,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.world.World.func_72939_s(World.java:1750)
+                                    [text:protected] => 	at net.minecraft.world.World.func_217390_a(World.java:554) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
                                     [number:protected] => 25
                                 )
 
@@ -473,7 +473,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:620)
+                                    [text:protected] => 	at net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:404) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
                                     [number:protected] => 26
                                 )
 
@@ -491,7 +491,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709)
+                                    [text:protected] => 	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:851) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
                                     [number:protected] => 27
                                 )
 
@@ -509,7 +509,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387)
+                                    [text:protected] => 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291) ~[?:?] {re:classloading,pl:accesstransformer:B}
                                     [number:protected] => 28
                                 )
 
@@ -527,7 +527,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613)
+                                    [text:protected] => 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
                                     [number:protected] => 29
                                 )
 
@@ -545,7 +545,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471)
+                                    [text:protected] => 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
                                     [number:protected] => 30
                                 )
 
@@ -563,7 +563,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at java.lang.Thread.run(Thread.java:748)
+                                    [text:protected] => 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
                                     [number:protected] => 31
                                 )
 
@@ -581,13 +581,13 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 
+                                    [text:protected] => 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292] {}
                                     [number:protected] => 32
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
@@ -617,7 +617,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => A detailed walkthrough of the error, its code path and all known details is as follows:
+                                    [text:protected] => 
                                     [number:protected] => 34
                                 )
 
@@ -635,7 +635,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => ---------------------------------------------------------------------------------------
+                                    [text:protected] => A detailed walkthrough of the error, its code path and all known details is as follows:
                                     [number:protected] => 35
                                 )
 
@@ -653,7 +653,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 
+                                    [text:protected] => ---------------------------------------------------------------------------------------
                                     [number:protected] => 36
                                 )
 
@@ -671,26 +671,8 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => -- Head --
+                                    [text:protected] => 
                                     [number:protected] => 37
-                                )
-
-                        )
-
-                    [level:protected] => TITLE
-                    [time:protected] => 
-                    [iterator:protected] => 0
-                )
-
-            [37] => Aternos\Codex\Minecraft\Log\Entry Object
-                (
-                    [prefix:protected] => Thread:
-                    [lines:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Log\Line Object
-                                (
-                                    [text:protected] => Thread: Server thread
-                                    [number:protected] => 38
                                 )
 
                         )
@@ -700,14 +682,32 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                     [iterator:protected] => 0
                 )
 
-            [38] => Aternos\Codex\Minecraft\Log\Entry Object
+            [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Stacktrace:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => Stacktrace:
+                                    [text:protected] => -- Head --
+                                    [number:protected] => 38
+                                )
+
+                        )
+
+                    [level:protected] => TITLE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [38] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => Thread:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => Thread: Server thread
                                     [number:protected] => 39
                                 )
 
@@ -720,18 +720,18 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [39] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => Stacktrace:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraftforge.common.BiomeDictionary.containsType(BiomeDictionary.java:440)
+                                    [text:protected] => Stacktrace:
                                     [number:protected] => 40
                                 )
 
                         )
 
-                    [level:protected] => STACKTRACE
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
@@ -743,7 +743,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraftforge.common.BiomeDictionary.isBiomeOfType(BiomeDictionary.java:261)
+                                    [text:protected] => 	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:71) ~[forge.jar:36.2] {}
                                     [number:protected] => 41
                                 )
 
@@ -761,7 +761,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at com.ferreusveritas.dynamictrees.util.CompatHelper.biomeHasType(CompatHelper.java:51)
+                                    [text:protected] => 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.0.9.jar:?] {}
                                     [number:protected] => 42
                                 )
 
@@ -779,7 +779,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at com.ferreusveritas.dynamictrees.trees.TreeSpruce$SpeciesSpruce.isBiomePerfect(TreeSpruce.java:51)
+                                    [text:protected] => 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.0.9.jar:?] {}
                                     [number:protected] => 43
                                 )
 
@@ -797,7 +797,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at com.ferreusveritas.dynamictrees.trees.Species.biomeSuitability(Species.java:735)
+                                    [text:protected] => 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.0.9.jar:?] {}
                                     [number:protected] => 44
                                 )
 
@@ -815,7 +815,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at com.ferreusveritas.dynamictrees.items.Seed.onEntityItemUpdate(Seed.java:63)
+                                    [text:protected] => 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.0.9.jar:?] {re:classloading}
                                     [number:protected] => 45
                                 )
 
@@ -833,7 +833,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.entity.item.EntityItem.func_70071_h_(EntityItem.java:91)
+                                    [text:protected] => 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.0.9.jar:?] {re:classloading}
                                     [number:protected] => 46
                                 )
 
@@ -851,7 +851,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.world.World.func_72866_a(World.java:1967)
+                                    [text:protected] => 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_292] {}
                                     [number:protected] => 47
                                 )
 
@@ -869,7 +869,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:839)
+                                    [text:protected] => 	at net.silentchaos512.scalinghealth.event.DifficultyEvents.onLivingUpdate(DifficultyEvents.java:81) ~[scalinghealth:4.1.3+9] {re:classloading}
                                     [number:protected] => 48
                                 )
 
@@ -887,7 +887,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.world.World.func_72870_g(World.java:1937)
+                                    [text:protected] => 	at net.minecraftforge.eventbus.ASMEventHandler_98_DifficultyEvents_onLivingUpdate_LivingUpdateEvent.invoke(.dynamic) ~[?:?] {}
                                     [number:protected] => 49
                                 )
 
@@ -905,13 +905,13 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 
+                                    [text:protected] => 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-4.0.0.jar:?] {}
                                     [number:protected] => 50
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
@@ -923,8 +923,134 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => -- Entity being ticked --
+                                    [text:protected] => 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
                                     [number:protected] => 51
+                                )
+
+                        )
+
+                    [level:protected] => STACKTRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [51] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+                                    [number:protected] => 52
+                                )
+
+                        )
+
+                    [level:protected] => STACKTRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [52] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 	at net.minecraftforge.common.ForgeHooks.onLivingUpdate(ForgeHooks.java:340) ~[forge:?] {re:classloading}
+                                    [number:protected] => 53
+                                )
+
+                        )
+
+                    [level:protected] => STACKTRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [53] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 	at net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:2112) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:cgm.mixins.json:common.LivingEntityMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+                                    [number:protected] => 54
+                                )
+
+                        )
+
+                    [level:protected] => STACKTRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [54] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 	at net.minecraft.entity.MobEntity.func_70071_h_(MobEntity.java:300) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+                                    [number:protected] => 55
+                                )
+
+                        )
+
+                    [level:protected] => STACKTRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [55] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 	at net.minecraft.entity.monster.ZombieEntity.func_70071_h_(ZombieEntity.java:205) ~[?:?] {re:classloading}
+                                    [number:protected] => 56
+                                )
+
+                        )
+
+                    [level:protected] => STACKTRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [56] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 	at net.minecraft.world.server.ServerWorld.func_217479_a(ServerWorld.java:611) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
+                                    [number:protected] => 57
+                                )
+
+                        )
+
+                    [level:protected] => STACKTRACE
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [57] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => -- Entity being ticked --
+                                    [number:protected] => 58
                                 )
 
                         )
@@ -934,7 +1060,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                     [iterator:protected] => 0
                 )
 
-            [51] => Aternos\Codex\Minecraft\Log\Entry Object
+            [58] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
                     [prefix:protected] => Details:
                     [lines:protected] => Array
@@ -942,132 +1068,6 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                             [0] => Aternos\Codex\Log\Line Object
                                 (
                                     [text:protected] => Details:
-                                    [number:protected] => 52
-                                )
-
-                        )
-
-                    [level:protected] => INFO
-                    [time:protected] => 
-                    [iterator:protected] => 0
-                )
-
-            [52] => Aternos\Codex\Minecraft\Log\Entry Object
-                (
-                    [prefix:protected] => 	Entity Type:
-                    [lines:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Log\Line Object
-                                (
-                                    [text:protected] => 	Entity Type: Item (net.minecraft.entity.item.EntityItem)
-                                    [number:protected] => 53
-                                )
-
-                        )
-
-                    [level:protected] => INFO
-                    [time:protected] => 
-                    [iterator:protected] => 0
-                )
-
-            [53] => Aternos\Codex\Minecraft\Log\Entry Object
-                (
-                    [prefix:protected] => 	Entity ID:
-                    [lines:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Log\Line Object
-                                (
-                                    [text:protected] => 	Entity ID: 85
-                                    [number:protected] => 54
-                                )
-
-                        )
-
-                    [level:protected] => INFO
-                    [time:protected] => 
-                    [iterator:protected] => 0
-                )
-
-            [54] => Aternos\Codex\Minecraft\Log\Entry Object
-                (
-                    [prefix:protected] => 	Entity Name:
-                    [lines:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Log\Line Object
-                                (
-                                    [text:protected] => 	Entity Name: item.item.spruceseed
-                                    [number:protected] => 55
-                                )
-
-                        )
-
-                    [level:protected] => INFO
-                    [time:protected] => 
-                    [iterator:protected] => 0
-                )
-
-            [55] => Aternos\Codex\Minecraft\Log\Entry Object
-                (
-                    [prefix:protected] => 	Entity\'s Exact location:
-                    [lines:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Log\Line Object
-                                (
-                                    [text:protected] => 	Entity\'s Exact location: -37.80, 106.00, 82.88
-                                    [number:protected] => 56
-                                )
-
-                        )
-
-                    [level:protected] => INFO
-                    [time:protected] => 
-                    [iterator:protected] => 0
-                )
-
-            [56] => Aternos\Codex\Minecraft\Log\Entry Object
-                (
-                    [prefix:protected] => 	Entity\'s Block location:
-                    [lines:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Log\Line Object
-                                (
-                                    [text:protected] => 	Entity\'s Block location: World: (-38,106,82), Chunk: (at 10,6,2 in -3,5; contains blocks -48,0,80 to -33,255,95), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
-                                    [number:protected] => 57
-                                )
-
-                        )
-
-                    [level:protected] => INFO
-                    [time:protected] => 
-                    [iterator:protected] => 0
-                )
-
-            [57] => Aternos\Codex\Minecraft\Log\Entry Object
-                (
-                    [prefix:protected] => 	Entity\'s Momentum:
-                    [lines:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Log\Line Object
-                                (
-                                    [text:protected] => 	Entity\'s Momentum: 0.00, -0.00, 0.00
-                                    [number:protected] => 58
-                                )
-
-                        )
-
-                    [level:protected] => INFO
-                    [time:protected] => 
-                    [iterator:protected] => 0
-                )
-
-            [58] => Aternos\Codex\Minecraft\Log\Entry Object
-                (
-                    [prefix:protected] => 	Entity\'s Passengers:
-                    [lines:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Log\Line Object
-                                (
-                                    [text:protected] => 	Entity\'s Passengers: []
                                     [number:protected] => 59
                                 )
 
@@ -1080,12 +1080,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [59] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Entity\'s Vehicle:
+                    [prefix:protected] => 	Entity Type:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Entity\'s Vehicle: ~~ERROR~~ NullPointerException: null
+                                    [text:protected] => 	Entity Type: minecraft:drowned (net.minecraft.entity.monster.DrownedEntity)
                                     [number:protected] => 60
                                 )
 
@@ -1098,12 +1098,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [60] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Stacktrace:
+                    [prefix:protected] => 	Entity ID:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => Stacktrace:
+                                    [text:protected] => 	Entity ID: 26
                                     [number:protected] => 61
                                 )
 
@@ -1116,48 +1116,48 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [61] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Entity Name:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.world.World.func_72939_s(World.java:1750)
+                                    [text:protected] => 	Entity Name: Drowned
                                     [number:protected] => 62
                                 )
 
                         )
 
-                    [level:protected] => STACKTRACE
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [62] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Entity\'s Exact location:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:620)
+                                    [text:protected] => 	Entity\'s Exact location: 78.50, 50.00, 50.50
                                     [number:protected] => 63
                                 )
 
                         )
 
-                    [level:protected] => STACKTRACE
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [63] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Entity\'s Block location:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 
+                                    [text:protected] => 	Entity\'s Block location: World: (78,50,50), Chunk: (at 14,3,2 in 4,3; contains blocks 64,0,48 to 79,255,63), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
                                     [number:protected] => 64
                                 )
 
@@ -1170,30 +1170,30 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [64] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Entity\'s Momentum:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => -- Affected level --
+                                    [text:protected] => 	Entity\'s Momentum: 0.00, 0.00, 0.00
                                     [number:protected] => 65
                                 )
 
                         )
 
-                    [level:protected] => TITLE
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [65] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Details:
+                    [prefix:protected] => 	Entity\'s Passengers:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => Details:
+                                    [text:protected] => 	Entity\'s Passengers: []
                                     [number:protected] => 66
                                 )
 
@@ -1206,12 +1206,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [66] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level name:
+                    [prefix:protected] => 	Entity\'s Vehicle:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Level name: world
+                                    [text:protected] => 	Entity\'s Vehicle: ~~ERROR~~ NullPointerException: null
                                     [number:protected] => 67
                                 )
 
@@ -1224,12 +1224,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [67] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	All players:
+                    [prefix:protected] => Stacktrace:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	All players: 1 total; [EntityPlayerMP[\'HabipErsz\'/291, l=\'world\', x=-2.36, y=97.00, z=88.37]]
+                                    [text:protected] => Stacktrace:
                                     [number:protected] => 68
                                 )
 
@@ -1242,48 +1242,48 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [68] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Chunk stats:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Chunk stats: ServerChunkCache: 283 Drop: 0
+                                    [text:protected] => 	at net.minecraft.world.World.func_217390_a(World.java:554) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
                                     [number:protected] => 69
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [69] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level seed:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Level seed: 6012911767305697032
+                                    [text:protected] => 	at net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:404) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
                                     [number:protected] => 70
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [70] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level generator:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Level generator: ID 06 - OTG, ver 0. Features enabled: true
+                                    [text:protected] => 
                                     [number:protected] => 71
                                 )
 
@@ -1296,12 +1296,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [71] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level generator options:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Level generator options: OpenTerrainGenerator
+                                    [text:protected] => 
                                     [number:protected] => 72
                                 )
 
@@ -1314,30 +1314,30 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [72] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level spawn location:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Level spawn location: World: (24,52,60), Chunk: (at 8,3,12 in 1,3; contains blocks 16,0,48 to 31,255,63), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+                                    [text:protected] => -- Affected level --
                                     [number:protected] => 73
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => TITLE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [73] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level time:
+                    [prefix:protected] => Details:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Level time: 12814 game time, 12814 day time
+                                    [text:protected] => Details:
                                     [number:protected] => 74
                                 )
 
@@ -1350,12 +1350,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [74] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level dimension:
+                    [prefix:protected] => 	All players:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Level dimension: 0
+                                    [text:protected] => 	All players: 0 total; []
                                     [number:protected] => 75
                                 )
 
@@ -1368,12 +1368,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [75] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level storage version:
+                    [prefix:protected] => 	Chunk stats:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Level storage version: 0x04ABD - Anvil
+                                    [text:protected] => 	Chunk stats: ServerChunkCache: 2025
                                     [number:protected] => 76
                                 )
 
@@ -1386,12 +1386,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [76] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level weather:
+                    [prefix:protected] => 	Level dimension:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Level weather: Rain time: 1994 (now: false), thunder time: 47112 (now: false)
+                                    [text:protected] => 	Level dimension: minecraft:overworld
                                     [number:protected] => 77
                                 )
 
@@ -1404,12 +1404,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [77] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level game mode:
+                    [prefix:protected] => 	Level spawn location:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: true
+                                    [text:protected] => 	Level spawn location: World: (0,66,45), Chunk: (at 0,4,13 in 0,2; contains blocks 0,0,32 to 15,255,47), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
                                     [number:protected] => 78
                                 )
 
@@ -1422,12 +1422,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [78] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Stacktrace:
+                    [prefix:protected] => 	Level time:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => Stacktrace:
+                                    [text:protected] => 	Level time: 1 game time, 1 day time
                                     [number:protected] => 79
                                 )
 
@@ -1440,102 +1440,102 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [79] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Level name:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709)
+                                    [text:protected] => 	Level name: world
                                     [number:protected] => 80
                                 )
 
                         )
 
-                    [level:protected] => STACKTRACE
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [80] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Level game mode:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387)
+                                    [text:protected] => 	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
                                     [number:protected] => 81
                                 )
 
                         )
 
-                    [level:protected] => STACKTRACE
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [81] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Level weather:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613)
+                                    [text:protected] => 	Level weather: Rain time: 92823 (now: false), thunder time: 162309 (now: false)
                                     [number:protected] => 82
                                 )
 
                         )
 
-                    [level:protected] => STACKTRACE
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [82] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Known server brands:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471)
+                                    [text:protected] => 	Known server brands: forge
                                     [number:protected] => 83
                                 )
 
                         )
 
-                    [level:protected] => STACKTRACE
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [83] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Level was modded:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	at java.lang.Thread.run(Thread.java:748)
+                                    [text:protected] => 	Level was modded: true
                                     [number:protected] => 84
                                 )
 
                         )
 
-                    [level:protected] => STACKTRACE
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [84] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Level storage version:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 
+                                    [text:protected] => 	Level storage version: 0x04ABD - Anvil
                                     [number:protected] => 85
                                 )
 
@@ -1548,138 +1548,138 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [85] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => Stacktrace:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => -- System Details --
+                                    [text:protected] => Stacktrace:
                                     [number:protected] => 86
                                 )
 
                         )
 
-                    [level:protected] => TITLE
+                    [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [86] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Details:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => Details:
+                                    [text:protected] => 	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:851) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
                                     [number:protected] => 87
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [87] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Minecraft Version:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Minecraft Version: 1.10.2
+                                    [text:protected] => 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291) ~[?:?] {re:classloading,pl:accesstransformer:B}
                                     [number:protected] => 88
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [88] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Operating System:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Operating System: Linux (amd64) version 5.4.0-91-generic
+                                    [text:protected] => 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
                                     [number:protected] => 89
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [89] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Java Version:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Java Version: 1.8.0_292, Oracle Corporation
+                                    [text:protected] => 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
                                     [number:protected] => 90
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [90] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Java VM Version:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+                                    [text:protected] => 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
                                     [number:protected] => 91
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [91] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Memory:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Memory: 822822056 bytes (784 MB) / 1903165440 bytes (1815 MB) up to 1903165440 bytes (1815 MB)
+                                    [text:protected] => 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292] {}
                                     [number:protected] => 92
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [92] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	JVM Flags:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	JVM Flags: 3 total; -XX:MaxMetaspaceSize=200M -Xmx1900M -Xms950M
+                                    [text:protected] => 
                                     [number:protected] => 93
                                 )
 
@@ -1692,12 +1692,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [93] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	IntCache:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+                                    [text:protected] => 
                                     [number:protected] => 94
                                 )
 
@@ -1710,30 +1710,30 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [94] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	FML:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	FML: MCP 9.32 Powered by Forge 12.18.3.2511 23 mods loaded, 23 mods active
+                                    [text:protected] => -- System Details --
                                     [number:protected] => 95
                                 )
 
                         )
 
-                    [level:protected] => INFO
+                    [level:protected] => TITLE
                     [time:protected] => 
                     [iterator:protected] => 0
                 )
 
             [95] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	States:
+                    [prefix:protected] => Details:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	States: \'U\' = Unloaded \'L\' = Loaded \'C\' = Constructed \'H\' = Pre-initialized \'I\' = Initialized \'J\' = Post-initialized \'A\' = Available \'D\' = Disabled \'E\' = Errored
+                                    [text:protected] => Details:
                                     [number:protected] => 96
                                 )
 
@@ -1746,12 +1746,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [96] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Minecraft Version:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar)
+                                    [text:protected] => 	Minecraft Version: 1.16.5
                                     [number:protected] => 97
                                 )
 
@@ -1764,12 +1764,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [97] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Minecraft Version ID:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	FML{**.**.**.**} [Forge Mod Loader] (forge.jar)
+                                    [text:protected] => 	Minecraft Version ID: 1.16.5
                                     [number:protected] => 98
                                 )
 
@@ -1782,12 +1782,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [98] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Operating System:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	Forge{12.18.3.2511} [Minecraft Forge] (forge.jar)
+                                    [text:protected] => 	Operating System: Linux (amd64) version 5.4.0-91-generic
                                     [number:protected] => 99
                                 )
 
@@ -1800,12 +1800,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [99] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Java Version:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	ivtoolkit{1.3.3-1.10} [IvToolkit] (minecraft.jar)
+                                    [text:protected] => 	Java Version: 1.8.0_292, Oracle Corporation
                                     [number:protected] => 100
                                 )
 
@@ -1818,12 +1818,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [100] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Java VM Version:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	openterraingenerator{v20} [Open Terrain Generator] (OpenTerrainGenerator-1.10.2-v21.jar)
+                                    [text:protected] => 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
                                     [number:protected] => 101
                                 )
 
@@ -1836,12 +1836,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [101] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Memory:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	biomebundle{5.1} [Biome Bundle] (Biome_Bundle-1.10.2-v5.1.jar)
+                                    [text:protected] => 	Memory: 1424844888 bytes (1358 MB) / 2354577408 bytes (2245 MB) up to 2354577408 bytes (2245 MB)
                                     [number:protected] => 102
                                 )
 
@@ -1854,12 +1854,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [102] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	CPUs:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	blockarmor{2.4.11} [Block Armor] (BlockArmor-1.10.2-2.4.11.jar)
+                                    [text:protected] => 	CPUs: 3
                                     [number:protected] => 103
                                 )
 
@@ -1872,12 +1872,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [103] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	JVM Flags:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	carryon{1.9.1} [Carry On] (CarryOn MC1.10.2 v1.9.1.jar)
+                                    [text:protected] => 	JVM Flags: 3 total; -XX:MaxMetaspaceSize=200M -Xmx2300M -Xms1150M
                                     [number:protected] => 104
                                 )
 
@@ -1890,12 +1890,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [104] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	ModLauncher:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	compatlayer{0.3.1} [compatlayer] (compatlayer-1.10-0.3.1.jar)
+                                    [text:protected] => 	ModLauncher: 8.0.9+86+master.3cf110c
                                     [number:protected] => 105
                                 )
 
@@ -1908,12 +1908,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [105] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	ModLauncher launch target:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	dynamictrees{1.10.2-0.7.4} [Dynamic Trees] (DynamicTrees-1.10.2-0.7.4.jar)
+                                    [text:protected] => 	ModLauncher launch target: fmlserver
                                     [number:protected] => 106
                                 )
 
@@ -1926,12 +1926,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [106] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	ModLauncher naming:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	wizardry{2.1.2} [Electroblob\'s Wizardry] (Electroblob\'s Wizardry - 2.1.2 - MC 1.10.2.jar)
+                                    [text:protected] => 	ModLauncher naming: srg
                                     [number:protected] => 107
                                 )
 
@@ -1944,12 +1944,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [107] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	ModLauncher services:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	Waila{1.8.17-B31_1.10.2} [Waila] (Hwyla-1.8.17-B31_1.10.2.jar)
+                                    [text:protected] => 	ModLauncher services:
                                     [number:protected] => 108
                                 )
 
@@ -1967,7 +1967,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	llibrary{1.7.7} [LLibrary] (llibrary-1.7.7-1.10.2.jar)
+                                    [text:protected] => 		/mixin-0.8.4.jar mixin PLUGINSERVICE
                                     [number:protected] => 109
                                 )
 
@@ -1985,7 +1985,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	iceandfire{1.0.1} [Ice and Fire] (iceandfire-1.0.1.jar)
+                                    [text:protected] => 		/eventbus-4.0.0.jar eventbus PLUGINSERVICE
                                     [number:protected] => 110
                                 )
 
@@ -2003,7 +2003,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	JEI{**.**.**.**} [Just Enough Items] (jei_1.10.2-3.14.7.420.jar)
+                                    [text:protected] => 		/forge.jar object_holder_definalize PLUGINSERVICE
                                     [number:protected] => 111
                                 )
 
@@ -2021,7 +2021,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	journeymap{1.10.2-5.5.2} [JourneyMap] (journeymap-1.10.2-5.5.2.jar)
+                                    [text:protected] => 		/forge.jar runtime_enum_extender PLUGINSERVICE
                                     [number:protected] => 112
                                 )
 
@@ -2039,7 +2039,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	lootbags{2.5.0} [Loot Bags] (LootBags-1.10.2-2.5.0.jar)
+                                    [text:protected] => 		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE
                                     [number:protected] => 113
                                 )
 
@@ -2057,7 +2057,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	notenoughwands{1.5.5} [Not Enough Wands] (notenoughwands-1.1x-1.5.5.jar)
+                                    [text:protected] => 		/forge.jar capability_inject_definalize PLUGINSERVICE
                                     [number:protected] => 114
                                 )
 
@@ -2075,7 +2075,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	ProjectE{1.10.2-PE1.3.1} [ProjectE] (ProjectE-1.10.2-PE1.3.1.jar)
+                                    [text:protected] => 		/forge.jar runtimedistcleaner PLUGINSERVICE
                                     [number:protected] => 115
                                 )
 
@@ -2093,7 +2093,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	roguelike{1.5.9} [Roguelike Dungeons] (RoguelikeDungeons-1.10.2-1.5.9.jar)
+                                    [text:protected] => 		/mixin-0.8.4.jar mixin TRANSFORMATIONSERVICE
                                     [number:protected] => 116
                                 )
 
@@ -2111,7 +2111,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	tp{1.2.5} [Tiny Progressions] (tinyprogressions-1.10.2-1.2.6.jar)
+                                    [text:protected] => 		/forge.jar fml TRANSFORMATIONSERVICE
                                     [number:protected] => 117
                                 )
 
@@ -2124,12 +2124,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [117] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	FML:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	VeinMiner{0.38.2_1.9-127e28f} [Vein Miner] (VeinMiner-1.9-0.38.2.624+127e28f.jar)
+                                    [text:protected] => 	FML: 36.2
                                     [number:protected] => 118
                                 )
 
@@ -2142,12 +2142,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [118] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Forge:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	UCHIJAAAA	VeinMinerModSupport{0.38.2_1.9-127e28f} [Mod Support] (VeinMiner-1.9-0.38.2.624+127e28f.jar)
+                                    [text:protected] => 	Forge: net.minecraftforge:36.2.20
                                     [number:protected] => 119
                                 )
 
@@ -2160,12 +2160,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [119] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Loaded coremods (and transformers):
+                    [prefix:protected] => 	FML Language Providers:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Loaded coremods (and transformers):
+                                    [text:protected] => 	FML Language Providers:
                                     [number:protected] => 120
                                 )
 
@@ -2183,7 +2183,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => llibrary (llibrary-1.7.7-1.10.2.jar)
+                                    [text:protected] => 		javafml@36.2
                                     [number:protected] => 121
                                 )
 
@@ -2201,7 +2201,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] =>   net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+                                    [text:protected] => 		minecraft@1
                                     [number:protected] => 122
                                 )
 
@@ -2214,12 +2214,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [122] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
+                    [prefix:protected] => 	Mod List:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] =>   net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+                                    [text:protected] => 	Mod List:
                                     [number:protected] => 123
                                 )
 
@@ -2237,7 +2237,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => IceAndFireForgeLoading (iceandfire-1.0.1.jar)
+                                    [text:protected] => 		forge-1.16.5-36.2.20-server.jar                   |Minecraft                     |minecraft                     |1.16.5              |DONE      |Manifest: NOSIGNATURE
                                     [number:protected] => 124
                                 )
 
@@ -2255,7 +2255,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] =>   com.github.alexthe666.iceandfire.access.IceAndFireTransformer
+                                    [text:protected] => 		YungsApi-1.16.4-Forge-6.jar                       |YUNG\'s API                    |yungsapi                      |1.16.4-Forge-6      |DONE      |Manifest: NOSIGNATURE
                                     [number:protected] => 125
                                 )
 
@@ -2273,7 +2273,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => IvToolkit (IvToolkit-1.3.3-1.10.jar)
+                                    [text:protected] => 		useful_backpacks-1.16.5-1.12.1.90.jar             |Useful Backpacks              |usefulbackpacks               |**.**.**.**           |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****
                                     [number:protected] => 126
                                 )
 
@@ -2291,7 +2291,7 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 
+                                    [text:protected] => 		obfuscate-0.6.2-1.16.3.jar                        |Obfuscate                     |obfuscate                     |0.6.2               |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****
                                     [number:protected] => 127
                                 )
 
@@ -2304,12 +2304,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [127] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Profiler Position:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Profiler Position: N/A (disabled)
+                                    [text:protected] => 		u_team_core-1.16.5-3.2.1.196.jar                  |U Team Core                   |uteamcore                     |**.**.**.**           |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****
                                     [number:protected] => 128
                                 )
 
@@ -2322,12 +2322,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [128] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Player Count:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Player Count: 1 / 20; [EntityPlayerMP[\'HabipErsz\'/291, l=\'world\', x=-2.36, y=97.00, z=88.37]]
+                                    [text:protected] => 		silent-lib-1.16.3-4.9.6.jar                       |Silent Lib                    |silentlib                     |4.9.6               |DONE      |Manifest: NOSIGNATURE
                                     [number:protected] => 129
                                 )
 
@@ -2340,12 +2340,12 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [129] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Is Modded:
+                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => 	Is Modded: Definitely; Server brand changed to \'fml,forge\'
+                                    [text:protected] => 		cgm-1.0.1-1.16.3.jar                              |MrCrayfish\'s Gun Mod          |cgm                           |1.0.1               |DONE      |Manifest: NOSIGNATURE
                                     [number:protected] => 130
                                 )
 
@@ -2358,13 +2358,373 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
             [130] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		BiomesOPlenty-1.16.5-13.1.0.477-universal.jar     |Biomes O\' Plenty              |biomesoplenty                 |1.16.5-13.1.0.477   |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 131
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [131] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		cfm-7.0.0pre22-1.16.3.jar                         |MrCrayfish\'s Furniture Mod    |cfm                           |7.0.0-pre22         |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 132
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [132] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		CreativeCore_v2.2.1_mc1.16.5.jar                  |CreativeCore                  |creativecore                  |2.0.0               |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 133
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [133] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		mcw-furniture-2.0.1-mc1.16.5.jar                  |Macaw\'s Furniture             |mcwfurnitures                 |2.0.1               |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 134
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [134] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		Hwyla-forge-1.10.11-B78_1.16.2.jar                |Waila                         |waila                         |1.10.11-B78_1.16.2  |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 135
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [135] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		jei-1.16.5-7.7.1.145.jar                          |Just Enough Items             |jei                           |**.**.**.**           |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 136
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [136] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		towers_of_the_wild-1.16.4-2.0.1.jar               |Towers Of The Wild            |towers_of_the_wild            |1.16.4-2.0.1        |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 137
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [137] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		EyesInTheDarkness-1.16.5-1.0.6.jar                |Eyes in the Darkness          |eyesinthedarkness             |1.0.6               |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 138
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [138] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		MedievalCraft-1.16.5-1.16.2.jar                   |Medieval craft                |medieval_craft                |1.14.4              |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 139
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [139] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		forge-1.16.5-36.2.20-universal.jar                |Forge                         |forge                         |36.2.20             |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****
+                                    [number:protected] => 140
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [140] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		ScalingHealth-1.16.5-4.1.3+9.jar                  |Scaling Health                |scalinghealth                 |4.1.3+9             |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 141
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [141] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		SpartanShields-1.16.5-2.1.2.jar                   |Spartan Shields               |spartanshields                |2.1.2               |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 142
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [142] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		BetterMineshafts-Forge-1.16.4-2.0.3.jar           |YUNG\'s Better Mineshafts      |bettermineshafts              |1.16.4-2.0.3        |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 143
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [143] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		BetterCaves-Forge-1.16.4-1.1.2.jar                |YUNG\'s Better Caves           |bettercaves                   |1.16.4-1.1.2        |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 144
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [144] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		Xaeros_Minimap_22.1.2_Forge_1.16.5.jar            |Xaero\'s Minimap               |xaerominimap                  |22.1.2              |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 145
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [145] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 		corpse-1.16.5-1.0.6.jar                           |Corpse                        |corpse                        |1.16.5-1.0.6        |DONE      |Manifest: NOSIGNATURE
+                                    [number:protected] => 146
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [146] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 	Crash Report UUID:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 	Crash Report UUID: cfe6d998-1be7-48cd-bfc5-1542683bfaa1
+                                    [number:protected] => 147
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [147] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 	Player Count:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 	Player Count: 0 / 20; []
+                                    [number:protected] => 148
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [148] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 	Data Packs:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 	Data Packs: vanilla, mod:yungsapi, mod:usefulbackpacks, mod:obfuscate (incompatible), mod:uteamcore, mod:silentlib (incompatible), mod:cgm (incompatible), mod:biomesoplenty, mod:cfm (incompatible), mod:creativecore, mod:mcwfurnitures, mod:waila, mod:jei, mod:towers_of_the_wild, mod:eyesinthedarkness (incompatible), mod:medieval_craft, mod:forge, mod:scalinghealth, mod:spartanshields, mod:bettermineshafts, mod:bettercaves (incompatible), mod:xaerominimap, mod:corpse
+                                    [number:protected] => 149
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [149] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
+                    [prefix:protected] => 	Is Modded:
+                    [lines:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Log\Line Object
+                                (
+                                    [text:protected] => 	Is Modded: Definitely; Server brand changed to \'forge\'
+                                    [number:protected] => 150
+                                )
+
+                        )
+
+                    [level:protected] => INFO
+                    [time:protected] => 
+                    [iterator:protected] => 0
+                )
+
+            [150] => Aternos\Codex\Minecraft\Log\Entry Object
+                (
                     [prefix:protected] => 	Type:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
                                     [text:protected] => 	Type: Dedicated Server (map_server.txt)
-                                    [number:protected] => 131
+                                    [number:protected] => 151
                                 )
 
                         )
@@ -2376,40 +2736,41 @@ class ForgeCrashReportTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 131
+    [iterator:protected] => 151
     [logFile:protected] => Aternos\Codex\Log\File\PathLogFile Object
         (
             [content:protected] => ---- Minecraft Crash Report ----
+// But it works on my machine.
 
-WARNING: coremods are present:
-  llibrary (llibrary-1.7.7-1.10.2.jar)
-  IceAndFireForgeLoading (iceandfire-1.0.1.jar)
-  IvToolkit (IvToolkit-1.3.3-1.10.jar)
-Contact their authors BEFORE contacting forge
-
-// I blame Dinnerbone.
-
-Time: 2/3/22 8:45 PM
+Time: 2/2/22 12:16 AM
 Description: Ticking entity
 
-java.lang.NullPointerException: Ticking entity
-	at net.minecraftforge.common.BiomeDictionary.containsType(BiomeDictionary.java:440)
-	at net.minecraftforge.common.BiomeDictionary.isBiomeOfType(BiomeDictionary.java:261)
-	at com.ferreusveritas.dynamictrees.util.CompatHelper.biomeHasType(CompatHelper.java:51)
-	at com.ferreusveritas.dynamictrees.trees.TreeSpruce$SpeciesSpruce.isBiomePerfect(TreeSpruce.java:51)
-	at com.ferreusveritas.dynamictrees.trees.Species.biomeSuitability(Species.java:735)
-	at com.ferreusveritas.dynamictrees.items.Seed.onEntityItemUpdate(Seed.java:63)
-	at net.minecraft.entity.item.EntityItem.func_70071_h_(EntityItem.java:91)
-	at net.minecraft.world.World.func_72866_a(World.java:1967)
-	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:839)
-	at net.minecraft.world.World.func_72870_g(World.java:1937)
-	at net.minecraft.world.World.func_72939_s(World.java:1750)
-	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:620)
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709)
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387)
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613)
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471)
-	at java.lang.Thread.run(Thread.java:748)
+java.lang.RuntimeException: Attempted to load class net/minecraft/server/integrated/IntegratedServer for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:71) ~[forge.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.0.9.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.0.9.jar:?] {re:classloading}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_292] {}
+	at net.silentchaos512.scalinghealth.event.DifficultyEvents.onLivingUpdate(DifficultyEvents.java:81) ~[scalinghealth:4.1.3+9] {re:classloading}
+	at net.minecraftforge.eventbus.ASMEventHandler_98_DifficultyEvents_onLivingUpdate_LivingUpdateEvent.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.common.ForgeHooks.onLivingUpdate(ForgeHooks.java:340) ~[forge:?] {re:classloading}
+	at net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:2112) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:cgm.mixins.json:common.LivingEntityMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.MobEntity.func_70071_h_(MobEntity.java:300) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.monster.ZombieEntity.func_70071_h_(ZombieEntity.java:205) ~[?:?] {re:classloading}
+	at net.minecraft.world.server.ServerWorld.func_217479_a(ServerWorld.java:611) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.world.World.func_217390_a(World.java:554) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:404) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:851) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292] {}
 
 
 A detailed walkthrough of the error, its code path and all known details is as follows:
@@ -2418,97 +2779,116 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Thread: Server thread
 Stacktrace:
-	at net.minecraftforge.common.BiomeDictionary.containsType(BiomeDictionary.java:440)
-	at net.minecraftforge.common.BiomeDictionary.isBiomeOfType(BiomeDictionary.java:261)
-	at com.ferreusveritas.dynamictrees.util.CompatHelper.biomeHasType(CompatHelper.java:51)
-	at com.ferreusveritas.dynamictrees.trees.TreeSpruce$SpeciesSpruce.isBiomePerfect(TreeSpruce.java:51)
-	at com.ferreusveritas.dynamictrees.trees.Species.biomeSuitability(Species.java:735)
-	at com.ferreusveritas.dynamictrees.items.Seed.onEntityItemUpdate(Seed.java:63)
-	at net.minecraft.entity.item.EntityItem.func_70071_h_(EntityItem.java:91)
-	at net.minecraft.world.World.func_72866_a(World.java:1967)
-	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:839)
-	at net.minecraft.world.World.func_72870_g(World.java:1937)
-
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:71) ~[forge.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.0.9.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.0.9.jar:?] {re:classloading}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_292] {}
+	at net.silentchaos512.scalinghealth.event.DifficultyEvents.onLivingUpdate(DifficultyEvents.java:81) ~[scalinghealth:4.1.3+9] {re:classloading}
+	at net.minecraftforge.eventbus.ASMEventHandler_98_DifficultyEvents_onLivingUpdate_LivingUpdateEvent.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.common.ForgeHooks.onLivingUpdate(ForgeHooks.java:340) ~[forge:?] {re:classloading}
+	at net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:2112) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:cgm.mixins.json:common.LivingEntityMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.MobEntity.func_70071_h_(MobEntity.java:300) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.monster.ZombieEntity.func_70071_h_(ZombieEntity.java:205) ~[?:?] {re:classloading}
+	at net.minecraft.world.server.ServerWorld.func_217479_a(ServerWorld.java:611) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
 -- Entity being ticked --
 Details:
-	Entity Type: Item (net.minecraft.entity.item.EntityItem)
-	Entity ID: 85
-	Entity Name: item.item.spruceseed
-	Entity\'s Exact location: -37.80, 106.00, 82.88
-	Entity\'s Block location: World: (-38,106,82), Chunk: (at 10,6,2 in -3,5; contains blocks -48,0,80 to -33,255,95), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
-	Entity\'s Momentum: 0.00, -0.00, 0.00
+	Entity Type: minecraft:drowned (net.minecraft.entity.monster.DrownedEntity)
+	Entity ID: 26
+	Entity Name: Drowned
+	Entity\'s Exact location: 78.50, 50.00, 50.50
+	Entity\'s Block location: World: (78,50,50), Chunk: (at 14,3,2 in 4,3; contains blocks 64,0,48 to 79,255,63), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity\'s Momentum: 0.00, 0.00, 0.00
 	Entity\'s Passengers: []
 	Entity\'s Vehicle: ~~ERROR~~ NullPointerException: null
 Stacktrace:
-	at net.minecraft.world.World.func_72939_s(World.java:1750)
-	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:620)
+	at net.minecraft.world.World.func_217390_a(World.java:554) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:404) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
+
 
 -- Affected level --
 Details:
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 2025
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,66,45), Chunk: (at 0,4,13 in 0,2; contains blocks 0,0,32 to 15,255,47), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 1 game time, 1 day time
 	Level name: world
-	All players: 1 total; [EntityPlayerMP[\'HabipErsz\'/291, l=\'world\', x=-2.36, y=97.00, z=88.37]]
-	Chunk stats: ServerChunkCache: 283 Drop: 0
-	Level seed: 6012911767305697032
-	Level generator: ID 06 - OTG, ver 0. Features enabled: true
-	Level generator options: OpenTerrainGenerator
-	Level spawn location: World: (24,52,60), Chunk: (at 8,3,12 in 1,3; contains blocks 16,0,48 to 31,255,63), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
-	Level time: 12814 game time, 12814 day time
-	Level dimension: 0
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Level weather: Rain time: 92823 (now: false), thunder time: 162309 (now: false)
+	Known server brands: forge
+	Level was modded: true
 	Level storage version: 0x04ABD - Anvil
-	Level weather: Rain time: 1994 (now: false), thunder time: 47112 (now: false)
-	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: true
 Stacktrace:
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709)
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387)
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613)
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471)
-	at java.lang.Thread.run(Thread.java:748)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:851) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292] {}
+
 
 -- System Details --
 Details:
-	Minecraft Version: 1.10.2
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
 	Operating System: Linux (amd64) version 5.4.0-91-generic
 	Java Version: 1.8.0_292, Oracle Corporation
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 822822056 bytes (784 MB) / 1903165440 bytes (1815 MB) up to 1903165440 bytes (1815 MB)
-	JVM Flags: 3 total; -XX:MaxMetaspaceSize=200M -Xmx1900M -Xms950M
-	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
-	FML: MCP 9.32 Powered by Forge 12.18.3.2511 23 mods loaded, 23 mods active
-	States: \'U\' = Unloaded \'L\' = Loaded \'C\' = Constructed \'H\' = Pre-initialized \'I\' = Initialized \'J\' = Post-initialized \'A\' = Available \'D\' = Disabled \'E\' = Errored
-	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar)
-	UCHIJAAAA	FML{**.**.**.**} [Forge Mod Loader] (forge.jar)
-	UCHIJAAAA	Forge{12.18.3.2511} [Minecraft Forge] (forge.jar)
-	UCHIJAAAA	ivtoolkit{1.3.3-1.10} [IvToolkit] (minecraft.jar)
-	UCHIJAAAA	openterraingenerator{v20} [Open Terrain Generator] (OpenTerrainGenerator-1.10.2-v21.jar)
-	UCHIJAAAA	biomebundle{5.1} [Biome Bundle] (Biome_Bundle-1.10.2-v5.1.jar)
-	UCHIJAAAA	blockarmor{2.4.11} [Block Armor] (BlockArmor-1.10.2-2.4.11.jar)
-	UCHIJAAAA	carryon{1.9.1} [Carry On] (CarryOn MC1.10.2 v1.9.1.jar)
-	UCHIJAAAA	compatlayer{0.3.1} [compatlayer] (compatlayer-1.10-0.3.1.jar)
-	UCHIJAAAA	dynamictrees{1.10.2-0.7.4} [Dynamic Trees] (DynamicTrees-1.10.2-0.7.4.jar)
-	UCHIJAAAA	wizardry{2.1.2} [Electroblob\'s Wizardry] (Electroblob\'s Wizardry - 2.1.2 - MC 1.10.2.jar)
-	UCHIJAAAA	Waila{1.8.17-B31_1.10.2} [Waila] (Hwyla-1.8.17-B31_1.10.2.jar)
-	UCHIJAAAA	llibrary{1.7.7} [LLibrary] (llibrary-1.7.7-1.10.2.jar)
-	UCHIJAAAA	iceandfire{1.0.1} [Ice and Fire] (iceandfire-1.0.1.jar)
-	UCHIJAAAA	JEI{**.**.**.**} [Just Enough Items] (jei_1.10.2-3.14.7.420.jar)
-	UCHIJAAAA	journeymap{1.10.2-5.5.2} [JourneyMap] (journeymap-1.10.2-5.5.2.jar)
-	UCHIJAAAA	lootbags{2.5.0} [Loot Bags] (LootBags-1.10.2-2.5.0.jar)
-	UCHIJAAAA	notenoughwands{1.5.5} [Not Enough Wands] (notenoughwands-1.1x-1.5.5.jar)
-	UCHIJAAAA	ProjectE{1.10.2-PE1.3.1} [ProjectE] (ProjectE-1.10.2-PE1.3.1.jar)
-	UCHIJAAAA	roguelike{1.5.9} [Roguelike Dungeons] (RoguelikeDungeons-1.10.2-1.5.9.jar)
-	UCHIJAAAA	tp{1.2.5} [Tiny Progressions] (tinyprogressions-1.10.2-1.2.6.jar)
-	UCHIJAAAA	VeinMiner{0.38.2_1.9-127e28f} [Vein Miner] (VeinMiner-1.9-0.38.2.624+127e28f.jar)
-	UCHIJAAAA	VeinMinerModSupport{0.38.2_1.9-127e28f} [Mod Support] (VeinMiner-1.9-0.38.2.624+127e28f.jar)
-	Loaded coremods (and transformers):
-llibrary (llibrary-1.7.7-1.10.2.jar)
-  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
-  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
-IceAndFireForgeLoading (iceandfire-1.0.1.jar)
-  com.github.alexthe666.iceandfire.access.IceAndFireTransformer
-IvToolkit (IvToolkit-1.3.3-1.10.jar)
-
-	Profiler Position: N/A (disabled)
-	Player Count: 1 / 20; [EntityPlayerMP[\'HabipErsz\'/291, l=\'world\', x=-2.36, y=97.00, z=88.37]]
-	Is Modded: Definitely; Server brand changed to \'fml,forge\'
+	Memory: 1424844888 bytes (1358 MB) / 2354577408 bytes (2245 MB) up to 2354577408 bytes (2245 MB)
+	CPUs: 3
+	JVM Flags: 3 total; -XX:MaxMetaspaceSize=200M -Xmx2300M -Xms1150M
+	ModLauncher: 8.0.9+86+master.3cf110c
+	ModLauncher launch target: fmlserver
+	ModLauncher naming: srg
+	ModLauncher services:
+		/mixin-0.8.4.jar mixin PLUGINSERVICE
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE
+		/forge.jar object_holder_definalize PLUGINSERVICE
+		/forge.jar runtime_enum_extender PLUGINSERVICE
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE
+		/forge.jar capability_inject_definalize PLUGINSERVICE
+		/forge.jar runtimedistcleaner PLUGINSERVICE
+		/mixin-0.8.4.jar mixin TRANSFORMATIONSERVICE
+		/forge.jar fml TRANSFORMATIONSERVICE
+	FML: 36.2
+	Forge: net.minecraftforge:36.2.20
+	FML Language Providers:
+		javafml@36.2
+		minecraft@1
+	Mod List:
+		forge-1.16.5-36.2.20-server.jar                   |Minecraft                     |minecraft                     |1.16.5              |DONE      |Manifest: NOSIGNATURE
+		YungsApi-1.16.4-Forge-6.jar                       |YUNG\'s API                    |yungsapi                      |1.16.4-Forge-6      |DONE      |Manifest: NOSIGNATURE
+		useful_backpacks-1.16.5-1.12.1.90.jar             |Useful Backpacks              |usefulbackpacks               |**.**.**.**           |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****
+		obfuscate-0.6.2-1.16.3.jar                        |Obfuscate                     |obfuscate                     |0.6.2               |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****
+		u_team_core-1.16.5-3.2.1.196.jar                  |U Team Core                   |uteamcore                     |**.**.**.**           |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****
+		silent-lib-1.16.3-4.9.6.jar                       |Silent Lib                    |silentlib                     |4.9.6               |DONE      |Manifest: NOSIGNATURE
+		cgm-1.0.1-1.16.3.jar                              |MrCrayfish\'s Gun Mod          |cgm                           |1.0.1               |DONE      |Manifest: NOSIGNATURE
+		BiomesOPlenty-1.16.5-13.1.0.477-universal.jar     |Biomes O\' Plenty              |biomesoplenty                 |1.16.5-13.1.0.477   |DONE      |Manifest: NOSIGNATURE
+		cfm-7.0.0pre22-1.16.3.jar                         |MrCrayfish\'s Furniture Mod    |cfm                           |7.0.0-pre22         |DONE      |Manifest: NOSIGNATURE
+		CreativeCore_v2.2.1_mc1.16.5.jar                  |CreativeCore                  |creativecore                  |2.0.0               |DONE      |Manifest: NOSIGNATURE
+		mcw-furniture-2.0.1-mc1.16.5.jar                  |Macaw\'s Furniture             |mcwfurnitures                 |2.0.1               |DONE      |Manifest: NOSIGNATURE
+		Hwyla-forge-1.10.11-B78_1.16.2.jar                |Waila                         |waila                         |1.10.11-B78_1.16.2  |DONE      |Manifest: NOSIGNATURE
+		jei-1.16.5-7.7.1.145.jar                          |Just Enough Items             |jei                           |**.**.**.**           |DONE      |Manifest: NOSIGNATURE
+		towers_of_the_wild-1.16.4-2.0.1.jar               |Towers Of The Wild            |towers_of_the_wild            |1.16.4-2.0.1        |DONE      |Manifest: NOSIGNATURE
+		EyesInTheDarkness-1.16.5-1.0.6.jar                |Eyes in the Darkness          |eyesinthedarkness             |1.0.6               |DONE      |Manifest: NOSIGNATURE
+		MedievalCraft-1.16.5-1.16.2.jar                   |Medieval craft                |medieval_craft                |1.14.4              |DONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.20-universal.jar                |Forge                         |forge                         |36.2.20             |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****
+		ScalingHealth-1.16.5-4.1.3+9.jar                  |Scaling Health                |scalinghealth                 |4.1.3+9             |DONE      |Manifest: NOSIGNATURE
+		SpartanShields-1.16.5-2.1.2.jar                   |Spartan Shields               |spartanshields                |2.1.2               |DONE      |Manifest: NOSIGNATURE
+		BetterMineshafts-Forge-1.16.4-2.0.3.jar           |YUNG\'s Better Mineshafts      |bettermineshafts              |1.16.4-2.0.3        |DONE      |Manifest: NOSIGNATURE
+		BetterCaves-Forge-1.16.4-1.1.2.jar                |YUNG\'s Better Caves           |bettercaves                   |1.16.4-1.1.2        |DONE      |Manifest: NOSIGNATURE
+		Xaeros_Minimap_22.1.2_Forge_1.16.5.jar            |Xaero\'s Minimap               |xaerominimap                  |22.1.2              |DONE      |Manifest: NOSIGNATURE
+		corpse-1.16.5-1.0.6.jar                           |Corpse                        |corpse                        |1.16.5-1.0.6        |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: cfe6d998-1be7-48cd-bfc5-1542683bfaa1
+	Player Count: 0 / 20; []
+	Data Packs: vanilla, mod:yungsapi, mod:usefulbackpacks, mod:obfuscate (incompatible), mod:uteamcore, mod:silentlib (incompatible), mod:cgm (incompatible), mod:biomesoplenty, mod:cfm (incompatible), mod:creativecore, mod:mcwfurnitures, mod:waila, mod:jei, mod:towers_of_the_wild, mod:eyesinthedarkness (incompatible), mod:medieval_craft, mod:forge, mod:scalinghealth, mod:spartanshields, mod:bettermineshafts, mod:bettercaves (incompatible), mod:xaerominimap, mod:corpse
+	Is Modded: Definitely; Server brand changed to \'forge\'
 	Type: Dedicated Server (map_server.txt)
         )
 
@@ -2522,7 +2902,7 @@ IvToolkit (IvToolkit-1.3.3-1.10.jar)
             [0] => Aternos\Codex\Minecraft\Analysis\Information\CrashReport\VanillaVersionInformation Object
                 (
                     [label:protected] => Minecraft version
-                    [value:protected] => 1.10.2
+                    [value:protected] => 1.16.5
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
                             [prefix:protected] => 	Minecraft Version:
@@ -2530,8 +2910,8 @@ IvToolkit (IvToolkit-1.3.3-1.10.jar)
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
                                         (
-                                            [text:protected] => 	Minecraft Version: 1.10.2
-                                            [number:protected] => 88
+                                            [text:protected] => 	Minecraft Version: 1.16.5
+                                            [number:protected] => 97
                                         )
 
                                 )
@@ -2553,7 +2933,7 @@ IvToolkit (IvToolkit-1.3.3-1.10.jar)
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("Minecraft version: 1.10.2", $analysis[0]->getMessage());
+        $this->assertEquals("Minecraft version: 1.16.5", $analysis[0]->getMessage());
 
     }
 }
