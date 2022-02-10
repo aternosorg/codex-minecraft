@@ -1,0 +1,131 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  llibrary (llibrary-1.7.7-1.10.2.jar)
+  IceAndFireForgeLoading (iceandfire-1.0.1.jar)
+  IvToolkit (IvToolkit-1.3.3-1.10.jar)
+Contact their authors BEFORE contacting forge
+
+// I blame Dinnerbone.
+
+Time: 2/3/22 8:45 PM
+Description: Ticking entity
+
+java.lang.NullPointerException: Ticking entity
+	at net.minecraftforge.common.BiomeDictionary.containsType(BiomeDictionary.java:440)
+	at net.minecraftforge.common.BiomeDictionary.isBiomeOfType(BiomeDictionary.java:261)
+	at com.ferreusveritas.dynamictrees.util.CompatHelper.biomeHasType(CompatHelper.java:51)
+	at com.ferreusveritas.dynamictrees.trees.TreeSpruce$SpeciesSpruce.isBiomePerfect(TreeSpruce.java:51)
+	at com.ferreusveritas.dynamictrees.trees.Species.biomeSuitability(Species.java:735)
+	at com.ferreusveritas.dynamictrees.items.Seed.onEntityItemUpdate(Seed.java:63)
+	at net.minecraft.entity.item.EntityItem.func_70071_h_(EntityItem.java:91)
+	at net.minecraft.world.World.func_72866_a(World.java:1967)
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:839)
+	at net.minecraft.world.World.func_72870_g(World.java:1937)
+	at net.minecraft.world.World.func_72939_s(World.java:1750)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:620)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraftforge.common.BiomeDictionary.containsType(BiomeDictionary.java:440)
+	at net.minecraftforge.common.BiomeDictionary.isBiomeOfType(BiomeDictionary.java:261)
+	at com.ferreusveritas.dynamictrees.util.CompatHelper.biomeHasType(CompatHelper.java:51)
+	at com.ferreusveritas.dynamictrees.trees.TreeSpruce$SpeciesSpruce.isBiomePerfect(TreeSpruce.java:51)
+	at com.ferreusveritas.dynamictrees.trees.Species.biomeSuitability(Species.java:735)
+	at com.ferreusveritas.dynamictrees.items.Seed.onEntityItemUpdate(Seed.java:63)
+	at net.minecraft.entity.item.EntityItem.func_70071_h_(EntityItem.java:91)
+	at net.minecraft.world.World.func_72866_a(World.java:1967)
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:839)
+	at net.minecraft.world.World.func_72870_g(World.java:1937)
+
+-- Entity being ticked --
+Details:
+	Entity Type: Item (net.minecraft.entity.item.EntityItem)
+	Entity ID: 85
+	Entity Name: item.item.spruceseed
+	Entity's Exact location: -37.80, 106.00, 82.88
+	Entity's Block location: World: (-38,106,82), Chunk: (at 10,6,2 in -3,5; contains blocks -48,0,80 to -33,255,95), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Entity's Momentum: 0.00, -0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.func_72939_s(World.java:1750)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:620)
+
+-- Affected level --
+Details:
+	Level name: world
+	All players: 1 total; [EntityPlayerMP['HabipErsz'/291, l='world', x=-2.36, y=97.00, z=88.37]]
+	Chunk stats: ServerChunkCache: 283 Drop: 0
+	Level seed: 6012911767305697032
+	Level generator: ID 06 - OTG, ver 0. Features enabled: true
+	Level generator options: OpenTerrainGenerator
+	Level spawn location: World: (24,52,60), Chunk: (at 8,3,12 in 1,3; contains blocks 16,0,48 to 31,255,63), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 12814 game time, 12814 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 1994 (now: false), thunder time: 47112 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Linux (amd64) version 5.4.0-91-generic
+	Java Version: 1.8.0_292, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 822822056 bytes (784 MB) / 1903165440 bytes (1815 MB) up to 1903165440 bytes (1815 MB)
+	JVM Flags: 3 total; -XX:MaxMetaspaceSize=200M -Xmx1900M -Xms950M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.32 Powered by Forge 12.18.3.2511 23 mods loaded, 23 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar)
+	UCHIJAAAA	FML{**.**.**.**} [Forge Mod Loader] (forge.jar)
+	UCHIJAAAA	Forge{12.18.3.2511} [Minecraft Forge] (forge.jar)
+	UCHIJAAAA	ivtoolkit{1.3.3-1.10} [IvToolkit] (minecraft.jar)
+	UCHIJAAAA	openterraingenerator{v20} [Open Terrain Generator] (OpenTerrainGenerator-1.10.2-v21.jar)
+	UCHIJAAAA	biomebundle{5.1} [Biome Bundle] (Biome_Bundle-1.10.2-v5.1.jar)
+	UCHIJAAAA	blockarmor{2.4.11} [Block Armor] (BlockArmor-1.10.2-2.4.11.jar)
+	UCHIJAAAA	carryon{1.9.1} [Carry On] (CarryOn MC1.10.2 v1.9.1.jar)
+	UCHIJAAAA	compatlayer{0.3.1} [compatlayer] (compatlayer-1.10-0.3.1.jar)
+	UCHIJAAAA	dynamictrees{1.10.2-0.7.4} [Dynamic Trees] (DynamicTrees-1.10.2-0.7.4.jar)
+	UCHIJAAAA	wizardry{2.1.2} [Electroblob's Wizardry] (Electroblob's Wizardry - 2.1.2 - MC 1.10.2.jar)
+	UCHIJAAAA	Waila{1.8.17-B31_1.10.2} [Waila] (Hwyla-1.8.17-B31_1.10.2.jar)
+	UCHIJAAAA	llibrary{1.7.7} [LLibrary] (llibrary-1.7.7-1.10.2.jar)
+	UCHIJAAAA	iceandfire{1.0.1} [Ice and Fire] (iceandfire-1.0.1.jar)
+	UCHIJAAAA	JEI{**.**.**.**} [Just Enough Items] (jei_1.10.2-3.14.7.420.jar)
+	UCHIJAAAA	journeymap{1.10.2-5.5.2} [JourneyMap] (journeymap-1.10.2-5.5.2.jar)
+	UCHIJAAAA	lootbags{2.5.0} [Loot Bags] (LootBags-1.10.2-2.5.0.jar)
+	UCHIJAAAA	notenoughwands{1.5.5} [Not Enough Wands] (notenoughwands-1.1x-1.5.5.jar)
+	UCHIJAAAA	ProjectE{1.10.2-PE1.3.1} [ProjectE] (ProjectE-1.10.2-PE1.3.1.jar)
+	UCHIJAAAA	roguelike{1.5.9} [Roguelike Dungeons] (RoguelikeDungeons-1.10.2-1.5.9.jar)
+	UCHIJAAAA	tp{1.2.5} [Tiny Progressions] (tinyprogressions-1.10.2-1.2.6.jar)
+	UCHIJAAAA	VeinMiner{0.38.2_1.9-127e28f} [Vein Miner] (VeinMiner-1.9-0.38.2.624+127e28f.jar)
+	UCHIJAAAA	VeinMinerModSupport{0.38.2_1.9-127e28f} [Mod Support] (VeinMiner-1.9-0.38.2.624+127e28f.jar)
+	Loaded coremods (and transformers):
+llibrary (llibrary-1.7.7-1.10.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+IceAndFireForgeLoading (iceandfire-1.0.1.jar)
+  com.github.alexthe666.iceandfire.access.IceAndFireTransformer
+IvToolkit (IvToolkit-1.3.3-1.10.jar)
+
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 20; [EntityPlayerMP['HabipErsz'/291, l='world', x=-2.36, y=97.00, z=88.37]]
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
