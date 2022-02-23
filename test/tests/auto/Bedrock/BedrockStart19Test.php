@@ -18,7 +18,6 @@ class BedrockStart19Test extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2019-02-16 01:16:14 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class BedrockStart19Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550279774
                     [iterator:protected] => 0
+                    [prefix:protected] => [2019-02-16 01:16:14 INFO]
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2019-02-16 01:16:14 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class BedrockStart19Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550279774
                     [iterator:protected] => 0
+                    [prefix:protected] => [2019-02-16 01:16:14 INFO]
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2019-02-16 01:16:14 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class BedrockStart19Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550279774
                     [iterator:protected] => 0
+                    [prefix:protected] => [2019-02-16 01:16:14 INFO]
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2019-02-16 01:16:14 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class BedrockStart19Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550279774
                     [iterator:protected] => 0
+                    [prefix:protected] => [2019-02-16 01:16:14 INFO]
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2019-02-16 01:16:14 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class BedrockStart19Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550279774
                     [iterator:protected] => 0
+                    [prefix:protected] => [2019-02-16 01:16:14 INFO]
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2019-02-16 01:16:16 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class BedrockStart19Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550279776
                     [iterator:protected] => 0
+                    [prefix:protected] => [2019-02-16 01:16:16 INFO]
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2019-02-16 01:16:16 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class BedrockStart19Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550279776
                     [iterator:protected] => 0
+                    [prefix:protected] => [2019-02-16 01:16:16 INFO]
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2019-02-16 01:16:19 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,6 +157,7 @@ class BedrockStart19Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550279779
                     [iterator:protected] => 0
+                    [prefix:protected] => [2019-02-16 01:16:19 INFO]
                 )
 
         )
@@ -184,11 +184,8 @@ class BedrockStart19Test extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Bedrock\BedrockVersionInformation Object
                 (
-                    [label:protected] => Bedrock version
-                    [value:protected] => 1.9.0.15
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [2019-02-16 01:16:14 INFO]
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -202,9 +199,12 @@ class BedrockStart19Test extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 1550279774
                             [iterator:protected] => 0
+                            [prefix:protected] => [2019-02-16 01:16:14 INFO]
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Bedrock version
+                    [value:protected] => 1.9.0.15
                 )
 
         )

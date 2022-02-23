@@ -18,7 +18,6 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:20:04] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:20:04] [Server thread/INFO]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:21:57] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:21:57] [Server thread/INFO]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:21:57] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:21:57] [Server thread/INFO]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:21:57] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:21:57] [Server thread/INFO]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:21:57] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:21:57] [Server thread/INFO]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:21:57] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:21:57] [Server thread/INFO]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:22:34] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:22:34] [Server thread/INFO]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:22:39] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:22:39] [Server thread/INFO]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:22:41] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:22:41] [Server thread/INFO]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:22:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:22:42] [Server thread/INFO]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:22:43] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:22:43] [Server thread/INFO]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:22:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:22:44] [Server thread/INFO]:
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:22:45] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:22:45] [Server thread/INFO]:
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:22:46] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:22:46] [Server thread/INFO]:
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:22:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:22:47] [Server thread/INFO]:
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:22:48] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:22:48] [Server thread/INFO]:
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:22:48] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:22:48] [Server thread/INFO]:
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:22:48] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:22:48] [Server thread/INFO]:
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:22:48] [Query Listener #1/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:22:48] [Query Listener #1/INFO]:
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:01] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -470,11 +469,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:01] [Server thread/ERROR]:
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:01] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -488,11 +487,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:01] [Server thread/ERROR]:
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -506,11 +505,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:01] [Server thread/INFO]:
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -524,11 +523,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:01] [Server thread/INFO]:
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -542,11 +541,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:01] [Server thread/INFO]:
                 )
 
             [24] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -560,11 +559,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:01] [Server thread/INFO]:
                 )
 
             [25] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -578,11 +577,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                 )
 
             [26] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -596,11 +595,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                 )
 
             [27] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -614,11 +613,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                 )
 
             [28] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -632,11 +631,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                 )
 
             [29] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -650,11 +649,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                 )
 
             [30] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -668,11 +667,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                 )
 
             [31] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -686,11 +685,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                 )
 
             [32] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -704,11 +703,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                 )
 
             [33] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -722,11 +721,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                 )
 
             [34] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -740,11 +739,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                 )
 
             [35] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -758,11 +757,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:03] [Server thread/INFO]:
                 )
 
             [36] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:07] [Server Shutdown Thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -776,11 +775,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:07] [Server Shutdown Thread/INFO]:
                 )
 
             [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:07] [Server Shutdown Thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -794,11 +793,11 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:07] [Server Shutdown Thread/INFO]:
                 )
 
             [38] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:23:07] [Server Shutdown Thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -818,6 +817,7 @@ class VanillaForgeTickingEntityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:23:07] [Server Shutdown Thread/INFO]:
                 )
 
         )
@@ -892,11 +892,8 @@ at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709) ~
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.10.2
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [16:20:04] [Server thread/INFO]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -910,31 +907,18 @@ at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709) ~
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [16:20:04] [Server thread/INFO]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.10.2
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\TickingBlockEntityProblem Object
                 (
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
-                                (
-                                    [path:protected] => world
-                                    [relativePath:protected] => 1
-                                )
-
-                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\BlockRemoveSolution Object
-                                (
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [16:23:01] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1044,9 +1028,25 @@ at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709) ~
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [16:23:01] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
+                                (
+                                    [path:protected] => world
+                                    [relativePath:protected] => 1
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\BlockRemoveSolution Object
+                                (
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
                 )
 
         )

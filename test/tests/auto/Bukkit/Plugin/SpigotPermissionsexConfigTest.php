@@ -18,7 +18,6 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:50] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:50] [Server thread/INFO]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:50] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:50] [Server thread/INFO]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:50] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:50] [Server thread/INFO]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:51] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:51] [Server thread/INFO]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:52] [Server thread/INFO]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:52] [Server thread/INFO]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:52] [Server thread/INFO]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:52] [Server thread/INFO]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:54] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:54] [Server thread/INFO]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:54] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:54] [Server thread/ERROR]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:54] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:54] [Server thread/WARN]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -410,11 +409,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -482,11 +481,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -500,11 +499,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -608,11 +607,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -626,11 +625,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -698,11 +697,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -716,11 +715,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:56] [Server thread/WARN]:
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -734,11 +733,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:56] [Server thread/INFO]:
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:57] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1058,11 +1057,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:57] [Server thread/ERROR]:
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:57] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1112,11 +1111,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:57] [Server thread/ERROR]:
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:08:57] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1292,11 +1291,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:08:57] [Server thread/ERROR]:
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1310,11 +1309,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1328,11 +1327,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [24] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1346,11 +1345,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [25] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1364,11 +1363,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [26] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1382,11 +1381,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [27] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1400,11 +1399,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [28] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1418,11 +1417,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [29] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1436,11 +1435,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [30] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1454,11 +1453,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [31] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1472,11 +1471,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [32] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1490,11 +1489,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [33] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1508,11 +1507,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [34] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1526,11 +1525,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [35] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1544,11 +1543,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [36] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1562,11 +1561,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1580,11 +1579,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [38] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1598,11 +1597,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [39] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1616,11 +1615,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [40] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1634,11 +1633,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:00] [Server thread/INFO]:
                 )
 
             [41] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1652,11 +1651,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:01] [Server thread/INFO]:
                 )
 
             [42] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1670,11 +1669,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:01] [Server thread/INFO]:
                 )
 
             [43] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1688,11 +1687,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:01] [Server thread/INFO]:
                 )
 
             [44] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1706,11 +1705,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:01] [Server thread/INFO]:
                 )
 
             [45] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1724,11 +1723,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:01] [Server thread/INFO]:
                 )
 
             [46] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1742,11 +1741,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [47] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1760,11 +1759,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [48] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1778,11 +1777,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [49] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1796,11 +1795,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [50] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1814,11 +1813,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [51] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1832,11 +1831,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [52] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1850,11 +1849,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [53] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1868,11 +1867,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [54] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1886,11 +1885,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [55] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1904,11 +1903,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [56] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1922,11 +1921,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [57] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1940,11 +1939,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [58] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1958,11 +1957,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [59] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1976,11 +1975,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [60] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1994,11 +1993,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [61] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2012,11 +2011,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [62] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2030,11 +2029,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [63] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2048,11 +2047,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [64] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2066,11 +2065,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [65] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2084,11 +2083,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [66] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2102,11 +2101,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [67] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2120,11 +2119,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [68] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2138,11 +2137,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [69] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2156,11 +2155,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [70] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2174,11 +2173,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [71] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2192,11 +2191,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/WARN]:
                 )
 
             [72] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2210,11 +2209,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [73] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2228,11 +2227,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [74] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2246,11 +2245,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [75] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2264,11 +2263,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [76] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2282,11 +2281,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [77] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2300,11 +2299,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [78] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2318,11 +2317,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [79] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2336,11 +2335,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [80] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2354,11 +2353,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [81] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2372,11 +2371,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [82] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2390,11 +2389,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [83] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2408,11 +2407,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [84] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2426,11 +2425,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [85] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2444,11 +2443,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [86] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2462,11 +2461,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [87] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2480,11 +2479,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [88] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2498,11 +2497,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [89] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2516,11 +2515,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [90] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2534,11 +2533,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [91] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2552,11 +2551,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [92] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2570,11 +2569,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [93] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2588,11 +2587,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [94] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2606,11 +2605,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [95] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2624,11 +2623,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [96] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2642,11 +2641,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [97] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2660,11 +2659,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [98] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2678,11 +2677,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [99] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2696,11 +2695,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [100] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2714,11 +2713,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [101] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2732,11 +2731,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [102] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2750,11 +2749,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [103] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2768,11 +2767,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [104] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2786,11 +2785,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [105] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2804,11 +2803,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/ERROR]:
                 )
 
             [106] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2822,11 +2821,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [107] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2840,11 +2839,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:02] [Server thread/INFO]:
                 )
 
             [108] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:05] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2858,11 +2857,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:05] [Server thread/INFO]:
                 )
 
             [109] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:05] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2876,11 +2875,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:05] [Server thread/WARN]:
                 )
 
             [110] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:05] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2894,11 +2893,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:05] [Server thread/WARN]:
                 )
 
             [111] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:05] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2912,11 +2911,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:05] [Server thread/WARN]:
                 )
 
             [112] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:05] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2930,11 +2929,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:05] [Server thread/INFO]:
                 )
 
             [113] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:05] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2948,11 +2947,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:05] [Server thread/INFO]:
                 )
 
             [114] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:05] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2966,11 +2965,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:05] [Server thread/INFO]:
                 )
 
             [115] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:05] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2984,11 +2983,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:05] [Server thread/INFO]:
                 )
 
             [116] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:05] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3002,11 +3001,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:05] [Server thread/INFO]:
                 )
 
             [117] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:05] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3020,11 +3019,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:05] [Server thread/INFO]:
                 )
 
             [118] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:06] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3038,11 +3037,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:06] [Server thread/INFO]:
                 )
 
             [119] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:06] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3056,11 +3055,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:06] [Server thread/INFO]:
                 )
 
             [120] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:06] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3074,11 +3073,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:06] [Server thread/INFO]:
                 )
 
             [121] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:06] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3092,11 +3091,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:06] [Server thread/INFO]:
                 )
 
             [122] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:06] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3110,11 +3109,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:06] [Server thread/INFO]:
                 )
 
             [123] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:07] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3128,11 +3127,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:07] [Server thread/INFO]:
                 )
 
             [124] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:07] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3146,11 +3145,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:07] [Server thread/INFO]:
                 )
 
             [125] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3164,11 +3163,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [126] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3182,11 +3181,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [127] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3200,11 +3199,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [128] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3218,11 +3217,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [129] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3236,11 +3235,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [130] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3254,11 +3253,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [131] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3272,11 +3271,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [132] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3290,11 +3289,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [133] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3308,11 +3307,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [134] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3326,11 +3325,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [135] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3344,11 +3343,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [136] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3362,11 +3361,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [137] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3380,11 +3379,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [138] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3398,11 +3397,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [139] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3416,11 +3415,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [140] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3434,11 +3433,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [141] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3452,11 +3451,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [142] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3470,11 +3469,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [143] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3488,11 +3487,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [144] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3506,11 +3505,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [145] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3524,11 +3523,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [146] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3542,11 +3541,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [147] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3560,11 +3559,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [148] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3578,11 +3577,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [149] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3596,11 +3595,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [150] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3614,11 +3613,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:10] [Server thread/INFO]:
                 )
 
             [151] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3632,11 +3631,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/INFO]:
                 )
 
             [152] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3650,11 +3649,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/INFO]:
                 )
 
             [153] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3668,11 +3667,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [154] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3686,11 +3685,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [155] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3704,11 +3703,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [156] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3722,11 +3721,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [157] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3740,11 +3739,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [158] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3758,11 +3757,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [159] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3776,11 +3775,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [160] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3794,11 +3793,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [161] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3812,11 +3811,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [162] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3830,11 +3829,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [163] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3848,11 +3847,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [164] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3866,11 +3865,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [165] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3884,11 +3883,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [166] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3902,11 +3901,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [167] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3920,11 +3919,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [168] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3938,11 +3937,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [169] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3956,11 +3955,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [170] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3974,11 +3973,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [171] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3992,11 +3991,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [172] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4010,11 +4009,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [173] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4028,11 +4027,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [174] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4046,11 +4045,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [175] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4064,11 +4063,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [176] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4082,11 +4081,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [177] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4100,11 +4099,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [178] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4118,11 +4117,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [179] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4136,11 +4135,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [180] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4154,11 +4153,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [181] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4172,11 +4171,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [182] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4190,11 +4189,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [183] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4208,11 +4207,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [184] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4226,11 +4225,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [185] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4244,11 +4243,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [186] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4262,11 +4261,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [187] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4280,11 +4279,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [188] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4298,11 +4297,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [189] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4316,11 +4315,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [190] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4334,11 +4333,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [191] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4352,11 +4351,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [192] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4370,11 +4369,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [193] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4388,11 +4387,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [194] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4406,11 +4405,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [195] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4424,11 +4423,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [196] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4442,11 +4441,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [197] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4460,11 +4459,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [198] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4478,11 +4477,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [199] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4496,11 +4495,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [200] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4514,11 +4513,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [201] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4532,11 +4531,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [202] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4550,11 +4549,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [203] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4568,11 +4567,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [204] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4586,11 +4585,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [205] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4604,11 +4603,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [206] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4622,11 +4621,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [207] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4640,11 +4639,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [208] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4658,11 +4657,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [209] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4676,11 +4675,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/INFO]:
                 )
 
             [210] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4694,11 +4693,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/WARN]:
                 )
 
             [211] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4712,11 +4711,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/INFO]:
                 )
 
             [212] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4730,11 +4729,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:11] [Server thread/INFO]:
                 )
 
             [213] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4748,11 +4747,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/WARN]:
                 )
 
             [214] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4766,11 +4765,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [215] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4784,11 +4783,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [216] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4802,11 +4801,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [217] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4820,11 +4819,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [218] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4838,11 +4837,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/WARN]:
                 )
 
             [219] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4856,11 +4855,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/WARN]:
                 )
 
             [220] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4874,11 +4873,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/WARN]:
                 )
 
             [221] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4892,11 +4891,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/WARN]:
                 )
 
             [222] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4910,11 +4909,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [223] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4928,11 +4927,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [224] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4946,11 +4945,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [225] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4964,11 +4963,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [226] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4982,11 +4981,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [227] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5000,11 +4999,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [228] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5018,11 +5017,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [229] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5036,11 +5035,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [230] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5054,11 +5053,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [231] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5072,11 +5071,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [232] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5090,11 +5089,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [233] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5108,11 +5107,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [234] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5126,11 +5125,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [235] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5144,11 +5143,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [236] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5162,11 +5161,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [237] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5180,11 +5179,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [238] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5198,11 +5197,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [239] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5216,11 +5215,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [240] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5234,11 +5233,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [241] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5252,11 +5251,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [242] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5270,11 +5269,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [243] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5288,11 +5287,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [244] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5306,11 +5305,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [245] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5324,11 +5323,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [246] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5342,11 +5341,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [247] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5360,11 +5359,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [248] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5378,11 +5377,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [249] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5396,11 +5395,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [250] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5414,11 +5413,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [251] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5432,11 +5431,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [252] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5450,11 +5449,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [253] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5468,11 +5467,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [254] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5486,11 +5485,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [255] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5504,11 +5503,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [256] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5522,11 +5521,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [257] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5540,11 +5539,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:12] [Server thread/INFO]:
                 )
 
             [258] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5558,11 +5557,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [259] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5576,11 +5575,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [260] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5594,11 +5593,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [261] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5612,11 +5611,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [262] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5630,11 +5629,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [263] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5648,11 +5647,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [264] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5666,11 +5665,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [265] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5684,11 +5683,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [266] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5702,11 +5701,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [267] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5720,11 +5719,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [268] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5738,11 +5737,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [269] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5756,11 +5755,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [270] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5774,11 +5773,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [271] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5792,11 +5791,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [272] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5810,11 +5809,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [273] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5828,11 +5827,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [274] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5846,11 +5845,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [275] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5864,11 +5863,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [276] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5882,11 +5881,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [277] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5900,11 +5899,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [278] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5918,11 +5917,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [279] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5936,11 +5935,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [280] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5954,11 +5953,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [281] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5972,11 +5971,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [282] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5990,11 +5989,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [283] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6008,11 +6007,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [284] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6026,11 +6025,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [285] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6044,11 +6043,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [286] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6062,11 +6061,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [287] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6080,11 +6079,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [288] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6098,11 +6097,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [289] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6116,11 +6115,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [290] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6134,11 +6133,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [291] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6152,11 +6151,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [292] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6170,11 +6169,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [293] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6188,11 +6187,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [294] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6206,11 +6205,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [295] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6224,11 +6223,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [296] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6242,11 +6241,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [297] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6260,11 +6259,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [298] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6278,11 +6277,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [299] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6296,11 +6295,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [300] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6314,11 +6313,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [301] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6332,11 +6331,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [302] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6350,11 +6349,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [303] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6368,11 +6367,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [304] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6386,11 +6385,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [305] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6404,11 +6403,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [306] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6422,11 +6421,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [307] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6440,11 +6439,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [308] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6458,11 +6457,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [309] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6476,11 +6475,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [310] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6494,11 +6493,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [311] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6512,11 +6511,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [312] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6530,11 +6529,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [313] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6548,11 +6547,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [314] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6566,11 +6565,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [315] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6584,11 +6583,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [316] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6602,11 +6601,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [317] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6620,11 +6619,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [318] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6638,11 +6637,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [319] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6656,11 +6655,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [320] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6674,11 +6673,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [321] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6692,11 +6691,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [322] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6710,11 +6709,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [323] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6728,11 +6727,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [324] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6746,11 +6745,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [325] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6764,11 +6763,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [326] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6782,11 +6781,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [327] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6800,11 +6799,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [328] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6818,11 +6817,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [329] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6836,11 +6835,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [330] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6854,11 +6853,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [331] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6872,11 +6871,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [332] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6890,11 +6889,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [333] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6908,11 +6907,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [334] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6926,11 +6925,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [335] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6944,11 +6943,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [336] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6962,11 +6961,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [337] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6980,11 +6979,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [338] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6998,11 +6997,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [339] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7016,11 +7015,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [340] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7034,11 +7033,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [341] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7052,11 +7051,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [342] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7070,11 +7069,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [343] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7088,11 +7087,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [344] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7106,11 +7105,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [345] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7124,11 +7123,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [346] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7142,11 +7141,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [347] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7160,11 +7159,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [348] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7178,11 +7177,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [349] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7196,11 +7195,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [350] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7214,11 +7213,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [351] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7232,11 +7231,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [352] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7250,11 +7249,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [353] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7268,11 +7267,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [354] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7286,11 +7285,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [355] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7304,11 +7303,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [356] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7322,11 +7321,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [357] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7340,11 +7339,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [358] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7358,11 +7357,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [359] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7376,11 +7375,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [360] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7394,11 +7393,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [361] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7412,11 +7411,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [362] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7430,11 +7429,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [363] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7448,11 +7447,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [364] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7466,11 +7465,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [365] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7484,11 +7483,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:13] [Server thread/INFO]:
                 )
 
             [366] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7502,11 +7501,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [367] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7520,11 +7519,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [368] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7538,11 +7537,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [369] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7556,11 +7555,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [370] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7574,11 +7573,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [371] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7592,11 +7591,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [372] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7610,11 +7609,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [373] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7628,11 +7627,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [374] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7646,11 +7645,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [375] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7664,11 +7663,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [376] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7682,11 +7681,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [377] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7700,11 +7699,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [378] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7718,11 +7717,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [379] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7736,11 +7735,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [380] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7754,11 +7753,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [381] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7772,11 +7771,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [382] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7790,11 +7789,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [383] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7808,11 +7807,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [384] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7826,11 +7825,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [385] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7844,11 +7843,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [386] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7862,11 +7861,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [387] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7880,11 +7879,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [388] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7898,11 +7897,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [389] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7916,11 +7915,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [390] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7934,11 +7933,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [391] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7952,11 +7951,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [392] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7970,11 +7969,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [393] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7988,11 +7987,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [394] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8006,11 +8005,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [395] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8024,11 +8023,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [396] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8042,11 +8041,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [397] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8060,11 +8059,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [398] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8078,11 +8077,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [399] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8096,11 +8095,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [400] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8114,11 +8113,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [401] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8132,11 +8131,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [402] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8150,11 +8149,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:14] [Server thread/INFO]:
                 )
 
             [403] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:15] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8168,11 +8167,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:15] [Server thread/INFO]:
                 )
 
             [404] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8186,11 +8185,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:16] [Server thread/INFO]:
                 )
 
             [405] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:17] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8204,11 +8203,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:17] [Server thread/INFO]:
                 )
 
             [406] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:17] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8222,11 +8221,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:17] [Server thread/INFO]:
                 )
 
             [407] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:18] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8240,11 +8239,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:18] [Server thread/INFO]:
                 )
 
             [408] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:18] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8258,11 +8257,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:18] [Server thread/INFO]:
                 )
 
             [409] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8276,11 +8275,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [410] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8294,11 +8293,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [411] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8312,11 +8311,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [412] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8330,11 +8329,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [413] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8348,11 +8347,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [414] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8366,11 +8365,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [415] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8384,11 +8383,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [416] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8402,11 +8401,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [417] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8420,11 +8419,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [418] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8438,11 +8437,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [419] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8456,11 +8455,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [420] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8474,11 +8473,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [421] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8492,11 +8491,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [422] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8510,11 +8509,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [423] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8528,11 +8527,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [424] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8546,11 +8545,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [425] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8564,11 +8563,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [426] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8582,11 +8581,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [427] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8600,11 +8599,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [428] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8618,11 +8617,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [429] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8636,11 +8635,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/WARN]:
                 )
 
             [430] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8654,11 +8653,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [431] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8672,11 +8671,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [432] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8690,11 +8689,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [433] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8708,11 +8707,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:19] [Server thread/INFO]:
                 )
 
             [434] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:21] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8726,11 +8725,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:21] [Server thread/INFO]:
                 )
 
             [435] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:21] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8744,11 +8743,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:21] [Server thread/INFO]:
                 )
 
             [436] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:21] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8762,11 +8761,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:21] [Server thread/INFO]:
                 )
 
             [437] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:21] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8780,11 +8779,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:21] [Server thread/INFO]:
                 )
 
             [438] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:21] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8798,11 +8797,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:21] [Server thread/INFO]:
                 )
 
             [439] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:21] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8816,11 +8815,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:21] [Server thread/INFO]:
                 )
 
             [440] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:21] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8834,11 +8833,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:21] [Server thread/INFO]:
                 )
 
             [441] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8852,11 +8851,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                 )
 
             [442] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8870,11 +8869,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                 )
 
             [443] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8888,11 +8887,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                 )
 
             [444] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8906,11 +8905,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                 )
 
             [445] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8924,11 +8923,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                 )
 
             [446] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8942,11 +8941,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                 )
 
             [447] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8960,11 +8959,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                 )
 
             [448] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8978,11 +8977,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                 )
 
             [449] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8996,11 +8995,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                 )
 
             [450] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9014,11 +9013,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                 )
 
             [451] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9032,11 +9031,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                 )
 
             [452] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9050,11 +9049,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:22] [Server thread/INFO]:
                 )
 
             [453] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9068,11 +9067,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                 )
 
             [454] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9086,11 +9085,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                 )
 
             [455] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9104,11 +9103,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                 )
 
             [456] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9122,11 +9121,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [457] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9140,11 +9139,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [458] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9158,11 +9157,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [459] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9176,11 +9175,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [460] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9194,11 +9193,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [461] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9212,11 +9211,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [462] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9230,11 +9229,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [463] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9248,11 +9247,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [464] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9266,11 +9265,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [465] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9284,11 +9283,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [466] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9302,11 +9301,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [467] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9320,11 +9319,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [468] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9338,11 +9337,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [469] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9356,11 +9355,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [470] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9374,11 +9373,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [471] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9392,11 +9391,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/WARN]:
                 )
 
             [472] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9410,11 +9409,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                 )
 
             [473] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9428,11 +9427,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                 )
 
             [474] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9446,11 +9445,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                 )
 
             [475] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9464,11 +9463,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                 )
 
             [476] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9482,11 +9481,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                 )
 
             [477] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9500,11 +9499,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                 )
 
             [478] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9518,11 +9517,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                 )
 
             [479] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9536,11 +9535,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                 )
 
             [480] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9554,11 +9553,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                 )
 
             [481] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9572,11 +9571,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:23] [Server thread/INFO]:
                 )
 
             [482] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9590,11 +9589,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [483] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9608,11 +9607,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [484] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9626,11 +9625,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [485] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9644,11 +9643,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [486] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9662,11 +9661,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [487] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9680,11 +9679,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [488] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9698,11 +9697,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [489] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9716,11 +9715,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [490] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9734,11 +9733,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [491] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9752,11 +9751,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [492] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9770,11 +9769,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [493] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9788,11 +9787,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [494] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9806,11 +9805,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [495] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9824,11 +9823,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [496] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9842,11 +9841,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [497] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9860,11 +9859,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [498] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9878,11 +9877,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [499] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9896,11 +9895,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [500] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9914,11 +9913,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [501] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9932,11 +9931,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [502] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9950,11 +9949,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [503] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9968,11 +9967,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [504] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9986,11 +9985,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [505] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10004,11 +10003,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [506] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10022,11 +10021,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [507] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10040,11 +10039,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [508] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10058,11 +10057,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [509] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10076,11 +10075,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [510] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10094,11 +10093,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [511] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10112,11 +10111,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [512] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10130,11 +10129,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [513] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10148,11 +10147,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [514] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10166,11 +10165,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [515] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10184,11 +10183,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:24] [Server thread/INFO]:
                 )
 
             [516] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10202,11 +10201,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [517] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10220,11 +10219,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [518] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10238,11 +10237,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [519] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10256,11 +10255,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [520] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Thread-14/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10274,11 +10273,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Thread-14/INFO]:
                 )
 
             [521] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10334,11 +10333,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [522] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10352,11 +10351,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [523] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10370,11 +10369,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [524] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10388,11 +10387,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [525] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10406,11 +10405,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [526] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10424,11 +10423,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [527] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10442,11 +10441,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [528] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10460,11 +10459,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [529] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10478,11 +10477,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [530] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10496,11 +10495,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [531] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10514,11 +10513,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [532] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10532,11 +10531,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [533] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10550,11 +10549,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [534] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10568,11 +10567,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [535] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10586,11 +10585,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [536] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10604,11 +10603,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [537] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10622,11 +10621,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [538] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10640,11 +10639,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [539] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10658,11 +10657,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [540] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10676,11 +10675,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [541] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10694,11 +10693,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [542] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10712,11 +10711,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [543] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10730,11 +10729,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [544] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10748,11 +10747,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [545] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10766,11 +10765,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [546] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10784,11 +10783,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [547] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10880,11 +10879,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/ERROR]:
                 )
 
             [548] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10898,11 +10897,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [549] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10916,11 +10915,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [550] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10934,11 +10933,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [551] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10952,11 +10951,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:25] [Server thread/INFO]:
                 )
 
             [552] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10970,11 +10969,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [553] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10988,11 +10987,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [554] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11006,11 +11005,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [555] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11024,11 +11023,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [556] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11042,11 +11041,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [557] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11060,11 +11059,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [558] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11078,11 +11077,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [559] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11096,11 +11095,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [560] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11114,11 +11113,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [561] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11132,11 +11131,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [562] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11150,11 +11149,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [563] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11168,11 +11167,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [564] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11318,11 +11317,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/ERROR]:
                 )
 
             [565] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11336,11 +11335,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [566] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11354,11 +11353,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [567] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11894,11 +11893,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/ERROR]:
                 )
 
             [568] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11912,11 +11911,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [569] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11930,11 +11929,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [570] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11948,11 +11947,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [571] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11966,11 +11965,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [572] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11984,11 +11983,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [573] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12002,11 +12001,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [574] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12020,11 +12019,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [575] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12038,11 +12037,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [576] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12056,11 +12055,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [577] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12074,11 +12073,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [578] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12092,11 +12091,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [579] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12110,11 +12109,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [580] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12128,11 +12127,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [581] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12230,11 +12229,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/ERROR]:
                 )
 
             [582] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12248,11 +12247,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:26] [Server thread/INFO]:
                 )
 
             [583] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:27] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12266,11 +12265,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:27] [Server thread/INFO]:
                 )
 
             [584] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:27] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12284,11 +12283,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:27] [Server thread/INFO]:
                 )
 
             [585] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:27] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12302,11 +12301,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:27] [Server thread/ERROR]:
                 )
 
             [586] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:27] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12320,11 +12319,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:27] [Server thread/INFO]:
                 )
 
             [587] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:27] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12338,11 +12337,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:27] [Server thread/INFO]:
                 )
 
             [588] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:27] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12356,11 +12355,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:27] [Server thread/INFO]:
                 )
 
             [589] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:27] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12374,11 +12373,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:27] [Server thread/INFO]:
                 )
 
             [590] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:27] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12392,11 +12391,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:27] [Server thread/INFO]:
                 )
 
             [591] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:33] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12410,11 +12409,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:33] [Server thread/INFO]:
                 )
 
             [592] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:33] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12428,11 +12427,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:33] [Server thread/INFO]:
                 )
 
             [593] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:33] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12446,11 +12445,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:33] [Server thread/INFO]:
                 )
 
             [594] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:33] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12464,11 +12463,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:33] [Server thread/INFO]:
                 )
 
             [595] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:33] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12596,11 +12595,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:33] [Server thread/ERROR]:
                 )
 
             [596] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:33] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12692,11 +12691,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:33] [Server thread/ERROR]:
                 )
 
             [597] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:33] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12710,11 +12709,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:33] [Server thread/INFO]:
                 )
 
             [598] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:34] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12728,11 +12727,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:34] [Server thread/INFO]:
                 )
 
             [599] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:34] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12746,11 +12745,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:34] [Server thread/INFO]:
                 )
 
             [600] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:34] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12764,11 +12763,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:34] [Server thread/INFO]:
                 )
 
             [601] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:34] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12782,11 +12781,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:34] [Server thread/INFO]:
                 )
 
             [602] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:34] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12800,11 +12799,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:34] [Server thread/INFO]:
                 )
 
             [603] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:34] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12818,11 +12817,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:34] [Server thread/INFO]:
                 )
 
             [604] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:35] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12836,11 +12835,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:35] [Server thread/INFO]:
                 )
 
             [605] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:35] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12854,11 +12853,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:35] [Server thread/INFO]:
                 )
 
             [606] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:35] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12872,11 +12871,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:35] [Server thread/INFO]:
                 )
 
             [607] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:35] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12890,11 +12889,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:35] [Server thread/INFO]:
                 )
 
             [608] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:35] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12908,11 +12907,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:35] [Server thread/INFO]:
                 )
 
             [609] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12926,11 +12925,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [610] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12944,11 +12943,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [611] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12962,11 +12961,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [612] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12980,11 +12979,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [613] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12998,11 +12997,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [614] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13016,11 +13015,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [615] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13034,11 +13033,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [616] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13052,11 +13051,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [617] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13070,11 +13069,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [618] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13088,11 +13087,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [619] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13106,11 +13105,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [620] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13124,11 +13123,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [621] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13142,11 +13141,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [622] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13160,11 +13159,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [623] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13178,11 +13177,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [624] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13196,11 +13195,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [625] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13214,11 +13213,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [626] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13232,11 +13231,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [627] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13250,11 +13249,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [628] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13268,11 +13267,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [629] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13286,11 +13285,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [630] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13304,11 +13303,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [631] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13322,11 +13321,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [632] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13340,11 +13339,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [633] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13358,11 +13357,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [634] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13376,11 +13375,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [635] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13394,11 +13393,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [636] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13412,11 +13411,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [637] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13430,11 +13429,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [638] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13448,11 +13447,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [639] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13466,11 +13465,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [640] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13484,11 +13483,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [641] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13502,11 +13501,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [642] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13520,11 +13519,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:36] [Server thread/INFO]:
                 )
 
             [643] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13538,11 +13537,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [644] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13556,11 +13555,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [645] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13574,11 +13573,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [646] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13592,11 +13591,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [647] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13610,11 +13609,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [648] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13628,11 +13627,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [649] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13646,11 +13645,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [650] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13664,11 +13663,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [651] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13682,11 +13681,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [652] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13700,11 +13699,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [653] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13718,11 +13717,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [654] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13736,11 +13735,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [655] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13754,11 +13753,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [656] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13772,11 +13771,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [657] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13790,11 +13789,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [658] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13808,11 +13807,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [659] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13826,11 +13825,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [660] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13844,11 +13843,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [661] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13862,11 +13861,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [662] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13880,11 +13879,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [663] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13898,11 +13897,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [664] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13916,11 +13915,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [665] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13934,11 +13933,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [666] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13952,11 +13951,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [667] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13970,11 +13969,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [668] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -13988,11 +13987,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [669] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14006,11 +14005,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [670] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14024,11 +14023,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [671] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14042,11 +14041,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [672] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14060,11 +14059,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [673] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14078,11 +14077,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [674] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14096,11 +14095,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [675] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14114,11 +14113,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [676] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14132,11 +14131,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [677] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14150,11 +14149,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [678] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14168,11 +14167,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [679] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14186,11 +14185,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [680] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14204,11 +14203,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:37] [Server thread/INFO]:
                 )
 
             [681] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14222,11 +14221,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [682] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14240,11 +14239,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [683] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14258,11 +14257,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [684] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14276,11 +14275,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [685] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14294,11 +14293,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [686] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14312,11 +14311,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [687] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14330,11 +14329,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [688] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14348,11 +14347,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [689] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14366,11 +14365,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [690] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14384,11 +14383,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [691] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14402,11 +14401,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [692] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14420,11 +14419,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [693] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14438,11 +14437,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [694] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14456,11 +14455,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [695] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14474,11 +14473,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [696] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14492,11 +14491,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [697] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14510,11 +14509,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [698] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14528,11 +14527,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [699] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14546,11 +14545,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [700] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14564,11 +14563,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [701] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14582,11 +14581,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [702] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14600,11 +14599,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [703] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14618,11 +14617,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [704] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14636,11 +14635,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [705] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14654,11 +14653,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [706] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14672,11 +14671,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [707] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14690,11 +14689,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [708] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14708,11 +14707,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [709] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14726,11 +14725,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [710] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14744,11 +14743,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [711] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14762,11 +14761,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [712] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14780,11 +14779,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [713] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14798,11 +14797,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [714] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14816,11 +14815,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [715] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14834,11 +14833,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [716] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14852,11 +14851,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [717] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14870,11 +14869,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [718] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14888,11 +14887,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [719] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14906,11 +14905,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [720] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14924,11 +14923,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [721] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14942,11 +14941,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [722] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14960,11 +14959,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [723] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14978,11 +14977,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [724] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -14996,11 +14995,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [725] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15014,11 +15013,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [726] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15032,11 +15031,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [727] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15050,11 +15049,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [728] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15068,11 +15067,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [729] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15086,11 +15085,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [730] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15104,11 +15103,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [731] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15122,11 +15121,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [732] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15140,11 +15139,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [733] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15158,11 +15157,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [734] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15176,11 +15175,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [735] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15194,11 +15193,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [736] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15212,11 +15211,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [737] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15230,11 +15229,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [738] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15248,11 +15247,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [739] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15266,11 +15265,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [740] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15284,11 +15283,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [741] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15302,11 +15301,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [742] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15320,11 +15319,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [743] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15338,11 +15337,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [744] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15356,11 +15355,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [745] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15374,11 +15373,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [746] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15392,11 +15391,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [747] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15410,11 +15409,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [748] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15428,11 +15427,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [749] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15446,11 +15445,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [750] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15464,11 +15463,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:40] [Server thread/INFO]:
                 )
 
             [751] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:41] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15482,11 +15481,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:41] [Server thread/INFO]:
                 )
 
             [752] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:41] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15500,11 +15499,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:41] [Server thread/INFO]:
                 )
 
             [753] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:41] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15518,11 +15517,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:41] [Server thread/INFO]:
                 )
 
             [754] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:41] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15536,11 +15535,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:41] [Server thread/INFO]:
                 )
 
             [755] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:41] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15554,11 +15553,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:41] [Server thread/INFO]:
                 )
 
             [756] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:41] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15572,11 +15571,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:41] [Server thread/INFO]:
                 )
 
             [757] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:41] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15590,11 +15589,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:41] [Server thread/INFO]:
                 )
 
             [758] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15608,11 +15607,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [759] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15626,11 +15625,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [760] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15644,11 +15643,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [761] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15662,11 +15661,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [762] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15680,11 +15679,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [763] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15698,11 +15697,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [764] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15716,11 +15715,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [765] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15734,11 +15733,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [766] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15752,11 +15751,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [767] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15770,11 +15769,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [768] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15788,11 +15787,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [769] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15806,11 +15805,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [770] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15824,11 +15823,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [771] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15842,11 +15841,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [772] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15860,11 +15859,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [773] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15878,11 +15877,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [774] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15896,11 +15895,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [775] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15914,11 +15913,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [776] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15932,11 +15931,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [777] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15950,11 +15949,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [778] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15968,11 +15967,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [779] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -15986,11 +15985,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [780] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16004,11 +16003,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [781] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16022,11 +16021,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [782] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16040,11 +16039,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [783] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16058,11 +16057,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [784] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16076,11 +16075,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [785] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16094,11 +16093,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [786] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16112,11 +16111,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [787] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16130,11 +16129,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [788] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16148,11 +16147,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [789] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16166,11 +16165,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [790] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16184,11 +16183,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [791] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16202,11 +16201,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [792] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16220,11 +16219,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [793] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16238,11 +16237,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:42] [Server thread/INFO]:
                 )
 
             [794] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16256,11 +16255,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [795] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16274,11 +16273,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [796] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16292,11 +16291,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [797] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16310,11 +16309,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [798] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16328,11 +16327,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [799] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16346,11 +16345,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [800] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16364,11 +16363,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [801] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16382,11 +16381,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [802] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16400,11 +16399,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [803] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16418,11 +16417,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [804] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16436,11 +16435,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [805] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16454,11 +16453,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [806] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16472,11 +16471,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [807] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16490,11 +16489,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [808] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16508,11 +16507,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [809] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16526,11 +16525,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [810] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16544,11 +16543,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [811] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16562,11 +16561,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [812] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16580,11 +16579,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [813] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16598,11 +16597,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [814] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16616,11 +16615,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [815] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16634,11 +16633,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [816] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16652,11 +16651,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [817] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16670,11 +16669,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [818] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16688,11 +16687,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [819] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16706,11 +16705,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [820] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16724,11 +16723,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [821] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16742,11 +16741,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [822] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16760,11 +16759,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [823] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16778,11 +16777,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [824] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16796,11 +16795,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [825] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16814,11 +16813,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [826] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16832,11 +16831,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [827] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16850,11 +16849,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [828] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16868,11 +16867,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [829] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16886,11 +16885,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:44] [Server thread/INFO]:
                 )
 
             [830] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16904,11 +16903,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [831] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16922,11 +16921,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [832] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16940,11 +16939,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [833] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16958,11 +16957,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [834] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16976,11 +16975,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [835] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -16994,11 +16993,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [836] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17012,11 +17011,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [837] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17030,11 +17029,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [838] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17048,11 +17047,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [839] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17066,11 +17065,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [840] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17084,11 +17083,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [841] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17102,11 +17101,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [842] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17120,11 +17119,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [843] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17138,11 +17137,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [844] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17156,11 +17155,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [845] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17174,11 +17173,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [846] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17192,11 +17191,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [847] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17210,11 +17209,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [848] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17228,11 +17227,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [849] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17246,11 +17245,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [850] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17264,11 +17263,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [851] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17282,11 +17281,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [852] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17300,11 +17299,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [853] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17318,11 +17317,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [854] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17336,11 +17335,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [855] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17354,11 +17353,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [856] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17372,11 +17371,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [857] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17390,11 +17389,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [858] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17408,11 +17407,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [859] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17426,11 +17425,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [860] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17444,11 +17443,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [861] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17462,11 +17461,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [862] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17480,11 +17479,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [863] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17498,11 +17497,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [864] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17516,11 +17515,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [865] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17534,11 +17533,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:47] [Server thread/INFO]:
                 )
 
             [866] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17552,11 +17551,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [867] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17570,11 +17569,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [868] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17588,11 +17587,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [869] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17606,11 +17605,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [870] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17624,11 +17623,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [871] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17642,11 +17641,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [872] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17660,11 +17659,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [873] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17678,11 +17677,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [874] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17696,11 +17695,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [875] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17714,11 +17713,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [876] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17732,11 +17731,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [877] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17750,11 +17749,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [878] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17768,11 +17767,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [879] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17786,11 +17785,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [880] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17804,11 +17803,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [881] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17822,11 +17821,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [882] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17840,11 +17839,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [883] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17858,11 +17857,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [884] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17876,11 +17875,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:52] [Server thread/INFO]:
                 )
 
             [885] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17894,11 +17893,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [886] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17912,11 +17911,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [887] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17930,11 +17929,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [888] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17948,11 +17947,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [889] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17966,11 +17965,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [890] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -17984,11 +17983,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [891] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18002,11 +18001,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [892] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18020,11 +18019,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [893] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18038,11 +18037,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [894] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18056,11 +18055,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [895] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18074,11 +18073,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [896] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18092,11 +18091,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [897] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18110,11 +18109,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [898] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18128,11 +18127,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [899] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18146,11 +18145,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [900] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18164,11 +18163,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [901] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18182,11 +18181,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [902] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18200,11 +18199,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [903] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18218,11 +18217,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [904] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18236,11 +18235,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [905] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18254,11 +18253,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [906] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18272,11 +18271,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [907] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18290,11 +18289,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [908] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18308,11 +18307,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [909] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18326,11 +18325,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [910] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18344,11 +18343,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [911] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18362,11 +18361,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [912] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18380,11 +18379,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [913] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18398,11 +18397,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [914] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18416,11 +18415,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:53] [Server thread/INFO]:
                 )
 
             [915] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:54] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18434,11 +18433,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:54] [Server thread/INFO]:
                 )
 
             [916] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18452,11 +18451,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/ERROR]:
                 )
 
             [917] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18470,11 +18469,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [918] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18488,11 +18487,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [919] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18518,11 +18517,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [920] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18536,11 +18535,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [921] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18554,11 +18553,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [922] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18572,11 +18571,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [923] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18590,11 +18589,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/WARN]:
                 )
 
             [924] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18608,11 +18607,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [925] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18626,11 +18625,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [926] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18644,11 +18643,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [927] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18662,11 +18661,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [928] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18680,11 +18679,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [929] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18698,11 +18697,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [930] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18716,11 +18715,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [931] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18734,11 +18733,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [932] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18752,11 +18751,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [933] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18770,11 +18769,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [934] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18788,11 +18787,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [935] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18806,11 +18805,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [936] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18824,11 +18823,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [937] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18842,11 +18841,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [938] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18860,11 +18859,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [939] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18878,11 +18877,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [940] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18896,11 +18895,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [941] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18914,11 +18913,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [942] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18932,11 +18931,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [943] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18950,11 +18949,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [944] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18968,11 +18967,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [945] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -18986,11 +18985,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [946] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19004,11 +19003,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [947] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19022,11 +19021,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [948] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19040,11 +19039,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [949] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19058,11 +19057,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [950] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19076,11 +19075,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:55] [Server thread/INFO]:
                 )
 
             [951] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19094,11 +19093,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [952] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19112,11 +19111,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [953] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19130,11 +19129,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [954] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19148,11 +19147,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [955] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19166,11 +19165,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [956] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19184,11 +19183,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [957] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19202,11 +19201,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [958] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19220,11 +19219,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [959] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19340,11 +19339,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/ERROR]:
                 )
 
             [960] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19358,11 +19357,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [961] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19376,11 +19375,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [962] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19394,11 +19393,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [963] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19412,11 +19411,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [964] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19430,11 +19429,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [965] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19448,11 +19447,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [966] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19466,11 +19465,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [967] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19484,11 +19483,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [968] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19502,11 +19501,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [969] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19520,11 +19519,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [970] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19538,11 +19537,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [971] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19556,11 +19555,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [972] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19574,11 +19573,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [973] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19592,11 +19591,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [974] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19610,11 +19609,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [975] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19628,11 +19627,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [976] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19646,11 +19645,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [977] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19664,11 +19663,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [978] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19682,11 +19681,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [979] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19700,11 +19699,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [980] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19718,11 +19717,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [981] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19736,11 +19735,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [982] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19754,11 +19753,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [983] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19772,11 +19771,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [984] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19790,11 +19789,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [985] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19808,11 +19807,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [986] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19826,11 +19825,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [987] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19844,11 +19843,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [988] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19862,11 +19861,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [989] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19880,11 +19879,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [990] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19898,11 +19897,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [991] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19916,11 +19915,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [992] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19934,11 +19933,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [993] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19952,11 +19951,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [994] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19970,11 +19969,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [995] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -19988,11 +19987,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [996] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20006,11 +20005,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [997] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20024,11 +20023,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/WARN]:
                 )
 
             [998] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20186,11 +20185,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/ERROR]:
                 )
 
             [999] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20204,11 +20203,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:56] [Server thread/INFO]:
                 )
 
             [1000] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:57] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20222,11 +20221,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:57] [Server thread/INFO]:
                 )
 
             [1001] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:57] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20240,11 +20239,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:57] [Server thread/INFO]:
                 )
 
             [1002] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:58] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20258,11 +20257,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:58] [Server thread/INFO]:
                 )
 
             [1003] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:58] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20276,11 +20275,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:58] [Server thread/ERROR]:
                 )
 
             [1004] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:59] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20294,11 +20293,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:59] [Server thread/INFO]:
                 )
 
             [1005] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:59] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20312,11 +20311,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:59] [Server thread/INFO]:
                 )
 
             [1006] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:59] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20330,11 +20329,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:59] [Server thread/INFO]:
                 )
 
             [1007] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:59] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20348,11 +20347,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:59] [Server thread/INFO]:
                 )
 
             [1008] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:09:59] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20366,11 +20365,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:09:59] [Server thread/INFO]:
                 )
 
             [1009] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20384,11 +20383,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1010] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20402,11 +20401,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1011] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Query Listener #1/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20420,11 +20419,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Query Listener #1/INFO]:
                 )
 
             [1012] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20438,11 +20437,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1013] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20456,11 +20455,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1014] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20474,11 +20473,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1015] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20492,11 +20491,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1016] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20648,11 +20647,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/ERROR]:
                 )
 
             [1017] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20666,11 +20665,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1018] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20684,11 +20683,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1019] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20702,11 +20701,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1020] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20720,11 +20719,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1021] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20738,11 +20737,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1022] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20756,11 +20755,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1023] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20774,11 +20773,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1024] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20792,11 +20791,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1025] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20810,11 +20809,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1026] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20828,11 +20827,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1027] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20846,11 +20845,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1028] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20864,11 +20863,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1029] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20882,11 +20881,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1030] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20900,11 +20899,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1031] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20918,11 +20917,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1032] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20936,11 +20935,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1033] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20954,11 +20953,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1034] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20972,11 +20971,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1035] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -20990,11 +20989,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1036] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21008,11 +21007,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1037] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21026,11 +21025,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1038] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21044,11 +21043,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1039] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21062,11 +21061,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1040] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21080,11 +21079,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1041] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21098,11 +21097,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1042] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21116,11 +21115,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1043] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21134,11 +21133,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1044] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21152,11 +21151,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1045] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21170,11 +21169,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1046] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21188,11 +21187,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1047] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21206,11 +21205,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1048] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21224,11 +21223,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1049] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21242,11 +21241,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1050] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21260,11 +21259,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1051] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21278,11 +21277,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1052] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21296,11 +21295,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1053] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21314,11 +21313,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1054] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21332,11 +21331,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1055] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21350,11 +21349,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1056] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21368,11 +21367,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1057] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21386,11 +21385,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1058] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21404,11 +21403,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1059] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21422,11 +21421,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1060] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21440,11 +21439,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1061] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21458,11 +21457,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1062] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21476,11 +21475,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1063] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21494,11 +21493,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1064] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21512,11 +21511,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1065] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21530,11 +21529,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1066] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21548,11 +21547,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1067] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21566,11 +21565,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1068] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21584,11 +21583,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1069] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21602,11 +21601,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1070] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21620,11 +21619,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1071] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21638,11 +21637,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1072] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21656,11 +21655,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1073] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21674,11 +21673,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1074] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21692,11 +21691,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1075] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21710,11 +21709,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1076] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21728,11 +21727,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1077] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21818,11 +21817,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/ERROR]:
                 )
 
             [1078] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21836,11 +21835,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1079] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21854,11 +21853,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1080] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21872,11 +21871,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1081] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21890,11 +21889,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1082] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21908,11 +21907,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1083] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21926,11 +21925,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1084] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21944,11 +21943,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1085] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21962,11 +21961,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1086] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21980,11 +21979,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1087] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -21998,11 +21997,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1088] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22016,11 +22015,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1089] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22034,11 +22033,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1090] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22052,11 +22051,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1091] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22070,11 +22069,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1092] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22088,11 +22087,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1093] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22106,11 +22105,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1094] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22124,11 +22123,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1095] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22142,11 +22141,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1096] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22160,11 +22159,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1097] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22178,11 +22177,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1098] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22196,11 +22195,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1099] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22214,11 +22213,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1100] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22232,11 +22231,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1101] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22250,11 +22249,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1102] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22268,11 +22267,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1103] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22286,11 +22285,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1104] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22304,11 +22303,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1105] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22322,11 +22321,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1106] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22340,11 +22339,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1107] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22358,11 +22357,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1108] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22376,11 +22375,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1109] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22394,11 +22393,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1110] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22412,11 +22411,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1111] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22430,11 +22429,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1112] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22448,11 +22447,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1113] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22466,11 +22465,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:00] [Server thread/INFO]:
                 )
 
             [1114] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22484,11 +22483,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1115] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22502,11 +22501,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1116] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22520,11 +22519,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1117] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22538,11 +22537,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1118] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22556,11 +22555,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1119] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22574,11 +22573,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1120] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22592,11 +22591,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1121] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22610,11 +22609,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1122] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22628,11 +22627,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1123] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22646,11 +22645,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1124] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22664,11 +22663,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1125] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22682,11 +22681,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1126] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22700,11 +22699,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1127] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22718,11 +22717,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1128] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22736,11 +22735,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1129] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22754,11 +22753,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1130] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22772,11 +22771,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1131] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22790,11 +22789,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1132] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22808,11 +22807,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1133] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22826,11 +22825,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1134] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22844,11 +22843,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1135] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22862,11 +22861,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1136] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22880,11 +22879,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1137] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22898,11 +22897,11 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
             [1138] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -22916,6 +22915,7 @@ class SpigotPermissionsexConfigTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:10:01] [Server thread/INFO]:
                 )
 
         )
@@ -24473,11 +24473,8 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.8
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:08:50] [Server thread/INFO]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -24491,34 +24488,18 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:08:50] [Server thread/INFO]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.8
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
-                    [pluginPath:protected] => plugins/Troll_v3.8.jar
-                    [pluginName:protected] => Troll_v3.8
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
-                                (
-                                    [pluginName:protected] => Troll_v3.8
-                                )
-
-                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
-                                (
-                                    [path:protected] => plugins/Troll_v3.8.jar
-                                    [relativePath:protected] => 1
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:08:54] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -24622,34 +24603,34 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:08:54] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
-                (
-                    [pluginPath:protected] => plugins/AdminSystem ???.jar
-                    [pluginName:protected] => AdminSystem ???
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
                                 (
-                                    [pluginName:protected] => AdminSystem ???
+                                    [pluginName:protected] => Troll_v3.8
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
                                 (
-                                    [path:protected] => plugins/AdminSystem ???.jar
+                                    [path:protected] => plugins/Troll_v3.8.jar
                                     [relativePath:protected] => 1
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [pluginName:protected] => Troll_v3.8
+                    [pluginPath:protected] => plugins/Troll_v3.8.jar
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -24753,34 +24734,34 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
-                (
-                    [pluginPath:protected] => plugins/ChatTroll_v2.1.jar
-                    [pluginName:protected] => ChatTroll_v2.1
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
                                 (
-                                    [pluginName:protected] => ChatTroll_v2.1
+                                    [pluginName:protected] => AdminSystem ???
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
                                 (
-                                    [path:protected] => plugins/ChatTroll_v2.1.jar
+                                    [path:protected] => plugins/AdminSystem ???.jar
                                     [relativePath:protected] => 1
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [pluginName:protected] => AdminSystem ???
+                    [pluginPath:protected] => plugins/AdminSystem ???.jar
+                )
+
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -24848,16 +24829,51 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
+                                (
+                                    [pluginName:protected] => ChatTroll_v2.1
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
+                                (
+                                    [path:protected] => plugins/ChatTroll_v2.1.jar
+                                    [relativePath:protected] => 1
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [pluginName:protected] => ChatTroll_v2.1
+                    [pluginPath:protected] => plugins/ChatTroll_v2.1.jar
                 )
 
             [4] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
                 (
-                    [firstPluginPath:protected] => plugins/SkyPvPFree.jar
-                    [secondPluginPath:protected] => plugins/SkyPvP.jar
-                    [pluginName:protected] => SkyPvP
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [21:08:56] [Server thread/ERROR]: Ambiguous plugin name `SkyPvP\' for files `plugins/SkyPvPFree.jar\' and `plugins/SkyPvP.jar\' in `plugins\'
+                                            [number:protected] => 53
+                                        )
+
+                                )
+
+                            [level:protected] => ERROR
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [21:08:56] [Server thread/ERROR]:
+                        )
+
+                    [counter:protected] => 1
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
@@ -24875,50 +24891,15 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                         )
 
                     [iterator:protected] => 0
-                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
-                        (
-                            [prefix:protected] => [21:08:56] [Server thread/ERROR]:
-                            [lines:protected] => Array
-                                (
-                                    [0] => Aternos\Codex\Log\Line Object
-                                        (
-                                            [text:protected] => [21:08:56] [Server thread/ERROR]: Ambiguous plugin name `SkyPvP\' for files `plugins/SkyPvPFree.jar\' and `plugins/SkyPvP.jar\' in `plugins\'
-                                            [number:protected] => 53
-                                        )
-
-                                )
-
-                            [level:protected] => ERROR
-                            [time:protected] => 
-                            [iterator:protected] => 0
-                        )
-
-                    [counter:protected] => 1
+                    [firstPluginPath:protected] => plugins/SkyPvPFree.jar
+                    [secondPluginPath:protected] => plugins/SkyPvP.jar
+                    [pluginName:protected] => SkyPvP
                 )
 
             [5] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
-                    [pluginPath:protected] => plugins/CommunityBETA.jar
-                    [pluginName:protected] => CommunityBETA
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
-                                (
-                                    [pluginName:protected] => CommunityBETA
-                                )
-
-                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
-                                (
-                                    [path:protected] => plugins/CommunityBETA.jar
-                                    [relativePath:protected] => 1
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -25022,16 +25003,51 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
+                                (
+                                    [pluginName:protected] => CommunityBETA
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
+                                (
+                                    [path:protected] => plugins/CommunityBETA.jar
+                                    [relativePath:protected] => 1
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [pluginName:protected] => CommunityBETA
+                    [pluginPath:protected] => plugins/CommunityBETA.jar
                 )
 
             [6] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
                 (
-                    [firstPluginPath:protected] => plugins/BetterNick 1.13.X.jar
-                    [secondPluginPath:protected] => plugins/BetterNick 1.8.3 - 1.12.2.jar
-                    [pluginName:protected] => BetterNick
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [21:08:56] [Server thread/ERROR]: Ambiguous plugin name `BetterNick\' for files `plugins/BetterNick 1.13.X.jar\' and `plugins/BetterNick 1.8.3 - 1.12.2.jar\' in `plugins\'
+                                            [number:protected] => 70
+                                        )
+
+                                )
+
+                            [level:protected] => ERROR
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [21:08:56] [Server thread/ERROR]:
+                        )
+
+                    [counter:protected] => 1
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
@@ -25049,50 +25065,15 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                         )
 
                     [iterator:protected] => 0
-                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
-                        (
-                            [prefix:protected] => [21:08:56] [Server thread/ERROR]:
-                            [lines:protected] => Array
-                                (
-                                    [0] => Aternos\Codex\Log\Line Object
-                                        (
-                                            [text:protected] => [21:08:56] [Server thread/ERROR]: Ambiguous plugin name `BetterNick\' for files `plugins/BetterNick 1.13.X.jar\' and `plugins/BetterNick 1.8.3 - 1.12.2.jar\' in `plugins\'
-                                            [number:protected] => 70
-                                        )
-
-                                )
-
-                            [level:protected] => ERROR
-                            [time:protected] => 
-                            [iterator:protected] => 0
-                        )
-
-                    [counter:protected] => 1
+                    [firstPluginPath:protected] => plugins/BetterNick 1.13.X.jar
+                    [secondPluginPath:protected] => plugins/BetterNick 1.8.3 - 1.12.2.jar
+                    [pluginName:protected] => BetterNick
                 )
 
             [7] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
-                    [pluginPath:protected] => plugins/bstats-bukkit-1.2.jar
-                    [pluginName:protected] => bstats-bukkit-1.2
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
-                                (
-                                    [pluginName:protected] => bstats-bukkit-1.2
-                                )
-
-                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
-                                (
-                                    [path:protected] => plugins/bstats-bukkit-1.2.jar
-                                    [relativePath:protected] => 1
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -25160,34 +25141,34 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:08:56] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [8] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
-                (
-                    [pluginPath:protected] => plugins/SlashServer.jar
-                    [pluginName:protected] => SlashServer
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
                                 (
-                                    [pluginName:protected] => SlashServer
+                                    [pluginName:protected] => bstats-bukkit-1.2
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
                                 (
-                                    [path:protected] => plugins/SlashServer.jar
+                                    [path:protected] => plugins/bstats-bukkit-1.2.jar
                                     [relativePath:protected] => 1
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [pluginName:protected] => bstats-bukkit-1.2
+                    [pluginPath:protected] => plugins/bstats-bukkit-1.2.jar
+                )
+
+            [8] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:08:57] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -25507,35 +25488,34 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:08:57] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [9] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
-                (
-                    [pluginPath:protected] => plugins/AreaShop.jar
-                    [pluginName:protected] => AreaShop
-                    [dependencyPluginName:protected] => WorldGuard
                     [solutions:protected] => Array
                         (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallSolution Object
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
                                 (
-                                    [pluginName:protected] => WorldGuard
+                                    [pluginName:protected] => SlashServer
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
                                 (
-                                    [path:protected] => plugins/AreaShop.jar
+                                    [path:protected] => plugins/SlashServer.jar
                                     [relativePath:protected] => 1
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [pluginName:protected] => SlashServer
+                    [pluginPath:protected] => plugins/SlashServer.jar
+                )
+
+            [9] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:08:57] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -25585,34 +25565,35 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:08:57] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [10] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
-                (
-                    [pluginPath:protected] => plugins/PortalStones1.5.jar
-                    [pluginName:protected] => PortalStones1.5
                     [solutions:protected] => Array
                         (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallSolution Object
                                 (
-                                    [pluginName:protected] => PortalStones1.5
+                                    [pluginName:protected] => WorldGuard
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
                                 (
-                                    [path:protected] => plugins/PortalStones1.5.jar
+                                    [path:protected] => plugins/AreaShop.jar
                                     [relativePath:protected] => 1
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [pluginPath:protected] => plugins/AreaShop.jar
+                    [pluginName:protected] => AreaShop
+                    [dependencyPluginName:protected] => WorldGuard
+                )
+
+            [10] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:08:57] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -25788,32 +25769,34 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:08:57] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [11] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
-                (
-                    [pluginName:protected] => SuperLobbyPlus
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
                                 (
-                                    [pluginName:protected] => SuperLobbyPlus
+                                    [pluginName:protected] => PortalStones1.5
                                 )
 
-                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution Object
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
                                 (
-                                    [pluginName:protected] => SuperLobbyPlus
+                                    [path:protected] => plugins/PortalStones1.5.jar
+                                    [relativePath:protected] => 1
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [pluginName:protected] => PortalStones1.5
+                    [pluginPath:protected] => plugins/PortalStones1.5.jar
+                )
+
+            [11] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:09:25] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -25905,32 +25888,32 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:09:25] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [12] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
-                (
-                    [pluginName:protected] => GlobalMarket
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
                                 (
-                                    [pluginName:protected] => GlobalMarket
+                                    [pluginName:protected] => SuperLobbyPlus
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution Object
                                 (
-                                    [pluginName:protected] => GlobalMarket
+                                    [pluginName:protected] => SuperLobbyPlus
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [pluginName:protected] => SuperLobbyPlus
+                )
+
+            [12] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:09:26] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -26076,32 +26059,32 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:09:26] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [13] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\PermissionsExConfigProblem Object
-                (
                     [solutions:protected] => Array
                         (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginConfigureSolution Object
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
                                 (
-                                    [suggestedFile:protected] => plugins/PermissionsEx/permissions.yml
-                                    [pluginName:protected] => PermissionsEx
+                                    [pluginName:protected] => GlobalMarket
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution Object
                                 (
-                                    [pluginName:protected] => PermissionsEx
+                                    [pluginName:protected] => GlobalMarket
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [pluginName:protected] => GlobalMarket
+                )
+
+            [13] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\PermissionsExConfigProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:09:26] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -26637,32 +26620,32 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:09:26] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [14] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
-                (
-                    [pluginName:protected] => TalkingBot
                     [solutions:protected] => Array
                         (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginConfigureSolution Object
                                 (
-                                    [pluginName:protected] => TalkingBot
+                                    [pluginName:protected] => PermissionsEx
+                                    [suggestedFile:protected] => plugins/PermissionsEx/permissions.yml
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution Object
                                 (
-                                    [pluginName:protected] => TalkingBot
+                                    [pluginName:protected] => PermissionsEx
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                )
+
+            [14] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:09:26] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -26760,32 +26743,32 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:09:26] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [15] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
-                (
-                    [pluginName:protected] => CustomRanks
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
                                 (
-                                    [pluginName:protected] => CustomRanks
+                                    [pluginName:protected] => TalkingBot
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution Object
                                 (
-                                    [pluginName:protected] => CustomRanks
+                                    [pluginName:protected] => TalkingBot
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [pluginName:protected] => TalkingBot
+                )
+
+            [15] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:09:33] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -26913,14 +26896,10 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:09:33] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [16] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
-                (
-                    [pluginName:protected] => CustomRanks
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
@@ -26936,9 +26915,13 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                         )
 
                     [iterator:protected] => 0
+                    [pluginName:protected] => CustomRanks
+                )
+
+            [16] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:09:33] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -27030,32 +27013,32 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:09:33] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [17] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
-                (
-                    [pluginName:protected] => CitizensCMD
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
                                 (
-                                    [pluginName:protected] => CitizensCMD
+                                    [pluginName:protected] => CustomRanks
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution Object
                                 (
-                                    [pluginName:protected] => CitizensCMD
+                                    [pluginName:protected] => CustomRanks
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [pluginName:protected] => CustomRanks
+                )
+
+            [17] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:09:56] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -27171,32 +27154,32 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:09:56] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [18] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
-                (
-                    [pluginName:protected] => RedProtect
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
                                 (
-                                    [pluginName:protected] => RedProtect
+                                    [pluginName:protected] => CitizensCMD
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution Object
                                 (
-                                    [pluginName:protected] => RedProtect
+                                    [pluginName:protected] => CitizensCMD
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [pluginName:protected] => CitizensCMD
+                )
+
+            [18] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:09:56] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -27354,14 +27337,10 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:09:56] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [19] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
-                (
-                    [pluginName:protected] => RedProtect
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
@@ -27377,9 +27356,13 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                         )
 
                     [iterator:protected] => 0
+                    [pluginName:protected] => RedProtect
+                )
+
+            [19] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:10:00] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -27531,32 +27514,32 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:10:00] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [20] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
-                (
-                    [pluginName:protected] => SuperLobbyPlus
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
                                 (
-                                    [pluginName:protected] => SuperLobbyPlus
+                                    [pluginName:protected] => RedProtect
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution Object
                                 (
-                                    [pluginName:protected] => SuperLobbyPlus
+                                    [pluginName:protected] => RedProtect
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [pluginName:protected] => RedProtect
+                )
+
+            [20] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:10:00] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -27642,9 +27625,26 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:10:00] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
+                                (
+                                    [pluginName:protected] => SuperLobbyPlus
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution Object
+                                (
+                                    [pluginName:protected] => SuperLobbyPlus
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [pluginName:protected] => SuperLobbyPlus
                 )
 
         )

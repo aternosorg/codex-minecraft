@@ -18,7 +18,6 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => TITLE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => COMMENT
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Time:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => Time:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Description:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => Description:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -374,11 +373,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -392,11 +391,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -410,11 +409,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -428,11 +427,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -446,11 +445,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [24] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -464,11 +463,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [25] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -482,11 +481,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [26] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -500,11 +499,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [27] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -518,11 +517,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [28] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -536,11 +535,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [29] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -554,11 +553,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [30] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -572,11 +571,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [31] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -590,11 +589,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [32] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -608,11 +607,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [33] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -626,11 +625,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [34] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -644,11 +643,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [35] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -662,11 +661,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [36] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -680,11 +679,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -698,11 +697,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => TITLE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [38] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Thread:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -716,11 +715,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => Thread:
                 )
 
             [39] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Stacktrace:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -734,11 +733,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => Stacktrace:
                 )
 
             [40] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -752,11 +751,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [41] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -770,11 +769,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [42] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -788,11 +787,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [43] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -806,11 +805,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [44] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -824,11 +823,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [45] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -842,11 +841,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [46] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -860,11 +859,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [47] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -878,11 +877,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [48] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -896,11 +895,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [49] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -914,11 +913,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [50] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -932,11 +931,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [51] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -950,11 +949,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [52] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -968,11 +967,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [53] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -986,11 +985,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [54] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1004,11 +1003,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [55] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1022,11 +1021,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [56] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1040,11 +1039,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [57] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1058,11 +1057,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => TITLE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [58] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Details:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1076,11 +1075,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => Details:
                 )
 
             [59] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Entity Type:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1094,11 +1093,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Entity Type:
                 )
 
             [60] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Entity ID:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1112,11 +1111,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Entity ID:
                 )
 
             [61] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Entity Name:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1130,11 +1129,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Entity Name:
                 )
 
             [62] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Entity\'s Exact location:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1148,11 +1147,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Entity\'s Exact location:
                 )
 
             [63] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Entity\'s Block location:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1166,11 +1165,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Entity\'s Block location:
                 )
 
             [64] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Entity\'s Momentum:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1184,11 +1183,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Entity\'s Momentum:
                 )
 
             [65] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Entity\'s Passengers:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1202,11 +1201,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Entity\'s Passengers:
                 )
 
             [66] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Entity\'s Vehicle:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1220,11 +1219,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Entity\'s Vehicle:
                 )
 
             [67] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Stacktrace:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1238,11 +1237,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => Stacktrace:
                 )
 
             [68] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1256,11 +1255,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [69] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1274,11 +1273,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [70] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1292,11 +1291,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [71] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1310,11 +1309,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [72] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1328,11 +1327,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => TITLE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [73] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Details:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1346,11 +1345,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => Details:
                 )
 
             [74] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	All players:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1364,11 +1363,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	All players:
                 )
 
             [75] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Chunk stats:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1382,11 +1381,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Chunk stats:
                 )
 
             [76] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level dimension:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1400,11 +1399,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Level dimension:
                 )
 
             [77] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level spawn location:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1418,11 +1417,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Level spawn location:
                 )
 
             [78] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level time:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1436,11 +1435,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Level time:
                 )
 
             [79] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level name:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1454,11 +1453,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Level name:
                 )
 
             [80] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level game mode:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1472,11 +1471,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Level game mode:
                 )
 
             [81] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level weather:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1490,11 +1489,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Level weather:
                 )
 
             [82] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Known server brands:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1508,11 +1507,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Known server brands:
                 )
 
             [83] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level was modded:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1526,11 +1525,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Level was modded:
                 )
 
             [84] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Level storage version:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1544,11 +1543,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Level storage version:
                 )
 
             [85] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Stacktrace:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1562,11 +1561,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => Stacktrace:
                 )
 
             [86] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1580,11 +1579,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [87] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1598,11 +1597,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [88] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1616,11 +1615,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [89] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1634,11 +1633,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [90] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1652,11 +1651,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [91] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1670,11 +1669,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => STACKTRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [92] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1688,11 +1687,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [93] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1706,11 +1705,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [94] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1724,11 +1723,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => TITLE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [95] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => Details:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1742,11 +1741,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => Details:
                 )
 
             [96] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Minecraft Version:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1760,11 +1759,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Minecraft Version:
                 )
 
             [97] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Minecraft Version ID:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1778,11 +1777,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Minecraft Version ID:
                 )
 
             [98] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Operating System:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1796,11 +1795,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Operating System:
                 )
 
             [99] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Java Version:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1814,11 +1813,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Java Version:
                 )
 
             [100] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Java VM Version:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1832,11 +1831,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Java VM Version:
                 )
 
             [101] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Memory:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1850,11 +1849,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Memory:
                 )
 
             [102] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	CPUs:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1868,11 +1867,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	CPUs:
                 )
 
             [103] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	JVM Flags:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1886,11 +1885,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	JVM Flags:
                 )
 
             [104] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	ModLauncher:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1904,11 +1903,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	ModLauncher:
                 )
 
             [105] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	ModLauncher launch target:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1922,11 +1921,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	ModLauncher launch target:
                 )
 
             [106] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	ModLauncher naming:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1940,11 +1939,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	ModLauncher naming:
                 )
 
             [107] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	ModLauncher services:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1958,11 +1957,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	ModLauncher services:
                 )
 
             [108] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1976,11 +1975,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [109] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1994,11 +1993,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [110] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2012,11 +2011,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [111] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2030,11 +2029,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [112] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2048,11 +2047,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [113] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2066,11 +2065,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [114] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2084,11 +2083,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [115] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2102,11 +2101,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [116] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2120,11 +2119,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [117] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	FML:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2138,11 +2137,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	FML:
                 )
 
             [118] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Forge:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2156,11 +2155,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Forge:
                 )
 
             [119] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	FML Language Providers:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2174,11 +2173,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	FML Language Providers:
                 )
 
             [120] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2192,11 +2191,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [121] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2210,11 +2209,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [122] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Mod List:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2228,11 +2227,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Mod List:
                 )
 
             [123] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2246,11 +2245,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [124] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2264,11 +2263,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [125] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2282,11 +2281,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [126] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2300,11 +2299,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [127] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2318,11 +2317,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [128] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2336,11 +2335,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [129] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2354,11 +2353,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [130] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2372,11 +2371,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [131] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2390,11 +2389,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [132] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2408,11 +2407,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [133] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2426,11 +2425,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [134] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2444,11 +2443,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [135] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2462,11 +2461,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [136] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2480,11 +2479,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [137] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2498,11 +2497,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [138] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2516,11 +2515,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [139] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2534,11 +2533,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [140] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2552,11 +2551,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [141] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2570,11 +2569,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [142] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2588,11 +2587,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [143] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2606,11 +2605,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [144] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2624,11 +2623,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [145] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2642,11 +2641,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [146] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Crash Report UUID:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2660,11 +2659,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Crash Report UUID:
                 )
 
             [147] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Player Count:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2678,11 +2677,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Player Count:
                 )
 
             [148] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Data Packs:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2696,11 +2695,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Data Packs:
                 )
 
             [149] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Is Modded:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2714,11 +2713,11 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Is Modded:
                 )
 
             [150] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 	Type:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2732,6 +2731,7 @@ class Forge1165Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 	Type:
                 )
 
         )
@@ -2901,11 +2901,8 @@ Details:
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\CrashReport\VanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.16.5
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => 	Minecraft Version:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -2919,9 +2916,12 @@ Details:
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => 	Minecraft Version:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.16.5
                 )
 
         )

@@ -18,7 +18,6 @@ class VelocityTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [14:54:40] [main/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class VelocityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [14:54:40] [main/INFO]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [14:54:40] [main/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class VelocityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [14:54:40] [main/INFO]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [14:54:40] [main/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class VelocityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [14:54:40] [main/INFO]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [14:54:40] [main/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class VelocityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [14:54:40] [main/INFO]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [14:54:40] [main/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class VelocityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [14:54:40] [main/INFO]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [14:54:40] [main/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class VelocityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [14:54:40] [main/INFO]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [14:54:40] [Netty epoll Boss #0/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class VelocityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [14:54:40] [Netty epoll Boss #0/INFO]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [14:54:40] [Netty epoll Worker #0/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class VelocityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [14:54:40] [Netty epoll Worker #0/INFO]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [14:54:40] [main/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class VelocityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [14:54:40] [main/INFO]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [14:54:46] [Thread-2/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class VelocityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [14:54:46] [Thread-2/INFO]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [14:54:46] [Thread-2/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class VelocityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [14:54:46] [Thread-2/INFO]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [14:54:46] [Thread-2/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -236,6 +235,7 @@ class VelocityTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [14:54:46] [Thread-2/INFO]:
                 )
 
         )

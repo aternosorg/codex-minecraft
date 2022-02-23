@@ -18,7 +18,6 @@ class BedrockAuthenticationWhitelistProblemTest extends PHPUnit\Framework\TestCa
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2019-08-29 15:47:34 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class BedrockAuthenticationWhitelistProblemTest extends PHPUnit\Framework\TestCa
                     [level:protected] => INFO
                     [time:protected] => 1567093654
                     [iterator:protected] => 0
+                    [prefix:protected] => [2019-08-29 15:47:34 INFO]
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2019-08-29 15:47:34 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class BedrockAuthenticationWhitelistProblemTest extends PHPUnit\Framework\TestCa
                     [level:protected] => INFO
                     [time:protected] => 1567093654
                     [iterator:protected] => 0
+                    [prefix:protected] => [2019-08-29 15:47:34 INFO]
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2019-08-29 15:47:34 ERROR]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,6 +67,7 @@ class BedrockAuthenticationWhitelistProblemTest extends PHPUnit\Framework\TestCa
                     [level:protected] => ERROR
                     [time:protected] => 1567093654
                     [iterator:protected] => 0
+                    [prefix:protected] => [2019-08-29 15:47:34 ERROR]
                 )
 
         )
@@ -89,11 +89,8 @@ class BedrockAuthenticationWhitelistProblemTest extends PHPUnit\Framework\TestCa
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Bedrock\BedrockVersionInformation Object
                 (
-                    [label:protected] => Bedrock version
-                    [value:protected] => 1.12.0.28
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [2019-08-29 15:47:34 INFO]
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -107,29 +104,18 @@ class BedrockAuthenticationWhitelistProblemTest extends PHPUnit\Framework\TestCa
                             [level:protected] => INFO
                             [time:protected] => 1567093654
                             [iterator:protected] => 0
+                            [prefix:protected] => [2019-08-29 15:47:34 INFO]
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Bedrock version
+                    [value:protected] => 1.12.0.28
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bedrock\BedrockAuthenticationWhitelistProblem Object
                 (
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bedrock\EnableAuthenticationSolution Object
-                                (
-                                )
-
-                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bedrock\DisableWhitelistSolution Object
-                                (
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [2019-08-29 15:47:34 ERROR]
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -143,9 +129,23 @@ class BedrockAuthenticationWhitelistProblemTest extends PHPUnit\Framework\TestCa
                             [level:protected] => ERROR
                             [time:protected] => 1567093654
                             [iterator:protected] => 0
+                            [prefix:protected] => [2019-08-29 15:47:34 ERROR]
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bedrock\EnableAuthenticationSolution Object
+                                (
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bedrock\DisableWhitelistSolution Object
+                                (
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
                 )
 
         )

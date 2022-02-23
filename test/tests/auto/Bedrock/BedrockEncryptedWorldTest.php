@@ -18,7 +18,6 @@ class BedrockEncryptedWorldTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class BedrockEncryptedWorldTest extends PHPUnit\Framework\TestCase
                     [level:protected] => 
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => 
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2021-09-15 10:35:25 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class BedrockEncryptedWorldTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1631702125
                     [iterator:protected] => 0
+                    [prefix:protected] => [2021-09-15 10:35:25 INFO]
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2021-09-15 10:35:25 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class BedrockEncryptedWorldTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1631702125
                     [iterator:protected] => 0
+                    [prefix:protected] => [2021-09-15 10:35:25 INFO]
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2021-09-15 10:35:25 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class BedrockEncryptedWorldTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1631702125
                     [iterator:protected] => 0
+                    [prefix:protected] => [2021-09-15 10:35:25 INFO]
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2021-09-15 10:35:25 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class BedrockEncryptedWorldTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1631702125
                     [iterator:protected] => 0
+                    [prefix:protected] => [2021-09-15 10:35:25 INFO]
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2021-09-15 10:35:25 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class BedrockEncryptedWorldTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1631702125
                     [iterator:protected] => 0
+                    [prefix:protected] => [2021-09-15 10:35:25 INFO]
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2021-09-15 10:35:25 INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class BedrockEncryptedWorldTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1631702125
                     [iterator:protected] => 0
+                    [prefix:protected] => [2021-09-15 10:35:25 INFO]
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [2021-09-15 10:40:38 ERROR]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,6 +175,7 @@ class BedrockEncryptedWorldTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 1631702438
                     [iterator:protected] => 0
+                    [prefix:protected] => [2021-09-15 10:40:38 ERROR]
                 )
 
         )
@@ -205,18 +205,8 @@ class BedrockEncryptedWorldTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Problem\Bedrock\BedrockDBStorageChainProblem Object
                 (
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution Object
-                                (
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [2021-09-15 10:35:25 INFO]
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -248,9 +238,19 @@ class BedrockEncryptedWorldTest extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 1631702125
                             [iterator:protected] => 0
+                            [prefix:protected] => [2021-09-15 10:35:25 INFO]
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution Object
+                                (
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
                 )
 
         )

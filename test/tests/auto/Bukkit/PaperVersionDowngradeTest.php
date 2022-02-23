@@ -18,7 +18,6 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:07] [main/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:07] [main/INFO]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:07] [main/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:07] [main/INFO]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:07] [main/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:07] [main/INFO]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:08] [Worker-Main-1/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:08] [Worker-Main-1/INFO]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:11] [Server thread/INFO]:
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:12] [Server thread/INFO]:
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:12] [Server thread/INFO]:
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:12] [Server thread/INFO]:
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -374,11 +373,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:12] [Server thread/INFO]:
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:12] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -392,11 +391,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:12] [Server thread/INFO]:
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -410,11 +409,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Paper Async Chunk Task Thread #0/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -428,11 +427,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Paper Async Chunk Task Thread #0/WARN]:
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Paper Async Chunk Task Thread #0/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -446,11 +445,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Paper Async Chunk Task Thread #0/WARN]:
                 )
 
             [24] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Paper Async Chunk Task Thread #0/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -464,11 +463,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Paper Async Chunk Task Thread #0/WARN]:
                 )
 
             [25] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Paper Async Chunk Task Thread #0/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -482,11 +481,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Paper Async Chunk Task Thread #0/WARN]:
                 )
 
             [26] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Paper Async Chunk Task Thread #0/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -500,11 +499,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Paper Async Chunk Task Thread #0/WARN]:
                 )
 
             [27] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Paper Async Chunk Task Thread #0/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -518,11 +517,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Paper Async Chunk Task Thread #0/WARN]:
                 )
 
             [28] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -536,11 +535,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                 )
 
             [29] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -554,11 +553,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                 )
 
             [30] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -572,11 +571,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                 )
 
             [31] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -590,11 +589,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                 )
 
             [32] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -608,11 +607,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                 )
 
             [33] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -626,11 +625,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                 )
 
             [34] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -644,11 +643,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                 )
 
             [35] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -662,11 +661,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                 )
 
             [36] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -680,11 +679,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:16] [Server thread/INFO]:
                 )
 
             [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Worker-Main-1/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -698,11 +697,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Worker-Main-1/INFO]:
                 )
 
             [38] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Thread-3/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -716,11 +715,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Thread-3/INFO]:
                 )
 
             [39] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/FATAL]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -968,11 +967,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/FATAL]:
                 )
 
             [40] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/FATAL]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1184,11 +1183,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/FATAL]:
                 )
 
             [41] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/FATAL]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1400,11 +1399,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/FATAL]:
                 )
 
             [42] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1418,11 +1417,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [43] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1436,11 +1435,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [44] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1454,11 +1453,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [45] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1472,11 +1471,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [46] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1490,11 +1489,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [47] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1508,11 +1507,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [48] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1526,11 +1525,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [49] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1544,11 +1543,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [50] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/FATAL]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1760,11 +1759,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/FATAL]:
                 )
 
             [51] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1778,11 +1777,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [52] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1796,11 +1795,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [53] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1814,11 +1813,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [54] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1832,11 +1831,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [55] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1850,11 +1849,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [56] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1868,11 +1867,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [57] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1886,11 +1885,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [58] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/FATAL]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2102,11 +2101,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/FATAL]:
                 )
 
             [59] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2120,11 +2119,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [60] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2138,11 +2137,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [61] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2156,11 +2155,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [62] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/FATAL]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2372,11 +2371,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/FATAL]:
                 )
 
             [63] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2390,11 +2389,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [64] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/FATAL]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2606,11 +2605,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/FATAL]:
                 )
 
             [65] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2624,11 +2623,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [66] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2642,11 +2641,11 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
             [67] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2660,6 +2659,7 @@ class PaperVersionDowngradeTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:51:17] [Server thread/WARN]:
                 )
 
         )
@@ -2983,11 +2983,8 @@ Caused by: java.lang.ThreadDeath
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.16.4
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [13:51:11] [Server thread/INFO]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -3001,29 +2998,18 @@ Caused by: java.lang.ThreadDeath
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [13:51:11] [Server thread/INFO]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.16.4
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Paper\VersionDowngradeProblem Object
                 (
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Paper\VersionDowngradeSolution Object
-                                (
-                                )
-
-                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution Object
-                                (
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [13:51:16] [Paper Async Chunk Task Thread #0/WARN]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -3037,9 +3023,23 @@ Caused by: java.lang.ThreadDeath
                             [level:protected] => WARN
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [13:51:16] [Paper Async Chunk Task Thread #0/WARN]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Paper\VersionDowngradeSolution Object
+                                (
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution Object
+                                (
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
                 )
 
         )

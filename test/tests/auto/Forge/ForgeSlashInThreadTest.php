@@ -18,7 +18,6 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:01] [Server thread/INFO] [Actually Additions]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:01] [Server thread/INFO] [Actually Additions]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/ERROR] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/ERROR] [FML]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/ERROR] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/ERROR] [FML]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/ERROR] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/ERROR] [FML]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/INFO] [STDERR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/INFO] [STDERR]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/INFO] [STDERR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/INFO] [STDERR]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/INFO] [STDERR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/INFO] [STDERR]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/INFO] [STDERR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/INFO] [STDERR]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/INFO] [STDERR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/INFO] [STDERR]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/INFO] [STDERR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -374,11 +373,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Chunk I/O Executor Thread-1/INFO] [STDERR]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -608,11 +607,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]:
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -626,11 +625,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]:
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -644,11 +643,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -662,11 +661,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -680,11 +679,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -698,11 +697,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -716,11 +715,11 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [09:52:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -734,6 +733,7 @@ class ForgeSlashInThreadTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [09:52:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
         )

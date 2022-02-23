@@ -18,7 +18,6 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:13] [Server thread/INFO]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:13] [Server thread/INFO]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:13] [Server thread/INFO]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:13] [Server thread/INFO]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:13] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:13] [Server thread/INFO]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:14] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:14] [Server thread/INFO]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:15] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:15] [Server thread/INFO]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:15] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:15] [Server thread/INFO]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:15] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:15] [Server thread/INFO]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:15] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:15] [Server thread/INFO]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:15] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:15] [Server thread/INFO]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -374,11 +373,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -392,11 +391,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/WARN]:
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -410,11 +409,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/WARN]:
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -428,11 +427,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/WARN]:
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -446,11 +445,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/WARN]:
                 )
 
             [24] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -464,11 +463,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                 )
 
             [25] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -482,11 +481,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:16] [Server thread/INFO]:
                 )
 
             [26] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:17] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -500,11 +499,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:17] [Server thread/INFO]:
                 )
 
             [27] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:18] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -518,11 +517,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:18] [Server thread/INFO]:
                 )
 
             [28] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:19] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -536,11 +535,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:19] [Server thread/INFO]:
                 )
 
             [29] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:20] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -554,11 +553,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:20] [Server thread/INFO]:
                 )
 
             [30] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:21] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -572,11 +571,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:21] [Server thread/INFO]:
                 )
 
             [31] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:22] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -590,11 +589,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:22] [Server thread/INFO]:
                 )
 
             [32] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:22] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -608,11 +607,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:22] [Server thread/INFO]:
                 )
 
             [33] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -626,11 +625,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                 )
 
             [34] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -644,11 +643,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                 )
 
             [35] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -662,11 +661,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                 )
 
             [36] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -680,11 +679,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                 )
 
             [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -698,11 +697,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                 )
 
             [38] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -716,11 +715,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                 )
 
             [39] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -734,11 +733,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                 )
 
             [40] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -752,11 +751,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:23] [Server thread/INFO]:
                 )
 
             [41] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -770,11 +769,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:24] [Server thread/INFO]:
                 )
 
             [42] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:24] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -788,11 +787,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:24] [Server thread/INFO]:
                 )
 
             [43] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -806,11 +805,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                 )
 
             [44] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -824,11 +823,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                 )
 
             [45] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -842,11 +841,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                 )
 
             [46] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -860,11 +859,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                 )
 
             [47] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -878,11 +877,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                 )
 
             [48] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -896,11 +895,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                 )
 
             [49] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -914,11 +913,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                 )
 
             [50] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -932,11 +931,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:25] [Server thread/INFO]:
                 )
 
             [51] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -950,11 +949,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:26] [Server thread/INFO]:
                 )
 
             [52] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -968,11 +967,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:26] [Server thread/INFO]:
                 )
 
             [53] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:26] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -986,11 +985,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:26] [Server thread/WARN]:
                 )
 
             [54] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1004,11 +1003,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:26] [Server thread/INFO]:
                 )
 
             [55] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1022,11 +1021,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:26] [Server thread/INFO]:
                 )
 
             [56] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1040,11 +1039,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:26] [Server thread/INFO]:
                 )
 
             [57] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:27] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1058,11 +1057,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:27] [Server thread/INFO]:
                 )
 
             [58] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1076,11 +1075,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                 )
 
             [59] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1094,11 +1093,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                 )
 
             [60] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1112,11 +1111,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                 )
 
             [61] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1130,11 +1129,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                 )
 
             [62] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1148,11 +1147,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                 )
 
             [63] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1166,11 +1165,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                 )
 
             [64] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1184,11 +1183,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                 )
 
             [65] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1202,11 +1201,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                 )
 
             [66] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1220,11 +1219,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                 )
 
             [67] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1238,11 +1237,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                 )
 
             [68] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1256,11 +1255,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:27] [Server thread/WARN]:
                 )
 
             [69] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:28] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1274,11 +1273,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:28] [Server thread/INFO]:
                 )
 
             [70] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:29] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1292,11 +1291,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:29] [Server thread/INFO]:
                 )
 
             [71] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:29] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1310,11 +1309,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:29] [Server thread/ERROR]:
                 )
 
             [72] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:29] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1328,11 +1327,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:29] [Server thread/INFO]:
                 )
 
             [73] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:29] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1346,11 +1345,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:29] [Server thread/INFO]:
                 )
 
             [74] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:29] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1364,11 +1363,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:29] [Server thread/INFO]:
                 )
 
             [75] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [03:41:29] [Query Listener #1/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1382,11 +1381,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [03:41:29] [Query Listener #1/INFO]:
                 )
 
             [76] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [04:18:58] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1562,11 +1561,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [04:18:58] [Server thread/ERROR]:
                 )
 
             [77] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [04:18:58] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1742,11 +1741,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [04:18:58] [Server thread/ERROR]:
                 )
 
             [78] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [04:25:12] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1922,11 +1921,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [04:25:12] [Server thread/ERROR]:
                 )
 
             [79] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [04:25:12] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2102,11 +2101,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [04:25:12] [Server thread/ERROR]:
                 )
 
             [80] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [04:26:30] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2120,11 +2119,11 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [04:26:30] [Server thread/INFO]:
                 )
 
             [81] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [04:26:30] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2138,6 +2137,7 @@ class CraftbukkitPluginEventTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [04:26:30] [Server thread/INFO]:
                 )
 
         )
@@ -2346,11 +2346,8 @@ Caused by: java.lang.NullPointerException
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.8
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [03:41:13] [Server thread/INFO]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -2364,32 +2361,18 @@ Caused by: java.lang.NullPointerException
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [03:41:13] [Server thread/INFO]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.8
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginRuntimeProblem Object
                 (
-                    [pluginName:protected] => TrollBoss
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
-                                (
-                                    [pluginName:protected] => TrollBoss
-                                )
-
-                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution Object
-                                (
-                                    [pluginName:protected] => TrollBoss
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [04:18:58] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -2565,9 +2548,26 @@ Caused by: java.lang.NullPointerException
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [04:18:58] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 4
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
+                                (
+                                    [pluginName:protected] => TrollBoss
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution Object
+                                (
+                                    [pluginName:protected] => TrollBoss
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [pluginName:protected] => TrollBoss
                 )
 
         )

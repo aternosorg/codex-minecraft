@@ -18,7 +18,6 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:19 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668799
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:19 [INFO]
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:19 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668799
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:19 [INFO]
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:19 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668799
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:19 [INFO]
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:20 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668800
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:20 [INFO]
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:20 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668800
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:20 [INFO]
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:20 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668800
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:20 [INFO]
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:20 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668800
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:20 [INFO]
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:20 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668800
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:20 [INFO]
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:20 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668800
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:20 [INFO]
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:21 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668801
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:21 [INFO]
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:22 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668802
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:22 [INFO]
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:22 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668802
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:22 [INFO]
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668803
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:23 [SEVERE]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -350,11 +349,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => SEVERE
                     [time:protected] => 1549668803
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:23 [SEVERE]
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -368,11 +367,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668803
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -386,11 +385,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668803
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -404,11 +403,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668803
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -422,11 +421,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668803
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -440,11 +439,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668803
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -458,11 +457,11 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668803
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -476,6 +475,7 @@ class CraftbukkitPluginEnablingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1549668803
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-08 23:33:23 [INFO]
                 )
 
         )
@@ -529,11 +529,8 @@ java.lang.NoSuchMethodError: org.bukkit.scheduler.BukkitScheduler.runTaskTimerAs
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.1
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => 2019-02-08 23:33:19 [INFO]
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -547,32 +544,18 @@ java.lang.NoSuchMethodError: org.bukkit.scheduler.BukkitScheduler.runTaskTimerAs
                             [level:protected] => INFO
                             [time:protected] => 1549668799
                             [iterator:protected] => 0
+                            [prefix:protected] => 2019-02-08 23:33:19 [INFO]
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.1
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
                 (
-                    [pluginName:protected] => ItemNBTAPI
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
-                                (
-                                    [pluginName:protected] => ItemNBTAPI
-                                )
-
-                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution Object
-                                (
-                                    [pluginName:protected] => ItemNBTAPI
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => 2019-02-08 23:33:23 [SEVERE]
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -670,9 +653,26 @@ java.lang.NoSuchMethodError: org.bukkit.scheduler.BukkitScheduler.runTaskTimerAs
                             [level:protected] => SEVERE
                             [time:protected] => 1549668803
                             [iterator:protected] => 0
+                            [prefix:protected] => 2019-02-08 23:33:23 [SEVERE]
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution Object
+                                (
+                                    [pluginName:protected] => ItemNBTAPI
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution Object
+                                (
+                                    [pluginName:protected] => ItemNBTAPI
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [pluginName:protected] => ItemNBTAPI
                 )
 
         )

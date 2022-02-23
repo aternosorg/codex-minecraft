@@ -18,7 +18,6 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:32] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:32] [main/DEBUG] [FML/]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/INFO] [FML/]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/INFO] [FML/]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/TRACE] [FML/]:
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -374,11 +373,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -392,11 +391,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -410,11 +409,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/INFO] [LaunchWrapper/]:
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -428,11 +427,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/INFO] [LaunchWrapper/]:
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -446,11 +445,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/INFO] [LaunchWrapper/]:
                 )
 
             [24] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -464,11 +463,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/INFO] [LaunchWrapper/]:
                 )
 
             [25] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -482,11 +481,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/INFO] [LaunchWrapper/]:
                 )
 
             [26] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -500,11 +499,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [27] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -518,11 +517,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/TRACE] [FML/]:
                 )
 
             [28] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -536,11 +535,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/TRACE] [FML/]:
                 )
 
             [29] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -554,11 +553,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/TRACE] [FML/]:
                 )
 
             [30] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -572,11 +571,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/TRACE] [FML/]:
                 )
 
             [31] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -590,11 +589,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [32] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -608,11 +607,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [33] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -626,11 +625,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:33] [main/DEBUG] [FML/]:
                 )
 
             [34] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:36] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -644,11 +643,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:36] [main/DEBUG] [FML/]:
                 )
 
             [35] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:37] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -662,11 +661,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:37] [main/DEBUG] [FML/]:
                 )
 
             [36] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:41] [main/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -680,11 +679,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:41] [main/INFO] [FML/]:
                 )
 
             [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -698,11 +697,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                 )
 
             [38] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:41] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -716,11 +715,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:41] [main/INFO] [LaunchWrapper/]:
                 )
 
             [39] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -734,11 +733,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                 )
 
             [40] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -752,11 +751,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                 )
 
             [41] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -770,11 +769,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                 )
 
             [42] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -788,11 +787,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                 )
 
             [43] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -806,11 +805,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                 )
 
             [44] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:41] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -824,11 +823,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:41] [main/INFO] [LaunchWrapper/]:
                 )
 
             [45] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -842,11 +841,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                 )
 
             [46] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -860,11 +859,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:41] [main/DEBUG] [FML/]:
                 )
 
             [47] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:46] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -878,11 +877,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:46] [main/DEBUG] [FML/]:
                 )
 
             [48] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:46] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -896,11 +895,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:46] [main/INFO] [LaunchWrapper/]:
                 )
 
             [49] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:46] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -914,11 +913,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:46] [main/DEBUG] [FML/]:
                 )
 
             [50] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:46] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -932,11 +931,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:46] [main/TRACE] [FML/]:
                 )
 
             [51] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:46] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -950,11 +949,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:46] [main/DEBUG] [FML/]:
                 )
 
             [52] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:46] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -968,11 +967,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:46] [main/DEBUG] [FML/]:
                 )
 
             [53] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:46] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -986,11 +985,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:46] [main/DEBUG] [FML/]:
                 )
 
             [54] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:46] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1004,11 +1003,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:46] [main/DEBUG] [FML/]:
                 )
 
             [55] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:46] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1022,11 +1021,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:46] [main/INFO] [LaunchWrapper/]:
                 )
 
             [56] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:46] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1040,11 +1039,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:46] [main/INFO] [LaunchWrapper/]:
                 )
 
             [57] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:32:49] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1058,11 +1057,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:32:49] [main/INFO] [LaunchWrapper/]:
                 )
 
             [58] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:19] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1076,11 +1075,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:19] [Server thread/INFO] [FML/]:
                 )
 
             [59] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:20] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1094,11 +1093,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:20] [Server thread/INFO] [FML/]:
                 )
 
             [60] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1112,11 +1111,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                 )
 
             [61] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1130,11 +1129,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                 )
 
             [62] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1148,11 +1147,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                 )
 
             [63] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1166,11 +1165,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                 )
 
             [64] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:20] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1184,11 +1183,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:20] [Server thread/TRACE] [FML/]:
                 )
 
             [65] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1202,11 +1201,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                 )
 
             [66] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:20] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1220,11 +1219,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:20] [Server thread/INFO] [FML/]:
                 )
 
             [67] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:20] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1238,11 +1237,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:20] [Server thread/INFO] [FML/]:
                 )
 
             [68] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1256,11 +1255,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                 )
 
             [69] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1274,11 +1273,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                 )
 
             [70] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1292,11 +1291,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                 )
 
             [71] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1310,11 +1309,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:20] [Server thread/DEBUG] [FML/]:
                 )
 
             [72] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:24] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1328,11 +1327,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:24] [Server thread/DEBUG] [FML/]:
                 )
 
             [73] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:24] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1346,11 +1345,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:24] [Server thread/TRACE] [FML/]:
                 )
 
             [74] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:24] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1364,11 +1363,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:24] [Server thread/DEBUG] [FML/]:
                 )
 
             [75] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:24] [Server thread/TRACE] [AntMan/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1382,11 +1381,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:24] [Server thread/TRACE] [AntMan/]:
                 )
 
             [76] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:24] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1400,11 +1399,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:24] [Server thread/DEBUG] [FML/]:
                 )
 
             [77] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:24] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1418,11 +1417,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:24] [Server thread/TRACE] [FML/]:
                 )
 
             [78] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:24] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1436,11 +1435,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:24] [Server thread/DEBUG] [FML/]:
                 )
 
             [79] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:24] [Server thread/TRACE] [LucraftCore/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1454,11 +1453,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:24] [Server thread/TRACE] [LucraftCore/]:
                 )
 
             [80] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:24] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1472,11 +1471,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:24] [Server thread/INFO] [FML/]:
                 )
 
             [81] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:24] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1490,11 +1489,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:24] [Server thread/TRACE] [FML/]:
                 )
 
             [82] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:24] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1508,11 +1507,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:24] [Server thread/TRACE] [FML/]:
                 )
 
             [83] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:24] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1526,11 +1525,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:24] [Server thread/DEBUG] [FML/]:
                 )
 
             [84] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:24] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1544,11 +1543,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:24] [Server thread/DEBUG] [FML/]:
                 )
 
             [85] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1562,11 +1561,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [FML/]:
                 )
 
             [86] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [AntMan/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1580,11 +1579,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [AntMan/]:
                 )
 
             [87] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1598,11 +1597,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [FML/]:
                 )
 
             [88] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [LucraftCore/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1616,11 +1615,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [LucraftCore/]:
                 )
 
             [89] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1634,11 +1633,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [FML/]:
                 )
 
             [90] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1652,11 +1651,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/]:
                 )
 
             [91] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1670,11 +1669,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/]:
                 )
 
             [92] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1688,11 +1687,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/]:
                 )
 
             [93] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1706,11 +1705,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/]:
                 )
 
             [94] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1724,11 +1723,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [FML/]:
                 )
 
             [95] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1742,11 +1741,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [FML/]:
                 )
 
             [96] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1760,11 +1759,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [FML/]:
                 )
 
             [97] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1778,11 +1777,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [98] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1796,11 +1795,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [99] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1814,11 +1813,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/DEBUG] [FML/]:
                 )
 
             [100] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1832,11 +1831,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/FML]:
                 )
 
             [101] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1850,11 +1849,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/FML]:
                 )
 
             [102] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1868,11 +1867,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/FML]:
                 )
 
             [103] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1886,11 +1885,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/TRACE] [FML/FML]:
                 )
 
             [104] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/INFO] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1904,11 +1903,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/INFO] [FML/FML]:
                 )
 
             [105] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:25] [Server thread/INFO] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1922,11 +1921,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:25] [Server thread/INFO] [FML/FML]:
                 )
 
             [106] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1940,11 +1939,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/FML]:
                 )
 
             [107] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1958,11 +1957,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/DEBUG] [FML/]:
                 )
 
             [108] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1976,11 +1975,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [109] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1994,11 +1993,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/Forge]:
                 )
 
             [110] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2012,11 +2011,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/Forge]:
                 )
 
             [111] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2030,11 +2029,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/Forge]:
                 )
 
             [112] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2048,11 +2047,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [113] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2066,11 +2065,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/DEBUG] [FML/]:
                 )
 
             [114] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2084,11 +2083,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [115] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2102,11 +2101,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/AntMan]:
                 )
 
             [116] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2120,11 +2119,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/AntMan]:
                 )
 
             [117] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2138,11 +2137,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/AntMan]:
                 )
 
             [118] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/DEBUG] [FML/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2156,11 +2155,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/DEBUG] [FML/AntMan]:
                 )
 
             [119] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2174,11 +2173,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [120] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2192,11 +2191,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/DEBUG] [FML/]:
                 )
 
             [121] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2210,11 +2209,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [122] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2228,11 +2227,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/LucraftCore]:
                 )
 
             [123] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2246,11 +2245,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/LucraftCore]:
                 )
 
             [124] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2264,11 +2263,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/TRACE] [FML/LucraftCore]:
                 )
 
             [125] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:27] [Server thread/DEBUG] [FML/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2282,11 +2281,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:27] [Server thread/DEBUG] [FML/LucraftCore]:
                 )
 
             [126] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2300,11 +2299,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [127] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2318,11 +2317,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                 )
 
             [128] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2336,11 +2335,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                 )
 
             [129] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2354,11 +2353,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                 )
 
             [130] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2372,11 +2371,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                 )
 
             [131] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2390,11 +2389,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                 )
 
             [132] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2408,11 +2407,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                 )
 
             [133] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2426,11 +2425,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                 )
 
             [134] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2444,11 +2443,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                 )
 
             [135] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2462,11 +2461,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                 )
 
             [136] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2480,11 +2479,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                 )
 
             [137] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2498,11 +2497,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/INFO] [FML/]:
                 )
 
             [138] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2516,11 +2515,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/INFO] [FML/]:
                 )
 
             [139] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2534,11 +2533,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/INFO] [FML/]:
                 )
 
             [140] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2552,11 +2551,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/INFO] [FML/]:
                 )
 
             [141] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2570,11 +2569,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [142] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2588,11 +2587,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [143] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2606,11 +2605,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                 )
 
             [144] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2624,11 +2623,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/TRACE] [FML/FML]:
                 )
 
             [145] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2642,11 +2641,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/TRACE] [FML/FML]:
                 )
 
             [146] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2660,11 +2659,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/DEBUG] [FML/]:
                 )
 
             [147] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:28] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2678,11 +2677,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:28] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [148] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:29] [Server thread/INFO] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2696,11 +2695,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:29] [Server thread/INFO] [FML/Forge]:
                 )
 
             [149] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:29] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2714,11 +2713,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:29] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]:
                 )
 
             [150] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:29] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2732,11 +2731,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:29] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [151] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:29] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2750,11 +2749,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:29] [Server thread/DEBUG] [FML/]:
                 )
 
             [152] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:29] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2768,11 +2767,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:29] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [153] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:29] [Forge Version Check/DEBUG] [ForgeVersionCheck/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3050,11 +3049,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:29] [Forge Version Check/DEBUG] [ForgeVersionCheck/Forge]:
                 )
 
             [154] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:29] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3068,11 +3067,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:29] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]:
                 )
 
             [155] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:30] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3086,11 +3085,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:30] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [156] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:30] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3104,11 +3103,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:30] [Server thread/DEBUG] [FML/]:
                 )
 
             [157] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:30] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3122,11 +3121,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:30] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [158] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:30] [Server thread/INFO] [FML/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3140,11 +3139,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:30] [Server thread/INFO] [FML/LucraftCore]:
                 )
 
             [159] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:30] [Server thread/INFO] [FML/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3158,11 +3157,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:30] [Server thread/INFO] [FML/LucraftCore]:
                 )
 
             [160] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:30] [Server thread/INFO] [FML/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3176,11 +3175,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:30] [Server thread/INFO] [FML/LucraftCore]:
                 )
 
             [161] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:30] [Server thread/TRACE] [FML/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3194,11 +3193,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:30] [Server thread/TRACE] [FML/LucraftCore]:
                 )
 
             [162] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:30] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3212,11 +3211,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:30] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [163] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:30] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3230,11 +3229,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:30] [Server thread/DEBUG] [FML/]:
                 )
 
             [164] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:30] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3248,11 +3247,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:30] [Server thread/DEBUG] [FML/]:
                 )
 
             [165] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:30] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3266,11 +3265,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:30] [Server thread/INFO] [FML/]:
                 )
 
             [166] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:30] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3284,11 +3283,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:30] [Server thread/INFO] [FML/]:
                 )
 
             [167] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:30] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3302,11 +3301,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:30] [Server thread/INFO] [FML/]:
                 )
 
             [168] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:30] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3320,11 +3319,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:30] [Server thread/INFO] [FML/]:
                 )
 
             [169] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:32] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3338,11 +3337,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:32] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [170] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:32] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3356,11 +3355,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:32] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [171] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:32] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3374,11 +3373,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:32] [Server thread/DEBUG] [FML/]:
                 )
 
             [172] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:32] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3392,11 +3391,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:32] [Server thread/TRACE] [FML/FML]:
                 )
 
             [173] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:32] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3410,11 +3409,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:32] [Server thread/TRACE] [FML/FML]:
                 )
 
             [174] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:32] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3428,11 +3427,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:32] [Server thread/DEBUG] [FML/]:
                 )
 
             [175] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:32] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3446,11 +3445,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:32] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [176] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:32] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3464,11 +3463,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:32] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [177] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:32] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3482,11 +3481,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:32] [Server thread/DEBUG] [FML/]:
                 )
 
             [178] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:32] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3500,11 +3499,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:32] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [179] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3518,11 +3517,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/AntMan]:
                 )
 
             [180] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3536,11 +3535,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/AntMan]:
                 )
 
             [181] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3554,11 +3553,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/AntMan]:
                 )
 
             [182] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3572,11 +3571,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/AntMan]:
                 )
 
             [183] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3590,11 +3589,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/AntMan]:
                 )
 
             [184] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3608,11 +3607,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/AntMan]:
                 )
 
             [185] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3626,11 +3625,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/AntMan]:
                 )
 
             [186] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3644,11 +3643,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [187] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3662,11 +3661,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [188] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3680,11 +3679,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [189] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3698,11 +3697,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [190] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3716,11 +3715,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [191] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3734,11 +3733,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [192] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3752,11 +3751,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/]:
                 )
 
             [193] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3770,11 +3769,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [194] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3788,11 +3787,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [195] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3806,11 +3805,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [196] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3824,11 +3823,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/]:
                 )
 
             [197] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3842,11 +3841,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/FML]:
                 )
 
             [198] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3860,11 +3859,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/FML]:
                 )
 
             [199] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3878,11 +3877,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [200] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3896,11 +3895,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/]:
                 )
 
             [201] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3914,11 +3913,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [202] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3932,11 +3931,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [203] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3950,11 +3949,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [204] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3968,11 +3967,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/]:
                 )
 
             [205] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3986,11 +3985,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [206] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4004,11 +4003,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [207] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4022,11 +4021,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [208] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4040,11 +4039,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/]:
                 )
 
             [209] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4058,11 +4057,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [210] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4076,11 +4075,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [211] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4094,11 +4093,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [212] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4112,11 +4111,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [213] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4130,11 +4129,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/INFO] [FML/]:
                 )
 
             [214] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4148,11 +4147,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/INFO] [FML/]:
                 )
 
             [215] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4166,11 +4165,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [216] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4184,11 +4183,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [217] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4202,11 +4201,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [218] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4220,11 +4219,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/FML]:
                 )
 
             [219] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4238,11 +4237,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/FML]:
                 )
 
             [220] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4256,11 +4255,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [221] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4274,11 +4273,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [222] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4292,11 +4291,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [223] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4310,11 +4309,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [224] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4328,11 +4327,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [225] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4346,11 +4345,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [226] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4364,11 +4363,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [227] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4382,11 +4381,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [228] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4400,11 +4399,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [229] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4418,11 +4417,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [230] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4436,11 +4435,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [231] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4454,11 +4453,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [232] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4472,11 +4471,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [233] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4490,11 +4489,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [234] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4508,11 +4507,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/FML]:
                 )
 
             [235] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4526,11 +4525,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [FML/FML]:
                 )
 
             [236] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4544,11 +4543,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [237] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4562,11 +4561,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [238] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4580,11 +4579,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [239] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4598,11 +4597,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [240] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4616,11 +4615,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [241] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4634,11 +4633,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [242] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4652,11 +4651,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [243] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4670,11 +4669,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [244] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4688,11 +4687,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [245] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4706,11 +4705,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [246] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4724,11 +4723,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [247] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4742,11 +4741,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [248] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4760,11 +4759,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [249] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4778,11 +4777,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [250] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4796,11 +4795,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [251] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4814,11 +4813,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [252] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4832,11 +4831,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [253] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4850,11 +4849,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/Forge]:
                 )
 
             [254] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4868,11 +4867,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [255] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4886,11 +4885,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [256] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4904,11 +4903,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [257] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4922,11 +4921,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [258] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4940,11 +4939,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [259] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4958,11 +4957,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [260] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4976,11 +4975,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [261] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4994,11 +4993,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [262] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5012,11 +5011,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [263] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5030,11 +5029,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/DEBUG] [FML/]:
                 )
 
             [264] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5048,11 +5047,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/INFO] [FML/]:
                 )
 
             [265] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5066,11 +5065,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [266] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5084,11 +5083,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:33] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [267] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5102,11 +5101,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [268] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5120,11 +5119,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [FML/FML]:
                 )
 
             [269] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5138,11 +5137,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [FML/FML]:
                 )
 
             [270] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5156,11 +5155,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [271] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5174,11 +5173,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [272] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5192,11 +5191,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [273] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5210,11 +5209,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [274] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5228,11 +5227,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [275] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5246,11 +5245,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [276] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5264,11 +5263,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [277] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5282,11 +5281,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [278] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5300,11 +5299,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [279] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5318,11 +5317,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [280] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5336,11 +5335,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [281] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/ERROR] [fml.ModTracker/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5354,11 +5353,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/ERROR] [fml.ModTracker/]:
                 )
 
             [282] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/INFO] [fml.ModTracker/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5372,11 +5371,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/INFO] [fml.ModTracker/]:
                 )
 
             [283] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/ERROR] [fml.ModTracker/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5390,11 +5389,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/ERROR] [fml.ModTracker/]:
                 )
 
             [284] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/ERROR] [fml.ModTracker/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5408,11 +5407,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/ERROR] [fml.ModTracker/]:
                 )
 
             [285] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5426,11 +5425,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/INFO] [FML/]:
                 )
 
             [286] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/ERROR] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5444,11 +5443,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/ERROR] [FML/]:
                 )
 
             [287] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5462,11 +5461,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [288] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5480,11 +5479,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [289] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5498,11 +5497,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [290] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5516,11 +5515,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [291] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5534,11 +5533,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [FML/FML]:
                 )
 
             [292] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5552,11 +5551,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [FML/FML]:
                 )
 
             [293] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5570,11 +5569,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [294] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5588,11 +5587,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [295] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5606,11 +5605,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [296] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5624,11 +5623,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [297] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5642,11 +5641,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [298] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5660,11 +5659,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [299] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5678,11 +5677,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [300] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5696,11 +5695,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [301] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5714,11 +5713,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [302] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5732,11 +5731,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [303] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5750,11 +5749,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [304] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5768,11 +5767,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/INFO] [FML/]:
                 )
 
             [305] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5786,11 +5785,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/INFO] [FML/]:
                 )
 
             [306] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5804,11 +5803,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [307] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5822,11 +5821,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [308] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5840,11 +5839,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [309] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5858,11 +5857,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [310] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5876,11 +5875,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [FML/FML]:
                 )
 
             [311] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5894,11 +5893,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [FML/FML]:
                 )
 
             [312] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5912,11 +5911,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [313] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5930,11 +5929,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [314] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5948,11 +5947,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [315] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5966,11 +5965,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [316] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5984,11 +5983,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [317] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [AntMan/AntMan]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6002,11 +6001,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [AntMan/AntMan]:
                 )
 
             [318] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6020,11 +6019,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [319] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6038,11 +6037,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [320] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6056,11 +6055,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/TRACE] [LucraftCore/LucraftCore]:
                 )
 
             [321] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6074,11 +6073,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [322] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6092,11 +6091,11 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/DEBUG] [FML/]:
                 )
 
             [323] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:33:34] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6110,6 +6109,7 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:33:34] [Server thread/INFO] [FML/]:
                 )
 
         )
@@ -6496,11 +6496,8 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
-                    [label:protected] => Forge version
-                    [value:protected] => 11.15.1.2318
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:33:19] [Server thread/INFO] [FML/]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -6514,34 +6511,18 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:33:19] [Server thread/INFO] [FML/]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Forge version
+                    [value:protected] => 11.15.1.2318
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldModVersionProblem Object
                 (
-                    [currentVersion:protected] => 9.19
-                    [expectedVersion:protected] => 9.42
-                    [modName:protected] => mcp
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
-                                (
-                                    [modVersion:protected] => 9.42
-                                    [modName:protected] => mcp
-                                )
-
-                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\DoNothingSolution Object
-                                (
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:33:34] [Server thread/INFO] [fml.ModTracker/]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -6555,20 +6536,16 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:33:34] [Server thread/INFO] [fml.ModTracker/]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldMissingModProblem Object
-                (
-                    [modName:protected] => lucraftcore
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
-                                    [modVersion:protected] => 
-                                    [modName:protected] => lucraftcore
+                                    [modName:protected] => mcp
+                                    [modVersion:protected] => 9.42
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\DoNothingSolution Object
@@ -6578,9 +6555,15 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                         )
 
                     [iterator:protected] => 0
+                    [modName:protected] => mcp
+                    [currentVersion:protected] => 9.19
+                    [expectedVersion:protected] => 9.42
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldMissingModProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:33:34] [Server thread/ERROR] [fml.ModTracker/]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -6594,9 +6577,26 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:33:34] [Server thread/ERROR] [fml.ModTracker/]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
+                                (
+                                    [modName:protected] => lucraftcore
+                                    [modVersion:protected] => 
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\DoNothingSolution Object
+                                (
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [modName:protected] => lucraftcore
                 )
 
         )

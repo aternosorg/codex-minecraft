@@ -18,7 +18,6 @@ class FabricMissingDependencyVersionedTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [18:50:43] [main/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class FabricMissingDependencyVersionedTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [18:50:43] [main/INFO]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [18:50:43] [ForkJoinPool-1-worker-3/WARN]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -56,11 +55,11 @@ class FabricMissingDependencyVersionedTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [18:50:43] [ForkJoinPool-1-worker-3/WARN]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [18:50:43] [main/FATAL]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -200,6 +199,7 @@ class FabricMissingDependencyVersionedTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [18:50:43] [main/FATAL]:
                 )
 
         )
@@ -243,11 +243,8 @@ Caused by: net.fabricmc.loader.util.sat4j.specs.ContradictionException: Creating
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Fabric\FabricVanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.16.5
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [18:50:43] [main/INFO]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -261,29 +258,18 @@ Caused by: net.fabricmc.loader.util.sat4j.specs.ContradictionException: Creating
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [18:50:43] [main/INFO]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.16.5
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
-                    [dependency:protected] => FabricAPI
-                    [modName:protected] => origins
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
-                                (
-                                    [modVersion:protected] => 1.0.0
-                                    [modName:protected] => FabricAPI
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [18:50:43] [main/FATAL]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -423,9 +409,23 @@ Caused by: net.fabricmc.loader.util.sat4j.specs.ContradictionException: Creating
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [18:50:43] [main/FATAL]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
+                                (
+                                    [modName:protected] => FabricAPI
+                                    [modVersion:protected] => 1.0.0
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [modName:protected] => origins
+                    [dependency:protected] => FabricAPI
                 )
 
         )

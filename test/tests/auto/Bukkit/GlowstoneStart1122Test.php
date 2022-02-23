@@ -18,7 +18,6 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:12:45 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275965
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:12:45 [INFO]
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:12:45 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275965
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:12:45 [INFO]
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:12:51 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275971
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:12:51 [INFO]
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:12:52 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275972
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:12:52 [INFO]
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:12:54 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275974
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:12:54 [INFO]
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:12:55 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275975
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:12:55 [INFO]
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:12:56 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275976
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:12:56 [INFO]
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:12:57 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275977
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:12:57 [INFO]
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:12:58 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275978
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:12:58 [INFO]
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:00 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275980
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:00 [INFO]
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:01 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275981
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:01 [INFO]
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:02 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275982
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:02 [INFO]
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:03 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275983
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:03 [INFO]
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:04 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275984
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:04 [INFO]
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:05 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275985
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:05 [INFO]
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:06 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275986
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:06 [INFO]
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:07 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275987
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:07 [INFO]
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:08 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275988
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:08 [INFO]
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:09 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275989
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:09 [INFO]
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:11 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -374,11 +373,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275991
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:11 [INFO]
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:12 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -392,11 +391,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275992
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:12 [INFO]
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:13 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -410,11 +409,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275993
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:13 [INFO]
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:14 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -428,11 +427,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275994
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:14 [INFO]
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:15 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -446,11 +445,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275995
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:15 [INFO]
                 )
 
             [24] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:15 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -464,11 +463,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275995
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:15 [INFO]
                 )
 
             [25] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:16 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -482,11 +481,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275996
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:16 [INFO]
                 )
 
             [26] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:17 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -500,11 +499,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275997
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:17 [INFO]
                 )
 
             [27] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:18 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -518,11 +517,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275998
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:18 [INFO]
                 )
 
             [28] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:19 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -536,11 +535,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550275999
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:19 [INFO]
                 )
 
             [29] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:20 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -554,11 +553,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276000
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:20 [INFO]
                 )
 
             [30] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:20 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -572,11 +571,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276000
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:20 [INFO]
                 )
 
             [31] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:21 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -590,11 +589,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276001
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:21 [INFO]
                 )
 
             [32] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:21 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -608,11 +607,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276001
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:21 [INFO]
                 )
 
             [33] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:22 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -626,11 +625,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276002
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:22 [INFO]
                 )
 
             [34] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:22 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -644,11 +643,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276002
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:22 [INFO]
                 )
 
             [35] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:22 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -662,11 +661,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276002
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:22 [INFO]
                 )
 
             [36] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:23 [WARNING]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -680,11 +679,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => WARNING
                     [time:protected] => 1550276003
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:23 [WARNING]
                 )
 
             [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:23 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -698,11 +697,11 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276003
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:23 [INFO]
                 )
 
             [38] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019/02/16 00:13:23 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -716,6 +715,7 @@ class GlowstoneStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276003
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019/02/16 00:13:23 [INFO]
                 )
 
         )

@@ -18,7 +18,6 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:23] [main/ERROR] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:23] [main/ERROR] [FML]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:23] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:23] [main/INFO] [LaunchWrapper]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:23] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:23] [main/INFO] [LaunchWrapper]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:25] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:25] [main/INFO] [LaunchWrapper]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:25] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:25] [main/INFO] [LaunchWrapper]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:26] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:26] [main/INFO] [LaunchWrapper]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:42] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:42] [Server thread/INFO] [FML]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:42] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:42] [Server thread/INFO] [FML]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:43] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:43] [Server thread/INFO] [FML]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:44] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:44] [Server thread/INFO] [FML]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:44] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:44] [Server thread/INFO] [FML]:
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:45] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:45] [Server thread/INFO] [FML]:
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:48] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:48] [Server thread/INFO] [FML]:
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:49] [Server thread/WARN] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:49] [Server thread/WARN] [FML]:
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:50] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:50] [Server thread/INFO] [FML]:
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:50] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:50] [Server thread/INFO] [FML]:
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:51] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:51] [Server thread/INFO] [FML]:
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:51] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:51] [Server thread/INFO] [FML]:
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:51] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -374,11 +373,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:51] [Server thread/INFO] [FML]:
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:51] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -392,11 +391,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:51] [Server thread/INFO] [FML]:
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:51] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -410,11 +409,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:51] [Server thread/INFO] [FML]:
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:52] [Forge Version Check/INFO] [forge.VersionCheck]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -428,11 +427,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:52] [Forge Version Check/INFO] [forge.VersionCheck]:
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -446,11 +445,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                 )
 
             [24] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -464,11 +463,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                 )
 
             [25] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -482,11 +481,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                 )
 
             [26] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -500,11 +499,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                 )
 
             [27] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -518,11 +517,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                 )
 
             [28] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -536,11 +535,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                 )
 
             [29] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -554,11 +553,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                 )
 
             [30] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -572,11 +571,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                 )
 
             [31] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -590,11 +589,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                 )
 
             [32] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -608,11 +607,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:52] [Server thread/INFO] [FML]:
                 )
 
             [33] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -626,11 +625,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                 )
 
             [34] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -644,11 +643,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                 )
 
             [35] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:52] [Forge Version Check/INFO] [forge.VersionCheck]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -662,11 +661,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:52] [Forge Version Check/INFO] [forge.VersionCheck]:
                 )
 
             [36] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:53] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -680,11 +679,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:53] [Server thread/INFO] [Minecraft]:
                 )
 
             [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:53] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -698,11 +697,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:53] [Server thread/INFO] [Minecraft]:
                 )
 
             [38] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:53] [Server thread/INFO] [Spigot]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -716,11 +715,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:53] [Server thread/INFO] [Spigot]:
                 )
 
             [39] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -734,11 +733,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                 )
 
             [40] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -752,11 +751,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                 )
 
             [41] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:54] [Server thread/INFO] [net.minecraft.network.NetworkSystem]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -770,11 +769,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:54] [Server thread/INFO] [net.minecraft.network.NetworkSystem]:
                 )
 
             [42] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:55] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -788,11 +787,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:55] [Server thread/INFO] [FML]:
                 )
 
             [43] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:55] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -806,11 +805,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:55] [Server thread/INFO] [FML]:
                 )
 
             [44] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:55] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -824,11 +823,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:55] [Server thread/INFO] [FML]:
                 )
 
             [45] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:55] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -842,11 +841,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:55] [Server thread/INFO] [FML]:
                 )
 
             [46] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -860,11 +859,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [FML]:
                 )
 
             [47] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -878,11 +877,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                 )
 
             [48] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -896,11 +895,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [49] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -914,11 +913,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [50] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -932,11 +931,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [51] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -950,11 +949,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [52] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -968,11 +967,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [53] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -986,11 +985,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [54] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1004,11 +1003,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [55] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1022,11 +1021,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [56] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1040,11 +1039,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [57] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1058,11 +1057,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [58] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1076,11 +1075,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [59] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1094,11 +1093,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [60] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1112,11 +1111,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [61] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1130,11 +1129,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [62] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1148,11 +1147,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [63] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1166,11 +1165,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [64] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1184,11 +1183,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [65] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1202,11 +1201,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [66] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1220,11 +1219,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [67] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1238,11 +1237,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [68] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1256,11 +1255,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [69] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1274,11 +1273,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [70] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1292,11 +1291,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [71] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1310,11 +1309,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [72] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1328,11 +1327,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [73] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1346,11 +1345,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [74] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1364,11 +1363,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [75] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1382,11 +1381,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [76] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1400,11 +1399,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [77] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1418,11 +1417,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [78] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1436,11 +1435,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [79] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1454,11 +1453,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [80] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1472,11 +1471,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [81] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1490,11 +1489,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [82] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1508,11 +1507,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [83] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1526,11 +1525,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [84] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1544,11 +1543,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [85] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1562,11 +1561,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [86] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1580,11 +1579,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [87] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1598,11 +1597,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [88] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1616,11 +1615,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [89] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1634,11 +1633,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [90] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1652,11 +1651,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [91] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1670,11 +1669,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [92] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1688,11 +1687,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [93] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1706,11 +1705,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [94] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1724,11 +1723,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [95] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1742,11 +1741,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:56] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [96] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1760,11 +1759,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [97] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1778,11 +1777,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [98] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1796,11 +1795,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [99] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1814,11 +1813,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [100] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1832,11 +1831,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [101] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1850,11 +1849,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [102] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1868,11 +1867,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [103] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1886,11 +1885,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [104] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1904,11 +1903,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [105] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1922,11 +1921,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [106] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1940,11 +1939,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [107] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1958,11 +1957,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [108] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1976,11 +1975,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [109] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1994,11 +1993,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [110] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2012,11 +2011,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [111] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2030,11 +2029,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:57] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [112] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2048,11 +2047,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [113] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2066,11 +2065,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [114] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2084,11 +2083,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [115] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2102,11 +2101,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [116] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2120,11 +2119,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [117] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2138,11 +2137,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [118] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2156,11 +2155,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [119] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2174,11 +2173,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [120] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2192,11 +2191,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [121] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2210,11 +2209,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [122] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2228,11 +2227,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [123] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2246,11 +2245,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [124] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2264,11 +2263,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [125] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2282,11 +2281,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [126] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2300,11 +2299,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [127] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2318,11 +2317,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [128] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2336,11 +2335,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [129] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2354,11 +2353,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [130] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2372,11 +2371,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [131] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2390,11 +2389,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [132] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2408,11 +2407,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [133] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2426,11 +2425,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [134] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2444,11 +2443,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [135] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2462,11 +2461,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [136] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2480,11 +2479,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [137] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2498,11 +2497,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [138] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2516,11 +2515,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [139] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2534,11 +2533,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [Minecraft]:
                 )
 
             [140] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:58] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2552,11 +2551,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:58] [Server thread/INFO] [FML]:
                 )
 
             [141] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:00] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2570,11 +2569,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:00] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]:
                 )
 
             [142] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2588,11 +2587,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [143] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2606,11 +2605,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [144] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2624,11 +2623,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [145] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2642,11 +2641,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [146] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2660,11 +2659,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [147] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2678,11 +2677,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [148] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2696,11 +2695,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [149] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2714,11 +2713,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [150] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2732,11 +2731,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [151] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2750,11 +2749,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [152] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2768,11 +2767,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [153] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2786,11 +2785,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [154] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2804,11 +2803,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [155] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2822,11 +2821,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [156] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2840,11 +2839,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [157] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2858,11 +2857,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [158] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2876,11 +2875,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [159] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2894,11 +2893,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [160] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2912,11 +2911,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [161] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2930,11 +2929,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [162] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2948,11 +2947,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [163] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2966,11 +2965,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [164] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2984,11 +2983,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [165] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3002,11 +3001,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [166] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3020,11 +3019,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [167] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3038,11 +3037,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [168] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3056,11 +3055,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [169] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3074,11 +3073,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [170] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3092,11 +3091,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [FML]:
                 )
 
             [171] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3110,11 +3109,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [172] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3128,11 +3127,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [173] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3146,11 +3145,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [174] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3164,11 +3163,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [175] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3182,11 +3181,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [176] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3200,11 +3199,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [177] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3218,11 +3217,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [178] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3236,11 +3235,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [179] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3254,11 +3253,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [180] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3272,11 +3271,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [181] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3290,11 +3289,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [182] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3308,11 +3307,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [183] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3326,11 +3325,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [184] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3344,11 +3343,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [185] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3362,11 +3361,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [186] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3380,11 +3379,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [187] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3398,11 +3397,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [188] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3416,11 +3415,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [189] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3434,11 +3433,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [190] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3452,11 +3451,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [191] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3470,11 +3469,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [192] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3488,11 +3487,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [193] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3506,11 +3505,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [194] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3524,11 +3523,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [195] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3542,11 +3541,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [196] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3560,11 +3559,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [197] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3578,11 +3577,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [198] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3596,11 +3595,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [Minecraft]:
                 )
 
             [199] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3614,11 +3613,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [FML]:
                 )
 
             [200] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3632,11 +3631,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [201] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3650,11 +3649,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [202] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3668,11 +3667,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [203] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3686,11 +3685,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [204] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3704,11 +3703,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [205] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3722,11 +3721,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [206] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3740,11 +3739,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [207] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3758,11 +3757,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [208] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3776,11 +3775,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [209] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3794,11 +3793,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [210] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3812,11 +3811,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [211] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3830,11 +3829,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [212] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3848,11 +3847,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [213] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3866,11 +3865,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [214] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3884,11 +3883,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [215] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3902,11 +3901,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [216] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3920,11 +3919,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [217] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3938,11 +3937,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [218] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3956,11 +3955,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [219] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3974,11 +3973,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [220] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3992,11 +3991,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [221] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4010,11 +4009,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [222] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4028,11 +4027,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [223] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4046,11 +4045,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [224] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4064,11 +4063,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [225] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4082,11 +4081,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [226] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4100,11 +4099,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [227] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4118,11 +4117,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [228] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4136,11 +4135,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [229] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4154,11 +4153,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [230] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4172,11 +4171,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [231] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4190,11 +4189,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [232] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4208,11 +4207,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [233] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4226,11 +4225,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [234] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4244,11 +4243,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [235] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4262,11 +4261,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [236] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4280,11 +4279,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [237] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4298,11 +4297,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [238] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4316,11 +4315,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [239] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4334,11 +4333,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [240] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4352,11 +4351,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [241] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4370,11 +4369,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [242] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4388,11 +4387,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [243] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4406,11 +4405,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [244] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4424,11 +4423,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [245] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4442,11 +4441,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [246] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4460,11 +4459,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [247] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4478,11 +4477,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [248] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4496,11 +4495,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [249] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4514,11 +4513,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [250] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4532,11 +4531,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [251] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:03:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4550,11 +4549,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:03:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [252] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4568,11 +4567,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [253] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4586,11 +4585,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [254] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4604,11 +4603,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [255] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4622,11 +4621,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [256] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4640,11 +4639,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [257] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4658,11 +4657,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [258] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4676,11 +4675,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [259] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4694,11 +4693,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [260] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4712,11 +4711,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [261] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4730,11 +4729,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [262] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4748,11 +4747,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [263] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4766,11 +4765,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [264] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4784,11 +4783,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [265] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4802,11 +4801,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [266] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4820,11 +4819,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [267] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4838,11 +4837,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [268] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4856,11 +4855,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [269] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4874,11 +4873,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [270] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4892,11 +4891,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [271] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4910,11 +4909,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [272] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4928,11 +4927,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [273] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4946,11 +4945,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [274] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4964,11 +4963,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [275] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4982,11 +4981,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [276] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5000,11 +4999,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [277] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5018,11 +5017,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [278] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5036,11 +5035,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [279] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5054,11 +5053,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [280] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5072,11 +5071,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [281] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5090,11 +5089,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [282] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5108,11 +5107,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [283] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:31] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5126,11 +5125,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:31] [Server thread/INFO] [Minecraft]:
                 )
 
             [284] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5144,11 +5143,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                 )
 
             [285] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5162,11 +5161,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                 )
 
             [286] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5180,11 +5179,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                 )
 
             [287] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:31] [Query Listener #1/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5198,11 +5197,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:31] [Query Listener #1/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [288] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:31] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5216,11 +5215,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:31] [Server thread/INFO] [net.minecraft.command.CommandHandler]:
                 )
 
             [289] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5234,11 +5233,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                 )
 
             [290] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5252,11 +5251,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [291] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5270,11 +5269,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [292] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5288,11 +5287,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [293] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5306,11 +5305,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [294] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5324,11 +5323,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [295] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5342,11 +5341,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [296] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:49] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5360,11 +5359,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:49] [Server thread/INFO] [FML]:
                 )
 
             [297] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:49] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5378,11 +5377,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:49] [Server thread/INFO] [FML]:
                 )
 
             [298] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:04:49] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5396,6 +5395,7 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:04:49] [Server thread/INFO] [FML]:
                 )
 
         )
@@ -5713,11 +5713,8 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.12.2
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [15:02:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -5731,18 +5728,18 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [15:02:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.12.2
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
-                    [label:protected] => Forge version
-                    [value:protected] => 14.23.5.2847
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [15:02:42] [Server thread/INFO] [FML]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -5756,18 +5753,18 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [15:02:42] [Server thread/INFO] [FML]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Forge version
+                    [value:protected] => 14.23.5.2847
                 )
 
             [2] => Aternos\Codex\Minecraft\Analysis\Information\Magma\MagmaVersionInformation Object
                 (
-                    [label:protected] => Magma version
-                    [value:protected] => e2b9ab6
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [15:02:53] [Server thread/INFO] [Minecraft]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -5781,9 +5778,12 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [15:02:53] [Server thread/INFO] [Minecraft]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Magma version
+                    [value:protected] => e2b9ab6
                 )
 
         )

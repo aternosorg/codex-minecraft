@@ -18,7 +18,6 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/NOTICE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => NOTICE
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/NOTICE]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/NOTICE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => NOTICE
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/NOTICE]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/ERROR]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/ERROR]:
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -374,11 +373,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/NOTICE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -392,11 +391,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => NOTICE
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/NOTICE]:
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -410,11 +409,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/NOTICE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -428,11 +427,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => NOTICE
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/NOTICE]:
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -446,11 +445,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [24] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/NOTICE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -464,11 +463,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => NOTICE
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/NOTICE]:
                 )
 
             [25] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -482,11 +481,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [26] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -500,11 +499,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [27] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -518,11 +517,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [28] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -536,11 +535,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [29] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -554,11 +553,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [30] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -572,11 +571,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [31] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -590,11 +589,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [32] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -608,11 +607,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [33] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -626,11 +625,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [34] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -644,11 +643,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [35] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -662,11 +661,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [36] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -680,11 +679,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -698,11 +697,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [38] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -716,11 +715,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [39] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -734,11 +733,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [40] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -752,11 +751,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007025
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                 )
 
             [41] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -770,11 +769,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007026
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:26] [Server thread/INFO]:
                 )
 
             [42] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -788,11 +787,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007026
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:26] [Server thread/INFO]:
                 )
 
             [43] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -806,11 +805,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007026
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:26] [Server thread/INFO]:
                 )
 
             [44] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -824,11 +823,11 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007026
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:26] [Server thread/INFO]:
                 )
 
             [45] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-12 [21:30:26] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -842,6 +841,7 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550007026
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-12 [21:30:26] [Server thread/INFO]:
                 )
 
         )
@@ -906,11 +906,8 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Pocketmine\PocketmineBedrockVersionInformation Object
                 (
-                    [label:protected] => Bedrock version
-                    [value:protected] => 1.9.0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -924,18 +921,18 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 1550007025
                             [iterator:protected] => 0
+                            [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Bedrock version
+                    [value:protected] => 1.9.0
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Information\Pocketmine\PocketmineVersionInformation Object
                 (
-                    [label:protected] => Pocketmine version
-                    [value:protected] => 3.6.1
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -949,32 +946,18 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 1550007025
                             [iterator:protected] => 0
+                            [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/INFO]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Pocketmine version
+                    [value:protected] => 3.6.1
                 )
 
             [2] => Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine\PluginIncompatibleProblem Object
                 (
-                    [pluginName:protected] => EconomyJob
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine\PluginInstallDifferentVersionSolution Object
-                                (
-                                    [pluginName:protected] => EconomyJob
-                                )
-
-                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine\PluginRemoveSolution Object
-                                (
-                                    [pluginName:protected] => EconomyJob
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -988,14 +971,49 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                             [level:protected] => ERROR
                             [time:protected] => 1550007025
                             [iterator:protected] => 0
+                            [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine\PluginInstallDifferentVersionSolution Object
+                                (
+                                    [pluginName:protected] => EconomyJob
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine\PluginRemoveSolution Object
+                                (
+                                    [pluginName:protected] => EconomyJob
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [pluginName:protected] => EconomyJob
                 )
 
             [3] => Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine\PluginIncompatibleProblem Object
                 (
-                    [pluginName:protected] => CustomAlerts
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 2019-02-12 [21:30:25] [Server thread/ERROR]: Could not load plugin \'CustomAlerts\': Incompatible API version (plugin requires one of: 3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10)
+                                            [number:protected] => 12
+                                        )
+
+                                )
+
+                            [level:protected] => ERROR
+                            [time:protected] => 1550007025
+                            [iterator:protected] => 0
+                            [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/ERROR]:
+                        )
+
+                    [counter:protected] => 1
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine\PluginInstallDifferentVersionSolution Object
@@ -1011,25 +1029,7 @@ class PocketmineIncompatibleApiTest extends PHPUnit\Framework\TestCase
                         )
 
                     [iterator:protected] => 0
-                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
-                        (
-                            [prefix:protected] => 2019-02-12 [21:30:25] [Server thread/ERROR]:
-                            [lines:protected] => Array
-                                (
-                                    [0] => Aternos\Codex\Log\Line Object
-                                        (
-                                            [text:protected] => 2019-02-12 [21:30:25] [Server thread/ERROR]: Could not load plugin \'CustomAlerts\': Incompatible API version (plugin requires one of: 3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10)
-                                            [number:protected] => 12
-                                        )
-
-                                )
-
-                            [level:protected] => ERROR
-                            [time:protected] => 1550007025
-                            [iterator:protected] => 0
-                        )
-
-                    [counter:protected] => 1
+                    [pluginName:protected] => CustomAlerts
                 )
 
         )

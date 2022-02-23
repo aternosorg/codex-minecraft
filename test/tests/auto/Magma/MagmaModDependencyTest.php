@@ -18,7 +18,6 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:04:42] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:04:42] [main/INFO] [LaunchWrapper]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:04:43] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:04:43] [main/INFO] [LaunchWrapper]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:04:43] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:04:43] [main/INFO] [LaunchWrapper]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:04:43] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:04:43] [main/DEBUG] [FML]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:04:43] [main/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:04:43] [main/INFO] [FML]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15:02:53] [Server thread/INFO] [Minecraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15:02:53] [Server thread/INFO] [Minecraft]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:11] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:11] [Server thread/INFO] [FML]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:11] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:11] [Server thread/INFO] [FML]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:12] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:12] [Server thread/INFO] [FML]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:12] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:12] [Server thread/DEBUG] [FML]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:13] [Server thread/DEBUG] [FML]:
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:13] [Server thread/DEBUG] [FML]:
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:13] [Server thread/DEBUG] [FML]:
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:13] [Server thread/TRACE] [FML]:
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:13] [Server thread/TRACE] [FML]:
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:13] [Server thread/DEBUG] [FML]:
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:41:32] [Server thread/FATAL] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:41:32] [Server thread/FATAL] [FML]:
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:41:32] [Server thread/FATAL] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:41:32] [Server thread/FATAL] [FML]:
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [23:23:18] [Server thread/FATAL] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -374,11 +373,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [23:23:18] [Server thread/FATAL] [FML]:
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [23:23:18] [Server thread/FATAL] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -392,11 +391,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [23:23:18] [Server thread/FATAL] [FML]:
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [18:19:10] [Server thread/FATAL] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -410,11 +409,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [18:19:10] [Server thread/FATAL] [FML]:
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:26:53] [Server thread/FATAL] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -428,11 +427,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:26:53] [Server thread/FATAL] [FML]:
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [02:11:15] [Server thread/FATAL] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -446,11 +445,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [02:11:15] [Server thread/FATAL] [FML]:
                 )
 
             [24] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:14:04] [Server thread/FATAL] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -464,11 +463,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [22:14:04] [Server thread/FATAL] [FML]:
                 )
 
             [25] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [22:14:04] [Server thread/FATAL] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -482,11 +481,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [22:14:04] [Server thread/FATAL] [FML]:
                 )
 
             [26] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:13] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -500,11 +499,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:13] [Server thread/INFO] [FML]:
                 )
 
             [27] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -518,11 +517,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:13] [Server thread/DEBUG] [FML]:
                 )
 
             [28] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -536,11 +535,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:13] [Server thread/DEBUG] [FML]:
                 )
 
             [29] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -554,11 +553,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:13] [Server thread/DEBUG] [FML]:
                 )
 
             [30] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -572,11 +571,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [31] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -590,11 +589,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [32] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -608,11 +607,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/TRACE] [FML]:
                 )
 
             [33] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/FATAL] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -626,11 +625,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/FATAL] [FML]:
                 )
 
             [34] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -644,11 +643,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [35] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -662,11 +661,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [36] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -680,11 +679,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -698,11 +697,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [38] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -716,11 +715,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [39] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -734,11 +733,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [40] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -752,11 +751,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [41] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -770,11 +769,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [42] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -788,11 +787,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [43] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -806,11 +805,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [44] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -824,11 +823,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [45] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -842,11 +841,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [46] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -860,11 +859,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [47] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -878,11 +877,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [48] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -896,11 +895,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [49] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -914,11 +913,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [50] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -932,11 +931,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [51] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -950,11 +949,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [52] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -968,11 +967,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [53] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -986,11 +985,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [54] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1004,11 +1003,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [55] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1022,11 +1021,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [56] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1040,11 +1039,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/DEBUG] [FML]:
                 )
 
             [57] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1106,11 +1105,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]:
                 )
 
             [58] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1124,11 +1123,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]:
                 )
 
             [59] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1142,11 +1141,11 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [60] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [00:05:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1160,6 +1159,7 @@ class MagmaModDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [00:05:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
         )
@@ -1247,11 +1247,8 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Magma\MagmaVersionInformation Object
                 (
-                    [label:protected] => Magma version
-                    [value:protected] => e2b9ab6
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [15:02:53] [Server thread/INFO] [Minecraft]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1265,18 +1262,18 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [15:02:53] [Server thread/INFO] [Minecraft]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Magma version
+                    [value:protected] => e2b9ab6
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.12.2
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [00:05:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1290,18 +1287,18 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [00:05:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.12.2
                 )
 
             [2] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
-                    [label:protected] => Forge version
-                    [value:protected] => 14.23.5.2814
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [00:05:11] [Server thread/INFO] [FML]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1315,33 +1312,18 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [00:05:11] [Server thread/INFO] [FML]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Forge version
+                    [value:protected] => 14.23.5.2814
                 )
 
             [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => redstoneflux
-                        )
-
-                    [modName:protected] => CoFH Core
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
-                                (
-                                    [modVersion:protected] => 2.1.0
-                                    [modName:protected] => redstoneflux
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [16:41:32] [Server thread/FATAL] [FML]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1355,33 +1337,33 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [16:41:32] [Server thread/FATAL] [FML]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
-                (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => codechickenlib
-                        )
-
-                    [modName:protected] => Thermal Dynamics
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
-                                    [modVersion:protected] => 3.2.2
-                                    [modName:protected] => codechickenlib
+                                    [modName:protected] => redstoneflux
+                                    [modVersion:protected] => 2.1.0
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [modName:protected] => CoFH Core
+                    [dependencyMods:protected] => Array
+                        (
+                            [0] => redstoneflux
+                        )
+
+                )
+
+            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [16:41:32] [Server thread/FATAL] [FML]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1395,33 +1377,33 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [16:41:32] [Server thread/FATAL] [FML]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [5] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
-                (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => cyclopscore
-                        )
-
-                    [modName:protected] => EvilCraft
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
-                                    [modVersion:protected] => 1.0.0
-                                    [modName:protected] => cyclopscore
+                                    [modName:protected] => codechickenlib
+                                    [modVersion:protected] => 3.2.2
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [modName:protected] => Thermal Dynamics
+                    [dependencyMods:protected] => Array
+                        (
+                            [0] => codechickenlib
+                        )
+
+                )
+
+            [5] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [23:23:18] [Server thread/FATAL] [FML]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1435,33 +1417,33 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [23:23:18] [Server thread/FATAL] [FML]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [6] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
-                (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => cyclopscore
-                        )
-
-                    [modName:protected] => EvilCraft-Compat
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
-                                    [modVersion:protected] => 0.11.6
                                     [modName:protected] => cyclopscore
+                                    [modVersion:protected] => 1.0.0
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [modName:protected] => EvilCraft
+                    [dependencyMods:protected] => Array
+                        (
+                            [0] => cyclopscore
+                        )
+
+                )
+
+            [6] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [23:23:18] [Server thread/FATAL] [FML]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1475,33 +1457,33 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [23:23:18] [Server thread/FATAL] [FML]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [7] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
-                (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => forge
-                        )
-
-                    [modName:protected] => Applied Energistics 2
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
-                                    [modVersion:protected] => 14.23.5.2768
-                                    [modName:protected] => forge
+                                    [modName:protected] => cyclopscore
+                                    [modVersion:protected] => 0.11.6
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [modName:protected] => EvilCraft-Compat
+                    [dependencyMods:protected] => Array
+                        (
+                            [0] => cyclopscore
+                        )
+
+                )
+
+            [7] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [18:19:10] [Server thread/FATAL] [FML]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1515,33 +1497,33 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [18:19:10] [Server thread/FATAL] [FML]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [8] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
-                (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => forgelin
-                        )
-
-                    [modName:protected] => Ex Nihilo Creatio
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
-                                    [modVersion:protected] => 
-                                    [modName:protected] => forgelin
+                                    [modName:protected] => forge
+                                    [modVersion:protected] => 14.23.5.2768
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [modName:protected] => Applied Energistics 2
+                    [dependencyMods:protected] => Array
+                        (
+                            [0] => forge
+                        )
+
+                )
+
+            [8] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [17:26:53] [Server thread/FATAL] [FML]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1555,33 +1537,33 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [17:26:53] [Server thread/FATAL] [FML]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [9] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
-                (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => sanlib
-                        )
-
-                    [modName:protected] => Clay Soldiers Mod
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
-                                    [modVersion:protected] => 1.2.0
-                                    [modName:protected] => sanlib
+                                    [modName:protected] => forgelin
+                                    [modVersion:protected] => 
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [modName:protected] => Ex Nihilo Creatio
+                    [dependencyMods:protected] => Array
+                        (
+                            [0] => forgelin
+                        )
+
+                )
+
+            [9] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [02:11:15] [Server thread/FATAL] [FML]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1595,33 +1577,33 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [02:11:15] [Server thread/FATAL] [FML]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [10] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
-                (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => forge
-                        )
-
-                    [modName:protected] => Biomes O\' Plenty
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
-                                    [modVersion:protected] => 14.23.5.2768
-                                    [modName:protected] => forge
+                                    [modName:protected] => sanlib
+                                    [modVersion:protected] => 1.2.0
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [modName:protected] => Clay Soldiers Mod
+                    [dependencyMods:protected] => Array
+                        (
+                            [0] => sanlib
+                        )
+
+                )
+
+            [10] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [22:14:04] [Server thread/FATAL] [FML]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1635,40 +1617,33 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [22:14:04] [Server thread/FATAL] [FML]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [11] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
-                (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => codechickenlib
-                            [1] => forge
-                        )
-
-                    [modName:protected] => Forge Multipart CBE
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
-                                    [modVersion:protected] => 3.2.2
-                                    [modName:protected] => codechickenlib
-                                )
-
-                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
-                                (
-                                    [modVersion:protected] => 14.23.5.2768
                                     [modName:protected] => forge
+                                    [modVersion:protected] => 14.23.5.2768
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [modName:protected] => Biomes O\' Plenty
+                    [dependencyMods:protected] => Array
+                        (
+                            [0] => forge
+                        )
+
+                )
+
+            [11] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [22:14:04] [Server thread/FATAL] [FML]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1682,33 +1657,40 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [22:14:04] [Server thread/FATAL] [FML]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [12] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
-                (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => llibrary
-                        )
-
-                    [modName:protected] => Dragon Mounts
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
-                                    [modVersion:protected] => 1.7.9
-                                    [modName:protected] => llibrary
+                                    [modName:protected] => codechickenlib
+                                    [modVersion:protected] => 3.2.2
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
+                                (
+                                    [modName:protected] => forge
+                                    [modVersion:protected] => 14.23.5.2768
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [modName:protected] => Forge Multipart CBE
+                    [dependencyMods:protected] => Array
+                        (
+                            [0] => codechickenlib
+                            [1] => forge
+                        )
+
+                )
+
+            [12] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [00:05:16] [Server thread/FATAL] [FML]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1722,9 +1704,27 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [00:05:16] [Server thread/FATAL] [FML]:
                         )
 
                     [counter:protected] => 2
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
+                                (
+                                    [modName:protected] => llibrary
+                                    [modVersion:protected] => 1.7.9
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [modName:protected] => Dragon Mounts
+                    [dependencyMods:protected] => Array
+                        (
+                            [0] => llibrary
+                        )
+
                 )
 
         )

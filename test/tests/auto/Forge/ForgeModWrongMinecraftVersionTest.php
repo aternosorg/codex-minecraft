@@ -18,7 +18,6 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:24] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:24] [main/DEBUG] [FML/]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/INFO] [FML/]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/INFO] [FML/]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -374,11 +373,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -392,11 +391,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -410,11 +409,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -428,11 +427,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -446,11 +445,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/INFO] [FML/]:
                 )
 
             [24] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -464,11 +463,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [25] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -482,11 +481,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [26] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -500,11 +499,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [27] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -518,11 +517,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [28] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -536,11 +535,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [29] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -554,11 +553,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/TRACE] [FML/]:
                 )
 
             [30] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -572,11 +571,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:25] [main/DEBUG] [FML/]:
                 )
 
             [31] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -590,11 +589,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/TRACE] [FML/]:
                 )
 
             [32] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -608,11 +607,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                 )
 
             [33] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -626,11 +625,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                 )
 
             [34] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -644,11 +643,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                 )
 
             [35] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -662,11 +661,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/TRACE] [FML/]:
                 )
 
             [36] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -680,11 +679,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                 )
 
             [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -698,11 +697,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/TRACE] [FML/]:
                 )
 
             [38] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -716,11 +715,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                 )
 
             [39] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -734,11 +733,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                 )
 
             [40] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -752,11 +751,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/INFO] [LaunchWrapper/]:
                 )
 
             [41] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -770,11 +769,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/INFO] [LaunchWrapper/]:
                 )
 
             [42] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -788,11 +787,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/INFO] [LaunchWrapper/]:
                 )
 
             [43] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -806,11 +805,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/INFO] [LaunchWrapper/]:
                 )
 
             [44] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -824,11 +823,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/INFO] [LaunchWrapper/]:
                 )
 
             [45] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -842,11 +841,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/INFO] [LaunchWrapper/]:
                 )
 
             [46] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -860,11 +859,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                 )
 
             [47] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -878,11 +877,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/TRACE] [FML/]:
                 )
 
             [48] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -896,11 +895,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/TRACE] [FML/]:
                 )
 
             [49] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -914,11 +913,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/TRACE] [FML/]:
                 )
 
             [50] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -932,11 +931,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/TRACE] [FML/]:
                 )
 
             [51] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -950,11 +949,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                 )
 
             [52] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -968,11 +967,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                 )
 
             [53] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -986,11 +985,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:26] [main/DEBUG] [FML/]:
                 )
 
             [54] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:29] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1004,11 +1003,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:29] [main/DEBUG] [FML/]:
                 )
 
             [55] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:30] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1022,11 +1021,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:30] [main/DEBUG] [FML/]:
                 )
 
             [56] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1040,11 +1039,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [FML/]:
                 )
 
             [57] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1058,11 +1057,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                 )
 
             [58] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1076,11 +1075,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [LaunchWrapper/]:
                 )
 
             [59] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1094,11 +1093,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                 )
 
             [60] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1112,11 +1111,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                 )
 
             [61] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1130,11 +1129,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                 )
 
             [62] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1148,11 +1147,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                 )
 
             [63] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1166,11 +1165,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                 )
 
             [64] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1184,11 +1183,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [LaunchWrapper/]:
                 )
 
             [65] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1202,11 +1201,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [mixin/]:
                 )
 
             [66] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1220,11 +1219,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [67] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1238,11 +1237,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [68] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1256,11 +1255,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [69] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1274,11 +1273,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [70] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1292,11 +1291,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [71] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1310,11 +1309,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [72] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1328,11 +1327,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [73] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1346,11 +1345,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [74] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1364,11 +1363,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [75] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1382,11 +1381,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [76] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1400,11 +1399,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [77] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1418,11 +1417,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [78] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1436,11 +1435,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [79] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1454,11 +1453,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [80] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1472,11 +1471,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [81] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/WARN] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1490,11 +1489,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/WARN] [mixin/]:
                 )
 
             [82] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1508,11 +1507,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [mixin/]:
                 )
 
             [83] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1526,11 +1525,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [84] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/WARN] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1544,11 +1543,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/WARN] [mixin/]:
                 )
 
             [85] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1562,11 +1561,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [86] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1580,11 +1579,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [87] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1598,11 +1597,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [88] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1616,11 +1615,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [89] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1634,11 +1633,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [90] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1652,11 +1651,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [91] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1670,11 +1669,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [92] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1688,11 +1687,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [93] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1706,11 +1705,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [94] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1724,11 +1723,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [95] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1742,11 +1741,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [96] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1760,11 +1759,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [97] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1778,11 +1777,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [98] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1796,11 +1795,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [99] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1814,11 +1813,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [100] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1832,11 +1831,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [101] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1850,11 +1849,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [102] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1868,11 +1867,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [103] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1886,11 +1885,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ForgeEssentials/]:
                 )
 
             [104] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ASM_ClassInjector/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1904,11 +1903,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ASM_ClassInjector/]:
                 )
 
             [105] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ASM_ClassInjector/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1922,11 +1921,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ASM_ClassInjector/]:
                 )
 
             [106] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ASM_ClassInjector/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1940,11 +1939,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ASM_ClassInjector/]:
                 )
 
             [107] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [ASM_ClassInjector/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1958,11 +1957,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [ASM_ClassInjector/]:
                 )
 
             [108] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1976,11 +1975,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/INFO] [LaunchWrapper/]:
                 )
 
             [109] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1994,11 +1993,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                 )
 
             [110] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2012,11 +2011,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                 )
 
             [111] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2030,11 +2029,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                 )
 
             [112] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2048,11 +2047,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                 )
 
             [113] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2066,11 +2065,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                 )
 
             [114] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2084,11 +2083,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                 )
 
             [115] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2102,11 +2101,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [mixin/]:
                 )
 
             [116] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2120,11 +2119,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:32] [main/DEBUG] [FML/]:
                 )
 
             [117] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:33] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2138,11 +2137,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:33] [main/DEBUG] [mixin/]:
                 )
 
             [118] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:34] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2156,11 +2155,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:34] [main/DEBUG] [FML/]:
                 )
 
             [119] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:34] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2174,11 +2173,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:34] [main/INFO] [LaunchWrapper/]:
                 )
 
             [120] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:34] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2192,11 +2191,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:34] [main/DEBUG] [FML/]:
                 )
 
             [121] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:34] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2210,11 +2209,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:34] [main/TRACE] [FML/]:
                 )
 
             [122] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:34] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2228,11 +2227,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:34] [main/TRACE] [FML/]:
                 )
 
             [123] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2246,11 +2245,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/INFO] [FML/]:
                 )
 
             [124] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2264,11 +2263,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                 )
 
             [125] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2282,11 +2281,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                 )
 
             [126] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2300,11 +2299,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                 )
 
             [127] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2318,11 +2317,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                 )
 
             [128] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2336,11 +2335,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/INFO] [LaunchWrapper/]:
                 )
 
             [129] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2354,11 +2353,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                 )
 
             [130] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2372,11 +2371,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/TRACE] [FML/]:
                 )
 
             [131] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2390,11 +2389,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/TRACE] [FML/]:
                 )
 
             [132] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2408,11 +2407,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                 )
 
             [133] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2426,11 +2425,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                 )
 
             [134] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2444,11 +2443,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                 )
 
             [135] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2462,11 +2461,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [FML/]:
                 )
 
             [136] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2480,11 +2479,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/INFO] [LaunchWrapper/]:
                 )
 
             [137] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2498,11 +2497,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/INFO] [LaunchWrapper/]:
                 )
 
             [138] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2516,11 +2515,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/INFO] [LaunchWrapper/]:
                 )
 
             [139] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2534,11 +2533,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/INFO] [LaunchWrapper/]:
                 )
 
             [140] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2552,11 +2551,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/INFO] [LaunchWrapper/]:
                 )
 
             [141] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2570,11 +2569,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [mixin/]:
                 )
 
             [142] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2588,11 +2587,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [mixin/]:
                 )
 
             [143] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2606,11 +2605,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [mixin/]:
                 )
 
             [144] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/WARN] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2624,11 +2623,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/WARN] [mixin/]:
                 )
 
             [145] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2642,11 +2641,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [mixin/]:
                 )
 
             [146] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2660,11 +2659,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [mixin/]:
                 )
 
             [147] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:35] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2678,11 +2677,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:35] [main/DEBUG] [mixin/]:
                 )
 
             [148] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/INFO] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2696,11 +2695,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/INFO] [mixin/]:
                 )
 
             [149] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2714,11 +2713,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [150] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2732,11 +2731,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [151] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2750,11 +2749,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [152] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2768,11 +2767,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [153] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2786,11 +2785,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [154] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2804,11 +2803,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [155] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2822,11 +2821,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [156] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2840,11 +2839,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [157] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2858,11 +2857,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [158] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2876,11 +2875,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [159] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2894,11 +2893,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [160] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2912,11 +2911,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [161] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2930,11 +2929,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [162] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2948,11 +2947,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [163] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2966,11 +2965,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [164] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2984,11 +2983,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [165] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3002,11 +3001,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [166] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3020,11 +3019,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [167] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3038,11 +3037,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [168] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3056,11 +3055,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [169] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3074,11 +3073,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [170] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3092,11 +3091,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [171] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3110,11 +3109,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [172] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3128,11 +3127,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [173] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3146,11 +3145,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [174] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3164,11 +3163,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [175] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3182,11 +3181,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [176] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3200,11 +3199,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/INFO] [LaunchWrapper/]:
                 )
 
             [177] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/WARN] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3218,11 +3217,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/WARN] [LaunchWrapper/]:
                 )
 
             [178] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3236,11 +3235,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [179] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3254,11 +3253,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/INFO] [FML/]:
                 )
 
             [180] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3272,11 +3271,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/INFO] [FML/]:
                 )
 
             [181] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3290,11 +3289,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/INFO] [FML/]:
                 )
 
             [182] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3308,11 +3307,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/INFO] [FML/]:
                 )
 
             [183] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3326,11 +3325,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [184] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3344,11 +3343,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [185] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3362,11 +3361,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [186] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3380,11 +3379,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [187] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3398,11 +3397,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [188] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3416,11 +3415,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [189] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3434,11 +3433,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [190] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3452,11 +3451,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [191] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3470,11 +3469,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [192] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3488,11 +3487,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [193] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3506,11 +3505,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [194] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3524,11 +3523,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [195] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3542,11 +3541,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [196] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3560,11 +3559,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [197] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3578,11 +3577,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [198] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3596,11 +3595,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [199] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3614,11 +3613,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [200] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3632,11 +3631,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [201] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3650,11 +3649,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [202] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3668,11 +3667,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [203] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3686,11 +3685,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [204] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3704,11 +3703,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [205] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3722,11 +3721,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [206] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3740,11 +3739,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/DEBUG] [mixin/]:
                 )
 
             [207] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3758,11 +3757,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/TRACE] [mixin/]:
                 )
 
             [208] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3776,11 +3775,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/TRACE] [mixin/]:
                 )
 
             [209] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3794,11 +3793,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/TRACE] [mixin/]:
                 )
 
             [210] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3812,11 +3811,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/TRACE] [mixin/]:
                 )
 
             [211] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:42] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3830,11 +3829,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:42] [main/TRACE] [mixin/]:
                 )
 
             [212] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3848,11 +3847,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                 )
 
             [213] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3866,11 +3865,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                 )
 
             [214] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3884,11 +3883,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                 )
 
             [215] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3902,11 +3901,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                 )
 
             [216] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3920,11 +3919,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                 )
 
             [217] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3938,11 +3937,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                 )
 
             [218] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3956,11 +3955,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                 )
 
             [219] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3974,11 +3973,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                 )
 
             [220] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:43] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3992,11 +3991,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:43] [main/DEBUG] [mixin/]:
                 )
 
             [221] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:43] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4010,11 +4009,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:43] [main/DEBUG] [mixin/]:
                 )
 
             [222] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4028,11 +4027,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                 )
 
             [223] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4046,11 +4045,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                 )
 
             [224] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4064,11 +4063,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:43] [main/TRACE] [mixin/]:
                 )
 
             [225] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4082,11 +4081,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [226] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4100,11 +4099,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [227] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4118,11 +4117,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [228] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4136,11 +4135,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [229] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4154,11 +4153,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [230] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4172,11 +4171,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [231] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4190,11 +4189,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [232] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4208,11 +4207,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [233] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4226,11 +4225,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [234] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4244,11 +4243,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [235] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4262,11 +4261,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [236] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4280,11 +4279,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/DEBUG] [mixin/]:
                 )
 
             [237] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4298,11 +4297,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [238] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4316,11 +4315,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [239] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4334,11 +4333,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [240] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4352,11 +4351,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [241] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4370,11 +4369,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [242] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4388,11 +4387,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [243] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4406,11 +4405,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [244] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4424,11 +4423,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:44] [main/TRACE] [mixin/]:
                 )
 
             [245] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:45] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4442,11 +4441,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:45] [main/DEBUG] [mixin/]:
                 )
 
             [246] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:45] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4460,11 +4459,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:45] [main/TRACE] [mixin/]:
                 )
 
             [247] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:45] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4478,11 +4477,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:45] [main/TRACE] [mixin/]:
                 )
 
             [248] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:45] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4496,11 +4495,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:45] [main/TRACE] [mixin/]:
                 )
 
             [249] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:45] [main/INFO] [LaunchWrapper/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4514,11 +4513,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:45] [main/INFO] [LaunchWrapper/]:
                 )
 
             [250] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:48] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4532,11 +4531,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:48] [main/DEBUG] [mixin/]:
                 )
 
             [251] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4550,11 +4549,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                 )
 
             [252] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4568,11 +4567,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                 )
 
             [253] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4586,11 +4585,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                 )
 
             [254] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4604,11 +4603,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                 )
 
             [255] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4622,11 +4621,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                 )
 
             [256] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4640,11 +4639,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                 )
 
             [257] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4658,11 +4657,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                 )
 
             [258] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4676,11 +4675,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:48] [main/TRACE] [mixin/]:
                 )
 
             [259] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:49] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4694,11 +4693,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:49] [main/TRACE] [mixin/]:
                 )
 
             [260] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:51] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4712,11 +4711,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:51] [main/DEBUG] [mixin/]:
                 )
 
             [261] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4730,11 +4729,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                 )
 
             [262] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4748,11 +4747,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                 )
 
             [263] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4766,11 +4765,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                 )
 
             [264] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4784,11 +4783,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                 )
 
             [265] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:51] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4802,11 +4801,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:51] [main/DEBUG] [mixin/]:
                 )
 
             [266] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4820,11 +4819,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                 )
 
             [267] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4838,11 +4837,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                 )
 
             [268] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4856,11 +4855,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                 )
 
             [269] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4874,11 +4873,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                 )
 
             [270] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4892,11 +4891,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                 )
 
             [271] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4910,11 +4909,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:51] [main/TRACE] [mixin/]:
                 )
 
             [272] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:54] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4928,11 +4927,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:54] [main/DEBUG] [mixin/]:
                 )
 
             [273] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:56] [main/DEBUG] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4946,11 +4945,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:56] [main/DEBUG] [mixin/]:
                 )
 
             [274] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:56] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4964,11 +4963,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:56] [main/TRACE] [mixin/]:
                 )
 
             [275] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:56] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4982,11 +4981,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:56] [main/TRACE] [mixin/]:
                 )
 
             [276] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:56] [main/TRACE] [mixin/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5000,11 +4999,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:56] [main/TRACE] [mixin/]:
                 )
 
             [277] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:57] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5018,11 +5017,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:57] [main/DEBUG] [FML/]:
                 )
 
             [278] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:57] [main/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5036,11 +5035,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:57] [main/DEBUG] [FML/]:
                 )
 
             [279] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:58] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5054,11 +5053,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:58] [Server thread/INFO] [FML/]:
                 )
 
             [280] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:59] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5072,11 +5071,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:59] [Server thread/INFO] [FML/]:
                 )
 
             [281] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:59] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5090,11 +5089,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:59] [Server thread/DEBUG] [FML/]:
                 )
 
             [282] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:41:59] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5108,11 +5107,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:41:59] [Server thread/DEBUG] [FML/]:
                 )
 
             [283] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5126,11 +5125,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [284] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5144,11 +5143,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [285] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5162,11 +5161,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/TRACE] [FML/]:
                 )
 
             [286] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5180,11 +5179,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/TRACE] [FML/]:
                 )
 
             [287] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5198,11 +5197,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/TRACE] [FML/]:
                 )
 
             [288] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5216,11 +5215,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [289] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5234,11 +5233,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [290] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5252,11 +5251,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [291] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5270,11 +5269,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [292] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5288,11 +5287,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [293] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5306,11 +5305,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [294] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5324,11 +5323,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [295] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5342,11 +5341,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [296] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5360,11 +5359,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [297] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5378,11 +5377,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [298] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5396,11 +5395,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [299] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5414,11 +5413,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [300] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5432,11 +5431,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [301] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5450,11 +5449,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [302] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5468,11 +5467,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [303] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5486,11 +5485,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [304] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5504,11 +5503,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [305] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5522,11 +5521,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [306] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5540,11 +5539,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [307] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5558,11 +5557,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [308] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5576,11 +5575,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/INFO] [FML/]:
                 )
 
             [309] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5594,11 +5593,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/INFO] [FML/]:
                 )
 
             [310] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5612,11 +5611,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [311] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5630,11 +5629,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [312] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5648,11 +5647,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [313] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5666,11 +5665,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [314] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5684,11 +5683,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [315] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5702,11 +5701,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [316] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5720,11 +5719,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [317] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5738,11 +5737,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [318] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5756,11 +5755,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [319] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5774,11 +5773,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [320] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5792,11 +5791,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/INFO] [FML/]:
                 )
 
             [321] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5810,11 +5809,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/TRACE] [FML/]:
                 )
 
             [322] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5828,11 +5827,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [323] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5846,11 +5845,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:00] [Server thread/DEBUG] [FML/]:
                 )
 
             [324] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:02] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5864,11 +5863,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:02] [Server thread/DEBUG] [FML/]:
                 )
 
             [325] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:02] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5882,11 +5881,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:02] [Server thread/DEBUG] [FML/]:
                 )
 
             [326] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:02] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5900,11 +5899,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:02] [Server thread/DEBUG] [FML/]:
                 )
 
             [327] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:02] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5918,11 +5917,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:02] [Server thread/DEBUG] [FML/]:
                 )
 
             [328] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:02] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5936,11 +5935,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:02] [Server thread/DEBUG] [FML/]:
                 )
 
             [329] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:02] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5954,11 +5953,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:02] [Server thread/DEBUG] [FML/]:
                 )
 
             [330] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5972,11 +5971,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                 )
 
             [331] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5990,11 +5989,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                 )
 
             [332] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6008,11 +6007,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                 )
 
             [333] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6026,11 +6025,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                 )
 
             [334] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6044,11 +6043,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                 )
 
             [335] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6062,11 +6061,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                 )
 
             [336] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6080,11 +6079,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                 )
 
             [337] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6098,11 +6097,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:03] [Server thread/DEBUG] [FML/]:
                 )
 
             [338] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6116,11 +6115,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [339] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6134,11 +6133,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [340] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6152,11 +6151,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [341] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6170,11 +6169,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [342] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6188,11 +6187,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [343] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6206,11 +6205,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [344] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6224,11 +6223,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [345] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6242,11 +6241,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [346] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6260,11 +6259,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [347] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6278,11 +6277,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [348] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6296,11 +6295,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [349] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6314,11 +6313,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [350] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6332,11 +6331,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [351] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6350,11 +6349,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [352] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6368,11 +6367,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [353] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6386,11 +6385,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [354] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6404,11 +6403,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [355] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6422,11 +6421,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:04] [Server thread/DEBUG] [FML/]:
                 )
 
             [356] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:08] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6440,11 +6439,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:08] [Server thread/DEBUG] [FML/]:
                 )
 
             [357] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:08] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6458,11 +6457,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:08] [Server thread/DEBUG] [FML/]:
                 )
 
             [358] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6476,11 +6475,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                 )
 
             [359] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6494,11 +6493,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                 )
 
             [360] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6512,11 +6511,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                 )
 
             [361] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6530,11 +6529,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                 )
 
             [362] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6548,11 +6547,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                 )
 
             [363] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6566,11 +6565,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                 )
 
             [364] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6584,11 +6583,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                 )
 
             [365] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6602,11 +6601,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/TRACE] [FML/]:
                 )
 
             [366] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6620,11 +6619,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                 )
 
             [367] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6638,11 +6637,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [368] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6656,11 +6655,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [369] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6674,11 +6673,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [370] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6692,11 +6691,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [371] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6710,11 +6709,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [372] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6728,11 +6727,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [373] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6746,11 +6745,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [374] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6764,11 +6763,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [375] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6782,11 +6781,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [376] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/TRACE] [BiomesOPlenty/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6800,11 +6799,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/TRACE] [BiomesOPlenty/]:
                 )
 
             [377] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6818,11 +6817,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                 )
 
             [378] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6836,11 +6835,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/TRACE] [FML/]:
                 )
 
             [379] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6854,11 +6853,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                 )
 
             [380] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/TRACE] [customspawner/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6872,11 +6871,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/TRACE] [customspawner/]:
                 )
 
             [381] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6890,11 +6889,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                 )
 
             [382] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6908,11 +6907,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/TRACE] [FML/]:
                 )
 
             [383] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6926,11 +6925,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/DEBUG] [FML/]:
                 )
 
             [384] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6944,11 +6943,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [385] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6962,11 +6961,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [386] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6980,11 +6979,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [387] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6998,11 +6997,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [388] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7016,11 +7015,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [389] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7034,11 +7033,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [390] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7052,11 +7051,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [391] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7070,11 +7069,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [392] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7088,11 +7087,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/WARN] [FML/]:
                 )
 
             [393] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:09] [Server thread/TRACE] [PTRModelLib/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7106,11 +7105,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:09] [Server thread/TRACE] [PTRModelLib/]:
                 )
 
             [394] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:10] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7124,11 +7123,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:10] [Server thread/DEBUG] [FML/]:
                 )
 
             [395] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:10] [Server thread/TRACE] [props/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7142,11 +7141,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:10] [Server thread/TRACE] [props/]:
                 )
 
             [396] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:10] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7160,11 +7159,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:10] [Server thread/DEBUG] [FML/]:
                 )
 
             [397] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:10] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7178,11 +7177,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:10] [Server thread/TRACE] [FML/]:
                 )
 
             [398] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:10] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7196,11 +7195,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:10] [Server thread/DEBUG] [FML/]:
                 )
 
             [399] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:10] [Server thread/TRACE] [mocreatures/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7214,11 +7213,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:10] [Server thread/TRACE] [mocreatures/]:
                 )
 
             [400] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:10] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7232,11 +7231,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:10] [Server thread/DEBUG] [FML/]:
                 )
 
             [401] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:10] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7250,11 +7249,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:10] [Server thread/TRACE] [FML/]:
                 )
 
             [402] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:10] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7268,11 +7267,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:10] [Server thread/DEBUG] [FML/]:
                 )
 
             [403] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:10] [Server thread/TRACE] [forgeessentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7286,11 +7285,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:10] [Server thread/TRACE] [forgeessentials/]:
                 )
 
             [404] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:11] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7304,11 +7303,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:11] [Server thread/DEBUG] [FML/]:
                 )
 
             [405] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:11] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7322,11 +7321,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:11] [Server thread/TRACE] [FML/]:
                 )
 
             [406] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:11] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7340,11 +7339,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:11] [Server thread/DEBUG] [FML/]:
                 )
 
             [407] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:11] [Server thread/TRACE] [journeymap/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7358,11 +7357,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:11] [Server thread/TRACE] [journeymap/]:
                 )
 
             [408] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:11] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7376,11 +7375,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:11] [Server thread/DEBUG] [FML/]:
                 )
 
             [409] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:11] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7394,11 +7393,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:11] [Server thread/TRACE] [FML/]:
                 )
 
             [410] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:11] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7412,11 +7411,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:11] [Server thread/DEBUG] [FML/]:
                 )
 
             [411] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:11] [Server thread/TRACE] [jurassicraft/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7430,11 +7429,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:11] [Server thread/TRACE] [jurassicraft/]:
                 )
 
             [412] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7448,11 +7447,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [413] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7466,11 +7465,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                 )
 
             [414] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7484,11 +7483,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [415] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [llibrary/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7502,11 +7501,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [llibrary/]:
                 )
 
             [416] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7520,11 +7519,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [417] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7538,11 +7537,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [418] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7556,11 +7555,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                 )
 
             [419] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7574,11 +7573,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                 )
 
             [420] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7592,11 +7591,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                 )
 
             [421] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7610,11 +7609,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                 )
 
             [422] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7628,11 +7627,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/INFO] [FML/]:
                 )
 
             [423] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7646,11 +7645,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [424] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7664,11 +7663,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [425] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7682,11 +7681,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [426] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7700,11 +7699,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [427] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7718,11 +7717,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [428] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7736,11 +7735,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [429] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7754,11 +7753,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [430] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7772,11 +7771,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [431] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7790,11 +7789,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [432] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7808,11 +7807,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [433] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7826,11 +7825,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [434] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7844,11 +7843,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [435] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7862,11 +7861,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [436] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7880,11 +7879,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [437] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7898,11 +7897,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [438] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7916,11 +7915,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [439] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7934,11 +7933,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [440] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7952,11 +7951,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [441] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7970,11 +7969,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [442] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7988,11 +7987,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [443] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8006,11 +8005,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [444] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8024,11 +8023,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [445] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8042,11 +8041,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [446] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8060,11 +8059,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                 )
 
             [447] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8078,11 +8077,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                 )
 
             [448] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8096,11 +8095,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [449] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [BiomesOPlenty/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8114,11 +8113,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [BiomesOPlenty/]:
                 )
 
             [450] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [customspawner/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8132,11 +8131,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [customspawner/]:
                 )
 
             [451] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [PTRModelLib/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8150,11 +8149,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [PTRModelLib/]:
                 )
 
             [452] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [props/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8168,11 +8167,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [props/]:
                 )
 
             [453] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [mocreatures/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8186,11 +8185,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [mocreatures/]:
                 )
 
             [454] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [forgeessentials/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8204,11 +8203,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [forgeessentials/]:
                 )
 
             [455] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [journeymap/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8222,11 +8221,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [journeymap/]:
                 )
 
             [456] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [jurassicraft/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8240,11 +8239,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [jurassicraft/]:
                 )
 
             [457] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [llibrary/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8258,11 +8257,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [llibrary/]:
                 )
 
             [458] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8276,11 +8275,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/]:
                 )
 
             [459] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/ERROR] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8294,11 +8293,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/ERROR] [FML/]:
                 )
 
             [460] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/ERROR] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8312,11 +8311,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/ERROR] [FML/]:
                 )
 
             [461] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8330,11 +8329,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [462] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8348,11 +8347,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [463] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8366,11 +8365,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [464] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8384,11 +8383,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [465] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8402,11 +8401,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [466] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8420,11 +8419,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [467] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8438,11 +8437,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [468] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8456,11 +8455,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [469] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8474,11 +8473,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [470] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8492,11 +8491,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [471] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8510,11 +8509,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/WARN] [FML/]:
                 )
 
             [472] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8528,11 +8527,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [473] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [mcp/mcp]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8546,11 +8545,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [mcp/mcp]:
                 )
 
             [474] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8564,11 +8563,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [475] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8582,11 +8581,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/FML]:
                 )
 
             [476] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8600,11 +8599,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [FML/FML]:
                 )
 
             [477] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8618,11 +8617,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [478] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8636,11 +8635,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [479] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [Forge/Forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8654,11 +8653,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [Forge/Forge]:
                 )
 
             [480] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8672,11 +8671,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [481] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [BiomesOPlenty/BiomesOPlenty]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8690,11 +8689,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [BiomesOPlenty/BiomesOPlenty]:
                 )
 
             [482] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [BiomesOPlenty/BiomesOPlenty]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8708,11 +8707,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [BiomesOPlenty/BiomesOPlenty]:
                 )
 
             [483] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8726,11 +8725,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [484] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [customspawner/customspawner]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8744,11 +8743,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [customspawner/customspawner]:
                 )
 
             [485] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [customspawner/customspawner]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8762,11 +8761,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [customspawner/customspawner]:
                 )
 
             [486] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8780,11 +8779,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [487] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [PTRModelLib/PTRModelLib]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8798,11 +8797,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [PTRModelLib/PTRModelLib]:
                 )
 
             [488] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [PTRModelLib/PTRModelLib]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8816,11 +8815,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [PTRModelLib/PTRModelLib]:
                 )
 
             [489] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8834,11 +8833,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [490] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [props/props]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8852,11 +8851,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [props/props]:
                 )
 
             [491] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [props/props]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8870,11 +8869,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [props/props]:
                 )
 
             [492] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8888,11 +8887,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [493] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [mocreatures/mocreatures]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8906,11 +8905,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [mocreatures/mocreatures]:
                 )
 
             [494] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [mocreatures/mocreatures]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8924,11 +8923,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [mocreatures/mocreatures]:
                 )
 
             [495] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8942,11 +8941,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [496] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [forgeessentials/forgeessentials]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8960,11 +8959,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [forgeessentials/forgeessentials]:
                 )
 
             [497] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [forgeessentials/forgeessentials]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8978,11 +8977,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [forgeessentials/forgeessentials]:
                 )
 
             [498] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8996,11 +8995,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [499] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [journeymap/journeymap]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9014,11 +9013,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [journeymap/journeymap]:
                 )
 
             [500] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [journeymap/journeymap]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9032,11 +9031,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [journeymap/journeymap]:
                 )
 
             [501] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9050,11 +9049,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [502] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [jurassicraft/jurassicraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9068,11 +9067,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [jurassicraft/jurassicraft]:
                 )
 
             [503] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [jurassicraft/jurassicraft]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9086,11 +9085,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [jurassicraft/jurassicraft]:
                 )
 
             [504] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9104,11 +9103,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [505] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [llibrary/llibrary]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9122,11 +9121,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [llibrary/llibrary]:
                 )
 
             [506] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [llibrary/llibrary]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9140,11 +9139,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/TRACE] [llibrary/llibrary]:
                 )
 
             [507] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9158,11 +9157,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [508] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9176,11 +9175,11 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/DEBUG] [FML/]:
                 )
 
             [509] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:42:12] [Server thread/INFO] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9194,6 +9193,7 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:42:12] [Server thread/INFO] [FML/]:
                 )
 
         )
@@ -9722,11 +9722,8 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
-                    [label:protected] => Forge version
-                    [value:protected] => 12.18.3.2511
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [13:41:58] [Server thread/INFO] [FML/]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -9740,15 +9737,35 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [13:41:58] [Server thread/INFO] [FML/]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Forge version
+                    [value:protected] => 12.18.3.2511
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModWrongMinecraftVersionProblem Object
                 (
-                    [minecraftVersion:protected] => 1.10.2
-                    [modName:protected] => journeymap
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [13:42:12] [Server thread/ERROR] [FML/]: The mod journeymap does not wish to run in Minecraft version Minecraft 1.10.2. You will have to remove it to play.
+                                            [number:protected] => 460
+                                        )
+
+                                )
+
+                            [level:protected] => ERROR
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [13:42:12] [Server thread/ERROR] [FML/]:
+                        )
+
+                    [counter:protected] => 1
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModRemoveSolution Object
@@ -9763,25 +9780,8 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                         )
 
                     [iterator:protected] => 0
-                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
-                        (
-                            [prefix:protected] => [13:42:12] [Server thread/ERROR] [FML/]:
-                            [lines:protected] => Array
-                                (
-                                    [0] => Aternos\Codex\Log\Line Object
-                                        (
-                                            [text:protected] => [13:42:12] [Server thread/ERROR] [FML/]: The mod journeymap does not wish to run in Minecraft version Minecraft 1.10.2. You will have to remove it to play.
-                                            [number:protected] => 460
-                                        )
-
-                                )
-
-                            [level:protected] => ERROR
-                            [time:protected] => 
-                            [iterator:protected] => 0
-                        )
-
-                    [counter:protected] => 1
+                    [modName:protected] => journeymap
+                    [minecraftVersion:protected] => 1.10.2
                 )
 
         )

@@ -18,7 +18,6 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:05.065] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:05.065] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:05.160] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:05.160] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:05.470] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:05.470] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:06.485] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:06.485] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.016] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.016] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.018] [main/ERROR] [net.minecraft.util.registry.IRegistry/]:
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.531] [main/WARN] [net.minecraft.command.Commands/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.531] [main/WARN] [net.minecraft.command.Commands/]:
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.534] [main/WARN] [net.minecraft.command.Commands/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.534] [main/WARN] [net.minecraft.command.Commands/]:
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.535] [main/WARN] [net.minecraft.command.Commands/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.535] [main/WARN] [net.minecraft.command.Commands/]:
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.550] [main/WARN] [net.minecraft.command.Commands/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.550] [main/WARN] [net.minecraft.command.Commands/]:
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.552] [main/WARN] [net.minecraft.command.Commands/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.552] [main/WARN] [net.minecraft.command.Commands/]:
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.693] [main/INFO] [net.minecraft.item.crafting.RecipeManager/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.693] [main/INFO] [net.minecraft.item.crafting.RecipeManager/]:
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.697] [main/INFO] [net.minecraft.advancements.AdvancementList/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -374,11 +373,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.697] [main/INFO] [net.minecraft.advancements.AdvancementList/]:
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -392,11 +391,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.900] [modloading-worker-25/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -410,11 +409,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.900] [modloading-worker-25/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]:
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:24.901] [modloading-worker-25/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -428,11 +427,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:24.901] [modloading-worker-25/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]:
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:26.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -446,11 +445,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:26.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]:
                 )
 
             [24] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:26.078] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -464,11 +463,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:26.078] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                 )
 
             [25] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:26.093] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -482,11 +481,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:26.093] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                 )
 
             [26] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:26.093] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -500,11 +499,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:26.093] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                 )
 
             [27] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:26.234] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -518,11 +517,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:26.234] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                 )
 
             [28] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:26.346] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -536,11 +535,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:26.346] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]:
                 )
 
             [29] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:26.657] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -554,11 +553,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:26.657] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]:
                 )
 
             [30] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:26.658] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -572,11 +571,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:26.658] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]:
                 )
 
             [31] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:26.658] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -590,11 +589,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:26.658] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]:
                 )
 
             [32] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:26.658] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -608,11 +607,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:26.658] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]:
                 )
 
             [33] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:27.053] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -626,11 +625,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:27.053] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]:
                 )
 
             [34] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:27.097] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -644,11 +643,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:27.097] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]:
                 )
 
             [35] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:27.098] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -662,11 +661,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:27.098] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]:
                 )
 
             [36] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:27.121] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -680,11 +679,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:27.121] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                 )
 
             [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:27.186] [Server thread/ERROR] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -698,11 +697,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:27.186] [Server thread/ERROR] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]:
                 )
 
             [38] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:27.212] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -716,11 +715,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:27.212] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]:
                 )
 
             [39] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:27.587] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -734,11 +733,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:27.587] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]:
                 )
 
             [40] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:28.515] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -752,11 +751,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:28.515] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]:
                 )
 
             [41] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:29.632] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -770,11 +769,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:29.632] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]:
                 )
 
             [42] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:29.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -788,11 +787,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:29.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [43] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:30.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -806,11 +805,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:30.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [44] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:31.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -824,11 +823,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:31.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [45] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:31.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -842,11 +841,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:31.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [46] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:31.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -860,11 +859,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:31.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [47] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:31.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -878,11 +877,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:31.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [48] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:31.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -896,11 +895,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:31.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [49] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:31.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -914,11 +913,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:31.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [50] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:32.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -932,11 +931,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:32.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [51] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:32.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -950,11 +949,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:32.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [52] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:32.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -968,11 +967,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:32.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [53] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:32.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -986,11 +985,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:32.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [54] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:32.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1004,11 +1003,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:32.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [55] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:32.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1022,11 +1021,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:32.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [56] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:32.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1040,11 +1039,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:32.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [57] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:32.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1058,11 +1057,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:32.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [58] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:32.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1076,11 +1075,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:32.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [59] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:32.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1094,11 +1093,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:32.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [60] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:32.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1112,11 +1111,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:32.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [61] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:32.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1130,11 +1129,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:32.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [62] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:32.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1148,11 +1147,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:32.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [63] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:33.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1166,11 +1165,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:33.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [64] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:33.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1184,11 +1183,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:33.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [65] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:33.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1202,11 +1201,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:33.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [66] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:33.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1220,11 +1219,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:33.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [67] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:33.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1238,11 +1237,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:33.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [68] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:33.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1256,11 +1255,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:33.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [69] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:33.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1274,11 +1273,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:33.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                 )
 
             [70] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:33.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1292,11 +1291,11 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:33.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                 )
 
             [71] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [26Feb2019 11:28:33.336] [Query Listener #1/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1310,6 +1309,7 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [26Feb2019 11:28:33.336] [Query Listener #1/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
         )
@@ -1400,11 +1400,8 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.13.2
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [26Feb2019 11:28:24.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1418,18 +1415,18 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [26Feb2019 11:28:24.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.13.2
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
-                    [label:protected] => Forge version
-                    [value:protected] => 25.0.54
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [26Feb2019 11:28:24.901] [modloading-worker-25/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -1443,9 +1440,12 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [26Feb2019 11:28:24.901] [modloading-worker-25/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Forge version
+                    [value:protected] => 25.0.54
                 )
 
         )

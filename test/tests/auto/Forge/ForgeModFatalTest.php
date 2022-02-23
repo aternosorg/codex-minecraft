@@ -18,7 +18,6 @@ class ForgeModFatalTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [18:59:01] [Server thread/ERROR] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class ForgeModFatalTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [18:59:01] [Server thread/ERROR] [FML/]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [18:59:01] [Server thread/ERROR] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,6 +337,7 @@ class ForgeModFatalTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [18:59:01] [Server thread/ERROR] [FML/]:
                 )
 
         )
@@ -406,29 +406,8 @@ class ForgeModFatalTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModFatalProblem Object
                 (
-                    [modFileName:protected] => Techguns.beta.1.2_alphatest4.1.jar
-                    [modVersion:protected] => 0.1.2_alphatest4.1
-                    [modId:protected] => Techguns
-                    [modName:protected] => Techguns
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
-                                (
-                                    [path:protected] => mods/Techguns.beta.1.2_alphatest4.1.jar
-                                    [relativePath:protected] => 1
-                                )
-
-                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallDifferentVersionSolution Object
-                                (
-                                    [modName:protected] => Techguns
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [18:59:01] [Server thread/ERROR] [FML/]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -730,9 +709,30 @@ class ForgeModFatalTest extends PHPUnit\Framework\TestCase
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [18:59:01] [Server thread/ERROR] [FML/]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
+                                (
+                                    [path:protected] => mods/Techguns.beta.1.2_alphatest4.1.jar
+                                    [relativePath:protected] => 1
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallDifferentVersionSolution Object
+                                (
+                                    [modName:protected] => Techguns
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [modName:protected] => Techguns
+                    [modFileName:protected] => Techguns.beta.1.2_alphatest4.1.jar
+                    [modVersion:protected] => 0.1.2_alphatest4.1
+                    [modId:protected] => Techguns
                 )
 
         )
