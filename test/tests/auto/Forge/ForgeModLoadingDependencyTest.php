@@ -18,7 +18,6 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.329] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.329] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.360] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.360] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.429] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.429] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.467] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.467] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.499] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.499] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.526] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.526] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.547] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.547] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.652] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.652] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.653] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.653] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.709] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.709] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.710] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.710] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.757] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.757] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]:
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.774] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.774] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.775] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.775] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.775] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.775] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.778] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.778] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.780] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.780] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.781] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.781] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.917] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.917] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.919] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -374,11 +373,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.919] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:01.940] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -392,11 +391,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:01.940] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:02.953] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -410,11 +409,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:02.953] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]:
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:02.965] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -428,11 +427,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:02.965] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.014] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -446,11 +445,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.014] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                 )
 
             [24] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.105] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -464,11 +463,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.105] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                 )
 
             [25] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.107] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -482,11 +481,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.107] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                 )
 
             [26] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.107] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -500,11 +499,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.107] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]:
                 )
 
             [27] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.126] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -518,11 +517,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.126] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]:
                 )
 
             [28] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.131] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -536,11 +535,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.131] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]:
                 )
 
             [29] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.132] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -554,11 +553,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.132] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]:
                 )
 
             [30] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.132] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -572,11 +571,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.132] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]:
                 )
 
             [31] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.132] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -590,11 +589,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.132] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]:
                 )
 
             [32] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.132] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -608,11 +607,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.132] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]:
                 )
 
             [33] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.133] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -626,11 +625,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.133] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]:
                 )
 
             [34] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.133] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -644,11 +643,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.133] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]:
                 )
 
             [35] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.558] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -662,11 +661,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.558] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]:
                 )
 
             [36] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.559] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -680,11 +679,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.559] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]:
                 )
 
             [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.560] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -698,11 +697,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.560] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                 )
 
             [38] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.602] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -716,11 +715,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.602] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                 )
 
             [39] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.637] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -734,11 +733,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.637] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]:
                 )
 
             [40] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.637] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -752,11 +751,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.637] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]:
                 )
 
             [41] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.639] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -770,11 +769,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.639] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]:
                 )
 
             [42] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.640] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -788,11 +787,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.640] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]:
                 )
 
             [43] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.641] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -806,11 +805,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.641] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]:
                 )
 
             [44] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.641] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -824,11 +823,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.641] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]:
                 )
 
             [45] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.669] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -842,11 +841,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.669] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]:
                 )
 
             [46] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.694] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -860,11 +859,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.694] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]:
                 )
 
             [47] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:03.699] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -878,11 +877,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:03.699] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]:
                 )
 
             [48] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.148] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -896,11 +895,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.148] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]:
                 )
 
             [49] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.148] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -914,11 +913,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.148] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]:
                 )
 
             [50] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.228] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -932,11 +931,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.228] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]:
                 )
 
             [51] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.267] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -950,11 +949,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.267] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                 )
 
             [52] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.287] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -968,11 +967,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.287] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]:
                 )
 
             [53] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.297] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -986,11 +985,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.297] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]:
                 )
 
             [54] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.300] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1004,11 +1003,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.300] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                 )
 
             [55] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.311] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1022,11 +1021,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.311] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                 )
 
             [56] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.313] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1040,11 +1039,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.313] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]:
                 )
 
             [57] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.416] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1058,11 +1057,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.416] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]:
                 )
 
             [58] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.474] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1076,11 +1075,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.474] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]:
                 )
 
             [59] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.663] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1094,11 +1093,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.663] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]:
                 )
 
             [60] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.876] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1112,11 +1111,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.876] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]:
                 )
 
             [61] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.877] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1130,11 +1129,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.877] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]:
                 )
 
             [62] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.879] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1148,11 +1147,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.879] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]:
                 )
 
             [63] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.898] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1166,11 +1165,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.898] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]:
                 )
 
             [64] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.898] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1184,11 +1183,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.898] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]:
                 )
 
             [65] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.899] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1202,11 +1201,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.899] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]:
                 )
 
             [66] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.901] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1220,11 +1219,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.901] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]:
                 )
 
             [67] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:04.902] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1238,11 +1237,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:04.902] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]:
                 )
 
             [68] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:05.153] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1256,11 +1255,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:05.153] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]:
                 )
 
             [69] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:05.153] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1274,11 +1273,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:05.153] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]:
                 )
 
             [70] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:05.166] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1292,11 +1291,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:05.166] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]:
                 )
 
             [71] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:05.170] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1310,11 +1309,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:05.170] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]:
                 )
 
             [72] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:05.170] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1328,11 +1327,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:05.170] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]:
                 )
 
             [73] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:05.267] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1346,11 +1345,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:05.267] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]:
                 )
 
             [74] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:05.270] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1364,11 +1363,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:05.270] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]:
                 )
 
             [75] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:08.550] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1382,11 +1381,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:08.550] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                 )
 
             [76] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:08.550] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1400,11 +1399,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:08.550] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]:
                 )
 
             [77] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:08.559] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1418,11 +1417,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:08.559] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                 )
 
             [78] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:08.560] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1436,11 +1435,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:08.560] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]:
                 )
 
             [79] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:08.561] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1454,11 +1453,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:08.561] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]:
                 )
 
             [80] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:10.211] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1472,11 +1471,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:10.211] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]:
                 )
 
             [81] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:10.245] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1490,11 +1489,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:10.245] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]:
                 )
 
             [82] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:10.249] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1508,11 +1507,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:10.249] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]:
                 )
 
             [83] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:10.250] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1526,11 +1525,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:10.250] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]:
                 )
 
             [84] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:10.250] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1544,11 +1543,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:10.250] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]:
                 )
 
             [85] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:10.252] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1562,11 +1561,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:10.252] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]:
                 )
 
             [86] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:10.253] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1580,11 +1579,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:10.253] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]:
                 )
 
             [87] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:10.255] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1598,11 +1597,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:10.255] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]:
                 )
 
             [88] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:10.484] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1616,11 +1615,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:10.484] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]:
                 )
 
             [89] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:21.824] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1634,11 +1633,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:21.824] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]:
                 )
 
             [90] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:22.899] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1652,11 +1651,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:22.899] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]:
                 )
 
             [91] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:20:24.048] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1670,11 +1669,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:20:24.048] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]:
                 )
 
             [92] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:08.931] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1688,11 +1687,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:08.931] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]:
                 )
 
             [93] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:09.099] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1706,11 +1705,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:09.099] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]:
                 )
 
             [94] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:12.368] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1724,11 +1723,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:12.368] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]:
                 )
 
             [95] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:36.556] [main/WARN] [net.minecraft.command.Commands/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1742,11 +1741,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:36.556] [main/WARN] [net.minecraft.command.Commands/]:
                 )
 
             [96] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:36.560] [main/WARN] [net.minecraft.command.Commands/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1760,11 +1759,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:36.560] [main/WARN] [net.minecraft.command.Commands/]:
                 )
 
             [97] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:36.564] [main/WARN] [net.minecraft.command.Commands/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1778,11 +1777,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:36.564] [main/WARN] [net.minecraft.command.Commands/]:
                 )
 
             [98] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:36.567] [main/WARN] [net.minecraft.command.Commands/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1796,11 +1795,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:36.567] [main/WARN] [net.minecraft.command.Commands/]:
                 )
 
             [99] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:36.592] [main/WARN] [net.minecraft.command.Commands/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1814,11 +1813,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:36.592] [main/WARN] [net.minecraft.command.Commands/]:
                 )
 
             [100] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:37.212] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1832,11 +1831,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:37.212] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
                 )
 
             [101] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:38.952] [Server thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1850,11 +1849,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:38.952] [Server thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]:
                 )
 
             [102] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:41.413] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1868,11 +1867,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:41.413] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]:
                 )
 
             [103] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:41.817] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1886,11 +1885,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:41.817] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]:
                 )
 
             [104] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:41.818] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2048,11 +2047,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:41.818] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]:
                 )
 
             [105] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:42.054] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2132,11 +2131,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:42.054] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [106] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:42.117] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2150,11 +2149,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:42.117] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]:
                 )
 
             [107] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:42.118] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2168,11 +2167,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:42.118] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]:
                 )
 
             [108] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:42.118] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2186,11 +2185,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:42.118] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]:
                 )
 
             [109] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:42.118] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2204,11 +2203,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:42.118] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]:
                 )
 
             [110] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:42.303] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2222,11 +2221,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:42.303] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [111] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:42.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2240,11 +2239,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:42.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [112] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:42.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2258,11 +2257,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:42.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [113] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [07Feb2020 20:21:42.718] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2324,11 +2323,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [07Feb2020 20:21:42.718] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]:
                 )
 
             [114] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15Feb2020 14:45:26.737] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2486,11 +2485,11 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15Feb2020 14:45:26.737] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]:
                 )
 
             [115] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [15Feb2020 14:45:27.141] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2564,6 +2563,7 @@ class ForgeModLoadingDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [15Feb2020 14:45:27.141] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]:
                 )
 
         )
@@ -2775,11 +2775,8 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.14.4
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [07Feb2020 20:20:03.602] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -2793,33 +2790,18 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
                             [level:protected] => DEBUG
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [07Feb2020 20:20:03.602] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
                         )
 
                     [counter:protected] => 2
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.14.4
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => mmorpg
-                        )
-
-                    [modName:protected] => azurecompat
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
-                                (
-                                    [modVersion:protected] => 1
-                                    [modName:protected] => mmorpg
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [07Feb2020 20:21:41.818] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -2977,33 +2959,33 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [07Feb2020 20:21:41.818] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
-                (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => forge
-                        )
-
-                    [modName:protected] => uteamcore
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
-                                    [modVersion:protected] => 28.2.0
-                                    [modName:protected] => forge
+                                    [modName:protected] => mmorpg
+                                    [modVersion:protected] => 1
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [modName:protected] => azurecompat
+                    [dependencyMods:protected] => Array
+                        (
+                            [0] => mmorpg
+                        )
+
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [07Feb2020 20:21:42.054] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -3083,33 +3065,33 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [07Feb2020 20:21:42.054] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
-                (
-                    [dependencyMods:protected] => Array
-                        (
-                            [0] => minecraft
-                        )
-
-                    [modName:protected] => car
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
                                 (
-                                    [modVersion:protected] => 1.15.1
-                                    [modName:protected] => minecraft
+                                    [modName:protected] => forge
+                                    [modVersion:protected] => 28.2.0
                                 )
 
                         )
 
                     [iterator:protected] => 0
+                    [modName:protected] => uteamcore
+                    [dependencyMods:protected] => Array
+                        (
+                            [0] => forge
+                        )
+
+                )
+
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [15Feb2020 14:45:26.737] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -3267,9 +3249,27 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [15Feb2020 14:45:26.737] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]:
                         )
 
                     [counter:protected] => 2
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
+                                (
+                                    [modName:protected] => minecraft
+                                    [modVersion:protected] => 1.15.1
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [modName:protected] => car
+                    [dependencyMods:protected] => Array
+                        (
+                            [0] => minecraft
+                        )
+
                 )
 
         )

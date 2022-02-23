@@ -18,7 +18,6 @@ class VanillaMalformedEncodingTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [21:28:50] [main/FATAL]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,6 +85,7 @@ class VanillaMalformedEncodingTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [21:28:50] [main/FATAL]:
                 )
 
         )
@@ -114,18 +114,8 @@ at net.minecraft.server.MinecraftServer.main(SourceFile:887) [minecraft_server.j
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\MalformedEncodingProblem Object
                 (
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\ChangeMOTDSolution Object
-                                (
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [21:28:50] [main/FATAL]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -193,9 +183,19 @@ at net.minecraft.server.MinecraftServer.main(SourceFile:887) [minecraft_server.j
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [21:28:50] [main/FATAL]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\ChangeMOTDSolution Object
+                                (
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
                 )
 
         )

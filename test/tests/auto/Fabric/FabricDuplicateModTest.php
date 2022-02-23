@@ -18,7 +18,6 @@ class FabricDuplicateModTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [23:35:34] [main/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class FabricDuplicateModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [23:35:34] [main/INFO]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [23:35:35] [main/FATAL]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,6 +139,7 @@ class FabricDuplicateModTest extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [23:35:35] [main/FATAL]:
                 )
 
         )
@@ -175,11 +175,8 @@ net.fabricmc.loader.discovery.ModResolutionException: Duplicate versions for mod
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Fabric\FabricVanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.16.5
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [23:35:34] [main/INFO]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -193,28 +190,18 @@ net.fabricmc.loader.discovery.ModResolutionException: Duplicate versions for mod
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [23:35:34] [main/INFO]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.16.5
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricDuplicateModProblem Object
                 (
-                    [modName:protected] => FabricAPI
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
-                                (
-                                    [path:protected] => /server/mods/fabric-api-0.30.3+1.16.jar
-                                    [relativePath:protected] => 
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [23:35:35] [main/FATAL]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -318,9 +305,22 @@ net.fabricmc.loader.discovery.ModResolutionException: Duplicate versions for mod
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [23:35:35] [main/FATAL]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
+                                (
+                                    [path:protected] => /server/mods/fabric-api-0.30.3+1.16.jar
+                                    [relativePath:protected] => 
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [modName:protected] => FabricAPI
                 )
 
         )

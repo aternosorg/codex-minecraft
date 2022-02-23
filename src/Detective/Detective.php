@@ -5,6 +5,9 @@ namespace Aternos\Codex\Minecraft\Detective;
 use Aternos\Codex\Minecraft\Log\BedrockLog;
 use Aternos\Codex\Minecraft\Log\BungeeCordLog;
 use Aternos\Codex\Minecraft\Log\CraftBukkitLog;
+use Aternos\Codex\Minecraft\Log\CrashReport\ForgeCrashReportLog;
+use Aternos\Codex\Minecraft\Log\CrashReport\MinecraftCrashReportLog;
+use Aternos\Codex\Minecraft\Log\CrashReport\PaperCrashReportLog;
 use Aternos\Codex\Minecraft\Log\FabricLog;
 use Aternos\Codex\Minecraft\Log\ForgeLog;
 use Aternos\Codex\Minecraft\Log\GeyserLog;
@@ -50,5 +53,9 @@ class Detective extends \Aternos\Codex\Detective\Detective
         VelocityLog::class,
         GeyserLog::class,
         GlowstoneLog::class,
+
+        PaperCrashReportLog::class,
+        ForgeCrashReportLog::class,
+        MinecraftCrashReportLog::class
     ];
 }

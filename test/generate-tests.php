@@ -26,7 +26,11 @@ foreach ($inputFiles as $inputFilePath => $inputFile) {
     $outputPath = $output;
     foreach ($pathParts as $pathPart) {
         $inputFilePathToDir = "/.." . $inputFilePathToDir;
-        $outputPath .= ucfirst($pathPart) . "/";
+        $pathPartParts = explode("-", $pathPart);
+        foreach ($pathPartParts as $pathPartPart) {
+            $outputPath .= ucfirst($pathPartPart);
+        }
+        $outputPath .= "/";
     }
 
     if (!file_exists($outputPath)) {

@@ -18,7 +18,6 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [19:23:07] [main/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [19:23:07] [main/INFO]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [19:23:08] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [19:23:08] [Server thread/INFO]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [19:23:08] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [19:23:08] [Server thread/INFO]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [19:23:08] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [19:23:08] [Server thread/INFO]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [19:23:09] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [19:23:09] [Server thread/INFO]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [19:23:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [19:23:10] [Server thread/INFO]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [19:23:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [19:23:10] [Server thread/INFO]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [19:23:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [19:23:10] [Server thread/INFO]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [19:23:10] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [19:23:10] [Server thread/INFO]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [19:23:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [19:23:11] [Server thread/INFO]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [19:23:11] [Server thread/INFO]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [19:23:11] [Server thread/INFO]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:13:42] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:13:42] [Server thread/ERROR]:
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [19:23:12] [Server thread/ERROR]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,6 +247,7 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [19:23:12] [Server thread/ERROR]:
                 )
 
         )
@@ -279,11 +279,8 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.13.2
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [19:23:08] [Server thread/INFO]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -297,16 +294,35 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [19:23:08] [Server thread/INFO]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.13.2
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
                 (
-                    [firstPluginPath:protected] => plugins/Multiverse-Core-3.0.0-SNAPSHOT.jar
-                    [secondPluginPath:protected] => plugins/Multiverse-Core-2.5.jar
-                    [pluginName:protected] => Multiverse-Core
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [16:13:42] [Server thread/ERROR]: Ambiguous plugin name `Multiverse-Core\' for files `plugins/Multiverse-Core-3.0.0-SNAPSHOT.jar\' and `plugins/Multiverse-Core-2.5.jar\' in `plugins\'
+                                            [number:protected] => 12
+                                        )
+
+                                )
+
+                            [level:protected] => ERROR
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [16:13:42] [Server thread/ERROR]:
+                        )
+
+                    [counter:protected] => 1
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
@@ -324,15 +340,21 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                         )
 
                     [iterator:protected] => 0
+                    [firstPluginPath:protected] => plugins/Multiverse-Core-3.0.0-SNAPSHOT.jar
+                    [secondPluginPath:protected] => plugins/Multiverse-Core-2.5.jar
+                    [pluginName:protected] => Multiverse-Core
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
+                (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [16:13:42] [Server thread/ERROR]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
                                         (
-                                            [text:protected] => [16:13:42] [Server thread/ERROR]: Ambiguous plugin name `Multiverse-Core\' for files `plugins/Multiverse-Core-3.0.0-SNAPSHOT.jar\' and `plugins/Multiverse-Core-2.5.jar\' in `plugins\'
-                                            [number:protected] => 12
+                                            [text:protected] => [19:23:12] [Server thread/ERROR]: Ambiguous plugin name `WorldEdit\' for files `plugins/worldedit-bukkit-7.0.0-beta-05.jar\' and `plugins/worldedit-bukkit-7.0.0-beta-01.jar\' in `plugins\'
+                                            [number:protected] => 13
                                         )
 
                                 )
@@ -340,16 +362,10 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [19:23:12] [Server thread/ERROR]:
                         )
 
                     [counter:protected] => 1
-                )
-
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
-                (
-                    [firstPluginPath:protected] => plugins/worldedit-bukkit-7.0.0-beta-05.jar
-                    [secondPluginPath:protected] => plugins/worldedit-bukkit-7.0.0-beta-01.jar
-                    [pluginName:protected] => WorldEdit
                     [solutions:protected] => Array
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
@@ -367,25 +383,9 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                         )
 
                     [iterator:protected] => 0
-                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
-                        (
-                            [prefix:protected] => [19:23:12] [Server thread/ERROR]:
-                            [lines:protected] => Array
-                                (
-                                    [0] => Aternos\Codex\Log\Line Object
-                                        (
-                                            [text:protected] => [19:23:12] [Server thread/ERROR]: Ambiguous plugin name `WorldEdit\' for files `plugins/worldedit-bukkit-7.0.0-beta-05.jar\' and `plugins/worldedit-bukkit-7.0.0-beta-01.jar\' in `plugins\'
-                                            [number:protected] => 13
-                                        )
-
-                                )
-
-                            [level:protected] => ERROR
-                            [time:protected] => 
-                            [iterator:protected] => 0
-                        )
-
-                    [counter:protected] => 1
+                    [firstPluginPath:protected] => plugins/worldedit-bukkit-7.0.0-beta-05.jar
+                    [secondPluginPath:protected] => plugins/worldedit-bukkit-7.0.0-beta-01.jar
+                    [pluginName:protected] => WorldEdit
                 )
 
         )

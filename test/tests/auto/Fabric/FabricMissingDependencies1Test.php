@@ -18,7 +18,6 @@ class FabricMissingDependencies1Test extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [16:33:50] [main/FATAL]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -152,6 +151,7 @@ class FabricMissingDependencies1Test extends PHPUnit\Framework\TestCase
                     [level:protected] => FATAL
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [16:33:50] [main/FATAL]:
                 )
 
         )
@@ -191,22 +191,8 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
-                    [dependency:protected] => pehkui
-                    [modName:protected] => Extra Origins
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
-                                (
-                                    [modVersion:protected] => 
-                                    [modName:protected] => pehkui
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [16:33:50] [main/FATAL]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -340,29 +326,29 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [16:33:50] [main/FATAL]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
+                                (
+                                    [modName:protected] => pehkui
+                                    [modVersion:protected] => 
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [modName:protected] => Extra Origins
+                    [dependency:protected] => pehkui
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
-                    [dependency:protected] => FabricAPI
-                    [modName:protected] => Extra Origins
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
-                                (
-                                    [modVersion:protected] => 
-                                    [modName:protected] => FabricAPI
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [16:33:50] [main/FATAL]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -496,29 +482,29 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [16:33:50] [main/FATAL]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
+                                (
+                                    [modName:protected] => FabricAPI
+                                    [modVersion:protected] => 
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [modName:protected] => Extra Origins
+                    [dependency:protected] => FabricAPI
                 )
 
             [2] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem Object
                 (
-                    [dependency:protected] => origins
-                    [modName:protected] => Extra Origins
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
-                                (
-                                    [modVersion:protected] => >=0.4.6
-                                    [modName:protected] => origins
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [16:33:50] [main/FATAL]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -652,9 +638,23 @@ net.fabricmc.loader.discovery.ModResolutionException: Errors were found!
                             [level:protected] => FATAL
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [16:33:50] [main/FATAL]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
+                                (
+                                    [modName:protected] => origins
+                                    [modVersion:protected] => >=0.4.6
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [modName:protected] => Extra Origins
+                    [dependency:protected] => origins
                 )
 
         )

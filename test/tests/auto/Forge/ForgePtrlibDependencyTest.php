@@ -18,7 +18,6 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:22] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:22] [main/INFO] [LaunchWrapper]:
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:22] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:22] [main/INFO] [LaunchWrapper]:
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:22] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:22] [main/INFO] [LaunchWrapper]:
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/INFO] [FML]:
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/INFO] [FML]:
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -374,11 +373,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -392,11 +391,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -410,11 +409,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -428,11 +427,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -446,11 +445,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [24] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -464,11 +463,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [25] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -482,11 +481,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [26] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -500,11 +499,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [27] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -518,11 +517,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [28] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -536,11 +535,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [29] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -554,11 +553,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [30] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -572,11 +571,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [31] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -590,11 +589,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [32] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -608,11 +607,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [33] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -626,11 +625,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [34] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -644,11 +643,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [35] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -662,11 +661,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [36] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -680,11 +679,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [37] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -698,11 +697,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [38] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -716,11 +715,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [39] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -734,11 +733,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [40] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -752,11 +751,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [41] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/WARN] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -770,11 +769,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/WARN] [FML]:
                 )
 
             [42] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -788,11 +787,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [43] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -806,11 +805,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [44] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -824,11 +823,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [45] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/WARN] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -842,11 +841,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/WARN] [FML]:
                 )
 
             [46] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -860,11 +859,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [47] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -878,11 +877,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [48] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -896,11 +895,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [49] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -914,11 +913,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/INFO] [FML]:
                 )
 
             [50] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -932,11 +931,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [51] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -950,11 +949,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [52] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -968,11 +967,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [53] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -986,11 +985,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [54] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1004,11 +1003,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [55] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1022,11 +1021,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [56] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1040,11 +1039,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [57] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1058,11 +1057,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [58] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1076,11 +1075,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [59] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1094,11 +1093,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [60] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1112,11 +1111,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [61] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1130,11 +1129,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [62] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1148,11 +1147,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [63] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1166,11 +1165,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [64] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1184,11 +1183,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [65] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1202,11 +1201,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [66] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1220,11 +1219,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [67] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1238,11 +1237,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [68] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1256,11 +1255,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [69] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1274,11 +1273,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [70] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1292,11 +1291,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [71] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1310,11 +1309,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [72] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1328,11 +1327,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [73] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1346,11 +1345,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [74] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1364,11 +1363,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [75] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1382,11 +1381,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [76] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1400,11 +1399,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [77] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1418,11 +1417,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [78] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1436,11 +1435,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/INFO] [FML]:
                 )
 
             [79] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1454,11 +1453,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [80] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1472,11 +1471,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [81] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1490,11 +1489,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [82] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1508,11 +1507,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [83] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1526,11 +1525,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [84] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1544,11 +1543,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [85] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1562,11 +1561,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [86] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1580,11 +1579,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [87] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1598,11 +1597,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [88] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1616,11 +1615,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [89] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1634,11 +1633,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [90] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1652,11 +1651,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [91] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1670,11 +1669,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [92] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1688,11 +1687,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [93] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1706,11 +1705,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [94] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1724,11 +1723,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [95] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1742,11 +1741,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [96] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1760,11 +1759,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [97] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1778,11 +1777,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [98] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1796,11 +1795,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [99] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1814,11 +1813,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [100] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1832,11 +1831,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [101] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1850,11 +1849,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [102] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1868,11 +1867,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [103] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1886,11 +1885,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [104] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1904,11 +1903,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [105] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1922,11 +1921,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [106] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/WARN] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1940,11 +1939,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/WARN] [FML]:
                 )
 
             [107] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1958,11 +1957,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [108] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1976,11 +1975,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/TRACE] [FML]:
                 )
 
             [109] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -1994,11 +1993,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [110] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/WARN] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2012,11 +2011,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/WARN] [FML]:
                 )
 
             [111] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2030,11 +2029,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [112] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2048,11 +2047,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [113] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2066,11 +2065,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [114] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2084,11 +2083,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [115] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2102,11 +2101,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [116] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2120,11 +2119,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [117] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2138,11 +2137,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [118] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2156,11 +2155,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [119] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2174,11 +2173,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [120] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2192,11 +2191,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [121] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2210,11 +2209,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [122] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2228,11 +2227,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [123] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2246,11 +2245,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [124] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2264,11 +2263,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/INFO] [LaunchWrapper]:
                 )
 
             [125] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2282,11 +2281,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/INFO] [LaunchWrapper]:
                 )
 
             [126] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2300,11 +2299,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/INFO] [LaunchWrapper]:
                 )
 
             [127] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2318,11 +2317,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/INFO] [LaunchWrapper]:
                 )
 
             [128] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2336,11 +2335,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/INFO] [LaunchWrapper]:
                 )
 
             [129] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2354,11 +2353,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/INFO] [LaunchWrapper]:
                 )
 
             [130] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2372,11 +2371,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [131] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2390,11 +2389,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/TRACE] [FML]:
                 )
 
             [132] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2408,11 +2407,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/TRACE] [FML]:
                 )
 
             [133] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2426,11 +2425,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/TRACE] [FML]:
                 )
 
             [134] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2444,11 +2443,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/TRACE] [FML]:
                 )
 
             [135] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2462,11 +2461,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [136] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2480,11 +2479,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [137] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2498,11 +2497,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:23] [main/DEBUG] [FML]:
                 )
 
             [138] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:26] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2516,11 +2515,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:26] [main/DEBUG] [FML]:
                 )
 
             [139] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:27] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2534,11 +2533,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:27] [main/DEBUG] [FML]:
                 )
 
             [140] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/ERROR] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2552,11 +2551,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/ERROR] [FML]:
                 )
 
             [141] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2570,11 +2569,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [142] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2588,11 +2587,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/INFO] [LaunchWrapper]:
                 )
 
             [143] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2606,11 +2605,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [144] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2624,11 +2623,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [145] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2642,11 +2641,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [146] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2660,11 +2659,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [147] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2678,11 +2677,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [148] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2696,11 +2695,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/INFO] [LaunchWrapper]:
                 )
 
             [149] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2714,11 +2713,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [150] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2732,11 +2731,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/TRACE] [FML]:
                 )
 
             [151] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2750,11 +2749,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [152] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2768,11 +2767,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [153] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2786,11 +2785,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [154] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2804,11 +2803,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [155] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2822,11 +2821,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/INFO] [LaunchWrapper]:
                 )
 
             [156] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [BetterFps]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2840,11 +2839,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [BetterFps]:
                 )
 
             [157] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2858,11 +2857,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/INFO] [LaunchWrapper]:
                 )
 
             [158] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2876,11 +2875,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [159] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2894,11 +2893,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [160] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2912,11 +2911,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [161] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2930,11 +2929,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [162] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2948,11 +2947,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [163] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2966,11 +2965,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [164] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -2984,11 +2983,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:29] [main/DEBUG] [FML]:
                 )
 
             [165] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:30] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3002,11 +3001,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:30] [main/DEBUG] [FML]:
                 )
 
             [166] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:30] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3020,11 +3019,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:30] [main/INFO] [LaunchWrapper]:
                 )
 
             [167] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:30] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3038,11 +3037,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:30] [main/INFO] [LaunchWrapper]:
                 )
 
             [168] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:32] [main/INFO] [LaunchWrapper]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3056,11 +3055,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:32] [main/INFO] [LaunchWrapper]:
                 )
 
             [169] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:33] [main/INFO] [BetterFps]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3074,11 +3073,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:33] [main/INFO] [BetterFps]:
                 )
 
             [170] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:36] [main/INFO] [BetterFps]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3092,11 +3091,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:36] [main/INFO] [BetterFps]:
                 )
 
             [171] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:40] [main/INFO] [BetterFps]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3110,11 +3109,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:40] [main/INFO] [BetterFps]:
                 )
 
             [172] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:41] [main/INFO] [BetterFps]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3128,11 +3127,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:41] [main/INFO] [BetterFps]:
                 )
 
             [173] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:41] [main/INFO] [BetterFps]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3146,11 +3145,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:41] [main/INFO] [BetterFps]:
                 )
 
             [174] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:49] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3164,11 +3163,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:49] [main/DEBUG] [FML]:
                 )
 
             [175] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:49] [main/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3182,11 +3181,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:49] [main/DEBUG] [FML]:
                 )
 
             [176] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:49] [main/INFO] [BetterFps]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3200,11 +3199,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:49] [main/INFO] [BetterFps]:
                 )
 
             [177] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3218,11 +3217,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                 )
 
             [178] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:51] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3236,11 +3235,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:51] [Server thread/INFO] [FML]:
                 )
 
             [179] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:51] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3254,11 +3253,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:51] [Server thread/INFO] [FML]:
                 )
 
             [180] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:52] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3272,11 +3271,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:52] [Server thread/INFO] [FML]:
                 )
 
             [181] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:53] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3290,11 +3289,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:53] [Server thread/INFO] [FML]:
                 )
 
             [182] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3308,11 +3307,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [183] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3326,11 +3325,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [184] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3344,11 +3343,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [185] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3362,11 +3361,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [186] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3380,11 +3379,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/TRACE] [FML]:
                 )
 
             [187] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3398,11 +3397,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/TRACE] [FML]:
                 )
 
             [188] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3416,11 +3415,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [189] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3434,11 +3433,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/INFO] [FML]:
                 )
 
             [190] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3452,11 +3451,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [191] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3470,11 +3469,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [192] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3488,11 +3487,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [193] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3506,11 +3505,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [194] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3524,11 +3523,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [195] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3542,11 +3541,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [196] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3560,11 +3559,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [197] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3578,11 +3577,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [198] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3596,11 +3595,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [199] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3614,11 +3613,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [200] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3632,11 +3631,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [201] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3650,11 +3649,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [202] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3668,11 +3667,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [203] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3686,11 +3685,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [204] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3704,11 +3703,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [205] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3722,11 +3721,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [206] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3740,11 +3739,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [207] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3758,11 +3757,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [208] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3776,11 +3775,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [209] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3794,11 +3793,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [210] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3812,11 +3811,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [211] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3830,11 +3829,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [212] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3848,11 +3847,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [213] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3866,11 +3865,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [214] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3884,11 +3883,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [215] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3902,11 +3901,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/TRACE] [FML]:
                 )
 
             [216] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3920,11 +3919,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [217] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3938,11 +3937,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [218] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3956,11 +3955,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [219] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3974,11 +3973,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [220] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -3992,11 +3991,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [221] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4010,11 +4009,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [222] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4028,11 +4027,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [223] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4046,11 +4045,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [224] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4064,11 +4063,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [225] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4082,11 +4081,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [226] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4100,11 +4099,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [227] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4118,11 +4117,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [228] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4136,11 +4135,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [229] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4154,11 +4153,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [230] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4172,11 +4171,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [231] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4190,11 +4189,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [232] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4208,11 +4207,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [233] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4226,11 +4225,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [234] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4244,11 +4243,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [235] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4262,11 +4261,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [236] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4280,11 +4279,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [237] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4298,11 +4297,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:54] [Server thread/DEBUG] [FML]:
                 )
 
             [238] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:56] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4316,11 +4315,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:56] [Server thread/DEBUG] [FML]:
                 )
 
             [239] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:56] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4334,11 +4333,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:56] [Server thread/DEBUG] [FML]:
                 )
 
             [240] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:56] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4352,11 +4351,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:56] [Server thread/DEBUG] [FML]:
                 )
 
             [241] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:56] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4370,11 +4369,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:56] [Server thread/TRACE] [FML]:
                 )
 
             [242] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4388,11 +4387,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                 )
 
             [243] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4406,11 +4405,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                 )
 
             [244] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4424,11 +4423,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                 )
 
             [245] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4442,11 +4441,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                 )
 
             [246] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4460,11 +4459,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                 )
 
             [247] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4478,11 +4477,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                 )
 
             [248] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4496,11 +4495,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                 )
 
             [249] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4514,11 +4513,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                 )
 
             [250] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4532,11 +4531,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                 )
 
             [251] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4550,11 +4549,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                 )
 
             [252] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4568,11 +4567,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                 )
 
             [253] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4586,11 +4585,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                 )
 
             [254] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4604,11 +4603,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                 )
 
             [255] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4622,11 +4621,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                 )
 
             [256] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4640,11 +4639,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/DEBUG] [FML]:
                 )
 
             [257] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4658,11 +4657,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:57] [Server thread/TRACE] [FML]:
                 )
 
             [258] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4676,11 +4675,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                 )
 
             [259] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4694,11 +4693,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                 )
 
             [260] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4712,11 +4711,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                 )
 
             [261] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4730,11 +4729,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                 )
 
             [262] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4748,11 +4747,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                 )
 
             [263] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4766,11 +4765,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                 )
 
             [264] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4784,11 +4783,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                 )
 
             [265] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4802,11 +4801,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                 )
 
             [266] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4820,11 +4819,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                 )
 
             [267] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4838,11 +4837,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                 )
 
             [268] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4856,11 +4855,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                 )
 
             [269] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4874,11 +4873,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                 )
 
             [270] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4892,11 +4891,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                 )
 
             [271] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4910,11 +4909,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                 )
 
             [272] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4928,11 +4927,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                 )
 
             [273] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4946,11 +4945,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                 )
 
             [274] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4964,11 +4963,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                 )
 
             [275] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -4982,11 +4981,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                 )
 
             [276] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5000,11 +4999,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/DEBUG] [FML]:
                 )
 
             [277] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5018,11 +5017,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:58] [Server thread/TRACE] [FML]:
                 )
 
             [278] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5036,11 +5035,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                 )
 
             [279] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5054,11 +5053,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                 )
 
             [280] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5072,11 +5071,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                 )
 
             [281] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5090,11 +5089,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                 )
 
             [282] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5108,11 +5107,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                 )
 
             [283] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5126,11 +5125,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                 )
 
             [284] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5144,11 +5143,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                 )
 
             [285] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5162,11 +5161,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                 )
 
             [286] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5180,11 +5179,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                 )
 
             [287] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5198,11 +5197,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                 )
 
             [288] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5216,11 +5215,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                 )
 
             [289] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5234,11 +5233,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                 )
 
             [290] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5252,11 +5251,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                 )
 
             [291] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5270,11 +5269,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                 )
 
             [292] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5288,11 +5287,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                 )
 
             [293] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5306,11 +5305,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                 )
 
             [294] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5324,11 +5323,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/DEBUG] [FML]:
                 )
 
             [295] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5342,11 +5341,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:03:59] [Server thread/TRACE] [FML]:
                 )
 
             [296] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:00] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5360,11 +5359,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:00] [Server thread/DEBUG] [FML]:
                 )
 
             [297] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:00] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5378,11 +5377,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:00] [Server thread/TRACE] [FML]:
                 )
 
             [298] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:00] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5396,11 +5395,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:00] [Server thread/DEBUG] [FML]:
                 )
 
             [299] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:00] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5414,11 +5413,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:00] [Server thread/TRACE] [FML]:
                 )
 
             [300] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:00] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5432,11 +5431,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:00] [Server thread/DEBUG] [FML]:
                 )
 
             [301] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:00] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5450,11 +5449,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:00] [Server thread/TRACE] [FML]:
                 )
 
             [302] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:00] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5468,11 +5467,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:00] [Server thread/DEBUG] [FML]:
                 )
 
             [303] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:00] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5486,11 +5485,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:00] [Server thread/TRACE] [FML]:
                 )
 
             [304] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:00] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5504,11 +5503,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:00] [Server thread/DEBUG] [FML]:
                 )
 
             [305] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:00] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5522,11 +5521,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:00] [Server thread/TRACE] [FML]:
                 )
 
             [306] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:00] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5540,11 +5539,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:00] [Server thread/DEBUG] [FML]:
                 )
 
             [307] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:00] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5558,11 +5557,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:00] [Server thread/TRACE] [FML]:
                 )
 
             [308] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:00] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5576,11 +5575,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:00] [Server thread/DEBUG] [FML]:
                 )
 
             [309] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:00] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5594,11 +5593,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:00] [Server thread/TRACE] [FML]:
                 )
 
             [310] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5612,11 +5611,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [311] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5630,11 +5629,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                 )
 
             [312] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5648,11 +5647,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [313] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5666,11 +5665,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                 )
 
             [314] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5684,11 +5683,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [315] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5702,11 +5701,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                 )
 
             [316] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5720,11 +5719,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [317] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5738,11 +5737,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                 )
 
             [318] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5756,11 +5755,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [319] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5774,11 +5773,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                 )
 
             [320] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5792,11 +5791,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [321] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5810,11 +5809,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                 )
 
             [322] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5828,11 +5827,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [323] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5846,11 +5845,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                 )
 
             [324] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5864,11 +5863,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [325] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5882,11 +5881,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/TRACE] [FML]:
                 )
 
             [326] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5900,11 +5899,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/INFO] [FML]:
                 )
 
             [327] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5918,11 +5917,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [328] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5936,11 +5935,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [329] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5954,11 +5953,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [330] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5972,11 +5971,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [331] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -5990,11 +5989,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [332] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6008,11 +6007,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [333] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6026,11 +6025,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [334] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6044,11 +6043,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [335] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6062,11 +6061,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [336] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6080,11 +6079,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [337] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6098,11 +6097,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [338] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6116,11 +6115,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [339] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6134,11 +6133,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [340] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6152,11 +6151,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [341] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6170,11 +6169,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [342] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6188,11 +6187,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [343] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6206,11 +6205,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [344] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6224,11 +6223,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [345] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6242,11 +6241,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [346] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6260,11 +6259,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [347] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6278,11 +6277,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [348] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6296,11 +6295,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:01] [Server thread/DEBUG] [FML]:
                 )
 
             [349] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6314,11 +6313,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/TRACE] [FML]:
                 )
 
             [350] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6332,11 +6331,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/TRACE] [FML]:
                 )
 
             [351] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6350,11 +6349,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [352] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6368,11 +6367,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                 )
 
             [353] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6386,11 +6385,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                 )
 
             [354] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6404,11 +6403,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [355] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6422,11 +6421,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [356] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6440,11 +6439,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                 )
 
             [357] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6458,11 +6457,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [358] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6476,11 +6475,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [359] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6494,11 +6493,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [360] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6512,11 +6511,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [361] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6530,11 +6529,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                 )
 
             [362] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6548,11 +6547,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [363] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6566,11 +6565,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [364] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6584,11 +6583,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [365] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6602,11 +6601,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [366] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6620,11 +6619,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [367] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6638,11 +6637,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                 )
 
             [368] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6656,11 +6655,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [369] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6674,11 +6673,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [370] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6692,11 +6691,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [371] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6710,11 +6709,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                 )
 
             [372] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6728,11 +6727,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [373] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6746,11 +6745,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [374] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6764,11 +6763,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [375] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6782,11 +6781,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                 )
 
             [376] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6800,11 +6799,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [377] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6818,11 +6817,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                 )
 
             [378] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6836,11 +6835,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [379] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6854,11 +6853,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [380] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6872,11 +6871,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/WARN] [FML]:
                 )
 
             [381] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6890,11 +6889,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [382] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6908,11 +6907,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [383] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6926,11 +6925,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/TRACE] [FML]:
                 )
 
             [384] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6944,11 +6943,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/TRACE] [FML]:
                 )
 
             [385] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6962,11 +6961,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/TRACE] [FML]:
                 )
 
             [386] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6980,11 +6979,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/TRACE] [FML]:
                 )
 
             [387] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -6998,11 +6997,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [388] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7016,11 +7015,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [389] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7034,11 +7033,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [390] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7052,11 +7051,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [391] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7070,11 +7069,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [392] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7088,11 +7087,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [393] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7106,11 +7105,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [394] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7124,11 +7123,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [395] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7142,11 +7141,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [396] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7160,11 +7159,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [397] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7178,11 +7177,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [398] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7196,11 +7195,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [399] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7214,11 +7213,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [400] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7232,11 +7231,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [401] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7250,11 +7249,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [402] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7268,11 +7267,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [403] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7286,11 +7285,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [404] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7304,11 +7303,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [405] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7322,11 +7321,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [406] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7340,11 +7339,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [407] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7358,11 +7357,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [408] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7376,11 +7375,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [409] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7394,11 +7393,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [410] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7412,11 +7411,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [411] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7430,11 +7429,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [412] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7448,11 +7447,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [413] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7466,11 +7465,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [414] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7484,11 +7483,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [415] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7502,11 +7501,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [416] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7520,11 +7519,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [417] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7538,11 +7537,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [418] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7556,11 +7555,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [419] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7574,11 +7573,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [420] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7592,11 +7591,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:02] [Server thread/DEBUG] [FML]:
                 )
 
             [421] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:03] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7610,11 +7609,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:03] [Server thread/DEBUG] [FML]:
                 )
 
             [422] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:03] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7628,11 +7627,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:03] [Server thread/TRACE] [FML]:
                 )
 
             [423] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:03] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7646,11 +7645,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:03] [Server thread/TRACE] [FML]:
                 )
 
             [424] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:03] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7664,11 +7663,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:03] [Server thread/DEBUG] [FML]:
                 )
 
             [425] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:03] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7682,11 +7681,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:03] [Server thread/TRACE] [FML]:
                 )
 
             [426] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:03] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7700,11 +7699,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:03] [Server thread/TRACE] [FML]:
                 )
 
             [427] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:03] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7718,11 +7717,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:03] [Server thread/DEBUG] [FML]:
                 )
 
             [428] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:03] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7736,11 +7735,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:03] [Server thread/TRACE] [FML]:
                 )
 
             [429] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:04] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7754,11 +7753,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:04] [Server thread/TRACE] [FML]:
                 )
 
             [430] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:04] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7772,11 +7771,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:04] [Server thread/TRACE] [FML]:
                 )
 
             [431] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:04] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7790,11 +7789,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:04] [Server thread/TRACE] [FML]:
                 )
 
             [432] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:04] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7808,11 +7807,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:04] [Server thread/INFO] [FML]:
                 )
 
             [433] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:04] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7826,11 +7825,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:04] [Server thread/INFO] [FML]:
                 )
 
             [434] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:09] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7844,11 +7843,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:09] [Server thread/TRACE] [FML]:
                 )
 
             [435] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:09] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7862,11 +7861,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:09] [Server thread/DEBUG] [FML]:
                 )
 
             [436] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:09] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7880,11 +7879,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:09] [Server thread/TRACE] [FML]:
                 )
 
             [437] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7898,11 +7897,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [438] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7916,11 +7915,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [439] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7934,11 +7933,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [440] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7952,11 +7951,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [441] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7970,11 +7969,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [442] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -7988,11 +7987,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [443] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8006,11 +8005,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [444] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8024,11 +8023,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [445] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8042,11 +8041,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [446] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8060,11 +8059,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [447] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8078,11 +8077,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [448] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8096,11 +8095,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [449] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8114,11 +8113,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [450] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8132,11 +8131,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [451] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8150,11 +8149,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [452] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8168,11 +8167,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [453] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8186,11 +8185,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [454] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8204,11 +8203,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [455] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8222,11 +8221,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [456] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8240,11 +8239,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [457] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8258,11 +8257,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [458] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8276,11 +8275,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [459] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8294,11 +8293,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [460] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8312,11 +8311,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [461] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8330,11 +8329,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [462] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8348,11 +8347,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [463] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8366,11 +8365,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [464] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8384,11 +8383,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [465] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8402,11 +8401,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [466] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8420,11 +8419,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [467] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8438,11 +8437,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [468] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8456,11 +8455,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [469] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8474,11 +8473,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [470] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8492,11 +8491,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [471] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8510,11 +8509,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [472] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8528,11 +8527,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [473] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8546,11 +8545,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [474] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8564,11 +8563,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [475] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8582,11 +8581,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [476] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8600,11 +8599,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [477] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8618,11 +8617,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [478] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8636,11 +8635,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [479] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8654,11 +8653,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [480] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8672,11 +8671,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [481] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8690,11 +8689,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [482] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8708,11 +8707,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [483] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8726,11 +8725,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [484] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8744,11 +8743,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [485] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8762,11 +8761,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [486] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8780,11 +8779,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [487] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8798,11 +8797,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [488] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8816,11 +8815,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [489] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8834,11 +8833,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [490] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8852,11 +8851,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [491] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8870,11 +8869,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [492] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8888,11 +8887,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [493] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8906,11 +8905,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [494] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8924,11 +8923,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [495] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8942,11 +8941,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [496] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8960,11 +8959,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [497] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8978,11 +8977,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [498] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -8996,11 +8995,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [499] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9014,11 +9013,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [500] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9032,11 +9031,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [501] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9050,11 +9049,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [502] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9068,11 +9067,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [503] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9086,11 +9085,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [504] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9104,11 +9103,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [505] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9122,11 +9121,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [506] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9140,11 +9139,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [507] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9158,11 +9157,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [508] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9176,11 +9175,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [509] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9194,11 +9193,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [510] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9212,11 +9211,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [511] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9230,11 +9229,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [512] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9248,11 +9247,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [513] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9266,11 +9265,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [514] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9284,11 +9283,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [515] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9302,11 +9301,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [516] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9320,11 +9319,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [517] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9338,11 +9337,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [518] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9356,11 +9355,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [519] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9374,11 +9373,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [520] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9392,11 +9391,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [521] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9410,11 +9409,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [522] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9428,11 +9427,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [523] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9446,11 +9445,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [524] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9464,11 +9463,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [525] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9482,11 +9481,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [526] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9500,11 +9499,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [527] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9518,11 +9517,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [528] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9536,11 +9535,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [529] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9554,11 +9553,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [530] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9572,11 +9571,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [531] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9590,11 +9589,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [532] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9608,11 +9607,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [533] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9626,11 +9625,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [534] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9644,11 +9643,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [forge]:
                 )
 
             [535] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9662,11 +9661,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                 )
 
             [536] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9680,11 +9679,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                 )
 
             [537] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9698,11 +9697,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                 )
 
             [538] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9716,11 +9715,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [FML]:
                 )
 
             [539] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9734,11 +9733,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                 )
 
             [540] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9752,11 +9751,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [FML]:
                 )
 
             [541] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9770,11 +9769,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                 )
 
             [542] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9788,11 +9787,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                 )
 
             [543] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9806,11 +9805,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                 )
 
             [544] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9824,11 +9823,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/TRACE] [FML]:
                 )
 
             [545] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9842,11 +9841,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [FML]:
                 )
 
             [546] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9860,11 +9859,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [FML]:
                 )
 
             [547] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9878,11 +9877,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:10] [Server thread/DEBUG] [FML]:
                 )
 
             [548] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9896,11 +9895,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [549] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9914,11 +9913,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [550] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9932,11 +9931,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [551] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9950,11 +9949,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [552] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9968,11 +9967,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [553] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -9986,11 +9985,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [554] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10004,11 +10003,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [555] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10022,11 +10021,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [556] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10040,11 +10039,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [557] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10058,11 +10057,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [558] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10076,11 +10075,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [559] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10094,11 +10093,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [560] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10112,11 +10111,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [561] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10130,11 +10129,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [562] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10148,11 +10147,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [563] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10166,11 +10165,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [564] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10184,11 +10183,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [565] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10202,11 +10201,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [566] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10220,11 +10219,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [567] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10238,11 +10237,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [568] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10256,11 +10255,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [569] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10274,11 +10273,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [570] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10292,11 +10291,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [571] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10310,11 +10309,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [572] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10328,11 +10327,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [573] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10346,11 +10345,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [574] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10364,11 +10363,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [575] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10382,11 +10381,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [576] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10400,11 +10399,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [577] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10418,11 +10417,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [578] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10436,11 +10435,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [579] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10454,11 +10453,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [580] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10472,11 +10471,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [581] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10490,11 +10489,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [582] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10508,11 +10507,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/DEBUG] [FML]:
                 )
 
             [583] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10526,11 +10525,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:11] [Server thread/TRACE] [FML]:
                 )
 
             [584] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:12] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10544,11 +10543,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:12] [Server thread/TRACE] [FML]:
                 )
 
             [585] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:12] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10562,11 +10561,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:12] [Server thread/TRACE] [FML]:
                 )
 
             [586] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:12] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10580,11 +10579,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:12] [Server thread/TRACE] [FML]:
                 )
 
             [587] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:12] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10598,11 +10597,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:12] [Server thread/DEBUG] [FML]:
                 )
 
             [588] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:12] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10616,11 +10615,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:12] [Server thread/DEBUG] [FML]:
                 )
 
             [589] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:12] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10634,11 +10633,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:12] [Server thread/DEBUG] [FML]:
                 )
 
             [590] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:12] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10652,11 +10651,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:12] [Server thread/DEBUG] [FML]:
                 )
 
             [591] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:12] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10670,11 +10669,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:12] [Server thread/DEBUG] [FML]:
                 )
 
             [592] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10688,11 +10687,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [593] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10706,11 +10705,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [594] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10724,11 +10723,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [595] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10742,11 +10741,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [596] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10760,11 +10759,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [597] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10778,11 +10777,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [598] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10796,11 +10795,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [599] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10814,11 +10813,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [600] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10832,11 +10831,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [601] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10850,11 +10849,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [602] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10868,11 +10867,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [603] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10886,11 +10885,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [604] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10904,11 +10903,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [605] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -10922,11 +10921,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [606] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11210,11 +11209,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]:
                 )
 
             [607] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11228,11 +11227,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => ERROR
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]:
                 )
 
             [608] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11246,11 +11245,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [609] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11264,11 +11263,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [610] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11282,11 +11281,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [611] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11300,11 +11299,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [612] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11318,11 +11317,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [613] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11336,11 +11335,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [614] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11354,11 +11353,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [615] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11372,11 +11371,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [616] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11390,11 +11389,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [617] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11408,11 +11407,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [618] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11426,11 +11425,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [619] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11444,11 +11443,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [620] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11462,11 +11461,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [621] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11480,11 +11479,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [622] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11498,11 +11497,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [623] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11516,11 +11515,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [624] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11534,11 +11533,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [625] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11552,11 +11551,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [626] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11570,11 +11569,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [627] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11588,11 +11587,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [628] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11606,11 +11605,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [629] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11624,11 +11623,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [630] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11642,11 +11641,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [631] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11660,11 +11659,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [632] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11678,11 +11677,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [633] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11696,11 +11695,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [634] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11714,11 +11713,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [635] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11732,11 +11731,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [636] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11750,11 +11749,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [637] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11768,11 +11767,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [638] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11786,11 +11785,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [639] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11804,11 +11803,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [640] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11822,11 +11821,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [641] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11840,11 +11839,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [642] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11858,11 +11857,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [643] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11876,11 +11875,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [644] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11894,11 +11893,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [645] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11912,11 +11911,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [646] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11930,11 +11929,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [647] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11948,11 +11947,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [648] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11966,11 +11965,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [649] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -11984,11 +11983,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [650] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12002,11 +12001,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [651] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12020,11 +12019,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [652] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12038,11 +12037,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [653] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12056,11 +12055,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [654] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12074,11 +12073,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [655] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12092,11 +12091,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [656] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12110,11 +12109,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [657] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12128,11 +12127,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [658] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12146,11 +12145,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [659] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12164,11 +12163,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [660] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12182,11 +12181,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [661] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12200,11 +12199,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [662] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12218,11 +12217,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [663] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12236,11 +12235,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [664] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12254,11 +12253,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [665] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12272,11 +12271,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [666] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12290,11 +12289,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [667] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12308,11 +12307,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [668] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12326,11 +12325,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [669] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12344,11 +12343,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [670] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12362,11 +12361,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [671] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12380,11 +12379,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [672] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12398,11 +12397,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [673] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12416,11 +12415,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [674] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12434,11 +12433,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [675] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12452,11 +12451,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [676] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12470,11 +12469,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [677] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12488,11 +12487,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [678] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12506,11 +12505,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [679] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12524,11 +12523,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [680] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12542,11 +12541,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [681] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12560,11 +12559,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [682] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12578,11 +12577,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [683] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12596,11 +12595,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [684] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12614,11 +12613,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [685] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12632,11 +12631,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [686] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12650,11 +12649,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => TRACE
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/TRACE] [FML]:
                 )
 
             [687] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12668,11 +12667,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [688] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12686,11 +12685,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => DEBUG
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/DEBUG] [FML]:
                 )
 
             [689] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server thread/INFO] [FML]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12704,11 +12703,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server thread/INFO] [FML]:
                 )
 
             [690] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12722,11 +12721,11 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
             [691] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [17:04:13] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -12740,6 +12739,7 @@ class ForgePtrlibDependencyTest extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [17:04:13] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]:
                 )
 
         )
@@ -13495,11 +13495,8 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_232]
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.12.2
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [17:03:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -13513,18 +13510,18 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_232]
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [17:03:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.12.2
                 )
 
             [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
-                    [label:protected] => Forge version
-                    [value:protected] => 14.23.5.2847
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [17:03:51] [Server thread/INFO] [FML]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -13538,28 +13535,18 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_232]
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [17:03:51] [Server thread/INFO] [FML]:
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Forge version
+                    [value:protected] => 14.23.5.2847
                 )
 
             [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\PTRLibDependencyProblem Object
                 (
-                    [modName:protected] => PTRLib
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
-                                (
-                                    [modVersion:protected] => 
-                                    [modName:protected] => PTRLib
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [17:04:13] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -13843,9 +13830,22 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_232]
                             [level:protected] => ERROR
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [17:04:13] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution Object
+                                (
+                                    [modName:protected] => PTRLib
+                                    [modVersion:protected] => 
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [modName:protected] => PTRLib
                 )
 
         )

@@ -18,7 +18,6 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:12 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -32,11 +31,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276712
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:12 [INFO]
                 )
 
             [1] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:12 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -50,11 +49,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276712
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:12 [INFO]
                 )
 
             [2] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:12 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -68,11 +67,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276712
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:12 [INFO]
                 )
 
             [3] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:12 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -86,11 +85,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276712
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:12 [INFO]
                 )
 
             [4] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:13 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -104,11 +103,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276713
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:13 [INFO]
                 )
 
             [5] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:13 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -122,11 +121,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276713
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:13 [INFO]
                 )
 
             [6] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:14 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -140,11 +139,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276714
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:14 [INFO]
                 )
 
             [7] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:15 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -158,11 +157,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276715
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:15 [INFO]
                 )
 
             [8] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:16 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -176,11 +175,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276716
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:16 [INFO]
                 )
 
             [9] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:17 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -194,11 +193,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276717
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:17 [INFO]
                 )
 
             [10] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:18 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -212,11 +211,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276718
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:18 [INFO]
                 )
 
             [11] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:19 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -230,11 +229,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276719
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:19 [INFO]
                 )
 
             [12] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:20 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -248,11 +247,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276720
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:20 [INFO]
                 )
 
             [13] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:21 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -266,11 +265,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276721
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:21 [INFO]
                 )
 
             [14] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:22 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -284,11 +283,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276722
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:22 [INFO]
                 )
 
             [15] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:23 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -302,11 +301,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276723
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:23 [INFO]
                 )
 
             [16] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:24 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -320,11 +319,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276724
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:24 [INFO]
                 )
 
             [17] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:25 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -338,11 +337,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276725
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:25 [INFO]
                 )
 
             [18] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:26 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -356,11 +355,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276726
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:26 [INFO]
                 )
 
             [19] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:27 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -374,11 +373,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276727
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:27 [INFO]
                 )
 
             [20] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:28 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -392,11 +391,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276728
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:28 [INFO]
                 )
 
             [21] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:29 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -410,11 +409,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276729
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:29 [INFO]
                 )
 
             [22] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:29 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -428,11 +427,11 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276729
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:29 [INFO]
                 )
 
             [23] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => 2019-02-16 00:25:29 [INFO]
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -452,6 +451,7 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                     [level:protected] => INFO
                     [time:protected] => 1550276729
                     [iterator:protected] => 0
+                    [prefix:protected] => 2019-02-16 00:25:29 [INFO]
                 )
 
         )
@@ -495,11 +495,8 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
                 (
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.5.2
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => 2019-02-16 00:25:12 [INFO]
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -513,9 +510,12 @@ class OldVanillaStart152Test extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 1550276712
                             [iterator:protected] => 0
+                            [prefix:protected] => 2019-02-16 00:25:12 [INFO]
                         )
 
                     [counter:protected] => 1
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.5.2
                 )
 
         )

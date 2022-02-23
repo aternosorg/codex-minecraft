@@ -18,7 +18,6 @@ class ForgeConfirmTest extends PHPUnit\Framework\TestCase
         (
             [0] => Aternos\Codex\Minecraft\Log\Entry Object
                 (
-                    [prefix:protected] => [13:31:32] [Server thread/WARN] [FML/]:
                     [lines:protected] => Array
                         (
                             [0] => Aternos\Codex\Log\Line Object
@@ -80,6 +79,7 @@ class ForgeConfirmTest extends PHPUnit\Framework\TestCase
                     [level:protected] => WARN
                     [time:protected] => 
                     [iterator:protected] => 0
+                    [prefix:protected] => [13:31:32] [Server thread/WARN] [FML/]:
                 )
 
         )
@@ -107,19 +107,8 @@ Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResu
         (
             [0] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\FmlConfirmProblem Object
                 (
-                    [solutions:protected] => Array
-                        (
-                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\CommandRunSolution Object
-                                (
-                                    [command:protected] => /fml confirm
-                                )
-
-                        )
-
-                    [iterator:protected] => 0
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
-                            [prefix:protected] => [13:31:32] [Server thread/WARN] [FML/]:
                             [lines:protected] => Array
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
@@ -181,9 +170,20 @@ Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResu
                             [level:protected] => WARN
                             [time:protected] => 
                             [iterator:protected] => 0
+                            [prefix:protected] => [13:31:32] [Server thread/WARN] [FML/]:
                         )
 
                     [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\CommandRunSolution Object
+                                (
+                                    [command:protected] => /fml confirm
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
                 )
 
         )
