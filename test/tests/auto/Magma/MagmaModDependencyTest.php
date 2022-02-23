@@ -1270,7 +1270,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                     [value:protected] => e2b9ab6
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVanillaVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (

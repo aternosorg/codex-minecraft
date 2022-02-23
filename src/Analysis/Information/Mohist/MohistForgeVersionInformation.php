@@ -2,23 +2,15 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Information\Mohist;
 
-use Aternos\Codex\Minecraft\Translator\Translator;
+use Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation;
 
 /**
- * Class ForgeVersionInformation
+ * Class MohistForgeVersionInformation
  *
  * @package Aternos\Codex\Minecraft\Analysis\Information\Forge
  */
-class MohistForgeVersionInformation extends MohistInformation
+class MohistForgeVersionInformation extends ForgeVersionInformation
 {
-    /**
-     * ForgeVersionInformation constructor.
-     */
-    public function __construct()
-    {
-        $this->label = Translator::getInstance()->getTranslation("forge-version");
-    }
-
     /**
      * Get an array of possible patterns
      *
