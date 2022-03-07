@@ -25,18 +25,27 @@ class BukkitAnalyser extends VanillaAnalyser
     public function __construct()
     {
         parent::__construct();
-        $this->addPossibleInsightClass(PluginDependencyProblem::class);
-        $this->addPossibleInsightClass(AmbiguousPluginNameProblem::class);
-        $this->addPossibleInsightClass(PluginLoadProblem::class);
-        $this->addPossibleInsightClass(PluginEnablingProblem::class);
-        $this->addPossibleInsightClass(PluginRuntimeProblem::class);
-        $this->addPossibleInsightClass(PluginDisablingProblem::class);
-        $this->addPossibleInsightClass(PluginCommandExceptionProblem::class);
-        $this->addPossibleInsightClass(ChunkLoadExceptionProblem::class);
-        $this->addPossibleInsightClass(WorldDuplicateProblem::class);
 
-        $this->addPossibleInsightClass(AuthMeShutdownProblem::class);
-        $this->addPossibleInsightClass(PermissionsExConfigProblem::class);
-        $this->addPossibleInsightClass(MultiverseLoadProblem::class);
+        foreach (self::getInsightClasses() as $insightClass) {
+            $this->addPossibleInsightClass($insightClass);
+        }
+    }
+
+    public static function getInsightClasses(): array
+    {
+        return [
+            PluginDependencyProblem::class,
+            AmbiguousPluginNameProblem::class,
+            PluginLoadProblem::class,
+            PluginEnablingProblem::class,
+            PluginRuntimeProblem::class,
+            PluginDisablingProblem::class,
+            PluginCommandExceptionProblem::class,
+            ChunkLoadExceptionProblem::class,
+            WorldDuplicateProblem::class,
+            AuthMeShutdownProblem::class,
+            PermissionsExConfigProblem::class,
+            MultiverseLoadProblem::class,
+        ];
     }
 }
