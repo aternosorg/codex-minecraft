@@ -9,15 +9,22 @@ namespace Aternos\Codex\Minecraft\Translator;
  */
 class Translator
 {
+    protected const DEFAULT_LANGUAGE = "en";
+
     /**
      * @var Translator
      */
     protected static $instance;
 
     /**
+     * @var Translator
+     */
+    protected static $fallbackInstance;
+
+    /**
      * @return Translator
      */
-    public static function getInstance()
+    public static function getInstance(): Translator
     {
         if (!static::$instance) {
             static::$instance = new Translator();
@@ -27,9 +34,21 @@ class Translator
     }
 
     /**
+     * @return Translator
+     */
+    public static function getFallbackInstance(): Translator
+    {
+        if (!static::$fallbackInstance) {
+            static::$fallbackInstance = (new Translator())->setLanguage(static::DEFAULT_LANGUAGE);
+        }
+
+        return static::$fallbackInstance;
+    }
+
+    /**
      * @var string
      */
-    protected $language = "en";
+    protected $language = self::DEFAULT_LANGUAGE;
 
     /**
      * @var array
@@ -52,7 +71,7 @@ class Translator
      * @param string $language
      * @return Translator
      */
-    public function setLanguage(string $language)
+    public function setLanguage(string $language = self::DEFAULT_LANGUAGE)
     {
         if (!$this->checkTranslationFile($language)) {
             throw new \InvalidArgumentException("Language file for language '" . $language . "' not found.");
@@ -75,6 +94,9 @@ class Translator
     {
         $translations = $this->loadTranslations();
         if (!isset($translations[$variable])) {
+            if ($this->getLanguage() !== static::DEFAULT_LANGUAGE) {
+                return static::getFallbackInstance()->getTranslation($variable, $replacements);
+            }
             throw new \InvalidArgumentException("Translation variable '" . $variable . "' not found.");
         }
 
