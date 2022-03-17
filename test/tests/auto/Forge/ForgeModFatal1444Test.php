@@ -10376,19 +10376,19 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
                                         (
-                                            [text:protected] => [14Feb2020 20:34:34.768] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data : MC Version: \'1.14.4\' MCP Version: \'20190829.143755\' Forge Version: \'28.1.117\' Forge group: \'net.minecraftforge\'
-                                            [number:protected] => 39
+                                            [text:protected] => [14Feb2020 20:34:33.257] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.1.117, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, nogui]
+                                            [number:protected] => 1
                                         )
 
                                 )
 
-                            [level:protected] => DEBUG
+                            [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
-                            [prefix:protected] => [14Feb2020 20:34:34.768] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
+                            [prefix:protected] => [14Feb2020 20:34:33.257] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                         )
 
-                    [counter:protected] => 2
+                    [counter:protected] => 3
                     [label:protected] => Minecraft version
                     [value:protected] => 1.14.4
                 )
@@ -10401,8 +10401,8 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
                                         (
-                                            [text:protected] => [14Feb2020 20:36:03.139] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.117 Initialized
-                                            [number:protected] => 296
+                                            [text:protected] => [14Feb2020 20:34:33.257] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.1.117, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, nogui]
+                                            [number:protected] => 1
                                         )
 
                                 )
@@ -10410,15 +10410,40 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
-                            [prefix:protected] => [14Feb2020 20:36:03.139] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]:
+                            [prefix:protected] => [14Feb2020 20:34:33.257] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                         )
 
-                    [counter:protected] => 1
+                    [counter:protected] => 2
                     [label:protected] => Forge version
                     [value:protected] => 28.1.117
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModFatalProblem Object
+            [2] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeJavaVersionInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [14Feb2020 20:34:33.275] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_242 by Oracle Corporation
+                                            [number:protected] => 2
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [14Feb2020 20:34:33.275] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
+                        )
+
+                    [counter:protected] => 1
+                    [label:protected] => Java version
+                    [value:protected] => 1.8.0_242
+                )
+
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModFatalProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -10522,7 +10547,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
 
         )
 
-    [iterator:protected] => 2
+    [iterator:protected] => 3
 )
 ';
         
@@ -10533,9 +10558,11 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
 
         $this->assertEquals("Forge version: 28.1.117", $analysis[1]->getMessage());
 
-        $this->assertEquals("The mod 'Backpacked' has a fatal error.", $analysis[2]->getMessage());
-        $this->assertEquals("Remove the mod 'Backpacked'.", $analysis[2][0]->getMessage());
-        $this->assertEquals("Install a different version of the mod 'Backpacked'.", $analysis[2][1]->getMessage());
+        $this->assertEquals("Java version: 1.8.0_242", $analysis[2]->getMessage());
+
+        $this->assertEquals("The mod 'Backpacked' has a fatal error.", $analysis[3]->getMessage());
+        $this->assertEquals("Remove the mod 'Backpacked'.", $analysis[3][0]->getMessage());
+        $this->assertEquals("Install a different version of the mod 'Backpacked'.", $analysis[3][1]->getMessage());
 
     }
 }

@@ -2781,24 +2781,74 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
                                         (
-                                            [text:protected] => [07Feb2020 20:20:03.602] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data : MC Version: \'1.14.4\' MCP Version: \'20190829.143755\' Forge Version: \'28.1.117\' Forge group: \'net.minecraftforge\'
-                                            [number:protected] => 39
+                                            [text:protected] => [07Feb2020 20:20:01.329] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.1.117, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, nogui]
+                                            [number:protected] => 1
                                         )
 
                                 )
 
-                            [level:protected] => DEBUG
+                            [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
-                            [prefix:protected] => [07Feb2020 20:20:03.602] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
+                            [prefix:protected] => [07Feb2020 20:20:01.329] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                         )
 
-                    [counter:protected] => 2
+                    [counter:protected] => 3
                     [label:protected] => Minecraft version
                     [value:protected] => 1.14.4
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [07Feb2020 20:20:01.329] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.1.117, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, nogui]
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [07Feb2020 20:20:01.329] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
+                        )
+
+                    [counter:protected] => 1
+                    [label:protected] => Forge version
+                    [value:protected] => 28.1.117
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeJavaVersionInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [07Feb2020 20:20:01.360] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_242 by Oracle Corporation
+                                            [number:protected] => 2
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [07Feb2020 20:20:01.360] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
+                        )
+
+                    [counter:protected] => 1
+                    [label:protected] => Java version
+                    [value:protected] => 1.8.0_242
+                )
+
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -2982,7 +3032,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
 
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -3088,7 +3138,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
 
                 )
 
-            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [5] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -3274,7 +3324,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
 
         )
 
-    [iterator:protected] => 3
+    [iterator:protected] => 5
 )
 ';
         
@@ -3283,14 +3333,18 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
 
         $this->assertEquals("Minecraft version: 1.14.4", $analysis[0]->getMessage());
 
-        $this->assertEquals("The mod 'azurecompat' is missing the required mod 'mmorpg'.", $analysis[1]->getMessage());
-        $this->assertEquals("Install the mod 'mmorpg' with version 1.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Forge version: 28.1.117", $analysis[1]->getMessage());
 
-        $this->assertEquals("The mod 'uteamcore' is missing the required mod 'forge'.", $analysis[2]->getMessage());
-        $this->assertEquals("Install the mod 'forge' with version 28.2.0.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Java version: 1.8.0_242", $analysis[2]->getMessage());
 
-        $this->assertEquals("The mod 'car' is missing the required mod 'minecraft'.", $analysis[3]->getMessage());
-        $this->assertEquals("Install the mod 'minecraft' with version 1.15.1.", $analysis[3][0]->getMessage());
+        $this->assertEquals("The mod 'azurecompat' is missing the required mod 'mmorpg'.", $analysis[3]->getMessage());
+        $this->assertEquals("Install the mod 'mmorpg' with version 1.", $analysis[3][0]->getMessage());
+
+        $this->assertEquals("The mod 'uteamcore' is missing the required mod 'forge'.", $analysis[4]->getMessage());
+        $this->assertEquals("Install the mod 'forge' with version 28.2.0.", $analysis[4][0]->getMessage());
+
+        $this->assertEquals("The mod 'car' is missing the required mod 'minecraft'.", $analysis[5]->getMessage());
+        $this->assertEquals("Install the mod 'minecraft' with version 1.15.1.", $analysis[5][0]->getMessage());
 
     }
 }

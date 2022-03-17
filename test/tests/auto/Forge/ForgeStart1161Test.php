@@ -9406,19 +9406,19 @@ Caused by: java.lang.NoSuchMethodException: net.minecraft.server.management.Play
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
                                         (
-                                            [text:protected] => [20Aug2020 16:34:11.924] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: \'1.16.1\' MCP Version: \'20200625.160719\' Forge Version: \'32.0.108\' Forge group: \'net.minecraftforge\'
-                                            [number:protected] => 53
+                                            [text:protected] => [20Aug2020 16:34:09.142] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 32.0.108, --fml.mcpVersion, 20200625.160719, --fml.mcVersion, 1.16.1, --fml.forgeGroup, net.minecraftforge, nogui]
+                                            [number:protected] => 1
                                         )
 
                                 )
 
-                            [level:protected] => DEBUG
+                            [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
-                            [prefix:protected] => [20Aug2020 16:34:11.924] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]:
+                            [prefix:protected] => [20Aug2020 16:34:09.142] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                         )
 
-                    [counter:protected] => 1
+                    [counter:protected] => 2
                     [label:protected] => Minecraft version
                     [value:protected] => 1.16.1
                 )
@@ -9431,8 +9431,8 @@ Caused by: java.lang.NoSuchMethodException: net.minecraft.server.management.Play
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
                                         (
-                                            [text:protected] => [20Aug2020 16:35:33.117] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v32.0.108 Initialized
-                                            [number:protected] => 172
+                                            [text:protected] => [20Aug2020 16:34:09.142] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 32.0.108, --fml.mcpVersion, 20200625.160719, --fml.mcVersion, 1.16.1, --fml.forgeGroup, net.minecraftforge, nogui]
+                                            [number:protected] => 1
                                         )
 
                                 )
@@ -9440,12 +9440,37 @@ Caused by: java.lang.NoSuchMethodException: net.minecraft.server.management.Play
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
-                            [prefix:protected] => [20Aug2020 16:35:33.117] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]:
+                            [prefix:protected] => [20Aug2020 16:34:09.142] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
+                        )
+
+                    [counter:protected] => 2
+                    [label:protected] => Forge version
+                    [value:protected] => 32.0.108
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeJavaVersionInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [20Aug2020 16:34:09.173] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 6.1.1+74+master.966c698 starting: java version 1.8.0_222 by Oracle Corporation
+                                            [number:protected] => 2
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [20Aug2020 16:34:09.173] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                         )
 
                     [counter:protected] => 1
-                    [label:protected] => Forge version
-                    [value:protected] => 32.0.108
+                    [label:protected] => Java version
+                    [value:protected] => 1.8.0_222
                 )
 
         )
@@ -9460,6 +9485,8 @@ Caused by: java.lang.NoSuchMethodException: net.minecraft.server.management.Play
         $this->assertEquals("Minecraft version: 1.16.1", $analysis[0]->getMessage());
 
         $this->assertEquals("Forge version: 32.0.108", $analysis[1]->getMessage());
+
+        $this->assertEquals("Java version: 1.8.0_222", $analysis[2]->getMessage());
 
     }
 }

@@ -1406,8 +1406,8 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
                                         (
-                                            [text:protected] => [26Feb2019 11:28:24.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.13.2
-                                            [number:protected] => 21
+                                            [text:protected] => [26Feb2019 11:28:05.160] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 25.0.54, --fml.mcpVersion, 20190213.203750, --fml.mcVersion, 1.13.2, --fml.forgeGroup, net.minecraftforge, nogui]
+                                            [number:protected] => 2
                                         )
 
                                 )
@@ -1415,10 +1415,10 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
-                            [prefix:protected] => [26Feb2019 11:28:24.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
+                            [prefix:protected] => [26Feb2019 11:28:05.160] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                         )
 
-                    [counter:protected] => 1
+                    [counter:protected] => 3
                     [label:protected] => Minecraft version
                     [value:protected] => 1.13.2
                 )
@@ -1431,8 +1431,8 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                                 (
                                     [0] => Aternos\Codex\Log\Line Object
                                         (
-                                            [text:protected] => [26Feb2019 11:28:24.901] [modloading-worker-25/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v25.0.54 Initialized
-                                            [number:protected] => 23
+                                            [text:protected] => [26Feb2019 11:28:05.160] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 25.0.54, --fml.mcpVersion, 20190213.203750, --fml.mcVersion, 1.13.2, --fml.forgeGroup, net.minecraftforge, nogui]
+                                            [number:protected] => 2
                                         )
 
                                 )
@@ -1440,10 +1440,10 @@ class ForgeStart1132Test extends PHPUnit\Framework\TestCase
                             [level:protected] => INFO
                             [time:protected] => 
                             [iterator:protected] => 0
-                            [prefix:protected] => [26Feb2019 11:28:24.901] [modloading-worker-25/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]:
+                            [prefix:protected] => [26Feb2019 11:28:05.160] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
                         )
 
-                    [counter:protected] => 1
+                    [counter:protected] => 3
                     [label:protected] => Forge version
                     [value:protected] => 25.0.54
                 )

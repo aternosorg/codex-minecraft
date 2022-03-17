@@ -16,6 +16,9 @@ class ForgeVanillaVersionInformation extends VanillaVersionInformation
      */
     public static function getPatterns(): array
     {
-        return array_merge(parent::getPatterns(), ["/Received command line version data {0,2}: MC Version: '([0-9\.wa]+)'/"]);
+        return array_merge(parent::getPatterns(), [
+            "/Received command line version data {0,2}: MC Version: '(". static::$vanillaVersionPattern .")'/",
+            "/--fml\.mcVersion, (". static::$vanillaVersionPattern .")/"
+        ]);
     }
 }
