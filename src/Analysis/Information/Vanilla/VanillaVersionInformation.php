@@ -32,4 +32,13 @@ class VanillaVersionInformation extends VanillaInformation
     {
         return ['/Starting minecraft server version (' . static::$vanillaVersionPattern . ')/'];
     }
+
+    /**
+     * Get the pattern used to match Minecraft versions
+     * @return string
+     */
+    public static function getVersionPattern(): string
+    {
+        return self::$vanillaVersionPattern;
+    }
 }
