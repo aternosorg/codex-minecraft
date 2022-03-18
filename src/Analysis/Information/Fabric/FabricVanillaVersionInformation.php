@@ -16,6 +16,9 @@ class FabricVanillaVersionInformation extends VanillaVersionInformation
      */
     public static function getPatterns(): array
     {
-        return array_merge(parent::getPatterns(), ["/Loading for game Minecraft (" . static::$vanillaVersionPattern . ")/","/ minecraft@(" . static::$vanillaVersionPattern . ")/"]);
+        return array_merge(parent::getPatterns(), [
+            "/Loading(?: for game)? Minecraft (" . static::$vanillaVersionPattern . ")/",
+            "/ minecraft@(" . static::$vanillaVersionPattern . ")/"
+        ]);
     }
 }
