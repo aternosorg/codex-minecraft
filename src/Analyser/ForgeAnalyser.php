@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analyser;
 
+use Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeJavaVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVanillaVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
@@ -27,6 +28,7 @@ class ForgeAnalyser extends VanillaAnalyser
         parent::__construct();
         $this->addPossibleInsightClass(ForgeVersionInformation::class);
         $this->overridePossibleInsightClass(VanillaVersionInformation::class, ForgeVanillaVersionInformation::class);
+        $this->addPossibleInsightClass(ForgeJavaVersionInformation::class);
 
         $this->addPossibleInsightClass(FmlConfirmProblem::class);
         $this->addPossibleInsightClass(WorldMissingModProblem::class);

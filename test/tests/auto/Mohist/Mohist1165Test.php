@@ -733,7 +733,32 @@ class Mohist1165Test extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Information\Mohist\MohistForgeVersionInformation Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVanillaVersionInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [17:41:42] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 934, --fml.forgeVersion, 36.2.23, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, nogui]
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [17:41:42] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]:
+                        )
+
+                    [counter:protected] => 2
+                    [label:protected] => Minecraft version
+                    [value:protected] => 1.16.5
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Mohist\MohistForgeVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -756,31 +781,6 @@ class Mohist1165Test extends PHPUnit\Framework\TestCase
                     [counter:protected] => 1
                     [label:protected] => Forge version
                     [value:protected] => 36.2.23
-                )
-
-            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVanillaVersionInformation Object
-                (
-                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
-                        (
-                            [lines:protected] => Array
-                                (
-                                    [0] => Aternos\Codex\Log\Line Object
-                                        (
-                                            [text:protected] => [17:41:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-                                            [number:protected] => 13
-                                        )
-
-                                )
-
-                            [level:protected] => INFO
-                            [time:protected] => 
-                            [iterator:protected] => 0
-                            [prefix:protected] => [17:41:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]:
-                        )
-
-                    [counter:protected] => 1
-                    [label:protected] => Minecraft version
-                    [value:protected] => 1.16.5
                 )
 
             [2] => Aternos\Codex\Minecraft\Analysis\Information\Mohist\MohistVersionInformation Object
@@ -817,9 +817,9 @@ class Mohist1165Test extends PHPUnit\Framework\TestCase
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("Forge version: 36.2.23", $analysis[0]->getMessage());
+        $this->assertEquals("Minecraft version: 1.16.5", $analysis[0]->getMessage());
 
-        $this->assertEquals("Minecraft version: 1.16.5", $analysis[1]->getMessage());
+        $this->assertEquals("Forge version: 36.2.23", $analysis[1]->getMessage());
 
         $this->assertEquals("Mohist version: 934", $analysis[2]->getMessage());
 
