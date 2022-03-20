@@ -29,7 +29,10 @@ class FabricJavaVersionInformation extends FabricInformation
      */
     public static function getPatterns(): array
     {
-        return ['/'. VanillaLog::getPrefixPattern() . '(?:\[FabricLoader\] )?Loading [0-9]+ mods:[\s\n](?:\s*(?:- )?\w{1,63}[@ ][^, \n]+[,\n] ?)*(?:\s+- )?java[ @](\d+)/'];
+        return [
+            '/'. VanillaLog::getPrefixPattern() .'\[FabricLoader\] Loading [0-9]+ mods:[\s\n](?:\s*[^,]+, ?)*(?:\s+- )?java[ @](\d+)/',
+            '/'. VanillaLog::getPrefixPattern() .'Loading [0-9]+ mods:[\s\n](?:\s*- .+\n ?)*(?:\s+- )?java[ @](\d+)/'
+        ];
     }
 
     public function setMatches(array $matches, $patternKey)
