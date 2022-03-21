@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc07e1e18a22b5fc8f1db6edfa38f948",
+    "content-hash": "813265484f1c6fff3b0fff2fc12954dc",
     "packages": [
         {
             "name": "aternos/codex",
-            "version": "v1.3.2",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aternosorg/codex.git",
-                "reference": "1a732943076d197e668831098f351074e36330d2"
+                "reference": "6c158108eecaa4851b714ea40cb8497fa986ef85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aternosorg/codex/zipball/1a732943076d197e668831098f351074e36330d2",
-                "reference": "1a732943076d197e668831098f351074e36330d2",
+                "url": "https://api.github.com/repos/aternosorg/codex/zipball/6c158108eecaa4851b714ea40cb8497fa986ef85",
+                "reference": "6c158108eecaa4851b714ea40cb8497fa986ef85",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1.0"
+                "php": ">=7.4"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
@@ -45,9 +45,9 @@
             "description": "PHP library to read, parse, print and analyse log files.",
             "support": {
                 "issues": "https://github.com/aternosorg/codex/issues",
-                "source": "https://github.com/aternosorg/codex/tree/v1.3.2"
+                "source": "https://github.com/aternosorg/codex/tree/v1.4.0"
             },
-            "time": "2022-02-10T11:52:10+00:00"
+            "time": "2022-03-21T14:52:18+00:00"
         }
     ],
     "packages-dev": [
@@ -1988,12 +1988,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2151,7 +2151,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.1.0",
+        "php": ">=7.4.0",
         "ext-json": "*"
     },
     "platform-dev": [],
