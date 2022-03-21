@@ -2,7 +2,7 @@
 
 class BungeecordTest extends PHPUnit\Framework\TestCase
 {
-    public function testParseAndAnalyse()
+    public function testParseAndAnalyse(): void
     {
         date_default_timezone_set('UTC');
         $logFile = new \Aternos\Codex\Log\File\PathLogFile(__DIR__ . "/../../../data/bungeecord/bungeecord.log");

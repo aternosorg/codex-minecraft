@@ -5,20 +5,20 @@ use PHPUnit\Framework\TestCase;
 
 class TranslatorTest extends TestCase
 {
-    public function testGetTranslation()
+    public function testGetTranslation(): void
     {
         $translator = Translator::getInstance();
         $this->assertEquals("Minecraft version", $translator->getTranslation("minecraft-version"));
     }
 
-    public function testSetLanguage()
+    public function testSetLanguage(): void
     {
         $translator = Translator::getInstance();
         $translator->setLanguage("de");
         $this->assertEquals("Minecraft Version", $translator->getTranslation("minecraft-version"));
     }
 
-    public function testGetTranslationWithReplacement()
+    public function testGetTranslationWithReplacement(): void
     {
         $translator = Translator::getInstance();
         $translator->setLanguage("en");
