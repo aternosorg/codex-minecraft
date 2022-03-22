@@ -1,0 +1,23 @@
+[22:52:21] [main/INFO]: Loading Minecraft 1.17.1 with Fabric Loader 0.13.3
+[22:52:21] [ForkJoinPool-1-worker-7/WARN]: The mod "libcd" contains invalid entries in its mod json:
+- Unsupported root entry "licence" at line 9 column 12
+[22:52:21] [main/WARN]: Mod resolution failed
+[22:52:21] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE bewitchment 1.17-15 {depends patchouli @ [*]}, ROOT_FORCELOAD_SINGLE bewitchment 1.17-15]
+[22:52:21] [main/INFO]: Reason: [HARD_DEP bewitchment 1.17-15 {depends patchouli @ [*]}]
+[22:52:21] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-keybindings-v0, fabric-renderer-registries-v1, fabric-textures-v0, modmenu, fabric-models-v0, fabric-screen-api-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-key-binding-api-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1]
+[22:52:21] [main/INFO]: Fix: add [add:patchouli 1 ([(-∞,∞)])], remove [], replace []
+[22:52:21] [main/ERROR]: Incompatible mod set!
+net.fabricmc.loader.impl.FormattedException: Mod resolution encountered an incompatible mod set!
+A potential solution has been determined:
+	 - Install patchouli, any version.
+Unmet dependency listing:
+	 - Mod 'Bewitchment' (bewitchment) 1.17-15 requires any version of patchouli, which is missing!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:190) ~[fabric-loader-0.13.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.13.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:71) [fabric-loader-0.13.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.13.3.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:66) [fabric-loader-0.13.3.jar:?]
