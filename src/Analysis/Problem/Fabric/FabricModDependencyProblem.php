@@ -66,39 +66,34 @@ class FabricModDependencyProblem extends FabricModProblem
                     $solution->setModVersion($matches[4]);
                 }
                 $this->addSolution($solution);
-                break;
+                return;
 
             case 'any':
                 $this->setModName($matches[1]);
                 $this->setDependency($matches[3]);
                 $this->addSolution((new ModInstallSolution())->setModName($this->getDependency()));
-                break;
+                return;
 
             case 'minimum':
-                $this->setModName($matches[1]);
-                $this->setDependency($matches[4]);
-                $this->addSolution((new ModInstallSolution())->setModName($this->getDependency())->setModVersion(">=" . $matches[3]));
+                $symbol = ">=";
                 break;
 
             case 'any-after':
-                $this->setModName($matches[1]);
-                $this->setDependency($matches[4]);
-                $this->addSolution((new ModInstallSolution())->setModName($this->getDependency())->setModVersion(">" . $matches[3]));
+                $symbol = ">";
                 break;
 
             case 'any-before':
-                $this->setModName($matches[1]);
-                $this->setDependency($matches[4]);
-                $this->addSolution((new ModInstallSolution())->setModName($this->getDependency())->setModVersion("<" . $matches[3]));
+                $symbol = "<";
                 break;
 
-            case 'specific':
-                $this->setModName($matches[1]);
-                $this->setDependency($matches[4]);
-                $this->addSolution((new ModInstallSolution())->setModName($this->getDependency())->setModVersion($matches[3]));
+            default:
+                $symbol = "";
                 break;
-
         }
+
+        $this->setModName($matches[1]);
+        $this->setDependency($matches[4]);
+        $this->addSolution((new ModInstallSolution())->setModName($this->getDependency())->setModVersion($symbol . $matches[3]));
     }
 
     /**
