@@ -28,17 +28,9 @@ class MultipleModulesExportProblem extends ModProblem
     public function setMatches(array $matches, $patternKey)
     {
         $this->modName = $matches[1];
-        $this->secondModName = $matches[2];
-    }
+        $this->addSolution((new ModRemoveSolution())->setModName($this->modName));
 
-    /**
-     * @return array
-     */
-    public function getSolutions(): array
-    {
-        return [
-            (new ModRemoveSolution())->setModName($this->modName),
-            (new ModRemoveSolution())->setModName($this->secondModName)
-        ];
+        $this->secondModName = $matches[2];
+        $this->addSolution((new ModRemoveSolution())->setModName($this->secondModName));
     }
 }
