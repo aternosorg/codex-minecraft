@@ -18,7 +18,7 @@ class PocketmineLog extends MinecraftServerLog
     /**
      * @var string
      */
-    protected static $pattern = '/^(((?:[0-9]{2,4}-?){3} \[(?:[0-9]{2}\:?){3}\]) \[[^\/]+\/(\w+)\]\:).*$/';
+    protected static $pattern = '/^(((?:[0-9]{2,4}-?){3} \[(?:[0-9]{2}\:?){3})(?:\.[0-9]{3})?\] \[[^\/]+\/(\w+)\]\:).*$/';
 
     /**
      * @return ParserInterface
@@ -27,7 +27,7 @@ class PocketmineLog extends MinecraftServerLog
     {
         return (new Parser())
             ->setPattern(static::$pattern)
-            ->setTimeFormat('Y-m-d [H:i:s]')
+            ->setTimeFormat('Y-m-d [H:i:s')
             ->setMatches([Parser::PREFIX, Parser::TIME, Parser::LEVEL]);
     }
 
