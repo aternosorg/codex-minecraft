@@ -43,7 +43,7 @@ class PluginRuntimeProblem extends PluginProblem
     /**
      * @inheritDoc
      */
-    public function setMatches(array $matches, $patternKey)
+    public function setMatches(array $matches, $patternKey): void
     {
         $this->pluginPath = $matches[1];
         $this->pluginName = $matches[2];

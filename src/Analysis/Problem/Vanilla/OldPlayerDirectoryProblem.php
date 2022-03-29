@@ -39,9 +39,8 @@ class OldPlayerDirectoryProblem extends VanillaProblem
      *
      * @param array $matches
      * @param $patternKey
-     * @return mixed
      */
-    public function setMatches(array $matches, $patternKey)
+    public function setMatches(array $matches, $patternKey): void
     {
         $this->addSolution((new FileDeleteSolution())->setRelativePath('world/players'));
     }

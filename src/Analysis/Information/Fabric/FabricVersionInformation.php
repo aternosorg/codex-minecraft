@@ -38,7 +38,7 @@ class FabricVersionInformation extends FabricInformation
         ];
     }
 
-    public function setMatches(array $matches, $patternKey)
+    public function setMatches(array $matches, $patternKey): void
     {
         $this->value = $matches[3];
     }

@@ -56,9 +56,8 @@ class PluginDependencyProblem extends PluginProblem
      *
      * @param array $matches
      * @param $patternKey
-     * @return mixed
      */
-    public function setMatches(array $matches, $patternKey)
+    public function setMatches(array $matches, $patternKey): void
     {
         $this->pluginName = $matches[1];
         $this->dependencyPluginName = $matches[2];

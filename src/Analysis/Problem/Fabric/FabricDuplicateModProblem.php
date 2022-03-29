@@ -21,7 +21,13 @@ class FabricDuplicateModProblem extends FabricModProblem
         ];
     }
 
-    public function setMatches(array $matches, $patternKey)
+    /**
+     * Apply the matches from the pattern
+     *
+     * @param array $matches
+     * @param $patternKey
+     */
+    public function setMatches(array $matches, $patternKey): void
     {
         $this->setModName($matches[3]);
         $this->addSolution((new FileDeleteSolution())->setAbsolutePath($matches[4]));

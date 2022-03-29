@@ -26,9 +26,7 @@ class CrashReportParser extends \Aternos\Codex\Parser\Parser
     public function parse()
     {
         foreach ($this->getLogContentAsArray() as $number => $lineString) {
-            $line = (new Line())
-                ->setNumber($number + 1)
-                ->setText($lineString);
+            $line = new Line($number + 1, $lineString);
 
             $entry = (new Entry())->addLine($line);
             $this->log->addEntry($entry);

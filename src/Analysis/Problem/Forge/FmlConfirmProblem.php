@@ -39,9 +39,8 @@ class FmlConfirmProblem extends ForgeProblem
      *
      * @param array $matches
      * @param $patternKey
-     * @return mixed
      */
-    public function setMatches(array $matches, $patternKey)
+    public function setMatches(array $matches, $patternKey): void
     {
         $this->addSolution((new CommandRunSolution())->setCommand('/fml confirm'));
     }

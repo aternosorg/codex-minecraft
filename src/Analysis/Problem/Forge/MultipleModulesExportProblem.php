@@ -25,7 +25,13 @@ class MultipleModulesExportProblem extends ModProblem
         ];
     }
 
-    public function setMatches(array $matches, $patternKey)
+    /**
+     * Apply the matches from the pattern
+     *
+     * @param array $matches
+     * @param $patternKey
+     */
+    public function setMatches(array $matches, $patternKey): void
     {
         $this->modName = $matches[1];
         $this->addSolution((new ModRemoveSolution())->setModName($this->modName));

@@ -55,9 +55,8 @@ class ModDependencyProblem extends ModProblem
      *
      * @param array $matches
      * @param $patternKey
-     * @return mixed
      */
-    public function setMatches(array $matches, $patternKey)
+    public function setMatches(array $matches, $patternKey): void
     {
         $this->modName = $matches[1];
 

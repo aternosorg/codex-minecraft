@@ -40,9 +40,8 @@ class PermissionsExConfigProblem extends SpecificPluginProblem
      *
      * @param array $matches
      * @param $patternKey
-     * @return mixed
      */
-    public function setMatches(array $matches, $patternKey)
+    public function setMatches(array $matches, $patternKey): void
     {
         $this->addSolution((new PluginConfigureSolution())->setPluginName("PermissionsEx")->setSuggestedFile("plugins/PermissionsEx/permissions.yml"));
         $this->addSolution((new PluginRemoveSolution())->setPluginName("PermissionsEx"));

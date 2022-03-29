@@ -42,9 +42,8 @@ class AuthMeShutdownProblem extends SpecificPluginProblem
      *
      * @param array $matches
      * @param $patternKey
-     * @return mixed
      */
-    public function setMatches(array $matches, $patternKey)
+    public function setMatches(array $matches, $patternKey): void
     {
         $this->addSolution((new AuthMeShutdownSolution()));
         $this->addSolution((new PluginConfigureSolution())->setPluginName("AuthMe")->setSuggestedFile("plugins/AuthMe/config.yml"));

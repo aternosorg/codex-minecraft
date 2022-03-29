@@ -46,9 +46,8 @@ class PluginCommandExceptionProblem extends PluginProblem
     /**
      * @param array $matches
      * @param $patternKey
-     * @return mixed|void
      */
-    public function setMatches(array $matches, $patternKey)
+    public function setMatches(array $matches, $patternKey): void
     {
         $this->command = $matches[1];
         $this->pluginName = $matches[2];

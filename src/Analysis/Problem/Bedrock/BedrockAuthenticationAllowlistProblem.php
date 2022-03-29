@@ -40,9 +40,8 @@ class BedrockAuthenticationAllowlistProblem extends BedrockProblem
      *
      * @param array $matches
      * @param $patternKey
-     * @return mixed
      */
-    public function setMatches(array $matches, $patternKey)
+    public function setMatches(array $matches, $patternKey): void
     {
         $this->addSolution(new EnableAuthenticationSolution());
         $this->addSolution(new DisableAllowlistSolution());

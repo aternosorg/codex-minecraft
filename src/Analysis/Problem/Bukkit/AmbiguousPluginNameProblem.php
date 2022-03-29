@@ -64,9 +64,8 @@ class AmbiguousPluginNameProblem extends BukkitProblem
      *
      * @param array $matches
      * @param $patternKey
-     * @return mixed
      */
-    public function setMatches(array $matches, $patternKey)
+    public function setMatches(array $matches, $patternKey): void
     {
         $this->pluginName = $matches[1];
         $this->firstPluginPath = $matches[2];
