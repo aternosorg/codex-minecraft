@@ -490,7 +490,7 @@ class FabricPreReleaseTest extends PHPUnit\Framework\TestCase
                         (
                             [0] => Aternos\Codex\Log\Line Object
                                 (
-                                    [text:protected] => [11:29:11] [Server thread/INFO]: JMX monitoring enabled 
+                                    [text:protected] => [11:29:11] [Server thread/INFO]: JMX monitoring enabled
                                     [number:protected] => 29
                                 )
 
@@ -535,7 +535,7 @@ class FabricPreReleaseTest extends PHPUnit\Framework\TestCase
 [11:29:11] [Server thread/INFO]: Starting GS4 status listener
 [11:29:11] [Server thread/INFO]: Thread Query Listener started
 [11:29:11] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
-[11:29:11] [Server thread/INFO]: JMX monitoring enabled 
+[11:29:11] [Server thread/INFO]: JMX monitoring enabled
         )
 
 )
