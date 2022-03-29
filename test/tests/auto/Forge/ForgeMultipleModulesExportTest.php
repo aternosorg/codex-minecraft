@@ -410,7 +410,7 @@ Exception in thread "main" java.lang.module.ResolutionException: Module roughlye
 
         $this->assertEquals("Forge version: 39.1.0", $analysis[1]->getMessage());
 
-        $this->assertEquals("The mods roughlyenoughitems and jei are incompatible.", $analysis[2]->getMessage());
+        $this->assertEquals("The mods 'roughlyenoughitems' and 'jei' are incompatible.", $analysis[2]->getMessage());
         $this->assertEquals("Remove the mod 'roughlyenoughitems'.", $analysis[2][0]->getMessage());
         $this->assertEquals("Remove the mod 'jei'.", $analysis[2][1]->getMessage());
 
