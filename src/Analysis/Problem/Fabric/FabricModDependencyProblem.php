@@ -40,11 +40,11 @@ class FabricModDependencyProblem extends FabricModProblem
     {
         return [
             'short-error' => '/net\.fabricmc\.loader\.discovery\.ModResolutionException: Could not find required mod: '. static::$modNamePattern .' requires {'. static::$modIDPattern .' @ \[([^\]]+)\]}/',
-            'any' => "/\s- Mod ". static::$modNamePattern ." requires any version of mod ". static::$modIDPattern .", which is missing!\n/",
-            'minimum' => "/\s- Mod ". static::$modNamePattern ." requires version ([^ ]+) or later of mod ". static::$modIDPattern .", which is missing!\n/",
-            'any-after' => "/\s- Mod ". static::$modNamePattern ." requires any version after ([^ ]+) of mod ". static::$modIDPattern .", which is missing!\n/",
-            'any-before' => "/\s- Mod ". static::$modNamePattern ." requires any version before ([^ ]+) of mod ". static::$modIDPattern .", which is missing!\n/",
-            'specific' => "/\s- Mod ". static::$modNamePattern ." requires version ([^ ]+) of mod ". static::$modIDPattern .", which is missing!\n/"
+            'any' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version of (?:mod )?". static::$modIDPattern .", which is missing!/",
+            'minimum' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires version ([^ ]+) or later of (?:mod )?". static::$modIDPattern .", which is missing!/",
+            'any-after' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version after ([^ ]+) of (?:mod )?". static::$modIDPattern .", which is missing!/",
+            'any-before' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version before ([^ ]+) of (?:mod )?". static::$modIDPattern .", which is missing!/",
+            'specific' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires version ([^ ]+) of (?:mod )?". static::$modIDPattern .", which is missing!/"
         ];
     }
 
@@ -58,46 +58,41 @@ class FabricModDependencyProblem extends FabricModProblem
     {
         switch ($patternKey) {
             case 'short-error':
-                $this->setModName($matches[1]);
-                $this->setDependency($matches[5]);
+                $this->setModName($matches[2]);
+                $this->setDependency($matches[3]);
                 $solution = (new ModInstallSolution())->setModName($this->getDependency());
-                if ($matches[6] != '*') {
-                    $solution->setModVersion($matches[6]);
+                if ($matches[4] != '*') {
+                    $solution->setModVersion($matches[4]);
                 }
                 $this->addSolution($solution);
-                break;
+                return;
 
             case 'any':
-                $this->setModName($matches[2]);
-                $this->setDependency($matches[5]);
+                $this->setModName($matches[1]);
+                $this->setDependency($matches[3]);
                 $this->addSolution((new ModInstallSolution())->setModName($this->getDependency()));
-                break;
+                return;
 
             case 'minimum':
-                $this->setModName($matches[2]);
-                $this->setDependency($matches[6]);
-                $this->addSolution((new ModInstallSolution())->setModName($this->getDependency())->setModVersion(">=" . $matches[5]));
+                $symbol = ">=";
                 break;
 
             case 'any-after':
-                $this->setModName($matches[2]);
-                $this->setDependency($matches[6]);
-                $this->addSolution((new ModInstallSolution())->setModName($this->getDependency())->setModVersion(">" . $matches[5]));
+                $symbol = ">";
                 break;
 
             case 'any-before':
-                $this->setModName($matches[2]);
-                $this->setDependency($matches[6]);
-                $this->addSolution((new ModInstallSolution())->setModName($this->getDependency())->setModVersion("<" . $matches[5]));
+                $symbol = "<";
                 break;
 
-            case 'specific':
-                $this->setModName($matches[2]);
-                $this->setDependency($matches[6]);
-                $this->addSolution((new ModInstallSolution())->setModName($this->getDependency())->setModVersion($matches[5]));
+            default:
+                $symbol = "";
                 break;
-
         }
+
+        $this->setModName($matches[1]);
+        $this->setDependency($matches[4]);
+        $this->addSolution((new ModInstallSolution())->setModName($this->getDependency())->setModVersion($symbol . $matches[3]));
     }
 
     /**
