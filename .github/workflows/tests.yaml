@@ -1,0 +1,41 @@
+name: Tests
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        php-version: [ '7.4', '8.0', '8.1' ]
+
+    name: Run tests on PHP v${{ matrix.php-version }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+
+      - name: Set composer cache directory
+        id: composer-cache
+        run: echo "::set-output name=dir::$(composer config cache-files-dir)"
+
+      - name: Restore composer from cache
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.composer-cache.outputs.dir }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: ${{ runner.os }}-composer-
+
+      - name: Install composer dependencies
+        run: composer install --no-interaction --prefer-dist --no-progress
+
+      - name: Run phpunit tests
+        run: vendor/bin/phpunit --colors=always --testdox
