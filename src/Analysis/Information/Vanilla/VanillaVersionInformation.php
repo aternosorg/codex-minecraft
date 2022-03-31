@@ -11,7 +11,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class VanillaVersionInformation extends VanillaInformation
 {
-    protected static $vanillaVersionPattern = '[0-9\.w]+[a-z]?';
+    protected static $vanillaVersionPattern = '[0-9\.w]+(?:[a-z]|-(?:pre|rc)\d+)?';
 
     /**
      * VanillaVersionInformation constructor.
