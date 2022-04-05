@@ -1,0 +1,130 @@
+[14:43:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:43:12] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:43:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:43:12] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[14:43:12] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[14:43:12] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_292, running on Linux:amd64:5.4.0-99-generic, installed at /usr/local/openjdk-8/jre
+[14:43:12] [main/DEBUG] [FML]: Java classpath at launch is:
+[14:43:12] [main/DEBUG] [FML]:     forge.jar
+[14:43:12] [main/DEBUG] [FML]:     /jolokia/jolokia.jar
+[14:43:12] [main/DEBUG] [FML]: Java library path at launch is:
+[14:43:12] [main/DEBUG] [FML]:     /usr/java/packages/lib/amd64
+[14:43:12] [main/DEBUG] [FML]:     /usr/lib64
+[14:43:12] [main/DEBUG] [FML]:     /lib64
+[14:43:12] [main/DEBUG] [FML]:     /lib
+[14:43:12] [main/DEBUG] [FML]:     /usr/lib
+[14:43:12] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: /server/libraries
+[14:43:12] [main/DEBUG] [FML]: Cleaning up mods folder: ./mods
+[14:43:12] [main/DEBUG] [FML]: Examining file: Helicopter_Pack-2.7.0.jar
+[14:43:12] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[14:43:12] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[14:43:12] [main/DEBUG] [FML]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)
+[14:43:12] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[14:43:12] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[14:43:12] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[14:43:12] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[14:43:12] [main/DEBUG] [FML]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)
+[14:43:12] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[14:43:12] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[14:43:12] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[14:43:12] [main/DEBUG] [FML]: Discovering coremods
+[14:43:12] [main/INFO] [FML]: Searching /server/./mods for mods
+[14:43:12] [main/DEBUG] [FML]:   Adding Helicopter_Pack-2.7.0.jar to the mod list
+[14:43:12] [main/DEBUG] [FML]: Examining for coremod candidacy Helicopter_Pack-2.7.0.jar
+[14:43:12] [main/DEBUG] [FML]: Not found coremod data in Helicopter_Pack-2.7.0.jar
+[14:43:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:43:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:43:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:43:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:43:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:43:12] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[14:43:12] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[14:43:13] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[14:43:13] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[14:43:13] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[14:43:13] [main/DEBUG] [FML]: Injection complete
+[14:43:13] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[14:43:13] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[14:43:15] [main/DEBUG] [FML]: Read 1154 binary patches
+[14:43:15] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36076 records
+[14:43:16] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[14:43:16] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[14:43:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:43:16] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[14:43:16] [main/DEBUG] [FML]: Injection complete
+[14:43:16] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[14:43:16] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[14:43:16] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[14:43:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:43:16] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[14:43:16] [main/DEBUG] [FML]: Validating minecraft
+[14:43:17] [main/DEBUG] [FML]: Minecraft validated, launching...
+[14:43:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:43:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:43:17] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[14:43:23] [main/DEBUG] [FML]: Creating vanilla freeze snapshot
+[14:43:23] [main/DEBUG] [FML]: Vanilla freeze snapshot created
+[14:43:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[14:43:24] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[14:43:24] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[14:43:24] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[14:43:24] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[14:43:24] [Server thread/DEBUG] [FML]: File /server/config/injectedDependencies.json not found. No dependencies injected
+[14:43:24] [Server thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[14:43:25] [Server thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[14:43:25] [Server thread/DEBUG] [FML]: Found a minecraft related file at /server/forge.jar, examining for mod candidates
+[14:43:25] [Server thread/DEBUG] [FML]: Found a minecraft related file at /jolokia/jolokia.jar, examining for mod candidates
+[14:43:25] [Server thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[14:43:25] [Server thread/INFO] [FML]: Searching /server/./mods for mods
+[14:43:25] [Server thread/DEBUG] [FML]:   Adding Helicopter_Pack-2.7.0.jar to the mod list
+[14:43:25] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file Helicopter_Pack-2.7.0.jar
+[14:43:25] [Server thread/DEBUG] [FML]: Examining file forge.jar for potential mods
+[14:43:25] [Server thread/DEBUG] [FML]: The mod container forge.jar appears to be missing an mcmod.info file
+[14:43:26] [Server thread/DEBUG] [FML]: Examining file jolokia.jar for potential mods
+[14:43:26] [Server thread/DEBUG] [FML]: The mod container jolokia.jar appears to be missing an mcmod.info file
+[14:43:26] [Server thread/DEBUG] [FML]: Examining file Helicopter_Pack-2.7.0.jar for potential mods
+[14:43:26] [Server thread/TRACE] [FML]: Located mcmod.info file in file Helicopter_Pack-2.7.0.jar
+[14:43:26] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (helicopterpack.ModShell) - loading
+[14:43:26] [Server thread/TRACE] [FML]: Parsed dependency info for helicopterpack: Requirements: [mts@[19.0.0,)] After:[mts@[19.0.0,)] Before:[]
+[14:43:26] [Server thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[14:43:26] [Server thread/TRACE] [FML]: Received a system property request ''
+[14:43:26] [Server thread/TRACE] [FML]: System property request managing the state of 0 mods
+[14:43:26] [Server thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[14:43:26] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[14:43:26] [Server thread/DEBUG] [FML]: Enabling mod helicopterpack
+[14:43:26] [Server thread/WARN] [FML]: Missing English translation for helicopterpack: assets/helicopterpack/lang/en_us.lang
+[14:43:26] [Server thread/TRACE] [FML]: Verifying mod requirements are satisfied
+[14:43:26] [Server thread/FATAL] [FML]: net.minecraftforge.fml.common.MissingModsException: Mod helicopterpack (Hero Aviation Helicopter Pack (HA/HP)) requires [mts@[19.0.0,)]
+[14:43:26] [Server thread/DEBUG] [FML]: Mod sorting data
+[14:43:26] [Server thread/DEBUG] [FML]: 	helicopterpack(Hero Aviation Helicopter Pack (HA/HP):2.7.0): Helicopter_Pack-2.7.0.jar (required-after:mts@[19.0.0,);)
+[14:43:26] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
+net.minecraftforge.fml.common.MissingModsException: Mod helicopterpack (Hero Aviation Helicopter Pack (HA/HP)) requires [mts@[19.0.0,)]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266) ~[Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572) ~[Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) ~[FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333) ~[FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) ~[nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+[14:43:26] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: /server/./crash-reports/crash-2022-04-05_14.43.26-server.txt
+[14:43:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[14:43:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[14:43:26] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod minecraft
+[14:43:26] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod minecraft
+[14:43:26] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.004s
+[14:43:26] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mcp
+[14:43:26] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mcp
+[14:43:26] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.002s
+[14:43:26] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
+[14:43:26] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
+[14:43:26] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.001s
+[14:43:26] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod forge
+[14:43:26] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod forge
+[14:43:26] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.001s
+[14:43:26] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod helicopterpack
+[14:43:26] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod helicopterpack
+[14:43:26] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Hero Aviation Helicopter Pack (HA/HP) took 0.001s
+[14:43:26] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.008s
+[14:43:26] [Server thread/INFO] [FML]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded.
+[14:43:26] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[14:43:26] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
