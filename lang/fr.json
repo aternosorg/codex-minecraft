@@ -55,6 +55,7 @@
     "malformed-encoding-problem": "Quelque chose (surement le MOTD) contiendrait des caractères invalides et / ou mal formés.",
     "change-motd-solution": "Changer le MOTD (texte d'accueil) du serveur.",
     "bedrock-authentication-whitelist-problem": "Utiliser une liste blanche sans authentification en ligne n'est pas autorisée.",
+    "bedrock-authentication-allowlist-problem": "L'utilisation d'une liste d'autorisations sans authentification en ligne est interdit.",
     "disable-whitelist-solution": "Désactiver la liste blanche.",
     "disable-allowlist-solution": "Désactiver la liste d'autorisations.",
     "enable-authentication-solution": "Activer l'authentification en ligne.",
