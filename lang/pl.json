@@ -59,7 +59,7 @@
     "disable-whitelist-solution": "Wyłącz białą listę.",
     "disable-allowlist-solution": "Wyłącz białą listę",
     "enable-authentication-solution": "Włącz autoryzację online.",
-    "undefined-mod-dependency-problem": "Modyfikacja nie posiada innej modyfikacji która jest wymagana ({{dependency-mod-name}}).",
+    "undefined-mod-dependency-problem": "Modyfikacja nie posiada innej modyfikacji, która jest wymagana ({{dependency-mod-name}}).",
     "version-downgrade-problem": "Twój świat był używany wcześniej w nowszej wersji.",
     "version-downgrade-solution": "Zainstaluj nowszą wersję Minecrafta.",
     "generate-new-world-solution": "Wygeneruj nowy świat",
