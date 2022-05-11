@@ -51,7 +51,7 @@ class PluginDependenciesProblem extends BukkitProblem
     {
         $result = [];
         foreach ($this->dependencyPluginNames as $name) {
-            $result[] = "'$name'";
+            $result[] = "'". $name ."'";
         }
         return implode(", ", $result);
     }
