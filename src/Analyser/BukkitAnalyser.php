@@ -8,6 +8,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\AuthMeShutdownProblem
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\MultiverseLoadProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\PermissionsExConfigProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginCommandExceptionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependenciesProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem;
@@ -46,6 +47,7 @@ class BukkitAnalyser extends VanillaAnalyser
             AuthMeShutdownProblem::class,
             PermissionsExConfigProblem::class,
             MultiverseLoadProblem::class,
+            PluginDependenciesProblem::class,
         ];
     }
 }
