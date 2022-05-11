@@ -1,0 +1,56 @@
+10:25:19[Blocks][inform]-block_definitions | development_behavior_packs/Ores Plus Add-On [BP] v2.1.0 | blocks/deepslate_sapphire_ore.json | oresplus:deepslate_sapphire_ore | components | minecraft:creative_category | {
+   "category" : "Nature",
+   "group" : "itemGroup.name.ore"
+}
+
+
+10:25:19[Blocks][error]-block_definitions | development_behavior_packs/Ores Plus Add-On [BP] v2.1.0 | blocks/deepslate_sapphire_ore.json | oresplus:deepslate_sapphire_ore | components | minecraft:creative_category | child 'minecraft:creative_category' not valid here.
+
+10:25:19[Blocks][inform]-block_definitions | development_behavior_packs/Ores Plus Add-On [BP] v2.1.0 | blocks/deepslate_sapphire_ore.json | oresplus:deepslate_sapphire_ore | components | minecraft:on_player_destroyed | {
+   "event" : "destroyed",
+   "target" : "self"
+}
+
+
+10:25:19[Blocks][error]-block_definitions | development_behavior_packs/Ores Plus Add-On [BP] v2.1.0 | blocks/deepslate_sapphire_ore.json | oresplus:deepslate_sapphire_ore | components | minecraft:on_player_destroyed | child 'minecraft:on_player_destroyed' not valid here.
+
+10:25:19[Blocks][inform]-block_definitions | development_behavior_packs/Ores Plus Add-On [BP] v2.1.0 | blocks/deepslate_sapphire_ore.json | oresplus:deepslate_sapphire_ore | events | destroyed | run_command | {
+   "command" : [ "summon xp_orb ~ ~ ~" ],
+   "target" : "self"
+}
+
+10:25:19[Blocks][error]-block_definitions | development_behavior_packs/Ores Plus Add-On [BP] v2.1.0 | blocks/deepslate_silver_ore.json | oresplus:deepslate_silver_ore | components | minecraft:creative_category | child 'minecraft:creative_category' not valid here.
+
+10:25:19[Item][error]-To use item 'oresplus:pyrite_knife' turn on the Holiday Creator Features toggle in settings
+
+10:25:19[Item][error]-To use item 'oresplus:ambar_helmet' turn on the Holiday Creator Features toggle in settings
+
+10:25:19[Json][error]-upgrade items/alexandrite_boots.json | failed to parse file into a json document: Missing a name for object member.
+
+
+10:25:20[Recipes][error]-recipes/pyrite_knife.json | oresplus:pyrite_knife | The Item: oresplus:pyrite_knife is missing, cant make the recipe
+
+
+10:25:20[Recipes][error]-recipes/pyrite_knife.json | oresplus:pyrite_knife | Recipe result malformed
+
+
+10:25:20[Recipes][error]-recipes/pyrite_knife.json | oresplus:pyrite_knife | Recipe has no result item(s)
+
+
+10:25:21[Commands][warning]-Function jade_totem failed to load correctly with error(s):
+
+10:25:21[Commands][warning]-Error on line 5: command failed to parse with error 'commands.generic.syntax'
+
+10:25:21[Commands][warning]-Function wither_totem failed to load correctly with error(s):
+
+10:25:21[Commands][warning]-Error on line 5: command failed to parse with error 'commands.generic.syntax'
+
+10:25:21[Commands][warning]-Function cryo_totem failed to load correctly with error(s):
+
+10:25:21[Commands][warning]-Error on line 5: command failed to parse with error 'commands.generic.syntax'
+
+10:25:21[Commands][warning]-Function infernal_totem failed to load correctly with error(s):
+
+10:25:21[Commands][warning]-Error on line 5: command failed to parse with error 'commands.generic.syntax'
+
+10:25:21[Commands][warning]-Function spinel_totem failed to load correctly with error(s):
