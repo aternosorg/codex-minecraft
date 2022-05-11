@@ -1,8 +1,6 @@
 <?php
 
-namespace tests\auto\Bedrock;
-
-class BedrockContentLogTest extends \PHPUnit\Framework\TestCase
+class BedrockContentTest extends PHPUnit\Framework\TestCase
 {
     public function testParseAndAnalyse(): void
     {
@@ -13,7 +11,7 @@ class BedrockContentLogTest extends \PHPUnit\Framework\TestCase
         $log = $detective->detect();
         $log->parse();
         $analysis = $log->analyse();
-
+        
         $expectedLog = 'Aternos\Codex\Minecraft\Log\BedrockContentLog Object
 (
     [entries:protected] => Array
@@ -678,6 +676,7 @@ class BedrockContentLogTest extends \PHPUnit\Framework\TestCase
 
 )
 ';
+        
         $expectedAnalysis = 'Aternos\Codex\Analysis\Analysis Object
 (
     [insights:protected] => Array
@@ -687,8 +686,9 @@ class BedrockContentLogTest extends \PHPUnit\Framework\TestCase
     [iterator:protected] => 0
 )
 ';
-
+        
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
     }
 }
