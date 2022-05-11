@@ -10650,7 +10650,7 @@ org.bukkit.plugin.UnknownDependencyException: Languagy
 
         $this->assertEquals("Minecraft version: 1.12", $analysis[0]->getMessage());
 
-        $this->assertEquals("The plugin 'AnvilLogin' is missing the required the plugin 'Languagy'.", $analysis[1]->getMessage());
+        $this->assertEquals("The plugin 'AnvilLogin' is missing the required plugin 'Languagy'.", $analysis[1]->getMessage());
         $this->assertEquals("Install the plugin 'Languagy'.", $analysis[1][0]->getMessage());
         $this->assertEquals("Delete the file 'plugins/AnvilLogin.jar'.", $analysis[1][1]->getMessage());
 

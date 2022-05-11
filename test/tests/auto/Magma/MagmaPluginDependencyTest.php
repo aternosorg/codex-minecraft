@@ -671,11 +671,11 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 
         $this->assertEquals("Forge version: 14.23.5.2814", $analysis[2]->getMessage());
 
-        $this->assertEquals("The plugin 'FactionsShop' is missing the required the plugin 'Vault'.", $analysis[3]->getMessage());
+        $this->assertEquals("The plugin 'FactionsShop' is missing the required plugin 'Vault'.", $analysis[3]->getMessage());
         $this->assertEquals("Install the plugin 'Vault'.", $analysis[3][0]->getMessage());
         $this->assertEquals("Delete the file 'plugins/FactionsShop.jar'.", $analysis[3][1]->getMessage());
 
-        $this->assertEquals("The plugin 'BasicTab' is missing the required the plugin 'ProtocolLib'.", $analysis[4]->getMessage());
+        $this->assertEquals("The plugin 'BasicTab' is missing the required plugin 'ProtocolLib'.", $analysis[4]->getMessage());
         $this->assertEquals("Install the plugin 'ProtocolLib'.", $analysis[4][0]->getMessage());
         $this->assertEquals("Delete the file 'plugins/BasicTab.jar'.", $analysis[4][1]->getMessage());
 

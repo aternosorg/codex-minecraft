@@ -807,7 +807,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
 
         $this->assertEquals("Minecraft version: 1.16.1", $analysis[0]->getMessage());
 
-        $this->assertEquals("The plugin 'LuckPermsChat-2.0.2' is missing the required the plugin 'LuckPerms'.", $analysis[1]->getMessage());
+        $this->assertEquals("The plugin 'LuckPermsChat-2.0.2' is missing the required plugin 'LuckPerms'.", $analysis[1]->getMessage());
         $this->assertEquals("Install the plugin 'LuckPerms'.", $analysis[1][0]->getMessage());
         $this->assertEquals("Delete the file 'plugins/LuckPermsChat-2.0.2.jar'.", $analysis[1][1]->getMessage());
 
