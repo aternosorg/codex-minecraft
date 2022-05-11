@@ -617,9 +617,97 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
                     [value:protected] => 1.18.2
                 )
 
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependenciesProblem Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [08:30:13] [Server thread/ERROR]: Could not load \'plugins/ViaBackwards-4.2.1.jar\' in folder \'plugins\'
+                                            [number:protected] => 14
+                                        )
+
+                                    [1] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ViaVersion]. Please download and install these plugins to run \'ViaBackwards\'.
+                                            [number:protected] => 15
+                                        )
+
+                                    [2] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:291) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+                                            [number:protected] => 16
+                                        )
+
+                                    [3] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:418) ~[paper-1.18.2.jar:git-Paper-333]
+                                            [number:protected] => 17
+                                        )
+
+                                    [4] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-333]
+                                            [number:protected] => 18
+                                        )
+
+                                    [5] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-333]
+                                            [number:protected] => 19
+                                        )
+
+                                    [6] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-333]
+                                            [number:protected] => 20
+                                        )
+
+                                    [7] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+                                            [number:protected] => 21
+                                        )
+
+                                )
+
+                            [level:protected] => ERROR
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [08:30:13] [Server thread/ERROR]:
+                        )
+
+                    [counter:protected] => 1
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallSolution Object
+                                (
+                                    [pluginName:protected] => 
+                                )
+
+                            [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
+                                (
+                                    [path:protected] => plugins/ViaBackwards-4.2.1.jar
+                                    [relativePath:protected] => 1
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [pluginPath:protected] => plugins/ViaBackwards-4.2.1.jar
+                    [pluginName:protected] => ViaBackwards-4.2.1
+                    [dependencyPluginNames:protected] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         
@@ -627,6 +715,10 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
         $this->assertEquals("Minecraft version: 1.18.2", $analysis[0]->getMessage());
+
+        $this->assertEquals("The plugin 'ViaBackwards-4.2.1' is missing the required the plugins ''''.", $analysis[1]->getMessage());
+        $this->assertEquals("Install the plugin ''.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/ViaBackwards-4.2.1.jar'.", $analysis[1][1]->getMessage());
 
     }
 }
