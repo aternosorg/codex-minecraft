@@ -107,6 +107,6 @@ class PluginDependenciesProblem extends BukkitProblem
     {
         return $this->getPluginName() === $insight->getPluginName()
             && $this->getPluginPath() === $insight->getPluginPath()
-            && $this->getDependencyPluginNames() === $insight->getDependencyPluginNames();
+            && $this->dependencyPluginNames == $insight->dependencyPluginNames;
     }
 }
