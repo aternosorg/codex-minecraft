@@ -684,7 +684,7 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
                         (
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallSolution Object
                                 (
-                                    [pluginName:protected] => 
+                                    [pluginName:protected] => ViaVersion
                                 )
 
                             [1] => Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution Object
@@ -700,7 +700,7 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
                     [pluginName:protected] => ViaBackwards-4.2.1
                     [dependencyPluginNames:protected] => Array
                         (
-                            [0] => 
+                            [0] => ViaVersion
                         )
 
                 )
@@ -716,8 +716,8 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 
         $this->assertEquals("Minecraft version: 1.18.2", $analysis[0]->getMessage());
 
-        $this->assertEquals("The plugin 'ViaBackwards-4.2.1' is missing the required the plugins ''''.", $analysis[1]->getMessage());
-        $this->assertEquals("Install the plugin ''.", $analysis[1][0]->getMessage());
+        $this->assertEquals("The plugin 'ViaBackwards-4.2.1' is missing the required the plugins ''ViaVersion''.", $analysis[1]->getMessage());
+        $this->assertEquals("Install the plugin 'ViaVersion'.", $analysis[1][0]->getMessage());
         $this->assertEquals("Delete the file 'plugins/ViaBackwards-4.2.1.jar'.", $analysis[1][1]->getMessage());
 
     }
