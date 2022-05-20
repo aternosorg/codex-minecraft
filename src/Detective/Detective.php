@@ -20,6 +20,7 @@ use Aternos\Codex\Minecraft\Log\OldSpigotLog;
 use Aternos\Codex\Minecraft\Log\OldVanillaLog;
 use Aternos\Codex\Minecraft\Log\PaperLog;
 use Aternos\Codex\Minecraft\Log\PocketmineLog;
+use Aternos\Codex\Minecraft\Log\QuiltLog;
 use Aternos\Codex\Minecraft\Log\SpigotLog;
 use Aternos\Codex\Minecraft\Log\VanillaLog;
 use Aternos\Codex\Minecraft\Log\VelocityLog;
@@ -55,6 +56,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
         VelocityLog::class,
         GeyserLog::class,
         GlowstoneLog::class,
+        QuiltLog::class,
 
         PaperCrashReportLog::class,
         ForgeCrashReportLog::class,
