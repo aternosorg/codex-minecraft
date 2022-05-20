@@ -45,6 +45,15 @@ class PluginDependenciesProblem extends BukkitProblem
     }
 
     /**
+     * get a list of missing dependencies
+     * @return string[]
+     */
+    public function getDependencyPlugins(): array
+    {
+        return $this->dependencyPluginNames;
+    }
+
+    /**
      * @return string
      */
     public function getDependencyPluginNames(): string
@@ -105,8 +114,20 @@ class PluginDependenciesProblem extends BukkitProblem
      */
     public function isEqual($insight): bool
     {
-        return $this->getPluginName() === $insight->getPluginName()
-            && $this->getPluginPath() === $insight->getPluginPath()
-            && $this->dependencyPluginNames == $insight->dependencyPluginNames;
+        if ($this->getPluginName() !== $insight->getPluginName() || $this->getPluginPath() !== $insight->getPluginPath()) {
+            return false;
+        }
+
+        $dependencies = $insight->getDependencyPluginNames();
+        foreach ($this->getDependencyPlugins() as $plugin) {
+            if (!in_array($plugin, $dependencies)) {
+                return false;
+            }
+            $dependencies = array_filter($dependencies, function ($value) use ($plugin) {
+                return $value !== $plugin;
+            });
+        }
+
+        return sizeof($dependencies) === 0;
     }
 }
