@@ -3006,7 +3006,32 @@ Caused by: java.lang.ThreadDeath
                     [value:protected] => 1.16.4
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Paper\VersionDowngradeProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [13:51:11] [Server thread/INFO]: Starting minecraft server version 1.16.4
+                                            [number:protected] => 5
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [13:51:11] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 56
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Paper\VersionDowngradeProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -3053,9 +3078,11 @@ Caused by: java.lang.ThreadDeath
 
         $this->assertEquals("Minecraft version: 1.16.4", $analysis[0]->getMessage());
 
-        $this->assertEquals("Your world was used on a newer version before.", $analysis[1]->getMessage());
-        $this->assertEquals("Install a newer version of Minecraft.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Generate a new world.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
+
+        $this->assertEquals("Your world was used on a newer version before.", $analysis[2]->getMessage());
+        $this->assertEquals("Install a newer version of Minecraft.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Generate a new world.", $analysis[2][1]->getMessage());
 
     }
 }

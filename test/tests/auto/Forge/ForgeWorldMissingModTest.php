@@ -6494,7 +6494,32 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [21:33:19] [Server thread/INFO] [FML/]: MinecraftForge v11.15.1.2318 Initialized
+                                            [number:protected] => 59
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [21:33:19] [Server thread/INFO] [FML/]:
+                        )
+
+                    [counter:protected] => 263
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -6519,7 +6544,7 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [value:protected] => 11.15.1.2318
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldModVersionProblem Object
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldModVersionProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -6560,7 +6585,7 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
                     [expectedVersion:protected] => 9.42
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldMissingModProblem Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldMissingModProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -6601,22 +6626,24 @@ class ForgeWorldMissingModTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 2
+    [iterator:protected] => 0
 )
 ';
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("Forge version: 11.15.1.2318", $analysis[0]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[0]->getMessage());
 
-        $this->assertEquals("This world was saved with mod 'mcp' version 9.42 and it is now at version 9.19.", $analysis[1]->getMessage());
-        $this->assertEquals("Install the mod 'mcp' with version 9.42.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Do nothing. This problem might fix itself.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Forge version: 11.15.1.2318", $analysis[1]->getMessage());
 
-        $this->assertEquals("The world was saved with mod 'lucraftcore' which appears to be missing.", $analysis[2]->getMessage());
-        $this->assertEquals("Install the mod 'lucraftcore'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("This world was saved with mod 'mcp' version 9.42 and it is now at version 9.19.", $analysis[2]->getMessage());
+        $this->assertEquals("Install the mod 'mcp' with version 9.42.", $analysis[2][0]->getMessage());
         $this->assertEquals("Do nothing. This problem might fix itself.", $analysis[2][1]->getMessage());
+
+        $this->assertEquals("The world was saved with mod 'lucraftcore' which appears to be missing.", $analysis[3]->getMessage());
+        $this->assertEquals("Install the mod 'lucraftcore'.", $analysis[3][0]->getMessage());
+        $this->assertEquals("Do nothing. This problem might fix itself.", $analysis[3][1]->getMessage());
 
     }
 }

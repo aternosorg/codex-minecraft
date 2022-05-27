@@ -2429,7 +2429,32 @@ net.minecraftforge.fml.common.MissingModsException: Mod helicopterpack (Hero Avi
                     [value:protected] => 1.12.2
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [14:43:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+                                            [number:protected] => 67
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [14:43:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
+                        )
+
+                    [counter:protected] => 54
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -2454,7 +2479,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod helicopterpack (Hero Avi
                     [value:protected] => 14.23.5.2860
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -2496,7 +2521,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod helicopterpack (Hero Avi
 
         )
 
-    [iterator:protected] => 2
+    [iterator:protected] => 1
 )
 ';
         
@@ -2505,10 +2530,12 @@ net.minecraftforge.fml.common.MissingModsException: Mod helicopterpack (Hero Avi
 
         $this->assertEquals("Minecraft version: 1.12.2", $analysis[0]->getMessage());
 
-        $this->assertEquals("Forge version: 14.23.5.2860", $analysis[1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
 
-        $this->assertEquals("The mod 'Hero Aviation Helicopter Pack (HA/HP)' is missing the required mod 'mts'.", $analysis[2]->getMessage());
-        $this->assertEquals("Install the mod 'mts' with version 19.0.0.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Forge version: 14.23.5.2860", $analysis[2]->getMessage());
+
+        $this->assertEquals("The mod 'Hero Aviation Helicopter Pack (HA/HP)' is missing the required mod 'mts'.", $analysis[3]->getMessage());
+        $this->assertEquals("Install the mod 'mts' with version 19.0.0.", $analysis[3][0]->getMessage());
 
     }
 }

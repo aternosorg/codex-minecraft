@@ -912,7 +912,32 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
                     [value:protected] => 1.13.2
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [14:33:06] [Server thread/INFO]: Starting minecraft server version 1.13.2
+                                            [number:protected] => 2
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [14:33:06] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 35
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1094,9 +1119,11 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
 
         $this->assertEquals("Minecraft version: 1.13.2", $analysis[0]->getMessage());
 
-        $this->assertEquals("The plugin 'Multiverse-Portals' could not be enabled.", $analysis[1]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'Multiverse-Portals'.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Remove the plugin 'Multiverse-Portals'.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
+
+        $this->assertEquals("The plugin 'Multiverse-Portals' could not be enabled.", $analysis[2]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'Multiverse-Portals'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'Multiverse-Portals'.", $analysis[2][1]->getMessage());
 
     }
 }

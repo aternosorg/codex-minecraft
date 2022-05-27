@@ -832,6 +832,31 @@ at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.
 (
     [insights:protected] => Array
         (
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [09:52:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: player joined the game
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [09:52:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
+                        )
+
+                    [counter:protected] => 10
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
         )
 
     [iterator:protected] => 0
@@ -840,6 +865,8 @@ at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
+
+        $this->assertEquals("Environment: Server", $analysis[0]->getMessage());
 
     }
 }

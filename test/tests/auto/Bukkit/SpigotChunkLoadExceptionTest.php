@@ -3237,7 +3237,32 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [value:protected] => 1.8.8
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\ChunkLoadExceptionProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [15:29:52] [Server thread/INFO]: Starting minecraft server version 1.8.8
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [15:29:52] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 159
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\ChunkLoadExceptionProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -3429,10 +3454,12 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
 
         $this->assertEquals("Minecraft version: 1.8.8", $analysis[0]->getMessage());
 
-        $this->assertEquals("There was an exception while loading the world chunks.", $analysis[1]->getMessage());
-        $this->assertEquals("Repair the world 'world', e.g. by using Minecraft Region Fixer or MCEdit.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Delete the file 'world'.", $analysis[1][1]->getMessage());
-        $this->assertEquals("Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file.", $analysis[1][2]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
+
+        $this->assertEquals("There was an exception while loading the world chunks.", $analysis[2]->getMessage());
+        $this->assertEquals("Repair the world 'world', e.g. by using Minecraft Region Fixer or MCEdit.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Delete the file 'world'.", $analysis[2][1]->getMessage());
+        $this->assertEquals("Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file.", $analysis[2][2]->getMessage());
 
     }
 }

@@ -8138,7 +8138,32 @@ class ForgeModRequiredTest extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [03:23:36] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+                                            [number:protected] => 76
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [03:23:36] [Server thread/INFO] [MinecraftForge/]:
+                        )
+
+                    [counter:protected] => 353
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -8163,7 +8188,7 @@ class ForgeModRequiredTest extends PHPUnit\Framework\TestCase
                     [value:protected] => 10.13.4.1614
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -8205,17 +8230,19 @@ class ForgeModRequiredTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 1
+    [iterator:protected] => 0
 )
 ';
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("Forge version: 10.13.4.1614", $analysis[0]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[0]->getMessage());
 
-        $this->assertEquals("The mod 'Archimedes' Ships Plus' is missing the required mod 'MovingWorld'.", $analysis[1]->getMessage());
-        $this->assertEquals("Install the mod 'MovingWorld'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Forge version: 10.13.4.1614", $analysis[1]->getMessage());
+
+        $this->assertEquals("The mod 'Archimedes' Ships Plus' is missing the required mod 'MovingWorld'.", $analysis[2]->getMessage());
+        $this->assertEquals("Install the mod 'MovingWorld'.", $analysis[2][0]->getMessage());
 
     }
 }

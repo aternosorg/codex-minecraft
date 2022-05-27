@@ -5941,7 +5941,32 @@ class ForgeModDuplicateTest extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [22:32:38] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+                                            [number:protected] => 167
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [22:32:38] [Server thread/INFO] [MinecraftForge/]:
+                        )
+
+                    [counter:protected] => 147
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -5966,7 +5991,7 @@ class ForgeModDuplicateTest extends PHPUnit\Framework\TestCase
                     [value:protected] => 10.13.4.1614
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDuplicateProblem Object
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDuplicateProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -6011,18 +6036,20 @@ class ForgeModDuplicateTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 1
+    [iterator:protected] => 0
 )
 ';
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("Forge version: 10.13.4.1614", $analysis[0]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[0]->getMessage());
 
-        $this->assertEquals("There are multiple mod files for the mod name 'Baubles': 'Baubles-1.7.10-1.0.1.10.jar' and 'Baubles-1.7.10-1.0.1.10.jar'.", $analysis[1]->getMessage());
-        $this->assertEquals("Delete the file '/aternos/server/mods/1.7.10/Baubles-1.7.10-1.0.1.10.jar'.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Delete the file '/aternos/server/mods/Baubles-1.7.10-1.0.1.10.jar'.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Forge version: 10.13.4.1614", $analysis[1]->getMessage());
+
+        $this->assertEquals("There are multiple mod files for the mod name 'Baubles': 'Baubles-1.7.10-1.0.1.10.jar' and 'Baubles-1.7.10-1.0.1.10.jar'.", $analysis[2]->getMessage());
+        $this->assertEquals("Delete the file '/aternos/server/mods/1.7.10/Baubles-1.7.10-1.0.1.10.jar'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Delete the file '/aternos/server/mods/Baubles-1.7.10-1.0.1.10.jar'.", $analysis[2][1]->getMessage());
 
     }
 }

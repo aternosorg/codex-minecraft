@@ -4751,7 +4751,32 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [value:protected] => 1.13.2
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginRuntimeProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [11:22:59] [Server thread/INFO]: Starting minecraft server version 1.13.2
+                                            [number:protected] => 2
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [11:22:59] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 233
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginRuntimeProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -4858,7 +4883,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
 
         )
 
-    [iterator:protected] => 1
+    [iterator:protected] => 2
 )
 ';
         
@@ -4867,9 +4892,11 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
 
         $this->assertEquals("Minecraft version: 1.13.2", $analysis[0]->getMessage());
 
-        $this->assertEquals("The plugin 'Essentials' has a problem while running.", $analysis[1]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'Essentials'.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Remove the plugin 'Essentials'.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
+
+        $this->assertEquals("The plugin 'Essentials' has a problem while running.", $analysis[2]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'Essentials'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'Essentials'.", $analysis[2][1]->getMessage());
 
     }
 }

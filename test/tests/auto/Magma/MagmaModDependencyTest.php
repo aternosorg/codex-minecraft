@@ -1245,7 +1245,32 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Information\Magma\MagmaVersionInformation Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [15:02:53] [Server thread/INFO] [Minecraft]: This server is running Magma version e2b9ab6 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+                                            [number:protected] => 6
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [15:02:53] [Server thread/INFO] [Minecraft]:
+                        )
+
+                    [counter:protected] => 56
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Magma\MagmaVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1270,7 +1295,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                     [value:protected] => e2b9ab6
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVanillaVersionInformation Object
+            [2] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVanillaVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1295,7 +1320,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                     [value:protected] => 1.12.2
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1320,7 +1345,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
                     [value:protected] => 14.23.5.2814
                 )
 
-            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1360,7 +1385,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
 
                 )
 
-            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [5] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1400,7 +1425,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
 
                 )
 
-            [5] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [6] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1440,7 +1465,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
 
                 )
 
-            [6] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [7] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1480,7 +1505,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
 
                 )
 
-            [7] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [8] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1520,7 +1545,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
 
                 )
 
-            [8] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [9] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1560,7 +1585,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
 
                 )
 
-            [9] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [10] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1600,7 +1625,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
 
                 )
 
-            [10] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [11] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1640,7 +1665,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
 
                 )
 
-            [11] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [12] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1687,7 +1712,7 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
 
                 )
 
-            [12] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
+            [13] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1729,49 +1754,51 @@ net.minecraftforge.fml.common.MissingModsException: Mod dragonmounts (Dragon Mou
 
         )
 
-    [iterator:protected] => 12
+    [iterator:protected] => 0
 )
 ';
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("Magma version: e2b9ab6", $analysis[0]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[0]->getMessage());
 
-        $this->assertEquals("Minecraft version: 1.12.2", $analysis[1]->getMessage());
+        $this->assertEquals("Magma version: e2b9ab6", $analysis[1]->getMessage());
 
-        $this->assertEquals("Forge version: 14.23.5.2814", $analysis[2]->getMessage());
+        $this->assertEquals("Minecraft version: 1.12.2", $analysis[2]->getMessage());
 
-        $this->assertEquals("The mod 'CoFH Core' is missing the required mod 'redstoneflux'.", $analysis[3]->getMessage());
-        $this->assertEquals("Install the mod 'redstoneflux' with version 2.1.0.", $analysis[3][0]->getMessage());
+        $this->assertEquals("Forge version: 14.23.5.2814", $analysis[3]->getMessage());
 
-        $this->assertEquals("The mod 'Thermal Dynamics' is missing the required mod 'codechickenlib'.", $analysis[4]->getMessage());
-        $this->assertEquals("Install the mod 'codechickenlib' with version 3.2.2.", $analysis[4][0]->getMessage());
+        $this->assertEquals("The mod 'CoFH Core' is missing the required mod 'redstoneflux'.", $analysis[4]->getMessage());
+        $this->assertEquals("Install the mod 'redstoneflux' with version 2.1.0.", $analysis[4][0]->getMessage());
 
-        $this->assertEquals("The mod 'EvilCraft' is missing the required mod 'cyclopscore'.", $analysis[5]->getMessage());
-        $this->assertEquals("Install the mod 'cyclopscore' with version 1.0.0.", $analysis[5][0]->getMessage());
+        $this->assertEquals("The mod 'Thermal Dynamics' is missing the required mod 'codechickenlib'.", $analysis[5]->getMessage());
+        $this->assertEquals("Install the mod 'codechickenlib' with version 3.2.2.", $analysis[5][0]->getMessage());
 
-        $this->assertEquals("The mod 'EvilCraft-Compat' is missing the required mod 'cyclopscore'.", $analysis[6]->getMessage());
-        $this->assertEquals("Install the mod 'cyclopscore' with version 0.11.6.", $analysis[6][0]->getMessage());
+        $this->assertEquals("The mod 'EvilCraft' is missing the required mod 'cyclopscore'.", $analysis[6]->getMessage());
+        $this->assertEquals("Install the mod 'cyclopscore' with version 1.0.0.", $analysis[6][0]->getMessage());
 
-        $this->assertEquals("The mod 'Applied Energistics 2' is missing the required mod 'forge'.", $analysis[7]->getMessage());
-        $this->assertEquals("Install the mod 'forge' with version 14.23.5.2768.", $analysis[7][0]->getMessage());
+        $this->assertEquals("The mod 'EvilCraft-Compat' is missing the required mod 'cyclopscore'.", $analysis[7]->getMessage());
+        $this->assertEquals("Install the mod 'cyclopscore' with version 0.11.6.", $analysis[7][0]->getMessage());
 
-        $this->assertEquals("The mod 'Ex Nihilo Creatio' is missing the required mod 'forgelin'.", $analysis[8]->getMessage());
-        $this->assertEquals("Install the mod 'forgelin'.", $analysis[8][0]->getMessage());
+        $this->assertEquals("The mod 'Applied Energistics 2' is missing the required mod 'forge'.", $analysis[8]->getMessage());
+        $this->assertEquals("Install the mod 'forge' with version 14.23.5.2768.", $analysis[8][0]->getMessage());
 
-        $this->assertEquals("The mod 'Clay Soldiers Mod' is missing the required mod 'sanlib'.", $analysis[9]->getMessage());
-        $this->assertEquals("Install the mod 'sanlib' with version 1.2.0.", $analysis[9][0]->getMessage());
+        $this->assertEquals("The mod 'Ex Nihilo Creatio' is missing the required mod 'forgelin'.", $analysis[9]->getMessage());
+        $this->assertEquals("Install the mod 'forgelin'.", $analysis[9][0]->getMessage());
 
-        $this->assertEquals("The mod 'Biomes O' Plenty' is missing the required mod 'forge'.", $analysis[10]->getMessage());
-        $this->assertEquals("Install the mod 'forge' with version 14.23.5.2768.", $analysis[10][0]->getMessage());
+        $this->assertEquals("The mod 'Clay Soldiers Mod' is missing the required mod 'sanlib'.", $analysis[10]->getMessage());
+        $this->assertEquals("Install the mod 'sanlib' with version 1.2.0.", $analysis[10][0]->getMessage());
 
-        $this->assertEquals("The mod 'Forge Multipart CBE' is missing the required mods 'codechickenlib', 'forge'.", $analysis[11]->getMessage());
-        $this->assertEquals("Install the mod 'codechickenlib' with version 3.2.2.", $analysis[11][0]->getMessage());
-        $this->assertEquals("Install the mod 'forge' with version 14.23.5.2768.", $analysis[11][1]->getMessage());
+        $this->assertEquals("The mod 'Biomes O' Plenty' is missing the required mod 'forge'.", $analysis[11]->getMessage());
+        $this->assertEquals("Install the mod 'forge' with version 14.23.5.2768.", $analysis[11][0]->getMessage());
 
-        $this->assertEquals("The mod 'Dragon Mounts' is missing the required mod 'llibrary'.", $analysis[12]->getMessage());
-        $this->assertEquals("Install the mod 'llibrary' with version 1.7.9.", $analysis[12][0]->getMessage());
+        $this->assertEquals("The mod 'Forge Multipart CBE' is missing the required mods 'codechickenlib', 'forge'.", $analysis[12]->getMessage());
+        $this->assertEquals("Install the mod 'codechickenlib' with version 3.2.2.", $analysis[12][0]->getMessage());
+        $this->assertEquals("Install the mod 'forge' with version 14.23.5.2768.", $analysis[12][1]->getMessage());
+
+        $this->assertEquals("The mod 'Dragon Mounts' is missing the required mod 'llibrary'.", $analysis[13]->getMessage());
+        $this->assertEquals("Install the mod 'llibrary' with version 1.7.9.", $analysis[13][0]->getMessage());
 
     }
 }

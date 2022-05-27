@@ -1034,7 +1034,248 @@ Caused by: java.lang.NoSuchMethodError: net.minecraft.class_2370: method \'void 
                     [value:protected] => 17
                 )
 
-            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricEntryStageProblem Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [22:28:53] [main/ERROR]: Failed to start the minecraft server
+                                            [number:protected] => 47
+                                        )
+
+                                    [1] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => java.lang.RuntimeException: Could not execute entrypoint stage \'main\' due to errors, provided by \'bfapi\'!
+                                            [number:protected] => 48
+                                        )
+
+                                    [2] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.lambda$invoke0$0(EntrypointUtils.java:51) ~[fabric-loader-0.13.3.jar:?]
+                                            [number:protected] => 49
+                                        )
+
+                                    [3] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33) ~[fabric-loader-0.13.3.jar:?]
+                                            [number:protected] => 50
+                                        )
+
+                                    [4] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:49) ~[fabric-loader-0.13.3.jar:?]
+                                            [number:protected] => 51
+                                        )
+
+                                    [5] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35) ~[fabric-loader-0.13.3.jar:?]
+                                            [number:protected] => 52
+                                        )
+
+                                    [6] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:62) ~[fabric-loader-0.13.3.jar:?]
+                                            [number:protected] => 53
+                                        )
+
+                                    [7] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.minecraft.server.Main.main(Main.java:101) [server-intermediary.jar:?]
+                                            [number:protected] => 54
+                                        )
+
+                                    [8] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+                                            [number:protected] => 55
+                                        )
+
+                                    [9] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+                                            [number:protected] => 56
+                                        )
+
+                                    [10] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+                                            [number:protected] => 57
+                                        )
+
+                                    [11] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+                                            [number:protected] => 58
+                                        )
+
+                                    [12] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:416) [fabric-loader-0.13.3.jar:?]
+                                            [number:protected] => 59
+                                        )
+
+                                    [13] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:77) [fabric-loader-0.13.3.jar:?]
+                                            [number:protected] => 60
+                                        )
+
+                                    [14] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.13.3.jar:?]
+                                            [number:protected] => 61
+                                        )
+
+                                    [15] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+                                            [number:protected] => 62
+                                        )
+
+                                    [16] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+                                            [number:protected] => 63
+                                        )
+
+                                    [17] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+                                            [number:protected] => 64
+                                        )
+
+                                    [18] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+                                            [number:protected] => 65
+                                        )
+
+                                    [19] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:66) [fabric-loader-0.13.3.jar:?]
+                                            [number:protected] => 66
+                                        )
+
+                                    [20] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => Caused by: java.lang.NoSuchMethodError: net.minecraft.class_2370: method \'void <init>(net.minecraft.class_5321, com.mojang.serialization.Lifecycle)\' not found
+                                            [number:protected] => 67
+                                        )
+
+                                    [21] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at com.bb1.fabric.bfapi.registery.BFAPIRegistry.<init>(BFAPIRegistry.java:104) ~[bfapi.jar:?]
+                                            [number:protected] => 68
+                                        )
+
+                                    [22] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at com.bb1.fabric.bfapi.registery.BFAPIRegistry.<init>(BFAPIRegistry.java:100) ~[bfapi.jar:?]
+                                            [number:protected] => 69
+                                        )
+
+                                    [23] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at com.bb1.fabric.bfapi.registery.BFAPIRegistry.<init>(BFAPIRegistry.java:96) ~[bfapi.jar:?]
+                                            [number:protected] => 70
+                                        )
+
+                                    [24] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at com.bb1.fabric.bfapi.registery.BFAPIRegistry.<init>(BFAPIRegistry.java:92) ~[bfapi.jar:?]
+                                            [number:protected] => 71
+                                        )
+
+                                    [25] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at com.bb1.fabric.bfapi.registery.BFAPIRegistry.<clinit>(BFAPIRegistry.java:42) ~[bfapi.jar:?]
+                                            [number:protected] => 72
+                                        )
+
+                                    [26] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at com.bb1.fabric.bfapi.events.Event.register(Event.java:46) ~[bfapi.jar:?]
+                                            [number:protected] => 73
+                                        )
+
+                                    [27] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at com.bb1.fabric.bfapi.events.Event.<init>(Event.java:33) ~[bfapi.jar:?]
+                                            [number:protected] => 74
+                                        )
+
+                                    [28] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at com.bb1.fabric.bfapi.events.Event.<init>(Event.java:25) ~[bfapi.jar:?]
+                                            [number:protected] => 75
+                                        )
+
+                                    [29] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at com.bb1.fabric.bfapi.Loader.<clinit>(Loader.java:42) ~[bfapi.jar:?]
+                                            [number:protected] => 76
+                                        )
+
+                                    [30] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at java.lang.Class.forName0(Native Method) ~[?:?]
+                                            [number:protected] => 77
+                                        )
+
+                                    [31] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at java.lang.Class.forName(Class.java:467) ~[?:?]
+                                            [number:protected] => 78
+                                        )
+
+                                    [32] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) ~[fabric-loader-0.13.3.jar:?]
+                                            [number:protected] => 79
+                                        )
+
+                                    [33] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.13.3.jar:?]
+                                            [number:protected] => 80
+                                        )
+
+                                    [34] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.13.3.jar:?]
+                                            [number:protected] => 81
+                                        )
+
+                                    [35] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47) ~[fabric-loader-0.13.3.jar:?]
+                                            [number:protected] => 82
+                                        )
+
+                                    [36] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 	... 15 more
+                                            [number:protected] => 83
+                                        )
+
+                                )
+
+                            [level:protected] => ERROR
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [22:28:53] [main/ERROR]:
+                        )
+
+                    [counter:protected] => 1
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricEntryStageProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1286,7 +1527,7 @@ Caused by: java.lang.NoSuchMethodError: net.minecraft.class_2370: method \'void 
 
         )
 
-    [iterator:protected] => 3
+    [iterator:protected] => 4
 )
 ';
         
@@ -1299,8 +1540,10 @@ Caused by: java.lang.NoSuchMethodError: net.minecraft.class_2370: method \'void 
 
         $this->assertEquals("Java version: 17", $analysis[2]->getMessage());
 
-        $this->assertEquals("The mod 'bfapi' has thrown an exception.", $analysis[3]->getMessage());
-        $this->assertEquals("Remove the mod 'bfapi'.", $analysis[3][0]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[3]->getMessage());
+
+        $this->assertEquals("The mod 'bfapi' has thrown an exception.", $analysis[4]->getMessage());
+        $this->assertEquals("Remove the mod 'bfapi'.", $analysis[4][0]->getMessage());
 
     }
 }

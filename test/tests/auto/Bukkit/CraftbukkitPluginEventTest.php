@@ -2369,7 +2369,32 @@ Caused by: java.lang.NullPointerException
                     [value:protected] => 1.8
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginRuntimeProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [03:41:13] [Server thread/INFO]: Starting minecraft server version 1.8
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [03:41:13] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 81
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginRuntimeProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -2581,9 +2606,11 @@ Caused by: java.lang.NullPointerException
 
         $this->assertEquals("Minecraft version: 1.8", $analysis[0]->getMessage());
 
-        $this->assertEquals("The plugin 'TrollBoss' has a problem while running.", $analysis[1]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'TrollBoss'.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Remove the plugin 'TrollBoss'.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
+
+        $this->assertEquals("The plugin 'TrollBoss' has a problem while running.", $analysis[2]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'TrollBoss'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'TrollBoss'.", $analysis[2][1]->getMessage());
 
     }
 }

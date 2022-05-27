@@ -105,7 +105,80 @@ Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResu
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\FmlConfirmProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [13:31:32] [Server thread/WARN] [FML/]: Forge Mod Loader detected that the backup level.dat is being used.
+                                            [number:protected] => 1
+                                        )
+
+                                    [1] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 
+                                            [number:protected] => 2
+                                        )
+
+                                    [2] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => This may happen due to a bug or corruption, continuing can damage
+                                            [number:protected] => 3
+                                        )
+
+                                    [3] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => your world beyond repair or lose data / progress.
+                                            [number:protected] => 4
+                                        )
+
+                                    [4] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 
+                                            [number:protected] => 5
+                                        )
+
+                                    [5] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => It\'s recommended to create a world backup before continuing.
+                                            [number:protected] => 6
+                                        )
+
+                                    [6] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 
+                                            [number:protected] => 7
+                                        )
+
+                                    [7] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => Run the command /fml confirm or or /fml cancel to proceed.
+                                            [number:protected] => 8
+                                        )
+
+                                    [8] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResult=cancel to preselect the answer.
+                                            [number:protected] => 9
+                                        )
+
+                                )
+
+                            [level:protected] => WARN
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [13:31:32] [Server thread/WARN] [FML/]:
+                        )
+
+                    [counter:protected] => 1
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\FmlConfirmProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -188,15 +261,17 @@ Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResu
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("Forge requires your confirmation to apply changes and start the server.", $analysis[0]->getMessage());
-        $this->assertEquals("Run the command '/fml confirm'.", $analysis[0][0]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[0]->getMessage());
+
+        $this->assertEquals("Forge requires your confirmation to apply changes and start the server.", $analysis[1]->getMessage());
+        $this->assertEquals("Run the command '/fml confirm'.", $analysis[1][0]->getMessage());
 
     }
 }

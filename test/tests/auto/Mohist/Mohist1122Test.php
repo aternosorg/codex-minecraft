@@ -7066,7 +7066,32 @@ class Mohist1122Test extends PHPUnit\Framework\TestCase
                     [value:protected] => 1.12.2
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Information\Mohist\MohistForgeVersionInformation Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [17:25:46] [Server thread/INFO] [Mohist]: Starting minecraft server version 1.12.2
+                                            [number:protected] => 27
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [17:25:46] [Server thread/INFO] [Mohist]:
+                        )
+
+                    [counter:protected] => 342
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Information\Mohist\MohistForgeVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -7091,7 +7116,7 @@ class Mohist1122Test extends PHPUnit\Framework\TestCase
                     [value:protected] => 14.23.5.2860
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Information\Mohist\MohistVersionInformation Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Information\Mohist\MohistVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -7118,7 +7143,7 @@ class Mohist1122Test extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 2
+    [iterator:protected] => 1
 )
 ';
         
@@ -7127,9 +7152,11 @@ class Mohist1122Test extends PHPUnit\Framework\TestCase
 
         $this->assertEquals("Minecraft version: 1.12.2", $analysis[0]->getMessage());
 
-        $this->assertEquals("Forge version: 14.23.5.2860", $analysis[1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
 
-        $this->assertEquals("Mohist version: 304", $analysis[2]->getMessage());
+        $this->assertEquals("Forge version: 14.23.5.2860", $analysis[2]->getMessage());
+
+        $this->assertEquals("Mohist version: 304", $analysis[3]->getMessage());
 
     }
 }

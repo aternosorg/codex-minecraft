@@ -6144,7 +6144,32 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [22:50:26] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+                                            [number:protected] => 54
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [22:50:26] [Server thread/INFO] [MinecraftForge/]:
+                        )
+
+                    [counter:protected] => 250
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -6169,7 +6194,7 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
                     [value:protected] => 10.13.4.1614
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModFatalProblem Object
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModFatalProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -6266,7 +6291,7 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
                     [modId:protected] => xaerominimap
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModExceptionProblem Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModExceptionProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -6557,7 +6582,7 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
                     [modName:protected] => xaerominimap
                 )
 
-            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModExceptionProblem Object
+            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModExceptionProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -6598,26 +6623,28 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]
 
         )
 
-    [iterator:protected] => 3
+    [iterator:protected] => 0
 )
 ';
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("Forge version: 10.13.4.1614", $analysis[0]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[0]->getMessage());
 
-        $this->assertEquals("The mod 'Xaero's Minimap' has a fatal error.", $analysis[1]->getMessage());
-        $this->assertEquals("Delete the file 'mods/Xaeros_Minimap_1.16_Forge_1.7.10.jar'.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Install a different version of the mod 'Xaero's Minimap'.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Forge version: 10.13.4.1614", $analysis[1]->getMessage());
 
-        $this->assertEquals("The mod 'xaerominimap' has thrown an exception.", $analysis[2]->getMessage());
-        $this->assertEquals("Install a different version of the mod 'xaerominimap'.", $analysis[2][0]->getMessage());
-        $this->assertEquals("Remove the mod 'xaerominimap'.", $analysis[2][1]->getMessage());
+        $this->assertEquals("The mod 'Xaero's Minimap' has a fatal error.", $analysis[2]->getMessage());
+        $this->assertEquals("Delete the file 'mods/Xaeros_Minimap_1.16_Forge_1.7.10.jar'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Install a different version of the mod 'Xaero's Minimap'.", $analysis[2][1]->getMessage());
 
-        $this->assertEquals("The mod 'Discord Chat' has thrown an exception.", $analysis[3]->getMessage());
-        $this->assertEquals("Install a different version of the mod 'Discord Chat'.", $analysis[3][0]->getMessage());
-        $this->assertEquals("Remove the mod 'Discord Chat'.", $analysis[3][1]->getMessage());
+        $this->assertEquals("The mod 'xaerominimap' has thrown an exception.", $analysis[3]->getMessage());
+        $this->assertEquals("Install a different version of the mod 'xaerominimap'.", $analysis[3][0]->getMessage());
+        $this->assertEquals("Remove the mod 'xaerominimap'.", $analysis[3][1]->getMessage());
+
+        $this->assertEquals("The mod 'Discord Chat' has thrown an exception.", $analysis[4]->getMessage());
+        $this->assertEquals("Install a different version of the mod 'Discord Chat'.", $analysis[4][0]->getMessage());
+        $this->assertEquals("Remove the mod 'Discord Chat'.", $analysis[4][1]->getMessage());
 
     }
 }

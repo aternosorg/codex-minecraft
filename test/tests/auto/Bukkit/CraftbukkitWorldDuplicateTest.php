@@ -2582,7 +2582,32 @@ class CraftbukkitWorldDuplicateTest extends PHPUnit\Framework\TestCase
                     [value:protected] => 1.13.2
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\WorldDuplicateProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [18:14:46] [Server thread/INFO]: Starting minecraft server version 1.13.2
+                                            [number:protected] => 2
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [18:14:46] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 132
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\WorldDuplicateProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -2634,9 +2659,11 @@ class CraftbukkitWorldDuplicateTest extends PHPUnit\Framework\TestCase
 
         $this->assertEquals("Minecraft version: 1.13.2", $analysis[0]->getMessage());
 
-        $this->assertEquals("World 'hell' is a duplicate of another world and has been prevented from loading.", $analysis[1]->getMessage());
-        $this->assertEquals("Delete the file 'hell/uid.dat'.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Delete the file 'hell'.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
+
+        $this->assertEquals("World 'hell' is a duplicate of another world and has been prevented from loading.", $analysis[2]->getMessage());
+        $this->assertEquals("Delete the file 'hell/uid.dat'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Delete the file 'hell'.", $analysis[2][1]->getMessage());
 
     }
 }

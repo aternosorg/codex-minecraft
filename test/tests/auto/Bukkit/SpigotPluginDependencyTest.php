@@ -431,7 +431,32 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
                     [value:protected] => 1.8.8
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [11:47:42] [Server thread/INFO]: Starting minecraft server version 1.8.8
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [11:47:42] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 15
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -509,7 +534,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
                     [dependencyPluginName:protected] => Vault
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -589,7 +614,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 
         )
 
-    [iterator:protected] => 2
+    [iterator:protected] => 1
 )
 ';
         
@@ -598,13 +623,15 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 
         $this->assertEquals("Minecraft version: 1.8.8", $analysis[0]->getMessage());
 
-        $this->assertEquals("The plugin 'FactionsShop' is missing the required the plugin 'Vault'.", $analysis[1]->getMessage());
-        $this->assertEquals("Install the plugin 'Vault'.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/FactionsShop.jar'.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
 
-        $this->assertEquals("The plugin 'BasicTab' is missing the required the plugin 'ProtocolLib'.", $analysis[2]->getMessage());
-        $this->assertEquals("Install the plugin 'ProtocolLib'.", $analysis[2][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/BasicTab.jar'.", $analysis[2][1]->getMessage());
+        $this->assertEquals("The plugin 'FactionsShop' is missing the required the plugin 'Vault'.", $analysis[2]->getMessage());
+        $this->assertEquals("Install the plugin 'Vault'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/FactionsShop.jar'.", $analysis[2][1]->getMessage());
+
+        $this->assertEquals("The plugin 'BasicTab' is missing the required the plugin 'ProtocolLib'.", $analysis[3]->getMessage());
+        $this->assertEquals("Install the plugin 'ProtocolLib'.", $analysis[3][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/BasicTab.jar'.", $analysis[3][1]->getMessage());
 
     }
 }

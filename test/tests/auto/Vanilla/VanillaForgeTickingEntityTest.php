@@ -915,7 +915,32 @@ at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709) ~
                     [value:protected] => 1.10.2
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\TickingBlockEntityProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [16:20:04] [Server thread/INFO]: Starting minecraft server version 1.10.2
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [16:20:04] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 35
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\TickingBlockEntityProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -1060,9 +1085,11 @@ at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709) ~
 
         $this->assertEquals("Minecraft version: 1.10.2", $analysis[0]->getMessage());
 
-        $this->assertEquals("A block in the world is causing problems.", $analysis[1]->getMessage());
-        $this->assertEquals("Delete the file 'world'.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Remove the block from the world, e.g. with MCEdit.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
+
+        $this->assertEquals("A block in the world is causing problems.", $analysis[2]->getMessage());
+        $this->assertEquals("Delete the file 'world'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Remove the block from the world, e.g. with MCEdit.", $analysis[2][1]->getMessage());
 
     }
 }

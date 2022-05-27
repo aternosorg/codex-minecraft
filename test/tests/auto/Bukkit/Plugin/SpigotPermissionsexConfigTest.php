@@ -24496,7 +24496,32 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [value:protected] => 1.8
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [21:08:50] [Server thread/INFO]: Starting minecraft server version 1.8
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [21:08:50] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 1137
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -24627,7 +24652,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginPath:protected] => plugins/Troll_v3.8.jar
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -24758,7 +24783,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginPath:protected] => plugins/AdminSystem ???.jar
                 )
 
-            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -24853,7 +24878,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginPath:protected] => plugins/ChatTroll_v2.1.jar
                 )
 
-            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
+            [5] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -24896,7 +24921,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginName:protected] => SkyPvP
                 )
 
-            [5] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+            [6] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -25027,7 +25052,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginPath:protected] => plugins/CommunityBETA.jar
                 )
 
-            [6] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
+            [7] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -25070,7 +25095,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginName:protected] => BetterNick
                 )
 
-            [7] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+            [8] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -25165,7 +25190,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginPath:protected] => plugins/bstats-bukkit-1.2.jar
                 )
 
-            [8] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+            [9] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -25512,7 +25537,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginPath:protected] => plugins/SlashServer.jar
                 )
 
-            [9] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
+            [10] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -25590,7 +25615,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [dependencyPluginName:protected] => WorldGuard
                 )
 
-            [10] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
+            [11] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -25793,7 +25818,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginPath:protected] => plugins/PortalStones1.5.jar
                 )
 
-            [11] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+            [12] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -25910,7 +25935,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginName:protected] => SuperLobbyPlus
                 )
 
-            [12] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+            [13] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -26081,7 +26106,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginName:protected] => GlobalMarket
                 )
 
-            [13] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\PermissionsExConfigProblem Object
+            [14] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\PermissionsExConfigProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -26642,7 +26667,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [iterator:protected] => 0
                 )
 
-            [14] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+            [15] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -26765,7 +26790,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginName:protected] => TalkingBot
                 )
 
-            [15] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
+            [16] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -26918,7 +26943,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginName:protected] => CustomRanks
                 )
 
-            [16] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+            [17] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -27035,7 +27060,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginName:protected] => CustomRanks
                 )
 
-            [17] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
+            [18] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -27176,7 +27201,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginName:protected] => CitizensCMD
                 )
 
-            [18] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
+            [19] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -27359,7 +27384,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginName:protected] => RedProtect
                 )
 
-            [19] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
+            [20] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -27536,7 +27561,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [pluginName:protected] => RedProtect
                 )
 
-            [20] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
+            [21] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -27649,7 +27674,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
 
         )
 
-    [iterator:protected] => 20
+    [iterator:protected] => 1
 )
 ';
         
@@ -27658,85 +27683,87 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
 
         $this->assertEquals("Minecraft version: 1.8", $analysis[0]->getMessage());
 
-        $this->assertEquals("The plugin 'Troll_v3.8' could not be loaded.", $analysis[1]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'Troll_v3.8'.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/Troll_v3.8.jar'.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
 
-        $this->assertEquals("The plugin 'AdminSystem ???' could not be loaded.", $analysis[2]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'AdminSystem ???'.", $analysis[2][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/AdminSystem ???.jar'.", $analysis[2][1]->getMessage());
+        $this->assertEquals("The plugin 'Troll_v3.8' could not be loaded.", $analysis[2]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'Troll_v3.8'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/Troll_v3.8.jar'.", $analysis[2][1]->getMessage());
 
-        $this->assertEquals("The plugin 'ChatTroll_v2.1' could not be loaded.", $analysis[3]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'ChatTroll_v2.1'.", $analysis[3][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/ChatTroll_v2.1.jar'.", $analysis[3][1]->getMessage());
+        $this->assertEquals("The plugin 'AdminSystem ???' could not be loaded.", $analysis[3]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'AdminSystem ???'.", $analysis[3][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/AdminSystem ???.jar'.", $analysis[3][1]->getMessage());
 
-        $this->assertEquals("There are multiple plugin files for the plugin name 'SkyPvP': 'SkyPvPFree.jar' and 'SkyPvP.jar'.", $analysis[4]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/SkyPvPFree.jar'.", $analysis[4][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/SkyPvP.jar'.", $analysis[4][1]->getMessage());
+        $this->assertEquals("The plugin 'ChatTroll_v2.1' could not be loaded.", $analysis[4]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'ChatTroll_v2.1'.", $analysis[4][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/ChatTroll_v2.1.jar'.", $analysis[4][1]->getMessage());
 
-        $this->assertEquals("The plugin 'CommunityBETA' could not be loaded.", $analysis[5]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'CommunityBETA'.", $analysis[5][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/CommunityBETA.jar'.", $analysis[5][1]->getMessage());
+        $this->assertEquals("There are multiple plugin files for the plugin name 'SkyPvP': 'SkyPvPFree.jar' and 'SkyPvP.jar'.", $analysis[5]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/SkyPvPFree.jar'.", $analysis[5][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/SkyPvP.jar'.", $analysis[5][1]->getMessage());
 
-        $this->assertEquals("There are multiple plugin files for the plugin name 'BetterNick': 'BetterNick 1.13.X.jar' and 'BetterNick 1.8.3 - 1.12.2.jar'.", $analysis[6]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/BetterNick 1.13.X.jar'.", $analysis[6][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/BetterNick 1.8.3 - 1.12.2.jar'.", $analysis[6][1]->getMessage());
+        $this->assertEquals("The plugin 'CommunityBETA' could not be loaded.", $analysis[6]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'CommunityBETA'.", $analysis[6][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/CommunityBETA.jar'.", $analysis[6][1]->getMessage());
 
-        $this->assertEquals("The plugin 'bstats-bukkit-1.2' could not be loaded.", $analysis[7]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'bstats-bukkit-1.2'.", $analysis[7][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/bstats-bukkit-1.2.jar'.", $analysis[7][1]->getMessage());
+        $this->assertEquals("There are multiple plugin files for the plugin name 'BetterNick': 'BetterNick 1.13.X.jar' and 'BetterNick 1.8.3 - 1.12.2.jar'.", $analysis[7]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/BetterNick 1.13.X.jar'.", $analysis[7][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/BetterNick 1.8.3 - 1.12.2.jar'.", $analysis[7][1]->getMessage());
 
-        $this->assertEquals("The plugin 'SlashServer' could not be loaded.", $analysis[8]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'SlashServer'.", $analysis[8][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/SlashServer.jar'.", $analysis[8][1]->getMessage());
+        $this->assertEquals("The plugin 'bstats-bukkit-1.2' could not be loaded.", $analysis[8]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'bstats-bukkit-1.2'.", $analysis[8][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/bstats-bukkit-1.2.jar'.", $analysis[8][1]->getMessage());
 
-        $this->assertEquals("The plugin 'AreaShop' is missing the required the plugin 'WorldGuard'.", $analysis[9]->getMessage());
-        $this->assertEquals("Install the plugin 'WorldGuard'.", $analysis[9][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/AreaShop.jar'.", $analysis[9][1]->getMessage());
+        $this->assertEquals("The plugin 'SlashServer' could not be loaded.", $analysis[9]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'SlashServer'.", $analysis[9][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/SlashServer.jar'.", $analysis[9][1]->getMessage());
 
-        $this->assertEquals("The plugin 'PortalStones1.5' could not be loaded.", $analysis[10]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'PortalStones1.5'.", $analysis[10][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/PortalStones1.5.jar'.", $analysis[10][1]->getMessage());
+        $this->assertEquals("The plugin 'AreaShop' is missing the required the plugin 'WorldGuard'.", $analysis[10]->getMessage());
+        $this->assertEquals("Install the plugin 'WorldGuard'.", $analysis[10][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/AreaShop.jar'.", $analysis[10][1]->getMessage());
 
-        $this->assertEquals("The plugin 'SuperLobbyPlus' could not be enabled.", $analysis[11]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'SuperLobbyPlus'.", $analysis[11][0]->getMessage());
-        $this->assertEquals("Remove the plugin 'SuperLobbyPlus'.", $analysis[11][1]->getMessage());
+        $this->assertEquals("The plugin 'PortalStones1.5' could not be loaded.", $analysis[11]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'PortalStones1.5'.", $analysis[11][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/PortalStones1.5.jar'.", $analysis[11][1]->getMessage());
 
-        $this->assertEquals("The plugin 'GlobalMarket' could not be enabled.", $analysis[12]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'GlobalMarket'.", $analysis[12][0]->getMessage());
-        $this->assertEquals("Remove the plugin 'GlobalMarket'.", $analysis[12][1]->getMessage());
+        $this->assertEquals("The plugin 'SuperLobbyPlus' could not be enabled.", $analysis[12]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'SuperLobbyPlus'.", $analysis[12][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'SuperLobbyPlus'.", $analysis[12][1]->getMessage());
 
-        $this->assertEquals("The configuration of the plugin 'PermissionsEx' is invalid.", $analysis[13]->getMessage());
-        $this->assertEquals("Configure the plugin PermissionsEx (plugins/PermissionsEx/permissions.yml).", $analysis[13][0]->getMessage());
-        $this->assertEquals("Remove the plugin 'PermissionsEx'.", $analysis[13][1]->getMessage());
+        $this->assertEquals("The plugin 'GlobalMarket' could not be enabled.", $analysis[13]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'GlobalMarket'.", $analysis[13][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'GlobalMarket'.", $analysis[13][1]->getMessage());
 
-        $this->assertEquals("The plugin 'TalkingBot' could not be enabled.", $analysis[14]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'TalkingBot'.", $analysis[14][0]->getMessage());
-        $this->assertEquals("Remove the plugin 'TalkingBot'.", $analysis[14][1]->getMessage());
+        $this->assertEquals("The configuration of the plugin 'PermissionsEx' is invalid.", $analysis[14]->getMessage());
+        $this->assertEquals("Configure the plugin PermissionsEx (plugins/PermissionsEx/permissions.yml).", $analysis[14][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'PermissionsEx'.", $analysis[14][1]->getMessage());
 
-        $this->assertEquals("The plugin 'CustomRanks' could not be disabled.", $analysis[15]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'CustomRanks'.", $analysis[15][0]->getMessage());
-        $this->assertEquals("Remove the plugin 'CustomRanks'.", $analysis[15][1]->getMessage());
+        $this->assertEquals("The plugin 'TalkingBot' could not be enabled.", $analysis[15]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'TalkingBot'.", $analysis[15][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'TalkingBot'.", $analysis[15][1]->getMessage());
 
-        $this->assertEquals("The plugin 'CustomRanks' could not be enabled.", $analysis[16]->getMessage());
+        $this->assertEquals("The plugin 'CustomRanks' could not be disabled.", $analysis[16]->getMessage());
         $this->assertEquals("Install a different version of the plugin 'CustomRanks'.", $analysis[16][0]->getMessage());
         $this->assertEquals("Remove the plugin 'CustomRanks'.", $analysis[16][1]->getMessage());
 
-        $this->assertEquals("The plugin 'CitizensCMD' could not be disabled.", $analysis[17]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'CitizensCMD'.", $analysis[17][0]->getMessage());
-        $this->assertEquals("Remove the plugin 'CitizensCMD'.", $analysis[17][1]->getMessage());
+        $this->assertEquals("The plugin 'CustomRanks' could not be enabled.", $analysis[17]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'CustomRanks'.", $analysis[17][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'CustomRanks'.", $analysis[17][1]->getMessage());
 
-        $this->assertEquals("The plugin 'RedProtect' could not be enabled.", $analysis[18]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'RedProtect'.", $analysis[18][0]->getMessage());
-        $this->assertEquals("Remove the plugin 'RedProtect'.", $analysis[18][1]->getMessage());
+        $this->assertEquals("The plugin 'CitizensCMD' could not be disabled.", $analysis[18]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'CitizensCMD'.", $analysis[18][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'CitizensCMD'.", $analysis[18][1]->getMessage());
 
-        $this->assertEquals("The plugin 'RedProtect' could not be disabled.", $analysis[19]->getMessage());
+        $this->assertEquals("The plugin 'RedProtect' could not be enabled.", $analysis[19]->getMessage());
         $this->assertEquals("Install a different version of the plugin 'RedProtect'.", $analysis[19][0]->getMessage());
         $this->assertEquals("Remove the plugin 'RedProtect'.", $analysis[19][1]->getMessage());
 
-        $this->assertEquals("The plugin 'SuperLobbyPlus' could not be disabled.", $analysis[20]->getMessage());
-        $this->assertEquals("Install a different version of the plugin 'SuperLobbyPlus'.", $analysis[20][0]->getMessage());
-        $this->assertEquals("Remove the plugin 'SuperLobbyPlus'.", $analysis[20][1]->getMessage());
+        $this->assertEquals("The plugin 'RedProtect' could not be disabled.", $analysis[20]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'RedProtect'.", $analysis[20][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'RedProtect'.", $analysis[20][1]->getMessage());
+
+        $this->assertEquals("The plugin 'SuperLobbyPlus' could not be disabled.", $analysis[21]->getMessage());
+        $this->assertEquals("Install a different version of the plugin 'SuperLobbyPlus'.", $analysis[21][0]->getMessage());
+        $this->assertEquals("Remove the plugin 'SuperLobbyPlus'.", $analysis[21][1]->getMessage());
 
     }
 }

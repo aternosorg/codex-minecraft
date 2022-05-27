@@ -712,7 +712,32 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
                     [value:protected] => 1.16.1
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [09:59:22] [Server thread/INFO]: Starting minecraft server version 1.16.1
+                                            [number:protected] => 4
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [09:59:22] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 29
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -807,9 +832,11 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
 
         $this->assertEquals("Minecraft version: 1.16.1", $analysis[0]->getMessage());
 
-        $this->assertEquals("The plugin 'LuckPermsChat-2.0.2' is missing the required the plugin 'LuckPerms'.", $analysis[1]->getMessage());
-        $this->assertEquals("Install the plugin 'LuckPerms'.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/LuckPermsChat-2.0.2.jar'.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
+
+        $this->assertEquals("The plugin 'LuckPermsChat-2.0.2' is missing the required the plugin 'LuckPerms'.", $analysis[2]->getMessage());
+        $this->assertEquals("Install the plugin 'LuckPerms'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/LuckPermsChat-2.0.2.jar'.", $analysis[2][1]->getMessage());
 
     }
 }

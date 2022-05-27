@@ -355,7 +355,32 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
                     [value:protected] => 1.12.2
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\AquaticWorldOnOlderVersionProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [07:20:32] [Server thread/INFO]: Starting minecraft server version 1.12.2
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [07:20:32] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 11
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\AquaticWorldOnOlderVersionProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -471,7 +496,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
 
         )
 
-    [iterator:protected] => 1
+    [iterator:protected] => 2
 )
 ';
         
@@ -480,9 +505,11 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
 
         $this->assertEquals("Minecraft version: 1.12.2", $analysis[0]->getMessage());
 
-        $this->assertEquals("The current world was created/loaded with Minecraft 1.13 or higher. The new format cannot be loaded in any older version.", $analysis[1]->getMessage());
-        $this->assertEquals("Generate a new world.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Update the server software to 1.13 or newer.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
+
+        $this->assertEquals("The current world was created/loaded with Minecraft 1.13 or higher. The new format cannot be loaded in any older version.", $analysis[2]->getMessage());
+        $this->assertEquals("Generate a new world.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Update the server software to 1.13 or newer.", $analysis[2][1]->getMessage());
 
     }
 }

@@ -112,7 +112,86 @@ at net.minecraft.server.MinecraftServer.main(SourceFile:887) [minecraft_server.j
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\MalformedEncodingProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [21:28:50] [main/FATAL]: Failed to start the minecraft server
+                                            [number:protected] => 1
+                                        )
+
+                                    [1] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => java.lang.IllegalArgumentException: Malformed \uxxxx encoding.
+                                            [number:protected] => 2
+                                        )
+
+                                    [2] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.Properties.loadConvert(Properties.java:574) ~[?:1.8.0_202]
+                                            [number:protected] => 3
+                                        )
+
+                                    [3] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.Properties.load0(Properties.java:391) ~[?:1.8.0_202]
+                                            [number:protected] => 4
+                                        )
+
+                                    [4] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at java.util.Properties.load(Properties.java:341) ~[?:1.8.0_202]
+                                            [number:protected] => 5
+                                        )
+
+                                    [5] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at uk.b(SourceFile:55) ~[minecraft_server.jar:?]
+                                            [number:protected] => 6
+                                        )
+
+                                    [6] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at uh.a(SourceFile:69) ~[minecraft_server.jar:?]
+                                            [number:protected] => 7
+                                        )
+
+                                    [7] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at ui.&lt;init&gt;(SourceFile:12) ~[minecraft_server.jar:?]
+                                            [number:protected] => 8
+                                        )
+
+                                    [8] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => at net.minecraft.server.MinecraftServer.main(SourceFile:887) [minecraft_server.jar:?]
+                                            [number:protected] => 9
+                                        )
+
+                                    [9] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => 
+                                            [number:protected] => 10
+                                        )
+
+                                )
+
+                            [level:protected] => FATAL
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [21:28:50] [main/FATAL]:
+                        )
+
+                    [counter:protected] => 1
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\MalformedEncodingProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -200,15 +279,17 @@ at net.minecraft.server.MinecraftServer.main(SourceFile:887) [minecraft_server.j
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("Something (probably the MOTD) contains malformed formatting codes.", $analysis[0]->getMessage());
-        $this->assertEquals("Change the server MOTD.", $analysis[0][0]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[0]->getMessage());
+
+        $this->assertEquals("Something (probably the MOTD) contains malformed formatting codes.", $analysis[1]->getMessage());
+        $this->assertEquals("Change the server MOTD.", $analysis[1][0]->getMessage());
 
     }
 }

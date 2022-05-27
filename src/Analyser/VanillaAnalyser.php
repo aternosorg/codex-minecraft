@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analyser;
 
+use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation;
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\AquaticWorldOnOlderVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\MalformedEncodingProblem;
@@ -18,6 +19,7 @@ class VanillaAnalyser extends MinecraftAnalyser
     public function __construct()
     {
         $this->addPossibleInsightClass(VanillaVersionInformation::class);
+        $this->addPossibleInsightClass(EnvironmentInformation::class);
 
         $this->addPossibleInsightClass(OldPlayerDirectoryProblem::class);
         $this->addPossibleInsightClass(AquaticWorldOnOlderVersionProblem::class);

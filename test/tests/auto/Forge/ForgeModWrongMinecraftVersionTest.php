@@ -9720,7 +9720,32 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [13:41:58] [Server thread/INFO] [FML/]: MinecraftForge v12.18.3.2511 Initialized
+                                            [number:protected] => 280
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [13:41:58] [Server thread/INFO] [FML/]:
+                        )
+
+                    [counter:protected] => 231
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -9745,7 +9770,7 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
                     [value:protected] => 12.18.3.2511
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModWrongMinecraftVersionProblem Object
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModWrongMinecraftVersionProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -9786,18 +9811,20 @@ class ForgeModWrongMinecraftVersionTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 1
+    [iterator:protected] => 0
 )
 ';
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("Forge version: 12.18.3.2511", $analysis[0]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[0]->getMessage());
 
-        $this->assertEquals("The mod 'journeymap' is not compatible with the Minecraft version 1.10.2.", $analysis[1]->getMessage());
-        $this->assertEquals("Remove the mod 'journeymap'.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Install a different Forge version.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Forge version: 12.18.3.2511", $analysis[1]->getMessage());
+
+        $this->assertEquals("The mod 'journeymap' is not compatible with the Minecraft version 1.10.2.", $analysis[2]->getMessage());
+        $this->assertEquals("Remove the mod 'journeymap'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Install a different Forge version.", $analysis[2][1]->getMessage());
 
     }
 }

@@ -3017,9 +3017,34 @@ class FabricModNamesTest extends PHPUnit\Framework\TestCase
                     [value:protected] => 17
                 )
 
+            [3] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [14:47:28] [Server thread/INFO]: Starting minecraft server version 1.18.2
+                                            [number:protected] => 49
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [14:47:28] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 13
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 3
 )
 ';
         
@@ -3031,6 +3056,8 @@ class FabricModNamesTest extends PHPUnit\Framework\TestCase
         $this->assertEquals("Fabric loader version: 0.13.3", $analysis[1]->getMessage());
 
         $this->assertEquals("Java version: 17", $analysis[2]->getMessage());
+
+        $this->assertEquals("Environment: Server", $analysis[3]->getMessage());
 
     }
 }

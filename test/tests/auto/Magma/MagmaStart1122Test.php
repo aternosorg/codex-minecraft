@@ -5736,7 +5736,32 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [value:protected] => 1.12.2
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [15:02:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+                                            [number:protected] => 7
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [15:02:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
+                        )
+
+                    [counter:protected] => 290
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -5761,7 +5786,7 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
                     [value:protected] => 14.23.5.2847
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Information\Magma\MagmaVersionInformation Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Information\Magma\MagmaVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -5788,7 +5813,7 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 2
+    [iterator:protected] => 1
 )
 ';
         
@@ -5797,9 +5822,11 @@ class MagmaStart1122Test extends PHPUnit\Framework\TestCase
 
         $this->assertEquals("Minecraft version: 1.12.2", $analysis[0]->getMessage());
 
-        $this->assertEquals("Forge version: 14.23.5.2847", $analysis[1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
 
-        $this->assertEquals("Magma version: e2b9ab6", $analysis[2]->getMessage());
+        $this->assertEquals("Forge version: 14.23.5.2847", $analysis[2]->getMessage());
+
+        $this->assertEquals("Magma version: e2b9ab6", $analysis[3]->getMessage());
 
     }
 }

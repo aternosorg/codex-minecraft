@@ -302,7 +302,32 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [value:protected] => 1.13.2
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [19:23:08] [Server thread/INFO]: Starting minecraft server version 1.13.2
+                                            [number:protected] => 2
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [19:23:08] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 12
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -345,7 +370,7 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
                     [pluginName:protected] => Multiverse-Core
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -390,7 +415,7 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 2
+    [iterator:protected] => 3
 )
 ';
         
@@ -399,13 +424,15 @@ class PaperAmbiguousPluginNameTest extends PHPUnit\Framework\TestCase
 
         $this->assertEquals("Minecraft version: 1.13.2", $analysis[0]->getMessage());
 
-        $this->assertEquals("There are multiple plugin files for the plugin name 'Multiverse-Core': 'Multiverse-Core-3.0.0-SNAPSHOT.jar' and 'Multiverse-Core-2.5.jar'.", $analysis[1]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/Multiverse-Core-3.0.0-SNAPSHOT.jar'.", $analysis[1][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/Multiverse-Core-2.5.jar'.", $analysis[1][1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
 
-        $this->assertEquals("There are multiple plugin files for the plugin name 'WorldEdit': 'worldedit-bukkit-7.0.0-beta-05.jar' and 'worldedit-bukkit-7.0.0-beta-01.jar'.", $analysis[2]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/worldedit-bukkit-7.0.0-beta-05.jar'.", $analysis[2][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/worldedit-bukkit-7.0.0-beta-01.jar'.", $analysis[2][1]->getMessage());
+        $this->assertEquals("There are multiple plugin files for the plugin name 'Multiverse-Core': 'Multiverse-Core-3.0.0-SNAPSHOT.jar' and 'Multiverse-Core-2.5.jar'.", $analysis[2]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/Multiverse-Core-3.0.0-SNAPSHOT.jar'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/Multiverse-Core-2.5.jar'.", $analysis[2][1]->getMessage());
+
+        $this->assertEquals("There are multiple plugin files for the plugin name 'WorldEdit': 'worldedit-bukkit-7.0.0-beta-05.jar' and 'worldedit-bukkit-7.0.0-beta-01.jar'.", $analysis[3]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/worldedit-bukkit-7.0.0-beta-05.jar'.", $analysis[3][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/worldedit-bukkit-7.0.0-beta-01.jar'.", $analysis[3][1]->getMessage());
 
     }
 }

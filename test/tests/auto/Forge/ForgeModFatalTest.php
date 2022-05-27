@@ -404,7 +404,32 @@ class ForgeModFatalTest extends PHPUnit\Framework\TestCase
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModFatalProblem Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [18:59:01] [Server thread/ERROR] [FML/]: Fatal errors were detected during the transition from PREINITIALIZATION to INITIALIZATION. Loading cannot continue
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => ERROR
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [18:59:01] [Server thread/ERROR] [FML/]:
+                        )
+
+                    [counter:protected] => 2
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModFatalProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -737,16 +762,18 @@ class ForgeModFatalTest extends PHPUnit\Framework\TestCase
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("The mod 'Techguns' has a fatal error.", $analysis[0]->getMessage());
-        $this->assertEquals("Delete the file 'mods/Techguns.beta.1.2_alphatest4.1.jar'.", $analysis[0][0]->getMessage());
-        $this->assertEquals("Install a different version of the mod 'Techguns'.", $analysis[0][1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[0]->getMessage());
+
+        $this->assertEquals("The mod 'Techguns' has a fatal error.", $analysis[1]->getMessage());
+        $this->assertEquals("Delete the file 'mods/Techguns.beta.1.2_alphatest4.1.jar'.", $analysis[1][0]->getMessage());
+        $this->assertEquals("Install a different version of the mod 'Techguns'.", $analysis[1][1]->getMessage());
 
     }
 }

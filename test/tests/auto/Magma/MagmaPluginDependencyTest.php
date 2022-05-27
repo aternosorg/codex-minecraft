@@ -450,7 +450,32 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
                     [value:protected] => 1.8.8
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Information\Magma\MagmaVersionInformation Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [11:47:42] [Server thread/INFO]: Starting minecraft server version 1.8.8
+                                            [number:protected] => 1
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [11:47:42] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 16
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Information\Magma\MagmaVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -475,7 +500,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
                     [value:protected] => e2b9ab6
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -500,7 +525,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
                     [value:protected] => 14.23.5.2814
                 )
 
-            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
+            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -578,7 +603,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
                     [dependencyPluginName:protected] => Vault
                 )
 
-            [4] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
+            [5] => Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -658,7 +683,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 
         )
 
-    [iterator:protected] => 4
+    [iterator:protected] => 1
 )
 ';
         
@@ -667,17 +692,19 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 
         $this->assertEquals("Minecraft version: 1.8.8", $analysis[0]->getMessage());
 
-        $this->assertEquals("Magma version: e2b9ab6", $analysis[1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
 
-        $this->assertEquals("Forge version: 14.23.5.2814", $analysis[2]->getMessage());
+        $this->assertEquals("Magma version: e2b9ab6", $analysis[2]->getMessage());
 
-        $this->assertEquals("The plugin 'FactionsShop' is missing the required the plugin 'Vault'.", $analysis[3]->getMessage());
-        $this->assertEquals("Install the plugin 'Vault'.", $analysis[3][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/FactionsShop.jar'.", $analysis[3][1]->getMessage());
+        $this->assertEquals("Forge version: 14.23.5.2814", $analysis[3]->getMessage());
 
-        $this->assertEquals("The plugin 'BasicTab' is missing the required the plugin 'ProtocolLib'.", $analysis[4]->getMessage());
-        $this->assertEquals("Install the plugin 'ProtocolLib'.", $analysis[4][0]->getMessage());
-        $this->assertEquals("Delete the file 'plugins/BasicTab.jar'.", $analysis[4][1]->getMessage());
+        $this->assertEquals("The plugin 'FactionsShop' is missing the required the plugin 'Vault'.", $analysis[4]->getMessage());
+        $this->assertEquals("Install the plugin 'Vault'.", $analysis[4][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/FactionsShop.jar'.", $analysis[4][1]->getMessage());
+
+        $this->assertEquals("The plugin 'BasicTab' is missing the required the plugin 'ProtocolLib'.", $analysis[5]->getMessage());
+        $this->assertEquals("Install the plugin 'ProtocolLib'.", $analysis[5][0]->getMessage());
+        $this->assertEquals("Delete the file 'plugins/BasicTab.jar'.", $analysis[5][1]->getMessage());
 
     }
 }

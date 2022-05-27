@@ -530,9 +530,34 @@ class VanillaSnapshot21w05bTest extends PHPUnit\Framework\TestCase
                     [value:protected] => 21w05b
                 )
 
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [12:35:38] [Server thread/INFO]: Starting minecraft server version 21w05b
+                                            [number:protected] => 10
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [12:35:38] [Server thread/INFO]:
+                        )
+
+                    [counter:protected] => 15
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         
@@ -540,6 +565,8 @@ class VanillaSnapshot21w05bTest extends PHPUnit\Framework\TestCase
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
         $this->assertEquals("Minecraft version: 21w05b", $analysis[0]->getMessage());
+
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
 
     }
 }

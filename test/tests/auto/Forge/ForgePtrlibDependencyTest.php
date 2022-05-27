@@ -13518,7 +13518,32 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_232]
                     [value:protected] => 1.12.2
                 )
 
-            [1] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\Vanilla\EnvironmentInformation Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => [17:03:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+                                            [number:protected] => 178
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => [17:03:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:
+                        )
+
+                    [counter:protected] => 513
+                    [label:protected] => Environment
+                    [value:protected] => Server
+                )
+
+            [2] => Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -13543,7 +13568,7 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_232]
                     [value:protected] => 14.23.5.2847
                 )
 
-            [2] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\PTRLibDependencyProblem Object
+            [3] => Aternos\Codex\Minecraft\Analysis\Problem\Forge\PTRLibDependencyProblem Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -13850,7 +13875,7 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_232]
 
         )
 
-    [iterator:protected] => 2
+    [iterator:protected] => 1
 )
 ';
         
@@ -13859,10 +13884,12 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_232]
 
         $this->assertEquals("Minecraft version: 1.12.2", $analysis[0]->getMessage());
 
-        $this->assertEquals("Forge version: 14.23.5.2847", $analysis[1]->getMessage());
+        $this->assertEquals("Environment: Server", $analysis[1]->getMessage());
 
-        $this->assertEquals("A mod is missing the required mod PTRLib.", $analysis[2]->getMessage());
-        $this->assertEquals("Install the mod 'PTRLib'.", $analysis[2][0]->getMessage());
+        $this->assertEquals("Forge version: 14.23.5.2847", $analysis[2]->getMessage());
+
+        $this->assertEquals("A mod is missing the required mod PTRLib.", $analysis[3]->getMessage());
+        $this->assertEquals("Install the mod 'PTRLib'.", $analysis[3][0]->getMessage());
 
     }
 }
