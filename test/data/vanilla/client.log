@@ -1,0 +1,28 @@
+[23:50:45] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:50:45] [Render thread/INFO]: Setting user: JulianVennen
+[23:50:46] [Render thread/WARN]: Invalid floating point value for option textBackgroundOpacity = 
+java.lang.NumberFormatException: empty String
+	at jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842) ~[?:?]
+	at jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110) ~[?:?]
+	at java.lang.Double.parseDouble(Double.java:651) ~[?:?]
+	at dyv$2.a(SourceFile:429) [1.18.2.jar:?]
+	at dyv.a(SourceFile:304) [1.18.2.jar:?]
+	at dyv.a(SourceFile:387) [1.18.2.jar:?]
+	at dyv.<init>(SourceFile:236) [1.18.2.jar:?]
+	at dyr.<init>(SourceFile:454) [1.18.2.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:197) [1.18.2.jar:?]
+[23:50:46] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[23:50:47] [Render thread/INFO]: Reloading ResourceManager: Default
+[23:50:52] [Render thread/INFO]: OpenAL initialized on device SteelSeries Arctis 7 Game
+[23:50:52] [Render thread/INFO]: Sound engine started
+[23:50:53] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[23:50:53] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[23:50:53] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[23:50:53] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[23:50:53] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[23:50:53] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[23:50:53] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[23:50:55] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[23:50:55] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[23:50:55] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[23:51:10] [Render thread/INFO]: Stopping!
