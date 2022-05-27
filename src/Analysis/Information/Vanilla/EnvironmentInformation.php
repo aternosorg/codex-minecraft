@@ -45,4 +45,9 @@ class EnvironmentInformation extends VanillaInformation
                 break;
         }
     }
+
+    public function isEqual($insight): bool
+    {
+        return true;
+    }
 }
