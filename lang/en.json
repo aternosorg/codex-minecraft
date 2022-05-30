@@ -2,6 +2,7 @@
   "minecraft-version": "Minecraft version",
   "java-version": "Java version",
   "fabric-version": "Fabric loader version",
+  "quilt-version": "Quilt loader version",
   "plugin-load-problem": "The plugin '{{plugin-name}}' could not be loaded.",
   "pocketmine-version": "Pocketmine version",
   "bedrock-version": "Bedrock version",
