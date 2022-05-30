@@ -118,16 +118,10 @@ class PluginDependenciesProblem extends BukkitProblem
             return false;
         }
 
-        $dependencies = $insight->getDependencyPluginNames();
-        foreach ($this->getDependencyPlugins() as $plugin) {
-            if (!in_array($plugin, $dependencies)) {
-                return false;
-            }
-            $dependencies = array_filter($dependencies, function ($value) use ($plugin) {
-                return $value !== $plugin;
-            });
-        }
-
-        return sizeof($dependencies) === 0;
+        $dependencies = $insight->getDependencyPlugins();
+        sort($dependencies);
+        $ownDependencies = $this->getDependencyPlugins();
+        sort($ownDependencies);
+        return $dependencies === $ownDependencies;
     }
 }
