@@ -10,7 +10,7 @@ use Aternos\Codex\Parser\ParserInterface;
 
 class BedrockContentLog extends MinecraftServerLog
 {
-    protected static $pattern = '/^(((?:\d{2}:){2}(?:\d{2}))\[\w+\]\[(\w+)\]).*$/';
+    protected static $pattern = '/^((?:\d{2}:){2}(?:\d{2})\[\w+\]\[(\w+)\]).*$/';
 
     /**
      * @return ParserInterface
@@ -19,8 +19,7 @@ class BedrockContentLog extends MinecraftServerLog
     {
         return (new Parser())
             ->setPattern(static::$pattern)
-            ->setTimeFormat('H:i:s')
-            ->setMatches([Parser::PREFIX, Parser::TIME, Parser::LEVEL]);
+            ->setMatches([Parser::PREFIX, Parser::LEVEL]);
     }
 
     /**

@@ -59,7 +59,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => INFORM
-                    [time:protected] => 1653647119
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:19[Blocks][inform]
                 )
@@ -83,7 +83,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => ERROR
-                    [time:protected] => 1653647119
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:19[Blocks][error]
                 )
@@ -131,7 +131,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => INFORM
-                    [time:protected] => 1653647119
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:19[Blocks][inform]
                 )
@@ -155,7 +155,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => ERROR
-                    [time:protected] => 1653647119
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:19[Blocks][error]
                 )
@@ -197,7 +197,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => INFORM
-                    [time:protected] => 1653647119
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:19[Blocks][inform]
                 )
@@ -221,7 +221,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => ERROR
-                    [time:protected] => 1653647119
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:19[Blocks][error]
                 )
@@ -245,7 +245,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => ERROR
-                    [time:protected] => 1653647119
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:19[Item][error]
                 )
@@ -269,7 +269,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => ERROR
-                    [time:protected] => 1653647119
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:19[Item][error]
                 )
@@ -299,7 +299,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => ERROR
-                    [time:protected] => 1653647119
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:19[Json][error]
                 )
@@ -329,7 +329,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => ERROR
-                    [time:protected] => 1653647120
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:20[Recipes][error]
                 )
@@ -359,7 +359,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => ERROR
-                    [time:protected] => 1653647120
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:20[Recipes][error]
                 )
@@ -389,7 +389,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => ERROR
-                    [time:protected] => 1653647120
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:20[Recipes][error]
                 )
@@ -413,7 +413,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => WARNING
-                    [time:protected] => 1653647121
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:21[Commands][warning]
                 )
@@ -437,7 +437,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => WARNING
-                    [time:protected] => 1653647121
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:21[Commands][warning]
                 )
@@ -461,7 +461,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => WARNING
-                    [time:protected] => 1653647121
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:21[Commands][warning]
                 )
@@ -485,7 +485,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => WARNING
-                    [time:protected] => 1653647121
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:21[Commands][warning]
                 )
@@ -509,7 +509,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => WARNING
-                    [time:protected] => 1653647121
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:21[Commands][warning]
                 )
@@ -533,7 +533,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => WARNING
-                    [time:protected] => 1653647121
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:21[Commands][warning]
                 )
@@ -557,7 +557,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => WARNING
-                    [time:protected] => 1653647121
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:21[Commands][warning]
                 )
@@ -581,7 +581,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => WARNING
-                    [time:protected] => 1653647121
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:21[Commands][warning]
                 )
@@ -605,7 +605,7 @@ class BedrockContentTest extends PHPUnit\Framework\TestCase
                         )
 
                     [level:protected] => WARNING
-                    [time:protected] => 1653647121
+                    [time:protected] => 
                     [iterator:protected] => 0
                     [prefix:protected] => 10:25:21[Commands][warning]
                 )
