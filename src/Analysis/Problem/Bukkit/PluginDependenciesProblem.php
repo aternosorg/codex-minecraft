@@ -72,6 +72,13 @@ class PluginDependenciesProblem extends BukkitProblem
      */
     public function getMessage(): string
     {
+        if (count($this->getDependencyPlugins()) === 1) {
+            return Translator::getInstance()->getTranslation("plugin-dependency-problem", [
+                "plugin-name" => $this->getPluginName(),
+                "dependency-plugin-name" => $this->getDependencyPlugins()[0]
+            ]);
+        }
+
         return Translator::getInstance()->getTranslation("plugin-dependencies-problem", [
             "plugin-name" => $this->getPluginName(),
             "dependency-plugin-names" => $this->getDependencyPluginNames()
