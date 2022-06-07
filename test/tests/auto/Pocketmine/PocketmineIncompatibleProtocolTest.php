@@ -3749,7 +3749,7 @@ class PocketmineIncompatibleProtocolTest extends PHPUnit\Framework\TestCase
         $this->assertEquals("Install a different version of the plugin 'Mineflow'.", $analysis[6][0]->getMessage());
         $this->assertEquals("Remove the plugin 'Mineflow'.", $analysis[6][1]->getMessage());
 
-        $this->assertEquals("The plugin 'QuestPlugin' is missing the required the plugin 'Slapper'.", $analysis[7]->getMessage());
+        $this->assertEquals("The plugin 'QuestPlugin' is missing the required plugin 'Slapper'.", $analysis[7]->getMessage());
         $this->assertEquals("Install the plugin 'Slapper'.", $analysis[7][0]->getMessage());
         $this->assertEquals("Remove the plugin 'QuestPlugin'.", $analysis[7][1]->getMessage());
 

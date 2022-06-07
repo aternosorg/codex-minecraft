@@ -598,11 +598,11 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 
         $this->assertEquals("Minecraft version: 1.8.8", $analysis[0]->getMessage());
 
-        $this->assertEquals("The plugin 'FactionsShop' is missing the required the plugin 'Vault'.", $analysis[1]->getMessage());
+        $this->assertEquals("The plugin 'FactionsShop' is missing the required plugin 'Vault'.", $analysis[1]->getMessage());
         $this->assertEquals("Install the plugin 'Vault'.", $analysis[1][0]->getMessage());
         $this->assertEquals("Delete the file 'plugins/FactionsShop.jar'.", $analysis[1][1]->getMessage());
 
-        $this->assertEquals("The plugin 'BasicTab' is missing the required the plugin 'ProtocolLib'.", $analysis[2]->getMessage());
+        $this->assertEquals("The plugin 'BasicTab' is missing the required plugin 'ProtocolLib'.", $analysis[2]->getMessage());
         $this->assertEquals("Install the plugin 'ProtocolLib'.", $analysis[2][0]->getMessage());
         $this->assertEquals("Delete the file 'plugins/BasicTab.jar'.", $analysis[2][1]->getMessage());
 

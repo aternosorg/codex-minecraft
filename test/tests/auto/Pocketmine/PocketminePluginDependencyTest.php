@@ -513,7 +513,7 @@ class PocketminePluginDependencyTest extends PHPUnit\Framework\TestCase
 
         $this->assertEquals("Pocketmine version: 3.7.0", $analysis[1]->getMessage());
 
-        $this->assertEquals("The plugin 'BankNotes' is missing the required the plugin 'EconomyAPI'.", $analysis[2]->getMessage());
+        $this->assertEquals("The plugin 'BankNotes' is missing the required plugin 'EconomyAPI'.", $analysis[2]->getMessage());
         $this->assertEquals("Install the plugin 'EconomyAPI'.", $analysis[2][0]->getMessage());
         $this->assertEquals("Remove the plugin 'BankNotes'.", $analysis[2][1]->getMessage());
 

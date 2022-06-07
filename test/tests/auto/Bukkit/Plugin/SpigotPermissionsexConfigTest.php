@@ -27690,7 +27690,7 @@ at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
         $this->assertEquals("Install a different version of the plugin 'SlashServer'.", $analysis[8][0]->getMessage());
         $this->assertEquals("Delete the file 'plugins/SlashServer.jar'.", $analysis[8][1]->getMessage());
 
-        $this->assertEquals("The plugin 'AreaShop' is missing the required the plugin 'WorldGuard'.", $analysis[9]->getMessage());
+        $this->assertEquals("The plugin 'AreaShop' is missing the required plugin 'WorldGuard'.", $analysis[9]->getMessage());
         $this->assertEquals("Install the plugin 'WorldGuard'.", $analysis[9][0]->getMessage());
         $this->assertEquals("Delete the file 'plugins/AreaShop.jar'.", $analysis[9][1]->getMessage());
 
