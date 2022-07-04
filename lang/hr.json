@@ -7,6 +7,7 @@
     "bedrock-version": "Bedrock verzija",
     "forge-version": "Forge verzija",
     "magma-version": "Magma verzija",
+    "mohist-version": "Verzija Mohista",
     "authme-shutdown-problem": "Plugin 'AuthMe' se ne može učitati i gasi server.",
     "pex-config-problem": "Konfiguracija dodatka 'PermissionsEx' je nevažeća.",
     "ambiguous-plugin-name-problem": "Postoji nekoliko dodataka sa nazivom '{{plugin-name}}': '{{first-plugin-path}}' i '{{second-plugin-path}}'.",
@@ -24,7 +25,7 @@
     "world-missing-mod-problem": "Svijet je spremljen s modom '{{mod-name}}' za koji se čini da nedostaje.",
     "world-mod-version-problem": "Ovaj svijet je spremljen s modom '{{mod-name}}' verzije {{mod-expected-version}} a sada je verzija {{mod-current-version}}.",
     "plugin-incompatible-problem": "Dodatak '{{plugin-name}}' je nekompatibilan s vašom trenutnom verzijom.",
-    "aquatic-world-on-older-version-problem": "Ovaj svijet je kreiran/učitan s Minecraft 1.13 ili većom verzijom. Novi format ne može biti učitan ni s jednom starijom verzijom.",
+    "aquatic-world-on-older-version-problem": "Ovaj je svijet stvoren/učitan u Minecraftu 1.13 ili novijoj verziji. Novi format ne može se učitati ni s jednom starijom verzijom.",
     "old-player-directory-problem": "Server je primijetio stari igračev directory u save-file-u svijeta.",
     "command-run-solution": "Izvršite komandu '{{command}}'.",
     "authme-shutdown-solution": "Postavite 'stopServer' na 'true'.",
@@ -40,7 +41,7 @@
     "mod-install-solution-with-version": "Instalirajte mod '{{mod-name}}' s verzijom {{mod-version}}.",
     "mod-remove-solution": "Uklonite mod '{{mod-name}}'.",
     "aquatic-version-install-solution": "Nadogradite softver servera na 1.13 ili noviju verziju.",
-    "plugin-command-exception-problem": "Plugin '{{plugin-name}}' ne može izvršiti komandu '{{command}}'.",
+    "plugin-command-exception-problem": "Dodatak '{{plugin-name}}' ne može izvršiti naredbu '{{command}}'.",
     "ticking-block-entity-problem": "Blok u svijetu izaziva probleme.",
     "remove-block-solution": "Uklonite blok iz svijeta, na primjer s MCEdit.",
     "do-nothing-solution": "Nemojte raditi ništa. Problem će se možda popraviti sam.",
@@ -62,5 +63,5 @@
     "version-downgrade-problem": "Vaš je svijet je prije korišten na novijoj verziji.",
     "version-downgrade-solution": "Instalirajte noviju verziju Minecrafta.",
     "generate-new-world-solution": "Generirajte novi svijet.",
-    "bedrock-dbstorage-chain-problem": "Nemoguće dešifrirati svijet. Svijetovi iz trgovine ne mogu biti instalirani na namjenskim serverima."
+    "bedrock-dbstorage-chain-problem": "Nemoguće dešifrirati svijet. Svjetovi iz trgovine ne mogu se instalirati na namjenskim serverima."
 }
