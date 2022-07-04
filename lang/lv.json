@@ -7,6 +7,7 @@
     "bedrock-version": "Bedrock versija",
     "forge-version": "Forge versija",
     "magma-version": "Magma versija",
+    "mohist-version": "Mohist versija",
     "authme-shutdown-problem": "Spraudnis 'AuthMe' nespēj ielādēties un izslēdz serveri.",
     "pex-config-problem": "Spraudņa 'PermissionsEx' konfigurācija nav derīga.",
     "ambiguous-plugin-name-problem": "Ir vairāki spraudņu faili ar nosaukumu '{{plugin-name}}': '{{first-plugin-path}}' un '{{second-plugin-path}}'.",
@@ -53,7 +54,14 @@
     "forge-install-different-version-solution": "Instalējiet citu Forge versiju.",
     "malformed-encoding-problem": "Kaut kas (droši vien MOTD) satur nepareizi formatētus formatējuma kodus.",
     "change-motd-solution": "Pārmaini serverim MOTD.",
+    "bedrock-authentication-whitelist-problem": "Baltā saraksta izmantošana bez tiešsaistes autentifikācijas nav atļauta.",
+    "bedrock-authentication-allowlist-problem": "Atļaujsaraksta izmantošana bez tiešsaistes autentifikācijas nav atļauta.",
+    "disable-whitelist-solution": "Atspējot balto sarakstu.",
+    "disable-allowlist-solution": "Atspējot atļaujsarakstu.",
+    "enable-authentication-solution": "Iespējot tiešsaistes autentifikāciju.",
+    "undefined-mod-dependency-problem": "Modam trūkst nepieciešamā moda {{dependency-mod-name}}.",
     "version-downgrade-problem": "Jūsu pasaule iepriekš tika izmantota jaunākā versijā.",
     "version-downgrade-solution": "installēt jaunāku Minecraft versiju",
-    "generate-new-world-solution": "Izveidot jaunu pasauli"
+    "generate-new-world-solution": "Izveidot jaunu pasauli",
+    "bedrock-dbstorage-chain-problem": "Nevar atšifrēt pasauli. Tirgus pasaules nevar instalēt uz veltītiem serveriem."
 }

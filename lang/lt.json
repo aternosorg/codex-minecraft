@@ -46,7 +46,7 @@
     "remove-block-solution": "Pašalinkite bloką iš pasaulio, pvz., su MCEdit.",
     "do-nothing-solution": "Nieko nedarykite. Problema turėtų išsispręsti pati.",
     "chunk-load-exception-problem": "Buvo išimtis įkeliant pasaulio dalis.",
-    "remove-chunk-solution": "Pašalinkite problematišką pasaulio dalį iš pasaulio, pvz., su MCEdit. Taip pat galite ištrinti regionų failą.",
+    "remove-chunk-solution": "Pašalinkite problematišką pasaulio dalį iš pasaulio, pvz., su MCEdit. Taip pat galite pašalinti regionų failą.",
     "multiverse-load-problem": "Pasaulis „{{world-name}}“ negali įsikelti, nes jis turi klaidų ir galimai gali būti pažeistas.",
     "world-repair-solution": "Taisykite pasaulį „{{world-name}}“, pvz., su Minecraft Region Fixer arba MCEdit.",
     "world-duplicate-problem": "Pasaulis „{{world-name}}“ yra kito pasaulio dublikatas ir todėl buvo atšauktas jo įkėlimas.",

@@ -1,9 +1,9 @@
 {
     "minecraft-version": "Phiên bản Minecraft",
-    "java-version": "Phiên bản Java",
-    "fabric-version": "Phiên bản Fabric Loader",
+    "java-version": "Phiên bản Java ",
+    "fabric-version": "Phiên bản Fabric Loader ",
     "plugin-load-problem": "Không thể tải plugin '{{plugin-name}}'.",
-    "pocketmine-version": "Phiên bản Pocketmine",
+    "pocketmine-version": "Phiên bản Pocketmine ",
     "bedrock-version": "Phiên bản Bedrock",
     "forge-version": "Phiên bản Forge",
     "magma-version": "Phiên bản Magma",

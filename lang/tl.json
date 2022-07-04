@@ -62,5 +62,6 @@
     "undefined-mod-dependency-problem": "Mayroong nawawala na mod na kailangan ng mod '{{dependency-mod-name}}'.",
     "version-downgrade-problem": "Ang iyong mundo ay nagamit sa bagong bersyon dati pa.",
     "version-downgrade-solution": "I-install ang bagong bersyon ng Minecraft.",
-    "generate-new-world-solution": "Mag gawa ka ng bagong mundo."
+    "generate-new-world-solution": "Mag gawa ka ng bagong mundo.",
+    "bedrock-dbstorage-chain-problem": "Hindi ma decrypt ang world. Ang marketplace worlds ay hindi ma-Install sa server"
 }
