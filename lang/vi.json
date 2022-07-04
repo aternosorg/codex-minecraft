@@ -1,5 +1,5 @@
 {
-    "minecraft-version": "Phiên bản Minecraft 1.12.2\n",
+    "minecraft-version": "Phiên bản Minecraft",
     "java-version": "Phiên bản Java ",
     "fabric-version": "Phiên bản Fabric Loader ",
     "plugin-load-problem": "Không thể tải plugin '{{plugin-name}}'.",
