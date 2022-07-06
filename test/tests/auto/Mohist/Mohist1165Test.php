@@ -805,7 +805,7 @@ class Mohist1165Test extends PHPUnit\Framework\TestCase
 
                     [counter:protected] => 1
                     [label:protected] => Mohist version
-                    [value:protected] => 934
+                    [value:protected] => 1.16.5-934
                 )
 
         )
@@ -821,7 +821,7 @@ class Mohist1165Test extends PHPUnit\Framework\TestCase
 
         $this->assertEquals("Forge version: 36.2.23", $analysis[1]->getMessage());
 
-        $this->assertEquals("Mohist version: 934", $analysis[2]->getMessage());
+        $this->assertEquals("Mohist version: 1.16.5-934", $analysis[2]->getMessage());
 
     }
 }
