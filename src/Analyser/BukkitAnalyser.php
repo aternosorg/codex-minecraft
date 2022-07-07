@@ -14,6 +14,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginDisablingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginEnablingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginRuntimeProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\UnsupportedApiVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\WorldDuplicateProblem;
 
 /**
@@ -48,6 +49,7 @@ class BukkitAnalyser extends VanillaAnalyser
             PermissionsExConfigProblem::class,
             MultiverseLoadProblem::class,
             PluginDependenciesProblem::class,
+            UnsupportedApiVersionProblem::class,
         ];
     }
 }
