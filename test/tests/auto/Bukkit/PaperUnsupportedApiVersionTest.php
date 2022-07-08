@@ -794,7 +794,7 @@ org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.19
 
         $this->assertEquals("Minecraft version: 1.18.2", $analysis[0]->getMessage());
 
-        $this->assertEquals("The plugin 'AuctionHouse-1.19-3.3.1' needs version '1.19' of the server software.", $analysis[1]->getMessage());
+        $this->assertEquals("The plugin 'AuctionHouse-1.19-3.3.1' needs version '1.19' of your server software.", $analysis[1]->getMessage());
         $this->assertEquals("Install a different version of the plugin 'AuctionHouse-1.19-3.3.1'.", $analysis[1][0]->getMessage());
         $this->assertEquals("Delete the file 'plugins/AuctionHouse-1.19-3.3.1.jar'.", $analysis[1][1]->getMessage());
         $this->assertEquals("Install the version '1.19' of your server software.", $analysis[1][2]->getMessage());
