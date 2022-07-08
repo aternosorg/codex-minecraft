@@ -78,7 +78,7 @@ class UnsupportedApiVersionProblem extends PluginProblem
     {
         return [
             '/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in folder \'[^\']+\''
-            . '\norg\.bukkit\.plugin\.InvalidPluginException\: (?:Unsupported API version ([0-9]+\.[0-9]+))/'
+            . '\norg\.bukkit\.plugin\.InvalidPluginException\: Unsupported API version ([0-9]+\.[0-9]+)/'
         ];
     }
 }
