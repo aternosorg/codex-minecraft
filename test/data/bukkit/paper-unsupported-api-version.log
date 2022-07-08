@@ -1,0 +1,39 @@
+[14:22:43] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:22:45] [Worker-Main-1/INFO]: Loaded 7 recipes
+[14:22:46] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[14:22:46] [Server thread/INFO]: Loading properties
+[14:22:46] [Server thread/INFO]: This server is running Paper version git-Paper-333 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: 9fd870d)
+[14:22:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:22:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:22:46] [Server thread/INFO]: Default game type: SURVIVAL
+[14:22:46] [Server thread/INFO]: Generating keypair
+[14:22:46] [Server thread/INFO]: Starting Minecraft server on *:23728
+[14:22:46] [Server thread/INFO]: Using epoll channel type
+[14:22:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:22:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[14:22:46] [Server thread/ERROR]: Could not load 'plugins/AuctionHouse-1.19-3.3.1.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.19
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:375) ~[paper-1.18.2.jar:git-Paper-387]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:415) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:323) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:418) ~[paper-1.18.2.jar:git-Paper-387]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-387]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-387]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-387]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[14:22:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:22:46] [Server thread/INFO]: Preparing level "world"
+[14:22:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:22:53] [Server thread/INFO]: Time elapsed: 243 ms
+[14:22:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:22:53] [Server thread/INFO]: Time elapsed: 153 ms
+[14:22:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:22:53] [Server thread/INFO]: Time elapsed: 193 ms
+[14:22:53] [Server thread/INFO]: Starting GS4 status listener
+[14:22:53] [Server thread/INFO]: Thread Query Listener started
+[14:22:53] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
+[14:22:53] [Server thread/INFO]: JMX monitoring enabled
+[14:22:53] [Server thread/INFO]: Running delayed init tasks
+[14:22:53] [Server thread/INFO]: Done (7.061s)! For help, type "help"
+[14:22:53] [Server thread/INFO]: Timings Reset

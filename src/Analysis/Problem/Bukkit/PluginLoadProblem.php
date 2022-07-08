@@ -37,7 +37,10 @@ class PluginLoadProblem extends PluginProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in folder \'[^\']+\'(?!\norg.bukkit.plugin.UnknownDependencyException)/'];
+        return [
+            '/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in folder \'[^\']+\''
+            . '(?!\n(org.bukkit.plugin.UnknownDependencyException|org.bukkit.plugin.InvalidPluginException\: Unsupported API version))/'
+        ];
     }
 
     /**
