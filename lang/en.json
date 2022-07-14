@@ -68,5 +68,7 @@
   "bedrock-dbstorage-chain-problem": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers.",
   "mod-incompatible-problem": "The mods '{{first-mod-name}}' and '{{second-mod-name}}' are incompatible.",
   "server-install-different-version-solution": "Install the version '{{software-version}}' of your server software.",
-  "plugin-api-version-problem": "The plugin '{{plugin-name}}' needs version '{{software-version}}' of your server software."
+  "plugin-api-version-problem": "The plugin '{{plugin-name}}' needs version '{{software-version}}' of your server software.",
+  "ticking-entity-problem": "The entity '{{name}}' at the location {{location}} is causing issues while ticking.",
+  "remove-entity-solution": "Remove the entity '{{name}}' at the location {{location}}."
 }

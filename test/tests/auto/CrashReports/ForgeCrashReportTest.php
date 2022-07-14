@@ -2519,7 +2519,49 @@ IvToolkit (IvToolkit-1.3.3-1.10.jar)
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Information\CrashReport\VanillaVersionInformation Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Problem\CrashReport\TickingEntityProblem Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => Description: Ticking entity
+                                            [number:protected] => 12
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => Description:
+                        )
+
+                    [counter:protected] => 4
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\CrashReport\RemoveEntitySolution Object
+                                (
+                                    [name:protected] => item.item.spruceseed
+                                    [locationX:protected] => -37.8
+                                    [locationY:protected] => 106
+                                    [locationZ:protected] => 82.88
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [matchedPattern:protected] => description
+                    [type:protected] => Item
+                    [name:protected] => item.item.spruceseed
+                    [locationX:protected] => -37.8
+                    [locationY:protected] => 106
+                    [locationZ:protected] => 82.88
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\CrashReport\VanillaVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -2546,14 +2588,17 @@ IvToolkit (IvToolkit-1.3.3-1.10.jar)
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("Minecraft version: 1.10.2", $analysis[0]->getMessage());
+        $this->assertEquals("The entity 'item.item.spruceseed' at the location -37.8, 106, 82.88 is causing issues while ticking.", $analysis[0]->getMessage());
+        $this->assertEquals("Remove the entity 'item.item.spruceseed' at the location -37.8, 106, 82.88.", $analysis[0][0]->getMessage());
+
+        $this->assertEquals("Minecraft version: 1.10.2", $analysis[1]->getMessage());
 
     }
 }

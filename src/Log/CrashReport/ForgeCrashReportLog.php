@@ -6,6 +6,7 @@ use Aternos\Codex\Detective\SinglePatternDetector;
 
 class ForgeCrashReportLog extends MinecraftCrashReportLog
 {
+
     public function getSoftware(): string
     {
         return "Forge";

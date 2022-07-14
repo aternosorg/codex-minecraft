@@ -2899,7 +2899,49 @@ Details:
 (
     [insights:protected] => Array
         (
-            [0] => Aternos\Codex\Minecraft\Analysis\Information\CrashReport\VanillaVersionInformation Object
+            [0] => Aternos\Codex\Minecraft\Analysis\Problem\CrashReport\TickingEntityProblem Object
+                (
+                    [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
+                        (
+                            [lines:protected] => Array
+                                (
+                                    [0] => Aternos\Codex\Log\Line Object
+                                        (
+                                            [text:protected] => Description: Ticking entity
+                                            [number:protected] => 5
+                                        )
+
+                                )
+
+                            [level:protected] => INFO
+                            [time:protected] => 
+                            [iterator:protected] => 0
+                            [prefix:protected] => Description:
+                        )
+
+                    [counter:protected] => 4
+                    [solutions:protected] => Array
+                        (
+                            [0] => Aternos\Codex\Minecraft\Analysis\Solution\CrashReport\RemoveEntitySolution Object
+                                (
+                                    [name:protected] => Drowned
+                                    [locationX:protected] => 78.5
+                                    [locationY:protected] => 50
+                                    [locationZ:protected] => 50.5
+                                )
+
+                        )
+
+                    [iterator:protected] => 0
+                    [matchedPattern:protected] => description
+                    [type:protected] => minecraft:drowned
+                    [name:protected] => Drowned
+                    [locationX:protected] => 78.5
+                    [locationY:protected] => 50
+                    [locationZ:protected] => 50.5
+                )
+
+            [1] => Aternos\Codex\Minecraft\Analysis\Information\CrashReport\VanillaVersionInformation Object
                 (
                     [entry:protected] => Aternos\Codex\Minecraft\Log\Entry Object
                         (
@@ -2926,14 +2968,17 @@ Details:
 
         )
 
-    [iterator:protected] => 0
+    [iterator:protected] => 1
 )
 ';
         
         $this->assertEquals($expectedLog, print_r($log, true));
         $this->assertEquals($expectedAnalysis, print_r($analysis, true));
 
-        $this->assertEquals("Minecraft version: 1.16.5", $analysis[0]->getMessage());
+        $this->assertEquals("The entity 'Drowned' at the location 78.5, 50, 50.5 is causing issues while ticking.", $analysis[0]->getMessage());
+        $this->assertEquals("Remove the entity 'Drowned' at the location 78.5, 50, 50.5.", $analysis[0][0]->getMessage());
+
+        $this->assertEquals("Minecraft version: 1.16.5", $analysis[1]->getMessage());
 
     }
 }
