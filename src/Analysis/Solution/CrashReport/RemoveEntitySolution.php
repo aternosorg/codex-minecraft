@@ -7,6 +7,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class RemoveEntitySolution extends CrashReportSolution
 {
     protected ?string $name;
+    protected ?string $type;
     protected ?float $locationX;
     protected ?float $locationY;
     protected ?float $locationZ;
@@ -38,6 +39,22 @@ class RemoveEntitySolution extends CrashReportSolution
     {
         $this->name = $name;
         return $this;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getType(): ?string
+    {
+        return $this->type;
+    }
+
+    /**
+     * @param string|null $type
+     */
+    public function setType(?string $type): void
+    {
+        $this->type = $type;
     }
 
     /**
