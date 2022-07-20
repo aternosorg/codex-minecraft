@@ -68,6 +68,7 @@ class TickingEntityProblem extends CrashReportProblem
     protected function updateSolution(): void
     {
         $this->solutions[0]->setName($this->getName());
+        $this->solutions[0]->setType($this->getType());
         $this->solutions[0]->setLocationX($this->getLocationX());
         $this->solutions[0]->setLocationY($this->getLocationY());
         $this->solutions[0]->setLocationZ($this->getLocationZ());

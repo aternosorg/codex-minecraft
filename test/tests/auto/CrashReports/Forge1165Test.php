@@ -2925,6 +2925,7 @@ Details:
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\CrashReport\RemoveEntitySolution Object
                                 (
                                     [name:protected] => Drowned
+                                    [type:protected] => minecraft:drowned
                                     [locationX:protected] => 78.5
                                     [locationY:protected] => 50
                                     [locationZ:protected] => 50.5

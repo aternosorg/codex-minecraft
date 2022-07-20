@@ -6060,6 +6060,7 @@ Details:
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\CrashReport\RemoveEntitySolution Object
                                 (
                                     [name:protected] => Illager Minion
+                                    [type:protected] => village_employment:illager_minion
                                     [locationX:protected] => 439
                                     [locationY:protected] => 71.94
                                     [locationZ:protected] => 91
