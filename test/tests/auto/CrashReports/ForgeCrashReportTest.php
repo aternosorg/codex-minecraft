@@ -2545,6 +2545,7 @@ IvToolkit (IvToolkit-1.3.3-1.10.jar)
                             [0] => Aternos\Codex\Minecraft\Analysis\Solution\CrashReport\RemoveEntitySolution Object
                                 (
                                     [name:protected] => item.item.spruceseed
+                                    [type:protected] => Item
                                     [locationX:protected] => -37.8
                                     [locationY:protected] => 106
                                     [locationZ:protected] => 82.88
