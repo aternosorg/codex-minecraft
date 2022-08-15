@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=7.4.0",
-        "aternos/codex": "^1.5.0",
+        "php": ">=8.1.0",
+        "aternos/codex": "2.0.x-dev",
         "ext-json": "*"
     },
     "require-dev": {
