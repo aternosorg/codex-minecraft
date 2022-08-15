@@ -19,7 +19,7 @@ class CraftBukkitLog extends BukkitLog
     /**
      * @return array
      */
-    public static function getDetectors()
+    public static function getDetectors(): array
     {
         return array_merge(parent::getDetectors(), [
             (new SinglePatternDetector())->setPattern('/' . static::$prefixPattern . 'This server is running ' . static::$logIdentifier . '/')

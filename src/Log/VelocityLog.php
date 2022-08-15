@@ -24,7 +24,7 @@ class VelocityLog extends MinecraftProxyLog
     /**
      * @return VelocityAnalyser
      */
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): VelocityAnalyser
     {
         return new VelocityAnalyser();
     }
@@ -32,7 +32,7 @@ class VelocityLog extends MinecraftProxyLog
     /**
      * @return array
      */
-    public static function getDetectors()
+    public static function getDetectors(): array
     {
         return [
             (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . 'Booting up Velocity [0-9\.]+$/m')

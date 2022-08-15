@@ -7,6 +7,7 @@ use Aternos\Codex\Minecraft\Analyser\BedrockAnalyser;
 use Aternos\Codex\Minecraft\Analyser\BedrockContentAnalyser;
 use Aternos\Codex\Minecraft\Parser\Parser;
 use Aternos\Codex\Parser\ParserInterface;
+use Aternos\Codex\Parser\PatternParser;
 
 class BedrockContentLog extends MinecraftServerLog
 {
@@ -15,7 +16,7 @@ class BedrockContentLog extends MinecraftServerLog
     /**
      * @return ParserInterface
      */
-    public static function getDefaultParser()
+    public static function getDefaultParser(): ParserInterface
     {
         return (new Parser())
             ->setPattern(static::$pattern)
@@ -25,7 +26,7 @@ class BedrockContentLog extends MinecraftServerLog
     /**
      * @inheritDoc
      */
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): BedrockContentAnalyser
     {
         return new BedrockContentAnalyser();
     }

@@ -12,7 +12,7 @@ class ForgeCrashReportLog extends MinecraftCrashReportLog
         return "Forge";
     }
 
-    public static function getDetectors()
+    public static function getDetectors(): array
     {
         return [(new SinglePatternDetector())->setPattern("/^---- Minecraft Crash Report ----(\n.*)*\n\tFML:/")];
     }

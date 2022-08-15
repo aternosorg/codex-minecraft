@@ -19,7 +19,7 @@ class PaperLog extends SpigotLog
     /**
      * @return PaperAnalyser
      */
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): PaperAnalyser
     {
         return new PaperAnalyser();
     }

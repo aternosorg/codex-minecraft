@@ -18,7 +18,7 @@ class BedrockLog extends MinecraftServerLog
     /**
      * @return ParserInterface
      */
-    public static function getDefaultParser()
+    public static function getDefaultParser(): ParserInterface
     {
         return (new Parser())
             ->setPattern(static::$pattern)
@@ -29,7 +29,7 @@ class BedrockLog extends MinecraftServerLog
     /**
      * @return BedrockAnalyser
      */
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): BedrockAnalyser
     {
         return new BedrockAnalyser();
     }

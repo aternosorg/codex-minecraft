@@ -36,7 +36,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
     /**
      * @var array
      */
-    protected $possibleLogClasses = [
+    protected array $possibleLogClasses = [
         VanillaLog::class,
         OldVanillaLog::class,
         OldCraftBukkitLog::class,

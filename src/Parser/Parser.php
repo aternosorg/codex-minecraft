@@ -17,7 +17,7 @@ class Parser extends PatternParser
     /**
      * @var string
      */
-    protected $entryClass = \Aternos\Codex\Minecraft\Log\Entry::class;
+    protected string $entryClass = \Aternos\Codex\Minecraft\Log\Entry::class;
 
     /**
      * Parse an entry match
@@ -26,7 +26,7 @@ class Parser extends PatternParser
      * @param string $matchType
      * @param string $matchString
      */
-    protected function parseEntryMatch(Entry $entry, string $matchType, string $matchString)
+    protected function parseEntryMatch(Entry $entry, string $matchType, string $matchString): void
     {
         switch ($matchType) {
             case static::PREFIX:

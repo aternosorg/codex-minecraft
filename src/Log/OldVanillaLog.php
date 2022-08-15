@@ -25,7 +25,7 @@ class OldVanillaLog extends VanillaLog
     /**
      * @return ParserInterface
      */
-    public static function getDefaultParser()
+    public static function getDefaultParser(): ParserInterface
     {
         return (new Parser())
             ->setPattern(static::$pattern)

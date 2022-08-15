@@ -23,7 +23,7 @@ class CrashReportParser extends \Aternos\Codex\Parser\Parser
         self::LEVEL_COMMENT => ["/\/\/.*$/"],
     ];
 
-    public function parse()
+    public function parse(): void
     {
         foreach ($this->getLogContentAsArray() as $number => $lineString) {
             $line = new Line($number + 1, $lineString);

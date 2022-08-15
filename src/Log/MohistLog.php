@@ -25,7 +25,7 @@ class MohistLog extends VanillaLog
     /**
      * @return array
      */
-    public static function getDetectors()
+    public static function getDetectors(): array
     {
         return [
             (new SinglePatternDetector())->setPattern('/' . static::$prefixPattern . 'Injecting coremod MohistCorePlugin/'),
@@ -36,7 +36,7 @@ class MohistLog extends VanillaLog
     /**
      * @return MohistAnalyser
      */
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): MohistAnalyser
     {
         return new MohistAnalyser();
     }

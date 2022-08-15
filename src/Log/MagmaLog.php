@@ -25,7 +25,7 @@ class MagmaLog extends VanillaLog
     /**
      * @return array
      */
-    public static function getDetectors()
+    public static function getDetectors(): array
     {
         return [
             (new SinglePatternDetector())->setPattern('/' . static::$prefixPattern . 'This server is running Magma version/')
@@ -35,7 +35,7 @@ class MagmaLog extends VanillaLog
     /**
      * @return MagmaAnalyser
      */
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): MagmaAnalyser
     {
         return new MagmaAnalyser();
     }

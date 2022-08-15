@@ -8,7 +8,7 @@ use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformati
 
 class QuiltLog extends VanillaLog
 {
-    public static function getDetectors()
+    public static function getDetectors(): array
     {
         return array_merge(parent::getDetectors(), [
             (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . 'Loading Minecraft '. VanillaVersionInformation::getVersionPattern() . ' with Quilt Loader/')
@@ -18,7 +18,7 @@ class QuiltLog extends VanillaLog
     /**
      * @return QuiltAnalyser
      */
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): QuiltAnalyser
     {
         return new QuiltAnalyser();
     }

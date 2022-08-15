@@ -23,7 +23,7 @@ class PocketmineLog extends MinecraftServerLog
     /**
      * @return ParserInterface
      */
-    public static function getDefaultParser()
+    public static function getDefaultParser(): ParserInterface
     {
         return (new Parser())
             ->setPattern(static::$pattern)
@@ -34,7 +34,7 @@ class PocketmineLog extends MinecraftServerLog
     /**
      * @return array
      */
-    public static function getDetectors()
+    public static function getDetectors(): array
     {
         return array_merge(parent::getDetectors(), [
             (new SinglePatternDetector())->setPattern('/This server is running PocketMine-MP version/')
@@ -44,7 +44,7 @@ class PocketmineLog extends MinecraftServerLog
     /**
      * @return PocketmineAnalyser
      */
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): PocketmineAnalyser
     {
         return new PocketmineAnalyser();
     }

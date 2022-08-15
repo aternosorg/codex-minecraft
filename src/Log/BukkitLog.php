@@ -14,7 +14,7 @@ abstract class BukkitLog extends VanillaLog
     /**
      * @return BukkitAnalyser
      */
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): BukkitAnalyser
     {
         return new BukkitAnalyser();
     }

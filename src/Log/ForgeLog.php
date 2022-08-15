@@ -20,7 +20,7 @@ class ForgeLog extends VanillaLog
     /**
      * @return array
      */
-    public static function getDetectors()
+    public static function getDetectors(): array
     {
         return array_merge(parent::getDetectors(), [
             (new WeightedSinglePatternDetector())->setPattern('/MinecraftForge v[0-9\.]+ Initialized/')->setWeight(1)
@@ -30,7 +30,7 @@ class ForgeLog extends VanillaLog
     /**
      * @return ForgeAnalyser
      */
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): ForgeAnalyser
     {
         return new ForgeAnalyser();
     }

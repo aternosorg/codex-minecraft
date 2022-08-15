@@ -12,17 +12,17 @@ class MinecraftCrashReportLog extends MinecraftLog implements DetectableLogInter
 {
     protected static $pattern = "/.*/";
 
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): MinecraftCrashReportAnalyser
     {
         return new MinecraftCrashReportAnalyser();
     }
 
-    public static function getDetectors()
+    public static function getDetectors(): array
     {
         return [(new SinglePatternDetector())->setPattern("/---- Minecraft Crash Report ----/")];
     }
 
-    public static function getDefaultParser()
+    public static function getDefaultParser(): CrashReportParser
     {
         return (new CrashReportParser());
     }

@@ -24,7 +24,7 @@ class VanillaLog extends MinecraftServerLog
     /**
      * @return VanillaAnalyser
      */
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): VanillaAnalyser
     {
         return new VanillaAnalyser();
     }

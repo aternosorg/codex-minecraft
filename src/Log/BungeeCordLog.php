@@ -24,7 +24,7 @@ class BungeeCordLog extends MinecraftProxyLog
     /**
      * @return BungeeCordAnalyser
      */
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): BungeeCordAnalyser
     {
         return new BungeeCordAnalyser();
     }
@@ -32,7 +32,7 @@ class BungeeCordLog extends MinecraftProxyLog
     /**
      * @return array
      */
-    public static function getDetectors()
+    public static function getDetectors(): array
     {
         return [
             (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . 'Enabled BungeeCord version [^ ]+$/m')

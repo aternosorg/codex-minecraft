@@ -24,7 +24,7 @@ class GeyserLog extends MinecraftProxyLog
     /**
      * @return GeyserAnalyser
      */
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): GeyserAnalyser
     {
         return new GeyserAnalyser();
     }
@@ -32,7 +32,7 @@ class GeyserLog extends MinecraftProxyLog
     /**
      * @return array
      */
-    public static function getDetectors()
+    public static function getDetectors(): array
     {
         return array_merge(parent::getDetectors(), [
             (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . 'Loading Geyser version .*$/m')

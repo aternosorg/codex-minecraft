@@ -17,7 +17,7 @@ class FabricLog extends VanillaLog
     /**
      * @return array
      */
-    public static function getDetectors()
+    public static function getDetectors(): array
     {
         return array_merge(parent::getDetectors(), [
             (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . 'Loading Minecraft '. VanillaVersionInformation::getVersionPattern() . ' with Fabric Loader/'),
@@ -31,7 +31,7 @@ class FabricLog extends VanillaLog
     /**
      * @return FabricAnalyser
      */
-    public static function getDefaultAnalyser()
+    public static function getDefaultAnalyser(): FabricAnalyser
     {
         return new FabricAnalyser();
     }
