@@ -1,0 +1,117 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[17Mar2022 00:00:24.134] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.0.17, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220228.144236, nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[17Mar2022 00:00:24.137] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.1 by Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[17Mar2022 00:00:24.219] [main\/INFO] [mixin\/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:\/server\/libraries\/org\/spongepowered\/mixin\/0.8.5\/mixin-0.8.5.jar%2314!\/ Service=ModLauncher Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[17Mar2022 00:00:24.557] [main\/ERROR] [net.minecraftforge.fml.loading.ModSorter\/LOADING]: Missing mandatory dependencies: dynamicregistries"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[17Mar2022 00:00:25.586] [main\/INFO] [mixin\/]: Compatibility level set to JAVA_17"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[17Mar2022 00:00:25.614] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.18.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[17Mar2022 00:00:24.134] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.0.17, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220228.144236, nogui]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.18.2"
+            },
+            {
+                "message": "Forge version: 40.0.17",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[17Mar2022 00:00:24.134] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.0.17, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220228.144236, nogui]"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "40.0.17"
+            },
+            {
+                "message": "Java version: 17.0.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[17Mar2022 00:00:24.137] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.1 by Oracle Corporation"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17.0.1"
+            }
+        ]
+    }
+}

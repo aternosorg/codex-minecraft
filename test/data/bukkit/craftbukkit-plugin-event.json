@@ -1,0 +1,1408 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[03:41:13] [Server thread\/INFO]: Starting minecraft server version 1.8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[03:41:13] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[03:41:13] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[03:41:13] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[03:41:13] [Server thread\/INFO]: Starting Minecraft server on *:10485"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[03:41:14] [Server thread\/INFO]: This server is running CraftBukkit version git-Bukkit-7019900 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[03:41:15] [Server thread\/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[03:41:15] [Server thread\/INFO]: [TrollBoss] Loading TrollBoss v5.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[03:41:15] [Server thread\/INFO]: [NametagEdit] Loading NametagEdit v4.4.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[03:41:15] [Server thread\/INFO]: [Vault] Loading Vault v1.5.0-b28"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[03:41:15] [Server thread\/INFO]: [MySkin] Loading MySkin v2.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[03:41:16] [Server thread\/INFO]: [ChatColor] Loading ChatColor v5.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[03:41:16] [Server thread\/INFO]: [Holograms] Loading Holograms v2.5.0-SNAPSHOT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[03:41:16] [Server thread\/INFO]: [SimpleRename] Loading SimpleRename v10.7.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[03:41:16] [Server thread\/INFO]: [AuthMe] Loading AuthMe v5.5.0-SNAPSHOT-b2116"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[03:41:16] [Server thread\/INFO]: [Shopkeepers] Loading Shopkeepers v2.2.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[03:41:16] [Server thread\/INFO]: [LockettePro] Loading LockettePro v2.4.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[03:41:16] [Server thread\/INFO]: [Vault] Enabling Vault v1.5.0-b28"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[03:41:16] [Server thread\/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[03:41:16] [Server thread\/INFO]: [Vault] Enabled Version 1.5.0-b28"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[03:41:16] [Server thread\/WARN]: **** SERVER IS RUNNING IN OFFLINE\/INSECURE MODE!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[03:41:16] [Server thread\/WARN]: The server will make no attempt to authenticate usernames. Beware."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[03:41:16] [Server thread\/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[03:41:16] [Server thread\/WARN]: To change this, set \"online-mode\" to \"true\" in the server.properties file."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[03:41:16] [Server thread\/INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[03:41:16] [Server thread\/INFO]: Preparing start region for level 0 (Seed: 296591835528737454)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[03:41:17] [Server thread\/INFO]: Preparing spawn area: 3%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[03:41:18] [Server thread\/INFO]: Preparing spawn area: 28%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[03:41:19] [Server thread\/INFO]: Preparing spawn area: 62%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[03:41:20] [Server thread\/INFO]: Preparing start region for level 1 (Seed: 296591835528737454)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[03:41:21] [Server thread\/INFO]: Preparing spawn area: 61%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[03:41:22] [Server thread\/INFO]: Preparing start region for level 2 (Seed: 296591835528737454)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[03:41:22] [Server thread\/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[03:41:23] [Server thread\/INFO]: WEPIF: Using the Bukkit Permissions API."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[03:41:23] [Server thread\/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[03:41:23] [Server thread\/INFO]: [TrollBoss] Enabling TrollBoss v5.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[03:41:23] [Server thread\/INFO]: [TrollBoss] Metrics started!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[03:41:23] [Server thread\/INFO]: [TrollBoss] Created stats file."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[03:41:23] [Server thread\/INFO]: [TrollBoss] Saved stats file."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[03:41:23] [Server thread\/INFO]: [TrollBoss] Plugin enabled!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[03:41:23] [Server thread\/INFO]: [NametagEdit] Enabling NametagEdit v4.4.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[03:41:24] [Server thread\/INFO]: [MySkin] Enabling MySkin v2.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[03:41:24] [Server thread\/INFO]: \\u001b[0;32;1m[MySkin] Running on server version \\u001b[0;33;1mv1_8_R1\\u001b[m"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[03:41:25] [Server thread\/INFO]: [ChatColor] Enabling ChatColor v5.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[03:41:25] [Server thread\/INFO]: [ChatColor] Using ChatLogger"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[03:41:25] [Server thread\/INFO]: [Holograms] Enabling Holograms v2.5.0-SNAPSHOT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[03:41:25] [Server thread\/INFO]: [Holograms] HologramEntityController set to: com.sainttx.holograms.nms.v1_8_R1.HologramEntityControllerImpl"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[03:41:25] [Server thread\/INFO]: [SimpleRename] Enabling SimpleRename v10.7.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[03:41:25] [Server thread\/INFO]: SimpleRename enabled!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[03:41:25] [Server thread\/INFO]: [AuthMe] Enabling AuthMe v5.5.0-SNAPSHOT-b2116"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[03:41:25] [Server thread\/INFO]: [AuthMe] SQLite Setup finished"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[03:41:26] [Server thread\/INFO]: [AuthMe] Hooked into Vault!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[03:41:26] [Server thread\/INFO]: [AuthMe] [LICENSE] This product includes GeoLite2 data created by MaxMind, available at https:\/\/www.maxmind.com"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[03:41:26] [Server thread\/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[03:41:26] [Server thread\/INFO]: [AuthMe] Development builds are available on our jenkins, thanks to FastVM.io"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[03:41:26] [Server thread\/INFO]: [AuthMe] Do you want a good vps for your game server? Look at our sponsor FastVM.io leader as virtual server provider!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[03:41:26] [Server thread\/INFO]: [AuthMe] AuthMe 5.5.0-SNAPSHOT build n.2116 correctly enabled!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[03:41:27] [Server thread\/INFO]: [Shopkeepers] Enabling Shopkeepers v2.2.1"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[03:41:27] [Server thread\/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': POLAR_BEAR"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[03:41:27] [Server thread\/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': STRAY"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[03:41:27] [Server thread\/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': WITHER_SKELETON"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[03:41:27] [Server thread\/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ZOMBIE_VILLAGER"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[03:41:27] [Server thread\/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': HUSK"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[03:41:27] [Server thread\/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': EVOKER"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[03:41:27] [Server thread\/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': VEX"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[03:41:27] [Server thread\/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': VINDICATOR"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[03:41:27] [Server thread\/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ILLUSIONER"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[03:41:27] [Server thread\/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': PARROT"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[03:41:27] [Server thread\/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https:\/\/hub.spigotmc.org\/javadocs\/spigot\/org\/bukkit\/entity\/EntityType.html"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[03:41:28] [Server thread\/INFO]: [Shopkeepers] Loading data of 4 shopkeepers.."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[03:41:29] [Server thread\/INFO]: [LockettePro] Enabling LockettePro v2.4.0"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[03:41:29] [Server thread\/ERROR]: [LockettePro] Plugin LockettePro v2.4.0 has failed to register events for class me.crafter.mc.lockettepro.BlockEnvironmentListener because org\/bukkit\/event\/block\/BlockExplodeEvent does not exist."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[03:41:29] [Server thread\/INFO]: Server permissions file permissions.yml is empty, ignoring it"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[03:41:29] [Server thread\/INFO]: Done (13.397s)! For help, type \"help\" or \"?\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[03:41:29] [Server thread\/INFO]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[03:41:29] [Query Listener #1\/INFO]: Query running on **.**.**.**:10485"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[04:18:58] [Server thread\/ERROR]: Could not pass event EntityExplodeEvent to TrollBoss v5.6"
+                },
+                {
+                    "number": 78,
+                    "content": "org.bukkit.event.EventException"
+                },
+                {
+                    "number": 79,
+                    "content": "\tat org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:297) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 80,
+                    "content": "\tat org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 81,
+                    "content": "\tat org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:501) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 82,
+                    "content": "\tat org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:486) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 83,
+                    "content": "\tat net.minecraft.server.v1_8_R1.Explosion.a(Explosion.java:181) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 84,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.createExplosion(World.java:1627) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 85,
+                    "content": "\tat net.minecraft.server.v1_8_R1.WorldServer.createExplosion(WorldServer.java:965) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 86,
+                    "content": "\tat net.minecraft.server.v1_8_R1.EntityCreeper.cp(EntityCreeper.java:214) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 87,
+                    "content": "\tat net.minecraft.server.v1_8_R1.EntityCreeper.s_(EntityCreeper.java:104) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 88,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.entityJoinedWorld(World.java:1374) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 89,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.g(World.java:1352) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 90,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.tickEntities(World.java:1222) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 91,
+                    "content": "\tat net.minecraft.server.v1_8_R1.WorldServer.tickEntities(WorldServer.java:539) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 92,
+                    "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.z(MinecraftServer.java:715) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 93,
+                    "content": "\tat net.minecraft.server.v1_8_R1.DedicatedServer.z(DedicatedServer.java:284) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 94,
+                    "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.y(MinecraftServer.java:609) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 95,
+                    "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:517) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 96,
+                    "content": "\tat java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                },
+                {
+                    "number": 97,
+                    "content": "Caused by: java.lang.NullPointerException"
+                },
+                {
+                    "number": 98,
+                    "content": "\tat listeners.CreeperExplodeListener.onCreeperExplodeBow(CreeperExplodeListener.java:77) ~[?:?]"
+                },
+                {
+                    "number": 99,
+                    "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 100,
+                    "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 101,
+                    "content": "\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 102,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 103,
+                    "content": "\tat org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:295) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 104,
+                    "content": "\t... 17 more"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[04:18:58] [Server thread\/ERROR]: Could not pass event EntityExplodeEvent to TrollBoss v5.6"
+                },
+                {
+                    "number": 106,
+                    "content": "org.bukkit.event.EventException"
+                },
+                {
+                    "number": 107,
+                    "content": "\tat org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:297) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 108,
+                    "content": "\tat org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 109,
+                    "content": "\tat org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:501) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 110,
+                    "content": "\tat org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:486) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 111,
+                    "content": "\tat net.minecraft.server.v1_8_R1.Explosion.a(Explosion.java:181) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 112,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.createExplosion(World.java:1627) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 113,
+                    "content": "\tat net.minecraft.server.v1_8_R1.WorldServer.createExplosion(WorldServer.java:965) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 114,
+                    "content": "\tat net.minecraft.server.v1_8_R1.EntityCreeper.cp(EntityCreeper.java:214) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 115,
+                    "content": "\tat net.minecraft.server.v1_8_R1.EntityCreeper.s_(EntityCreeper.java:104) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 116,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.entityJoinedWorld(World.java:1374) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 117,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.g(World.java:1352) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 118,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.tickEntities(World.java:1222) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 119,
+                    "content": "\tat net.minecraft.server.v1_8_R1.WorldServer.tickEntities(WorldServer.java:539) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 120,
+                    "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.z(MinecraftServer.java:715) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 121,
+                    "content": "\tat net.minecraft.server.v1_8_R1.DedicatedServer.z(DedicatedServer.java:284) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 122,
+                    "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.y(MinecraftServer.java:609) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 123,
+                    "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:517) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 124,
+                    "content": "\tat java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                },
+                {
+                    "number": 125,
+                    "content": "Caused by: java.lang.NullPointerException"
+                },
+                {
+                    "number": 126,
+                    "content": "\tat listeners.CreeperExplodeListener.onCreeperExplode(CreeperExplodeListener.java:27) ~[?:?]"
+                },
+                {
+                    "number": 127,
+                    "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 128,
+                    "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 129,
+                    "content": "\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 130,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 131,
+                    "content": "\tat org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:295) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 132,
+                    "content": "\t... 17 more"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "[04:25:12] [Server thread\/ERROR]: Could not pass event EntityExplodeEvent to TrollBoss v5.6"
+                },
+                {
+                    "number": 134,
+                    "content": "org.bukkit.event.EventException"
+                },
+                {
+                    "number": 135,
+                    "content": "\tat org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:297) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 136,
+                    "content": "\tat org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 137,
+                    "content": "\tat org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:501) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 138,
+                    "content": "\tat org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:486) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 139,
+                    "content": "\tat net.minecraft.server.v1_8_R1.Explosion.a(Explosion.java:181) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 140,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.createExplosion(World.java:1627) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 141,
+                    "content": "\tat net.minecraft.server.v1_8_R1.WorldServer.createExplosion(WorldServer.java:965) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 142,
+                    "content": "\tat net.minecraft.server.v1_8_R1.EntityCreeper.cp(EntityCreeper.java:214) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 143,
+                    "content": "\tat net.minecraft.server.v1_8_R1.EntityCreeper.s_(EntityCreeper.java:104) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 144,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.entityJoinedWorld(World.java:1374) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 145,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.g(World.java:1352) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 146,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.tickEntities(World.java:1222) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 147,
+                    "content": "\tat net.minecraft.server.v1_8_R1.WorldServer.tickEntities(WorldServer.java:539) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 148,
+                    "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.z(MinecraftServer.java:715) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 149,
+                    "content": "\tat net.minecraft.server.v1_8_R1.DedicatedServer.z(DedicatedServer.java:284) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 150,
+                    "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.y(MinecraftServer.java:609) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 151,
+                    "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:517) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 152,
+                    "content": "\tat java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                },
+                {
+                    "number": 153,
+                    "content": "Caused by: java.lang.NullPointerException"
+                },
+                {
+                    "number": 154,
+                    "content": "\tat listeners.CreeperExplodeListener.onCreeperExplodeBow(CreeperExplodeListener.java:77) ~[?:?]"
+                },
+                {
+                    "number": 155,
+                    "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 156,
+                    "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 157,
+                    "content": "\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 158,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 159,
+                    "content": "\tat org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:295) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 160,
+                    "content": "\t... 17 more"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "[04:25:12] [Server thread\/ERROR]: Could not pass event EntityExplodeEvent to TrollBoss v5.6"
+                },
+                {
+                    "number": 162,
+                    "content": "org.bukkit.event.EventException"
+                },
+                {
+                    "number": 163,
+                    "content": "\tat org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:297) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 164,
+                    "content": "\tat org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 165,
+                    "content": "\tat org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:501) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 166,
+                    "content": "\tat org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:486) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 167,
+                    "content": "\tat net.minecraft.server.v1_8_R1.Explosion.a(Explosion.java:181) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 168,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.createExplosion(World.java:1627) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 169,
+                    "content": "\tat net.minecraft.server.v1_8_R1.WorldServer.createExplosion(WorldServer.java:965) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 170,
+                    "content": "\tat net.minecraft.server.v1_8_R1.EntityCreeper.cp(EntityCreeper.java:214) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 171,
+                    "content": "\tat net.minecraft.server.v1_8_R1.EntityCreeper.s_(EntityCreeper.java:104) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 172,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.entityJoinedWorld(World.java:1374) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 173,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.g(World.java:1352) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 174,
+                    "content": "\tat net.minecraft.server.v1_8_R1.World.tickEntities(World.java:1222) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 175,
+                    "content": "\tat net.minecraft.server.v1_8_R1.WorldServer.tickEntities(WorldServer.java:539) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 176,
+                    "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.z(MinecraftServer.java:715) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 177,
+                    "content": "\tat net.minecraft.server.v1_8_R1.DedicatedServer.z(DedicatedServer.java:284) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 178,
+                    "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.y(MinecraftServer.java:609) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 179,
+                    "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:517) [minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 180,
+                    "content": "\tat java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                },
+                {
+                    "number": 181,
+                    "content": "Caused by: java.lang.NullPointerException"
+                },
+                {
+                    "number": 182,
+                    "content": "\tat listeners.CreeperExplodeListener.onCreeperExplode(CreeperExplodeListener.java:27) ~[?:?]"
+                },
+                {
+                    "number": 183,
+                    "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 184,
+                    "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 185,
+                    "content": "\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 186,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 187,
+                    "content": "\tat org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:295) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                },
+                {
+                    "number": 188,
+                    "content": "\t... 17 more"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 189,
+                    "content": "[04:26:30] [Server thread\/INFO]: Saving..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "[04:26:30] [Server thread\/INFO]: Saved the world"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The plugin 'TrollBoss' has a problem while running.",
+                "counter": 4,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 77,
+                            "content": "[04:18:58] [Server thread\/ERROR]: Could not pass event EntityExplodeEvent to TrollBoss v5.6"
+                        },
+                        {
+                            "number": 78,
+                            "content": "org.bukkit.event.EventException"
+                        },
+                        {
+                            "number": 79,
+                            "content": "\tat org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:297) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 80,
+                            "content": "\tat org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 81,
+                            "content": "\tat org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:501) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 82,
+                            "content": "\tat org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:486) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 83,
+                            "content": "\tat net.minecraft.server.v1_8_R1.Explosion.a(Explosion.java:181) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 84,
+                            "content": "\tat net.minecraft.server.v1_8_R1.World.createExplosion(World.java:1627) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 85,
+                            "content": "\tat net.minecraft.server.v1_8_R1.WorldServer.createExplosion(WorldServer.java:965) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 86,
+                            "content": "\tat net.minecraft.server.v1_8_R1.EntityCreeper.cp(EntityCreeper.java:214) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 87,
+                            "content": "\tat net.minecraft.server.v1_8_R1.EntityCreeper.s_(EntityCreeper.java:104) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 88,
+                            "content": "\tat net.minecraft.server.v1_8_R1.World.entityJoinedWorld(World.java:1374) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 89,
+                            "content": "\tat net.minecraft.server.v1_8_R1.World.g(World.java:1352) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 90,
+                            "content": "\tat net.minecraft.server.v1_8_R1.World.tickEntities(World.java:1222) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 91,
+                            "content": "\tat net.minecraft.server.v1_8_R1.WorldServer.tickEntities(WorldServer.java:539) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 92,
+                            "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.z(MinecraftServer.java:715) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 93,
+                            "content": "\tat net.minecraft.server.v1_8_R1.DedicatedServer.z(DedicatedServer.java:284) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 94,
+                            "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.y(MinecraftServer.java:609) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 95,
+                            "content": "\tat net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:517) [minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 96,
+                            "content": "\tat java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                        },
+                        {
+                            "number": 97,
+                            "content": "Caused by: java.lang.NullPointerException"
+                        },
+                        {
+                            "number": 98,
+                            "content": "\tat listeners.CreeperExplodeListener.onCreeperExplodeBow(CreeperExplodeListener.java:77) ~[?:?]"
+                        },
+                        {
+                            "number": 99,
+                            "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 100,
+                            "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 101,
+                            "content": "\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 102,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 103,
+                            "content": "\tat org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:295) ~[minecraft_server.jar:git-Bukkit-7019900]"
+                        },
+                        {
+                            "number": 104,
+                            "content": "\t... 17 more"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'TrollBoss'."
+                    },
+                    {
+                        "message": "Remove the plugin 'TrollBoss'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.8",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[03:41:13] [Server thread\/INFO]: Starting minecraft server version 1.8"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.8"
+            }
+        ]
+    }
+}

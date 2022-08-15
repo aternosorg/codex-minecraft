@@ -1,0 +1,521 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[23:49:54] [Server thread\/INFO]: Starting minecraft server version 1.8.8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[23:49:54] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[23:49:54] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[23:49:54] [Server thread\/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[23:49:56] [Server thread\/INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[23:49:56] [Server thread\/INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[23:49:56] [Server thread\/INFO]: Debug logging is disabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[23:49:56] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[23:49:57] [Server thread\/INFO]: Starting Minecraft server on *:10182"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[23:49:57] [Server thread\/INFO]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[23:49:59] [Server thread\/INFO]: Attempted to place a tile entity (net.minecraft.server.v1_8_R3.TileEntityCommand@615d8ac7) at -31,62,-34 (AIR) where there was no entity tile!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[23:49:59] [Server thread\/INFO]: Chunk coordinates: -32,-48"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[23:49:59] [Server thread\/WARN]: java.lang.Exception"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[23:49:59] [Server thread\/WARN]: at net.minecraft.server.v1_8_R3.Chunk.a(Chunk.java:791)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[23:49:59] [Server thread\/WARN]: at net.minecraft.server.v1_8_R3.Chunk.a(Chunk.java:769)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[23:49:59] [Server thread\/WARN]: at net.minecraft.server.v1_8_R3.ChunkRegionLoader.loadEntities(ChunkRegionLoader.java:433)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[23:49:59] [Server thread\/WARN]: at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:46)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[23:49:59] [Server thread\/WARN]: at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:1)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[23:49:59] [Server thread\/WARN]: at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:337)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[23:49:59] [Server thread\/WARN]: at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:295)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[23:49:59] [Server thread\/WARN]: at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:16)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[23:49:59] [Server thread\/WARN]: at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:115)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[23:49:59] [Server thread\/WARN]: at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:97)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[23:49:59] [Server thread\/WARN]: at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:369)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[23:49:59] [Server thread\/WARN]: at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[23:49:59] [Server thread\/WARN]: at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[23:49:59] [Server thread\/WARN]: at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[23:49:59] [Server thread\/WARN]: at java.lang.Thread.run(Thread.java:748)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[23:49:59] [Server thread\/ERROR]: Encountered an unexpected exception"
+                },
+                {
+                    "number": 30,
+                    "content": "java.lang.NullPointerException"
+                },
+                {
+                    "number": 31,
+                    "content": "at net.minecraft.server.v1_8_R3.WorldServer.b(WorldServer.java:577) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 32,
+                    "content": "at net.minecraft.server.v1_8_R3.ChunkRegionLoader.loadEntities(ChunkRegionLoader.java:454) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 33,
+                    "content": "at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:46) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 34,
+                    "content": "at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:1) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 35,
+                    "content": "at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:337) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 36,
+                    "content": "at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:295) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 37,
+                    "content": "at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:16) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 38,
+                    "content": "at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:115) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 39,
+                    "content": "at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:97) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 40,
+                    "content": "at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:369) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 41,
+                    "content": "at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 42,
+                    "content": "at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 43,
+                    "content": "at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 44,
+                    "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[23:49:59] [Server thread\/ERROR]: This crash report has been saved to: \/aternos\/server\/.\/crash-reports\/crash-2019-03-08_23.49.59-server.txt"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[23:49:59] [Server thread\/INFO]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[23:49:59] [Server thread\/INFO]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[23:49:59] [Server thread\/INFO]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[23:49:59] [Server thread\/INFO]: Saving chunks for level 'world'\/Overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[23:49:59] [Server thread\/INFO]: Saving chunks for level 'world_nether'\/Nether"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "There was an exception while loading the world chunks.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 29,
+                            "content": "[23:49:59] [Server thread\/ERROR]: Encountered an unexpected exception"
+                        },
+                        {
+                            "number": 30,
+                            "content": "java.lang.NullPointerException"
+                        },
+                        {
+                            "number": 31,
+                            "content": "at net.minecraft.server.v1_8_R3.WorldServer.b(WorldServer.java:577) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 32,
+                            "content": "at net.minecraft.server.v1_8_R3.ChunkRegionLoader.loadEntities(ChunkRegionLoader.java:454) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 33,
+                            "content": "at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:46) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 34,
+                            "content": "at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:1) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 35,
+                            "content": "at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:337) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 36,
+                            "content": "at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:295) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 37,
+                            "content": "at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:16) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 38,
+                            "content": "at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:115) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 39,
+                            "content": "at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:97) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 40,
+                            "content": "at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:369) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 41,
+                            "content": "at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 42,
+                            "content": "at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 43,
+                            "content": "at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 44,
+                            "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Repair the world 'world', e.g. by using Minecraft Region Fixer or MCEdit."
+                    },
+                    {
+                        "message": "Delete the file 'world'."
+                    },
+                    {
+                        "message": "Remove the problematic chunk from the world, e.g. with MCEdit or by removing the region file."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.8.8",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[23:49:54] [Server thread\/INFO]: Starting minecraft server version 1.8.8"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.8.8"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1964 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": 1606389596,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "2020-11-26 [11:19:56] [Server thread\/INFO]: Loading pocketmine.yml..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389596,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "2020-11-26 [11:19:56] [Server thread\/INFO]: Loading server properties..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389596,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "2020-11-26 [11:19:56] [Server thread\/INFO]: Selected English (eng) as the base language"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389596,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "2020-11-26 [11:19:56] [Server thread\/INFO]: Starting Minecraft: Bedrock Edition server version v1.16.100"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1606389596,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "2020-11-26 [11:19:56] [Server thread\/NOTICE]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1606389596,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "2020-11-26 [11:19:56] [Server thread\/NOTICE]: To disable authentication, set \"xbox-auth\" to \"false\" in server.properties."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389596,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "2020-11-26 [11:19:56] [Server thread\/INFO]: Opening server on **.**.**.**:47616"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389597,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "2020-11-26 [11:19:57] [Server thread\/INFO]: This server is running PocketMine-MP version 3.16.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389597,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "2020-11-26 [11:19:57] [Server thread\/INFO]: PocketMine-MP is distributed under the LGPL License"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading resource packs..."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/ERROR]: Could not load plugin 'Slapper': Incompatible network protocol version (plugin requires one of: 361, 388, 389, 390, 407, 408)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/ERROR]: Could not load plugin 'EasyCommandAutofill': Incompatible network protocol version (plugin requires one of: 389, 390, 407, 408)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/ERROR]: Could not load plugin 'Texter': Incompatible network protocol version (plugin requires one of: 388, 389, 390, 407, 408)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/ERROR]: Could not load plugin 'RankText': Incompatible network protocol version (plugin requires one of: 407)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/ERROR]: Could not load plugin 'Mineflow': Incompatible network protocol version (plugin requires one of: 389, 390, 407, 408)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading EconomyAPI v5.7.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading MailPlugin v3.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading XGTShowPlayerHP v1.0.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading CustomShopUI v4.0.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading BuilderTools v1.2.0-beta2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading BedWars v1.1.7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading AutoClearLagg v3.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading EC-TableUI v1.1.2-pre"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading RealTime v1.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading PlayerSkinStealer v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading TapToPot v2.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading Parkour v1.5.7"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/CRITICAL]: Could not load plugin 'QuestPlugin': Unknown dependency: Slapper"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading ChatScrambler v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading Relics v1.1.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading HealthTag v2.0.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading SimpleHome v1.0.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading SocialSpy v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading ItemCloud v1.3.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading GroupsUI v1.2.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading BankNotes v2.0.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading KygekJoinUI v1.2.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading PortalsPE v1.1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading PingTag v0.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading Dragons v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading WhatCrates v2.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading OreGen v1.2.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading HeadHunter v0.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading NoFallDamage v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading PiggyCustomEnchants v2.3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading MultiEconomy v2.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading KillStreak v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading SizePlayer v1.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading PlayerInfo v2.1.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading Bounty v1.1.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading BetterVoting v2.0.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading PCEBookShop v1.0.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading CombatLogger v0.0.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading BlazinFly v1.8.7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading SellAll v1.3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading BurgerSpawners v0.1.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading Rewards v4.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading Powertools v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading RedSkyBlock v3.1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading HubDelay v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading MyPlot v1.9.0-pre"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading PlayerVaults v3.2.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading PlayerSelectors v1.0.8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading AddNetherite-HiroTeam v2.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading PiggyShopUI v2.1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading AdvancedJobs v0.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading ProfileUI v4.2.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading SimpleBanner v0.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading PurePerms v1.4.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: [PurePerms] Setting default language to 'en'"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/NOTICE]: [PurePerms] Multiworld support is currently disabled."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: Loading EasyKits v1.1.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: [EasyKits] loaded PiggyCustomEnchants"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389598,
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "2020-11-26 [11:19:58] [Server thread\/INFO]: [EasyKits] loaded EconomyAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Loading FactionsPro v1.3.20"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Loading MultiWorld v1.5.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Loading KOTH v1.0.0-Beta4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Loading KygekRulesUI v1.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Loading KygekRanksUI v1.3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Loading MineReset v3.2.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Loading SkyBlock v3.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Loading essentialsTP v1.2.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Loading PiggyFactions v1.1.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Loading PiggyCustomEnchantsShop v1.3.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Loading PiggyCrates v2.0.9"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Loading PureChat v1.4.11"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Loading SkyBlockUI v1.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Enabling MyPlot v1.9.0-pre"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Preparing world \"lobby\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Enabling EconomyAPI v5.7.2"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/NOTICE]: [EconomyAPI] The update server is now online!"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/NOTICE]: [EconomyAPI] Database provider was set to: Yaml"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Enabling MailPlugin v3.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Enabling XGTShowPlayerHP v1.0.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Enabling CustomShopUI v4.0.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Enabling BuilderTools v1.2.0-beta2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Enabling BedWars v1.1.7"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/NOTICE]: Registered \/games command"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/NOTICE]: Registered \/gamestatus command"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/NOTICE]: Registered game BedWars by XenialDan"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Enabling AutoClearLagg v3.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Enabling EC-TableUI v1.1.2-pre"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Enabling RealTime v1.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Enabling PlayerSkinStealer v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Enabling TapToPot v2.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Enabling Parkour v1.5.7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: [Parkour] EconomyAPI is installed, you can use $ amounts as rewards"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389599,
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "2020-11-26 [11:19:59] [Server thread\/INFO]: Enabling ChatScrambler v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: [ChatScrambler] Version: 1.0.0 for API: 3.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling Relics v1.1.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling HealthTag v2.0.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling SimpleHome v1.0.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling SocialSpy v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling ItemCloud v1.3.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling GroupsUI v1.2.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling BankNotes v2.0.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling KygekJoinUI v1.2.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling PortalsPE v1.1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling PingTag v0.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling Dragons v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/ERROR]: [Dragons] Invalid lobby level!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling WhatCrates v2.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling OreGen v1.2.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling HeadHunter v0.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling NoFallDamage v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling PiggyCustomEnchants v2.3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling MultiEconomy v2.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling KillStreak v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling SizePlayer v1.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling PlayerInfo v2.1.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling Bounty v1.1.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389600,
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "2020-11-26 [11:20:00] [Server thread\/INFO]: Enabling BetterVoting v2.0.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389601,
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "2020-11-26 [11:20:01] [Server thread\/INFO]: Enabling PCEBookShop v1.0.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389601,
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "2020-11-26 [11:20:01] [Server thread\/INFO]: Enabling CombatLogger v0.0.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389601,
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "2020-11-26 [11:20:01] [Server thread\/INFO]: Enabling BlazinFly v1.8.7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389601,
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "2020-11-26 [11:20:01] [Server thread\/INFO]: Enabling SellAll v1.3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389601,
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "2020-11-26 [11:20:01] [Server thread\/INFO]: Enabling BurgerSpawners v0.1.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389601,
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "2020-11-26 [11:20:01] [Server thread\/INFO]: Enabling Rewards v4.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389601,
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "2020-11-26 [11:20:01] [Server thread\/INFO]: Enabling Powertools v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389601,
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "2020-11-26 [11:20:01] [Server thread\/INFO]: Enabling RedSkyBlock v3.1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389601,
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "2020-11-26 [11:20:01] [Server thread\/INFO]: Preparing world \"SB\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389601,
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "2020-11-26 [11:20:01] [Server thread\/INFO]: [RedSkyBlock] SkyBlock is running on the world SB"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389601,
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "2020-11-26 [11:20:01] [Server thread\/INFO]: Enabling HubDelay v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389601,
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "2020-11-26 [11:20:01] [Server thread\/INFO]: Enabling PlayerVaults v3.2.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389601,
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "2020-11-26 [11:20:01] [Server thread\/INFO]: Enabling PlayerSelectors v1.0.8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389601,
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "2020-11-26 [11:20:01] [Server thread\/INFO]: Enabling AddNetherite-HiroTeam v2.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/INFO]: Enabling PiggyShopUI v2.1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/INFO]: Enabling AdvancedJobs v0.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/INFO]: Enabling ProfileUI v4.2.1"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/NOTICE]: [ProfielUI] Enabled! - By Infernus101"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/INFO]: Enabling SimpleBanner v0.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/INFO]: Enabling PurePerms v1.4.3"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/NOTICE]: [PurePerms] Set data provider to YAMLv1."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/INFO]: Enabling EasyKits v1.1.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/INFO]: Enabling FactionsPro v1.3.20"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/INFO]: [FactionsPro] Add AntiSpamPro to ban rude Faction names"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/INFO]: Enabling MultiWorld v1.5.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 159,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/INFO]: Enabling KOTH v1.0.0-Beta4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/INFO]: Enabling KygekRulesUI v1.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/INFO]: Enabling KygekRanksUI v1.3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389602,
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "2020-11-26 [11:20:02] [Server thread\/INFO]: Enabling MineReset v3.2.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389603,
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "2020-11-26 [11:20:03] [Server thread\/INFO]: Enabling SkyBlock v3.0.0"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": 1606389603,
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "2020-11-26 [11:20:03] [Server thread\/WARNING]: [SkyBlock] Disable the spawn protection on your server.properties, otherwise SkyBlock won't work"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389603,
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "2020-11-26 [11:20:03] [Server thread\/INFO]: Disabling SkyBlock v3.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389603,
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "2020-11-26 [11:20:03] [Server thread\/INFO]: Enabling essentialsTP v1.2.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389603,
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "2020-11-26 [11:20:03] [Server thread\/INFO]: [essentialsTP] essentialsTP+ loading..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389603,
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "2020-11-26 [11:20:03] [Server thread\/INFO]: [essentialsTP] [INFO] loading [config.yml]...."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389603,
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "2020-11-26 [11:20:03] [Server thread\/INFO]: [essentialsTP] [INFO] loading [config.yml] DONE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389603,
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "2020-11-26 [11:20:03] [Server thread\/INFO]: [essentialsTP] essentialsTP+ loaded!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389603,
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "2020-11-26 [11:20:03] [Server thread\/INFO]: Enabling PiggyFactions v1.1.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389603,
+            "lines": [
+                {
+                    "number": 172,
+                    "content": "2020-11-26 [11:20:03] [Server thread\/INFO]: Enabling PiggyCustomEnchantsShop v1.3.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389603,
+            "lines": [
+                {
+                    "number": 173,
+                    "content": "2020-11-26 [11:20:03] [Server thread\/INFO]: Enabling PiggyCrates v2.0.9"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389604,
+            "lines": [
+                {
+                    "number": 174,
+                    "content": "2020-11-26 [11:20:04] [Server thread\/INFO]: Enabling PureChat v1.4.11"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1606389604,
+            "lines": [
+                {
+                    "number": 175,
+                    "content": "2020-11-26 [11:20:04] [Server thread\/NOTICE]: [PureChat] FactionsPro < 1.4 support enabled."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389604,
+            "lines": [
+                {
+                    "number": 176,
+                    "content": "2020-11-26 [11:20:04] [Server thread\/INFO]: Enabling SkyBlockUI v1.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389604,
+            "lines": [
+                {
+                    "number": 177,
+                    "content": "2020-11-26 [11:20:04] [Server thread\/INFO]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389604,
+            "lines": [
+                {
+                    "number": 178,
+                    "content": "2020-11-26 [11:20:04] [Server thread\/INFO]: Setting query port to 47616"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1606389604,
+            "lines": [
+                {
+                    "number": 179,
+                    "content": "2020-11-26 [11:20:04] [Server thread\/INFO]: Query running on **.**.**.**:47616"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The plugin 'Slapper' is incompatible with your current server version.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": 1606389598,
+                    "lines": [
+                        {
+                            "number": 11,
+                            "content": "2020-11-26 [11:19:58] [Server thread\/ERROR]: Could not load plugin 'Slapper': Incompatible network protocol version (plugin requires one of: 361, 388, 389, 390, 407, 408)"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'Slapper'."
+                    },
+                    {
+                        "message": "Remove the plugin 'Slapper'."
+                    }
+                ]
+            },
+            {
+                "message": "The plugin 'EasyCommandAutofill' is incompatible with your current server version.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": 1606389598,
+                    "lines": [
+                        {
+                            "number": 12,
+                            "content": "2020-11-26 [11:19:58] [Server thread\/ERROR]: Could not load plugin 'EasyCommandAutofill': Incompatible network protocol version (plugin requires one of: 389, 390, 407, 408)"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'EasyCommandAutofill'."
+                    },
+                    {
+                        "message": "Remove the plugin 'EasyCommandAutofill'."
+                    }
+                ]
+            },
+            {
+                "message": "The plugin 'Texter' is incompatible with your current server version.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": 1606389598,
+                    "lines": [
+                        {
+                            "number": 13,
+                            "content": "2020-11-26 [11:19:58] [Server thread\/ERROR]: Could not load plugin 'Texter': Incompatible network protocol version (plugin requires one of: 388, 389, 390, 407, 408)"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'Texter'."
+                    },
+                    {
+                        "message": "Remove the plugin 'Texter'."
+                    }
+                ]
+            },
+            {
+                "message": "The plugin 'RankText' is incompatible with your current server version.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": 1606389598,
+                    "lines": [
+                        {
+                            "number": 14,
+                            "content": "2020-11-26 [11:19:58] [Server thread\/ERROR]: Could not load plugin 'RankText': Incompatible network protocol version (plugin requires one of: 407)"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'RankText'."
+                    },
+                    {
+                        "message": "Remove the plugin 'RankText'."
+                    }
+                ]
+            },
+            {
+                "message": "The plugin 'Mineflow' is incompatible with your current server version.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": 1606389598,
+                    "lines": [
+                        {
+                            "number": 15,
+                            "content": "2020-11-26 [11:19:58] [Server thread\/ERROR]: Could not load plugin 'Mineflow': Incompatible network protocol version (plugin requires one of: 389, 390, 407, 408)"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'Mineflow'."
+                    },
+                    {
+                        "message": "Remove the plugin 'Mineflow'."
+                    }
+                ]
+            },
+            {
+                "message": "The plugin 'QuestPlugin' is missing the required plugin 'Slapper'.",
+                "counter": 1,
+                "entry": {
+                    "level": 2,
+                    "time": 1606389598,
+                    "lines": [
+                        {
+                            "number": 28,
+                            "content": "2020-11-26 [11:19:58] [Server thread\/CRITICAL]: Could not load plugin 'QuestPlugin': Unknown dependency: Slapper"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the plugin 'Slapper'."
+                    },
+                    {
+                        "message": "Remove the plugin 'QuestPlugin'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Bedrock version: 1.16.100",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1606389596,
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "2020-11-26 [11:19:56] [Server thread\/INFO]: Starting Minecraft: Bedrock Edition server version v1.16.100"
+                        }
+                    ]
+                },
+                "label": "Bedrock version",
+                "value": "1.16.100"
+            },
+            {
+                "message": "Pocketmine version: 3.16.0",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1606389597,
+                    "lines": [
+                        {
+                            "number": 8,
+                            "content": "2020-11-26 [11:19:57] [Server thread\/INFO]: This server is running PocketMine-MP version 3.16.0"
+                        }
+                    ]
+                },
+                "label": "Pocketmine version",
+                "value": "3.16.0"
+            }
+        ]
+    }
+}

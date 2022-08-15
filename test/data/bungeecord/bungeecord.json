@@ -1,0 +1,388 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "14:24:22 [INFO] Using mbed TLS based native cipher."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "14:24:22 [INFO] Using zlib based native compressor."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "14:24:22 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.17-R0.1-SNAPSHOT:bda1605:1598"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "14:24:22 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "14:24:22 [INFO] Epoll is working, utilising it!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "14:24:22 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\/cmd_alert.jar, provider=JenkinsModuleSource())"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "14:24:22 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\/cmd_find.jar, provider=JenkinsModuleSource())"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "14:24:22 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\/cmd_list.jar, provider=JenkinsModuleSource())"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "14:24:22 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\/cmd_send.jar, provider=JenkinsModuleSource())"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "14:24:22 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\/cmd_server.jar, provider=JenkinsModuleSource())"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "14:24:22 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\/reconnect_yaml.jar, provider=JenkinsModuleSource())"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "14:24:22 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "14:24:22 [INFO] Loaded plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "14:24:22 [INFO] Loaded plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "14:24:22 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "14:24:22 [INFO] Loaded plugin ExarotonBungeePlugin version 1.0.0 by null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "14:24:22 [INFO] Loaded plugin BungeeGuard version 1.2-SNAPSHOT by Luck"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "14:24:22 [INFO] Loaded plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "14:24:22 [INFO] Loaded plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "14:24:22 [WARNING] Forced host server pvp is not defined"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "14:24:22 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "14:24:22 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "14:24:22 [INFO] Enabled plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "14:24:22 [INFO] Enabled plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "14:24:22 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "14:24:22 [INFO] Enabled plugin ExarotonBungeePlugin version 1.0.0 by null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "14:24:22 [INFO] Enabled plugin BungeeGuard version 1.2-SNAPSHOT by Luck"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "14:24:22 [INFO] Enabled plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "14:24:22 [INFO] Enabled plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "14:24:22 [INFO] Listening on \/0.0.0.0:55134"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "14:24:22 [INFO] Started query on \/0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "14:24:45 [INFO] Closing listener [id: 0xefd6c3d7, L:\/0.0.0.0:9898]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "14:24:45 [INFO] Closing listener [id: 0xb3abf524, L:\/0.0.0.0:55134]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "14:24:45 [INFO] Closing pending connections"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "14:24:45 [INFO] Disconnecting 0 connections"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "14:24:45 [INFO] Saving reconnect locations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "14:24:45 [INFO] Disabling plugins"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "14:24:45 [INFO] Closing IO threads"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": []
+    }
+}

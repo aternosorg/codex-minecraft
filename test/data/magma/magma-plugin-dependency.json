@@ -1,0 +1,362 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[11:47:42] [Server thread\/INFO]: Starting minecraft server version 1.8.8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[11:47:42] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[11:47:43] [Server thread\/INFO]: Default game type: CREATIVE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[15:02:53] [Server thread\/INFO] [Minecraft]: This server is running Magma version e2b9ab6 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[00:05:11] [Server thread\/INFO] [FML]: MinecraftForge v14.23.5.2814 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[11:47:46] [Server thread\/INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[11:47:46] [Server thread\/INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[11:47:46] [Server thread\/INFO]: Debug logging is disabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[11:47:46] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[11:47:47] [Server thread\/INFO]: Starting Minecraft server on *:10921"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[11:47:47] [Server thread\/INFO]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[11:47:48] [Server thread\/INFO]: Set PluginClassLoader as parallel capable"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[11:47:48] [Server thread\/ERROR]: Could not load 'plugins\/FactionsShop.jar' in folder 'plugins'"
+                },
+                {
+                    "number": 14,
+                    "content": "org.bukkit.plugin.UnknownDependencyException: Vault"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[11:47:48] [Server thread\/ERROR]: Could not load 'plugins\/BasicTab.jar' in folder 'plugins'"
+                },
+                {
+                    "number": 21,
+                    "content": "org.bukkit.plugin.UnknownDependencyException: ProtocolLib"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[11:47:49] [Server thread\/INFO]: [AdvanceRespawn] Loading AdvanceRespawn v7.1.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[11:47:49] [Server thread\/INFO]: [SuperLobbyPlus] Loading SuperLobbyPlus v1.3.3"
+                },
+                {
+                    "number": 29,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The plugin 'FactionsShop' is missing the required plugin 'Vault'.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 13,
+                            "content": "[11:47:48] [Server thread\/ERROR]: Could not load 'plugins\/FactionsShop.jar' in folder 'plugins'"
+                        },
+                        {
+                            "number": 14,
+                            "content": "org.bukkit.plugin.UnknownDependencyException: Vault"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the plugin 'Vault'."
+                    },
+                    {
+                        "message": "Delete the file 'plugins\/FactionsShop.jar'."
+                    }
+                ]
+            },
+            {
+                "message": "The plugin 'BasicTab' is missing the required plugin 'ProtocolLib'.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 20,
+                            "content": "[11:47:48] [Server thread\/ERROR]: Could not load 'plugins\/BasicTab.jar' in folder 'plugins'"
+                        },
+                        {
+                            "number": 21,
+                            "content": "org.bukkit.plugin.UnknownDependencyException: ProtocolLib"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the plugin 'ProtocolLib'."
+                    },
+                    {
+                        "message": "Delete the file 'plugins\/BasicTab.jar'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.8.8",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[11:47:42] [Server thread\/INFO]: Starting minecraft server version 1.8.8"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.8.8"
+            },
+            {
+                "message": "Magma version: e2b9ab6",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "[15:02:53] [Server thread\/INFO] [Minecraft]: This server is running Magma version e2b9ab6 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)"
+                        }
+                    ]
+                },
+                "label": "Magma version",
+                "value": "e2b9ab6"
+            },
+            {
+                "message": "Forge version: 14.23.5.2814",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 5,
+                            "content": "[00:05:11] [Server thread\/INFO] [FML]: MinecraftForge v14.23.5.2814 Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "14.23.5.2814"
+            }
+        ]
+    }
+}

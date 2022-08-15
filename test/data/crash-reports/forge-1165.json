@@ -1,0 +1,1555 @@
+{
+    "entries": [
+        {
+            "level": 8,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "---- Minecraft Crash Report ----"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "\/\/ But it works on my machine."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "Time: 2\/2\/22 12:16 AM"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "Description: Ticking entity"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "java.lang.RuntimeException: Attempted to load class net\/minecraft\/server\/integrated\/IntegratedServer for invalid dist DEDICATED_SERVER"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "\tat net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:71) ~[forge.jar:36.2] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "\tat cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.0.9.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "\tat cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.0.9.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "\tat cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.0.9.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "\tat cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.0.9.jar:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "\tat cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.0.9.jar:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "\tat java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_292] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "\tat net.silentchaos512.scalinghealth.event.DifficultyEvents.onLivingUpdate(DifficultyEvents.java:81) ~[scalinghealth:4.1.3+9] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "\tat net.minecraftforge.eventbus.ASMEventHandler_98_DifficultyEvents_onLivingUpdate_LivingUpdateEvent.invoke(.dynamic) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "\tat net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-4.0.0.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "\tat net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "\tat net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "\tat net.minecraftforge.common.ForgeHooks.onLivingUpdate(ForgeHooks.java:340) ~[forge:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "\tat net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:2112) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:cgm.mixins.json:common.LivingEntityMixin,pl:mixin:A,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "\tat net.minecraft.entity.MobEntity.func_70071_h_(MobEntity.java:300) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "\tat net.minecraft.entity.monster.ZombieEntity.func_70071_h_(ZombieEntity.java:205) ~[?:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "\tat net.minecraft.world.server.ServerWorld.func_217479_a(ServerWorld.java:611) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "\tat net.minecraft.world.World.func_217390_a(World.java:554) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "\tat net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:404) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:851) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291) ~[?:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "\tat java.lang.Thread.run(Thread.java:748) [?:1.8.0_292] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "A detailed walkthrough of the error, its code path and all known details is as follows:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "---------------------------------------------------------------------------------------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "-- Head --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "Thread: Server thread"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "\tat net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:71) ~[forge.jar:36.2] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "\tat cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.0.9.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "\tat cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.0.9.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "\tat cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.0.9.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "\tat cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.0.9.jar:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "\tat cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.0.9.jar:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "\tat java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_292] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "\tat net.silentchaos512.scalinghealth.event.DifficultyEvents.onLivingUpdate(DifficultyEvents.java:81) ~[scalinghealth:4.1.3+9] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "\tat net.minecraftforge.eventbus.ASMEventHandler_98_DifficultyEvents_onLivingUpdate_LivingUpdateEvent.invoke(.dynamic) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "\tat net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-4.0.0.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "\tat net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "\tat net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "\tat net.minecraftforge.common.ForgeHooks.onLivingUpdate(ForgeHooks.java:340) ~[forge:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "\tat net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:2112) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:cgm.mixins.json:common.LivingEntityMixin,pl:mixin:A,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "\tat net.minecraft.entity.MobEntity.func_70071_h_(MobEntity.java:300) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "\tat net.minecraft.entity.monster.ZombieEntity.func_70071_h_(ZombieEntity.java:205) ~[?:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "\tat net.minecraft.world.server.ServerWorld.func_217479_a(ServerWorld.java:611) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "-- Entity being ticked --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "\tEntity Type: minecraft:drowned (net.minecraft.entity.monster.DrownedEntity)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "\tEntity ID: 26"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "\tEntity Name: Drowned"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "\tEntity's Exact location: 78.50, 50.00, 50.50"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "\tEntity's Block location: World: (78,50,50), Chunk: (at 14,3,2 in 4,3; contains blocks 64,0,48 to 79,255,63), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "\tEntity's Momentum: 0.00, 0.00, 0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "\tEntity's Passengers: []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "\tEntity's Vehicle: ~~ERROR~~ NullPointerException: null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "\tat net.minecraft.world.World.func_217390_a(World.java:554) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "\tat net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:404) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "-- Affected level --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "\tAll players: 0 total; []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "\tChunk stats: ServerChunkCache: 2025"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "\tLevel dimension: minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "\tLevel spawn location: World: (0,66,45), Chunk: (at 0,4,13 in 0,2; contains blocks 0,0,32 to 15,255,47), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "\tLevel time: 1 game time, 1 day time"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "\tLevel name: world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "\tLevel game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "\tLevel weather: Rain time: 92823 (now: false), thunder time: 162309 (now: false)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "\tKnown server brands: forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "\tLevel was modded: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "\tLevel storage version: 0x04ABD - Anvil"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:851) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291) ~[?:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "\tat java.lang.Thread.run(Thread.java:748) [?:1.8.0_292] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 93,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 94,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "-- System Details --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "\tMinecraft Version: 1.16.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "\tMinecraft Version ID: 1.16.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "\tOperating System: Linux (amd64) version 5.4.0-91-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "\tJava Version: 1.8.0_292, Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "\tJava VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "\tMemory: 1424844888 bytes (1358 MB) \/ 2354577408 bytes (2245 MB) up to 2354577408 bytes (2245 MB)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "\tCPUs: 3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "\tJVM Flags: 3 total; -XX:MaxMetaspaceSize=200M -Xmx2300M -Xms1150M"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "\tModLauncher: 8.0.9+86+master.3cf110c"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "\tModLauncher launch target: fmlserver"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "\tModLauncher naming: srg"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "\tModLauncher services:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "\t\t\/mixin-0.8.4.jar mixin PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "\t\t\/eventbus-4.0.0.jar eventbus PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "\t\t\/forge.jar object_holder_definalize PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "\t\t\/forge.jar runtime_enum_extender PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "\t\t\/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "\t\t\/forge.jar capability_inject_definalize PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "\t\t\/forge.jar runtimedistcleaner PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "\t\t\/mixin-0.8.4.jar mixin TRANSFORMATIONSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "\t\t\/forge.jar fml TRANSFORMATIONSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "\tFML: 36.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "\tForge: net.minecraftforge:36.2.20"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "\tFML Language Providers:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "\t\tjavafml@36.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "\t\tminecraft@1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "\tMod List:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "\t\tforge-1.16.5-36.2.20-server.jar                   |Minecraft                     |minecraft                     |1.16.5              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "\t\tYungsApi-1.16.4-Forge-6.jar                       |YUNG's API                    |yungsapi                      |1.16.4-Forge-6      |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "\t\tuseful_backpacks-1.16.5-1.12.1.90.jar             |Useful Backpacks              |usefulbackpacks               |**.**.**.**           |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "\t\tobfuscate-0.6.2-1.16.3.jar                        |Obfuscate                     |obfuscate                     |0.6.2               |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "\t\tu_team_core-1.16.5-3.2.1.196.jar                  |U Team Core                   |uteamcore                     |**.**.**.**           |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "\t\tsilent-lib-1.16.3-4.9.6.jar                       |Silent Lib                    |silentlib                     |4.9.6               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "\t\tcgm-1.0.1-1.16.3.jar                              |MrCrayfish's Gun Mod          |cgm                           |1.0.1               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "\t\tBiomesOPlenty-1.16.5-13.1.0.477-universal.jar     |Biomes O' Plenty              |biomesoplenty                 |1.16.5-13.1.0.477   |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "\t\tcfm-7.0.0pre22-1.16.3.jar                         |MrCrayfish's Furniture Mod    |cfm                           |7.0.0-pre22         |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "\t\tCreativeCore_v2.2.1_mc1.16.5.jar                  |CreativeCore                  |creativecore                  |2.0.0               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "\t\tmcw-furniture-2.0.1-mc1.16.5.jar                  |Macaw's Furniture             |mcwfurnitures                 |2.0.1               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "\t\tHwyla-forge-1.10.11-B78_1.16.2.jar                |Waila                         |waila                         |1.10.11-B78_1.16.2  |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "\t\tjei-1.16.5-7.7.1.145.jar                          |Just Enough Items             |jei                           |**.**.**.**           |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "\t\ttowers_of_the_wild-1.16.4-2.0.1.jar               |Towers Of The Wild            |towers_of_the_wild            |1.16.4-2.0.1        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "\t\tEyesInTheDarkness-1.16.5-1.0.6.jar                |Eyes in the Darkness          |eyesinthedarkness             |1.0.6               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "\t\tMedievalCraft-1.16.5-1.16.2.jar                   |Medieval craft                |medieval_craft                |1.14.4              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "\t\tforge-1.16.5-36.2.20-universal.jar                |Forge                         |forge                         |36.2.20             |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "\t\tScalingHealth-1.16.5-4.1.3+9.jar                  |Scaling Health                |scalinghealth                 |4.1.3+9             |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "\t\tSpartanShields-1.16.5-2.1.2.jar                   |Spartan Shields               |spartanshields                |2.1.2               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "\t\tBetterMineshafts-Forge-1.16.4-2.0.3.jar           |YUNG's Better Mineshafts      |bettermineshafts              |1.16.4-2.0.3        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "\t\tBetterCaves-Forge-1.16.4-1.1.2.jar                |YUNG's Better Caves           |bettercaves                   |1.16.4-1.1.2        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "\t\tXaeros_Minimap_22.1.2_Forge_1.16.5.jar            |Xaero's Minimap               |xaerominimap                  |22.1.2              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "\t\tcorpse-1.16.5-1.0.6.jar                           |Corpse                        |corpse                        |1.16.5-1.0.6        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "\tCrash Report UUID: cfe6d998-1be7-48cd-bfc5-1542683bfaa1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "\tPlayer Count: 0 \/ 20; []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "\tData Packs: vanilla, mod:yungsapi, mod:usefulbackpacks, mod:obfuscate (incompatible), mod:uteamcore, mod:silentlib (incompatible), mod:cgm (incompatible), mod:biomesoplenty, mod:cfm (incompatible), mod:creativecore, mod:mcwfurnitures, mod:waila, mod:jei, mod:towers_of_the_wild, mod:eyesinthedarkness (incompatible), mod:medieval_craft, mod:forge, mod:scalinghealth, mod:spartanshields, mod:bettermineshafts, mod:bettercaves (incompatible), mod:xaerominimap, mod:corpse"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "\tIs Modded: Definitely; Server brand changed to 'forge'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "\tType: Dedicated Server (map_server.txt)"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The entity 'Drowned' at the location 78.5, 50, 50.5 is causing issues while ticking.",
+                "counter": 4,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 5,
+                            "content": "Description: Ticking entity"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the entity 'Drowned' at the location 78.5, 50, 50.5."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.16.5",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 97,
+                            "content": "\tMinecraft Version: 1.16.5"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.16.5"
+            }
+        ]
+    }
+}

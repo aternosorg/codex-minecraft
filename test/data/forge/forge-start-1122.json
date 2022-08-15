@@ -1,0 +1,811 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[00:36:52] [main\/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[00:36:52] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[00:36:52] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[00:36:53] [main\/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[00:36:53] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[00:36:54] [main\/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[00:37:06] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[00:37:06] [Server thread\/INFO] [FML]: MinecraftForge v14.23.5.2814 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[00:37:06] [Server thread\/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[00:37:06] [Server thread\/INFO] [FML]: Replaced 1036 ore ingredients"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[00:37:07] [Server thread\/INFO] [FML]: Config directory created successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[00:37:07] [Server thread\/INFO] [FML]: Searching \/aternos\/server\/.\/mods for mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[00:37:08] [Server thread\/INFO] [FML]: Forge Mod Loader has identified 4 mods to load"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[00:37:08] [Server thread\/WARN] [FML]: Missing English translation for FML: assets\/fml\/lang\/en_us.lang"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[00:37:09] [Server thread\/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at CLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[00:37:09] [Server thread\/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Processing ObjectHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Found 1169 ObjectHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Identifying ItemStackHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Found 0 ItemStackHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Configured a dormant chunk cache size of 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[00:37:11] [Forge Version Check\/INFO] [forge.VersionCheck]: [forge] Starting version check at http:\/\/files.minecraftforge.net\/maven\/net\/minecraftforge\/forge\/promotions_slim.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Injecting itemstacks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[00:37:11] [Server thread\/INFO] [FML]: Itemstack injection complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[00:37:11] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[00:37:11] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[00:37:11] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[00:37:12] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:10184"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[00:37:12] [Forge Version Check\/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[00:37:12] [Server thread\/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[00:37:12] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[00:37:12] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[00:37:12] [Server thread\/INFO] [FML]: Injecting itemstacks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[00:37:12] [Server thread\/INFO] [FML]: Itemstack injection complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[00:37:13] [Server thread\/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[00:37:13] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[00:37:13] [Server thread\/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@45e9a457)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[00:37:14] [Server thread\/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[00:37:14] [Server thread\/WARN] [net.minecraft.world.WorldServer]: Unable to find spawn biome"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[00:37:16] [Server thread\/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@45e9a457)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[00:37:16] [Server thread\/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@45e9a457)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[00:37:16] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[00:37:17] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 3%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[00:37:18] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 4%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[00:37:19] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 6%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[00:37:20] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 9%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[00:37:21] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 11%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[00:37:22] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 14%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[00:37:23] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 19%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[00:37:24] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 22%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[00:37:25] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 26%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[00:37:26] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 30%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[00:37:27] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 35%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[00:37:28] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 40%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[00:37:29] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 45%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[00:37:30] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 51%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[00:37:31] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 56%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[00:37:32] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 62%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[00:37:33] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 68%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[00:37:34] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 74%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[00:37:35] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 81%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[00:37:36] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 88%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[00:37:37] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 96%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[00:37:38] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (25.405s)! For help, type \"help\" or \"?\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[00:37:38] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[00:37:38] [Query Listener #1\/INFO] [net.minecraft.server.MinecraftServer]: Query running on 0.0.0.0:10184"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[00:37:39] [Server thread\/INFO] [FML]: Unloading dimension -1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[00:37:39] [Server thread\/INFO] [FML]: Unloading dimension 1"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[00:37:41] [Server thread\/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2897ms behind, skipping 57 tick(s)"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.12.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 7,
+                            "content": "[00:37:06] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.12.2"
+            },
+            {
+                "message": "Forge version: 14.23.5.2814",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 8,
+                            "content": "[00:37:06] [Server thread\/INFO] [FML]: MinecraftForge v14.23.5.2814 Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "14.23.5.2814"
+            }
+        ]
+    }
+}

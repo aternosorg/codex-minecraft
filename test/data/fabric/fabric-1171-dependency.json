@@ -1,0 +1,257 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[22:52:21] [main\/INFO]: Loading Minecraft 1.17.1 with Fabric Loader 0.13.3"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[22:52:21] [ForkJoinPool-1-worker-7\/WARN]: The mod \"libcd\" contains invalid entries in its mod json:"
+                },
+                {
+                    "number": 3,
+                    "content": "- Unsupported root entry \"licence\" at line 9 column 12"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[22:52:21] [main\/WARN]: Mod resolution failed"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[22:52:21] [main\/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE bewitchment 1.17-15 {depends patchouli @ [*]}, ROOT_FORCELOAD_SINGLE bewitchment 1.17-15]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[22:52:21] [main\/INFO]: Reason: [HARD_DEP bewitchment 1.17-15 {depends patchouli @ [*]}]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[22:52:21] [main\/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-keybindings-v0, fabric-renderer-registries-v1, fabric-textures-v0, modmenu, fabric-models-v0, fabric-screen-api-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-key-binding-api-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[22:52:21] [main\/INFO]: Fix: add [add:patchouli 1 ([(-\u221e,\u221e)])], remove [], replace []"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[22:52:21] [main\/ERROR]: Incompatible mod set!"
+                },
+                {
+                    "number": 10,
+                    "content": "net.fabricmc.loader.impl.FormattedException: Mod resolution encountered an incompatible mod set!"
+                },
+                {
+                    "number": 11,
+                    "content": "A potential solution has been determined:"
+                },
+                {
+                    "number": 12,
+                    "content": "\t - Install patchouli, any version."
+                },
+                {
+                    "number": 13,
+                    "content": "Unmet dependency listing:"
+                },
+                {
+                    "number": 14,
+                    "content": "\t - Mod 'Bewitchment' (bewitchment) 1.17-15 requires any version of patchouli, which is missing!"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:190) ~[fabric-loader-0.13.3.jar:?]"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.13.3.jar:?]"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:71) [fabric-loader-0.13.3.jar:?]"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.13.3.jar:?]"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:66) [fabric-loader-0.13.3.jar:?]"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'Bewitchment' is missing the required mod 'patchouli'.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 9,
+                            "content": "[22:52:21] [main\/ERROR]: Incompatible mod set!"
+                        },
+                        {
+                            "number": 10,
+                            "content": "net.fabricmc.loader.impl.FormattedException: Mod resolution encountered an incompatible mod set!"
+                        },
+                        {
+                            "number": 11,
+                            "content": "A potential solution has been determined:"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\t - Install patchouli, any version."
+                        },
+                        {
+                            "number": 13,
+                            "content": "Unmet dependency listing:"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\t - Mod 'Bewitchment' (bewitchment) 1.17-15 requires any version of patchouli, which is missing!"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:190) ~[fabric-loader-0.13.3.jar:?]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.13.3.jar:?]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:71) [fabric-loader-0.13.3.jar:?]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.13.3.jar:?]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:66) [fabric-loader-0.13.3.jar:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'patchouli'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.17.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[22:52:21] [main\/INFO]: Loading Minecraft 1.17.1 with Fabric Loader 0.13.3"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.17.1"
+            },
+            {
+                "message": "Fabric loader version: 0.13.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[22:52:21] [main\/INFO]: Loading Minecraft 1.17.1 with Fabric Loader 0.13.3"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.13.3"
+            }
+        ]
+    }
+}

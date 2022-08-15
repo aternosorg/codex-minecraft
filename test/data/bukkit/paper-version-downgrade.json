@@ -1,0 +1,1676 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[13:51:07] [main\/INFO]: Environment: authHost='https:\/\/authserver.mojang.com', accountsHost='https:\/\/api.mojang.com', sessionHost='https:\/\/sessionserver.mojang.com', servicesHost='https:\/\/api.minecraftservices.com', name='PROD'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[13:51:07] [main\/INFO]: Found new data pack file\/bukkit, loading it automatically"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[13:51:07] [main\/INFO]: Reloading ResourceManager: Default, bukkit"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[13:51:08] [Worker-Main-1\/INFO]: Loaded 7 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[13:51:11] [Server thread\/INFO]: Starting minecraft server version 1.16.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[13:51:11] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[13:51:11] [Server thread\/INFO]: This server is running Paper version git-Paper-416 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[13:51:11] [Server thread\/INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[13:51:11] [Server thread\/INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[13:51:11] [Server thread\/INFO]: Debug logging is disabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[13:51:11] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[13:51:11] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[13:51:11] [Server thread\/INFO]: Starting Minecraft server on *:54860"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[13:51:11] [Server thread\/INFO]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[13:51:11] [Server thread\/INFO]: Server permissions file permissions.yml is empty, ignoring it"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[13:51:11] [Server thread\/INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[13:51:12] [Server thread\/INFO]: Preparing start region for dimension minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[13:51:12] [Server thread\/INFO]: Loaded 0 spawn chunks for world world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[13:51:12] [Server thread\/INFO]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[13:51:12] [Server thread\/INFO]: Time elapsed: 297 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[13:51:12] [Server thread\/INFO]: Preparing start region for dimension minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[13:51:16] [Server thread\/INFO]: Loaded 0 spawn chunks for world world_nether"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[13:51:16] [Paper Async Chunk Task Thread #0\/WARN]: java.lang.RuntimeException: Server attempted to load chunk saved with newer version of minecraft! 2586 > 2584"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[13:51:16] [Paper Async Chunk Task Thread #0\/WARN]: \tat net.minecraft.server.v1_16_R3.ChunkRegionLoader.loadChunk(ChunkRegionLoader.java:67)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[13:51:16] [Paper Async Chunk Task Thread #0\/WARN]: \tat com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:114)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[13:51:16] [Paper Async Chunk Task Thread #0\/WARN]: \tat com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:39)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[13:51:16] [Paper Async Chunk Task Thread #0\/WARN]: \tat com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:105)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[13:51:16] [Paper Async Chunk Task Thread #0\/WARN]: \tat com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:38)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[13:51:16] [Server thread\/INFO]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[13:51:16] [Server thread\/INFO]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[13:51:16] [Server thread\/INFO]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[13:51:16] [Server thread\/INFO]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[13:51:16] [Server thread\/INFO]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[13:51:16] [Server thread\/INFO]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[13:51:16] [Server thread\/INFO]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[13:51:16] [Server thread\/INFO]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[13:51:16] [Server thread\/INFO]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[13:51:17] [Worker-Main-1\/INFO]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[13:51:17] [Thread-3\/INFO]: Stopping main thread (Ignore any thread death message you see! - DO NOT REPORT THREAD DEATH TO PAPER)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[13:51:17] [Server thread\/FATAL]: Failed to schedule load callback for chunk [22, -33]"
+                },
+                {
+                    "number": 41,
+                    "content": "java.util.concurrent.CompletionException: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 42,
+                    "content": "\tat java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]"
+                },
+                {
+                    "number": 43,
+                    "content": "\tat java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]"
+                },
+                {
+                    "number": 44,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081) ~[?:?]"
+                },
+                {
+                    "number": 45,
+                    "content": "\tat java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]"
+                },
+                {
+                    "number": 46,
+                    "content": "\tat net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 47,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]"
+                },
+                {
+                    "number": 48,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069) ~[?:?]"
+                },
+                {
+                    "number": 49,
+                    "content": "\tat java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]"
+                },
+                {
+                    "number": 50,
+                    "content": "\tat java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]"
+                },
+                {
+                    "number": 51,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085) ~[?:?]"
+                },
+                {
+                    "number": 52,
+                    "content": "\tat java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]"
+                },
+                {
+                    "number": 53,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 54,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:994) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 55,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 56,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:1041) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 57,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer.runTasks(ChunkProviderServer.java:627) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 58,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1141) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 59,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1125) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 60,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 61,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.executeModerately(MinecraftServer.java:1079) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 62,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.loadSpawn(MinecraftServer.java:635) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 63,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:446) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 64,
+                    "content": "\tat net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 65,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 66,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 67,
+                    "content": "\tat java.lang.Thread.run(Thread.java:834) [?:?]"
+                },
+                {
+                    "number": 68,
+                    "content": "\tSuppressed: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 69,
+                    "content": "\t\tat java.lang.Thread.stop(Thread.java:942) [?:?]"
+                },
+                {
+                    "number": 70,
+                    "content": "\t\tat net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 71,
+                    "content": "\t\tat net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 72,
+                    "content": "\t\tat net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 73,
+                    "content": "\t\tat org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 74,
+                    "content": "Caused by: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 75,
+                    "content": "\tat java.lang.Thread.stop(Thread.java:942) ~[?:?]"
+                },
+                {
+                    "number": 76,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 77,
+                    "content": "\tat net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 78,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 79,
+                    "content": "\tat org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[13:51:17] [Server thread\/FATAL]: Failed to schedule load callback for chunk [22, -31]"
+                },
+                {
+                    "number": 81,
+                    "content": "java.util.concurrent.CompletionException: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 82,
+                    "content": "\tat java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]"
+                },
+                {
+                    "number": 83,
+                    "content": "\tat java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]"
+                },
+                {
+                    "number": 84,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081) ~[?:?]"
+                },
+                {
+                    "number": 85,
+                    "content": "\tat java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]"
+                },
+                {
+                    "number": 86,
+                    "content": "\tat net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 87,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]"
+                },
+                {
+                    "number": 88,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069) ~[?:?]"
+                },
+                {
+                    "number": 89,
+                    "content": "\tat java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]"
+                },
+                {
+                    "number": 90,
+                    "content": "\tat java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]"
+                },
+                {
+                    "number": 91,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085) ~[?:?]"
+                },
+                {
+                    "number": 92,
+                    "content": "\tat java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]"
+                },
+                {
+                    "number": 93,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 94,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:994) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 95,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 96,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:1041) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 97,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer.runTasks(ChunkProviderServer.java:627) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 98,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1141) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 99,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1125) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 100,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 101,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.executeModerately(MinecraftServer.java:1079) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 102,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.loadSpawn(MinecraftServer.java:635) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 103,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:446) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 104,
+                    "content": "\tat net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 105,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 106,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 107,
+                    "content": "\tat java.lang.Thread.run(Thread.java:834) [?:?]"
+                },
+                {
+                    "number": 108,
+                    "content": "Caused by: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 109,
+                    "content": "\tat java.lang.Thread.stop(Thread.java:942) ~[?:?]"
+                },
+                {
+                    "number": 110,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 111,
+                    "content": "\tat net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 112,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 113,
+                    "content": "\tat org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[13:51:17] [Server thread\/FATAL]: Failed to schedule load callback for chunk [22, -29]"
+                },
+                {
+                    "number": 115,
+                    "content": "java.util.concurrent.CompletionException: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 116,
+                    "content": "\tat java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]"
+                },
+                {
+                    "number": 117,
+                    "content": "\tat java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]"
+                },
+                {
+                    "number": 118,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081) ~[?:?]"
+                },
+                {
+                    "number": 119,
+                    "content": "\tat java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]"
+                },
+                {
+                    "number": 120,
+                    "content": "\tat net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 121,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]"
+                },
+                {
+                    "number": 122,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069) ~[?:?]"
+                },
+                {
+                    "number": 123,
+                    "content": "\tat java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]"
+                },
+                {
+                    "number": 124,
+                    "content": "\tat java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]"
+                },
+                {
+                    "number": 125,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085) ~[?:?]"
+                },
+                {
+                    "number": 126,
+                    "content": "\tat java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]"
+                },
+                {
+                    "number": 127,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 128,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:994) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 129,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 130,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:1041) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 131,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer.runTasks(ChunkProviderServer.java:627) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 132,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1141) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 133,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1125) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 134,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 135,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.executeModerately(MinecraftServer.java:1079) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 136,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.loadSpawn(MinecraftServer.java:635) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 137,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:446) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 138,
+                    "content": "\tat net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 139,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 140,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 141,
+                    "content": "\tat java.lang.Thread.run(Thread.java:834) [?:?]"
+                },
+                {
+                    "number": 142,
+                    "content": "Caused by: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 143,
+                    "content": "\tat java.lang.Thread.stop(Thread.java:942) ~[?:?]"
+                },
+                {
+                    "number": 144,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 145,
+                    "content": "\tat net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 146,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 147,
+                    "content": "\tat org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "[13:51:17] [Server thread\/WARN]: java.util.concurrent.CompletionException: java.lang.ThreadDeath"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "[13:51:17] [Server thread\/FATAL]: Failed to schedule load callback for chunk [22, -28]"
+                },
+                {
+                    "number": 157,
+                    "content": "java.util.concurrent.CompletionException: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 158,
+                    "content": "\tat java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]"
+                },
+                {
+                    "number": 159,
+                    "content": "\tat java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]"
+                },
+                {
+                    "number": 160,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081) ~[?:?]"
+                },
+                {
+                    "number": 161,
+                    "content": "\tat java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]"
+                },
+                {
+                    "number": 162,
+                    "content": "\tat net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 163,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]"
+                },
+                {
+                    "number": 164,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069) ~[?:?]"
+                },
+                {
+                    "number": 165,
+                    "content": "\tat java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]"
+                },
+                {
+                    "number": 166,
+                    "content": "\tat java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]"
+                },
+                {
+                    "number": 167,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085) ~[?:?]"
+                },
+                {
+                    "number": 168,
+                    "content": "\tat java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]"
+                },
+                {
+                    "number": 169,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 170,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:994) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 171,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 172,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:1041) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 173,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer.runTasks(ChunkProviderServer.java:627) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 174,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1141) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 175,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1125) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 176,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 177,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.executeModerately(MinecraftServer.java:1079) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 178,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.loadSpawn(MinecraftServer.java:635) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 179,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:446) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 180,
+                    "content": "\tat net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 181,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 182,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 183,
+                    "content": "\tat java.lang.Thread.run(Thread.java:834) [?:?]"
+                },
+                {
+                    "number": 184,
+                    "content": "Caused by: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 185,
+                    "content": "\tat java.lang.Thread.stop(Thread.java:942) ~[?:?]"
+                },
+                {
+                    "number": 186,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 187,
+                    "content": "\tat net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 188,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 189,
+                    "content": "\tat org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)java.util.concurrent.CompletionException: java.lang.ThreadDeath"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 191,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 192,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 193,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 194,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 195,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 196,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 197,
+                    "content": "[13:51:17] [Server thread\/FATAL]: Failed to schedule load callback for chunk [22, -27]"
+                },
+                {
+                    "number": 198,
+                    "content": "java.util.concurrent.CompletionException: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 199,
+                    "content": "\tat java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]"
+                },
+                {
+                    "number": 200,
+                    "content": "\tat java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]"
+                },
+                {
+                    "number": 201,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081) ~[?:?]"
+                },
+                {
+                    "number": 202,
+                    "content": "\tat java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]"
+                },
+                {
+                    "number": 203,
+                    "content": "\tat net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 204,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]"
+                },
+                {
+                    "number": 205,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069) ~[?:?]"
+                },
+                {
+                    "number": 206,
+                    "content": "\tat java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]"
+                },
+                {
+                    "number": 207,
+                    "content": "\tat java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]"
+                },
+                {
+                    "number": 208,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085) ~[?:?]"
+                },
+                {
+                    "number": 209,
+                    "content": "\tat java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]"
+                },
+                {
+                    "number": 210,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 211,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:994) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 212,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 213,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:1041) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 214,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer.runTasks(ChunkProviderServer.java:627) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 215,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1141) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 216,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1125) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 217,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 218,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.executeModerately(MinecraftServer.java:1079) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 219,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.loadSpawn(MinecraftServer.java:635) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 220,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:446) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 221,
+                    "content": "\tat net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 222,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 223,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 224,
+                    "content": "\tat java.lang.Thread.run(Thread.java:834) [?:?]"
+                },
+                {
+                    "number": 225,
+                    "content": "Caused by: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 226,
+                    "content": "\tat java.lang.Thread.stop(Thread.java:942) ~[?:?]"
+                },
+                {
+                    "number": 227,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 228,
+                    "content": "\tat net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 229,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 230,
+                    "content": "\tat org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 231,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 232,
+                    "content": "[13:51:17] [Server thread\/WARN]: java.util.concurrent.CompletionException: java.lang.ThreadDeath"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 233,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 234,
+                    "content": "[13:51:17] [Server thread\/FATAL]: Failed to schedule load callback for chunk [22, -26]"
+                },
+                {
+                    "number": 235,
+                    "content": "java.util.concurrent.CompletionException: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 236,
+                    "content": "\tat java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]"
+                },
+                {
+                    "number": 237,
+                    "content": "\tat java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]"
+                },
+                {
+                    "number": 238,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081) ~[?:?]"
+                },
+                {
+                    "number": 239,
+                    "content": "\tat java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]"
+                },
+                {
+                    "number": 240,
+                    "content": "\tat net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 241,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]"
+                },
+                {
+                    "number": 242,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069) ~[?:?]"
+                },
+                {
+                    "number": 243,
+                    "content": "\tat java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]"
+                },
+                {
+                    "number": 244,
+                    "content": "\tat java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]"
+                },
+                {
+                    "number": 245,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085) ~[?:?]"
+                },
+                {
+                    "number": 246,
+                    "content": "\tat java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]"
+                },
+                {
+                    "number": 247,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 248,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:994) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 249,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 250,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:1041) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 251,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer.runTasks(ChunkProviderServer.java:627) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 252,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1141) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 253,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1125) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 254,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 255,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.executeModerately(MinecraftServer.java:1079) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 256,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.loadSpawn(MinecraftServer.java:635) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 257,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:446) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 258,
+                    "content": "\tat net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 259,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 260,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 261,
+                    "content": "\tat java.lang.Thread.run(Thread.java:834) [?:?]"
+                },
+                {
+                    "number": 262,
+                    "content": "Caused by: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 263,
+                    "content": "\tat java.lang.Thread.stop(Thread.java:942) ~[?:?]"
+                },
+                {
+                    "number": 264,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 265,
+                    "content": "\tat net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 266,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 267,
+                    "content": "\tat org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 268,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 269,
+                    "content": "[13:51:17] [Server thread\/FATAL]: Failed to schedule load callback for chunk [22, -25]"
+                },
+                {
+                    "number": 270,
+                    "content": "java.util.concurrent.CompletionException: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 271,
+                    "content": "\tat java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]"
+                },
+                {
+                    "number": 272,
+                    "content": "\tat java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]"
+                },
+                {
+                    "number": 273,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1081) ~[?:?]"
+                },
+                {
+                    "number": 274,
+                    "content": "\tat java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]"
+                },
+                {
+                    "number": 275,
+                    "content": "\tat net.minecraft.server.v1_16_R3.PlayerChunkMap.lambda$new$0(PlayerChunkMap.java:300) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 276,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]"
+                },
+                {
+                    "number": 277,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1069) ~[?:?]"
+                },
+                {
+                    "number": 278,
+                    "content": "\tat java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]"
+                },
+                {
+                    "number": 279,
+                    "content": "\tat java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]"
+                },
+                {
+                    "number": 280,
+                    "content": "\tat java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085) ~[?:?]"
+                },
+                {
+                    "number": 281,
+                    "content": "\tat java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]"
+                },
+                {
+                    "number": 282,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 283,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:994) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 284,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 285,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:1041) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 286,
+                    "content": "\tat net.minecraft.server.v1_16_R3.ChunkProviderServer.runTasks(ChunkProviderServer.java:627) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 287,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1141) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 288,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1125) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 289,
+                    "content": "\tat net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 290,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.executeModerately(MinecraftServer.java:1079) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 291,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.loadSpawn(MinecraftServer.java:635) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 292,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:446) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 293,
+                    "content": "\tat net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 294,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 295,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 296,
+                    "content": "\tat java.lang.Thread.run(Thread.java:834) [?:?]"
+                },
+                {
+                    "number": 297,
+                    "content": "Caused by: java.lang.ThreadDeath"
+                },
+                {
+                    "number": 298,
+                    "content": "\tat java.lang.Thread.stop(Thread.java:942) ~[?:?]"
+                },
+                {
+                    "number": 299,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:753) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 300,
+                    "content": "\tat net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 301,
+                    "content": "\tat net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:727) ~[minecraft_server.jar:git-Paper-416]"
+                },
+                {
+                    "number": 302,
+                    "content": "\tat org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[minecraft_server.jar:git-Paper-416]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 303,
+                    "content": "[13:51:17] [Server thread\/WARN]: jjava.util.concurrent.CompletionException: java.lang.ThreadDeathjava.util.concurrent.CompletionException: java.lang.ThreadDeath"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 304,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 305,
+                    "content": "[13:51:17] [Server thread\/WARN]: \tat java.base\/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "Your world was used on a newer version before.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 23,
+                            "content": "[13:51:16] [Paper Async Chunk Task Thread #0\/WARN]: java.lang.RuntimeException: Server attempted to load chunk saved with newer version of minecraft! 2586 > 2584"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a newer version of Minecraft."
+                    },
+                    {
+                        "message": "Generate a new world."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.16.4",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 5,
+                            "content": "[13:51:11] [Server thread\/INFO]: Starting minecraft server version 1.16.4"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.16.4"
+            }
+        ]
+    }
+}

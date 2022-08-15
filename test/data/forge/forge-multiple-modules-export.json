@@ -1,0 +1,226 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[20:14:29] [main\/INFO] [cp.mo.mo.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 39.1.0, --fml.mcVersion, 1.18.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211210.034407, nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[20:14:29] [main\/INFO] [cp.mo.mo.Launcher\/MODLAUNCHER]: ModLauncher 9.1.0+9.1.0+main.6690ee51 starting: java version 17.0.2 by Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[20:14:29] [main\/INFO] [mixin\/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:\/server\/libraries\/org\/spongepowered\/mixin\/0.8.5\/mixin-0.8.5.jar%2319!\/ Service=ModLauncher Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[20:14:29] [main\/WARN] [ne.mi.fm.lo.FMLConfig\/CORE]: Configuration file \/server\/config\/fml.toml is not correct. Correcting"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[20:14:29] [main\/WARN] [ne.mi.fm.lo.FMLConfig\/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs"
+                },
+                {
+                    "number": 6,
+                    "content": "Exception in thread \"main\" java.lang.module.ResolutionException: Module roughlyenoughitems contains package mezz.jei.api.runtime, module jei exports package mezz.jei.api.runtime to roughlyenoughitems"
+                },
+                {
+                    "number": 7,
+                    "content": "\tat java.base\/java.lang.module.Resolver.resolveFail(Resolver.java:901)"
+                },
+                {
+                    "number": 8,
+                    "content": "\tat java.base\/java.lang.module.Resolver.failTwoSuppliers(Resolver.java:807)"
+                },
+                {
+                    "number": 9,
+                    "content": "\tat java.base\/java.lang.module.Resolver.checkExportSuppliers(Resolver.java:736)"
+                },
+                {
+                    "number": 10,
+                    "content": "\tat java.base\/java.lang.module.Resolver.finish(Resolver.java:380)"
+                },
+                {
+                    "number": 11,
+                    "content": "\tat java.base\/java.lang.module.Configuration.<init>(Configuration.java:140)"
+                },
+                {
+                    "number": 12,
+                    "content": "\tat java.base\/java.lang.module.Configuration.resolveAndBind(Configuration.java:494)"
+                },
+                {
+                    "number": 13,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@9.1.0\/cpw.mods.modlauncher.ModuleLayerHandler.buildLayer(ModuleLayerHandler.java:70)"
+                },
+                {
+                    "number": 14,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@9.1.0\/cpw.mods.modlauncher.TransformationServicesHandler.buildTransformingClassLoader(TransformationServicesHandler.java:60)"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@9.1.0\/cpw.mods.modlauncher.Launcher.run(Launcher.java:104)"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@9.1.0\/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@9.1.0\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@9.1.0\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat cpw.mods.bootstraplauncher@1.0.0\/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mods 'roughlyenoughitems' and 'jei' are incompatible.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 5,
+                            "content": "[20:14:29] [main\/WARN] [ne.mi.fm.lo.FMLConfig\/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs"
+                        },
+                        {
+                            "number": 6,
+                            "content": "Exception in thread \"main\" java.lang.module.ResolutionException: Module roughlyenoughitems contains package mezz.jei.api.runtime, module jei exports package mezz.jei.api.runtime to roughlyenoughitems"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\tat java.base\/java.lang.module.Resolver.resolveFail(Resolver.java:901)"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\tat java.base\/java.lang.module.Resolver.failTwoSuppliers(Resolver.java:807)"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\tat java.base\/java.lang.module.Resolver.checkExportSuppliers(Resolver.java:736)"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\tat java.base\/java.lang.module.Resolver.finish(Resolver.java:380)"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\tat java.base\/java.lang.module.Configuration.<init>(Configuration.java:140)"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat java.base\/java.lang.module.Configuration.resolveAndBind(Configuration.java:494)"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@9.1.0\/cpw.mods.modlauncher.ModuleLayerHandler.buildLayer(ModuleLayerHandler.java:70)"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@9.1.0\/cpw.mods.modlauncher.TransformationServicesHandler.buildTransformingClassLoader(TransformationServicesHandler.java:60)"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@9.1.0\/cpw.mods.modlauncher.Launcher.run(Launcher.java:104)"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@9.1.0\/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@9.1.0\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@9.1.0\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat cpw.mods.bootstraplauncher@1.0.0\/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'roughlyenoughitems'."
+                    },
+                    {
+                        "message": "Remove the mod 'jei'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.18.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[20:14:29] [main\/INFO] [cp.mo.mo.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 39.1.0, --fml.mcVersion, 1.18.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211210.034407, nogui]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.18.1"
+            },
+            {
+                "message": "Forge version: 39.1.0",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[20:14:29] [main\/INFO] [cp.mo.mo.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 39.1.0, --fml.mcVersion, 1.18.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211210.034407, nogui]"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "39.1.0"
+            }
+        ]
+    }
+}

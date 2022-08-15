@@ -1,0 +1,89 @@
+{
+    "entries": [
+        {
+            "level": null,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "NO LOG FILE! - setting up server logging..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[2021-10-22 15:14:07:643 INFO] Starting Server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[2021-10-22 15:14:07:644 INFO] Version **.**.**.**"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[2021-10-22 15:14:07:644 INFO] Session ID 40c11d92-4fcf-4494-9820-5c5433fa5c9e"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[2021-10-22 15:14:07:645 ERROR] Using a whitelist but without online authentication can be dangerous and is not allowed."
+                },
+                {
+                    "number": 6,
+                    "content": "Quit correctly"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "Using a whitelist without online authentication is not allowed.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 5,
+                            "content": "[2021-10-22 15:14:07:645 ERROR] Using a whitelist but without online authentication can be dangerous and is not allowed."
+                        },
+                        {
+                            "number": 6,
+                            "content": "Quit correctly"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Enable the online authentication."
+                    },
+                    {
+                        "message": "Disable the whitelist."
+                    }
+                ]
+            }
+        ],
+        "information": []
+    }
+}

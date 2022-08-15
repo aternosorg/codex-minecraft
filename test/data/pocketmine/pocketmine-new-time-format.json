@@ -1,0 +1,311 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": 1648514299,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "2022-03-29 [00:38:19.573] [Server thread\/INFO]: Loading server configuration"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514299,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "2022-03-29 [00:38:19.594] [Server thread\/INFO]: Selected English (eng) as the base language"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514299,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "2022-03-29 [00:38:19.597] [Server thread\/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514299,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "2022-03-29 [00:38:19.601] [Server thread\/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514299,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "2022-03-29 [00:38:19.624] [Server thread\/INFO]: This server is running PocketMine-MP version 4.2.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514299,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "2022-03-29 [00:38:19.624] [Server thread\/INFO]: PocketMine-MP is distributed under the LGPL License"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514299,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "2022-03-29 [00:38:19.805] [Server thread\/INFO]: Loading resource packs..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514299,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "2022-03-29 [00:38:19.826] [Server thread\/INFO]: Preparing world \"world\""
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1648514299,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "2022-03-29 [00:38:19.844] [Server thread\/NOTICE]: Spawn terrain for world \"world\" is being generated in the background"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "2022-03-29 [00:38:20.008] [Server thread\/INFO]: Minecraft network interface running on 0.0.0.0:11303"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "2022-03-29 [00:38:20.009] [Server thread\/INFO]: GS4 Query listener running on 0.0.0.0:11303"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "2022-03-29 [00:38:20.035] [Server thread\/INFO]: Minecraft network interface running on [::]:19133"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "2022-03-29 [00:38:20.035] [Server thread\/INFO]: GS4 Query listener running on [::]:19133"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "2022-03-29 [00:38:20.040] [Server thread\/INFO]: Default game type: Survival Mode"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "2022-03-29 [00:38:20.040] [Server thread\/INFO]: If you find this project useful, please consider donating to support development: https:\/\/patreon.com\/pocketminemp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "2022-03-29 [00:38:20.040] [Server thread\/INFO]: Done (0.468s)! For help, type \"help\" or \"?\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "2022-03-29 [00:38:20.343] [Server thread\/INFO]: [World: world] Generating spawn terrain: 1 \/ 224 (0%)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "2022-03-29 [00:38:20.436] [Server thread\/INFO]: [World: world] Generating spawn terrain: 23 \/ 224 (10%)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "2022-03-29 [00:38:20.512] [Server thread\/INFO]: [World: world] Generating spawn terrain: 45 \/ 224 (20%)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "2022-03-29 [00:38:20.549] [Server thread\/INFO]: [World: world] Generating spawn terrain: 68 \/ 224 (30%)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "2022-03-29 [00:38:20.591] [Server thread\/INFO]: [World: world] Generating spawn terrain: 90 \/ 224 (40%)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "2022-03-29 [00:38:20.633] [Server thread\/INFO]: [World: world] Generating spawn terrain: 112 \/ 224 (50%)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "2022-03-29 [00:38:20.680] [Server thread\/INFO]: [World: world] Generating spawn terrain: 135 \/ 224 (60%)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "2022-03-29 [00:38:20.726] [Server thread\/INFO]: [World: world] Generating spawn terrain: 157 \/ 224 (70%)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "2022-03-29 [00:38:20.800] [Server thread\/INFO]: [World: world] Generating spawn terrain: 180 \/ 224 (80%)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "2022-03-29 [00:38:20.855] [Server thread\/INFO]: [World: world] Generating spawn terrain: 202 \/ 224 (90%)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1648514300,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "2022-03-29 [00:38:20.978] [Server thread\/INFO]: [World: world] Generating spawn terrain: 224 \/ 224 (100%)"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Bedrock version: 1.18.10",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1648514299,
+                    "lines": [
+                        {
+                            "number": 3,
+                            "content": "2022-03-29 [00:38:19.597] [Server thread\/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10"
+                        }
+                    ]
+                },
+                "label": "Bedrock version",
+                "value": "1.18.10"
+            },
+            {
+                "message": "Pocketmine version: 4.2.5",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1648514299,
+                    "lines": [
+                        {
+                            "number": 5,
+                            "content": "2022-03-29 [00:38:19.624] [Server thread\/INFO]: This server is running PocketMine-MP version 4.2.5"
+                        }
+                    ]
+                },
+                "label": "Pocketmine version",
+                "value": "4.2.5"
+            }
+        ]
+    }
+}

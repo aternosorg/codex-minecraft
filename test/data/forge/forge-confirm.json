@@ -1,0 +1,102 @@
+{
+    "entries": [
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[13:31:32] [Server thread\/WARN] [FML\/]: Forge Mod Loader detected that the backup level.dat is being used."
+                },
+                {
+                    "number": 2,
+                    "content": ""
+                },
+                {
+                    "number": 3,
+                    "content": "This may happen due to a bug or corruption, continuing can damage"
+                },
+                {
+                    "number": 4,
+                    "content": "your world beyond repair or lose data \/ progress."
+                },
+                {
+                    "number": 5,
+                    "content": ""
+                },
+                {
+                    "number": 6,
+                    "content": "It's recommended to create a world backup before continuing."
+                },
+                {
+                    "number": 7,
+                    "content": ""
+                },
+                {
+                    "number": 8,
+                    "content": "Run the command \/fml confirm or or \/fml cancel to proceed."
+                },
+                {
+                    "number": 9,
+                    "content": "Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResult=cancel to preselect the answer."
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "Forge requires your confirmation to apply changes and start the server.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[13:31:32] [Server thread\/WARN] [FML\/]: Forge Mod Loader detected that the backup level.dat is being used."
+                        },
+                        {
+                            "number": 2,
+                            "content": ""
+                        },
+                        {
+                            "number": 3,
+                            "content": "This may happen due to a bug or corruption, continuing can damage"
+                        },
+                        {
+                            "number": 4,
+                            "content": "your world beyond repair or lose data \/ progress."
+                        },
+                        {
+                            "number": 5,
+                            "content": ""
+                        },
+                        {
+                            "number": 6,
+                            "content": "It's recommended to create a world backup before continuing."
+                        },
+                        {
+                            "number": 7,
+                            "content": ""
+                        },
+                        {
+                            "number": 8,
+                            "content": "Run the command \/fml confirm or or \/fml cancel to proceed."
+                        },
+                        {
+                            "number": 9,
+                            "content": "Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResult=cancel to preselect the answer."
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Run the command '\/fml confirm'."
+                    }
+                ]
+            }
+        ],
+        "information": []
+    }
+}

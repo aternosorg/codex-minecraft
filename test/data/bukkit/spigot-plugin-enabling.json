@@ -1,0 +1,594 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[14:33:05] [main\/INFO]: Loaded 0 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[14:33:06] [Server thread\/INFO]: Starting minecraft server version 1.13.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[14:33:06] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[14:33:06] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[14:33:07] [Server thread\/INFO]: This server is running CraftBukkit version git-Spigot-3cb9dcb-77ca7ca (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[14:33:09] [Server thread\/INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[14:33:09] [Server thread\/INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[14:33:09] [Server thread\/INFO]: Debug logging is disabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[14:33:09] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[14:33:11] [Server thread\/INFO]: Starting Minecraft server on *:10160"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[14:33:11] [Server thread\/INFO]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[14:33:33] [Server thread\/INFO]: [WorldEdit] Loading WorldEdit v7.0.0-beta-05;6bbf29b"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[14:33:33] [Server thread\/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-b727"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[14:33:34] [Server thread\/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.5.0-b751"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[14:33:34] [Server thread\/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v2.5-b675"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[14:34:15] [Server thread\/INFO]: Max TNT Explosions: 100"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[14:34:15] [Server thread\/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[14:34:15] [Server thread\/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[14:34:15] [Server thread\/INFO]: Item Despawn Rate: 6000"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[14:34:15] [Server thread\/INFO]: Item Merge Radius: 2.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[14:34:15] [Server thread\/INFO]: Arrow Despawn Rate: 1200"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[14:34:15] [Server thread\/INFO]: View Distance: 7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[14:34:15] [Server thread\/INFO]: Zombie Aggressive Towards Villager: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[14:34:15] [Server thread\/INFO]: Nerfing mobs spawned from spawners: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[14:34:15] [Server thread\/INFO]: Preparing start region for level 5 (Seed: -4752855715155864395)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[14:34:15] [Server thread\/INFO]: [Multiverse-Core] 8 - World(s) loaded."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[14:34:16] [Server thread\/INFO]: [Multiverse-Core] Version 2.5.0-b727 (API v20) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[14:34:16] [Server thread\/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v2.5.0-b751"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[14:34:16] [Server thread\/INFO]: [Multiverse-Portals] - Version 2.5.0-b751 Enabled - By Rigby and fernferret"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[14:34:16] [Server thread\/INFO]: [MVPLogging] 0 - Portals(s) loaded"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[14:34:16] [Server thread\/ERROR]: Error occurred while enabling Multiverse-Portals v2.5.0-b751 (Is it up to date?)"
+                },
+                {
+                    "number": 32,
+                    "content": "java.lang.NoClassDefFoundError: com\/sk89q\/worldedit\/bukkit\/WorldEditAPI"
+                },
+                {
+                    "number": 33,
+                    "content": "at com.onarandombox.MultiversePortals.WorldEditConnection.connect(WorldEditConnection.java:47) ~[?:?]"
+                },
+                {
+                    "number": 34,
+                    "content": "at com.onarandombox.MultiversePortals.MultiversePortals.checkForWorldEdit(MultiversePortals.java:174) ~[?:?]"
+                },
+                {
+                    "number": 35,
+                    "content": "at com.onarandombox.MultiversePortals.MultiversePortals.onEnable(MultiversePortals.java:141) ~[?:?]"
+                },
+                {
+                    "number": 36,
+                    "content": "at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:254) ~[minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                },
+                {
+                    "number": 37,
+                    "content": "at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                },
+                {
+                    "number": 38,
+                    "content": "at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:404) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                },
+                {
+                    "number": 39,
+                    "content": "at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugin(CraftServer.java:436) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                },
+                {
+                    "number": 40,
+                    "content": "at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugins(CraftServer.java:350) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                },
+                {
+                    "number": 41,
+                    "content": "at net.minecraft.server.v1_13_R2.MinecraftServer.l(MinecraftServer.java:580) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                },
+                {
+                    "number": 42,
+                    "content": "at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:542) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                },
+                {
+                    "number": 43,
+                    "content": "at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:420) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                },
+                {
+                    "number": 44,
+                    "content": "at net.minecraft.server.v1_13_R2.DedicatedServer.init(DedicatedServer.java:294) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                },
+                {
+                    "number": 45,
+                    "content": "at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:698) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                },
+                {
+                    "number": 46,
+                    "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                },
+                {
+                    "number": 47,
+                    "content": "Caused by: java.lang.ClassNotFoundException: com.sk89q.worldedit.bukkit.WorldEditAPI"
+                },
+                {
+                    "number": 48,
+                    "content": "at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 49,
+                    "content": "at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:134) ~[minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                },
+                {
+                    "number": 50,
+                    "content": "at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:80) ~[minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                },
+                {
+                    "number": 51,
+                    "content": "at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 52,
+                    "content": "at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 53,
+                    "content": "... 14 more"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[14:34:16] [Server thread\/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v2.5-b675"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[14:34:17] [Server thread\/INFO]: [Multiverse-NetherPortals] - Version 2.5-b675 Enabled - By Rigby and fernferret"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[14:34:17] [Server thread\/INFO]: Server permissions file permissions.yml is empty, ignoring it"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[14:34:17] [Server thread\/INFO]: Done (43.099s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[14:34:17] [Server thread\/INFO]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[14:34:18] [Query Listener #1\/INFO]: Query running on **.**.**.**:10160"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The plugin 'Multiverse-Portals' could not be enabled.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 31,
+                            "content": "[14:34:16] [Server thread\/ERROR]: Error occurred while enabling Multiverse-Portals v2.5.0-b751 (Is it up to date?)"
+                        },
+                        {
+                            "number": 32,
+                            "content": "java.lang.NoClassDefFoundError: com\/sk89q\/worldedit\/bukkit\/WorldEditAPI"
+                        },
+                        {
+                            "number": 33,
+                            "content": "at com.onarandombox.MultiversePortals.WorldEditConnection.connect(WorldEditConnection.java:47) ~[?:?]"
+                        },
+                        {
+                            "number": 34,
+                            "content": "at com.onarandombox.MultiversePortals.MultiversePortals.checkForWorldEdit(MultiversePortals.java:174) ~[?:?]"
+                        },
+                        {
+                            "number": 35,
+                            "content": "at com.onarandombox.MultiversePortals.MultiversePortals.onEnable(MultiversePortals.java:141) ~[?:?]"
+                        },
+                        {
+                            "number": 36,
+                            "content": "at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:254) ~[minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                        },
+                        {
+                            "number": 37,
+                            "content": "at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                        },
+                        {
+                            "number": 38,
+                            "content": "at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:404) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                        },
+                        {
+                            "number": 39,
+                            "content": "at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugin(CraftServer.java:436) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                        },
+                        {
+                            "number": 40,
+                            "content": "at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugins(CraftServer.java:350) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                        },
+                        {
+                            "number": 41,
+                            "content": "at net.minecraft.server.v1_13_R2.MinecraftServer.l(MinecraftServer.java:580) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                        },
+                        {
+                            "number": 42,
+                            "content": "at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:542) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                        },
+                        {
+                            "number": 43,
+                            "content": "at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:420) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                        },
+                        {
+                            "number": 44,
+                            "content": "at net.minecraft.server.v1_13_R2.DedicatedServer.init(DedicatedServer.java:294) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                        },
+                        {
+                            "number": 45,
+                            "content": "at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:698) [minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                        },
+                        {
+                            "number": 46,
+                            "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                        },
+                        {
+                            "number": 47,
+                            "content": "Caused by: java.lang.ClassNotFoundException: com.sk89q.worldedit.bukkit.WorldEditAPI"
+                        },
+                        {
+                            "number": 48,
+                            "content": "at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 49,
+                            "content": "at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:134) ~[minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                        },
+                        {
+                            "number": 50,
+                            "content": "at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:80) ~[minecraft_server.jar:git-Spigot-3cb9dcb-77ca7ca]"
+                        },
+                        {
+                            "number": 51,
+                            "content": "at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 52,
+                            "content": "at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 53,
+                            "content": "... 14 more"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'Multiverse-Portals'."
+                    },
+                    {
+                        "message": "Remove the plugin 'Multiverse-Portals'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.13.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[14:33:06] [Server thread\/INFO]: Starting minecraft server version 1.13.2"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.13.2"
+            }
+        ]
+    }
+}

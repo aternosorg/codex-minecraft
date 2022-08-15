@@ -1,0 +1,105 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": 1550279774,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[2019-02-16 01:16:14 INFO] Starting Server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550279774,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[2019-02-16 01:16:14 INFO] Version 1.9.0.15"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550279774,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[2019-02-16 01:16:14 INFO] Level Name: world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550279774,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[2019-02-16 01:16:14 INFO] Game mode: 0 Survival"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550279774,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[2019-02-16 01:16:14 INFO] Difficulty: 1 EASY"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550279776,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[2019-02-16 01:16:16 INFO] IPv4 supported, port: 13941"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550279776,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[2019-02-16 01:16:16 INFO] IPv6 not supported"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550279779,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[2019-02-16 01:16:19 INFO] Server started."
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Bedrock version: 1.9.0.15",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1550279774,
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[2019-02-16 01:16:14 INFO] Version 1.9.0.15"
+                        }
+                    ]
+                },
+                "label": "Bedrock version",
+                "value": "1.9.0.15"
+            }
+        ]
+    }
+}

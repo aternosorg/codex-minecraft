@@ -1,0 +1,269 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": 1550276712,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "2019-02-16 00:25:12 [INFO] Starting minecraft server version 1.5.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276712,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "2019-02-16 00:25:12 [INFO] Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276712,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "2019-02-16 00:25:12 [INFO] Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276712,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "2019-02-16 00:25:12 [INFO] Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276713,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "2019-02-16 00:25:13 [INFO] Starting Minecraft server on *:10791"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276713,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "2019-02-16 00:25:13 [INFO] Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276714,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "2019-02-16 00:25:14 [INFO] Preparing start region for level 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276715,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "2019-02-16 00:25:15 [INFO] Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276716,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "2019-02-16 00:25:16 [INFO] Preparing spawn area: 5%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276717,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "2019-02-16 00:25:17 [INFO] Preparing spawn area: 9%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276718,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "2019-02-16 00:25:18 [INFO] Preparing spawn area: 16%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276719,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "2019-02-16 00:25:19 [INFO] Preparing spawn area: 23%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276720,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "2019-02-16 00:25:20 [INFO] Preparing spawn area: 30%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276721,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "2019-02-16 00:25:21 [INFO] Preparing spawn area: 36%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276722,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "2019-02-16 00:25:22 [INFO] Preparing spawn area: 43%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276723,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "2019-02-16 00:25:23 [INFO] Preparing spawn area: 48%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276724,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "2019-02-16 00:25:24 [INFO] Preparing spawn area: 54%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276725,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "2019-02-16 00:25:25 [INFO] Preparing spawn area: 63%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276726,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "2019-02-16 00:25:26 [INFO] Preparing spawn area: 72%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276727,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "2019-02-16 00:25:27 [INFO] Preparing spawn area: 81%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276728,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "2019-02-16 00:25:28 [INFO] Preparing spawn area: 91%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276729,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "2019-02-16 00:25:29 [INFO] Done (15.748s)! For help, type \"help\" or \"?\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276729,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "2019-02-16 00:25:29 [INFO] Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550276729,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "2019-02-16 00:25:29 [INFO] Query running on 0.0.0.0:10791"
+                },
+                {
+                    "number": 25,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.5.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1550276712,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "2019-02-16 00:25:12 [INFO] Starting minecraft server version 1.5.2"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.5.2"
+            }
+        ]
+    }
+}

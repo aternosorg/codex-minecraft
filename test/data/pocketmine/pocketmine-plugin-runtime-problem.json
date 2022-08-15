@@ -1,0 +1,1504 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": 1582404989,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "2020-02-22 [20:56:29] [Server thread\/INFO]: Loading pocketmine.yml..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404989,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "2020-02-22 [20:56:29] [Server thread\/INFO]: Loading server properties..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404989,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "2020-02-22 [20:56:29] [Server thread\/INFO]: Selected English (eng) as the base language"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404989,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "2020-02-22 [20:56:29] [Server thread\/INFO]: Starting Minecraft: Bedrock Edition server version v1.14.0"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1582404989,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "2020-02-22 [20:56:29] [Server thread\/NOTICE]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1582404989,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "2020-02-22 [20:56:29] [Server thread\/NOTICE]: To disable authentication, set \"xbox-auth\" to \"false\" in server.properties."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404989,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "2020-02-22 [20:56:29] [Server thread\/INFO]: Opening server on **.**.**.**:52912"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404989,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "2020-02-22 [20:56:29] [Server thread\/INFO]: This server is running PocketMine-MP version 3.11.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404989,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "2020-02-22 [20:56:29] [Server thread\/INFO]: PocketMine-MP is distributed under the LGPL License"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading resource packs..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading CustomAlerts v2.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading AutoInv v0.0.10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading BuilderTools v1.2.0-beta2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading ServerChannels v2.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading SizePlayer v1.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading MorphX v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading Newspaper v1.0.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading ProfileUI v4.2.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading InvSee v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading Neon v1.1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading BlazinVanish v1.0.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading BlazinFly v1.8.7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading PurePerms v1.4.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: [PurePerms] Setting default language to 'en'"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/NOTICE]: [PurePerms] Multiworld support is currently disabled."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading Slapper v1.5.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading Wilderness v0.0.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading PiggyCustomEnchants v2.0.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading PlayerHead v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading VanillaCoordinates v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading AdvancedKits v5.3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading CustomSetting v1.0.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading AntiSpamPro v1.4.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading KeepInventory v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading EconomyAPI v5.7.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading HealthTag v2.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading ChatScrambler v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading SignPortal v1.1.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading SellAll v1.3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading CustomShopUI v4.0.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading FactionsPro v1.3.20"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Loading PureChat v1.4.11"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling CustomAlerts v2.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling ServerChannels v2.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Preparing world \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling AutoInv v0.0.10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling BuilderTools v1.2.0-beta2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling SizePlayer v1.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling MorphX v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling Newspaper v1.0.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling ProfileUI v4.2.1"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/NOTICE]: [ProfielUI] Enabled! - By Infernus101"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling InvSee v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling Neon v1.1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling BlazinVanish v1.0.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling BlazinFly v1.8.7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling PurePerms v1.4.3"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/NOTICE]: [PurePerms] Set data provider to YAMLv1."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling Slapper v1.5.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling Wilderness v0.0.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling PiggyCustomEnchants v2.0.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling PlayerHead v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling VanillaCoordinates v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling AdvancedKits v5.3.0"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/NOTICE]: [AdvancedKits] PiggyCustomEnchants detected. Activated custom enchants support"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/WARNING]: [AdvancedKits] Bad configuration in kit starter kit. Image type not supported. Please use 'path' or 'url'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling CustomSetting v1.0.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling AntiSpamPro v1.4.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: [AntiSpamPro] AntiSpamPro Swear Filter Enabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling KeepInventory v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: -=-++-=-++-=-++-=-++-=-++-=-++-=-++-=-"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: [KeepInventory] Plugin enabled!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: [KeepInventory] Plugin by KhoaGamingPro"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: [KeepInventory] Plugin version: 1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: -=-++-=-++-=-++-=-++-=-++-=-++-=-++-=-"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/NOTICE]: [KeepInventory] Keep inventory enabled. Player's inventory will keep after death."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/NOTICE]: [KeepInventory] You can disable it in config.yml"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404990,
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "2020-02-22 [20:56:30] [Server thread\/INFO]: Enabling EconomyAPI v5.7.2"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/NOTICE]: [EconomyAPI] Something went wrong on update server."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/NOTICE]: [EconomyAPI] Database provider was set to: Yaml"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/INFO]: Enabling HealthTag v2.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/INFO]: Enabling ChatScrambler v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/INFO]: [ChatScrambler] Version: 1.0.0 for API: 3.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/INFO]: Enabling SignPortal v1.1.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/INFO]: Enabling SellAll v1.3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/INFO]: Enabling CustomShopUI v4.0.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/INFO]: Enabling FactionsPro v1.3.20"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/INFO]: Enabling PureChat v1.4.11"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/NOTICE]: [PureChat] FactionsPro < 1.4 support enabled."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/INFO]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/INFO]: Setting query port to 52912"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/INFO]: Query running on **.**.**.**:52912"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/INFO]: Default game type: Survival Mode"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/INFO]: If you find this project useful, please consider donating to support development: https:\/\/patreon.com\/pocketminemp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582404991,
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "2020-02-22 [20:56:31] [Server thread\/INFO]: Done (1.795s)! For help, type \"help\" or \"?\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408943,
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "2020-02-22 [22:02:23] [Server thread\/INFO]: Plugins (30): PiggyCustomEnchants v2.0.5, Slapper v1.5.2, AutoInv v0.0.10, ServerChannels v2.3, EconomyAPI v5.7.2, AdvancedKits v5.3.0, BuilderTools v1.2.0-beta2, PlayerHead v1.0, KeepInventory v1.0, AntiSpamPro v1.4.1, BlazinFly v1.8.7, SizePlayer v1.1.0, CustomAlerts v2.1, ChatScrambler v1.0.0, PurePerms v1.4.3, Neon v1.1.1, BlazinVanish v1.0.4, Wilderness v0.0.1, SellAll v1.3.0, HealthTag v2.0.0, MorphX v1.0.0, Newspaper v1.0.1, InvSee v1.0.0, CustomSetting v1.0.3, CustomShopUI v4.0.5, ProfileUI v4.2.1, VanillaCoordinates v1.0.0, SignPortal v1.1.4, FactionsPro v1.3.20, PureChat v1.4.11"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/CRITICAL]: Error: \"Call to undefined method pocketmine\\command\\ConsoleCommandSender::dataPacket()\" (EXCEPTION) in \"plugins\/VanillaCoordinates.phar\/src\/shelly7w7\/VanillaCoordinates\/command\/CoordinateCommand\" at line 37"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/DEBUG]: #0 src\/pocketmine\/command\/SimpleCommandMap(248): shelly7w7\\VanillaCoordinates\\command\\CoordinateCommand->execute(object pocketmine\\command\\ConsoleCommandSender, string[6] coords, array[1])"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/DEBUG]: #1 src\/pocketmine\/Server(1807): pocketmine\\command\\SimpleCommandMap->dispatch(object pocketmine\\command\\ConsoleCommandSender, string[9] coords on)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/DEBUG]: #2 src\/pocketmine\/Server(1419): pocketmine\\Server->dispatchCommand(object pocketmine\\command\\ConsoleCommandSender, string[9] coords on)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/DEBUG]: #3 vendor\/pocketmine\/snooze\/src\/SleeperHandler(123): pocketmine\\Server->pocketmine\\{closure}()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/DEBUG]: #4 vendor\/pocketmine\/snooze\/src\/SleeperHandler(85): pocketmine\\snooze\\SleeperHandler->processNotifications()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/DEBUG]: #5 src\/pocketmine\/Server(2146): pocketmine\\snooze\\SleeperHandler->sleepUntil(double 1582437757.3646)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/DEBUG]: #6 src\/pocketmine\/Server(1990): pocketmine\\Server->tickProcessor()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/DEBUG]: #7 src\/pocketmine\/Server(1584): pocketmine\\Server->start()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/DEBUG]: #8 src\/pocketmine\/PocketMine(273): pocketmine\\Server->__construct(object BaseClassLoader, object pocketmine\\utils\\MainLogger, string[16] \/aternos\/server\/, string[24] \/aternos\/server\/plugins\/)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/DEBUG]: #9 src\/pocketmine\/PocketMine(296): pocketmine\\server()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/DEBUG]: #10 (11): require(string[64] phar:\/\/\/aternos\/server\/server.phar\/src\/pocketmine\/PocketMine.php)"
+                }
+            ]
+        },
+        {
+            "level": 0,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/EMERGENCY]: An unrecoverable error has occurred and the server has crashed. Creating a crash dump"
+                }
+            ]
+        },
+        {
+            "level": 0,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/EMERGENCY]: Please upload the \"\/aternos\/server\/crashdumps\/Sat_Feb_22-22.02.37-PST_2020.log\" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling PiggyCustomEnchants v2.0.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling Slapper v1.5.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling AutoInv v0.0.10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling ServerChannels v2.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling EconomyAPI v5.7.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling AdvancedKits v5.3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling BuilderTools v1.2.0-beta2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling PlayerHead v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling KeepInventory v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: [KeepInventory] Plugin disabled!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling AntiSpamPro v1.4.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling BlazinFly v1.8.7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling SizePlayer v1.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: [SizePlayer] SizePlayer plugin is currently disabled!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling CustomAlerts v2.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling ChatScrambler v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling PurePerms v1.4.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling Neon v1.1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling BlazinVanish v1.0.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling Wilderness v0.0.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling SellAll v1.3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling HealthTag v2.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling MorphX v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling Newspaper v1.0.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling InvSee v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling CustomSetting v1.0.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling CustomShopUI v4.0.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling ProfileUI v4.2.1"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/NOTICE]: [ProfielUI] Disabled! - By Infernus101"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling VanillaCoordinates v1.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling SignPortal v1.1.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling FactionsPro v1.3.20"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1582408957,
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "2020-02-22 [22:02:37] [Server thread\/INFO]: Disabling PureChat v1.4.11"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The plugin 'VanillaCoordinates' has a problem while running.",
+                "counter": 1,
+                "entry": {
+                    "level": 2,
+                    "time": 1582408957,
+                    "lines": [
+                        {
+                            "number": 98,
+                            "content": "2020-02-22 [22:02:37] [Server thread\/CRITICAL]: Error: \"Call to undefined method pocketmine\\command\\ConsoleCommandSender::dataPacket()\" (EXCEPTION) in \"plugins\/VanillaCoordinates.phar\/src\/shelly7w7\/VanillaCoordinates\/command\/CoordinateCommand\" at line 37"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file 'plugins\/VanillaCoordinates.phar'."
+                    },
+                    {
+                        "message": "Install a different version of the plugin 'VanillaCoordinates'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Bedrock version: 1.14.0",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1582404989,
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "2020-02-22 [20:56:29] [Server thread\/INFO]: Starting Minecraft: Bedrock Edition server version v1.14.0"
+                        }
+                    ]
+                },
+                "label": "Bedrock version",
+                "value": "1.14.0"
+            },
+            {
+                "message": "Pocketmine version: 3.11.6",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1582404989,
+                    "lines": [
+                        {
+                            "number": 8,
+                            "content": "2020-02-22 [20:56:29] [Server thread\/INFO]: This server is running PocketMine-MP version 3.11.6"
+                        }
+                    ]
+                },
+                "label": "Pocketmine version",
+                "value": "3.11.6"
+            }
+        ]
+    }
+}

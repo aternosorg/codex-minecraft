@@ -1,0 +1,1294 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[16:48:17] [main\/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[16:48:17] [main\/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[16:48:17] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[16:48:17] [main\/INFO] [FML]: Forge Mod Loader version 14.23.5.2811 for Minecraft 1.12.2 loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[16:48:17] [main\/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_144, running on Linux:amd64:4.4.0-140-generic, installed at \/aternos\/bin\/jdk1.8.0_144\/jre"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[16:48:17] [main\/INFO] [FML]: Searching \/aternos\/server\/.\/mods for mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[16:48:17] [main\/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[16:48:17] [main\/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[16:48:17] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[16:48:17] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[16:48:17] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[16:48:24] [main\/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[16:48:24] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[16:48:24] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[16:48:28] [main\/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[16:48:29] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[16:48:32] [main\/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[16:48:56] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[16:48:57] [Server thread\/INFO] [FML]: MinecraftForge v14.23.5.2811 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[16:48:57] [Server thread\/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[16:48:58] [Server thread\/INFO] [FML]: Replaced 1036 ore ingredients"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[16:49:00] [Server thread\/INFO] [FML]: Searching \/aternos\/server\/.\/mods for mods"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[16:49:03] [Server thread\/WARN] [FML]: Mod betterbuilderswands is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.11.1"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[16:49:03] [Server thread\/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.54.838"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[16:49:04] [Server thread\/INFO] [FML]: Disabling mod jeresources it is client side only."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[16:49:04] [Server thread\/INFO] [FML]: Forge Mod Loader has identified 11 mods to load"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[16:49:04] [Server thread\/WARN] [FML]: Missing English translation for FML: assets\/fml\/lang\/en_us.lang"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[16:49:04] [Server thread\/WARN] [FML]: Missing English translation for morpheus: assets\/morpheus\/lang\/en_us.lang"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[16:49:04] [Server thread\/WARN] [FML]: Missing English translation for thutperms: assets\/thutperms\/lang\/en_us.lang"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[16:49:04] [Server thread\/INFO] [FML]: FML has found a non-mod file JustEnoughResources-1.12.2-0.8.10.50.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[16:49:05] [Server thread\/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, betterbuilderswands, ironbackpacks, ironchest, jei, morpheus, sparkshammers, thutperms] at CLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[16:49:05] [Server thread\/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, betterbuilderswands, ironbackpacks, ironchest, jei, morpheus, sparkshammers, thutperms] at SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[16:49:11] [Server thread\/INFO] [FML]: Processing ObjectHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[16:49:11] [Server thread\/INFO] [FML]: Found 1217 ObjectHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[16:49:11] [Server thread\/INFO] [FML]: Identifying ItemStackHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[16:49:11] [Server thread\/INFO] [FML]: Found 0 ItemStackHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[16:49:11] [Server thread\/INFO] [FML]: Configured a dormant chunk cache size of 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[16:49:11] [Forge Version Check\/INFO] [forge.VersionCheck]: [forge] Starting version check at http:\/\/files.minecraftforge.net\/maven\/net\/minecraftforge\/forge\/promotions_slim.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[16:49:11] [Server thread\/INFO] [betterbuilderswands]: Access transform success createStackedBlock (func_180643_i)."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[16:49:12] [Forge Version Check\/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[16:49:12] [Server thread\/INFO] [morpheus]: Loading configuration"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Replacing net.minecraftforge.server.permission.DefaultPermissionHandler with thut.permissions.PermissionsManager"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[16:49:12] [Server thread\/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `hammer_block`, expected `sparkshammers`. This could be a intended override, but in most cases indicates a broken mod."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[16:49:12] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[16:49:12] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[16:49:12] [Server thread\/INFO] [Spark's Hammers]: Spark's Hammers: Reading custom tools from json file..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[16:49:12] [Server thread\/INFO] [Spark's Hammers]: Spark's Hammers: Finished reading custom tools"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[16:49:12] [Server thread\/INFO] [Spark's Hammers]: Spark's Hammers: Added 36 tools"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[16:49:12] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[16:49:12] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[16:49:13] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[16:49:13] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[16:49:13] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[16:49:13] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[16:49:13] [Server thread\/INFO] [FML]: Injecting itemstacks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[16:49:13] [Server thread\/INFO] [FML]: Itemstack injection complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[16:49:13] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[16:49:13] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[16:49:13] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[16:49:13] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:10956"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[16:49:13] [Server thread\/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[16:49:14] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE\/INSECURE MODE!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[16:49:14] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[16:49:14] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[16:49:14] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set \"online-mode\" to \"true\" in the server.properties file."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[16:49:15] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[16:49:15] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[16:49:15] [Server thread\/INFO] [FML]: Injecting itemstacks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[16:49:15] [Server thread\/INFO] [FML]: Itemstack injection complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[16:49:15] [Server thread\/INFO] [betterbuilderswands]: Added 'minecraft:grass\/0=&gt;1*minecraft:grass\/0=&gt;minecraft:grass\/0' to mapping"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[16:49:15] [Server thread\/INFO] [betterbuilderswands]: Added 'minecraft:grass\/0=&gt;1*minecraft:dirt\/0=&gt;minecraft:dirt\/0' to mapping"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[16:49:15] [Server thread\/INFO] [betterbuilderswands]: Added 'minecraft:lapis_ore\/0=&gt;1*minecraft:lapis_ore\/4=&gt;minecraft:lapis_ore\/0' to mapping"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[16:49:15] [Server thread\/INFO] [betterbuilderswands]: Added 'minecraft:lit_redstone_ore\/0=&gt;1*minecraft:redstone_ore\/0=&gt;minecraft:lit_redstone_ore\/0' to mapping"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[16:49:15] [Server thread\/INFO] [betterbuilderswands]: Added 'minecraft:grass\/0=&gt;1*minecraft:grass\/0=&gt;minecraft:grass\/0' to mapping"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[16:49:15] [Server thread\/INFO] [betterbuilderswands]: Added 'minecraft:grass\/0=&gt;1*minecraft:dirt\/0=&gt;minecraft:dirt\/0' to mapping"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[16:49:15] [Server thread\/INFO] [betterbuilderswands]: Added 'minecraft:dirt\/1=&gt;1*minecraft:dirt\/1=&gt;minecraft:dirt\/1' to mapping"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[16:49:15] [Server thread\/INFO] [betterbuilderswands]: Added 'minecraft:dirt\/1=&gt;1*minecraft:dirt\/0=&gt;minecraft:dirt\/0' to mapping"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[16:49:15] [Server thread\/INFO] [betterbuilderswands]: Added 'minecraft:dirt\/2=&gt;1*minecraft:dirt\/2=&gt;minecraft:dirt\/2' to mapping"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[16:49:15] [Server thread\/INFO] [betterbuilderswands]: Added 'minecraft:dirt\/2=&gt;1*minecraft:dirt\/0=&gt;minecraft:dirt\/0' to mapping"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[16:49:15] [Server thread\/INFO] [Spark's Hammers]: Spark's Hammers: Removed 50 tools from creative menu due to missing ingredients"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[16:49:15] [Server thread\/INFO] [FML]: Forge Mod Loader has successfully loaded 11 mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[16:49:15] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[16:49:15] [Server thread\/INFO] [FML.ModTracker]: This world was saved with mod betterbuilderswands version 0.13.0 and it is now at version 0.11.1, things may not work well"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[16:49:15] [Server thread\/INFO] [FML]: Injecting existing registry data into this server instance"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[16:49:17] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[16:49:17] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[16:49:18] [Server thread\/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@18761a76)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[16:49:19] [Server thread\/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 494 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[16:49:19] [Server thread\/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@18761a76)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[16:49:20] [Server thread\/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@18761a76)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "[16:49:20] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[16:49:22] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[16:49:23] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 8%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[16:49:24] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 29%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[16:49:25] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 52%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[16:49:26] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 77%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[16:49:27] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (11.595s)! For help, type \"help\" or \"?\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[16:49:27] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[16:49:27] [Query Listener #1\/INFO] [net.minecraft.server.MinecraftServer]: Query running on **.**.**.**:10956"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[16:49:28] [Server thread\/INFO] [FML]: Unloading dimension -1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[16:49:28] [Server thread\/INFO] [FML]: Unloading dimension 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[17:04:23] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[17:04:23] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[17:04:23] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[17:04:23] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'\/overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[17:04:24] [Server thread\/INFO] [FML]: Unloading dimension 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "[17:04:24] [Server Shutdown Thread\/INFO] [net.minecraft.server.MinecraftServer]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "[17:04:24] [Server Shutdown Thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving players"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "This world was saved with mod 'betterbuilderswands' version 0.13.0 and it is now at version 0.11.1.",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 98,
+                            "content": "[16:49:15] [Server thread\/INFO] [FML.ModTracker]: This world was saved with mod betterbuilderswands version 0.13.0 and it is now at version 0.11.1, things may not work well"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'betterbuilderswands' with version 0.13.0."
+                    },
+                    {
+                        "message": "Do nothing. This problem might fix itself."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.12.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 18,
+                            "content": "[16:48:56] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.12.2"
+            },
+            {
+                "message": "Forge version: 14.23.5.2811",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 19,
+                            "content": "[16:48:57] [Server thread\/INFO] [FML]: MinecraftForge v14.23.5.2811 Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "14.23.5.2811"
+            }
+        ]
+    }
+}

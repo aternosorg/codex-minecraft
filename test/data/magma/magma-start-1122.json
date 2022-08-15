@@ -1,0 +1,3047 @@
+{
+    "entries": [
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[15:02:23] [main\/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[15:02:23] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[15:02:23] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[15:02:25] [main\/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[15:02:25] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[15:02:26] [main\/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[15:02:41] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[15:02:42] [Server thread\/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[15:02:42] [Server thread\/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[15:02:43] [Server thread\/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[15:02:44] [Server thread\/INFO] [FML]: Replaced 1227 ore ingredients"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[15:02:44] [Server thread\/INFO] [FML]: Config directory created successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[15:02:45] [Server thread\/INFO] [FML]: Searching \/aternos\/server\/.\/mods for mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[15:02:48] [Server thread\/INFO] [FML]: Forge Mod Loader has identified 4 mods to load"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[15:02:49] [Server thread\/WARN] [FML]: Missing English translation for FML: assets\/fml\/lang\/en_us.lang"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[15:02:50] [Server thread\/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at CLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[15:02:50] [Server thread\/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[15:02:51] [Server thread\/INFO] [FML]: Processing ObjectHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[15:02:51] [Server thread\/INFO] [FML]: Found 1168 ObjectHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[15:02:51] [Server thread\/INFO] [FML]: Identifying ItemStackHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[15:02:51] [Server thread\/INFO] [FML]: Found 0 ItemStackHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[15:02:51] [Server thread\/INFO] [FML]: Configured a dormant chunk cache size of 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[15:02:52] [Forge Version Check\/INFO] [forge.VersionCheck]: [forge] Starting version check at http:\/\/files.minecraftforge.net\/maven\/net\/minecraftforge\/forge\/promotions_slim.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[15:02:52] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[15:02:52] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[15:02:52] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[15:02:52] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[15:02:52] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[15:02:52] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[15:02:52] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[15:02:52] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[15:02:52] [Server thread\/INFO] [FML]: Injecting itemstacks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[15:02:52] [Server thread\/INFO] [FML]: Itemstack injection complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[15:02:52] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[15:02:52] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[15:02:52] [Forge Version Check\/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[15:02:53] [Server thread\/INFO] [Minecraft]: This server is running Magma version e2b9ab6 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[15:02:53] [Server thread\/INFO] [Minecraft]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[15:02:53] [Server thread\/INFO] [Spigot]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[15:02:53] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[15:02:54] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on **.**.**.**:10149"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[15:02:54] [Server thread\/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[15:02:55] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[15:02:55] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[15:02:55] [Server thread\/INFO] [FML]: Injecting itemstacks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[15:02:55] [Server thread\/INFO] [FML]: Itemstack injection complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[15:02:56] [Server thread\/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command time with permission node commandtime.time"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command gamemode with permission node commandgamemode.gamemode"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command difficulty with permission node commanddifficulty.difficulty"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command defaultgamemode with permission node commanddefaultgamemode.defaultgamemode"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command kill with permission node commandkill.kill"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command toggledownfall with permission node commandtoggledownfall.toggledownfall"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command weather with permission node commandweather.weather"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command xp with permission node commandxp.xp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command tp with permission node commandtp.tp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command teleport with permission node commandteleport.teleport"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command give with permission node commandgive.give"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command replaceitem with permission node commandreplaceitem.replaceitem"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command stats with permission node commandstats.stats"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command effect with permission node commandeffect.effect"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command enchant with permission node commandenchant.enchant"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command particle with permission node commandparticle.particle"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command me with permission node commandemote.me"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command seed with permission node commandshowseed.seed"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command help with permission node commandhelp.help"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command debug with permission node commanddebug.debug"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command tell with permission node commandmessage.tell"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command say with permission node commandbroadcast.say"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command spawnpoint with permission node commandsetspawnpoint.spawnpoint"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command setworldspawn with permission node commandsetdefaultspawnpoint.setworldspawn"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command gamerule with permission node commandgamerule.gamerule"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command clear with permission node commandclearinventory.clear"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command testfor with permission node commandtestfor.testfor"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command spreadplayers with permission node commandspreadplayers.spreadplayers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command playsound with permission node commandplaysound.playsound"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command scoreboard with permission node commandscoreboard.scoreboard"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command execute with permission node commandexecuteat.execute"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command trigger with permission node commandtrigger.trigger"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command advancement with permission node advancementcommand.advancement"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command recipe with permission node recipecommand.recipe"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command summon with permission node commandsummon.summon"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command setblock with permission node commandsetblock.setblock"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command fill with permission node commandfill.fill"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command clone with permission node commandclone.clone"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command testforblocks with permission node commandcompare.testforblocks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command blockdata with permission node commandblockdata.blockdata"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command testforblock with permission node commandtestforblock.testforblock"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command tellraw with permission node commandmessageraw.tellraw"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command worldborder with permission node commandworldborder.worldborder"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command title with permission node commandtitle.title"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command entitydata with permission node commandentitydata.entitydata"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command stopsound with permission node commandstopsound.stopsound"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command locate with permission node commandlocate.locate"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[15:02:56] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command reload with permission node commandreload.reload"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command function with permission node commandfunction.function"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command op with permission node commandop.op"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command deop with permission node commanddeop.deop"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command stop with permission node commandstop.stop"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command save-all with permission node commandsaveall.save-all"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command save-off with permission node commandsaveoff.save-off"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command save-on with permission node commandsaveon.save-on"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command ban-ip with permission node commandbanip.ban-ip"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command pardon-ip with permission node commandpardonip.pardon-ip"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command ban with permission node commandbanplayer.ban"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command banlist with permission node commandlistbans.banlist"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command pardon with permission node commandpardonplayer.pardon"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command kick with permission node commandserverkick.kick"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command list with permission node commandlistplayers.list"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command whitelist with permission node commandwhitelist.whitelist"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[15:02:57] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command setidletimeout with permission node commandsetplayertimeout.setidletimeout"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: -------- World Settings For [world] --------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Cactus Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Cane Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Melon Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Mushroom Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Sapling Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Wheat Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: NetherWart Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Vine Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Cocoa Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Mob Spawn Range: 4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Entity Activation Range: An 32 \/ Mo 32 \/ Mi 16 \/ Tiv true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Random Lighting Updates: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Structure Info Saving: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Custom Map Seeds: Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Max TNT Explosions: 100"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Item Despawn Rate: 6000"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Experience Merge Radius: 3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Item Merge Radius: 2.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Entity Tracking Range: Pl 48 \/ An 48 \/ Mo 48 \/ Mi 32 \/ Other 64"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Arrow Despawn Rate: 1200"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "[15:02:58] [Server thread\/INFO] [Minecraft]: View Distance: 10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "[15:02:58] [Server thread\/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@42667fb1)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "[15:03:00] [Server thread\/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: -------- World Settings For [DIM-1] --------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Cactus Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Cane Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Melon Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Mushroom Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Sapling Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Wheat Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: NetherWart Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Vine Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Cocoa Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Mob Spawn Range: 4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Entity Activation Range: An 32 \/ Mo 32 \/ Mi 16 \/ Tiv true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Random Lighting Updates: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Structure Info Saving: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 159,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Custom Map Seeds: Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Max TNT Explosions: 100"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Item Despawn Rate: 6000"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Experience Merge Radius: 3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Item Merge Radius: 2.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Entity Tracking Range: Pl 48 \/ An 48 \/ Mo 48 \/ Mi 32 \/ Other 64"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Arrow Despawn Rate: 1200"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: View Distance: 10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "[15:03:03] [Server thread\/INFO] [FML]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@42667fb1)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 172,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: -------- World Settings For [DIM1] --------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 173,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Cactus Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 174,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Cane Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 175,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Melon Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 176,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Mushroom Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 177,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 178,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Sapling Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 179,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Wheat Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 180,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: NetherWart Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 181,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Vine Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 182,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Cocoa Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 183,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Mob Spawn Range: 4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 184,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Entity Activation Range: An 32 \/ Mo 32 \/ Mi 16 \/ Tiv true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 185,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 186,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Random Lighting Updates: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 187,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Structure Info Saving: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 188,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Custom Map Seeds: Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 189,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Max TNT Explosions: 100"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 191,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Item Despawn Rate: 6000"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 192,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Experience Merge Radius: 3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 193,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Item Merge Radius: 2.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 194,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Entity Tracking Range: Pl 48 \/ An 48 \/ Mo 48 \/ Mi 32 \/ Other 64"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 195,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Arrow Despawn Rate: 1200"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 196,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 197,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 198,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 199,
+                    "content": "[15:03:03] [Server thread\/INFO] [Minecraft]: View Distance: 10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 200,
+                    "content": "[15:03:03] [Server thread\/INFO] [FML]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@42667fb1)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 201,
+                    "content": "[15:03:03] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0 (Seed: 3374806643051400431)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 202,
+                    "content": "[15:03:04] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 1%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 203,
+                    "content": "[15:03:06] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 4%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 204,
+                    "content": "[15:03:07] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 4%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 205,
+                    "content": "[15:03:08] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 5%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 206,
+                    "content": "[15:03:09] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 5%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 207,
+                    "content": "[15:03:11] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 7%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 208,
+                    "content": "[15:03:12] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 9%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 209,
+                    "content": "[15:03:13] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 9%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 210,
+                    "content": "[15:03:14] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 10%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 211,
+                    "content": "[15:03:15] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 11%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 212,
+                    "content": "[15:03:16] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 12%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 213,
+                    "content": "[15:03:17] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 13%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 214,
+                    "content": "[15:03:18] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 14%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 215,
+                    "content": "[15:03:19] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 15%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 216,
+                    "content": "[15:03:20] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 15%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 217,
+                    "content": "[15:03:22] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 16%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 218,
+                    "content": "[15:03:23] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 17%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 219,
+                    "content": "[15:03:24] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 18%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 220,
+                    "content": "[15:03:25] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 18%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 221,
+                    "content": "[15:03:26] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 19%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 222,
+                    "content": "[15:03:27] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 20%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 223,
+                    "content": "[15:03:29] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 21%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 224,
+                    "content": "[15:03:30] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 23%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 225,
+                    "content": "[15:03:31] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 25%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 226,
+                    "content": "[15:03:32] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 26%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 227,
+                    "content": "[15:03:33] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 28%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 228,
+                    "content": "[15:03:34] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 30%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 229,
+                    "content": "[15:03:35] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 32%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 230,
+                    "content": "[15:03:36] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 34%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 231,
+                    "content": "[15:03:37] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 36%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 232,
+                    "content": "[15:03:38] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 39%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 233,
+                    "content": "[15:03:39] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 43%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 234,
+                    "content": "[15:03:40] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 46%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 235,
+                    "content": "[15:03:42] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 47%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 236,
+                    "content": "[15:03:43] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 49%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 237,
+                    "content": "[15:03:44] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 52%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 238,
+                    "content": "[15:03:45] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 55%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 239,
+                    "content": "[15:03:46] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 58%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 240,
+                    "content": "[15:03:47] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 60%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 241,
+                    "content": "[15:03:48] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 64%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 242,
+                    "content": "[15:03:49] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 66%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 243,
+                    "content": "[15:03:50] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 67%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 244,
+                    "content": "[15:03:51] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 245,
+                    "content": "[15:03:52] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 72%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 246,
+                    "content": "[15:03:53] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 76%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 247,
+                    "content": "[15:03:54] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 79%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 248,
+                    "content": "[15:03:55] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 83%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 249,
+                    "content": "[15:03:56] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 85%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 250,
+                    "content": "[15:03:57] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 88%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 251,
+                    "content": "[15:03:58] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 91%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 252,
+                    "content": "[15:03:59] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 94%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 253,
+                    "content": "[15:04:00] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 96%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 254,
+                    "content": "[15:04:01] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 98%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 255,
+                    "content": "[15:04:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 1 (Seed: 3374806643051400431)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 256,
+                    "content": "[15:04:03] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 257,
+                    "content": "[15:04:04] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 6%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 258,
+                    "content": "[15:04:05] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 9%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 259,
+                    "content": "[15:04:06] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 14%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 260,
+                    "content": "[15:04:07] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 16%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 261,
+                    "content": "[15:04:08] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 23%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 262,
+                    "content": "[15:04:09] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 30%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 263,
+                    "content": "[15:04:10] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 37%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 264,
+                    "content": "[15:04:11] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 41%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 265,
+                    "content": "[15:04:12] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 48%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 266,
+                    "content": "[15:04:13] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 51%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 267,
+                    "content": "[15:04:14] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 54%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 268,
+                    "content": "[15:04:16] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 60%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 269,
+                    "content": "[15:04:17] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 270,
+                    "content": "[15:04:18] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 79%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 271,
+                    "content": "[15:04:19] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 81%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 272,
+                    "content": "[15:04:20] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 84%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 273,
+                    "content": "[15:04:21] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 89%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 274,
+                    "content": "[15:04:22] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 94%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 275,
+                    "content": "[15:04:23] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 95%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 276,
+                    "content": "[15:04:24] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 99%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 277,
+                    "content": "[15:04:24] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 2 (Seed: 3374806643051400431)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 278,
+                    "content": "[15:04:25] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 16%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 279,
+                    "content": "[15:04:26] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 34%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 280,
+                    "content": "[15:04:27] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 49%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 281,
+                    "content": "[15:04:28] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 61%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 282,
+                    "content": "[15:04:29] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 78%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 283,
+                    "content": "[15:04:30] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 90%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 284,
+                    "content": "[15:04:31] [Server thread\/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 285,
+                    "content": "[15:04:31] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (95.058s)! For help, type \"help\" or \"?\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 286,
+                    "content": "[15:04:31] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on **.**.**.**:10149"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 287,
+                    "content": "[15:04:31] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 288,
+                    "content": "[15:04:31] [Query Listener #1\/INFO] [net.minecraft.server.MinecraftServer]: Query running on **.**.**.**:10149"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 289,
+                    "content": "[15:04:31] [Server thread\/INFO] [net.minecraft.command.CommandHandler]: Registered command forge with permission node forgecommand.forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 290,
+                    "content": "[15:04:43] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 291,
+                    "content": "[15:04:44] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 292,
+                    "content": "[15:04:44] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 293,
+                    "content": "[15:04:44] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 294,
+                    "content": "[15:04:44] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'\/overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 295,
+                    "content": "[15:04:45] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM-1'\/the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 296,
+                    "content": "[15:04:45] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM1'\/the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 297,
+                    "content": "[15:04:49] [Server thread\/INFO] [FML]: Unloading dimension 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 298,
+                    "content": "[15:04:49] [Server thread\/INFO] [FML]: Unloading dimension -1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 299,
+                    "content": "[15:04:49] [Server thread\/INFO] [FML]: Unloading dimension 1"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.12.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 7,
+                            "content": "[15:02:41] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.12.2"
+            },
+            {
+                "message": "Forge version: 14.23.5.2847",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 8,
+                            "content": "[15:02:42] [Server thread\/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "14.23.5.2847"
+            },
+            {
+                "message": "Magma version: e2b9ab6",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 37,
+                            "content": "[15:02:53] [Server thread\/INFO] [Minecraft]: This server is running Magma version e2b9ab6 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)"
+                        }
+                    ]
+                },
+                "label": "Magma version",
+                "value": "e2b9ab6"
+            }
+        ]
+    }
+}

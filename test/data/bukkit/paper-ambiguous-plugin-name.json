@@ -1,0 +1,200 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[19:23:07] [main\/INFO]: Loaded 0 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[19:23:08] [Server thread\/INFO]: Starting minecraft server version 1.13.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[19:23:08] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[19:23:08] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[19:23:09] [Server thread\/INFO]: This server is running Paper version git-Paper-522 (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[19:23:10] [Server thread\/INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[19:23:10] [Server thread\/INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[19:23:10] [Server thread\/INFO]: Debug logging is disabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[19:23:10] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[19:23:11] [Server thread\/INFO]: Starting Minecraft server on *:10730"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[19:23:11] [Server thread\/INFO]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[16:13:42] [Server thread\/ERROR]: Ambiguous plugin name `Multiverse-Core' for files `plugins\/Multiverse-Core-3.0.0-SNAPSHOT.jar' and `plugins\/Multiverse-Core-2.5.jar' in `plugins'"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[19:23:12] [Server thread\/ERROR]: Ambiguous plugin name `WorldEdit' for files `plugins\/worldedit-bukkit-7.0.0-beta-05.jar' and `plugins\/worldedit-bukkit-7.0.0-beta-01.jar' in `plugins'"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "There are multiple plugin files for the plugin name 'Multiverse-Core': 'Multiverse-Core-3.0.0-SNAPSHOT.jar' and 'Multiverse-Core-2.5.jar'.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 12,
+                            "content": "[16:13:42] [Server thread\/ERROR]: Ambiguous plugin name `Multiverse-Core' for files `plugins\/Multiverse-Core-3.0.0-SNAPSHOT.jar' and `plugins\/Multiverse-Core-2.5.jar' in `plugins'"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file 'plugins\/Multiverse-Core-3.0.0-SNAPSHOT.jar'."
+                    },
+                    {
+                        "message": "Delete the file 'plugins\/Multiverse-Core-2.5.jar'."
+                    }
+                ]
+            },
+            {
+                "message": "There are multiple plugin files for the plugin name 'WorldEdit': 'worldedit-bukkit-7.0.0-beta-05.jar' and 'worldedit-bukkit-7.0.0-beta-01.jar'.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 13,
+                            "content": "[19:23:12] [Server thread\/ERROR]: Ambiguous plugin name `WorldEdit' for files `plugins\/worldedit-bukkit-7.0.0-beta-05.jar' and `plugins\/worldedit-bukkit-7.0.0-beta-01.jar' in `plugins'"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file 'plugins\/worldedit-bukkit-7.0.0-beta-05.jar'."
+                    },
+                    {
+                        "message": "Delete the file 'plugins\/worldedit-bukkit-7.0.0-beta-01.jar'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.13.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[19:23:08] [Server thread\/INFO]: Starting minecraft server version 1.13.2"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.13.2"
+            }
+        ]
+    }
+}

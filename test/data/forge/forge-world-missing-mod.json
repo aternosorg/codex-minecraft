@@ -1,0 +1,3486 @@
+{
+    "entries": [
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[21:32:32] [main\/DEBUG] [FML\/]: Injecting tracing printstreams for STDOUT\/STDERR."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[21:32:33] [main\/INFO] [FML\/]: Forge Mod Loader version 11.15.1.2318 for Minecraft 1.8.9 loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[21:32:33] [main\/INFO] [FML\/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_144, running on Linux:amd64:4.4.0-141-generic, installed at \/aternos\/bin\/jdk1.8.0_144\/jre"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Java classpath at launch is forge.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Java library path at launch is \/usr\/java\/packages\/lib\/amd64:\/usr\/lib64:\/lib64:\/lib:\/usr\/lib"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Enabling runtime deobfuscation"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Instantiating coremod class FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Enqueued coremod FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Instantiating coremod class FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Enqueued coremod FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: All fundamental core mods are successfully located"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Attempting to load commandline specified mods, relative to \/aternos\/server\/."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Discovering coremods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Examining for coremod candidacy AntMan-1.8.9-1.2.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Not found coremod data in AntMan-1.8.9-1.2.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Examining for coremod candidacy LucraftCore-1.8.9-1.2.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[21:32:33] [main\/TRACE] [FML\/]: Found FMLCorePluginContainsFMLMod marker in LucraftCore-1.8.9-1.2.0.jar, it will be examined later for regular @Mod instances"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Instantiating coremod class LucraftForgeLoading"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: The coremod lucraft.mods.lucraftcore.access.LucraftForgeLoading requested minecraft version 1.8.9 and minecraft is 1.8.9. It will be loaded."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Enqueued coremod LucraftForgeLoading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[21:32:33] [main\/INFO] [LaunchWrapper\/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[21:32:33] [main\/INFO] [LaunchWrapper\/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[21:32:33] [main\/INFO] [LaunchWrapper\/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[21:32:33] [main\/INFO] [LaunchWrapper\/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[21:32:33] [main\/INFO] [LaunchWrapper\/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[21:32:33] [main\/TRACE] [FML\/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[21:32:33] [main\/TRACE] [FML\/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[21:32:33] [main\/TRACE] [FML\/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[21:32:33] [main\/TRACE] [FML\/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[21:32:33] [main\/DEBUG] [FML\/]: Running coremod plugin FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[21:32:36] [main\/DEBUG] [FML\/]: Read 825 binary patches"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[21:32:37] [main\/DEBUG] [FML\/]: Loading deobfuscation resource \/deobfuscation_data-1.8.9.lzma with 27891 records"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[21:32:41] [main\/INFO] [FML\/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[21:32:41] [main\/DEBUG] [FML\/]: Coremod plugin class FMLCorePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[21:32:41] [main\/INFO] [LaunchWrapper\/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[21:32:41] [main\/DEBUG] [FML\/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[21:32:41] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[21:32:41] [main\/DEBUG] [FML\/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[21:32:41] [main\/DEBUG] [FML\/]: Running coremod plugin FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[21:32:41] [main\/DEBUG] [FML\/]: Coremod plugin class FMLForgePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[21:32:41] [main\/INFO] [LaunchWrapper\/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[21:32:41] [main\/DEBUG] [FML\/]: Loaded 165 rules from AccessTransformer config file forge_at.cfg"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[21:32:41] [main\/DEBUG] [FML\/]: Validating minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[21:32:46] [main\/DEBUG] [FML\/]: Minecraft validated, launching..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[21:32:46] [main\/INFO] [LaunchWrapper\/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[21:32:46] [main\/DEBUG] [FML\/]: Injecting coremod LucraftForgeLoading {lucraft.mods.lucraftcore.access.LucraftForgeLoading} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[21:32:46] [main\/TRACE] [FML\/]: Registering transformer lucraft.mods.lucraftcore.access.LucraftClassTransformer"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[21:32:46] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[21:32:46] [main\/DEBUG] [FML\/]: Running coremod plugin for LucraftForgeLoading {lucraft.mods.lucraftcore.access.LucraftForgeLoading}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[21:32:46] [main\/DEBUG] [FML\/]: Running coremod plugin LucraftForgeLoading"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[21:32:46] [main\/DEBUG] [FML\/]: Coremod plugin class LucraftForgeLoading run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[21:32:46] [main\/INFO] [LaunchWrapper\/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[21:32:46] [main\/INFO] [LaunchWrapper\/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[21:32:49] [main\/INFO] [LaunchWrapper\/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[21:33:19] [Server thread\/INFO] [FML\/]: MinecraftForge v11.15.1.2318 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[21:33:20] [Server thread\/INFO] [FML\/]: Replaced 229 ore recipies"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[21:33:20] [Server thread\/DEBUG] [FML\/]: File \/aternos\/server\/config\/injectedDependencies.json not found. No dependencies injected"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[21:33:20] [Server thread\/DEBUG] [FML\/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[21:33:20] [Server thread\/DEBUG] [FML\/]: Attempting to load mods contained in the minecraft jar file and associated classes"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[21:33:20] [Server thread\/DEBUG] [FML\/]: Found a minecraft related file at \/aternos\/server\/forge.jar, examining for mod candidates"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[21:33:20] [Server thread\/TRACE] [FML\/]: Skipping known library file \/aternos\/server\/mods\/LucraftCore-1.8.9-1.2.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[21:33:20] [Server thread\/DEBUG] [FML\/]: Minecraft jar mods loaded successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[21:33:20] [Server thread\/INFO] [FML\/]: Found 0 mods from the command line. Injecting into mod discoverer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[21:33:20] [Server thread\/INFO] [FML\/]: Searching \/aternos\/server\/mods for mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[21:33:20] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file AntMan-1.8.9-1.2.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[21:33:20] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file LucraftCore-1.8.9-1.2.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[21:33:20] [Server thread\/DEBUG] [FML\/]: Examining file forge.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[21:33:20] [Server thread\/DEBUG] [FML\/]: The mod container forge.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[21:33:24] [Server thread\/DEBUG] [FML\/]: Examining file AntMan-1.8.9-1.2.0.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[21:33:24] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file AntMan-1.8.9-1.2.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[21:33:24] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lnet\/minecraftforge\/fml\/common\/Mod; (lucraft.mods.heroes.antman.AntMan) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[21:33:24] [Server thread\/TRACE] [AntMan\/]: Parsed dependency info : [LucraftCore@[1.8.9-1.2.0,)] [] [LucraftCore@[1.8.9-1.2.0,)]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[21:33:24] [Server thread\/DEBUG] [FML\/]: Examining file LucraftCore-1.8.9-1.2.0.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[21:33:24] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file LucraftCore-1.8.9-1.2.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[21:33:24] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lnet\/minecraftforge\/fml\/common\/Mod; (lucraft.mods.lucraftcore.LucraftCore) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[21:33:24] [Server thread\/TRACE] [LucraftCore\/]: Parsed dependency info : [Forge@[11.15.1.1785,)] [Forge@[11.15.1.1785,)] []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[21:33:24] [Server thread\/INFO] [FML\/]: Forge Mod Loader has identified 5 mods to load"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[21:33:24] [Server thread\/TRACE] [FML\/]: Received a system property request ''"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[21:33:24] [Server thread\/TRACE] [FML\/]: System property request managing the state of 0 mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[21:33:24] [Server thread\/DEBUG] [FML\/]: After merging, found state information for 0 mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[21:33:24] [Server thread\/DEBUG] [FML\/]: Found translations in forge.jar [af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[21:33:25] [Server thread\/DEBUG] [FML\/]: Found translations in forge.jar [af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[21:33:25] [Server thread\/DEBUG] [AntMan\/]: Enabling mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[21:33:25] [Server thread\/DEBUG] [FML\/]: Found translations in AntMan-1.8.9-1.2.0.jar [de_DE, en_US, fil_PH, fr_FR, zh_TW]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[21:33:25] [Server thread\/DEBUG] [LucraftCore\/]: Enabling mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[21:33:25] [Server thread\/DEBUG] [FML\/]: Found translations in LucraftCore-1.8.9-1.2.0.jar [de_DE, en_US, fil_PH, fr_FR]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[21:33:25] [Server thread\/TRACE] [FML\/]: Verifying mod requirements are satisfied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[21:33:25] [Server thread\/TRACE] [FML\/]: All mod requirements are satisfied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[21:33:25] [Server thread\/TRACE] [FML\/]: Sorting mods into an ordered list"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[21:33:25] [Server thread\/TRACE] [FML\/]: Mod sorting completed successfully"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[21:33:25] [Server thread\/DEBUG] [FML\/]: Mod sorting data"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[21:33:25] [Server thread\/DEBUG] [FML\/]: \tAntMan(AntMan:1.8.9-1.2.0): AntMan-1.8.9-1.2.0.jar (required-before:LucraftCore@[1.8.9-1.2.0,))"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[21:33:25] [Server thread\/DEBUG] [FML\/]: \tLucraftCore(Lucraft: Core:1.8.9-1.2.0): LucraftCore-1.8.9-1.2.0.jar (required-after:Forge@[11.15.1.1785,);)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[21:33:25] [Server thread\/TRACE] [mcp\/mcp]: Sending event FMLConstructionEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[21:33:25] [Server thread\/TRACE] [mcp\/mcp]: Sent event FMLConstructionEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[21:33:25] [Server thread\/DEBUG] [FML\/]: Bar Step: Construction - Minecraft Coder Pack took 0.007s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[21:33:25] [Server thread\/TRACE] [FML\/FML]: Sending event FMLConstructionEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[21:33:25] [Server thread\/TRACE] [FML\/FML]: Mod FML is using network checker : Invoking method checkModLists"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[21:33:25] [Server thread\/TRACE] [FML\/FML]: Testing mod FML to verify it accepts its own version in a remote connection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[21:33:25] [Server thread\/TRACE] [FML\/FML]: The mod FML accepts its own version (**.**.**.**)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[21:33:25] [Server thread\/INFO] [FML\/FML]: Attempting connection with missing mods [mcp, FML, Forge, AntMan, LucraftCore] at CLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "[21:33:25] [Server thread\/INFO] [FML\/FML]: Attempting connection with missing mods [mcp, FML, Forge, AntMan, LucraftCore] at SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[21:33:27] [Server thread\/TRACE] [FML\/FML]: Sent event FMLConstructionEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[21:33:27] [Server thread\/DEBUG] [FML\/]: Bar Step: Construction - Forge Mod Loader took 2.130s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[21:33:27] [Server thread\/TRACE] [Forge\/Forge]: Sending event FMLConstructionEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[21:33:27] [Server thread\/TRACE] [FML\/Forge]: Mod Forge is using network checker : No network checking performed"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[21:33:27] [Server thread\/TRACE] [FML\/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[21:33:27] [Server thread\/TRACE] [FML\/Forge]: The mod Forge accepts its own version (11.15.1.2318)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[21:33:27] [Server thread\/TRACE] [Forge\/Forge]: Sent event FMLConstructionEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[21:33:27] [Server thread\/DEBUG] [FML\/]: Bar Step: Construction - Minecraft Forge took 0.031s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[21:33:27] [Server thread\/TRACE] [AntMan\/AntMan]: Sending event FMLConstructionEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[21:33:27] [Server thread\/TRACE] [FML\/AntMan]: Mod AntMan is using network checker : Accepting version 1.8.9-1.2.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[21:33:27] [Server thread\/TRACE] [FML\/AntMan]: Testing mod AntMan to verify it accepts its own version in a remote connection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[21:33:27] [Server thread\/TRACE] [FML\/AntMan]: The mod AntMan accepts its own version (1.8.9-1.2.0)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[21:33:27] [Server thread\/DEBUG] [FML\/AntMan]: Attempting to inject @SidedProxy classes into AntMan"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[21:33:27] [Server thread\/TRACE] [AntMan\/AntMan]: Sent event FMLConstructionEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[21:33:27] [Server thread\/DEBUG] [FML\/]: Bar Step: Construction - AntMan took 0.456s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "[21:33:27] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sending event FMLConstructionEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "[21:33:27] [Server thread\/TRACE] [FML\/LucraftCore]: Mod LucraftCore is using network checker : Accepting version 1.8.9-1.2.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "[21:33:27] [Server thread\/TRACE] [FML\/LucraftCore]: Testing mod LucraftCore to verify it accepts its own version in a remote connection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "[21:33:27] [Server thread\/TRACE] [FML\/LucraftCore]: The mod LucraftCore accepts its own version (1.8.9-1.2.0)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "[21:33:27] [Server thread\/DEBUG] [FML\/LucraftCore]: Attempting to inject @SidedProxy classes into LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "[21:33:28] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sent event FMLConstructionEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "[21:33:28] [Server thread\/DEBUG] [FML\/]: Bar Step: Construction - Lucraft: Core took 0.261s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "[21:33:28] [Server thread\/DEBUG] [FML\/]: Bar Finished: Construction took 2.885s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "[21:33:28] [Server thread\/DEBUG] [FML\/]: Mod signature data"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "[21:33:28] [Server thread\/DEBUG] [FML\/]:  \tValid Signatures:"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "[21:33:28] [Server thread\/DEBUG] [FML\/]: \t\t(e3c3d50c7c986df74c645c0ac54639741c90a557) FML\t(Forge Mod Loader\t**.**.**.**)\tforge.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "[21:33:28] [Server thread\/DEBUG] [FML\/]: \t\t(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge\t(Minecraft Forge\t11.15.1.2318)\tforge.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "[21:33:28] [Server thread\/DEBUG] [FML\/]:  \tMissing Signatures:"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "[21:33:28] [Server thread\/DEBUG] [FML\/]: \t\tmcp\t(Minecraft Coder Pack\t9.19)\tminecraft.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "[21:33:28] [Server thread\/DEBUG] [FML\/]: \t\tAntMan\t(AntMan\t1.8.9-1.2.0)\tAntMan-1.8.9-1.2.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "[21:33:28] [Server thread\/DEBUG] [FML\/]: \t\tLucraftCore\t(Lucraft: Core\t1.8.9-1.2.0)\tLucraftCore-1.8.9-1.2.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "[21:33:28] [Server thread\/INFO] [FML\/]: Processing ObjectHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "[21:33:28] [Server thread\/INFO] [FML\/]: Found 384 ObjectHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "[21:33:28] [Server thread\/INFO] [FML\/]: Identifying ItemStackHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "[21:33:28] [Server thread\/INFO] [FML\/]: Found 0 ItemStackHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "[21:33:28] [Server thread\/TRACE] [mcp\/mcp]: Sending event FMLPreInitializationEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "[21:33:28] [Server thread\/TRACE] [mcp\/mcp]: Sent event FMLPreInitializationEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "[21:33:28] [Server thread\/DEBUG] [FML\/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "[21:33:28] [Server thread\/TRACE] [FML\/FML]: Sending event FMLPreInitializationEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "[21:33:28] [Server thread\/TRACE] [FML\/FML]: Sent event FMLPreInitializationEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "[21:33:28] [Server thread\/DEBUG] [FML\/]: Bar Step: PreInitialization - Forge Mod Loader took 0.077s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "[21:33:28] [Server thread\/TRACE] [Forge\/Forge]: Sending event FMLPreInitializationEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "[21:33:29] [Server thread\/INFO] [FML\/Forge]: Configured a dormant chunk cache size of 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "[21:33:29] [Forge Version Check\/INFO] [ForgeVersionCheck\/Forge]: [Forge] Starting version check at http:\/\/files.minecraftforge.net\/maven\/net\/minecraftforge\/forge\/promotions_slim.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "[21:33:29] [Server thread\/TRACE] [Forge\/Forge]: Sent event FMLPreInitializationEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "[21:33:29] [Server thread\/DEBUG] [FML\/]: Bar Step: PreInitialization - Minecraft Forge took 0.728s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "[21:33:29] [Server thread\/TRACE] [AntMan\/AntMan]: Sending event FMLPreInitializationEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "[21:33:29] [Forge Version Check\/DEBUG] [ForgeVersionCheck\/Forge]: [Forge] Received version check data:"
+                },
+                {
+                    "number": 155,
+                    "content": "{"
+                },
+                {
+                    "number": 156,
+                    "content": "\"homepage\": \"http:\/\/files.minecraftforge.net\/maven\/net\/minecraftforge\/forge\/\","
+                },
+                {
+                    "number": 157,
+                    "content": "\"promos\": {"
+                },
+                {
+                    "number": 158,
+                    "content": "\"1.1-latest\": \"**.**.**.**\","
+                },
+                {
+                    "number": 159,
+                    "content": "\"1.10-latest\": \"12.18.0.2000\","
+                },
+                {
+                    "number": 160,
+                    "content": "\"1.10.2-latest\": \"12.18.3.2511\","
+                },
+                {
+                    "number": 161,
+                    "content": "\"1.10.2-recommended\": \"12.18.3.2185\","
+                },
+                {
+                    "number": 162,
+                    "content": "\"1.11-latest\": \"13.19.1.2199\","
+                },
+                {
+                    "number": 163,
+                    "content": "\"1.11-recommended\": \"13.19.1.2189\","
+                },
+                {
+                    "number": 164,
+                    "content": "\"1.11.2-latest\": \"13.20.1.2588\","
+                },
+                {
+                    "number": 165,
+                    "content": "\"1.11.2-recommended\": \"13.20.1.2386\","
+                },
+                {
+                    "number": 166,
+                    "content": "\"1.12-latest\": \"14.21.1.2443\","
+                },
+                {
+                    "number": 167,
+                    "content": "\"1.12-recommended\": \"14.21.1.2387\","
+                },
+                {
+                    "number": 168,
+                    "content": "\"1.12.1-latest\": \"14.22.1.2485\","
+                },
+                {
+                    "number": 169,
+                    "content": "\"1.12.1-recommended\": \"14.22.1.2478\","
+                },
+                {
+                    "number": 170,
+                    "content": "\"1.12.2-latest\": \"14.23.5.2814\","
+                },
+                {
+                    "number": 171,
+                    "content": "\"1.12.2-recommended\": \"14.23.5.2768\","
+                },
+                {
+                    "number": 172,
+                    "content": "\"1.5.2-latest\": \"**.**.**.**\","
+                },
+                {
+                    "number": 173,
+                    "content": "\"1.5.2-recommended\": \"**.**.**.**\","
+                },
+                {
+                    "number": 174,
+                    "content": "\"1.6.1-latest\": \"**.**.**.**\","
+                },
+                {
+                    "number": 175,
+                    "content": "\"1.6.2-latest\": \"**.**.**.**\","
+                },
+                {
+                    "number": 176,
+                    "content": "\"1.6.2-recommended\": \"**.**.**.**\","
+                },
+                {
+                    "number": 177,
+                    "content": "\"1.6.3-latest\": \"**.**.**.**\","
+                },
+                {
+                    "number": 178,
+                    "content": "\"1.6.4-latest\": \"9.11.1.1345\","
+                },
+                {
+                    "number": 179,
+                    "content": "\"1.6.4-recommended\": \"9.11.1.1345\","
+                },
+                {
+                    "number": 180,
+                    "content": "\"1.7.10-latest\": \"10.13.4.1614\","
+                },
+                {
+                    "number": 181,
+                    "content": "\"1.7.10-latest-1.7.10\": \"10.13.2.1343\","
+                },
+                {
+                    "number": 182,
+                    "content": "\"1.7.10-recommended\": \"10.13.4.1558\","
+                },
+                {
+                    "number": 183,
+                    "content": "\"1.7.2-latest\": \"10.12.2.1147\","
+                },
+                {
+                    "number": 184,
+                    "content": "\"1.7.2-recommended\": \"10.12.2.1121\","
+                },
+                {
+                    "number": 185,
+                    "content": "\"1.8-latest\": \"11.14.4.1577\","
+                },
+                {
+                    "number": 186,
+                    "content": "\"1.8-recommended\": \"11.14.4.1563\","
+                },
+                {
+                    "number": 187,
+                    "content": "\"1.8.8-latest\": \"11.15.0.1655\","
+                },
+                {
+                    "number": 188,
+                    "content": "\"1.8.9-latest\": \"11.15.1.2318\","
+                },
+                {
+                    "number": 189,
+                    "content": "\"1.8.9-recommended\": \"11.15.1.1722\","
+                },
+                {
+                    "number": 190,
+                    "content": "\"1.9-latest\": \"12.16.0.1942\","
+                },
+                {
+                    "number": 191,
+                    "content": "\"1.9-recommended\": \"12.16.1.1887\","
+                },
+                {
+                    "number": 192,
+                    "content": "\"1.9.4-latest\": \"12.17.0.2051\","
+                },
+                {
+                    "number": 193,
+                    "content": "\"1.9.4-recommended\": \"12.17.0.1976\","
+                },
+                {
+                    "number": 194,
+                    "content": "\"latest\": \"14.23.5.2814\","
+                },
+                {
+                    "number": 195,
+                    "content": "\"latest-1.7.10\": \"10.13.2.1343\","
+                },
+                {
+                    "number": 196,
+                    "content": "\"recommended\": \"14.23.5.2768\""
+                },
+                {
+                    "number": 197,
+                    "content": "}"
+                },
+                {
+                    "number": 198,
+                    "content": "}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 199,
+                    "content": "[21:33:29] [Forge Version Check\/INFO] [ForgeVersionCheck\/Forge]: [Forge] Found status: AHEAD Target: null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 200,
+                    "content": "[21:33:30] [Server thread\/TRACE] [AntMan\/AntMan]: Sent event FMLPreInitializationEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 201,
+                    "content": "[21:33:30] [Server thread\/DEBUG] [FML\/]: Bar Step: PreInitialization - AntMan took 0.767s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 202,
+                    "content": "[21:33:30] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sending event FMLPreInitializationEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 203,
+                    "content": "[21:33:30] [Server thread\/INFO] [FML\/LucraftCore]: Ignored smelting recipe with conflicting input: 1xtile.oreIron@0 = 1xitem.ingotIron@0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 204,
+                    "content": "[21:33:30] [Server thread\/INFO] [FML\/LucraftCore]: Ignored smelting recipe with conflicting input: 1xtile.oreGold@0 = 1xitem.ingotGold@0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 205,
+                    "content": "[21:33:30] [Server thread\/INFO] [FML\/LucraftCore]: Ignored pulverizer recipe with conflicting input: 1xtile.oreDiamond@0 = 2xitem.diamond@0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 206,
+                    "content": "[21:33:30] [Server thread\/TRACE] [FML\/LucraftCore]: Automatically registered mod LucraftCore entity mountableBlock as LucraftCore.mountableBlock"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 207,
+                    "content": "[21:33:30] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sent event FMLPreInitializationEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 208,
+                    "content": "[21:33:30] [Server thread\/DEBUG] [FML\/]: Bar Step: PreInitialization - Lucraft: Core took 0.766s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 209,
+                    "content": "[21:33:30] [Server thread\/DEBUG] [FML\/]: Bar Finished: PreInitialization took 2.339s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 210,
+                    "content": "[21:33:30] [Server thread\/INFO] [FML\/]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 211,
+                    "content": "[21:33:30] [Server thread\/INFO] [FML\/]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 212,
+                    "content": "[21:33:30] [Server thread\/INFO] [FML\/]: Injecting itemstacks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 213,
+                    "content": "[21:33:30] [Server thread\/INFO] [FML\/]: Itemstack injection complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 214,
+                    "content": "[21:33:32] [Server thread\/TRACE] [mcp\/mcp]: Sending event FMLInitializationEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 215,
+                    "content": "[21:33:32] [Server thread\/TRACE] [mcp\/mcp]: Sent event FMLInitializationEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 216,
+                    "content": "[21:33:32] [Server thread\/DEBUG] [FML\/]: Bar Step: Initialization - Minecraft Coder Pack took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 217,
+                    "content": "[21:33:32] [Server thread\/TRACE] [FML\/FML]: Sending event FMLInitializationEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 218,
+                    "content": "[21:33:32] [Server thread\/TRACE] [FML\/FML]: Sent event FMLInitializationEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 219,
+                    "content": "[21:33:32] [Server thread\/DEBUG] [FML\/]: Bar Step: Initialization - Forge Mod Loader took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 220,
+                    "content": "[21:33:32] [Server thread\/TRACE] [Forge\/Forge]: Sending event FMLInitializationEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 221,
+                    "content": "[21:33:32] [Server thread\/TRACE] [Forge\/Forge]: Sent event FMLInitializationEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 222,
+                    "content": "[21:33:32] [Server thread\/DEBUG] [FML\/]: Bar Step: Initialization - Minecraft Forge took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 223,
+                    "content": "[21:33:32] [Server thread\/TRACE] [AntMan\/AntMan]: Sending event FMLInitializationEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 224,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/AntMan]: Automatically registered mod AntMan entity discShrink as AntMan.discShrink"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 225,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/AntMan]: Automatically registered mod AntMan entity discGrow as AntMan.discGrow"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 226,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/AntMan]: Automatically registered mod AntMan entity laser as AntMan.laser"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 227,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/AntMan]: Automatically registered mod AntMan entity bulletAnt as AntMan.bulletAnt"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 228,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/AntMan]: Registering entity egg 'AntMan.bulletAnt' for class lucraft.mods.heroes.antman.entity.EntityBulletAnt"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 229,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/AntMan]: Automatically registered mod AntMan entity carpenterAnt as AntMan.carpenterAnt"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 230,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/AntMan]: Registering entity egg 'AntMan.carpenterAnt' for class lucraft.mods.heroes.antman.entity.EntityCarpenterAnt"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 231,
+                    "content": "[21:33:33] [Server thread\/TRACE] [AntMan\/AntMan]: Sent event FMLInitializationEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 232,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: Initialization - AntMan took 1.105s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 233,
+                    "content": "[21:33:33] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sending event FMLInitializationEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 234,
+                    "content": "[21:33:33] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sent event FMLInitializationEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 235,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: Initialization - Lucraft: Core took 0.021s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 236,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Finished: Initialization took 1.131s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 237,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/]: Attempting to deliver 0 IMC messages to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 238,
+                    "content": "[21:33:33] [Server thread\/TRACE] [mcp\/mcp]: Sending event IMCEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 239,
+                    "content": "[21:33:33] [Server thread\/TRACE] [mcp\/mcp]: Sent event IMCEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 240,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.020s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 241,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/]: Attempting to deliver 0 IMC messages to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 242,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/FML]: Sending event IMCEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 243,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/FML]: Sent event IMCEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 244,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.028s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 245,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/]: Attempting to deliver 0 IMC messages to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 246,
+                    "content": "[21:33:33] [Server thread\/TRACE] [Forge\/Forge]: Sending event IMCEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 247,
+                    "content": "[21:33:33] [Server thread\/TRACE] [Forge\/Forge]: Sent event IMCEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 248,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.003s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 249,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/]: Attempting to deliver 0 IMC messages to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 250,
+                    "content": "[21:33:33] [Server thread\/TRACE] [AntMan\/AntMan]: Sending event IMCEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 251,
+                    "content": "[21:33:33] [Server thread\/TRACE] [AntMan\/AntMan]: Sent event IMCEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 252,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: InterModComms$IMC - AntMan took 0.023s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 253,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/]: Attempting to deliver 0 IMC messages to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 254,
+                    "content": "[21:33:33] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sending event IMCEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 255,
+                    "content": "[21:33:33] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sent event IMCEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 256,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: InterModComms$IMC - Lucraft: Core took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 257,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Finished: InterModComms$IMC took 0.076s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 258,
+                    "content": "[21:33:33] [Server thread\/INFO] [FML\/]: Injecting itemstacks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 259,
+                    "content": "[21:33:33] [Server thread\/INFO] [FML\/]: Itemstack injection complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 260,
+                    "content": "[21:33:33] [Server thread\/TRACE] [mcp\/mcp]: Sending event FMLPostInitializationEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 261,
+                    "content": "[21:33:33] [Server thread\/TRACE] [mcp\/mcp]: Sent event FMLPostInitializationEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 262,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.004s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 263,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/FML]: Sending event FMLPostInitializationEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 264,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/FML]: Sent event FMLPostInitializationEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 265,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: PostInitialization - Forge Mod Loader took 0.004s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 266,
+                    "content": "[21:33:33] [Server thread\/TRACE] [Forge\/Forge]: Sending event FMLPostInitializationEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 267,
+                    "content": "[21:33:33] [Server thread\/TRACE] [Forge\/Forge]: Sent event FMLPostInitializationEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 268,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: PostInitialization - Minecraft Forge took 0.053s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 269,
+                    "content": "[21:33:33] [Server thread\/TRACE] [AntMan\/AntMan]: Sending event FMLPostInitializationEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 270,
+                    "content": "[21:33:33] [Server thread\/TRACE] [AntMan\/AntMan]: Sent event FMLPostInitializationEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 271,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: PostInitialization - AntMan took 0.124s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 272,
+                    "content": "[21:33:33] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sending event FMLPostInitializationEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 273,
+                    "content": "[21:33:33] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sent event FMLPostInitializationEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 274,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: PostInitialization - Lucraft: Core took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 275,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Finished: PostInitialization took 0.185s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 276,
+                    "content": "[21:33:33] [Server thread\/TRACE] [mcp\/mcp]: Sending event FMLLoadCompleteEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 277,
+                    "content": "[21:33:33] [Server thread\/TRACE] [mcp\/mcp]: Sent event FMLLoadCompleteEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 278,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 279,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/FML]: Sending event FMLLoadCompleteEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 280,
+                    "content": "[21:33:33] [Server thread\/TRACE] [FML\/FML]: Sent event FMLLoadCompleteEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 281,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: LoadComplete - Forge Mod Loader took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 282,
+                    "content": "[21:33:33] [Server thread\/TRACE] [Forge\/Forge]: Sending event FMLLoadCompleteEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 283,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]: Forge RecipeSorter Baking:"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 284,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]:   14: RecipeEntry(\"Before\", UNKNOWN, )"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 285,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]:   13: RecipeEntry(\"minecraft:shaped\", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 286,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]:   12: RecipeEntry(\"forge:shapedore\", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 287,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]:   11: RecipeEntry(\"minecraft:mapextending\", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 288,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]:   10: RecipeEntry(\"minecraft:shapeless\", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 289,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]:   9: RecipeEntry(\"minecraft:repair\", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 290,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]:   8: RecipeEntry(\"forge:shapelessore\", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 291,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]:   7: RecipeEntry(\"minecraft:armordyes\", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 292,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]:   6: RecipeEntry(\"minecraft:fireworks\", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 293,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]:   5: RecipeEntry(\"minecraft:pattern_add\", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 294,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]:   4: RecipeEntry(\"minecraft:pattern_dupe\", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 295,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]:   3: RecipeEntry(\"minecraft:bookcloning\", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 296,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]:   2: RecipeEntry(\"minecraft:mapcloning\", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 297,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]:   1: RecipeEntry(\"After\", UNKNOWN, )"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 298,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/Forge]: Sorting recipies"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 299,
+                    "content": "[21:33:33] [Server thread\/TRACE] [Forge\/Forge]: Sent event FMLLoadCompleteEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 300,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: LoadComplete - Minecraft Forge took 0.058s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 301,
+                    "content": "[21:33:33] [Server thread\/TRACE] [AntMan\/AntMan]: Sending event FMLLoadCompleteEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 302,
+                    "content": "[21:33:33] [Server thread\/TRACE] [AntMan\/AntMan]: Sent event FMLLoadCompleteEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 303,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: LoadComplete - AntMan took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 304,
+                    "content": "[21:33:33] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sending event FMLLoadCompleteEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 305,
+                    "content": "[21:33:33] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sent event FMLLoadCompleteEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 306,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Step: LoadComplete - Lucraft: Core took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 307,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Bar Finished: LoadComplete took 0.061s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 308,
+                    "content": "[21:33:33] [Server thread\/DEBUG] [FML\/]: Freezing block and item id maps"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 309,
+                    "content": "[21:33:33] [Server thread\/INFO] [FML\/]: Forge Mod Loader has successfully loaded 5 mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 310,
+                    "content": "[21:33:33] [Server thread\/TRACE] [mcp\/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 311,
+                    "content": "[21:33:33] [Server thread\/TRACE] [mcp\/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 312,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 313,
+                    "content": "[21:33:34] [Server thread\/TRACE] [FML\/FML]: Sending event FMLServerAboutToStartEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 314,
+                    "content": "[21:33:34] [Server thread\/TRACE] [FML\/FML]: Sent event FMLServerAboutToStartEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 315,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.005s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 316,
+                    "content": "[21:33:34] [Server thread\/TRACE] [Forge\/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 317,
+                    "content": "[21:33:34] [Server thread\/TRACE] [Forge\/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 318,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 319,
+                    "content": "[21:33:34] [Server thread\/TRACE] [AntMan\/AntMan]: Sending event FMLServerAboutToStartEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 320,
+                    "content": "[21:33:34] [Server thread\/TRACE] [AntMan\/AntMan]: Sent event FMLServerAboutToStartEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 321,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerAboutToStart - AntMan took 0.003s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 322,
+                    "content": "[21:33:34] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sending event FMLServerAboutToStartEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 323,
+                    "content": "[21:33:34] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sent event FMLServerAboutToStartEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 324,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerAboutToStart - Lucraft: Core took 0.008s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 325,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Finished: ServerAboutToStart took 0.017s"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 326,
+                    "content": "[21:33:34] [Server thread\/ERROR] [fml.ModTracker\/]: This world was saved with mod minecraft which appears to be missing, things may not work well"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 327,
+                    "content": "[21:33:34] [Server thread\/INFO] [fml.ModTracker\/]: This world was saved with mod mcp version 9.42 and it is now at version 9.19, things may not work well"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 328,
+                    "content": "[21:33:34] [Server thread\/ERROR] [fml.ModTracker\/]: This world was saved with mod forge which appears to be missing, things may not work well"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 329,
+                    "content": "[21:33:34] [Server thread\/ERROR] [fml.ModTracker\/]: This world was saved with mod lucraftcore which appears to be missing, things may not work well"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 330,
+                    "content": "[21:33:34] [Server thread\/INFO] [FML\/]: Injecting existing block and item data into this server instance"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 331,
+                    "content": "[21:33:34] [Server thread\/ERROR] [FML\/]: An unknown persistent registry type \"minecraft:potiontypes\" has been encountered. This Forge instance cannot understand it."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 332,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Reverting to frozen data state."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 333,
+                    "content": "[21:33:34] [Server thread\/TRACE] [mcp\/mcp]: Sending event FMLModIdMappingEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 334,
+                    "content": "[21:33:34] [Server thread\/TRACE] [mcp\/mcp]: Sent event FMLModIdMappingEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 335,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 336,
+                    "content": "[21:33:34] [Server thread\/TRACE] [FML\/FML]: Sending event FMLModIdMappingEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 337,
+                    "content": "[21:33:34] [Server thread\/TRACE] [FML\/FML]: Sent event FMLModIdMappingEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 338,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 339,
+                    "content": "[21:33:34] [Server thread\/TRACE] [Forge\/Forge]: Sending event FMLModIdMappingEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 340,
+                    "content": "[21:33:34] [Server thread\/TRACE] [Forge\/Forge]: Sent event FMLModIdMappingEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 341,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Minecraft Forge took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 342,
+                    "content": "[21:33:34] [Server thread\/TRACE] [AntMan\/AntMan]: Sending event FMLModIdMappingEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 343,
+                    "content": "[21:33:34] [Server thread\/TRACE] [AntMan\/AntMan]: Sent event FMLModIdMappingEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 344,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - AntMan took 0.027s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 345,
+                    "content": "[21:33:34] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sending event FMLModIdMappingEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 346,
+                    "content": "[21:33:34] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sent event FMLModIdMappingEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 347,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Lucraft: Core took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 348,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Finished: ModIdMapping took 0.030s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 349,
+                    "content": "[21:33:34] [Server thread\/INFO] [FML\/]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 350,
+                    "content": "[21:33:34] [Server thread\/INFO] [FML\/]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 351,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Frozen state restored."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 352,
+                    "content": "[21:33:34] [Server thread\/TRACE] [mcp\/mcp]: Sending event FMLServerStoppedEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 353,
+                    "content": "[21:33:34] [Server thread\/TRACE] [mcp\/mcp]: Sent event FMLServerStoppedEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 354,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 355,
+                    "content": "[21:33:34] [Server thread\/TRACE] [FML\/FML]: Sending event FMLServerStoppedEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 356,
+                    "content": "[21:33:34] [Server thread\/TRACE] [FML\/FML]: Sent event FMLServerStoppedEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 357,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Forge Mod Loader took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 358,
+                    "content": "[21:33:34] [Server thread\/TRACE] [Forge\/Forge]: Sending event FMLServerStoppedEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 359,
+                    "content": "[21:33:34] [Server thread\/TRACE] [Forge\/Forge]: Sent event FMLServerStoppedEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 360,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Minecraft Forge took 0.015s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 361,
+                    "content": "[21:33:34] [Server thread\/TRACE] [AntMan\/AntMan]: Sending event FMLServerStoppedEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 362,
+                    "content": "[21:33:34] [Server thread\/TRACE] [AntMan\/AntMan]: Sent event FMLServerStoppedEvent to mod AntMan"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 363,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - AntMan took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 364,
+                    "content": "[21:33:34] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sending event FMLServerStoppedEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 365,
+                    "content": "[21:33:34] [Server thread\/TRACE] [LucraftCore\/LucraftCore]: Sent event FMLServerStoppedEvent to mod LucraftCore"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 366,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Lucraft: Core took 0.008s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "lines": [
+                {
+                    "number": 367,
+                    "content": "[21:33:34] [Server thread\/DEBUG] [FML\/]: Bar Finished: ServerStopped took 0.026s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 368,
+                    "content": "[21:33:34] [Server thread\/INFO] [FML\/]: The state engine was in incorrect state SERVER_STARTING and forced into state SERVER_STOPPED. Errors may have been discarded."
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "This world was saved with mod 'mcp' version 9.42 and it is now at version 9.19.",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 327,
+                            "content": "[21:33:34] [Server thread\/INFO] [fml.ModTracker\/]: This world was saved with mod mcp version 9.42 and it is now at version 9.19, things may not work well"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'mcp' with version 9.42."
+                    },
+                    {
+                        "message": "Do nothing. This problem might fix itself."
+                    }
+                ]
+            },
+            {
+                "message": "The world was saved with mod 'lucraftcore' which appears to be missing.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 329,
+                            "content": "[21:33:34] [Server thread\/ERROR] [fml.ModTracker\/]: This world was saved with mod lucraftcore which appears to be missing, things may not work well"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'lucraftcore'."
+                    },
+                    {
+                        "message": "Do nothing. This problem might fix itself."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Forge version: 11.15.1.2318",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 59,
+                            "content": "[21:33:19] [Server thread\/INFO] [FML\/]: MinecraftForge v11.15.1.2318 Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "11.15.1.2318"
+            }
+        ]
+    }
+}

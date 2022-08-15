@@ -1,0 +1,262 @@
+{
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[07:20:32] [Server thread\/INFO]: Starting minecraft server version 1.12.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[07:20:32] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[07:20:32] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[07:20:32] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[07:20:32] [Server thread\/INFO]: Starting Minecraft server on *:10890"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[07:20:32] [Server thread\/INFO]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[07:20:33] [Server thread\/INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[07:20:34] [Server thread\/INFO]: Loaded 488 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[07:20:34] [Server thread\/INFO]: Preparing start region for level 0"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[07:20:34] [Server thread\/WARN]: Could not set level chunk heightmap, array length is 0 instead of 256"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[07:20:34] [Server thread\/ERROR]: Encountered an unexpected exception"
+                },
+                {
+                    "number": 12,
+                    "content": "java.lang.IllegalArgumentException: ChunkNibbleArrays should be 2048 bytes not: 0"
+                },
+                {
+                    "number": 13,
+                    "content": "at axs<init>(SourceFile:16) ~[minecraft_server.jar:?]"
+                },
+                {
+                    "number": 14,
+                    "content": "at aye.a(SourceFile:315) ~[minecraft_server.jar:?]"
+                },
+                {
+                    "number": 15,
+                    "content": "at aye.a(SourceFile:97) ~[minecraft_server.jar:?]"
+                },
+                {
+                    "number": 16,
+                    "content": "at aye.a(SourceFile:72) ~[minecraft_server.jar:?]"
+                },
+                {
+                    "number": 17,
+                    "content": "at on.f(SourceFile:124) [minecraft_server.jar:?]"
+                },
+                {
+                    "number": 18,
+                    "content": "at on.b(SourceFile:81) [minecraft_server.jar:?]"
+                },
+                {
+                    "number": 19,
+                    "content": "at on.c(SourceFile:95) [minecraft_server.jar:?]"
+                },
+                {
+                    "number": 20,
+                    "content": "at net.minecraft.server.MinecraftServer.l(SourceFile:328) [minecraft_server.jar:?]"
+                },
+                {
+                    "number": 21,
+                    "content": "at net.minecraft.server.MinecraftServer.a(SourceFile:299) [minecraft_server.jar:?]"
+                },
+                {
+                    "number": 22,
+                    "content": "at nz.j(SourceFile:233) [minecraft_server.jar:?]"
+                },
+                {
+                    "number": 23,
+                    "content": "at net.minecraft.server.MinecraftServer.run(SourceFile:434) [minecraft_server.jar:?]"
+                },
+                {
+                    "number": 24,
+                    "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The current world was created\/loaded with Minecraft 1.13 or higher. The new format cannot be loaded in any older version.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 11,
+                            "content": "[07:20:34] [Server thread\/ERROR]: Encountered an unexpected exception"
+                        },
+                        {
+                            "number": 12,
+                            "content": "java.lang.IllegalArgumentException: ChunkNibbleArrays should be 2048 bytes not: 0"
+                        },
+                        {
+                            "number": 13,
+                            "content": "at axs<init>(SourceFile:16) ~[minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 14,
+                            "content": "at aye.a(SourceFile:315) ~[minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 15,
+                            "content": "at aye.a(SourceFile:97) ~[minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "at aye.a(SourceFile:72) ~[minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "at on.f(SourceFile:124) [minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "at on.b(SourceFile:81) [minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "at on.c(SourceFile:95) [minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "at net.minecraft.server.MinecraftServer.l(SourceFile:328) [minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "at net.minecraft.server.MinecraftServer.a(SourceFile:299) [minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 22,
+                            "content": "at nz.j(SourceFile:233) [minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 23,
+                            "content": "at net.minecraft.server.MinecraftServer.run(SourceFile:434) [minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 24,
+                            "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Generate a new world."
+                    },
+                    {
+                        "message": "Update the server software to 1.13 or newer."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.12.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[07:20:32] [Server thread\/INFO]: Starting minecraft server version 1.12.2"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.12.2"
+            }
+        ]
+    }
+}
