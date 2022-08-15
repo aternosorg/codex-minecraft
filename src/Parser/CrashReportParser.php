@@ -3,15 +3,16 @@
 namespace Aternos\Codex\Minecraft\Parser;
 
 use Aternos\Codex\Log\Line;
+use Aternos\Codex\Minecraft\Log\CrashReport\CrashReportLevel;
 use Aternos\Codex\Minecraft\Log\Entry;
 
 class CrashReportParser extends \Aternos\Codex\Parser\Parser
 {
-    const LEVEL_INFO = "INFO";
-    const LEVEL_WARNING = "WARN";
-    const LEVEL_TITLE = "TITLE";
-    const LEVEL_COMMENT = "COMMENT";
-    const LEVEL_STACKTRACE = "STACKTRACE";
+    const LEVEL_INFO = "info";
+    const LEVEL_WARNING = "warn";
+    const LEVEL_TITLE = "title";
+    const LEVEL_COMMENT = "comment";
+    const LEVEL_STACKTRACE = "stacktrace";
 
     const DEFAULT_LEVEL = self::LEVEL_INFO;
 
@@ -34,13 +35,13 @@ class CrashReportParser extends \Aternos\Codex\Parser\Parser
             foreach (static::PATTERN as $level => $patterns) {
                 foreach ($patterns as $pattern) {
                     if (preg_match($pattern, $lineString, $matches)) {
-                        $entry->setLevel($level);
+                        $entry->setLevel(CrashReportLevel::fromString($level));
                         if (isset($matches[1])) {
                             $entry->setPrefix($matches[1]);
                         }
                         continue 3;
                     }
-                    $entry->setLevel(static::DEFAULT_LEVEL);
+                    $entry->setLevel(CrashReportLevel::fromString(static::DEFAULT_LEVEL));
                 }
             }
         }
