@@ -23,7 +23,7 @@
         }
     },
     "scripts": {
-        "test": "phpunit --testdox test/tests",
+        "test": "phpunit --testdox --config phpunit.xml",
         "generate-tests": "php ./test/generate-tests.php"
     }
 }
