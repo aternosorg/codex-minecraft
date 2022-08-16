@@ -1,4 +1,7 @@
 {
+    "id": "forge\/server",
+    "name": "Forge",
+    "type": "Server",
     "entries": [
         {
             "level": 7,

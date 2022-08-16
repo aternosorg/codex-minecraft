@@ -1,4 +1,7 @@
 {
+    "id": "mohist\/server",
+    "name": "Mohist",
+    "type": "Server",
     "entries": [
         {
             "level": 6,

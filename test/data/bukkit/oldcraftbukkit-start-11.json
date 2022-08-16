@@ -1,4 +1,7 @@
 {
+    "id": "craftbukkit\/server",
+    "name": "CraftBukkit",
+    "type": "Server",
     "entries": [
         {
             "level": 6,

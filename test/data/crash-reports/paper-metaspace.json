@@ -1,4 +1,7 @@
 {
+    "id": "paper\/crash-report",
+    "name": "Paper",
+    "type": "Crash Report",
     "entries": [
         {
             "level": 8,

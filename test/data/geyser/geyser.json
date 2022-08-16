@@ -1,4 +1,7 @@
 {
+    "id": "geyser\/proxy",
+    "name": "Geyser",
+    "type": "Proxy",
     "entries": [
         {
             "level": 6,

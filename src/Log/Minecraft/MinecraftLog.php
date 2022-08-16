@@ -63,6 +63,30 @@ class MinecraftLog extends \Aternos\Codex\Log\AnalysableLog implements Detectabl
     /**
      * @return string
      */
+    public function getTypeId(): string
+    {
+        return strtolower(str_replace(" ", "-", $this->getTypeName()));
+    }
+
+    /**
+     * @return string
+     */
+    public function getNameId(): string
+    {
+        return strtolower(str_replace(" ", "-", $this->getName()));
+    }
+
+    /**
+     * @return string
+     */
+    public function getId(): string
+    {
+        return $this->getNameId() . "/" . $this->getTypeId();
+    }
+
+    /**
+     * @return string
+     */
     public function getName(): string
     {
         return "Unknown";
@@ -74,5 +98,17 @@ class MinecraftLog extends \Aternos\Codex\Log\AnalysableLog implements Detectabl
     public static function getDefaultAnalyser(): AnalyserInterface
     {
         return new PatternAnalyser();
+    }
+
+    /**
+     * @return array
+     */
+    public function jsonSerialize(): array
+    {
+        return array_merge([
+            'id' => $this->getId(),
+            'name' => $this->getName(),
+            'type' => $this->getTypeName()
+        ], parent::jsonSerialize());
     }
 }

@@ -1,4 +1,7 @@
 {
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server",
     "entries": [
         {
             "level": 6,

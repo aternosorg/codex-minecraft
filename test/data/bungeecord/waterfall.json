@@ -1,4 +1,7 @@
 {
+    "id": "waterfall\/proxy",
+    "name": "Waterfall",
+    "type": "Proxy",
     "entries": [
         {
             "level": 6,

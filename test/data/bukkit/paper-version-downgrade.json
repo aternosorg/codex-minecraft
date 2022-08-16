@@ -1,4 +1,7 @@
 {
+    "id": "paper\/server",
+    "name": "Paper",
+    "type": "Server",
     "entries": [
         {
             "level": 6,

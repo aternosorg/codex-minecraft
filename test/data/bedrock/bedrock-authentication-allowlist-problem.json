@@ -1,4 +1,7 @@
 {
+    "id": "bedrock\/server",
+    "name": "Bedrock",
+    "type": "Server",
     "entries": [
         {
             "level": 6,

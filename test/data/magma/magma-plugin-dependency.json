@@ -1,4 +1,7 @@
 {
+    "id": "magma\/server",
+    "name": "Magma",
+    "type": "Server",
     "entries": [
         {
             "level": 6,

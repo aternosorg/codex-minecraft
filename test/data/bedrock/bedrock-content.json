@@ -1,4 +1,7 @@
 {
+    "id": "bedrock\/content",
+    "name": "Bedrock",
+    "type": "Content",
     "entries": [
         {
             "level": 6,

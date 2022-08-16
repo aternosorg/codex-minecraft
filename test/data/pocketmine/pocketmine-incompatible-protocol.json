@@ -1,4 +1,7 @@
 {
+    "id": "pocketmine\/server",
+    "name": "Pocketmine",
+    "type": "Server",
     "entries": [
         {
             "level": 6,

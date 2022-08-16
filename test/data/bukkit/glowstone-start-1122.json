@@ -1,4 +1,7 @@
 {
+    "id": "glowstone\/server",
+    "name": "Glowstone",
+    "type": "Server",
     "entries": [
         {
             "level": 6,

@@ -1,4 +1,7 @@
 {
+    "id": "spigot\/server",
+    "name": "Spigot",
+    "type": "Server",
     "entries": [
         {
             "level": 6,

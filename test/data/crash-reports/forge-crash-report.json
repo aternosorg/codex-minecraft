@@ -1,4 +1,7 @@
 {
+    "id": "forge\/crash-report",
+    "name": "Forge",
+    "type": "Crash Report",
     "entries": [
         {
             "level": 8,

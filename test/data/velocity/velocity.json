@@ -1,4 +1,7 @@
 {
+    "id": "velocity\/proxy",
+    "name": "Velocity",
+    "type": "Proxy",
     "entries": [
         {
             "level": 6,

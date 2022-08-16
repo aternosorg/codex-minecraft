@@ -1,4 +1,7 @@
 {
+    "id": "bungeecord\/proxy",
+    "name": "BungeeCord",
+    "type": "Proxy",
     "entries": [
         {
             "level": 6,
