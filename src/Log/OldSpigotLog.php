@@ -9,10 +9,7 @@ namespace Aternos\Codex\Minecraft\Log;
  */
 class OldSpigotLog extends OldCraftBukkitLog
 {
-    /**
-     * @var string
-     */
-    protected static $logIdentifier = "CraftBukkit version git\-Spigot";
+    protected static string $logIdentifier = "CraftBukkit version git\-Spigot";
 
     /**
      * Get the name of the used server software

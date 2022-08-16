@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -13,12 +14,12 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class ModDependencyProblem extends ModProblem
 {
     /**
-     * @var array
+     * @var string[]
      */
-    protected $dependencyMods = [];
+    protected array $dependencyMods = [];
 
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -38,7 +39,7 @@ class ModDependencyProblem extends ModProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -54,9 +55,10 @@ class ModDependencyProblem extends ModProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->modName = $matches[1];
 
@@ -91,7 +93,7 @@ class ModDependencyProblem extends ModProblem
     }
 
     /**
-     * @return array
+     * @return string[]
      */
     public function getDependencyMods(): array
     {
@@ -99,11 +101,13 @@ class ModDependencyProblem extends ModProblem
     }
 
     /**
-     * @param static $insight
+     * @param InsightInterface $insight
      * @return bool
      */
-    public function isEqual($insight): bool
+    public function isEqual(InsightInterface $insight): bool
     {
-        return parent::isEqual($insight) && $this->getDependencyMods() == $insight->getDependencyMods();
+        return parent::isEqual($insight)
+            && $insight instanceof static
+            && $this->getDependencyMods() == $insight->getDependencyMods();
     }
 }

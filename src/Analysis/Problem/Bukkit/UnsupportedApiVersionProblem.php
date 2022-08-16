@@ -9,34 +9,28 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class UnsupportedApiVersionProblem extends PluginProblem
 {
-    /**
-     * @var string
-     */
-    protected $pluginPath;
+    protected ?string $pluginPath = null;
+
+    protected ?string $apiVersion = null;
 
     /**
-     * @var string
+     * @return string|null
      */
-    protected $apiVersion;
-
-    /**
-     * @return string
-     */
-    public function getPluginPath(): string
+    public function getPluginPath(): ?string
     {
         return $this->pluginPath;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getApiVersion(): string
+    public function getApiVersion(): ?string
     {
         return $this->apiVersion;
     }
 
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -53,9 +47,9 @@ class UnsupportedApiVersionProblem extends PluginProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->pluginPath = $matches[1];
         $this->pluginName = $matches[2];
@@ -72,7 +66,7 @@ class UnsupportedApiVersionProblem extends PluginProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {

@@ -15,10 +15,7 @@ use Aternos\Codex\Parser\PatternParser;
  */
 abstract class MinecraftLog extends \Aternos\Codex\Log\AnalysableLog implements DetectableLogInterface
 {
-    /**
-     * @var string
-     */
-    protected static $pattern;
+    protected static string $pattern;
 
     /**
      * @return ParserInterface

@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Fabric;
 
+use Aternos\Codex\Analysis\InsightInterface;
+
 /**
  * Class FabricModProblem
  *
@@ -11,34 +13,24 @@ abstract class FabricModProblem extends FabricProblem
 {
     const MOD_NAME_REPLACEMENTS = ["fabric" => "FabricAPI"];
 
-    /**
-     * @var string
-     */
-    protected static $modNamePattern = "(?:'([^\']+)' \((?:[^\)]+)\)|([\w-]+))";
+    protected static string $modNamePattern = "(?:'([^\']+)' \((?:[^\)]+)\)|([\w-]+))";
+    protected static string $modIDPattern = "([^ ,]+)";
+
+    protected ?string $modName = null;
 
     /**
-     * @var string
+     * @return string|null
      */
-    protected static $modIDPattern = "([^ ,]+)";
-
-    /**
-     * @var string
-     */
-    protected $modName;
-
-    /**
-     * @return string
-     */
-    public function getModName(): string
+    public function getModName(): ?string
     {
         return $this->modName;
     }
 
     /**
      * @param string $modName
-     * @return static
+     * @return $this
      */
-    protected function setModName(string $modName): FabricModProblem
+    protected function setModName(string $modName): static
     {
         $this->modName = $this->getReplacedModName($modName);
         return $this;
@@ -54,11 +46,13 @@ abstract class FabricModProblem extends FabricProblem
     }
 
     /**
-     * @param static $insight
+     * @param InsightInterface $insight
      * @return bool
      */
-    public function isEqual($insight): bool
+    public function isEqual(InsightInterface $insight): bool
     {
-        return parent::isEqual($insight) && $this->getModName() === $insight->getModName();
+        return parent::isEqual($insight)
+            && $insight instanceof static
+            && $this->getModName() === $insight->getModName();
     }
 }

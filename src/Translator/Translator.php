@@ -11,18 +11,11 @@ class Translator
 {
     protected const DEFAULT_LANGUAGE = "en";
 
-    /**
-     * @var Translator
-     */
-    protected static $instance;
+    protected static ?Translator $instance = null;
+    protected static ?Translator $fallbackInstance = null;
 
     /**
-     * @var Translator
-     */
-    protected static $fallbackInstance;
-
-    /**
-     * @return Translator
+     * @return static
      */
     public static function getInstance(): Translator
     {
@@ -34,7 +27,7 @@ class Translator
     }
 
     /**
-     * @return Translator
+     * @return static
      */
     public static function getFallbackInstance(): Translator
     {
@@ -45,15 +38,12 @@ class Translator
         return static::$fallbackInstance;
     }
 
-    /**
-     * @var string
-     */
-    protected $language = self::DEFAULT_LANGUAGE;
+    protected string $language = self::DEFAULT_LANGUAGE;
 
     /**
-     * @var array
+     * @var string[]
      */
-    protected $translations = [];
+    protected array $translations = [];
 
     /**
      * Get the current language
@@ -69,9 +59,9 @@ class Translator
      * Set the current language
      *
      * @param string $language
-     * @return Translator
+     * @return $this
      */
-    public function setLanguage(string $language = self::DEFAULT_LANGUAGE)
+    public function setLanguage(string $language = self::DEFAULT_LANGUAGE): static
     {
         if (!$this->checkTranslationFile($language)) {
             throw new \InvalidArgumentException("Language file for language '" . $language . "' not found.");
@@ -110,12 +100,12 @@ class Translator
     }
 
     /**
-     * Check if the the translation file exists
+     * Check if the translation file exists
      *
      * @param string $language
      * @return bool
      */
-    protected function checkTranslationFile(string $language)
+    protected function checkTranslationFile(string $language): bool
     {
         return file_exists($this->getTranslationFile($language));
     }
@@ -126,7 +116,7 @@ class Translator
      * @param string $language
      * @return string
      */
-    protected function getTranslationFile(string $language)
+    protected function getTranslationFile(string $language): string
     {
         return __DIR__ . "/../../lang/" . $language . ".json";
     }
@@ -134,9 +124,9 @@ class Translator
     /**
      * Load translations from translation file for current language
      *
-     * @return array
+     * @return string[]
      */
-    protected function loadTranslations()
+    protected function loadTranslations(): array
     {
         if (!isset($this->translations[$this->language])) {
             $file = $this->getTranslationFile($this->language);

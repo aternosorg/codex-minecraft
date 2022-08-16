@@ -28,7 +28,7 @@ class FabricVersionInformation extends FabricInformation
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -38,7 +38,12 @@ class FabricVersionInformation extends FabricInformation
         ];
     }
 
-    public function setMatches(array $matches, $patternKey): void
+    /**
+     * @param string[] $matches
+     * @param mixed $patternKey
+     * @return void
+     */
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->value = $matches[3];
     }

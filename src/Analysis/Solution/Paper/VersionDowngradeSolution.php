@@ -12,7 +12,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class VersionDowngradeSolution extends PaperSolution
 {
     /**
-     * Get the solution as a human readable message
+     * Get the solution as a human-readable message
      *
      * @return string
      */

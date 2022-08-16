@@ -24,7 +24,7 @@ class PocketmineVersionInformation extends PocketmineInformation
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {

@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Log;
 
+use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\GeyserAnalyser;
 
@@ -11,15 +12,8 @@ use Aternos\Codex\Minecraft\Analyser\GeyserAnalyser;
  */
 class GeyserLog extends MinecraftProxyLog
 {
-    /**
-     * @var string
-     */
-    protected static $pattern = '/^(\[(?:[0-9]{2}\:?){3}\.[0-9]{3} [^\/]+\/(\w+)\]).*$/';
-
-    /**
-     * @var string
-     */
-    protected static $prefixPattern = '(\[(?:[0-9]{2}\:?){3}\.[0-9]{3} [^\/]+\/(\w+)\]) ';
+    protected static string $pattern = '/^(\[(?:[0-9]{2}\:?){3}\.[0-9]{3} [^\/]+\/(\w+)\]).*$/';
+    protected static string $prefixPattern = '(\[(?:[0-9]{2}\:?){3}\.[0-9]{3} [^\/]+\/(\w+)\]) ';
 
     /**
      * @return GeyserAnalyser
@@ -30,7 +24,7 @@ class GeyserLog extends MinecraftProxyLog
     }
 
     /**
-     * @return array
+     * @return DetectorInterface[]
      */
     public static function getDetectors(): array
     {

@@ -12,15 +12,8 @@ use Aternos\Codex\Parser\ParserInterface;
  */
 class OldVanillaLog extends VanillaLog
 {
-    /**
-     * @var string
-     */
-    protected static $pattern = '/^(((?:[0-9]{2,4}-?){3} (?:[0-9]{2}\:?){3}) \[(\w+)\]).*$/';
-
-    /**
-     * @var string
-     */
-    protected static $prefixPattern = '(((?:[0-9]{2,4}-?){3} (?:[0-9]{2}\:?){3}) \[(\w+)\]) ';
+    protected static string $pattern = '/^(((?:[0-9]{2,4}-?){3} (?:[0-9]{2}\:?){3}) \[(\w+)\]).*$/';
+    protected static string $prefixPattern = '(((?:[0-9]{2,4}-?){3} (?:[0-9]{2}\:?){3}) \[(\w+)\]) ';
 
     /**
      * @return ParserInterface

@@ -12,13 +12,10 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class CommandRunSolution extends MinecraftSolution implements AutomatableSolutionInterface
 {
-    /**
-     * @var string
-     */
-    protected $command;
+    protected ?string $command = null;
 
     /**
-     * Get the solution as a human readable message
+     * Get the solution as a human-readable message
      *
      * @return string
      */
@@ -28,9 +25,9 @@ class CommandRunSolution extends MinecraftSolution implements AutomatableSolutio
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getCommand()
+    public function getCommand(): ?string
     {
         return $this->command;
     }
@@ -39,7 +36,7 @@ class CommandRunSolution extends MinecraftSolution implements AutomatableSolutio
      * @param string $command
      * @return $this
      */
-    public function setCommand(string $command)
+    public function setCommand(string $command): static
     {
         $this->command = $command;
         return $this;

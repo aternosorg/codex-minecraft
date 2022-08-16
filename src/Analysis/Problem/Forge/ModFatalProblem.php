@@ -14,23 +14,12 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class ModFatalProblem extends ModProblem
 {
-    /**
-     * @var string
-     */
-    protected $modFileName;
+    protected ?string $modFileName = null;
+    protected ?string $modVersion = null;
+    protected ?string $modId = null;
 
     /**
-     * @var string
-     */
-    protected $modVersion;
-
-    /**
-     * @var string
-     */
-    protected $modId;
-
-    /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -44,7 +33,7 @@ class ModFatalProblem extends ModProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -58,9 +47,10 @@ class ModFatalProblem extends ModProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         switch ($patternKey) {
             case 0:
@@ -81,25 +71,25 @@ class ModFatalProblem extends ModProblem
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getModFileName(): string
+    public function getModFileName(): ?string
     {
         return $this->modFileName;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getModVersion(): string
+    public function getModVersion(): ?string
     {
         return $this->modVersion;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getModId(): string
+    public function getModId(): ?string
     {
         return $this->modId;
     }

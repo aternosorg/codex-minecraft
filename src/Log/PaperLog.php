@@ -11,10 +11,7 @@ use Aternos\Codex\Minecraft\Analyser\PaperAnalyser;
  */
 class PaperLog extends SpigotLog
 {
-    /**
-     * @var string
-     */
-    protected static $logIdentifier = "(?:Paper|CraftBukkit) version git\-Paper";
+    protected static string $logIdentifier = "(?:Paper|CraftBukkit) version git\-Paper";
 
     /**
      * @return PaperAnalyser

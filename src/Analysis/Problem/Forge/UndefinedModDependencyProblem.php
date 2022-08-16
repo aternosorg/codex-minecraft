@@ -12,7 +12,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 abstract class UndefinedModDependencyProblem extends ModProblem
 {
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */

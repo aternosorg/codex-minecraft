@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Log;
 
+use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\FabricAnalyser;
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
@@ -13,9 +14,8 @@ use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformati
  */
 class FabricLog extends VanillaLog
 {
-
     /**
-     * @return array
+     * @return DetectorInterface[]
      */
     public static function getDetectors(): array
     {

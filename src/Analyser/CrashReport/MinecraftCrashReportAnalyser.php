@@ -6,6 +6,11 @@ use Aternos\Codex\Minecraft\Analyser\MinecraftAnalyser;
 use Aternos\Codex\Minecraft\Analysis\Information\CrashReport\VanillaVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Problem\CrashReport\TickingEntityProblem;
 
+/**
+ * Class MinecraftCrashReportAnalyser
+ *
+ * @package Aternos\Codex\Minecraft\Analyser\CrashReport
+ */
 class MinecraftCrashReportAnalyser extends MinecraftAnalyser
 {
     public function __construct()

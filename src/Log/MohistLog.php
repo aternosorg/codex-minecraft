@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Log;
 
+use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\MohistAnalyser;
 
@@ -12,18 +13,11 @@ use Aternos\Codex\Minecraft\Analyser\MohistAnalyser;
  */
 class MohistLog extends VanillaLog
 {
-    /**
-     * @var string
-     */
-    protected static $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[[^\]]+\])?\:).*$/';
+    protected static string $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[[^\]]+\])?\:).*$/';
+    protected static string $prefixPattern = '(\[(?:[0-9]{2}[a-zA-Z]+[0-9]+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?\:) ';
 
     /**
-     * @var string
-     */
-    protected static $prefixPattern = '(\[(?:[0-9]{2}[a-zA-Z]+[0-9]+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?\:) ';
-
-    /**
-     * @return array
+     * @return DetectorInterface[]
      */
     public static function getDetectors(): array
     {

@@ -11,15 +11,8 @@ use Aternos\Codex\Minecraft\Analyser\VanillaAnalyser;
  */
 class VanillaLog extends MinecraftServerLog
 {
-    /**
-     * @var string
-     */
-    protected static $pattern = '/^(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\]\:).*$/';
-
-    /**
-     * @var string
-     */
-    protected static $prefixPattern = '(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\]\:) ';
+    protected static string $pattern = '/^(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\]\:).*$/';
+    protected static string $prefixPattern = '(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\]\:) ';
 
     /**
      * @return VanillaAnalyser

@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Log;
 
+use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 
 /**
@@ -11,13 +12,10 @@ use Aternos\Codex\Detective\SinglePatternDetector;
  */
 class CraftBukkitLog extends BukkitLog
 {
-    /**
-     * @var string
-     */
-    protected static $logIdentifier = "CraftBukkit version git\-Bukkit";
+    protected static string $logIdentifier = "CraftBukkit version git\-Bukkit";
 
     /**
-     * @return array
+     * @return DetectorInterface[]
      */
     public static function getDetectors(): array
     {

@@ -7,14 +7,14 @@ use Aternos\Codex\Printer\Modification;
 /**
  * Class FormatModification
  *
- * @package Printer
+ * @package Aternos\Codex\Minecraft\Printer
  */
 abstract class FormatModification extends Modification
 {
     /**
-     * @var array
+     * @var string[]
      */
-    protected $formatCodes = [
+    protected array $formatCodes = [
         "0;30;22m" => "black",
         "0;34;22m" => "darkblue",
         "0;32;22m" => "darkgreen",
@@ -58,13 +58,14 @@ abstract class FormatModification extends Modification
 
         $count = 0;
         $text = str_replace($search, $replace, $text, $count);
-
-        for ($j = 0; $j < $count; $j++) {
-            $text .= '</span>';
-        }
+        $text .= str_repeat('</span>', $count);
 
         return $text;
     }
 
+    /**
+     * @param string $format
+     * @return string
+     */
     abstract protected function getClasses(string $format): string;
 }

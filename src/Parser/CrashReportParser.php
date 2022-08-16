@@ -6,6 +6,11 @@ use Aternos\Codex\Log\Line;
 use Aternos\Codex\Minecraft\Log\CrashReport\CrashReportLevel;
 use Aternos\Codex\Minecraft\Log\Entry;
 
+/**
+ * Class CrashReportParser
+ *
+ * @package Aternos\Codex\Minecraft\Parser
+ */
 class CrashReportParser extends \Aternos\Codex\Parser\Parser
 {
     const LEVEL_INFO = "info";
@@ -24,6 +29,9 @@ class CrashReportParser extends \Aternos\Codex\Parser\Parser
         self::LEVEL_COMMENT => ["/\/\/.*$/"],
     ];
 
+    /**
+     * @return void
+     */
     public function parse(): void
     {
         foreach ($this->getLogContentAsArray() as $number => $lineString) {

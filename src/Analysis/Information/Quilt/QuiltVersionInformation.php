@@ -6,6 +6,11 @@ use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformati
 use Aternos\Codex\Minecraft\Log\VanillaLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
+/**
+ * Class QuiltJavaVersionInformation
+ *
+ * @package Aternos\Codex\Minecraft\Analysis\Information\Quilt
+ */
 class QuiltVersionInformation extends QuiltInformation
 {
     protected static string $quiltVersionInformation = "[\d\.]+(?:-beta.\d+)?";
@@ -26,7 +31,12 @@ class QuiltVersionInformation extends QuiltInformation
         ];
     }
 
-    public function setMatches(array $matches, $patternKey): void
+    /**
+     * @param string[] $matches
+     * @param mixed $patternKey
+     * @return void
+     */
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->value = $matches[3];
     }

@@ -12,10 +12,7 @@ use Aternos\Codex\Minecraft\Analyser\BukkitAnalyser;
  */
 class OldCraftBukkitLog extends OldVanillaLog
 {
-    /**
-     * @var string
-     */
-    protected static $logIdentifier = "CraftBukkit version git\-Bukkit";
+    protected static string $logIdentifier = "CraftBukkit version git\-Bukkit";
 
     /**
      * @return BukkitAnalyser

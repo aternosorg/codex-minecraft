@@ -13,21 +13,18 @@ use Aternos\Codex\Parser\PatternParser;
 class Parser extends PatternParser
 {
     const PREFIX = "prefix";
-
-    /**
-     * @var string
-     */
     protected string $entryClass = \Aternos\Codex\Minecraft\Log\Entry::class;
 
     /**
      * Parse an entry match
      *
-     * @param Entry|\Aternos\Codex\Minecraft\Log\Entry $entry
+     * @param Entry $entry
      * @param string $matchType
      * @param string $matchString
      */
     protected function parseEntryMatch(Entry $entry, string $matchType, string $matchString): void
     {
+        /** @var \Aternos\Codex\Minecraft\Log\Entry $entry */
         switch ($matchType) {
             case static::PREFIX:
                 $entry->setPrefix($matchString);

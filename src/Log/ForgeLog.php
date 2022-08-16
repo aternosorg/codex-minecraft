@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Log;
 
+use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\WeightedSinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\ForgeAnalyser;
 
@@ -12,13 +13,10 @@ use Aternos\Codex\Minecraft\Analyser\ForgeAnalyser;
  */
 class ForgeLog extends VanillaLog
 {
-    /**
-     * @var string
-     */
-    protected static $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[[^\]]+\])?\:).*$/';
+    protected static string $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[[^\]]+\])?\:).*$/';
 
     /**
-     * @return array
+     * @return DetectorInterface[]
      */
     public static function getDetectors(): array
     {
