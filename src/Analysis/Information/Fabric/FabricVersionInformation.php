@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Information\Fabric;
 
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
-use Aternos\Codex\Minecraft\Log\VanillaLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -33,8 +33,8 @@ class FabricVersionInformation extends FabricInformation
     public static function getPatterns(): array
     {
         return [
-            '/'. VanillaLog::getPrefixPattern() .'\[FabricLoader\] Loading [0-9]+ mods: (?:\w{1,63}@[^, ]+, )*fabricloader@('. static::$fabricVersionPattern .')/',
-            '/'. VanillaLog::getPrefixPattern() .'Loading Minecraft '. VanillaVersionInformation::getVersionPattern() .' with Fabric Loader ('. static::$fabricVersionPattern .')/'
+            '/'. VanillaServerLog::getPrefixPattern() .'\[FabricLoader\] Loading [0-9]+ mods: (?:\w{1,63}@[^, ]+, )*fabricloader@('. static::$fabricVersionPattern .')/',
+            '/'. VanillaServerLog::getPrefixPattern() .'Loading Minecraft '. VanillaVersionInformation::getVersionPattern() .' with Fabric Loader ('. static::$fabricVersionPattern .')/'
         ];
     }
 

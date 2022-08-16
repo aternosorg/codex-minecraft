@@ -3,7 +3,6 @@
 namespace Aternos\Codex\Minecraft\Parser;
 
 use Aternos\Codex\Log\Line;
-use Aternos\Codex\Minecraft\Log\CrashReport\CrashReportLevel;
 use Aternos\Codex\Minecraft\Log\Entry;
 
 /**

@@ -4,7 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Fabric;
 
 
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
-use Aternos\Codex\Minecraft\Log\VanillaLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -28,7 +28,7 @@ class FabricDuplicateModProblem extends FabricModProblem
     public static function getPatterns(): array
     {
         return [
-            "/". VanillaLog::getPrefixPattern() . "A critical error occurred\nnet\.fabricmc\.loader\.discovery\.ModResolutionException: Duplicate versions for mod ID '([^']+)': \[[^ ]+ at ([^\]]+)\]/"
+            "/". VanillaServerLog::getPrefixPattern() . "A critical error occurred\nnet\.fabricmc\.loader\.discovery\.ModResolutionException: Duplicate versions for mod ID '([^']+)': \[[^ ]+ at ([^\]]+)\]/"
         ];
     }
 
