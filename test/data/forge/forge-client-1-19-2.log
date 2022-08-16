@@ -1,0 +1,52 @@
+[16Aug2022 16:05:10.350] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, Matthias, --version, 1.19.2, --gameDir, /home/matthias/.local/share/PolyMC/instances/1.19.2/.minecraft, --assetsDir, /home/matthias/.local/share/PolyMC/assets, --assetIndex, 1.19, --uuid, cc6082eea459424f87c90cfe2257b40c, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 43.0.11, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, --width, 854, --height, 480]
+[16Aug2022 16:05:10.354] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 18.0.2 by N/A; OS Linux arch amd64 version 5.15.59-1-MANJARO
+[16Aug2022 16:05:10.424] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/matthias/.local/share/PolyMC/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23138!/ Service=ModLauncher Env=CLIENT
+[16Aug2022 16:05:10.445] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /home/matthias/.local/share/PolyMC/instances/1.19.2/.minecraft/config/fml.toml is not correct. Correcting
+[16Aug2022 16:05:10.447] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[16Aug2022 16:05:10.448] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [maxThreads] was corrected from null to -1
+[16Aug2022 16:05:10.565] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/matthias/.local/share/PolyMC/libraries/net/minecraftforge/fmlcore/1.19.2-43.0.11/fmlcore-1.19.2-43.0.11.jar is missing mods.toml file
+[16Aug2022 16:05:10.566] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/matthias/.local/share/PolyMC/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.0.11/javafmllanguage-1.19.2-43.0.11.jar is missing mods.toml file
+[16Aug2022 16:05:10.567] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/matthias/.local/share/PolyMC/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.0.11/lowcodelanguage-1.19.2-43.0.11.jar is missing mods.toml file
+[16Aug2022 16:05:10.567] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/matthias/.local/share/PolyMC/libraries/net/minecraftforge/mclanguage/1.19.2-43.0.11/mclanguage-1.19.2-43.0.11.jar is missing mods.toml file
+[16Aug2022 16:05:10.603] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[16Aug2022 16:05:11.277] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.19.2, --gameDir, /home/matthias/.local/share/PolyMC/instances/1.19.2/.minecraft, --assetsDir, /home/matthias/.local/share/PolyMC/assets, --uuid, cc6082eea459424f87c90cfe2257b40c, --username, Matthias, --assetIndex, 1.19, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[16Aug2022 16:05:13.032] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[16Aug2022 16:05:13.925] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/matthias/.local/share/PolyMC/libraries/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar%23143!/assets/.mcassetsroot' uses unexpected schema
+[16Aug2022 16:05:13.925] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/matthias/.local/share/PolyMC/libraries/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar%23143!/data/.mcassetsroot' uses unexpected schema
+[16Aug2022 16:05:13.941] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16Aug2022 16:05:14.139] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Matthias
+[16Aug2022 16:05:14.180] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[16Aug2022 16:05:14.673] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.0.11, for MC 1.19.2 with MCP 20220805.130853
+[16Aug2022 16:05:14.674] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.0.11 Initialized
+[16Aug2022 16:05:15.344] [Render thread/INFO] [com.mojang.text2speech.NarratorLinux/]: Narrator library successfully loaded
+[16Aug2022 16:05:15.352] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[16Aug2022 16:05:15.365] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/matthias/.local/share/PolyMC/instances/1.19.2/.minecraft/config/forge-client.toml is not correct. Correcting
+[16Aug2022 16:05:15.366] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}.
+[16Aug2022 16:05:15.366] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to its default, false.
+[16Aug2022 16:05:15.367] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false.
+[16Aug2022 16:05:15.367] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to its default, true.
+[16Aug2022 16:05:15.367] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false.
+[16Aug2022 16:05:15.368] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.compressLanIPv6Addresses was corrected from null to its default, true.
+[16Aug2022 16:05:15.372] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/matthias/.local/share/PolyMC/instances/1.19.2/.minecraft/config/forge-common.toml is not correct. Correcting
+[16Aug2022 16:05:15.373] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}.
+[16Aug2022 16:05:15.373] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.cachePackAccess was corrected from null to its default, true.
+[16Aug2022 16:05:15.373] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexVanillaPackCachesOnThread was corrected from null to its default, false.
+[16Aug2022 16:05:15.373] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexModPackCachesOnThread was corrected from null to its default, false.
+[16Aug2022 16:05:15.452] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[16Aug2022 16:05:15.882] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 43.0.11 Target: 43.0.11
+[16Aug2022 16:05:25.154] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[16Aug2022 16:05:25.155] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[16Aug2022 16:05:25.171] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Jabra Link 380 Digital Stereo (IEC958)
+[16Aug2022 16:05:25.172] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[16Aug2022 16:05:25.280] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[16Aug2022 16:05:25.310] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[16Aug2022 16:05:25.311] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16Aug2022 16:05:25.312] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16Aug2022 16:05:25.314] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16Aug2022 16:05:25.314] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16Aug2022 16:05:25.315] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16Aug2022 16:05:25.747] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[16Aug2022 16:05:25.885] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[16Aug2022 16:05:25.887] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16Aug2022 16:05:25.887] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16Aug2022 16:07:05.771] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

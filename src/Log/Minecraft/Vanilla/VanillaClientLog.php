@@ -4,13 +4,14 @@ namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla;
 
 use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
+use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
 
 /**
  * Class VanillaClientLog
  *
  * @package Aternos\Codex\Minecraft\Log\Minecraft\Vanilla
  */
-class VanillaClientLog extends VanillaLog implements \Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface
+class VanillaClientLog extends VanillaLog implements ClientLogTypeInterface
 {
     /**
      * @return DetectorInterface[]
