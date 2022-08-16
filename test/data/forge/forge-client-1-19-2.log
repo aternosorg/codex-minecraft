@@ -36,7 +36,6 @@
 [16Aug2022 16:05:15.882] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 43.0.11 Target: 43.0.11
 [16Aug2022 16:05:25.154] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
 [16Aug2022 16:05:25.155] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[16Aug2022 16:05:25.171] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Jabra Link 380 Digital Stereo (IEC958)
 [16Aug2022 16:05:25.172] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
 [16Aug2022 16:05:25.280] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
 [16Aug2022 16:05:25.310] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas

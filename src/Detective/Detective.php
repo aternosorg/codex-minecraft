@@ -16,6 +16,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper\PaperCrashReportL
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper\PaperServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Spigot\OldSpigotServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Spigot\SpigotServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric\FabricClientLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric\FabricServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\ForgeClientLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\ForgeCrashReportLog;
@@ -38,6 +39,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
 {
     protected string $defaultLogClass = MinecraftLog::class;
     protected array $possibleLogClasses = [
+        FabricClientLog::class,
         VanillaClientLog::class,
         ForgeClientLog::class,
 
