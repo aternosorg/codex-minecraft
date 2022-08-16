@@ -3,6 +3,7 @@
     "name": "Spigot",
     "type": "Server",
     "version": "1.12",
+    "title": "Spigot Server 1.12 Log",
     "entries": [
         {
             "level": 6,

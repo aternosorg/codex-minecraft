@@ -3,6 +3,7 @@
     "name": "Waterfall",
     "type": "Proxy",
     "version": null,
+    "title": "Waterfall Proxy Log",
     "entries": [
         {
             "level": 6,

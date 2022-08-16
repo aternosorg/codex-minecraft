@@ -3,6 +3,7 @@
     "name": "Forge",
     "type": "Server",
     "version": null,
+    "title": "Forge Server Log",
     "entries": [
         {
             "level": 7,

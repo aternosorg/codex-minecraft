@@ -125,6 +125,25 @@ class MinecraftLog extends AnalysableLog implements DetectableLogInterface
     /**
      * @return string|null
      */
+    public function getTitle(): ?string
+    {
+        $title = "";
+        if ($name = $this->getName()) {
+            $title .= $name . " ";
+        }
+        if ($type = $this->getTypeName()) {
+            $title .= $type . " ";
+        }
+        if ($version = $this->getVersion()) {
+            $title .= $version;
+        }
+        $title = trim($title);
+        return empty($title) ? null : $title . " Log";
+    }
+
+    /**
+     * @return string|null
+     */
     public function getName(): ?string
     {
         return null;
@@ -139,7 +158,8 @@ class MinecraftLog extends AnalysableLog implements DetectableLogInterface
             'id' => $this->getId(),
             'name' => $this->getName(),
             'type' => $this->getTypeName(),
-            'version' => $this->getVersion()
+            'version' => $this->getVersion(),
+            'title' => $this->getTitle()
         ], parent::jsonSerialize());
     }
 }

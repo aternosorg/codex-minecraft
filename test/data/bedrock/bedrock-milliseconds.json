@@ -3,6 +3,7 @@
     "name": "Bedrock",
     "type": "Server",
     "version": null,
+    "title": "Bedrock Server Log",
     "entries": [
         {
             "level": null,

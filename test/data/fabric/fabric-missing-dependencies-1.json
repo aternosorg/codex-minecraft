@@ -3,6 +3,7 @@
     "name": "Fabric",
     "type": "Server",
     "version": null,
+    "title": "Fabric Server Log",
     "entries": [
         {
             "level": 6,

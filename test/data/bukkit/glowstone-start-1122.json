@@ -3,6 +3,7 @@
     "name": "Glowstone",
     "type": "Server",
     "version": null,
+    "title": "Glowstone Server Log",
     "entries": [
         {
             "level": 6,

@@ -3,6 +3,7 @@
     "name": "Velocity",
     "type": "Proxy",
     "version": null,
+    "title": "Velocity Proxy Log",
     "entries": [
         {
             "level": 6,

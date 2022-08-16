@@ -3,6 +3,7 @@
     "name": "Geyser",
     "type": "Proxy",
     "version": null,
+    "title": "Geyser Proxy Log",
     "entries": [
         {
             "level": 6,

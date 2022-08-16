@@ -3,6 +3,7 @@
     "name": "Vanilla",
     "type": "Client",
     "version": null,
+    "title": "Vanilla Client Log",
     "entries": [
         {
             "level": 6,

@@ -3,6 +3,7 @@
     "name": "CraftBukkit",
     "type": "Server",
     "version": "1.1",
+    "title": "CraftBukkit Server 1.1 Log",
     "entries": [
         {
             "level": 6,

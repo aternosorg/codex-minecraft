@@ -3,6 +3,7 @@
     "name": "BungeeCord",
     "type": "Proxy",
     "version": null,
+    "title": "BungeeCord Proxy Log",
     "entries": [
         {
             "level": 6,
