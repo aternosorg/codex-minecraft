@@ -2,6 +2,7 @@
     "id": "forge\/crash-report",
     "name": "Forge",
     "type": "Crash Report",
+    "version": "1.16.5",
     "entries": [
         {
             "level": 8,

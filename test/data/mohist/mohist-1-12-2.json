@@ -2,6 +2,7 @@
     "id": "mohist\/server",
     "name": "Mohist",
     "type": "Server",
+    "version": "1.12.2",
     "entries": [
         {
             "level": 7,

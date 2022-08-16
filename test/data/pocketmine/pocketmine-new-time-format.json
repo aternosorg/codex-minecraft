@@ -2,6 +2,7 @@
     "id": "pocketmine\/server",
     "name": "Pocketmine",
     "type": "Server",
+    "version": "1.18.10",
     "entries": [
         {
             "level": 6,

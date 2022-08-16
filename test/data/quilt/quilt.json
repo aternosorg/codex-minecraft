@@ -2,6 +2,7 @@
     "id": "quilt\/server",
     "name": "Quilt",
     "type": "Server",
+    "version": "1.18.2",
     "entries": [
         {
             "level": 6,

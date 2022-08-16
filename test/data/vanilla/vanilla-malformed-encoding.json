@@ -2,6 +2,7 @@
     "id": "vanilla\/server",
     "name": "Vanilla",
     "type": "Server",
+    "version": null,
     "entries": [
         {
             "level": 6,

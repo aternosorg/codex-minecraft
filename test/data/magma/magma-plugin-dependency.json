@@ -2,6 +2,7 @@
     "id": "magma\/server",
     "name": "Magma",
     "type": "Server",
+    "version": "1.8.8",
     "entries": [
         {
             "level": 6,

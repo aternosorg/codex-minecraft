@@ -4,6 +4,8 @@ namespace Aternos\Codex\Minecraft\Log\Minecraft;
 
 use Aternos\Codex\Analyser\AnalyserInterface;
 use Aternos\Codex\Analyser\PatternAnalyser;
+use Aternos\Codex\Analysis\InformationInterface;
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Detective\LinePatternDetector;
 use Aternos\Codex\Log\DetectableLogInterface;
 use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
@@ -22,6 +24,17 @@ use Aternos\Codex\Parser\ParserInterface;
 class MinecraftLog extends \Aternos\Codex\Log\AnalysableLog implements DetectableLogInterface
 {
     protected static string $pattern;
+
+    /** @var class-string<InformationInterface>|null */
+    protected static ?string $versionInformationClass = null;
+
+    /**
+     * @return AnalyserInterface
+     */
+    public static function getDefaultAnalyser(): AnalyserInterface
+    {
+        return new PatternAnalyser();
+    }
 
     /**
      * @return ParserInterface
@@ -46,9 +59,9 @@ class MinecraftLog extends \Aternos\Codex\Log\AnalysableLog implements Detectabl
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getTypeName(): string
+    public function getTypeName(): ?string
     {
         return match (true) {
             $this instanceof ServerLogTypeInterface => "Server",
@@ -56,23 +69,46 @@ class MinecraftLog extends \Aternos\Codex\Log\AnalysableLog implements Detectabl
             $this instanceof ProxyLogTypeInterface => "Proxy",
             $this instanceof CrashReportLogTypeInterface => "Crash Report",
             $this instanceof ContentLogTypeInterface => "Content",
-            default => "Unknown"
+            default => null
         };
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getTypeId(): string
+    public function getVersion(): ?string
     {
+        if (static::$versionInformationClass === null) {
+            return null;
+        }
+
+        /** @var InformationInterface[] $insights */
+        $insights = $this->analyse()->getFilteredInsights(static::$versionInformationClass);
+        if (count($insights) === 0) {
+            return null;
+        }
+        return $insights[0]->getValue();
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getTypeId(): ?string
+    {
+        if ($this->getTypeName() === null) {
+            return null;
+        }
         return strtolower(str_replace(" ", "-", $this->getTypeName()));
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getNameId(): string
+    public function getNameId(): ?string
     {
+        if ($this->getName() === null) {
+            return null;
+        }
         return strtolower(str_replace(" ", "-", $this->getName()));
     }
 
@@ -81,23 +117,17 @@ class MinecraftLog extends \Aternos\Codex\Log\AnalysableLog implements Detectabl
      */
     public function getId(): string
     {
-        return $this->getNameId() . "/" . $this->getTypeId();
+        $nameId = $this->getNameId() ?? "unknown";
+        $typeId = $this->getTypeId() ?? "unknown";
+        return $nameId . "/" . $typeId;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getName(): string
+    public function getName(): ?string
     {
-        return "Unknown";
-    }
-
-    /**
-     * @return AnalyserInterface
-     */
-    public static function getDefaultAnalyser(): AnalyserInterface
-    {
-        return new PatternAnalyser();
+        return null;
     }
 
     /**
@@ -108,7 +138,8 @@ class MinecraftLog extends \Aternos\Codex\Log\AnalysableLog implements Detectabl
         return array_merge([
             'id' => $this->getId(),
             'name' => $this->getName(),
-            'type' => $this->getTypeName()
+            'type' => $this->getTypeName(),
+            'version' => $this->getVersion()
         ], parent::jsonSerialize());
     }
 }

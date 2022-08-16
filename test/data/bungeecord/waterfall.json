@@ -2,6 +2,7 @@
     "id": "waterfall\/proxy",
     "name": "Waterfall",
     "type": "Proxy",
+    "version": null,
     "entries": [
         {
             "level": 6,

@@ -2,6 +2,7 @@
     "id": "bedrock\/server",
     "name": "Bedrock",
     "type": "Server",
+    "version": "1.12.0.28",
     "entries": [
         {
             "level": 6,

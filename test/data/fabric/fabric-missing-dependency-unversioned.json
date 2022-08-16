@@ -2,6 +2,7 @@
     "id": "fabric\/server",
     "name": "Fabric",
     "type": "Server",
+    "version": null,
     "entries": [
         {
             "level": 4,

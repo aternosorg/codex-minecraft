@@ -1,7 +1,8 @@
 {
-    "id": "vanilla\/unknown",
+    "id": "vanilla\/server",
     "name": "Vanilla",
-    "type": "Unknown",
+    "type": "Server",
+    "version": "1.5.2",
     "entries": [
         {
             "level": 6,

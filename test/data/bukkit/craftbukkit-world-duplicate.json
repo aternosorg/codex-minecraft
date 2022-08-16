@@ -2,6 +2,7 @@
     "id": "craftbukkit\/server",
     "name": "CraftBukkit",
     "type": "Server",
+    "version": "1.13.2",
     "entries": [
         {
             "level": 6,

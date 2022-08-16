@@ -2,6 +2,7 @@
     "id": "forge\/server",
     "name": "Forge",
     "type": "Server",
+    "version": "1.14.4",
     "entries": [
         {
             "level": 6,
