@@ -1,0 +1,1673 @@
+{
+    "id": "mohist\/crash-report",
+    "name": "Mohist",
+    "type": "Crash Report",
+    "version": null,
+    "title": "Mohist Crash Report Log",
+    "entries": [
+        {
+            "level": 8,
+            "time": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "---- Mohist Crash Report ----"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "WARNING: coremods are present:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "  llibrary (llibrary-core-1.0.11-1.12.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "  ForgelinPlugin (Forgelin-1.8.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "  CreativePatchingLoader (CreativeCore_v1.10.70_mc1.12.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "  Inventory Tweaks Coremod (InventoryTweaks-1.64+dev.150.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "  KonkreteCore (konkrete_forge_1.5.0_MC_1.12-1.12.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "  FutureMC (future-mc-0.2.10.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "  SecurityCraftLoadingPlugin ([1.12.2] SecurityCraft v1.9.3.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "Contact their authors BEFORE contacting forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "Time: 8\/15\/22 3:18 PM"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "Description: Exception in server tick loop"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "java.lang.NoClassDefFoundError: team\/creative\/littleframes\/LittleFrames$1"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "\tat java.lang.Class.forName0(Native Method)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "\tat java.lang.Class.forName(Class.java:348)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "\tat net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:534)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "\tat sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:498)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "\tat com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "\tat com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "\tat com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "\tat com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "\tat com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "\tat com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "\tat com.google.common.eventbus.EventBus.post(EventBus.java:217)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "\tat net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:215)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "\tat net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:193)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:498)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "\tat com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "\tat com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "\tat com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "\tat com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "\tat com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "\tat com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "\tat com.google.common.eventbus.EventBus.post(EventBus.java:217)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "\tat net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:132)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "\tat net.minecraftforge.fml.common.Loader.loadMods(Loader.java:610)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "\tat net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:101)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "\tat net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:331)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:167)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "\tat net.minecraft.server.MinecraftServer.run(MinecraftServer.java:590)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "\tat java.lang.Thread.run(Thread.java:750)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "Caused by: java.lang.ClassNotFoundException: team.creative.littleframes.LittleFrames$1"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "\tat net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "\tat java.lang.ClassLoader.loadClass(ClassLoader.java:418)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "\tat java.lang.ClassLoader.loadClass(ClassLoader.java:351)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "\t... 33 more"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "Caused by: java.lang.NoClassDefFoundError: com\/creativemd\/littletiles\/client\/gui\/handler\/LittleStructureGuiHandler"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "\tat java.lang.ClassLoader.defineClass1(Native Method)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "\tat java.lang.ClassLoader.defineClass(ClassLoader.java:756)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "\tat java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "\tat net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "\t... 35 more"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "Caused by: java.lang.ClassNotFoundException: com.creativemd.littletiles.client.gui.handler.LittleStructureGuiHandler"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "\tat net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:101)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "\tat java.lang.ClassLoader.loadClass(ClassLoader.java:418)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "\tat java.lang.ClassLoader.loadClass(ClassLoader.java:351)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "\t... 39 more"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "A detailed walkthrough of the error, its code path and all known details is as follows:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "---------------------------------------------------------------------------------------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 73,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "-- System Details --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "\tMohist version: 1.12.2-321"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "\tOperating System: Linux (amd64) version 5.4.0-121-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "\tJava Version: 1.8.0_342, Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "\tJava VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "\tMemory: 1974774744 bytes (1883 MB) \/ 3115319296 bytes (2971 MB) up to 4287627264 bytes (4089 MB)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "\tJVM Flags: 3 total; -XX:MaxMetaspaceSize=600M -Xmx4600M -Xms2300M"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "\tIntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "\tCraftBukkit Information:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "   Running:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "   Failed to handle CraftCrashReport: craftbukkit not runs"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 86,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "\tFML: MCP 9.42 Powered by Forge 14.23.5.2860 53 mods loaded, 53 mods active"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "\tStates: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 89,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "\t| State | ID                | Version              | Source                                         | Signature                                |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "\t|:----- |:----------------- |:-------------------- |:---------------------------------------------- |:---------------------------------------- |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "\t| LC    | minecraft         | 1.12.2               | minecraft.jar                                  | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "\t| LC    | mcp               | 9.42                 | minecraft.jar                                  | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "\t| LC    | mohist            | 1.12.2-321           | mohist.jar                                     | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "\t| LC    | FML               | **.**.**.**            | mohist.jar                                     | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "\t| LC    | forge             | 14.23.5.2860         | mohist.jar                                     | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "\t| LC    | creativecoredummy | 1.0.0                | minecraft.jar                                  | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "\t| LC    | securitycraft     | v1.9.3.1             | [1.12.2] SecurityCraft v1.9.3.1.jar            | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "\t| LC    | baubles           | 1.5.2                | Baubles-1.12-1.5.2.jar                         | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "\t| LC    | artifacts         | 1.12.2-1.2.3         | Artifacts-1.12.2-1.2.3.jar                     | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "\t| LC    | bettercaves       | 1.12.2               | bettercaves-1.12.2-2.0.4.jar                   | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "\t| LC    | byg               | 1.7.1                | BiomesYouGo1.7.1.jar                           | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "\t| LC    | bookshelf         | 2.3.590              | Bookshelf-1.12.2-2.3.590.jar                   | d476d1b22b218a10d845928d1665d45fce301b27 |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "\t| LC    | bookworm          | 1.12.2-2.5.2.1       | bookworm-1.12.2-2.5.2.1.jar                    | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "\t| LC    | camera            | 1.0.10               | camera-1.0.11.jar                              | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "\t| LC    | carryon           | 1.12.3               | carryon-1.12.2-1.12.6.20.jar                   | fd21553434f4905f2f73ea7838147ac4ea07bd88 |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "\t| LC    | ceilingtorch      | v1.3.1               | ceilingtorch-1.12.2-v1.3.1.jar                 | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "\t| LC    | crafttweaker      | 4.1.20               | CraftTweaker2-1.12-4.1.20.678.jar              | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "\t| LC    | jei               | **.**.**.**           | jei_1.12.2-4.16.1.302.jar                      | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "\t| LC    | chisel            | MC1.12.2-1.0.2.45    | Chisel-MC1.12.2-1.0.2.45.jar                   | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "\t| LC    | chococraft        | **.**.**.**              | chococraft_1.12.2-0.9.9.0.jar                  | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "\t| LC    | crafttweakerjei   | 2.0.3                | CraftTweaker2-1.12-4.1.20.678.jar              | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "\t| LC    | creativecore      | 1.10.0               | CreativeCore_v1.10.70_mc1.12.2.jar             | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "\t| LC    | props             | **.**.**.**              | Decocraft-2.6.3.7_1.12.2.jar                   | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "\t| LC    | dynamictrees      | 1.12.2-0.9.29        | DynamicTrees-1.12.2-0.9.29.jar                 | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "\t| LC    | elevatorid        | 1.3.14               | ElevatorMod-1.12.2-1.3.14.jar                  | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "\t| LC    | extrautils2       | 1.0                  | extrautils2-1.12-1.9.9.jar                     | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "\t| LC    | fencejumper       | 1.0.5                | fencejumper-1.12-1.0.5.jar                     | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "\t| LC    | forgelin          | 1.8.0                | Forgelin-1.8.0.jar                             | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "\t| LC    | futuremc          | 0.2.6                | future-mc-0.2.10.jar                           | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "\t| LC    | geckolib3         | 3.0.30               | geckolib-forge-1.12.2-3.0.30.jar               | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "\t| LC    | gottschcore       | 1.15.0               | GottschCore-mc1.12.2-f14.23.5.2859-v1.15.0.jar | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "\t| LC    | waila             | 1.8.26               | Hwyla-1.8.26-B41_1.12.2.jar                    | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "\t| LC    | inventorytweaks   | 1.64+dev.150.7168e7a | InventoryTweaks-1.64+dev.150.jar               | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "\t| LC    | journeymap        | 1.12.2-5.7.1         | journeymap-1.12.2-5.7.1.jar                    | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "\t| LC    | konkrete          | 1.5.0                | konkrete_forge_1.5.0_MC_1.12-1.12.2.jar        | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "\t| L     | littleframes      | 1.0.0                | LittleFrames_v1.0.12_mc1.12.2.jar              | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "\t| L     | mcwdoors          | 1.3                  | mcw-doors-1.0.3-mc1.12.2.jar                   | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "\t| L     | llibrary          | 1.7.20               | llibrary-1.7.20-1.12.2.jar                     | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "\t| L     | mowziesmobs       | 1.5.8                | mowziesmobs-1.5.8.jar                          | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "\t| L     | mutantbeasts      | 1.12.2-1.0.2         | MutantBeasts-1.12.2-1.0.2.jar                  | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "\t| L     | netherportalfix   | 5.3.17               | NetherPortalFix_1.12.1-5.3.17.jar              | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "\t| L     | playerrevive      | 1.0                  | PlayerRevive_v1.2.40_mc1.12.2.jar              | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "\t| L     | roguelike         | 1.8.0                | RoguelikeDungeons-1.12.2-1.8.0.jar             | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "\t| L     | rustic            | 1.1.7                | rustic-1.1.7.jar                               | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "\t| L     | spartanshields    | 1.5.5                | SpartanShields-1.12.2-1.5.5.jar                | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "\t| L     | tombstone         | 4.5.7                | tombstone-4.5.7-1.12.2.jar                     | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "\t| L     | trashslot         | 8.4.10               | TrashSlot_1.12.2-8.4.10.jar                    | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "\t| L     | travelersbackpack | 1.0.35               | TravelersBackpack-1.12.2-1.0.35.jar            | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "\t| L     | uteamcore         | **.**.**.**            | u_team_core-1.12.2-2.2.5.212.jar               | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "\t| L     | walljump          | 1.3.2                | walljump-1.12.2-1.3.2.jar                      | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "\t| L     | waystones         | 4.1.0                | Waystones_1.12.2-4.1.0.jar                     | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "\t| L     | betteranimalsplus | 9.0.1                | betteranimalsplus-1.12.2-9.0.1.jar             | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "\t| L     | jade              | 0.1.0                | Jade-0.1.0.jar                                 | None                                     |"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 145,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "\tLoaded coremods (and transformers):"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "llibrary (llibrary-core-1.0.11-1.12.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "ForgelinPlugin (Forgelin-1.8.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 151,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "CreativePatchingLoader (CreativeCore_v1.10.70_mc1.12.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 153,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "Inventory Tweaks Coremod (InventoryTweaks-1.64+dev.150.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "  invtweaks.forge.asm.ContainerTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "  team.chisel.ctm.client.asm.CTMTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "KonkreteCore (konkrete_forge_1.5.0_MC_1.12-1.12.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 159,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "FutureMC (future-mc-0.2.10.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "  thedarkcolour.futuremc.asm.CoreTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "SecurityCraftLoadingPlugin ([1.12.2] SecurityCraft v1.9.3.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 163,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "\tProfiler Position: N\/A (disabled)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "\tIs Modded: Definitely; Server brand changed to 'Mohist'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "\tType: Dedicated Server (map_server.txt)"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": []
+    }
+}

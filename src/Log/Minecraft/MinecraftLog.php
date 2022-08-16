@@ -23,7 +23,7 @@ use Aternos\Codex\Parser\ParserInterface;
  */
 class MinecraftLog extends AnalysableLog implements DetectableLogInterface
 {
-    protected static string $pattern;
+    protected static string $pattern = "//";
 
     /** @var class-string<InformationInterface>|null */
     protected static ?string $versionInformationClass = null;
@@ -138,7 +138,10 @@ class MinecraftLog extends AnalysableLog implements DetectableLogInterface
             $title .= $version;
         }
         $title = trim($title);
-        return empty($title) ? null : $title . " Log";
+        if (empty($title)) {
+            $title = "Unknown";
+        }
+        return $title . " Log";
     }
 
     /**

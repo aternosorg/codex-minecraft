@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Mohist;
 
+use Aternos\Codex\Analyser\AnalyserInterface;
 use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\MohistAnalyser;
@@ -28,9 +29,9 @@ abstract class MohistLog extends ForgeLog
     }
 
     /**
-     * @return MohistAnalyser
+     * @return AnalyserInterface
      */
-    public static function getDefaultAnalyser(): MohistAnalyser
+    public static function getDefaultAnalyser(): AnalyserInterface
     {
         return new MohistAnalyser();
     }
