@@ -9,7 +9,7 @@ use Aternos\Codex\Log\LevelInterface;
  *
  * @package Aternos\Codex\Minecraft\Log\CrashReport
  */
-enum CrashReportLevel: int implements \Aternos\Codex\Log\LevelInterface
+enum CrashReportLevel: int implements LevelInterface
 {
     case WARNING = 4;
     case INFO = 6;

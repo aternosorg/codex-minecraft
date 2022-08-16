@@ -5,8 +5,8 @@ namespace Aternos\Codex\Minecraft\Log\Minecraft;
 use Aternos\Codex\Analyser\AnalyserInterface;
 use Aternos\Codex\Analyser\PatternAnalyser;
 use Aternos\Codex\Analysis\InformationInterface;
-use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Detective\LinePatternDetector;
+use Aternos\Codex\Log\AnalysableLog;
 use Aternos\Codex\Log\DetectableLogInterface;
 use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
 use Aternos\Codex\Minecraft\Log\Type\ContentLogTypeInterface;
@@ -21,7 +21,7 @@ use Aternos\Codex\Parser\ParserInterface;
  *
  * @package Aternos\Codex\Minecraft\Log\Minecraft
  */
-class MinecraftLog extends \Aternos\Codex\Log\AnalysableLog implements DetectableLogInterface
+class MinecraftLog extends AnalysableLog implements DetectableLogInterface
 {
     protected static string $pattern;
 

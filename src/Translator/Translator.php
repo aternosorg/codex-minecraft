@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Translator;
 
+use InvalidArgumentException;
+
 /**
  * Class Translator
  *
@@ -64,7 +66,7 @@ class Translator
     public function setLanguage(string $language = self::DEFAULT_LANGUAGE): static
     {
         if (!$this->checkTranslationFile($language)) {
-            throw new \InvalidArgumentException("Language file for language '" . $language . "' not found.");
+            throw new InvalidArgumentException("Language file for language '" . $language . "' not found.");
         }
         $this->language = $language;
         return $this;
@@ -87,7 +89,7 @@ class Translator
             if ($this->getLanguage() !== static::DEFAULT_LANGUAGE) {
                 return static::getFallbackInstance()->getTranslation($variable, $replacements);
             }
-            throw new \InvalidArgumentException("Translation variable '" . $variable . "' not found.");
+            throw new InvalidArgumentException("Translation variable '" . $variable . "' not found.");
         }
 
         $value = $translations[$variable];
@@ -133,7 +135,7 @@ class Translator
             $content = file_get_contents($file);
             $translations = json_decode($content, true);
             if (!is_array($translations)) {
-                throw new \InvalidArgumentException("Could not parse JSON translation file: " . $file);
+                throw new InvalidArgumentException("Could not parse JSON translation file: " . $file);
             }
 
             $this->translations[$this->language] = $translations;

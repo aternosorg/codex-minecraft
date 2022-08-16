@@ -7,7 +7,6 @@ use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\QuiltAnalyser;
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaLog;
-use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
 
 /**
  * Class QuiltLog
