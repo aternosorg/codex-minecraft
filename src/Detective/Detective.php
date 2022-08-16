@@ -23,6 +23,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Magma\MagmaServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Mohist\MohistServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\OldVanillaServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt\QuiltServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaClientLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaCrashReportLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Velocity\VelocityProxyLog;
@@ -36,6 +37,8 @@ class Detective extends \Aternos\Codex\Detective\Detective
 {
     protected string $defaultLogClass = MinecraftLog::class;
     protected array $possibleLogClasses = [
+        VanillaClientLog::class,
+
         VanillaServerLog::class,
         OldVanillaServerLog::class,
         OldCraftBukkitServerLog::class,
