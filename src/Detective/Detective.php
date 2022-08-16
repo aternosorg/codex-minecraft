@@ -34,9 +34,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Velocity\VelocityProxyLog;
  */
 class Detective extends \Aternos\Codex\Detective\Detective
 {
-    /**
-     * @var array
-     */
+    protected string $defaultLogClass = MinecraftLog::class;
     protected array $possibleLogClasses = [
         VanillaServerLog::class,
         OldVanillaServerLog::class,

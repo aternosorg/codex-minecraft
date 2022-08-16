@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aternosorg/codex.git",
-                "reference": "037de8b6faea8b7620d280c8a6abaac5a4f9e6db"
+                "reference": "1ac9dadfb37586dc31e0dca732553f506941d559"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aternosorg/codex/zipball/037de8b6faea8b7620d280c8a6abaac5a4f9e6db",
-                "reference": "037de8b6faea8b7620d280c8a6abaac5a4f9e6db",
+                "url": "https://api.github.com/repos/aternosorg/codex/zipball/1ac9dadfb37586dc31e0dca732553f506941d559",
+                "reference": "1ac9dadfb37586dc31e0dca732553f506941d559",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 "issues": "https://github.com/aternosorg/codex/issues",
                 "source": "https://github.com/aternosorg/codex/tree/2.0"
             },
-            "time": "2022-08-15T14:44:52+00:00"
+            "time": "2022-08-16T15:11:34+00:00"
         }
     ],
     "packages-dev": [

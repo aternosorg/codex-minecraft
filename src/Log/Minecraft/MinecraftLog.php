@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft;
 
+use Aternos\Codex\Analyser\AnalyserInterface;
+use Aternos\Codex\Analyser\PatternAnalyser;
 use Aternos\Codex\Detective\LinePatternDetector;
 use Aternos\Codex\Log\DetectableLogInterface;
 use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
@@ -17,7 +19,7 @@ use Aternos\Codex\Parser\ParserInterface;
  *
  * @package Aternos\Codex\Minecraft\Log\Minecraft
  */
-abstract class MinecraftLog extends \Aternos\Codex\Log\AnalysableLog implements DetectableLogInterface
+class MinecraftLog extends \Aternos\Codex\Log\AnalysableLog implements DetectableLogInterface
 {
     protected static string $pattern;
 
@@ -61,5 +63,16 @@ abstract class MinecraftLog extends \Aternos\Codex\Log\AnalysableLog implements 
     /**
      * @return string
      */
-    abstract public function getName(): string;
+    public function getName(): string
+    {
+        return "Unknown";
+    }
+
+    /**
+     * @return AnalyserInterface
+     */
+    public static function getDefaultAnalyser(): AnalyserInterface
+    {
+        return new PatternAnalyser();
+    }
 }
