@@ -8,6 +8,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:42] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 1,
@@ -18,6 +19,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:42] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 2,
@@ -28,6 +30,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:42] [main\/INFO] [net.minecraftforge.fml.loading.FixSSL\/CORE]:",
             "lines": [
                 {
                     "number": 3,
@@ -38,6 +41,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:42] [main\/INFO] [mixin\/]:",
             "lines": [
                 {
                     "number": 4,
@@ -48,6 +52,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:43] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 5,
@@ -58,6 +63,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:47] [modloading-worker-2\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]:",
             "lines": [
                 {
                     "number": 6,
@@ -68,6 +74,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:47] [modloading-worker-2\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
             "lines": [
                 {
                     "number": 7,
@@ -78,6 +85,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:47] [modloading-worker-2\/INFO] [com.mohistmc.MohistMC\/]:",
             "lines": [
                 {
                     "number": 8,
@@ -88,6 +96,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:49] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]:",
             "lines": [
                 {
                     "number": 9,
@@ -98,6 +107,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:49] [main\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 10,
@@ -108,6 +118,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:49] [main\/INFO] [net.minecraft.resources.SimpleReloadableResourceManager\/]:",
             "lines": [
                 {
                     "number": 11,
@@ -118,6 +129,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:50] [Worker-Main-5\/INFO] [net.minecraft.advancements.AdvancementList\/]:",
             "lines": [
                 {
                     "number": 12,
@@ -128,6 +140,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:51] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 13,
@@ -138,6 +151,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:51] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 14,
@@ -148,6 +162,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:51] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 15,
@@ -158,6 +173,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:51] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 16,
@@ -168,6 +184,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:52] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 17,
@@ -178,6 +195,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:52] [Server thread\/INFO] [net.minecraft.network.NetworkSystem\/]:",
             "lines": [
                 {
                     "number": 18,
@@ -188,6 +206,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:52] [Server thread\/INFO] [Minecraft\/]:",
             "lines": [
                 {
                     "number": 19,
@@ -198,6 +217,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:52] [Server thread\/INFO] [Minecraft\/]:",
             "lines": [
                 {
                     "number": 20,
@@ -208,6 +228,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:52] [Server thread\/INFO] [\/]:",
             "lines": [
                 {
                     "number": 21,
@@ -218,6 +239,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:52] [Server thread\/INFO] [Minecraft\/]:",
             "lines": [
                 {
                     "number": 22,
@@ -228,6 +250,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:53] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 23,
@@ -238,6 +261,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:53] [Server thread\/INFO] [Minecraft\/]:",
             "lines": [
                 {
                     "number": 24,
@@ -248,6 +272,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:41:53] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 25,
@@ -258,6 +283,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:42:17] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]:",
             "lines": [
                 {
                     "number": 26,
@@ -268,6 +294,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:42:21] [Worker-Main-4\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]:",
             "lines": [
                 {
                     "number": 27,
@@ -278,6 +305,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:42:21] [Worker-Main-6\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]:",
             "lines": [
                 {
                     "number": 28,
@@ -288,6 +316,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:42:26] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]:",
             "lines": [
                 {
                     "number": 29,
@@ -298,6 +327,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:42:26] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]:",
             "lines": [
                 {
                     "number": 30,
@@ -308,6 +338,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:42:28] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]:",
             "lines": [
                 {
                     "number": 31,
@@ -318,6 +349,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:42:28] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]:",
             "lines": [
                 {
                     "number": 32,
@@ -328,6 +360,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:42:28] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 33,
@@ -338,6 +371,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:42:28] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 34,
@@ -348,6 +382,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:42:28] [Server thread\/INFO] [net.minecraft.network.rcon.RConThread\/]:",
             "lines": [
                 {
                     "number": 35,
@@ -358,6 +393,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:42:28] [Query Listener #1\/INFO] [net.minecraft.network.rcon.QueryThread\/]:",
             "lines": [
                 {
                     "number": 36,
@@ -368,6 +404,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17:42:28] [Server thread\/INFO] [Minecraft\/]:",
             "lines": [
                 {
                     "number": 37,
@@ -385,6 +422,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[17:41:42] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
                     "lines": [
                         {
                             "number": 1,
@@ -401,6 +439,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[17:41:47] [modloading-worker-2\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
                     "lines": [
                         {
                             "number": 7,
@@ -417,6 +456,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[17:41:52] [Server thread\/INFO] [Minecraft\/]:",
                     "lines": [
                         {
                             "number": 19,

@@ -32,4 +32,17 @@ class Entry extends \Aternos\Codex\Log\Entry
     {
         return $this->prefix;
     }
+
+    /**
+     * @return array
+     */
+    public function jsonSerialize(): array
+    {
+        $output = parent::jsonSerialize();
+        $lines = $output['lines'];
+        unset($output['lines']);
+        $output['prefix'] = $this->getPrefix();
+        $output['lines'] = $lines;
+        return $output;
+    }
 }

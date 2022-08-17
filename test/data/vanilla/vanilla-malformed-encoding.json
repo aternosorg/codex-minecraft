@@ -8,6 +8,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[21:28:50] [main\/FATAL]:",
             "lines": [
                 {
                     "number": 1,
@@ -60,6 +61,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[21:28:50] [main\/FATAL]:",
                     "lines": [
                         {
                             "number": 1,

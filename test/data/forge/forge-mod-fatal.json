@@ -8,6 +8,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[18:59:01] [Server thread\/ERROR] [FML\/]:",
             "lines": [
                 {
                     "number": 1,
@@ -18,6 +19,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[18:59:01] [Server thread\/ERROR] [FML\/]:",
             "lines": [
                 {
                     "number": 2,
@@ -226,6 +228,7 @@
                 "entry": {
                     "level": 3,
                     "time": null,
+                    "prefix": "[18:59:01] [Server thread\/ERROR] [FML\/]:",
                     "lines": [
                         {
                             "number": 2,

@@ -8,6 +8,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:10.350] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 1,
@@ -18,6 +19,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:10.354] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 2,
@@ -28,6 +30,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:10.424] [main\/INFO] [mixin\/]:",
             "lines": [
                 {
                     "number": 3,
@@ -38,6 +41,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:10.445] [main\/WARN] [net.minecraftforge.fml.loading.FMLConfig\/CORE]:",
             "lines": [
                 {
                     "number": 4,
@@ -48,6 +52,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:10.447] [main\/WARN] [net.minecraftforge.fml.loading.FMLConfig\/CORE]:",
             "lines": [
                 {
                     "number": 5,
@@ -58,6 +63,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:10.448] [main\/WARN] [net.minecraftforge.fml.loading.FMLConfig\/CORE]:",
             "lines": [
                 {
                     "number": 6,
@@ -68,6 +74,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:10.565] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
             "lines": [
                 {
                     "number": 7,
@@ -78,6 +85,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:10.566] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
             "lines": [
                 {
                     "number": 8,
@@ -88,6 +96,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:10.567] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
             "lines": [
                 {
                     "number": 9,
@@ -98,6 +107,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:10.567] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
             "lines": [
                 {
                     "number": 10,
@@ -108,6 +118,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:10.603] [main\/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]:",
             "lines": [
                 {
                     "number": 11,
@@ -118,6 +129,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:11.277] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 12,
@@ -128,6 +140,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:13.032] [pool-3-thread-1\/INFO] [net.minecraft.util.datafix.DataFixers\/]:",
             "lines": [
                 {
                     "number": 13,
@@ -138,6 +151,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:13.925] [Render thread\/WARN] [net.minecraft.server.packs.VanillaPackResources\/]:",
             "lines": [
                 {
                     "number": 14,
@@ -148,6 +162,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:13.925] [Render thread\/WARN] [net.minecraft.server.packs.VanillaPackResources\/]:",
             "lines": [
                 {
                     "number": 15,
@@ -158,6 +173,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:13.941] [Render thread\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]:",
             "lines": [
                 {
                     "number": 16,
@@ -168,6 +184,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:14.139] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]:",
             "lines": [
                 {
                     "number": 17,
@@ -178,6 +195,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:14.180] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]:",
             "lines": [
                 {
                     "number": 18,
@@ -188,6 +206,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:14.673] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]:",
             "lines": [
                 {
                     "number": 19,
@@ -198,6 +217,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:14.674] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
             "lines": [
                 {
                     "number": 20,
@@ -208,6 +228,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.344] [Render thread\/INFO] [com.mojang.text2speech.NarratorLinux\/]:",
             "lines": [
                 {
                     "number": 21,
@@ -218,6 +239,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.352] [Render thread\/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager\/]:",
             "lines": [
                 {
                     "number": 22,
@@ -228,6 +250,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.365] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
             "lines": [
                 {
                     "number": 23,
@@ -238,6 +261,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.366] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
             "lines": [
                 {
                     "number": 24,
@@ -248,6 +272,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.366] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
             "lines": [
                 {
                     "number": 25,
@@ -258,6 +283,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.367] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
             "lines": [
                 {
                     "number": 26,
@@ -268,6 +294,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.367] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
             "lines": [
                 {
                     "number": 27,
@@ -278,6 +305,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.367] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
             "lines": [
                 {
                     "number": 28,
@@ -288,6 +316,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.368] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
             "lines": [
                 {
                     "number": 29,
@@ -298,6 +327,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.372] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
             "lines": [
                 {
                     "number": 30,
@@ -308,6 +338,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.373] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
             "lines": [
                 {
                     "number": 31,
@@ -318,6 +349,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.373] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
             "lines": [
                 {
                     "number": 32,
@@ -328,6 +360,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.373] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
             "lines": [
                 {
                     "number": 33,
@@ -338,6 +371,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.373] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
             "lines": [
                 {
                     "number": 34,
@@ -348,6 +382,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.452] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
             "lines": [
                 {
                     "number": 35,
@@ -358,6 +393,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:15.882] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
             "lines": [
                 {
                     "number": 36,
@@ -368,6 +404,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:25.154] [Render thread\/WARN] [net.minecraft.client.sounds.SoundEngine\/]:",
             "lines": [
                 {
                     "number": 37,
@@ -378,6 +415,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:25.155] [Render thread\/WARN] [net.minecraft.client.sounds.SoundEngine\/]:",
             "lines": [
                 {
                     "number": 38,
@@ -388,6 +426,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:25.172] [Render thread\/INFO] [net.minecraft.client.sounds.SoundEngine\/SOUNDS]:",
             "lines": [
                 {
                     "number": 39,
@@ -398,6 +437,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:25.280] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
             "lines": [
                 {
                     "number": 40,
@@ -408,6 +448,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:25.310] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
             "lines": [
                 {
                     "number": 41,
@@ -418,6 +459,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:25.311] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
             "lines": [
                 {
                     "number": 42,
@@ -428,6 +470,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:25.312] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
             "lines": [
                 {
                     "number": 43,
@@ -438,6 +481,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:25.314] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
             "lines": [
                 {
                     "number": 44,
@@ -448,6 +492,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:25.314] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
             "lines": [
                 {
                     "number": 45,
@@ -458,6 +503,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:25.315] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
             "lines": [
                 {
                     "number": 46,
@@ -468,6 +514,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16Aug2022 16:05:25.747] [Render thread\/WARN] [net.minecraft.client.renderer.ShaderInstance\/]:",
             "lines": [
                 {
                     "number": 47,
@@ -478,6 +525,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:25.885] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
             "lines": [
                 {
                     "number": 48,
@@ -488,6 +536,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:25.887] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
             "lines": [
                 {
                     "number": 49,
@@ -498,6 +547,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:05:25.887] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
             "lines": [
                 {
                     "number": 50,
@@ -508,6 +558,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16Aug2022 16:07:05.771] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]:",
             "lines": [
                 {
                     "number": 51,
@@ -525,6 +576,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[16Aug2022 16:05:10.350] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
                     "lines": [
                         {
                             "number": 1,
@@ -541,6 +593,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[16Aug2022 16:05:10.350] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
                     "lines": [
                         {
                             "number": 1,

@@ -8,6 +8,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:29:59] [ServerMain\/INFO]:",
             "lines": [
                 {
                     "number": 1,
@@ -18,6 +19,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:08] [Worker-Main-1\/INFO]:",
             "lines": [
                 {
                     "number": 2,
@@ -28,6 +30,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:12] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 3,
@@ -38,6 +41,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:12] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 4,
@@ -48,6 +52,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:12] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 5,
@@ -58,6 +63,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:12] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 6,
@@ -68,6 +74,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:12] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 7,
@@ -78,6 +85,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:13] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 8,
@@ -88,6 +96,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:13] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 9,
@@ -98,6 +107,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:13] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 10,
@@ -108,6 +118,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:13] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 11,
@@ -118,6 +129,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:13] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 12,
@@ -128,6 +140,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:13] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 13,
@@ -138,6 +151,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[08:30:13] [Server thread\/ERROR]:",
             "lines": [
                 {
                     "number": 14,
@@ -176,6 +190,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:13] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 22,
@@ -186,6 +201,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:13] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 23,
@@ -196,6 +212,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:24] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 24,
@@ -206,6 +223,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:26] [Worker-Main-1\/INFO]:",
             "lines": [
                 {
                     "number": 25,
@@ -216,6 +234,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:26] [Worker-Main-1\/INFO]:",
             "lines": [
                 {
                     "number": 26,
@@ -226,6 +245,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:36] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 27,
@@ -236,6 +256,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:36] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 28,
@@ -246,6 +267,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:36] [Query Listener #1\/INFO]:",
             "lines": [
                 {
                     "number": 29,
@@ -256,6 +278,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:36] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 30,
@@ -266,6 +289,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:36] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 31,
@@ -276,6 +300,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:36] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 32,
@@ -286,6 +311,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:36] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 33,
@@ -296,6 +322,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[08:30:36] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 34,
@@ -312,6 +339,7 @@
                 "entry": {
                     "level": 3,
                     "time": null,
+                    "prefix": "[08:30:13] [Server thread\/ERROR]:",
                     "lines": [
                         {
                             "number": 14,
@@ -364,6 +392,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[08:30:12] [Server thread\/INFO]:",
                     "lines": [
                         {
                             "number": 3,

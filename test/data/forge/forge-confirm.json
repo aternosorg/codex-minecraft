@@ -8,6 +8,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[13:31:32] [Server thread\/WARN] [FML\/]:",
             "lines": [
                 {
                     "number": 1,
@@ -56,6 +57,7 @@
                 "entry": {
                     "level": 4,
                     "time": null,
+                    "prefix": "[13:31:32] [Server thread\/WARN] [FML\/]:",
                     "lines": [
                         {
                             "number": 1,

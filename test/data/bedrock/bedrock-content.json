@@ -8,6 +8,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "10:25:19[Blocks][inform]",
             "lines": [
                 {
                     "number": 1,
@@ -38,6 +39,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "10:25:19[Blocks][error]",
             "lines": [
                 {
                     "number": 7,
@@ -52,6 +54,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "10:25:19[Blocks][inform]",
             "lines": [
                 {
                     "number": 9,
@@ -82,6 +85,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "10:25:19[Blocks][error]",
             "lines": [
                 {
                     "number": 15,
@@ -96,6 +100,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "10:25:19[Blocks][inform]",
             "lines": [
                 {
                     "number": 17,
@@ -122,6 +127,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "10:25:19[Blocks][error]",
             "lines": [
                 {
                     "number": 22,
@@ -136,6 +142,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "10:25:19[Item][error]",
             "lines": [
                 {
                     "number": 24,
@@ -150,6 +157,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "10:25:19[Item][error]",
             "lines": [
                 {
                     "number": 26,
@@ -164,6 +172,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "10:25:19[Json][error]",
             "lines": [
                 {
                     "number": 28,
@@ -182,6 +191,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "10:25:20[Recipes][error]",
             "lines": [
                 {
                     "number": 31,
@@ -200,6 +210,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "10:25:20[Recipes][error]",
             "lines": [
                 {
                     "number": 34,
@@ -218,6 +229,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "10:25:20[Recipes][error]",
             "lines": [
                 {
                     "number": 37,
@@ -236,6 +248,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "10:25:21[Commands][warning]",
             "lines": [
                 {
                     "number": 40,
@@ -250,6 +263,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "10:25:21[Commands][warning]",
             "lines": [
                 {
                     "number": 42,
@@ -264,6 +278,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "10:25:21[Commands][warning]",
             "lines": [
                 {
                     "number": 44,
@@ -278,6 +293,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "10:25:21[Commands][warning]",
             "lines": [
                 {
                     "number": 46,
@@ -292,6 +308,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "10:25:21[Commands][warning]",
             "lines": [
                 {
                     "number": 48,
@@ -306,6 +323,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "10:25:21[Commands][warning]",
             "lines": [
                 {
                     "number": 50,
@@ -320,6 +338,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "10:25:21[Commands][warning]",
             "lines": [
                 {
                     "number": 52,
@@ -334,6 +353,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "10:25:21[Commands][warning]",
             "lines": [
                 {
                     "number": 54,
@@ -348,6 +368,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "10:25:21[Commands][warning]",
             "lines": [
                 {
                     "number": 56,

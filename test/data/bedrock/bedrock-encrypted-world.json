@@ -8,6 +8,7 @@
         {
             "level": null,
             "time": null,
+            "prefix": null,
             "lines": [
                 {
                     "number": 1,
@@ -18,6 +19,7 @@
         {
             "level": 6,
             "time": 1631702125,
+            "prefix": "[2021-09-15 10:35:25 INFO]",
             "lines": [
                 {
                     "number": 2,
@@ -28,6 +30,7 @@
         {
             "level": 6,
             "time": 1631702125,
+            "prefix": "[2021-09-15 10:35:25 INFO]",
             "lines": [
                 {
                     "number": 3,
@@ -38,6 +41,7 @@
         {
             "level": 6,
             "time": 1631702125,
+            "prefix": "[2021-09-15 10:35:25 INFO]",
             "lines": [
                 {
                     "number": 4,
@@ -48,6 +52,7 @@
         {
             "level": 6,
             "time": 1631702125,
+            "prefix": "[2021-09-15 10:35:25 INFO]",
             "lines": [
                 {
                     "number": 5,
@@ -58,6 +63,7 @@
         {
             "level": 6,
             "time": 1631702125,
+            "prefix": "[2021-09-15 10:35:25 INFO]",
             "lines": [
                 {
                     "number": 6,
@@ -68,6 +74,7 @@
         {
             "level": 6,
             "time": 1631702125,
+            "prefix": "[2021-09-15 10:35:25 INFO]",
             "lines": [
                 {
                     "number": 7,
@@ -90,6 +97,7 @@
         {
             "level": 3,
             "time": 1631702438,
+            "prefix": "[2021-09-15 10:40:38 ERROR]",
             "lines": [
                 {
                     "number": 11,
@@ -106,6 +114,7 @@
                 "entry": {
                     "level": 6,
                     "time": 1631702125,
+                    "prefix": "[2021-09-15 10:35:25 INFO]",
                     "lines": [
                         {
                             "number": 7,

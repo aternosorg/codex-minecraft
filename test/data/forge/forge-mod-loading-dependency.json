@@ -8,6 +8,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.329] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 1,
@@ -18,6 +19,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.360] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 2,
@@ -28,6 +30,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.429] [main\/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 3,
@@ -38,6 +41,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.467] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 4,
@@ -48,6 +52,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.499] [main\/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 5,
@@ -58,6 +63,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.526] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 6,
@@ -68,6 +74,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.547] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 7,
@@ -78,6 +85,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.652] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 8,
@@ -88,6 +96,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.653] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 9,
@@ -98,6 +107,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.709] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 10,
@@ -108,6 +118,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.710] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/]:",
             "lines": [
                 {
                     "number": 11,
@@ -118,6 +129,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.757] [main\/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion\/CORE]:",
             "lines": [
                 {
                     "number": 12,
@@ -128,6 +140,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.774] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
             "lines": [
                 {
                     "number": 13,
@@ -138,6 +151,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.775] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
             "lines": [
                 {
                     "number": 14,
@@ -148,6 +162,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.775] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
             "lines": [
                 {
                     "number": 15,
@@ -158,6 +173,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.778] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
             "lines": [
                 {
                     "number": 16,
@@ -168,6 +184,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.780] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
             "lines": [
                 {
                     "number": 17,
@@ -178,6 +195,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.781] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
             "lines": [
                 {
                     "number": 18,
@@ -188,6 +206,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.917] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
             "lines": [
                 {
                     "number": 19,
@@ -198,6 +217,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.919] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
             "lines": [
                 {
                     "number": 20,
@@ -208,6 +228,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:01.940] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
             "lines": [
                 {
                     "number": 21,
@@ -218,6 +239,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[07Feb2020 20:20:02.953] [main\/INFO] [net.minecraftforge.fml.loading.FixSSL\/CORE]:",
             "lines": [
                 {
                     "number": 22,
@@ -228,6 +250,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:02.965] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 23,
@@ -238,6 +261,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.014] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 24,
@@ -248,6 +272,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.105] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 25,
@@ -258,6 +283,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.107] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 26,
@@ -268,6 +294,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.107] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
             "lines": [
                 {
                     "number": 27,
@@ -278,6 +305,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.126] [main\/DEBUG] [net.minecraftforge.fml.loading.FileUtils\/CORE]:",
             "lines": [
                 {
                     "number": 28,
@@ -288,6 +316,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.131] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
             "lines": [
                 {
                     "number": 29,
@@ -298,6 +327,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.132] [main\/DEBUG] [net.minecraftforge.fml.loading.FileUtils\/CORE]:",
             "lines": [
                 {
                     "number": 30,
@@ -308,6 +338,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.132] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
             "lines": [
                 {
                     "number": 31,
@@ -318,6 +349,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.132] [main\/DEBUG] [net.minecraftforge.fml.loading.FileUtils\/CORE]:",
             "lines": [
                 {
                     "number": 32,
@@ -328,6 +360,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.132] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
             "lines": [
                 {
                     "number": 33,
@@ -338,6 +371,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.133] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
             "lines": [
                 {
                     "number": 34,
@@ -348,6 +382,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.133] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
             "lines": [
                 {
                     "number": 35,
@@ -358,6 +393,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.558] [main\/DEBUG] [net.minecraftforge.fml.loading.FileUtils\/CORE]:",
             "lines": [
                 {
                     "number": 36,
@@ -368,6 +404,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.559] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
             "lines": [
                 {
                     "number": 37,
@@ -378,6 +415,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.560] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
             "lines": [
                 {
                     "number": 38,
@@ -388,6 +426,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.602] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
             "lines": [
                 {
                     "number": 39,
@@ -398,6 +437,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.637] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]:",
             "lines": [
                 {
                     "number": 40,
@@ -408,6 +448,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.637] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]:",
             "lines": [
                 {
                     "number": 41,
@@ -418,6 +459,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.639] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]:",
             "lines": [
                 {
                     "number": 42,
@@ -428,6 +470,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.640] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]:",
             "lines": [
                 {
                     "number": 43,
@@ -438,6 +481,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.641] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]:",
             "lines": [
                 {
                     "number": 44,
@@ -448,6 +492,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.641] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]:",
             "lines": [
                 {
                     "number": 45,
@@ -458,6 +503,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.669] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
             "lines": [
                 {
                     "number": 46,
@@ -468,6 +514,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.694] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
             "lines": [
                 {
                     "number": 47,
@@ -478,6 +525,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:03.699] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
             "lines": [
                 {
                     "number": 48,
@@ -488,6 +536,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.148] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
             "lines": [
                 {
                     "number": 49,
@@ -498,6 +547,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.148] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
             "lines": [
                 {
                     "number": 50,
@@ -508,6 +558,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.228] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
             "lines": [
                 {
                     "number": 51,
@@ -518,6 +569,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.267] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 52,
@@ -528,6 +580,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.287] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 53,
@@ -538,6 +591,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.297] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 54,
@@ -548,6 +602,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.300] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 55,
@@ -558,6 +613,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.311] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 56,
@@ -568,6 +624,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.313] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
             "lines": [
                 {
                     "number": 57,
@@ -578,6 +635,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.416] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler\/CORE]:",
             "lines": [
                 {
                     "number": 58,
@@ -588,6 +646,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.474] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer\/CORE]:",
             "lines": [
                 {
                     "number": 59,
@@ -598,6 +657,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.663] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
             "lines": [
                 {
                     "number": 60,
@@ -608,6 +668,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.876] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]:",
             "lines": [
                 {
                     "number": 61,
@@ -618,6 +679,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.877] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]:",
             "lines": [
                 {
                     "number": 62,
@@ -628,6 +690,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.879] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
             "lines": [
                 {
                     "number": 63,
@@ -638,6 +701,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.898] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]:",
             "lines": [
                 {
                     "number": 64,
@@ -648,6 +712,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.898] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]:",
             "lines": [
                 {
                     "number": 65,
@@ -658,6 +723,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.899] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
             "lines": [
                 {
                     "number": 66,
@@ -668,6 +734,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.901] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]:",
             "lines": [
                 {
                     "number": 67,
@@ -678,6 +745,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:04.902] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]:",
             "lines": [
                 {
                     "number": 68,
@@ -688,6 +756,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:05.153] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
             "lines": [
                 {
                     "number": 69,
@@ -698,6 +767,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:05.153] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]:",
             "lines": [
                 {
                     "number": 70,
@@ -708,6 +778,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:05.166] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
             "lines": [
                 {
                     "number": 71,
@@ -718,6 +789,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:05.170] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]:",
             "lines": [
                 {
                     "number": 72,
@@ -728,6 +800,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:05.170] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]:",
             "lines": [
                 {
                     "number": 73,
@@ -738,6 +811,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:05.267] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/LOADING]:",
             "lines": [
                 {
                     "number": 74,
@@ -748,6 +822,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:05.270] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/LOADING]:",
             "lines": [
                 {
                     "number": 75,
@@ -758,6 +833,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:08.550] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 76,
@@ -768,6 +844,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:08.550] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 77,
@@ -778,6 +855,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:08.559] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 78,
@@ -788,6 +866,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:08.560] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
             "lines": [
                 {
                     "number": 79,
@@ -798,6 +877,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:08.561] [main\/DEBUG] [net.minecraftforge.coremod.CoreModEngine\/COREMOD]:",
             "lines": [
                 {
                     "number": 80,
@@ -808,6 +888,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:10.211] [main\/DEBUG] [net.minecraftforge.coremod.CoreModEngine\/COREMOD]:",
             "lines": [
                 {
                     "number": 81,
@@ -818,6 +899,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:10.245] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 82,
@@ -828,6 +910,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:10.249] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 83,
@@ -838,6 +921,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:10.250] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 84,
@@ -848,6 +932,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:10.250] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 85,
@@ -858,6 +943,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:10.252] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 86,
@@ -868,6 +954,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:10.253] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 87,
@@ -878,6 +965,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:10.255] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 88,
@@ -888,6 +976,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[07Feb2020 20:20:10.484] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 89,
@@ -898,6 +987,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:21.824] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
             "lines": [
                 {
                     "number": 90,
@@ -908,6 +998,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:22.899] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
             "lines": [
                 {
                     "number": 91,
@@ -918,6 +1009,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:20:24.048] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
             "lines": [
                 {
                     "number": 92,
@@ -928,6 +1020,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:21:08.931] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
             "lines": [
                 {
                     "number": 93,
@@ -938,6 +1031,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:21:09.099] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
             "lines": [
                 {
                     "number": 94,
@@ -948,6 +1042,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:21:12.368] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
             "lines": [
                 {
                     "number": 95,
@@ -958,6 +1053,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[07Feb2020 20:21:36.556] [main\/WARN] [net.minecraft.command.Commands\/]:",
             "lines": [
                 {
                     "number": 96,
@@ -968,6 +1064,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[07Feb2020 20:21:36.560] [main\/WARN] [net.minecraft.command.Commands\/]:",
             "lines": [
                 {
                     "number": 97,
@@ -978,6 +1075,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[07Feb2020 20:21:36.564] [main\/WARN] [net.minecraft.command.Commands\/]:",
             "lines": [
                 {
                     "number": 98,
@@ -988,6 +1086,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[07Feb2020 20:21:36.567] [main\/WARN] [net.minecraft.command.Commands\/]:",
             "lines": [
                 {
                     "number": 99,
@@ -998,6 +1097,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[07Feb2020 20:21:36.592] [main\/WARN] [net.minecraft.command.Commands\/]:",
             "lines": [
                 {
                     "number": 100,
@@ -1008,6 +1108,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[07Feb2020 20:21:37.212] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 101,
@@ -1018,6 +1119,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:21:38.952] [Server thread\/DEBUG] [net.minecraftforge.fml.ForgeI18n\/CORE]:",
             "lines": [
                 {
                     "number": 102,
@@ -1028,6 +1130,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:21:41.413] [Server thread\/DEBUG] [net.minecraftforge.fml.ModLoader\/CORE]:",
             "lines": [
                 {
                     "number": 103,
@@ -1038,6 +1141,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:21:41.817] [Server thread\/DEBUG] [net.minecraftforge.fml.ModList\/LOADING]:",
             "lines": [
                 {
                     "number": 104,
@@ -1048,6 +1152,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[07Feb2020 20:21:41.818] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]:",
             "lines": [
                 {
                     "number": 105,
@@ -1154,6 +1259,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[07Feb2020 20:21:42.054] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 130,
@@ -1208,6 +1314,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:21:42.117] [Server thread\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]:",
             "lines": [
                 {
                     "number": 142,
@@ -1218,6 +1325,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:21:42.118] [Server thread\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]:",
             "lines": [
                 {
                     "number": 143,
@@ -1228,6 +1336,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:21:42.118] [Server thread\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]:",
             "lines": [
                 {
                     "number": 144,
@@ -1238,6 +1347,7 @@
         {
             "level": 7,
             "time": null,
+            "prefix": "[07Feb2020 20:21:42.118] [Server thread\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]:",
             "lines": [
                 {
                     "number": 145,
@@ -1248,6 +1358,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[07Feb2020 20:21:42.303] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 146,
@@ -1258,6 +1369,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[07Feb2020 20:21:42.692] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 147,
@@ -1268,6 +1380,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[07Feb2020 20:21:42.710] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 148,
@@ -1278,6 +1391,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[07Feb2020 20:21:42.718] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 149,
@@ -1320,6 +1434,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[15Feb2020 14:45:26.737] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]:",
             "lines": [
                 {
                     "number": 158,
@@ -1426,6 +1541,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[15Feb2020 14:45:27.141] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 183,
@@ -1482,6 +1598,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[07Feb2020 20:21:41.818] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]:",
                     "lines": [
                         {
                             "number": 105,
@@ -1597,6 +1714,7 @@
                 "entry": {
                     "level": 3,
                     "time": null,
+                    "prefix": "[07Feb2020 20:21:42.054] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]:",
                     "lines": [
                         {
                             "number": 130,
@@ -1660,6 +1778,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[15Feb2020 14:45:26.737] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]:",
                     "lines": [
                         {
                             "number": 158,
@@ -1777,6 +1896,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[07Feb2020 20:20:01.329] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
                     "lines": [
                         {
                             "number": 1,
@@ -1793,6 +1913,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[07Feb2020 20:20:01.329] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
                     "lines": [
                         {
                             "number": 1,
@@ -1809,6 +1930,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[07Feb2020 20:20:01.360] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
                     "lines": [
                         {
                             "number": 2,

@@ -8,6 +8,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16:26:26] [main\/INFO]:",
             "lines": [
                 {
                     "number": 1,
@@ -18,6 +19,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[16:26:27] [ForkJoinPool-1-worker-1\/WARN]:",
             "lines": [
                 {
                     "number": 2,
@@ -32,6 +34,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[16:26:28] [main\/FATAL]:",
             "lines": [
                 {
                     "number": 4,
@@ -132,6 +135,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[16:26:28] [main\/FATAL]:",
                     "lines": [
                         {
                             "number": 4,
@@ -237,6 +241,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[16:26:26] [main\/INFO]:",
                     "lines": [
                         {
                             "number": 1,

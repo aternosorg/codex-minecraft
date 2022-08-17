@@ -8,6 +8,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:54] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 1,
@@ -18,6 +19,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:54] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 2,
@@ -28,6 +30,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:54] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 3,
@@ -38,6 +41,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:54] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 4,
@@ -48,6 +52,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:56] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 5,
@@ -58,6 +63,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:56] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 6,
@@ -68,6 +74,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:56] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 7,
@@ -78,6 +85,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:56] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 8,
@@ -88,6 +96,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:57] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 9,
@@ -98,6 +107,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:57] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 10,
@@ -108,6 +118,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 11,
@@ -118,6 +129,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 12,
@@ -128,6 +140,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 13,
@@ -138,6 +151,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 14,
@@ -148,6 +162,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 15,
@@ -158,6 +173,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 16,
@@ -168,6 +184,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 17,
@@ -178,6 +195,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 18,
@@ -188,6 +206,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 19,
@@ -198,6 +217,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 20,
@@ -208,6 +228,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 21,
@@ -218,6 +239,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 22,
@@ -228,6 +250,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 23,
@@ -238,6 +261,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 24,
@@ -248,6 +272,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 25,
@@ -258,6 +283,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 26,
@@ -268,6 +294,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 27,
@@ -278,6 +305,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/WARN]:",
             "lines": [
                 {
                     "number": 28,
@@ -288,6 +316,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/ERROR]:",
             "lines": [
                 {
                     "number": 29,
@@ -358,6 +387,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/ERROR]:",
             "lines": [
                 {
                     "number": 45,
@@ -368,6 +398,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 46,
@@ -378,6 +409,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 47,
@@ -388,6 +420,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 48,
@@ -398,6 +431,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 49,
@@ -408,6 +442,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[23:49:59] [Server thread\/INFO]:",
             "lines": [
                 {
                     "number": 50,
@@ -424,6 +459,7 @@
                 "entry": {
                     "level": 3,
                     "time": null,
+                    "prefix": "[23:49:59] [Server thread\/ERROR]:",
                     "lines": [
                         {
                             "number": 29,
@@ -511,6 +547,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[23:49:54] [Server thread\/INFO]:",
                     "lines": [
                         {
                             "number": 1,

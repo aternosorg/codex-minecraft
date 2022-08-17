@@ -8,6 +8,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:36:52] [main\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 1,
@@ -18,6 +19,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:36:52] [main\/INFO] [LaunchWrapper]:",
             "lines": [
                 {
                     "number": 2,
@@ -28,6 +30,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:36:52] [main\/INFO] [LaunchWrapper]:",
             "lines": [
                 {
                     "number": 3,
@@ -38,6 +41,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:36:53] [main\/INFO] [LaunchWrapper]:",
             "lines": [
                 {
                     "number": 4,
@@ -48,6 +52,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:36:53] [main\/INFO] [LaunchWrapper]:",
             "lines": [
                 {
                     "number": 5,
@@ -58,6 +63,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:36:54] [main\/INFO] [LaunchWrapper]:",
             "lines": [
                 {
                     "number": 6,
@@ -68,6 +74,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:06] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
             "lines": [
                 {
                     "number": 7,
@@ -78,6 +85,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:06] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 8,
@@ -88,6 +96,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:06] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 9,
@@ -98,6 +107,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:06] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 10,
@@ -108,6 +118,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:07] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 11,
@@ -118,6 +129,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:07] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 12,
@@ -128,6 +140,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:08] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 13,
@@ -138,6 +151,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[00:37:08] [Server thread\/WARN] [FML]:",
             "lines": [
                 {
                     "number": 14,
@@ -148,6 +162,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:09] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 15,
@@ -158,6 +173,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:09] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 16,
@@ -168,6 +184,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 17,
@@ -178,6 +195,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 18,
@@ -188,6 +206,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 19,
@@ -198,6 +217,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 20,
@@ -208,6 +228,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 21,
@@ -218,6 +239,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Forge Version Check\/INFO] [forge.VersionCheck]:",
             "lines": [
                 {
                     "number": 22,
@@ -228,6 +250,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 23,
@@ -238,6 +261,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 24,
@@ -248,6 +272,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 25,
@@ -258,6 +283,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 26,
@@ -268,6 +294,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 27,
@@ -278,6 +305,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 28,
@@ -288,6 +316,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 29,
@@ -298,6 +327,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 30,
@@ -308,6 +338,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 31,
@@ -318,6 +349,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 32,
@@ -328,6 +360,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
             "lines": [
                 {
                     "number": 33,
@@ -338,6 +371,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
             "lines": [
                 {
                     "number": 34,
@@ -348,6 +382,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:11] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
             "lines": [
                 {
                     "number": 35,
@@ -358,6 +393,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:12] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
             "lines": [
                 {
                     "number": 36,
@@ -368,6 +404,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:12] [Forge Version Check\/INFO] [forge.VersionCheck]:",
             "lines": [
                 {
                     "number": 37,
@@ -378,6 +415,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:12] [Server thread\/INFO] [net.minecraft.network.NetworkSystem]:",
             "lines": [
                 {
                     "number": 38,
@@ -388,6 +426,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:12] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 39,
@@ -398,6 +437,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:12] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 40,
@@ -408,6 +448,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:12] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 41,
@@ -418,6 +459,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:12] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 42,
@@ -428,6 +470,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:13] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 43,
@@ -438,6 +481,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:13] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
             "lines": [
                 {
                     "number": 44,
@@ -448,6 +492,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:13] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 45,
@@ -458,6 +503,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:14] [Server thread\/INFO] [net.minecraft.advancements.AdvancementList]:",
             "lines": [
                 {
                     "number": 46,
@@ -468,6 +514,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[00:37:14] [Server thread\/WARN] [net.minecraft.world.WorldServer]:",
             "lines": [
                 {
                     "number": 47,
@@ -478,6 +525,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:16] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 48,
@@ -488,6 +536,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:16] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 49,
@@ -498,6 +547,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:16] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 50,
@@ -508,6 +558,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:17] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 51,
@@ -518,6 +569,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:18] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 52,
@@ -528,6 +580,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:19] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 53,
@@ -538,6 +591,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:20] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 54,
@@ -548,6 +602,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:21] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 55,
@@ -558,6 +613,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:22] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 56,
@@ -568,6 +624,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:23] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 57,
@@ -578,6 +635,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:24] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 58,
@@ -588,6 +646,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:25] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 59,
@@ -598,6 +657,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:26] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 60,
@@ -608,6 +668,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:27] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 61,
@@ -618,6 +679,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:28] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 62,
@@ -628,6 +690,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:29] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 63,
@@ -638,6 +701,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:30] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 64,
@@ -648,6 +712,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:31] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 65,
@@ -658,6 +723,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:32] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 66,
@@ -668,6 +734,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:33] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 67,
@@ -678,6 +745,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:34] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 68,
@@ -688,6 +756,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:35] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 69,
@@ -698,6 +767,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:36] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 70,
@@ -708,6 +778,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:37] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 71,
@@ -718,6 +789,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:38] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
             "lines": [
                 {
                     "number": 72,
@@ -728,6 +800,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:38] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
             "lines": [
                 {
                     "number": 73,
@@ -738,6 +811,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:38] [Query Listener #1\/INFO] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 74,
@@ -748,6 +822,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:39] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 75,
@@ -758,6 +833,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[00:37:39] [Server thread\/INFO] [FML]:",
             "lines": [
                 {
                     "number": 76,
@@ -768,6 +844,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[00:37:41] [Server thread\/WARN] [net.minecraft.server.MinecraftServer]:",
             "lines": [
                 {
                     "number": 77,
@@ -785,6 +862,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[00:37:06] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
                     "lines": [
                         {
                             "number": 7,
@@ -801,6 +879,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[00:37:06] [Server thread\/INFO] [FML]:",
                     "lines": [
                         {
                             "number": 8,

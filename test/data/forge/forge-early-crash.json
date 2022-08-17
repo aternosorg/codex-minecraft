@@ -8,6 +8,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17Mar2022 00:00:24.134] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 1,
@@ -18,6 +19,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17Mar2022 00:00:24.137] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 2,
@@ -28,6 +30,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17Mar2022 00:00:24.219] [main\/INFO] [mixin\/]:",
             "lines": [
                 {
                     "number": 3,
@@ -38,6 +41,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[17Mar2022 00:00:24.557] [main\/ERROR] [net.minecraftforge.fml.loading.ModSorter\/LOADING]:",
             "lines": [
                 {
                     "number": 4,
@@ -48,6 +52,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17Mar2022 00:00:25.586] [main\/INFO] [mixin\/]:",
             "lines": [
                 {
                     "number": 5,
@@ -58,6 +63,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[17Mar2022 00:00:25.614] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 6,
@@ -75,6 +81,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[17Mar2022 00:00:24.134] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
                     "lines": [
                         {
                             "number": 1,
@@ -91,6 +98,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[17Mar2022 00:00:24.134] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
                     "lines": [
                         {
                             "number": 1,
@@ -107,6 +115,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[17Mar2022 00:00:24.137] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
                     "lines": [
                         {
                             "number": 2,

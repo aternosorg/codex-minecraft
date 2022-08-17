@@ -8,6 +8,7 @@
         {
             "level": null,
             "time": null,
+            "prefix": null,
             "lines": [
                 {
                     "number": 1,
@@ -18,6 +19,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:41:35.366] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 2,
@@ -28,6 +30,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:41:35.955] [main\/INFO] [mixin\/]:",
             "lines": [
                 {
                     "number": 3,
@@ -38,6 +41,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:41:46.268] [main\/INFO] [mixin\/]:",
             "lines": [
                 {
                     "number": 4,
@@ -48,6 +52,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:41:46.305] [main\/ERROR] [mixin\/]:",
             "lines": [
                 {
                     "number": 5,
@@ -58,6 +63,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:41:46.310] [main\/ERROR] [mixin\/]:",
             "lines": [
                 {
                     "number": 6,
@@ -68,6 +74,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:41:46.316] [main\/ERROR] [mixin\/]:",
             "lines": [
                 {
                     "number": 7,
@@ -78,6 +85,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:41:46.431] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
             "lines": [
                 {
                     "number": 8,
@@ -88,6 +96,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:09.577] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]:",
             "lines": [
                 {
                     "number": 9,
@@ -98,6 +107,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:09.577] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
             "lines": [
                 {
                     "number": 10,
@@ -108,6 +118,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:11.065] [modloading-worker-0\/INFO] [Mystical Agriculture\/]:",
             "lines": [
                 {
                     "number": 11,
@@ -118,6 +129,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:11.162] [modloading-worker-0\/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack\/]:",
             "lines": [
                 {
                     "number": 12,
@@ -128,6 +140,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:11.164] [modloading-worker-0\/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack\/]:",
             "lines": [
                 {
                     "number": 13,
@@ -138,6 +151,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:11.548] [modloading-worker-0\/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod\/]:",
             "lines": [
                 {
                     "number": 14,
@@ -148,6 +162,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:14.727] [modloading-worker-0\/INFO] [voicechat\/]:",
             "lines": [
                 {
                     "number": 15,
@@ -158,6 +173,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:14.770] [modloading-worker-0\/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod\/]:",
             "lines": [
                 {
                     "number": 16,
@@ -168,6 +184,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:14.903] [modloading-worker-0\/INFO] [voicechat\/]:",
             "lines": [
                 {
                     "number": 17,
@@ -178,6 +195,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:14.991] [modloading-worker-0\/INFO] [voicechat\/]:",
             "lines": [
                 {
                     "number": 18,
@@ -188,6 +206,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:14.991] [modloading-worker-0\/INFO] [voicechat\/]:",
             "lines": [
                 {
                     "number": 19,
@@ -198,6 +217,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:14.991] [modloading-worker-0\/INFO] [voicechat\/]:",
             "lines": [
                 {
                     "number": 20,
@@ -208,6 +228,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:15.667] [main\/INFO] [terrablender\/]:",
             "lines": [
                 {
                     "number": 21,
@@ -218,6 +239,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:15.668] [main\/INFO] [terrablender\/]:",
             "lines": [
                 {
                     "number": 22,
@@ -228,6 +250,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:15.668] [main\/INFO] [terrablender\/]:",
             "lines": [
                 {
                     "number": 23,
@@ -238,6 +261,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:15.668] [main\/INFO] [terrablender\/]:",
             "lines": [
                 {
                     "number": 24,
@@ -248,6 +272,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:15.668] [main\/INFO] [terrablender\/]:",
             "lines": [
                 {
                     "number": 25,
@@ -258,6 +283,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:15.669] [main\/INFO] [terrablender\/]:",
             "lines": [
                 {
                     "number": 26,
@@ -268,6 +294,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:15.881] [modloading-worker-0\/INFO] [xaero.common.server.XaeroMinimapServer\/]:",
             "lines": [
                 {
                     "number": 27,
@@ -278,6 +305,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:15.885] [main\/INFO] [xaero.common.server.XaeroMinimapServer\/]:",
             "lines": [
                 {
                     "number": 28,
@@ -288,6 +316,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:15.933] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
             "lines": [
                 {
                     "number": 29,
@@ -298,6 +327,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:17.462] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
             "lines": [
                 {
                     "number": 30,
@@ -308,6 +338,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:17.465] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
             "lines": [
                 {
                     "number": 31,
@@ -318,6 +349,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:17.884] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
             "lines": [
                 {
                     "number": 32,
@@ -328,6 +360,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:17.884] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
             "lines": [
                 {
                     "number": 33,
@@ -338,6 +371,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:17.917] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
             "lines": [
                 {
                     "number": 34,
@@ -348,6 +382,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:17.919] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
             "lines": [
                 {
                     "number": 35,
@@ -358,6 +393,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:18.084] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
             "lines": [
                 {
                     "number": 36,
@@ -368,6 +404,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:42:22.155] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]:",
             "lines": [
                 {
                     "number": 37,
@@ -378,6 +415,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:42:26.645] [main\/WARN] [net.minecraft.server.packs.VanillaPackResources\/]:",
             "lines": [
                 {
                     "number": 38,
@@ -388,6 +426,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:42:26.646] [main\/WARN] [net.minecraft.server.packs.VanillaPackResources\/]:",
             "lines": [
                 {
                     "number": 39,
@@ -398,6 +437,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:42:45.962] [main\/WARN] [net.minecraft.commands.Commands\/]:",
             "lines": [
                 {
                     "number": 40,
@@ -408,6 +448,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:42:45.965] [main\/WARN] [net.minecraft.commands.Commands\/]:",
             "lines": [
                 {
                     "number": 41,
@@ -418,6 +459,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:42:45.971] [main\/WARN] [net.minecraft.commands.Commands\/]:",
             "lines": [
                 {
                     "number": 42,
@@ -428,6 +470,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:42:45.975] [main\/WARN] [net.minecraft.commands.Commands\/]:",
             "lines": [
                 {
                     "number": 43,
@@ -438,6 +481,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:42:45.978] [main\/WARN] [net.minecraft.commands.Commands\/]:",
             "lines": [
                 {
                     "number": 44,
@@ -448,6 +492,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:02.227] [Worker-Main-4\/INFO] [net.minecraft.world.item.crafting.RecipeManager\/]:",
             "lines": [
                 {
                     "number": 45,
@@ -458,6 +503,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:08.575] [Worker-Main-4\/INFO] [net.minecraft.advancements.AdvancementList\/]:",
             "lines": [
                 {
                     "number": 46,
@@ -468,6 +514,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:08.642] [Worker-Main-4\/INFO] [Cucumber Library\/]:",
             "lines": [
                 {
                     "number": 47,
@@ -478,6 +525,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:18.350] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 48,
@@ -488,6 +536,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:18.351] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 49,
@@ -498,6 +547,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:18.357] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 50,
@@ -508,6 +558,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:18.358] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 51,
@@ -518,6 +569,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:19.283] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 52,
@@ -528,6 +580,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:19.521] [Server thread\/INFO] [net.minecraft.server.network.ServerConnectionListener\/]:",
             "lines": [
                 {
                     "number": 53,
@@ -538,6 +591,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:43:20.194] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 54,
@@ -548,6 +602,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:43:20.195] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 55,
@@ -558,6 +613,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:43:20.195] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 56,
@@ -568,6 +624,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:43:20.196] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 57,
@@ -578,6 +635,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:20.967] [Server thread\/INFO] [Minecraft\/]:",
             "lines": [
                 {
                     "number": 58,
@@ -588,6 +646,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:23.874] [Server thread\/INFO] [net.minecraft.server.players.PlayerList\/]:",
             "lines": [
                 {
                     "number": 59,
@@ -598,6 +657,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:29.340] [Server thread\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 60,
@@ -608,6 +668,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:29.391] [Server thread\/INFO] [Minecraft\/]:",
             "lines": [
                 {
                     "number": 61,
@@ -618,6 +679,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:29.393] [Server thread\/INFO] [\/]:",
             "lines": [
                 {
                     "number": 62,
@@ -628,6 +690,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:29.447] [Server thread\/INFO] [Minecraft\/]:",
             "lines": [
                 {
                     "number": 63,
@@ -638,6 +701,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:32.695] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 64,
@@ -648,6 +712,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:33.489] [Server thread\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 65,
@@ -658,6 +723,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:33.839] [Server thread\/INFO] [Minecraft\/]:",
             "lines": [
                 {
                     "number": 66,
@@ -668,6 +734,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:33.880] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 67,
@@ -678,6 +745,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:36.933] [pool-5-thread-1\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 68,
@@ -688,6 +756,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:42.687] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 69,
@@ -698,6 +767,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:42.738] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 70,
@@ -708,6 +778,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:42.804] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 71,
@@ -718,6 +789,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:42.825] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 72,
@@ -728,6 +800,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:42.846] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 73,
@@ -738,6 +811,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:42.858] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 74,
@@ -748,6 +822,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:42.868] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 75,
@@ -758,6 +833,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:42.880] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 76,
@@ -768,6 +844,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:42.892] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 77,
@@ -778,6 +855,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:42.904] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 78,
@@ -788,6 +866,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:42.915] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 79,
@@ -798,6 +877,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:42.981] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 80,
@@ -808,6 +888,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:43.021] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 81,
@@ -818,6 +899,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:43.111] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 82,
@@ -828,6 +910,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:43.141] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 83,
@@ -838,6 +921,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:43.158] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 84,
@@ -848,6 +932,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:43.195] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 85,
@@ -858,6 +943,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:43.219] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 86,
@@ -868,6 +954,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:43.234] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 87,
@@ -878,6 +965,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:43.393] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 88,
@@ -888,6 +976,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:43.886] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 89,
@@ -898,6 +987,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:44.396] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 90,
@@ -908,6 +998,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:44.936] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 91,
@@ -918,6 +1009,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:45.387] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 92,
@@ -928,6 +1020,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:45.916] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 93,
@@ -938,6 +1031,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:46.407] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 94,
@@ -948,6 +1042,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:46.923] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 95,
@@ -958,6 +1053,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:47.392] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 96,
@@ -968,6 +1064,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:47.887] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 97,
@@ -978,6 +1075,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:53.989] [DiscordSRV - Initialization\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 98,
@@ -988,6 +1086,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:43:55.880] [JDA MainWS-ReadThread\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 99,
@@ -998,6 +1097,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:43:57.315] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 100,
@@ -1012,6 +1112,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:43:57.379] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 102,
@@ -1022,6 +1123,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:43:57.380] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 103,
@@ -1032,6 +1134,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:43:57.382] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 104,
@@ -1042,6 +1145,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:43:57.383] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 105,
@@ -1052,6 +1156,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:43:57.384] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 106,
@@ -1062,6 +1167,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:43:57.385] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 107,
@@ -1072,6 +1178,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:43:57.386] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 108,
@@ -1082,6 +1189,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:43:57.387] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 109,
@@ -1092,6 +1200,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:43:57.388] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 110,
@@ -1102,6 +1211,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:43:57.389] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 111,
@@ -1112,6 +1222,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:43:57.390] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 112,
@@ -1122,6 +1233,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:43:57.390] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 113,
@@ -1132,6 +1244,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:43:57.392] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 114,
@@ -1142,6 +1255,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.673] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 115,
@@ -1152,6 +1266,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.681] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 116,
@@ -1162,6 +1277,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.683] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 117,
@@ -1172,6 +1288,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.697] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 118,
@@ -1182,6 +1299,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.701] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 119,
@@ -1192,6 +1310,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.703] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 120,
@@ -1202,6 +1321,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.706] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 121,
@@ -1212,6 +1332,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.709] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 122,
@@ -1222,6 +1343,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.712] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 123,
@@ -1232,6 +1354,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.716] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 124,
@@ -1242,6 +1365,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.734] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 125,
@@ -1252,6 +1376,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.738] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 126,
@@ -1262,6 +1387,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.745] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 127,
@@ -1272,6 +1398,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.747] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 128,
@@ -1282,6 +1409,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.753] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 129,
@@ -1292,6 +1420,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.755] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 130,
@@ -1302,6 +1431,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.761] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 131,
@@ -1312,6 +1442,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.763] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 132,
@@ -1322,6 +1453,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.765] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 133,
@@ -1332,6 +1464,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.771] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 134,
@@ -1342,6 +1475,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.774] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 135,
@@ -1352,6 +1486,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.779] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 136,
@@ -1362,6 +1497,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.781] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 137,
@@ -1372,6 +1508,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.782] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 138,
@@ -1382,6 +1519,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.784] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 139,
@@ -1392,6 +1530,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.798] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 140,
@@ -1402,6 +1541,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.801] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 141,
@@ -1412,6 +1552,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.804] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 142,
@@ -1422,6 +1563,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.806] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 143,
@@ -1432,6 +1574,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.808] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 144,
@@ -1442,6 +1585,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.810] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 145,
@@ -1452,6 +1596,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.817] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 146,
@@ -1462,6 +1607,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.818] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 147,
@@ -1472,6 +1618,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.824] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 148,
@@ -1482,6 +1629,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.826] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 149,
@@ -1492,6 +1640,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.836] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 150,
@@ -1502,6 +1651,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.838] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 151,
@@ -1512,6 +1662,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.842] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 152,
@@ -1522,6 +1673,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.845] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 153,
@@ -1532,6 +1684,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.848] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 154,
@@ -1542,6 +1695,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.849] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 155,
@@ -1552,6 +1706,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.852] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 156,
@@ -1562,6 +1717,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.857] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 157,
@@ -1572,6 +1728,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.863] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 158,
@@ -1582,6 +1739,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.866] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 159,
@@ -1592,6 +1750,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.869] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 160,
@@ -1602,6 +1761,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.875] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 161,
@@ -1612,6 +1772,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.881] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 162,
@@ -1622,6 +1783,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.883] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 163,
@@ -1632,6 +1794,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.891] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 164,
@@ -1642,6 +1805,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.894] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 165,
@@ -1652,6 +1816,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.896] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 166,
@@ -1662,6 +1827,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.900] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 167,
@@ -1672,6 +1838,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.905] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 168,
@@ -1682,6 +1849,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.913] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 169,
@@ -1692,6 +1860,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.915] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 170,
@@ -1702,6 +1871,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.917] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 171,
@@ -1712,6 +1882,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:16.923] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 172,
@@ -1722,6 +1893,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:17.403] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 173,
@@ -1732,6 +1904,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:17.883] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 174,
@@ -1742,6 +1915,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:18.384] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 175,
@@ -1752,6 +1926,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:18.886] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 176,
@@ -1762,6 +1937,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:19.385] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 177,
@@ -1772,6 +1948,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:19.886] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 178,
@@ -1782,6 +1959,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:21.771] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 179,
@@ -1792,6 +1970,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:21.771] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 180,
@@ -1802,6 +1981,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:21.774] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 181,
@@ -1812,6 +1992,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:44:22.063] [Server thread\/WARN] [net.minecraft.network.syncher.SynchedEntityData\/]:",
             "lines": [
                 {
                     "number": 182,
@@ -1822,6 +2003,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:44:22.063] [Server thread\/WARN] [net.minecraft.network.syncher.SynchedEntityData\/]:",
             "lines": [
                 {
                     "number": 183,
@@ -1832,6 +2014,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:44:22.175] [Server thread\/WARN] [net.minecraft.network.syncher.SynchedEntityData\/]:",
             "lines": [
                 {
                     "number": 184,
@@ -1842,6 +2025,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:22.324] [Server thread\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
             "lines": [
                 {
                     "number": 185,
@@ -1852,6 +2036,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:22.325] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 186,
@@ -1862,6 +2047,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:22.344] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 187,
@@ -1872,6 +2058,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:22.370] [Server thread\/INFO] [net.minecraft.server.rcon.thread.GenericThread\/]:",
             "lines": [
                 {
                     "number": 188,
@@ -1882,6 +2069,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:22.378] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
             "lines": [
                 {
                     "number": 189,
@@ -1892,6 +2080,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:22.372] [Query Listener #1\/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4\/]:",
             "lines": [
                 {
                     "number": 190,
@@ -1902,6 +2091,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:22.410] [Server thread\/INFO] [net.minecraftforge.server.permission.PermissionAPI\/]:",
             "lines": [
                 {
                     "number": 191,
@@ -1912,6 +2102,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:44:22.412] [Server thread\/WARN] [voicechat\/]:",
             "lines": [
                 {
                     "number": 192,
@@ -1922,6 +2113,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:22.425] [Server thread\/INFO] [voicechat\/]:",
             "lines": [
                 {
                     "number": 193,
@@ -1932,6 +2124,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:22.463] [VoiceChatServerThread\/INFO] [voicechat\/]:",
             "lines": [
                 {
                     "number": 194,
@@ -1942,6 +2135,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:22.505] [Server thread\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 195,
@@ -1952,6 +2146,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:44:27.829] [DiscordSRV - Shutdown\/WARN] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 196,
@@ -1962,6 +2157,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:28.325] [DiscordSRV - Shutdown\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]:",
             "lines": [
                 {
                     "number": 197,
@@ -1972,6 +2168,7 @@
         {
             "level": 4,
             "time": null,
+            "prefix": "[05Jul2022 23:44:28.651] [Server thread\/WARN] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 198,
@@ -1982,6 +2179,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:44:28.958] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 199,
@@ -2060,6 +2258,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:28.972] [Server thread\/FATAL] [net.minecraftforge.common.ForgeMod\/]:",
             "lines": [
                 {
                     "number": 217,
@@ -2070,6 +2269,7 @@
         {
             "level": 3,
             "time": null,
+            "prefix": "[05Jul2022 23:44:28.973] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 218,
@@ -2080,6 +2280,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:28.973] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 219,
@@ -2090,6 +2291,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:28.976] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 220,
@@ -2100,6 +2302,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:29.076] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 221,
@@ -2110,6 +2313,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:37.935] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 222,
@@ -2120,6 +2324,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:38.452] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 223,
@@ -2130,6 +2335,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:38.455] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 224,
@@ -2140,6 +2346,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:38.593] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 225,
@@ -2150,6 +2357,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:38.594] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 226,
@@ -2160,6 +2368,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:38.594] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 227,
@@ -2170,6 +2379,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:38.594] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
                     "number": 228,
@@ -2180,6 +2390,7 @@
         {
             "level": 6,
             "time": null,
+            "prefix": "[05Jul2022 23:44:38.767] [Server thread\/INFO] [net.minecraft.server.rcon.thread.GenericThread\/]:",
             "lines": [
                 {
                     "number": 229,
@@ -2197,6 +2408,7 @@
                 "entry": {
                     "level": null,
                     "time": null,
+                    "prefix": null,
                     "lines": [
                         {
                             "number": 1,
@@ -2213,6 +2425,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[05Jul2022 23:41:35.366] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
                     "lines": [
                         {
                             "number": 2,
@@ -2229,6 +2442,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[05Jul2022 23:42:09.577] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
                     "lines": [
                         {
                             "number": 10,
@@ -2245,6 +2459,7 @@
                 "entry": {
                     "level": 6,
                     "time": null,
+                    "prefix": "[05Jul2022 23:43:20.967] [Server thread\/INFO] [Minecraft\/]:",
                     "lines": [
                         {
                             "number": 58,
