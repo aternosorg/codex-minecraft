@@ -46,6 +46,14 @@ enum CrashReportLevel: int implements LevelInterface
     }
 
     /**
+     * @return int
+     */
+    public function asInt(): int
+    {
+        return $this->value;
+    }
+
+    /**
      * @inheritDoc
      */
     public function jsonSerialize(): int
