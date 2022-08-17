@@ -9,6 +9,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\BungeeCord\Waterfall\WaterFallProxyLog
 use Aternos\Codex\Minecraft\Log\Minecraft\Geyser\GeyserProxyLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Pocketmine\PocketmineServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\PolyMC\PolyMCClientLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\CraftBukkit\CraftBukkitServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\CraftBukkit\OldCraftBukkitServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Glowstone\GlowstoneServerLog;
@@ -70,7 +71,9 @@ class Detective extends \Aternos\Codex\Detective\Detective
         PaperCrashReportLog::class,
         ForgeCrashReportLog::class,
         VanillaCrashReportLog::class,
-        MohistCrashReportLog::class
+        MohistCrashReportLog::class,
+
+        PolyMCClientLog::class
     ];
 
     /**
