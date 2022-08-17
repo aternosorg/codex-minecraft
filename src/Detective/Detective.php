@@ -43,8 +43,8 @@ class Detective extends \Aternos\Codex\Detective\Detective
     protected array $possibleLogClasses = [
         FabricClientLog::class,
         QuiltClientLog::class,
-        VanillaClientLog::class,
         ForgeClientLog::class,
+        VanillaClientLog::class,
 
         VanillaServerLog::class,
         OldVanillaServerLog::class,

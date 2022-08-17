@@ -20,6 +20,7 @@ class ForgeClientLog extends ForgeLog implements ClientLogTypeInterface
     {
         return [
             (new SinglePatternDetector())->setPattern('/^(\[(?:\S+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[Render thread\/INFO] \[net\.minecraft\.client\.Minecraft\/\]:) Setting user: \w+$/m'),
+            (new SinglePatternDetector())->setPattern('/\[[\d:]+\] \[main\/INFO\]: Launching target \'fmlclient\' with arguments .*(.|\n)+\[[\d:]+\] \[Render thread\/INFO\]: Setting user: \w+/')
         ];
     }
 }
