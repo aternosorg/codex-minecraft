@@ -18,7 +18,7 @@ abstract class PolyMCLog extends \Aternos\Codex\Minecraft\Log\Minecraft\Minecraf
      */
     public static function getDefaultParser(): Parser
     {
-        return (new Parser())->setPattern('/^(\s*[^:]+:).*$/')->setMatches([Parser::PREFIX]);
+        return (new Parser())->setPattern('/^.*$/');
     }
 
     /**

@@ -8,24 +8,52 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "PolyMC version:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 1,
                     "content": "PolyMC version: 1.4.1"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 2,
                     "content": ""
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 3,
                     "content": ""
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 4,
                     "content": "Launched instance in online mode"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 5,
                     "content": ""
@@ -35,16 +63,30 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "authserver.mojang.com resolves to:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 6,
                     "content": "authserver.mojang.com resolves to:"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 7,
                     "content": "    [**.**.**.**, **.**.**.**, **.**.**.**, **.**.**.**]"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 8,
                     "content": ""
@@ -54,16 +96,30 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "session.minecraft.net resolves to:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 9,
                     "content": "session.minecraft.net resolves to:"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 10,
                     "content": "    [**.**.**.**, **.**.**.**, **.**.**.**]"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 11,
                     "content": ""
@@ -73,16 +129,30 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "textures.minecraft.net resolves to:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 12,
                     "content": "textures.minecraft.net resolves to:"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 13,
                     "content": "    [**.**.**.**, **.**.**.**, **.**.**.**, **.**.**.**]"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 14,
                     "content": ""
@@ -92,20 +162,41 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "api.mojang.com resolves to:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 15,
                     "content": "api.mojang.com resolves to:"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 16,
                     "content": "    [**.**.**.**, **.**.**.**, **.**.**.**, **.**.**.**]"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 17,
                     "content": ""
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 18,
                     "content": ""
@@ -115,20 +206,41 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "Minecraft folder is:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 19,
                     "content": "Minecraft folder is:"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 20,
                     "content": "\/home\/********\/.local\/share\/PolyMC\/instances\/Forge 1.12.2\/.minecraft"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 21,
                     "content": ""
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 22,
                     "content": ""
@@ -138,40 +250,96 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "Java path is:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 23,
                     "content": "Java path is:"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 24,
                     "content": "\/usr\/lib\/jvm\/java-18-openjdk\/bin\/java"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 25,
                     "content": ""
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 26,
                     "content": ""
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 27,
                     "content": "Checking Java version..."
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 28,
                     "content": "Java is version 18.0.2, using 64 (amd64) architecture, from N\/A."
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 29,
                     "content": ""
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 30,
                     "content": ""
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 31,
                     "content": "11th Gen Intel(R) Core(TM) i9-11900H @ 2.50GHz"
@@ -181,12 +349,19 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "OpenGL version string:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 32,
                     "content": "OpenGL version string: 4.6 (Compatibility Profile) Mesa 22.1.6"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 33,
                     "content": ""
@@ -196,16 +371,30 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "Main Class:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 34,
                     "content": "Main Class:"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 35,
                     "content": "  net.minecraft.launchwrapper.Launch"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 36,
                     "content": ""
@@ -215,16 +404,30 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "Native path:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 37,
                     "content": "Native path:"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 38,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/instances\/Forge 1.12.2\/natives"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 39,
                     "content": ""
@@ -234,216 +437,580 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "Libraries:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 40,
                     "content": "Libraries:"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 41,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/java\/jinput\/jinput\/2.0.5\/jinput-2.0.5.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 42,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/java\/jutils\/jutils\/1.0.0\/jutils-1.0.0.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 43,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/lwjgl\/lwjgl\/lwjgl\/2.9.4-nightly-20150209\/lwjgl-2.9.4-nightly-20150209.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 44,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/lwjgl\/lwjgl\/lwjgl_util\/2.9.4-nightly-20150209\/lwjgl_util-2.9.4-nightly-20150209.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 45,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/mojang\/patchy\/1.3.9\/patchy-1.3.9.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 46,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/oshi-project\/oshi-core\/1.1\/oshi-core-1.1.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 47,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/java\/dev\/jna\/jna\/4.4.0\/jna-4.4.0.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 48,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/java\/dev\/jna\/platform\/3.4.0\/platform-3.4.0.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 49,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/ibm\/icu\/icu4j-core-mojang\/51.2\/icu4j-core-mojang-51.2.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 50,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/sf\/jopt-simple\/jopt-simple\/5.0.3\/jopt-simple-5.0.3.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 51,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/paulscode\/codecjorbis\/20101023\/codecjorbis-20101023.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 52,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/paulscode\/codecwav\/20101023\/codecwav-20101023.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 53,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/paulscode\/libraryjavasound\/20101123\/libraryjavasound-20101123.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 54,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/paulscode\/librarylwjglopenal\/20100824\/librarylwjglopenal-20100824.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 55,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/paulscode\/soundsystem\/20120107\/soundsystem-20120107.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 56,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/io\/netty\/netty-all\/4.1.9.Final\/netty-all-4.1.9.Final.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 57,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/google\/guava\/guava\/21.0\/guava-21.0.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 58,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/apache\/commons\/commons-lang3\/3.5\/commons-lang3-3.5.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 59,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/commons-io\/commons-io\/2.5\/commons-io-2.5.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 60,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/commons-codec\/commons-codec\/1.10\/commons-codec-1.10.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 61,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/google\/code\/gson\/gson\/2.8.0\/gson-2.8.0.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 62,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/mojang\/authlib\/1.5.25\/authlib-1.5.25.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 63,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/mojang\/realms\/1.10.22\/realms-1.10.22.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 64,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/apache\/commons\/commons-compress\/1.8.1\/commons-compress-1.8.1.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 65,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/apache\/httpcomponents\/httpclient\/4.3.3\/httpclient-4.3.3.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 66,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/commons-logging\/commons-logging\/1.1.3\/commons-logging-1.1.3.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 67,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/apache\/httpcomponents\/httpcore\/4.3.2\/httpcore-4.3.2.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 68,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/it\/unimi\/dsi\/fastutil\/7.1.0\/fastutil-7.1.0.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 69,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/apache\/logging\/log4j\/log4j-api\/2.17.1\/log4j-api-2.17.1.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 70,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/apache\/logging\/log4j\/log4j-core\/2.17.1\/log4j-core-2.17.1.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 71,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/mojang\/text2speech\/1.10.3\/text2speech-1.10.3.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 72,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/minecraftforge\/forge\/1.12.2-14.23.5.2859\/forge-1.12.2-14.23.5.2859-universal.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 73,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/ow2\/asm\/asm-debug-all\/5.2\/asm-debug-all-5.2.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 74,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/minecraft\/launchwrapper\/1.12\/launchwrapper-1.12.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 75,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/jline\/jline\/3.5.1\/jline-3.5.1.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 76,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/typesafe\/akka\/akka-actor_2.11\/2.3.3\/akka-actor_2.11-2.3.3.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 77,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/typesafe\/config\/1.2.1\/config-1.2.1.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 78,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/scala-actors-migration_2.11\/1.1.0\/scala-actors-migration_2.11-1.1.0.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 79,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/scala-compiler\/2.11.1\/scala-compiler-2.11.1.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 80,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/plugins\/scala-continuations-library_2.11\/1.0.2_mc\/scala-continuations-library_2.11-1.0.2_mc.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 81,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/plugins\/scala-continuations-plugin_2.11.1\/1.0.2_mc\/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 82,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/scala-library\/2.11.1\/scala-library-2.11.1.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 83,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/scala-parser-combinators_2.11\/1.0.1\/scala-parser-combinators_2.11-1.0.1.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 84,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/scala-reflect\/2.11.1\/scala-reflect-2.11.1.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 85,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/scala-swing_2.11\/1.0.1\/scala-swing_2.11-1.0.1.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 86,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/scala-xml_2.11\/1.0.2\/scala-xml_2.11-1.0.2.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 87,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/lzma\/lzma\/0.0.1\/lzma-0.0.1.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 88,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/java3d\/vecmath\/1.5.2\/vecmath-1.5.2.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 89,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/sf\/trove4j\/trove4j\/3.0.3\/trove4j-3.0.3.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 90,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/apache\/maven\/maven-artifact\/3.5.3\/maven-artifact-3.5.3.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 91,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/mojang\/minecraft\/1.12.2\/minecraft-1.12.2-client.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 92,
                     "content": ""
@@ -453,24 +1020,52 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "Native libraries:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 93,
                     "content": "Native libraries:"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 94,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/java\/jinput\/jinput-platform\/2.0.5\/jinput-platform-2.0.5-natives-linux.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 95,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/lwjgl\/lwjgl\/lwjgl-platform\/2.9.4-nightly-20150209\/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 96,
                     "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/mojang\/text2speech\/1.10.3\/text2speech-1.10.3-natives-linux.jar"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 97,
                     "content": ""
@@ -480,16 +1075,30 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "Params:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 98,
                     "content": "Params:"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 99,
                     "content": "  --username  --version 1.12.2 --gameDir \/home\/********\/.local\/share\/PolyMC\/instances\/Forge 1.12.2\/.minecraft --assetsDir \/home\/********\/.local\/share\/PolyMC\/assets --assetIndex 1.12 --uuid  --accessToken  --userType  --versionType release --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 100,
                     "content": ""
@@ -499,16 +1108,30 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "Window size:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 101,
                     "content": "Window size: 854 x 480"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 102,
                     "content": ""
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 103,
                     "content": "This instance is not compatible with Java version 18."
@@ -518,12 +1141,19 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "Please switch to one of the following Java versions for this instance:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 104,
                     "content": "Please switch to one of the following Java versions for this instance:"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 105,
                     "content": "Java version 8"
@@ -533,7 +1163,7 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "PolyMC:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 106,
