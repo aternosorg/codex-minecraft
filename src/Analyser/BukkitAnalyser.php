@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analyser;
 
+use Aternos\Codex\Analysis\PatternInsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\ChunkLoadExceptionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\AuthMeShutdownProblem;
@@ -24,15 +25,9 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\WorldDuplicateProblem;
  */
 class BukkitAnalyser extends VanillaAnalyser
 {
-    public function __construct()
-    {
-        parent::__construct();
-
-        foreach (self::getInsightClasses() as $insightClass) {
-            $this->addPossibleInsightClass($insightClass);
-        }
-    }
-
+    /**
+     * @return class-string<PatternInsightInterface>[]
+     */
     public static function getInsightClasses(): array
     {
         return [
@@ -51,5 +46,14 @@ class BukkitAnalyser extends VanillaAnalyser
             PluginDependenciesProblem::class,
             UnsupportedApiVersionProblem::class,
         ];
+    }
+
+    public function __construct()
+    {
+        parent::__construct();
+
+        foreach (static::getInsightClasses() as $insightClass) {
+            $this->addPossibleInsightClass($insightClass);
+        }
     }
 }

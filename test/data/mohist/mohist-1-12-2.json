@@ -1,0 +1,4124 @@
+{
+    "id": "mohist\/server",
+    "name": "Mohist",
+    "type": "Server Log",
+    "version": "1.12.2",
+    "title": "Mohist 1.12.2 Server Log",
+    "entries": [
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Read 1450 binary patches"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Loading deobfuscation resource \/deobfuscation_data-1.12.2.lzma with 36076 records"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:43] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[17:25:43] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Injecting coremod FMLForgePlugin \\{net.minecraftforge.classloading.FMLForgePlugin\\} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \\{net.minecraftforge.classloading.FMLForgePlugin\\}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Running coremod plugin FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:43] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[17:25:43] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Injecting coremod MohistCorePlugin \\{com.mohistmc.forge.MohistCorePlugin\\} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:43] [main\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[17:25:43] [main\/TRACE] [FML]: Registering transformer com.mohistmc.forge.SendPacketTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:43] [main\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[17:25:43] [main\/TRACE] [FML]: Registering transformer com.mohistmc.bukkit.pluginfix.MyPetTransformer"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Running coremod plugin for MohistCorePlugin \\{com.mohistmc.forge.MohistCorePlugin\\}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Running coremod plugin MohistCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Coremod plugin class MohistCorePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:43] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[17:25:43] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Loaded 233 rules from AccessTransformer config file forge_at.cfg"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:43] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[17:25:43] [main\/DEBUG] [FML]: Validating minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:44] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[17:25:44] [main\/DEBUG] [FML]: Minecraft validated, launching..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:44] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[17:25:44] [main\/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:44] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[17:25:44] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:44] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[17:25:44] [main\/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:46] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[17:25:46] [main\/DEBUG] [FML]: Creating vanilla freeze snapshot"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:46] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[17:25:46] [main\/DEBUG] [FML]: Vanilla freeze snapshot created"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:46] [Server thread\/INFO] [Mohist]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[17:25:46] [Server thread\/INFO] [Mohist]: Starting minecraft server version 1.12.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:46] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[17:25:46] [Server thread\/INFO] [FML]: MinecraftForge v14.23.5.2860 `Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:46] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[17:25:46] [Server thread\/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[17:25:47] [Server thread\/INFO] [FML]: Replaced 1,227 ore ingredients"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: File \/server\/config\/injectedDependencies.json not found. No dependencies injected"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Found a minecraft related file at \/server\/mohist.jar, examining for mod candidates"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Found a minecraft related file at \/jolokia\/jolokia.jar, examining for mod candidates"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Found a minecraft related file at \/server\/libraries\/com\/googlecode\/json-simple\/json-simple\/1.1.1\/json-simple-1.1.1.jar, examining for mod candidates"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/com\/typesafe\/akka\/akka-actor_2.11\/2.3.3\/akka-actor_2.11-2.3.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/com\/typesafe\/config\/1.3.1\/config-1.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Found a minecraft related file at \/server\/libraries\/commons-lang\/commons-lang\/2.6\/commons-lang-2.6.jar, examining for mod candidates"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/java3d\/vecmath\/1.5.2\/vecmath-1.5.2.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/jline\/jline\/2.13\/jline-2.13.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/lzma\/lzma\/0.0.1\/lzma-0.0.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/mysql\/mysql-connector-java\/5.1.46\/mysql-connector-java-5.1.46.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/net\/java\/dev\/jna\/jna\/4.4.0\/jna-4.4.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/net\/md-5\/bungeecord-chat\/1.12-SNAPSHOT\/bungeecord-chat-1.12-SNAPSHOT.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/net\/md-5\/SpecialSource\/1.8.5\/SpecialSource-1.8.5.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/net\/minecraft\/launchwrapper\/1.12\/launchwrapper-1.12.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/net\/sf\/jopt-simple\/jopt-simple\/5.0.3\/jopt-simple-5.0.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/net\/sf\/trove4j\/trove4j\/3.0.3\/trove4j-3.0.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/apache\/commons\/commons-lang3\/3.5\/commons-lang3-3.5.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Found a minecraft related file at \/server\/libraries\/org\/apache\/maven\/maven-artifact\/3.5.3\/maven-artifact-3.5.3.jar, examining for mod candidates"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/jline\/jline\/3.5.1\/jline-3.5.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Found a minecraft related file at \/server\/libraries\/org\/ow2\/asm\/asm-debug-all\/5.2\/asm-debug-all-5.2.jar, examining for mod candidates"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/scala-lang\/plugins\/scala-continuations-library_2.11\/1.0.2\/scala-continuations-library_2.11-1.0.2.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/scala-lang\/plugins\/scala-continuations-plugin_2.11.1\/1.0.2\/scala-continuations-plugin_2.11.1-1.0.2.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/scala-lang\/scala-actors-migration_2.11\/1.1.0\/scala-actors-migration_2.11-1.1.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/scala-lang\/scala-compiler\/2.11.1\/scala-compiler-2.11.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/scala-lang\/scala-library\/2.11.1\/scala-library-2.11.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/scala-lang\/scala-parser-combinators_2.11\/1.0.1\/scala-parser-combinators_2.11-1.0.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/scala-lang\/scala-reflect\/2.11.1\/scala-reflect-2.11.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/scala-lang\/scala-swing_2.11\/1.0.1\/scala-swing_2.11-1.0.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/scala-lang\/scala-xml_2.11\/1.0.2\/scala-xml_2.11-1.0.2.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/xerial\/sqlite-jdbc\/**.**.**.**\/sqlite-jdbc-3.21.0.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/yaml\/snakeyaml\/1.19\/snakeyaml-1.19.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Found a minecraft related file at \/server\/libraries\/org\/slf4j\/slf4j-api\/1.7.30\/slf4j-api-1.7.30.jar, examining for mod candidates"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Found a minecraft related file at \/server\/libraries\/org\/slf4j\/slf4j-nop\/1.7.30\/slf4j-nop-1.7.30.jar, examining for mod candidates"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/scala-lang\/plugins\/scala-continuations-library_2.11\/1.0.2_mc\/scala-continuations-library_2.11-1.0.2_mc.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/scala-lang\/plugins\/scala-continuations-plugin_2.11.1\/1.0.2_mc\/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/io\/netty\/netty-all\/4.1.24.Final\/netty-all-4.1.24.Final.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/apache\/logging\/log4j\/log4j-api\/2.17.1\/log4j-api-2.17.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[17:25:47] [Server thread\/TRACE] [FML]: Skipping known library file \/server\/libraries\/org\/apache\/logging\/log4j\/log4j-core\/2.17.1\/log4j-core-2.17.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Found a minecraft related file at \/server\/libraries\/net\/minecraft\/1.12.2\/minecraft_server.1.12.2.jar, examining for mod candidates"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Minecraft jar mods loaded successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[17:25:47] [Server thread\/INFO] [FML]: Searching \/server\/.\/mods for mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Examining file mohist.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: The mod container mohist.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Examining file jolokia.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: The mod container jolokia.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Examining file json-simple-1.1.1.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: The mod container json-simple-1.1.1.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Examining file commons-lang-2.6.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: The mod container commons-lang-2.6.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Examining file maven-artifact-3.5.3.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: The mod container maven-artifact-3.5.3.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Examining file asm-debug-all-5.2.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: The mod container asm-debug-all-5.2.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Examining file slf4j-api-1.7.30.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: The mod container slf4j-api-1.7.30.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Examining file slf4j-nop-1.7.30.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: The mod container slf4j-nop-1.7.30.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: Examining file minecraft_server.1.12.2.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:47] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[17:25:47] [Server thread\/DEBUG] [FML]: The mod container minecraft_server.1.12.2.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Forge Mod Loader has identified 5 mods to load"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Received a system property request {0}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: System property request managing the state of 0 mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: After merging, found state information for 0 mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Missing English translation for mohist: assets\/mohist\/lang\/.lang"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Missing English translation for FML: assets\/fml\/lang\/.lang"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Verifying mod requirements are satisfied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: The mod {0} does not wish to run in Minecraft version {1}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: All mod requirements are satisfied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Mod sorting completed successfully"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Mod sorting data"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: No user mods found to sort"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Loading @Config anotation data"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.003s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sending event FMLConstructionEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sent event FMLConstructionEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Bar Step: Construction - Mohist took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sending event FMLConstructionEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModLists"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: The mod FML accepts its own version (**.**.**.**)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Forge Mod Loader has successfully loaded [minecraft, mcp, mohist, FML, forge] modCLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Forge Mod Loader has successfully loaded [minecraft, mcp, mohist, FML, forge] modSERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sent event FMLConstructionEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 0.140s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sending event FMLConstructionEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [forge]:",
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [forge]: Loading Vanilla annotations: null"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [forge]:",
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [forge]: Preloading CrashReport Classes"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [forge]:",
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [forge]: \tnet\/minecraftforge\/common\/util\/TextTable"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [forge]:",
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [forge]: \tnet\/minecraftforge\/common\/util\/TextTable$Alignment"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [forge]:",
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [forge]: \tnet\/minecraftforge\/common\/util\/TextTable$Column"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [forge]:",
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [forge]: \tnet\/minecraftforge\/common\/util\/TextTable$Row"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [forge]:",
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [forge]: \tnet\/minecraftforge\/fml\/client\/SplashProgress$1"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [forge]:",
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [forge]: \tnet\/minecraftforge\/fml\/common\/FMLCommonHandler$1"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [forge]:",
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [forge]: \tnet\/minecraftforge\/fml\/common\/Loader$1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Mod forge is using network checker : No network checking performed"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2860)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sent event FMLConstructionEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.016s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Bar Finished: Construction took 0.160s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Mod signature data"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]:  \tValid Signatures:"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]:  \t Missing Signatures:"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: \t\tminecraft\t(Minecraft\t1.12.2)\tminecraft.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: \t\tmcp\t(Minecraft Coder Pack\t9.42)\tminecraft.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: \t\tmohist\t(Mohist\t1.12.2-304)\tmohist.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: \t\tFML\t(Forge Mod Loader\t**.**.**.**)\tmohist.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: \t\tforge\t(Minecraft Forge\t14.23.5.2860)\tmohist.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Processing Object Holder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Found 1168 ObjectHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Identifying ItemStackHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Found 0 ItemStackHolder annotations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 159,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Bar Step: PreInitialization - Mohist took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Configured a dormant chunk cache size of 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "[17:25:49] [Server thread\/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.037s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "[17:25:49] [Server thread\/DEBUG] [FML]: Bar Finished: PreInitialization took 0.038s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 172,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 173,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 174,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 175,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 176,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 177,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Injecting itemstacks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 178,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Injecting injection complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 179,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Replacing net.minecraftforge.server.permission.DefaultPermissionHandler with com.mohistmc.forge.BukkitPermissionsHandler"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 180,
+                    "content": "[17:25:49] [Server thread\/INFO] [FML]: Registered Forge API Permission Handler(Bukkit)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
+            "lines": [
+                {
+                    "number": 181,
+                    "content": "[17:25:49] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading configuration file(server.properties)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [Mohist]:",
+            "lines": [
+                {
+                    "number": 182,
+                    "content": "[17:25:49] [Server thread\/INFO] [Mohist]: Default gamemode type:SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [Mohist]:",
+            "lines": [
+                {
+                    "number": 183,
+                    "content": "[17:25:49] [Server thread\/INFO] [Mohist]: This server is runningMohistversion git-Mohist-1.12.2-304 (MC: 1.12.2)(Implementing API version1.12.2-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [Spigot]:",
+            "lines": [
+                {
+                    "number": 184,
+                    "content": "[17:25:49] [Server thread\/INFO] [Spigot]: Server Player Sample Count:12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:49] [Server thread\/INFO] [Mohist]:",
+            "lines": [
+                {
+                    "number": 185,
+                    "content": "[17:25:49] [Server thread\/INFO] [Mohist]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
+            "lines": [
+                {
+                    "number": 186,
+                    "content": "[17:25:50] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/INFO] [Mohist]:",
+            "lines": [
+                {
+                    "number": 187,
+                    "content": "[17:25:50] [Server thread\/INFO] [Mohist]: Starting Minecraft server on 0.0.0.0:17650"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/INFO] [net.minecraft.network.NetworkSystem]:",
+            "lines": [
+                {
+                    "number": 188,
+                    "content": "[17:25:50] [Server thread\/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 189,
+                    "content": "[17:25:50] [Server thread\/INFO] [FML]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "[17:25:50] [Server thread\/INFO] [FML]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 191,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLInitializationEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 192,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLInitializationEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 193,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: Initialization - Minecraft took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 194,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLInitializationEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 195,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLInitializationEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 196,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 197,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLInitializationEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 198,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLInitializationEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 199,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: Initialization - Mohist took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 200,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLInitializationEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 201,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLInitializationEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 202,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: Initialization - Forge Mod Loader took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 203,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLInitializationEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 204,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLInitializationEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 205,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: Initialization - Minecraft Forge took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 206,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Finished: Initialization took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 207,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 208,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event IMCEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 209,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event IMCEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 210,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 211,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 212,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event IMCEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 213,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event IMCEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 214,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 215,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 216,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event IMCEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 217,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event IMCEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 218,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: InterModComms$IMC - Mohist took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 219,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 220,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event IMCEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 221,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event IMCEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 222,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 223,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 224,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event IMCEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 225,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event IMCEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 226,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 227,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Finished: InterModComms$IMC took 0.003s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 228,
+                    "content": "[17:25:50] [Server thread\/INFO] [FML]: Injecting itemstacks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 229,
+                    "content": "[17:25:50] [Server thread\/INFO] [FML]: Injecting injection complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 230,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 231,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 232,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 233,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 234,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 235,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 236,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 237,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 238,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: PostInitialization - Mohist took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 239,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 240,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 241,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 242,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 243,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 244,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Forge took 0.008s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 245,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Finished: PostInitialization took 0.009s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 246,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 247,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 248,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 249,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 250,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 251,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 252,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 253,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 254,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: LoadComplete - Mohist took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 255,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 256,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 257,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 258,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 259,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Forge RecipeSorter Baking:"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 260,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   16: RecipeEntry(\"Before\", UNKNOWN, )"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 261,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   15: RecipeEntry(\"minecraft:shaped\", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 262,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   14: RecipeEntry(\"forge:shapedore\", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 263,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   13: RecipeEntry(\"minecraft:mapextending\", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 264,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   12: RecipeEntry(\"minecraft:shapeless\", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 265,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   11: RecipeEntry(\"minecraft:repair\", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 266,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   10: RecipeEntry(\"minecraft:shield_deco\", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 267,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   9: RecipeEntry(\"minecraft:armordyes\", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 268,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   8: RecipeEntry(\"minecraft:fireworks\", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 269,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   7: RecipeEntry(\"minecraft:pattern_dupe\", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 270,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   6: RecipeEntry(\"minecraft:tippedarrow\", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 271,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   5: RecipeEntry(\"minecraft:mapcloning\", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 272,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   4: RecipeEntry(\"forge:shapelessore\", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 273,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   3: RecipeEntry(\"minecraft:pattern_add\", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 274,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   2: RecipeEntry(\"minecraft:bookcloning\", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 275,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]:   1: RecipeEntry(\"After\", UNKNOWN, )"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 276,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Sorting recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 277,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 278,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Forge took 0.006s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 279,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Finished: LoadComplete took 0.007s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 280,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Freezing registries"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 281,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 282,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 283,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 284,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 285,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 286,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 287,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 288,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 289,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: ModIdMapping - Mohist took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 290,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 291,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 292,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 293,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 294,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 295,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.026s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 296,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.027s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 297,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: All registries frozen"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 298,
+                    "content": "[17:25:50] [Server thread\/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 299,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 300,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 301,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 302,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 303,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 304,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 305,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 306,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 307,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: ServerAboutToStart - Mohist took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 308,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 309,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 310,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 311,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 312,
+                    "content": "[17:25:50] [Server thread\/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 313,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 314,
+                    "content": "[17:25:50] [Server thread\/DEBUG] [FML]: Bar Finished: ServerAboutToStart took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:50] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
+            "lines": [
+                {
+                    "number": 315,
+                    "content": "[17:25:50] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: \"Preparing level \"world\"\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:51] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 316,
+                    "content": "[17:25:51] [Server thread\/INFO] [FML]: Loading dimension 0 (world)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:51] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 317,
+                    "content": "[17:25:51] [Server thread\/INFO] [FML]: Loading dimension -1 (DIM-1)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:51] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 318,
+                    "content": "[17:25:51] [Server thread\/INFO] [FML]: Loading dimension 1 (DIM1)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:51] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 319,
+                    "content": "[17:25:51] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0 (Seed:-1911769020504177725 )"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:52] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 320,
+                    "content": "[17:25:52] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 6%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:53] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 321,
+                    "content": "[17:25:53] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 13%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:54] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 322,
+                    "content": "[17:25:54] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 21%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:55] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 323,
+                    "content": "[17:25:55] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 29%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:56] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 324,
+                    "content": "[17:25:56] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 37%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:57] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 325,
+                    "content": "[17:25:57] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 43%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:58] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 326,
+                    "content": "[17:25:58] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 52%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:59] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 327,
+                    "content": "[17:25:59] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 60%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:00] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 328,
+                    "content": "[17:26:00] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:01] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 329,
+                    "content": "[17:26:01] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 82%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 330,
+                    "content": "[17:26:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 93%"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/DEBUG] [Mohist]:",
+            "lines": [
+                {
+                    "number": 331,
+                    "content": "[17:26:03] [Server thread\/DEBUG] [Mohist]: Server permissions file permissions.yml is empty, ignoring it"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/INFO] [Mohist]:",
+            "lines": [
+                {
+                    "number": 332,
+                    "content": "[17:26:03] [Server thread\/INFO] [Mohist]: Done (13.203s)! For help, type \"help\" or \"?\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/INFO] [Mohist]:",
+            "lines": [
+                {
+                    "number": 333,
+                    "content": "[17:26:03] [Server thread\/INFO] [Mohist]: Starting Minecraft server on 0.0.0.0:17650"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
+            "lines": [
+                {
+                    "number": 334,
+                    "content": "[17:26:03] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Query Listener #1\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 335,
+                    "content": "[17:26:03] [Query Listener #1\/INFO] [net.minecraft.server.MinecraftServer]: Query running on 0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 336,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sending event FMLServerStartingEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 337,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sent event FMLServerStartingEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 338,
+                    "content": "[17:26:03] [Server thread\/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 339,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sending event FMLServerStartingEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 340,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sent event FMLServerStartingEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 341,
+                    "content": "[17:26:03] [Server thread\/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 342,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sending event FMLServerStartingEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 343,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sent event FMLServerStartingEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 344,
+                    "content": "[17:26:03] [Server thread\/DEBUG] [FML]: Bar Step: ServerStarting - Mohist took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 345,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sending event FMLServerStartingEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 346,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sent event FMLServerStartingEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 347,
+                    "content": "[17:26:03] [Server thread\/DEBUG] [FML]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 348,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sending event FMLServerStartingEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 349,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sent event FMLServerStartingEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 350,
+                    "content": "[17:26:03] [Server thread\/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Forge took 0.015s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 351,
+                    "content": "[17:26:03] [Server thread\/DEBUG] [FML]: Bar Finished: ServerStarting took 0.017s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 352,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sending event FMLServerStartedEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 353,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sent event FMLServerStartedEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 354,
+                    "content": "[17:26:03] [Server thread\/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 355,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sending event FMLServerStartedEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 356,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sent event FMLServerStartedEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 357,
+                    "content": "[17:26:03] [Server thread\/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 358,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sending event FMLServerStartedEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 359,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sent event FMLServerStartedEvent to mod mohist"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 360,
+                    "content": "[17:26:03] [Server thread\/DEBUG] [FML]: Bar Step: ServerStarted - Mohist took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 361,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sending event FMLServerStartedEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 362,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sent event FMLServerStartedEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 363,
+                    "content": "[17:26:03] [Server thread\/DEBUG] [FML]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 364,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sending event FMLServerStartedEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 365,
+                    "content": "[17:26:03] [Server thread\/TRACE] [FML]: Sent event FMLServerStartedEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 366,
+                    "content": "[17:26:03] [Server thread\/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Forge took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 367,
+                    "content": "[17:26:03] [Server thread\/DEBUG] [FML]: Bar Finished: ServerStarted took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:26:03] [Server thread\/INFO] [Mohist]:",
+            "lines": [
+                {
+                    "number": 368,
+                    "content": "[17:26:03] [Server thread\/INFO] [Mohist]: Timings Reset"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[17:31:04] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 369,
+                    "content": "[17:31:04] [Server thread\/DEBUG] [FML]: Gathering id map for writing to world save world"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.12.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:25:46] [Server thread\/INFO] [Mohist]:",
+                    "lines": [
+                        {
+                            "number": 27,
+                            "content": "[17:25:46] [Server thread\/INFO] [Mohist]: Starting minecraft server version 1.12.2"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.12.2"
+            },
+            {
+                "message": "Forge version: 14.23.5.2860",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:25:46] [Server thread\/INFO] [FML]:",
+                    "lines": [
+                        {
+                            "number": 28,
+                            "content": "[17:25:46] [Server thread\/INFO] [FML]: MinecraftForge v14.23.5.2860 `Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "14.23.5.2860"
+            },
+            {
+                "message": "Mohist version: 304",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:25:49] [Server thread\/INFO] [Mohist]:",
+                    "lines": [
+                        {
+                            "number": 183,
+                            "content": "[17:25:49] [Server thread\/INFO] [Mohist]: This server is runningMohistversion git-Mohist-1.12.2-304 (MC: 1.12.2)(Implementing API version1.12.2-R0.1-SNAPSHOT)"
+                        }
+                    ]
+                },
+                "label": "Mohist version",
+                "value": "304"
+            }
+        ]
+    }
+}

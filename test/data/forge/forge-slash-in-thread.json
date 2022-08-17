@@ -1,0 +1,474 @@
+{
+    "id": "forge\/server",
+    "name": "Forge",
+    "type": "Server Log",
+    "version": null,
+    "title": "Forge Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:52:01] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[09:52:01] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: player joined the game"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:52:01] [Server thread\/INFO] [Actually Additions]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[09:52:01] [Server thread\/INFO] [Actually Additions]: Sending Player Data to player player with UUID uuid."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:52:02] [Chunk I\/O Executor Thread-1\/ERROR] [FML]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[09:52:02] [Chunk I\/O Executor Thread-1\/ERROR] [FML]: Unhandled exception loading chunk:"
+                },
+                {
+                    "number": 4,
+                    "content": "net.minecraft.util.ReportedException: Loading NBT data"
+                },
+                {
+                    "number": 5,
+                    "content": "at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:505) ~[fy.class:?]"
+                },
+                {
+                    "number": 6,
+                    "content": "at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]"
+                },
+                {
+                    "number": 7,
+                    "content": "at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]"
+                },
+                {
+                    "number": 8,
+                    "content": "at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]"
+                },
+                {
+                    "number": 9,
+                    "content": "at net.minecraft.nbt.CompressedStreamTools.func_152455_a(CompressedStreamTools.java:133) ~[gi.class:?]"
+                },
+                {
+                    "number": 10,
+                    "content": "at net.minecraft.nbt.CompressedStreamTools.func_152456_a(CompressedStreamTools.java:88) ~[gi.class:?]"
+                },
+                {
+                    "number": 11,
+                    "content": "at net.minecraft.nbt.CompressedStreamTools.func_74794_a(CompressedStreamTools.java:83) ~[gi.class:?]"
+                },
+                {
+                    "number": 12,
+                    "content": "at net.minecraft.world.chunk.storage.AnvilChunkLoader.loadChunk__Async(AnvilChunkLoader.java:89) ~[aye.class:?]"
+                },
+                {
+                    "number": 13,
+                    "content": "at net.minecraftforge.common.chunkio.ChunkIOProvider.run(ChunkIOProvider.java:70) ~[ChunkIOProvider.class:?]"
+                },
+                {
+                    "number": 14,
+                    "content": "at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_144]"
+                },
+                {
+                    "number": 15,
+                    "content": "at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_144]"
+                },
+                {
+                    "number": 16,
+                    "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                },
+                {
+                    "number": 17,
+                    "content": "Caused by: java.io.UTFDataFormatException: malformed input around byte 17"
+                },
+                {
+                    "number": 18,
+                    "content": "at java.io.DataInputStream.readUTF(DataInputStream.java:656) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 19,
+                    "content": "at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 20,
+                    "content": "at net.minecraft.nbt.NBTTagCompound.func_152448_b(NBTTagCompound.java:486) ~[fy.class:?]"
+                },
+                {
+                    "number": 21,
+                    "content": "at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:56) ~[fy.class:?]"
+                },
+                {
+                    "number": 22,
+                    "content": "at net.minecraft.nbt.NBTTagList.func_152446_a(NBTTagList.java:63) ~[ge.class:?]"
+                },
+                {
+                    "number": 23,
+                    "content": "at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]"
+                },
+                {
+                    "number": 24,
+                    "content": "... 11 more"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:52:02] [Chunk I\/O Executor Thread-1\/ERROR] [FML]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[09:52:02] [Chunk I\/O Executor Thread-1\/ERROR] [FML]: net.minecraftforge.common.chunkio.QueuedChunk {"
+                },
+                {
+                    "number": 26,
+                    "content": "x: -13"
+                },
+                {
+                    "number": 27,
+                    "content": "z: 52"
+                },
+                {
+                    "number": 28,
+                    "content": "world: world"
+                },
+                {
+                    "number": 29,
+                    "content": "dimension: 0"
+                },
+                {
+                    "number": 30,
+                    "content": "provider: net.minecraft.world.WorldProviderSurface"
+                },
+                {
+                    "number": 31,
+                    "content": "}"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:52:02] [Chunk I\/O Executor Thread-1\/ERROR] [FML]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[09:52:02] [Chunk I\/O Executor Thread-1\/ERROR] [FML]: World: (-208,64,832), Chunk: (at 0,4,0 in -13,52; contains blocks -208,0,832 to -193,255,847), Region: (-1,1; contains chunks -32,32 to -1,63, blocks -512,0,512 to -1,255,1023)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:52:02] [Chunk I\/O Executor Thread-1\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[09:52:02] [Chunk I\/O Executor Thread-1\/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.IllegalMonitorStateException"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:52:02] [Chunk I\/O Executor Thread-1\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[09:52:02] [Chunk I\/O Executor Thread-1\/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: at java.lang.Object.notifyAll(Native Method)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:52:02] [Chunk I\/O Executor Thread-1\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[09:52:02] [Chunk I\/O Executor Thread-1\/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: at net.minecraftforge.common.chunkio.ChunkIOThreadPoolExecutor.afterExecute(ChunkIOThreadPoolExecutor.java:56)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:52:02] [Chunk I\/O Executor Thread-1\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[09:52:02] [Chunk I\/O Executor Thread-1\/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:52:02] [Chunk I\/O Executor Thread-1\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[09:52:02] [Chunk I\/O Executor Thread-1\/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:52:02] [Chunk I\/O Executor Thread-1\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[09:52:02] [Chunk I\/O Executor Thread-1\/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: at java.lang.Thread.run(Thread.java:748)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:52:02] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[09:52:02] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception"
+                },
+                {
+                    "number": 40,
+                    "content": "net.minecraft.util.ReportedException: Loading NBT data"
+                },
+                {
+                    "number": 41,
+                    "content": "at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:505) ~[fy.class:?]"
+                },
+                {
+                    "number": 42,
+                    "content": "at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]"
+                },
+                {
+                    "number": 43,
+                    "content": "at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]"
+                },
+                {
+                    "number": 44,
+                    "content": "at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]"
+                },
+                {
+                    "number": 45,
+                    "content": "at net.minecraft.nbt.CompressedStreamTools.func_152455_a(CompressedStreamTools.java:133) ~[gi.class:?]"
+                },
+                {
+                    "number": 46,
+                    "content": "at net.minecraft.nbt.CompressedStreamTools.func_152456_a(CompressedStreamTools.java:88) ~[gi.class:?]"
+                },
+                {
+                    "number": 47,
+                    "content": "at net.minecraft.nbt.CompressedStreamTools.func_74794_a(CompressedStreamTools.java:83) ~[gi.class:?]"
+                },
+                {
+                    "number": 48,
+                    "content": "at net.minecraft.world.chunk.storage.AnvilChunkLoader.loadChunk__Async(AnvilChunkLoader.java:89) ~[aye.class:?]"
+                },
+                {
+                    "number": 49,
+                    "content": "at net.minecraftforge.common.chunkio.ChunkIOProvider.run(ChunkIOProvider.java:70) ~[ChunkIOProvider.class:?]"
+                },
+                {
+                    "number": 50,
+                    "content": "at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:92) ~[ChunkIOExecutor.class:?]"
+                },
+                {
+                    "number": 51,
+                    "content": "at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:118) ~[on.class:?]"
+                },
+                {
+                    "number": 52,
+                    "content": "at net.minecraft.world.gen.ChunkProviderServer.func_186028_c(ChunkProviderServer.java:89) ~[on.class:?]"
+                },
+                {
+                    "number": 53,
+                    "content": "at net.minecraft.server.management.PlayerChunkMapEntry$1.run(PlayerChunkMapEntry.java:39) ~[ot$1.class:?]"
+                },
+                {
+                    "number": 54,
+                    "content": "at net.minecraftforge.common.chunkio.ChunkIOProvider.runCallbacks(ChunkIOProvider.java:134) ~[ChunkIOProvider.class:?]"
+                },
+                {
+                    "number": 55,
+                    "content": "at net.minecraftforge.common.chunkio.ChunkIOProvider.syncCallback(ChunkIOProvider.java:96) ~[ChunkIOProvider.class:?]"
+                },
+                {
+                    "number": 56,
+                    "content": "at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:94) ~[ChunkIOExecutor.class:?]"
+                },
+                {
+                    "number": 57,
+                    "content": "at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:118) ~[on.class:?]"
+                },
+                {
+                    "number": 58,
+                    "content": "at net.minecraft.world.gen.ChunkProviderServer.func_186028_c(ChunkProviderServer.java:89) ~[on.class:?]"
+                },
+                {
+                    "number": 59,
+                    "content": "at net.minecraft.server.management.PlayerChunkMapEntry$1.run(PlayerChunkMapEntry.java:39) ~[ot$1.class:?]"
+                },
+                {
+                    "number": 60,
+                    "content": "at net.minecraftforge.common.chunkio.ChunkIOProvider.runCallbacks(ChunkIOProvider.java:134) ~[ChunkIOProvider.class:?]"
+                },
+                {
+                    "number": 61,
+                    "content": "at net.minecraftforge.common.chunkio.ChunkIOProvider.syncCallback(ChunkIOProvider.java:96) ~[ChunkIOProvider.class:?]"
+                },
+                {
+                    "number": 62,
+                    "content": "at net.minecraftforge.common.chunkio.ChunkIOExecutor.tick(ChunkIOExecutor.java:150) ~[ChunkIOExecutor.class:?]"
+                },
+                {
+                    "number": 63,
+                    "content": "at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:728) ~[MinecraftServer.class:?]"
+                },
+                {
+                    "number": 64,
+                    "content": "at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) ~[nz.class:?]"
+                },
+                {
+                    "number": 65,
+                    "content": "at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) ~[MinecraftServer.class:?]"
+                },
+                {
+                    "number": 66,
+                    "content": "at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]"
+                },
+                {
+                    "number": 67,
+                    "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                },
+                {
+                    "number": 68,
+                    "content": "Caused by: java.io.UTFDataFormatException: malformed input around byte 17"
+                },
+                {
+                    "number": 69,
+                    "content": "at java.io.DataInputStream.readUTF(DataInputStream.java:656) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 70,
+                    "content": "at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 71,
+                    "content": "at net.minecraft.nbt.NBTTagCompound.func_152448_b(NBTTagCompound.java:486) ~[fy.class:?]"
+                },
+                {
+                    "number": 72,
+                    "content": "at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:56) ~[fy.class:?]"
+                },
+                {
+                    "number": 73,
+                    "content": "at net.minecraft.nbt.NBTTagList.func_152446_a(NBTTagList.java:63) ~[ge.class:?]"
+                },
+                {
+                    "number": 74,
+                    "content": "at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]"
+                },
+                {
+                    "number": 75,
+                    "content": "... 26 more"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:52:02] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[09:52:02] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: \/aternos\/server\/.\/crash-reports\/crash-2019-02-20_09.52.02-server.txt"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:52:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[09:52:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:52:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[09:52:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:52:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[09:52:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:52:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[09:52:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'\/overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:52:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[09:52:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'\/ExtraUtils2_Quarry_Dim"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:52:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[09:52:02] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'\/Storage Cell"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": []
+    }
+}

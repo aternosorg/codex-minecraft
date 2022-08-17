@@ -1,0 +1,211 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "1.16.5",
+    "title": "Fabric 1.16.5 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:09:28] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[17:09:28] [main\/INFO]: Environment: authHost='https:\/\/authserver.mojang.com', accountsHost='https:\/\/api.mojang.com', sessionHost='https:\/\/sessionserver.mojang.com', servicesHost='https:\/\/api.minecraftservices.com', name='PROD'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:09:29] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[17:09:29] [main\/INFO]: Found new data pack Fabric Mods, loading it automatically"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:09:29] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[17:09:29] [main\/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:09:29] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[17:09:29] [main\/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:09:29] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[17:09:29] [main\/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:09:29] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[17:09:29] [main\/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:09:29] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[17:09:29] [main\/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:09:29] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[17:09:29] [main\/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1))"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:09:29] [Worker-Main-2\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[17:09:29] [Worker-Main-2\/INFO]: Loaded 7 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:09:30] [Worker-Main-2\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[17:09:30] [Worker-Main-2\/INFO]: Loaded 927 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:09:31] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[17:09:31] [main\/INFO]: Applied 0 biome modifications to 0 of 79 new biomes in 1.471 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:09:31] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[17:09:31] [Server thread\/INFO]: Starting minecraft server version 1.16.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:09:31] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[17:09:31] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:09:31] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[17:09:31] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:09:31] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[17:09:31] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:09:31] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[17:09:31] [Server thread\/INFO]: Starting Minecraft server on *:24661"
+                },
+                {
+                    "number": 17,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.16.5",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:09:31] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 12,
+                            "content": "[17:09:31] [Server thread\/INFO]: Starting minecraft server version 1.16.5"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.16.5"
+            }
+        ]
+    }
+}

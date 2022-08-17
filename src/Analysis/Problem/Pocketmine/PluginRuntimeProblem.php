@@ -13,13 +13,10 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class PluginRuntimeProblem extends PluginProblem
 {
-    /**
-     * @var string
-     */
-    protected $pluginPath;
+    protected ?string $pluginPath = null;
 
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -33,7 +30,7 @@ class PluginRuntimeProblem extends PluginProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -53,9 +50,9 @@ class PluginRuntimeProblem extends PluginProblem
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getPluginPath(): string
+    public function getPluginPath(): ?string
     {
         return $this->pluginPath;
     }

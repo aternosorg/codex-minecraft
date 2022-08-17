@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\CrashReport;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\CrashReport\RemoveEntitySolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -19,6 +20,11 @@ class TickingEntityProblem extends CrashReportProblem
     protected ?float $locationX = null;
     protected ?float $locationY = null;
     protected ?float $locationZ = null;
+
+    /**
+     * @var RemoveEntitySolution[]
+     */
+    protected array $solutions = [];
 
     public function getMessage(): string
     {
@@ -41,7 +47,12 @@ class TickingEntityProblem extends CrashReportProblem
         ];
     }
 
-    public function setMatches(array $matches, $patternKey): void
+    /**
+     * @param array $matches
+     * @param mixed $patternKey
+     * @return void
+     */
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->matchedPattern = $patternKey;
         switch ($patternKey) {
@@ -75,10 +86,10 @@ class TickingEntityProblem extends CrashReportProblem
     }
 
     /**
-     * @param $insight
+     * @param InsightInterface $insight
      * @return bool
      */
-    public function isEqual($insight): bool
+    public function isEqual(InsightInterface $insight): bool
     {
         if ($insight instanceof TickingEntityProblem) {
             $this->addInformationFromProblem($insight);

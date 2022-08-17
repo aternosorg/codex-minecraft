@@ -2,8 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bedrock;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\Bedrock\DisableWhitelistSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Bedrock\EnableAuthenticationSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -15,7 +13,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class BedrockDBStorageChainProblem extends BedrockProblem
 {
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -29,7 +27,7 @@ class BedrockDBStorageChainProblem extends BedrockProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -40,9 +38,10 @@ class BedrockDBStorageChainProblem extends BedrockProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->addSolution(new GenerateNewWorldSolution());
     }

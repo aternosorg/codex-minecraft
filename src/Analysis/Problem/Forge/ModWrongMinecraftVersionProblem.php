@@ -13,10 +13,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class ModWrongMinecraftVersionProblem extends ModProblem
 {
-    /**
-     * @var string
-     */
-    protected $minecraftVersion;
+    protected ?string $minecraftVersion = null;
 
     /**
      * @return string
@@ -27,7 +24,7 @@ class ModWrongMinecraftVersionProblem extends ModProblem
     }
 
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -44,7 +41,7 @@ class ModWrongMinecraftVersionProblem extends ModProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -55,9 +52,10 @@ class ModWrongMinecraftVersionProblem extends ModProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->modName = $matches[1];
         $this->minecraftVersion = $matches[2];

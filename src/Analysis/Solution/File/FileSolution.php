@@ -11,15 +11,8 @@ use Aternos\Codex\Minecraft\Analysis\Solution\MinecraftSolution;
  */
 abstract class FileSolution extends MinecraftSolution
 {
-    /**
-     * @var string
-     */
-    protected $path;
-
-    /**
-     * @var bool
-     */
-    protected $relativePath = true;
+    protected ?string $path = null;
+    protected bool $relativePath = true;
 
     /**
      * Set the relative path
@@ -29,7 +22,7 @@ abstract class FileSolution extends MinecraftSolution
      * @param string $path
      * @return $this
      */
-    public function setRelativePath(string $path)
+    public function setRelativePath(string $path): static
     {
         $this->path = $path;
         $this->relativePath = true;
@@ -42,7 +35,7 @@ abstract class FileSolution extends MinecraftSolution
      * @param string $path
      * @return $this
      */
-    public function setAbsolutePath(string $path)
+    public function setAbsolutePath(string $path): static
     {
         $this->path = $path;
         $this->relativePath = false;
@@ -68,7 +61,7 @@ abstract class FileSolution extends MinecraftSolution
      *
      * @return bool
      */
-    public function isRelativePath()
+    public function isRelativePath(): bool
     {
         return $this->relativePath;
     }
@@ -78,7 +71,7 @@ abstract class FileSolution extends MinecraftSolution
      *
      * @return bool
      */
-    public function isAbsolutePath()
+    public function isAbsolutePath(): bool
     {
         return !$this->relativePath;
     }

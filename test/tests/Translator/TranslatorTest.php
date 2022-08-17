@@ -1,5 +1,7 @@
 <?php
 
+namespace Aternos\Codex\Minecraft\Test\Translator;
+
 use Aternos\Codex\Minecraft\Translator\Translator;
 use PHPUnit\Framework\TestCase;
 

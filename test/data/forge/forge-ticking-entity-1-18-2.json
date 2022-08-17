@@ -1,0 +1,3528 @@
+{
+    "id": "forge\/crash-report",
+    "name": "Forge",
+    "type": "Crash Report",
+    "version": "1.18.2",
+    "title": "Forge 1.18.2 Crash Report",
+    "entries": [
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "---- Minecraft Crash Report ----"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "\/\/ Why did you do that?"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Time:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "Time: 6\/14\/22, 4:49 AM"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Description:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "Description: Ticking entity"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "java.lang.BootstrapMethodError: java.lang.RuntimeException: Attempted to load class net\/mcreator\/villageemployment\/client\/particle\/OrbOfDominanceSmokeParticle for invalid dist DEDICATED_SERVER"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "\tat net.mcreator.villageemployment.init.VillageEmploymentModParticles.<clinit>(VillageEmploymentModParticles.java:28) ~[village-employment-1.18.2-1.5.1.jar%23182!\/:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "\tat net.mcreator.villageemployment.procedures.IllagerMinionOnEntityTickUpdateProcedure.execute(IllagerMinionOnEntityTickUpdateProcedure.java:11) ~[village-employment-1.18.2-1.5.1.jar%23182!\/:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "\tat net.mcreator.villageemployment.entity.IllagerMinionEntity.m_6075_(IllagerMinionEntity.java:177) ~[village-employment-1.18.2-1.5.1.jar%23182!\/:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "\tat net.minecraft.world.entity.Entity.m_8119_(Entity.java:413) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:backpacked.mixins.json:common.EntityMixin,pl:mixin:APP:biomemakeover-common.mixins.json:enchantment.EntityMixin,pl:mixin:APP:blueprint.mixins.json:EntityMixin,pl:mixin:APP:bookshelf.common.mixins.json:entity.AccessorEntity,pl:mixin:APP:earthmobsmod.mixins.json:EntityMixin,pl:mixin:APP:netherportalfix.mixins.json:EntityAccessor,pl:mixin:APP:quark.mixins.json:EntityMixin,pl:mixin:APP:radium.mixins.json:ai.nearby_entity_tracking.EntityMixin,pl:mixin:APP:radium.mixins.json:alloc.deep_passengers.EntityMixin,pl:mixin:APP:radium.mixins.json:block.hopper.EntityAccessor,pl:mixin:APP:radium.mixins.json:entity.collisions.fluid.EntityMixin,pl:mixin:APP:radium.mixins.json:entity.collisions.movement.EntityMixin,pl:mixin:APP:radium.mixins.json:entity.collisions.suffocation.EntityMixin,pl:mixin:APP:radium.mixins.json:entity.collisions.unpushable_cramming.EntityMixin,pl:mixin:APP:radium.mixins.json:entity.skip_fire_check.EntityMixin,pl:mixin:APP:structure_gel.mixins.json:EntityMixin,pl:mixin:APP:supplementaries.mixins.json:EntityMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "\tat net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2215) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:AdditionalAdditions.mixins.json:LivingEntityMixin,pl:mixin:APP:biomemakeover-common.mixins.json:LivingEntityMixin,pl:mixin:APP:biomemakeover-common.mixins.json:LivingEntityMixin_Lootblock,pl:mixin:APP:biomemakeover-common.mixins.json:enchantment.LivingEntityMixin,pl:mixin:APP:biomemakeover-common.mixins.json:totem.LivingEntityMixin,pl:mixin:APP:blue_skies.mixins.json:LivingEntityMixin,pl:mixin:APP:bookshelf.common.mixins.json:entity.AccessorLivingEntity,pl:mixin:APP:caelus.mixins.json:MixinLivingEntity,pl:mixin:APP:citadel.mixins.json:LivingEntityMixin,pl:mixin:APP:clienttweaks.mixins.json:LivingEntityAccessor,pl:mixin:APP:curioofundying.mixins.json:LivingEntityMixin,pl:mixin:APP:curios.mixins.json:MixinLivingEntity,pl:mixin:APP:earthmobsmod.mixins.json:LivingEntityMixin,pl:mixin:APP:ecologics.mixins.json:MixinLivingEntity,pl:mixin:APP:enhancedcelestials.mixins.json:MixinLivingEntity,pl:mixin:APP:netherportalfix.mixins.json:LivingEntityAccessor,pl:mixin:APP:quark.mixins.json:LivingEntityAccessor,pl:mixin:APP:radium.mixins.json:alloc.enum_values.LivingEntityMixin,pl:mixin:APP:radium.mixins.json:entity.collisions.unpushable_cramming.LivingEntityMixin,pl:mixin:APP:radium.mixins.json:entity.fast_elytra_check.LivingEntityMixin,pl:mixin:APP:radium.mixins.json:entity.fast_hand_swing.LivingEntityMixin,pl:mixin:APP:radium.mixins.json:entity.fast_powder_snow_check.LivingEntityMixin,pl:mixin:APP:radium.mixins.json:entity.skip_equipment_change_check.LivingEntityMixin,pl:mixin:APP:snowyspirit.mixins.json:EntityMixin,pl:mixin:APP:spirit.mixins.json:LivingEntityMixin,pl:mixin:APP:supplementaries.mixins.json:LivingEntityMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "\tat net.minecraft.world.entity.Mob.m_8119_(Mob.java:307) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:AdditionalAdditions.mixins.json:MobMixin,pl:mixin:APP:biomemakeover-common.mixins.json:MobAccess,pl:mixin:APP:bookshelf.common.mixins.json:entity.AccessorMob,pl:mixin:APP:radium.mixins.json:entity.inactive_navigations.MobEntityMixin,pl:mixin:APP:radium.mixins.json:entity.skip_equipment_change_check.MobEntityMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:652) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:biomemakeover-common.mixins.json:multipart.ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:crafttweaker.mixins.json:common.transform.world.level.MixinServerLevel,pl:mixin:APP:enhancedcelestials.mixins.json:MixinServerWorld,pl:mixin:APP:friendsandfoes-common.mixins.json:ServerWorldAccessor,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevellMixin,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevelSnowMixin,pl:mixin:APP:byg.mixins.json:common.world.MixinServerLevel,pl:mixin:APP:radium.mixins.json:ai.nearby_entity_tracking.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:alloc.chunk_random.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:chunk.entity_class_groups.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:entity.inactive_navigations.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:profiler.ServerWorldMixin,pl:mixin:APP:supplementaries.mixins.json:ServerLevelMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "\tat net.minecraft.world.level.Level.m_46653_(Level.java:486) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:biomemakeover-common.mixins.json:multipart.LevelMixin,pl:mixin:APP:enhancedcelestials.mixins.json:MixinWorld,pl:mixin:APP:radium.mixins.json:alloc.chunk_random.WorldMixin,pl:mixin:APP:radium.mixins.json:world.block_entity_retrieval.WorldMixin,pl:mixin:APP:radium.mixins.json:world.chunk_access.WorldMixin,pl:mixin:APP:radium.mixins.json:world.inline_block_access.WorldMixin,pl:mixin:APP:radium.mixins.json:world.inline_height.WorldMixin,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:319) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:biomemakeover-common.mixins.json:multipart.ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:crafttweaker.mixins.json:common.transform.world.level.MixinServerLevel,pl:mixin:APP:enhancedcelestials.mixins.json:MixinServerWorld,pl:mixin:APP:friendsandfoes-common.mixins.json:ServerWorldAccessor,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevellMixin,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevelSnowMixin,pl:mixin:APP:byg.mixins.json:common.world.MixinServerLevel,pl:mixin:APP:radium.mixins.json:ai.nearby_entity_tracking.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:alloc.chunk_random.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:chunk.entity_class_groups.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:entity.inactive_navigations.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:profiler.ServerWorldMixin,pl:mixin:APP:supplementaries.mixins.json:ServerLevelMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "\tat net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,re:classloading,pl:mixin:APP:radium.mixins.json:collections.entity_ticking.EntityListMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:299) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:biomemakeover-common.mixins.json:multipart.ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:crafttweaker.mixins.json:common.transform.world.level.MixinServerLevel,pl:mixin:APP:enhancedcelestials.mixins.json:MixinServerWorld,pl:mixin:APP:friendsandfoes-common.mixins.json:ServerWorldAccessor,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevellMixin,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevelSnowMixin,pl:mixin:APP:byg.mixins.json:common.world.MixinServerLevel,pl:mixin:APP:radium.mixins.json:ai.nearby_entity_tracking.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:alloc.chunk_random.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:chunk.entity_class_groups.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:entity.inactive_navigations.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:profiler.ServerWorldMixin,pl:mixin:APP:supplementaries.mixins.json:ServerLevelMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:902) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:crafttweaker.mixins.json:common.access.server.AccessMinecraftServer,pl:mixin:APP:mixin.excavated_variants.json:IMinecraftServerMixin,pl:mixin:APP:byg.mixins.json:access.MinecraftServerAccess,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:APP:paxi.mixins.json:MixinMinecraftServer,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:326) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:842) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:crafttweaker.mixins.json:common.access.server.AccessMinecraftServer,pl:mixin:APP:mixin.excavated_variants.json:IMinecraftServerMixin,pl:mixin:APP:byg.mixins.json:access.MinecraftServerAccess,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:APP:paxi.mixins.json:MixinMinecraftServer,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:685) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:crafttweaker.mixins.json:common.access.server.AccessMinecraftServer,pl:mixin:APP:mixin.excavated_variants.json:IMinecraftServerMixin,pl:mixin:APP:byg.mixins.json:access.MinecraftServerAccess,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:APP:paxi.mixins.json:MixinMinecraftServer,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:crafttweaker.mixins.json:common.access.server.AccessMinecraftServer,pl:mixin:APP:mixin.excavated_variants.json:IMinecraftServerMixin,pl:mixin:APP:byg.mixins.json:access.MinecraftServerAccess,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:APP:paxi.mixins.json:MixinMinecraftServer,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "\tat java.lang.Thread.run(Thread.java:833) [?:?] {re:mixin}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "Caused by: java.lang.RuntimeException: Attempted to load class net\/mcreator\/villageemployment\/client\/particle\/OrbOfDominanceSmokeParticle for invalid dist DEDICATED_SERVER"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "\tat net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.18.2-40.1.25.jar%2316!\/:1.0] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "\tat cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-9.1.3.jar%235!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "\tat cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-9.1.3.jar%235!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "\tat cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-9.1.3.jar%235!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:110) ~[securejarhandler-1.0.3.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.lambda$findClass$16(ModuleClassLoader.java:216) ~[securejarhandler-1.0.3.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:226) ~[securejarhandler-1.0.3.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:216) ~[securejarhandler-1.0.3.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:132) ~[securejarhandler-1.0.3.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "\tat java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "\t... 17 more"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "A detailed walkthrough of the error, its code path and all known details is as follows:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "---------------------------------------------------------------------------------------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "-- Head --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Thread:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "Thread: Server thread"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "\tat net.mcreator.villageemployment.init.VillageEmploymentModParticles.<clinit>(VillageEmploymentModParticles.java:28) ~[village-employment-1.18.2-1.5.1.jar%23182!\/:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "\tat net.mcreator.villageemployment.procedures.IllagerMinionOnEntityTickUpdateProcedure.execute(IllagerMinionOnEntityTickUpdateProcedure.java:11) ~[village-employment-1.18.2-1.5.1.jar%23182!\/:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "\tat net.mcreator.villageemployment.entity.IllagerMinionEntity.m_6075_(IllagerMinionEntity.java:177) ~[village-employment-1.18.2-1.5.1.jar%23182!\/:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "\tat net.minecraft.world.entity.Entity.m_8119_(Entity.java:413) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:backpacked.mixins.json:common.EntityMixin,pl:mixin:APP:biomemakeover-common.mixins.json:enchantment.EntityMixin,pl:mixin:APP:blueprint.mixins.json:EntityMixin,pl:mixin:APP:bookshelf.common.mixins.json:entity.AccessorEntity,pl:mixin:APP:earthmobsmod.mixins.json:EntityMixin,pl:mixin:APP:netherportalfix.mixins.json:EntityAccessor,pl:mixin:APP:quark.mixins.json:EntityMixin,pl:mixin:APP:radium.mixins.json:ai.nearby_entity_tracking.EntityMixin,pl:mixin:APP:radium.mixins.json:alloc.deep_passengers.EntityMixin,pl:mixin:APP:radium.mixins.json:block.hopper.EntityAccessor,pl:mixin:APP:radium.mixins.json:entity.collisions.fluid.EntityMixin,pl:mixin:APP:radium.mixins.json:entity.collisions.movement.EntityMixin,pl:mixin:APP:radium.mixins.json:entity.collisions.suffocation.EntityMixin,pl:mixin:APP:radium.mixins.json:entity.collisions.unpushable_cramming.EntityMixin,pl:mixin:APP:radium.mixins.json:entity.skip_fire_check.EntityMixin,pl:mixin:APP:structure_gel.mixins.json:EntityMixin,pl:mixin:APP:supplementaries.mixins.json:EntityMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "\tat net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2215) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:AdditionalAdditions.mixins.json:LivingEntityMixin,pl:mixin:APP:biomemakeover-common.mixins.json:LivingEntityMixin,pl:mixin:APP:biomemakeover-common.mixins.json:LivingEntityMixin_Lootblock,pl:mixin:APP:biomemakeover-common.mixins.json:enchantment.LivingEntityMixin,pl:mixin:APP:biomemakeover-common.mixins.json:totem.LivingEntityMixin,pl:mixin:APP:blue_skies.mixins.json:LivingEntityMixin,pl:mixin:APP:bookshelf.common.mixins.json:entity.AccessorLivingEntity,pl:mixin:APP:caelus.mixins.json:MixinLivingEntity,pl:mixin:APP:citadel.mixins.json:LivingEntityMixin,pl:mixin:APP:clienttweaks.mixins.json:LivingEntityAccessor,pl:mixin:APP:curioofundying.mixins.json:LivingEntityMixin,pl:mixin:APP:curios.mixins.json:MixinLivingEntity,pl:mixin:APP:earthmobsmod.mixins.json:LivingEntityMixin,pl:mixin:APP:ecologics.mixins.json:MixinLivingEntity,pl:mixin:APP:enhancedcelestials.mixins.json:MixinLivingEntity,pl:mixin:APP:netherportalfix.mixins.json:LivingEntityAccessor,pl:mixin:APP:quark.mixins.json:LivingEntityAccessor,pl:mixin:APP:radium.mixins.json:alloc.enum_values.LivingEntityMixin,pl:mixin:APP:radium.mixins.json:entity.collisions.unpushable_cramming.LivingEntityMixin,pl:mixin:APP:radium.mixins.json:entity.fast_elytra_check.LivingEntityMixin,pl:mixin:APP:radium.mixins.json:entity.fast_hand_swing.LivingEntityMixin,pl:mixin:APP:radium.mixins.json:entity.fast_powder_snow_check.LivingEntityMixin,pl:mixin:APP:radium.mixins.json:entity.skip_equipment_change_check.LivingEntityMixin,pl:mixin:APP:snowyspirit.mixins.json:EntityMixin,pl:mixin:APP:spirit.mixins.json:LivingEntityMixin,pl:mixin:APP:supplementaries.mixins.json:LivingEntityMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "\tat net.minecraft.world.entity.Mob.m_8119_(Mob.java:307) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:AdditionalAdditions.mixins.json:MobMixin,pl:mixin:APP:biomemakeover-common.mixins.json:MobAccess,pl:mixin:APP:bookshelf.common.mixins.json:entity.AccessorMob,pl:mixin:APP:radium.mixins.json:entity.inactive_navigations.MobEntityMixin,pl:mixin:APP:radium.mixins.json:entity.skip_equipment_change_check.MobEntityMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:652) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:biomemakeover-common.mixins.json:multipart.ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:crafttweaker.mixins.json:common.transform.world.level.MixinServerLevel,pl:mixin:APP:enhancedcelestials.mixins.json:MixinServerWorld,pl:mixin:APP:friendsandfoes-common.mixins.json:ServerWorldAccessor,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevellMixin,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevelSnowMixin,pl:mixin:APP:byg.mixins.json:common.world.MixinServerLevel,pl:mixin:APP:radium.mixins.json:ai.nearby_entity_tracking.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:alloc.chunk_random.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:chunk.entity_class_groups.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:entity.inactive_navigations.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:profiler.ServerWorldMixin,pl:mixin:APP:supplementaries.mixins.json:ServerLevelMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "\tat net.minecraft.world.level.Level.m_46653_(Level.java:486) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:biomemakeover-common.mixins.json:multipart.LevelMixin,pl:mixin:APP:enhancedcelestials.mixins.json:MixinWorld,pl:mixin:APP:radium.mixins.json:alloc.chunk_random.WorldMixin,pl:mixin:APP:radium.mixins.json:world.block_entity_retrieval.WorldMixin,pl:mixin:APP:radium.mixins.json:world.chunk_access.WorldMixin,pl:mixin:APP:radium.mixins.json:world.inline_block_access.WorldMixin,pl:mixin:APP:radium.mixins.json:world.inline_height.WorldMixin,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:319) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:biomemakeover-common.mixins.json:multipart.ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:crafttweaker.mixins.json:common.transform.world.level.MixinServerLevel,pl:mixin:APP:enhancedcelestials.mixins.json:MixinServerWorld,pl:mixin:APP:friendsandfoes-common.mixins.json:ServerWorldAccessor,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevellMixin,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevelSnowMixin,pl:mixin:APP:byg.mixins.json:common.world.MixinServerLevel,pl:mixin:APP:radium.mixins.json:ai.nearby_entity_tracking.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:alloc.chunk_random.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:chunk.entity_class_groups.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:entity.inactive_navigations.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:profiler.ServerWorldMixin,pl:mixin:APP:supplementaries.mixins.json:ServerLevelMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "\tat net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,re:classloading,pl:mixin:APP:radium.mixins.json:collections.entity_ticking.EntityListMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:299) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:biomemakeover-common.mixins.json:multipart.ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:crafttweaker.mixins.json:common.transform.world.level.MixinServerLevel,pl:mixin:APP:enhancedcelestials.mixins.json:MixinServerWorld,pl:mixin:APP:friendsandfoes-common.mixins.json:ServerWorldAccessor,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevellMixin,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevelSnowMixin,pl:mixin:APP:byg.mixins.json:common.world.MixinServerLevel,pl:mixin:APP:radium.mixins.json:ai.nearby_entity_tracking.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:alloc.chunk_random.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:chunk.entity_class_groups.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:entity.inactive_navigations.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:profiler.ServerWorldMixin,pl:mixin:APP:supplementaries.mixins.json:ServerLevelMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "-- Entity being ticked --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity Type:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "\tEntity Type: village_employment:illager_minion (net.mcreator.villageemployment.entity.IllagerMinionEntity)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity ID:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "\tEntity ID: 5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity Name:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "\tEntity Name: Illager Minion"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity's Exact location:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "\tEntity's Exact location: 439.00, 71.94, 91.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity's Block location:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "\tEntity's Block location: World: (439,71,91), Section: (at 7,7,11 in 27,4,5; chunk contains blocks 432,-64,80 to 447,319,95), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity's Momentum:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "\tEntity's Momentum: 0.00, 0.00, 0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity's Passengers:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "\tEntity's Passengers: []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity's Vehicle:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "\tEntity's Vehicle: null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "\tat net.minecraft.world.level.Level.m_46653_(Level.java:486) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:biomemakeover-common.mixins.json:multipart.LevelMixin,pl:mixin:APP:enhancedcelestials.mixins.json:MixinWorld,pl:mixin:APP:radium.mixins.json:alloc.chunk_random.WorldMixin,pl:mixin:APP:radium.mixins.json:world.block_entity_retrieval.WorldMixin,pl:mixin:APP:radium.mixins.json:world.chunk_access.WorldMixin,pl:mixin:APP:radium.mixins.json:world.inline_block_access.WorldMixin,pl:mixin:APP:radium.mixins.json:world.inline_height.WorldMixin,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:319) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:biomemakeover-common.mixins.json:multipart.ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:crafttweaker.mixins.json:common.transform.world.level.MixinServerLevel,pl:mixin:APP:enhancedcelestials.mixins.json:MixinServerWorld,pl:mixin:APP:friendsandfoes-common.mixins.json:ServerWorldAccessor,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevellMixin,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevelSnowMixin,pl:mixin:APP:byg.mixins.json:common.world.MixinServerLevel,pl:mixin:APP:radium.mixins.json:ai.nearby_entity_tracking.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:alloc.chunk_random.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:chunk.entity_class_groups.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:entity.inactive_navigations.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:profiler.ServerWorldMixin,pl:mixin:APP:supplementaries.mixins.json:ServerLevelMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "\tat net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,re:classloading,pl:mixin:APP:radium.mixins.json:collections.entity_ticking.EntityListMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:299) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:biomemakeover-common.mixins.json:multipart.ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:crafttweaker.mixins.json:common.transform.world.level.MixinServerLevel,pl:mixin:APP:enhancedcelestials.mixins.json:MixinServerWorld,pl:mixin:APP:friendsandfoes-common.mixins.json:ServerWorldAccessor,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevellMixin,pl:mixin:APP:immersive_weathering.mixins.json:ServerLevelSnowMixin,pl:mixin:APP:byg.mixins.json:common.world.MixinServerLevel,pl:mixin:APP:radium.mixins.json:ai.nearby_entity_tracking.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:alloc.chunk_random.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:chunk.entity_class_groups.ServerWorldAccessor,pl:mixin:APP:radium.mixins.json:entity.inactive_navigations.ServerWorldMixin,pl:mixin:APP:radium.mixins.json:profiler.ServerWorldMixin,pl:mixin:APP:supplementaries.mixins.json:ServerLevelMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:902) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:crafttweaker.mixins.json:common.access.server.AccessMinecraftServer,pl:mixin:APP:mixin.excavated_variants.json:IMinecraftServerMixin,pl:mixin:APP:byg.mixins.json:access.MinecraftServerAccess,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:APP:paxi.mixins.json:MixinMinecraftServer,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:326) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:842) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:crafttweaker.mixins.json:common.access.server.AccessMinecraftServer,pl:mixin:APP:mixin.excavated_variants.json:IMinecraftServerMixin,pl:mixin:APP:byg.mixins.json:access.MinecraftServerAccess,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:APP:paxi.mixins.json:MixinMinecraftServer,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:685) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:crafttweaker.mixins.json:common.access.server.AccessMinecraftServer,pl:mixin:APP:mixin.excavated_variants.json:IMinecraftServerMixin,pl:mixin:APP:byg.mixins.json:access.MinecraftServerAccess,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:APP:paxi.mixins.json:MixinMinecraftServer,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:crafttweaker.mixins.json:common.access.server.AccessMinecraftServer,pl:mixin:APP:mixin.excavated_variants.json:IMinecraftServerMixin,pl:mixin:APP:byg.mixins.json:access.MinecraftServerAccess,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:APP:paxi.mixins.json:MixinMinecraftServer,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "\tat java.lang.Thread.run(Thread.java:833) [?:?] {re:mixin}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 77,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 78,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "-- Affected level --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tAll players:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "\tAll players: 0 total; []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tChunk stats:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "\tChunk stats: 2209"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel dimension:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "\tLevel dimension: minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel spawn location:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "\tLevel spawn location: World: (461,66,120), Section: (at 13,2,8 in 28,4,7; chunk contains blocks 448,-64,112 to 463,319,127), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel time:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "\tLevel time: 336463 game time, 1000 day time"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel name:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "\tLevel name: world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel game mode:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "\tLevel game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel weather:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "\tLevel weather: Rain time: 1 (now: false), thunder time: 1 (now: false)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tKnown server brands:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "\tKnown server brands: forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel was modded:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "\tLevel was modded: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel storage version:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "\tLevel storage version: 0x04ABD - Anvil"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:902) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:crafttweaker.mixins.json:common.access.server.AccessMinecraftServer,pl:mixin:APP:mixin.excavated_variants.json:IMinecraftServerMixin,pl:mixin:APP:byg.mixins.json:access.MinecraftServerAccess,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:APP:paxi.mixins.json:MixinMinecraftServer,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:326) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:842) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:crafttweaker.mixins.json:common.access.server.AccessMinecraftServer,pl:mixin:APP:mixin.excavated_variants.json:IMinecraftServerMixin,pl:mixin:APP:byg.mixins.json:access.MinecraftServerAccess,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:APP:paxi.mixins.json:MixinMinecraftServer,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:685) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:crafttweaker.mixins.json:common.access.server.AccessMinecraftServer,pl:mixin:APP:mixin.excavated_variants.json:IMinecraftServerMixin,pl:mixin:APP:byg.mixins.json:access.MinecraftServerAccess,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:APP:paxi.mixins.json:MixinMinecraftServer,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261) ~[server-1.18.2-20220404.173914-srg.jar%23199!\/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:crafttweaker.mixins.json:common.access.server.AccessMinecraftServer,pl:mixin:APP:mixin.excavated_variants.json:IMinecraftServerMixin,pl:mixin:APP:byg.mixins.json:access.MinecraftServerAccess,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:APP:paxi.mixins.json:MixinMinecraftServer,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "\tat java.lang.Thread.run(Thread.java:833) [?:?] {re:mixin}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 99,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 100,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "-- System Details --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "\tMinecraft Version: 1.18.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version ID:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "\tMinecraft Version ID: 1.18.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tOperating System:",
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "\tOperating System: Linux (amd64) version 5.4.0-100-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava Version:",
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "\tJava Version: 17.0.1, Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava VM Version:",
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "\tJava VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory:",
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "\tMemory: 837241864 bytes (798 MiB) \/ 2831155200 bytes (2700 MiB) up to 2831155200 bytes (2700 MiB)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCPUs:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "\tCPUs: 4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Vendor:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "\tProcessor Vendor: AuthenticAMD"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Name:",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "\tProcessor Name: AMD EPYC 7401P 24-Core Processor"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIdentifier:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "\tIdentifier: AuthenticAMD Family 23 Model 1 Stepping 2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMicroarchitecture:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "\tMicroarchitecture: Zen"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFrequency (GHz):",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "\tFrequency (GHz): -0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical packages:",
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "\tNumber of physical packages: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical CPUs:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "\tNumber of physical CPUs: 24"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of logical CPUs:",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "\tNumber of logical CPUs: 48"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 name:",
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "\tGraphics card #0 name: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 vendor:",
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "\tGraphics card #0 vendor: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 VRAM (MB):",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "\tGraphics card #0 VRAM (MB): 0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 deviceId:",
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "\tGraphics card #0 deviceId: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 versionInfo:",
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "\tGraphics card #0 versionInfo: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory max (MB):",
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "\tVirtual memory max (MB): 129934.37"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory used (MB):",
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "\tVirtual memory used (MB): 128143.55"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory total (MB):",
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "\tSwap memory total (MB): 1024.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory used (MB):",
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "\tSwap memory used (MB): 17.79"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJVM Flags:",
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "\tJVM Flags: 3 total; -XX:MaxMetaspaceSize=400M -Xmx2700M -Xms1350M"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tServer Running:",
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "\tServer Running: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tPlayer Count:",
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "\tPlayer Count: 0 \/ 20; []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tData Packs:",
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "\tData Packs: vanilla, mod:betterdungeons, mod:blue_skies (incompatible), mod:netherportalfix (incompatible), mod:cftlc, mod:additionalbanners (incompatible), mod:incontrol (incompatible), mod:stalwart_dungeons, mod:bambooeverything (incompatible), mod:kleeslabs (incompatible), mod:villagernames, mod:duckling (incompatible), mod:xaeroworldmap, mod:citadel (incompatible), mod:alexsmobs (incompatible), mod:yungsapi, mod:feature_nbt_deadlock_be_gone (incompatible), mod:upgradednetherite_items (incompatible), mod:bookshelf (incompatible), mod:guardvillagers (incompatible), mod:twigs (incompatible), mod:additionalstructures, mod:bygonenether (incompatible), mod:balm (incompatible), mod:carryon (incompatible), mod:cloth_config (incompatible), mod:dragonmounts (incompatible), mod:absentbydesign, mod:revampedwolf, mod:upgradednetherite (incompatible), mod:structure_gel, mod:corpse (incompatible), mod:chipped (incompatible), mod:farmersdelight (incompatible), mod:repurposed_structures, mod:morevillagers (incompatible), mod:bcc (incompatible), mod:verdure (incompatible), mod:simpleshops (incompatible), mod:geode (incompatible), mod:skinnedlanterns (incompatible), mod:supermartijn642corelib, mod:yungsbridges, mod:spark (incompatible), mod:illager_plushies, mod:curios (incompatible), mod:cataclysm (incompatible), mod:patchouli (incompatible), mod:corail_woodcutter, mod:collective, mod:snowpig (incompatible), mod:yungsextras, mod:villagertools (incompatible), mod:betterthirdperson (incompatible), mod:elevatorid, mod:betterstrongholds, mod:runelic (incompatible), mod:starterkit, mod:spirit (incompatible), mod:architectury (incompatible), mod:curiouselytra (incompatible), mod:biomeinfo (incompatible), mod:aiimprovements (incompatible), mod:adorn (incompatible), mod:bettershields (incompatible), mod:fallingtree, mod:enchantwithmob, mod:easyshulkerboxes (incompatible), mod:mavm (incompatible), mod:bettermineshafts, mod:voidtotem (incompatible), mod:veinmining (incompatible), mod:geckolib3 (incompatible), mod:bettermodsbutton (incompatible), mod:darkpaintings (incompatible), mod:tradingpost (incompatible), mod:radium (incompatible), mod:clienttweaks (incompatible), mod:ftblibrary (incompatible), mod:ftbteams (incompatible), mod:biomemakeover (incompatible), mod:culturaldelights, mod:configmenusforge (incompatible), mod:additionallanterns (incompatible), mod:nourished_nether, mod:itemfilters (incompatible), mod:easymagic (incompatible), mod:nourished_end, mod:jei (incompatible), mod:visualworkbench (incompatible), mod:universalbonemeal (incompatible), mod:graveyard (incompatible), mod:steves_vanilla, mod:attributefix (incompatible), mod:conjurer_illager, mod:goblintraders (incompatible), mod:caelus (incompatible), mod:paxi, mod:immersive_weathering (incompatible), mod:waystones (incompatible), mod:merchantmarkers (incompatible), mod:clumps (incompatible), mod:village_employment, mod:comforts (incompatible), mod:naturescompass (incompatible), mod:additionalbars (incompatible), mod:storagenetwork (incompatible), mod:sereneseasons (incompatible), mod:decorative_blocks, mod:curioofundying (incompatible), mod:badmobs, mod:more_babies (incompatible), mod:snuffles (incompatible), mod:blueprint (incompatible), mod:crafttweaker (incompatible), mod:ftbchunks (incompatible), mod:forge (incompatible), mod:curiouslights, mod:forgottenrecipes (incompatible), mod:friendsandfoes (incompatible), mod:selene (incompatible), mod:supplementaries (incompatible), mod:dungeons_arise, mod:radon (incompatible), mod:pigsteel (incompatible), mod:dynamic_asset_generator (incompatible), mod:excavated_variants (incompatible), mod:terrablender (incompatible), mod:ftbquests (incompatible), mod:magnumtorch (incompatible), mod:jade, mod:additionaladditions (incompatible), mod:snowyspirit (incompatible), mod:another_furniture, mod:nethersdelight (incompatible), mod:rocks, mod:paintings (incompatible), mod:iceberg (incompatible), mod:farmersrespite (incompatible), mod:xaerominimap, mod:polymorph (incompatible), mod:autoreglib (incompatible), mod:akashictome (incompatible), mod:quark (incompatible), mod:ecologics (incompatible), mod:warden_and_sculk, mod:earthmobsmod, mod:backpacked (incompatible), mod:inventoryhud (incompatible), mod:blocksplus (incompatible), mod:upgradedcore (incompatible), mod:hunterillager, mod:zillagersweararmor (incompatible), mod:creeperoverhaul (incompatible), mod:ferritecore (incompatible), mod:upgradednetherite_ultimate (incompatible), mod:puzzleslib (incompatible), mod:enhancedcelestials (incompatible), mod:byg (incompatible), mod:aquaculture (incompatible), mod:xpbook (incompatible), Immersive Weathering Generated Pack, Repurposed_Structures-Better_Dungeons_v2.zip (incompatible), Repurposed_Structures-Better_Strongholds_v3.zip, Repurposed_Structures-Farmers_Delight_v3.zip (incompatible), Repurposed_Structures-Friends_And_Foes-v1.zip, Repurposed_Structures-More_Villagers_v6.zip, Snowyspirit Virtual Resourcepack, Supplementaries Generated Pack, dynamic_asset_generator:data (incompatible), ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tWorld Generation:",
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "\tWorld Generation: Stable"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIs Modded:",
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "\tIs Modded: Definitely; Server brand changed to 'forge'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tType:",
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "\tType: Dedicated Server (map_server.txt)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher:",
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "\tModLauncher: 9.1.3+9.1.3+main.9b69c82a"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher launch target:",
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "\tModLauncher launch target: forgeserver"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher naming:",
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "\tModLauncher naming: srg"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher services:",
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "\tModLauncher services:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "\t\t mixin PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "\t\t eventbus PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "\t\t slf4jfixer PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "\t\t object_holder_definalize PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "\t\t runtime_enum_extender PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "\t\t capability_token_subclass PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "\t\t accesstransformer PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "\t\t runtimedistcleaner PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "\t\t mixin TRANSFORMATIONSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "\t\t fml TRANSFORMATIONSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFML Language Providers:",
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "\tFML Language Providers:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "\t\tminecraft@1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "\t\tkotlinforforge@3.3.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "\t\tjavafml@null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMod List:",
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "\tMod List:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "\t\tYungsBetterDungeons-1.18.2-Forge-2.1.0.jar        |YUNG's Better Dungeons        |betterdungeons                |1.18.2-Forge-2.1.0  |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "\t\tblue_skies-1.18.2-1.3.12.jar                      |Blue Skies                    |blue_skies                    |1.3.12              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "\t\tnetherportalfix-forge-1.18-9.0.0.jar              |NetherPortalFix               |netherportalfix               |9.0.0               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "\t\tcftlc-1.0.1+1.18.2.jar                            |Creatures from the Lush Cave  |cftlc                         |1.0.1               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "\t\tAdditionalBanners-Forge-1.18.2-7.0.4.jar          |AdditionalBanners             |additionalbanners             |7.0.4               |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "\t\tincontrol-1.18-6.0.9.jar                          |InControl                     |incontrol                     |1.18-6.0.9          |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 159,
+                    "content": "\t\tstalwart-dungeons-1.18.2-1.2.2.jar                |Stalwart Dungeons             |stalwart_dungeons             |1.2.2               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "\t\tbambooeverything-1.2.7-build.14+mc1.18.2.jar      |Bamboo Everything             |bambooeverything              |1.2.7-build.14+mc1.1|DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "\t\tkleeslabs-forge-1.18.1-11.1.0.jar                 |KleeSlabs                     |kleeslabs                     |11.1.0              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "\t\tvillagernames_1.18.2-3.5.jar                      |Villager Names                |villagernames                 |3.5                 |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "\t\tduckling-1.0.5-forge.jar                          |Duckling                      |duckling                      |1.0.5               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "\t\tXaerosWorldMap_1.22.0_Forge_1.18.2.jar            |Xaero's World Map             |xaeroworldmap                 |1.22.0              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "\t\tcitadel-1.11.3-1.18.2.jar                         |Citadel                       |citadel                       |1.11.3              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "\t\talexsmobs-1.18.3.jar                              |Alex's Mobs                   |alexsmobs                     |1.18.3              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "\t\tYungsApi-1.18.2-Forge-2.0.8.jar                   |YUNG's API                    |yungsapi                      |1.18.2-Forge-2.0.8  |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "\t\tfeature_nbt_deadlock_be_gone_forge-2.0.0+1.18.2.ja|Feature NBT Deadlock Be Gone  |feature_nbt_deadlock_be_gone  |2.0.0+1.18.2        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "\t\tupgradednetherite_items-1.18.2-3.2.0.0-release.jar|Upgraded Netherite : Items    |upgradednetherite_items       |1.18.2-3.2.0.0-relea|DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "\t\tBookshelf-Forge-1.18.2-13.0.13.jar                |Bookshelf                     |bookshelf                     |13.0.13             |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "\t\tguardvillagers-1.**.**.**.**.2.jar                   |Guard Villagers               |guardvillagers                |1.4.2               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 172,
+                    "content": "\t\ttwigs-forge-1.1.4-patch3+1.18.2.jar               |Twigs                         |twigs                         |1.1.4-patch1+1.18.2 |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 173,
+                    "content": "\t\tRex's-AdditionalStructures-1.18.2-(v.3.0.3).jar   |Additional Structures         |additionalstructures          |3.0.3               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 174,
+                    "content": "\t\tbygonenether-1.1.2-1.18.2.jar                     |Bygone Nether                 |bygonenether                  |1.1.2               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 175,
+                    "content": "\t\tbalm-3.0.3+0.jar                                  |Balm                          |balm                          |3.0.3+0             |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 176,
+                    "content": "\t\tcarryon-1.18.2-1.17.0.8.jar                       |Carry On                      |carryon                       |**.**.**.**            |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 177,
+                    "content": "\t\tcloth-config-6.2.62-forge.jar                     |Cloth Config v4 API           |cloth_config                  |6.2.62              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 178,
+                    "content": "\t\tdragonmounts-1.18.2-BETA_1.1.0b1.jar              |Dragon Mounts: Legacy         |dragonmounts                  |1.18.2-BETA_1.1.0b1 |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 179,
+                    "content": "\t\tabsentbydesign-1.18.2-1.6.2.jar                   |Absent By Design Mod          |absentbydesign                |1.18.2-1.6.2        |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 180,
+                    "content": "\t\trevampedwolf-1.18.2-1.2.0.jar                     |RevampedWolf                  |revampedwolf                  |1.18.2-1.2.0        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 181,
+                    "content": "\t\tupgradednetherite-1.18.2-4.2.0.6-release.jar      |Upgraded Netherite            |upgradednetherite             |1.18.2-4.2.0.6-relea|DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 182,
+                    "content": "\t\tstructure_gel-1.18.2-2.3.0.jar                    |Structure Gel API             |structure_gel                 |2.3.0               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 183,
+                    "content": "\t\tcorpse-1.18.2-1.0.1.jar                           |Corpse                        |corpse                        |1.18.2-1.0.1        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 184,
+                    "content": "\t\tchipped-1.18.2-1.2.1-forge.jar                    |Chipped                       |chipped                       |1.18.2-1.2.1-forge  |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 185,
+                    "content": "\t\tFarmersDelight-1.18.2-1.1.1.jar                   |Farmer's Delight              |farmersdelight                |1.18.2-1.1.1        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 186,
+                    "content": "\t\trepurposed_structures_forge-5.1.9+1.18.2.jar      |Repurposed Structures         |repurposed_structures         |5.1.9+1.18.2        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 187,
+                    "content": "\t\tmorevillagers-FORGE-1.18.2-3.2.0.jar              |More Villagers                |morevillagers                 |3.2.0               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 188,
+                    "content": "\t\tBetterCompatibilityChecker-1.1.14-build.26+mc1.18.|Better Compatibility Checker  |bcc                           |1.1.14-build.26+mc1.|DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 189,
+                    "content": "\t\tverdure-1.18.2-1.1.2.jar                          |Verdure                       |verdure                       |1.1.2               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "\t\tsimpleshops-1.2.1.jar                             |Simple Shops                  |simpleshops                   |1.1.4               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 191,
+                    "content": "\t\tGeode+_v1.0.1+1.18.2.jar                          |Geode+                        |geode                         |1.0.1               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 192,
+                    "content": "\t\tskinned_lanterns-1.18.2-1.3.4.jar                 |Skinned Lanterns              |skinnedlanterns               |1.18.2-1.3.4        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 193,
+                    "content": "\t\tsupermartijn642corelib-1.0.18-forge-mc1.18.jar    |SuperMartijn642's Core Lib    |supermartijn642corelib        |1.0.18              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 194,
+                    "content": "\t\tYungsBridges-1.18.2-Forge-2.1.0.jar               |YUNG's Bridges                |yungsbridges                  |1.18.2-Forge-2.1.0  |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 195,
+                    "content": "\t\tspark-1.9.1-forge.jar                             |spark                         |spark                         |1.9.1               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 196,
+                    "content": "\t\tIllager Plushies 1.1.5 1.18.2.jar                 |Illager Plushies              |illager_plushies              |1.1.5               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 197,
+                    "content": "\t\tcurios-forge-1.18.2-5.0.7.0.jar                   |Curios API                    |curios                        |1.18.2-5.0.7.0      |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 198,
+                    "content": "\t\tCataclysm-0.18 -congfig fix.jar                   |Cataclysm Mod                 |cataclysm                     |1.0                 |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 199,
+                    "content": "\t\tPatchouli-1.18.2-67.jar                           |Patchouli                     |patchouli                     |1.18.2-67           |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 200,
+                    "content": "\t\tcorail_woodcutter-1.18.2-2.3.3.jar                |Corail Woodcutter             |corail_woodcutter             |2.3.3               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 201,
+                    "content": "\t\tcollective-1.18.2-4.25.jar                        |Collective                    |collective                    |4.25                |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 202,
+                    "content": "\t\tSnow_Pig-1.18.2-4.2.0.jar                         |Snow Pig                      |snowpig                       |1.18.2-4.2.0        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 203,
+                    "content": "\t\tYungsExtras-1.18.2-Forge-2.1.0.jar                |YUNG's Extras                 |yungsextras                   |1.18.2-Forge-2.1.0  |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 204,
+                    "content": "\t\tvillagertools-1.18-1.0.2.jar                      |villagertools                 |villagertools                 |1.18-1.0.2          |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 205,
+                    "content": "\t\tBetterThirdPerson-Forge-1.18.2-1.7.3.jar          |Better Third Person           |betterthirdperson             |1.7.3               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 206,
+                    "content": "\t\televatorid-1.18.2-1.8.4.jar                       |Elevator Mod                  |elevatorid                    |1.18.2-1.8.4        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 207,
+                    "content": "\t\tYungsBetterStrongholds-1.18.2-Forge-2.1.1.jar     |YUNG's Better Strongholds     |betterstrongholds             |1.18.2-Forge-2.1.1  |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 208,
+                    "content": "\t\tRunelic-Forge-1.18.2-11.0.1.jar                   |Runelic                       |runelic                       |11.0.1              |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 209,
+                    "content": "\t\tstarterkit_1.18.2-3.2.jar                         |Starter Kit                   |starterkit                    |3.2                 |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 210,
+                    "content": "\t\tSpirit-forge-1.18.2-1.3.0.jar                     |Spirit                        |spirit                        |1.3.0               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 211,
+                    "content": "\t\tarchitectury-4.4.68.jar                           |Architectury                  |architectury                  |4.4.68              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 212,
+                    "content": "\t\tcuriouselytra-forge-1.18.1-5.0.1.0.jar            |Curious Elytra                |curiouselytra                 |1.18.1-5.0.1.0      |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 213,
+                    "content": "\t\tbiomeinfo-1.18.2-1.4.jar                          |BiomeInfo                     |biomeinfo                     |1.4                 |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 214,
+                    "content": "\t\tAI-Improvements-1.18.2-0.5.0.jar                  |AI-Improvements               |aiimprovements                |0.5.0               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 215,
+                    "content": "\t\tAdorn-3.5.0+1.18.2-forge.jar                      |Adorn                         |adorn                         |3.5.0+1.18.2        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 216,
+                    "content": "\t\tBetterShieldsMC1.18.1-1.0.1.jar                   |Better Shields                |bettershields                 |1.0.1               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 217,
+                    "content": "\t\tFallingTree-1.18.2-3.5.1.jar                      |FallingTree                   |fallingtree                   |3.5.1               |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 218,
+                    "content": "\t\tenchantwithmob-1.18.2-4.1.0.jar                   |Enchant With Mob              |enchantwithmob                |1.18.2-4.1.0        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 219,
+                    "content": "\t\tEasyShulkerBoxes-v3.1.1-1.18.2-Forge.jar          |Easy Shulker Boxes            |easyshulkerboxes              |3.1.1               |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 220,
+                    "content": "\t\tmavm-forge-1.18.1-1.0.7a.jar                      |More Axolotl Variants Mod     |mavm                          |1.0.7a              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 221,
+                    "content": "\t\tYungsBetterMineshafts-1.18.2-Forge-2.1.3.jar      |YUNG's Better Mineshafts      |bettermineshafts              |1.18.2-Forge-2.1.3  |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 222,
+                    "content": "\t\tvoidtotem-forge-1.18.2-1.3.1.jar                  |Void Totem                    |voidtotem                     |1.18.2-1.3.1        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 223,
+                    "content": "\t\tveinmining-forge-1.18.2-0.18.jar                  |Vein Mining                   |veinmining                    |1.18.2-0.18         |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 224,
+                    "content": "\t\tgeckolib-1.18-forge-3.0.18.jar                    |GeckoLib                      |geckolib3                     |3.0.18              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 225,
+                    "content": "\t\tBetterModsButton-v3.2.2-1.18.2-Forge.jar          |Better Mods Button            |bettermodsbutton              |3.2.2               |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 226,
+                    "content": "\t\tDarkPaintings-Forge-1.18.2-10.0.3.jar             |DarkPaintings                 |darkpaintings                 |10.0.3              |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 227,
+                    "content": "\t\tTradingPost-v3.2.0-1.18.2-Forge.jar               |Trading Post                  |tradingpost                   |3.2.0               |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 228,
+                    "content": "\t\tradium-0.7.10.jar                                 |Radium                        |radium                        |0.7.10              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 229,
+                    "content": "\t\tclienttweaks-forge-1.18.1-7.1.0.jar               |Client Tweaks                 |clienttweaks                  |7.1.0               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 230,
+                    "content": "\t\tftb-library-forge-1802.3.6-build.119.jar          |FTB Library                   |ftblibrary                    |1802.3.6-build.119  |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 231,
+                    "content": "\t\tftb-teams-forge-1802.2.6-build.51.jar             |FTB Teams                     |ftbteams                      |1802.2.6-build.51   |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 232,
+                    "content": "\t\tbiomemakeover-FORGE-1.18.2-1.4.23.jar             |Biome Makeover                |biomemakeover                 |1.18.2-1.4.23       |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 233,
+                    "content": "\t\tculturaldelights-1.18.2-0.11.jar                  |Cultural Delights             |culturaldelights              |1.18.2-0.11         |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 234,
+                    "content": "\t\tConfigMenusForge-v3.2.0-1.18.2-Forge.jar          |Config Menus for Forge        |configmenusforge              |3.2.0               |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 235,
+                    "content": "\t\tadditionallanterns-1.0.1-mc1.18.jar               |Additional Lanterns           |additionallanterns            |1.0.1               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 236,
+                    "content": "\t\tNourishedNetherV12.jar                            |Nourished Nether              |nourished_nether              |1.1.3               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 237,
+                    "content": "\t\titem-filters-forge-1802.2.7-build.27.jar          |Item Filters                  |itemfilters                   |1802.2.7-build.27   |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 238,
+                    "content": "\t\tEasyMagic-v3.3.0-1.18.2-Forge.jar                 |Easy Magic                    |easymagic                     |3.3.0               |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 239,
+                    "content": "\t\tEnlightened End BB V1.3.jar                       |Enlightened End               |nourished_end                 |1.1.0               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 240,
+                    "content": "\t\tjei-1.18.2-9.7.0.195.jar                          |Just Enough Items             |jei                           |**.**.**.**           |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 241,
+                    "content": "\t\tVisualWorkbench-v3.3.0-1.18.2-Forge.jar           |Visual Workbench              |visualworkbench               |3.3.0               |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 242,
+                    "content": "\t\tUniversalBoneMeal-v3.0.5-1.18.2-Forge.jar         |Universal Bone Meal           |universalbonemeal             |3.0.5               |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 243,
+                    "content": "\t\tThe_Graveyard_1.8_(FORGE)_for_1.18.2.jar          |The Graveyard                 |graveyard                     |1.8                 |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 244,
+                    "content": "\t\tSteve's_Vanilla_v0.3.9+1.18.2.jar                 |Steve's Vanilla               |steves_vanilla                |0.3.9               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 245,
+                    "content": "\t\tAttributeFix-Forge-1.18.2-14.0.2.jar              |AttributeFix                  |attributefix                  |14.0.2              |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 246,
+                    "content": "\t\tthe-conjurer-1.18.2-1.1.1.jar                     |The Conjurer                  |conjurer_illager              |1.1.1               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 247,
+                    "content": "\t\tgoblintraders-1.7.2-1.18.2.jar                    |Goblin Traders                |goblintraders                 |1.7.2               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 248,
+                    "content": "\t\tcaelus-forge-1.18.1-3.0.0.2.jar                   |Caelus API                    |caelus                        |1.18.1-3.0.0.2      |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 249,
+                    "content": "\t\tPaxi-1.18.2-Forge-2.0.jar                         |Paxi                          |paxi                          |1.18.2-Forge-2.0    |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 250,
+                    "content": "\t\timmersive_weathering-1.18.2-1.2.10.jar            |Immersive Weathering          |immersive_weathering          |1.18.2-1.2.10       |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 251,
+                    "content": "\t\twaystones-forge-1.18.2-10.0.0.jar                 |Waystones                     |waystones                     |10.0.0              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 252,
+                    "content": "\t\tMerchantMarkers-1.18.2-1.2.0.jar                  |Merchant Markers              |merchantmarkers               |1.2.0               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 253,
+                    "content": "\t\tClumps-forge-1.18.2-8.0.0+8.jar                   |Clumps                        |clumps                        |8.0.0+8             |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 254,
+                    "content": "\t\tvillage-employment-1.18.2-1.5.1.jar               |Village Employment            |village_employment            |1.5.1               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 255,
+                    "content": "\t\tcomforts-forge-1.18.2-5.0.0.4.jar                 |Comforts                      |comforts                      |1.18.2-5.0.0.4      |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 256,
+                    "content": "\t\tNaturesCompass-1.18.2-1.9.5-forge.jar             |Nature's Compass              |naturescompass                |1.18.2-1.9.5-forge  |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 257,
+                    "content": "\t\tadditionalbars-3.0.1-beta+1.18.2.jar              |Additional Bars               |additionalbars                |3.0.1-beta          |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 258,
+                    "content": "\t\tSimpleStorageNetwork-1.18.2-1.6.1.jar             |Simple Storage Network        |storagenetwork                |1.18.2-1.6.1        |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 259,
+                    "content": "\t\tSereneSeasons-1.18.2-7.0.0.15.jar                 |Serene Seasons                |sereneseasons                 |0.0NONE             |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 260,
+                    "content": "\t\tDecorative Blocks-forge-1.18.2-2.1.0.jar          |Decorative Blocks             |decorative_blocks             |2.1.0               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 261,
+                    "content": "\t\tcurioofundying-forge-1.18-5.3.0.0.jar             |Curio of Undying              |curioofundying                |1.18-5.3.0.0        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 262,
+                    "content": "\t\tBadMobs-1.18.2-13.01.jar                          |BadMobs                       |badmobs                       |13.01               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 263,
+                    "content": "\t\tMore Babies-forge-1.18.1-0.5.2.jar                |More Babies                   |more_babies                   |0.5.2               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 264,
+                    "content": "\t\tsnuffles-1.0.2.jar                                |Snuffles                      |snuffles                      |1.0.2               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 265,
+                    "content": "\t\tblueprint-1.18.2-5.3.2.jar                        |Blueprint                     |blueprint                     |5.3.2               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 266,
+                    "content": "\t\tCraftTweaker-forge-1.18.2-9.1.143.jar             |CraftTweaker                  |crafttweaker                  |9.1.143             |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 267,
+                    "content": "\t\tftb-chunks-forge-1802.3.6-build.145.jar           |FTB Chunks                    |ftbchunks                     |1802.3.6-build.145  |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 268,
+                    "content": "\t\tforge-1.18.2-40.1.25-universal.jar                |Forge                         |forge                         |40.1.25             |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 269,
+                    "content": "\t\tcuriouslights-forge-1.1.0+1.18.2.jar              |Curious Lights                |curiouslights                 |1.1.0+1.18.2        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 270,
+                    "content": "\t\tforgottenrecipes-forge-1.18.1-1.0.0.jar           |Forgotten Recipes             |forgottenrecipes              |1.18.1-1.0.0        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 271,
+                    "content": "\t\tfriendsandfoes-forge-mc1.18.2-1.4.0.jar           |Friends&Foes                  |friendsandfoes                |1.4.0               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 272,
+                    "content": "\t\tselene-1.18.2-1.16.3.jar                          |Selene                        |selene                        |1.18.2-1.16.3       |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 273,
+                    "content": "\t\tsupplementaries-1.18.2-1.4.0.jar                  |Supplementaries               |supplementaries               |1.18.2-1.4.0        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 274,
+                    "content": "\t\tDungeonsArise-1.18.2-2.1.50d-beta.jar             |When Dungeons Arise           |dungeons_arise                |2.1.50d-1.18.2      |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 275,
+                    "content": "\t\tradon-0.8.1.jar                                   |Radon                         |radon                         |0.8.1               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 276,
+                    "content": "\t\tpigsteel-1.18.2-3.1.0.jar                         |Pigsteel Mod                  |pigsteel                      |1.18.2-3.1.0        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 277,
+                    "content": "\t\tdynamic_asset_generator-forge-1.18.2-0.6.3.jar    |DynamicAssetGenerator         |dynamic_asset_generator       |0.6.3               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 278,
+                    "content": "\t\texcavated_variants-forge-1.18.2-0.6.2.jar         |Excavated Variants            |excavated_variants            |0.6.2               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 279,
+                    "content": "\t\tTerraBlender-forge-1.18.2-1.1.0.101.jar           |TerraBlender                  |terrablender                  |1.18.2-1.1.0.101    |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 280,
+                    "content": "\t\tftb-quests-forge-1802.3.8-build.101.jar           |FTB Quests                    |ftbquests                     |1802.3.8-build.101  |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 281,
+                    "content": "\t\tMagnumTorch-v3.1.3-1.18.2-Forge.jar               |Magnum Torch                  |magnumtorch                   |3.1.3               |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 282,
+                    "content": "\t\tJade-1.18.2-5.2.0.jar                             |Jade                          |jade                          |5.2.0               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 283,
+                    "content": "\t\tadditionaladditions-4.0.3.jar                     |Additional Additions          |additionaladditions           |4.0.3               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 284,
+                    "content": "\t\tsnowyspirit-1.18.2-1.3.1.jar                      |Snowy Spirit                  |snowyspirit                   |1.18.2-1.3.1        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 285,
+                    "content": "\t\tanother_furniture-1.18.2-1.0.3.jar                |Another Furniture Mod         |another_furniture             |1.0.3               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 286,
+                    "content": "\t\tNethersDelight-1.18.2-2.2.0.jar                   |Nethers Delight               |nethersdelight                |2.2                 |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 287,
+                    "content": "\t\tThisRocks-1.18.2-1.0.2.jar                        |This Rocks! (Forge)           |rocks                         |1.0.2               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 288,
+                    "content": "\t\tPaintings-forge-1.18.2-9.1.2.1.jar                |Paintings ++                  |paintings                     |**.**.**.**             |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 289,
+                    "content": "\t\tIceberg-1.18.2-1.0.44.jar                         |Iceberg                       |iceberg                       |1.0.44              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 290,
+                    "content": "\t\tFarmersRespite-1.18.2-1.2.0.jar                   |Farmer's Respite              |farmersrespite                |1.18.1-1.2.0        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 291,
+                    "content": "\t\tXaeros_Minimap_22.8.2_Forge_1.18.2.jar            |Xaero's Minimap               |xaerominimap                  |22.8.2              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 292,
+                    "content": "\t\tpolymorph-forge-1.18.2-0.44.jar                   |Polymorph                     |polymorph                     |1.18.2-0.44         |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 293,
+                    "content": "\t\tAutoRegLib-1.7-53.jar                             |AutoRegLib                    |autoreglib                    |1.7-53              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 294,
+                    "content": "\t\tAkashicTome-1.5-20.jar                            |Akashic Tome                  |akashictome                   |1.5-20              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 295,
+                    "content": "\t\tQuark-3.2-357.jar                                 |Quark                         |quark                         |3.2-357             |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 296,
+                    "content": "\t\tecologics-FORGE-1.18.2-1.6.7.jar                  |Ecologics                     |ecologics                     |1.6.7               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 297,
+                    "content": "\t\twarden_and_sculk-2.0.0.jar                        |Warden and Sculk              |warden_and_sculk              |2.0.0               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 298,
+                    "content": "\t\tEarthMobs-1.18.2-1.0.0.jar                        |Earth Mobs Mod                |earthmobsmod                  |1.18.2-1.0.0        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 299,
+                    "content": "\t\tbackpacked-2.1.6-1.18.2.jar                       |Backpacked                    |backpacked                    |2.1.6               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 300,
+                    "content": "\t\tInventoryHud_[1.18].forge-3.4.4.jar               |Inventory HUD+(Forge edition) |inventoryhud                  |3.4.4               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 301,
+                    "content": "\t\tBlocks + 1.18.1 - 1.4.jar                         |Blocks +                      |blocksplus                    |1.4                 |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 302,
+                    "content": "\t\tupgradedcore-1.18.2-3.2.0.0-release.jar           |Upgraded Core                 |upgradedcore                  |1.18.2-3.2.0.0-relea|DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 303,
+                    "content": "\t\tHunterIllager-1.18.2-4.0.1.jar                    |Hunter Illager                |hunterillager                 |1.18.2-4.0.1        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 304,
+                    "content": "\t\tillagersweararmor-1.1.5.jar                       |Illagers Wear Armor           |zillagersweararmor            |1.1.5               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 305,
+                    "content": "\t\tserver-1.18.2-20220404.173914-srg.jar             |Minecraft                     |minecraft                     |1.18.2              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 306,
+                    "content": "\t\tcreeperoverhaul-1.18.2-1.3.0-forge.jar            |Creeper Overhaul              |creeperoverhaul               |1.3.0               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 307,
+                    "content": "\t\tferritecore-4.2.1-forge.jar                       |Ferrite Core                  |ferritecore                   |0.0NONE             |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 308,
+                    "content": "\t\tupgradednetherite_ultimate-1.18.2-3.2.0.1-release.|Upgraded Netherite : Ultimerit|upgradednetherite_ultimate    |1.18.2-3.2.0.1-relea|DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 309,
+                    "content": "\t\tPuzzlesLib-v3.3.5-1.18.2-Forge.jar                |Puzzles Lib                   |puzzleslib                    |3.3.5               |DONE      |Manifest: ****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****:****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 310,
+                    "content": "\t\tEnhanced_Celestials-forge-1.18.2-2.0.7.jar        |Enhanced Celestials           |enhancedcelestials            |2.0.7               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 311,
+                    "content": "\t\tOh_The_Biomes_You'll_Go-forge-1.18.2-1.4-RC-21.jar|Oh The Biomes You'll Go       |byg                           |1.4                 |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 312,
+                    "content": "\t\tAquaculture-1.18.2-2.3.6.jar                      |Aquaculture 2                 |aquaculture                   |1.18.2-2.3.6        |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 313,
+                    "content": "\t\txptome-1.18.2-2.1.5.jar                           |XP Tome                       |xpbook                        |2.1.5               |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCrash Report UUID:",
+            "lines": [
+                {
+                    "number": 314,
+                    "content": "\tCrash Report UUID: 26150b89-ecf4-4abc-a7a4-6868a3cadba4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFML:",
+            "lines": [
+                {
+                    "number": 315,
+                    "content": "\tFML: 40.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tForge:",
+            "lines": [
+                {
+                    "number": 316,
+                    "content": "\tForge: net.minecraftforge:40.1.25"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The entity 'Illager Minion' at the location 439, 71.94, 91 is causing issues while ticking.",
+                "counter": 4,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "Description:",
+                    "lines": [
+                        {
+                            "number": 5,
+                            "content": "Description: Ticking entity"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the entity 'Illager Minion' at the location 439, 71.94, 91."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.18.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tMinecraft Version:",
+                    "lines": [
+                        {
+                            "number": 103,
+                            "content": "\tMinecraft Version: 1.18.2"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.18.2"
+            }
+        ]
+    }
+}

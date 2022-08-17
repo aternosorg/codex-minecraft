@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
@@ -13,33 +14,26 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class PluginDependenciesProblem extends BukkitProblem
 {
-    /**
-     * @var string
-     */
-    protected $pluginPath;
-
-    /**
-     * @var string
-     */
-    protected $pluginName;
+    protected ?string $pluginPath = null;
+    protected ?string $pluginName = null;
 
     /**
      * @var string[]
      */
-    protected $dependencyPluginNames;
+    protected array $dependencyPluginNames = [];
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getPluginPath(): string
+    public function getPluginPath(): ?string
     {
         return $this->pluginPath;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getPluginName()
+    public function getPluginName(): ?string
     {
         return $this->pluginName;
     }
@@ -60,13 +54,13 @@ class PluginDependenciesProblem extends BukkitProblem
     {
         $result = [];
         foreach ($this->dependencyPluginNames as $name) {
-            $result[] = "'". $name ."'";
+            $result[] = "'" . $name . "'";
         }
         return implode(", ", $result);
     }
 
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -90,7 +84,7 @@ class PluginDependenciesProblem extends BukkitProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -101,9 +95,10 @@ class PluginDependenciesProblem extends BukkitProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->pluginPath = $matches[1];
         $this->pluginName = $matches[2];
@@ -116,11 +111,15 @@ class PluginDependenciesProblem extends BukkitProblem
     }
 
     /**
-     * @param static $insight
+     * @param InsightInterface $insight
      * @return bool
      */
-    public function isEqual($insight): bool
+    public function isEqual(InsightInterface $insight): bool
     {
+        if (!($insight instanceof static)) {
+            return false;
+        }
+
         if ($this->getPluginName() !== $insight->getPluginName() || $this->getPluginPath() !== $insight->getPluginPath()) {
             return false;
         }

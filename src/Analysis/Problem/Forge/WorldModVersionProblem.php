@@ -13,18 +13,11 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class WorldModVersionProblem extends ModProblem
 {
-    /**
-     * @var string
-     */
-    protected $currentVersion;
+    protected ?string $currentVersion = null;
+    protected ?string $expectedVersion = null;
 
     /**
-     * @var string
-     */
-    protected $expectedVersion;
-
-    /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -42,7 +35,7 @@ class WorldModVersionProblem extends ModProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -53,9 +46,10 @@ class WorldModVersionProblem extends ModProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->modName = $matches[1];
         $this->expectedVersion = $matches[2];
@@ -66,17 +60,17 @@ class WorldModVersionProblem extends ModProblem
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getCurrentVersion(): string
+    public function getCurrentVersion(): ?string
     {
         return $this->currentVersion;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getExpectedVersion(): string
+    public function getExpectedVersion(): ?string
     {
         return $this->expectedVersion;
     }

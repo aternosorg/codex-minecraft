@@ -1,0 +1,1443 @@
+{
+    "id": "forge\/server",
+    "name": "Forge",
+    "type": "Server Log",
+    "version": "1.12.2",
+    "title": "Forge 1.12.2 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:12] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[14:43:12] [main\/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:12] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[14:43:12] [main\/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:12] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[14:43:12] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Injecting tracing printstreams for STDOUT\/STDERR."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:12] [main\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[14:43:12] [main\/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:12] [main\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[14:43:12] [main\/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_292, running on Linux:amd64:5.4.0-99-generic, installed at \/usr\/local\/openjdk-8\/jre"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Java classpath at launch is:"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]:     forge.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]:     \/jolokia\/jolokia.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Java library path at launch is:"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]:     \/usr\/java\/packages\/lib\/amd64"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]:     \/usr\/lib64"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]:     \/lib64"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]:     \/lib"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]:     \/usr\/lib"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Determined Minecraft Libraries Root: \/server\/libraries"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Cleaning up mods folder: .\/mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Examining file: Helicopter_Pack-2.7.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Enabling runtime deobfuscation"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Enqueued coremod FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Enqueued coremod FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: All fundamental core mods are successfully located"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Discovering coremods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:12] [main\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[14:43:12] [main\/INFO] [FML]: Searching \/server\/.\/mods for mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]:   Adding Helicopter_Pack-2.7.0.jar to the mod list"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Examining for coremod candidacy Helicopter_Pack-2.7.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Not found coremod data in Helicopter_Pack-2.7.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:12] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[14:43:12] [main\/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:12] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[14:43:12] [main\/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:12] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[14:43:12] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:12] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[14:43:12] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:12] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[14:43:12] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:12] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[14:43:12] [main\/DEBUG] [FML]: Injecting coremod FMLCorePlugin \\{net.minecraftforge.fml.relauncher.FMLCorePlugin\\} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:12] [main\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[14:43:12] [main\/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:13] [main\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[14:43:13] [main\/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:13] [main\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[14:43:13] [main\/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:13] [main\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[14:43:13] [main\/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:13] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[14:43:13] [main\/DEBUG] [FML]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:13] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[14:43:13] [main\/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \\{net.minecraftforge.fml.relauncher.FMLCorePlugin\\}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:13] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[14:43:13] [main\/DEBUG] [FML]: Running coremod plugin FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:15] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[14:43:15] [main\/DEBUG] [FML]: Read 1154 binary patches"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:15] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[14:43:15] [main\/DEBUG] [FML]: Loading deobfuscation resource \/deobfuscation_data-1.12.2.lzma with 36076 records"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:16] [main\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[14:43:16] [main\/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:16] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[14:43:16] [main\/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:16] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[14:43:16] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:16] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[14:43:16] [main\/DEBUG] [FML]: Injecting coremod FMLForgePlugin \\{net.minecraftforge.classloading.FMLForgePlugin\\} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:16] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[14:43:16] [main\/DEBUG] [FML]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:16] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[14:43:16] [main\/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \\{net.minecraftforge.classloading.FMLForgePlugin\\}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:16] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[14:43:16] [main\/DEBUG] [FML]: Running coremod plugin FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:16] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[14:43:16] [main\/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:16] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[14:43:16] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:16] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[14:43:16] [main\/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:16] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[14:43:16] [main\/DEBUG] [FML]: Validating minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:17] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[14:43:17] [main\/DEBUG] [FML]: Minecraft validated, launching..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:17] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[14:43:17] [main\/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:17] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[14:43:17] [main\/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:17] [main\/INFO] [LaunchWrapper]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[14:43:17] [main\/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:23] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[14:43:23] [main\/DEBUG] [FML]: Creating vanilla freeze snapshot"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:23] [main\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[14:43:23] [main\/DEBUG] [FML]: Vanilla freeze snapshot created"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:24] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[14:43:24] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:24] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[14:43:24] [Server thread\/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:24] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[14:43:24] [Server thread\/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:24] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[14:43:24] [Server thread\/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:24] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[14:43:24] [Server thread\/INFO] [FML]: Replaced 1227 ore ingredients"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:24] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[14:43:24] [Server thread\/DEBUG] [FML]: File \/server\/config\/injectedDependencies.json not found. No dependencies injected"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:24] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[14:43:24] [Server thread\/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:25] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[14:43:25] [Server thread\/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:25] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[14:43:25] [Server thread\/DEBUG] [FML]: Found a minecraft related file at \/server\/forge.jar, examining for mod candidates"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:25] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[14:43:25] [Server thread\/DEBUG] [FML]: Found a minecraft related file at \/jolokia\/jolokia.jar, examining for mod candidates"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:25] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[14:43:25] [Server thread\/DEBUG] [FML]: Minecraft jar mods loaded successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:25] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[14:43:25] [Server thread\/INFO] [FML]: Searching \/server\/.\/mods for mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:25] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[14:43:25] [Server thread\/DEBUG] [FML]:   Adding Helicopter_Pack-2.7.0.jar to the mod list"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:25] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[14:43:25] [Server thread\/DEBUG] [FML]: Found a candidate zip or jar file Helicopter_Pack-2.7.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:25] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[14:43:25] [Server thread\/DEBUG] [FML]: Examining file forge.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:25] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[14:43:25] [Server thread\/DEBUG] [FML]: The mod container forge.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[14:43:26] [Server thread\/DEBUG] [FML]: Examining file jolokia.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[14:43:26] [Server thread\/DEBUG] [FML]: The mod container jolokia.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[14:43:26] [Server thread\/DEBUG] [FML]: Examining file Helicopter_Pack-2.7.0.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: Located mcmod.info file in file Helicopter_Pack-2.7.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[14:43:26] [Server thread\/DEBUG] [FML]: Identified a mod of type Lnet\/minecraftforge\/fml\/common\/Mod; (helicopterpack.ModShell) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: Parsed dependency info for helicopterpack: Requirements: [mts@[19.0.0,)] After:[mts@[19.0.0,)] Before:[]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[14:43:26] [Server thread\/INFO] [FML]: Forge Mod Loader has identified 5 mods to load"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: Received a system property request ''"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: System property request managing the state of 0 mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[14:43:26] [Server thread\/DEBUG] [FML]: After merging, found state information for 0 mods"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/WARN] [FML]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[14:43:26] [Server thread\/WARN] [FML]: Missing English translation for FML: assets\/fml\/lang\/en_us.lang"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[14:43:26] [Server thread\/DEBUG] [FML]: Enabling mod helicopterpack"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/WARN] [FML]:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[14:43:26] [Server thread\/WARN] [FML]: Missing English translation for helicopterpack: assets\/helicopterpack\/lang\/en_us.lang"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: Verifying mod requirements are satisfied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/FATAL] [FML]:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[14:43:26] [Server thread\/FATAL] [FML]: net.minecraftforge.fml.common.MissingModsException: Mod helicopterpack (Hero Aviation Helicopter Pack (HA\/HP)) requires [mts@[19.0.0,)]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[14:43:26] [Server thread\/DEBUG] [FML]: Mod sorting data"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[14:43:26] [Server thread\/DEBUG] [FML]: \thelicopterpack(Hero Aviation Helicopter Pack (HA\/HP):2.7.0): Helicopter_Pack-2.7.0.jar (required-after:mts@[19.0.0,);)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[14:43:26] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception"
+                },
+                {
+                    "number": 101,
+                    "content": "net.minecraftforge.fml.common.MissingModsException: Mod helicopterpack (Hero Aviation Helicopter Pack (HA\/HP)) requires [mts@[19.0.0,)]"
+                },
+                {
+                    "number": 102,
+                    "content": "\tat net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266) ~[Loader.class:?]"
+                },
+                {
+                    "number": 103,
+                    "content": "\tat net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572) ~[Loader.class:?]"
+                },
+                {
+                    "number": 104,
+                    "content": "\tat net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) ~[FMLServerHandler.class:?]"
+                },
+                {
+                    "number": 105,
+                    "content": "\tat net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333) ~[FMLCommonHandler.class:?]"
+                },
+                {
+                    "number": 106,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) ~[nz.class:?]"
+                },
+                {
+                    "number": 107,
+                    "content": "\tat net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]"
+                },
+                {
+                    "number": 108,
+                    "content": "\tat java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[14:43:26] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: \/server\/.\/crash-reports\/crash-2022-04-05_14.43.26-server.txt"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[14:43:26] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[14:43:26] [Server thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[14:43:26] [Server thread\/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.004s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[14:43:26] [Server thread\/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[14:43:26] [Server thread\/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "[14:43:26] [Server thread\/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod helicopterpack"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "[14:43:26] [Server thread\/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod helicopterpack"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "[14:43:26] [Server thread\/DEBUG] [FML]: Bar Step: ServerStopped - Hero Aviation Helicopter Pack (HA\/HP) took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "[14:43:26] [Server thread\/DEBUG] [FML]: Bar Finished: ServerStopped took 0.008s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server thread\/INFO] [FML]:",
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "[14:43:26] [Server thread\/INFO] [FML]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server Shutdown Thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "[14:43:26] [Server Shutdown Thread\/INFO] [net.minecraft.server.MinecraftServer]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:43:26] [Server Shutdown Thread\/INFO] [net.minecraft.server.MinecraftServer]:",
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "[14:43:26] [Server Shutdown Thread\/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'Hero Aviation Helicopter Pack (HA\/HP)' is missing the required mod 'mts'.",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[14:43:26] [Server thread\/FATAL] [FML]:",
+                    "lines": [
+                        {
+                            "number": 97,
+                            "content": "[14:43:26] [Server thread\/FATAL] [FML]: net.minecraftforge.fml.common.MissingModsException: Mod helicopterpack (Hero Aviation Helicopter Pack (HA\/HP)) requires [mts@[19.0.0,)]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'mts' with version 19.0.0."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.12.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[14:43:24] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
+                    "lines": [
+                        {
+                            "number": 67,
+                            "content": "[14:43:24] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.12.2"
+            },
+            {
+                "message": "Forge version: 14.23.5.2860",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[14:43:24] [Server thread\/INFO] [FML]:",
+                    "lines": [
+                        {
+                            "number": 68,
+                            "content": "[14:43:24] [Server thread\/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "14.23.5.2860"
+            }
+        ]
+    }
+}

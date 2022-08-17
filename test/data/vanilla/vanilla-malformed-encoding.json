@@ -1,0 +1,117 @@
+{
+    "id": "vanilla\/server",
+    "name": "Vanilla",
+    "type": "Server Log",
+    "version": null,
+    "title": "Vanilla Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[21:28:50] [main\/FATAL]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[21:28:50] [main\/FATAL]: Failed to start the minecraft server"
+                },
+                {
+                    "number": 2,
+                    "content": "java.lang.IllegalArgumentException: Malformed \\uxxxx encoding."
+                },
+                {
+                    "number": 3,
+                    "content": "at java.util.Properties.loadConvert(Properties.java:574) ~[?:1.8.0_202]"
+                },
+                {
+                    "number": 4,
+                    "content": "at java.util.Properties.load0(Properties.java:391) ~[?:1.8.0_202]"
+                },
+                {
+                    "number": 5,
+                    "content": "at java.util.Properties.load(Properties.java:341) ~[?:1.8.0_202]"
+                },
+                {
+                    "number": 6,
+                    "content": "at uk.b(SourceFile:55) ~[minecraft_server.jar:?]"
+                },
+                {
+                    "number": 7,
+                    "content": "at uh.a(SourceFile:69) ~[minecraft_server.jar:?]"
+                },
+                {
+                    "number": 8,
+                    "content": "at ui.&lt;init&gt;(SourceFile:12) ~[minecraft_server.jar:?]"
+                },
+                {
+                    "number": 9,
+                    "content": "at net.minecraft.server.MinecraftServer.main(SourceFile:887) [minecraft_server.jar:?]"
+                },
+                {
+                    "number": 10,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "Something (probably the MOTD) contains malformed formatting codes.",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[21:28:50] [main\/FATAL]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[21:28:50] [main\/FATAL]: Failed to start the minecraft server"
+                        },
+                        {
+                            "number": 2,
+                            "content": "java.lang.IllegalArgumentException: Malformed \\uxxxx encoding."
+                        },
+                        {
+                            "number": 3,
+                            "content": "at java.util.Properties.loadConvert(Properties.java:574) ~[?:1.8.0_202]"
+                        },
+                        {
+                            "number": 4,
+                            "content": "at java.util.Properties.load0(Properties.java:391) ~[?:1.8.0_202]"
+                        },
+                        {
+                            "number": 5,
+                            "content": "at java.util.Properties.load(Properties.java:341) ~[?:1.8.0_202]"
+                        },
+                        {
+                            "number": 6,
+                            "content": "at uk.b(SourceFile:55) ~[minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 7,
+                            "content": "at uh.a(SourceFile:69) ~[minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 8,
+                            "content": "at ui.&lt;init&gt;(SourceFile:12) ~[minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 9,
+                            "content": "at net.minecraft.server.MinecraftServer.main(SourceFile:887) [minecraft_server.jar:?]"
+                        },
+                        {
+                            "number": 10,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Change the server MOTD."
+                    }
+                ]
+            }
+        ],
+        "information": []
+    }
+}

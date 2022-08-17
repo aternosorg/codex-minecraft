@@ -2,29 +2,36 @@
 
 namespace Aternos\Codex\Minecraft\Detective;
 
-use Aternos\Codex\Minecraft\Log\BedrockContentLog;
-use Aternos\Codex\Minecraft\Log\BedrockLog;
-use Aternos\Codex\Minecraft\Log\BungeeCordLog;
-use Aternos\Codex\Minecraft\Log\CraftBukkitLog;
-use Aternos\Codex\Minecraft\Log\CrashReport\ForgeCrashReportLog;
-use Aternos\Codex\Minecraft\Log\CrashReport\MinecraftCrashReportLog;
-use Aternos\Codex\Minecraft\Log\CrashReport\PaperCrashReportLog;
-use Aternos\Codex\Minecraft\Log\FabricLog;
-use Aternos\Codex\Minecraft\Log\ForgeLog;
-use Aternos\Codex\Minecraft\Log\GeyserLog;
-use Aternos\Codex\Minecraft\Log\GlowstoneLog;
-use Aternos\Codex\Minecraft\Log\MagmaLog;
-use Aternos\Codex\Minecraft\Log\MohistLog;
-use Aternos\Codex\Minecraft\Log\OldCraftBukkitLog;
-use Aternos\Codex\Minecraft\Log\OldSpigotLog;
-use Aternos\Codex\Minecraft\Log\OldVanillaLog;
-use Aternos\Codex\Minecraft\Log\PaperLog;
-use Aternos\Codex\Minecraft\Log\PocketmineLog;
-use Aternos\Codex\Minecraft\Log\QuiltLog;
-use Aternos\Codex\Minecraft\Log\SpigotLog;
-use Aternos\Codex\Minecraft\Log\VanillaLog;
-use Aternos\Codex\Minecraft\Log\VelocityLog;
-use Aternos\Codex\Minecraft\Log\WaterfallLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Bedrock\BedrockContentLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Bedrock\BedrockServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\BungeeCord\BungeeCordProxyLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\BungeeCord\Waterfall\WaterFallProxyLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Geyser\GeyserProxyLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Pocketmine\PocketmineServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\PolyMC\PolyMCClientLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\CraftBukkit\CraftBukkitServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\CraftBukkit\OldCraftBukkitServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Glowstone\GlowstoneServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper\PaperCrashReportLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper\PaperServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Spigot\OldSpigotServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Spigot\SpigotServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric\FabricClientLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric\FabricServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\ForgeClientLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\ForgeCrashReportLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\ForgeServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Magma\MagmaServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Mohist\MohistCrashReportLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Mohist\MohistServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\OldVanillaServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt\QuiltClientLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt\QuiltServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaClientLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaCrashReportLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Velocity\VelocityProxyLog;
 
 /**
  * Class Detective
@@ -33,33 +40,48 @@ use Aternos\Codex\Minecraft\Log\WaterfallLog;
  */
 class Detective extends \Aternos\Codex\Detective\Detective
 {
-    /**
-     * @var array
-     */
-    protected $possibleLogClasses = [
-        VanillaLog::class,
-        OldVanillaLog::class,
-        OldCraftBukkitLog::class,
-        OldSpigotLog::class,
-        CraftBukkitLog::class,
-        SpigotLog::class,
-        PaperLog::class,
-        MohistLog::class,
-        MagmaLog::class,
-        ForgeLog::class,
-        PocketmineLog::class,
-        BedrockLog::class,
+    protected string $defaultLogClass = MinecraftLog::class;
+    protected array $possibleLogClasses = [
+        FabricClientLog::class,
+        QuiltClientLog::class,
+        ForgeClientLog::class,
+        VanillaClientLog::class,
+
+        VanillaServerLog::class,
+        OldVanillaServerLog::class,
+        OldCraftBukkitServerLog::class,
+        OldSpigotServerLog::class,
+        CraftBukkitServerLog::class,
+        SpigotServerLog::class,
+        PaperServerLog::class,
+        MohistServerLog::class,
+        MagmaServerLog::class,
+        ForgeServerLog::class,
+        PocketmineServerLog::class,
+        BedrockServerLog::class,
         BedrockContentLog::class,
-        FabricLog::class,
-        BungeeCordLog::class,
-        WaterfallLog::class,
-        VelocityLog::class,
-        GeyserLog::class,
-        GlowstoneLog::class,
-        QuiltLog::class,
+        FabricServerLog::class,
+        BungeeCordProxyLog::class,
+        WaterfallProxyLog::class,
+        VelocityProxyLog::class,
+        GeyserProxyLog::class,
+        GlowstoneServerLog::class,
+        QuiltServerLog::class,
 
         PaperCrashReportLog::class,
         ForgeCrashReportLog::class,
-        MinecraftCrashReportLog::class
+        VanillaCrashReportLog::class,
+        MohistCrashReportLog::class,
+
+        PolyMCClientLog::class
     ];
+
+    /**
+     * @return MinecraftLog
+     */
+    public function detect(): MinecraftLog
+    {
+        /** @var MinecraftLog */
+        return parent::detect();
+    }
 }

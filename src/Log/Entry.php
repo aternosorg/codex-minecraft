@@ -9,10 +9,7 @@ namespace Aternos\Codex\Minecraft\Log;
  */
 class Entry extends \Aternos\Codex\Log\Entry
 {
-    /**
-     * @var string
-     */
-    protected $prefix;
+    protected ?string $prefix = null;
 
     /**
      * Set the prefix
@@ -20,7 +17,7 @@ class Entry extends \Aternos\Codex\Log\Entry
      * @param string $prefix
      * @return $this
      */
-    public function setPrefix(string $prefix)
+    public function setPrefix(string $prefix): static
     {
         $this->prefix = $prefix;
         return $this;
@@ -31,8 +28,21 @@ class Entry extends \Aternos\Codex\Log\Entry
      *
      * @return string|null
      */
-    public function getPrefix()
+    public function getPrefix(): ?string
     {
         return $this->prefix;
+    }
+
+    /**
+     * @return array
+     */
+    public function jsonSerialize(): array
+    {
+        $output = parent::jsonSerialize();
+        $lines = $output['lines'];
+        unset($output['lines']);
+        $output['prefix'] = $this->getPrefix();
+        $output['lines'] = $lines;
+        return $output;
     }
 }

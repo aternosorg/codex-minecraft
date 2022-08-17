@@ -1,0 +1,283 @@
+{
+    "id": "spigot\/server",
+    "name": "Spigot",
+    "type": "Server Log",
+    "version": "1.8.8",
+    "title": "Spigot 1.8.8 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:42] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[11:47:42] [Server thread\/INFO]: Starting minecraft server version 1.8.8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:42] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[11:47:42] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:43] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[11:47:43] [Server thread\/INFO]: Default game type: CREATIVE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:43] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[11:47:43] [Server thread\/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:46] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[11:47:46] [Server thread\/INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:46] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[11:47:46] [Server thread\/INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:46] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[11:47:46] [Server thread\/INFO]: Debug logging is disabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:46] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[11:47:46] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:47] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[11:47:47] [Server thread\/INFO]: Starting Minecraft server on *:10921"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:47] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[11:47:47] [Server thread\/INFO]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[11:47:48] [Server thread\/ERROR]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[11:47:48] [Server thread\/ERROR]: Could not load 'plugins\/GamenixText.jar' in folder 'plugins'"
+                },
+                {
+                    "number": 12,
+                    "content": "org.bukkit.plugin.InvalidDescriptionException: main is not defined"
+                },
+                {
+                    "number": 13,
+                    "content": "\tat org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:917) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 14,
+                    "content": "\tat org.bukkit.plugin.PluginDescriptionFile.&lt;init&gt;(PluginDescriptionFile.java:232) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:159) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                },
+                {
+                    "number": 21,
+                    "content": "Caused by: java.lang.NullPointerException"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:912) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                },
+                {
+                    "number": 23,
+                    "content": "\t... 7 more"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:48] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[11:47:48] [Server thread\/INFO]: Set PluginClassLoader as parallel capable"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The plugin 'GamenixText' could not be loaded.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[11:47:48] [Server thread\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 11,
+                            "content": "[11:47:48] [Server thread\/ERROR]: Could not load 'plugins\/GamenixText.jar' in folder 'plugins'"
+                        },
+                        {
+                            "number": 12,
+                            "content": "org.bukkit.plugin.InvalidDescriptionException: main is not defined"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:917) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat org.bukkit.plugin.PluginDescriptionFile.&lt;init&gt;(PluginDescriptionFile.java:232) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:159) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "Caused by: java.lang.NullPointerException"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:912) ~[minecraft_server.jar:git-Spigot-db6de12-18fbb24]"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\t... 7 more"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'GamenixText'."
+                    },
+                    {
+                        "message": "Delete the file 'plugins\/GamenixText.jar'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.8.8",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[11:47:42] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[11:47:42] [Server thread\/INFO]: Starting minecraft server version 1.8.8"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.8.8"
+            }
+        ]
+    }
+}

@@ -16,7 +16,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class AuthMeShutdownProblem extends SpecificPluginProblem
 {
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -30,7 +30,7 @@ class AuthMeShutdownProblem extends SpecificPluginProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -41,9 +41,10 @@ class AuthMeShutdownProblem extends SpecificPluginProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->addSolution((new AuthMeShutdownSolution()));
         $this->addSolution((new PluginConfigureSolution())->setPluginName("AuthMe")->setSuggestedFile("plugins/AuthMe/config.yml"));

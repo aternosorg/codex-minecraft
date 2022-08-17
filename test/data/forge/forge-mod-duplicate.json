@@ -1,0 +1,3477 @@
+{
+    "id": "forge\/server",
+    "name": "Forge",
+    "type": "Server Log",
+    "version": null,
+    "title": "Forge Server Log",
+    "entries": [
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:19] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[22:32:19] [main\/DEBUG] [FML\/]: Injecting tracing printstreams for STDOUT\/STDERR."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:20] [main\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[22:32:20] [main\/INFO] [FML\/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:20] [main\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[22:32:20] [main\/INFO] [FML\/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_144, running on Linux:amd64:4.4.0-141-generic, installed at \/aternos\/bin\/jdk1.8.0_144\/jre"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Java classpath at launch is forge.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Java library path at launch is \/usr\/java\/packages\/lib\/amd64:\/usr\/lib64:\/lib64:\/lib:\/usr\/lib"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Enabling runtime deobfuscation"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Instantiating coremod class FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Enqueued coremod FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Instantiating coremod class FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Enqueued coremod FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: All fundamental core mods are successfully located"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Attempting to load commandline specified mods, relative to \/aternos\/server\/."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Discovering coremods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Examining for coremod candidacy AoA-Tslat-1.1.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Not found coremod data in AoA-Tslat-1.1.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Examining for coremod candidacy Baubles-1.7.10-1.0.1.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Not found coremod data in Baubles-1.7.10-1.0.1.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Examining for coremod candidacy Baubles-1.7.10-1.0.1.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Not found coremod data in Baubles-1.7.10-1.0.1.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Examining for coremod candidacy BetterFps-1.0.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:20] [main\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[22:32:20] [main\/INFO] [FML\/]: Loading tweaker me.guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.0.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Examining for coremod candidacy Bookshelf-1.7.10-1.0.4.187.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:20] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[22:32:20] [main\/TRACE] [FML\/]: Found FMLCorePluginContainsFMLMod marker in Bookshelf-1.7.10-1.0.4.187.jar, it will be examined later for regular @Mod instances"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Instantiating coremod class BookshelfLoadingPlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: The coremod net.darkhax.bookshelf.asm.BookshelfLoadingPlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Enqueued coremod BookshelfLoadingPlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Examining for coremod candidacy ChestTransporter-1.7.10-2.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Not found coremod data in ChestTransporter-1.7.10-2.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Examining for coremod candidacy CodeChickenCore-1.7.10-1.0.7.47-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:20] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[22:32:20] [main\/TRACE] [FML\/]: Adding CodeChickenCore-1.7.10-1.0.7.47-universal.jar to the list of known coremods, it will not be examined again"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:20] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[22:32:20] [main\/DEBUG] [FML\/]: Instantiating coremod class CodeChickenCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[22:32:23] [main\/WARN] [FML\/]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[22:32:23] [main\/WARN] [FML\/]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Added access transformer class codechicken.core.asm.CodeChickenAccessTransformer to enqueued access transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Enqueued coremod CodeChickenCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy CodeChickenLib-1.7.10-1.1.3.138-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Not found coremod data in CodeChickenLib-1.7.10-1.1.3.138-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy EnchantingPlus-1.7.10-3.0.2-d.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Not found coremod data in EnchantingPlus-1.7.10-3.0.2-d.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy ForgeMultipart-1.7.10-1.2.0.345-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:23] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[22:32:23] [main\/TRACE] [FML\/]: Found FMLCorePluginContainsFMLMod marker in ForgeMultipart-1.7.10-1.2.0.345-universal.jar, it will be examined later for regular @Mod instances"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Instantiating coremod class DepLoader"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[22:32:23] [main\/WARN] [FML\/]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[22:32:23] [main\/WARN] [FML\/]: The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Enqueued coremod DepLoader"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy iChunUtil-4.2.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Not found coremod data in iChunUtil-4.2.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy InventoryTweaks-1.59-dev-152.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:23] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[22:32:23] [main\/TRACE] [FML\/]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.59-dev-152.jar, it will be examined later for regular @Mod instances"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Instantiating coremod class FMLPlugin"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[22:32:23] [main\/WARN] [FML\/]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[22:32:23] [main\/WARN] [FML\/]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Added access transformer class invtweaks.forge.asm.ITAccessTransformer to enqueued access transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Enqueued coremod FMLPlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy IronBackpacks-1.7.10-1.2.20.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Not found coremod data in IronBackpacks-1.7.10-1.2.20.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy ironchest-1.7.10-6.0.62.742-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Not found coremod data in ironchest-1.7.10-6.0.62.742-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy ironfurnaces-1.2.4R.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Not found coremod data in ironfurnaces-1.2.4R.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy journeymap-1.7.10-5.1.4p2-unlimited.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Not found coremod data in journeymap-1.7.10-5.1.4p2-unlimited.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy Morph-Beta-0.9.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Not found coremod data in Morph-Beta-0.9.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy Morpheus-1.7.10-1.6.21.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Not found coremod data in Morpheus-1.7.10-1.6.21.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy NaturesCompass-1.7.10-1.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Not found coremod data in NaturesCompass-1.7.10-1.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy netherportalfix-mc1.7.10-1.1.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Not found coremod data in netherportalfix-mc1.7.10-1.1.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy NotEnoughItems-1.7.10-1.0.5.120-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:23] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[22:32:23] [main\/TRACE] [FML\/]: Adding NotEnoughItems-1.7.10-1.0.5.120-universal.jar to the list of known coremods, it will not be examined again"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Instantiating coremod class NEICorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[22:32:23] [main\/WARN] [FML\/]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[22:32:23] [main\/WARN] [FML\/]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Enqueued coremod NEICorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Examining for coremod candidacy OreExcavation-1.1.120.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Not found coremod data in OreExcavation-1.1.120.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:23] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[22:32:23] [main\/INFO] [LaunchWrapper\/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:23] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[22:32:23] [main\/INFO] [LaunchWrapper\/]: Loading tweak class name me.guichaguri.betterfps.tweaker.BetterFpsTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:23] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[22:32:23] [main\/INFO] [LaunchWrapper\/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:23] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[22:32:23] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:23] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[22:32:23] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:23] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[22:32:23] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:23] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[22:32:23] [main\/TRACE] [FML\/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:23] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[22:32:23] [main\/TRACE] [FML\/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:23] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[22:32:23] [main\/TRACE] [FML\/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:23] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[22:32:23] [main\/DEBUG] [FML\/]: Running coremod plugin FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:26] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[22:32:26] [main\/DEBUG] [FML\/]: Read 527 binary patches"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[22:32:28] [main\/INFO] [FML\/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Coremod plugin class FMLCorePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[22:32:28] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[22:32:28] [main\/TRACE] [FML\/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Running coremod plugin FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Coremod plugin class FMLForgePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[22:32:28] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Injecting coremod CCCDeobfPlugin {codechicken.core.asm.MCPDeobfuscationTransformer$LoadPlugin} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Running coremod plugin for CCCDeobfPlugin {codechicken.core.asm.MCPDeobfuscationTransformer$LoadPlugin}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Running coremod plugin CCCDeobfPlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Coremod plugin class LoadPlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "[22:32:28] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Injecting coremod CodeChickenCorePlugin {codechicken.core.launch.CodeChickenCorePlugin} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[22:32:28] [main\/TRACE] [FML\/]: Registering transformer codechicken.lib.asm.ClassHeirachyManager"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[22:32:28] [main\/TRACE] [FML\/]: Registering transformer codechicken.core.asm.InterfaceDependancyTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[22:32:28] [main\/TRACE] [FML\/]: Registering transformer codechicken.core.asm.TweakTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[22:32:28] [main\/TRACE] [FML\/]: Registering transformer codechicken.core.asm.DelegatedTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[22:32:28] [main\/TRACE] [FML\/]: Registering transformer codechicken.core.asm.DefaultImplementationTransformer"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Running coremod plugin for CodeChickenCorePlugin {codechicken.core.launch.CodeChickenCorePlugin}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Running coremod plugin CodeChickenCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Coremod plugin class CodeChickenCorePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[22:32:28] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Injecting coremod DepLoader {codechicken.core.launch.DepLoader} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Running coremod plugin for DepLoader {codechicken.core.launch.DepLoader}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Running coremod plugin DepLoader"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Coremod plugin class DepLoader run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "[22:32:28] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Injecting coremod FMLPlugin {invtweaks.forge.asm.FMLPlugin} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "[22:32:28] [main\/TRACE] [FML\/]: Registering transformer invtweaks.forge.asm.ContainerTransformer"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Running coremod plugin for FMLPlugin {invtweaks.forge.asm.FMLPlugin}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Running coremod plugin FMLPlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Coremod plugin class FMLPlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "[22:32:28] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Injecting coremod NEICorePlugin {codechicken.nei.asm.NEICorePlugin} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "[22:32:28] [main\/TRACE] [FML\/]: Registering transformer codechicken.nei.asm.NEITransformer"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Running coremod plugin for NEICorePlugin {codechicken.nei.asm.NEICorePlugin}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Running coremod plugin NEICorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Coremod plugin class NEICorePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "[22:32:28] [main\/INFO] [LaunchWrapper\/]: Calling tweak class me.guichaguri.betterfps.tweaker.BetterFpsTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:28] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "[22:32:28] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Loaded 9 rules from AccessTransformer config file invtweaks_at.cfg"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Loaded 11 rules from AccessTransformer mod jar file \/aternos\/server\/mods\/NotEnoughItems-1.7.10-1.0.5.120-universal.jar!META-INF\/nei_at.cfg"
+                },
+                {
+                    "number": 144,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Loaded 3 rules from AccessTransformer mod jar file \/aternos\/server\/mods\/netherportalfix-mc1.7.10-1.1.0.jar!META-INF\/netherportalfix_at.cfg"
+                },
+                {
+                    "number": 146,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Loaded 60 rules from AccessTransformer mod jar file \/aternos\/server\/mods\/iChunUtil-4.2.3.jar!META-INF\/iChunUtil_at.cfg"
+                },
+                {
+                    "number": 148,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "[22:32:28] [main\/DEBUG] [FML\/]: Validating minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:30] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "[22:32:30] [main\/DEBUG] [FML\/]: Minecraft validated, launching..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:30] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "[22:32:30] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:30] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "[22:32:30] [main\/DEBUG] [FML\/]: Injecting coremod BookshelfLoadingPlugin {net.darkhax.bookshelf.asm.BookshelfLoadingPlugin} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:30] [main\/INFO] [Bookshelf\/]:",
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "[22:32:30] [main\/INFO] [Bookshelf\/]: Starting to apply transformations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:30] [main\/INFO] [Bookshelf\/]:",
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "[22:32:30] [main\/INFO] [Bookshelf\/]: Starting to apply transformations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:30] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "[22:32:30] [main\/TRACE] [FML\/]: Registering transformer net.darkhax.bookshelf.asm.BookshelfTransformerManager"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:30] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "[22:32:30] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:30] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "[22:32:30] [main\/DEBUG] [FML\/]: Running coremod plugin for BookshelfLoadingPlugin {net.darkhax.bookshelf.asm.BookshelfLoadingPlugin}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:30] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "[22:32:30] [main\/DEBUG] [FML\/]: Running coremod plugin BookshelfLoadingPlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:30] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 159,
+                    "content": "[22:32:30] [main\/DEBUG] [FML\/]: Coremod plugin class BookshelfLoadingPlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:30] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "[22:32:30] [main\/INFO] [LaunchWrapper\/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:30] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "[22:32:30] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:32] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "[22:32:32] [main\/INFO] [LaunchWrapper\/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:32] [main\/DEBUG] [CCL ASM\/]:",
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "[22:32:32] [main\/DEBUG] [CCL ASM\/]: Writing method [aji.canBeReplacedByLeaves(Lahl;III)Z]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:34] [main\/DEBUG] [CCL ASM\/]:",
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "[22:32:34] [main\/DEBUG] [CCL ASM\/]: Injecting before method [dh.toString()Ljava\/lang\/String;] @ 51 - 55"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:34] [main\/DEBUG] [CCL ASM\/]:",
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "[22:32:34] [main\/DEBUG] [CCL ASM\/]: Injecting before method [dq.toString()Ljava\/lang\/String;] @ 56 - 60"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:35] [main\/INFO] [BetterFps\/]:",
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "[22:32:35] [main\/INFO] [BetterFps\/]: Patching Minecraft using Riven's \"Half\" Algorithm"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:38] [Server thread\/INFO] [MinecraftForge\/]:",
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "[22:32:38] [Server thread\/INFO] [MinecraftForge\/]: Attempting early MinecraftForge initialization"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:38] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "[22:32:38] [Server thread\/INFO] [FML\/]: MinecraftForge v10.13.4.1614 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "[22:32:39] [Server thread\/INFO] [FML\/]: Replaced 183 ore recipies"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/INFO] [MinecraftForge\/]:",
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "[22:32:39] [Server thread\/INFO] [MinecraftForge\/]: Completed early MinecraftForge initialization"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: File \/aternos\/server\/config\/injectedDependencies.json not found. No dependencies injected"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 172,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, codechicken.core.asm.CodeChickenCoreModContainer, codechicken.nei.NEIModContainer]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 173,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Attempting to load mods contained in the minecraft jar file and associated classes"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 174,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a minecraft related file at \/aternos\/server\/forge.jar, examining for mod candidates"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 175,
+                    "content": "[22:32:39] [Server thread\/TRACE] [FML\/]: Skipping known library file \/aternos\/server\/mods\/BetterFps-1.0.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 176,
+                    "content": "[22:32:39] [Server thread\/TRACE] [FML\/]: Skipping known library file \/aternos\/server\/mods\/Bookshelf-1.7.10-1.0.4.187.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 177,
+                    "content": "[22:32:39] [Server thread\/TRACE] [FML\/]: Skipping known library file \/aternos\/server\/mods\/CodeChickenCore-1.7.10-1.0.7.47-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 178,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a minecraft related file at \/aternos\/server\/.\/mods\/1.7.10\/CodeChickenLib-1.7.10-1.1.3.138-universal.jar, examining for mod candidates"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 179,
+                    "content": "[22:32:39] [Server thread\/TRACE] [FML\/]: Skipping known library file \/aternos\/server\/mods\/1.7.10\/ForgeMultipart-1.7.10-1.2.0.345-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 180,
+                    "content": "[22:32:39] [Server thread\/TRACE] [FML\/]: Skipping known library file \/aternos\/server\/mods\/InventoryTweaks-1.59-dev-152.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 181,
+                    "content": "[22:32:39] [Server thread\/TRACE] [FML\/]: Skipping known library file \/aternos\/server\/mods\/NotEnoughItems-1.7.10-1.0.5.120-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 182,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Minecraft jar mods loaded successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 183,
+                    "content": "[22:32:39] [Server thread\/INFO] [FML\/]: Found 0 mods from the command line. Injecting into mod discoverer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 184,
+                    "content": "[22:32:39] [Server thread\/INFO] [FML\/]: Searching \/aternos\/server\/mods for mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 185,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate mod directory 1.7.10"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 186,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file AoA-Tslat-1.1.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 187,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file Baubles-1.7.10-1.0.1.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 188,
+                    "content": "[22:32:39] [Server thread\/TRACE] [FML\/]: Skipping already parsed coremod or tweaker BetterFps-1.0.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 189,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file Bookshelf-1.7.10-1.0.4.187.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file ChestTransporter-1.7.10-2.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 191,
+                    "content": "[22:32:39] [Server thread\/TRACE] [FML\/]: Skipping already parsed coremod or tweaker CodeChickenCore-1.7.10-1.0.7.47-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 192,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file EnchantingPlus-1.7.10-3.0.2-d.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 193,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file iChunUtil-4.2.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 194,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file InventoryTweaks-1.59-dev-152.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 195,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file IronBackpacks-1.7.10-1.2.20.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 196,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file ironchest-1.7.10-6.0.62.742-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 197,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file ironfurnaces-1.2.4R.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 198,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file journeymap-1.7.10-5.1.4p2-unlimited.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 199,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file Morph-Beta-0.9.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 200,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file Morpheus-1.7.10-1.6.21.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 201,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file NaturesCompass-1.7.10-1.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 202,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file netherportalfix-mc1.7.10-1.1.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 203,
+                    "content": "[22:32:39] [Server thread\/TRACE] [FML\/]: Skipping already parsed coremod or tweaker NotEnoughItems-1.7.10-1.0.5.120-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 204,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file OreExcavation-1.1.120.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 205,
+                    "content": "[22:32:39] [Server thread\/INFO] [FML\/]: Also searching \/aternos\/server\/mods\/1.7.10 for mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 206,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file Baubles-1.7.10-1.0.1.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 207,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file CodeChickenLib-1.7.10-1.1.3.138-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 208,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file ForgeMultipart-1.7.10-1.2.0.345-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 209,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: Examining file forge.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 210,
+                    "content": "[22:32:39] [Server thread\/DEBUG] [FML\/]: The mod container forge.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 211,
+                    "content": "[22:32:41] [Server thread\/DEBUG] [FML\/]: Examining file CodeChickenLib-1.7.10-1.1.3.138-universal.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 212,
+                    "content": "[22:32:41] [Server thread\/DEBUG] [FML\/]: The mod container CodeChickenLib-1.7.10-1.1.3.138-universal.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 213,
+                    "content": "[22:32:41] [Server thread\/DEBUG] [FML\/]: Examining directory 1.7.10 for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 214,
+                    "content": "[22:32:41] [Server thread\/DEBUG] [FML\/]: No mcmod.info file found in directory 1.7.10"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 215,
+                    "content": "[22:32:41] [Server thread\/DEBUG] [FML\/]: Examining file AoA-Tslat-1.1.3.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:41] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 216,
+                    "content": "[22:32:41] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file AoA-Tslat-1.1.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:42] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 217,
+                    "content": "[22:32:42] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (net.nevermine.common.nevermine) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:42] [Server thread\/TRACE] [nevermine\/]:",
+            "lines": [
+                {
+                    "number": 218,
+                    "content": "[22:32:42] [Server thread\/TRACE] [nevermine\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:44] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 219,
+                    "content": "[22:32:44] [Server thread\/DEBUG] [FML\/]: Examining file Baubles-1.7.10-1.0.1.10.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:44] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 220,
+                    "content": "[22:32:44] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file Baubles-1.7.10-1.0.1.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 221,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (baubles.common.Baubles) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [Baubles\/]:",
+            "lines": [
+                {
+                    "number": 222,
+                    "content": "[22:32:45] [Server thread\/TRACE] [Baubles\/]: Parsed dependency info : [Forge@[10.13.2,)] [Forge@[10.13.2,)] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 223,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Examining file Bookshelf-1.7.10-1.0.4.187.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 224,
+                    "content": "[22:32:45] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file Bookshelf-1.7.10-1.0.4.187.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 225,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (net.darkhax.bookshelf.Bookshelf) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [bookshelf\/]:",
+            "lines": [
+                {
+                    "number": 226,
+                    "content": "[22:32:45] [Server thread\/TRACE] [bookshelf\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 227,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Examining file ChestTransporter-1.7.10-2.0.6.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 228,
+                    "content": "[22:32:45] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file ChestTransporter-1.7.10-2.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 229,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (cubex2.mods.chesttransporter.ChestTransporter) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [ChestTransporter\/]:",
+            "lines": [
+                {
+                    "number": 230,
+                    "content": "[22:32:45] [Server thread\/TRACE] [ChestTransporter\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 231,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Examining file EnchantingPlus-1.7.10-3.0.2-d.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 232,
+                    "content": "[22:32:45] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file EnchantingPlus-1.7.10-3.0.2-d.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 233,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (com.aesireanempire.eplus.EnchantingPlus) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [eplus\/]:",
+            "lines": [
+                {
+                    "number": 234,
+                    "content": "[22:32:45] [Server thread\/TRACE] [eplus\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 235,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Examining file iChunUtil-4.2.3.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 236,
+                    "content": "[22:32:45] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file iChunUtil-4.2.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 237,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (ichun.common.iChunUtil) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [iChunUtil\/]:",
+            "lines": [
+                {
+                    "number": 238,
+                    "content": "[22:32:45] [Server thread\/TRACE] [iChunUtil\/]: Parsed dependency info : [Forge@[10.13.2.1291,)] [Forge@[10.13.2.1291,)] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 239,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Examining file InventoryTweaks-1.59-dev-152.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 240,
+                    "content": "[22:32:45] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file InventoryTweaks-1.59-dev-152.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 241,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (invtweaks.forge.InvTweaksMod) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [inventorytweaks\/]:",
+            "lines": [
+                {
+                    "number": 242,
+                    "content": "[22:32:45] [Server thread\/TRACE] [inventorytweaks\/]: Parsed dependency info : [FML@[7.2.0,), Forge@[10.12.1,)] [FML@[7.2.0,), Forge@[10.12.1,)] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [inventorytweaks\/]:",
+            "lines": [
+                {
+                    "number": 243,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [inventorytweaks\/]: Attempting to load the file version.properties from InventoryTweaks-1.59-dev-152.jar to locate a version number for inventorytweaks"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [inventorytweaks\/]:",
+            "lines": [
+                {
+                    "number": 244,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [inventorytweaks\/]: Found version 1.59-dev-152-cf6e263 for mod inventorytweaks in version.properties, using"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 245,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Examining file IronBackpacks-1.7.10-1.2.20.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 246,
+                    "content": "[22:32:45] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file IronBackpacks-1.7.10-1.2.20.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 247,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (main.ironbackpacks.IronBackpacks) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [ironbackpacks\/]:",
+            "lines": [
+                {
+                    "number": 248,
+                    "content": "[22:32:45] [Server thread\/TRACE] [ironbackpacks\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 249,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Examining file ironchest-1.7.10-6.0.62.742-universal.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 250,
+                    "content": "[22:32:45] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file ironchest-1.7.10-6.0.62.742-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 251,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (cpw.mods.ironchest.IronChest) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [IronChest\/]:",
+            "lines": [
+                {
+                    "number": 252,
+                    "content": "[22:32:45] [Server thread\/TRACE] [IronChest\/]: Parsed dependency info : [FML@[7.2,), Forge@[10.10,)] [Forge@[10.10,), FML@[7.2,)] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [IronChest\/]:",
+            "lines": [
+                {
+                    "number": 253,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [IronChest\/]: Attempting to load the file version.properties from ironchest-1.7.10-6.0.62.742-universal.jar to locate a version number for IronChest"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [IronChest\/]:",
+            "lines": [
+                {
+                    "number": 254,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [IronChest\/]: Found version **.**.**.** for mod IronChest in version.properties, using"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 255,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Examining file ironfurnaces-1.2.4R.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 256,
+                    "content": "[22:32:45] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file ironfurnaces-1.2.4R.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 257,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (IronFurnaces) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [ironfurnaces\/]:",
+            "lines": [
+                {
+                    "number": 258,
+                    "content": "[22:32:45] [Server thread\/TRACE] [ironfurnaces\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [ironfurnaces\/]:",
+            "lines": [
+                {
+                    "number": 259,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [ironfurnaces\/]: Attempting to load the file version.properties from ironfurnaces-1.2.4R.jar to locate a version number for ironfurnaces"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/WARN] [ironfurnaces\/]:",
+            "lines": [
+                {
+                    "number": 260,
+                    "content": "[22:32:45] [Server thread\/WARN] [ironfurnaces\/]: Mod ironfurnaces is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.2.4"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 261,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Examining file journeymap-1.7.10-5.1.4p2-unlimited.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 262,
+                    "content": "[22:32:45] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file journeymap-1.7.10-5.1.4p2-unlimited.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 263,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (journeymap.common.Journeymap) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [journeymap\/]:",
+            "lines": [
+                {
+                    "number": 264,
+                    "content": "[22:32:45] [Server thread\/TRACE] [journeymap\/]: Using mcmod dependency info : [Forge@[10.13.4.1558,)] [Forge@[10.13.4.1558,)] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 265,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Examining file Morph-Beta-0.9.3.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 266,
+                    "content": "[22:32:45] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file Morph-Beta-0.9.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 267,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (morph.common.Morph) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [Morph\/]:",
+            "lines": [
+                {
+                    "number": 268,
+                    "content": "[22:32:45] [Server thread\/TRACE] [Morph\/]: Parsed dependency info : [iChunUtil@[4.0.0,)] [iChunUtil@[4.0.0,)] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 269,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Examining file Morpheus-1.7.10-1.6.21.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 270,
+                    "content": "[22:32:45] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file Morpheus-1.7.10-1.6.21.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 271,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (net.quetzi.morpheus.Morpheus) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [Morpheus\/]:",
+            "lines": [
+                {
+                    "number": 272,
+                    "content": "[22:32:45] [Server thread\/TRACE] [Morpheus\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 273,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Examining file NaturesCompass-1.7.10-1.3.1.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 274,
+                    "content": "[22:32:45] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file NaturesCompass-1.7.10-1.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 275,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (com.chaosthedude.naturescompass.NaturesCompass) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [naturescompass\/]:",
+            "lines": [
+                {
+                    "number": 276,
+                    "content": "[22:32:45] [Server thread\/TRACE] [naturescompass\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 277,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Examining file netherportalfix-mc1.7.10-1.1.0.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 278,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: The mod container netherportalfix-mc1.7.10-1.1.0.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 279,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (net.blay09.mods.netherportalfix.NetherPortalFix) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [netherportalfix\/]:",
+            "lines": [
+                {
+                    "number": 280,
+                    "content": "[22:32:45] [Server thread\/TRACE] [netherportalfix\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [netherportalfix\/]:",
+            "lines": [
+                {
+                    "number": 281,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [netherportalfix\/]: Attempting to load the file version.properties from netherportalfix-mc1.7.10-1.1.0.jar to locate a version number for netherportalfix"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/WARN] [netherportalfix\/]:",
+            "lines": [
+                {
+                    "number": 282,
+                    "content": "[22:32:45] [Server thread\/WARN] [netherportalfix\/]: Mod netherportalfix is missing the required element 'version' and no fallback can be found. Substituting '1.0'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 283,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Examining file OreExcavation-1.1.120.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 284,
+                    "content": "[22:32:45] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file OreExcavation-1.1.120.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 285,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (oreexcavation.core.OreExcavation) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/TRACE] [oreexcavation\/]:",
+            "lines": [
+                {
+                    "number": 286,
+                    "content": "[22:32:45] [Server thread\/TRACE] [oreexcavation\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/DEBUG] [oreexcavation\/]:",
+            "lines": [
+                {
+                    "number": 287,
+                    "content": "[22:32:45] [Server thread\/DEBUG] [oreexcavation\/]: Attempting to load the file version.properties from OreExcavation-1.1.120.jar to locate a version number for oreexcavation"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[22:32:45] [Server thread\/WARN] [oreexcavation\/]:",
+            "lines": [
+                {
+                    "number": 288,
+                    "content": "[22:32:45] [Server thread\/WARN] [oreexcavation\/]: Mod oreexcavation is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.120"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 289,
+                    "content": "[22:32:46] [Server thread\/DEBUG] [FML\/]: Examining file Baubles-1.7.10-1.0.1.10.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 290,
+                    "content": "[22:32:46] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file Baubles-1.7.10-1.0.1.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 291,
+                    "content": "[22:32:46] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (baubles.common.Baubles) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/TRACE] [Baubles\/]:",
+            "lines": [
+                {
+                    "number": 292,
+                    "content": "[22:32:46] [Server thread\/TRACE] [Baubles\/]: Parsed dependency info : [Forge@[10.13.2,)] [Forge@[10.13.2,)] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 293,
+                    "content": "[22:32:46] [Server thread\/DEBUG] [FML\/]: Examining file CodeChickenLib-1.7.10-1.1.3.138-universal.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 294,
+                    "content": "[22:32:46] [Server thread\/DEBUG] [FML\/]: The mod container CodeChickenLib-1.7.10-1.1.3.138-universal.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 295,
+                    "content": "[22:32:46] [Server thread\/DEBUG] [FML\/]: Examining file ForgeMultipart-1.7.10-1.2.0.345-universal.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 296,
+                    "content": "[22:32:46] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file ForgeMultipart-1.7.10-1.2.0.345-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 297,
+                    "content": "[22:32:46] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (codechicken.microblock.handler.MicroblockMod) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/TRACE] [ForgeMicroblock\/]:",
+            "lines": [
+                {
+                    "number": 298,
+                    "content": "[22:32:46] [Server thread\/TRACE] [ForgeMicroblock\/]: Parsed dependency info : [ForgeMultipart] [ForgeMultipart, *] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/DEBUG] [ForgeMicroblock\/]:",
+            "lines": [
+                {
+                    "number": 299,
+                    "content": "[22:32:46] [Server thread\/DEBUG] [ForgeMicroblock\/]: Attempting to load the file version.properties from ForgeMultipart-1.7.10-1.2.0.345-universal.jar to locate a version number for ForgeMicroblock"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/WARN] [ForgeMicroblock\/]:",
+            "lines": [
+                {
+                    "number": 300,
+                    "content": "[22:32:46] [Server thread\/WARN] [ForgeMicroblock\/]: Mod ForgeMicroblock is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version **.**.**.**"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 301,
+                    "content": "[22:32:46] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (codechicken.multipart.handler.MultipartMod) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/TRACE] [ForgeMultipart\/]:",
+            "lines": [
+                {
+                    "number": 302,
+                    "content": "[22:32:46] [Server thread\/TRACE] [ForgeMultipart\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/DEBUG] [ForgeMultipart\/]:",
+            "lines": [
+                {
+                    "number": 303,
+                    "content": "[22:32:46] [Server thread\/DEBUG] [ForgeMultipart\/]: Attempting to load the file version.properties from ForgeMultipart-1.7.10-1.2.0.345-universal.jar to locate a version number for ForgeMultipart"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/WARN] [ForgeMultipart\/]:",
+            "lines": [
+                {
+                    "number": 304,
+                    "content": "[22:32:46] [Server thread\/WARN] [ForgeMultipart\/]: Mod ForgeMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version **.**.**.**"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 305,
+                    "content": "[22:32:46] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (codechicken.multipart.minecraft.MinecraftMultipartMod) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/TRACE] [McMultipart\/]:",
+            "lines": [
+                {
+                    "number": 306,
+                    "content": "[22:32:46] [Server thread\/TRACE] [McMultipart\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/DEBUG] [McMultipart\/]:",
+            "lines": [
+                {
+                    "number": 307,
+                    "content": "[22:32:46] [Server thread\/DEBUG] [McMultipart\/]: Attempting to load the file version.properties from ForgeMultipart-1.7.10-1.2.0.345-universal.jar to locate a version number for McMultipart"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/WARN] [McMultipart\/]:",
+            "lines": [
+                {
+                    "number": 308,
+                    "content": "[22:32:46] [Server thread\/WARN] [McMultipart\/]: Mod McMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version **.**.**.**"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/ERROR] [FML\/]:",
+            "lines": [
+                {
+                    "number": 309,
+                    "content": "[22:32:46] [Server thread\/ERROR] [FML\/]: Found a duplicate mod Baubles at [\/aternos\/server\/mods\/1.7.10\/Baubles-1.7.10-1.0.1.10.jar, \/aternos\/server\/mods\/Baubles-1.7.10-1.0.1.10.jar]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/WARN] [FML\/]:",
+            "lines": [
+                {
+                    "number": 310,
+                    "content": "[22:32:46] [Server thread\/WARN] [FML\/]: Can't revert to frozen GameData state without freezing first."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 311,
+                    "content": "[22:32:46] [Server thread\/INFO] [FML\/]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 312,
+                    "content": "[22:32:46] [Server thread\/INFO] [FML\/]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:32:46] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 313,
+                    "content": "[22:32:46] [Server thread\/INFO] [FML\/]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded."
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "There are multiple mod files for the mod name 'Baubles': 'Baubles-1.7.10-1.0.1.10.jar' and 'Baubles-1.7.10-1.0.1.10.jar'.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[22:32:46] [Server thread\/ERROR] [FML\/]:",
+                    "lines": [
+                        {
+                            "number": 309,
+                            "content": "[22:32:46] [Server thread\/ERROR] [FML\/]: Found a duplicate mod Baubles at [\/aternos\/server\/mods\/1.7.10\/Baubles-1.7.10-1.0.1.10.jar, \/aternos\/server\/mods\/Baubles-1.7.10-1.0.1.10.jar]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file '\/aternos\/server\/mods\/1.7.10\/Baubles-1.7.10-1.0.1.10.jar'."
+                    },
+                    {
+                        "message": "Delete the file '\/aternos\/server\/mods\/Baubles-1.7.10-1.0.1.10.jar'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Forge version: 10.13.4.1614",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[22:32:38] [Server thread\/INFO] [FML\/]:",
+                    "lines": [
+                        {
+                            "number": 168,
+                            "content": "[22:32:38] [Server thread\/INFO] [FML\/]: MinecraftForge v10.13.4.1614 Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "10.13.4.1614"
+            }
+        ]
+    }
+}

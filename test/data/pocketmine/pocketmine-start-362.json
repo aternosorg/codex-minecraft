@@ -1,0 +1,246 @@
+{
+    "id": "pocketmine\/server",
+    "name": "Pocketmine",
+    "type": "Server Log",
+    "version": "1.9.0",
+    "title": "Pocketmine 1.9.0 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": 1550278084,
+            "prefix": "2019-02-16 [00:48:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "2019-02-16 [00:48:04] [Server thread\/INFO]: Loading pocketmine.yml..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550278084,
+            "prefix": "2019-02-16 [00:48:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "2019-02-16 [00:48:04] [Server thread\/INFO]: Loading server properties..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550278084,
+            "prefix": "2019-02-16 [00:48:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "2019-02-16 [00:48:04] [Server thread\/INFO]: Selected English (eng) as the base language"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550278084,
+            "prefix": "2019-02-16 [00:48:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "2019-02-16 [00:48:04] [Server thread\/INFO]: Starting Minecraft: Bedrock Edition server version v1.9.0"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1550278084,
+            "prefix": "2019-02-16 [00:48:04] [Server thread\/NOTICE]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "2019-02-16 [00:48:04] [Server thread\/NOTICE]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1550278084,
+            "prefix": "2019-02-16 [00:48:04] [Server thread\/NOTICE]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "2019-02-16 [00:48:04] [Server thread\/NOTICE]: To disable authentication, set \"xbox-auth\" to \"false\" in server.properties."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550278084,
+            "prefix": "2019-02-16 [00:48:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "2019-02-16 [00:48:04] [Server thread\/INFO]: Opening server on 0.0.0.0:13941"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550278084,
+            "prefix": "2019-02-16 [00:48:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "2019-02-16 [00:48:04] [Server thread\/INFO]: This server is running PocketMine-MP version 3.6.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550278084,
+            "prefix": "2019-02-16 [00:48:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "2019-02-16 [00:48:04] [Server thread\/INFO]: PocketMine-MP is distributed under the LGPL License"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550278085,
+            "prefix": "2019-02-16 [00:48:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "2019-02-16 [00:48:05] [Server thread\/INFO]: Loading resource packs..."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1550278085,
+            "prefix": "2019-02-16 [00:48:05] [Server thread\/NOTICE]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "2019-02-16 [00:48:05] [Server thread\/NOTICE]: Level \"world\" not found"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550278085,
+            "prefix": "2019-02-16 [00:48:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "2019-02-16 [00:48:05] [Server thread\/INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1550278085,
+            "prefix": "2019-02-16 [00:48:05] [Server thread\/NOTICE]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "2019-02-16 [00:48:05] [Server thread\/NOTICE]: Spawn terrain for level \"world\" is being generated in the background"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550278086,
+            "prefix": "2019-02-16 [00:48:06] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "2019-02-16 [00:48:06] [Server thread\/INFO]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550278086,
+            "prefix": "2019-02-16 [00:48:06] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "2019-02-16 [00:48:06] [Server thread\/INFO]: Setting query port to 13941"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550278086,
+            "prefix": "2019-02-16 [00:48:06] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "2019-02-16 [00:48:06] [Server thread\/INFO]: Query running on 0.0.0.0:13941"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550278086,
+            "prefix": "2019-02-16 [00:48:06] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "2019-02-16 [00:48:06] [Server thread\/INFO]: Default game type: Survival Mode"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1550278086,
+            "prefix": "2019-02-16 [00:48:06] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "2019-02-16 [00:48:06] [Server thread\/INFO]: Done (1.564s)! For help, type \"help\" or \"?\""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Bedrock version: 1.9.0",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1550278084,
+                    "prefix": "2019-02-16 [00:48:04] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "2019-02-16 [00:48:04] [Server thread\/INFO]: Starting Minecraft: Bedrock Edition server version v1.9.0"
+                        }
+                    ]
+                },
+                "label": "Bedrock version",
+                "value": "1.9.0"
+            },
+            {
+                "message": "Pocketmine version: 3.6.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1550278084,
+                    "prefix": "2019-02-16 [00:48:04] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 8,
+                            "content": "2019-02-16 [00:48:04] [Server thread\/INFO]: This server is running PocketMine-MP version 3.6.2"
+                        }
+                    ]
+                },
+                "label": "Pocketmine version",
+                "value": "3.6.2"
+            }
+        ]
+    }
+}

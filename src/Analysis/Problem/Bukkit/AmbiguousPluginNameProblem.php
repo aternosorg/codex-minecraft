@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -12,23 +13,12 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class AmbiguousPluginNameProblem extends BukkitProblem
 {
-    /**
-     * @var string
-     */
-    protected $firstPluginPath;
+    protected ?string $firstPluginPath = null;
+    protected ?string $secondPluginPath = null;
+    protected ?string $pluginName = null;
 
     /**
-     * @var string
-     */
-    protected $secondPluginPath;
-
-    /**
-     * @var string
-     */
-    protected $pluginName;
-
-    /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -52,7 +42,7 @@ class AmbiguousPluginNameProblem extends BukkitProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -63,9 +53,10 @@ class AmbiguousPluginNameProblem extends BukkitProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->pluginName = $matches[1];
         $this->firstPluginPath = $matches[2];
@@ -100,12 +91,13 @@ class AmbiguousPluginNameProblem extends BukkitProblem
     }
 
     /**
-     * @param static $insight
+     * @param InsightInterface $insight
      * @return bool
      */
-    public function isEqual($insight): bool
+    public function isEqual(InsightInterface $insight): bool
     {
-        return $this->getFirstPluginPath() === $insight->getFirstPluginPath()
+        return $insight instanceof static
+            && $this->getFirstPluginPath() === $insight->getFirstPluginPath()
             && $this->getSecondPluginPath() === $insight->getSecondPluginPath()
             && $this->getPluginName() === $insight->getPluginName();
     }

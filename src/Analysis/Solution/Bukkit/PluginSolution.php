@@ -9,15 +9,12 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Bukkit;
  */
 abstract class PluginSolution extends BukkitSolution
 {
-    /**
-     * @var string
-     */
-    protected $pluginName;
+    protected ?string $pluginName = null;
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getPluginName(): string
+    public function getPluginName(): ?string
     {
         return $this->pluginName;
     }
@@ -26,7 +23,7 @@ abstract class PluginSolution extends BukkitSolution
      * @param string $pluginName
      * @return $this
      */
-    public function setPluginName(string $pluginName)
+    public function setPluginName(string $pluginName): static
     {
         $this->pluginName = $pluginName;
         return $this;

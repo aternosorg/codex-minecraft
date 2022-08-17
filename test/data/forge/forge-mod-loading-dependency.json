@@ -1,0 +1,1946 @@
+{
+    "id": "forge\/server",
+    "name": "Forge",
+    "type": "Server Log",
+    "version": "1.14.4",
+    "title": "Forge 1.14.4 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.329] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[07Feb2020 20:20:01.329] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.1.117, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.360] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[07Feb2020 20:20:01.360] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_242 by Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.429] [main\/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[07Feb2020 20:20:01.429] [main\/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.467] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[07Feb2020 20:20:01.467] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]: Found naming services : []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.499] [main\/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[07Feb2020 20:20:01.499] [main\/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler\/MODLAUNCHER]: Found launch plugins: [eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.526] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[07Feb2020 20:20:01.526] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Discovering transformation services"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.547] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[07Feb2020 20:20:01.547] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Found additional transformation services from discovery services: []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.652] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[07Feb2020 20:20:01.652] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Found transformer services : [fml]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.653] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[07Feb2020 20:20:01.653] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Transformation services loading"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.709] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[07Feb2020 20:20:01.709] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Loading service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.710] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[07Feb2020 20:20:01.710] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/]: Injecting tracing printstreams for STDOUT\/STDERR."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.757] [main\/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion\/CORE]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[07Feb2020 20:20:01.757] [main\/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion\/CORE]: Found FMLLauncher version 28.1"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.774] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[07Feb2020 20:20:01.774] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: FML 28.1 loading"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.775] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[07Feb2020 20:20:01.775] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: FML found ModLauncher version : 4.1.0+62+5bfa59b"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.775] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[07Feb2020 20:20:01.775] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: Initializing modjar URL handler"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.778] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[07Feb2020 20:20:01.778] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: FML found AccessTransformer version : 1.0.1-milestone.0.1+94458e7+46+94458e7"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.780] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[07Feb2020 20:20:01.780] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: FML found EventBus version : 1.0.0+54+3f83a9e"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.781] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[07Feb2020 20:20:01.781] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: Found Runtime Dist Cleaner"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.917] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[07Feb2020 20:20:01.917] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: FML found CoreMod version : 1.0.0+4+e6fed88"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.919] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[07Feb2020 20:20:01.919] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: Found ForgeSPI package implementation version 1.5.0+6+478760f"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:01.940] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[07Feb2020 20:20:01.940] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: Found ForgeSPI package specification 3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:02.953] [main\/INFO] [net.minecraftforge.fml.loading.FixSSL\/CORE]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[07Feb2020 20:20:02.953] [main\/INFO] [net.minecraftforge.fml.loading.FixSSL\/CORE]: Added Lets Encrypt root certificates as additional trust"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:02.965] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[07Feb2020 20:20:02.965] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Loaded service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.014] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[07Feb2020 20:20:03.014] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Configuring option handling for services"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.105] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[07Feb2020 20:20:03.105] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Transformation services initializing"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.107] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[07Feb2020 20:20:03.107] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Initializing transformation service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.107] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[07Feb2020 20:20:03.107] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]: Setting up basic FML game directories"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.126] [main\/DEBUG] [net.minecraftforge.fml.loading.FileUtils\/CORE]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[07Feb2020 20:20:03.126] [main\/DEBUG] [net.minecraftforge.fml.loading.FileUtils\/CORE]: Found existing GAMEDIR directory : \/aternos\/server"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.131] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[07Feb2020 20:20:03.131] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]: Path GAMEDIR is \/aternos\/server"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.132] [main\/DEBUG] [net.minecraftforge.fml.loading.FileUtils\/CORE]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[07Feb2020 20:20:03.132] [main\/DEBUG] [net.minecraftforge.fml.loading.FileUtils\/CORE]: Found existing MODSDIR directory : \/aternos\/server\/mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.132] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[07Feb2020 20:20:03.132] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]: Path MODSDIR is \/aternos\/server\/mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.132] [main\/DEBUG] [net.minecraftforge.fml.loading.FileUtils\/CORE]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[07Feb2020 20:20:03.132] [main\/DEBUG] [net.minecraftforge.fml.loading.FileUtils\/CORE]: Found existing CONFIGDIR directory : \/aternos\/server\/config"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.132] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[07Feb2020 20:20:03.132] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]: Path CONFIGDIR is \/aternos\/server\/config"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.133] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[07Feb2020 20:20:03.133] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]: Path FMLCONFIG is \/aternos\/server\/config\/fml.toml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.133] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[07Feb2020 20:20:03.133] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]: Loading configuration"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.558] [main\/DEBUG] [net.minecraftforge.fml.loading.FileUtils\/CORE]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[07Feb2020 20:20:03.558] [main\/DEBUG] [net.minecraftforge.fml.loading.FileUtils\/CORE]: Found existing default config directory directory : \/aternos\/server\/defaultconfigs"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.559] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[07Feb2020 20:20:03.559] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]: Preparing launch handler"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.560] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[07Feb2020 20:20:03.560] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: Using fmlserver as launch service"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.602] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[07Feb2020 20:20:03.602] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: Received command line version data : MC Version: '1.14.4' MCP Version: '20190829.143755' Forge Version: '28.1.117' Forge group: 'net.minecraftforge'"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.637] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[07Feb2020 20:20:03.637] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]: Found JAR asm at path \/aternos\/server\/libraries\/org\/ow2\/asm\/asm\/6.2\/asm-6.2.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.637] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[07Feb2020 20:20:03.637] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]: Found probable library path \/aternos\/server\/libraries"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.639] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[07Feb2020 20:20:03.639] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]: Found forge path \/aternos\/server\/libraries\/net\/minecraftforge\/forge\/1.14.4-28.1.117\/forge-1.14.4-28.1.117-universal.jar is present"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.640] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[07Feb2020 20:20:03.640] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]: SRG MC at \/aternos\/server\/libraries\/net\/minecraft\/server\/1.14.4-20190829.143755\/server-1.14.4-20190829.143755-srg.jar is present"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.641] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[07Feb2020 20:20:03.641] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]: MC Extras at \/aternos\/server\/libraries\/net\/minecraft\/server\/1.14.4\/server-1.14.4-extra-stable.jar is present"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.641] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[07Feb2020 20:20:03.641] [main\/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder\/CORE]: Forge patches at \/aternos\/server\/libraries\/net\/minecraftforge\/forge\/1.14.4-28.1.117\/forge-1.14.4-28.1.117-server.jar is present"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.669] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[07Feb2020 20:20:03.669] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]: Found 0 language providers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.694] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[07Feb2020 20:20:03.694] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]: Adding forge as a language from \/aternos\/server\/libraries\/net\/minecraftforge\/forge\/1.14.4-28.1.117\/forge-1.14.4-28.1.117-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:03.699] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[07Feb2020 20:20:03.699] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]: Adding file:\/aternos\/server\/libraries\/net\/minecraftforge\/forge\/1.14.4-28.1.117\/forge-1.14.4-28.1.117-universal.jar to languageloader classloader"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.148] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[07Feb2020 20:20:04.148] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]: Found 2 language providers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.148] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[07Feb2020 20:20:04.148] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]: Found language provider javafml, version 28.1"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.228] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[07Feb2020 20:20:04.228] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]: Found language provider minecraft, version 1"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.267] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[07Feb2020 20:20:04.267] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Initialized transformation service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.287] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[07Feb2020 20:20:04.287] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]: Current naming domain is 'srg'"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.297] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[07Feb2020 20:20:04.297] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]: Identified name mapping providers {}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.300] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[07Feb2020 20:20:04.300] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Transformation services begin scanning"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.311] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[07Feb2020 20:20:04.311] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Beginning scan trigger - transformation service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.313] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[07Feb2020 20:20:04.313] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]: Initiating mod scan"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.416] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler\/CORE]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[07Feb2020 20:20:04.416] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler\/CORE]: Found mod coordinates from lists: []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.474] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer\/CORE]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[07Feb2020 20:20:04.474] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer\/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.663] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[07Feb2020 20:20:04.663] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Considering mod file candidate \/aternos\/server\/mods\/MS Auto-Compat-1.14.4-1.5.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.876] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[07Feb2020 20:20:04.876] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]: Found valid mod file MS Auto-Compat-1.14.4-1.5.1.jar with {azurecompat} mods - versions {1.5.1}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.877] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[07Feb2020 20:20:04.877] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]: Loading mod file \/aternos\/server\/mods\/MS Auto-Compat-1.14.4-1.5.1.jar with language javafml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.879] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[07Feb2020 20:20:04.879] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Considering mod file candidate \/aternos\/server\/mods\/u_team_core-1.14.4-2.8.2.150.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.898] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[07Feb2020 20:20:04.898] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]: Found valid mod file u_team_core-1.14.4-2.8.2.150.jar with {uteamcore} mods - versions {**.**.**.**}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.898] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[07Feb2020 20:20:04.898] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]: Loading mod file \/aternos\/server\/mods\/u_team_core-1.14.4-2.8.2.150.jar with language javafml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.899] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[07Feb2020 20:20:04.899] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Considering mod file candidate \/aternos\/server\/libraries\/net\/minecraftforge\/forge\/1.14.4-28.1.117\/forge-1.14.4-28.1.117-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.901] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[07Feb2020 20:20:04.901] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]: Found valid mod file forge-1.14.4-28.1.117-universal.jar with {forge} mods - versions {28.1.117}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:04.902] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[07Feb2020 20:20:04.902] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]: Loading mod file \/aternos\/server\/libraries\/net\/minecraftforge\/forge\/1.14.4-28.1.117\/forge-1.14.4-28.1.117-universal.jar with language javafml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:05.153] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[07Feb2020 20:20:05.153] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF\/fieldtomethodtransformers.js"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:05.153] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[07Feb2020 20:20:05.153] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]: Found coremod META-INF\/fieldtomethodtransformers.js"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:05.166] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[07Feb2020 20:20:05.166] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Considering mod file candidate \/aternos\/server\/libraries\/net\/minecraftforge\/forge\/1.14.4-28.1.117\/forge-1.14.4-28.1.117-server.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:05.170] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[07Feb2020 20:20:05.170] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]: Found valid mod file forge-1.14.4-28.1.117-server.jar with {minecraft} mods - versions {1.14.4}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:05.170] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[07Feb2020 20:20:05.170] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]: Loading mod file \/aternos\/server\/libraries\/net\/minecraftforge\/forge\/1.14.4-28.1.117\/forge-1.14.4-28.1.117-server.jar with language minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:05.267] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/LOADING]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[07Feb2020 20:20:05.267] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/LOADING]: Found 3 mandatory requirements"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:05.270] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/LOADING]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[07Feb2020 20:20:05.270] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/LOADING]: Found 2 mandatory mod requirements missing"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:08.550] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[07Feb2020 20:20:08.550] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: End scan trigger - transformation service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:08.550] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[07Feb2020 20:20:08.550] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Transformation services loading transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:08.559] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[07Feb2020 20:20:08.559] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Initializing transformers for transformation service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:08.560] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[07Feb2020 20:20:08.560] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]: Loading coremod transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:08.561] [main\/DEBUG] [net.minecraftforge.coremod.CoreModEngine\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[07Feb2020 20:20:08.561] [main\/DEBUG] [net.minecraftforge.coremod.CoreModEngine\/COREMOD]: Loading CoreMod from META-INF\/fieldtomethodtransformers.js"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:10.211] [main\/DEBUG] [net.minecraftforge.coremod.CoreModEngine\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[07Feb2020 20:20:10.211] [main\/DEBUG] [net.minecraftforge.coremod.CoreModEngine\/COREMOD]: CoreMod loaded successfully"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:10.245] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[07Feb2020 20:20:10.245] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6722db6e to Target : CLASS {Lnet\/minecraft\/potion\/EffectInstance;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:10.249] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[07Feb2020 20:20:10.249] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5049d8b2 to Target : CLASS {Lnet\/minecraft\/block\/FlowingFluidBlock;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:10.250] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[07Feb2020 20:20:10.250] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6d0b5baf to Target : CLASS {Lnet\/minecraft\/item\/BucketItem;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:10.250] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[07Feb2020 20:20:10.250] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@631e06ab to Target : CLASS {Lnet\/minecraft\/block\/StairsBlock;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:10.252] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[07Feb2020 20:20:10.252] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2a3591c5 to Target : CLASS {Lnet\/minecraft\/block\/FlowerPotBlock;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:10.253] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[07Feb2020 20:20:10.253] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@34a75079 to Target : CLASS {Lnet\/minecraft\/item\/FishBucketItem;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:10.255] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[07Feb2020 20:20:10.255] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Initialized transformers for transformation service fml"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:10.484] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[07Feb2020 20:20:10.484] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:21.824] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[07Feb2020 20:20:21.824] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/block\/FlowingFluidBlock"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:22.899] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[07Feb2020 20:20:22.899] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/block\/StairsBlock"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:20:24.048] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[07Feb2020 20:20:24.048] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/block\/FlowerPotBlock"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:08.931] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[07Feb2020 20:21:08.931] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/item\/BucketItem"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:09.099] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[07Feb2020 20:21:09.099] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/item\/FishBucketItem"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:12.368] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[07Feb2020 20:21:12.368] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/potion\/EffectInstance"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:36.556] [main\/WARN] [net.minecraft.command.Commands\/]:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[07Feb2020 20:21:36.556] [main\/WARN] [net.minecraft.command.Commands\/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:36.560] [main\/WARN] [net.minecraft.command.Commands\/]:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[07Feb2020 20:21:36.560] [main\/WARN] [net.minecraft.command.Commands\/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:36.564] [main\/WARN] [net.minecraft.command.Commands\/]:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[07Feb2020 20:21:36.564] [main\/WARN] [net.minecraft.command.Commands\/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:36.567] [main\/WARN] [net.minecraft.command.Commands\/]:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[07Feb2020 20:21:36.567] [main\/WARN] [net.minecraft.command.Commands\/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:36.592] [main\/WARN] [net.minecraft.command.Commands\/]:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[07Feb2020 20:21:36.592] [main\/WARN] [net.minecraft.command.Commands\/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:37.212] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[07Feb2020 20:21:37.212] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting minecraft server version 1.14.4"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:38.952] [Server thread\/DEBUG] [net.minecraftforge.fml.ForgeI18n\/CORE]:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[07Feb2020 20:21:38.952] [Server thread\/DEBUG] [net.minecraftforge.fml.ForgeI18n\/CORE]: Loading I18N data entries: 4468"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:41.413] [Server thread\/DEBUG] [net.minecraftforge.fml.ModLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[07Feb2020 20:21:41.413] [Server thread\/DEBUG] [net.minecraftforge.fml.ModLoader\/CORE]: Loading Network data for FML net version: FML2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:41.817] [Server thread\/DEBUG] [net.minecraftforge.fml.ModList\/LOADING]:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[07Feb2020 20:21:41.817] [Server thread\/DEBUG] [net.minecraftforge.fml.ModList\/LOADING]: Using 3 threads for parallel mod-loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:41.818] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[07Feb2020 20:21:41.818] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]: Error during pre-loading phase"
+                },
+                {
+                    "number": 106,
+                    "content": "net.minecraftforge.fml.ModLoadingException: Mod \u00a7eazurecompat\u00a7r requires \u00a76mmorpg\u00a7r \u00a7o1 or above\u00a7r"
+                },
+                {
+                    "number": 107,
+                    "content": "\u00a77Currently, \u00a76mmorpg\u00a7r\u00a77 is \u00a7o\u00a7nnot installed"
+                },
+                {
+                    "number": 108,
+                    "content": "at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:63) ~[?:?]"
+                },
+                {
+                    "number": 109,
+                    "content": "at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 110,
+                    "content": "at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 111,
+                    "content": "at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 112,
+                    "content": "at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 113,
+                    "content": "at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 114,
+                    "content": "at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 115,
+                    "content": "at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 116,
+                    "content": "at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 117,
+                    "content": "at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:272) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 118,
+                    "content": "at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 119,
+                    "content": "at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 120,
+                    "content": "at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 121,
+                    "content": "at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 122,
+                    "content": "at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 123,
+                    "content": "at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 124,
+                    "content": "at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:117) ~[?:?]"
+                },
+                {
+                    "number": 125,
+                    "content": "at net.minecraftforge.fml.ModLoader.get(ModLoader.java:146) [?:?]"
+                },
+                {
+                    "number": 126,
+                    "content": "at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) [?:?]"
+                },
+                {
+                    "number": 127,
+                    "content": "at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121) [?:?]"
+                },
+                {
+                    "number": 128,
+                    "content": "at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]"
+                },
+                {
+                    "number": 129,
+                    "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:42.054] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "[07Feb2020 20:21:42.054] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]: Encountered an unexpected exception"
+                },
+                {
+                    "number": 131,
+                    "content": "net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: ["
+                },
+                {
+                    "number": 132,
+                    "content": "Mod \u00a7eazurecompat\u00a7r requires \u00a76mmorpg\u00a7r \u00a7o1 or above\u00a7r"
+                },
+                {
+                    "number": 133,
+                    "content": "\u00a77Currently, \u00a76mmorpg\u00a7r\u00a77 is \u00a7o\u00a7nnot installed,"
+                },
+                {
+                    "number": 134,
+                    "content": "Mod \u00a7euteamcore\u00a7r requires \u00a76forge\u00a7r \u00a7o28.2.0 or above\u00a7r"
+                },
+                {
+                    "number": 135,
+                    "content": "\u00a77Currently, \u00a76forge\u00a7r\u00a77 is \u00a7o28.1.117"
+                },
+                {
+                    "number": 136,
+                    "content": "]"
+                },
+                {
+                    "number": 137,
+                    "content": "at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:168) ~[?:?]"
+                },
+                {
+                    "number": 138,
+                    "content": "at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) ~[?:?]"
+                },
+                {
+                    "number": 139,
+                    "content": "at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121) ~[?:?]"
+                },
+                {
+                    "number": 140,
+                    "content": "at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]"
+                },
+                {
+                    "number": 141,
+                    "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:42.117] [Server thread\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]:",
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "[07Feb2020 20:21:42.117] [Server thread\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 28.1 from cpw.mods.modlauncher.TransformingClassLoader@4ebea12c"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:42.118] [Server thread\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]:",
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "[07Feb2020 20:21:42.118] [Server thread\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]: Found Forge version 28.1.117"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:42.118] [Server thread\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]:",
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "[07Feb2020 20:21:42.118] [Server thread\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]: Found Forge spec 28.1"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:42.118] [Server thread\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]:",
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "[07Feb2020 20:21:42.118] [Server thread\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]: Found Forge group net.minecraftforge"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:42.303] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "[07Feb2020 20:21:42.303] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]: This crash report has been saved to: \/aternos\/server\/.\/crash-reports\/crash-2020-02-07_20.21.42-server.txt"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:42.692] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "[07Feb2020 20:21:42.692] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:42.710] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "[07Feb2020 20:21:42.710] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[07Feb2020 20:21:42.718] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "[07Feb2020 20:21:42.718] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]: Exception stopping the server"
+                },
+                {
+                    "number": 150,
+                    "content": "java.lang.RuntimeException: The server has failed to initialize correctly due to mod loading errors. Examine the crash report for more details."
+                },
+                {
+                    "number": 151,
+                    "content": "at net.minecraftforge.common.DimensionManager.getWorld(DimensionManager.java:182) ~[?:?]"
+                },
+                {
+                    "number": 152,
+                    "content": "at net.minecraft.server.MinecraftServer.func_71218_a(MinecraftServer.java:979) ~[?:?]"
+                },
+                {
+                    "number": 153,
+                    "content": "at net.minecraft.server.MinecraftServer.func_213211_a(MinecraftServer.java:521) ~[?:?]"
+                },
+                {
+                    "number": 154,
+                    "content": "at net.minecraft.server.MinecraftServer.func_71260_j(MinecraftServer.java:553) ~[?:?]"
+                },
+                {
+                    "number": 155,
+                    "content": "at net.minecraft.server.dedicated.DedicatedServer.func_71260_j(DedicatedServer.java:544) ~[?:?]"
+                },
+                {
+                    "number": 156,
+                    "content": "at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:661) [?:?]"
+                },
+                {
+                    "number": 157,
+                    "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15Feb2020 14:45:26.737] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "[15Feb2020 14:45:26.737] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]: Error during pre-loading phase"
+                },
+                {
+                    "number": 159,
+                    "content": "net.minecraftforge.fml.ModLoadingException: Mod \u00a7ecar\u00a7r requires \u00a76minecraft\u00a7r \u00a7o1.15.1\u00a7r"
+                },
+                {
+                    "number": 160,
+                    "content": "\u00a77Currently, \u00a76minecraft\u00a7r\u00a77 is \u00a7o1.15.2"
+                },
+                {
+                    "number": 161,
+                    "content": "at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:63) ~[?:?]"
+                },
+                {
+                    "number": 162,
+                    "content": "at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 163,
+                    "content": "at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 164,
+                    "content": "at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 165,
+                    "content": "at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 166,
+                    "content": "at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 167,
+                    "content": "at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 168,
+                    "content": "at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 169,
+                    "content": "at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 170,
+                    "content": "at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:272) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 171,
+                    "content": "at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 172,
+                    "content": "at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 173,
+                    "content": "at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 174,
+                    "content": "at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 175,
+                    "content": "at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 176,
+                    "content": "at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566) ~[?:1.8.0_242]"
+                },
+                {
+                    "number": 177,
+                    "content": "at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:117) ~[?:?]"
+                },
+                {
+                    "number": 178,
+                    "content": "at net.minecraftforge.fml.ModLoader.get(ModLoader.java:146) [?:?]"
+                },
+                {
+                    "number": 179,
+                    "content": "at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) [?:?]"
+                },
+                {
+                    "number": 180,
+                    "content": "at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) [?:?]"
+                },
+                {
+                    "number": 181,
+                    "content": "at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:611) [?:?]"
+                },
+                {
+                    "number": 182,
+                    "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[15Feb2020 14:45:27.141] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 183,
+                    "content": "[15Feb2020 14:45:27.141] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]: Encountered an unexpected exception"
+                },
+                {
+                    "number": 184,
+                    "content": "net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: ["
+                },
+                {
+                    "number": 185,
+                    "content": "Mod \u00a7ecar\u00a7r requires \u00a76minecraft\u00a7r \u00a7o1.15.1\u00a7r"
+                },
+                {
+                    "number": 186,
+                    "content": "\u00a77Currently, \u00a76minecraft\u00a7r\u00a77 is \u00a7o1.15.2"
+                },
+                {
+                    "number": 187,
+                    "content": "]"
+                },
+                {
+                    "number": 188,
+                    "content": "at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:168) ~[?:?]"
+                },
+                {
+                    "number": 189,
+                    "content": "at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) ~[?:?]"
+                },
+                {
+                    "number": 190,
+                    "content": "at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) ~[?:?]"
+                },
+                {
+                    "number": 191,
+                    "content": "at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:611) [?:?]"
+                },
+                {
+                    "number": 192,
+                    "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]"
+                },
+                {
+                    "number": 193,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'azurecompat' is missing the required mod 'mmorpg'.",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[07Feb2020 20:21:41.818] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]:",
+                    "lines": [
+                        {
+                            "number": 105,
+                            "content": "[07Feb2020 20:21:41.818] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]: Error during pre-loading phase"
+                        },
+                        {
+                            "number": 106,
+                            "content": "net.minecraftforge.fml.ModLoadingException: Mod \u00a7eazurecompat\u00a7r requires \u00a76mmorpg\u00a7r \u00a7o1 or above\u00a7r"
+                        },
+                        {
+                            "number": 107,
+                            "content": "\u00a77Currently, \u00a76mmorpg\u00a7r\u00a77 is \u00a7o\u00a7nnot installed"
+                        },
+                        {
+                            "number": 108,
+                            "content": "at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:63) ~[?:?]"
+                        },
+                        {
+                            "number": 109,
+                            "content": "at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 110,
+                            "content": "at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 111,
+                            "content": "at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 112,
+                            "content": "at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 113,
+                            "content": "at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 114,
+                            "content": "at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 115,
+                            "content": "at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 116,
+                            "content": "at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 117,
+                            "content": "at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:272) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 118,
+                            "content": "at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 119,
+                            "content": "at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 120,
+                            "content": "at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 121,
+                            "content": "at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 122,
+                            "content": "at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 123,
+                            "content": "at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 124,
+                            "content": "at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:117) ~[?:?]"
+                        },
+                        {
+                            "number": 125,
+                            "content": "at net.minecraftforge.fml.ModLoader.get(ModLoader.java:146) [?:?]"
+                        },
+                        {
+                            "number": 126,
+                            "content": "at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) [?:?]"
+                        },
+                        {
+                            "number": 127,
+                            "content": "at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121) [?:?]"
+                        },
+                        {
+                            "number": 128,
+                            "content": "at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]"
+                        },
+                        {
+                            "number": 129,
+                            "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'mmorpg' with version 1."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'uteamcore' is missing the required mod 'forge'.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[07Feb2020 20:21:42.054] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]:",
+                    "lines": [
+                        {
+                            "number": 130,
+                            "content": "[07Feb2020 20:21:42.054] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]: Encountered an unexpected exception"
+                        },
+                        {
+                            "number": 131,
+                            "content": "net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: ["
+                        },
+                        {
+                            "number": 132,
+                            "content": "Mod \u00a7eazurecompat\u00a7r requires \u00a76mmorpg\u00a7r \u00a7o1 or above\u00a7r"
+                        },
+                        {
+                            "number": 133,
+                            "content": "\u00a77Currently, \u00a76mmorpg\u00a7r\u00a77 is \u00a7o\u00a7nnot installed,"
+                        },
+                        {
+                            "number": 134,
+                            "content": "Mod \u00a7euteamcore\u00a7r requires \u00a76forge\u00a7r \u00a7o28.2.0 or above\u00a7r"
+                        },
+                        {
+                            "number": 135,
+                            "content": "\u00a77Currently, \u00a76forge\u00a7r\u00a77 is \u00a7o28.1.117"
+                        },
+                        {
+                            "number": 136,
+                            "content": "]"
+                        },
+                        {
+                            "number": 137,
+                            "content": "at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:168) ~[?:?]"
+                        },
+                        {
+                            "number": 138,
+                            "content": "at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) ~[?:?]"
+                        },
+                        {
+                            "number": 139,
+                            "content": "at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121) ~[?:?]"
+                        },
+                        {
+                            "number": 140,
+                            "content": "at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]"
+                        },
+                        {
+                            "number": 141,
+                            "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'forge' with version 28.2.0."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'car' is missing the required mod 'minecraft'.",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[15Feb2020 14:45:26.737] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]:",
+                    "lines": [
+                        {
+                            "number": 158,
+                            "content": "[15Feb2020 14:45:26.737] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]: Error during pre-loading phase"
+                        },
+                        {
+                            "number": 159,
+                            "content": "net.minecraftforge.fml.ModLoadingException: Mod \u00a7ecar\u00a7r requires \u00a76minecraft\u00a7r \u00a7o1.15.1\u00a7r"
+                        },
+                        {
+                            "number": 160,
+                            "content": "\u00a77Currently, \u00a76minecraft\u00a7r\u00a77 is \u00a7o1.15.2"
+                        },
+                        {
+                            "number": 161,
+                            "content": "at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:63) ~[?:?]"
+                        },
+                        {
+                            "number": 162,
+                            "content": "at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 163,
+                            "content": "at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 164,
+                            "content": "at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 165,
+                            "content": "at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 166,
+                            "content": "at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 167,
+                            "content": "at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 168,
+                            "content": "at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 169,
+                            "content": "at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 170,
+                            "content": "at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:272) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 171,
+                            "content": "at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 172,
+                            "content": "at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 173,
+                            "content": "at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 174,
+                            "content": "at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 175,
+                            "content": "at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 176,
+                            "content": "at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566) ~[?:1.8.0_242]"
+                        },
+                        {
+                            "number": 177,
+                            "content": "at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:117) ~[?:?]"
+                        },
+                        {
+                            "number": 178,
+                            "content": "at net.minecraftforge.fml.ModLoader.get(ModLoader.java:146) [?:?]"
+                        },
+                        {
+                            "number": 179,
+                            "content": "at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) [?:?]"
+                        },
+                        {
+                            "number": 180,
+                            "content": "at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) [?:?]"
+                        },
+                        {
+                            "number": 181,
+                            "content": "at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:611) [?:?]"
+                        },
+                        {
+                            "number": 182,
+                            "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'minecraft' with version 1.15.1."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.14.4",
+                "counter": 3,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[07Feb2020 20:20:01.329] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[07Feb2020 20:20:01.329] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.1.117, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, nogui]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.14.4"
+            },
+            {
+                "message": "Forge version: 28.1.117",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[07Feb2020 20:20:01.329] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[07Feb2020 20:20:01.329] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.1.117, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, nogui]"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "28.1.117"
+            },
+            {
+                "message": "Java version: 1.8.0_242",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[07Feb2020 20:20:01.360] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[07Feb2020 20:20:01.360] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_242 by Oracle Corporation"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "1.8.0_242"
+            }
+        ]
+    }
+}

@@ -5,10 +5,18 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
+/**
+ * Class MultipleModulesExportProblem
+ *
+ * @package Aternos\Codex\Minecraft\Analysis\Problem\Forge
+ */
 class MultipleModulesExportProblem extends ModProblem
 {
-    protected string $secondModName;
+    protected ?string $secondModName = null;
 
+    /**
+     * @return string
+     */
     public function getMessage(): string
     {
         return Translator::getInstance()->getTranslation("mod-incompatible-problem", [
@@ -17,6 +25,9 @@ class MultipleModulesExportProblem extends ModProblem
         ]);
     }
 
+    /**
+     * @return string[]
+     */
     public static function getPatterns(): array
     {
         return [
@@ -29,9 +40,10 @@ class MultipleModulesExportProblem extends ModProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->modName = $matches[1];
         $this->addSolution((new ModRemoveSolution())->setModName($this->modName));

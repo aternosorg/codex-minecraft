@@ -13,9 +13,8 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class VersionDowngradeProblem extends PaperProblem
 {
-
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -29,7 +28,7 @@ class VersionDowngradeProblem extends PaperProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -40,9 +39,10 @@ class VersionDowngradeProblem extends PaperProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->addSolution(new VersionDowngradeSolution());
         $this->addSolution(new GenerateNewWorldSolution());

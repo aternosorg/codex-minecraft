@@ -1,0 +1,1493 @@
+{
+    "id": "forge\/crash-report",
+    "name": "Forge",
+    "type": "Crash Report",
+    "version": "1.10.2",
+    "title": "Forge 1.10.2 Crash Report",
+    "entries": [
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "---- Minecraft Crash Report ----"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "WARNING: coremods are present:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "  llibrary (llibrary-1.7.7-1.10.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "  IceAndFireForgeLoading (iceandfire-1.0.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "  IvToolkit (IvToolkit-1.3.3-1.10.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "Contact their authors BEFORE contacting forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "\/\/ I blame Dinnerbone."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Time:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "Time: 2\/3\/22 8:45 PM"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Description:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "Description: Ticking entity"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "java.lang.NullPointerException: Ticking entity"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "\tat net.minecraftforge.common.BiomeDictionary.containsType(BiomeDictionary.java:440)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "\tat net.minecraftforge.common.BiomeDictionary.isBiomeOfType(BiomeDictionary.java:261)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "\tat com.ferreusveritas.dynamictrees.util.CompatHelper.biomeHasType(CompatHelper.java:51)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "\tat com.ferreusveritas.dynamictrees.trees.TreeSpruce$SpeciesSpruce.isBiomePerfect(TreeSpruce.java:51)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "\tat com.ferreusveritas.dynamictrees.trees.Species.biomeSuitability(Species.java:735)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "\tat com.ferreusveritas.dynamictrees.items.Seed.onEntityItemUpdate(Seed.java:63)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "\tat net.minecraft.entity.item.EntityItem.func_70071_h_(EntityItem.java:91)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "\tat net.minecraft.world.World.func_72866_a(World.java:1967)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "\tat net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:839)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "\tat net.minecraft.world.World.func_72870_g(World.java:1937)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "\tat net.minecraft.world.World.func_72939_s(World.java:1750)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "\tat net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:620)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "\tat net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "\tat java.lang.Thread.run(Thread.java:748)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "A detailed walkthrough of the error, its code path and all known details is as follows:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "---------------------------------------------------------------------------------------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "-- Head --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Thread:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "Thread: Server thread"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "\tat net.minecraftforge.common.BiomeDictionary.containsType(BiomeDictionary.java:440)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "\tat net.minecraftforge.common.BiomeDictionary.isBiomeOfType(BiomeDictionary.java:261)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "\tat com.ferreusveritas.dynamictrees.util.CompatHelper.biomeHasType(CompatHelper.java:51)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "\tat com.ferreusveritas.dynamictrees.trees.TreeSpruce$SpeciesSpruce.isBiomePerfect(TreeSpruce.java:51)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "\tat com.ferreusveritas.dynamictrees.trees.Species.biomeSuitability(Species.java:735)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "\tat com.ferreusveritas.dynamictrees.items.Seed.onEntityItemUpdate(Seed.java:63)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "\tat net.minecraft.entity.item.EntityItem.func_70071_h_(EntityItem.java:91)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "\tat net.minecraft.world.World.func_72866_a(World.java:1967)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "\tat net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:839)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "\tat net.minecraft.world.World.func_72870_g(World.java:1937)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "-- Entity being ticked --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity Type:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "\tEntity Type: Item (net.minecraft.entity.item.EntityItem)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity ID:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "\tEntity ID: 85"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity Name:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "\tEntity Name: item.item.spruceseed"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity's Exact location:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "\tEntity's Exact location: -37.80, 106.00, 82.88"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity's Block location:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "\tEntity's Block location: World: (-38,106,82), Chunk: (at 10,6,2 in -3,5; contains blocks -48,0,80 to -33,255,95), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity's Momentum:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "\tEntity's Momentum: 0.00, -0.00, 0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity's Passengers:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "\tEntity's Passengers: []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEntity's Vehicle:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "\tEntity's Vehicle: ~~ERROR~~ NullPointerException: null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "\tat net.minecraft.world.World.func_72939_s(World.java:1750)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "\tat net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:620)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "-- Affected level --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel name:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "\tLevel name: world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tAll players:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "\tAll players: 1 total; [EntityPlayerMP['HabipErsz'\/291, l='world', x=-2.36, y=97.00, z=88.37]]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tChunk stats:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "\tChunk stats: ServerChunkCache: 283 Drop: 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel seed:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "\tLevel seed: 6012911767305697032"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel generator:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "\tLevel generator: ID 06 - OTG, ver 0. Features enabled: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel generator options:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "\tLevel generator options: OpenTerrainGenerator"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel spawn location:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "\tLevel spawn location: World: (24,52,60), Chunk: (at 8,3,12 in 1,3; contains blocks 16,0,48 to 31,255,63), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel time:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "\tLevel time: 12814 game time, 12814 day time"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel dimension:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "\tLevel dimension: 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel storage version:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "\tLevel storage version: 0x04ABD - Anvil"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel weather:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "\tLevel weather: Rain time: 1994 (now: false), thunder time: 47112 (now: false)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel game mode:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "\tLevel game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "\tat net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "\tat java.lang.Thread.run(Thread.java:748)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 85,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "-- System Details --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "\tMinecraft Version: 1.10.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tOperating System:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "\tOperating System: Linux (amd64) version 5.4.0-91-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava Version:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "\tJava Version: 1.8.0_292, Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava VM Version:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "\tJava VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "\tMemory: 822822056 bytes (784 MB) \/ 1903165440 bytes (1815 MB) up to 1903165440 bytes (1815 MB)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJVM Flags:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "\tJVM Flags: 3 total; -XX:MaxMetaspaceSize=200M -Xmx1900M -Xms950M"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIntCache:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "\tIntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFML:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "\tFML: MCP 9.32 Powered by Forge 12.18.3.2511 23 mods loaded, 23 mods active"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tStates:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "\tStates: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "\tUCHIJAAAA\tmcp{9.19} [Minecraft Coder Pack] (minecraft.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "\tUCHIJAAAA\tFML{**.**.**.**} [Forge Mod Loader] (forge.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "\tUCHIJAAAA\tForge{12.18.3.2511} [Minecraft Forge] (forge.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "\tUCHIJAAAA\tivtoolkit{1.3.3-1.10} [IvToolkit] (minecraft.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "\tUCHIJAAAA\topenterraingenerator{v20} [Open Terrain Generator] (OpenTerrainGenerator-1.10.2-v21.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "\tUCHIJAAAA\tbiomebundle{5.1} [Biome Bundle] (Biome_Bundle-1.10.2-v5.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "\tUCHIJAAAA\tblockarmor{2.4.11} [Block Armor] (BlockArmor-1.10.2-2.4.11.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "\tUCHIJAAAA\tcarryon{1.9.1} [Carry On] (CarryOn MC1.10.2 v1.9.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "\tUCHIJAAAA\tcompatlayer{0.3.1} [compatlayer] (compatlayer-1.10-0.3.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "\tUCHIJAAAA\tdynamictrees{1.10.2-0.7.4} [Dynamic Trees] (DynamicTrees-1.10.2-0.7.4.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "\tUCHIJAAAA\twizardry{2.1.2} [Electroblob's Wizardry] (Electroblob's Wizardry - 2.1.2 - MC 1.10.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "\tUCHIJAAAA\tWaila{1.8.17-B31_1.10.2} [Waila] (Hwyla-1.8.17-B31_1.10.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "\tUCHIJAAAA\tllibrary{1.7.7} [LLibrary] (llibrary-1.7.7-1.10.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "\tUCHIJAAAA\ticeandfire{1.0.1} [Ice and Fire] (iceandfire-1.0.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "\tUCHIJAAAA\tJEI{**.**.**.**} [Just Enough Items] (jei_1.10.2-3.14.7.420.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "\tUCHIJAAAA\tjourneymap{1.10.2-5.5.2} [JourneyMap] (journeymap-1.10.2-5.5.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "\tUCHIJAAAA\tlootbags{2.5.0} [Loot Bags] (LootBags-1.10.2-2.5.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "\tUCHIJAAAA\tnotenoughwands{1.5.5} [Not Enough Wands] (notenoughwands-1.1x-1.5.5.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "\tUCHIJAAAA\tProjectE{1.10.2-PE1.3.1} [ProjectE] (ProjectE-1.10.2-PE1.3.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "\tUCHIJAAAA\troguelike{1.5.9} [Roguelike Dungeons] (RoguelikeDungeons-1.10.2-1.5.9.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "\tUCHIJAAAA\ttp{1.2.5} [Tiny Progressions] (tinyprogressions-1.10.2-1.2.6.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "\tUCHIJAAAA\tVeinMiner{0.38.2_1.9-127e28f} [Vein Miner] (VeinMiner-1.9-0.38.2.624+127e28f.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "\tUCHIJAAAA\tVeinMinerModSupport{0.38.2_1.9-127e28f} [Mod Support] (VeinMiner-1.9-0.38.2.624+127e28f.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLoaded coremods (and transformers):",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "\tLoaded coremods (and transformers):"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "llibrary (llibrary-1.7.7-1.10.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "IceAndFireForgeLoading (iceandfire-1.0.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "  com.github.alexthe666.iceandfire.access.IceAndFireTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "IvToolkit (IvToolkit-1.3.3-1.10.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 127,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProfiler Position:",
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "\tProfiler Position: N\/A (disabled)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tPlayer Count:",
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "\tPlayer Count: 1 \/ 20; [EntityPlayerMP['HabipErsz'\/291, l='world', x=-2.36, y=97.00, z=88.37]]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIs Modded:",
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "\tIs Modded: Definitely; Server brand changed to 'fml,forge'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tType:",
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "\tType: Dedicated Server (map_server.txt)"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The entity 'item.item.spruceseed' at the location -37.8, 106, 82.88 is causing issues while ticking.",
+                "counter": 4,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "Description:",
+                    "lines": [
+                        {
+                            "number": 12,
+                            "content": "Description: Ticking entity"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the entity 'item.item.spruceseed' at the location -37.8, 106, 82.88."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.10.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tMinecraft Version:",
+                    "lines": [
+                        {
+                            "number": 88,
+                            "content": "\tMinecraft Version: 1.10.2"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.10.2"
+            }
+        ]
+    }
+}

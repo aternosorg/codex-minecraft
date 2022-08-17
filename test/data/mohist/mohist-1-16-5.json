@@ -1,0 +1,472 @@
+{
+    "id": "mohist\/server",
+    "name": "Mohist",
+    "type": "Server Log",
+    "version": "1.16.5",
+    "title": "Mohist 1.16.5 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:42] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[17:41:42] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 934, --fml.forgeVersion, 36.2.23, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:42] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[17:41:42] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.10 by Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:42] [main\/INFO] [net.minecraftforge.fml.loading.FixSSL\/CORE]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[17:41:42] [main\/INFO] [net.minecraftforge.fml.loading.FixSSL\/CORE]: Added Lets Encrypt root certificates as additional trust"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:42] [main\/INFO] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[17:41:42] [main\/INFO] [mixin\/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:\/server\/libraries\/org\/spongepowered\/mixin\/0.8.4\/mixin-0.8.4.jar Service=ModLauncher Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:43] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[17:41:43] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:47] [modloading-worker-2\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[17:41:47] [modloading-worker-2\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]: Forge mod loading, version 36.2.23, for MC 1.16.5 with MCP 20210115.111550"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:47] [modloading-worker-2\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[17:41:47] [modloading-worker-2\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]: MinecraftForge v36.2.23 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:47] [modloading-worker-2\/INFO] [com.mohistmc.MohistMC\/]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[17:41:47] [modloading-worker-2\/INFO] [com.mohistmc.MohistMC\/]: EventDispatcherRegistry initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:49] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[17:41:49] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]: Environment: authHost='https:\/\/authserver.mojang.com', accountsHost='https:\/\/api.mojang.com', sessionHost='https:\/\/sessionserver.mojang.com', servicesHost='https:\/\/api.minecraftservices.com', name='PROD'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:49] [main\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[17:41:49] [main\/INFO] [net.minecraft.server.MinecraftServer\/]: Found new data pack file\/bukkit, loading it automatically"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:49] [main\/INFO] [net.minecraft.resources.SimpleReloadableResourceManager\/]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[17:41:49] [main\/INFO] [net.minecraft.resources.SimpleReloadableResourceManager\/]: Reloading ResourceManager: Default, mohist-1.16.5-934-universal.jar, bukkit"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:50] [Worker-Main-5\/INFO] [net.minecraft.advancements.AdvancementList\/]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[17:41:50] [Worker-Main-5\/INFO] [net.minecraft.advancements.AdvancementList\/]: Loaded 927 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:51] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[17:41:51] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting minecraft server version 1.16.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:51] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[17:41:51] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:51] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[17:41:51] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:51] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[17:41:51] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:52] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[17:41:52] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting Minecraft server on *:17,650"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:52] [Server thread\/INFO] [net.minecraft.network.NetworkSystem\/]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[17:41:52] [Server thread\/INFO] [net.minecraft.network.NetworkSystem\/]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:52] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[17:41:52] [Server thread\/INFO] [Minecraft\/]: This server is running Mohist version 1.16.5-934 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.23)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:52] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[17:41:52] [Server thread\/INFO] [Minecraft\/]: Debug logging is enabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:52] [Server thread\/INFO] [\/]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[17:41:52] [Server thread\/INFO] [\/]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:52] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[17:41:52] [Server thread\/INFO] [Minecraft\/]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:53] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[17:41:53] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:53] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[17:41:53] [Server thread\/INFO] [Minecraft\/]: Server permissions file permissions.yml is empty, ignoring it"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:41:53] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[17:41:53] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Preparing start region for dimension minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:42:17] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[17:42:17] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:42:21] [Worker-Main-4\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[17:42:21] [Worker-Main-4\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]: Preparing spawn area: 3%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:42:21] [Worker-Main-6\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[17:42:21] [Worker-Main-6\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]: Preparing spawn area: 35%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:42:26] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[17:42:26] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]: Preparing spawn area: 83%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:42:26] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[17:42:26] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]: Preparing spawn area: 87%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:42:28] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[17:42:28] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]: Preparing spawn area: 93%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:42:28] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[17:42:28] [Server thread\/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener\/]: Time elapsed: 34,774 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:42:28] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[17:42:28] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Done (35.083s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:42:28] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[17:42:28] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:42:28] [Server thread\/INFO] [net.minecraft.network.rcon.RConThread\/]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[17:42:28] [Server thread\/INFO] [net.minecraft.network.rcon.RConThread\/]: Thread Query Listener started"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:42:28] [Query Listener #1\/INFO] [net.minecraft.network.rcon.QueryThread\/]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[17:42:28] [Query Listener #1\/INFO] [net.minecraft.network.rcon.QueryThread\/]: Query running on 0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:42:28] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[17:42:28] [Server thread\/INFO] [Minecraft\/]: Timings Reset"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.16.5",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:41:42] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[17:41:42] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 934, --fml.forgeVersion, 36.2.23, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, nogui]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.16.5"
+            },
+            {
+                "message": "Forge version: 36.2.23",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:41:47] [modloading-worker-2\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
+                    "lines": [
+                        {
+                            "number": 7,
+                            "content": "[17:41:47] [modloading-worker-2\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]: MinecraftForge v36.2.23 Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "36.2.23"
+            },
+            {
+                "message": "Mohist version: 1.16.5-934",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:41:52] [Server thread\/INFO] [Minecraft\/]:",
+                    "lines": [
+                        {
+                            "number": 19,
+                            "content": "[17:41:52] [Server thread\/INFO] [Minecraft\/]: This server is running Mohist version 1.16.5-934 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.23)"
+                        }
+                    ]
+                },
+                "label": "Mohist version",
+                "value": "1.16.5-934"
+            }
+        ]
+    }
+}

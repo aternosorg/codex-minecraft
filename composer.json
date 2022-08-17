@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=7.4.0",
-        "aternos/codex": "^1.5.0",
+        "php": ">=8.1.0",
+        "aternos/codex": "^2.0.0",
         "ext-json": "*"
     },
     "require-dev": {
@@ -22,8 +22,13 @@
             "Aternos\\Codex\\Minecraft\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Aternos\\Codex\\Minecraft\\Test\\": "test/tests/"
+        }
+    },
     "scripts": {
-        "test": "phpunit test/tests",
+        "test": "phpunit --testdox --config phpunit.xml",
         "generate-tests": "php ./test/generate-tests.php"
     }
 }

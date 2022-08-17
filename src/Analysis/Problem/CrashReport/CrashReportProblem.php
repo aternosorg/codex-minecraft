@@ -2,6 +2,13 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\CrashReport;
 
-abstract class CrashReportProblem extends \Aternos\Codex\Minecraft\Analysis\Problem\MinecraftProblem
+use Aternos\Codex\Minecraft\Analysis\Problem\MinecraftProblem;
+
+/**
+ * Class CrashReportProblem
+ *
+ * @package Aternos\Codex\Minecraft\Analysis\Problem\CrashReport
+ */
+abstract class CrashReportProblem extends MinecraftProblem
 {
 }

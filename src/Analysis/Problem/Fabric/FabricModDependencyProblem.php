@@ -2,23 +2,21 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Fabric;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
- * Class ModDependencyProblem
+ * Class FabricModDependencyProblem
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Fabric
  */
 class FabricModDependencyProblem extends FabricModProblem
 {
-    /**
-     * @var string
-     */
-    protected $dependency;
+    protected ?string $dependency = null;
 
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -34,7 +32,7 @@ class FabricModDependencyProblem extends FabricModProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -52,9 +50,10 @@ class FabricModDependencyProblem extends FabricModProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         switch ($patternKey) {
             case 'short-error':
@@ -96,29 +95,29 @@ class FabricModDependencyProblem extends FabricModProblem
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getDependency(): string
+    public function getDependency(): ?string
     {
         return $this->dependency;
     }
 
     /**
      * @param string $dependency
-     * @return static
+     * @return $this
      */
-    protected function setDependency(string $dependency): FabricModDependencyProblem
+    protected function setDependency(string $dependency): static
     {
         $this->dependency = $this->getReplacedModName($dependency);
         return $this;
     }
 
     /**
-     * @param static $insight
+     * @param InsightInterface $insight
      * @return bool
      */
-    public function isEqual($insight): bool
+    public function isEqual(InsightInterface $insight): bool
     {
-        return parent::isEqual($insight) && $this->getDependency() == $insight->getDependency();
+        return $insight instanceof static && parent::isEqual($insight) && $this->getDependency() == $insight->getDependency();
     }
 }

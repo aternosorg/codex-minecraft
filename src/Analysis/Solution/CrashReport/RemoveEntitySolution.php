@@ -4,6 +4,11 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\CrashReport;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
+/**
+ * Class RemoveEntitySolution
+ *
+ * @package Aternos\Codex\Minecraft\Analysis\Solution\CrashReport
+ */
 class RemoveEntitySolution extends CrashReportSolution
 {
     protected ?string $name;
