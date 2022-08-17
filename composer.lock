@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1bebc45e5bedf669f15749068364c39",
+    "content-hash": "d30bf7f029809e1d2373431e898b2f39",
     "packages": [
         {
             "name": "aternos/codex",
-            "version": "2.0.x-dev",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aternosorg/codex.git",
-                "reference": "cee752fbaf83b3b8078b5ef2bc39287282620cc7"
+                "reference": "18639f0ce4610e4227cf82c9088002a35fc563c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aternosorg/codex/zipball/cee752fbaf83b3b8078b5ef2bc39287282620cc7",
-                "reference": "cee752fbaf83b3b8078b5ef2bc39287282620cc7",
+                "url": "https://api.github.com/repos/aternosorg/codex/zipball/18639f0ce4610e4227cf82c9088002a35fc563c1",
+                "reference": "18639f0ce4610e4227cf82c9088002a35fc563c1",
                 "shasum": ""
             },
             "require": {
@@ -45,9 +45,9 @@
             "description": "PHP library to read, parse, print and analyse log files.",
             "support": {
                 "issues": "https://github.com/aternosorg/codex/issues",
-                "source": "https://github.com/aternosorg/codex/tree/2.0"
+                "source": "https://github.com/aternosorg/codex/tree/v2.0.0"
             },
-            "time": "2022-08-17T10:56:43+00:00"
+            "time": "2022-08-17T14:18:04+00:00"
         }
     ],
     "packages-dev": [
@@ -2069,9 +2069,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "aternos/codex": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
