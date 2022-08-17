@@ -1,7 +1,7 @@
 {
     "id": "bungeecord\/proxy",
     "name": "BungeeCord",
-    "type": "Proxy",
+    "type": "Proxy Log",
     "version": null,
     "title": "BungeeCord Proxy Log",
     "entries": [

@@ -1,7 +1,7 @@
 {
     "id": "waterfall\/proxy",
     "name": "Waterfall",
-    "type": "Proxy",
+    "type": "Proxy Log",
     "version": null,
     "title": "Waterfall Proxy Log",
     "entries": [

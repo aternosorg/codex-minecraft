@@ -1,9 +1,9 @@
 {
     "id": "fabric\/client",
     "name": "Fabric",
-    "type": "Client",
+    "type": "Client Log",
     "version": "1.19.2",
-    "title": "Fabric Client 1.19.2 Log",
+    "title": "Fabric 1.19.2 Client Log",
     "entries": [
         {
             "level": 6,

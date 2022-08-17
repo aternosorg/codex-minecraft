@@ -1,7 +1,7 @@
 {
     "id": "vanilla\/server",
     "name": "Vanilla",
-    "type": "Server",
+    "type": "Server Log",
     "version": null,
     "title": "Vanilla Server Log",
     "entries": [

@@ -1,7 +1,7 @@
 {
     "id": "vanilla\/client",
     "name": "Vanilla",
-    "type": "Client",
+    "type": "Client Log",
     "version": null,
     "title": "Vanilla Client Log",
     "entries": [

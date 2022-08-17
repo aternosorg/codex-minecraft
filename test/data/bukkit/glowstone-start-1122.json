@@ -1,7 +1,7 @@
 {
     "id": "glowstone\/server",
     "name": "Glowstone",
-    "type": "Server",
+    "type": "Server Log",
     "version": null,
     "title": "Glowstone Server Log",
     "entries": [

@@ -1,9 +1,9 @@
 {
     "id": "pocketmine\/server",
     "name": "Pocketmine",
-    "type": "Server",
+    "type": "Server Log",
     "version": "1.10.0",
-    "title": "Pocketmine Server 1.10.0 Log",
+    "title": "Pocketmine 1.10.0 Server Log",
     "entries": [
         {
             "level": 6,

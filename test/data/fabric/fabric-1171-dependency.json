@@ -1,9 +1,9 @@
 {
     "id": "fabric\/server",
     "name": "Fabric",
-    "type": "Server",
+    "type": "Server Log",
     "version": "1.17.1",
-    "title": "Fabric Server 1.17.1 Log",
+    "title": "Fabric 1.17.1 Server Log",
     "entries": [
         {
             "level": 6,

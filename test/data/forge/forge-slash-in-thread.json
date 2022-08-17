@@ -1,7 +1,7 @@
 {
     "id": "forge\/server",
     "name": "Forge",
-    "type": "Server",
+    "type": "Server Log",
     "version": null,
     "title": "Forge Server Log",
     "entries": [

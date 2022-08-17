@@ -14,6 +14,7 @@ use Aternos\Codex\Minecraft\Log\Type\CrashReportLogTypeInterface;
 use Aternos\Codex\Minecraft\Log\Type\ProxyLogTypeInterface;
 use Aternos\Codex\Minecraft\Log\Type\ServerLogTypeInterface;
 use Aternos\Codex\Minecraft\Parser\Parser;
+use Aternos\Codex\Minecraft\Translator\Translator;
 use Aternos\Codex\Parser\ParserInterface;
 
 /**
@@ -63,14 +64,8 @@ class MinecraftLog extends AnalysableLog implements DetectableLogInterface
      */
     public function getTypeName(): ?string
     {
-        return match (true) {
-            $this instanceof ServerLogTypeInterface => "Server",
-            $this instanceof ClientLogTypeInterface => "Client",
-            $this instanceof ProxyLogTypeInterface => "Proxy",
-            $this instanceof CrashReportLogTypeInterface => "Crash Report",
-            $this instanceof ContentLogTypeInterface => "Content",
-            default => null
-        };
+        $id = $this->getTypeId() ?? "unknown";
+        return Translator::getInstance()->getTranslation("type-" . $id);
     }
 
     /**
@@ -95,10 +90,14 @@ class MinecraftLog extends AnalysableLog implements DetectableLogInterface
      */
     public function getTypeId(): ?string
     {
-        if ($this->getTypeName() === null) {
-            return null;
-        }
-        return strtolower(str_replace(" ", "-", $this->getTypeName()));
+        return match (true) {
+            $this instanceof ServerLogTypeInterface => "server",
+            $this instanceof ClientLogTypeInterface => "client",
+            $this instanceof ProxyLogTypeInterface => "proxy",
+            $this instanceof CrashReportLogTypeInterface => "crash-report",
+            $this instanceof ContentLogTypeInterface => "content",
+            default => null
+        };
     }
 
     /**
@@ -131,17 +130,13 @@ class MinecraftLog extends AnalysableLog implements DetectableLogInterface
         if ($name = $this->getName()) {
             $title .= $name . " ";
         }
-        if ($type = $this->getTypeName()) {
-            $title .= $type . " ";
-        }
         if ($version = $this->getVersion()) {
-            $title .= $version;
+            $title .= $version . " ";
         }
-        $title = trim($title);
-        if (empty($title)) {
-            $title = "Unknown";
+        if ($type = $this->getTypeName()) {
+            $title .= $type;
         }
-        return $title . " Log";
+        return trim($title);
     }
 
     /**

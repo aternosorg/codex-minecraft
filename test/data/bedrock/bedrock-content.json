@@ -1,7 +1,7 @@
 {
     "id": "bedrock\/content",
     "name": "Bedrock",
-    "type": "Content",
+    "type": "Content Log",
     "version": null,
     "title": "Bedrock Content Log",
     "entries": [

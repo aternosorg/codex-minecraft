@@ -1,7 +1,7 @@
 {
     "id": "fabric\/server",
     "name": "Fabric",
-    "type": "Server",
+    "type": "Server Log",
     "version": null,
     "title": "Fabric Server Log",
     "entries": [

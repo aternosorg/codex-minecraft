@@ -1,9 +1,9 @@
 {
     "id": "quilt\/client",
     "name": "Quilt",
-    "type": "Client",
+    "type": "Client Log",
     "version": "1.19.2",
-    "title": "Quilt Client 1.19.2 Log",
+    "title": "Quilt 1.19.2 Client Log",
     "entries": [
         {
             "level": 6,

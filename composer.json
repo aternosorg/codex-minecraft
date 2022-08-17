@@ -19,7 +19,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Aternos\\Codex\\Minecraft\\": "src/"
+            "Aternos\\Codex\\Minecraft\\": "src/",
+            "Aternos\\Codex\\Minecraft\\Test\\": "test/tests/"
         }
     },
     "scripts": {

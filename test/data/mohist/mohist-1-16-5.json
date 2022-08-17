@@ -1,9 +1,9 @@
 {
     "id": "mohist\/server",
     "name": "Mohist",
-    "type": "Server",
+    "type": "Server Log",
     "version": "1.16.5",
-    "title": "Mohist Server 1.16.5 Log",
+    "title": "Mohist 1.16.5 Server Log",
     "entries": [
         {
             "level": 6,

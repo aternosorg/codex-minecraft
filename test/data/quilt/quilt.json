@@ -1,9 +1,9 @@
 {
     "id": "quilt\/server",
     "name": "Quilt",
-    "type": "Server",
+    "type": "Server Log",
     "version": "1.18.2",
-    "title": "Quilt Server 1.18.2 Log",
+    "title": "Quilt 1.18.2 Server Log",
     "entries": [
         {
             "level": 6,

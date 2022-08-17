@@ -1,9 +1,9 @@
 {
     "id": "vanilla\/server",
     "name": "Vanilla",
-    "type": "Server",
+    "type": "Server Log",
     "version": "19w34a",
-    "title": "Vanilla Server 19w34a Log",
+    "title": "Vanilla 19w34a Server Log",
     "entries": [
         {
             "level": 6,

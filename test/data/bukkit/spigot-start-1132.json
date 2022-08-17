@@ -1,9 +1,9 @@
 {
     "id": "spigot\/server",
     "name": "Spigot",
-    "type": "Server",
+    "type": "Server Log",
     "version": "1.13.2",
-    "title": "Spigot Server 1.13.2 Log",
+    "title": "Spigot 1.13.2 Server Log",
     "entries": [
         {
             "level": 6,

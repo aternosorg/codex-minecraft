@@ -1,9 +1,9 @@
 {
     "id": "vanilla\/server",
     "name": "Vanilla",
-    "type": "Server",
+    "type": "Server Log",
     "version": "21w05b",
-    "title": "Vanilla Server 21w05b Log",
+    "title": "Vanilla 21w05b Server Log",
     "entries": [
         {
             "level": 6,

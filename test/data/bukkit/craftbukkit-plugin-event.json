@@ -1,9 +1,9 @@
 {
     "id": "craftbukkit\/server",
     "name": "CraftBukkit",
-    "type": "Server",
+    "type": "Server Log",
     "version": "1.8",
-    "title": "CraftBukkit Server 1.8 Log",
+    "title": "CraftBukkit 1.8 Server Log",
     "entries": [
         {
             "level": 6,

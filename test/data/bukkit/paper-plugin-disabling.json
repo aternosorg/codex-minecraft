@@ -1,9 +1,9 @@
 {
     "id": "paper\/server",
     "name": "Paper",
-    "type": "Server",
+    "type": "Server Log",
     "version": "1.13.2",
-    "title": "Paper Server 1.13.2 Log",
+    "title": "Paper 1.13.2 Server Log",
     "entries": [
         {
             "level": 6,

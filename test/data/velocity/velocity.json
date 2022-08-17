@@ -1,7 +1,7 @@
 {
     "id": "velocity\/proxy",
     "name": "Velocity",
-    "type": "Proxy",
+    "type": "Proxy Log",
     "version": null,
     "title": "Velocity Proxy Log",
     "entries": [

@@ -1,9 +1,9 @@
 {
     "id": "forge\/client",
     "name": "Forge",
-    "type": "Client",
+    "type": "Client Log",
     "version": "1.19.2",
-    "title": "Forge Client 1.19.2 Log",
+    "title": "Forge 1.19.2 Client Log",
     "entries": [
         {
             "level": 6,

@@ -1,9 +1,9 @@
 {
     "id": "bedrock\/server",
     "name": "Bedrock",
-    "type": "Server",
+    "type": "Server Log",
     "version": "1.12.0.28",
-    "title": "Bedrock Server 1.12.0.28 Log",
+    "title": "Bedrock 1.12.0.28 Server Log",
     "entries": [
         {
             "level": 6,

@@ -1,9 +1,9 @@
 {
     "id": "magma\/server",
     "name": "Magma",
-    "type": "Server",
+    "type": "Server Log",
     "version": "1.12.2",
-    "title": "Magma Server 1.12.2 Log",
+    "title": "Magma 1.12.2 Server Log",
     "entries": [
         {
             "level": 6,
