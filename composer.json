@@ -1,6 +1,6 @@
 {
     "name": "aternos/codex-minecraft",
-    "description": "PHP library to read, parse, print and analyse Minecraft server log files.",
+    "description": "PHP library to read, parse, print and analyse Minecraft log files.",
     "type": "library",
     "license": "MIT",
     "authors": [
