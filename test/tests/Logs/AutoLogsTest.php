@@ -848,6 +848,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_forge_polymc_1_19_2(): void
+    {
+        $log = new TestLog('forge/forge-polymc-1-19-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_forge_slash_in_thread(): void
     {
         $log = new TestLog('forge/forge-slash-in-thread.log');
