@@ -7,6 +7,8 @@ use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\WeightedSinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\ForgeAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaLog;
+use Aternos\Codex\Minecraft\Parser\ForgeParser;
+use Aternos\Codex\Parser\ParserInterface;
 
 /**
  * Class ForgeLog
@@ -15,7 +17,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaLog;
  */
 abstract class ForgeLog extends VanillaLog
 {
-    protected static string $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[[^\]]+\])?\:).*$/';
+    protected static string $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[([^\]]+)\])?\:).*$/';
 
     /**
      * @return DetectorInterface[]
@@ -33,6 +35,16 @@ abstract class ForgeLog extends VanillaLog
     public static function getDefaultAnalyser(): AnalyserInterface
     {
         return new ForgeAnalyser();
+    }
+
+    /**
+     * @return ParserInterface
+     */
+    public static function getDefaultParser(): ParserInterface
+    {
+        return (new ForgeParser())
+            ->setPattern(static::$pattern)
+            ->setMatches([ForgeParser::PREFIX, ForgeParser::LEVEL, ForgeParser::CHANNEL]);
     }
 
     /**
