@@ -6,7 +6,7 @@
     "title": "Bedrock Server Log",
     "entries": [
         {
-            "level": null,
+            "level": 6,
             "time": null,
             "prefix": null,
             "lines": [

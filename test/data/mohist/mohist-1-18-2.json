@@ -6,7 +6,7 @@
     "title": "Mohist 1.18.2 Server Log",
     "entries": [
         {
-            "level": null,
+            "level": 6,
             "time": null,
             "prefix": null,
             "lines": [
@@ -2406,7 +2406,7 @@
                 "message": "Minecraft version: 1.18.2",
                 "counter": 2,
                 "entry": {
-                    "level": null,
+                    "level": 6,
                     "time": null,
                     "prefix": null,
                     "lines": [
