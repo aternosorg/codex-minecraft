@@ -368,6 +368,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_spigot_start_1_17_1(): void
+    {
+        $log = new TestLog('bukkit/spigot-start-1-17-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_spigot_start_1132(): void
     {
         $log = new TestLog('bukkit/spigot-start-1132.log');
