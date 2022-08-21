@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric;
 
+use Aternos\Codex\Analyser\AnalyserInterface;
 use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\FabricAnalyser;
@@ -30,9 +31,9 @@ abstract class FabricLog extends VanillaLog
     }
 
     /**
-     * @return FabricAnalyser
+     * @return AnalyserInterface
      */
-    public static function getDefaultAnalyser(): FabricAnalyser
+    public static function getDefaultAnalyser(): AnalyserInterface
     {
         return new FabricAnalyser();
     }

@@ -458,6 +458,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_crash_report(): void
+    {
+        $log = new TestLog('fabric/fabric-crash-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_duplicate_mod(): void
     {
         $log = new TestLog('fabric/fabric-duplicate-mod.log');
