@@ -1709,6 +1709,23 @@
                 "value": "1.16.5"
             },
             {
+                "message": "Java version: 1.8.0_292",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tJava Version:",
+                    "lines": [
+                        {
+                            "number": 100,
+                            "content": "\tJava Version: 1.8.0_292, Oracle Corporation"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "1.8.0_292"
+            },
+            {
                 "message": "Forge version: 36.2.20",
                 "counter": 1,
                 "entry": {
