@@ -2407,6 +2407,23 @@
                 },
                 "label": "Java version",
                 "value": "17.0.1"
+            },
+            {
+                "message": "Fabric loader version: 0.14.5",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\t\tfabricloader:",
+                    "lines": [
+                        {
+                            "number": 177,
+                            "content": "\t\tfabricloader: Fabric Loader 0.14.5"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.14.5"
             }
         ]
     }

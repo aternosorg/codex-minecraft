@@ -3539,6 +3539,23 @@
                 },
                 "label": "Java version",
                 "value": "17.0.1"
+            },
+            {
+                "message": "Forge version: 40.1.25",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tForge:",
+                    "lines": [
+                        {
+                            "number": 316,
+                            "content": "\tForge: net.minecraftforge:40.1.25"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "40.1.25"
             }
         ]
     }
