@@ -1150,7 +1150,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[07Feb2020 20:21:41.818] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]:",
             "lines": [
@@ -1432,7 +1432,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[15Feb2020 14:45:26.737] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]:",
             "lines": [
@@ -1596,7 +1596,7 @@
                 "message": "The mod 'azurecompat' is missing the required mod 'mmorpg'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[07Feb2020 20:21:41.818] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]:",
                     "lines": [
@@ -1776,7 +1776,7 @@
                 "message": "The mod 'car' is missing the required mod 'minecraft'.",
                 "counter": 2,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[15Feb2020 14:45:26.737] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]:",
                     "lines": [

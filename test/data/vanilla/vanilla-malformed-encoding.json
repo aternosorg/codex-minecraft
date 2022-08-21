@@ -6,7 +6,7 @@
     "title": "Vanilla Server Log",
     "entries": [
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[21:28:50] [main\/FATAL]:",
             "lines": [
@@ -59,7 +59,7 @@
                 "message": "Something (probably the MOTD) contains malformed formatting codes.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[21:28:50] [main\/FATAL]:",
                     "lines": [

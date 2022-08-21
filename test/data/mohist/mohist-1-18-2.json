@@ -2256,7 +2256,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[05Jul2022 23:44:28.972] [Server thread\/FATAL] [net.minecraftforge.common.ForgeMod\/]:",
             "lines": [

@@ -380,7 +380,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[26Feb2019 11:28:27.097] [Thread-1\/FATAL] [net.minecraftforge.common.ForgeConfig\/CORE]:",
             "lines": [
@@ -391,7 +391,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[26Feb2019 11:28:27.098] [Thread-1\/FATAL] [net.minecraftforge.common.ForgeConfig\/CORE]:",
             "lines": [

@@ -17,7 +17,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[19:46:41] [main\/FATAL]:",
             "lines": [
@@ -122,7 +122,7 @@
                 "message": "The mod 'advanced-xray-fabric' is missing the required mod 'minecraft'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[19:46:41] [main\/FATAL]:",
                     "lines": [

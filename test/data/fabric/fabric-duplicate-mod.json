@@ -17,7 +17,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[23:35:35] [main\/FATAL]:",
             "lines": [
@@ -94,7 +94,7 @@
                 "message": "There are multiple mod files for the mod name 'FabricAPI'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[23:35:35] [main\/FATAL]:",
                     "lines": [

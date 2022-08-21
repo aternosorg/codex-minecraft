@@ -182,7 +182,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[16:41:32] [Server thread\/FATAL] [FML]:",
             "lines": [
@@ -193,7 +193,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[16:41:32] [Server thread\/FATAL] [FML]:",
             "lines": [
@@ -204,7 +204,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[23:23:18] [Server thread\/FATAL] [FML]:",
             "lines": [
@@ -215,7 +215,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[23:23:18] [Server thread\/FATAL] [FML]:",
             "lines": [
@@ -226,7 +226,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[18:19:10] [Server thread\/FATAL] [FML]:",
             "lines": [
@@ -237,7 +237,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[17:26:53] [Server thread\/FATAL] [FML]:",
             "lines": [
@@ -248,7 +248,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[02:11:15] [Server thread\/FATAL] [FML]:",
             "lines": [
@@ -259,7 +259,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[22:14:04] [Server thread\/FATAL] [FML]:",
             "lines": [
@@ -270,7 +270,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[22:14:04] [Server thread\/FATAL] [FML]:",
             "lines": [
@@ -358,7 +358,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[00:05:16] [Server thread\/FATAL] [FML]:",
             "lines": [
@@ -704,7 +704,7 @@
                 "message": "The mod 'CoFH Core' is missing the required mod 'redstoneflux'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[16:41:32] [Server thread\/FATAL] [FML]:",
                     "lines": [
@@ -724,7 +724,7 @@
                 "message": "The mod 'Thermal Dynamics' is missing the required mod 'codechickenlib'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[16:41:32] [Server thread\/FATAL] [FML]:",
                     "lines": [
@@ -744,7 +744,7 @@
                 "message": "The mod 'EvilCraft' is missing the required mod 'cyclopscore'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[23:23:18] [Server thread\/FATAL] [FML]:",
                     "lines": [
@@ -764,7 +764,7 @@
                 "message": "The mod 'EvilCraft-Compat' is missing the required mod 'cyclopscore'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[23:23:18] [Server thread\/FATAL] [FML]:",
                     "lines": [
@@ -784,7 +784,7 @@
                 "message": "The mod 'Applied Energistics 2' is missing the required mod 'forge'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[18:19:10] [Server thread\/FATAL] [FML]:",
                     "lines": [
@@ -804,7 +804,7 @@
                 "message": "The mod 'Ex Nihilo Creatio' is missing the required mod 'forgelin'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[17:26:53] [Server thread\/FATAL] [FML]:",
                     "lines": [
@@ -824,7 +824,7 @@
                 "message": "The mod 'Clay Soldiers Mod' is missing the required mod 'sanlib'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[02:11:15] [Server thread\/FATAL] [FML]:",
                     "lines": [
@@ -844,7 +844,7 @@
                 "message": "The mod 'Biomes O' Plenty' is missing the required mod 'forge'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[22:14:04] [Server thread\/FATAL] [FML]:",
                     "lines": [
@@ -864,7 +864,7 @@
                 "message": "The mod 'Forge Multipart CBE' is missing the required mods 'codechickenlib', 'forge'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[22:14:04] [Server thread\/FATAL] [FML]:",
                     "lines": [
@@ -887,7 +887,7 @@
                 "message": "The mod 'Dragon Mounts' is missing the required mod 'llibrary'.",
                 "counter": 2,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[00:05:16] [Server thread\/FATAL] [FML]:",
                     "lines": [

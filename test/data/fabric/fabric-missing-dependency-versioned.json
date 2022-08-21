@@ -32,7 +32,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[18:50:43] [main\/FATAL]:",
             "lines": [
@@ -133,7 +133,7 @@
                 "message": "The mod 'origins' is missing the required mod 'FabricAPI'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[18:50:43] [main\/FATAL]:",
                     "lines": [

@@ -6,7 +6,7 @@
     "title": "Fabric Server Log",
     "entries": [
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[16:33:50] [main\/FATAL]:",
             "lines": [
@@ -103,7 +103,7 @@
                 "message": "The mod 'Extra Origins' is missing the required mod 'pehkui'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[16:33:50] [main\/FATAL]:",
                     "lines": [
@@ -203,7 +203,7 @@
                 "message": "The mod 'Extra Origins' is missing the required mod 'FabricAPI'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[16:33:50] [main\/FATAL]:",
                     "lines": [
@@ -303,7 +303,7 @@
                 "message": "The mod 'Extra Origins' is missing the required mod 'origins'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[16:33:50] [main\/FATAL]:",
                     "lines": [

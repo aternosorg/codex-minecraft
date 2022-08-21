@@ -1062,7 +1062,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[14:43:26] [Server thread\/FATAL] [FML]:",
             "lines": [
@@ -1386,7 +1386,7 @@
                 "message": "The mod 'Hero Aviation Helicopter Pack (HA\/HP)' is missing the required mod 'mts'.",
                 "counter": 2,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[14:43:26] [Server thread\/FATAL] [FML]:",
                     "lines": [

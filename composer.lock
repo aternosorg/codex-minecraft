@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aternos/codex",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aternosorg/codex.git",
-                "reference": "18639f0ce4610e4227cf82c9088002a35fc563c1"
+                "reference": "9ee1927e47c268fc9df18e617a1054a47b4bba96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aternosorg/codex/zipball/18639f0ce4610e4227cf82c9088002a35fc563c1",
-                "reference": "18639f0ce4610e4227cf82c9088002a35fc563c1",
+                "url": "https://api.github.com/repos/aternosorg/codex/zipball/9ee1927e47c268fc9df18e617a1054a47b4bba96",
+                "reference": "9ee1927e47c268fc9df18e617a1054a47b4bba96",
                 "shasum": ""
             },
             "require": {
@@ -45,9 +45,9 @@
             "description": "PHP library to read, parse, print and analyse log files.",
             "support": {
                 "issues": "https://github.com/aternosorg/codex/issues",
-                "source": "https://github.com/aternosorg/codex/tree/v2.0.0"
+                "source": "https://github.com/aternosorg/codex/tree/v2.0.1"
             },
-            "time": "2022-08-17T14:18:04+00:00"
+            "time": "2022-08-21T07:27:38+00:00"
         }
     ],
     "packages-dev": [

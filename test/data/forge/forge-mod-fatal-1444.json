@@ -5528,7 +5528,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[14Feb2020 20:36:13.010] [modloading-worker-2\/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner\/DISTXFORM]:",
             "lines": [
@@ -5850,7 +5850,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[14Feb2020 20:36:14.162] [Server thread\/FATAL] [net.minecraftforge.fml.ModLoader\/LOADING]:",
             "lines": [

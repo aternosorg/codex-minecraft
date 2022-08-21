@@ -32,7 +32,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[16:26:28] [main\/FATAL]:",
             "lines": [
@@ -133,7 +133,7 @@
                 "message": "The mod 'FabricAPI' is missing the required mod 'minecraft'.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 2,
                     "time": null,
                     "prefix": "[16:26:28] [main\/FATAL]:",
                     "lines": [

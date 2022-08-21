@@ -435,7 +435,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[13:51:17] [Server thread\/FATAL]:",
             "lines": [
@@ -602,7 +602,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[13:51:17] [Server thread\/FATAL]:",
             "lines": [
@@ -745,7 +745,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[13:51:17] [Server thread\/FATAL]:",
             "lines": [
@@ -976,7 +976,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[13:51:17] [Server thread\/FATAL]:",
             "lines": [
@@ -1196,7 +1196,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[13:51:17] [Server thread\/FATAL]:",
             "lines": [
@@ -1372,7 +1372,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[13:51:17] [Server thread\/FATAL]:",
             "lines": [
@@ -1526,7 +1526,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 2,
             "time": null,
             "prefix": "[13:51:17] [Server thread\/FATAL]:",
             "lines": [
