@@ -1,0 +1,56 @@
+[17:18:15] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:18:16] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[17:18:17] [Worker-Main-1/INFO]: Loaded 7 recipes
+[17:18:22] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[17:18:22] [Server thread/INFO]: Loading properties
+[17:18:24] [Server thread/INFO]: This server is running Paper version git-Paper-794 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[17:18:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:18:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:18:24] [Server thread/INFO]: Debug logging is disabled
+[17:18:24] [Server thread/INFO]: Default game type: SURVIVAL
+[17:18:24] [Server thread/INFO]: Generating keypair
+[17:18:25] [Server thread/INFO]: Starting Minecraft server on *:25253
+[17:18:25] [Server thread/INFO]: Using epoll channel type
+[17:18:27] [Server thread/ERROR]: Could not load 'plugins/Slimefun4-1027.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: io/github/thebusybiscuit/slimefun4/implementation/Slimefun has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:414) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:322) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:269) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_342]
+Caused by: java.lang.UnsupportedClassVersionError: io/github/thebusybiscuit/slimefun4/implementation/Slimefun has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_342]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_342]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_342]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:201) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_342]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:119) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:114) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_342]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_342]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_342]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[patched_1.16.5.jar:git-Paper-794]
+	... 7 more
+[17:18:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:18:27] [Server thread/INFO]: Preparing level "world"
+[17:18:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:18:29] [Server thread/INFO]: Preparing spawn area: 0%
+[17:18:30] [Server thread/INFO]: Preparing spawn area: 7%
+[17:18:30] [Server thread/INFO]: Time elapsed: 2842 ms
+[17:18:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:18:39] [Server thread/INFO]: Preparing spawn area: 0%
+[17:18:39] [Server thread/INFO]: Time elapsed: 8891 ms
+[17:18:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:18:40] [Server thread/INFO]: Preparing spawn area: 0%
+[17:18:40] [Server thread/INFO]: Preparing spawn area: 0%
+[17:18:40] [Server thread/INFO]: Preparing spawn area: 0%
+[17:18:40] [Server thread/INFO]: Time elapsed: 1105 ms
+[17:18:41] [Server thread/INFO]: Starting GS4 status listener
+[17:18:41] [Server thread/INFO]: Thread Query Listener started
+[17:18:41] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
+[17:18:41] [Server thread/INFO]: Running delayed init tasks
+[17:18:41] [Server thread/INFO]: Done (18.345s)! For help, type "help"

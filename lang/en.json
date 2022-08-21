@@ -69,6 +69,8 @@
   "mod-incompatible-problem": "The mods '{{first-mod-name}}' and '{{second-mod-name}}' are incompatible.",
   "server-install-different-version-solution": "Install the version '{{software-version}}' of your server software.",
   "plugin-api-version-problem": "The plugin '{{plugin-name}}' needs version '{{software-version}}' of your server software.",
+  "plugin-java-version-problem": "The plugin '{{plugin-name}}' requires Java version {{java-version}} or later to run.",
+  "change-java-version-solution": "Change your Java version to {{java-version}} or later.",
   "ticking-entity-problem": "The entity '{{name}}' at the location {{location}} is causing issues while ticking.",
   "remove-entity-solution": "Remove the entity '{{name}}' at the location {{location}}.",
   "type-client": "Client Log",
