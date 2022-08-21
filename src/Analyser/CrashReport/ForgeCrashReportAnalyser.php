@@ -1,0 +1,19 @@
+<?php
+
+namespace Aternos\Codex\Minecraft\Analyser\CrashReport;
+
+use Aternos\Codex\Minecraft\Analysis\Information\Forge\CrashReport\ForgeVersionInformation;
+
+/**
+ * Class MinecraftCrashReportAnalyser
+ *
+ * @package Aternos\Codex\Minecraft\Analyser\CrashReport
+ */
+class ForgeCrashReportAnalyser extends MinecraftCrashReportAnalyser
+{
+    public function __construct()
+    {
+        parent::__construct();
+        $this->addPossibleInsightClass(ForgeVersionInformation::class);
+    }
+}
