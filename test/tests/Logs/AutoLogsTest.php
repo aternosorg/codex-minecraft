@@ -218,6 +218,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_plugin_unsupported_class_version(): void
+    {
+        $log = new TestLog('bukkit/paper-plugin-unsupported-class-version.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_start_1_8_8(): void
     {
         $log = new TestLog('bukkit/paper-start-1-8-8.log');

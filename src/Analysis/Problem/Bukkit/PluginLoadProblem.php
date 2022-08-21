@@ -37,7 +37,7 @@ class PluginLoadProblem extends PluginProblem
     {
         return [
             '/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in folder \'[^\']+\''
-            . '(?!\n(org.bukkit.plugin.UnknownDependencyException|org.bukkit.plugin.InvalidPluginException\: Unsupported API version))/'
+            . '(?!\n(org.bukkit.plugin.UnknownDependencyException|org.bukkit.plugin.InvalidPluginException\: (Unsupported API version|java.lang.UnsupportedClassVersionError)))/'
         ];
     }
 
