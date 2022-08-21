@@ -1487,6 +1487,23 @@
                 },
                 "label": "Minecraft version",
                 "value": "1.10.2"
+            },
+            {
+                "message": "Forge version: 12.18.3.2511",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tFML:",
+                    "lines": [
+                        {
+                            "number": 95,
+                            "content": "\tFML: MCP 9.32 Powered by Forge 12.18.3.2511 23 mods loaded, 23 mods active"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "12.18.3.2511"
             }
         ]
     }
