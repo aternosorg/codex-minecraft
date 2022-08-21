@@ -1834,6 +1834,24 @@
     ],
     "analysis": {
         "problems": [],
-        "information": []
+        "information": [
+            {
+                "message": "Java version: 1.8.0_342",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tJava Version:",
+                    "lines": [
+                        {
+                            "number": 78,
+                            "content": "\tJava Version: 1.8.0_342, Oracle Corporation"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "1.8.0_342"
+            }
+        ]
     }
 }

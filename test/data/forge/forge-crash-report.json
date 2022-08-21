@@ -1487,6 +1487,23 @@
                 },
                 "label": "Minecraft version",
                 "value": "1.10.2"
+            },
+            {
+                "message": "Java version: 1.8.0_292",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tJava Version:",
+                    "lines": [
+                        {
+                            "number": 90,
+                            "content": "\tJava Version: 1.8.0_292, Oracle Corporation"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "1.8.0_292"
             }
         ]
     }
