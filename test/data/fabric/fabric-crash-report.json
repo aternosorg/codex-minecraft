@@ -1,0 +1,2396 @@
+{
+    "id": "fabric\/crash-report",
+    "name": "Fabric",
+    "type": "Crash Report",
+    "version": "1.18.2",
+    "title": "Fabric 1.18.2 Crash Report",
+    "entries": [
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "---- Minecraft Crash Report ----"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "\/\/ Why did you do that?"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Time:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "Time: 5\/15\/22, 8:09 PM"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Description:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "Description: Exception ticking world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "java.lang.NullPointerException: Cannot invoke \"java.util.List.forEach(java.util.function.Consumer)\" because \"currentEnchantments\" is null"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "\tat net.minecraft.class_1890.handler$zlm000$getPossibleEntriesMixin(class_1890.java:545)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "\tat net.minecraft.class_1890.method_8229(class_1890.java)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "\tat net.minecraft.class_1890.method_8230(class_1890.java:360)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "\tat net.minecraft.class_1890.method_8233(class_1890.java:318)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "\tat io.github.flemmli97.improvedmobs.utils.Utils.enchantGear(Utils.java:106)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "\tat io.github.flemmli97.improvedmobs.events.EventCalls.applyAttributesAndItems(EventCalls.java:216)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "\tat io.github.flemmli97.improvedmobs.events.EventCalls.onEntityLoad(EventCalls.java:149)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "\tat io.github.flemmli97.improvedmobs.fabric.events.EventHandler.onEntityLoad(EventHandler.java:58)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "\tat net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents.lambda$static$0(ServerEntityEvents.java:42)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "\tat net.minecraft.class_3218$class_5526.handler$zhe000$invokeEntityLoadEvent(class_3218.java:1635)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "\tat net.minecraft.class_3218$class_5526.method_31436(class_3218.java:1519)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "\tat net.minecraft.class_3218$class_5526.method_31798(class_3218.java:1480)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "\tat net.minecraft.class_5579.method_31847(class_5579.java:210)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "\tat net.minecraft.class_5579.method_31820(class_5579.java:180)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "\tat net.minecraft.class_5579.method_31818(class_5579.java:161)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "\tat net.minecraft.class_3218.method_14175(class_3218.java:855)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "\tat net.minecraft.class_3218.method_8649(class_3218.java:806)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "\tat java.base\/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "\tat java.base\/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "\tat java.base\/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "\tat net.minecraft.class_5425.method_30771(class_5425.java:11)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "\tat net.minecraft.class_1948.method_24930(class_1948.java:298)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "\tat net.minecraft.class_1948.method_8663(class_1948.java:211)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "\tat net.minecraft.class_1948.method_27821(class_1948.java:199)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "\tat net.minecraft.class_3215.method_14161(class_3215.java:375)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "\tat net.minecraft.class_3215.method_12127(class_3215.java:322)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "\tat net.minecraft.class_3218.method_18765(class_3218.java:311)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "\tat net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:907)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "\tat net.minecraft.class_3176.method_3813(class_3176.java:322)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "\tat net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:851)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "\tat net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:697)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "\tat net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:273)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "\tat java.base\/java.lang.Thread.run(Thread.java:833)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "A detailed walkthrough of the error, its code path and all known details is as follows:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "---------------------------------------------------------------------------------------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "-- Head --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Thread:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "Thread: Server thread"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "\tat net.minecraft.class_1890.handler$zlm000$getPossibleEntriesMixin(class_1890.java:545)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "\tat net.minecraft.class_1890.method_8229(class_1890.java)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "\tat net.minecraft.class_1890.method_8230(class_1890.java:360)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "\tat net.minecraft.class_1890.method_8233(class_1890.java:318)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "\tat io.github.flemmli97.improvedmobs.utils.Utils.enchantGear(Utils.java:106)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "\tat io.github.flemmli97.improvedmobs.events.EventCalls.applyAttributesAndItems(EventCalls.java:216)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "\tat io.github.flemmli97.improvedmobs.events.EventCalls.onEntityLoad(EventCalls.java:149)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "\tat io.github.flemmli97.improvedmobs.fabric.events.EventHandler.onEntityLoad(EventHandler.java:58)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "\tat net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents.lambda$static$0(ServerEntityEvents.java:42)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "\tat net.minecraft.class_3218$class_5526.handler$zhe000$invokeEntityLoadEvent(class_3218.java:1635)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "\tat net.minecraft.class_3218$class_5526.method_31436(class_3218.java:1519)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "\tat net.minecraft.class_3218$class_5526.method_31798(class_3218.java:1480)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "\tat net.minecraft.class_5579.method_31847(class_5579.java:210)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "\tat net.minecraft.class_5579.method_31820(class_5579.java:180)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "\tat net.minecraft.class_5579.method_31818(class_5579.java:161)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "\tat net.minecraft.class_3218.method_14175(class_3218.java:855)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "\tat net.minecraft.class_3218.method_8649(class_3218.java:806)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "\tat java.base\/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "\tat java.base\/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "\tat java.base\/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "\tat net.minecraft.class_5425.method_30771(class_5425.java:11)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "\tat net.minecraft.class_1948.method_24930(class_1948.java:298)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "\tat net.minecraft.class_1948.method_8663(class_1948.java:211)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "\tat net.minecraft.class_1948.method_27821(class_1948.java:199)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "\tat net.minecraft.class_3215.method_14161(class_3215.java:375)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "\tat net.minecraft.class_3215.method_12127(class_3215.java:322)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "\tat net.minecraft.class_3218.method_18765(class_3218.java:311)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 76,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "-- Affected level --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tAll players:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "\tAll players: 1 total; [class_3222['Emperor_Ender'\/645, l='ServerLevel[world]', x=389.49, y=60.00, z=24.49]]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tChunk stats:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "\tChunk stats: 2989"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel dimension:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "\tLevel dimension: minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel spawn location:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "\tLevel spawn location: World: (0,118,0), Section: (at 0,6,0 in 0,7,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel time:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "\tLevel time: 465605 game time, 16417 day time"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel name:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "\tLevel name: world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel game mode:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "\tLevel game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel weather:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "\tLevel weather: Rain time: 13343 (now: false), thunder time: 4187 (now: false)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tKnown server brands:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "\tKnown server brands: fabric"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel was modded:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "\tLevel was modded: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel storage version:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "\tLevel storage version: 0x04ABD - Anvil"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "\tat net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:907)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "\tat net.minecraft.class_3176.method_3813(class_3176.java:322)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "\tat net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:851)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "\tat net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:697)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "\tat net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:273)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "\tat java.base\/java.lang.Thread.run(Thread.java:833)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 97,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "-- System Details --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "\tMinecraft Version: 1.18.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version ID:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "\tMinecraft Version ID: 1.18.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tOperating System:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "\tOperating System: Linux (amd64) version 5.4.0-100-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava Version:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "\tJava Version: 17.0.1, Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava VM Version:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "\tJava VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory:",
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "\tMemory: 1242626200 bytes (1185 MiB) \/ 2306867200 bytes (2200 MiB) up to 2306867200 bytes (2200 MiB)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCPUs:",
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "\tCPUs: 3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Vendor:",
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "\tProcessor Vendor: AuthenticAMD"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Name:",
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "\tProcessor Name: AMD EPYC 7402P 24-Core Processor"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIdentifier:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "\tIdentifier: AuthenticAMD Family 23 Model 49 Stepping 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMicroarchitecture:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "\tMicroarchitecture: Zen 2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFrequency (GHz):",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "\tFrequency (GHz): -0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical packages:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "\tNumber of physical packages: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical CPUs:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "\tNumber of physical CPUs: 24"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of logical CPUs:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "\tNumber of logical CPUs: 48"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 name:",
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "\tGraphics card #0 name: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 vendor:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "\tGraphics card #0 vendor: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 VRAM (MB):",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "\tGraphics card #0 VRAM (MB): 0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 deviceId:",
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "\tGraphics card #0 deviceId: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 versionInfo:",
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "\tGraphics card #0 versionInfo: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory max (MB):",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "\tVirtual memory max (MB): 129864.36"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory used (MB):",
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "\tVirtual memory used (MB): 104352.94"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory total (MB):",
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "\tSwap memory total (MB): 1024.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory used (MB):",
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "\tSwap memory used (MB): 583.96"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJVM Flags:",
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "\tJVM Flags: 3 total; -XX:MaxMetaspaceSize=300M -Xmx2200M -Xms1100M"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "\tFabric Mods: "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tarcanus:",
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "\t\tarcanus: Arcanus 1.29"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tarchitectury:",
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "\t\tarchitectury: Architectury 4.4.56"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tattributefix:",
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "\t\tattributefix: AttributeFix 14.0.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tbackpackmod:",
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "\t\tbackpackmod: Backpack Mod 1.18.2-3.1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tblue_endless_jankson:",
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "\t\tblue_endless_jankson: jankson 1.2.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tcardinal-components-base:",
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "\t\tcardinal-components-base: Cardinal Components API (base) 4.1.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tcardinal-components-entity:",
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "\t\tcardinal-components-entity: Cardinal Components API (entities) 4.1.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tcloth-basic-math:",
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "\t\tcloth-basic-math: cloth-basic-math 0.6.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tcloth-config:",
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "\t\tcloth-config: Cloth Config v6 6.2.62"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tcollective-fabric:",
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "\t\tcollective-fabric: Collective (Fabric) 4.26"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tcom_electronwill_night-config_core:",
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "\t\tcom_electronwill_night-config_core: core 3.6.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tcom_electronwill_night-config_toml:",
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "\t\tcom_electronwill_night-config_toml: toml 3.6.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tcom_eliotlash_mclib_mclib:",
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "\t\tcom_eliotlash_mclib_mclib: mclib 18"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tcom_eliotlash_molang_molang:",
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "\t\tcom_eliotlash_molang_molang: molang 18"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tcosmetic-armor:",
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "\t\tcosmetic-armor: Cosmetic Armor 1.3.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tdark-enchanting:",
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "\t\tdark-enchanting: Dark Enchanting 1.0.0+1.18.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tdawn:",
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "\t\tdawn: Dawn API 3.3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tdoom:",
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "\t\tdoom: Doom Fabric 4.2.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\textraweapons:",
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "\t\textraweapons: Consulars Extra Weapons & Armor 0.2.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric:",
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "\t\tfabric: Fabric API 0.51.1+1.18.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-api-base:",
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "\t\tfabric-api-base: Fabric API Base 0.4.4+d7c144a860"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-api-lookup-api-v1:",
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "\t\tfabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.0+2373a54560"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-biome-api-v1:",
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "\t\tfabric-biome-api-v1: Fabric Biome API (v1) 8.0.4+7b0f312660"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-command-api-v1:",
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "\t\tfabric-command-api-v1: Fabric Command API (v1) 1.1.9+d7c144a860"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-commands-v0:",
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "\t\tfabric-commands-v0: Fabric Commands (v0) 0.2.8+b4f4f6cd60"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-containers-v0:",
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "\t\tfabric-containers-v0: Fabric Containers (v0) 0.1.21+d7c144a860"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-content-registries-v0:",
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "\t\tfabric-content-registries-v0: Fabric Content Registries (v0) 3.0.3+d82b939260"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-convention-tags-v1:",
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "\t\tfabric-convention-tags-v1: Fabric Convention Tags 1.0.1+474e4f7960"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-crash-report-info-v1:",
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "\t\tfabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.1.11+3ac43d9560"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-dimensions-v1:",
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "\t\tfabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.17+2540745460"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-entity-events-v1:",
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "\t\tfabric-entity-events-v1: Fabric Entity Events (v1) 1.4.8+d7c144a860"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-events-interaction-v0:",
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "\t\tfabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.19+d7c144a860"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-events-lifecycle-v0:",
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "\t\tfabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.14+d7c144a860"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-game-rule-api-v1:",
+            "lines": [
+                {
+                    "number": 159,
+                    "content": "\t\tfabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.13+d7c144a860"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-item-api-v1:",
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "\t\tfabric-item-api-v1: Fabric Item API (v1) 1.4.0+4457765560"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-item-groups-v0:",
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "\t\tfabric-item-groups-v0: Fabric Item Groups (v0) 0.3.11+91896a4960"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-lifecycle-events-v1:",
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "\t\tfabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.0.3+2d83e92c60"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-loot-tables-v1:",
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "\t\tfabric-loot-tables-v1: Fabric Loot Tables (v1) 1.0.11+d7c144a860"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-mining-level-api-v1:",
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "\t\tfabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.0+81ea5b3c60"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-networking-api-v1:",
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "\t\tfabric-networking-api-v1: Fabric Networking API (v1) 1.0.21+d882b91560"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-networking-v0:",
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "\t\tfabric-networking-v0: Fabric Networking (v0) 0.3.8+b4f4f6cd60"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-object-builder-api-v1:",
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "\t\tfabric-object-builder-api-v1: Fabric Object Builder API (v1) 2.1.0+fe4ddef060"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-particles-v1:",
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "\t\tfabric-particles-v1: Fabric Particles (v1) 0.2.12+526dc1ac60"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-registry-sync-v0:",
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "\t\tfabric-registry-sync-v0: Fabric Registry Sync (v0) 0.9.8+0d9ab37260"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-rendering-data-attachment-v1:",
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "\t\tfabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.7+d7c144a860"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-rendering-fluids-v1:",
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "\t\tfabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 2.0.2+54e5b2ec60"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-resource-conditions-api-v1:",
+            "lines": [
+                {
+                    "number": 172,
+                    "content": "\t\tfabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.0.3+91b7aa6660"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-resource-loader-v0:",
+            "lines": [
+                {
+                    "number": 173,
+                    "content": "\t\tfabric-resource-loader-v0: Fabric Resource Loader (v0) 0.4.18+2de5574560"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-screen-handler-api-v1:",
+            "lines": [
+                {
+                    "number": 174,
+                    "content": "\t\tfabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.2.0+1f6558e860"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-transfer-api-v1:",
+            "lines": [
+                {
+                    "number": 175,
+                    "content": "\t\tfabric-transfer-api-v1: Fabric Transfer API (v1) 1.6.0+2373a54560"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabric-transitive-access-wideners-v1:",
+            "lines": [
+                {
+                    "number": 176,
+                    "content": "\t\tfabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 1.0.0+bd8a4a1860"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabricloader:",
+            "lines": [
+                {
+                    "number": 177,
+                    "content": "\t\tfabricloader: Fabric Loader 0.14.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfabricshieldlib:",
+            "lines": [
+                {
+                    "number": 178,
+                    "content": "\t\tfabricshieldlib: Fabric Shield Lib 1.5.3-1.18"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfeature_nbt_deadlock_be_gone:",
+            "lines": [
+                {
+                    "number": 179,
+                    "content": "\t\tfeature_nbt_deadlock_be_gone: Feature NBT Deadlock Be Gone - Fabric 2.0.0+1.18.2-rc1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tfiber:",
+            "lines": [
+                {
+                    "number": 180,
+                    "content": "\t\tfiber: fiber 0.23.0-2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tgeckolib3:",
+            "lines": [
+                {
+                    "number": 181,
+                    "content": "\t\tgeckolib3: Geckolib 3.0.35"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tguild:",
+            "lines": [
+                {
+                    "number": 182,
+                    "content": "\t\tguild: Guild 0.4.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\thwg:",
+            "lines": [
+                {
+                    "number": 183,
+                    "content": "\t\thwg: Happiness is a Warm Gun 1.1.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tillagerexp:",
+            "lines": [
+                {
+                    "number": 184,
+                    "content": "\t\tillagerexp: Illager Expansion 0.1.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\timprovedmobs:",
+            "lines": [
+                {
+                    "number": 185,
+                    "content": "\t\timprovedmobs: Improved Mobs 1.18.2-1.10.7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tjankson:",
+            "lines": [
+                {
+                    "number": 186,
+                    "content": "\t\tjankson: Jankson 4.0.0+j1.2.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tjava:",
+            "lines": [
+                {
+                    "number": 187,
+                    "content": "\t\tjava: OpenJDK 64-Bit Server VM 17"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tlibgui:",
+            "lines": [
+                {
+                    "number": 188,
+                    "content": "\t\tlibgui: LibGui 5.4.0+1.18.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tlibninepatch:",
+            "lines": [
+                {
+                    "number": 189,
+                    "content": "\t\tlibninepatch: LibNinePatch 1.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tmedievalweapons:",
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "\t\tmedievalweapons: Medieval Weapons 1.1.10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tminecraft:",
+            "lines": [
+                {
+                    "number": 191,
+                    "content": "\t\tminecraft: Minecraft 1.18.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tmm:",
+            "lines": [
+                {
+                    "number": 192,
+                    "content": "\t\tmm: Manningham Mills 2.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tmob_catcher:",
+            "lines": [
+                {
+                    "number": 193,
+                    "content": "\t\tmob_catcher: Mob Catcher 1.1.26"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tmostructures:",
+            "lines": [
+                {
+                    "number": 194,
+                    "content": "\t\tmostructures: Mo' Structures 1.4.2+1.18.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tmythicmounts:",
+            "lines": [
+                {
+                    "number": 195,
+                    "content": "\t\tmythicmounts: Mythic Mounts 1.18.2-7.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tomega-config:",
+            "lines": [
+                {
+                    "number": 196,
+                    "content": "\t\tomega-config: OmegaConfig 1.2.3-1.18.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tpatchouli:",
+            "lines": [
+                {
+                    "number": 197,
+                    "content": "\t\tpatchouli: Patchouli 1.18.2-67-FABRIC"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tpromenade:",
+            "lines": [
+                {
+                    "number": 198,
+                    "content": "\t\tpromenade: Promenade 2.6.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\treach-entity-attributes:",
+            "lines": [
+                {
+                    "number": 199,
+                    "content": "\t\treach-entity-attributes: Reach Entity Attributes 2.1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\trepurposed_structures:",
+            "lines": [
+                {
+                    "number": 200,
+                    "content": "\t\trepurposed_structures: Repurposed Structures 4.1.6+1.18.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\troughlyenoughitems:",
+            "lines": [
+                {
+                    "number": 201,
+                    "content": "\t\troughlyenoughitems: Roughly Enough Items 8.1.457"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tstarterkit-fabric:",
+            "lines": [
+                {
+                    "number": 202,
+                    "content": "\t\tstarterkit-fabric: Starter Kit (Fabric) 3.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\ttenshilib:",
+            "lines": [
+                {
+                    "number": 203,
+                    "content": "\t\ttenshilib: TenshiLib 1.18.2-1.6.7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tterrablender:",
+            "lines": [
+                {
+                    "number": 204,
+                    "content": "\t\tterrablender: TerraBlender **.**.**.**"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tterraform-shapes-api-v1:",
+            "lines": [
+                {
+                    "number": 205,
+                    "content": "\t\tterraform-shapes-api-v1: Terraform Shapes API (v1) 2.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\ttotw_additions:",
+            "lines": [
+                {
+                    "number": 206,
+                    "content": "\t\ttotw_additions: Towers of the Wild: Additions 1.2.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\ttrinkets:",
+            "lines": [
+                {
+                    "number": 207,
+                    "content": "\t\ttrinkets: Trinkets 3.3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\twaystones:",
+            "lines": [
+                {
+                    "number": 208,
+                    "content": "\t\twaystones: Waystones 2.5.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tzombified:",
+            "lines": [
+                {
+                    "number": 209,
+                    "content": "\t\tzombified: Zombified 1.3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tServer Running:",
+            "lines": [
+                {
+                    "number": 210,
+                    "content": "\tServer Running: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tPlayer Count:",
+            "lines": [
+                {
+                    "number": 211,
+                    "content": "\tPlayer Count: 1 \/ 20; [class_3222['Emperor_Ender'\/645, l='ServerLevel[world]', x=389.49, y=60.00, z=24.49]]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tData Packs:",
+            "lines": [
+                {
+                    "number": 212,
+                    "content": "\tData Packs: vanilla, Fabric Mods, file\/AwesomeDungeonTheEndEdition_v3.zip, file\/ichphilipp-s-endcity-better-end-1-18-1.zip (incompatible), file\/technicalenchant-v6-2.zip, file\/incendium-v5-0-3 (1).zip, file\/thebrackenpackv59-1-18-2.zip, file\/michael9r9r's RPG Loot v1.13"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tWorld Generation:",
+            "lines": [
+                {
+                    "number": 213,
+                    "content": "\tWorld Generation: Stable"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIs Modded:",
+            "lines": [
+                {
+                    "number": 214,
+                    "content": "\tIs Modded: Definitely; Server brand changed to 'fabric'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tType:",
+            "lines": [
+                {
+                    "number": 215,
+                    "content": "\tType: Dedicated Server (map_server.txt)"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.18.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tMinecraft Version:",
+                    "lines": [
+                        {
+                            "number": 100,
+                            "content": "\tMinecraft Version: 1.18.2"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.18.2"
+            }
+        ]
+    }
+}

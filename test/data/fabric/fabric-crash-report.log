@@ -1,0 +1,215 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 5/15/22, 8:09 PM
+Description: Exception ticking world
+
+java.lang.NullPointerException: Cannot invoke "java.util.List.forEach(java.util.function.Consumer)" because "currentEnchantments" is null
+	at net.minecraft.class_1890.handler$zlm000$getPossibleEntriesMixin(class_1890.java:545)
+	at net.minecraft.class_1890.method_8229(class_1890.java)
+	at net.minecraft.class_1890.method_8230(class_1890.java:360)
+	at net.minecraft.class_1890.method_8233(class_1890.java:318)
+	at io.github.flemmli97.improvedmobs.utils.Utils.enchantGear(Utils.java:106)
+	at io.github.flemmli97.improvedmobs.events.EventCalls.applyAttributesAndItems(EventCalls.java:216)
+	at io.github.flemmli97.improvedmobs.events.EventCalls.onEntityLoad(EventCalls.java:149)
+	at io.github.flemmli97.improvedmobs.fabric.events.EventHandler.onEntityLoad(EventHandler.java:58)
+	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents.lambda$static$0(ServerEntityEvents.java:42)
+	at net.minecraft.class_3218$class_5526.handler$zhe000$invokeEntityLoadEvent(class_3218.java:1635)
+	at net.minecraft.class_3218$class_5526.method_31436(class_3218.java:1519)
+	at net.minecraft.class_3218$class_5526.method_31798(class_3218.java:1480)
+	at net.minecraft.class_5579.method_31847(class_5579.java:210)
+	at net.minecraft.class_5579.method_31820(class_5579.java:180)
+	at net.minecraft.class_5579.method_31818(class_5579.java:161)
+	at net.minecraft.class_3218.method_14175(class_3218.java:855)
+	at net.minecraft.class_3218.method_8649(class_3218.java:806)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at net.minecraft.class_5425.method_30771(class_5425.java:11)
+	at net.minecraft.class_1948.method_24930(class_1948.java:298)
+	at net.minecraft.class_1948.method_8663(class_1948.java:211)
+	at net.minecraft.class_1948.method_27821(class_1948.java:199)
+	at net.minecraft.class_3215.method_14161(class_3215.java:375)
+	at net.minecraft.class_3215.method_12127(class_3215.java:322)
+	at net.minecraft.class_3218.method_18765(class_3218.java:311)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:907)
+	at net.minecraft.class_3176.method_3813(class_3176.java:322)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:851)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:697)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:273)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.class_1890.handler$zlm000$getPossibleEntriesMixin(class_1890.java:545)
+	at net.minecraft.class_1890.method_8229(class_1890.java)
+	at net.minecraft.class_1890.method_8230(class_1890.java:360)
+	at net.minecraft.class_1890.method_8233(class_1890.java:318)
+	at io.github.flemmli97.improvedmobs.utils.Utils.enchantGear(Utils.java:106)
+	at io.github.flemmli97.improvedmobs.events.EventCalls.applyAttributesAndItems(EventCalls.java:216)
+	at io.github.flemmli97.improvedmobs.events.EventCalls.onEntityLoad(EventCalls.java:149)
+	at io.github.flemmli97.improvedmobs.fabric.events.EventHandler.onEntityLoad(EventHandler.java:58)
+	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents.lambda$static$0(ServerEntityEvents.java:42)
+	at net.minecraft.class_3218$class_5526.handler$zhe000$invokeEntityLoadEvent(class_3218.java:1635)
+	at net.minecraft.class_3218$class_5526.method_31436(class_3218.java:1519)
+	at net.minecraft.class_3218$class_5526.method_31798(class_3218.java:1480)
+	at net.minecraft.class_5579.method_31847(class_5579.java:210)
+	at net.minecraft.class_5579.method_31820(class_5579.java:180)
+	at net.minecraft.class_5579.method_31818(class_5579.java:161)
+	at net.minecraft.class_3218.method_14175(class_3218.java:855)
+	at net.minecraft.class_3218.method_8649(class_3218.java:806)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at net.minecraft.class_5425.method_30771(class_5425.java:11)
+	at net.minecraft.class_1948.method_24930(class_1948.java:298)
+	at net.minecraft.class_1948.method_8663(class_1948.java:211)
+	at net.minecraft.class_1948.method_27821(class_1948.java:199)
+	at net.minecraft.class_3215.method_14161(class_3215.java:375)
+	at net.minecraft.class_3215.method_12127(class_3215.java:322)
+	at net.minecraft.class_3218.method_18765(class_3218.java:311)
+
+-- Affected level --
+Details:
+	All players: 1 total; [class_3222['Emperor_Ender'/645, l='ServerLevel[world]', x=389.49, y=60.00, z=24.49]]
+	Chunk stats: 2989
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,118,0), Section: (at 0,6,0 in 0,7,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 465605 game time, 16417 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Level weather: Rain time: 13343 (now: false), thunder time: 4187 (now: false)
+	Known server brands: fabric
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:907)
+	at net.minecraft.class_3176.method_3813(class_3176.java:322)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:851)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:697)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:273)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18.2
+	Minecraft Version ID: 1.18.2
+	Operating System: Linux (amd64) version 5.4.0-100-generic
+	Java Version: 17.0.1, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 1242626200 bytes (1185 MiB) / 2306867200 bytes (2200 MiB) up to 2306867200 bytes (2200 MiB)
+	CPUs: 3
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7402P 24-Core Processor
+	Identifier: AuthenticAMD Family 23 Model 49 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 24
+	Number of logical CPUs: 48
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 129864.36
+	Virtual memory used (MB): 104352.94
+	Swap memory total (MB): 1024.00
+	Swap memory used (MB): 583.96
+	JVM Flags: 3 total; -XX:MaxMetaspaceSize=300M -Xmx2200M -Xms1100M
+	Fabric Mods: 
+		arcanus: Arcanus 1.29
+		architectury: Architectury 4.4.56
+		attributefix: AttributeFix 14.0.1
+		backpackmod: Backpack Mod 1.18.2-3.1.1
+		blue_endless_jankson: jankson 1.2.1
+		cardinal-components-base: Cardinal Components API (base) 4.1.3
+		cardinal-components-entity: Cardinal Components API (entities) 4.1.3
+		cloth-basic-math: cloth-basic-math 0.6.1
+		cloth-config: Cloth Config v6 6.2.62
+		collective-fabric: Collective (Fabric) 4.26
+		com_electronwill_night-config_core: core 3.6.4
+		com_electronwill_night-config_toml: toml 3.6.4
+		com_eliotlash_mclib_mclib: mclib 18
+		com_eliotlash_molang_molang: molang 18
+		cosmetic-armor: Cosmetic Armor 1.3.1
+		dark-enchanting: Dark Enchanting 1.0.0+1.18.2
+		dawn: Dawn API 3.3.0
+		doom: Doom Fabric 4.2.4
+		extraweapons: Consulars Extra Weapons & Armor 0.2.2
+		fabric: Fabric API 0.51.1+1.18.2
+		fabric-api-base: Fabric API Base 0.4.4+d7c144a860
+		fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.0+2373a54560
+		fabric-biome-api-v1: Fabric Biome API (v1) 8.0.4+7b0f312660
+		fabric-command-api-v1: Fabric Command API (v1) 1.1.9+d7c144a860
+		fabric-commands-v0: Fabric Commands (v0) 0.2.8+b4f4f6cd60
+		fabric-containers-v0: Fabric Containers (v0) 0.1.21+d7c144a860
+		fabric-content-registries-v0: Fabric Content Registries (v0) 3.0.3+d82b939260
+		fabric-convention-tags-v1: Fabric Convention Tags 1.0.1+474e4f7960
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.1.11+3ac43d9560
+		fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.17+2540745460
+		fabric-entity-events-v1: Fabric Entity Events (v1) 1.4.8+d7c144a860
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.19+d7c144a860
+		fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.14+d7c144a860
+		fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.13+d7c144a860
+		fabric-item-api-v1: Fabric Item API (v1) 1.4.0+4457765560
+		fabric-item-groups-v0: Fabric Item Groups (v0) 0.3.11+91896a4960
+		fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.0.3+2d83e92c60
+		fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.0.11+d7c144a860
+		fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.0+81ea5b3c60
+		fabric-networking-api-v1: Fabric Networking API (v1) 1.0.21+d882b91560
+		fabric-networking-v0: Fabric Networking (v0) 0.3.8+b4f4f6cd60
+		fabric-object-builder-api-v1: Fabric Object Builder API (v1) 2.1.0+fe4ddef060
+		fabric-particles-v1: Fabric Particles (v1) 0.2.12+526dc1ac60
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.9.8+0d9ab37260
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.7+d7c144a860
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 2.0.2+54e5b2ec60
+		fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.0.3+91b7aa6660
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.4.18+2de5574560
+		fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.2.0+1f6558e860
+		fabric-transfer-api-v1: Fabric Transfer API (v1) 1.6.0+2373a54560
+		fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 1.0.0+bd8a4a1860
+		fabricloader: Fabric Loader 0.14.5
+		fabricshieldlib: Fabric Shield Lib 1.5.3-1.18
+		feature_nbt_deadlock_be_gone: Feature NBT Deadlock Be Gone - Fabric 2.0.0+1.18.2-rc1
+		fiber: fiber 0.23.0-2
+		geckolib3: Geckolib 3.0.35
+		guild: Guild 0.4.0
+		hwg: Happiness is a Warm Gun 1.1.6
+		illagerexp: Illager Expansion 0.1.5
+		improvedmobs: Improved Mobs 1.18.2-1.10.7
+		jankson: Jankson 4.0.0+j1.2.0
+		java: OpenJDK 64-Bit Server VM 17
+		libgui: LibGui 5.4.0+1.18.2
+		libninepatch: LibNinePatch 1.1.0
+		medievalweapons: Medieval Weapons 1.1.10
+		minecraft: Minecraft 1.18.2
+		mm: Manningham Mills 2.3
+		mob_catcher: Mob Catcher 1.1.26
+		mostructures: Mo' Structures 1.4.2+1.18.2
+		mythicmounts: Mythic Mounts 1.18.2-7.0
+		omega-config: OmegaConfig 1.2.3-1.18.1
+		patchouli: Patchouli 1.18.2-67-FABRIC
+		promenade: Promenade 2.6.1
+		reach-entity-attributes: Reach Entity Attributes 2.1.1
+		repurposed_structures: Repurposed Structures 4.1.6+1.18.2
+		roughlyenoughitems: Roughly Enough Items 8.1.457
+		starterkit-fabric: Starter Kit (Fabric) 3.1
+		tenshilib: TenshiLib 1.18.2-1.6.7
+		terrablender: TerraBlender **.**.**.**
+		terraform-shapes-api-v1: Terraform Shapes API (v1) 2.1.0
+		totw_additions: Towers of the Wild: Additions 1.2.1
+		trinkets: Trinkets 3.3.0
+		waystones: Waystones 2.5.0
+		zombified: Zombified 1.3.0
+	Server Running: true
+	Player Count: 1 / 20; [class_3222['Emperor_Ender'/645, l='ServerLevel[world]', x=389.49, y=60.00, z=24.49]]
+	Data Packs: vanilla, Fabric Mods, file/AwesomeDungeonTheEndEdition_v3.zip, file/ichphilipp-s-endcity-better-end-1-18-1.zip (incompatible), file/technicalenchant-v6-2.zip, file/incendium-v5-0-3 (1).zip, file/thebrackenpackv59-1-18-2.zip, file/michael9r9r's RPG Loot v1.13
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)
