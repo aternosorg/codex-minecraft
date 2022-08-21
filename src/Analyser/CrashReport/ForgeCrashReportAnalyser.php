@@ -5,7 +5,7 @@ namespace Aternos\Codex\Minecraft\Analyser\CrashReport;
 use Aternos\Codex\Minecraft\Analysis\Information\Forge\CrashReport\ForgeVersionInformation;
 
 /**
- * Class MinecraftCrashReportAnalyser
+ * Class ForgeCrashReportAnalyser
  *
  * @package Aternos\Codex\Minecraft\Analyser\CrashReport
  */
