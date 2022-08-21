@@ -38,11 +38,12 @@ class FabricModDependencyProblem extends FabricModProblem
     {
         return [
             'short-error' => '/net\.fabricmc\.loader\.discovery\.ModResolutionException: Could not find required mod: '. static::$modNamePattern .' requires {'. static::$modIDPattern .' @ \[([^\]]+)\]}/',
-            'any' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version of (?:mod )?". static::$modIDPattern .", which is missing!/",
-            'minimum' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires version ([^ ]+) or later of (?:mod )?". static::$modIDPattern .", which is missing!/",
-            'any-after' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version after ([^ ]+) of (?:mod )?". static::$modIDPattern .", which is missing!/",
-            'any-before' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version before ([^ ]+) of (?:mod )?". static::$modIDPattern .", which is missing!/",
-            'specific' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires version ([^ ]+) of (?:mod )?". static::$modIDPattern .", which is missing!/"
+            'any' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version of (?:mod )?". static::$modIDPattern .",/",
+            'minimum' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires version ([^ ]+) or later of (?:mod )?". static::$modIDPattern .",/",
+            'any-after' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version after ([^ ]+) of (?:mod )?". static::$modIDPattern .",/",
+            'any-before' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version before ([^ ]+) of (?:mod )?". static::$modIDPattern .",/",
+            'specific' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires version ([^ ]+) of (?:mod )?". static::$modIDPattern .",/",
+            'between' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version between ([^ ]+) \((inclusive|exclusive)\) and ([^ ]+) \((inclusive|exclusive)\) of (?:mod )?". static::$modNamePattern .",/"
         ];
     }
 
@@ -83,6 +84,18 @@ class FabricModDependencyProblem extends FabricModProblem
             case 'any-before':
                 $symbol = "<";
                 break;
+
+            case 'between':
+                $this->setModName($matches[1]);
+                $this->setDependency($matches[7]);
+
+                $firstSymbol = $matches[4] === "exclusive" ? ">" : ">=";
+                $secondSymbol = $matches[6] === "exclusive" ? "<" : "<=";
+
+                $this->addSolution((new ModInstallSolution())
+                    ->setModName($this->getDependency())
+                    ->setModVersion($firstSymbol . $matches[3] . ", " . $secondSymbol . $matches[5]));
+                return;
 
             default:
                 $symbol = "";
