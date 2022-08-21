@@ -13,7 +13,10 @@ if (!str_ends_with($input, "/")) {
 }
 
 $testFunctions = [];
-$inputFiles = new RegexIterator(new RecursiveIteratorIterator(new RecursiveDirectoryIterator($input)), '/.+\.log/i', RegexIterator::GET_MATCH);
+$inputFilesIterator = new RegexIterator(new RecursiveIteratorIterator(new RecursiveDirectoryIterator($input)), '/.+\.log/i', RegexIterator::GET_MATCH);
+$inputFiles = iterator_to_array($inputFilesIterator);
+ksort($inputFiles);
+
 foreach ($inputFiles as $inputFilePath => $inputFile) {
     $dirname = dirname($inputFilePath);
     $basename = basename($inputFilePath, ".log");
