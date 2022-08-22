@@ -2,6 +2,7 @@
     "minecraft-version": "Version de Minecraft",
     "java-version": "Version Java",
     "fabric-version": "Version du lanceur Fabric",
+    "quilt-version": "Version du loader Quilt",
     "plugin-load-problem": "Le plugin '{{plugin-name}}' n'a pas pu être chargé.",
     "pocketmine-version": "Version Pocketmine",
     "bedrock-version": "Version de Bedrock",
@@ -12,6 +13,7 @@
     "pex-config-problem": "La configuration du plugin 'PermissionsEx' est invalide.",
     "ambiguous-plugin-name-problem": "Il y a plusieurs fichiers de plugin pour le nom du plugin '{{plugin-name}}': '{{first-plugin-path}}' et '{{second-plugin-path}}'.",
     "plugin-dependency-problem": "Le plugin '{{plugin-name}}' a besoin du plugin '{{dependency-plugin-name}}'.",
+    "plugin-dependencies-problem": "Le plugin '{{plugin-name}}' manque le plugin {{dependency-plugin-names}}",
     "plugin-disabling-problem": "Le plugin '{{plugin-name}}' n'a pas pu être désactivé.",
     "plugin-enabling-problem": "Le plugin '{{plugin-name}}' n'a pas pu être activé.",
     "plugin-runtime-problem": "Le plugin '{{plugin-name}} ' a un problème durant son exécution.",
@@ -63,5 +65,16 @@
     "version-downgrade-problem": "Votre monde a déjà été utilisé avec une version plus récente.",
     "version-downgrade-solution": "Installer une version plus récente de Minecraft.",
     "generate-new-world-solution": "Générer un nouveau monde.",
-    "bedrock-dbstorage-chain-problem": "Impossible de décrypter le monde. Les mondes provenant du marché ne peuvent pas être installés sur des serveurs dédiés. "
+    "bedrock-dbstorage-chain-problem": "Impossible de décrypter le monde. Les mondes provenant du marché ne peuvent pas être installés sur des serveurs dédiés.",
+    "mod-incompatible-problem": "Les modifications '{{first-mod-name}}' et '{{second-mod-name}}' sont incompatibles",
+    "server-install-different-version-solution": "Installer la version '{{software-version}}' de votre logiciel de serveur.",
+    "plugin-api-version-problem": "Le plugin '{{plugin-name}}' a besoin de la version '{{software-version}}' de votre logiciel de serveur.",
+    "ticking-entity-problem": "L'entité '{{name}}' à l'emplacement {{location}} provoque des problèmes lors du ticking.",
+    "remove-entity-solution": "Retirez l'entité '{{name}}' à l'emplacement {{location}}.",
+    "type-client": "Log du client",
+    "type-server": "Log du serveur",
+    "type-proxy": "Log du proxy",
+    "type-content": "Content Log",
+    "type-crash-report": "Rapport d'incident",
+    "type-unknown": "Log de source inconnu"
 }

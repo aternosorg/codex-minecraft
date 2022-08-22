@@ -2,6 +2,7 @@
     "minecraft-version": "Verzija Minecraft-a",
     "java-version": "Verzija Jave",
     "fabric-version": "Verzija fabric-a",
+    "quilt-version": "Verzija utovarivača jorgana",
     "plugin-load-problem": "Dodatak {{plugin-name}} ne može biti učitan.",
     "pocketmine-version": "Verzija Pocketmine-a",
     "bedrock-version": "Verzija Bedrock-a",
@@ -12,6 +13,7 @@
     "pex-config-problem": "Podešavanja dodatka 'PermissionsEx' su neispravna.",
     "ambiguous-plugin-name-problem": "Postoji više datoteka dodataka za ime dodatka '{{plugin-name}}': '{{first-plugin-path}}' i '{{second-plugin-path}}'.",
     "plugin-dependency-problem": "Dodatku '{{plugin-name}}' nedostaje potreban dodatak '{{dependency-plugin-name}}'.",
+    "plugin-dependencies-problem": "Dodatku '{{plugin-name}}' nedostaju potrebni dodaci {{dependency-plugin-names}}.",
     "plugin-disabling-problem": "Dodatak '{{plugin-name}}' nije mogao biti onemogućen.",
     "plugin-enabling-problem": "Dodatak '{{plugin-name}}' nije bilo moguće omogućiti.",
     "plugin-runtime-problem": "Dodatak '{{plugin-name}}' ima problem dok radi.",
@@ -63,5 +65,10 @@
     "version-downgrade-problem": "vas svet je koriscen na novioj verziji pre",
     "version-downgrade-solution": "instalirajte novu verziju minecraft-a",
     "generate-new-world-solution": "Generisite novi svet.",
-    "bedrock-dbstorage-chain-problem": "Није могуће дешифровати свет. Тржишни светови се не могу инсталирати на наменске сервере."
+    "bedrock-dbstorage-chain-problem": "Није могуће дешифровати свет. Тржишни светови се не могу инсталирати на наменске сервере.",
+    "mod-incompatible-problem": "Modovi '{{first-mod-name}}' i '{{second-mod-name}}' su nekompatibilni.",
+    "server-install-different-version-solution": "Instalirajte verziju '{{software-version}}' Vašeg server softvera.",
+    "plugin-api-version-problem": "Dodatak '{{plugin-name}}' treba verziju '{{software-version}}' Vašeg server softvera.",
+    "ticking-entity-problem": "Entitet '{{name}}' na lokaciji {{location}} prouzrokuje probleme dok tikuje.",
+    "remove-entity-solution": "Uklonite entitet '{{name}}' na lokaciji {{location}}."
 }

@@ -2,6 +2,7 @@
     "minecraft-version": "Minecraft version",
     "java-version": "Java-version",
     "fabric-version": "Fabric loader version",
+    "quilt-version": "Quilt indlæser version",
     "plugin-load-problem": "Pluginet '{{plugin-name}}' kunne ikke indlæses.",
     "pocketmine-version": "Pocketmine version",
     "bedrock-version": "Bedrock version",
@@ -12,6 +13,7 @@
     "pex-config-problem": "Konfigurationen af plugin 'PermissionsEx' er ugyldig.",
     "ambiguous-plugin-name-problem": "Der er flere pluginfiler for plugin navn '{{plugin-name}}': '{{first-plugin-path}}' og '{{second-plugin-path}}'.",
     "plugin-dependency-problem": "Plugin '{{plugin-name}}' mangler de nødvendige plugin '{{dependency-plugin-name}} '.",
+    "plugin-dependencies-problem": "Plug-in '{{plugin-name}}' mangler '{{dependency-plugin-names}}' for at kunne start og virke.",
     "plugin-disabling-problem": "Plugin '{{plugin-name}}' kunne ikke blive deaktiveret.",
     "plugin-enabling-problem": "Plugin '{{plugin-name}}' kunne ikke blive aktiveret.",
     "plugin-runtime-problem": "Plugin '{{plugin-name}}' fik et problem mens den kørte.",
@@ -62,6 +64,9 @@
     "undefined-mod-dependency-problem": "En mod mangler den krævede mod '{{dependency-mod-name}}'.",
     "version-downgrade-problem": "Din verden blev brugt på en nyere version.",
     "version-downgrade-solution": "Installer en nyere version af Minecraft.",
-    "generate-new-world-solution": "Skabe en ny verden\n",
-    "bedrock-dbstorage-chain-problem": "Kan ikke dekryptere verden. Marketplace verdener kan ikke installeres på dedikerede servere."
+    "generate-new-world-solution": "Skabe en ny verden",
+    "bedrock-dbstorage-chain-problem": "Kan ikke dekryptere verden. Marketplace verdener kan ikke installeres på dedikerede servere.",
+    "mod-incompatible-problem": "Moddet '{{first-mod-name}}' og '{{second-mod-name}}' er uforenelig",
+    "server-install-different-version-solution": "Installer denne version '{{software-version}}' af din serves software.",
+    "plugin-api-version-problem": "Plug-in '{{plugin-name}}' har brug for '{{software-version}}' af din servers software."
 }

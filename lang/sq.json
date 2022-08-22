@@ -2,6 +2,7 @@
     "minecraft-version": "Versioni i Minecraft-it",
     "java-version": "Versioni Java",
     "fabric-version": "Versioni i Fabric Loader-it",
+    "quilt-version": "Versioni i ngarkuesit të jorganit",
     "plugin-load-problem": "Plugin '{{plugin-name}}' nuk mund të ngarkohet.",
     "pocketmine-version": "Versioni i Pocketmine-it",
     "bedrock-version": "Versioni i shtratit",
@@ -12,6 +13,7 @@
     "pex-config-problem": "Konfigurimi i plugin-it 'PermissionEx' është i pavlefshëm.",
     "ambiguous-plugin-name-problem": "Ka shumë skedarë shtojcash për emrin e shtojcës '{{plugin-name}}': '{{first-plugin-path}}' dhe '{{second-plugin-path}}'.",
     "plugin-dependency-problem": "Plugin-it '{{plugin-name}}' i mungon plugin-i i nevojshëm '{{dependency-plugin-name}}'.",
+    "plugin-dependencies-problem": "Plugini {{plugin-name}} nuk ka këto plugine {{dependency-plugin-names}}",
     "plugin-disabling-problem": "Plugin-i '{{plugin-name}}' nuk mund të çaktivizohej.",
     "plugin-enabling-problem": "Plugin-i '{{plugin-name}} nuk mund të aktivizohej.",
     "plugin-runtime-problem": "Plugin-i '{{plugin-name}}' ka një problem gjatë ekzekutimit.",
@@ -63,5 +65,10 @@
     "version-downgrade-problem": "Bota jote është përdorur në një version më të ri më parë.",
     "version-downgrade-solution": "Instalo versionin e ri të Minecraft-it.",
     "generate-new-world-solution": "Gjenero një botë të re.",
-    "bedrock-dbstorage-chain-problem": "Dekriptimi i botës ishte i pamundur. Botët e Marketplace-it s'mund të instalohën në servere të dedikuara."
+    "bedrock-dbstorage-chain-problem": "Dekriptimi i botës ishte i pamundur. Botët e Marketplace-it s'mund të instalohën në servere të dedikuara.",
+    "mod-incompatible-problem": "Modalitetet '{{first-mod-name}}' dhe '{{second-mod-name}}' janë të papajtueshme.",
+    "server-install-different-version-solution": "Instaloni versionin '{{software-version}}' të softuerit të serverit tuaj.",
+    "plugin-api-version-problem": "Shtojca \"{{plugin-name}}\" ka nevojë për versionin \"{{software-version}}\" të softuerit të serverit tuaj.",
+    "ticking-entity-problem": "Subjekti '{{name}}' në vendndodhjen {{location}} po shkakton probleme gjatë shënjimit.",
+    "remove-entity-solution": "Hiqni entitetin '{{name}}' në vendndodhjen {{location}}."
 }

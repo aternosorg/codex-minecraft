@@ -1,6 +1,6 @@
 {
     "minecraft-version": "Minecraft versija",
-    "java-version": "Java versija\n",
+    "java-version": "Java versija",
     "fabric-version": "Fabric loader versija",
     "plugin-load-problem": "Spraudni '{{plugin-name}}' nevarēja ielādēt.",
     "pocketmine-version": "Pocketmine versija",
@@ -19,7 +19,7 @@
     "mod-dependency-problem": "Modifikācijai '{{mod-name}}' trūkst nepieciešamā modifikācija '{{dependency-mod-name}}'.",
     "mod-dependency-problem-plural": "Modifikācijai '{{mod-name}}' pietrūkst nepieciešamās modifikācijas '{{dependency-mod-list}}'.",
     "mod-duplicate-problem": "Ir vairāki modifikāciju faili ar nosaukumu '{{mod-name}}': '{{first-mod-path}}' un '{{second-mod-path}}'.",
-    "mod-duplicate-problem-no-path": "Ir vairāki modifikāciju faili ar nosaukumu “{{mod-name}}”.\n",
+    "mod-duplicate-problem-no-path": "Ir vairāki modifikāciju faili ar nosaukumu “{{mod-name}}”.",
     "mod-exception-problem": "Modifikācija '{{mod-name}}' izmeta izņēmumu.",
     "mod-fatal-problem": "Modifikācijai '{{mod-name}}' ir radusies kļūda.",
     "world-missing-mod-problem": "Pasaule tika saglabāta ar modifikāciju '{{mod-name}}', kas ir pazudusi.",

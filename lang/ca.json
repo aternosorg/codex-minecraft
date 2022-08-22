@@ -1,7 +1,8 @@
 {
     "minecraft-version": "Versió de Minecraft",
     "java-version": "Versió de Java",
-    "fabric-version": "Versió de carregador de tela",
+    "fabric-version": "Versió de carregador de Fabric",
+    "quilt-version": "Versió de càrrega de Quilt",
     "plugin-load-problem": "El plugin '{{plugin-name}}' no s'ha pogut carregar.",
     "pocketmine-version": "Versió del Pocketmine",
     "bedrock-version": "Versió de Bedrock",
@@ -12,6 +13,7 @@
     "pex-config-problem": "La configuració del plugin 'PermissionsEx' és errònia.",
     "ambiguous-plugin-name-problem": "Hi ha múltiples arxius pel plugin '{{plugin-name}}': '{{first-plugin-path}}' i '{{second-plugin-path}}'.",
     "plugin-dependency-problem": "El plugin '{{plugin-name}}' necessita una altre plugin anomenat '{{dependency-plugin-name}}'.",
+    "plugin-dependencies-problem": "El puguin '{{plugin-name}}' manca dels següents plugins necessaris {{dependency-plugin-names}}.",
     "plugin-disabling-problem": "El plugin '{{plugin-name}}' no pot ser desactivat.",
     "plugin-enabling-problem": "El plugin '{{plugin-name}}' no pot ser activat.",
     "plugin-runtime-problem": "El plugin '{{plugin-name}}' té un problema quan s'inicia.",
@@ -52,7 +54,7 @@
     "world-duplicate-problem": "El món '{{world-name}}' és una còpia d'un altre món que no ha pogut ser carregat.",
     "mod-wrong-minecraft-version-problem": "El mod \"{{mod-name}}\" no és compatible amb la versió de Minecraft {{minecraft-version}}.",
     "forge-install-different-version-solution": "Instal·lar una versió diferent de forge.",
-    "malformed-encoding-problem": "\nAlguna cosa (probablement el MOTD) conté codis de format malformats.",
+    "malformed-encoding-problem": "Alguna cosa (probablement el MOTD) conté codis de format malformats.",
     "change-motd-solution": "Canvieu el MOTD del servidor",
     "bedrock-authentication-whitelist-problem": "Utilitzar una llista blanca sense l'autenticació en línia no està permès.",
     "bedrock-authentication-allowlist-problem": "Utilitzar una llista d'accés sense l'autenticació en línia no està permès.",
@@ -63,5 +65,10 @@
     "version-downgrade-problem": "El teu món s'ha utilitzat en una versió més nova anteriorment.",
     "version-downgrade-solution": "Instal·lar una versió més nova del Minecraft.",
     "generate-new-world-solution": "Generar un nou món.",
-    "bedrock-dbstorage-chain-problem": "No s’ha pogut desencriptar el món. Els mons del «Marketplace» no es poden instal·lar en servidors dedicats."
+    "bedrock-dbstorage-chain-problem": "No s’ha pogut desencriptar el món. Els mons del «Marketplace» no es poden instal·lar en servidors dedicats.",
+    "mod-incompatible-problem": "Els mods '{{first-mod-name}}' i '{{second-mod-name}}' són incompatibles.",
+    "server-install-different-version-solution": "Instal·la la versió '{{software-version}}' del teu sistema del servidor.",
+    "plugin-api-version-problem": "El plugin '{{plugin-name}}' necesita la versió '{{software-version}}' del sistema del teu servidor.",
+    "ticking-entity-problem": "L'entitat '{{name}}' a la localització {{location}} està causant problemes mentre fa ticking.",
+    "remove-entity-solution": "Elimina l'entitat '{{name}}' a la localització {{location}}."
 }

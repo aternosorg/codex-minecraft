@@ -2,6 +2,7 @@
     "minecraft-version": "Verzia Minecraftu",
     "java-version": "Verzia Javy",
     "fabric-version": "Verzia Fabric loadera",
+    "quilt-version": "Verzia Quilt loadera",
     "plugin-load-problem": "Plugin '{{plugin-name}}' nebolo možné načítať.",
     "pocketmine-version": "Pocketmine verzia",
     "bedrock-version": "Bedrock verzia",
@@ -12,6 +13,7 @@
     "pex-config-problem": "Konfigurácia pluginu 'PermissionsEx' je neplatná.",
     "ambiguous-plugin-name-problem": "Existuje viacero pluginov pre názov pluginu '{{plugin-name}}': '{{first-plugin-path}}' a '{{second-plugin-path}}'.",
     "plugin-dependency-problem": "Pluginu '{{plugin-name}}' chýba požadovaný plugin '{{dependency-plugin-name}}'.",
+    "plugin-dependencies-problem": "Pluginu {{plugin-name}} chýba požadovaný plugin {{dependency-plugin-names}}.",
     "plugin-disabling-problem": "Plugin '{{plugin-name}}' nebolo možné načítať.",
     "plugin-enabling-problem": "Záložku '{{plugin-name}}' nebolo možné načítať.",
     "plugin-runtime-problem": "Plugin '{{plugin-name}}' má problém pri behu.",
@@ -63,5 +65,16 @@
     "version-downgrade-problem": "Váš svet bol predtým použitý na novšiu verziu",
     "version-downgrade-solution": "Nainštalujte novšiu verziu Minecraftu",
     "generate-new-world-solution": "Vygenerovať nový svet",
-    "bedrock-dbstorage-chain-problem": "Nie je možné dešifrovať svet. Svety z trhoviska nemôžu byť nainštalované na vyhradených serveroch."
+    "bedrock-dbstorage-chain-problem": "Nie je možné dešifrovať svet. Svety z trhoviska nemôžu byť nainštalované na vyhradených serveroch.",
+    "mod-incompatible-problem": "Mód {{first-mod-name}} a mód {{second-mod-name}} sú nekompatibilné.",
+    "server-install-different-version-solution": "Nainštalujte verziu {{software-version}} vášho serverového softvéru.",
+    "plugin-api-version-problem": "Plugin \"{{plugin-name}}\" potrebuje verziu \"{{software-version}}\" softvéru vášho servera.",
+    "ticking-entity-problem": "Entita {{name}} na mieste {{location}} spôsobuje problémy počas tikania.",
+    "remove-entity-solution": "Odstrániť entitu '{{name}}' na mieste {{location}}.",
+    "type-client": "Záznam klienta",
+    "type-server": "Záznamy servera",
+    "type-proxy": "Záznam proxy",
+    "type-content": "Záznam obsahu",
+    "type-crash-report": "Správa o zlyhaní",
+    "type-unknown": "Neznámy záznam"
 }
