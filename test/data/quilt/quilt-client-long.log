@@ -1,0 +1,681 @@
+[14:38:52] [main/INFO]: Loading Minecraft 1.19 with Quilt Loader 0.17.1
+[14:38:52] [ForkJoinPool-1-worker-6/WARN]: Warnings for mod "betteradvancements"'s mod json:
+- Version 0.2.2.137 has more than 3 version components, which may not be fully supported. "version" at  at line 4 column 27 path $.version
+[14:38:53] [main/INFO]: Loading 202 mods:
+	- alternate-current 1.4.0
+	- amecsapi 1.3.6 mc22w17a
+	- appleskin 2.4.1 mc1.19
+	- architectury 5.12.42
+	- betteradvancements **.**.**.**
+	- bettersafebed 4
+	- betterthanmending 1.3.0
+	- blur 2.6.0
+	- bobby 4.0.0
+	- bookshelf 14.2.10
+	- c2me 0.2.0 alpha.8.2
+	- c2me-base 0.2.0 alpha.8.2
+	- c2me-client-uncapvd 0.2.0 alpha.8.2
+	- c2me-fixes-chunkio-threading-issues 0.2.0 alpha.8.2
+	- c2me-fixes-general-threading-issues 0.2.0 alpha.8.2
+	- c2me-fixes-worldgen-threading-issues 0.2.0 alpha.8.2
+	- c2me-fixes-worldgen-vanilla-bugs 0.2.0 alpha.8.2
+	- c2me-notickvd 0.2.0 alpha.8.2
+	- c2me-opts-allocs 0.2.0 alpha.8.2
+	- c2me-opts-chunk-access 0.2.0 alpha.8.2
+	- c2me-opts-chunkio 0.2.0 alpha.8.2
+	- c2me-opts-math 0.2.0 alpha.8.2
+	- c2me-opts-scheduling 0.2.0 alpha.8.2
+	- c2me-opts-worldgen-general 0.2.0 alpha.8.2
+	- c2me-opts-worldgen-vanilla 0.2.0 alpha.8.2
+	- c2me-rewrites-chunkio 0.2.0 alpha.8.2
+	- c2me-server-utils 0.2.0 alpha.8.2
+	- c2me-threading-chunkio 0.2.0 alpha.8.2
+	- c2me-threading-lighting 0.2.0 alpha.8.2
+	- c2me-threading-scheduling 0.2.0 alpha.8.2
+	- c2me-threading-worldgen 0.2.0 alpha.8.2
+	- caffeineconfig 1.0.0 1.17
+	- cardinal-components-base 5.0.0-beta.1
+	- cardinal-components-entity 5.0.0-beta.1
+	- cardinal-components-world 5.0.0-beta.1
+	- cem 0.7.1
+	- citresewn 1.1.1 1.19
+	- citresewn-defaults 1.1.1 1.19
+	- cloth-basic-math 0.6.1
+	- cloth-config 8.0.75
+	- cloud 1.7.0
+	- cloud_commandframework_cloud-brigadier_ 1.7.0
+	- cloud_commandframework_cloud-core_ 1.7.0
+	- cloud_commandframework_cloud-services_ 1.7.0
+	- coat 1.0.0-beta.18 mc22w17a
+	- com_electronwill_night-config_core 3.6.5
+	- com_electronwill_night-config_toml 3.6.5
+	- com_github_llamalad7_mixinextras 0.0.11
+	- com_github_luben_zstd-jni 1.5.2-2
+	- com_ibm_async_asyncutil 0.1.0
+	- com_typesafe_config 1.4.2
+	- com_velocitypowered_velocity-native 3.1.2-SNAPSHOT
+	- completeconfig-base 2.0.0-beta.3
+	- completeconfig-gui-cloth 2.0.0-beta.3
+	- continuity 2.0.1 1.19
+	- controlling 10.0 3
+	- dashloader 4.0.0 1.19
+	- dev_quantumfusion_hyphen 0.2.2
+	- dev_quantumfusion_taski 1.1.0
+	- ears 1.4.6
+	- enchdesc 11.1.9
+	- fabric-language-kotlin 1.8.2 kotlin.1.7.10
+	- fabric-permissions-api-v0 0.1-SNAPSHOT
+	- fabric-tpa 3.2.1
+	- fabrichomes 2.3.0
+	- fabricwarps 2.3.0
+	- fallingleaves 1.12.1 1.19
+	- fallingtree 3.7.4
+	- ferritecore 4.2.1
+	- fiber 0.23.0-2
+	- forcecloseloadingscreen 1.1.1
+	- forgeconfigapiport 4.0.2
+	- ftblibrary 1900.3.8-build.135
+	- ftbultimine 1900.3.4-build.58
+	- improved-signs 1.0.0
+	- indium 1.0.7 mc1.19
+	- inspecio 1.4.2 1.19
+	- inventoryprofilesnext 1.6.3
+	- io_leangen_geantyref_geantyref 1.3.13
+	- iris 1.2.6
+	- jade 7.7.1
+	- java 17
+	- krypton 0.2.0
+	- lambdabettergrass 1.3.0 1.19
+	- libzoomer 0.5.0 1.19
+	- lithium 0.8.1
+	- me_hypherionmc_simplerpc_simple-rpc-common 4.0.3
+	- midnightlib 0.5.2
+	- minecraft 1.19
+	- modmenu 4.0.4
+	- mousewheelie 1.10.2 mc1.19-pre1
+	- naturescompass 1.19-2.0.4-fabric
+	- neat 1.19-32-FABRIC
+	- ok_zoomer 5.0.0-beta.9 1.19
+	- omega-config 1.2.3-1.18.1
+	- openpartiesandclaims 0.8.0
+	- org_anarres_jcpp 1.4.14
+	- org_jetbrains_kotlin_kotlin-reflect 1.7.10
+	- org_jetbrains_kotlin_kotlin-stdlib 1.7.10
+	- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.7.10
+	- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.7.10
+	- org_jetbrains_kotlinx_atomicfu-jvm 0.18.2
+	- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.6.4
+	- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.6.4
+	- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.4.0
+	- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.3.3
+	- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.3.3
+	- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.3.3
+	- org_joml_joml 1.10.4
+	- org_spongepowered_configurate-core 4.1.2
+	- org_spongepowered_configurate-hocon 4.1.2
+	- org_threadly_threadly 7.0
+	- quilt_advancement 2.0.0-beta.16 1.19
+	- quilt_base 2.0.0-beta.16 1.19
+	- quilt_biome 2.0.0-beta.16 1.19
+	- quilt_block_entity 2.0.0-beta.16 1.19
+	- quilt_block_extensions 2.0.0-beta.16 1.19
+	- quilt_client_command 2.0.0-beta.16 1.19
+	- quilt_command 2.0.0-beta.16 1.19
+	- quilt_crash_info 2.0.0-beta.16 1.19
+	- quilt_dimension 2.0.0-beta.16 1.19
+	- quilt_item_content_registry 2.0.0-beta.16 1.19
+	- quilt_item_group 2.0.0-beta.16 1.19
+	- quilt_item_setting 2.0.0-beta.16 1.19
+	- quilt_lifecycle_events 2.0.0-beta.16 1.19
+	- quilt_loader 0.17.1
+	- quilt_loading_screen 4.0.0
+	- quilt_networking 2.0.0-beta.16 1.19
+	- quilt_recipe 2.0.0-beta.16 1.19
+	- quilt_registry 2.0.0-beta.16 1.19
+	- quilt_registry_entry_attachments 2.0.0-beta.16 1.19
+	- quilt_resource_loader 2.0.0-beta.16 1.19
+	- quilt_screen 2.0.0-beta.16 1.19
+	- quilt_tags 2.0.0-beta.16 1.19
+	- quilt_tooltip 2.0.0-beta.16 1.19
+	- quilted_fabric_api 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_api_base 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_api_lookup_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_biome_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_blockrenderlayer_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_command_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_command_api_v2 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_commands_v0 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_containers_v0 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_content_registries_v0 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_convention_tags_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_crash_report_info_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_data_generation_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_dimensions_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_entity_events_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_events_interaction_v0 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_events_lifecycle_v0 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_game_rule_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_item_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_item_groups_v0 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_key_binding_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_keybindings_v0 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_lifecycle_events_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_loot_api_v2 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_loot_tables_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_message_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_mining_level_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_models_v0 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_networking_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_networking_v0 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_object_builder_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_particles_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_registry_sync_v0 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_renderer_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_renderer_indigo 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_renderer_registries_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_rendering_data_attachment_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_rendering_fluids_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_rendering_v0 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_rendering_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_resource_conditions_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_resource_loader_v0 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_screen_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_screen_handler_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_textures_v0 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_transfer_api_v1 2.0.0-beta.9 0.58.0-1.19
+	- quilted_fabric_transitive_access_wideners_v1 2.0.0-beta.9 0.58.0-1.19
+	- reeses-sodium-options 1.4.4 mc1.19-build.47
+	- roughlyenoughitems 9.1.526
+	- satin 1.8.0
+	- simple-rpc 3.1.1
+	- skinlayers 1.5.1-mc1.19.1
+	- smoothboot 1.19-1.7.1
+	- sodium 0.4.2 build.16
+	- sodium-extra 0.4.6 mc1.19-build.47
+	- spruceui 4.0.0 1.19
+	- starlight 1.1.1 fabric.ae22326
+	- terra 6.2.0-BETA 7d056bd88
+	- thorium 1.3.1
+	- tweed4_annotated 1.3.1 mc22w17a
+	- tweed4_base 1.6.0 mc22w17a
+	- tweed4_data 1.2.1 mc22w17a
+	- tweed4_data_hjson 1.1.1 mc22w17a
+	- tweed4_tailor_coat 1.1.3 mc22w17a
+	- tweed4_tailor_screen 1.1.1 mc22w17a
+	- xaerominimap 22.12.0
+	- xaeroworldmap 1.26.1
+[14:38:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/********/AppData/Roaming/PolyMC/libraries/net/fabricmc/sponge-mixin/0.11.2 mixin.0.8.5/sponge-mixin-0.11.2 mixin.0.8.5.jar Service=Knot/Quilt Env=CLIENT
+[14:38:54] [main/INFO]: Compatibility level set to JAVA_16
+[14:38:54] [main/INFO]: Compatibility level set to JAVA_17
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.client.uncapvd.mixin
+[14:38:54] [main/INFO]: Disabling config clientSideConfig.modifyMaxVDConfig.enabled: Incompatible with bobby@4.0.0 (*) (defined in c2me)
+[14:38:54] [main/INFO]: Disabling com.ishland.c2me.client.uncapvd.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.threading.scheduling.mixin
+[14:38:54] [main/INFO]: Bootstrapping DashLoader 4.0.0 1.19.
+[14:38:54] [main/WARN]: Disabled Optional Feature FAST_STATE_INIT from dashloader config. DashLoader
+[14:38:54] [main/WARN]: Disabled Optional Feature CACHE_PARTICLE from dashloader config. DashLoader
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[14:38:54] [main/WARN]: [Satin] Sodium is present, custom block renders may not work
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[14:38:54] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[14:38:54] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[14:38:54] [main/INFO]: Loaded configuration file for Sodium Extra: 27 options available, 0 override(s) found
+[14:38:54] [main/WARN]: Reference map 'terra.quilt.refmap.json' for terra.quilt.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:38:54] [main/INFO]: Loaded configuration file for Lithium: 94 options available, 2 override(s) found
+[14:38:54] [main/INFO]: Loaded configuration file for Sodium: 29 options available, 4 override(s) found
+[14:38:55] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[14:38:55] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton, c2me]) disables it and children
+[14:38:55] [main/WARN]: Force-disabling mixin 'features.model.MixinMultipartBakedModel' as rule 'mixin.features.model' (added by mods [dashloader]) disables it and children
+[14:38:55] [main/WARN]: Force-disabling mixin 'features.model.MixinWeightedBakedModel' as rule 'mixin.features.model' (added by mods [dashloader]) disables it and children
+[14:38:55] [main/WARN]: Force-disabling mixin 'features.sky.MixinWorldRenderer' as rule 'mixin.features.sky' (added by mods [iris]) disables it and children
+[14:38:55] [main/WARN]: Force-disabling mixin 'features.texture_updates.MixinSpriteInterpolated' as rule 'mixin.features.texture_updates' (added by mods [dashloader]) disables it and children
+[14:38:55] [main/WARN]: Error loading class: net/coderbot/iris/layer/IrisRenderTypeWrapper (java.lang.ClassNotFoundException: net/coderbot/iris/layer/IrisRenderTypeWrapper)
+[14:38:55] [main/WARN]: @Mixin target net.coderbot.iris.layer.IrisRenderTypeWrapper was not found mixins.satin.client.json:iris.IrisRenderLayerWrapperMixin
+[14:38:56] [main/INFO]: Initializing DashLoader 4.0.0 1.19.
+[14:38:56] [main/INFO]: [273ms] Initialized api.
+[14:38:56] [main/INFO]: Created DashLoader with KnotClassLoader.
+[14:38:56] [main/INFO]: Initialized DashLoader
+[14:38:56] [main/INFO]: Smooth Boot config initialized
+[14:38:57] [main/WARN]: @Final field field_22786:Ljava/util/List; in mixins.ipnext.json:MixinScreen should be final
+[14:38:57] [main/WARN]: @Final field field_33815:Ljava/util/List; in mixins.ipnext.json:MixinScreen should be final
+Created Shape Cache
+Created Collision Cache
+[14:38:59] [main/INFO]: Building optimized datafixer
+[14:39:01] [main/INFO]: Initializing Terra...
+[14:39:01] [main/INFO]: Loading config.yml
+[14:39:01] [main/INFO]: Loading config values from config.yml
+[14:39:02] [main/WARN]: Mod org_threadly_threadly, version 7.0 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[14:39:02] [main/WARN]: Mod fabric-permissions-api-v0, version 0.1-SNAPSHOT does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[14:39:02] [main/WARN]: Mod smoothboot, version 1.19-1.7.1 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[14:39:02] [main/WARN]: Mod neat, version 1.19-32-FABRIC does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[14:39:02] [main/WARN]: Mod naturescompass, version 1.19-2.0.4-fabric does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[14:39:02] [main/WARN]: Mod controlling, version 10.0 3 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[14:39:02] [main/WARN]: Mod betteradvancements, version 0.2.2.137 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[14:39:02] [main/WARN]: Mod bettersafebed, version 4 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[14:39:02] [main/INFO]: Loading 223 Terra addons:
+        - biome-provider-extrusion@1.0.0-BETA 7d056bd88
+        - biome-provider-image@1.0.0-BETA 7d056bd88
+        - biome-provider-pipeline@1.0.1-BETA 7d056bd88
+        - biome-provider-single@1.0.0-BETA 7d056bd88
+        - biome-query-api@1.0.0-BETA 7d056bd88
+        - chunk-generator-noise-3d@1.1.0-BETA 7d056bd88
+        - command-addons@1.0.0-BETA 7d056bd88
+        - command-packs@1.0.0-BETA 7d056bd88
+        - command-profiler@1.0.0-BETA 7d056bd88
+        - command-structures@1.0.0-BETA 7d056bd88
+        - config-biome@1.0.0-BETA 7d056bd88
+        - config-distributors@1.0.0-BETA 7d056bd88
+        - config-feature@1.0.0-BETA 7d056bd88
+        - config-flora@1.0.0-BETA 7d056bd88
+        - config-locators@1.1.0-BETA 7d056bd88
+        - config-noise-function@1.0.0-BETA 7d056bd88
+        - config-ore@1.0.0-BETA 7d056bd88
+        - config-palette@1.0.0-BETA 7d056bd88
+        - config-structure@1.0.0-BETA 7d056bd88
+        - generation-stage-feature@1.1.0-BETA 7d056bd88
+        - generation-stage-structure@1.0.0-BETA 7d056bd88
+        - language-yaml@1.0.0-BETA 7d056bd88
+        - minecraft@1.19.0
+        - palette-block-shortcut@1.0.0-BETA 7d056bd88
+        - quilt:alternate-current@1.4.0
+        - quilt:amecsapi@1.3.6 mc22w17a
+        - quilt:appleskin@2.4.1 mc1.19
+        - quilt:architectury@5.12.42
+        - quilt:betterthanmending@1.3.0
+        - quilt:blur@2.6.0
+        - quilt:bobby@4.0.0
+        - quilt:bookshelf@14.2.10
+        - quilt:c2me@0.2.0 alpha.8.2
+        - quilt:c2me-base@0.2.0 alpha.8.2
+        - quilt:c2me-client-uncapvd@0.2.0 alpha.8.2
+        - quilt:c2me-fixes-chunkio-threading-issues@0.2.0 alpha.8.2
+        - quilt:c2me-fixes-general-threading-issues@0.2.0 alpha.8.2
+        - quilt:c2me-fixes-worldgen-threading-issues@0.2.0 alpha.8.2
+        - quilt:c2me-fixes-worldgen-vanilla-bugs@0.2.0 alpha.8.2
+        - quilt:c2me-notickvd@0.2.0 alpha.8.2
+        - quilt:c2me-opts-allocs@0.2.0 alpha.8.2
+        - quilt:c2me-opts-chunk-access@0.2.0 alpha.8.2
+        - quilt:c2me-opts-chunkio@0.2.0 alpha.8.2
+        - quilt:c2me-opts-math@0.2.0 alpha.8.2
+        - quilt:c2me-opts-scheduling@0.2.0 alpha.8.2
+        - quilt:c2me-opts-worldgen-general@0.2.0 alpha.8.2
+        - quilt:c2me-opts-worldgen-vanilla@0.2.0 alpha.8.2
+        - quilt:c2me-rewrites-chunkio@0.2.0 alpha.8.2
+        - quilt:c2me-server-utils@0.2.0 alpha.8.2
+        - quilt:c2me-threading-chunkio@0.2.0 alpha.8.2
+        - quilt:c2me-threading-lighting@0.2.0 alpha.8.2
+        - quilt:c2me-threading-scheduling@0.2.0 alpha.8.2
+        - quilt:c2me-threading-worldgen@0.2.0 alpha.8.2
+        - quilt:caffeineconfig@1.0.0 1.17
+        - quilt:cardinal-components-base@5.0.0-beta.1
+        - quilt:cardinal-components-entity@5.0.0-beta.1
+        - quilt:cardinal-components-world@5.0.0-beta.1
+        - quilt:cem@0.7.1
+        - quilt:citresewn@1.1.1 1.19
+        - quilt:citresewn-defaults@1.1.1 1.19
+        - quilt:cloth-basic-math@0.6.1
+        - quilt:cloth-config@8.0.75
+        - quilt:cloud@1.7.0
+        - quilt:cloud_commandframework_cloud-brigadier_@1.7.0
+        - quilt:cloud_commandframework_cloud-core_@1.7.0
+        - quilt:cloud_commandframework_cloud-services_@1.7.0
+        - quilt:coat@1.0.0-beta.18 mc22w17a
+        - quilt:com_electronwill_night-config_core@3.6.5
+        - quilt:com_electronwill_night-config_toml@3.6.5
+        - quilt:com_github_llamalad7_mixinextras@0.0.11
+        - quilt:com_github_luben_zstd-jni@1.5.2-2
+        - quilt:com_ibm_async_asyncutil@0.1.0
+        - quilt:com_typesafe_config@1.4.2
+        - quilt:com_velocitypowered_velocity-native@3.1.2-SNAPSHOT
+        - quilt:completeconfig-base@2.0.0-beta.3
+        - quilt:completeconfig-gui-cloth@2.0.0-beta.3
+        - quilt:continuity@2.0.1 1.19
+        - quilt:dashloader@4.0.0 1.19
+        - quilt:dev_quantumfusion_hyphen@0.2.2
+        - quilt:dev_quantumfusion_taski@1.1.0
+        - quilt:ears@1.4.6
+        - quilt:enchdesc@11.1.9
+        - quilt:fabric-language-kotlin@1.8.2 kotlin.1.7.10
+        - quilt:fabric-tpa@3.2.1
+        - quilt:fabrichomes@2.3.0
+        - quilt:fabricwarps@2.3.0
+        - quilt:fallingleaves@1.12.1 1.19
+        - quilt:fallingtree@3.7.4
+        - quilt:ferritecore@4.2.1
+        - quilt:fiber@0.23.0-2
+        - quilt:forcecloseloadingscreen@1.1.1
+        - quilt:forgeconfigapiport@4.0.2
+        - quilt:ftblibrary@1900.3.8-build.135
+        - quilt:ftbultimine@1900.3.4-build.58
+        - quilt:improved-signs@1.0.0
+        - quilt:indium@1.0.7 mc1.19
+        - quilt:inspecio@1.4.2 1.19
+        - quilt:inventoryprofilesnext@1.6.3
+        - quilt:io_leangen_geantyref_geantyref@1.3.13
+        - quilt:iris@1.2.6
+        - quilt:jade@7.7.1
+        - quilt:krypton@0.2.0
+        - quilt:lambdabettergrass@1.3.0 1.19
+        - quilt:libzoomer@0.5.0 1.19
+        - quilt:lithium@0.8.1
+        - quilt:me_hypherionmc_simplerpc_simple-rpc-common@4.0.3
+        - quilt:midnightlib@0.5.2
+        - quilt:modmenu@4.0.4
+        - quilt:mousewheelie@1.10.2 mc1.19-pre1
+        - quilt:ok_zoomer@5.0.0-beta.9 1.19
+        - quilt:omega-config@1.2.3-1.18.1
+        - quilt:openpartiesandclaims@0.8.0
+        - quilt:org_anarres_jcpp@1.4.14
+        - quilt:org_jetbrains_kotlin_kotlin-reflect@1.7.10
+        - quilt:org_jetbrains_kotlin_kotlin-stdlib@1.7.10
+        - quilt:org_jetbrains_kotlin_kotlin-stdlib-jdk7@1.7.10
+        - quilt:org_jetbrains_kotlin_kotlin-stdlib-jdk8@1.7.10
+        - quilt:org_jetbrains_kotlinx_atomicfu-jvm@0.18.2
+        - quilt:org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm@1.6.4
+        - quilt:org_jetbrains_kotlinx_kotlinx-coroutines-jdk8@1.6.4
+        - quilt:org_jetbrains_kotlinx_kotlinx-datetime-jvm@0.4.0
+        - quilt:org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm@1.3.3
+        - quilt:org_jetbrains_kotlinx_kotlinx-serialization-core-jvm@1.3.3
+        - quilt:org_jetbrains_kotlinx_kotlinx-serialization-json-jvm@1.3.3
+        - quilt:org_joml_joml@1.10.4
+        - quilt:org_spongepowered_configurate-core@4.1.2
+        - quilt:org_spongepowered_configurate-hocon@4.1.2
+        - quilt:quilt_advancement@2.0.0-beta.16 1.19
+        - quilt:quilt_base@2.0.0-beta.16 1.19
+        - quilt:quilt_biome@2.0.0-beta.16 1.19
+        - quilt:quilt_block_entity@2.0.0-beta.16 1.19
+        - quilt:quilt_block_extensions@2.0.0-beta.16 1.19
+        - quilt:quilt_client_command@2.0.0-beta.16 1.19
+        - quilt:quilt_command@2.0.0-beta.16 1.19
+        - quilt:quilt_crash_info@2.0.0-beta.16 1.19
+        - quilt:quilt_dimension@2.0.0-beta.16 1.19
+        - quilt:quilt_item_content_registry@2.0.0-beta.16 1.19
+        - quilt:quilt_item_group@2.0.0-beta.16 1.19
+        - quilt:quilt_item_setting@2.0.0-beta.16 1.19
+        - quilt:quilt_lifecycle_events@2.0.0-beta.16 1.19
+        - quilt:quilt_loader@0.17.1
+        - quilt:quilt_loading_screen@4.0.0
+        - quilt:quilt_networking@2.0.0-beta.16 1.19
+        - quilt:quilt_recipe@2.0.0-beta.16 1.19
+        - quilt:quilt_registry@2.0.0-beta.16 1.19
+        - quilt:quilt_registry_entry_attachments@2.0.0-beta.16 1.19
+        - quilt:quilt_resource_loader@2.0.0-beta.16 1.19
+        - quilt:quilt_screen@2.0.0-beta.16 1.19
+        - quilt:quilt_tags@2.0.0-beta.16 1.19
+        - quilt:quilt_tooltip@2.0.0-beta.16 1.19
+        - quilt:quilted_fabric_api@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_api_base@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_api_lookup_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_biome_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_blockrenderlayer_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_command_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_command_api_v2@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_commands_v0@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_containers_v0@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_content_registries_v0@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_convention_tags_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_crash_report_info_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_data_generation_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_dimensions_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_entity_events_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_events_interaction_v0@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_events_lifecycle_v0@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_game_rule_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_item_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_item_groups_v0@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_key_binding_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_keybindings_v0@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_lifecycle_events_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_loot_api_v2@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_loot_tables_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_message_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_mining_level_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_models_v0@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_networking_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_networking_v0@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_object_builder_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_particles_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_registry_sync_v0@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_renderer_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_renderer_indigo@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_renderer_registries_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_rendering_data_attachment_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_rendering_fluids_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_rendering_v0@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_rendering_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_resource_conditions_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_resource_loader_v0@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_screen_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_screen_handler_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_textures_v0@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_transfer_api_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:quilted_fabric_transitive_access_wideners_v1@2.0.0-beta.9 0.58.0-1.19
+        - quilt:reeses-sodium-options@1.4.4 mc1.19-build.47
+        - quilt:roughlyenoughitems@9.1.526
+        - quilt:satin@1.8.0
+        - quilt:simple-rpc@3.1.1
+        - quilt:skinlayers@1.5.1-mc1.19.1
+        - quilt:sodium@0.4.2 build.16
+        - quilt:sodium-extra@0.4.6 mc1.19-build.47
+        - quilt:spruceui@4.0.0 1.19
+        - quilt:starlight@1.1.1 fabric.ae22326
+        - quilt:thorium@1.3.1
+        - quilt:tweed4_annotated@1.3.1 mc22w17a
+        - quilt:tweed4_base@1.6.0 mc22w17a
+        - quilt:tweed4_data@1.2.1 mc22w17a
+        - quilt:tweed4_data_hjson@1.1.1 mc22w17a
+        - quilt:tweed4_tailor_coat@1.1.3 mc22w17a
+        - quilt:tweed4_tailor_screen@1.1.1 mc22w17a
+        - quilt:xaerominimap@22.12.0
+        - quilt:xaeroworldmap@1.26.1
+        - structure-block-shortcut@1.0.0-BETA 7d056bd88
+        - structure-function-check-noise-3d@1.0.0-BETA 7d056bd88
+        - structure-mutator@0.1.0-BETA 7d056bd88
+        - structure-sponge-loader@1.0.0-BETA 7d056bd88
+        - structure-terrascript-loader@1.1.0-BETA 7d056bd88
+        - terra@1.0.0
+        - terra-quilt@1.0.0
+        - terrascript-function-sampler@1.0.0-BETA 7d056bd88
+[14:39:02] [main/INFO]: Terra addons successfully loaded.
+[14:39:02] [main/INFO]: Finished initialization.
+[14:39:02] [main/INFO]: Initializing Terra Quilt mod...
+[14:39:02] [main/INFO]: [Quilt Command] Networking support is enabled
+[14:39:02] [Render thread/WARN]: Method overwrite conflict for method_22920 in sodium.mixins.json:features.buffer_builder.intrinsics.MixinBufferBuilder, previously written by net.coderbot.iris.mixin.vertices.block_rendering.MixinBufferBuilder_SeparateAo. Skipping method.
+[14:39:02] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:39:03] [Render thread/INFO]: Setting user: TayouVR
+[14:39:03] [Render thread/INFO]: Compression will use Java, encryption will use Java
+[14:39:03] [Render thread/INFO]: Initializing...
+[14:39:03] [Render thread/INFO]: Initializing...
+[14:39:03] [Render thread/INFO]: Improved Signs Initializing
+[14:39:03] [Render thread/INFO]: Initializing...
+[14:39:03] [Render thread/INFO]: [REI] Config loaded
+[14:39:03] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+[14:39:03] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[14:39:03] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[14:39:03] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[14:39:03] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
+[14:39:03] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[14:39:03] [Render thread/INFO]: [REI] Registered plugin provider REIIntegration [ftblibrary] for REIPlugin
+[14:39:03] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIPlugin
+[14:39:03] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[14:39:03] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[14:39:03] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[14:39:03] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[14:39:03] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[14:39:03] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[14:39:03] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[14:39:03] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[14:39:03] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[14:39:04] [Render thread/INFO]: Registering S2C receiver with id ftblibrary:edit_nbt
+[14:39:04] [Render thread/INFO]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[14:39:04] [Render thread/INFO]: Registering S2C receiver with id ftblibrary:sync_known_server_registries
+[14:39:04] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[14:39:04] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[14:39:04] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[14:39:04] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[14:39:04] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[14:39:04] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[14:39:04] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[14:39:04] [Render thread/INFO]: Registering S2C receiver with id ftbultimine:send_shape
+[14:39:04] [Render thread/INFO]: Registering C2S receiver with id ftbultimine:key_pressed
+[14:39:04] [Render thread/INFO]: Registering C2S receiver with id ftbultimine:mode_changed
+[14:39:04] [Render thread/INFO]: Start loading plugin from jade
+[14:39:04] [Render thread/INFO]: Start loading plugin from jade
+[14:39:04] [Render thread/INFO]: Start loading plugin from jade
+[14:39:04] [Render thread/INFO]: Krypton is now accelerating your Minecraft client's networking stack ?
+[14:39:04] [Render thread/INFO]: Note that Krypton is most effective on servers, not the client.
+[14:39:04] [Render thread/INFO]: Reloaded configs for mousewheelie (universal/highest)
+[14:39:04] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[14:39:04] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[14:39:04] [Render thread/INFO]: [REI] Registered plugin provider REIIntegration [ftblibrary] for REIClientPlugin
+[14:39:04] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIClientPlugin
+[14:39:04] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:ci_msg
+[14:39:04] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:og_not_enough
+[14:39:04] [Render thread/INFO]: [citresewn] Registering CIT Conditions
+[14:39:04] [Render thread/INFO]: [citresewn] Registering CIT Types
+[14:39:04] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23182 in sodium.mixins.json:features.item.MixinItemRenderer cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[14:39:04] [Render thread/INFO]: Loading Open Parties and Claims!
+[14:39:04] [Render thread/INFO]: [LambdaBetterGrass] Initializing LambdaBetterGrass...
+[14:39:04] [Render thread/INFO]: [LambdaBetterGrass] Configuration loaded.
+[14:39:05] [Render thread/WARN]: @Redirect conflict. Skipping thorium.mixins.json:client.mc165595.GuardianEntityRendererMixin->@Redirect::getTimeOfDay(Lnet/minecraft/class_1937;)J from mod thorium with priority 900, already redirected by sodium-extra.mixins.json:render.entity.MixinGuardianEntityRenderer->@Redirect::useTimeOfDay(Lnet/minecraft/class_1937;)J from mod sodium-extra with priority 1000
+[14:39:05] [Render thread/INFO]: Loading 62 entities from Custom Entity Models 0.7.1
+[14:39:05] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[14:39:05] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[14:39:05] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[14:39:05] [Render thread/INFO]: Loaded
+[14:39:05] [Render thread/ERROR]: java.io.FileNotFoundException: E:\Minecraft\instances\1.18.2 Quilt\.minecraft\config\betteradvancements.json (The system cannot find the file specified)
+[14:39:06] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[14:39:06] [Render thread/INFO]: Loaded config file.
+[14:39:06] [Render thread/INFO]: Saved config file.
+[14:39:06] [Render thread/INFO]: [Quilt Command|Client] Networking support is enabled
+[14:39:06] [Render thread/INFO]: [Inspecio] Loading configuration...
+[14:39:06] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[14:39:06] [Render thread/INFO]: Loading config packs...
+[14:39:06] [Render thread/INFO]: Loading ZIP archive: default.zip
+[14:39:06] [Render thread/INFO]: Loading config pack "OVERWORLD:OVERWORLD"
+[14:39:07] [Render thread/INFO]: Loaded config pack "OVERWORLD:OVERWORLD" v1.2.0 by Astrash, Sancires, Aureus in 1218.2682ms.
+[14:39:07] [Render thread/INFO]: Loaded packs.
+[14:39:07] [Render thread/INFO]: Registering biomes...
+[14:39:07] [Render thread/INFO]: Injecting flora into Terra biomes...
+[14:39:07] [Render thread/INFO]: Terra biomes registered.
+[14:39:07] [Render thread/INFO]: Loading world with config pack OVERWORLD
+[14:39:07] [Render thread/INFO]: Created world type "terra:overworld/overworld"
+[14:39:08] [pool-5-thread-4/INFO]: Connected and Ready!
+[14:39:08] [Render thread/INFO]: Debug functionality is disabled.
+[14:39:08] [Render thread/INFO]: Profile: HIGH ( 2 options changed by user)
+[14:39:09] [Render thread/INFO]: Using shaderpack: ComplementaryReimagined_r1.1.zip
+[14:39:09] [Render thread/WARN]: Quilt NioResourcePack: ignored invalid namespace: FabricHomes in mod ID fabrichomes
+[14:39:09] [Render thread/WARN]: Quilt NioResourcePack: ignored invalid namespace: FabricTPA in mod ID fabric-tpa
+[14:39:09] [Render thread/WARN]: Quilt NioResourcePack: ignored invalid namespace: FabricWarps in mod ID fabricwarps
+[14:39:09] [Render thread/WARN]: Couldn't get pack info for: net.minecraft.class_3266: 'pack.mcmeta' in ResourcePack 'E:\Minecraft\instances\1.18.2 Quilt\.minecraft\resourcepacks\Armor Bands & Rings.zip'
+[14:39:09] [Render thread/WARN]: Couldn't get pack info for: net.minecraft.class_3266: 'pack.mcmeta' in ResourcePack 'E:\Minecraft\instances\1.18.2 Quilt\.minecraft\resourcepacks\Bilder.zip'
+[14:39:09] [Render thread/WARN]: Couldn't get pack info for: java.util.zip.ZipException: invalid CEN header (bad entry name)
+[14:39:09] [Render thread/WARN]: Couldn't get pack info for: java.util.zip.ZipException: invalid CEN header (bad entry name)
+[14:39:09] [Render thread/WARN]: Couldn't get pack info for: java.util.zip.ZipException: invalid CEN header (bad entry name)
+[14:39:09] [Render thread/WARN]: Couldn't get pack info for: java.util.zip.ZipException: invalid CEN header (bad entry name)
+[14:39:09] [Render thread/WARN]: Couldn't get pack info for: java.util.zip.ZipException: invalid CEN header (bad entry name)
+[14:39:09] [Render thread/INFO]: Hardware information:
+[14:39:09] [Render thread/INFO]: CPU: 8x Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz
+[14:39:09] [Render thread/INFO]: GPU: NVIDIA GeForce RTX 2080/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 516.59)
+[14:39:09] [Render thread/INFO]: OS: Windows 10 (10.0)
+[14:39:10] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[14:39:10] [Render thread/WARN]: Quilt NioResourcePack: ignored invalid namespace: FabricHomes in mod ID fabrichomes
+[14:39:10] [Render thread/WARN]: Quilt NioResourcePack: ignored invalid namespace: FabricTPA in mod ID fabric-tpa
+[14:39:10] [Render thread/WARN]: Quilt NioResourcePack: ignored invalid namespace: FabricWarps in mod ID fabricwarps
+[14:39:10] [Render thread/INFO]: Reloading ResourceManager: Default (Quilted Fabric Loot API (v2), Quilted Fabric API, Quilted Fabric Rendering Data Attachment (v1), Quilt Registry Entry Attachments, Indium, Quilt Item Setting API, kennytv's epic force close loading screen mod for Fabric, Quilt Tags API, Quilted Fabric Key Bindings (v0), Jade, Simple RPC, Fabric Language Kotlin, Quilted Fabric Entity Events (v1), Quilted Fabric Transfer API (v1), Quilted Fabric Models (v0), Quilt Tooltip API, SpruceUI, Quilted Fabric Events Lifecycle (v0), Quilt Recipe API, Quilted Fabric BlockRenderLayer Registration (v1), FTB Library, Cardinal Components API (entities), Quilted Fabric Dimensions API (v1), Quilt Loader, Roughly Enough Items, Quilt Networking, Quilted Fabric API Base, CIT Resewn: Defaults, Quilted Fabric Key Binding API (v1), tweed4_data, Better Advancements, Quilted Fabric Resource Loader (v0), Quilted Fabric Rendering Fluids (v1), Quilt Registry API, Sodium, Quilted Fabric Message API (v1), Quilted Fabric Loot Tables (v1), Mouse Wheelie, Quilt Item Content Registry API, Quilted Fabric Resource Conditions API (v1), Nature's Compass, Quilted Fabric Containers (v0), 3d Skin Layers, Quilted Fabric Networking (v0), CaffeineConfig, Mod Menu, Concurrent Chunk Management Engine, Bookshelf, Quilt Crash Info, Quilted Fabric Events Interaction (v0), Quilted Fabric Crash Report Info (v1), Quilted Fabric Rendering (v1), Continuity, Quilted Fabric Textures (v0), thorium, Quilt Advancement API, OmegaConfig, BetterSafeBed, Quilted Fabric Renderer Registries (v1), Quilted Fabric Lifecycle Events (v1), Alternate Current, Ears, Quilt Screen API, Quilt Base API, Cardinal Components API (base), Quilt Resource Loader, Quilted Fabric Commands (v0), Quilted Fabric Rendering (v0), Amecs API, Quilted Fabric Game Rule API (v1), Quilted Fabric Registry Sync (v0), Quilted Fabric Object Builder API (v1), Cloud, tweed4_base, Quilted Fabric Screen Handler API (v1), Inspecio, LambdaBetterGrass, Quilted Fabric Mining Level API (v1), Quilted Fabric Screen API (v1), Sodium Extra, Xaero's Minimap, Quilted Fabric Biome API (v1), Reese's Sodium Options, Quilted Fabric Networking API (v1), Quilted Fabric Item Groups (v0), Custom Entity Models, Improved Signs, Quilted Fabric Data Generation API (v1), Quilted Fabric Content Registries (v0), Terra, Inventory Profiles Next, Quilted Fabric Command API (v1), Forge Config API Port, LibZoomer, tweed4_tailor_coat, completeconfig-base, FallingTree, Smooth Boot, MidnightLib, Ok Zoomer, FTB Ultimine, Quilt Client Command API, Bobby, Neat, Cloth Config v8, Quilted Fabric Item API (v1), Quilt Biome API, Quilt Item Group API, Iris, Starlight, Satin, Quilt Lifecycle Events, Quilted Fabric Command API (v2), Controlling For Fabric, Quilt Block Entity API, Quilt Loading Screen, Cardinal Components API (worlds), Blur (Fabric), Quilt Command API, tweed4_tailor_screen, CIT Resewn, Quilted Fabric API Lookup API (v1), Coat, Open Parties and Claims, EnchantmentDescriptions, Quilted Fabric Renderer - Indigo, Quilted Fabric Particles (v1), AppleSkin, Lithium, Krypton, Xaero's World Map, Quilted Fabric Convention Tags API (v1), Quilt Block Extensions API, Falling Leaves, tweed4_data_hjson, Quilted Fabric Renderer API (v1), Quilted Fabric Transitive Access Wideners (v1), Quilt Dimension API, tweed4_annotated), continuity/glass_pane_culling_fix, continuity/default, better-rain.zip, redstonecable.zip, lambdabettergrass/default, Vanilla-labPBR-1-2-0.zip
+[14:39:10] [Render thread/INFO]: [LambdaBetterGrass] Inject generated resource packs.
+[14:39:10] [Render thread/INFO]: Reloading DashLoader. [mod-hash: 50900FBBA3F4A29459B15CD879056E51] [resource-hash: 2585DE7171778FD58687306C25B0B9C9]
+[14:39:10] [Render thread/INFO]: [46m[30m DashLoader Status change READ
+[0m
+[14:39:10] [Render thread/INFO]: Created READ data manager
+[14:39:10] [Render thread/INFO]: Starting DashLoader Deserialization
+[14:39:10] [Render thread/INFO]: Creating Registry
+[14:39:10] [Render thread/INFO]: Exporting Mappings
+[14:39:10] [Render thread/INFO]: Loading 13523 DashImages
+[14:39:10] [Render thread/INFO]: Loading 2653 DashSprites
+[14:39:10] [Render thread/INFO]: Loading 18533 DashIdentifierInterfaces
+[14:39:10] [Render thread/INFO]: Loading 58258 DashBakedQuads
+[14:39:10] [Render thread/INFO]: Loading 0 DashBlockStates
+[14:39:10] [Render thread/INFO]: Loading 620 DashPredicates
+[14:39:10] [Render thread/INFO]: Loading 26806 DashModels
+[14:39:10] [Render thread/INFO]: Loading 70 DashFonts
+[14:39:10] [Render thread/INFO]: Loading Mappings
+[14:39:10] [Render thread/INFO]: Scanning Blocks
+[14:39:10] [Render thread/INFO]: Verifying 933 BlockStates
+[14:39:10] [Render thread/INFO]: Found 7009 Missing BlockState Models
+[14:39:10] [Render thread/INFO]: Loaded DashLoader in 552ms
+[14:39:10] [Render thread/INFO]: Reloaded DashLoader
+[14:39:11] [Worker-Main-3/INFO]: Preparing fonts off-thread
+[14:39:11] [Render thread/INFO]: Creating pipeline for dimension OVERWORLD
+[14:39:11] [Worker-Main-7/INFO]: Injecting 15599 Cached Models
+[14:39:13] [Render thread/INFO]: Loading world with config pack OVERWORLD
+[14:39:13] [Worker-Main-7/INFO]: Loaded 7009 unsupported models.
+[14:39:13] [Render thread/INFO]: [Ok Zoomer] 'w' what's this
+[14:39:13] [Render thread/INFO]: [STDOUT]: (MidnightLib) Player hats successfully loaded!
+[14:39:13] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[14:39:13] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[14:39:13] [Render thread/INFO]: Xaero's Minimap: Open Parties And Claims found!
+[14:39:13] [Render thread/INFO]: No Optifine!
+[14:39:13] [Worker-Main-7/INFO]: Injecting Atlases
+[14:39:13] [Worker-Main-7/INFO]: Injected minecraft:textures/atlas/blocks.png atlas.
+[14:39:13] [Worker-Main-7/INFO]: Injected minecraft:textures/atlas/signs.png atlas.
+[14:39:13] [Worker-Main-7/INFO]: Injected minecraft:textures/atlas/banner_patterns.png atlas.
+[14:39:13] [Worker-Main-7/INFO]: Injected minecraft:textures/atlas/shield_patterns.png atlas.
+[14:39:13] [Worker-Main-7/INFO]: Injected minecraft:textures/atlas/chest.png atlas.
+[14:39:13] [Worker-Main-7/INFO]: Injected minecraft:textures/atlas/beds.png atlas.
+[14:39:13] [Worker-Main-7/INFO]: Injected minecraft:textures/atlas/shulker_boxes.png atlas.
+[14:39:13] [Worker-Main-7/INFO]: Injected minecraft:textures/atlas/paintings.png atlas.
+[14:39:13] [Worker-Main-7/INFO]: Injected minecraft:textures/atlas/mob_effects.png atlas.
+[14:39:13] [Render thread/WARN]: [inventoryprofilesnext] Unknown config key 'first_run' with value 'false'
+[14:39:13] [Render thread/WARN]: [inventoryprofilesnext] Unknown config key 'first_run' with value 'false'
+[14:39:13] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[14:39:13] [Render thread/INFO]: New world map region cache hash code: -913435386
+[14:39:14] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[14:39:14] [Render thread/INFO]: Xaero's WorldMap Mod: Open Parties And Claims found!
+[14:39:14] [Render thread/INFO]: No Optifine!
+[14:39:14] [Render thread/INFO]: No Vivecraft!
+[14:39:14] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[14:39:14] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[14:39:14] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on VoiceMeeter Aux Input (VB-Audio VoiceMeeter AUX VAIO)
+[14:39:14] [Render thread/INFO]: Sound engine started
+[14:39:14] [Render thread/INFO]: Applying fonts off-thread
+[14:39:14] [Render thread/INFO]: Created: 4096x4096x4 minecraft:textures/atlas/blocks.png-atlas
+[14:39:14] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14:39:14] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/signs.png-atlas
+[14:39:14] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[14:39:14] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[14:39:14] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14:39:14] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[14:39:14] [Render thread/INFO]: Created: 4096x2048x4 minecraft:textures/atlas/beds.png-atlas
+[14:39:14] [Render thread/INFO]: Created: 4096x2048x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14:39:14] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[14:39:14] [Render thread/INFO]: Reloaded configs for mousewheelie (client/smallest)
+[14:39:14] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[14:39:14] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[14:39:14] [Render thread/INFO]: ? DashLoader Statistics.
+[14:39:14] [Render thread/INFO]: ???? 552ms DashLoader load
+[14:39:14] [Render thread/INFO]: ?  ??? 293ms File reading
+[14:39:14] [Render thread/INFO]: ?  ??? 185ms Asset exporting
+[14:39:14] [Render thread/INFO]: ?  ??? 71ms Asset loading
+[14:39:14] [Render thread/INFO]: ???? 68% Cache coverage
+[14:39:14] [Render thread/INFO]: ?  ??? 7010 Fallback models
+[14:39:14] [Render thread/INFO]: ?  ??? 15598 Cached models
+[14:39:14] [Render thread/INFO]: ??? 4.4s Minecraft client reload
+[14:39:14] [Render thread/INFO]: ??? 4.5s Minecraft bootstrap
+[14:39:14] [Render thread/INFO]: ??? 23.3s Total loading
+[14:39:19] [Render thread/INFO]: Stopping!

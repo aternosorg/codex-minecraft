@@ -1028,6 +1028,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_quilt_client_long(): void
+    {
+        $log = new TestLog('quilt/quilt-client-long.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_quilt(): void
     {
         $log = new TestLog('quilt/quilt.log');

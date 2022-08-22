@@ -19,7 +19,7 @@ class QuiltClientLog extends QuiltLog implements ClientLogTypeInterface
     public static function getDetectors(): array
     {
         return [
-            (new SinglePatternDetector())->setPattern('/\[[\d:]+\] \[main\/INFO\]: Loading Minecraft [^ \n]+ with Quilt Loader [^ \n]+(.|\n)+\[[\d:]+\] \[Render thread\/INFO\]: Setting user: \w+/'),
+            (new SinglePatternDetector())->setPattern('/\[[\d:]+\] \[main\/INFO\]: Loading Minecraft [^ \n]+ with Quilt Loader [^ \n]+(\n.*)*\n\[[\d:]+\] \[Render thread\/INFO\]: Setting user: \w+/'),
         ];
     }
 }
