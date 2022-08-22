@@ -1,7 +1,8 @@
 {
-    "minecraft-version": "Версія Minecraft\n",
+    "minecraft-version": "Версія Minecraft",
     "java-version": "Версія Java",
     "fabric-version": "Версія завантажувача Fabric",
+    "quilt-version": "Версія завантажувача Quilt",
     "plugin-load-problem": "Не вдалося завантажити плагін \"{{plugin-name}}\".",
     "pocketmine-version": "Версія Pocketmine",
     "bedrock-version": "Bedrock версія",
@@ -12,6 +13,7 @@
     "pex-config-problem": "Неприпустима конфігурація плагіна 'PermissionsEx'.",
     "ambiguous-plugin-name-problem": "Виявлено декілька однакових версій одного й того ж плагіна: '{{plugin-name}}': '{{first-plugin-path}}' і '{{second-plugin-path}} '.",
     "plugin-dependency-problem": "Плагін '{{plugin-name}}' вимагає встановлення '{{dependency-plugin-name}}'.",
+    "plugin-dependencies-problem": "Плагіну '{{plugin-name}}' не вистачає наступних плагінів {{dependency-plugin-names}}.",
     "plugin-disabling-problem": "Плагін '{{plugin-name}}' не вдалося вимкнути.",
     "plugin-enabling-problem": "Плагін '{{plugin-name}}' не вдалося увімкнути.",
     "plugin-runtime-problem": "Плагін '{{plugin-name}} має проблеми під час роботи.",
@@ -51,7 +53,7 @@
     "world-repair-solution": "Виправити світ '{{world-name}}', наприклад, за допомогою Minecraft Region Fixer або MCEdit.",
     "world-duplicate-problem": "Світ '{{world-name}}' є дублікатом іншого світу, і було заборонено його завантаження.",
     "mod-wrong-minecraft-version-problem": "Мод '{{mod-name}}' несумісний з версією Minecraft {{minecraft-version}}.",
-    "forge-install-different-version-solution": "\nВстановити іншу версію Forge.",
+    "forge-install-different-version-solution": "Встановити іншу версію Forge.",
     "malformed-encoding-problem": "Щось (ймовірно, Повідомлення Дня) містить неправильне форматування кодів.",
     "change-motd-solution": "Змінити Повідомлення Дня.",
     "bedrock-authentication-whitelist-problem": "Використання білого списку без онлайн-аутентифікації не допускається.",
@@ -63,5 +65,10 @@
     "version-downgrade-problem": "Ваш світ використовувався в новішій версії раніше.",
     "version-downgrade-solution": "Встановіть новішу версію Minecraft.",
     "generate-new-world-solution": "Створити новий світ.",
-    "bedrock-dbstorage-chain-problem": "Не вдалося розшифрувати світ. Ринкові світи не можуть бути встановлені на виділених серверах."
+    "bedrock-dbstorage-chain-problem": "Не вдалося розшифрувати світ. Ринкові світи не можуть бути встановлені на виділених серверах.",
+    "mod-incompatible-problem": "Моди '{{first-mod-name}}' і '{{second-mod-name}}' несумісні.",
+    "server-install-different-version-solution": "Встановіть версію '{{software-version}}' для Вашого серверного програмного забезпечення.",
+    "plugin-api-version-problem": "Плагін '{{plugin-name}}' потребує версію '{{software-version}}' у вашого серверного програмного забезпечення.",
+    "ticking-entity-problem": "Об'єкт '{{name}}' в місці {{location}} викликав проблему.",
+    "remove-entity-solution": "Видалити об'єкт '{{name}}' в місці {{location}}."
 }

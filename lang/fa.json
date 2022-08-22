@@ -2,6 +2,7 @@
     "minecraft-version": "نسخهٔ ماین کرفت",
     "java-version": "نسخه جاوا",
     "fabric-version": "نسخه Fabric loader",
+    "quilt-version": "نسخه Quilt loader",
     "plugin-load-problem": "افزونه '{{plugin-name}}' قادر به بارگیری نمی باشد.",
     "pocketmine-version": "نسخه Pocketmine",
     "bedrock-version": "نسخهٔ بدراک",
@@ -12,6 +13,7 @@
     "pex-config-problem": "فایل پیکربندی پلاگین 'PermissionsEx' نامعتبر است.",
     "ambiguous-plugin-name-problem": "درحال حاضر چندین فایل برای پلاگین '{{plugin-name}}' وجود دارد: '{{first-plugin-path}}' و '{{second-plugin-path}}'.",
     "plugin-dependency-problem": "پلاگین '{{plugin-name}}' به پلاگین '{{dependency-plugin-name}}' نیاز دارد.",
+    "plugin-dependencies-problem": "پلاگین '{{plugin-name}}' به پلاگین/پلاگین های {{dependency-plugin-names}} نیاز دارد.",
     "plugin-disabling-problem": "افزونه '{{plugin-name}}' قادر به بارگیری نمی باشد.",
     "plugin-enabling-problem": "نمیتوان پلاگین '{{plugin-name}}' را فعال کرد.",
     "plugin-runtime-problem": "این افزونه '{{plugin-name}}' در حال اجرا با مشکلی مواجه شد.",
@@ -63,5 +65,16 @@
     "version-downgrade-problem": "دنیای شما قبلا در ورژن بالاتری استفاده شده است.",
     "version-downgrade-solution": "ورژن جدیدتری از ماینکرفت را نصب کنید.",
     "generate-new-world-solution": "ایجاد یک دنیای جدید.",
-    "bedrock-dbstorage-chain-problem": "رمزگشایی جهان امکان پذیر نیست. جهان‌های بازار را نمی‌توان روی سرورهای اختصاصی نصب کرد."
+    "bedrock-dbstorage-chain-problem": "رمزگشایی جهان امکان پذیر نیست. جهان‌های بازار را نمی‌توان روی سرورهای اختصاصی نصب کرد.",
+    "mod-incompatible-problem": "مادهای {{first-mod-name}} و {{second-mod-name}} ناسازگارند.",
+    "server-install-different-version-solution": "نسخه '{{software-version}}' نرم‌افزار سرور را نصب کنید.",
+    "plugin-api-version-problem": "پلاگین '{{plugin-name}}' به ورژن '{{software-version}}' نرم‌افزار سرور نیاز دارد.",
+    "ticking-entity-problem": "انتیتی '{{name}}' در موقعیت {{location}} برای سرور مشکل ایجاد کرده است.",
+    "remove-entity-solution": "انتیتی '{{name}}' را در موقعیت {{location}} پاک کنید.",
+    "type-client": "گزارش سرویس گیرنده",
+    "type-server": "شناسه سرور",
+    "type-proxy": "گزارش پراکسی",
+    "type-content": "گزارش محتوا",
+    "type-crash-report": "گزارش خرابی",
+    "type-unknown": "گزارش ناشناخته"
 }

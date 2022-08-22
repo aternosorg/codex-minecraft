@@ -63,5 +63,7 @@
     "version-downgrade-problem": "Verdenen din er brukt på en nyere versjon før.",
     "version-downgrade-solution": "Installer en nyere versjon av Minecraft.",
     "generate-new-world-solution": "Generer en ny verden",
-    "bedrock-dbstorage-chain-problem": "Kan ikke dekryptere verdenen. Verdener fra markedsplassen kan ikke installeres på dedikerte servere."
+    "bedrock-dbstorage-chain-problem": "Kan ikke dekryptere verdenen. Verdener fra markedsplassen kan ikke installeres på dedikerte servere.",
+    "plugin-java-version-problem": "Pluginen «{{plugin-name}}» krever Java versjon {{java-version}} eller nyere for å kjøre.",
+    "change-java-version-solution": "Endre Java-versjonen til {{java-version}} eller nyere."
 }

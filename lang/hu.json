@@ -2,6 +2,7 @@
     "minecraft-version": "Minecraft verzió",
     "java-version": "Java verzió",
     "fabric-version": "Fabric loader verzió",
+    "quilt-version": "Fabric betöltő verziója",
     "plugin-load-problem": "A plugin '{{plugin-name}}' nem lehet betölteni.",
     "pocketmine-version": "Pocketmine verzió",
     "bedrock-version": "Bedrock verzió",
@@ -12,6 +13,7 @@
     "pex-config-problem": "A konfiguráció a 'PermissionsEx' pluginnak érvénytelen.",
     "ambiguous-plugin-name-problem": "A plugin nevéhez több plugin fájl található '{{plugin-name}}': '{{first-plugin-path}}' és '{{second-plugin-path}}'.",
     "plugin-dependency-problem": "A(z) '{{plugin-name}}' pluginhoz szükséges a(z) '{{dependency-plugin-name}}' plugin.",
+    "plugin-dependencies-problem": "A plugin {{plugin-name}} nem tartalmazza a kívánt pluginokat {{dependency-plugin-names}}.",
     "plugin-disabling-problem": "A plugint '{{plugin-name}}' nem lehetett letiltani.",
     "plugin-enabling-problem": "A plugint '{{plugin-name}}' nem lehetett engedélyezni.",
     "plugin-runtime-problem": "A plugin '{{plugin-name}} futása közben probléma lépett fel.",
@@ -63,5 +65,16 @@
     "version-downgrade-problem": "A világod egy újabb verzióban volt korábban.",
     "version-downgrade-solution": "Telepítse a Minecraft újabb verzióját.",
     "generate-new-world-solution": "Hozzlétre egy új világot",
-    "bedrock-dbstorage-chain-problem": "Nem sikerült dekódolni a világot. A Marketplace világok nem telepíthetők dedikált szervereken."
+    "bedrock-dbstorage-chain-problem": "Nem sikerült dekódolni a világot. A Marketplace világok nem telepíthetők dedikált szervereken.",
+    "mod-incompatible-problem": "A modok {{first-mod-name}} és a {{second-mod-name}} nem lehetséges.",
+    "server-install-different-version-solution": "Tölds le a {{software-version}} verziót a szerver szoftveredre.",
+    "plugin-api-version-problem": "A {{plugin-name}} pluginnak kell ez a {{software-version}} szoftver verzió a szerver szoftverre.",
+    "ticking-entity-problem": "Az entiti {{name}} az ezen {{location}} helyen problémákat okoz tickelésnél.",
+    "remove-entity-solution": "Törölje el {{name}} nevű entitit {{location}} helyről.",
+    "type-client": "Kliens napló",
+    "type-server": "Szerver napló",
+    "type-proxy": "Proxy napló",
+    "type-content": "Tartalom napló",
+    "type-crash-report": "Összeomlási jelentés",
+    "type-unknown": "Ismeretlen napló"
 }

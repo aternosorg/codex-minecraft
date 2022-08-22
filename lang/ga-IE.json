@@ -19,7 +19,7 @@
     "mod-exception-problem": "Tá eisceacht caite ag an mhodh '{{mod-name}}'.",
     "mod-fatal-problem": "Tá earráid mharfach sa mhodh '{{mod-name}}'.",
     "world-missing-mod-problem": "Sábháladh an domhan le modh '{{mod-name}}' atá a chuma air go bhfuil sé in easnamh.",
-    "world-mod-version-problem": "Sábháladh an domhan seo leis an leagan {{mod-expected-version}} mhodha '{{mod-name}}' agus tá sé ag leagan {{mod-current-version}} anois. ",
+    "world-mod-version-problem": "Sábháladh an domhan seo leis an leagan {{mod-expected-version}} mhodha '{{mod-name}}' agus tá sé ag leagan {{mod-current-version}} anois.",
     "plugin-incompatible-problem": "Níl an breiseán '{{plugin-name}}' comhoiriúnach do do leagan freastalaithe reatha.",
     "aquatic-world-on-older-version-problem": "Cruthaíodh / lódáladh an domhan reatha le Minecraft 1.13 nó níos airde. Ní féidir an fhormáid nua a lódáil in aon leagan níos sine.",
     "old-player-directory-problem": "Tá an freastalaí i ndiaidh sean-eolaire imreoirí a fhionnadh i dtaisce an domhain.",
@@ -36,7 +36,7 @@
     "mod-install-solution": "Suiteáil an modh '{{mod-name}}'.",
     "mod-install-solution-with-version": "Suiteáil an modh '{{mod-name}}' le leagan {{mod-version}}.",
     "mod-remove-solution": "Bain an modh '{{mod-name}}'.",
-    "aquatic-version-install-solution": "Nuashonraigh bogearraí an fhreastalaithe go 1.13 nó níos nuaí. ",
+    "aquatic-version-install-solution": "Nuashonraigh bogearraí an fhreastalaithe go 1.13 nó níos nuaí.",
     "plugin-command-exception-problem": "Ní thig leis an bhreiseán '{{plugin-name}}' an t-ordú '{{command}}' a chur i bhfeidhm .",
     "ticking-block-entity-problem": "Tá bloc ar domhan ag údarú fadhbanna.",
     "remove-block-solution": "Bain an bloc as an domhan, le MCEdit mar shampla.",
@@ -53,5 +53,5 @@
     "bedrock-authentication-whitelist-problem": "Ní ceadaítear geal-liosta a úsáid gan fhíordheimhniú ar líne.",
     "disable-whitelist-solution": "Díchumasaigh an geal-liosta.",
     "enable-authentication-solution": "Cumasaigh an fíordheimhniú ar líne.",
-    "undefined-mod-dependency-problem": "Tá an modh riachtanach {{dependency-mod-name}} in easnamh ar mhodh éigin "
+    "undefined-mod-dependency-problem": "Tá an modh riachtanach {{dependency-mod-name}} in easnamh ar mhodh éigin"
 }

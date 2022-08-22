@@ -2,6 +2,7 @@
     "minecraft-version": "Bersyon ng Minecraft",
     "java-version": "Bersyon ng Java",
     "fabric-version": "Bersyon ng Fabric loader",
+    "quilt-version": "Bersyon ng Quilt loader",
     "plugin-load-problem": "Hindi mai-load ang plugin na '{{plugin-name}}'.",
     "pocketmine-version": "Bersyon ng Pocketmine",
     "bedrock-version": "Bersyon ng Bedrock",
@@ -12,6 +13,7 @@
     "pex-config-problem": "Ang configuration ng plugin na 'PermissionsEx' ay mali.",
     "ambiguous-plugin-name-problem": "Maraming plugin files ang may pangalang '{{plugin-name}}': '{{first-plugin-path}}' at '{{second-plugin-path}}'.",
     "plugin-dependency-problem": "Ang plugin na '{{plugin-name}}' ay nawawalan ng kinakailangang plugin na '{{dependency-plugin-name}}'.",
+    "plugin-dependencies-problem": "Ang mod na '{{plugin-name}}' ay nagkukulang ng mga kinakailangang plugins '{{dependency-plugin-names}}'.",
     "plugin-disabling-problem": "Hindi mapawalang gana ang plugin na '{{plugin-name}}'.",
     "plugin-enabling-problem": "Hindi mapagana ang plugin na '{{plugin-name}}'.",
     "plugin-runtime-problem": "Nagkaroon ng problema ang plugin na '{{plugin-name}}' habang gumagana ito.",
@@ -63,5 +65,10 @@
     "version-downgrade-problem": "Ang iyong mundo ay ginamit na sa mas bagong bersyon.",
     "version-downgrade-solution": "Mag-install ng mas bagong bersyon ng Minecraft.",
     "generate-new-world-solution": "Gumawa ng bagong mundo.",
-    "bedrock-dbstorage-chain-problem": "Hindi mai-decrypt ang mundo. Mga mundong mula sa marketplace ay hindi pwedeng ma-install sa mga dedicated servers."
+    "bedrock-dbstorage-chain-problem": "Hindi mai-decrypt ang mundo. Mga mundong mula sa marketplace ay hindi pwedeng ma-install sa mga dedicated servers.",
+    "mod-incompatible-problem": "Ang mga mod na  '{{first-mod-name}}' at '{{second-mod-name}}'  ay hindi magkatugma.",
+    "server-install-different-version-solution": "I-install ang version  '{{software-version}}' ng iyong server software.",
+    "plugin-api-version-problem": "Ang plugin na '{{plugin-name}}' ay nangangailangan ng bersyon '{{software-version}}' ng iyong server software.",
+    "ticking-entity-problem": "Ang entity '{{name}}' na nasa {{location}} ay nagdudulot ng mga isyu sa habang nagti-tick.",
+    "remove-entity-solution": "Alisin ang entity '{{name}}' na nasa {{location}}."
 }

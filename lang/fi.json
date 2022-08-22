@@ -2,6 +2,7 @@
     "minecraft-version": "Minecraft-versio",
     "java-version": "Java-versio",
     "fabric-version": "Fabric-lataajan versio",
+    "quilt-version": "Quilt loaderin versio",
     "plugin-load-problem": "Laajennusta '{{plugin-name}}' ei voitu ladata.",
     "pocketmine-version": "Pocketmine-versio",
     "bedrock-version": "Bedrock-versio",
@@ -12,6 +13,7 @@
     "pex-config-problem": "'PermissionEx' laajennus ei ole käytettävissä.",
     "ambiguous-plugin-name-problem": "Löydetty useita samannimisiä tiedostoja laajennukselle '{{plugin-name}}': '{{first-plugin-path}}' sekä '{{second-plugin-path}}'.",
     "plugin-dependency-problem": "Laajennus '{{plugin-name}}' tarvitsee toimiakseen '{{dependency-plugin-name}}' laajennuksen.",
+    "plugin-dependencies-problem": "Liitännästä {{plugin-name}} puuttuu tarvittavat liitännäiset {{dependency-plugin-names}}.",
     "plugin-disabling-problem": "Laajennusta '{{plugin-name}}' ei voitu poistaa käytöstä.",
     "plugin-enabling-problem": "Laajennusta '{{plugin-name}}' ei voitu ottaa käyttöön.",
     "plugin-runtime-problem": "Laajennus '{{plugin-name}}' ei toimi oikein.",
@@ -63,5 +65,10 @@
     "version-downgrade-problem": "Maailmaasi on käytetty aikaisemmin uudemmassa versiossa.",
     "version-downgrade-solution": "Asenna uudempi Minecraft -versio.",
     "generate-new-world-solution": "Luo uusi maailma.",
-    "bedrock-dbstorage-chain-problem": "Maailmaa ei voida purkaa. Kauppamaailmoja ei voi asentaa omistetuille palvelimille."
+    "bedrock-dbstorage-chain-problem": "Maailmaa ei voida purkaa. Kauppamaailmoja ei voi asentaa omistetuille palvelimille.",
+    "mod-incompatible-problem": "Modit {{first-mod-name}}' ja '{{second-mod-name}}' ovat yhteensopimattomia.",
+    "server-install-different-version-solution": "Asenna serverisi versio '{{software-version}}' .",
+    "plugin-api-version-problem": "Lisäosa {{plugin-name}}' tarvitsee version '{{software-version}}' sinun palvelimen ohjelmasta.",
+    "ticking-entity-problem": "Entiteetti '{{name}}' sijainti kohdassa {{location}} aiheuttaa ongelmia tikauksen aikana",
+    "remove-entity-solution": "Poista entiteetti '{{name}}' sijainnista {{location}}"
 }
