@@ -23,7 +23,7 @@ class FabricCrashReportLog extends FabricLog implements CrashReportLogTypeInterf
      */
     public static function getDetectors(): array
     {
-        return [(new SinglePatternDetector())->setPattern("/^---- Minecraft Crash Report ----(\n.*)*\n\tKnown server brands: fabric/")];
+        return [(new SinglePatternDetector())->setPattern("/^---- Minecraft Crash Report ----(\n.*)*\n\t(?:Known )?server brands?: fabric/i")];
     }
 
     /**
