@@ -2,24 +2,26 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\CrashReport;
 
+use Aternos\Codex\Analysis\AnalysisInterface;
 use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\CrashReport\RemoveEntitySolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 class TickingEntityProblem extends CrashReportProblem
 {
-    const PATTERN_DESCRIPTION = "description";
-    const PATTERN_ENTITY_TYPE = "type";
-    const PATTERN_ENTITY_NAME = "name";
-    const PATTERN_ENTITY_LOCATION = "location";
-
-    protected ?string $matchedPattern = null;
+    const PATTERN_ENTITY_TYPE = "/Entity Type: ([\w:_]+)/";
+    const PATTERN_ENTITY_NAME = "/Entity Name: (.+)/";
+    const PATTERN_ENTITY_LOCATION = "/Entity's Exact location: (-?[\d.]+), (-?[\d.]+), (-?[\d.]+)/";
+    const PATTERN_DIMENSION = "/Level dimension: ([\w:-]+)/";
+    const PATTERN_LEVEL_NAME = "/Level name: (.+)/";
 
     protected ?string $type = null;
     protected ?string $name = null;
     protected ?float $locationX = null;
     protected ?float $locationY = null;
     protected ?float $locationZ = null;
+    protected ?string $dimension = null;
+    protected ?string $levelName = null;
 
     /**
      * @var RemoveEntitySolution[]
@@ -39,50 +41,48 @@ class TickingEntityProblem extends CrashReportProblem
      */
     public static function getPatterns(): array
     {
-        return [
-            static::PATTERN_DESCRIPTION => "/^Description: Ticking entity$/",
-            static::PATTERN_ENTITY_TYPE => "/Entity Type: ([\w:_]+)/",
-            static::PATTERN_ENTITY_NAME => "/Entity Name: (.+)/",
-            static::PATTERN_ENTITY_LOCATION => "/Entity's Exact location: (-?[\d.]+), (-?[\d.]+), (-?[\d.]+)/"
-        ];
+        return ["/^Description: Ticking entity$/"];
     }
 
     /**
-     * @param array $matches
-     * @param mixed $patternKey
-     * @return void
+     * @param AnalysisInterface $analysis
+     * @return $this
      */
-    public function setMatches(array $matches, mixed $patternKey): void
+    public function setAnalysis(AnalysisInterface $analysis): static
     {
-        $this->matchedPattern = $patternKey;
-        switch ($patternKey) {
-            case static::PATTERN_ENTITY_TYPE:
-                $this->type = $matches[1];
-                break;
-            case static::PATTERN_ENTITY_NAME:
-                $this->name = $matches[1];
-                break;
-            case static::PATTERN_ENTITY_LOCATION:
-                $this->locationX = (float)$matches[1];
-                $this->locationY = (float)$matches[2];
-                $this->locationZ = (float)$matches[3];
-                break;
+        parent::setAnalysis($analysis);
+        $content = $this->getLogContent();
+        if (preg_match(static::PATTERN_ENTITY_TYPE, $content, $matches)) {
+            $this->type = $matches[1];
         }
 
-        $this->addSolution(new RemoveEntitySolution());
-        $this->updateSolution();
-    }
+        if (preg_match(static::PATTERN_ENTITY_NAME, $content, $matches)) {
+            $this->name = $matches[1];
+        }
 
-    /**
-     * @return void
-     */
-    protected function updateSolution(): void
-    {
-        $this->solutions[0]->setName($this->getName());
-        $this->solutions[0]->setType($this->getType());
-        $this->solutions[0]->setLocationX($this->getLocationX());
-        $this->solutions[0]->setLocationY($this->getLocationY());
-        $this->solutions[0]->setLocationZ($this->getLocationZ());
+        if (preg_match(static::PATTERN_ENTITY_LOCATION, $content, $matches)) {
+            $this->locationX = (float)$matches[1];
+            $this->locationY = (float)$matches[2];
+            $this->locationZ = (float)$matches[3];
+        }
+
+        if (preg_match(static::PATTERN_DIMENSION, $content, $matches)) {
+            $this->dimension = $matches[1];
+        }
+
+        if (preg_match(static::PATTERN_LEVEL_NAME, $content, $matches)) {
+            $this->levelName = $matches[1];
+        }
+
+        $solution = new RemoveEntitySolution();
+        $solution->setType($this->getType());
+        $solution->setName($this->getName());
+        $solution->setLocationX($this->getLocationX());
+        $solution->setLocationY($this->getLocationY());
+        $solution->setLocationZ($this->getLocationZ());
+
+        $this->addSolution($solution);
+        return $this;
     }
 
     /**
@@ -91,11 +91,13 @@ class TickingEntityProblem extends CrashReportProblem
      */
     public function isEqual(InsightInterface $insight): bool
     {
-        if ($insight instanceof TickingEntityProblem) {
-            $this->addInformationFromProblem($insight);
-            return true;
-        }
-        return parent::isEqual($insight);
+        return parent::isEqual($insight) &&
+            $insight instanceof TickingEntityProblem &&
+            $insight->getType() === $this->getType() &&
+            $insight->getName() === $this->getName() &&
+            $insight->getLocationX() === $this->getLocationX() &&
+            $insight->getLocationY() === $this->getLocationY() &&
+            $insight->getLocationZ() === $this->getLocationZ();
     }
 
     /**
@@ -139,27 +141,11 @@ class TickingEntityProblem extends CrashReportProblem
     }
 
     /**
-     * @param static $problem
+     * @param array $matches
+     * @param mixed $patternKey
      * @return void
      */
-    public function addInformationFromProblem(TickingEntityProblem $problem): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
-        if ($problem->getName() !== null) {
-            $this->name = $problem->getName();
-        }
-        if ($problem->getType() !== null) {
-            $this->type = $problem->getType();
-        }
-        if ($problem->getLocationX() !== null) {
-            $this->locationX = $problem->getLocationX();
-        }
-        if ($problem->getLocationY() !== null) {
-            $this->locationY = $problem->getLocationY();
-        }
-        if ($problem->getLocationZ() !== null) {
-            $this->locationZ = $problem->getLocationZ();
-        }
-        $this->updateSolution();
     }
-
 }

@@ -1451,7 +1451,7 @@
         "problems": [
             {
                 "message": "The entity 'item.item.spruceseed' at the location -37.8, 106, 82.88 is causing issues while ticking.",
-                "counter": 4,
+                "counter": 1,
                 "entry": {
                     "level": 6,
                     "time": null,

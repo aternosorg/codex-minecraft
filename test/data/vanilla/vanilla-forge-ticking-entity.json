@@ -585,7 +585,7 @@
                 },
                 "solutions": [
                     {
-                        "message": "Delete the file 'world'."
+                        "message": "Generate a new world."
                     },
                     {
                         "message": "Remove the block from the world, e.g. with MCEdit."

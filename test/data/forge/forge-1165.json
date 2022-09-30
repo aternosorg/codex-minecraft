@@ -1671,7 +1671,7 @@
         "problems": [
             {
                 "message": "The entity 'Drowned' at the location 78.5, 50, 50.5 is causing issues while ticking.",
-                "counter": 4,
+                "counter": 1,
                 "entry": {
                     "level": 6,
                     "time": null,

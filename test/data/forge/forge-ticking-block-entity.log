@@ -1,0 +1,31 @@
+[29Sep2022 22:01:05.826] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[29Sep2022 22:01:05.826] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29Sep2022 22:01:05.826] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29Sep2022 22:01:05.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29Sep2022 22:01:05.914] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:59022
+[29Sep2022 22:01:05.938] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[29Sep2022 22:01:06.176] [Server thread/INFO] [FTB Teams/]: Loaded FTB Teams - 7 known players
+[29Sep2022 22:01:06.219] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29Sep2022 22:01:06.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29Sep2022 22:01:07.308] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Sep2022 22:01:07.309] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Sep2022 22:01:07.572] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Sep2022 22:01:08.637] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2093 ms
+[29Sep2022 22:01:08.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.570s)! For help, type "help"
+[29Sep2022 22:01:08.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting GS4 status listener
+[29Sep2022 22:01:08.642] [Server thread/INFO] [net.minecraft.network.rcon.RConThread/]: Thread Query Listener started
+[29Sep2022 22:01:08.642] [Query Listener #1/INFO] [net.minecraft.network.rcon.QueryThread/]: Query running on 0.0.0.0:9898
+[29Sep2022 22:01:08.685] [Server thread/INFO] [ToolKit/]: Loading server stuff
+[29Sep2022 22:01:08.706] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
+[29Sep2022 22:01:08.719] [Server thread/INFO] [net.creeperhost.minetogether.MineTogether/]: Current discoverability: unlisted
+[29Sep2022 22:01:09.107] [Server thread/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Validating Mutations...
+[29Sep2022 22:01:10.537] [Server thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID d38ba38a-20ca-4a7c-8a23-fb3acdfee80a
+[29Sep2022 22:01:10.541] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+net.minecraft.crash.ReportedException: Ticking block entity
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:855) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+Caused by: java.lang.StackOverflowError
