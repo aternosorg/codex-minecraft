@@ -141,6 +141,22 @@ class TickingEntityProblem extends CrashReportProblem
     }
 
     /**
+     * @return string|null
+     */
+    public function getDimension(): ?string
+    {
+        return $this->dimension;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getLevelName(): ?string
+    {
+        return $this->levelName;
+    }
+
+    /**
      * @param array $matches
      * @param mixed $patternKey
      * @return void
