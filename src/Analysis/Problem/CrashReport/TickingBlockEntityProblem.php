@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\CrashReport;
 
+use Aternos\Codex\Minecraft\Analysis\Solution\CrashReport\RemoveBlockEntitySolution;
+
 /**
  * Class TickingBlockEntityProblem
  *
@@ -19,5 +21,13 @@ class TickingBlockEntityProblem extends TickingEntityProblem
     public static function getPatterns(): array
     {
         return ["/^Description: Ticking block entity$/"];
+    }
+
+    /**
+     * @return RemoveBlockEntitySolution
+     */
+    protected function createSolution(): RemoveBlockEntitySolution
+    {
+        return new RemoveBlockEntitySolution();
     }
 }

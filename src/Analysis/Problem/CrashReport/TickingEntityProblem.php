@@ -74,15 +74,25 @@ class TickingEntityProblem extends CrashReportProblem
             $this->levelName = $matches[1];
         }
 
-        $solution = new RemoveEntitySolution();
+        $solution = $this->createSolution();
         $solution->setType($this->getType());
         $solution->setName($this->getName());
         $solution->setLocationX($this->getLocationX());
         $solution->setLocationY($this->getLocationY());
         $solution->setLocationZ($this->getLocationZ());
+        $solution->setDimension($this->getDimension());
+        $solution->setLevelName($this->getLevelName());
 
         $this->addSolution($solution);
         return $this;
+    }
+
+    /**
+     * @return RemoveEntitySolution
+     */
+    protected function createSolution(): RemoveEntitySolution
+    {
+        return new RemoveEntitySolution();
     }
 
     /**
