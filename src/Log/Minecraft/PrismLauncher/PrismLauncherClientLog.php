@@ -1,6 +1,6 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Log\Minecraft\PolyMC;
+namespace Aternos\Codex\Minecraft\Log\Minecraft\PrismLauncher;
 
 use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
 
@@ -9,7 +9,7 @@ use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
  *
  * @package Aternos\Codex\Minecraft\Log\Minecraft\PolyMC
  */
-class PolyMCClientLog extends PolyMCLog implements ClientLogTypeInterface
+class PrismLauncherClientLog extends PrismLauncherLog implements ClientLogTypeInterface
 {
 
 }

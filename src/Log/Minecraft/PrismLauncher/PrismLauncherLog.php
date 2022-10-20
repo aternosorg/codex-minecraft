@@ -1,17 +1,17 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Log\Minecraft\PolyMC;
+namespace Aternos\Codex\Minecraft\Log\Minecraft\PrismLauncher;
 
 use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Parser\Parser;
 
 /**
- * Class PolyMCLog
+ * Class PrismLauncherLog
  *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\PolyMC
+ * @package Aternos\Codex\Minecraft\Log\Minecraft\PrismLauncherLog
  */
-abstract class PolyMCLog extends \Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog
+abstract class PrismLauncherLog extends \Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog
 {
     /**
      * @return Parser
@@ -26,7 +26,7 @@ abstract class PolyMCLog extends \Aternos\Codex\Minecraft\Log\Minecraft\Minecraf
      */
     public static function getDetectors(): array
     {
-        return [(new SinglePatternDetector())->setPattern("/^PolyMC version: [\d\.]+$/m")];
+        return [(new SinglePatternDetector())->setPattern("/^Prism Launcher version: [\d\.]+$/m")];
     }
 
     /**
@@ -34,6 +34,6 @@ abstract class PolyMCLog extends \Aternos\Codex\Minecraft\Log\Minecraft\Minecraf
      */
     public function getName(): string
     {
-        return "PolyMC";
+        return "PrismLauncher";
     }
 }

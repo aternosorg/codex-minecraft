@@ -1,9 +1,9 @@
 {
-    "id": "polymc\/client",
-    "name": "PolyMC",
+    "id": "prismlauncher\/client",
+    "name": "PrismLauncher",
     "type": "Client Log",
     "version": null,
-    "title": "PolyMC Client Log",
+    "title": "PrismLauncher Client Log",
     "entries": [
         {
             "level": 6,
@@ -12,7 +12,7 @@
             "lines": [
                 {
                     "number": 1,
-                    "content": "PolyMC version: 1.4.1"
+                    "content": "Prism Launcher version: 5.0"
                 }
             ]
         },
@@ -78,7 +78,7 @@
             "lines": [
                 {
                     "number": 7,
-                    "content": "    [**.**.**.**, **.**.**.**, **.**.**.**, **.**.**.**]"
+                    "content": "    [108.156.252.40, 108.156.252.46, 108.156.252.52, 108.156.252.49]"
                 }
             ]
         },
@@ -111,7 +111,7 @@
             "lines": [
                 {
                     "number": 10,
-                    "content": "    [**.**.**.**, **.**.**.**, **.**.**.**]"
+                    "content": "    [100.24.172.95, 35.153.153.200, 34.199.236.154]"
                 }
             ]
         },
@@ -144,7 +144,7 @@
             "lines": [
                 {
                     "number": 13,
-                    "content": "    [**.**.**.**, **.**.**.**, **.**.**.**, **.**.**.**]"
+                    "content": "    [13.226.153.100, 13.226.153.69, 13.226.153.32, 13.226.153.62]"
                 }
             ]
         },
@@ -177,7 +177,7 @@
             "lines": [
                 {
                     "number": 16,
-                    "content": "    [**.**.**.**, **.**.**.**, **.**.**.**, **.**.**.**]"
+                    "content": "    [13.226.153.25, 13.226.153.111, 13.226.153.32, 13.226.153.115]"
                 }
             ]
         },
@@ -221,7 +221,7 @@
             "lines": [
                 {
                     "number": 20,
-                    "content": "\/home\/********\/.local\/share\/PolyMC\/instances\/Forge 1.12.2\/.minecraft"
+                    "content": "\/home\/matthias\/.local\/share\/PrismLauncher\/instances\/22w42a\/.minecraft"
                 }
             ]
         },
@@ -353,7 +353,7 @@
             "lines": [
                 {
                     "number": 32,
-                    "content": "OpenGL version string: 4.6 (Compatibility Profile) Mesa 22.1.6"
+                    "content": "OpenGL version string: 4.6 (Compatibility Profile) Mesa 22.1.7"
                 }
             ]
         },
@@ -386,7 +386,7 @@
             "lines": [
                 {
                     "number": 35,
-                    "content": "  net.minecraft.launchwrapper.Launch"
+                    "content": "  net.minecraft.client.main.Main"
                 }
             ]
         },
@@ -419,7 +419,7 @@
             "lines": [
                 {
                     "number": 38,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/instances\/Forge 1.12.2\/natives"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/instances\/22w42a\/natives"
                 }
             ]
         },
@@ -441,7 +441,7 @@
             "lines": [
                 {
                     "number": 40,
-                    "content": "Libraries:"
+                    "content": "Traits:"
                 }
             ]
         },
@@ -452,7 +452,7 @@
             "lines": [
                 {
                     "number": 41,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/java\/jinput\/jinput\/2.0.5\/jinput-2.0.5.jar"
+                    "content": "traits XR:Initial"
                 }
             ]
         },
@@ -463,7 +463,7 @@
             "lines": [
                 {
                     "number": 42,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/java\/jutils\/jutils\/1.0.0\/jutils-1.0.0.jar"
+                    "content": "traits FirstThreadOnMacOS"
                 }
             ]
         },
@@ -474,7 +474,7 @@
             "lines": [
                 {
                     "number": 43,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/lwjgl\/lwjgl\/lwjgl\/2.9.4-nightly-20150209\/lwjgl-2.9.4-nightly-20150209.jar"
+                    "content": ""
                 }
             ]
         },
@@ -485,7 +485,7 @@
             "lines": [
                 {
                     "number": 44,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/lwjgl\/lwjgl\/lwjgl_util\/2.9.4-nightly-20150209\/lwjgl_util-2.9.4-nightly-20150209.jar"
+                    "content": "Libraries:"
                 }
             ]
         },
@@ -496,7 +496,7 @@
             "lines": [
                 {
                     "number": 45,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/mojang\/patchy\/1.3.9\/patchy-1.3.9.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-glfw-natives-linux\/3.3.1\/lwjgl-glfw-natives-linux-3.3.1.jar"
                 }
             ]
         },
@@ -507,7 +507,7 @@
             "lines": [
                 {
                     "number": 46,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/oshi-project\/oshi-core\/1.1\/oshi-core-1.1.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-glfw\/3.3.1\/lwjgl-glfw-3.3.1.jar"
                 }
             ]
         },
@@ -518,7 +518,7 @@
             "lines": [
                 {
                     "number": 47,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/java\/dev\/jna\/jna\/4.4.0\/jna-4.4.0.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-jemalloc-natives-linux\/3.3.1\/lwjgl-jemalloc-natives-linux-3.3.1.jar"
                 }
             ]
         },
@@ -529,7 +529,7 @@
             "lines": [
                 {
                     "number": 48,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/java\/dev\/jna\/platform\/3.4.0\/platform-3.4.0.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-jemalloc\/3.3.1\/lwjgl-jemalloc-3.3.1.jar"
                 }
             ]
         },
@@ -540,7 +540,7 @@
             "lines": [
                 {
                     "number": 49,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/ibm\/icu\/icu4j-core-mojang\/51.2\/icu4j-core-mojang-51.2.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-natives-linux\/3.3.1\/lwjgl-natives-linux-3.3.1.jar"
                 }
             ]
         },
@@ -551,7 +551,7 @@
             "lines": [
                 {
                     "number": 50,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/sf\/jopt-simple\/jopt-simple\/5.0.3\/jopt-simple-5.0.3.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-openal-natives-linux\/3.3.1\/lwjgl-openal-natives-linux-3.3.1.jar"
                 }
             ]
         },
@@ -562,7 +562,7 @@
             "lines": [
                 {
                     "number": 51,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/paulscode\/codecjorbis\/20101023\/codecjorbis-20101023.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-openal\/3.3.1\/lwjgl-openal-3.3.1.jar"
                 }
             ]
         },
@@ -573,7 +573,7 @@
             "lines": [
                 {
                     "number": 52,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/paulscode\/codecwav\/20101023\/codecwav-20101023.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-opengl-natives-linux\/3.3.1\/lwjgl-opengl-natives-linux-3.3.1.jar"
                 }
             ]
         },
@@ -584,7 +584,7 @@
             "lines": [
                 {
                     "number": 53,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/paulscode\/libraryjavasound\/20101123\/libraryjavasound-20101123.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-opengl\/3.3.1\/lwjgl-opengl-3.3.1.jar"
                 }
             ]
         },
@@ -595,7 +595,7 @@
             "lines": [
                 {
                     "number": 54,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/paulscode\/librarylwjglopenal\/20100824\/librarylwjglopenal-20100824.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-stb-natives-linux\/3.3.1\/lwjgl-stb-natives-linux-3.3.1.jar"
                 }
             ]
         },
@@ -606,7 +606,7 @@
             "lines": [
                 {
                     "number": 55,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/paulscode\/soundsystem\/20120107\/soundsystem-20120107.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-stb\/3.3.1\/lwjgl-stb-3.3.1.jar"
                 }
             ]
         },
@@ -617,7 +617,7 @@
             "lines": [
                 {
                     "number": 56,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/io\/netty\/netty-all\/4.1.9.Final\/netty-all-4.1.9.Final.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-tinyfd-natives-linux\/3.3.1\/lwjgl-tinyfd-natives-linux-3.3.1.jar"
                 }
             ]
         },
@@ -628,7 +628,7 @@
             "lines": [
                 {
                     "number": 57,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/google\/guava\/guava\/21.0\/guava-21.0.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-tinyfd\/3.3.1\/lwjgl-tinyfd-3.3.1.jar"
                 }
             ]
         },
@@ -639,7 +639,7 @@
             "lines": [
                 {
                     "number": 58,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/apache\/commons\/commons-lang3\/3.5\/commons-lang3-3.5.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl\/3.3.1\/lwjgl-3.3.1.jar"
                 }
             ]
         },
@@ -650,7 +650,7 @@
             "lines": [
                 {
                     "number": 59,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/commons-io\/commons-io\/2.5\/commons-io-2.5.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/github\/oshi\/oshi-core\/5.8.5\/oshi-core-5.8.5.jar"
                 }
             ]
         },
@@ -661,7 +661,7 @@
             "lines": [
                 {
                     "number": 60,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/commons-codec\/commons-codec\/1.10\/commons-codec-1.10.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/google\/code\/gson\/gson\/2.8.9\/gson-2.8.9.jar"
                 }
             ]
         },
@@ -672,7 +672,7 @@
             "lines": [
                 {
                     "number": 61,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/google\/code\/gson\/gson\/2.8.0\/gson-2.8.0.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/google\/guava\/failureaccess\/1.0.1\/failureaccess-1.0.1.jar"
                 }
             ]
         },
@@ -683,7 +683,7 @@
             "lines": [
                 {
                     "number": 62,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/mojang\/authlib\/1.5.25\/authlib-1.5.25.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/google\/guava\/guava\/31.0.1-jre\/guava-31.0.1-jre.jar"
                 }
             ]
         },
@@ -694,7 +694,7 @@
             "lines": [
                 {
                     "number": 63,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/mojang\/realms\/1.10.22\/realms-1.10.22.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/ibm\/icu\/icu4j\/70.1\/icu4j-70.1.jar"
                 }
             ]
         },
@@ -705,7 +705,7 @@
             "lines": [
                 {
                     "number": 64,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/apache\/commons\/commons-compress\/1.8.1\/commons-compress-1.8.1.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/authlib\/3.13.56\/authlib-3.13.56.jar"
                 }
             ]
         },
@@ -716,7 +716,7 @@
             "lines": [
                 {
                     "number": 65,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/apache\/httpcomponents\/httpclient\/4.3.3\/httpclient-4.3.3.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/blocklist\/1.0.10\/blocklist-1.0.10.jar"
                 }
             ]
         },
@@ -727,7 +727,7 @@
             "lines": [
                 {
                     "number": 66,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/commons-logging\/commons-logging\/1.1.3\/commons-logging-1.1.3.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/brigadier\/1.0.18\/brigadier-1.0.18.jar"
                 }
             ]
         },
@@ -738,7 +738,7 @@
             "lines": [
                 {
                     "number": 67,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/apache\/httpcomponents\/httpcore\/4.3.2\/httpcore-4.3.2.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/datafixerupper\/5.0.28\/datafixerupper-5.0.28.jar"
                 }
             ]
         },
@@ -749,7 +749,7 @@
             "lines": [
                 {
                     "number": 68,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/it\/unimi\/dsi\/fastutil\/7.1.0\/fastutil-7.1.0.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/javabridge\/2.0.25\/javabridge-2.0.25.jar"
                 }
             ]
         },
@@ -760,7 +760,7 @@
             "lines": [
                 {
                     "number": 69,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/apache\/logging\/log4j\/log4j-api\/2.17.1\/log4j-api-2.17.1.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/logging\/1.0.0\/logging-1.0.0.jar"
                 }
             ]
         },
@@ -771,7 +771,7 @@
             "lines": [
                 {
                     "number": 70,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/apache\/logging\/log4j\/log4j-core\/2.17.1\/log4j-core-2.17.1.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/patchy\/2.2.10\/patchy-2.2.10.jar"
                 }
             ]
         },
@@ -782,7 +782,7 @@
             "lines": [
                 {
                     "number": 71,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/mojang\/text2speech\/1.10.3\/text2speech-1.10.3.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/text2speech\/1.13.9\/text2speech-1.13.9.jar"
                 }
             ]
         },
@@ -793,7 +793,7 @@
             "lines": [
                 {
                     "number": 72,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/minecraftforge\/forge\/1.12.2-14.23.5.2859\/forge-1.12.2-14.23.5.2859-universal.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/text2speech-natives-linux\/1.13.9\/text2speech-natives-linux-1.13.9.jar"
                 }
             ]
         },
@@ -804,7 +804,7 @@
             "lines": [
                 {
                     "number": 73,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/ow2\/asm\/asm-debug-all\/5.2\/asm-debug-all-5.2.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/commons-codec\/commons-codec\/1.15\/commons-codec-1.15.jar"
                 }
             ]
         },
@@ -815,7 +815,7 @@
             "lines": [
                 {
                     "number": 74,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/minecraft\/launchwrapper\/1.12\/launchwrapper-1.12.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/commons-io\/commons-io\/2.11.0\/commons-io-2.11.0.jar"
                 }
             ]
         },
@@ -826,7 +826,7 @@
             "lines": [
                 {
                     "number": 75,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/jline\/jline\/3.5.1\/jline-3.5.1.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/commons-logging\/commons-logging\/1.2\/commons-logging-1.2.jar"
                 }
             ]
         },
@@ -837,7 +837,7 @@
             "lines": [
                 {
                     "number": 76,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/typesafe\/akka\/akka-actor_2.11\/2.3.3\/akka-actor_2.11-2.3.3.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-buffer\/4.1.77.Final\/netty-buffer-4.1.77.Final.jar"
                 }
             ]
         },
@@ -848,7 +848,7 @@
             "lines": [
                 {
                     "number": 77,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/typesafe\/config\/1.2.1\/config-1.2.1.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-codec\/4.1.77.Final\/netty-codec-4.1.77.Final.jar"
                 }
             ]
         },
@@ -859,7 +859,7 @@
             "lines": [
                 {
                     "number": 78,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/scala-actors-migration_2.11\/1.1.0\/scala-actors-migration_2.11-1.1.0.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-common\/4.1.77.Final\/netty-common-4.1.77.Final.jar"
                 }
             ]
         },
@@ -870,7 +870,7 @@
             "lines": [
                 {
                     "number": 79,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/scala-compiler\/2.11.1\/scala-compiler-2.11.1.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-handler\/4.1.77.Final\/netty-handler-4.1.77.Final.jar"
                 }
             ]
         },
@@ -881,7 +881,7 @@
             "lines": [
                 {
                     "number": 80,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/plugins\/scala-continuations-library_2.11\/1.0.2_mc\/scala-continuations-library_2.11-1.0.2_mc.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-resolver\/4.1.77.Final\/netty-resolver-4.1.77.Final.jar"
                 }
             ]
         },
@@ -892,7 +892,7 @@
             "lines": [
                 {
                     "number": 81,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/plugins\/scala-continuations-plugin_2.11.1\/1.0.2_mc\/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-transport-classes-epoll\/4.1.77.Final\/netty-transport-classes-epoll-4.1.77.Final.jar"
                 }
             ]
         },
@@ -903,7 +903,7 @@
             "lines": [
                 {
                     "number": 82,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/scala-library\/2.11.1\/scala-library-2.11.1.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-transport-native-epoll\/4.1.77.Final\/netty-transport-native-epoll-4.1.77.Final-linux-aarch_64.jar"
                 }
             ]
         },
@@ -914,7 +914,7 @@
             "lines": [
                 {
                     "number": 83,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/scala-parser-combinators_2.11\/1.0.1\/scala-parser-combinators_2.11-1.0.1.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-transport-native-epoll\/4.1.77.Final\/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar"
                 }
             ]
         },
@@ -925,7 +925,7 @@
             "lines": [
                 {
                     "number": 84,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/scala-reflect\/2.11.1\/scala-reflect-2.11.1.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-transport-native-unix-common\/4.1.77.Final\/netty-transport-native-unix-common-4.1.77.Final.jar"
                 }
             ]
         },
@@ -936,7 +936,7 @@
             "lines": [
                 {
                     "number": 85,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/scala-swing_2.11\/1.0.1\/scala-swing_2.11-1.0.1.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-transport\/4.1.77.Final\/netty-transport-4.1.77.Final.jar"
                 }
             ]
         },
@@ -947,7 +947,7 @@
             "lines": [
                 {
                     "number": 86,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/scala-lang\/scala-xml_2.11\/1.0.2\/scala-xml_2.11-1.0.2.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/it\/unimi\/dsi\/fastutil\/8.5.6\/fastutil-8.5.6.jar"
                 }
             ]
         },
@@ -958,7 +958,7 @@
             "lines": [
                 {
                     "number": 87,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/lzma\/lzma\/0.0.1\/lzma-0.0.1.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/net\/java\/dev\/jna\/jna-platform\/5.10.0\/jna-platform-5.10.0.jar"
                 }
             ]
         },
@@ -969,7 +969,7 @@
             "lines": [
                 {
                     "number": 88,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/java3d\/vecmath\/1.5.2\/vecmath-1.5.2.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/net\/java\/dev\/jna\/jna\/5.10.0\/jna-5.10.0.jar"
                 }
             ]
         },
@@ -980,7 +980,7 @@
             "lines": [
                 {
                     "number": 89,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/sf\/trove4j\/trove4j\/3.0.3\/trove4j-3.0.3.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/net\/sf\/jopt-simple\/jopt-simple\/5.0.4\/jopt-simple-5.0.4.jar"
                 }
             ]
         },
@@ -991,7 +991,7 @@
             "lines": [
                 {
                     "number": 90,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/apache\/maven\/maven-artifact\/3.5.3\/maven-artifact-3.5.3.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/apache\/commons\/commons-compress\/1.21\/commons-compress-1.21.jar"
                 }
             ]
         },
@@ -1002,7 +1002,7 @@
             "lines": [
                 {
                     "number": 91,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/mojang\/minecraft\/1.12.2\/minecraft-1.12.2-client.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/apache\/commons\/commons-lang3\/3.12.0\/commons-lang3-3.12.0.jar"
                 }
             ]
         },
@@ -1013,7 +1013,7 @@
             "lines": [
                 {
                     "number": 92,
-                    "content": ""
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/apache\/httpcomponents\/httpclient\/4.5.13\/httpclient-4.5.13.jar"
                 }
             ]
         },
@@ -1024,7 +1024,7 @@
             "lines": [
                 {
                     "number": 93,
-                    "content": "Native libraries:"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/apache\/httpcomponents\/httpcore\/4.4.14\/httpcore-4.4.14.jar"
                 }
             ]
         },
@@ -1035,7 +1035,7 @@
             "lines": [
                 {
                     "number": 94,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/net\/java\/jinput\/jinput-platform\/2.0.5\/jinput-platform-2.0.5-natives-linux.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/apache\/logging\/log4j\/log4j-api\/2.17.1\/log4j-api-2.17.1.jar"
                 }
             ]
         },
@@ -1046,7 +1046,7 @@
             "lines": [
                 {
                     "number": 95,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/org\/lwjgl\/lwjgl\/lwjgl-platform\/2.9.4-nightly-20150209\/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/apache\/logging\/log4j\/log4j-core\/2.17.1\/log4j-core-2.17.1.jar"
                 }
             ]
         },
@@ -1057,7 +1057,7 @@
             "lines": [
                 {
                     "number": 96,
-                    "content": "  \/home\/********\/.local\/share\/PolyMC\/libraries\/com\/mojang\/text2speech\/1.10.3\/text2speech-1.10.3-natives-linux.jar"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/apache\/logging\/log4j\/log4j-slf4j18-impl\/2.17.1\/log4j-slf4j18-impl-2.17.1.jar"
                 }
             ]
         },
@@ -1068,7 +1068,7 @@
             "lines": [
                 {
                     "number": 97,
-                    "content": ""
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/slf4j\/slf4j-api\/1.8.0-beta4\/slf4j-api-1.8.0-beta4.jar"
                 }
             ]
         },
@@ -1079,7 +1079,7 @@
             "lines": [
                 {
                     "number": 98,
-                    "content": "Params:"
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/minecraft\/22w42a\/minecraft-22w42a-client.jar"
                 }
             ]
         },
@@ -1090,7 +1090,7 @@
             "lines": [
                 {
                     "number": 99,
-                    "content": "  --username  --version 1.12.2 --gameDir \/home\/********\/.local\/share\/PolyMC\/instances\/Forge 1.12.2\/.minecraft --assetsDir \/home\/********\/.local\/share\/PolyMC\/assets --assetIndex 1.12 --uuid  --accessToken  --userType  --versionType release --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker"
+                    "content": ""
                 }
             ]
         },
@@ -1101,7 +1101,7 @@
             "lines": [
                 {
                     "number": 100,
-                    "content": ""
+                    "content": "Native libraries:"
                 }
             ]
         },
@@ -1112,17 +1112,6 @@
             "lines": [
                 {
                     "number": 101,
-                    "content": "Window size: 854 x 480"
-                }
-            ]
-        },
-        {
-            "level": 6,
-            "time": null,
-            "prefix": null,
-            "lines": [
-                {
-                    "number": 102,
                     "content": ""
                 }
             ]
@@ -1133,8 +1122,19 @@
             "prefix": null,
             "lines": [
                 {
+                    "number": 102,
+                    "content": "Params:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
                     "number": 103,
-                    "content": "This instance is not compatible with Java version 18."
+                    "content": "  --username  --version 22w42a --gameDir \/home\/matthias\/.local\/share\/PrismLauncher\/instances\/22w42a\/.minecraft --assetsDir \/home\/matthias\/.local\/share\/PrismLauncher\/assets --assetIndex 1 --uuid  --accessToken  --userType  --versionType snapshot"
                 }
             ]
         },
@@ -1145,7 +1145,7 @@
             "lines": [
                 {
                     "number": 104,
-                    "content": "Please switch to one of the following Java versions for this instance:"
+                    "content": ""
                 }
             ]
         },
@@ -1156,7 +1156,7 @@
             "lines": [
                 {
                     "number": 105,
-                    "content": "Java version 8"
+                    "content": "Window size: 854 x 480"
                 }
             ]
         },
@@ -1167,7 +1167,128 @@
             "lines": [
                 {
                     "number": 106,
-                    "content": "PolyMC: Log upload triggered at: 17 Aug 2022 14:48:22  0200"
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "Java Arguments:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[-Xms1024m, -Xmx8192m, -Duser.language=en]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 109,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 110,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "Minecraft process ID: 56217"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 112,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 114,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "Process exited with code 0."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "Clipboard copy at: 20 Oct 2022 14:59:36 +0200"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 117,
+                    "content": ""
                 }
             ]
         }

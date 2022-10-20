@@ -1,0 +1,116 @@
+Prism Launcher version: 5.0
+
+
+Launched instance in online mode
+
+authserver.mojang.com resolves to:
+    [108.156.252.40, 108.156.252.46, 108.156.252.52, 108.156.252.49]
+
+session.minecraft.net resolves to:
+    [100.24.172.95, 35.153.153.200, 34.199.236.154]
+
+textures.minecraft.net resolves to:
+    [13.226.153.100, 13.226.153.69, 13.226.153.32, 13.226.153.62]
+
+api.mojang.com resolves to:
+    [13.226.153.25, 13.226.153.111, 13.226.153.32, 13.226.153.115]
+
+
+Minecraft folder is:
+/home/matthias/.local/share/PrismLauncher/instances/22w42a/.minecraft
+
+
+Java path is:
+/usr/lib/jvm/java-18-openjdk/bin/java
+
+
+Checking Java version...
+Java is version 18.0.2, using 64 (amd64) architecture, from N/A.
+
+
+11th Gen Intel(R) Core(TM) i9-11900H @ 2.50GHz
+OpenGL version string: 4.6 (Compatibility Profile) Mesa 22.1.7
+
+Main Class:
+  net.minecraft.client.main.Main
+
+Native path:
+  /home/matthias/.local/share/PrismLauncher/instances/22w42a/natives
+
+Traits:
+traits XR:Initial
+traits FirstThreadOnMacOS
+
+Libraries:
+  /home/matthias/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-linux/3.3.1/lwjgl-glfw-natives-linux-3.3.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-linux/3.3.1/lwjgl-jemalloc-natives-linux-3.3.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-linux/3.3.1/lwjgl-natives-linux-3.3.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-linux/3.3.1/lwjgl-openal-natives-linux-3.3.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-linux/3.3.1/lwjgl-opengl-natives-linux-3.3.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-linux/3.3.1/lwjgl-stb-natives-linux-3.3.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-linux/3.3.1/lwjgl-tinyfd-natives-linux-3.3.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/mojang/authlib/3.13.56/authlib-3.13.56.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/mojang/javabridge/2.0.25/javabridge-2.0.25.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/mojang/text2speech-natives-linux/1.13.9/text2speech-natives-linux-1.13.9.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-aarch_64.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.17.1/log4j-slf4j18-impl-2.17.1.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar
+  /home/matthias/.local/share/PrismLauncher/libraries/com/mojang/minecraft/22w42a/minecraft-22w42a-client.jar
+
+Native libraries:
+
+Params:
+  --username  --version 22w42a --gameDir /home/matthias/.local/share/PrismLauncher/instances/22w42a/.minecraft --assetsDir /home/matthias/.local/share/PrismLauncher/assets --assetIndex 1 --uuid  --accessToken  --userType  --versionType snapshot
+
+Window size: 854 x 480
+
+Java Arguments:
+[-Xms1024m, -Xmx8192m, -Duser.language=en]
+
+
+Minecraft process ID: 56217
+
+...
+
+Process exited with code 0.
+Clipboard copy at: 20 Oct 2022 14:59:36 +0200

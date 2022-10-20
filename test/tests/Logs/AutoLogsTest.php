@@ -1038,9 +1038,9 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_polymc(): void
+    public function test_prismlauncher(): void
     {
-        $log = new TestLog('polymc/polymc.log');
+        $log = new TestLog('prismlauncher/prismlauncher.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
