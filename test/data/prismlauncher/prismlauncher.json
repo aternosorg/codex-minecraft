@@ -1,9 +1,9 @@
 {
-    "id": "prismlauncher\/client",
-    "name": "PrismLauncher",
+    "id": "prism-launcher\/client",
+    "name": "Prism Launcher",
     "type": "Client Log",
     "version": null,
-    "title": "PrismLauncher Client Log",
+    "title": "Prism Launcher Client Log",
     "entries": [
         {
             "level": 6,

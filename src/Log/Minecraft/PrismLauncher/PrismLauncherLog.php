@@ -34,6 +34,6 @@ abstract class PrismLauncherLog extends \Aternos\Codex\Minecraft\Log\Minecraft\M
      */
     public function getName(): string
     {
-        return "PrismLauncher";
+        return "Prism Launcher";
     }
 }
