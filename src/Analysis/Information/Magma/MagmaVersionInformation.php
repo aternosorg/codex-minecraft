@@ -28,6 +28,6 @@ class MagmaVersionInformation extends MagmaInformation
      */
     public static function getPatterns(): array
     {
-        return ['/This server is running Magma version ([0-9a-f]+)/'];
+        return ['/This server is running Magma version (?:git-Magma-[0-9\.a-zA-Z]+-)?([0-9a-f]+)/'];
     }
 }
