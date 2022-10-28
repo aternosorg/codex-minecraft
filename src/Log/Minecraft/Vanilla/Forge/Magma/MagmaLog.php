@@ -14,15 +14,13 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\ForgeLog;
  */
 abstract class MagmaLog extends ForgeLog
 {
-    protected static string $prefixPattern = '(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?\:) ';
-
     /**
      * @return DetectorInterface[]
      */
     public static function getDetectors(): array
     {
         return [
-            (new SinglePatternDetector())->setPattern('/' . static::$prefixPattern . 'This server is running Magma version/')
+            (new SinglePatternDetector())->setPattern('/This server is running Magma version/')
         ];
     }
 
