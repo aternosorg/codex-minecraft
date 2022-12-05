@@ -18,6 +18,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_arclight_1192(): void
+    {
+        $log = new TestLog('arclight/arclight-1192.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_bedrock_authentication_allowlist_problem(): void
     {
         $log = new TestLog('bedrock/bedrock-authentication-allowlist-problem.log');
