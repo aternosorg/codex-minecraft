@@ -1,0 +1,2914 @@
+{
+    "id": "arclight\/server",
+    "name": "Arclight",
+    "type": "Server Log",
+    "version": "1.19.2",
+    "title": "Arclight 1.19.2 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:00.523] [main\/INFO] [Arclight\/]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[05Dec2022 05:20:00.523] [main\/INFO] [Arclight\/]:"
+                },
+                {
+                    "number": 2,
+                    "content": ""
+                },
+                {
+                    "number": 3,
+                    "content": "       ___           ___     __   \/\\"
+                },
+                {
+                    "number": 4,
+                    "content": "      \/   | ________\/ (_)__ \/ \/  \/ \/"
+                },
+                {
+                    "number": 5,
+                    "content": "     \/ \/| |\/ __\/ __\/ \/ \/ _ \/ _ \\\/__\/"
+                },
+                {
+                    "number": 6,
+                    "content": "    \/ ___ \/ \/ \/ \/_\/ \/ \/ \/ \/ \/\/ \/ \/"
+                },
+                {
+                    "number": 7,
+                    "content": "   \/_\/  |\/_\/  \\__\/_\/_\/\\_ \/_\/\/_\/ \/"
+                },
+                {
+                    "number": 8,
+                    "content": "                     \/__\/     \\\/"
+                },
+                {
+                    "number": 9,
+                    "content": ""
+                },
+                {
+                    "number": 10,
+                    "content": "    Version \u89d2 (Horn) \/ arclight-1.19.2-1.0.1-SNAPSHOT-b8adaaba"
+                },
+                {
+                    "number": 11,
+                    "content": "    Build Date 2022-11-29 14:17:08"
+                },
+                {
+                    "number": 12,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:00.557] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[05Dec2022 05:20:00.557] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.1.55, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:00.558] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[05Dec2022 05:20:00.558] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.4.1 by Eclipse Adoptium; OS Linux arch amd64 version 5.4.0-91-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:00.690] [main\/INFO] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[05Dec2022 05:20:00.690] [main\/INFO] [mixin\/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:\/server\/libraries\/org\/spongepowered\/mixin\/0.8.5\/mixin-0.8.5.jar%2396!\/ Service=ModLauncher Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:00.746] [main\/WARN] [net.minecraftforge.fml.loading.FMLConfig\/CORE]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[05Dec2022 05:20:00.746] [main\/WARN] [net.minecraftforge.fml.loading.FMLConfig\/CORE]: Configuration file \/server\/config\/fml.toml is not correct. Correcting"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:00.752] [main\/WARN] [net.minecraftforge.fml.loading.FMLConfig\/CORE]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[05Dec2022 05:20:00.752] [main\/WARN] [net.minecraftforge.fml.loading.FMLConfig\/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:00.919] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[05Dec2022 05:20:00.919] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Mod file \/server\/libraries\/net\/minecraftforge\/fmlcore\/1.19.2-43.1.55\/fmlcore-1.19.2-43.1.55.jar is missing mods.toml file"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:00.920] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[05Dec2022 05:20:00.920] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Mod file \/server\/libraries\/net\/minecraftforge\/javafmllanguage\/1.19.2-43.1.55\/javafmllanguage-1.19.2-43.1.55.jar is missing mods.toml file"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:00.921] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[05Dec2022 05:20:00.921] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Mod file \/server\/libraries\/net\/minecraftforge\/lowcodelanguage\/1.19.2-43.1.55\/lowcodelanguage-1.19.2-43.1.55.jar is missing mods.toml file"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:00.921] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[05Dec2022 05:20:00.921] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Mod file \/server\/libraries\/net\/minecraftforge\/mclanguage\/1.19.2-43.1.55\/mclanguage-1.19.2-43.1.55.jar is missing mods.toml file"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:00.984] [main\/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[05Dec2022 05:20:00.984] [main\/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]: No dependencies to load found. Skipping!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:02.068] [main\/INFO] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[05Dec2022 05:20:02.068] [main\/INFO] [mixin\/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:02.096] [main\/INFO] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[05Dec2022 05:20:02.096] [main\/INFO] [mixin\/]: Compatibility level set to JAVA_17"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:02.099] [main\/INFO] [Arclight\/]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[05Dec2022 05:20:02.099] [main\/INFO] [Arclight\/]: Arclight core mixin added."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:02.100] [main\/INFO] [Arclight\/]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[05Dec2022 05:20:02.100] [main\/INFO] [Arclight\/]: Arclight optimization mixin added."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:02.107] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[05Dec2022 05:20:02.107] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:08.153] [main\/INFO] [net.minecraft.util.datafix.DataFixers\/]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[05Dec2022 05:20:08.153] [main\/INFO] [net.minecraft.util.datafix.DataFixers\/]: Building unoptimized datafixer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:11.151] [modloading-worker-0\/INFO] [Arclight\/]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[05Dec2022 05:20:11.151] [modloading-worker-0\/INFO] [Arclight\/]: Arclight Mod loaded."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:11.183] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[05Dec2022 05:20:11.183] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]: Forge mod loading, version 43.1.55, for MC 1.19.2 with MCP 20220805.130853"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:11.183] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[05Dec2022 05:20:11.183] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]: MinecraftForge v43.1.55 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:11.201] [modloading-worker-0\/INFO] [Arclight\/]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[05Dec2022 05:20:11.201] [modloading-worker-0\/INFO] [Arclight\/]: Arclight events registered."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:11.584] [main\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[05Dec2022 05:20:11.584] [main\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Configuration file \/server\/config\/forge-common.toml is not correct. Correcting"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:11.585] [main\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[05Dec2022 05:20:11.585] [main\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:11.585] [main\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[05Dec2022 05:20:11.585] [main\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key general.cachePackAccess was corrected from null to its default, true."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:11.585] [main\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[05Dec2022 05:20:11.585] [main\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key general.indexVanillaPackCachesOnThread was corrected from null to its default, false."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:11.585] [main\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[05Dec2022 05:20:11.585] [main\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key general.indexModPackCachesOnThread was corrected from null to its default, false."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:11.720] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[05Dec2022 05:20:11.720] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [forge] Starting version check at https:\/\/files.minecraftforge.net\/net\/minecraftforge\/forge\/promotions_slim.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:11.947] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[05Dec2022 05:20:11.947] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [forge] Found status: OUTDATED Current: 43.1.55 Target: 43.1.65"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:12.594] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[05Dec2022 05:20:12.594] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]: Environment: authHost='https:\/\/authserver.mojang.com', accountsHost='https:\/\/api.mojang.com', sessionHost='https:\/\/sessionserver.mojang.com', servicesHost='https:\/\/api.minecraftservices.com', name='PROD'"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:12.874] [main\/WARN] [net.minecraft.server.packs.VanillaPackResources\/]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[05Dec2022 05:20:12.874] [main\/WARN] [net.minecraft.server.packs.VanillaPackResources\/]: Assets URL 'union:\/server\/libraries\/net\/minecraft\/server\/1.19.2-20220805.130853\/server-1.19.2-20220805.130853-srg.jar%23161!\/assets\/.mcassetsroot' uses unexpected schema"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:12.874] [main\/WARN] [net.minecraft.server.packs.VanillaPackResources\/]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[05Dec2022 05:20:12.874] [main\/WARN] [net.minecraft.server.packs.VanillaPackResources\/]: Assets URL 'union:\/server\/libraries\/net\/minecraft\/server\/1.19.2-20220805.130853\/server-1.19.2-20220805.130853-srg.jar%23161!\/data\/.mcassetsroot' uses unexpected schema"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:14.483] [main\/INFO] [net.minecraft.world.item.crafting.RecipeManager\/]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[05Dec2022 05:20:14.483] [main\/INFO] [net.minecraft.world.item.crafting.RecipeManager\/]: Loaded 7 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:14.917] [main\/INFO] [net.minecraft.advancements.AdvancementList\/]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[05Dec2022 05:20:14.917] [main\/INFO] [net.minecraft.advancements.AdvancementList\/]: Loaded 1179 advancements"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:15.667] [main\/WARN] [net.minecraft.server.dedicated.DedicatedServerProperties\/]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[05Dec2022 05:20:15.667] [main\/WARN] [net.minecraft.server.dedicated.DedicatedServerProperties\/]: Failed to parse level-type default, defaulting to minecraft:normal"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:15.925] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[05Dec2022 05:20:15.925] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting minecraft server version 1.19.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:15.926] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[05Dec2022 05:20:15.926] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:15.926] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[05Dec2022 05:20:15.926] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:15.926] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[05Dec2022 05:20:15.926] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:16.010] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[05Dec2022 05:20:16.010] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting Minecraft server on *:54016"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:16.037] [Server thread\/INFO] [net.minecraft.server.network.ServerConnectionListener\/]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[05Dec2022 05:20:16.037] [Server thread\/INFO] [net.minecraft.server.network.ServerConnectionListener\/]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:16.409] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[05Dec2022 05:20:16.409] [Server thread\/INFO] [Minecraft\/]: This server is running Arclight version arclight-1.19.2-1.0.1-SNAPSHOT-b8adaaba (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:16.568] [Server thread\/INFO] [Arclight\/]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[05Dec2022 05:20:16.568] [Server thread\/INFO] [Arclight\/]: Registering for Bukkit ..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.115] [Server thread\/INFO] [Arclight\/]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[05Dec2022 05:20:17.115] [Server thread\/INFO] [Arclight\/]: Registered 0 new materials with 0 blocks and 0 items"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.116] [Server thread\/INFO] [Arclight\/]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[05Dec2022 05:20:17.116] [Server thread\/INFO] [Arclight\/]: Registered 1 new potion effect types"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.122] [Server thread\/INFO] [Arclight\/]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[05Dec2022 05:20:17.122] [Server thread\/INFO] [Arclight\/]: Registered 39 enchantments"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.122] [Server thread\/INFO] [Arclight\/]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[05Dec2022 05:20:17.122] [Server thread\/INFO] [Arclight\/]: Registered 0 new entity types"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.123] [Server thread\/INFO] [Arclight\/]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[05Dec2022 05:20:17.123] [Server thread\/INFO] [Arclight\/]: Registered 0 new villager professions"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.124] [Server thread\/INFO] [Arclight\/]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[05Dec2022 05:20:17.124] [Server thread\/INFO] [Arclight\/]: Registered 0 new biomes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.145] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[05Dec2022 05:20:17.145] [Server thread\/INFO] [Minecraft\/]: Debug logging is enabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.146] [Server thread\/INFO] [STDOUT\/]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[05Dec2022 05:20:17.146] [Server thread\/INFO] [STDOUT\/]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.149] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[05Dec2022 05:20:17.149] [Server thread\/INFO] [Minecraft\/]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.229] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[05Dec2022 05:20:17.229] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Configuration file .\/world\/serverconfig\/forge-server.toml is not correct. Correcting"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[05Dec2022 05:20:17.230] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.261] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[05Dec2022 05:20:17.261] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.275] [Server thread\/INFO] [Arclight\/]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[05Dec2022 05:20:17.275] [Server thread\/INFO] [Arclight\/]: Registered 0 new dimensions"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: -------- World Settings For [world] --------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Experience Merge Radius: 3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Mob Spawn Range: 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Zombie Aggressive Towards Villager: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Allow Zombie Pigmen to spawn from portal blocks: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Cactus Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Cane Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Melon Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Mushroom Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Pumpkin Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Sapling Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Beetroot Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Carrot Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Potato Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Wheat Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: NetherWart Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Vine Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Cocoa Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Bamboo Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: SweetBerry Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: Kelp Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: TwistingVines Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[05Dec2022 05:20:17.614] [Server thread\/INFO] [Minecraft\/]: WeepingVines Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.615] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[05Dec2022 05:20:17.615] [Server thread\/INFO] [Minecraft\/]: CaveVines Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.615] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[05Dec2022 05:20:17.615] [Server thread\/INFO] [Minecraft\/]: Entity Activation Range: An 32 \/ Mo 32 \/ Ra 48 \/ Mi 16 \/ Tiv true \/ Isa false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.615] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[05Dec2022 05:20:17.615] [Server thread\/INFO] [Minecraft\/]: Entity Tracking Range: Pl 48 \/ An 48 \/ Mo 48 \/ Mi 32 \/ Other 64"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.615] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[05Dec2022 05:20:17.615] [Server thread\/INFO] [Minecraft\/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.615] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[05Dec2022 05:20:17.615] [Server thread\/INFO] [Minecraft\/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.615] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[05Dec2022 05:20:17.615] [Server thread\/INFO] [Minecraft\/]: Max TNT Explosions: 100"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.615] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[05Dec2022 05:20:17.615] [Server thread\/INFO] [Minecraft\/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.616] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[05Dec2022 05:20:17.616] [Server thread\/INFO] [Minecraft\/]: Item Merge Radius: 2.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.616] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "[05Dec2022 05:20:17.616] [Server thread\/INFO] [Minecraft\/]: Item Despawn Rate: 6000"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.616] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[05Dec2022 05:20:17.616] [Server thread\/INFO] [Minecraft\/]: View Distance: 10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.616] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[05Dec2022 05:20:17.616] [Server thread\/INFO] [Minecraft\/]: Nerfing mobs spawned from spawners: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.616] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[05Dec2022 05:20:17.616] [Server thread\/INFO] [Minecraft\/]: Simulation Distance: 5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: -------- World Settings For [world\/DIM1] --------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Experience Merge Radius: 3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Mob Spawn Range: 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Zombie Aggressive Towards Villager: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Allow Zombie Pigmen to spawn from portal blocks: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Cactus Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Cane Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Melon Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Mushroom Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Pumpkin Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Sapling Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Beetroot Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Carrot Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Potato Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Wheat Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: NetherWart Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Vine Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Cocoa Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Bamboo Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: SweetBerry Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Kelp Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: TwistingVines Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: WeepingVines Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: CaveVines Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Entity Activation Range: An 32 \/ Mo 32 \/ Ra 48 \/ Mi 16 \/ Tiv true \/ Isa false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Entity Tracking Range: Pl 48 \/ An 48 \/ Mo 48 \/ Mi 32 \/ Other 64"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Max TNT Explosions: 100"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "[05Dec2022 05:20:17.679] [Server thread\/INFO] [Minecraft\/]: Item Merge Radius: 2.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.680] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "[05Dec2022 05:20:17.680] [Server thread\/INFO] [Minecraft\/]: Item Despawn Rate: 6000"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.680] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "[05Dec2022 05:20:17.680] [Server thread\/INFO] [Minecraft\/]: View Distance: 10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.680] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "[05Dec2022 05:20:17.680] [Server thread\/INFO] [Minecraft\/]: Nerfing mobs spawned from spawners: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.680] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "[05Dec2022 05:20:17.680] [Server thread\/INFO] [Minecraft\/]: Simulation Distance: 5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: -------- World Settings For [world\/DIM-1] --------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Experience Merge Radius: 3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Mob Spawn Range: 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Zombie Aggressive Towards Villager: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Allow Zombie Pigmen to spawn from portal blocks: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Cactus Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Cane Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Melon Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Mushroom Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Pumpkin Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Sapling Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Beetroot Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 159,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Carrot Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Potato Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Wheat Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: NetherWart Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Vine Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Cocoa Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Bamboo Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: SweetBerry Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Kelp Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: TwistingVines Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: WeepingVines Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: CaveVines Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Entity Activation Range: An 32 \/ Mo 32 \/ Ra 48 \/ Mi 16 \/ Tiv true \/ Isa false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 172,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Entity Tracking Range: Pl 48 \/ An 48 \/ Mo 48 \/ Mi 32 \/ Other 64"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 173,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 174,
+                    "content": "[05Dec2022 05:20:17.691] [Server thread\/INFO] [Minecraft\/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.692] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 175,
+                    "content": "[05Dec2022 05:20:17.692] [Server thread\/INFO] [Minecraft\/]: Max TNT Explosions: 100"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.692] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 176,
+                    "content": "[05Dec2022 05:20:17.692] [Server thread\/INFO] [Minecraft\/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.692] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 177,
+                    "content": "[05Dec2022 05:20:17.692] [Server thread\/INFO] [Minecraft\/]: Item Merge Radius: 2.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.692] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 178,
+                    "content": "[05Dec2022 05:20:17.692] [Server thread\/INFO] [Minecraft\/]: Item Despawn Rate: 6000"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.692] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 179,
+                    "content": "[05Dec2022 05:20:17.692] [Server thread\/INFO] [Minecraft\/]: View Distance: 10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.692] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 180,
+                    "content": "[05Dec2022 05:20:17.692] [Server thread\/INFO] [Minecraft\/]: Nerfing mobs spawned from spawners: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.692] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 181,
+                    "content": "[05Dec2022 05:20:17.692] [Server thread\/INFO] [Minecraft\/]: Simulation Distance: 5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.711] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 182,
+                    "content": "[05Dec2022 05:20:17.711] [Server thread\/INFO] [Minecraft\/]: Server permissions file permissions.yml is empty, ignoring it"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:17.717] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 183,
+                    "content": "[05Dec2022 05:20:17.717] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Preparing start region for dimension minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.813] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 184,
+                    "content": "[05Dec2022 05:20:30.813] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.815] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 185,
+                    "content": "[05Dec2022 05:20:30.815] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.816] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 186,
+                    "content": "[05Dec2022 05:20:30.816] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.816] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 187,
+                    "content": "[05Dec2022 05:20:30.816] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.817] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 188,
+                    "content": "[05Dec2022 05:20:30.817] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.878] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 189,
+                    "content": "[05Dec2022 05:20:30.878] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.902] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "[05Dec2022 05:20:30.902] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.924] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 191,
+                    "content": "[05Dec2022 05:20:30.924] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.940] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 192,
+                    "content": "[05Dec2022 05:20:30.940] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.941] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 193,
+                    "content": "[05Dec2022 05:20:30.941] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.942] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 194,
+                    "content": "[05Dec2022 05:20:30.942] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.942] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 195,
+                    "content": "[05Dec2022 05:20:30.942] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.943] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 196,
+                    "content": "[05Dec2022 05:20:30.943] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.945] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 197,
+                    "content": "[05Dec2022 05:20:30.945] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.947] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 198,
+                    "content": "[05Dec2022 05:20:30.947] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.948] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 199,
+                    "content": "[05Dec2022 05:20:30.948] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.949] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 200,
+                    "content": "[05Dec2022 05:20:30.949] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.950] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 201,
+                    "content": "[05Dec2022 05:20:30.950] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.950] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 202,
+                    "content": "[05Dec2022 05:20:30.950] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.951] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 203,
+                    "content": "[05Dec2022 05:20:30.951] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.951] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 204,
+                    "content": "[05Dec2022 05:20:30.951] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.952] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 205,
+                    "content": "[05Dec2022 05:20:30.952] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.953] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 206,
+                    "content": "[05Dec2022 05:20:30.953] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.953] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 207,
+                    "content": "[05Dec2022 05:20:30.953] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.954] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 208,
+                    "content": "[05Dec2022 05:20:30.954] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.955] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 209,
+                    "content": "[05Dec2022 05:20:30.955] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:30.955] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 210,
+                    "content": "[05Dec2022 05:20:30.955] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:31.219] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 211,
+                    "content": "[05Dec2022 05:20:31.219] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:31.811] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 212,
+                    "content": "[05Dec2022 05:20:31.811] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:32.221] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 213,
+                    "content": "[05Dec2022 05:20:32.221] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:32.722] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 214,
+                    "content": "[05Dec2022 05:20:32.722] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:33.222] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 215,
+                    "content": "[05Dec2022 05:20:33.222] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:33.720] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 216,
+                    "content": "[05Dec2022 05:20:33.720] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:34.233] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 217,
+                    "content": "[05Dec2022 05:20:34.233] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:34.729] [Worker-Main-6\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 218,
+                    "content": "[05Dec2022 05:20:34.729] [Worker-Main-6\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:35.225] [Worker-Main-6\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 219,
+                    "content": "[05Dec2022 05:20:35.225] [Worker-Main-6\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 1%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:35.722] [Worker-Main-5\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 220,
+                    "content": "[05Dec2022 05:20:35.722] [Worker-Main-5\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 3%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:36.229] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 221,
+                    "content": "[05Dec2022 05:20:36.229] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 4%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:36.723] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 222,
+                    "content": "[05Dec2022 05:20:36.723] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 6%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:37.227] [Worker-Main-5\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 223,
+                    "content": "[05Dec2022 05:20:37.227] [Worker-Main-5\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 8%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:37.723] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 224,
+                    "content": "[05Dec2022 05:20:37.723] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 9%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:38.233] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 225,
+                    "content": "[05Dec2022 05:20:38.233] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 11%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:38.722] [Worker-Main-5\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 226,
+                    "content": "[05Dec2022 05:20:38.722] [Worker-Main-5\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 12%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:39.226] [Worker-Main-5\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 227,
+                    "content": "[05Dec2022 05:20:39.226] [Worker-Main-5\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 15%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:39.721] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 228,
+                    "content": "[05Dec2022 05:20:39.721] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 17%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:40.220] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 229,
+                    "content": "[05Dec2022 05:20:40.220] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 18%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:40.728] [Worker-Main-6\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 230,
+                    "content": "[05Dec2022 05:20:40.728] [Worker-Main-6\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 21%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:41.219] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 231,
+                    "content": "[05Dec2022 05:20:41.219] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 23%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:41.727] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 232,
+                    "content": "[05Dec2022 05:20:41.727] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 25%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:42.233] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 233,
+                    "content": "[05Dec2022 05:20:42.233] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 28%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:42.720] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 234,
+                    "content": "[05Dec2022 05:20:42.720] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 30%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:43.221] [Worker-Main-5\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 235,
+                    "content": "[05Dec2022 05:20:43.221] [Worker-Main-5\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 33%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:43.719] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 236,
+                    "content": "[05Dec2022 05:20:43.719] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 37%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:44.218] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 237,
+                    "content": "[05Dec2022 05:20:44.218] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 41%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:44.719] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 238,
+                    "content": "[05Dec2022 05:20:44.719] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 42%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:45.270] [Worker-Main-6\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 239,
+                    "content": "[05Dec2022 05:20:45.270] [Worker-Main-6\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 44%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:45.719] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 240,
+                    "content": "[05Dec2022 05:20:45.719] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 47%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:46.219] [Worker-Main-6\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 241,
+                    "content": "[05Dec2022 05:20:46.219] [Worker-Main-6\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 51%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:46.725] [Worker-Main-5\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 242,
+                    "content": "[05Dec2022 05:20:46.725] [Worker-Main-5\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 54%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:47.219] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 243,
+                    "content": "[05Dec2022 05:20:47.219] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 57%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:47.728] [Worker-Main-5\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 244,
+                    "content": "[05Dec2022 05:20:47.728] [Worker-Main-5\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 60%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:48.226] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 245,
+                    "content": "[05Dec2022 05:20:48.226] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 64%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:48.963] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 246,
+                    "content": "[05Dec2022 05:20:48.963] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 68%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:49.221] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 247,
+                    "content": "[05Dec2022 05:20:49.221] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 68%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:49.721] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 248,
+                    "content": "[05Dec2022 05:20:49.721] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 69%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:50.223] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 249,
+                    "content": "[05Dec2022 05:20:50.223] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 72%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:50.731] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 250,
+                    "content": "[05Dec2022 05:20:50.731] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 74%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:51.225] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 251,
+                    "content": "[05Dec2022 05:20:51.225] [Worker-Main-2\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 78%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:51.724] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 252,
+                    "content": "[05Dec2022 05:20:51.724] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 82%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:52.225] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 253,
+                    "content": "[05Dec2022 05:20:52.225] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 84%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:52.721] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 254,
+                    "content": "[05Dec2022 05:20:52.721] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 85%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:53.221] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 255,
+                    "content": "[05Dec2022 05:20:53.221] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 87%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:53.719] [Worker-Main-6\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 256,
+                    "content": "[05Dec2022 05:20:53.719] [Worker-Main-6\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 90%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:54.222] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 257,
+                    "content": "[05Dec2022 05:20:54.222] [Worker-Main-7\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 94%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:54.725] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 258,
+                    "content": "[05Dec2022 05:20:54.725] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 97%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:55.183] [Server thread\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 259,
+                    "content": "[05Dec2022 05:20:55.183] [Server thread\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Time elapsed: 37465 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:55.183] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 260,
+                    "content": "[05Dec2022 05:20:55.183] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Done (37.957s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:55.183] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 261,
+                    "content": "[05Dec2022 05:20:55.183] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:55.192] [Server thread\/INFO] [net.minecraft.server.rcon.thread.GenericThread\/]:",
+            "lines": [
+                {
+                    "number": 262,
+                    "content": "[05Dec2022 05:20:55.192] [Server thread\/INFO] [net.minecraft.server.rcon.thread.GenericThread\/]: Thread Query Listener started"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:55.192] [Query Listener #1\/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4\/]:",
+            "lines": [
+                {
+                    "number": 263,
+                    "content": "[05Dec2022 05:20:55.192] [Query Listener #1\/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4\/]: Query running on 0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:55.195] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 264,
+                    "content": "[05Dec2022 05:20:55.195] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: JMX monitoring enabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:55.203] [Server thread\/INFO] [net.minecraftforge.server.permission.PermissionAPI\/]:",
+            "lines": [
+                {
+                    "number": 265,
+                    "content": "[05Dec2022 05:20:55.203] [Server thread\/INFO] [net.minecraftforge.server.permission.PermissionAPI\/]: Successfully initialized permission handler forge:default_handler"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Dec2022 05:20:55.204] [Server thread\/INFO] [Arclight\/]:",
+            "lines": [
+                {
+                    "number": 266,
+                    "content": "[05Dec2022 05:20:55.204] [Server thread\/INFO] [Arclight\/]: Forwarding forge permission[forge:default_handler] to bukkit"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.19.2",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[05Dec2022 05:20:00.557] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 13,
+                            "content": "[05Dec2022 05:20:00.557] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.1.55, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.19.2"
+            },
+            {
+                "message": "Forge version: 43.1.55",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[05Dec2022 05:20:00.557] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 13,
+                            "content": "[05Dec2022 05:20:00.557] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.1.55, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "43.1.55"
+            },
+            {
+                "message": "Arclight version: b8adaaba",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[05Dec2022 05:20:16.409] [Server thread\/INFO] [Minecraft\/]:",
+                    "lines": [
+                        {
+                            "number": 52,
+                            "content": "[05Dec2022 05:20:16.409] [Server thread\/INFO] [Minecraft\/]: This server is running Arclight version arclight-1.19.2-1.0.1-SNAPSHOT-b8adaaba (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)"
+                        }
+                    ]
+                },
+                "label": "Arclight version",
+                "value": "b8adaaba"
+            }
+        ]
+    }
+}
