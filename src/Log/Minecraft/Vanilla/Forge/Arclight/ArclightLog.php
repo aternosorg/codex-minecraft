@@ -6,7 +6,6 @@ use Aternos\Codex\Analyser\AnalyserInterface;
 use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\ArclightAnalyser;
-use Aternos\Codex\Minecraft\Analyser\MohistAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\ForgeLog;
 
 /**
