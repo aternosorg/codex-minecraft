@@ -17,14 +17,6 @@ abstract class PurpurLog extends PaperLog
     protected static string $logIdentifier = "(?:Purpur|CraftBukkit) version git\-Purpur";
 
     /**
-     * @return AnalyserInterface
-     */
-    public static function getDefaultAnalyser(): AnalyserInterface
-    {
-        return new PaperAnalyser();
-    }
-
-    /**
      * @return string
      */
     public function getName(): string
