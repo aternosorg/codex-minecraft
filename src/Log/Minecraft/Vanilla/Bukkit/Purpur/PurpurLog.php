@@ -21,7 +21,7 @@ abstract class PurpurLog extends PaperLog
      */
     public static function getDefaultAnalyser(): AnalyserInterface
     {
-        return new PurpurAnalyser();
+        return new PaperAnalyser();
     }
 
     /**
