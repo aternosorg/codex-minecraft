@@ -1,0 +1,39 @@
+[05:07:15] [ServerMain/INFO]: Building unoptimized datafixer
+[05:07:17] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:07:18] [ServerMain/INFO]: Loaded 7 recipes
+[05:07:19] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[05:07:19] [Server thread/INFO]: Loading properties
+[05:07:19] [Server thread/INFO]: This server is running Purpur version git-Purpur-1857 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 86f2da5 on HEAD)
+[05:07:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:07:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:07:20] [Server thread/INFO]: Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[05:07:20] [Server thread/WARN]: SIMD operations are available for your server, but are not configured!
+[05:07:20] [Server thread/WARN]: To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[05:07:20] [Server thread/WARN]: If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[05:07:20] [Server thread/WARN]: Debug: Java: **.**.**.**, test run: true
+[05:07:20] [Server thread/INFO]: Default game type: SURVIVAL
+[05:07:20] [Server thread/INFO]: Generating keypair
+[05:07:20] [Server thread/INFO]: Starting Minecraft server on *:54016
+[05:07:20] [Server thread/INFO]: Using epoll channel type
+[05:07:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:07:20] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[05:07:22] [Server thread/INFO]: Loading motdgg vdev
+[05:07:22] [Server thread/INFO]: Loading spark v1.10.12
+[05:07:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:07:22] [Server thread/INFO]: Preparing level "world"
+[05:07:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:07:22] [Server thread/INFO]: Time elapsed: 103 ms
+[05:07:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:07:22] [Server thread/INFO]: Time elapsed: 27 ms
+[05:07:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:07:22] [Server thread/INFO]: Time elapsed: 45 ms
+[05:07:22] [Server thread/INFO]: Enabling motdgg vdev
+[05:07:22] [Server thread/INFO]: Enabling spark v1.10.12
+[05:07:23] [Server thread/INFO]: Using Paper ServerTickStartEvent for tick monitoring
+[05:07:23] [Server thread/INFO]: Starting background profiler...
+[05:07:23] [Server thread/INFO]: Starting GS4 status listener
+[05:07:23] [Server thread/INFO]: Thread Query Listener started
+[05:07:23] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
+[05:07:23] [Server thread/INFO]: JMX monitoring enabled
+[05:07:23] [Server thread/INFO]: Running delayed init tasks
+[05:07:23] [Server thread/INFO]: Done (3.847s)! For help, type "help"

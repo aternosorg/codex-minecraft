@@ -15,6 +15,8 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\CraftBukkit\OldCraftBuk
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Glowstone\GlowstoneServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper\PaperCrashReportLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper\PaperServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Purpur\PurpurCrashReportLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Purpur\PurpurServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Spigot\OldSpigotServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Spigot\SpigotServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric\FabricClientLog;
@@ -57,6 +59,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
         CraftBukkitServerLog::class,
         SpigotServerLog::class,
         PaperServerLog::class,
+        PurpurServerLog::class,
         MohistServerLog::class,
         ArclightServerLog::class,
         MagmaServerLog::class,
@@ -73,6 +76,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
         QuiltServerLog::class,
 
         PaperCrashReportLog::class,
+        PurpurCrashReportLog::class,
         FabricCrashReportLog::class,
         ForgeCrashReportLog::class,
         VanillaCrashReportLog::class,
