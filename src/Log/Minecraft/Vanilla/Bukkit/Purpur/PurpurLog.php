@@ -2,9 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Purpur;
 
-use Aternos\Codex\Analyser\AnalyserInterface;
-use Aternos\Codex\Minecraft\Analyser\PaperAnalyser;
-use Aternos\Codex\Minecraft\Analyser\PurpurAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper\PaperLog;
 
 /**
