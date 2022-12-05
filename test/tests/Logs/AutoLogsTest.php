@@ -298,6 +298,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_purpur_1192(): void
+    {
+        $log = new TestLog('bukkit/purpur-1192.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_spigot_chunk_entity_exception(): void
     {
         $log = new TestLog('bukkit/spigot-chunk-entity-exception.log');
