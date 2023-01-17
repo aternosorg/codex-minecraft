@@ -20,7 +20,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_arclight_1192(): void
     {
-        $log = new TestLog('arclight/arclight-1192.log');
+        $log = new TestLog('Arclight/Arclight-1192.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -30,7 +30,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_bedrock_authentication_allowlist_problem(): void
     {
-        $log = new TestLog('bedrock/bedrock-authentication-allowlist-problem.log');
+        $log = new TestLog('Bedrock/Bedrock-authentication-allowlist-problem.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -40,7 +40,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_bedrock_authentication_whitelist_problem(): void
     {
-        $log = new TestLog('bedrock/bedrock-authentication-whitelist-problem.log');
+        $log = new TestLog('Bedrock/Bedrock-authentication-whitelist-problem.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -50,7 +50,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_bedrock_content(): void
     {
-        $log = new TestLog('bedrock/bedrock-content.log');
+        $log = new TestLog('Bedrock/Bedrock-content.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -60,7 +60,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_bedrock_encrypted_world(): void
     {
-        $log = new TestLog('bedrock/bedrock-encrypted-world.log');
+        $log = new TestLog('Bedrock/Bedrock-encrypted-world.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -70,7 +70,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_bedrock_milliseconds(): void
     {
-        $log = new TestLog('bedrock/bedrock-milliseconds.log');
+        $log = new TestLog('Bedrock/Bedrock-milliseconds.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -80,7 +80,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_bedrock_start_19(): void
     {
-        $log = new TestLog('bedrock/bedrock-start-19.log');
+        $log = new TestLog('Bedrock/Bedrock-start-19.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -90,7 +90,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_craftbukkit_plugin_enabling(): void
     {
-        $log = new TestLog('bukkit/craftbukkit-plugin-enabling.log');
+        $log = new TestLog('Bukkit/craftbukkit-plugin-enabling.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -100,7 +100,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_craftbukkit_plugin_event(): void
     {
-        $log = new TestLog('bukkit/craftbukkit-plugin-event.log');
+        $log = new TestLog('Bukkit/craftbukkit-plugin-event.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -110,7 +110,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_craftbukkit_start_1132(): void
     {
-        $log = new TestLog('bukkit/craftbukkit-start-1132.log');
+        $log = new TestLog('Bukkit/craftbukkit-start-1132.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -120,7 +120,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_craftbukkit_world_duplicate(): void
     {
-        $log = new TestLog('bukkit/craftbukkit-world-duplicate.log');
+        $log = new TestLog('Bukkit/craftbukkit-world-duplicate.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -130,7 +130,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_glowstone_start_1122(): void
     {
-        $log = new TestLog('bukkit/glowstone-start-1122.log');
+        $log = new TestLog('Bukkit/glowstone-start-1122.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -140,7 +140,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_oldcraftbukkit_start_11(): void
     {
-        $log = new TestLog('bukkit/oldcraftbukkit-start-11.log');
+        $log = new TestLog('Bukkit/oldcraftbukkit-start-11.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -150,7 +150,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_oldspigot_start_11(): void
     {
-        $log = new TestLog('bukkit/oldspigot-start-11.log');
+        $log = new TestLog('Bukkit/oldspigot-start-11.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -160,7 +160,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_paper_ambiguous_plugin_name(): void
     {
-        $log = new TestLog('bukkit/paper-ambiguous-plugin-name.log');
+        $log = new TestLog('Bukkit/paper-ambiguous-plugin-name.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -170,7 +170,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_paper_metaspace(): void
     {
-        $log = new TestLog('bukkit/paper-metaspace.log');
+        $log = new TestLog('Bukkit/paper-metaspace.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -180,7 +180,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_paper_multiple_dependencies(): void
     {
-        $log = new TestLog('bukkit/paper-multiple-dependencies.log');
+        $log = new TestLog('Bukkit/paper-multiple-dependencies.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -190,7 +190,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_paper_plugin_dependency_1_18_2_duplicate(): void
     {
-        $log = new TestLog('bukkit/paper-plugin-dependency-1-18-2-duplicate.log');
+        $log = new TestLog('Bukkit/paper-plugin-dependency-1-18-2-duplicate.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -200,7 +200,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_paper_plugin_dependency_1_18_2(): void
     {
-        $log = new TestLog('bukkit/paper-plugin-dependency-1-18-2.log');
+        $log = new TestLog('Bukkit/paper-plugin-dependency-1-18-2.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -210,7 +210,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_paper_plugin_dependency_1161(): void
     {
-        $log = new TestLog('bukkit/paper-plugin-dependency-1161.log');
+        $log = new TestLog('Bukkit/paper-plugin-dependency-1161.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -220,7 +220,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_paper_plugin_disabling(): void
     {
-        $log = new TestLog('bukkit/paper-plugin-disabling.log');
+        $log = new TestLog('Bukkit/paper-plugin-disabling.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -230,7 +230,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_paper_plugin_unsupported_class_version(): void
     {
-        $log = new TestLog('bukkit/paper-plugin-unsupported-class-version.log');
+        $log = new TestLog('Bukkit/paper-plugin-unsupported-class-version.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -240,7 +240,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_paper_start_1_8_8(): void
     {
-        $log = new TestLog('bukkit/paper-start-1-8-8.log');
+        $log = new TestLog('Bukkit/paper-start-1-8-8.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -250,7 +250,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_paper_start_1132(): void
     {
-        $log = new TestLog('bukkit/paper-start-1132.log');
+        $log = new TestLog('Bukkit/paper-start-1132.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -260,7 +260,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_paper_unsupported_api_version(): void
     {
-        $log = new TestLog('bukkit/paper-unsupported-api-version.log');
+        $log = new TestLog('Bukkit/paper-unsupported-api-version.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -270,7 +270,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_paper_version_downgrade(): void
     {
-        $log = new TestLog('bukkit/paper-version-downgrade.log');
+        $log = new TestLog('Bukkit/paper-version-downgrade.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -280,7 +280,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_spigot_authme_shutdown(): void
     {
-        $log = new TestLog('bukkit/plugin/spigot-authme-shutdown.log');
+        $log = new TestLog('Bukkit/plugin/spigot-authme-shutdown.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -290,7 +290,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_spigot_multiverse_load(): void
     {
-        $log = new TestLog('bukkit/plugin/spigot-multiverse-load.log');
+        $log = new TestLog('Bukkit/plugin/spigot-multiverse-load.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -300,7 +300,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_spigot_permissionsex_config(): void
     {
-        $log = new TestLog('bukkit/plugin/spigot-permissionsex-config.log');
+        $log = new TestLog('Bukkit/plugin/spigot-permissionsex-config.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -310,7 +310,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_purpur_1192(): void
     {
-        $log = new TestLog('bukkit/purpur-1192.log');
+        $log = new TestLog('Bukkit/purpur-1192.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -320,7 +320,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_spigot_chunk_entity_exception(): void
     {
-        $log = new TestLog('bukkit/spigot-chunk-entity-exception.log');
+        $log = new TestLog('Bukkit/spigot-chunk-entity-exception.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -330,7 +330,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_spigot_chunk_load_exception(): void
     {
-        $log = new TestLog('bukkit/spigot-chunk-load-exception.log');
+        $log = new TestLog('Bukkit/spigot-chunk-load-exception.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -340,7 +340,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_spigot_chunk_load(): void
     {
-        $log = new TestLog('bukkit/spigot-chunk-load.log');
+        $log = new TestLog('Bukkit/spigot-chunk-load.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -350,7 +350,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_spigot_command_exception(): void
     {
-        $log = new TestLog('bukkit/spigot-command-exception.log');
+        $log = new TestLog('Bukkit/spigot-command-exception.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -360,7 +360,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_spigot_plugin_dependency(): void
     {
-        $log = new TestLog('bukkit/spigot-plugin-dependency.log');
+        $log = new TestLog('Bukkit/spigot-plugin-dependency.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -370,7 +370,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_spigot_plugin_enabling(): void
     {
-        $log = new TestLog('bukkit/spigot-plugin-enabling.log');
+        $log = new TestLog('Bukkit/spigot-plugin-enabling.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -380,7 +380,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_spigot_plugin_load(): void
     {
-        $log = new TestLog('bukkit/spigot-plugin-load.log');
+        $log = new TestLog('Bukkit/spigot-plugin-load.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -390,7 +390,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_spigot_plugin_task_exception(): void
     {
-        $log = new TestLog('bukkit/spigot-plugin-task-exception.log');
+        $log = new TestLog('Bukkit/spigot-plugin-task-exception.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -400,7 +400,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_spigot_start_1_17_1(): void
     {
-        $log = new TestLog('bukkit/spigot-start-1-17-1.log');
+        $log = new TestLog('Bukkit/spigot-start-1-17-1.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -410,7 +410,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_spigot_start_1132(): void
     {
-        $log = new TestLog('bukkit/spigot-start-1132.log');
+        $log = new TestLog('Bukkit/spigot-start-1132.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -420,7 +420,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_spigot_start_1165(): void
     {
-        $log = new TestLog('bukkit/spigot-start-1165.log');
+        $log = new TestLog('Bukkit/spigot-start-1165.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -430,7 +430,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_bungeecord(): void
     {
-        $log = new TestLog('bungeecord/bungeecord.log');
+        $log = new TestLog('BungeeCord/BungeeCord.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -440,7 +440,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_waterfall(): void
     {
-        $log = new TestLog('bungeecord/waterfall.log');
+        $log = new TestLog('BungeeCord/waterfall.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -450,7 +450,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_1_19_crash_report(): void
     {
-        $log = new TestLog('fabric/fabric-1-19-crash-report.log');
+        $log = new TestLog('Fabric/Fabric-1-19-crash-report.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -460,7 +460,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_1165_origins(): void
     {
-        $log = new TestLog('fabric/fabric-1165-origins.log');
+        $log = new TestLog('Fabric/Fabric-1165-origins.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -470,7 +470,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_1165(): void
     {
-        $log = new TestLog('fabric/fabric-1165.log');
+        $log = new TestLog('Fabric/Fabric-1165.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -480,7 +480,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_1171_dependency(): void
     {
-        $log = new TestLog('fabric/fabric-1171-dependency.log');
+        $log = new TestLog('Fabric/Fabric-1171-dependency.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -490,7 +490,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_1181(): void
     {
-        $log = new TestLog('fabric/fabric-1181.log');
+        $log = new TestLog('Fabric/Fabric-1181.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -500,7 +500,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_client_1_19_2(): void
     {
-        $log = new TestLog('fabric/fabric-client-1-19-2.log');
+        $log = new TestLog('Fabric/Fabric-client-1-19-2.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -510,7 +510,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_crash_report(): void
     {
-        $log = new TestLog('fabric/fabric-crash-report.log');
+        $log = new TestLog('Fabric/Fabric-crash-report.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -520,7 +520,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_duplicate_mod(): void
     {
-        $log = new TestLog('fabric/fabric-duplicate-mod.log');
+        $log = new TestLog('Fabric/Fabric-duplicate-mod.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -530,7 +530,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_entrypoint_error(): void
     {
-        $log = new TestLog('fabric/fabric-entrypoint-error.log');
+        $log = new TestLog('Fabric/Fabric-entrypoint-error.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -540,7 +540,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_java11(): void
     {
-        $log = new TestLog('fabric/fabric-java11.log');
+        $log = new TestLog('Fabric/Fabric-java11.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -550,7 +550,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_java8(): void
     {
-        $log = new TestLog('fabric/fabric-java8.log');
+        $log = new TestLog('Fabric/Fabric-java8.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -560,7 +560,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_missing_dependencies_1(): void
     {
-        $log = new TestLog('fabric/fabric-missing-dependencies-1.log');
+        $log = new TestLog('Fabric/Fabric-missing-dependencies-1.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -570,7 +570,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_missing_dependencies_2(): void
     {
-        $log = new TestLog('fabric/fabric-missing-dependencies-2.log');
+        $log = new TestLog('Fabric/Fabric-missing-dependencies-2.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -580,7 +580,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_missing_dependencies_3(): void
     {
-        $log = new TestLog('fabric/fabric-missing-dependencies-3.log');
+        $log = new TestLog('Fabric/Fabric-missing-dependencies-3.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -590,7 +590,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_missing_dependency_unversioned(): void
     {
-        $log = new TestLog('fabric/fabric-missing-dependency-unversioned.log');
+        $log = new TestLog('Fabric/Fabric-missing-dependency-unversioned.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -600,7 +600,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_missing_dependency_versioned(): void
     {
-        $log = new TestLog('fabric/fabric-missing-dependency-versioned.log');
+        $log = new TestLog('Fabric/Fabric-missing-dependency-versioned.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -610,7 +610,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_mod_names(): void
     {
-        $log = new TestLog('fabric/fabric-mod-names.log');
+        $log = new TestLog('Fabric/Fabric-mod-names.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -620,7 +620,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_pre_release(): void
     {
-        $log = new TestLog('fabric/fabric-pre-release.log');
+        $log = new TestLog('Fabric/Fabric-pre-release.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -630,7 +630,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_version_range_dependency(): void
     {
-        $log = new TestLog('fabric/fabric-version-range-dependency.log');
+        $log = new TestLog('Fabric/Fabric-version-range-dependency.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -640,7 +640,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_fabric_wrong_mc_version(): void
     {
-        $log = new TestLog('fabric/fabric-wrong-mc-version.log');
+        $log = new TestLog('Fabric/Fabric-wrong-mc-version.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -920,7 +920,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_geyser(): void
     {
-        $log = new TestLog('geyser/geyser.log');
+        $log = new TestLog('Geyser/Geyser.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -930,7 +930,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_magma_mod_dependency(): void
     {
-        $log = new TestLog('magma/magma-mod-dependency.log');
+        $log = new TestLog('Magma/Magma-mod-dependency.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -940,7 +940,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_magma_plugin_dependency(): void
     {
-        $log = new TestLog('magma/magma-plugin-dependency.log');
+        $log = new TestLog('Magma/Magma-plugin-dependency.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -950,7 +950,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_magma_start_1122(): void
     {
-        $log = new TestLog('magma/magma-start-1122.log');
+        $log = new TestLog('Magma/Magma-start-1122.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -960,7 +960,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_magma_start_1165(): void
     {
-        $log = new TestLog('magma/magma-start-1165.log');
+        $log = new TestLog('Magma/Magma-start-1165.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -970,7 +970,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_mohist_1_12_2(): void
     {
-        $log = new TestLog('mohist/mohist-1-12-2.log');
+        $log = new TestLog('Mohist/Mohist-1-12-2.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -980,7 +980,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_mohist_1_16_5(): void
     {
-        $log = new TestLog('mohist/mohist-1-16-5.log');
+        $log = new TestLog('Mohist/Mohist-1-16-5.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -990,7 +990,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_mohist_1_18_2(): void
     {
-        $log = new TestLog('mohist/mohist-1-18-2.log');
+        $log = new TestLog('Mohist/Mohist-1-18-2.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1000,7 +1000,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_mohist_crash_report(): void
     {
-        $log = new TestLog('mohist/mohist-crash-report.log');
+        $log = new TestLog('Mohist/Mohist-crash-report.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1010,7 +1010,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_pocketmine_incompatible_api(): void
     {
-        $log = new TestLog('pocketmine/pocketmine-incompatible-api.log');
+        $log = new TestLog('Pocketmine/Pocketmine-incompatible-api.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1020,7 +1020,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_pocketmine_incompatible_protocol(): void
     {
-        $log = new TestLog('pocketmine/pocketmine-incompatible-protocol.log');
+        $log = new TestLog('Pocketmine/Pocketmine-incompatible-protocol.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1030,7 +1030,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_pocketmine_new_time_format(): void
     {
-        $log = new TestLog('pocketmine/pocketmine-new-time-format.log');
+        $log = new TestLog('Pocketmine/Pocketmine-new-time-format.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1040,7 +1040,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_pocketmine_plugin_dependency(): void
     {
-        $log = new TestLog('pocketmine/pocketmine-plugin-dependency.log');
+        $log = new TestLog('Pocketmine/Pocketmine-plugin-dependency.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1050,7 +1050,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_pocketmine_plugin_runtime_problem(): void
     {
-        $log = new TestLog('pocketmine/pocketmine-plugin-runtime-problem.log');
+        $log = new TestLog('Pocketmine/Pocketmine-plugin-runtime-problem.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1060,7 +1060,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_pocketmine_start_362(): void
     {
-        $log = new TestLog('pocketmine/pocketmine-start-362.log');
+        $log = new TestLog('Pocketmine/Pocketmine-start-362.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1070,7 +1070,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_prismlauncher(): void
     {
-        $log = new TestLog('prismlauncher/prismlauncher.log');
+        $log = new TestLog('PrismLauncher/PrismLauncher.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1080,7 +1080,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_quilt_client_1_19_2(): void
     {
-        $log = new TestLog('quilt/quilt-client-1-19-2.log');
+        $log = new TestLog('Quilt/Quilt-client-1-19-2.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1090,7 +1090,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_quilt_client_long(): void
     {
-        $log = new TestLog('quilt/quilt-client-long.log');
+        $log = new TestLog('Quilt/Quilt-client-long.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1100,7 +1100,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_quilt(): void
     {
-        $log = new TestLog('quilt/quilt.log');
+        $log = new TestLog('Quilt/Quilt.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1110,7 +1110,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_old_vanilla_start_152(): void
     {
-        $log = new TestLog('vanilla/old-vanilla-start-152.log');
+        $log = new TestLog('Vanilla/old-Vanilla-start-152.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1120,7 +1120,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_vanilla_aquatic_world_on_older_version(): void
     {
-        $log = new TestLog('vanilla/vanilla-aquatic-world-on-older-version.log');
+        $log = new TestLog('Vanilla/Vanilla-aquatic-world-on-older-version.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1130,7 +1130,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_vanilla_client_1_19_2(): void
     {
-        $log = new TestLog('vanilla/vanilla-client-1-19-2.log');
+        $log = new TestLog('Vanilla/Vanilla-client-1-19-2.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1140,7 +1140,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_vanilla_forge_ticking_entity(): void
     {
-        $log = new TestLog('vanilla/vanilla-forge-ticking-entity.log');
+        $log = new TestLog('Vanilla/Vanilla-forge-ticking-entity.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1150,7 +1150,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_vanilla_malformed_encoding(): void
     {
-        $log = new TestLog('vanilla/vanilla-malformed-encoding.log');
+        $log = new TestLog('Vanilla/Vanilla-malformed-encoding.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1160,7 +1160,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_vanilla_old_player_directory(): void
     {
-        $log = new TestLog('vanilla/vanilla-old-player-directory.log');
+        $log = new TestLog('Vanilla/Vanilla-old-player-directory.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1170,7 +1170,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_vanilla_snapshot_19w34a(): void
     {
-        $log = new TestLog('vanilla/vanilla-snapshot-19w34a.log');
+        $log = new TestLog('Vanilla/Vanilla-snapshot-19w34a.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1180,7 +1180,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_vanilla_snapshot_21w05b(): void
     {
-        $log = new TestLog('vanilla/vanilla-snapshot-21w05b.log');
+        $log = new TestLog('Vanilla/Vanilla-snapshot-21w05b.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1190,7 +1190,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_vanilla_start_1132(): void
     {
-        $log = new TestLog('vanilla/vanilla-start-1132.log');
+        $log = new TestLog('Vanilla/Vanilla-start-1132.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1200,7 +1200,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_velocity(): void
     {
-        $log = new TestLog('velocity/velocity.log');
+        $log = new TestLog('Velocity/Velocity.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 }
