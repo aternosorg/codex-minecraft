@@ -37,7 +37,7 @@ abstract class CustomSkinLoaderLog extends \Aternos\Codex\Minecraft\Log\Minecraf
      */
     public function getName(): string
     {
-        return "Custom Skin Loader";
+        return "CustomSkinLoader";
     }
 
     /**
