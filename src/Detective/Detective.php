@@ -6,6 +6,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Bedrock\BedrockContentLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Bedrock\BedrockServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\BungeeCord\BungeeCordProxyLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\BungeeCord\Waterfall\WaterFallProxyLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\CustomSkinLoader\CustomSkinLoaderClientLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Geyser\GeyserProxyLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Pocketmine\PocketmineServerLog;
@@ -83,7 +84,8 @@ class Detective extends \Aternos\Codex\Detective\Detective
         MohistCrashReportLog::class,
         ArclightCrashReportLog::class,
 
-        PrismLauncherClientLog::class
+        PrismLauncherClientLog::class,
+        CustomSkinLoaderClientLog::class,
     ];
 
     /**

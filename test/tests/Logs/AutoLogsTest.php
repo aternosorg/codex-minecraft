@@ -18,16 +18,6 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_arclight_1192(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Arclight/arclight-1192.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
     public function test_bedrock_authentication_allowlist_problem(): void
     {
         $log = new TestLog('Bedrock/bedrock-authentication-allowlist-problem.log');
@@ -88,6 +78,116 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_waterfall(): void
+    {
+        $log = new TestLog('BungeeCord/Waterfall/waterfall.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_bungeecord(): void
+    {
+        $log = new TestLog('BungeeCord/bungeecord.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_custom_skin_loader_1_19_3(): void
+    {
+        $log = new TestLog('CustomSkinLoader/custom-skin-loader-1-19-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_geyser(): void
+    {
+        $log = new TestLog('Geyser/geyser.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_pocketmine_incompatible_api(): void
+    {
+        $log = new TestLog('Pocketmine/pocketmine-incompatible-api.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_pocketmine_incompatible_protocol(): void
+    {
+        $log = new TestLog('Pocketmine/pocketmine-incompatible-protocol.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_pocketmine_new_time_format(): void
+    {
+        $log = new TestLog('Pocketmine/pocketmine-new-time-format.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_pocketmine_plugin_dependency(): void
+    {
+        $log = new TestLog('Pocketmine/pocketmine-plugin-dependency.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_pocketmine_plugin_runtime_problem(): void
+    {
+        $log = new TestLog('Pocketmine/pocketmine-plugin-runtime-problem.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_pocketmine_start_362(): void
+    {
+        $log = new TestLog('Pocketmine/pocketmine-start-362.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_prismlauncher(): void
+    {
+        $log = new TestLog('PrismLauncher/prismlauncher.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_craftbukkit_plugin_enabling(): void
     {
         $log = new TestLog('Vanilla/Bukkit/CraftBukkit/craftbukkit-plugin-enabling.log');
@@ -128,16 +228,6 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_glowstone_start_1122(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Glowstone/glowstone-start-1122.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
     public function test_oldcraftbukkit_start_11(): void
     {
         $log = new TestLog('Vanilla/Bukkit/CraftBukkit/oldcraftbukkit-start-11.log');
@@ -148,9 +238,9 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_oldspigot_start_11(): void
+    public function test_glowstone_start_1122(): void
     {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/oldspigot-start-11.log');
+        $log = new TestLog('Vanilla/Bukkit/Glowstone/glowstone-start-1122.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -278,39 +368,19 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_spigot_authme_shutdown(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/plugin/spigot-authme-shutdown.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_multiverse_load(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/plugin/spigot-multiverse-load.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_permissionsex_config(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/plugin/spigot-permissionsex-config.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
     public function test_purpur_1192(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Purpur/purpur-1192.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_oldspigot_start_11(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Spigot/oldspigot-start-11.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -428,9 +498,9 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_bungeecord(): void
+    public function test_spigot_authme_shutdown(): void
     {
-        $log = new TestLog('BungeeCord/bungeecord.log');
+        $log = new TestLog('Vanilla/Bukkit/plugin/spigot-authme-shutdown.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -438,9 +508,19 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_waterfall(): void
+    public function test_spigot_multiverse_load(): void
     {
-        $log = new TestLog('BungeeCord/Waterfall/waterfall.log');
+        $log = new TestLog('Vanilla/Bukkit/plugin/spigot-multiverse-load.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_permissionsex_config(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/plugin/spigot-permissionsex-config.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -641,6 +721,96 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_fabric_wrong_mc_version(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-wrong-mc-version.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_arclight_1192(): void
+    {
+        $log = new TestLog('Vanilla/Forge/Arclight/arclight-1192.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_magma_mod_dependency(): void
+    {
+        $log = new TestLog('Vanilla/Forge/Magma/magma-mod-dependency.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_magma_plugin_dependency(): void
+    {
+        $log = new TestLog('Vanilla/Forge/Magma/magma-plugin-dependency.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_magma_start_1122(): void
+    {
+        $log = new TestLog('Vanilla/Forge/Magma/magma-start-1122.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_magma_start_1165(): void
+    {
+        $log = new TestLog('Vanilla/Forge/Magma/magma-start-1165.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_mohist_1_12_2(): void
+    {
+        $log = new TestLog('Vanilla/Forge/Mohist/mohist-1-12-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_mohist_1_16_5(): void
+    {
+        $log = new TestLog('Vanilla/Forge/Mohist/mohist-1-16-5.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_mohist_1_18_2(): void
+    {
+        $log = new TestLog('Vanilla/Forge/Mohist/mohist-1-18-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_mohist_crash_report(): void
+    {
+        $log = new TestLog('Vanilla/Forge/Mohist/mohist-crash-report.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -931,166 +1101,6 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_forge_world_mod_version(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-world-mod-version.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_geyser(): void
-    {
-        $log = new TestLog('Geyser/geyser.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_magma_mod_dependency(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Magma/magma-mod-dependency.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_magma_plugin_dependency(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Magma/magma-plugin-dependency.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_magma_start_1122(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Magma/magma-start-1122.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_magma_start_1165(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Magma/magma-start-1165.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_mohist_1_12_2(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Mohist/mohist-1-12-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_mohist_1_16_5(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Mohist/mohist-1-16-5.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_mohist_1_18_2(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Mohist/mohist-1-18-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_mohist_crash_report(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Mohist/mohist-crash-report.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_pocketmine_incompatible_api(): void
-    {
-        $log = new TestLog('Pocketmine/pocketmine-incompatible-api.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_pocketmine_incompatible_protocol(): void
-    {
-        $log = new TestLog('Pocketmine/pocketmine-incompatible-protocol.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_pocketmine_new_time_format(): void
-    {
-        $log = new TestLog('Pocketmine/pocketmine-new-time-format.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_pocketmine_plugin_dependency(): void
-    {
-        $log = new TestLog('Pocketmine/pocketmine-plugin-dependency.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_pocketmine_plugin_runtime_problem(): void
-    {
-        $log = new TestLog('Pocketmine/pocketmine-plugin-runtime-problem.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_pocketmine_start_362(): void
-    {
-        $log = new TestLog('Pocketmine/pocketmine-start-362.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_prismlauncher(): void
-    {
-        $log = new TestLog('PrismLauncher/prismlauncher.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 

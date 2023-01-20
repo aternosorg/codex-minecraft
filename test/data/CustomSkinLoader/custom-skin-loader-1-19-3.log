@@ -1,0 +1,52 @@
+[2023-01-17 20:24:14] [Render thread INFO] CustomSkinLoader 14.15.1
+[2023-01-17 20:24:14] [Render thread INFO] DataDir: /home/julian/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/CustomSkinLoader/.minecraft/CustomSkinLoader
+[2023-01-17 20:24:14] [Render thread INFO] Operating System: Linux (amd64) version 6.1.5-200.fc37.x86_64
+[2023-01-17 20:24:14] [Render thread INFO] Java Version: 17.0.4.1, Flathub
+[2023-01-17 20:24:14] [Render thread INFO] Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Flathub
+[2023-01-17 20:24:14] [Render thread INFO] Minecraft: 1.19.3
+[2023-01-17 20:24:14] [Render thread INFO] Config File: /home/julian/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/CustomSkinLoader/.minecraft/CustomSkinLoader/CustomSkinLoader.json
+[2023-01-17 20:24:14] [Render thread INFO] Config file not found, use default instead.
+[2023-01-17 20:24:14] [Render thread INFO] Successfully create config.
+[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: MojangAPI
+[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: Legacy
+[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: CustomSkinAPI
+[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: CustomSKinAPIPlus
+[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: UniSkinAPI
+[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: ElyByAPI
+[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: GlitchlessAPI
+[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: MinecraftCapesAPI
+[2023-01-17 20:24:14] [Render thread INFO] Successfully update config.
+[2023-01-17 20:24:14] [Render thread INFO] version : 14.15
+[2023-01-17 20:24:14] [Render thread INFO] buildNumber : 3
+[2023-01-17 20:24:14] [Render thread INFO] loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://minecraftcapes.net/profile/" }]
+[2023-01-17 20:24:14] [Render thread INFO] enableDynamicSkull : true
+[2023-01-17 20:24:14] [Render thread INFO] enableTransparentSkin : true
+[2023-01-17 20:24:14] [Render thread INFO] forceIgnoreHttpsCertificate : false
+[2023-01-17 20:24:14] [Render thread INFO] forceLoadAllTextures : false
+[2023-01-17 20:24:14] [Render thread INFO] enableCape : true
+[2023-01-17 20:24:14] [Render thread INFO] threadPoolSize : 3
+[2023-01-17 20:24:14] [Render thread INFO] enableLogStdOut : false
+[2023-01-17 20:24:14] [Render thread INFO] cacheExpiry : 30
+[2023-01-17 20:24:14] [Render thread INFO] forceUpdateSkull : false
+[2023-01-17 20:24:14] [Render thread INFO] enableLocalProfileCache : false
+[2023-01-17 20:24:14] [Render thread INFO] enableCacheAutoClean : false
+[2023-01-17 20:24:14] [Render thread INFO] forceDisableCache : false
+[2023-01-17 20:24:14] [JulianVennen INFO] Loading JulianVennen's profile.
+[2023-01-17 20:24:14] [JulianVennen INFO] 1/9 Try to load profile from 'Mojang'.
+[2023-01-17 20:24:14] [JulianVennen DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2023-01-17 20:24:14] [JulianVennen INFO] Payload: ["JulianVennen"]
+[2023-01-17 20:24:14] [JulianVennen DEBUG] Successfully request (Response Code: 200 , Content Length: 65)
+[2023-01-17 20:24:14] [JulianVennen DEBUG] Content: [{"id":"abcd9e565ac2490c8bc96c1cad18f506","name":"JulianVennen"}]
+[2023-01-17 20:24:14] [JulianVennen DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/abcd9e565ac2490c8bc96c1cad18f506'.
+[2023-01-17 20:24:15] [JulianVennen DEBUG] Successfully request (Response Code: 200 , Content Length: 708)
+[2023-01-17 20:24:15] [JulianVennen DEBUG] Saved to cache (Length: 708 , Path: '/home/julian/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/CustomSkinLoader/.minecraft/CustomSkinLoader/caches/2dee54562ebc0d37afe74e3eabb4dd665c45dc09' , Expire: 1673983485)
+[2023-01-17 20:24:15] [JulianVennen DEBUG] Content: {
+  "id" : "abcd9e565ac2490c8bc96c1cad18f506",
+  "name" : "JulianVennen",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY3Mzk4MzQ1NTEwOCwKICAicHJvZmlsZUlkIiA6ICJhYmNkOWU1NjVhYzI0OTBjOGJjOTZjMWNhZDE4ZjUwNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKdWxpYW5WZW5uZW4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU4NmU2MDJmMTRkMDg3YjZjY2Q5YWFkNjE2YjA0YzgwM2NkZTgyZDUwZWI0MjI3MzYwYTliMzEyYjNlZDFmMSIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+  } ]
+}
+[2023-01-17 20:24:15] [JulianVennen INFO] JulianVennen's profile loaded.
+[2023-01-17 20:24:15] [JulianVennen INFO] (SkinUrl: http://textures.minecraft.net/texture/f586e602f14d087b6ccd9aad616b04c803cde82d50eb4227360a9b312b3ed1f1 , Model: default , CapeUrl: http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933  , Expiry: 1673983485)
