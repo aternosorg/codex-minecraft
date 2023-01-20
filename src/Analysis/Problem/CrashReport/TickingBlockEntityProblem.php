@@ -11,9 +11,9 @@ use Aternos\Codex\Minecraft\Analysis\Solution\CrashReport\RemoveBlockEntitySolut
  */
 class TickingBlockEntityProblem extends TickingEntityProblem
 {
-    const PATTERN_ENTITY_NAME = "/-- Block entity being ticked --\nDetails:(?:\n\t.*)*\n\s+Name: ([\w:]+)/";
-    const PATTERN_ENTITY_TYPE = "/-- Block entity being ticked --\nDetails:(?:\n\t.*)*\n\s+Block: Block{([\w:]+)}/";
-    const PATTERN_ENTITY_LOCATION = "/-- Block entity being ticked --\nDetails:(?:\n\t.*)*\n\s+Block location: World: \(([\d-]+),([\d-]+),([\d-]+)\)/";
+    const PATTERN_ENTITY_NAME = "/-- Block entity being ticked --\nDetails:(?:\n\t.*)*\n\s+Name: ([\w\.]+:[\w\.]+)/";
+    const PATTERN_ENTITY_TYPE = "/-- Block entity being ticked --\nDetails:(?:\n\s.*)*\n\s+Block[\s\w]*: .*?([\w\.]+:[\w\.]+)/";
+    const PATTERN_ENTITY_LOCATION = "/-- Block entity being ticked --\nDetails:(?:\n\s.*)*\n\s+Block location: World: \(([\d-]+),([\d-]+),([\d-]+)\)/";
 
     /**
      * @return string[]
