@@ -878,6 +878,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_forge_ticking_block_entity_crash_report2(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-ticking-block-entity-crash-report2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_ticking_block_entity_crash_report3(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-ticking-block-entity-crash-report3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_forge_ticking_block_entity(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-ticking-block-entity.log');
