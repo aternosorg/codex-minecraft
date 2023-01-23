@@ -1,9 +1,9 @@
 {
-    "id": "custom-skin-loader\/client",
-    "name": "Custom Skin Loader",
+    "id": "customskinloader\/client",
+    "name": "CustomSkinLoader",
     "type": "Client Log",
     "version": null,
-    "title": "Custom Skin Loader Client Log",
+    "title": "CustomSkinLoader Client Log",
     "entries": [
         {
             "level": 6,
@@ -533,7 +533,7 @@
         "problems": [],
         "information": [
             {
-                "message": "Custom Skin Loader version: 14.15.1",
+                "message": "CustomSkinLoader version: 14.15.1",
                 "counter": 1,
                 "entry": {
                     "level": 6,
@@ -546,7 +546,7 @@
                         }
                     ]
                 },
-                "label": "Custom Skin Loader version",
+                "label": "CustomSkinLoader version",
                 "value": "14.15.1"
             },
             {
