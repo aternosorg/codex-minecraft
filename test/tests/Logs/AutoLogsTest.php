@@ -98,6 +98,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_custom_skin_loader_1_19_3_snapshot(): void
+    {
+        $log = new TestLog('CustomSkinLoader/custom-skin-loader-1-19-3-snapshot.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_custom_skin_loader_1_19_3(): void
     {
         $log = new TestLog('CustomSkinLoader/custom-skin-loader-1-19-3.log');
