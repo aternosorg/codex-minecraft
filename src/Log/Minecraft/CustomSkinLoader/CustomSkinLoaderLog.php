@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Log\Minecraft\CustomSkinLoader;
 
 use Aternos\Codex\Analyser\AnalyserInterface;
 use Aternos\Codex\Minecraft\Analyser\CustomSkinLoaderAnalyser;
+use Aternos\Codex\Minecraft\Analysis\Information\CustomSkinLoader\CustomSkinLoaderVersionInformation;
 use Aternos\Codex\Minecraft\Parser\Parser;
 
 /**
@@ -15,6 +16,7 @@ abstract class CustomSkinLoaderLog extends \Aternos\Codex\Minecraft\Log\Minecraf
 {
     protected static string $prefixPattern = '\[\d{4}(?:\-\d\d){2} (?:[0-9]{2}\:?){3}\] \[[^\]]+ [A-Z]+\] ';
     protected static string $pattern = '/^(\[(\d{4}(?:\-\d\d){2} (?:[0-9]{2}\:?){3})\] \[[^\]]+ ([A-Z]+)\]) .*$/';
+    protected static ?string $versionInformationClass = CustomSkinLoaderVersionInformation::class;
 
     /**
      * @return Parser
