@@ -2,8 +2,8 @@
     "id": "customskinloader\/client",
     "name": "CustomSkinLoader",
     "type": "Client Log",
-    "version": "14.15.1",
-    "title": "CustomSkinLoader 14.15.1 Client Log",
+    "version": "14.15-SNAPSHOT-353",
+    "title": "CustomSkinLoader 14.15-SNAPSHOT-353 Client Log",
     "entries": [
         {
             "level": 6,
@@ -12,7 +12,7 @@
             "lines": [
                 {
                     "number": 1,
-                    "content": "[2023-01-17 20:24:14] [Render thread INFO] CustomSkinLoader 14.15.1"
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] CustomSkinLoader 14.15-SNAPSHOT-353"
                 }
             ]
         },
@@ -533,7 +533,7 @@
         "problems": [],
         "information": [
             {
-                "message": "CustomSkinLoader version: 14.15.1",
+                "message": "CustomSkinLoader version: 14.15-SNAPSHOT-353",
                 "counter": 1,
                 "entry": {
                     "level": 6,
@@ -542,12 +542,12 @@
                     "lines": [
                         {
                             "number": 1,
-                            "content": "[2023-01-17 20:24:14] [Render thread INFO] CustomSkinLoader 14.15.1"
+                            "content": "[2023-01-17 20:24:14] [Render thread INFO] CustomSkinLoader 14.15-SNAPSHOT-353"
                         }
                     ]
                 },
                 "label": "CustomSkinLoader version",
-                "value": "14.15.1"
+                "value": "14.15-SNAPSHOT-353"
             },
             {
                 "message": "Java version: 17.0.4.1",
