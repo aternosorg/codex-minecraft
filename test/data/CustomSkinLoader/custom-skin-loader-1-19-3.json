@@ -2,8 +2,8 @@
     "id": "customskinloader\/client",
     "name": "CustomSkinLoader",
     "type": "Client Log",
-    "version": null,
-    "title": "CustomSkinLoader Client Log",
+    "version": "14.15.1",
+    "title": "CustomSkinLoader 14.15.1 Client Log",
     "entries": [
         {
             "level": 6,
