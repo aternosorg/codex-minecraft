@@ -21,6 +21,6 @@ class PurpurCrashReportLog extends PurpurLog implements CrashReportLogTypeInterf
      */
     public static function getDetectors(): array
     {
-        return [(new SinglePatternDetector())->setPattern("/^---- Minecraft Crash Report ----(\n.*)*\n\s+Running: Purpur version git-Purpur/")];
+        return [(new SinglePatternDetector())->setPattern("/^---- Minecraft Crash Report ----(\n.*)*\n\s+Running: Purpur version git-Purpur/m")];
     }
 }
