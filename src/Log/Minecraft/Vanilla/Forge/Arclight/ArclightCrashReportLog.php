@@ -21,6 +21,6 @@ class ArclightCrashReportLog extends ArclightLog implements CrashReportLogTypeIn
      */
     public static function getDetectors(): array
     {
-        return [(new SinglePatternDetector())->setPattern("/^---- Minecraft Crash Report ----(\n.*)*\n\tKnown server brands:( [a-zA-Z])* arclight/")];
+        return [(new SinglePatternDetector())->setPattern("/^---- Minecraft Crash Report ----(\n.*)*\n\tKnown server brands:( [a-zA-Z])* arclight/m")];
     }
 }
