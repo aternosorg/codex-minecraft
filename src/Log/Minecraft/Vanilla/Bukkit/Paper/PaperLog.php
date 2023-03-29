@@ -7,7 +7,7 @@ use Aternos\Codex\Minecraft\Analyser\PaperAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Spigot\SpigotLog;
 
 /**
- * Class PaperServerLog
+ * Class PaperLog
  *
  * @package Aternos\Codex\Minecraft\Log\Minecraft\Bukkit\Paper
  */

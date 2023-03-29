@@ -9,7 +9,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 /**
  * Class VersionDowngradeProblem
  *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Vanilla
+ * @package Aternos\Codex\Minecraft\Analysis\Problem\Paper
  */
 class VersionDowngradeProblem extends PaperProblem
 {
