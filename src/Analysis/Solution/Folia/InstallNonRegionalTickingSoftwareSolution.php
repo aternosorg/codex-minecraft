@@ -18,6 +18,8 @@ class InstallNonRegionalTickingSoftwareSolution extends FoliaSolution
      */
     public function getMessage(): string
     {
-        return Translator::getInstance()->getTranslation("install-non-regional-ticking-software-solution");
+        return Translator::getInstance()->getTranslation("install-non-regional-ticking-software-solution", [
+            "software-name" => "Paper"
+        ]);
     }
 }
