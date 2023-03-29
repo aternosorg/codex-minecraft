@@ -13,6 +13,8 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Pocketmine\PocketmineServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\PrismLauncher\PrismLauncherClientLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\CraftBukkit\CraftBukkitServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\CraftBukkit\OldCraftBukkitServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Folia\FoliaCrashReport;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Folia\FoliaServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Glowstone\GlowstoneServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper\PaperCrashReportLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper\PaperServerLog;
@@ -61,6 +63,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
         SpigotServerLog::class,
         PaperServerLog::class,
         PurpurServerLog::class,
+        FoliaServerLog::class,
         MohistServerLog::class,
         ArclightServerLog::class,
         MagmaServerLog::class,
@@ -78,6 +81,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
 
         PaperCrashReportLog::class,
         PurpurCrashReportLog::class,
+        FoliaCrashReport::class,
         FabricCrashReportLog::class,
         ForgeCrashReportLog::class,
         VanillaCrashReportLog::class,

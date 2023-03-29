@@ -248,6 +248,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_folia_1_19_4_unsupported_plugin(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Folia/folia-1-19-4-unsupported-plugin.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_glowstone_start_1122(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Glowstone/glowstone-start-1122.log');
