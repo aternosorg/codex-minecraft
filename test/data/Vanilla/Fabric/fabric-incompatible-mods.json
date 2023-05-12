@@ -1,0 +1,245 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "1.19.4",
+    "title": "Fabric 1.19.4 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:35:09] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[03:35:09] [main\/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[03:35:09] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[03:35:09] [main\/WARN]: Mod resolution failed"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:35:09] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[03:35:09] [main\/INFO]: Immediate reason: [NEG_HARD_DEP mod-a 1.0.0 {breaks fabric-api @ [*]}, ROOT_FORCELOAD_SINGLE fabric-api 0.80.0+1.19.4, ROOT_FORCELOAD_SINGLE mod-a 1.0.0]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:35:09] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[03:35:09] [main\/INFO]: Reason: [NEG_HARD_DEP mod-a 1.0.0 {breaks fabric-api @ [*]}]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:35:09] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[03:35:09] [main\/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-keybindings-v0, fabric-renderer-registries-v1, fabric-models-v0, fabric-client-tags-api-v1, fabric-screen-api-v1, fabric-rendering-v0, fabric-sound-api-v1, fabric-key-binding-api-v1, fabric-rendering-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:35:09] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[03:35:09] [main\/INFO]: Fix: add [], remove [], replace [[mod-a 1.0.0] -> add:mod-a 1 ([(-\u221e,\u221e)])]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[03:35:09] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[03:35:09] [main\/ERROR]: Incompatible mod set!"
+                },
+                {
+                    "number": 8,
+                    "content": "net.fabricmc.loader.impl.FormattedException: Mod resolution encountered an incompatible mod set!"
+                },
+                {
+                    "number": 9,
+                    "content": "A potential solution has been determined:"
+                },
+                {
+                    "number": 10,
+                    "content": "\t - Replace mod 'Mod A' (mod-a) 1.0.0 with any version that is compatible with:"
+                },
+                {
+                    "number": 11,
+                    "content": "\t\t - fabric-api 0.80.0+1.19.4"
+                },
+                {
+                    "number": 12,
+                    "content": "Unmet dependency listing:"
+                },
+                {
+                    "number": 13,
+                    "content": "\t - Mod 'Mod A' (mod-a) 1.0.0 is incompatible with any version of mod 'Fabric API' (fabric-api), but a matching version is present: 0.80.0+1.19.4!"
+                },
+                {
+                    "number": 14,
+                    "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.14.19.jar:?]"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:192) ~[fabric-loader-0.14.19.jar:?]"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:148) ~[fabric-loader-0.14.19.jar:?]"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.19.jar:?]"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.19.jar:?]"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.19.jar:?]"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mods 'Mod A' and 'Fabric API' are incompatible.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[03:35:09] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 7,
+                            "content": "[03:35:09] [main\/ERROR]: Incompatible mod set!"
+                        },
+                        {
+                            "number": 8,
+                            "content": "net.fabricmc.loader.impl.FormattedException: Mod resolution encountered an incompatible mod set!"
+                        },
+                        {
+                            "number": 9,
+                            "content": "A potential solution has been determined:"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\t - Replace mod 'Mod A' (mod-a) 1.0.0 with any version that is compatible with:"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t\t - fabric-api 0.80.0+1.19.4"
+                        },
+                        {
+                            "number": 12,
+                            "content": "Unmet dependency listing:"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\t - Mod 'Mod A' (mod-a) 1.0.0 is incompatible with any version of mod 'Fabric API' (fabric-api), but a matching version is present: 0.80.0+1.19.4!"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.14.19.jar:?]"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:192) ~[fabric-loader-0.14.19.jar:?]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:148) ~[fabric-loader-0.14.19.jar:?]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.19.jar:?]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.19.jar:?]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.19.jar:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'Mod A'."
+                    },
+                    {
+                        "message": "Remove the mod 'Fabric API'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.19.4",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[03:35:09] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[03:35:09] [main\/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.19.4"
+            },
+            {
+                "message": "Fabric loader version: 0.14.19",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[03:35:09] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[03:35:09] [main\/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.14.19"
+            }
+        ]
+    }
+}

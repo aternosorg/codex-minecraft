@@ -1,0 +1,19 @@
+[03:35:09] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
+[03:35:09] [main/WARN]: Mod resolution failed
+[03:35:09] [main/INFO]: Immediate reason: [NEG_HARD_DEP mod-a 1.0.0 {breaks fabric-api @ [*]}, ROOT_FORCELOAD_SINGLE fabric-api 0.80.0+1.19.4, ROOT_FORCELOAD_SINGLE mod-a 1.0.0]
+[03:35:09] [main/INFO]: Reason: [NEG_HARD_DEP mod-a 1.0.0 {breaks fabric-api @ [*]}]
+[03:35:09] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-keybindings-v0, fabric-renderer-registries-v1, fabric-models-v0, fabric-client-tags-api-v1, fabric-screen-api-v1, fabric-rendering-v0, fabric-sound-api-v1, fabric-key-binding-api-v1, fabric-rendering-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1]
+[03:35:09] [main/INFO]: Fix: add [], remove [], replace [[mod-a 1.0.0] -> add:mod-a 1 ([(-∞,∞)])]
+[03:35:09] [main/ERROR]: Incompatible mod set!
+net.fabricmc.loader.impl.FormattedException: Mod resolution encountered an incompatible mod set!
+A potential solution has been determined:
+	 - Replace mod 'Mod A' (mod-a) 1.0.0 with any version that is compatible with:
+		 - fabric-api 0.80.0+1.19.4
+Unmet dependency listing:
+	 - Mod 'Mod A' (mod-a) 1.0.0 is incompatible with any version of mod 'Fabric API' (fabric-api), but a matching version is present: 0.80.0+1.19.4!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:192) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:148) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.19.jar:?]

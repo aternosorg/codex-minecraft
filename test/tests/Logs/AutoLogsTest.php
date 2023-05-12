@@ -608,6 +608,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_conflicting_mods(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-conflicting-mods.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_crash_report(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-crash-report.log');
@@ -631,6 +641,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_fabric_entrypoint_error(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-entrypoint-error.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_incompatible_mods(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-incompatible-mods.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 

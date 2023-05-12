@@ -1,0 +1,84 @@
+[03:45:04] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
+[03:45:04] [main/WARN]: Warnings were found!
+ - Mod 'Mod A' (mod-a) 1.0.0 conflicts with any version of mod 'Mod A' (mod-a), which is present with the following versions: 1.0.0!
+	 - While this won't prevent you from starting the game, the developer(s) of mod 'Mod A' (mod-a) have found that this combination may cause issues. You should remove one of the mods or check for updates that resolve the issue.
+[03:45:04] [main/INFO]: Loading 42 mods:
+	- fabric-api 0.80.0+1.19.4
+	   |-- fabric-api-base 0.4.25+504944c8f4
+	   |-- fabric-api-lookup-api-v1 1.6.26+504944c8f4
+	   |-- fabric-biome-api-v1 13.0.8+348a9c64f4
+	   |-- fabric-block-api-v1 1.0.7+e022e5d1f4
+	   |-- fabric-blockrenderlayer-v1 1.1.35+c2e6f674f4
+	   |-- fabric-client-tags-api-v1 1.0.16+504944c8f4
+	   |-- fabric-command-api-v1 1.2.28+f71b366ff4
+	   |-- fabric-command-api-v2 2.2.7+504944c8f4
+	   |-- fabric-commands-v0 0.2.45+df3654b3f4
+	   |-- fabric-containers-v0 0.1.55+df3654b3f4
+	   |-- fabric-content-registries-v0 3.5.10+ae0966baf4
+	   |-- fabric-convention-tags-v1 1.4.2+9a7c5daaf4
+	   |-- fabric-crash-report-info-v1 0.2.16+aeb40ebef4
+	   |-- fabric-data-generation-api-v1 11.4.1+504944c8f4
+	   |-- fabric-dimensions-v1 2.1.46+7f87f8faf4
+	   |-- fabric-entity-events-v1 1.5.14+504944c8f4
+	   |-- fabric-events-interaction-v0 0.5.0+76ba65ebf4
+	   |-- fabric-events-lifecycle-v0 0.2.53+df3654b3f4
+	   |-- fabric-game-rule-api-v1 1.0.34+a1ccd7bff4
+	   |-- fabric-item-api-v1 2.1.18+504944c8f4
+	   |-- fabric-item-group-api-v1 3.0.6+043f9acff4
+	   |-- fabric-key-binding-api-v1 1.0.34+504944c8f4
+	   |-- fabric-keybindings-v0 0.2.32+df3654b3f4
+	   |-- fabric-lifecycle-events-v1 2.2.16+504944c8f4
+	   |-- fabric-loot-api-v2 1.1.28+75e98211f4
+	   |-- fabric-loot-tables-v1 1.1.32+9e7660c6f4
+	   |-- fabric-message-api-v1 5.1.2+504944c8f4
+	   |-- fabric-mining-level-api-v1 2.1.40+49abcf7ef4
+	   |-- fabric-models-v0 0.3.31+504944c8f4
+	   |-- fabric-networking-api-v1 1.3.2+504944c8f4
+	   |-- fabric-networking-v0 0.3.42+df3654b3f4
+	   |-- fabric-object-builder-api-v1 7.0.4+504944c8f4
+	   |-- fabric-particles-v1 1.0.24+f1e4495bf4
+	   |-- fabric-recipe-api-v1 1.0.9+a1ccd7bff4
+	   |-- fabric-registry-sync-v0 2.2.1+504944c8f4
+	   |-- fabric-renderer-api-v1 2.2.6+504944c8f4
+	   |-- fabric-renderer-indigo 1.1.2+81e8c576f4
+	   |-- fabric-renderer-registries-v1 3.2.39+df3654b3f4
+	   |-- fabric-rendering-data-attachment-v1 0.3.29+afca2f3ef4
+	   |-- fabric-rendering-fluids-v1 3.0.22+504944c8f4
+	   |-- fabric-rendering-v0 1.1.42+df3654b3f4
+	   |-- fabric-rendering-v1 2.1.2+504944c8f4
+	   |-- fabric-resource-conditions-api-v1 2.3.2+e6c7d4eef4
+	   |-- fabric-resource-loader-v0 0.11.3+1e1fb126f4
+	   |-- fabric-screen-api-v1 1.0.46+504944c8f4
+	   |-- fabric-screen-handler-api-v1 1.3.21+504944c8f4
+	   |-- fabric-sound-api-v1 1.0.10+504944c8f4
+	   |-- fabric-transfer-api-v1 3.1.2+504944c8f4
+	   \-- fabric-transitive-access-wideners-v1 3.0.4+504944c8f4
+	- fabricloader 0.14.19
+	- java 17
+	- minecraft 1.19.4
+	- mod-a 1.0.0
+[03:45:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/server/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[03:45:05] [main/INFO]: Compatibility level set to JAVA_16
+[03:45:05] [main/INFO]: Compatibility level set to JAVA_17
+[03:45:12] [main/INFO]: Hello Fabric world!
+[03:45:12] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:45:12] [main/INFO]: Found new data pack fabric, loading it automatically
+[03:45:14] [main/INFO]: Loaded 7 recipes
+[03:45:14] [main/INFO]: Loaded 1179 advancements
+[03:45:15] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 1.506 ms
+[03:45:15] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[03:45:15] [Server thread/INFO]: Loading properties
+[03:45:15] [Server thread/INFO]: Default game type: SURVIVAL
+[03:45:15] [Server thread/INFO]: Generating keypair
+[03:45:15] [Server thread/INFO]: Starting Minecraft server on *:54016
+[03:45:15] [Server thread/INFO]: Using epoll channel type
+[03:45:15] [Server thread/INFO]: Preparing level "world"
+[03:45:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:45:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:46:13] [Worker-Main-1/INFO]: Preparing spawn area: 67%
+[03:46:16] [Server thread/INFO]: Time elapsed: 50540 ms
+[03:46:16] [Server thread/INFO]: Done (60.683s)! For help, type "help"
+[03:46:16] [Server thread/INFO]: Starting GS4 status listener
+[03:46:16] [Server thread/INFO]: Thread Query Listener started
+[03:46:16] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
+[03:46:16] [Server thread/INFO]: JMX monitoring enabled
