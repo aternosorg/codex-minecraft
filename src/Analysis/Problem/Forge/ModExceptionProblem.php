@@ -33,7 +33,8 @@ class ModExceptionProblem extends ModProblem
     public static function getPatterns(): array
     {
         return [
-            '/Caught exception from ([^\(\n]+)/'
+            '/Caught exception from ([^\(\n]+)/',
+            '/net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: \[\s+([^\(\n]+) \([^\)]+\) encountered an error during/'
         ];
     }
 
