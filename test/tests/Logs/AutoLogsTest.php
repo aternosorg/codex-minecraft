@@ -1278,6 +1278,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_velocity_snapshot(): void
+    {
+        $log = new TestLog('Velocity/velocity-snapshot.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_velocity(): void
     {
         $log = new TestLog('Velocity/velocity.log');
