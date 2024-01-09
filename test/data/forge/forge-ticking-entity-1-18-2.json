@@ -3486,7 +3486,7 @@
         "problems": [
             {
                 "message": "The entity 'Illager Minion' at the location 439, 71.94, 91 is causing issues while ticking.",
-                "counter": 1,
+                "counter": 2,
                 "entry": {
                     "level": 6,
                     "time": null,

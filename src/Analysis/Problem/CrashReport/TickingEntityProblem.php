@@ -41,7 +41,10 @@ class TickingEntityProblem extends CrashReportProblem
      */
     public static function getPatterns(): array
     {
-        return ["/^Description: Ticking entity$/"];
+        return [
+            "/^Description: Ticking entity$/",
+            "/^-- Entity being ticked --$/"
+            ];
     }
 
     /**
