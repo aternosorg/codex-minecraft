@@ -68,7 +68,7 @@ class ModDependencyProblem extends ModProblem
                 $this->addSolution((new ModInstallSolution())->setModName($matches[2]));
                 break;
             case 1:
-                $count = preg_match_all('/(\w+)@\[([0-9\.]+)/', $matches[2], $dependencyMatches);
+                $count = preg_match_all('/(\w+)(?:@\[?([0-9\.]+))?[,\]]/', $matches[2], $dependencyMatches);
                 if (!$count) {
                     if (preg_match('/\[(\S+)\]/', $matches[2], $dependencyMatches)) {
                         $this->dependencyMods[] = $dependencyMatches[1];
@@ -81,7 +81,12 @@ class ModDependencyProblem extends ModProblem
                     $name = $dependencyMatches[1][$i];
                     $version = $dependencyMatches[2][$i];
                     $this->dependencyMods[] = $name;
-                    $this->addSolution((new ModInstallSolution())->setModName($name)->setModVersion($version));
+
+                    $solution = (new ModInstallSolution())->setModName($name);
+                    if ($version) {
+                        $solution->setModVersion($version);
+                    }
+                    $this->addSolution($solution);
                 }
                 break;
             case 2:
