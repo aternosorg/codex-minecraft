@@ -34,6 +34,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Magma\MagmaServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Mohist\MohistCrashReportLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Mohist\MohistServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\NeoForge\NeoForgeClientLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\NeoForge\NeoForgeCrashReportLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\NeoForge\NeoForgeServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\OldVanillaServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt\QuiltClientLog;
@@ -87,6 +88,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
         PurpurCrashReportLog::class,
         FoliaCrashReport::class,
         FabricCrashReportLog::class,
+        NeoForgeCrashReportLog::class,
         ForgeCrashReportLog::class,
         VanillaCrashReportLog::class,
         MohistCrashReportLog::class,

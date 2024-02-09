@@ -1,0 +1,119 @@
+---- Minecraft Crash Report ----
+// On the bright side, I bought you a teddy bear!
+
+Time: 2024-02-09 13:35:56
+Description: Level dump
+
+java.lang.Exception: dummy
+	at net.minecraft.server.level.ServerLevel.saveDebugReport(ServerLevel.java:1467) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.saveDebugReport(MinecraftServer.java:1688) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$startMetricsRecordingTick$33(MinecraftServer.java:1781) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?] {}
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading}
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:810) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:162) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:793) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:787) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:774) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:704) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:255) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.server.level.ServerLevel.fillReportDetails(ServerLevel.java:1695) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+-- Affected level --
+Details:
+	All players: 0 total; []
+	Chunk stats: 2209
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-288,63,160), Section: (at 0,15,0 in -18,3,10; chunk contains blocks -288,-64,160 to -273,319,175), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Level time: 36419 game time, 36419 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Level weather: Rain time: 96978 (now: false), thunder time: 141487 (now: false)
+	Known server brands: neoforge
+	Removed feature flags:
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Loaded entity count: 81
+Stacktrace:
+	at net.minecraft.server.level.ServerLevel.fillReportDetails(ServerLevel.java:1695) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.saveDebugReport(ServerLevel.java:1468) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.saveDebugReport(MinecraftServer.java:1688) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$startMetricsRecordingTick$33(MinecraftServer.java:1781) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?] {}
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading}
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:810) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:162) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:793) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:787) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:774) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:704) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:255) ~[server-1.20.4-20231207.154220-srg.jar%23123!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.4
+	Minecraft Version ID: 1.20.4
+	Operating System: Linux (amd64) version 5.15.0-88-generic
+	Java Version: 17.0.10, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 1462580720 bytes (1394 MiB) / 2256535552 bytes (2152 MiB) up to 3221225472 bytes (3072 MiB)
+	CPUs: 2
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7F72 24-Core Processor
+	Identifier: AuthenticAMD Family 23 Model 49 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 24
+	Number of logical CPUs: 48
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 129820.59
+	Virtual memory used (MB): 77516.64
+	Swap memory total (MB): 1024.00
+	Swap memory used (MB): 262.64
+	JVM Flags: 2 total; -Xmx3072M -Xms1536M
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services:
+		mixin-0.8.5.jar mixin PLUGINSERVICE
+		loader-2.0.11.jar slf4jfixer PLUGINSERVICE
+		loader-2.0.11.jar runtime_enum_extender PLUGINSERVICE
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE
+		loader-2.0.11.jar runtimedistcleaner PLUGINSERVICE
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE
+	FML Language Providers:
+		javafml@2.0
+		lowcodefml@2.0
+		minecraft@2.0
+	Mod List:
+		server-1.20.4-20231207.154220-srg.jar             |Minecraft                     |minecraft                     |1.20.4              |DONE      |Manifest: NOSIGNATURE
+		neoforge-20.4.155-beta-universal.jar              |NeoForge                      |neoforge                      |20.4.155-beta       |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 681dded0-c05d-4c54-8cf1-495d55d168f2
+	FML: 20.4
+	NeoForge: net.neoforged:20.4.155-beta

@@ -1,9 +1,9 @@
 {
-    "id": "forge\/crash-report",
-    "name": "Forge",
+    "id": "neoforge\/crash-report",
+    "name": "NeoForge",
     "type": "Crash Report",
     "version": "1.20.1",
-    "title": "Forge 1.20.1 Crash Report",
+    "title": "NeoForge 1.20.1 Crash Report",
     "entries": [
         {
             "level": 8,
@@ -6608,6 +6608,23 @@
                 },
                 "label": "Java version",
                 "value": "17.0.9"
+            },
+            {
+                "message": "NeoForge version: 47.1.84",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tNeoForge:",
+                    "lines": [
+                        {
+                            "number": 594,
+                            "content": "\tNeoForge: net.neoforged:47.1.84"
+                        }
+                    ]
+                },
+                "label": "NeoForge version",
+                "value": "47.1.84"
             }
         ]
     }

@@ -17,7 +17,8 @@ class NeoForgeVersionInformation extends NeoForgeInformation
     {
         return [
             '/NeoForge mod loading, version ('. static::$versionPattern .'),/',
-            '/--fml\.neoForgeVersion, ('. static::$versionPattern .')/'
+            '/--fml\.neoForgeVersion, ('. static::$versionPattern .')/',
+            '/\tNeoForge: net.neoforged:('. static::$versionPattern .')/',
         ];
     }
 
