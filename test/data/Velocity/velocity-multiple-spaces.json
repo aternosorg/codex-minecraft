@@ -1,0 +1,101 @@
+{
+    "id": "velocity\/proxy",
+    "name": "Velocity",
+    "type": "Proxy Log",
+    "version": null,
+    "title": "Velocity Proxy Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:38:16] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[11:38:16] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]:  Booting up Velocity 3.3.0-SNAPSHOT (git-53923ed8-b351)..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:38:16] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[11:38:16] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]:  Loading localizations..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:38:16] [main\/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[11:38:16] [main\/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:  Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.0.x (Linux x86_64) ciphers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:38:16] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[11:38:16] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]:  Loading plugins..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:38:17] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[11:38:17] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]:  Loaded 0 plugins"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:38:17] [Netty epoll Boss #0\/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[11:38:17] [Netty epoll Boss #0\/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:  Listening on \/0.0.0.0:20685"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:38:17] [Netty epoll Worker #0\/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[11:38:17] [Netty epoll Worker #0\/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:  Listening for GS4 query on \/0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:38:17] [main\/INFO] [com.velocitypowered.proxy.Velocity]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[11:38:17] [main\/INFO] [com.velocitypowered.proxy.Velocity]:  Done (1.06s)!"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": []
+    }
+}
