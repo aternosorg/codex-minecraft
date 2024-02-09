@@ -33,6 +33,8 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\ForgeServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Magma\MagmaServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Mohist\MohistCrashReportLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Mohist\MohistServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\NeoForge\NeoForgeClientLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\NeoForge\NeoForgeServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\OldVanillaServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt\QuiltClientLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt\QuiltCrashReportLog;
@@ -54,6 +56,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
         FabricClientLog::class,
         QuiltClientLog::class,
         ForgeClientLog::class,
+        NeoForgeClientLog::class,
         VanillaClientLog::class,
 
         VanillaServerLog::class,
@@ -69,6 +72,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
         ArclightServerLog::class,
         MagmaServerLog::class,
         ForgeServerLog::class,
+        NeoForgeServerLog::class,
         PocketmineServerLog::class,
         BedrockServerLog::class,
         BedrockContentLog::class,
