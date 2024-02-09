@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt;
 
+use Aternos\Codex\Analyser\AnalyserInterface;
 use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\QuiltAnalyser;
@@ -26,9 +27,9 @@ abstract class QuiltLog extends VanillaLog
     }
 
     /**
-     * @return QuiltAnalyser
+     * @return AnalyserInterface
      */
-    public static function getDefaultAnalyser(): QuiltAnalyser
+    public static function getDefaultAnalyser(): AnalyserInterface
     {
         return new QuiltAnalyser();
     }

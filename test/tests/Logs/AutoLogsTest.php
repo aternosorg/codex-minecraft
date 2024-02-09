@@ -1208,6 +1208,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_quilt_crash_report_client(): void
+    {
+        $log = new TestLog('Vanilla/Quilt/quilt-crash-report-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_quilt_crash_report_server(): void
+    {
+        $log = new TestLog('Vanilla/Quilt/quilt-crash-report-server.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_quilt(): void
     {
         $log = new TestLog('Vanilla/Quilt/quilt.log');
