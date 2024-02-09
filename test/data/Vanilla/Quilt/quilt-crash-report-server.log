@@ -1,0 +1,98 @@
+---- Minecraft Crash Report ----
+// Ooh. Shiny.
+
+Time: 2024-02-09 12:10:38
+Description: Level dump
+
+java.lang.Exception: dummy
+	at net.minecraft.class_3218.method_21625(class_3218.java:1378)
+	at net.minecraft.server.MinecraftServer.method_21613(MinecraftServer.java:1595)
+	at net.minecraft.server.MinecraftServer.method_37328(MinecraftServer.java:1685)
+	at net.minecraft.class_1255.method_5386(class_1255.java:67)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at net.minecraft.class_3738.run(class_3738.java:18)
+	at net.minecraft.class_1255.method_18859(class_1255.java:156)
+	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:797)
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:165)
+	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:779)
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:773)
+	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:758)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:687)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.class_3218.method_8538(class_3218.java:1681)
+
+-- Affected level --
+Details:
+	All players: 0 total; []
+	Chunk stats: 2209
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,76,-32), Section: (at 0,12,0 in 0,4,-2; chunk contains blocks 0,-64,-32 to 15,319,-17), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+	Level time: 1970 game time, 1970 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Level weather: Rain time: 156261 (now: false), thunder time: 100103 (now: false)
+	Known server brands: quilt
+	Removed feature flags:
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Loaded entity count: 256
+Stacktrace:
+	at net.minecraft.class_3218.method_8538(class_3218.java:1681)
+	at net.minecraft.class_3218.method_21625(class_3218.java:1379)
+	at net.minecraft.server.MinecraftServer.method_21613(MinecraftServer.java:1595)
+	at net.minecraft.server.MinecraftServer.method_37328(MinecraftServer.java:1685)
+	at net.minecraft.class_1255.method_5386(class_1255.java:67)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at net.minecraft.class_3738.run(class_3738.java:18)
+	at net.minecraft.class_1255.method_18859(class_1255.java:156)
+	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:797)
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:165)
+	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:779)
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:773)
+	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:758)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:687)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.4
+	Minecraft Version ID: 1.20.4
+	Operating System: Linux (amd64) version 5.15.0-78-generic
+	Java Version: 17.0.10, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 1078704552 bytes (1028 MiB) / 1610612736 bytes (1536 MiB) up to 3221225472 bytes (3072 MiB)
+	CPUs: 2
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7F72 24-Core Processor
+	Identifier: AuthenticAMD Family 23 Model 49 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 24
+	Number of logical CPUs: 48
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 129820.83
+	Virtual memory used (MB): 62464.35
+	Swap memory total (MB): 1024.00
+	Swap memory used (MB): 444.39
+	JVM Flags: 2 total; -Xmx3072M -Xms1536M

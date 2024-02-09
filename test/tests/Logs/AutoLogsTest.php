@@ -618,6 +618,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_crash_report_client(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-crash-report-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_crash_report(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-crash-report.log');
@@ -1238,6 +1248,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_quilt_crash_report_client(): void
+    {
+        $log = new TestLog('Vanilla/Quilt/quilt-crash-report-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_quilt_crash_report_server(): void
+    {
+        $log = new TestLog('Vanilla/Quilt/quilt-crash-report-server.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_quilt(): void
     {
         $log = new TestLog('Vanilla/Quilt/quilt.log');
@@ -1331,6 +1361,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_vanilla_start_1132(): void
     {
         $log = new TestLog('Vanilla/vanilla-start-1132.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_velocity_multiple_spaces(): void
+    {
+        $log = new TestLog('Velocity/velocity-multiple-spaces.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
