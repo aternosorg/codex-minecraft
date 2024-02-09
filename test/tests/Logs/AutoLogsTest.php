@@ -908,16 +908,6 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_forge_crash_report_2(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-crash-report-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
     public function test_forge_crash_report(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-crash-report.log');
@@ -1188,9 +1178,39 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_neoforge_1_20_1_server_report_entity(): void
+    {
+        $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-1-server-report-entity.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_1_20_4_client_report(): void
+    {
+        $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-4-client-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_neoforge_1_20_4_client(): void
     {
         $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-4-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_1_20_4_server_report(): void
+    {
+        $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-4-server-report.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 

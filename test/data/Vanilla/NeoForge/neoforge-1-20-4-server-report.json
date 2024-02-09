@@ -1,0 +1,1374 @@
+{
+    "id": "neoforge\/crash-report",
+    "name": "NeoForge",
+    "type": "Crash Report",
+    "version": "1.20.4",
+    "title": "NeoForge 1.20.4 Crash Report",
+    "entries": [
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "---- Minecraft Crash Report ----"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "\/\/ On the bright side, I bought you a teddy bear!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Time:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "Time: 2024-02-09 13:35:56"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Description:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "Description: Level dump"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "java.lang.Exception: dummy"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.saveDebugReport(ServerLevel.java:1467) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "\tat net.minecraft.server.MinecraftServer.saveDebugReport(MinecraftServer.java:1688) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "\tat net.minecraft.server.MinecraftServer.lambda$startMetricsRecordingTick$33(MinecraftServer.java:1781) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "\tat net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "\tat java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "\tat net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "\tat net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "\tat net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "\tat net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:810) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "\tat net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:162) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "\tat net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "\tat net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:793) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "\tat net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:787) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "\tat net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "\tat net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:774) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:704) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:255) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "\tat java.lang.Thread.run(Thread.java:840) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "A detailed walkthrough of the error, its code path and all known details is as follows:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "---------------------------------------------------------------------------------------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "-- Head --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Thread:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "Thread: Server thread"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.fillReportDetails(ServerLevel.java:1695) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "-- Affected level --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tAll players:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "\tAll players: 0 total; []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tChunk stats:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "\tChunk stats: 2209"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel dimension:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "\tLevel dimension: minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel spawn location:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "\tLevel spawn location: World: (-288,63,160), Section: (at 0,15,0 in -18,3,10; chunk contains blocks -288,-64,160 to -273,319,175), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel time:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "\tLevel time: 36419 game time, 36419 day time"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel name:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "\tLevel name: world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel game mode:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "\tLevel game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel weather:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "\tLevel weather: Rain time: 96978 (now: false), thunder time: 141487 (now: false)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tKnown server brands:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "\tKnown server brands: neoforge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tRemoved feature flags:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "\tRemoved feature flags:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel was modded:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "\tLevel was modded: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel storage version:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "\tLevel storage version: 0x04ABD - Anvil"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLoaded entity count:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "\tLoaded entity count: 81"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.fillReportDetails(ServerLevel.java:1695) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.saveDebugReport(ServerLevel.java:1468) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "\tat net.minecraft.server.MinecraftServer.saveDebugReport(MinecraftServer.java:1688) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "\tat net.minecraft.server.MinecraftServer.lambda$startMetricsRecordingTick$33(MinecraftServer.java:1781) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "\tat net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "\tat java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "\tat net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "\tat net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "\tat net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "\tat net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:810) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "\tat net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:162) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "\tat net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "\tat net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:793) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "\tat net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:787) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "\tat net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "\tat net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:774) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:704) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:255) ~[server-1.20.4-20231207.154220-srg.jar%23123!\/:?] {re:classloading,pl:accesstransformer:B}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "\tat java.lang.Thread.run(Thread.java:840) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "-- System Details --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "\tMinecraft Version: 1.20.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version ID:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "\tMinecraft Version ID: 1.20.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tOperating System:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "\tOperating System: Linux (amd64) version 5.15.0-88-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava Version:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "\tJava Version: 17.0.10, Eclipse Adoptium"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava VM Version:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "\tJava VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "\tMemory: 1462580720 bytes (1394 MiB) \/ 2256535552 bytes (2152 MiB) up to 3221225472 bytes (3072 MiB)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCPUs:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "\tCPUs: 2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Vendor:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "\tProcessor Vendor: AuthenticAMD"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Name:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "\tProcessor Name: AMD EPYC 7F72 24-Core Processor"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIdentifier:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "\tIdentifier: AuthenticAMD Family 23 Model 49 Stepping 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMicroarchitecture:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "\tMicroarchitecture: Zen 2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFrequency (GHz):",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "\tFrequency (GHz): -0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical packages:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "\tNumber of physical packages: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical CPUs:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "\tNumber of physical CPUs: 24"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of logical CPUs:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "\tNumber of logical CPUs: 48"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 name:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "\tGraphics card #0 name: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 vendor:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "\tGraphics card #0 vendor: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 VRAM (MB):",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "\tGraphics card #0 VRAM (MB): 0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 deviceId:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "\tGraphics card #0 deviceId: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 versionInfo:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "\tGraphics card #0 versionInfo: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory max (MB):",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "\tVirtual memory max (MB): 129820.59"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory used (MB):",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "\tVirtual memory used (MB): 77516.64"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory total (MB):",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "\tSwap memory total (MB): 1024.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory used (MB):",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "\tSwap memory used (MB): 262.64"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJVM Flags:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "\tJVM Flags: 2 total; -Xmx3072M -Xms1536M"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "\tModLauncher: 10.0.9+10.0.9+main.dcd20f30"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher launch target:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "\tModLauncher launch target: forgeserver"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher naming:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "\tModLauncher naming: srg"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher services:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "\tModLauncher services:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "\t\tmixin-0.8.5.jar mixin PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "\t\tloader-2.0.11.jar slf4jfixer PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "\t\tloader-2.0.11.jar runtime_enum_extender PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "\t\tat-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "\t\tloader-2.0.11.jar runtimedistcleaner PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "\t\tmodlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "\t\tmodlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFML Language Providers:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "\tFML Language Providers:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "\t\tjavafml@2.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "\t\tlowcodefml@2.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "\t\tminecraft@2.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMod List:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "\tMod List:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "\t\tserver-1.20.4-20231207.154220-srg.jar             |Minecraft                     |minecraft                     |1.20.4              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "\t\tneoforge-20.4.155-beta-universal.jar              |NeoForge                      |neoforge                      |20.4.155-beta       |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCrash Report UUID:",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "\tCrash Report UUID: 681dded0-c05d-4c54-8cf1-495d55d168f2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFML:",
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "\tFML: 20.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNeoForge:",
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "\tNeoForge: net.neoforged:20.4.155-beta"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.20.4",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tMinecraft Version:",
+                    "lines": [
+                        {
+                            "number": 74,
+                            "content": "\tMinecraft Version: 1.20.4"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.20.4"
+            },
+            {
+                "message": "Java version: 17.0.10",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tJava Version:",
+                    "lines": [
+                        {
+                            "number": 77,
+                            "content": "\tJava Version: 17.0.10, Eclipse Adoptium"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17.0.10"
+            },
+            {
+                "message": "NeoForge version: 20.4.155-beta",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tNeoForge:",
+                    "lines": [
+                        {
+                            "number": 119,
+                            "content": "\tNeoForge: net.neoforged:20.4.155-beta"
+                        }
+                    ]
+                },
+                "label": "NeoForge version",
+                "value": "20.4.155-beta"
+            }
+        ]
+    }
+}
