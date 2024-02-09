@@ -14,7 +14,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 abstract class VelocityLog extends MinecraftLog
 {
     protected static string $pattern = '/^(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?\:).*$/';
-    protected static string $prefixPattern = '(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?\:) ';
+    protected static string $prefixPattern = '(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?\:)\s+';
 
     /**
      * @return VelocityAnalyser
