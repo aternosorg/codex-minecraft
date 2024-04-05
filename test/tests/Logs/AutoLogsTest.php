@@ -928,6 +928,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_forge_language_provider_version_above(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-language-provider-version-above.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_language_provider_version_between(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-language-provider-version-between.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_forge_loading_stage_error(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-loading-stage-error.log');
