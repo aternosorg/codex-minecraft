@@ -84,5 +84,5 @@
   "type-content": "Content Log",
   "type-crash-report": "Crash Report",
   "type-unknown": "Unknown Log",
-  "forge-language-provider-version-problem": "The mod '{{mod-file}}' requires '{{required-version}}', but {{found-version}} is installed."
+  "forge-language-provider-version-problem": "The mod '{{mod-file}}' requires '{{required-version}}', but '{{found-version}}' is installed."
 }
