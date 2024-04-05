@@ -7,6 +7,7 @@ use Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVanillaVersionInform
 use Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\FmlConfirmProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Forge\LanguageProviderVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDuplicateProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModExceptionProblem;
@@ -41,5 +42,6 @@ class ForgeAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(ModWrongMinecraftVersionProblem::class);
         $this->addPossibleInsightClass(PTRLibDependencyProblem::class);
         $this->addPossibleInsightClass(MultipleModulesExportProblem::class);
+        $this->addPossibleInsightClass(LanguageProviderVersionProblem::class);
     }
 }
