@@ -24,8 +24,7 @@ class LanguageProviderVersionProblem extends ModProblem
         return Translator::getInstance()->getTranslation("forge-language-provider-version-problem",
             [
                 "mod-file" => $this->getModName(),
-                "language-provider" => $provider,
-                "required-version" => $this->requiredVersion,
+                "required-version" => $provider . " " . $this->requiredVersion,
                 "found-version" => $this->foundVersion
             ]);
     }
