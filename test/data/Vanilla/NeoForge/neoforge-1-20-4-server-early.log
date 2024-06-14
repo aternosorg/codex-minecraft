@@ -1,0 +1,7 @@
+[12:20:31] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 20.4.155-beta, --fml.fmlVersion, 2.0.11, --fml.mcVersion, 1.20.4, --fml.neoFormVersion, 20231207.154220, nogui]
+[12:20:31] [main/INFO]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.0-88-generic
+[12:20:31] [main/INFO]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12:20:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2379!/ Service=ModLauncher Env=SERVER
+[12:20:32] [main/INFO]: Found mod file "server-1.20.4-20231207.154220-srg.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@515ebef3
+[12:20:32] [main/INFO]: Found mod file "neoforge-20.4.155-beta-universal.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@515ebef3
+[12:20:32] [main/INFO]: Found 1 dependencies adding them to mods collection

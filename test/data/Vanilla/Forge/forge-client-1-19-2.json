@@ -603,6 +603,23 @@
                 },
                 "label": "Forge version",
                 "value": "43.0.11"
+            },
+            {
+                "message": "Java version: 18.0.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16Aug2022 16:05:10.354] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[16Aug2022 16:05:10.354] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 18.0.2 by N\/A; OS Linux arch amd64 version 5.15.59-1-MANJARO"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "18.0.2"
             }
         ]
     }

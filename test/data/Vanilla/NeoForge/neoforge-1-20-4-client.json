@@ -649,6 +649,23 @@
                 "value": "20.4.155-beta"
             },
             {
+                "message": "Java version: 17.0.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[09Feb2024 11:42:04.592] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[09Feb2024 11:42:04.592] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.3 by Microsoft; OS Linux arch amd64 version 6.7.3-200.fc39.x86_64"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17.0.3"
+            },
+            {
                 "message": "Minecraft version: 20.4.155-beta",
                 "counter": 1,
                 "entry": {

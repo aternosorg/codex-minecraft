@@ -1375,6 +1375,23 @@
                 "value": "20.4.155-beta"
             },
             {
+                "message": "Java version: 17.0.10",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[12:20:31] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[12:20:31] [main\/INFO]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.0-88-generic"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17.0.10"
+            },
+            {
                 "message": "Minecraft version: 20.4.155-beta",
                 "counter": 1,
                 "entry": {

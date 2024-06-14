@@ -20,7 +20,8 @@ abstract class NeoForgeLog extends VanillaLog
     public static function getDetectors(): array
     {
         return array_merge(parent::getDetectors(), [
-            (new SinglePatternDetector())->setPattern('/NeoForge mod loading/')
+            (new SinglePatternDetector())->setPattern('/NeoForge mod loading/'),
+            (new SinglePatternDetector())->setPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: ModLauncher running: .*--fml.neoForgeVersion/')
         ]);
     }
 
