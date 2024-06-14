@@ -23,7 +23,7 @@ class ForgeCrashReportLog extends ForgeLog implements CrashReportLogTypeInterfac
      */
     public static function getDetectors(): array
     {
-        return [(new SinglePatternDetector())->setPattern("/^---- Minecraft Crash Report ----(\n.*)*\n\tFML:/m")];
+        return [(new SinglePatternDetector())->setPattern("/---- Minecraft Crash Report ----(\n.*)*\n\tFML:/m")];
     }
 
 

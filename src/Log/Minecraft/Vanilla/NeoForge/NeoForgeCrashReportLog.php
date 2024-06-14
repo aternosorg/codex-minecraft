@@ -18,7 +18,7 @@ class NeoForgeCrashReportLog extends NeoForgeLog implements CrashReportLogTypeIn
      */
     public static function getDetectors(): array
     {
-        return [(new SinglePatternDetector())->setPattern("/^---- Minecraft Crash Report ----(\n.*)*\n\tNeoForge:/m")];
+        return [(new SinglePatternDetector())->setPattern("/---- Minecraft Crash Report ----(\n.*)*\n\tNeoForge:/m")];
     }
 
 
