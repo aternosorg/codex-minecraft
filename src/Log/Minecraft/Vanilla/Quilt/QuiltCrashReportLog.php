@@ -20,8 +20,8 @@ class QuiltCrashReportLog extends QuiltLog implements CrashReportLogTypeInterfac
     public static function getDetectors(): array
     {
         return [
-            (new SinglePatternDetector())->setPattern("/^---- Minecraft Crash Report ----(\n.*)*\n\t(?:Known )?server brands?: quilt/im"),
-            (new SinglePatternDetector())->setPattern("/^---- Minecraft Crash Report ----(\n.*)*\n\tIs Modded: Definitely; Client brand changed to 'quilt'/im"),
+            (new SinglePatternDetector())->setPattern("/---- Minecraft Crash Report ----(\n.*)*\n\t(?:Known )?server brands?: quilt/im"),
+            (new SinglePatternDetector())->setPattern("/---- Minecraft Crash Report ----(\n.*)*\n\tIs Modded: Definitely; Client brand changed to 'quilt'/im"),
         ];
     }
 

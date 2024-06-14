@@ -1,0 +1,4223 @@
+{
+    "id": "forge\/crash-report",
+    "name": "Forge",
+    "type": "Crash Report",
+    "version": "1.21",
+    "title": "Forge 1.21 Crash Report",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[14Jun2024 10:26:24.157] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--username, NutellaGolem, --version, 1.21, --gameDir, \/home\/julian\/.local\/share\/PrismLauncher\/instances\/1.21(1)\/.minecraft, --assetsDir, \/home\/julian\/.local\/share\/PrismLauncher\/assets, --assetIndex, 17, --uuid, abcd9e565ac2490c8bc96c1cad18f506, --accessToken, **********, --userType, msa, --versionType, release, --launchTarget, forge_client, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 51.0.5, --fml.mcVersion, 1.21, --width, 854, --height, 480]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[14Jun2024 10:26:24.158] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: JVM identified as Red Hat, Inc. OpenJDK 64-Bit Server VM 21.0.3+9"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[14Jun2024 10:26:24.159] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.3 by Red Hat, Inc.; OS Linux arch amd64 version 6.8.11-300.fc40.x86_64"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[14Jun2024 10:26:24.203] [main\/WARN] [net.minecraftforge.fml.loading.FMLConfig\/CORE]: Configuration file \/home\/julian\/.local\/share\/PrismLauncher\/instances\/1.21(1)\/.minecraft\/config\/fml.toml is not correct. Correcting"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[14Jun2024 10:26:24.204] [main\/INFO] [net.minecraftforge.fml.loading.FMLConfig\/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[14Jun2024 10:26:24.204] [main\/INFO] [net.minecraftforge.fml.loading.FMLConfig\/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[14Jun2024 10:26:24.205] [main\/INFO] [net.minecraftforge.fml.loading.FMLConfig\/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[14Jun2024 10:26:24.205] [main\/INFO] [net.minecraftforge.fml.loading.FMLConfig\/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[14Jun2024 10:26:24.209] [main\/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler\/]: Loading ImmediateWindowProvider fmlearlywindow"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[14Jun2024 10:26:24.270] [main\/INFO] [EARLYDISPLAY\/]: Trying GL version 4.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[14Jun2024 10:26:24.271] [main\/INFO] [EARLYDISPLAY\/]: If this message is the only thing at the bottom of your log before a crash, you probably have a driver issue."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "Possible solutions:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "A) Make sure Minecraft is set to prefer high performance graphics in the OS and\/or driver control panel"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "B) Check for driver updates on the graphics brand's website"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "C) Try reinstalling your graphics drivers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "D) If still not working after trying all of the above, ask for further help on the Forge forums or Discord"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "You can safely ignore this message if the game starts up successfully."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[14Jun2024 10:26:24.332] [main\/INFO] [EARLYDISPLAY\/]: Requested GL version 4.6 got version 4.6"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[14Jun2024 10:26:24.388] [main\/INFO] [mixin\/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:\/\/\/home\/julian\/.local\/share\/PrismLauncher\/libraries\/org\/spongepowered\/mixin\/0.8.5\/mixin-0.8.5.jar!\/ Service=ModLauncher Env=CLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[14Jun2024 10:26:24.513] [EarlyDisplay\/INFO] [EARLYDISPLAY\/]: GL info: NVIDIA GeForce RTX 3050 Ti Laptop GPU\/PCIe\/SSE2 GL version 4.6.0 NVIDIA 550.78, NVIDIA Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[14Jun2024 10:26:24.673] [main\/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]: No dependencies to load found. Skipping!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[14Jun2024 10:26:24.996] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]: Launching target 'forge_client' with arguments [--version, 1.21, --gameDir, \/home\/julian\/.local\/share\/PrismLauncher\/instances\/1.21(1)\/.minecraft, --assetsDir, \/home\/julian\/.local\/share\/PrismLauncher\/assets, --uuid, abcd9e565ac2490c8bc96c1cad18f506, --username, NutellaGolem, --assetIndex, 17, --accessToken, **********, --userType, msa, --versionType, release, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 51.0.5, --fml.mcVersion, 1.21, --width, 854, --height, 480]"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[14Jun2024 10:26:25.522] [main\/WARN] [oshi.util.FileUtil\/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:\/\/\/home\/julian\/.local\/share\/PrismLauncher\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.properties, jar:file:\/home\/julian\/.local\/share\/PrismLauncher\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.properties, jar:file:\/\/\/home\/julian\/.local\/share\/PrismLauncher\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.properties, jar:file:\/home\/julian\/.local\/share\/PrismLauncher\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.properties]"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[14Jun2024 10:26:25.582] [main\/WARN] [oshi.util.FileUtil\/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:\/\/\/home\/julian\/.local\/share\/PrismLauncher\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties, jar:file:\/home\/julian\/.local\/share\/PrismLauncher\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties, jar:file:\/\/\/home\/julian\/.local\/share\/PrismLauncher\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties, jar:file:\/home\/julian\/.local\/share\/PrismLauncher\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[14Jun2024 10:26:25.630] [Datafixer Bootstrap\/INFO] [com.mojang.datafixers.DataFixerBuilder\/]: 226 Datafixer optimizations took 119 milliseconds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[14Jun2024 10:26:27.787] [main\/INFO] [net.minecraft.client.main.Main\/]: Completely ignored arguments: [--fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 51.0.5, --fml.mcVersion, 1.21]"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[14Jun2024 10:26:27.893] [Render thread\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]: Environment: Environment[sessionHost=https:\/\/sessionserver.mojang.com, servicesHost=https:\/\/api.minecraftservices.com, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[14Jun2024 10:26:27.898] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]: Setting user: NutellaGolem"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[14Jun2024 10:26:27.930] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]: Backend library: LWJGL version 3.3.3+5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[14Jun2024 10:26:28.024] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]: Forge mod loading, version 51.0.5, for MC 1.21 with MCP 20240613.102039"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[14Jun2024 10:26:28.024] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]: MinecraftForge v51.0.5 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[14Jun2024 10:26:28.039] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]: Opening jdk.naming.dns\/com.sun.jndi.dns to java.naming"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[14Jun2024 10:26:28.534] [Render thread\/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager\/]: Reloading ResourceManager: vanilla, mod_resources"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[14Jun2024 10:26:28.556] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Configuration file \/home\/julian\/.local\/share\/PrismLauncher\/instances\/1.21(1)\/.minecraft\/config\/forge-client.toml is not correct. Correcting"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[14Jun2024 10:26:28.557] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[14Jun2024 10:26:28.558] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to its default, false."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[14Jun2024 10:26:28.559] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[14Jun2024 10:26:28.559] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key client.showLoadWarnings was corrected from null to its default, true."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[14Jun2024 10:26:28.559] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[14Jun2024 10:26:28.559] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key client.calculateAllNormals was corrected from null to its default, false."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[14Jun2024 10:26:28.560] [modloading-worker-0\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key client.stabilizeDirectionGetNearest was corrected from null to its default, true."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[14Jun2024 10:26:28.577] [Worker-Main-13\/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider\/]: Found unifont_all_no_pua-15.1.05.hex, loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[14Jun2024 10:26:28.610] [Worker-Main-4\/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider\/]: Found unifont_jp_patch-15.1.05.hex, loading"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[14Jun2024 10:26:28.660] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [forge] Starting version check at https:\/\/files.minecraftforge.net\/net\/minecraftforge\/forge\/promotions_slim.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[14Jun2024 10:26:29.492] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [forge] Found status: BETA Current: 51.0.5 Target: 51.0.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[14Jun2024 10:26:29.925] [Render thread\/WARN] [net.minecraft.client.sounds.SoundEngine\/]: Missing sound for event: minecraft:item.goat_horn.play"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[14Jun2024 10:26:29.925] [Render thread\/WARN] [net.minecraft.client.sounds.SoundEngine\/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[14Jun2024 10:26:30.056] [Render thread\/INFO] [com.mojang.blaze3d.audio.Library\/]: OpenAL initialized on device Built-in Audio Analog Stereo"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[14Jun2024 10:26:30.057] [Render thread\/INFO] [net.minecraft.client.sounds.SoundEngine\/SOUNDS]: Sound engine started"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[14Jun2024 10:26:30.169] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 1024x512x4 minecraft:textures\/atlas\/blocks.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[14Jun2024 10:26:30.174] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 256x256x4 minecraft:textures\/atlas\/signs.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[14Jun2024 10:26:30.174] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x512x4 minecraft:textures\/atlas\/shield_patterns.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[14Jun2024 10:26:30.174] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x512x4 minecraft:textures\/atlas\/banner_patterns.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[14Jun2024 10:26:30.174] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 1024x1024x4 minecraft:textures\/atlas\/armor_trims.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[14Jun2024 10:26:30.176] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 128x64x4 minecraft:textures\/atlas\/decorated_pot.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[14Jun2024 10:26:30.176] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 256x256x4 minecraft:textures\/atlas\/chest.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[14Jun2024 10:26:30.176] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x256x4 minecraft:textures\/atlas\/shulker_boxes.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[14Jun2024 10:26:30.176] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x256x4 minecraft:textures\/atlas\/beds.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[14Jun2024 10:26:30.255] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x256x0 minecraft:textures\/atlas\/particles.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[14Jun2024 10:26:30.255] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x256x0 minecraft:textures\/atlas\/paintings.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[14Jun2024 10:26:30.256] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 256x128x0 minecraft:textures\/atlas\/mob_effects.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[14Jun2024 10:26:30.256] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 64x64x0 minecraft:textures\/atlas\/map_decorations.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[14Jun2024 10:26:30.256] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 1024x512x0 minecraft:textures\/atlas\/gui.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[14Jun2024 10:26:30.272] [Render thread\/WARN] [net.minecraft.client.renderer.ShaderInstance\/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[14Jun2024 10:26:42.550] [Render thread\/INFO] [net.minecraft.world.item.crafting.RecipeManager\/]: Loaded 1290 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[14Jun2024 10:26:42.632] [Render thread\/INFO] [net.minecraft.advancements.AdvancementTree\/]: Loaded 1399 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[14Jun2024 10:26:45.425] [Server thread\/INFO] [net.minecraft.client.server.IntegratedServer\/]: Starting integrated minecraft server version 1.21"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[14Jun2024 10:26:45.425] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[14Jun2024 10:26:45.477] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Configuration file \/home\/julian\/.local\/share\/PrismLauncher\/instances\/1.21(1)\/.minecraft\/saves\/New World\/serverconfig\/forge-server.toml is not correct. Correcting"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[14Jun2024 10:26:45.477] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[14Jun2024 10:26:45.477] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[14Jun2024 10:26:45.477] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[14Jun2024 10:26:45.477] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[14Jun2024 10:26:45.477] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[14Jun2024 10:26:45.477] [Server thread\/WARN] [net.minecraftforge.common.ForgeConfigSpec\/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[14Jun2024 10:26:47.072] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Preparing start region for dimension minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[14Jun2024 10:26:47.103] [Render thread\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[14Jun2024 10:26:47.602] [Render thread\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[14Jun2024 10:26:48.095] [Render thread\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 24%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[14Jun2024 10:26:48.625] [Render thread\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 51%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[14Jun2024 10:26:48.734] [Server thread\/INFO] [net.minecraftforge.server.permission.PermissionAPI\/]: Successfully initialized permission handler forge:default_handler"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[14Jun2024 10:26:48.743] [Render thread\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Time elapsed: 1657 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[14Jun2024 10:26:48.775] [Server thread\/INFO] [net.minecraft.client.server.IntegratedServer\/]: Changing view distance to 12, from 10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[14Jun2024 10:26:48.775] [Server thread\/INFO] [net.minecraft.client.server.IntegratedServer\/]: Changing simulation distance to 12, from 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[14Jun2024 10:26:49.074] [Render thread\/INFO] [net.minecraftforge.common.ForgeHooks\/]: Connected to a modded server."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[14Jun2024 10:26:49.111] [Server thread\/INFO] [net.minecraft.server.players.PlayerList\/]: NutellaGolem[local:E:ea4517a6] logged in with entity id 7 at (52.5, 63.0, -55.5)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[14Jun2024 10:26:49.123] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: NutellaGolem joined the game"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[14Jun2024 10:26:49.295] [Render thread\/INFO] [net.minecraft.advancements.AdvancementTree\/]: Loaded 2 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[14Jun2024 10:27:09.781] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: F3 + C is held down. This will crash the game unless released."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[14Jun2024 10:27:12.334] [Server thread\/INFO] [net.minecraft.client.server.IntegratedServer\/]: Saving and pausing game..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[14Jun2024 10:27:12.346] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Saving chunks for level 'ServerLevel[New World]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[14Jun2024 10:27:12.363] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Saving chunks for level 'ServerLevel[New World]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[14Jun2024 10:27:12.366] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Saving chunks for level 'ServerLevel[New World]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[14Jun2024 10:27:31.224] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[14Jun2024 10:27:31.752] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[14Jun2024 10:27:31.836] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[14Jun2024 10:27:31.905] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[14Jun2024 10:27:31.979] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[14Jun2024 10:27:32.045] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[14Jun2024 10:27:32.110] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[14Jun2024 10:27:32.174] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[14Jun2024 10:27:32.239] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[14Jun2024 10:27:32.316] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "[14Jun2024 10:27:32.383] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[14Jun2024 10:27:32.446] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[14Jun2024 10:27:32.514] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[14Jun2024 10:27:32.576] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[14Jun2024 10:27:32.642] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[14Jun2024 10:27:32.709] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[14Jun2024 10:27:32.774] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[14Jun2024 10:27:32.839] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[14Jun2024 10:27:32.907] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[14Jun2024 10:27:32.973] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[14Jun2024 10:27:33.040] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Reloading all chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[14Jun2024 10:27:34.112] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Copied location to clipboard"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[14Jun2024 10:27:35.151] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: F3 + C is held down. This will crash the game unless released."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[14Jun2024 10:27:36.152] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Crashing in 8..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[14Jun2024 10:27:37.154] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Crashing in 7..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[14Jun2024 10:27:38.156] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Crashing in 6..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "[14Jun2024 10:27:39.203] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Crashing in 5..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "[14Jun2024 10:27:40.205] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Crashing in 4..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "[14Jun2024 10:27:41.251] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Crashing in 3..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "[14Jun2024 10:27:42.253] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Crashing in 2..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "[14Jun2024 10:27:43.255] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] [Debug]: Crashing in 1..."
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "[14Jun2024 10:27:44.217] [Render thread\/WARN] [oshi.util.FileUtil\/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:\/\/\/home\/julian\/.local\/share\/PrismLauncher\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties, jar:file:\/home\/julian\/.local\/share\/PrismLauncher\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties, jar:file:\/\/\/home\/julian\/.local\/share\/PrismLauncher\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties, jar:file:\/home\/julian\/.local\/share\/PrismLauncher\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "[14Jun2024 10:27:44.408] [Render thread\/ERROR] [net.minecraft.client.Minecraft\/FATAL]: Reported exception thrown!"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "net.minecraft.ReportedException: Manually triggered debug crash"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "at TRANSFORMER\/minecraft@1.21\/net.minecraft.client.KeyboardHandler.tick(KeyboardHandler.java:536) ~[forge-1.21-51.0.5-client.jar:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "at TRANSFORMER\/minecraft@1.21\/net.minecraft.client.Minecraft.tick(Minecraft.java:1894) ~[forge-1.21-51.0.5-client.jar:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "at TRANSFORMER\/minecraft@1.21\/net.minecraft.client.Minecraft.runTick(Minecraft.java:1146) ~[forge-1.21-51.0.5-client.jar:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "at TRANSFORMER\/minecraft@1.21\/net.minecraft.client.Minecraft.run(Minecraft.java:795) ~[forge-1.21-51.0.5-client.jar:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "at TRANSFORMER\/minecraft@1.21\/net.minecraft.client.main.Main.main(Main.java:228) ~[minecraft-1.21-client.jar:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "at java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "at java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "at SECURE-BOOTSTRAP\/net.minecraftforge.fmlloader@1.21-51.0.5\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:91) ~[fmlloader-1.21-51.0.5.jar!\/:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "at SECURE-BOOTSTRAP\/net.minecraftforge.fmlloader@1.21-51.0.5\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:75) ~[fmlloader-1.21-51.0.5.jar!\/:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "at SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.1.jar!\/:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "at SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.1.jar!\/:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "at SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.1.jar!\/:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "at SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.1.jar!\/:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "at SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.1.jar!\/:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "at net.minecraftforge.bootstrap@2.1.3\/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.3.jar!\/:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "at java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "at java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.3.jar:2.1.3]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.3.jar:2.1.3]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.3.jar:2.1.3]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "at java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "at java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) [ForgeWrapper-prism-2024-02-29.jar:prism-2024-02-29]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:100) [NewLaunch.jar:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) [NewLaunch.jar:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) [NewLaunch.jar:?]"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "Caused by: java.lang.Throwable: Manually triggered debug crash"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "at TRANSFORMER\/minecraft@1.21\/net.minecraft.client.KeyboardHandler.tick(KeyboardHandler.java:533) ~[forge-1.21-51.0.5-client.jar:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "... 25 more"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 159,
+                    "content": "[14Jun2024 10:27:44.535] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "[14Jun2024 10:27:44.536] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "[14Jun2024 10:27:44.541] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "[14Jun2024 10:27:44.890] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Saving chunks for level 'ServerLevel[New World]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "[14Jun2024 10:27:45.094] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Saving chunks for level 'ServerLevel[New World]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "[14Jun2024 10:27:45.097] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Saving chunks for level 'ServerLevel[New World]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "[14Jun2024 10:27:45.124] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: ThreadedAnvilChunkStorage (New World): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "[14Jun2024 10:27:45.124] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "[14Jun2024 10:27:45.124] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "[14Jun2024 10:27:45.124] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "[14Jun2024 10:27:45.597] [Render thread\/FATAL] [net.minecraftforge.common.ForgeMod\/]: Preparing crash report with UUID 312bc941-7214-4d11-9973-61b795fadf2f"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "[14Jun2024 10:27:45.601] [Render thread\/FATAL] [net.minecraftforge.common.ForgeMod\/]:---- Minecraft Crash Report ----"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "\/\/ Hi. I'm Minecraft, and I'm a crashaholic."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 172,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Time:",
+            "lines": [
+                {
+                    "number": 173,
+                    "content": "Time: 2024-06-14 10:27:45"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Description:",
+            "lines": [
+                {
+                    "number": 174,
+                    "content": "Description: Manually triggered debug crash"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 175,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 176,
+                    "content": "java.lang.Throwable: Manually triggered debug crash"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 177,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.KeyboardHandler.tick(KeyboardHandler.java:533) ~[forge-1.21-51.0.5-client.jar:?] {re:classloading,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 178,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.Minecraft.tick(Minecraft.java:1894) ~[forge-1.21-51.0.5-client.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 179,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.Minecraft.runTick(Minecraft.java:1146) ~[forge-1.21-51.0.5-client.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 180,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.Minecraft.run(Minecraft.java:795) ~[forge-1.21-51.0.5-client.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 181,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.main.Main.main(Main.java:228) ~[minecraft-1.21-client.jar:?] {re:classloading,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 182,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 183,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 184,
+                    "content": "\tat SECURE-BOOTSTRAP\/net.minecraftforge.fmlloader@1.21-51.0.5\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:91) ~[fmlloader-1.21-51.0.5.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 185,
+                    "content": "\tat SECURE-BOOTSTRAP\/net.minecraftforge.fmlloader@1.21-51.0.5\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:75) ~[fmlloader-1.21-51.0.5.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 186,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 187,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 188,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 189,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 191,
+                    "content": "\tat net.minecraftforge.bootstrap@2.1.3\/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.3.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 192,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 193,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 194,
+                    "content": "\tat net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.3.jar:2.1.3] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 195,
+                    "content": "\tat net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.3.jar:2.1.3] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 196,
+                    "content": "\tat net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.3.jar:2.1.3] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 197,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 198,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 199,
+                    "content": "\tat io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) [ForgeWrapper-prism-2024-02-29.jar:prism-2024-02-29] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 200,
+                    "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:100) [NewLaunch.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 201,
+                    "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) [NewLaunch.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 202,
+                    "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70) [NewLaunch.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 203,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 204,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 205,
+                    "content": "A detailed walkthrough of the error, its code path and all known details is as follows:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 206,
+                    "content": "---------------------------------------------------------------------------------------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 207,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 208,
+                    "content": "-- Head --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Thread:",
+            "lines": [
+                {
+                    "number": 209,
+                    "content": "Thread: Render thread"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Suspected Mods:",
+            "lines": [
+                {
+                    "number": 210,
+                    "content": "Suspected Mods: NONE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 211,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 212,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.KeyboardHandler.tick(KeyboardHandler.java:533) ~[forge-1.21-51.0.5-client.jar!\/:?] {re:classloading,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 213,
+                    "content": "-- Manual crash details --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 214,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModules:",
+            "lines": [
+                {
+                    "number": 215,
+                    "content": "\tModules:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 216,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 217,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.KeyboardHandler.tick(KeyboardHandler.java:533) ~[forge-1.21-51.0.5-client.jar:?] {re:classloading,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 218,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.Minecraft.tick(Minecraft.java:1894) ~[forge-1.21-51.0.5-client.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 219,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.Minecraft.runTick(Minecraft.java:1146) ~[forge-1.21-51.0.5-client.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 220,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.Minecraft.run(Minecraft.java:795) ~[forge-1.21-51.0.5-client.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 221,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.main.Main.main(Main.java:228) ~[minecraft-1.21-client.jar:?] {re:classloading,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 222,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 223,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 224,
+                    "content": "\tat SECURE-BOOTSTRAP\/net.minecraftforge.fmlloader@1.21-51.0.5\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:91) ~[fmlloader-1.21-51.0.5.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 225,
+                    "content": "\tat SECURE-BOOTSTRAP\/net.minecraftforge.fmlloader@1.21-51.0.5\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:75) ~[fmlloader-1.21-51.0.5.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 226,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 227,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 228,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 229,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 230,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 231,
+                    "content": "\tat net.minecraftforge.bootstrap@2.1.3\/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.3.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 232,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 233,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 234,
+                    "content": "\tat net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.3.jar:2.1.3] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 235,
+                    "content": "\tat net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.3.jar:2.1.3] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 236,
+                    "content": "\tat net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.3.jar:2.1.3] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 237,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 238,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 239,
+                    "content": "\tat io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) [ForgeWrapper-prism-2024-02-29.jar:prism-2024-02-29] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 240,
+                    "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:100) [NewLaunch.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 241,
+                    "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) [NewLaunch.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 242,
+                    "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70) [NewLaunch.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 243,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 244,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 245,
+                    "content": "-- Uptime --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 246,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJVM uptime:",
+            "lines": [
+                {
+                    "number": 247,
+                    "content": "\tJVM uptime: 95.404s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tWall uptime:",
+            "lines": [
+                {
+                    "number": 248,
+                    "content": "\tWall uptime: 76.579s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tHigh-res time:",
+            "lines": [
+                {
+                    "number": 249,
+                    "content": "\tHigh-res time: 80.148s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tClient ticks:",
+            "lines": [
+                {
+                    "number": 250,
+                    "content": "\tClient ticks: 1247 ticks \/ 62.350s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 251,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 252,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.Minecraft.fillReport(Minecraft.java:2376) ~[forge-1.21-51.0.5-client.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 253,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:856) ~[forge-1.21-51.0.5-client.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 254,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[forge-1.21-51.0.5-client.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 255,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21\/net.minecraft.client.main.Main.main(Main.java:228) ~[minecraft-1.21-client.jar:?] {re:classloading,pl:runtimedistcleaner:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 256,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 257,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 258,
+                    "content": "\tat SECURE-BOOTSTRAP\/net.minecraftforge.fmlloader@1.21-51.0.5\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:91) ~[fmlloader-1.21-51.0.5.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 259,
+                    "content": "\tat SECURE-BOOTSTRAP\/net.minecraftforge.fmlloader@1.21-51.0.5\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:75) ~[fmlloader-1.21-51.0.5.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 260,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 261,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 262,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 263,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 264,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.1\/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.1.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 265,
+                    "content": "\tat net.minecraftforge.bootstrap@2.1.3\/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.3.jar!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 266,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 267,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 268,
+                    "content": "\tat net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.3.jar:2.1.3] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 269,
+                    "content": "\tat net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.3.jar:2.1.3] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 270,
+                    "content": "\tat net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.3.jar:2.1.3] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 271,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 272,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 273,
+                    "content": "\tat io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) [ForgeWrapper-prism-2024-02-29.jar:prism-2024-02-29] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 274,
+                    "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:100) [NewLaunch.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 275,
+                    "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) [NewLaunch.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 276,
+                    "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70) [NewLaunch.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 277,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 278,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 279,
+                    "content": "-- Affected level --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 280,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tAll players:",
+            "lines": [
+                {
+                    "number": 281,
+                    "content": "\tAll players: 1 total; [LocalPlayer['NutellaGolem'\/7, l='ClientLevel', x=52.50, y=63.00, z=-55.50]]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tChunk stats:",
+            "lines": [
+                {
+                    "number": 282,
+                    "content": "\tChunk stats: 961, 609"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel dimension:",
+            "lines": [
+                {
+                    "number": 283,
+                    "content": "\tLevel dimension: minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel spawn location:",
+            "lines": [
+                {
+                    "number": 284,
+                    "content": "\tLevel spawn location: World: (43,63,-60), Section: (at 11,15,4 in 2,3,-4; chunk contains blocks 32,-64,-64 to 47,319,-49), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel time:",
+            "lines": [
+                {
+                    "number": 285,
+                    "content": "\tLevel time: 750 game time, 750 day time"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tServer brand:",
+            "lines": [
+                {
+                    "number": 286,
+                    "content": "\tServer brand: forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tServer type:",
+            "lines": [
+                {
+                    "number": 287,
+                    "content": "\tServer type: Integrated singleplayer server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tTracked entity count:",
+            "lines": [
+                {
+                    "number": 288,
+                    "content": "\tTracked entity count: 150"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 289,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 290,
+                    "content": "-- Last reload --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 291,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tReload number:",
+            "lines": [
+                {
+                    "number": 292,
+                    "content": "\tReload number: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tReload reason:",
+            "lines": [
+                {
+                    "number": 293,
+                    "content": "\tReload reason: initial"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFinished:",
+            "lines": [
+                {
+                    "number": 294,
+                    "content": "\tFinished: Yes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tPacks:",
+            "lines": [
+                {
+                    "number": 295,
+                    "content": "\tPacks: vanilla, mod_resources"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 296,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 297,
+                    "content": "-- System Details --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 298,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version:",
+            "lines": [
+                {
+                    "number": 299,
+                    "content": "\tMinecraft Version: 1.21"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version ID:",
+            "lines": [
+                {
+                    "number": 300,
+                    "content": "\tMinecraft Version ID: 1.21"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tOperating System:",
+            "lines": [
+                {
+                    "number": 301,
+                    "content": "\tOperating System: Linux (amd64) version 6.8.11-300.fc40.x86_64"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava Version:",
+            "lines": [
+                {
+                    "number": 302,
+                    "content": "\tJava Version: 21.0.3, Red Hat, Inc."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava VM Version:",
+            "lines": [
+                {
+                    "number": 303,
+                    "content": "\tJava VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Red Hat, Inc."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory:",
+            "lines": [
+                {
+                    "number": 304,
+                    "content": "\tMemory: 854734896 bytes (815 MiB) \/ 2118123520 bytes (2020 MiB) up to 4294967296 bytes (4096 MiB)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCPUs:",
+            "lines": [
+                {
+                    "number": 305,
+                    "content": "\tCPUs: 20"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Vendor:",
+            "lines": [
+                {
+                    "number": 306,
+                    "content": "\tProcessor Vendor: GenuineIntel"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Name:",
+            "lines": [
+                {
+                    "number": 307,
+                    "content": "\tProcessor Name: 12th Gen Intel(R) Core(TM) i9-12900HK"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIdentifier:",
+            "lines": [
+                {
+                    "number": 308,
+                    "content": "\tIdentifier: Intel64 Family 6 Model 154 Stepping 3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMicroarchitecture:",
+            "lines": [
+                {
+                    "number": 309,
+                    "content": "\tMicroarchitecture: Alder Lake"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFrequency (GHz):",
+            "lines": [
+                {
+                    "number": 310,
+                    "content": "\tFrequency (GHz): -0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical packages:",
+            "lines": [
+                {
+                    "number": 311,
+                    "content": "\tNumber of physical packages: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical CPUs:",
+            "lines": [
+                {
+                    "number": 312,
+                    "content": "\tNumber of physical CPUs: 14"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of logical CPUs:",
+            "lines": [
+                {
+                    "number": 313,
+                    "content": "\tNumber of logical CPUs: 20"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 name:",
+            "lines": [
+                {
+                    "number": 314,
+                    "content": "\tGraphics card #0 name: Alder Lake-P GT2 [Iris Xe Graphics]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 vendor:",
+            "lines": [
+                {
+                    "number": 315,
+                    "content": "\tGraphics card #0 vendor: Intel Corporation (0x8086)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 VRAM (MiB):",
+            "lines": [
+                {
+                    "number": 316,
+                    "content": "\tGraphics card #0 VRAM (MiB): 256.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 deviceId:",
+            "lines": [
+                {
+                    "number": 317,
+                    "content": "\tGraphics card #0 deviceId: 0x46a6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 versionInfo:",
+            "lines": [
+                {
+                    "number": 318,
+                    "content": "\tGraphics card #0 versionInfo: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory max (MiB):",
+            "lines": [
+                {
+                    "number": 319,
+                    "content": "\tVirtual memory max (MiB): 40174.53"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory used (MiB):",
+            "lines": [
+                {
+                    "number": 320,
+                    "content": "\tVirtual memory used (MiB): 18634.68"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory total (MiB):",
+            "lines": [
+                {
+                    "number": 321,
+                    "content": "\tSwap memory total (MiB): 8192.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory used (MiB):",
+            "lines": [
+                {
+                    "number": 322,
+                    "content": "\tSwap memory used (MiB): 0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 323,
+                    "content": "\tSpace in storage for jna.tmpdir (MiB): <path not set>"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 324,
+                    "content": "\tSpace in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 325,
+                    "content": "\tSpace in storage for io.netty.native.workdir (MiB): <path not set>"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 326,
+                    "content": "\tSpace in storage for java.io.tmpdir (MiB): available: 31939.64, total: 31982.54"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for workdir (MiB):",
+            "lines": [
+                {
+                    "number": 327,
+                    "content": "\tSpace in storage for workdir (MiB): available: 810444.19, total: 975121.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJVM Flags:",
+            "lines": [
+                {
+                    "number": 328,
+                    "content": "\tJVM Flags: 2 total; -Xms512m -Xmx4096m"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLaunched Version:",
+            "lines": [
+                {
+                    "number": 329,
+                    "content": "\tLaunched Version: 1.21"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLauncher name:",
+            "lines": [
+                {
+                    "number": 330,
+                    "content": "\tLauncher name: PrismLauncher"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tBackend library:",
+            "lines": [
+                {
+                    "number": 331,
+                    "content": "\tBackend library: LWJGL version 3.3.3+5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tBackend API:",
+            "lines": [
+                {
+                    "number": 332,
+                    "content": "\tBackend API: NVIDIA GeForce RTX 3050 Ti Laptop GPU\/PCIe\/SSE2 GL version 4.6.0 NVIDIA 550.78, NVIDIA Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tWindow size:",
+            "lines": [
+                {
+                    "number": 333,
+                    "content": "\tWindow size: 3840x2230"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGFLW Platform:",
+            "lines": [
+                {
+                    "number": 334,
+                    "content": "\tGFLW Platform: x11"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGL Caps:",
+            "lines": [
+                {
+                    "number": 335,
+                    "content": "\tGL Caps: Using framebuffer using OpenGL 3.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGL debug messages:",
+            "lines": [
+                {
+                    "number": 336,
+                    "content": "\tGL debug messages:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIs Modded:",
+            "lines": [
+                {
+                    "number": 337,
+                    "content": "\tIs Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tUniverse:",
+            "lines": [
+                {
+                    "number": 338,
+                    "content": "\tUniverse: 400921fb54442d18"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tType:",
+            "lines": [
+                {
+                    "number": 339,
+                    "content": "\tType: Integrated Server (map_client.txt)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics mode:",
+            "lines": [
+                {
+                    "number": 340,
+                    "content": "\tGraphics mode: fancy"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tRender Distance:",
+            "lines": [
+                {
+                    "number": 341,
+                    "content": "\tRender Distance: 12\/12 chunks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tResource Packs:",
+            "lines": [
+                {
+                    "number": 342,
+                    "content": "\tResource Packs: vanilla, mod_resources"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCurrent Language:",
+            "lines": [
+                {
+                    "number": 343,
+                    "content": "\tCurrent Language: en_us"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLocale:",
+            "lines": [
+                {
+                    "number": 344,
+                    "content": "\tLocale: en_US"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSystem encoding:",
+            "lines": [
+                {
+                    "number": 345,
+                    "content": "\tSystem encoding: UTF-8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFile encoding:",
+            "lines": [
+                {
+                    "number": 346,
+                    "content": "\tFile encoding: UTF-8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCPU:",
+            "lines": [
+                {
+                    "number": 347,
+                    "content": "\tCPU: 20x 12th Gen Intel(R) Core(TM) i9-12900HK"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tServer Running:",
+            "lines": [
+                {
+                    "number": 348,
+                    "content": "\tServer Running: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tPlayer Count:",
+            "lines": [
+                {
+                    "number": 349,
+                    "content": "\tPlayer Count: 1 \/ 8; [ServerPlayer['NutellaGolem'\/7, l='ServerLevel[New World]', x=52.50, y=63.00, z=-55.50]]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tActive Data Packs:",
+            "lines": [
+                {
+                    "number": 350,
+                    "content": "\tActive Data Packs: vanilla, mod:forge (incompatible)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tAvailable Data Packs:",
+            "lines": [
+                {
+                    "number": 351,
+                    "content": "\tAvailable Data Packs: bundle, mod:forge (incompatible), trade_rebalance, vanilla"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEnabled Feature Flags:",
+            "lines": [
+                {
+                    "number": 352,
+                    "content": "\tEnabled Feature Flags: minecraft:vanilla"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tWorld Generation:",
+            "lines": [
+                {
+                    "number": 353,
+                    "content": "\tWorld Generation: Stable"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tWorld Seed:",
+            "lines": [
+                {
+                    "number": 354,
+                    "content": "\tWorld Seed: -3240324607513877059"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher:",
+            "lines": [
+                {
+                    "number": 355,
+                    "content": "\tModLauncher: 10.2.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher launch target:",
+            "lines": [
+                {
+                    "number": 356,
+                    "content": "\tModLauncher launch target: forge_client"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher naming:",
+            "lines": [
+                {
+                    "number": 357,
+                    "content": "\tModLauncher naming: mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher services:",
+            "lines": [
+                {
+                    "number": 358,
+                    "content": "\tModLauncher services:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 359,
+                    "content": "\t\t\/ slf4jfixer PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 360,
+                    "content": "\t\t\/ runtimedistcleaner PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 361,
+                    "content": "\t\t\/ runtime_enum_extender PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 362,
+                    "content": "\t\t\/ object_holder_definalize PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 363,
+                    "content": "\t\t\/ capability_token_subclass PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 364,
+                    "content": "\t\t\/ accesstransformer PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 365,
+                    "content": "\t\t\/ eventbus PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 366,
+                    "content": "\t\t\/ mixin PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 367,
+                    "content": "\t\t\/ fml TRANSFORMATIONSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 368,
+                    "content": "\t\t\/ mixin TRANSFORMATIONSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFML Language Providers:",
+            "lines": [
+                {
+                    "number": 369,
+                    "content": "\tFML Language Providers:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 370,
+                    "content": "\t\tlowcodefml@51"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 371,
+                    "content": "\t\tminecraft@1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 372,
+                    "content": "\t\tjavafml@51.0.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMod List:",
+            "lines": [
+                {
+                    "number": 373,
+                    "content": "\tMod List:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 374,
+                    "content": "\t\tforge-1.21-51.0.5-client.jar                      |Minecraft                     |minecraft                     |1.21                |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 375,
+                    "content": "\t\tforge-1.21-51.0.5-universal.jar                   |Forge                         |forge                         |51.0.5              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCrash Report UUID:",
+            "lines": [
+                {
+                    "number": 376,
+                    "content": "\tCrash Report UUID: e937efc9-8168-4f9d-ac65-22f2297339c9"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFML:",
+            "lines": [
+                {
+                    "number": 377,
+                    "content": "\tFML: 0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tForge:",
+            "lines": [
+                {
+                    "number": 378,
+                    "content": "\tForge: net.minecraftforge:51.0.5"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.21",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tMinecraft Version:",
+                    "lines": [
+                        {
+                            "number": 299,
+                            "content": "\tMinecraft Version: 1.21"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21"
+            },
+            {
+                "message": "Java version: 21.0.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tJava Version:",
+                    "lines": [
+                        {
+                            "number": 302,
+                            "content": "\tJava Version: 21.0.3, Red Hat, Inc."
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "21.0.3"
+            },
+            {
+                "message": "Forge version: 51.0.5",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tForge:",
+                    "lines": [
+                        {
+                            "number": 378,
+                            "content": "\tForge: net.minecraftforge:51.0.5"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "51.0.5"
+            }
+        ]
+    }
+}

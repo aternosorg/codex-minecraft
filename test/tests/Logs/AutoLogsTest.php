@@ -978,6 +978,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_forge_log_crash_report(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-log-crash-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_forge_missing_mods_exception_2(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-missing-mods-exception-2.log');

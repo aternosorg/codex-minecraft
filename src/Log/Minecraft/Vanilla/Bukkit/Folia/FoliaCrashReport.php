@@ -21,6 +21,6 @@ class FoliaCrashReport extends FoliaLog implements CrashReportLogTypeInterface
      */
     public static function getDetectors(): array
     {
-        return [(new SinglePatternDetector())->setPattern("/^---- Minecraft Crash Report ----(\n.*)*\n\s+Running: Folia version git-Folia/m")];
+        return [(new SinglePatternDetector())->setPattern("/---- Minecraft Crash Report ----(\n.*)*\n\s+Running: Folia version git-Folia/m")];
     }
 }
