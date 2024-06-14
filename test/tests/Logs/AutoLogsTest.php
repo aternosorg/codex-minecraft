@@ -868,6 +868,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_forge_1_7_10_client(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-1-7-10-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_forge_1165(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-1165.log');

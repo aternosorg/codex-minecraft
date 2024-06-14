@@ -917,6 +917,23 @@
         ],
         "information": [
             {
+                "message": "Minecraft version: 1.12.2",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[00:04:43] [main\/INFO] [FML]:",
+                    "lines": [
+                        {
+                            "number": 5,
+                            "content": "[00:04:43] [main\/INFO] [FML]: Forge Mod Loader version 14.23.5.2814 for Minecraft 1.12.2 loading"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.12.2"
+            },
+            {
                 "message": "Magma version: e2b9ab6",
                 "counter": 1,
                 "entry": {
@@ -932,23 +949,6 @@
                 },
                 "label": "Magma version",
                 "value": "e2b9ab6"
-            },
-            {
-                "message": "Minecraft version: 1.12.2",
-                "counter": 1,
-                "entry": {
-                    "level": 6,
-                    "time": null,
-                    "prefix": "[00:05:11] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
-                    "lines": [
-                        {
-                            "number": 7,
-                            "content": "[00:05:11] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2"
-                        }
-                    ]
-                },
-                "label": "Minecraft version",
-                "value": "1.12.2"
             },
             {
                 "message": "Forge version: 14.23.5.2814",

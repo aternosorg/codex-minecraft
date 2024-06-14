@@ -35,4 +35,9 @@ class ForgeVersionInformation extends ForgeInformation
             '/--fml\.forgeVersion, ('. static::$versionPattern .')/'
         ];
     }
+
+    public static function getVersionPattern(): string
+    {
+        return static::$versionPattern;
+    }
 }

@@ -1388,15 +1388,15 @@
         "information": [
             {
                 "message": "Minecraft version: 1.12.2",
-                "counter": 1,
+                "counter": 2,
                 "entry": {
                     "level": 6,
                     "time": null,
-                    "prefix": "[16:48:56] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]:",
+                    "prefix": "[16:48:17] [main\/INFO] [FML]:",
                     "lines": [
                         {
-                            "number": 18,
-                            "content": "[16:48:56] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2"
+                            "number": 4,
+                            "content": "[16:48:17] [main\/INFO] [FML]: Forge Mod Loader version 14.23.5.2811 for Minecraft 1.12.2 loading"
                         }
                     ]
                 },
