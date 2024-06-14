@@ -2,8 +2,8 @@
     "id": "forge\/server",
     "name": "Forge",
     "type": "Server Log",
-    "version": null,
-    "title": "Forge Server Log",
+    "version": "1.7.10",
+    "title": "Forge 1.7.10 Server Log",
     "entries": [
         {
             "level": 7,
@@ -3455,6 +3455,23 @@
             }
         ],
         "information": [
+            {
+                "message": "Minecraft version: 1.7.10",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[22:32:20] [main\/INFO] [FML\/]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[22:32:20] [main\/INFO] [FML\/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.7.10"
+            },
             {
                 "message": "Forge version: 10.13.4.1614",
                 "counter": 1,

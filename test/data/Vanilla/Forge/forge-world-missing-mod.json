@@ -2,8 +2,8 @@
     "id": "forge\/server",
     "name": "Forge",
     "type": "Server Log",
-    "version": null,
-    "title": "Forge Server Log",
+    "version": "1.8.9",
+    "title": "Forge 1.8.9 Server Log",
     "entries": [
         {
             "level": 7,
@@ -3796,6 +3796,23 @@
             }
         ],
         "information": [
+            {
+                "message": "Minecraft version: 1.8.9",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[21:32:33] [main\/INFO] [FML\/]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[21:32:33] [main\/INFO] [FML\/]: Forge Mod Loader version 11.15.1.2318 for Minecraft 1.8.9 loading"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.8.9"
+            },
             {
                 "message": "Forge version: 11.15.1.2318",
                 "counter": 1,

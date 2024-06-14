@@ -2,8 +2,8 @@
     "id": "forge\/server",
     "name": "Forge",
     "type": "Server Log",
-    "version": null,
-    "title": "Forge Server Log",
+    "version": "1.10.2",
+    "title": "Forge 1.10.2 Server Log",
     "entries": [
         {
             "level": 7,
@@ -5643,6 +5643,23 @@
             }
         ],
         "information": [
+            {
+                "message": "Minecraft version: 1.10.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[13:41:25] [main\/INFO] [FML\/]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[13:41:25] [main\/INFO] [FML\/]: Forge Mod Loader version 12.18.3.2511 for Minecraft 1.10.2 loading"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.10.2"
+            },
             {
                 "message": "Forge version: 12.18.3.2511",
                 "counter": 1,
