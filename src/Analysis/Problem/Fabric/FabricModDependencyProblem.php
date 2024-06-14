@@ -37,12 +37,12 @@ class FabricModDependencyProblem extends FabricModProblem
     public static function getPatterns(): array
     {
         return [
-            'short-error' => '/net\.fabricmc\.loader\.discovery\.ModResolutionException: Could not find required mod: '. static::$modNamePattern .' requires {'. static::$modIDPattern .' @ \[([^\]]+)\]}/',
-            'any' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version of (?:mod )?". static::$modIDPattern .",/",
-            'minimum' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires version ([^ ]+) or later of (?:mod )?". static::$modIDPattern .",/",
-            'any-after' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version after ([^ ]+) of (?:mod )?". static::$modIDPattern .",/",
-            'any-before' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version before ([^ ]+) of (?:mod )?". static::$modIDPattern .",/",
-            'specific' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires version ([^ ]+) of (?:mod )?". static::$modIDPattern .",/",
+            'short-error' => '/net\.fabricmc\.loader\.discovery\.ModResolutionException: Could not find required mod: '. static::$modNamePattern .' requires {'. static::$modNamePattern .' @ \[([^\]]+)\]}/',
+            'any' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version of (?:mod )?". static::$modNamePattern .",/",
+            'minimum' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires version ([^ ]+) or later of (?:mod )?". static::$modNamePattern .",/",
+            'any-after' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version after ([^ ]+) of (?:mod )?". static::$modNamePattern .",/",
+            'any-before' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version before ([^ ]+) of (?:mod )?". static::$modNamePattern .",/",
+            'specific' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires version ([^ ]+) of (?:mod )?". static::$modNamePattern .",/",
             'between' => "/\s*- Mod ". static::$modNamePattern ."(?: [^ ]+)? requires any version between ([^ ]+) \((inclusive|exclusive)\) and ([^ ]+) \((inclusive|exclusive)\) of (?:mod )?". static::$modNamePattern .",/"
         ];
     }
@@ -59,17 +59,17 @@ class FabricModDependencyProblem extends FabricModProblem
         switch ($patternKey) {
             case 'short-error':
                 $this->setModName($matches[2]);
-                $this->setDependency($matches[3]);
+                $this->setDependency($matches[empty($matches[3]) ? 4 : 3]);
                 $solution = (new ModInstallSolution())->setModName($this->getDependency());
-                if ($matches[4] != '*') {
-                    $solution->setModVersion($matches[4]);
+                if ($matches[5] != '*') {
+                    $solution->setModVersion($matches[5]);
                 }
                 $this->addSolution($solution);
                 return;
 
             case 'any':
                 $this->setModName($matches[1]);
-                $this->setDependency($matches[3]);
+                $this->setDependency($matches[empty($matches[3]) ? 4 : 3]);
                 $this->addSolution((new ModInstallSolution())->setModName($this->getDependency()));
                 return;
 
@@ -103,7 +103,7 @@ class FabricModDependencyProblem extends FabricModProblem
         }
 
         $this->setModName($matches[1]);
-        $this->setDependency($matches[4]);
+        $this->setDependency($matches[empty($matches[4]) ? 5 : 4]);
         $this->addSolution((new ModInstallSolution())->setModName($this->getDependency())->setModVersion($symbol . $matches[3]));
     }
 

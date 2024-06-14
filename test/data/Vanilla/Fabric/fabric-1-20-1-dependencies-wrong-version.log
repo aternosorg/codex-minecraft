@@ -1,0 +1,22 @@
+[11:37:10] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.23
+[11:37:10] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[11:37:10] [main/WARN]: Mod resolution failed
+[11:37:10] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE indium 1.0.27+mc1.20.1 {depends sodium @ [0.5.3]}, ROOT_FORCELOAD_SINGLE indium 1.0.27+mc1.20.1]
+[11:37:10] [main/INFO]: Reason: [HARD_DEP indium 1.0.27+mc1.20.1 {depends sodium @ [0.5.3]}, HARD_DEP indium 1.0.27+mc1.20.1 {depends fabric-renderer-api-v1 @ [>=3.2.0]}]
+[11:37:10] [main/INFO]: Fix: add [], remove [], replace [[indium 1.0.27+mc1.20.1] -> add:indium 1 ([(-∞,∞)])]
+[11:37:10] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Replace mod 'Indium' (indium) 1.0.27+mc1.20.1 with any version that is compatible with:
+		 - sodium 0.4.10+build.27
+More details:
+	 - Mod 'Indium' (indium) 1.0.27+mc1.20.1 requires version 0.5.3 of mod 'Sodium' (sodium), but only the wrong version is present: 0.4.10+build.27!
+	 - Mod 'Indium' (indium) 1.0.27+mc1.20.1 requires version 3.2.0 or later of fabric-renderer-api-v1, which is missing!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:194) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.23.jar:?]
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:100) ~[?:?]
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?]
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?]

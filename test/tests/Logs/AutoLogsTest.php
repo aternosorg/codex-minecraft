@@ -558,6 +558,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_1_20_1_dependencies_wrong_version(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-1-20-1-dependencies-wrong-version.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_1165_origins(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-1165-origins.log');
