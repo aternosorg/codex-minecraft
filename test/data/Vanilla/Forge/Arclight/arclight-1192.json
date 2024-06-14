@@ -2893,6 +2893,23 @@
                 "value": "43.1.55"
             },
             {
+                "message": "Java version: 17.0.4.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[05Dec2022 05:20:00.558] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 14,
+                            "content": "[05Dec2022 05:20:00.558] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.4.1 by Eclipse Adoptium; OS Linux arch amd64 version 5.4.0-91-generic"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17.0.4.1"
+            },
+            {
                 "message": "Arclight version: b8adaaba",
                 "counter": 1,
                 "entry": {

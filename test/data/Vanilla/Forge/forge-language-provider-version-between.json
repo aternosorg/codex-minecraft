@@ -795,6 +795,23 @@
                 },
                 "label": "Forge version",
                 "value": "47.2.0"
+            },
+            {
+                "message": "Java version: 17.0.10",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[05Apr2024 11:46:47.928] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[05Apr2024 11:46:47.928] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.0-94-generic"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17.0.10"
             }
         ]
     }

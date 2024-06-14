@@ -233,6 +233,23 @@
                 },
                 "label": "Forge version",
                 "value": "39.1.0"
+            },
+            {
+                "message": "Java version: 17.0.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[20:14:29] [main\/INFO] [cp.mo.mo.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[20:14:29] [main\/INFO] [cp.mo.mo.Launcher\/MODLAUNCHER]: ModLauncher 9.1.0+9.1.0+main.6690ee51 starting: java version 17.0.2 by Oracle Corporation"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17.0.2"
             }
         ]
     }

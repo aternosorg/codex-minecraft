@@ -25,7 +25,7 @@ class ForgeJavaVersionInformation extends ForgeInformation
      */
     public static function getPatterns(): array
     {
-        return ['/\[cpw\.mods\.modlauncher\.Launcher\/MODLAUNCHER\]: ModLauncher(?: [\w\.+]+)? starting: java version ([0-9\._]+) by Oracle Corporation/'];
+        return ['/\[[^\]]+\]: ModLauncher(?: [\w\.+]+)? starting: java version ([0-9\._]+) by/'];
     }
 
 }
