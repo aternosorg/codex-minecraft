@@ -11,7 +11,7 @@ use Aternos\Codex\Minecraft\Log\Type\CrashReportLogTypeInterface;
  *
  * @package Aternos\Codex\Minecraft\Log\Minecraft\Vanilla
  */
-class VanillaCrashReportLog extends VanillaLog implements CrashReportLogTypeInterface
+class VanillaCrashReportLog extends VanillaReportLog implements CrashReportLogTypeInterface
 {
     use VanillaCrashReportTrait;
 

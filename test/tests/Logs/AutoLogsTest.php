@@ -1258,6 +1258,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_neoforge_1_20_4_server_early(): void
+    {
+        $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-4-server-early.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_neoforge_1_20_4_server_report(): void
     {
         $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-4-server-report.log');
@@ -1371,6 +1381,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_vanilla_malformed_encoding(): void
     {
         $log = new TestLog('Vanilla/vanilla-malformed-encoding.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_vanilla_network_protocol_error_report(): void
+    {
+        $log = new TestLog('Vanilla/vanilla-network-protocol-error-report.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 

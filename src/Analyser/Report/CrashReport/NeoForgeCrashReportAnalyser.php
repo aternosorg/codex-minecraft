@@ -1,6 +1,6 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analyser\CrashReport;
+namespace Aternos\Codex\Minecraft\Analyser\Report\CrashReport;
 
 use Aternos\Codex\Minecraft\Analysis\Information\NeoForge\NeoForgeVersionInformation;
 

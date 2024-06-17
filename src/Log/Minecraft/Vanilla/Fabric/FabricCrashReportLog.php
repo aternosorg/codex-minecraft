@@ -4,8 +4,8 @@ namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric;
 
 use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
-use Aternos\Codex\Minecraft\Analyser\CrashReport\FabricCrashReportAnalyser;
-use Aternos\Codex\Minecraft\Analyser\CrashReport\MinecraftCrashReportAnalyser;
+use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\FabricCrashReportAnalyser;
+use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\MinecraftCrashReportAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaCrashReportTrait;
 use Aternos\Codex\Minecraft\Log\Type\CrashReportLogTypeInterface;
 

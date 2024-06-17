@@ -10,7 +10,7 @@ use Aternos\Codex\Minecraft\Log\Entry;
  *
  * @package Aternos\Codex\Minecraft\Parser
  */
-class CrashReportParser extends \Aternos\Codex\Parser\Parser
+class ReportParser extends \Aternos\Codex\Parser\Parser
 {
     const LEVEL_INFO = "info";
     const LEVEL_WARNING = "warn";
@@ -42,13 +42,13 @@ class CrashReportParser extends \Aternos\Codex\Parser\Parser
             foreach (static::PATTERN as $level => $patterns) {
                 foreach ($patterns as $pattern) {
                     if (preg_match($pattern, $lineString, $matches)) {
-                        $entry->setLevel(CrashReportLevel::fromString($level));
+                        $entry->setLevel(ReportLevel::fromString($level));
                         if (isset($matches[1])) {
                             $entry->setPrefix($matches[1]);
                         }
                         continue 3;
                     }
-                    $entry->setLevel(CrashReportLevel::fromString(static::DEFAULT_LEVEL));
+                    $entry->setLevel(ReportLevel::fromString(static::DEFAULT_LEVEL));
                 }
             }
         }

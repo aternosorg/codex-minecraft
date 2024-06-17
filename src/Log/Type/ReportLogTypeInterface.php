@@ -3,11 +3,11 @@
 namespace Aternos\Codex\Minecraft\Log\Type;
 
 /**
- * Interface CrashReportLogTypeInterface
+ * Interface ReportLogTypeInterface
  *
  * @package Aternos\Codex\Minecraft\Log\Type
  */
-interface CrashReportLogTypeInterface extends ReportLogTypeInterface
+interface ReportLogTypeInterface
 {
 
 }

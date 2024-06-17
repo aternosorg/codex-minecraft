@@ -83,6 +83,7 @@
   "type-proxy": "Proxy Log",
   "type-content": "Content Log",
   "type-crash-report": "Crash Report",
+  "type-network-protocol-error-report": "Network Protocol Error Report",
   "type-unknown": "Unknown Log",
   "forge-language-provider-version-problem": "The mod '{{mod-file}}' requires '{{required-version}}', but '{{found-version}}' is installed."
 }
