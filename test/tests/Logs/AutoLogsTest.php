@@ -98,66 +98,6 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_CustomSkinLoader_12_6(): void
-    {
-        $log = new TestLog('CustomSkinLoader/CustomSkinLoader_12_6.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_CustomSkinLoader_14_11(): void
-    {
-        $log = new TestLog('CustomSkinLoader/CustomSkinLoader_14_11.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_CustomSkinLoader_14_13(): void
-    {
-        $log = new TestLog('CustomSkinLoader/CustomSkinLoader_14_13.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_CustomSkinLoader_14_19(): void
-    {
-        $log = new TestLog('CustomSkinLoader/CustomSkinLoader_14_19.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_CustomSkinLoader_14_6a(): void
-    {
-        $log = new TestLog('CustomSkinLoader/CustomSkinLoader_14_6a.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_CustomSkinLoader_14_9(): void
-    {
-        $log = new TestLog('CustomSkinLoader/CustomSkinLoader_14_9.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
     public function test_custom_skin_loader_1_19_3_snapshot(): void
     {
         $log = new TestLog('CustomSkinLoader/custom-skin-loader-1-19-3-snapshot.log');
@@ -171,6 +111,66 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_custom_skin_loader_1_19_3(): void
     {
         $log = new TestLog('CustomSkinLoader/custom-skin-loader-1-19-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_custom_skin_loader_12_6(): void
+    {
+        $log = new TestLog('CustomSkinLoader/custom-skin-loader-12-6.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_custom_skin_loader_14_11(): void
+    {
+        $log = new TestLog('CustomSkinLoader/custom-skin-loader-14-11.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_custom_skin_loader_14_13(): void
+    {
+        $log = new TestLog('CustomSkinLoader/custom-skin-loader-14-13.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_custom_skin_loader_14_19(): void
+    {
+        $log = new TestLog('CustomSkinLoader/custom-skin-loader-14-19.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_custom_skin_loader_14_6a(): void
+    {
+        $log = new TestLog('CustomSkinLoader/custom-skin-loader-14-6a.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_custom_skin_loader_14_9(): void
+    {
+        $log = new TestLog('CustomSkinLoader/custom-skin-loader-14-9.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
