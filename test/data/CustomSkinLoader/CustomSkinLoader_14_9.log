@@ -1,0 +1,493 @@
+[2024-02-21 06:31:47] [pool-3-thread-1 INFO] CustomSkinLoader 14.9
+[2024-02-21 06:31:47] [pool-3-thread-1 INFO] DataDir: /storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader
+[2024-02-21 06:31:47] [pool-3-thread-1 INFO] Minecraft: null(梦幻大陆 梦幻大陆)
+[2024-02-21 06:31:47] [pool-3-thread-1 INFO] Config File: /storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/CustomSkinLoader.json
+[2024-02-21 06:31:47] [pool-3-thread-1 INFO] Try to load config.
+[2024-02-21 06:31:47] [pool-3-thread-1 INFO] Successfully load config.
+[2024-02-21 06:31:47] [pool-3-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
+[2024-02-21 06:31:47] [Mo_BaiCha INFO] Loading Mo_BaiCha's profile.
+[2024-02-21 06:31:47] [Mo_BaiCha INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:31:47] [Mo_BaiCha DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/Mo_BaiCha'.
+[2024-02-21 06:31:48] [Mo_BaiCha DEBUG] Failed to request (Response Code: 404)
+[2024-02-21 06:31:48] [Mo_BaiCha INFO] Profile not found.(Mo_BaiCha's profile not found.)
+[2024-02-21 06:31:48] [Mo_BaiCha INFO] 2/6 Try to load profile from 'LittleSkin'.
+[2024-02-21 06:31:48] [Mo_BaiCha DEBUG] Try to request 'https://littleskin.cn/Mo_BaiCha.json'.
+[2024-02-21 06:31:58] [Mo_BaiCha DEBUG] Failed to request (Exception: javax.net.ssl.SSLException: Read timed out)
+[2024-02-21 06:31:58] [Mo_BaiCha INFO] Profile not found.
+[2024-02-21 06:31:58] [Mo_BaiCha INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2024-02-21 06:31:58] [Mo_BaiCha DEBUG] Try to request 'http://skin.prinzeugen.net/Mo_BaiCha.json'.
+[2024-02-21 06:31:59] [Mo_BaiCha DEBUG] Successfully request (Response Code: 301 , Content Length: -1)
+[2024-02-21 06:31:59] [Mo_BaiCha DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/396b3bf7ea5f39f23a4bfba46afd490aa7a84530' , Expire: 1708500719)
+[2024-02-21 06:31:59] [Mo_BaiCha DEBUG] Content: 
+[2024-02-21 06:31:59] [Mo_BaiCha INFO] Profile not found.
+[2024-02-21 06:31:59] [Mo_BaiCha INFO] 4/6 Try to load profile from 'ElyBy'.
+[2024-02-21 06:31:59] [Mo_BaiCha DEBUG] Try to request 'http://skinsystem.ely.by/textures/Mo_BaiCha?version=2&minecraft_version=null'.
+[2024-02-21 06:31:59] [Mo_BaiCha DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2024-02-21 06:31:59] [Mo_BaiCha DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/2b08dc18e4e64ac77787bdee0e61d9b26a03f1a8' , Expire: 1708497211)
+[2024-02-21 06:31:59] [Mo_BaiCha DEBUG] Content: 
+[2024-02-21 06:31:59] [Mo_BaiCha INFO] Profile not found.
+[2024-02-21 06:31:59] [Mo_BaiCha INFO] 5/6 Try to load profile from 'SkinMe'.
+[2024-02-21 06:31:59] [Mo_BaiCha DEBUG] Try to request 'http://www.skinme.cc/uniskin/Mo_BaiCha.json'.
+[2024-02-21 06:31:59] [Mo_BaiCha DEBUG] Failed to request (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-02-21 06:31:59] [Mo_BaiCha INFO] Profile not found.
+[2024-02-21 06:31:59] [Mo_BaiCha INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2024-02-21 06:31:59] [Mo_BaiCha INFO] Both skin and cape not found.
+[2024-02-21 06:31:59] [Mo_BaiCha INFO] Mo_BaiCha's profile not found in load list.
+[2024-02-21 06:32:02] [lqwql INFO] Loading lqwql's profile.
+[2024-02-21 06:32:02] [lqwql INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:32:02] [lqwql DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/lqwql'.
+[2024-02-21 06:32:03] [lqwql DEBUG] Successfully request (Response Code: 200 , Content Length: 67)
+[2024-02-21 06:32:03] [lqwql DEBUG] Saved to cache (Length: 67 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/9eb07854eccf848ea48fe151ae117caad93a1e6e' , Expire: 1708497183)
+[2024-02-21 06:32:03] [lqwql DEBUG] Content: {
+  "id" : "92951de851f9459b9d9b77741713e3a3",
+  "name" : "lQwQl"
+}
+[2024-02-21 06:32:03] [lqwql DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/92951de851f9459b9d9b77741713e3a3'.
+[2024-02-21 06:32:04] [lqwql DEBUG] Successfully request (Response Code: 200 , Content Length: 719)
+[2024-02-21 06:32:04] [lqwql DEBUG] Saved to cache (Length: 719 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/aa0c5a13b2bd032118ae07ca1a6ffe801e77c4e8' , Expire: 1708497154)
+[2024-02-21 06:32:04] [lqwql DEBUG] Content: {
+  "id" : "92951de851f9459b9d9b77741713e3a3",
+  "name" : "lQwQl",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ5NzEyNTMzOCwKICAicHJvZmlsZUlkIiA6ICI5Mjk1MWRlODUxZjk0NTliOWQ5Yjc3NzQxNzEzZTNhMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJsUXdRbCIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZWY5MzI1N2VjOGY5MDE1YmQ5ZmM4MGViMWM5ZjhmZWYyYWNiZTM1YjUwNGJmMDE1YWY0NzcxMTgxNGU2NTNlIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ=="
+  } ],
+  "profileActions" : [ ]
+}
+[2024-02-21 06:32:04] [lqwql INFO] lqwql's profile loaded.
+[2024-02-21 06:32:04] [lqwql INFO] (SkinUrl: http://textures.minecraft.net/texture/bef93257ec8f9015bd9fc80eb1c9f8fef2acbe35b504bf015af47711814e653e , Model: default , CapeUrl: http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933  , Expiry: 1708497157)
+[2024-02-21 06:32:35] [鹿屿9527 INFO] Loading 鹿屿9527's profile.
+[2024-02-21 06:32:35] [鹿屿9527 INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:32:35] [鹿屿9527 DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/鹿屿9527'.
+[2024-02-21 06:32:35] [鹿屿9527 DEBUG] Encoded URL: https://api.mojang.com/users/profiles/minecraft/%E9%B9%BF%E5%B1%BF9527
+[2024-02-21 06:32:35] [鹿屿9527 DEBUG] Failed to request (Response Code: 400)
+[2024-02-21 06:32:35] [鹿屿9527 INFO] Profile not found.(鹿屿9527's profile not found.)
+[2024-02-21 06:32:35] [鹿屿9527 INFO] 2/6 Try to load profile from 'LittleSkin'.
+[2024-02-21 06:32:35] [鹿屿9527 DEBUG] Try to request 'https://littleskin.cn/鹿屿9527.json'.
+[2024-02-21 06:32:35] [鹿屿9527 DEBUG] Encoded URL: https://littleskin.cn/%E9%B9%BF%E5%B1%BF9527.json
+[2024-02-21 06:32:46] [鹿屿9527 DEBUG] Failed to request (Exception: javax.net.ssl.SSLException: Read timed out)
+[2024-02-21 06:32:46] [鹿屿9527 INFO] Profile not found.
+[2024-02-21 06:32:46] [鹿屿9527 INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2024-02-21 06:32:46] [鹿屿9527 DEBUG] Try to request 'http://skin.prinzeugen.net/鹿屿9527.json'.
+[2024-02-21 06:32:46] [鹿屿9527 DEBUG] Encoded URL: http://skin.prinzeugen.net/%E9%B9%BF%E5%B1%BF9527.json
+[2024-02-21 06:32:46] [鹿屿9527 DEBUG] Successfully request (Response Code: 301 , Content Length: -1)
+[2024-02-21 06:32:46] [鹿屿9527 DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/55368062181b2b6db5492ffb378b8a7efdb80571' , Expire: 1708500766)
+[2024-02-21 06:32:46] [鹿屿9527 DEBUG] Content: 
+[2024-02-21 06:32:46] [鹿屿9527 INFO] Profile not found.
+[2024-02-21 06:32:46] [鹿屿9527 INFO] 4/6 Try to load profile from 'ElyBy'.
+[2024-02-21 06:32:46] [鹿屿9527 DEBUG] Try to request 'http://skinsystem.ely.by/textures/鹿屿9527?version=2&minecraft_version=null'.
+[2024-02-21 06:32:46] [鹿屿9527 DEBUG] Encoded URL: http://skinsystem.ely.by/textures/%E9%B9%BF%E5%B1%BF9527?version=2&minecraft_version=null
+[2024-02-21 06:32:47] [鹿屿9527 DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2024-02-21 06:32:47] [鹿屿9527 DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/bb2ddd6f338bb9f272689c8f876a7ec9aacba6cb' , Expire: 1708497260)
+[2024-02-21 06:32:47] [鹿屿9527 DEBUG] Content: 
+[2024-02-21 06:32:47] [鹿屿9527 INFO] Profile not found.
+[2024-02-21 06:32:47] [鹿屿9527 INFO] 5/6 Try to load profile from 'SkinMe'.
+[2024-02-21 06:32:47] [鹿屿9527 DEBUG] Try to request 'http://www.skinme.cc/uniskin/鹿屿9527.json'.
+[2024-02-21 06:32:47] [鹿屿9527 DEBUG] Encoded URL: http://www.skinme.cc/uniskin/%E9%B9%BF%E5%B1%BF9527.json
+[2024-02-21 06:32:47] [鹿屿9527 DEBUG] Failed to request (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-02-21 06:32:47] [鹿屿9527 INFO] Profile not found.
+[2024-02-21 06:32:47] [鹿屿9527 INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2024-02-21 06:32:47] [鹿屿9527 INFO] Both skin and cape not found.
+[2024-02-21 06:32:47] [鹿屿9527 INFO] 鹿屿9527's profile not found in load list.
+[2024-02-21 06:33:49] [幼儿园校长 INFO] Loading 幼儿园校长's profile.
+[2024-02-21 06:33:49] [幼儿园校长 INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:33:49] [幼儿园校长 DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/幼儿园校长'.
+[2024-02-21 06:33:49] [幼儿园校长 DEBUG] Encoded URL: https://api.mojang.com/users/profiles/minecraft/%E5%B9%BC%E5%84%BF%E5%9B%AD%E6%A0%A1%E9%95%BF
+[2024-02-21 06:33:50] [幼儿园校长 DEBUG] Failed to request (Response Code: 400)
+[2024-02-21 06:33:50] [幼儿园校长 INFO] Profile not found.(幼儿园校长's profile not found.)
+[2024-02-21 06:33:50] [幼儿园校长 INFO] 2/6 Try to load profile from 'LittleSkin'.
+[2024-02-21 06:33:50] [幼儿园校长 DEBUG] Try to request 'https://littleskin.cn/幼儿园校长.json'.
+[2024-02-21 06:33:50] [幼儿园校长 DEBUG] Encoded URL: https://littleskin.cn/%E5%B9%BC%E5%84%BF%E5%9B%AD%E6%A0%A1%E9%95%BF.json
+[2024-02-21 06:34:00] [幼儿园校长 DEBUG] Failed to request (Exception: java.net.SocketTimeoutException: connect timed out)
+[2024-02-21 06:34:00] [幼儿园校长 INFO] Profile not found.
+[2024-02-21 06:34:00] [幼儿园校长 INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2024-02-21 06:34:00] [幼儿园校长 DEBUG] Try to request 'http://skin.prinzeugen.net/幼儿园校长.json'.
+[2024-02-21 06:34:00] [幼儿园校长 DEBUG] Encoded URL: http://skin.prinzeugen.net/%E5%B9%BC%E5%84%BF%E5%9B%AD%E6%A0%A1%E9%95%BF.json
+[2024-02-21 06:34:01] [幼儿园校长 DEBUG] Successfully request (Response Code: 301 , Content Length: -1)
+[2024-02-21 06:34:01] [幼儿园校长 DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/8129b324e84b8230f8622ef40ed88349f0115360' , Expire: 1708500841)
+[2024-02-21 06:34:01] [幼儿园校长 DEBUG] Content: 
+[2024-02-21 06:34:01] [幼儿园校长 INFO] Profile not found.
+[2024-02-21 06:34:01] [幼儿园校长 INFO] 4/6 Try to load profile from 'ElyBy'.
+[2024-02-21 06:34:01] [幼儿园校长 DEBUG] Try to request 'http://skinsystem.ely.by/textures/幼儿园校长?version=2&minecraft_version=null'.
+[2024-02-21 06:34:01] [幼儿园校长 DEBUG] Encoded URL: http://skinsystem.ely.by/textures/%E5%B9%BC%E5%84%BF%E5%9B%AD%E6%A0%A1%E9%95%BF?version=2&minecraft_version=null
+[2024-02-21 06:34:01] [幼儿园校长 DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2024-02-21 06:34:01] [幼儿园校长 DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/4cb238f1c9576793e57ae3fbb0aefcdc9cc667e5' , Expire: 1708497331)
+[2024-02-21 06:34:01] [幼儿园校长 DEBUG] Content: 
+[2024-02-21 06:34:01] [幼儿园校长 INFO] Profile not found.
+[2024-02-21 06:34:01] [幼儿园校长 INFO] 5/6 Try to load profile from 'SkinMe'.
+[2024-02-21 06:34:01] [幼儿园校长 DEBUG] Try to request 'http://www.skinme.cc/uniskin/幼儿园校长.json'.
+[2024-02-21 06:34:01] [幼儿园校长 DEBUG] Encoded URL: http://www.skinme.cc/uniskin/%E5%B9%BC%E5%84%BF%E5%9B%AD%E6%A0%A1%E9%95%BF.json
+[2024-02-21 06:34:02] [幼儿园校长 DEBUG] Failed to request (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-02-21 06:34:02] [幼儿园校长 INFO] Profile not found.
+[2024-02-21 06:34:02] [幼儿园校长 INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2024-02-21 06:34:02] [幼儿园校长 INFO] Both skin and cape not found.
+[2024-02-21 06:34:02] [幼儿园校长 INFO] 幼儿园校长's profile not found in load list.
+[2024-02-21 06:34:02] [xiaopa INFO] Loading xiaopa's profile.
+[2024-02-21 06:34:02] [xiaopa INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:34:02] [xiaopa DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/xiaopa'.
+[2024-02-21 06:34:02] [xiaopa DEBUG] Cache file found (Length: 68 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/e304f14f3ff33b9b72bd376d38784493956b338d' , Expire: 0')
+[2024-02-21 06:34:02] [xiaopa INFO] Try to load from cache '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/e304f14f3ff33b9b72bd376d38784493956b338d'.
+[2024-02-21 06:34:02] [xiaopa DEBUG] Successfully load from cache
+[2024-02-21 06:34:02] [xiaopa DEBUG] Content: {
+  "id" : "ebd5b17a61f646e88ee0c8f77b2a58ee",
+  "name" : "xiaopa"
+}
+[2024-02-21 06:34:02] [xiaopa DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/ebd5b17a61f646e88ee0c8f77b2a58ee'.
+[2024-02-21 06:34:02] [xiaopa DEBUG] Successfully request (Response Code: 200 , Content Length: 532)
+[2024-02-21 06:34:02] [xiaopa DEBUG] Saved to cache (Length: 532 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/796d73b352f875ce5fa37fdd4c04199de0d82684' , Expire: 1708497272)
+[2024-02-21 06:34:02] [xiaopa DEBUG] Content: {
+  "id" : "ebd5b17a61f646e88ee0c8f77b2a58ee",
+  "name" : "xiaopa",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ5NzI0Mzc5OSwKICAicHJvZmlsZUlkIiA6ICJlYmQ1YjE3YTYxZjY0NmU4OGVlMGM4Zjc3YjJhNThlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4aWFvcGEiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E0ODRmYmY3MTJiZGU4ODUyMmI1YzQxOWE4MDM5NTgyNzA4OTQ2NGIzMGVlYzk4MTdlNTlmNzY1MzJlMzFjYiIKICAgIH0KICB9Cn0="
+  } ],
+  "profileActions" : [ ]
+}
+[2024-02-21 06:34:02] [xiaopa INFO] xiaopa's profile loaded.
+[2024-02-21 06:34:02] [xiaopa INFO] (SkinUrl: http://textures.minecraft.net/texture/3a484fbf712bde88522b5c419a80395827089464b30eec9817e59f76532e31cb , Model: default , CapeUrl: null  , Expiry: 1708497272)
+[2024-02-21 06:34:02] [xuanxuan050624 INFO] Loading xuanxuan050624's profile.
+[2024-02-21 06:34:02] [xuanxuan050624 INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:34:02] [xuanxuan050624 DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/xuanxuan050624'.
+[2024-02-21 06:34:03] [xuanxuan050624 DEBUG] Failed to request (Response Code: 404)
+[2024-02-21 06:34:03] [xuanxuan050624 INFO] Profile not found.(xuanxuan050624's profile not found.)
+[2024-02-21 06:34:03] [xuanxuan050624 INFO] 2/6 Try to load profile from 'LittleSkin'.
+[2024-02-21 06:34:03] [xuanxuan050624 DEBUG] Try to request 'https://littleskin.cn/xuanxuan050624.json'.
+[2024-02-21 06:34:13] [xuanxuan050624 DEBUG] Failed to request (Exception: javax.net.ssl.SSLException: Read timed out)
+[2024-02-21 06:34:13] [xuanxuan050624 INFO] Profile not found.
+[2024-02-21 06:34:13] [xuanxuan050624 INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2024-02-21 06:34:13] [xuanxuan050624 DEBUG] Try to request 'http://skin.prinzeugen.net/xuanxuan050624.json'.
+[2024-02-21 06:34:14] [xuanxuan050624 DEBUG] Successfully request (Response Code: 301 , Content Length: -1)
+[2024-02-21 06:34:14] [xuanxuan050624 DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/e80617897b519468a79c43f9b33625e9f49df012' , Expire: 1708500854)
+[2024-02-21 06:34:14] [xuanxuan050624 DEBUG] Content: 
+[2024-02-21 06:34:14] [xuanxuan050624 INFO] Profile not found.
+[2024-02-21 06:34:14] [xuanxuan050624 INFO] 4/6 Try to load profile from 'ElyBy'.
+[2024-02-21 06:34:14] [xuanxuan050624 DEBUG] Try to request 'http://skinsystem.ely.by/textures/xuanxuan050624?version=2&minecraft_version=null'.
+[2024-02-21 06:34:14] [xuanxuan050624 DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2024-02-21 06:34:14] [xuanxuan050624 DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/a97f788654a72a8b8fcf7b67aa855535330c6bab' , Expire: 1708497347)
+[2024-02-21 06:34:14] [xuanxuan050624 DEBUG] Content: 
+[2024-02-21 06:34:14] [xuanxuan050624 INFO] Profile not found.
+[2024-02-21 06:34:14] [xuanxuan050624 INFO] 5/6 Try to load profile from 'SkinMe'.
+[2024-02-21 06:34:14] [xuanxuan050624 DEBUG] Try to request 'http://www.skinme.cc/uniskin/xuanxuan050624.json'.
+[2024-02-21 06:34:15] [xuanxuan050624 DEBUG] Failed to request (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-02-21 06:34:15] [xuanxuan050624 INFO] Profile not found.
+[2024-02-21 06:34:15] [xuanxuan050624 INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2024-02-21 06:34:15] [xuanxuan050624 INFO] Both skin and cape not found.
+[2024-02-21 06:34:15] [xuanxuan050624 INFO] xuanxuan050624's profile not found in load list.
+[2024-02-21 06:34:15] [ckkkk INFO] Loading ckkkk's profile.
+[2024-02-21 06:34:15] [ckkkk INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:34:15] [ckkkk DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/ckkkk'.
+[2024-02-21 06:34:15] [ckkkk DEBUG] Failed to request (Response Code: 404)
+[2024-02-21 06:34:15] [ckkkk INFO] Profile not found.(ckkkk's profile not found.)
+[2024-02-21 06:34:15] [ckkkk INFO] 2/6 Try to load profile from 'LittleSkin'.
+[2024-02-21 06:34:15] [ckkkk DEBUG] Try to request 'https://littleskin.cn/ckkkk.json'.
+[2024-02-21 06:34:25] [ckkkk DEBUG] Failed to request (Exception: java.net.SocketTimeoutException: connect timed out)
+[2024-02-21 06:34:25] [ckkkk INFO] Profile not found.
+[2024-02-21 06:34:25] [ckkkk INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2024-02-21 06:34:25] [ckkkk DEBUG] Try to request 'http://skin.prinzeugen.net/ckkkk.json'.
+[2024-02-21 06:34:26] [ckkkk DEBUG] Successfully request (Response Code: 301 , Content Length: -1)
+[2024-02-21 06:34:26] [ckkkk DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/d683c93da50f05b52295b228a23250bf47635e1d' , Expire: 1708500866)
+[2024-02-21 06:34:26] [ckkkk DEBUG] Content: 
+[2024-02-21 06:34:26] [ckkkk INFO] Profile not found.
+[2024-02-21 06:34:26] [ckkkk INFO] 4/6 Try to load profile from 'ElyBy'.
+[2024-02-21 06:34:26] [ckkkk DEBUG] Try to request 'http://skinsystem.ely.by/textures/ckkkk?version=2&minecraft_version=null'.
+[2024-02-21 06:34:26] [ckkkk DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2024-02-21 06:34:26] [ckkkk DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/a692c1b97ee52a36dbf0ec19db7a3432e792aa05' , Expire: 1708497359)
+[2024-02-21 06:34:26] [ckkkk DEBUG] Content: 
+[2024-02-21 06:34:27] [ckkkk INFO] Profile not found.
+[2024-02-21 06:34:27] [ckkkk INFO] 5/6 Try to load profile from 'SkinMe'.
+[2024-02-21 06:34:27] [ckkkk DEBUG] Try to request 'http://www.skinme.cc/uniskin/ckkkk.json'.
+[2024-02-21 06:34:27] [ckkkk DEBUG] Failed to request (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-02-21 06:34:27] [ckkkk INFO] Profile not found.
+[2024-02-21 06:34:27] [ckkkk INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2024-02-21 06:34:27] [ckkkk INFO] Both skin and cape not found.
+[2024-02-21 06:34:27] [ckkkk INFO] ckkkk's profile not found in load list.
+[2024-02-21 06:34:27] [Y_ci INFO] Loading Y_ci's profile.
+[2024-02-21 06:34:27] [Y_ci INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:34:27] [Y_ci DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/Y_ci'.
+[2024-02-21 06:34:27] [Y_ci DEBUG] Failed to request (Response Code: 404)
+[2024-02-21 06:34:27] [Y_ci INFO] Profile not found.(Y_ci's profile not found.)
+[2024-02-21 06:34:27] [Y_ci INFO] 2/6 Try to load profile from 'LittleSkin'.
+[2024-02-21 06:34:27] [Y_ci DEBUG] Try to request 'https://littleskin.cn/Y_ci.json'.
+[2024-02-21 06:34:45] [Y_ci DEBUG] Failed to request (Exception: javax.net.ssl.SSLException: Read timed out)
+[2024-02-21 06:34:45] [Y_ci INFO] Profile not found.
+[2024-02-21 06:34:45] [Y_ci INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2024-02-21 06:34:45] [Y_ci DEBUG] Try to request 'http://skin.prinzeugen.net/Y_ci.json'.
+[2024-02-21 06:34:45] [Y_ci DEBUG] Successfully request (Response Code: 301 , Content Length: -1)
+[2024-02-21 06:34:45] [Y_ci DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/0176d9404377e6309164a827b629997150982b2d' , Expire: 1708500885)
+[2024-02-21 06:34:45] [Y_ci DEBUG] Content: 
+[2024-02-21 06:34:45] [Y_ci INFO] Profile not found.
+[2024-02-21 06:34:45] [Y_ci INFO] 4/6 Try to load profile from 'ElyBy'.
+[2024-02-21 06:34:45] [Y_ci DEBUG] Try to request 'http://skinsystem.ely.by/textures/Y_ci?version=2&minecraft_version=null'.
+[2024-02-21 06:34:46] [Y_ci DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2024-02-21 06:34:46] [Y_ci DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/beab54683af42e3594430aaace29ecf79a7ec438' , Expire: 1708497380)
+[2024-02-21 06:34:46] [Y_ci DEBUG] Content: 
+[2024-02-21 06:34:46] [Y_ci INFO] Profile not found.
+[2024-02-21 06:34:46] [Y_ci INFO] 5/6 Try to load profile from 'SkinMe'.
+[2024-02-21 06:34:46] [Y_ci DEBUG] Try to request 'http://www.skinme.cc/uniskin/Y_ci.json'.
+[2024-02-21 06:34:46] [Y_ci DEBUG] Failed to request (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-02-21 06:34:46] [Y_ci INFO] Profile not found.
+[2024-02-21 06:34:46] [Y_ci INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2024-02-21 06:34:46] [Y_ci INFO] Both skin and cape not found.
+[2024-02-21 06:34:46] [Y_ci INFO] Y_ci's profile not found in load list.
+[2024-02-21 06:34:46] [nuch INFO] Loading nuch's profile.
+[2024-02-21 06:34:46] [nuch INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:34:46] [nuch DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/nuch'.
+[2024-02-21 06:34:46] [nuch DEBUG] Cache file found (Length: 66 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/15fd78c334b2a4a08a87fa92da16b1622c7a3b92' , Expire: 0')
+[2024-02-21 06:34:46] [nuch INFO] Try to load from cache '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/15fd78c334b2a4a08a87fa92da16b1622c7a3b92'.
+[2024-02-21 06:34:46] [nuch DEBUG] Successfully load from cache
+[2024-02-21 06:34:46] [nuch DEBUG] Content: {
+  "id" : "2afb65c7898f48359483aee36f6d79e8",
+  "name" : "Nuch"
+}
+[2024-02-21 06:34:46] [nuch DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/2afb65c7898f48359483aee36f6d79e8'.
+[2024-02-21 06:34:46] [nuch DEBUG] Successfully request (Response Code: 200 , Content Length: 526)
+[2024-02-21 06:34:46] [nuch DEBUG] Saved to cache (Length: 526 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/fb1dd194e710f7835139ddb24c8ab069e372dbc9' , Expire: 1708497316)
+[2024-02-21 06:34:46] [nuch DEBUG] Content: {
+  "id" : "2afb65c7898f48359483aee36f6d79e8",
+  "name" : "Nuch",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ5NzI4Nzk1NywKICAicHJvZmlsZUlkIiA6ICIyYWZiNjVjNzg5OGY0ODM1OTQ4M2FlZTM2ZjZkNzllOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJOdWNoIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU2YzJjNDQ2MjY2ZWUyODM0ODlmY2YyODI5ZjBmNWEzM2QwZWZhODNhMDExM2UyYzlkOWRlY2EwOGE2NjcyZjYiCiAgICB9CiAgfQp9"
+  } ],
+  "profileActions" : [ ]
+}
+[2024-02-21 06:34:46] [nuch INFO] nuch's profile loaded.
+[2024-02-21 06:34:46] [nuch INFO] (SkinUrl: http://textures.minecraft.net/texture/56c2c446266ee283489fcf2829f0f5a33d0efa83a0113e2c9d9deca08a6672f6 , Model: default , CapeUrl: null  , Expiry: 1708497319)
+[2024-02-21 06:34:46] [mohan INFO] Loading mohan's profile.
+[2024-02-21 06:34:46] [mohan INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:34:46] [mohan DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/mohan'.
+[2024-02-21 06:34:46] [mohan DEBUG] Cache file found (Length: 67 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/78717e7a3eca5340a5b5195adc72ec4a610ddeba' , Expire: 0')
+[2024-02-21 06:34:46] [mohan INFO] Try to load from cache '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/78717e7a3eca5340a5b5195adc72ec4a610ddeba'.
+[2024-02-21 06:34:46] [mohan DEBUG] Successfully load from cache
+[2024-02-21 06:34:46] [mohan DEBUG] Content: {
+  "id" : "7e72f2c5636647ff94a5adaf796d8e6b",
+  "name" : "Mohan"
+}
+[2024-02-21 06:34:46] [mohan DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/7e72f2c5636647ff94a5adaf796d8e6b'.
+[2024-02-21 06:34:47] [mohan DEBUG] Successfully request (Response Code: 200 , Content Length: 531)
+[2024-02-21 06:34:47] [mohan DEBUG] Saved to cache (Length: 531 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/28ca8b6031d0532e4e809ae329e40544d37f7e66' , Expire: 1708497317)
+[2024-02-21 06:34:47] [mohan DEBUG] Content: {
+  "id" : "7e72f2c5636647ff94a5adaf796d8e6b",
+  "name" : "Mohan",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ5NzI4ODI2MCwKICAicHJvZmlsZUlkIiA6ICI3ZTcyZjJjNTYzNjY0N2ZmOTRhNWFkYWY3OTZkOGU2YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb2hhbiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kOWZmZWZkZDY1MGMyMTI5OGRhMTcyNzgwODZhOWZhNjgyOTIxY2NjMjFiZGQ5OTZmNTRkZmYxNWFjMzFjMzU5IgogICAgfQogIH0KfQ=="
+  } ],
+  "profileActions" : [ ]
+}
+[2024-02-21 06:34:47] [mohan INFO] mohan's profile loaded.
+[2024-02-21 06:34:47] [mohan INFO] (SkinUrl: http://textures.minecraft.net/texture/d9ffefdd650c21298da17278086a9fa682921ccc21bdd996f54dff15ac31c359 , Model: default , CapeUrl: null  , Expiry: 1708497320)
+[2024-02-21 06:34:47] [hwy INFO] Loading hwy's profile.
+[2024-02-21 06:34:47] [hwy INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:34:47] [hwy DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/hwy'.
+[2024-02-21 06:34:47] [hwy DEBUG] Cache file found (Length: 65 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/1ed20662ab1d128f3cf9335332642ef1ef0f1bed' , Expire: 0')
+[2024-02-21 06:34:47] [hwy INFO] Try to load from cache '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/1ed20662ab1d128f3cf9335332642ef1ef0f1bed'.
+[2024-02-21 06:34:47] [hwy DEBUG] Successfully load from cache
+[2024-02-21 06:34:47] [hwy DEBUG] Content: {
+  "id" : "cc3b0e0c889840a689e3edf4b917039d",
+  "name" : "Hwy"
+}
+[2024-02-21 06:34:47] [hwy DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/cc3b0e0c889840a689e3edf4b917039d'.
+[2024-02-21 06:34:47] [hwy DEBUG] Successfully request (Response Code: 200 , Content Length: 525)
+[2024-02-21 06:34:47] [hwy DEBUG] Saved to cache (Length: 525 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/6e40bae166be619a76e6c9cc435e19047f140cd4' , Expire: 1708497317)
+[2024-02-21 06:34:47] [hwy DEBUG] Content: {
+  "id" : "cc3b0e0c889840a689e3edf4b917039d",
+  "name" : "Hwy",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ5NzI4ODY1NiwKICAicHJvZmlsZUlkIiA6ICJjYzNiMGUwYzg4OTg0MGE2ODllM2VkZjRiOTE3MDM5ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJId3kiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQwM2VlYjI5MTc3YTdjMmM4ZjExODE1MTcxMTgyMzIzNmQ1NzE5YzE1OTU4YzA3MTE3MTRlYmM5YjlkNmU0MiIKICAgIH0KICB9Cn0="
+  } ],
+  "profileActions" : [ ]
+}
+[2024-02-21 06:34:47] [hwy INFO] hwy's profile loaded.
+[2024-02-21 06:34:47] [hwy INFO] (SkinUrl: http://textures.minecraft.net/texture/2403eeb29177a7c2c8f118151711823236d5719c15958c0711714ebc9b9d6e42 , Model: default , CapeUrl: null  , Expiry: 1708497320)
+[2024-02-21 06:34:47] [33longs INFO] Loading 33longs's profile.
+[2024-02-21 06:34:47] [33longs INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:34:47] [33longs DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/33longs'.
+[2024-02-21 06:34:48] [33longs DEBUG] Failed to request (Response Code: 404)
+[2024-02-21 06:34:48] [33longs INFO] Profile not found.(33longs's profile not found.)
+[2024-02-21 06:34:48] [33longs INFO] 2/6 Try to load profile from 'LittleSkin'.
+[2024-02-21 06:34:48] [33longs DEBUG] Try to request 'https://littleskin.cn/33longs.json'.
+[2024-02-21 06:34:58] [33longs DEBUG] Failed to request (Exception: java.net.SocketTimeoutException: connect timed out)
+[2024-02-21 06:34:58] [33longs INFO] Profile not found.
+[2024-02-21 06:34:58] [33longs INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2024-02-21 06:34:58] [33longs DEBUG] Try to request 'http://skin.prinzeugen.net/33longs.json'.
+[2024-02-21 06:34:58] [33longs DEBUG] Successfully request (Response Code: 301 , Content Length: -1)
+[2024-02-21 06:34:58] [33longs DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/517546800291177ebf9d6ac796242a58247e7827' , Expire: 1708500898)
+[2024-02-21 06:34:58] [33longs DEBUG] Content: 
+[2024-02-21 06:34:58] [33longs INFO] Profile not found.
+[2024-02-21 06:34:58] [33longs INFO] 4/6 Try to load profile from 'ElyBy'.
+[2024-02-21 06:34:58] [33longs DEBUG] Try to request 'http://skinsystem.ely.by/textures/33longs?version=2&minecraft_version=null'.
+[2024-02-21 06:34:59] [33longs DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2024-02-21 06:34:59] [33longs DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/f0b5434d6b417e4e6de95114c8595a1ef512b3db' , Expire: 1708497391)
+[2024-02-21 06:34:59] [33longs DEBUG] Content: 
+[2024-02-21 06:34:59] [33longs INFO] Profile not found.
+[2024-02-21 06:34:59] [33longs INFO] 5/6 Try to load profile from 'SkinMe'.
+[2024-02-21 06:34:59] [33longs DEBUG] Try to request 'http://www.skinme.cc/uniskin/33longs.json'.
+[2024-02-21 06:34:59] [33longs DEBUG] Failed to request (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-02-21 06:34:59] [33longs INFO] Profile not found.
+[2024-02-21 06:34:59] [33longs INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2024-02-21 06:34:59] [33longs INFO] Both skin and cape not found.
+[2024-02-21 06:34:59] [33longs INFO] 33longs's profile not found in load list.
+[2024-02-21 06:34:59] [lqwql INFO] Loading lqwql's profile.
+[2024-02-21 06:34:59] [lqwql INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:34:59] [lqwql DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/lqwql'.
+[2024-02-21 06:34:59] [lqwql DEBUG] Cache file found (Length: 67 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/9eb07854eccf848ea48fe151ae117caad93a1e6e' , Expire: 0')
+[2024-02-21 06:34:59] [lqwql INFO] Try to load from cache '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/9eb07854eccf848ea48fe151ae117caad93a1e6e'.
+[2024-02-21 06:34:59] [lqwql DEBUG] Successfully load from cache
+[2024-02-21 06:34:59] [lqwql DEBUG] Content: {
+  "id" : "92951de851f9459b9d9b77741713e3a3",
+  "name" : "lQwQl"
+}
+[2024-02-21 06:34:59] [lqwql DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/92951de851f9459b9d9b77741713e3a3'.
+[2024-02-21 06:35:00] [lqwql DEBUG] Successfully request (Response Code: 200 , Content Length: 719)
+[2024-02-21 06:35:00] [lqwql DEBUG] Saved to cache (Length: 719 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/aa0c5a13b2bd032118ae07ca1a6ffe801e77c4e8' , Expire: 1708497330)
+[2024-02-21 06:35:00] [lqwql DEBUG] Content: {
+  "id" : "92951de851f9459b9d9b77741713e3a3",
+  "name" : "lQwQl",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ5NzMwMTM2OSwKICAicHJvZmlsZUlkIiA6ICI5Mjk1MWRlODUxZjk0NTliOWQ5Yjc3NzQxNzEzZTNhMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJsUXdRbCIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZWY5MzI1N2VjOGY5MDE1YmQ5ZmM4MGViMWM5ZjhmZWYyYWNiZTM1YjUwNGJmMDE1YWY0NzcxMTgxNGU2NTNlIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ=="
+  } ],
+  "profileActions" : [ ]
+}
+[2024-02-21 06:35:00] [lqwql INFO] lqwql's profile loaded.
+[2024-02-21 06:35:00] [lqwql INFO] (SkinUrl: http://textures.minecraft.net/texture/bef93257ec8f9015bd9fc80eb1c9f8fef2acbe35b504bf015af47711814e653e , Model: default , CapeUrl: http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933  , Expiry: 1708497330)
+[2024-02-21 06:35:00] [XUEREN230 INFO] Loading XUEREN230's profile.
+[2024-02-21 06:35:00] [XUEREN230 INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:35:00] [XUEREN230 DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/XUEREN230'.
+[2024-02-21 06:35:01] [XUEREN230 DEBUG] Failed to request (Response Code: 404)
+[2024-02-21 06:35:01] [XUEREN230 INFO] Profile not found.(XUEREN230's profile not found.)
+[2024-02-21 06:35:01] [XUEREN230 INFO] 2/6 Try to load profile from 'LittleSkin'.
+[2024-02-21 06:35:01] [XUEREN230 DEBUG] Try to request 'https://littleskin.cn/XUEREN230.json'.
+[2024-02-21 06:35:18] [XUEREN230 DEBUG] Failed to request (Exception: javax.net.ssl.SSLException: Read timed out)
+[2024-02-21 06:35:18] [XUEREN230 INFO] Profile not found.
+[2024-02-21 06:35:18] [XUEREN230 INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2024-02-21 06:35:18] [XUEREN230 DEBUG] Try to request 'http://skin.prinzeugen.net/XUEREN230.json'.
+[2024-02-21 06:35:19] [XUEREN230 DEBUG] Successfully request (Response Code: 301 , Content Length: -1)
+[2024-02-21 06:35:19] [XUEREN230 DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/91c31d38d8f046f590ac444e7e56f43cd0d7d42f' , Expire: 1708500919)
+[2024-02-21 06:35:19] [XUEREN230 DEBUG] Content: 
+[2024-02-21 06:35:19] [XUEREN230 INFO] Profile not found.
+[2024-02-21 06:35:19] [XUEREN230 INFO] 4/6 Try to load profile from 'ElyBy'.
+[2024-02-21 06:35:19] [XUEREN230 DEBUG] Try to request 'http://skinsystem.ely.by/textures/XUEREN230?version=2&minecraft_version=null'.
+[2024-02-21 06:35:19] [XUEREN230 DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2024-02-21 06:35:19] [XUEREN230 DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/d52c702c1673624ad7d79e04959bfdb8894f7981' , Expire: 1708497411)
+[2024-02-21 06:35:19] [XUEREN230 DEBUG] Content: 
+[2024-02-21 06:35:19] [XUEREN230 INFO] Profile not found.
+[2024-02-21 06:35:19] [XUEREN230 INFO] 5/6 Try to load profile from 'SkinMe'.
+[2024-02-21 06:35:19] [XUEREN230 DEBUG] Try to request 'http://www.skinme.cc/uniskin/XUEREN230.json'.
+[2024-02-21 06:35:19] [XUEREN230 DEBUG] Failed to request (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-02-21 06:35:19] [XUEREN230 INFO] Profile not found.
+[2024-02-21 06:35:19] [XUEREN230 INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2024-02-21 06:35:19] [XUEREN230 INFO] Both skin and cape not found.
+[2024-02-21 06:35:19] [XUEREN230 INFO] XUEREN230's profile not found in load list.
+[2024-02-21 06:35:19] [KUAN INFO] Loading KUAN's profile.
+[2024-02-21 06:35:19] [KUAN INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:35:19] [KUAN DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/KUAN'.
+[2024-02-21 06:35:19] [KUAN DEBUG] Cache file found (Length: 66 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/e9746f89efa0aa8e8acf65b52cc44a23d916c791' , Expire: 0')
+[2024-02-21 06:35:19] [KUAN INFO] Try to load from cache '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/e9746f89efa0aa8e8acf65b52cc44a23d916c791'.
+[2024-02-21 06:35:19] [KUAN DEBUG] Successfully load from cache
+[2024-02-21 06:35:19] [KUAN DEBUG] Content: {
+  "id" : "76d94822420c4632ae60eecf64bd3acc",
+  "name" : "Kuan"
+}
+[2024-02-21 06:35:19] [KUAN DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/76d94822420c4632ae60eecf64bd3acc'.
+[2024-02-21 06:35:20] [KUAN DEBUG] Successfully request (Response Code: 200 , Content Length: 526)
+[2024-02-21 06:35:20] [KUAN DEBUG] Saved to cache (Length: 526 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/55598bb4b57890ecc30b34e832f5cb19e2614b9e' , Expire: 1708497350)
+[2024-02-21 06:35:20] [KUAN DEBUG] Content: {
+  "id" : "76d94822420c4632ae60eecf64bd3acc",
+  "name" : "Kuan",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ5NzMyMTc0NiwKICAicHJvZmlsZUlkIiA6ICI3NmQ5NDgyMjQyMGM0NjMyYWU2MGVlY2Y2NGJkM2FjYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLdWFuIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMxNDRiMGM2MTRhYmMyODllMDJmMjkwZWZhZTBlOWYxZDgyYzg0ODU1MGYzZTM5YzEyMjZkODI2ZWNmZTcwZDYiCiAgICB9CiAgfQp9"
+  } ],
+  "profileActions" : [ ]
+}
+[2024-02-21 06:35:20] [KUAN INFO] KUAN's profile loaded.
+[2024-02-21 06:35:20] [KUAN INFO] (SkinUrl: http://textures.minecraft.net/texture/3144b0c614abc289e02f290efae0e9f1d82c848550f3e39c1226d826ecfe70d6 , Model: default , CapeUrl: null  , Expiry: 1708497354)
+[2024-02-21 06:35:20] [lxjyo INFO] Loading lxjyo's profile.
+[2024-02-21 06:35:20] [lxjyo INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:35:20] [lxjyo DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/lxjyo'.
+[2024-02-21 06:35:21] [lxjyo DEBUG] Failed to request (Response Code: 404)
+[2024-02-21 06:35:21] [lxjyo INFO] Profile not found.(lxjyo's profile not found.)
+[2024-02-21 06:35:21] [lxjyo INFO] 2/6 Try to load profile from 'LittleSkin'.
+[2024-02-21 06:35:21] [lxjyo DEBUG] Try to request 'https://littleskin.cn/lxjyo.json'.
+[2024-02-21 06:35:31] [lxjyo DEBUG] Failed to request (Exception: java.net.SocketTimeoutException: connect timed out)
+[2024-02-21 06:35:31] [lxjyo INFO] Profile not found.
+[2024-02-21 06:35:31] [lxjyo INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2024-02-21 06:35:31] [lxjyo DEBUG] Try to request 'http://skin.prinzeugen.net/lxjyo.json'.
+[2024-02-21 06:35:31] [lxjyo DEBUG] Successfully request (Response Code: 301 , Content Length: -1)
+[2024-02-21 06:35:31] [lxjyo DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/195eccffa8d146d9cabe620fcf9f75f9d426a63e' , Expire: 1708500931)
+[2024-02-21 06:35:31] [lxjyo DEBUG] Content: 
+[2024-02-21 06:35:31] [lxjyo INFO] Profile not found.
+[2024-02-21 06:35:31] [lxjyo INFO] 4/6 Try to load profile from 'ElyBy'.
+[2024-02-21 06:35:31] [lxjyo DEBUG] Try to request 'http://skinsystem.ely.by/textures/lxjyo?version=2&minecraft_version=null'.
+[2024-02-21 06:35:33] [lxjyo DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2024-02-21 06:35:33] [lxjyo DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/4765c912c5ba73b72388b52c2674ad5021fa45db' , Expire: 1708497426)
+[2024-02-21 06:35:33] [lxjyo DEBUG] Content: 
+[2024-02-21 06:35:33] [lxjyo INFO] Profile not found.
+[2024-02-21 06:35:33] [lxjyo INFO] 5/6 Try to load profile from 'SkinMe'.
+[2024-02-21 06:35:33] [lxjyo DEBUG] Try to request 'http://www.skinme.cc/uniskin/lxjyo.json'.
+[2024-02-21 06:35:33] [lxjyo DEBUG] Failed to request (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-02-21 06:35:33] [lxjyo INFO] Profile not found.
+[2024-02-21 06:35:33] [lxjyo INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2024-02-21 06:35:33] [lxjyo INFO] Both skin and cape not found.
+[2024-02-21 06:35:33] [lxjyo INFO] lxjyo's profile not found in load list.
+[2024-02-21 06:35:33] [本子520 INFO] Loading 本子520's profile.
+[2024-02-21 06:35:33] [本子520 INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:35:33] [本子520 DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/本子520'.
+[2024-02-21 06:35:33] [本子520 DEBUG] Encoded URL: https://api.mojang.com/users/profiles/minecraft/%E6%9C%AC%E5%AD%90520
+[2024-02-21 06:35:33] [本子520 DEBUG] Failed to request (Response Code: 400)
+[2024-02-21 06:35:33] [本子520 INFO] Profile not found.(本子520's profile not found.)
+[2024-02-21 06:35:33] [本子520 INFO] 2/6 Try to load profile from 'LittleSkin'.
+[2024-02-21 06:35:33] [本子520 DEBUG] Try to request 'https://littleskin.cn/本子520.json'.
+[2024-02-21 06:35:33] [本子520 DEBUG] Encoded URL: https://littleskin.cn/%E6%9C%AC%E5%AD%90520.json
+[2024-02-21 06:35:51] [本子520 DEBUG] Failed to request (Exception: javax.net.ssl.SSLException: Read timed out)
+[2024-02-21 06:35:51] [本子520 INFO] Profile not found.
+[2024-02-21 06:35:51] [本子520 INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2024-02-21 06:35:51] [本子520 DEBUG] Try to request 'http://skin.prinzeugen.net/本子520.json'.
+[2024-02-21 06:35:51] [本子520 DEBUG] Encoded URL: http://skin.prinzeugen.net/%E6%9C%AC%E5%AD%90520.json
+[2024-02-21 06:35:52] [本子520 DEBUG] Successfully request (Response Code: 301 , Content Length: -1)
+[2024-02-21 06:35:52] [本子520 DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/46c9deeac493ec24443ab029a093ba2846a25aa6' , Expire: 1708500952)
+[2024-02-21 06:35:52] [本子520 DEBUG] Content: 
+[2024-02-21 06:35:52] [本子520 INFO] Profile not found.
+[2024-02-21 06:35:52] [本子520 INFO] 4/6 Try to load profile from 'ElyBy'.
+[2024-02-21 06:35:52] [本子520 DEBUG] Try to request 'http://skinsystem.ely.by/textures/本子520?version=2&minecraft_version=null'.
+[2024-02-21 06:35:52] [本子520 DEBUG] Encoded URL: http://skinsystem.ely.by/textures/%E6%9C%AC%E5%AD%90520?version=2&minecraft_version=null
+[2024-02-21 06:35:52] [本子520 DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2024-02-21 06:35:52] [本子520 DEBUG] Saved to cache (Length: 0 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/e810b76294955462fde77a6a8eb3539ef2229e0b' , Expire: 1708497444)
+[2024-02-21 06:35:52] [本子520 DEBUG] Content: 
+[2024-02-21 06:35:52] [本子520 INFO] Profile not found.
+[2024-02-21 06:35:52] [本子520 INFO] 5/6 Try to load profile from 'SkinMe'.
+[2024-02-21 06:35:52] [本子520 DEBUG] Try to request 'http://www.skinme.cc/uniskin/本子520.json'.
+[2024-02-21 06:35:52] [本子520 DEBUG] Encoded URL: http://www.skinme.cc/uniskin/%E6%9C%AC%E5%AD%90520.json
+[2024-02-21 06:35:52] [本子520 DEBUG] Failed to request (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-02-21 06:35:52] [本子520 INFO] Profile not found.
+[2024-02-21 06:35:52] [本子520 INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2024-02-21 06:35:52] [本子520 INFO] Both skin and cape not found.
+[2024-02-21 06:35:52] [本子520 INFO] 本子520's profile not found in load list.
+[2024-02-21 06:35:52] [shuijing INFO] Loading shuijing's profile.
+[2024-02-21 06:35:52] [shuijing INFO] 1/6 Try to load profile from 'Mojang'.
+[2024-02-21 06:35:52] [shuijing DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/shuijing'.
+[2024-02-21 06:35:52] [shuijing DEBUG] Cache file found (Length: 70 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/938aa3d950abbdce8e690253eb86b1072fcb4ede' , Expire: 0')
+[2024-02-21 06:35:52] [shuijing INFO] Try to load from cache '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/938aa3d950abbdce8e690253eb86b1072fcb4ede'.
+[2024-02-21 06:35:52] [shuijing DEBUG] Successfully load from cache
+[2024-02-21 06:35:52] [shuijing DEBUG] Content: {
+  "id" : "28a05bfb2dbe442b97a0b292a618e573",
+  "name" : "Shuijing"
+}
+[2024-02-21 06:35:52] [shuijing DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/28a05bfb2dbe442b97a0b292a618e573'.
+[2024-02-21 06:35:53] [shuijing DEBUG] Successfully request (Response Code: 200 , Content Length: 538)
+[2024-02-21 06:35:53] [shuijing DEBUG] Saved to cache (Length: 538 , Path: '/storage/emulated/0/Android/data/com.mio.mhdl/MioLauncher/.minecraft/versions/梦幻大陆/CustomSkinLoader/caches/13918f049202b927f18b58c128b566cf6d33a2b3' , Expire: 1708497383)
+[2024-02-21 06:35:53] [shuijing DEBUG] Content: {
+  "id" : "28a05bfb2dbe442b97a0b292a618e573",
+  "name" : "Shuijing",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ5NzM1NDY0NywKICAicHJvZmlsZUlkIiA6ICIyOGEwNWJmYjJkYmU0NDJiOTdhMGIyOTJhNjE4ZTU3MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaHVpamluZyIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ODE1OGU2YzRmNzE5NjgyN2IxNWI3MTA5MjE4MjBiZTE5MjhkODlhZWVkNmIyM2ZkOTdlMTg1NjdhOTI2MGViIgogICAgfQogIH0KfQ=="
+  } ],
+  "profileActions" : [ ]
+}
+[2024-02-21 06:35:53] [shuijing INFO] shuijing's profile loaded.
+[2024-02-21 06:35:53] [shuijing INFO] (SkinUrl: http://textures.minecraft.net/texture/58158e6c4f7196827b15b710921820be1928d89aeed6b23fd97e18567a9260eb , Model: default , CapeUrl: null  , Expiry: 1708497387)

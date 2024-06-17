@@ -1,0 +1,39 @@
+[2024-02-21 18:31:51] [pool-3-thread-1 INFO] CustomSkinLoader 14.6a
+[2024-02-21 18:31:51] [pool-3-thread-1 INFO] DataDir: F:\魔法金属客户端\.minecraft\CustomSkinLoader
+[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Minecraft: 1.7.10(1.7.10-Forge_10.13.4.1614)
+[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Config File: F:\魔法金属客户端\.minecraft\CustomSkinLoader\CustomSkinLoader.json
+[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Try to load config.
+[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Successfully load config.
+[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Try to load Extra List.(LittleSkin.json)
+[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Successfully load Extra List.
+[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Extra List will be ignore: Duplicate.(LittleSkin)
+[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Enable:true, EnableSkull:true, EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:10, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
+[2024-02-21 18:31:51] [DP_ping INFO] Loading DP_ping's profile.
+[2024-02-21 18:31:51] [DP_ping INFO] 1/6 Try to load profile from 'LittleSkin'.
+[2024-02-21 18:31:51] [DP_ping INFO] Try to request 'https://littleskin.cn/csl/DP_ping.json'.
+[2024-02-21 18:31:51] [DP_ping INFO] Successfully request (Response Code: 304 , Content Length: -1)
+[2024-02-21 18:31:51] [DP_ping INFO] Cache file found (Length: 118 , Path: 'F:\魔法金属客户端\.minecraft\CustomSkinLoader\caches\31171a624dfe8947c6403cee89e22cc97808734f')
+[2024-02-21 18:31:51] [DP_ping INFO] Try to load from cache 'F:\魔法金属客户端\.minecraft\CustomSkinLoader\caches\31171a624dfe8947c6403cee89e22cc97808734f'.
+[2024-02-21 18:31:51] [DP_ping INFO] Successfully to load from cache
+[2024-02-21 18:31:51] [DP_ping INFO] Both skin and cape not found.
+[2024-02-21 18:31:51] [DP_ping INFO] 2/6 Try to load profile from 'Mojang'.
+[2024-02-21 18:31:51] [DP_ping INFO] Try to request 'https://api.mojang.com/users/profiles/minecraft/DP_ping'.
+[2024-02-21 18:31:52] [DP_ping INFO] Failed to request (Response Code: 404)
+[2024-02-21 18:31:52] [DP_ping INFO] Profile not found.(DP_ping's profile not found.)
+[2024-02-21 18:31:52] [DP_ping INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2024-02-21 18:31:52] [DP_ping INFO] Try to request 'http://skin.prinzeugen.net/DP_ping.json'.
+[2024-02-21 18:31:52] [DP_ping INFO] Cache file found (Length: 0 , Path: 'F:\魔法金属客户端\.minecraft\CustomSkinLoader\caches\f923a41679fcb8b154a935ae814f5b0691f68372')
+[2024-02-21 18:31:52] [DP_ping INFO] Try to load from cache 'F:\魔法金属客户端\.minecraft\CustomSkinLoader\caches\f923a41679fcb8b154a935ae814f5b0691f68372'.
+[2024-02-21 18:31:52] [DP_ping INFO] Successfully to load from cache
+[2024-02-21 18:31:52] [DP_ping INFO] Profile not found.
+[2024-02-21 18:31:52] [DP_ping INFO] 4/6 Try to load profile from 'OneSkin'.
+[2024-02-21 18:31:52] [DP_ping INFO] Try to request 'http://fleey.org/skin/skin_user/skin_json.php/DP_ping.json'.
+[2024-02-21 18:31:52] [DP_ping INFO] Failed to request (Exception: java.net.UnknownHostException: fleey.org)
+[2024-02-21 18:31:52] [DP_ping INFO] Profile not found.
+[2024-02-21 18:31:52] [DP_ping INFO] 5/6 Try to load profile from 'SkinMe'.
+[2024-02-21 18:31:52] [DP_ping INFO] Try to request 'http://www.skinme.cc/uniskin/DP_ping.json'.
+[2024-02-21 18:31:52] [DP_ping INFO] Failed to request (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-02-21 18:31:52] [DP_ping INFO] Profile not found.
+[2024-02-21 18:31:52] [DP_ping INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2024-02-21 18:31:52] [DP_ping INFO] Both skin and cape not found.
+[2024-02-21 18:31:52] [DP_ping INFO] DP_ping's profile not found in load list.

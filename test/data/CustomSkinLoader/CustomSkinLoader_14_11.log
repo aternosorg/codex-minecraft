@@ -1,0 +1,95 @@
+[2020-04-28 12:19:10] [pool-4-thread-1 INFO] CustomSkinLoader 14.11
+[2020-04-28 12:19:10] [pool-4-thread-1 INFO] DataDir: C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader
+[2020-04-28 12:19:10] [pool-4-thread-1 INFO] Minecraft: 1.12.2(1.12.2)
+[2020-04-28 12:19:10] [pool-4-thread-1 INFO] Config File: C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\CustomSkinLoader.json
+[2020-04-28 12:19:10] [pool-4-thread-1 INFO] Try to load config.
+[2020-04-28 12:19:10] [pool-4-thread-1 INFO] Successfully load config.
+[2020-04-28 12:19:11] [pool-4-thread-1 INFO] version : 14.11
+[2020-04-28 12:19:11] [pool-4-thread-1 INFO] enableDynamicSkull : true
+[2020-04-28 12:19:11] [pool-4-thread-1 INFO] enableTransparentSkin : true
+[2020-04-28 12:19:11] [pool-4-thread-1 INFO] ignoreHttpsCertificate : false
+[2020-04-28 12:19:11] [pool-4-thread-1 INFO] forceLoadAllTextures : false
+[2020-04-28 12:19:11] [pool-4-thread-1 INFO] enableCape : true
+[2020-04-28 12:19:11] [pool-4-thread-1 INFO] cacheExpiry : 10
+[2020-04-28 12:19:11] [pool-4-thread-1 INFO] enableUpdateSkull : false
+[2020-04-28 12:19:11] [pool-4-thread-1 INFO] enableLocalProfileCache : false
+[2020-04-28 12:19:11] [pool-4-thread-1 INFO] enableCacheAutoClean : false
+[2020-04-28 12:19:11] [pool-4-thread-1 INFO] loadList : 5
+[2020-04-28 12:19:11] [liu_mu_han INFO] Loading liu_mu_han's profile.
+[2020-04-28 12:19:11] [liu_mu_han INFO] 1/5 Try to load profile from 'Mojang'.
+[2020-04-28 12:19:11] [liu_mu_han DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/liu_mu_han'.
+[2020-04-28 12:19:11] [liu_mu_han DEBUG] Cache file found (Length: 0 , Path: 'C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\caches\376514f852b64fa383a97876cd7a08095e2838b0' , Expire: 0')
+[2020-04-28 12:19:11] [liu_mu_han INFO] Try to load from cache 'C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\caches\376514f852b64fa383a97876cd7a08095e2838b0'.
+[2020-04-28 12:19:11] [liu_mu_han DEBUG] Successfully load from cache
+[2020-04-28 12:19:11] [liu_mu_han DEBUG] Content: 
+[2020-04-28 12:19:11] [liu_mu_han INFO] Profile not found.(liu_mu_han's profile not found.)
+[2020-04-28 12:19:11] [liu_mu_han INFO] 2/5 Try to load profile from 'LittleSkin'.
+[2020-04-28 12:19:11] [liu_mu_han DEBUG] Try to request 'https://mcskin.littleservice.cn/liu_mu_han.json'.
+[2020-04-28 12:19:12] [liu_mu_han DEBUG] Successfully request (Response Code: 200 , Content Length: 3)
+[2020-04-28 12:19:12] [liu_mu_han DEBUG] Saved to cache (Length: 3 , Path: 'C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\caches\266ee27dae00b12365bfa4b49e4c358dd125ca76' , Expire: 1588047643)
+[2020-04-28 12:19:12] [liu_mu_han DEBUG] Content: {}
+
+[2020-04-28 12:19:12] [liu_mu_han INFO] Both skin and cape not found.
+[2020-04-28 12:19:12] [liu_mu_han INFO] 3/5 Try to load profile from 'BlessingSkin'.
+[2020-04-28 12:19:12] [liu_mu_han DEBUG] Try to request 'http://skin.prinzeugen.net/liu_mu_han.json'.
+[2020-04-28 12:19:14] [liu_mu_han DEBUG] Failed to request (Response Code: 404)
+[2020-04-28 12:19:14] [liu_mu_han INFO] Profile not found.
+[2020-04-28 12:19:14] [liu_mu_han INFO] 4/5 Try to load profile from 'SkinMe'.
+[2020-04-28 12:19:14] [liu_mu_han DEBUG] Try to request 'http://www.skinme.cc/uniskin/liu_mu_han.json'.
+[2020-04-28 12:19:15] [liu_mu_han DEBUG] Successfully request (Response Code: 200 , Content Length: 37)
+[2020-04-28 12:19:15] [liu_mu_han DEBUG] Saved to cache (Length: 37 , Path: 'C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\caches\79df8b0591961524195bfd933025ca755bc2eff1' , Expire: 1588047649)
+[2020-04-28 12:19:15] [liu_mu_han DEBUG] Content: {"errno":404,"msg":"User not found."}
+[2020-04-28 12:19:15] [liu_mu_han INFO] Error 404: User not found.
+[2020-04-28 12:19:15] [liu_mu_han INFO] 5/5 Try to load profile from 'LocalSkin'.
+[2020-04-28 12:19:15] [liu_mu_han INFO] Both skin and cape not found.
+[2020-04-28 12:19:15] [liu_mu_han INFO] liu_mu_han's profile not found in load list.
+[2020-04-28 12:20:03] [liu_mu_han INFO] Loading liu_mu_han's profile.
+[2020-04-28 12:20:03] [liu_mu_han INFO] 1/5 Try to load profile from 'Mojang'.
+[2020-04-28 12:20:03] [liu_mu_han DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/liu_mu_han'.
+[2020-04-28 12:20:03] [liu_mu_han DEBUG] Cache file found (Length: 0 , Path: 'C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\caches\376514f852b64fa383a97876cd7a08095e2838b0' , Expire: 0')
+[2020-04-28 12:20:03] [liu_mu_han INFO] Try to load from cache 'C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\caches\376514f852b64fa383a97876cd7a08095e2838b0'.
+[2020-04-28 12:20:03] [liu_mu_han DEBUG] Successfully load from cache
+[2020-04-28 12:20:03] [liu_mu_han DEBUG] Content: 
+[2020-04-28 12:20:03] [liu_mu_han INFO] Profile not found.(liu_mu_han's profile not found.)
+[2020-04-28 12:20:03] [liu_mu_han INFO] 2/5 Try to load profile from 'LittleSkin'.
+[2020-04-28 12:20:03] [liu_mu_han DEBUG] Try to request 'https://mcskin.littleservice.cn/liu_mu_han.json'.
+[2020-04-28 12:20:03] [liu_mu_han DEBUG] Cache file found (Length: 3 , Path: 'C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\caches\266ee27dae00b12365bfa4b49e4c358dd125ca76' , Expire: 1588047643')
+[2020-04-28 12:20:03] [liu_mu_han INFO] Try to load from cache 'C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\caches\266ee27dae00b12365bfa4b49e4c358dd125ca76'.
+[2020-04-28 12:20:03] [liu_mu_han DEBUG] Successfully load from cache
+[2020-04-28 12:20:03] [liu_mu_han DEBUG] Content: {}
+
+[2020-04-28 12:20:03] [liu_mu_han INFO] Both skin and cape not found.
+[2020-04-28 12:20:03] [liu_mu_han INFO] 3/5 Try to load profile from 'BlessingSkin'.
+[2020-04-28 12:20:03] [liu_mu_han DEBUG] Try to request 'http://skin.prinzeugen.net/liu_mu_han.json'.
+[2020-04-28 12:20:05] [liu_mu_han DEBUG] Failed to request (Response Code: 404)
+[2020-04-28 12:20:05] [liu_mu_han INFO] Profile not found.
+[2020-04-28 12:20:05] [liu_mu_han INFO] 4/5 Try to load profile from 'SkinMe'.
+[2020-04-28 12:20:05] [liu_mu_han DEBUG] Try to request 'http://www.skinme.cc/uniskin/liu_mu_han.json'.
+[2020-04-28 12:20:05] [liu_mu_han DEBUG] Cache file found (Length: 37 , Path: 'C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\caches\79df8b0591961524195bfd933025ca755bc2eff1' , Expire: 1588047649')
+[2020-04-28 12:20:05] [liu_mu_han INFO] Try to load from cache 'C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\caches\79df8b0591961524195bfd933025ca755bc2eff1'.
+[2020-04-28 12:20:05] [liu_mu_han DEBUG] Successfully load from cache
+[2020-04-28 12:20:05] [liu_mu_han DEBUG] Content: {"errno":404,"msg":"User not found."}
+[2020-04-28 12:20:05] [liu_mu_han INFO] Error 404: User not found.
+[2020-04-28 12:20:05] [liu_mu_han INFO] 5/5 Try to load profile from 'LocalSkin'.
+[2020-04-28 12:20:05] [liu_mu_han INFO] Both skin and cape not found.
+[2020-04-28 12:20:05] [liu_mu_han INFO] liu_mu_han's profile not found in load list.
+[2020-04-28 12:22:11] [进击的巨人 INFO] Loading 进击的巨人's profile.
+[2020-04-28 12:22:11] [进击的巨人 INFO] 1/5 Try to load profile from 'Mojang'.
+[2020-04-28 12:22:11] [进击的巨人 DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/进击的巨人'.
+[2020-04-28 12:22:11] [进击的巨人 DEBUG] Cache file found (Length: 0 , Path: 'C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\caches\9210ed15a6eba3108e9aa0e23ff7f8ff38a837e0' , Expire: 0')
+[2020-04-28 12:22:11] [进击的巨人 INFO] Try to load from cache 'C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\caches\9210ed15a6eba3108e9aa0e23ff7f8ff38a837e0'.
+[2020-04-28 12:22:11] [进击的巨人 DEBUG] Successfully load from cache
+[2020-04-28 12:22:11] [进击的巨人 DEBUG] Content: 
+[2020-04-28 12:22:11] [进击的巨人 INFO] Profile not found.(进击的巨人's profile not found.)
+[2020-04-28 12:22:11] [进击的巨人 INFO] 2/5 Try to load profile from 'LittleSkin'.
+[2020-04-28 12:22:11] [进击的巨人 DEBUG] Try to request 'https://mcskin.littleservice.cn/进击的巨人.json'.
+[2020-04-28 12:22:11] [进击的巨人 DEBUG] Encoded URL: https://mcskin.littleservice.cn/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA.json
+[2020-04-28 12:22:11] [进击的巨人 DEBUG] Successfully request (Response Code: 304 , Content Length: 0)
+[2020-04-28 12:22:11] [进击的巨人 DEBUG] Cache file found (Length: 188 , Path: 'C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\caches\bf85d9c0f8ac36880f07d5c1e9e00550a3dee531' , Expire: 0')
+[2020-04-28 12:22:11] [进击的巨人 INFO] Try to load from cache 'C:\Users\Administrator\Desktop\我的世界1.12.2天域神奇宝贝服务器客户端\.minecraft\CustomSkinLoader\caches\bf85d9c0f8ac36880f07d5c1e9e00550a3dee531'.
+[2020-04-28 12:22:11] [进击的巨人 DEBUG] Successfully load from cache
+[2020-04-28 12:22:11] [进击的巨人 DEBUG] Content: {"username":"进击的巨人","skins":{"slim":"ff6f21a227f10d097a740a4adbb8e79433d4a2886eb92a8d09feb8de8b3e528e"},"cape":"d424e35fbb48cc8f72f90a1d159883025f5a10556db8c4365ef6c6634ff55342"}
+[2020-04-28 12:22:12] [进击的巨人 INFO] 进击的巨人's profile loaded.
+[2020-04-28 12:22:12] [进击的巨人 INFO] (SkinUrl: https://mcskin.littleservice.cn/textures/ff6f21a227f10d097a740a4adbb8e79433d4a2886eb92a8d09feb8de8b3e528e , Model: slim , CapeUrl: https://mcskin.littleservice.cn/textures/d424e35fbb48cc8f72f90a1d159883025f5a10556db8c4365ef6c6634ff55342  , Expiry: 1588047747)
+[2020-04-28 12:22:12] [Client thread DEBUG] Loading type:SKIN
+[2020-04-28 12:22:12] [Client thread DEBUG] Loading type:CAPE

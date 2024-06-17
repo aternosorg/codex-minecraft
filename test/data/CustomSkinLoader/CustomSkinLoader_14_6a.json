@@ -1,0 +1,464 @@
+{
+    "id": "customskinloader\/client",
+    "name": "CustomSkinLoader",
+    "type": "Client Log",
+    "version": "14.6a",
+    "title": "CustomSkinLoader 14.6a Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO] CustomSkinLoader 14.6a"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO] DataDir: F:\\\u9b54\u6cd5\u91d1\u5c5e\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Minecraft: 1.7.10(1.7.10-Forge_10.13.4.1614)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Config File: F:\\\u9b54\u6cd5\u91d1\u5c5e\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\CustomSkinLoader.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Try to load config."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Successfully load config."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Try to load Extra List.(LittleSkin.json)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Successfully load Extra List."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Extra List will be ignore: Duplicate.(LittleSkin)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO] Enable:true, EnableSkull:true, EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:10, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[2024-02-21 18:31:51] [DP_ping INFO] Loading DP_ping's profile."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[2024-02-21 18:31:51] [DP_ping INFO] 1\/6 Try to load profile from 'LittleSkin'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[2024-02-21 18:31:51] [DP_ping INFO] Try to request 'https:\/\/littleskin.cn\/csl\/DP_ping.json'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[2024-02-21 18:31:51] [DP_ping INFO] Successfully request (Response Code: 304 , Content Length: -1)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[2024-02-21 18:31:51] [DP_ping INFO] Cache file found (Length: 118 , Path: 'F:\\\u9b54\u6cd5\u91d1\u5c5e\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\31171a624dfe8947c6403cee89e22cc97808734f')"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[2024-02-21 18:31:51] [DP_ping INFO] Try to load from cache 'F:\\\u9b54\u6cd5\u91d1\u5c5e\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\31171a624dfe8947c6403cee89e22cc97808734f'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[2024-02-21 18:31:51] [DP_ping INFO] Successfully to load from cache"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[2024-02-21 18:31:51] [DP_ping INFO] Both skin and cape not found."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[2024-02-21 18:31:51] [DP_ping INFO] 2\/6 Try to load profile from 'Mojang'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540311,
+            "prefix": "[2024-02-21 18:31:51] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[2024-02-21 18:31:51] [DP_ping INFO] Try to request 'https:\/\/api.mojang.com\/users\/profiles\/minecraft\/DP_ping'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] Failed to request (Response Code: 404)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] Profile not found.(DP_ping's profile not found.)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] 3\/6 Try to load profile from 'BlessingSkin'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] Try to request 'http:\/\/skin.prinzeugen.net\/DP_ping.json'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] Cache file found (Length: 0 , Path: 'F:\\\u9b54\u6cd5\u91d1\u5c5e\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\f923a41679fcb8b154a935ae814f5b0691f68372')"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] Try to load from cache 'F:\\\u9b54\u6cd5\u91d1\u5c5e\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\f923a41679fcb8b154a935ae814f5b0691f68372'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] Successfully to load from cache"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] Profile not found."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] 4\/6 Try to load profile from 'OneSkin'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] Try to request 'http:\/\/fleey.org\/skin\/skin_user\/skin_json.php\/DP_ping.json'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] Failed to request (Exception: java.net.UnknownHostException: fleey.org)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] Profile not found."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] 5\/6 Try to load profile from 'SkinMe'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] Try to request 'http:\/\/www.skinme.cc\/uniskin\/DP_ping.json'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] Failed to request (Exception: java.net.UnknownHostException: www.skinme.cc)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] Profile not found."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] 6\/6 Try to load profile from 'LocalSkin'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] Both skin and cape not found."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1708540312,
+            "prefix": "[2024-02-21 18:31:52] [DP_ping INFO]",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[2024-02-21 18:31:52] [DP_ping INFO] DP_ping's profile not found in load list."
+                },
+                {
+                    "number": 40,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "CustomSkinLoader version: 14.6a",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1708540311,
+                    "prefix": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO]",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[2024-02-21 18:31:51] [pool-3-thread-1 INFO] CustomSkinLoader 14.6a"
+                        }
+                    ]
+                },
+                "label": "CustomSkinLoader version",
+                "value": "14.6a"
+            }
+        ]
+    }
+}

@@ -1,0 +1,288 @@
+{
+    "id": "customskinloader\/client",
+    "name": "CustomSkinLoader",
+    "type": "Client Log",
+    "version": "12.6",
+    "title": "CustomSkinLoader 12.6 Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": 1613667016,
+            "prefix": "[2021-02-18 16:50:16 Texture Downloader #1 INFO]",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[2021-02-18 16:50:16 Texture Downloader #1 INFO] CustomSkinLoader 12.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1613667016,
+            "prefix": "[2021-02-18 16:50:16 Texture Downloader #1 INFO]",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[2021-02-18 16:50:16 Texture Downloader #1 INFO] Get a request: http:\/\/s.optifine.net\/capes\/yimu.png"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1613667017,
+            "prefix": "[2021-02-18 16:50:17] [yimu INFO]",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[2021-02-18 16:50:17] [yimu INFO] Loading yimu's profile."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1613667017,
+            "prefix": "[2021-02-18 16:50:17] [yimu INFO]",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[2021-02-18 16:50:17] [yimu INFO] 1\/7 Try to load profile from 'Mojang'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1613667017,
+            "prefix": "[2021-02-18 16:50:17] [yimu DEBUG]",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[2021-02-18 16:50:17] [yimu DEBUG] Try to request 'https:\/\/api.mojang.com\/profiles\/minecraft'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1613667017,
+            "prefix": "[2021-02-18 16:50:17] [yimu INFO]",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[2021-02-18 16:50:17] [yimu INFO] Payload: [\"yimu\"]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1613667020,
+            "prefix": "[2021-02-18 16:50:20] [yimu DEBUG]",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[2021-02-18 16:50:20] [yimu DEBUG] Successfully request (Response Code: 200 , Content Length: 57)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1613667020,
+            "prefix": "[2021-02-18 16:50:20] [yimu DEBUG]",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[2021-02-18 16:50:20] [yimu DEBUG] Content: [{\"id\":\"98f5d761f79744c6a981b186686cce7d\",\"name\":\"YiMU\"}]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1613667020,
+            "prefix": "[2021-02-18 16:50:20] [yimu DEBUG]",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[2021-02-18 16:50:20] [yimu DEBUG] Try to request 'https:\/\/sessionserver.mojang.com\/session\/minecraft\/profile\/98f5d761f79744c6a981b186686cce7d'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1613667036,
+            "prefix": "[2021-02-18 16:50:36] [yimu DEBUG]",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[2021-02-18 16:50:36] [yimu DEBUG] Failed to request https:\/\/sessionserver.mojang.com\/session\/minecraft\/profile\/98f5d761f79744c6a981b186686cce7d (Exception: java.net.SocketTimeoutException: Read timed out)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1613667036,
+            "prefix": "[2021-02-18 16:50:36] [yimu INFO]",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[2021-02-18 16:50:36] [yimu INFO] Profile not found.(yimu doesn't have skin\/cape.)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1613667036,
+            "prefix": "[2021-02-18 16:50:36] [yimu INFO]",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[2021-02-18 16:50:36] [yimu INFO] 2\/7 Try to load profile from 'LittleSkin'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1613667036,
+            "prefix": "[2021-02-18 16:50:36] [yimu DEBUG]",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[2021-02-18 16:50:36] [yimu DEBUG] Try to request 'https:\/\/littlesk.in\/csl\/yimu.json'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1613667037,
+            "prefix": "[2021-02-18 16:50:37] [yimu DEBUG]",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[2021-02-18 16:50:37] [yimu DEBUG] Successfully request (Response Code: 200 , Content Length: 118)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1613667037,
+            "prefix": "[2021-02-18 16:50:37] [yimu DEBUG]",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[2021-02-18 16:50:37] [yimu DEBUG] Saved to cache (Length: 118 , Path: 'E:\\360MoveData\\[\u751f\u6d3b\u5927\u5192\u9669]\\1.8\uff0c1.8.9\\\u30101.8\u3011\u751f\u6d3b\u5927\u5192\u9669 v2.6a\\.minecraft\\CustomSkinLoader\\caches\\57ca676214edfe0c79d26f835043bdbb1bc1d561' , Expire: 1613638332)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1613667037,
+            "prefix": "[2021-02-18 16:50:37] [yimu DEBUG]",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[2021-02-18 16:50:37] [yimu DEBUG] Content: {\"username\":\"yimu\",\"skins\":{\"default\":\"c6ccee9e6ca0fbf4eaac591568de263afc6d017dd2f8f7522139f870cf21b698\"},\"cape\":null}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1613667037,
+            "prefix": "[2021-02-18 16:50:37] [yimu INFO]",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[2021-02-18 16:50:37] [yimu INFO] yimu's profile loaded."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1613667037,
+            "prefix": "[2021-02-18 16:50:37] [yimu INFO]",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[2021-02-18 16:50:37] [yimu INFO] (SkinUrl: https:\/\/littlesk.in\/csl\/textures\/c6ccee9e6ca0fbf4eaac591568de263afc6d017dd2f8f7522139f870cf21b698 , Model: default , CapeUrl: null  , Expiry: 1613638267)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1613667037,
+            "prefix": "[2021-02-18 16:50:37] [pool-4-thread-1 DEBUG]",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[2021-02-18 16:50:37] [pool-4-thread-1 DEBUG] Try to request 'https:\/\/littlesk.in\/csl\/textures\/c6ccee9e6ca0fbf4eaac591568de263afc6d017dd2f8f7522139f870cf21b698'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1613667038,
+            "prefix": "[2021-02-18 16:50:38] [pool-4-thread-1 DEBUG]",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[2021-02-18 16:50:38] [pool-4-thread-1 DEBUG] Successfully request (Response Code: 200 , Content Length: 891)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1613667038,
+            "prefix": "[2021-02-18 16:50:38] [pool-4-thread-1 DEBUG]",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[2021-02-18 16:50:38] [pool-4-thread-1 DEBUG] Saved to cache (Length: 891 , Path: 'E:\\360MoveData\\[\u751f\u6d3b\u5927\u5192\u9669]\\1.8\uff0c1.8.9\\\u30101.8\u3011\u751f\u6d3b\u5927\u5192\u9669 v2.6a\\.minecraft\\assets\\skins\\c6\\c6ccee9e6ca0fbf4eaac591568de263afc6d017dd2f8f7522139f870cf21b698' , Expire: -1)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1613667038,
+            "prefix": "[2021-02-18 16:50:38] [Client thread DEBUG]",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[2021-02-18 16:50:38] [Client thread DEBUG] Loading type: SKIN"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1613667038,
+            "prefix": "[2021-02-18 16:50:38] [Client thread INFO]",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[2021-02-18 16:50:38] [Client thread INFO] ThreadDownloadImageData Class: net.minecraft.client.renderer.ThreadDownloadImageData"
+                },
+                {
+                    "number": 24,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "CustomSkinLoader version: 12.6",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1613667016,
+                    "prefix": "[2021-02-18 16:50:16 Texture Downloader #1 INFO]",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[2021-02-18 16:50:16 Texture Downloader #1 INFO] CustomSkinLoader 12.6"
+                        }
+                    ]
+                },
+                "label": "CustomSkinLoader version",
+                "value": "12.6"
+            }
+        ]
+    }
+}
