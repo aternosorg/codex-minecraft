@@ -42,6 +42,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt\QuiltCrashReportLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt\QuiltServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaClientLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaCrashReportLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaNetworkProtocolErrorReportLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Velocity\VelocityProxyLog;
 
@@ -95,6 +96,8 @@ class Detective extends \Aternos\Codex\Detective\Detective
         VanillaCrashReportLog::class,
         MohistCrashReportLog::class,
         ArclightCrashReportLog::class,
+
+        VanillaNetworkProtocolErrorReportLog::class,
 
         PrismLauncherClientLog::class,
         CustomSkinLoaderClientLog::class,

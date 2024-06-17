@@ -11,6 +11,7 @@ use Aternos\Codex\Log\DetectableLogInterface;
 use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
 use Aternos\Codex\Minecraft\Log\Type\ContentLogTypeInterface;
 use Aternos\Codex\Minecraft\Log\Type\CrashReportLogTypeInterface;
+use Aternos\Codex\Minecraft\Log\Type\NetworkProtocolErrorReportLogTypeInterface;
 use Aternos\Codex\Minecraft\Log\Type\ProxyLogTypeInterface;
 use Aternos\Codex\Minecraft\Log\Type\ServerLogTypeInterface;
 use Aternos\Codex\Minecraft\Parser\Parser;
@@ -95,6 +96,7 @@ class MinecraftLog extends AnalysableLog implements DetectableLogInterface
             $this instanceof ClientLogTypeInterface => "client",
             $this instanceof ProxyLogTypeInterface => "proxy",
             $this instanceof CrashReportLogTypeInterface => "crash-report",
+            $this instanceof NetworkProtocolErrorReportLogTypeInterface => "network-protocol-error-report",
             $this instanceof ContentLogTypeInterface => "content",
             default => null
         };

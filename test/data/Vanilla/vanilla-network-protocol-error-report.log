@@ -1,0 +1,102 @@
+---- Minecraft Network Protocol Error Report ----
+// I heard pigeons are more reliable
+
+Time: 2024-06-13 22:01:09
+Description: Packet handling error
+
+java.lang.IllegalStateException: Failed to load registries due to above errors
+	at akm.a(SourceFile:181)
+	at akm.a(SourceFile:155)
+	at fzs$a.a(SourceFile:49)
+	at fzs.a(SourceFile:59)
+	at fzd.a(SourceFile:117)
+	at fzd.a(SourceFile:105)
+	at fzd.a(SourceFile:117)
+	at abd.a(SourceFile:22)
+	at abd.a(SourceFile:8)
+	at zj.a(SourceFile:27)
+	at bph.d(SourceFile:162)
+	at bpl.d(SourceFile:23)
+	at bph.B(SourceFile:136)
+	at bph.bB(SourceFile:121)
+	at fgo.c(SourceFile:1240)
+	at fgo.f(SourceFile:882)
+	at net.minecraft.client.main.Main.main(SourceFile:256)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:100)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at akm.a(SourceFile:181)
+	at akm.a(SourceFile:155)
+	at fzs$a.a(SourceFile:49)
+	at fzs.a(SourceFile:59)
+	at fzd.a(SourceFile:117)
+	at fzd.a(SourceFile:105)
+
+-- Incoming Packet --
+Details:
+	Type: clientbound/minecraft:finish_configuration
+	Is Terminal: true
+	Is Skippable: false
+Stacktrace:
+	at zj.a(SourceFile:56)
+	at fzc.a(SourceFile:136)
+	at fzc.a(SourceFile:113)
+	at zj.a(SourceFile:32)
+	at bph.d(SourceFile:162)
+	at bpl.d(SourceFile:23)
+	at bph.B(SourceFile:136)
+	at bph.bB(SourceFile:121)
+	at fgo.c(SourceFile:1240)
+	at fgo.f(SourceFile:882)
+	at net.minecraft.client.main.Main.main(SourceFile:256)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:100)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+
+-- Connection --
+Details:
+	Protocol: configuration
+	Flow: CLIENTBOUND
+	Server type: OTHER
+	Server brand: ~~NULL~~
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21
+	Minecraft Version ID: 1.21
+	Operating System: Linux (amd64) version 6.8.11-300.fc40.x86_64
+	Java Version: 21.0.3, Red Hat, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Red Hat, Inc.
+	Memory: 120736888 bytes (115 MiB) / 538968064 bytes (514 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 20
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i9-12900HK
+	Identifier: Intel64 Family 6 Model 154 Stepping 3
+	Microarchitecture: Alder Lake
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 14
+	Number of logical CPUs: 20
+	Graphics card #0 name: Alder Lake-P GT2 [Iris Xe Graphics]
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MiB): 256.00
+	Graphics card #0 deviceId: 0x46a6
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 40174.53
+	Virtual memory used (MiB): 8875.37
+	Swap memory total (MiB): 8192.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 31952.13, total: 31982.54
+	Space in storage for workdir (MiB): available: 818970.75, total: 975121.00
+	JVM Flags: 2 total; -Xms512m -Xmx4096m

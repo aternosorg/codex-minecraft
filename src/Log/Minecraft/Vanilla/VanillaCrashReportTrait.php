@@ -2,18 +2,11 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla;
 
-use Aternos\Codex\Minecraft\Analyser\CrashReport\MinecraftCrashReportAnalyser;
-use Aternos\Codex\Minecraft\Parser\CrashReportParser;
+use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\MinecraftCrashReportAnalyser;
 
 trait VanillaCrashReportTrait
 {
-    /**
-     * @return CrashReportParser
-     */
-    public static function getDefaultParser(): CrashReportParser
-    {
-        return new CrashReportParser();
-    }
+    use VanillaReportTrait;
 
     /**
      * @return MinecraftCrashReportAnalyser
