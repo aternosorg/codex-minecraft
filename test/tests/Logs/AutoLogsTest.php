@@ -118,6 +118,66 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_custom_skin_loader_12_6(): void
+    {
+        $log = new TestLog('CustomSkinLoader/custom-skin-loader-12-6.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_custom_skin_loader_14_11(): void
+    {
+        $log = new TestLog('CustomSkinLoader/custom-skin-loader-14-11.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_custom_skin_loader_14_13(): void
+    {
+        $log = new TestLog('CustomSkinLoader/custom-skin-loader-14-13.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_custom_skin_loader_14_19(): void
+    {
+        $log = new TestLog('CustomSkinLoader/custom-skin-loader-14-19.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_custom_skin_loader_14_6a(): void
+    {
+        $log = new TestLog('CustomSkinLoader/custom-skin-loader-14-6a.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_custom_skin_loader_14_9(): void
+    {
+        $log = new TestLog('CustomSkinLoader/custom-skin-loader-14-9.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_geyser(): void
     {
         $log = new TestLog('Geyser/geyser.log');

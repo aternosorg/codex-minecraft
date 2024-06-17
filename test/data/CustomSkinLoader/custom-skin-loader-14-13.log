@@ -1,0 +1,159 @@
+[2021-04-13 18:23:57] [Render thread INFO] CustomSkinLoader 14.13-SNAPSHOT-225
+[2021-04-13 18:23:57] [Render thread INFO] DataDir: F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\CustomSkinLoader
+[2021-04-13 18:23:57] [Render thread INFO] Operating System: Windows 10 (amd64) version 10.0
+[2021-04-13 18:23:57] [Render thread INFO] Java Version: 1.8.0_202, Oracle Corporation
+[2021-04-13 18:23:57] [Render thread INFO] Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[2021-04-13 18:23:57] [Render thread INFO] Minecraft: 1.16.5(1.16.5)
+[2021-04-13 18:23:57] [Render thread INFO] Config File: F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\CustomSkinLoader\CustomSkinLoader.json
+[2021-04-13 18:23:57] [Render thread INFO] Try to load config.
+[2021-04-13 18:23:57] [Render thread INFO] Successfully load config.
+[2021-04-13 18:23:57] [Render thread INFO] version : 14.13
+[2021-04-13 18:23:57] [Render thread INFO] enableDynamicSkull : true
+[2021-04-13 18:23:57] [Render thread INFO] enableTransparentSkin : true
+[2021-04-13 18:23:57] [Render thread INFO] forceIgnoreHttpsCertificate : false
+[2021-04-13 18:23:57] [Render thread INFO] forceLoadAllTextures : false
+[2021-04-13 18:23:57] [Render thread INFO] enableCape : true
+[2021-04-13 18:23:57] [Render thread INFO] forceFillSkullNBT : false
+[2021-04-13 18:23:57] [Render thread INFO] threadPoolSize : 3
+[2021-04-13 18:23:57] [Render thread INFO] retryTime : 1
+[2021-04-13 18:23:57] [Render thread INFO] cacheExpiry : 30
+[2021-04-13 18:23:57] [Render thread INFO] forceUpdateSkull : false
+[2021-04-13 18:23:57] [Render thread INFO] enableLocalProfileCache : false
+[2021-04-13 18:23:57] [Render thread INFO] enableCacheAutoClean : false
+[2021-04-13 18:23:57] [Render thread INFO] forceDisableCache : false
+[2021-04-13 18:23:57] [Render thread INFO] loadList : 8
+[2021-04-13 18:24:51] [jiuzijianding INFO] Loading jiuzijianding's profile.
+[2021-04-13 18:24:51] [jiuzijianding INFO] 1/8 Try to load profile from 'LittleSkin'.
+[2021-04-13 18:24:51] [jiuzijianding DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/jiuzijianding.json'.
+[2021-04-13 18:24:51] [jiuzijianding DEBUG] Successfully request (Response Code: 304 , Content Length: 0)
+[2021-04-13 18:24:51] [jiuzijianding DEBUG] Cache file found (Length: 189 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\CustomSkinLoader\caches\e23600f07871e7db3e6a696808a1f257d8ca36ff' , Expire: 0)
+[2021-04-13 18:24:51] [jiuzijianding INFO] Try to load from cache 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\CustomSkinLoader\caches\e23600f07871e7db3e6a696808a1f257d8ca36ff'.
+[2021-04-13 18:24:51] [jiuzijianding DEBUG] Successfully load from cache
+[2021-04-13 18:24:51] [jiuzijianding DEBUG] Content: {"username":"jiuzijianding","skins":{"default":"2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0"},"cape":"6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd"}
+[2021-04-13 18:24:51] [jiuzijianding INFO] jiuzijianding's profile loaded.
+[2021-04-13 18:24:51] [jiuzijianding INFO] (SkinUrl: https://mcskin.littleservice.cn/csl/textures/2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0 , Model: default , CapeUrl: https://mcskin.littleservice.cn/csl/textures/6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd  , Expiry: 1618309521)
+[2021-04-13 18:24:51] [pool-3-thread-1 DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/textures/2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0'.
+[2021-04-13 18:24:51] [pool-3-thread-1 DEBUG] Cache file found (Length: 4395 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\2e\2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0' , Expire: 0)
+[2021-04-13 18:24:51] [pool-3-thread-1 DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/textures/6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd'.
+[2021-04-13 18:24:51] [pool-3-thread-1 DEBUG] Cache file found (Length: 251722 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\6a\6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd' , Expire: 0)
+[2021-04-13 18:24:52] [Render thread DEBUG] Loading type: SKIN
+[2021-04-13 18:24:52] [Render thread INFO] ThreadDownloadImageData Class: net.minecraft.class_1046
+[2021-04-13 18:24:52] [Render thread DEBUG] Loading type: CAPE
+[2021-04-13 18:25:17] [jiuzijianding INFO] Cached profile will be used.
+[2021-04-13 18:25:17] [jiuzijianding INFO] (SkinUrl: https://mcskin.littleservice.cn/csl/textures/2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0 , Model: default , CapeUrl: https://mcskin.littleservice.cn/csl/textures/6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd  , Expiry: 1618309521)
+[2021-04-13 18:25:17] [pool-3-thread-2 DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/textures/2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0'.
+[2021-04-13 18:25:17] [pool-3-thread-2 DEBUG] Cache file found (Length: 4395 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\2e\2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0' , Expire: 0)
+[2021-04-13 18:25:17] [pool-3-thread-2 DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/textures/6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd'.
+[2021-04-13 18:25:17] [pool-3-thread-2 DEBUG] Cache file found (Length: 251722 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\6a\6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd' , Expire: 0)
+[2021-04-13 18:25:17] [Render thread DEBUG] Loading type: SKIN
+[2021-04-13 18:25:17] [Render thread DEBUG] Loading type: CAPE
+[2021-04-13 18:25:22] [openy INFO] Loading openy's profile.
+[2021-04-13 18:25:22] [openy INFO] 1/8 Try to load profile from 'LittleSkin'.
+[2021-04-13 18:25:22] [openy DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/openy.json'.
+[2021-04-13 18:25:22] [openy DEBUG] Successfully request (Response Code: 304 , Content Length: 0)
+[2021-04-13 18:25:22] [openy DEBUG] Cache file found (Length: 3 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\CustomSkinLoader\caches\01d9beca098e41fb8f08d825149843732dbfaa7b' , Expire: 0)
+[2021-04-13 18:25:22] [openy INFO] Try to load from cache 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\CustomSkinLoader\caches\01d9beca098e41fb8f08d825149843732dbfaa7b'.
+[2021-04-13 18:25:22] [openy DEBUG] Successfully load from cache
+[2021-04-13 18:25:22] [openy DEBUG] Content: {}
+
+[2021-04-13 18:25:22] [openy INFO] Both skin and cape not found.
+[2021-04-13 18:25:22] [openy INFO] 2/8 Try to load profile from 'Mojang'.
+[2021-04-13 18:25:22] [openy INFO] Default profile will be used.
+[2021-04-13 18:25:22] [openy INFO] openy's profile loaded.
+[2021-04-13 18:25:22] [openy INFO] (SkinUrl: http://textures.minecraft.net/texture/b229436b00136829fb121196c7fe7479418ff044aa94e352ffdda73a36bc476e , Model: default , CapeUrl: null  , Expiry: 1618309552)
+[2021-04-13 18:25:22] [pool-3-thread-3 DEBUG] Try to request 'http://textures.minecraft.net/texture/b229436b00136829fb121196c7fe7479418ff044aa94e352ffdda73a36bc476e'.
+[2021-04-13 18:25:22] [pool-3-thread-3 DEBUG] Cache file found (Length: 1412 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\b2\b229436b00136829fb121196c7fe7479418ff044aa94e352ffdda73a36bc476e' , Expire: 0)
+[2021-04-13 18:25:22] [Render thread DEBUG] Loading type: SKIN
+[2021-04-13 18:25:24] [jiuzijianding's skull INFO] Loading jiuzijianding's profile.
+[2021-04-13 18:25:24] [jiuzijianding's skull INFO] 1/8 Try to load profile from 'LittleSkin'.
+[2021-04-13 18:25:24] [jiuzijianding's skull DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/jiuzijianding.json'.
+[2021-04-13 18:25:24] [jiuzijianding's skull DEBUG] Successfully request (Response Code: 304 , Content Length: 0)
+[2021-04-13 18:25:24] [jiuzijianding's skull DEBUG] Cache file found (Length: 189 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\CustomSkinLoader\caches\e23600f07871e7db3e6a696808a1f257d8ca36ff' , Expire: 0)
+[2021-04-13 18:25:24] [jiuzijianding's skull INFO] Try to load from cache 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\CustomSkinLoader\caches\e23600f07871e7db3e6a696808a1f257d8ca36ff'.
+[2021-04-13 18:25:24] [jiuzijianding's skull DEBUG] Successfully load from cache
+[2021-04-13 18:25:24] [jiuzijianding's skull DEBUG] Content: {"username":"jiuzijianding","skins":{"default":"2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0"},"cape":"6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd"}
+[2021-04-13 18:25:24] [jiuzijianding's skull INFO] jiuzijianding's profile loaded.
+[2021-04-13 18:25:24] [jiuzijianding's skull INFO] (SkinUrl: https://mcskin.littleservice.cn/csl/textures/2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0 , Model: default , CapeUrl: https://mcskin.littleservice.cn/csl/textures/6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd  , Expiry: 1618309554)
+[2021-04-13 18:28:33] [jiuzijianding INFO] Loading jiuzijianding's profile.
+[2021-04-13 18:28:33] [jiuzijianding INFO] 1/8 Try to load profile from 'LittleSkin'.
+[2021-04-13 18:28:33] [jiuzijianding DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/jiuzijianding.json'.
+[2021-04-13 18:28:33] [jiuzijianding DEBUG] Successfully request (Response Code: 304 , Content Length: 0)
+[2021-04-13 18:28:33] [jiuzijianding DEBUG] Cache file found (Length: 189 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\CustomSkinLoader\caches\e23600f07871e7db3e6a696808a1f257d8ca36ff' , Expire: 0)
+[2021-04-13 18:28:33] [jiuzijianding INFO] Try to load from cache 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\CustomSkinLoader\caches\e23600f07871e7db3e6a696808a1f257d8ca36ff'.
+[2021-04-13 18:28:33] [jiuzijianding DEBUG] Successfully load from cache
+[2021-04-13 18:28:33] [jiuzijianding DEBUG] Content: {"username":"jiuzijianding","skins":{"default":"2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0"},"cape":"6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd"}
+[2021-04-13 18:28:33] [jiuzijianding INFO] jiuzijianding's profile loaded.
+[2021-04-13 18:28:33] [jiuzijianding INFO] (SkinUrl: https://mcskin.littleservice.cn/csl/textures/2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0 , Model: default , CapeUrl: https://mcskin.littleservice.cn/csl/textures/6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd  , Expiry: 1618309743)
+[2021-04-13 18:28:33] [pool-3-thread-1 DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/textures/2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0'.
+[2021-04-13 18:28:33] [pool-3-thread-1 DEBUG] Cache file found (Length: 4395 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\2e\2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0' , Expire: 0)
+[2021-04-13 18:28:33] [pool-3-thread-1 DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/textures/6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd'.
+[2021-04-13 18:28:33] [pool-3-thread-1 DEBUG] Cache file found (Length: 251722 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\6a\6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd' , Expire: 0)
+[2021-04-13 18:28:33] [Render thread DEBUG] Loading type: SKIN
+[2021-04-13 18:28:33] [Render thread DEBUG] Loading type: CAPE
+[2021-04-13 18:28:56] [jiuzijianding INFO] Cached profile will be used.
+[2021-04-13 18:28:56] [jiuzijianding INFO] (SkinUrl: https://mcskin.littleservice.cn/csl/textures/2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0 , Model: default , CapeUrl: https://mcskin.littleservice.cn/csl/textures/6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd  , Expiry: 1618309743)
+[2021-04-13 18:28:56] [pool-3-thread-2 DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/textures/2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0'.
+[2021-04-13 18:28:56] [pool-3-thread-2 DEBUG] Cache file found (Length: 4395 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\2e\2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0' , Expire: 0)
+[2021-04-13 18:28:56] [pool-3-thread-2 DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/textures/6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd'.
+[2021-04-13 18:28:56] [pool-3-thread-2 DEBUG] Cache file found (Length: 251722 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\6a\6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd' , Expire: 0)
+[2021-04-13 18:28:56] [Render thread DEBUG] Loading type: SKIN
+[2021-04-13 18:28:56] [Render thread DEBUG] Loading type: CAPE
+[2021-04-13 18:28:58] [openy INFO] Loading openy's profile.
+[2021-04-13 18:28:58] [openy INFO] 1/8 Try to load profile from 'LittleSkin'.
+[2021-04-13 18:28:58] [openy DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/openy.json'.
+[2021-04-13 18:28:58] [openy DEBUG] Successfully request (Response Code: 200 , Content Length: 3)
+[2021-04-13 18:28:58] [openy DEBUG] Saved to cache (Length: 3 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\CustomSkinLoader\caches\01d9beca098e41fb8f08d825149843732dbfaa7b' , Expire: 1618309831)
+[2021-04-13 18:28:58] [openy DEBUG] Content: {}
+
+[2021-04-13 18:28:58] [openy INFO] Both skin and cape not found.
+[2021-04-13 18:28:58] [openy INFO] 2/8 Try to load profile from 'Mojang'.
+[2021-04-13 18:28:58] [openy INFO] Default profile will be used.
+[2021-04-13 18:28:58] [openy INFO] openy's profile loaded.
+[2021-04-13 18:28:58] [openy INFO] (SkinUrl: http://textures.minecraft.net/texture/b229436b00136829fb121196c7fe7479418ff044aa94e352ffdda73a36bc476e , Model: default , CapeUrl: null  , Expiry: 1618309768)
+[2021-04-13 18:28:58] [pool-3-thread-3 DEBUG] Try to request 'http://textures.minecraft.net/texture/b229436b00136829fb121196c7fe7479418ff044aa94e352ffdda73a36bc476e'.
+[2021-04-13 18:28:58] [pool-3-thread-3 DEBUG] Cache file found (Length: 1412 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\b2\b229436b00136829fb121196c7fe7479418ff044aa94e352ffdda73a36bc476e' , Expire: 0)
+[2021-04-13 18:28:58] [Render thread DEBUG] Loading type: SKIN
+[2021-04-13 19:00:22] [jiuzijianding INFO] Loading jiuzijianding's profile.
+[2021-04-13 19:00:22] [jiuzijianding INFO] 1/8 Try to load profile from 'LittleSkin'.
+[2021-04-13 19:00:22] [jiuzijianding DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/jiuzijianding.json'.
+[2021-04-13 19:00:22] [jiuzijianding DEBUG] Successfully request (Response Code: 200 , Content Length: 189)
+[2021-04-13 19:00:22] [jiuzijianding DEBUG] Saved to cache (Length: 189 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\CustomSkinLoader\caches\e23600f07871e7db3e6a696808a1f257d8ca36ff' , Expire: 1618311714)
+[2021-04-13 19:00:22] [jiuzijianding DEBUG] Content: {"username":"jiuzijianding","skins":{"default":"2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0"},"cape":"6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd"}
+[2021-04-13 19:00:22] [jiuzijianding INFO] jiuzijianding's profile loaded.
+[2021-04-13 19:00:22] [jiuzijianding INFO] (SkinUrl: https://mcskin.littleservice.cn/csl/textures/2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0 , Model: default , CapeUrl: https://mcskin.littleservice.cn/csl/textures/6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd  , Expiry: 1618311652)
+[2021-04-13 19:00:22] [pool-3-thread-1 DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/textures/2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0'.
+[2021-04-13 19:00:22] [pool-3-thread-1 DEBUG] Cache file found (Length: 4395 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\2e\2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0' , Expire: 0)
+[2021-04-13 19:00:22] [pool-3-thread-1 DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/textures/6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd'.
+[2021-04-13 19:00:22] [pool-3-thread-1 DEBUG] Cache file found (Length: 251722 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\6a\6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd' , Expire: 0)
+[2021-04-13 19:00:22] [Render thread DEBUG] Loading type: SKIN
+[2021-04-13 19:00:22] [Render thread DEBUG] Loading type: CAPE
+[2021-04-13 19:56:04] [po654111 INFO] Loading po654111's profile.
+[2021-04-13 19:56:04] [po654111 INFO] 1/8 Try to load profile from 'LittleSkin'.
+[2021-04-13 19:56:04] [po654111 DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/po654111.json'.
+[2021-04-13 19:56:04] [po654111 DEBUG] Successfully request (Response Code: 200 , Content Length: 3)
+[2021-04-13 19:56:04] [po654111 DEBUG] Saved to cache (Length: 3 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\CustomSkinLoader\caches\98041d43625fa2e8705ca2a08de52c824f720384' , Expire: 1618315057)
+[2021-04-13 19:56:04] [po654111 DEBUG] Content: {}
+
+[2021-04-13 19:56:04] [po654111 INFO] Both skin and cape not found.
+[2021-04-13 19:56:04] [po654111 INFO] 2/8 Try to load profile from 'Mojang'.
+[2021-04-13 19:56:04] [po654111 INFO] Default profile will be used.
+[2021-04-13 19:56:04] [po654111 INFO] po654111's profile loaded.
+[2021-04-13 19:56:04] [po654111 INFO] (SkinUrl: http://textures.minecraft.net/texture/c96be2b7d4fc9e35ecb8194c0034e876b7fc0f7e8d62aa29ab7eb8461d2b7224 , Model: slim , CapeUrl: null  , Expiry: 1618314994)
+[2021-04-13 19:56:04] [pool-3-thread-2 DEBUG] Try to request 'http://textures.minecraft.net/texture/c96be2b7d4fc9e35ecb8194c0034e876b7fc0f7e8d62aa29ab7eb8461d2b7224'.
+[2021-04-13 19:56:05] [pool-3-thread-2 DEBUG] Successfully request (Response Code: 200 , Content Length: 949)
+[2021-04-13 19:56:05] [pool-3-thread-2 DEBUG] Saved to cache (Length: 949 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\c9\c96be2b7d4fc9e35ecb8194c0034e876b7fc0f7e8d62aa29ab7eb8461d2b7224' , Expire: -1)
+[2021-04-13 19:56:05] [Render thread DEBUG] Loading type: SKIN
+[2021-04-13 19:59:47] [jiuzijianding INFO] Loading jiuzijianding's profile.
+[2021-04-13 19:59:47] [jiuzijianding INFO] 1/8 Try to load profile from 'LittleSkin'.
+[2021-04-13 19:59:47] [jiuzijianding DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/jiuzijianding.json'.
+[2021-04-13 19:59:48] [jiuzijianding DEBUG] Successfully request (Response Code: 200 , Content Length: 189)
+[2021-04-13 19:59:48] [jiuzijianding DEBUG] Saved to cache (Length: 189 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\CustomSkinLoader\caches\e23600f07871e7db3e6a696808a1f257d8ca36ff' , Expire: 1618315280)
+[2021-04-13 19:59:48] [jiuzijianding DEBUG] Content: {"username":"jiuzijianding","skins":{"default":"2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0"},"cape":"6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd"}
+[2021-04-13 19:59:48] [jiuzijianding INFO] jiuzijianding's profile loaded.
+[2021-04-13 19:59:48] [jiuzijianding INFO] (SkinUrl: https://mcskin.littleservice.cn/csl/textures/2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0 , Model: default , CapeUrl: https://mcskin.littleservice.cn/csl/textures/6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd  , Expiry: 1618315218)
+[2021-04-13 19:59:48] [pool-3-thread-3 DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/textures/2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0'.
+[2021-04-13 19:59:48] [pool-3-thread-3 DEBUG] Cache file found (Length: 4395 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\2e\2efbba1edadc7269efdbc0e3c580e72a823777c6fdbf2e78e8fed919184980e0' , Expire: 0)
+[2021-04-13 19:59:48] [pool-3-thread-3 DEBUG] Try to request 'https://mcskin.littleservice.cn/csl/textures/6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd'.
+[2021-04-13 19:59:48] [pool-3-thread-3 DEBUG] Cache file found (Length: 251722 , Path: 'F:\游戏\我的世界\客户端\[主体]1.16.5辅助MDO基础整合包\.minecraft\assets\skins\6a\6ae11ae63837db36988de1b3545071a35e1db9fbf826dfb7b27252564c31ddbd' , Expire: 0)
+[2021-04-13 19:59:48] [Render thread DEBUG] Loading type: SKIN
+[2021-04-13 19:59:48] [Render thread DEBUG] Loading type: CAPE

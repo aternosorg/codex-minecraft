@@ -7,7 +7,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class CustomSkinLoaderVersionInformation extends CustomSkinLoaderInformation
 {
-    protected static string $versionPattern = "[\d.]+(?:-SNAPSHOT(?:-\d+)?)?";
+    protected static string $versionPattern = "[\w.]+(?:-SNAPSHOT(?:-\d+)?)?";
 
     public function __construct()
     {

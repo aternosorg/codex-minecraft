@@ -1,0 +1,23 @@
+[2021-02-18 16:50:16 Texture Downloader #1 INFO] CustomSkinLoader 12.6
+[2021-02-18 16:50:16 Texture Downloader #1 INFO] Get a request: http://s.optifine.net/capes/yimu.png
+[2021-02-18 16:50:17] [yimu INFO] Loading yimu's profile.
+[2021-02-18 16:50:17] [yimu INFO] 1/7 Try to load profile from 'Mojang'.
+[2021-02-18 16:50:17] [yimu DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2021-02-18 16:50:17] [yimu INFO] Payload: ["yimu"]
+[2021-02-18 16:50:20] [yimu DEBUG] Successfully request (Response Code: 200 , Content Length: 57)
+[2021-02-18 16:50:20] [yimu DEBUG] Content: [{"id":"98f5d761f79744c6a981b186686cce7d","name":"YiMU"}]
+[2021-02-18 16:50:20] [yimu DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/98f5d761f79744c6a981b186686cce7d'.
+[2021-02-18 16:50:36] [yimu DEBUG] Failed to request https://sessionserver.mojang.com/session/minecraft/profile/98f5d761f79744c6a981b186686cce7d (Exception: java.net.SocketTimeoutException: Read timed out)
+[2021-02-18 16:50:36] [yimu INFO] Profile not found.(yimu doesn't have skin/cape.)
+[2021-02-18 16:50:36] [yimu INFO] 2/7 Try to load profile from 'LittleSkin'.
+[2021-02-18 16:50:36] [yimu DEBUG] Try to request 'https://littlesk.in/csl/yimu.json'.
+[2021-02-18 16:50:37] [yimu DEBUG] Successfully request (Response Code: 200 , Content Length: 118)
+[2021-02-18 16:50:37] [yimu DEBUG] Saved to cache (Length: 118 , Path: 'E:\360MoveData\[生活大冒险]\1.8，1.8.9\【1.8】生活大冒险 v2.6a\.minecraft\CustomSkinLoader\caches\57ca676214edfe0c79d26f835043bdbb1bc1d561' , Expire: 1613638332)
+[2021-02-18 16:50:37] [yimu DEBUG] Content: {"username":"yimu","skins":{"default":"c6ccee9e6ca0fbf4eaac591568de263afc6d017dd2f8f7522139f870cf21b698"},"cape":null}
+[2021-02-18 16:50:37] [yimu INFO] yimu's profile loaded.
+[2021-02-18 16:50:37] [yimu INFO] (SkinUrl: https://littlesk.in/csl/textures/c6ccee9e6ca0fbf4eaac591568de263afc6d017dd2f8f7522139f870cf21b698 , Model: default , CapeUrl: null  , Expiry: 1613638267)
+[2021-02-18 16:50:37] [pool-4-thread-1 DEBUG] Try to request 'https://littlesk.in/csl/textures/c6ccee9e6ca0fbf4eaac591568de263afc6d017dd2f8f7522139f870cf21b698'.
+[2021-02-18 16:50:38] [pool-4-thread-1 DEBUG] Successfully request (Response Code: 200 , Content Length: 891)
+[2021-02-18 16:50:38] [pool-4-thread-1 DEBUG] Saved to cache (Length: 891 , Path: 'E:\360MoveData\[生活大冒险]\1.8，1.8.9\【1.8】生活大冒险 v2.6a\.minecraft\assets\skins\c6\c6ccee9e6ca0fbf4eaac591568de263afc6d017dd2f8f7522139f870cf21b698' , Expire: -1)
+[2021-02-18 16:50:38] [Client thread DEBUG] Loading type: SKIN
+[2021-02-18 16:50:38] [Client thread INFO] ThreadDownloadImageData Class: net.minecraft.client.renderer.ThreadDownloadImageData

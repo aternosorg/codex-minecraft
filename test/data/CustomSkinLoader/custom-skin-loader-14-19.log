@@ -1,0 +1,48 @@
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 14.19.1
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: DataDir: C:\Users\Life\Desktop\各种东西文件夹\.minecraft\.minecraft\versions\咒术回战！1.20.1整合包！\CustomSkinLoader
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Operating System: Windows 11 (amd64) version 10.0
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Java Version: 17.0.10, Oracle Corporation
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Minecraft: unknown
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Config File: C:\Users\Life\Desktop\各种东西文件夹\.minecraft\.minecraft\versions\咒术回战！1.20.1整合包！\CustomSkinLoader\CustomSkinLoader.json
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Try to load config.
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Successfully load config.
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Try to load Extra List.(LittleSkin.json)
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Successfully load Extra List.
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSKinAPIPlus
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GlitchlessAPI
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Extra List will be ignored: Duplicate.(LittleSkin)
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: Successfully update config.
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: version : 14.19.1
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: buildNumber : 26
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "LittleSkin China", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }]
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: enableDynamicSkull : true
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: enableCape : true
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
+[2024-03-01 19:42:25] [Render thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
+[2024-03-01 19:42:25] [JacksonWang's skull/INFO] [CustomSkinLoader Core]: Loading JacksonWang's profile.
+[2024-03-01 19:42:25] [JacksonWang's skull/INFO] [CustomSkinLoader Core]: 1/2 Try to load profile from 'LittleSkin China'.
+[2024-03-01 19:42:25] [JacksonWang's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/JacksonWang.json'.
+[2024-03-01 19:42:25] [JacksonWang's skull/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 304 , Content Length: -1)
+[2024-03-01 19:42:25] [JacksonWang's skull/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 125 , Path: 'C:\Users\Life\Desktop\各种东西文件夹\.minecraft\.minecraft\versions\咒术回战！1.20.1整合包！\CustomSkinLoader\caches\4531f32917bc89137eb7df9a1b838c38a860bee6' , Expire: 0)
+[2024-03-01 19:42:25] [JacksonWang's skull/INFO] [CustomSkinLoader Core]: Try to load from cache 'C:\Users\Life\Desktop\各种东西文件夹\.minecraft\.minecraft\versions\咒术回战！1.20.1整合包！\CustomSkinLoader\caches\4531f32917bc89137eb7df9a1b838c38a860bee6'.
+[2024-03-01 19:42:25] [JacksonWang's skull/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2024-03-01 19:42:25] [JacksonWang's skull/DEBUG] [CustomSkinLoader Core]: Content: {"username":"JacksonWang","skins":{"default":"c1fbc74129d0861186c4978059546525fdd4aad4c63e7d18e4a6a90c3c5e7fe4"},"cape":null}
+[2024-03-01 19:42:25] [JacksonWang's skull/INFO] [CustomSkinLoader Core]: 2/2 Try to load profile from 'Mojang'.
+[2024-03-01 19:42:25] [JacksonWang's skull/INFO] [CustomSkinLoader Core]: Default profile will be used.
+[2024-03-01 19:42:25] [JacksonWang's skull/INFO] [CustomSkinLoader Core]: JacksonWang's profile loaded.
+[2024-03-01 19:42:25] [JacksonWang's skull/INFO] [CustomSkinLoader Core]: (SkinUrl: https://littleskin.cn/csl/textures/c1fbc74129d0861186c4978059546525fdd4aad4c63e7d18e4a6a90c3c5e7fe4 , Model: default , CapeUrl: null  , Expiry: 1709293375)
