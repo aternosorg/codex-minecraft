@@ -3550,7 +3550,7 @@
         {
             "level": 6,
             "time": null,
-            "prefix": null,
+            "prefix": "\tSpace in storage for jna.tmpdir (MiB):",
             "lines": [
                 {
                     "number": 323,
@@ -3561,7 +3561,7 @@
         {
             "level": 6,
             "time": null,
-            "prefix": null,
+            "prefix": "\tSpace in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB):",
             "lines": [
                 {
                     "number": 324,
@@ -3572,7 +3572,7 @@
         {
             "level": 6,
             "time": null,
-            "prefix": null,
+            "prefix": "\tSpace in storage for io.netty.native.workdir (MiB):",
             "lines": [
                 {
                     "number": 325,
@@ -3583,7 +3583,7 @@
         {
             "level": 6,
             "time": null,
-            "prefix": null,
+            "prefix": "\tSpace in storage for java.io.tmpdir (MiB):",
             "lines": [
                 {
                     "number": 326,
