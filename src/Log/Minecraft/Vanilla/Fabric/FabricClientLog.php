@@ -19,7 +19,7 @@ class FabricClientLog extends FabricLog implements ClientLogTypeInterface
     public static function getDetectors(): array
     {
         return [
-            (new SinglePatternDetector())->setPattern('/^\[[\d:]+\] \[main\/INFO\]: Loading Minecraft [^ \n]+ with Fabric Loader [^ \n]+(\n.*)*\n\[[\d:]+\] \[Render thread\/INFO\]: Setting user: \w+/m'),
+            (new SinglePatternDetector())->setPattern('#^\[[\d:]+\] \[main\/INFO\](?:\:| \(FabricLoader/GameProvider\)) Loading Minecraft [^ \n]+ with Fabric Loader [^ \n]+(\n.*)*\n\[[\d:]+\] \[(?:Render thread|main)\/INFO\](?:\:| \(Minecraft\)) Setting user: \w+#m'),
         ];
     }
 }
