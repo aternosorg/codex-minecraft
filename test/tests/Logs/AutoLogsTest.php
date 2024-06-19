@@ -758,6 +758,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_loom_client(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-loom-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_loom_server(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-loom-server.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_missing_dependencies_1(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-missing-dependencies-1.log');

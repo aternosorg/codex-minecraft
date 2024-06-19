@@ -1,0 +1,84 @@
+[11:47:03] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.16.5 with Fabric Loader 0.14.10
+[11:47:03] [ForkJoinPool-1-worker-1/WARN] (FabricLoader/Metadata) Mod mclogs uses the version dev which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'dev'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[11:47:03] [main/INFO] (FabricLoader) Loading 38 mods:
+	- fabric 0.42.0+1.16
+	- fabric-api-base 0.4.0+3cc0f0907d
+	- fabric-api-lookup-api-v1 1.3.1+3cc0f0907d
+	- fabric-biome-api-v1 3.1.13+3cc0f0907d
+	- fabric-command-api-v1 1.1.3+3cc0f0907d
+	- fabric-commands-v0 0.2.3+3cc0f0907d
+	- fabric-containers-v0 0.1.12+3cc0f0907d
+	- fabric-content-registries-v0 0.2.5+3cc0f0907d
+	- fabric-crash-report-info-v1 0.1.4+3cc0f0907d
+	- fabric-dimensions-v1 2.0.8+3cc0f0907d
+	- fabric-entity-events-v1 1.2.4+3cc0f0907d
+	- fabric-events-interaction-v0 0.4.5+3cc0f0907d
+	- fabric-events-lifecycle-v0 0.2.2+3cc0f0907d
+	- fabric-game-rule-api-v1 1.0.7+3cc0f0907d
+	- fabric-item-api-v1 1.2.2+3cc0f0907d
+	- fabric-item-groups-v0 0.3.1+3cc0f0907d
+	- fabric-lifecycle-events-v1 1.2.2+3cc0f0907d
+	- fabric-loot-tables-v1 1.0.3+3cc0f0907d
+	- fabric-mining-levels-v0 0.1.4+3cc0f0907d
+	- fabric-networking-api-v1 1.0.5+3cc0f0907d
+	- fabric-networking-blockentity-v0 0.2.9+3cc0f0907d
+	- fabric-networking-v0 0.3.3+3cc0f0907d
+	- fabric-object-builder-api-v1 1.9.6+3cc0f0907d
+	- fabric-object-builders-v0 0.7.3+3cc0f0907d
+	- fabric-particles-v1 0.2.5+3cc0f0907d
+	- fabric-registry-sync-v0 0.7.6+3cc0f0907d
+	- fabric-rendering-data-attachment-v1 0.1.6+3cc0f0907d
+	- fabric-rendering-fluids-v1 0.1.15+3cc0f0907d
+	- fabric-resource-loader-v0 0.4.8+3cc0f0907d
+	- fabric-screen-handler-api-v1 1.1.6+3cc0f0907d
+	- fabric-structure-api-v1 1.1.12+3cc0f0907d
+	- fabric-tag-extensions-v0 1.1.2+3cc0f0907d
+	- fabric-tool-attribute-api-v1 1.2.8+3cc0f0907d
+	- fabric-transfer-api-v1 1.5.0+3cc0f0907d
+	- fabricloader 0.14.10
+	- java 17
+	- mclogs dev
+	- minecraft 1.16.5
+[11:47:03] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/julian/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/c1dc27696aa4006e492c2485c9ccbcb26045a971/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[11:47:03] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[11:47:06] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:47:06] [main/INFO] (MclogsFabric) Registering server commands
+[11:47:06] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:47:06] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:47:06] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:47:06] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:47:06] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:47:06] [main/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1))
+[11:47:06] [Worker-Main-9/INFO] (Minecraft) Loaded 7 recipes
+[11:47:06] [Worker-Main-9/INFO] (Minecraft) Loaded 927 advancements
+[11:47:07] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 79 new biomes in 1.288 ms
+[11:47:07] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.16.5
+[11:47:07] [Server thread/INFO] (Minecraft) Loading properties
+[11:47:07] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
+[11:47:07] [Server thread/INFO] (Minecraft) Generating keypair
+[11:47:07] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
+[11:47:07] [Server thread/INFO] (Minecraft) Using epoll channel type
+[11:47:07] [Server thread/INFO] (Minecraft) Preparing level "world"
+[11:47:07] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[11:47:08] [Server thread/INFO] (Minecraft) Preparing spawn area: 0%
+[11:47:08] [Server thread/INFO] (Minecraft) Preparing spawn area: 0%
+[11:47:10] [Worker-Main-8/INFO] (Minecraft) Preparing spawn area: 83%
+[11:47:10] [Worker-Main-13/INFO] (Minecraft) Preparing spawn area: 83%
+[11:47:10] [Worker-Main-13/INFO] (Minecraft) Preparing spawn area: 83%
+[11:47:10] [Worker-Main-10/INFO] (Minecraft) Preparing spawn area: 95%
+[11:47:10] [Server thread/INFO] (Minecraft) Preparing spawn area: 96%
+[11:47:11] [Server thread/INFO] (Minecraft) Time elapsed: 3247 ms
+[11:47:11] [Server thread/INFO] (Minecraft) Done (3.313s)! For help, type "help"
+[11:47:24] [Server thread/INFO] (Minecraft) Stopping the server
+[11:47:24] [Server thread/INFO] (Minecraft) Stopping server
+[11:47:24] [Server thread/INFO] (Minecraft) Saving players
+[11:47:24] [Server thread/INFO] (Minecraft) Saving worlds
+[11:47:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:47:25] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:47:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11:47:25] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:47:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11:47:25] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:47:25] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:47:25] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:47:25] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved

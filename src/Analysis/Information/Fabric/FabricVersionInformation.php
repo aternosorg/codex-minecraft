@@ -33,8 +33,8 @@ class FabricVersionInformation extends FabricInformation
     public static function getPatterns(): array
     {
         return [
-            '/'. VanillaServerLog::getPrefixPattern() .'\[FabricLoader\] Loading [0-9]+ mods: (?:\w{1,63}@[^, ]+, )*fabricloader@('. static::$fabricVersionPattern .')/',
-            '/'. VanillaServerLog::getPrefixPattern() .'Loading Minecraft '. VanillaVersionInformation::getVersionPattern() .' with Fabric Loader ('. static::$fabricVersionPattern .')/'
+            '/'. VanillaServerLog::getPrefixPattern() .'[\[(]FabricLoader[\])] Loading [0-9]+ mods: (?:\w{1,63}@[^, ]+, )*fabricloader@('. static::$fabricVersionPattern .')/',
+            '/'. VanillaServerLog::getPrefixPattern() .'(?:\(FabricLoader\/GameProvider\) )?Loading Minecraft '. VanillaVersionInformation::getVersionPattern() .' with Fabric Loader ('. static::$fabricVersionPattern .')/'
         ];
     }
 
