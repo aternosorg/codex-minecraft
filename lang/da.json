@@ -11,7 +11,7 @@
     "magma-version": "Magma version",
     "mohist-version": "Mohistversion",
     "arclight-version": "Arclight version",
-    "custom-skin-loader-version": "Skræddersyet version af læsser til læder",
+    "custom-skin-loader-version": "CustomSkinLoader version",
     "authme-shutdown-problem": "Plugin 'AuthMe' kunne ikke indlæses og lukkede serveren ned.",
     "pex-config-problem": "Konfigurationen af plugin 'PermissionsEx' er ugyldig.",
     "ambiguous-plugin-name-problem": "Der er flere pluginfiler for plugin navn '{{plugin-name}}': '{{first-plugin-path}}' og '{{second-plugin-path}}'.",
