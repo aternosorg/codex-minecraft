@@ -4,6 +4,8 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Vanilla;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\BlockRemoveSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\WorldRepairSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -14,7 +16,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class TickingBlockEntityProblem extends VanillaProblem
 {
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -28,22 +30,23 @@ class TickingBlockEntityProblem extends VanillaProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
-        return ['/Encountered an unexpected exception\n\s?net\.minecraft\.util\.ReportedException\: Ticking block entity/'];
+        return ['/Encountered an unexpected exception\n\s?net\.minecraft\.(?:util|crash)\.ReportedException\: Ticking block entity/'];
     }
 
     /**
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->addSolution((new FileDeleteSolution())->setRelativePath("world"));
+        $this->addSolution((new GenerateNewWorldSolution()));
         $this->addSolution((new BlockRemoveSolution()));
     }
 }

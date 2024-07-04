@@ -12,7 +12,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class GenerateNewWorldSolution extends VanillaSolution
 {
     /**
-     * Get the solution as a human readable message
+     * Get the solution as a human-readable message
      *
      * @return string
      */

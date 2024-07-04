@@ -1,0 +1,588 @@
+{
+    "id": "customskinloader\/client",
+    "name": "CustomSkinLoader",
+    "type": "Client Log",
+    "version": "14.15.1",
+    "title": "CustomSkinLoader 14.15.1 Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] CustomSkinLoader 14.15.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] DataDir: \/home\/julian\/.var\/app\/org.prismlauncher.PrismLauncher\/data\/PrismLauncher\/instances\/CustomSkinLoader\/.minecraft\/CustomSkinLoader"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Operating System: Linux (amd64) version 6.1.5-200.fc37.x86_64"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Java Version: 17.0.4.1, Flathub"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Flathub"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Minecraft: 1.19.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Config File: \/home\/julian\/.var\/app\/org.prismlauncher.PrismLauncher\/data\/PrismLauncher\/instances\/CustomSkinLoader\/.minecraft\/CustomSkinLoader\/CustomSkinLoader.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Config file not found, use default instead."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Successfully create config."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: MojangAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: Legacy"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: CustomSkinAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: CustomSKinAPIPlus"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: UniSkinAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: ElyByAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: GlitchlessAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Add a profile loader: MinecraftCapesAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] Successfully update config."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] version : 14.15"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] buildNumber : 3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] loadlist : [{ \"name\": \"Mojang\", \"type\": \"MojangAPI\", \"apiRoot\": \"https:\/\/api.mojang.com\/\", \"sessionRoot\": \"https:\/\/sessionserver.mojang.com\/\" }, { \"name\": \"LittleSkin\", \"type\": \"CustomSkinAPI\", \"root\": \"https:\/\/littleskin.cn\/csl\/\" }, { \"name\": \"BlessingSkin\", \"type\": \"CustomSkinAPI\", \"root\": \"https:\/\/skin.prinzeugen.net\/\" }, { \"name\": \"ElyBy\", \"type\": \"ElyByAPI\", \"root\": \"http:\/\/skinsystem.ely.by\/textures\/\" }, { \"name\": \"SkinMe\", \"type\": \"UniSkinAPI\", \"root\": \"http:\/\/www.skinme.cc\/uniskin\/\" }, { \"name\": \"TLauncher\", \"type\": \"ElyByAPI\", \"root\": \"https:\/\/auth.tlauncher.org\/skin\/profile\/texture\/login\/\" }, { \"name\": \"LocalSkin\", \"type\": \"Legacy\", \"checkPNG\": \"false\", \"skin\": \"LocalSkin\/skins\/{USERNAME}.png\", \"model\": \"auto\", \"cape\": \"LocalSkin\/capes\/{USERNAME}.png\", \"elytra\": \"LocalSkin\/elytras\/{USERNAME}.png\" }, { \"name\": \"GlitchlessGames\", \"type\": \"GlitchlessAPI\", \"root\": \"https:\/\/games.glitchless.ru\/api\/minecraft\/users\/profiles\/textures\/?nickname=\" }, { \"name\": \"MinecraftCapes\", \"type\": \"MinecraftCapesAPI\", \"root\": \"https:\/\/minecraftcapes.net\/profile\/\" }]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] enableDynamicSkull : true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] enableTransparentSkin : true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] forceIgnoreHttpsCertificate : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] forceLoadAllTextures : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] enableCape : true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] threadPoolSize : 3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] enableLogStdOut : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] cacheExpiry : 30"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] forceUpdateSkull : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] enableLocalProfileCache : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] enableCacheAutoClean : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[2023-01-17 20:24:14] [Render thread INFO] forceDisableCache : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [JulianVennen INFO]",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[2023-01-17 20:24:14] [JulianVennen INFO] Loading JulianVennen's profile."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [JulianVennen INFO]",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[2023-01-17 20:24:14] [JulianVennen INFO] 1\/9 Try to load profile from 'Mojang'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [JulianVennen DEBUG]",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[2023-01-17 20:24:14] [JulianVennen DEBUG] Try to request 'https:\/\/api.mojang.com\/profiles\/minecraft'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [JulianVennen INFO]",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[2023-01-17 20:24:14] [JulianVennen INFO] Payload: [\"JulianVennen\"]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [JulianVennen DEBUG]",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[2023-01-17 20:24:14] [JulianVennen DEBUG] Successfully request (Response Code: 200 , Content Length: 65)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [JulianVennen DEBUG]",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[2023-01-17 20:24:14] [JulianVennen DEBUG] Content: [{\"id\":\"abcd9e565ac2490c8bc96c1cad18f506\",\"name\":\"JulianVennen\"}]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1673987054,
+            "prefix": "[2023-01-17 20:24:14] [JulianVennen DEBUG]",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[2023-01-17 20:24:14] [JulianVennen DEBUG] Try to request 'https:\/\/sessionserver.mojang.com\/session\/minecraft\/profile\/abcd9e565ac2490c8bc96c1cad18f506'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1673987055,
+            "prefix": "[2023-01-17 20:24:15] [JulianVennen DEBUG]",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[2023-01-17 20:24:15] [JulianVennen DEBUG] Successfully request (Response Code: 200 , Content Length: 708)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1673987055,
+            "prefix": "[2023-01-17 20:24:15] [JulianVennen DEBUG]",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[2023-01-17 20:24:15] [JulianVennen DEBUG] Saved to cache (Length: 708 , Path: '\/home\/julian\/.var\/app\/org.prismlauncher.PrismLauncher\/data\/PrismLauncher\/instances\/CustomSkinLoader\/.minecraft\/CustomSkinLoader\/caches\/2dee54562ebc0d37afe74e3eabb4dd665c45dc09' , Expire: 1673983485)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1673987055,
+            "prefix": "[2023-01-17 20:24:15] [JulianVennen DEBUG]",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[2023-01-17 20:24:15] [JulianVennen DEBUG] Content: {"
+                },
+                {
+                    "number": 44,
+                    "content": "  \"id\" : \"abcd9e565ac2490c8bc96c1cad18f506\","
+                },
+                {
+                    "number": 45,
+                    "content": "  \"name\" : \"JulianVennen\","
+                },
+                {
+                    "number": 46,
+                    "content": "  \"properties\" : [ {"
+                },
+                {
+                    "number": 47,
+                    "content": "    \"name\" : \"textures\","
+                },
+                {
+                    "number": 48,
+                    "content": "    \"value\" : \"ewogICJ0aW1lc3RhbXAiIDogMTY3Mzk4MzQ1NTEwOCwKICAicHJvZmlsZUlkIiA6ICJhYmNkOWU1NjVhYzI0OTBjOGJjOTZjMWNhZDE4ZjUwNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKdWxpYW5WZW5uZW4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU4NmU2MDJmMTRkMDg3YjZjY2Q5YWFkNjE2YjA0YzgwM2NkZTgyZDUwZWI0MjI3MzYwYTliMzEyYjNlZDFmMSIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=\""
+                },
+                {
+                    "number": 49,
+                    "content": "  } ]"
+                },
+                {
+                    "number": 50,
+                    "content": "}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987055,
+            "prefix": "[2023-01-17 20:24:15] [JulianVennen INFO]",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[2023-01-17 20:24:15] [JulianVennen INFO] JulianVennen's profile loaded."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1673987055,
+            "prefix": "[2023-01-17 20:24:15] [JulianVennen INFO]",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[2023-01-17 20:24:15] [JulianVennen INFO] (SkinUrl: http:\/\/textures.minecraft.net\/texture\/f586e602f14d087b6ccd9aad616b04c803cde82d50eb4227360a9b312b3ed1f1 , Model: default , CapeUrl: http:\/\/textures.minecraft.net\/texture\/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933  , Expiry: 1673983485)"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "CustomSkinLoader version: 14.15.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1673987054,
+                    "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[2023-01-17 20:24:14] [Render thread INFO] CustomSkinLoader 14.15.1"
+                        }
+                    ]
+                },
+                "label": "CustomSkinLoader version",
+                "value": "14.15.1"
+            },
+            {
+                "message": "Java version: 17.0.4.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1673987054,
+                    "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "[2023-01-17 20:24:14] [Render thread INFO] Java Version: 17.0.4.1, Flathub"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17.0.4.1"
+            },
+            {
+                "message": "Minecraft version: 1.19.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1673987054,
+                    "prefix": "[2023-01-17 20:24:14] [Render thread INFO]",
+                    "lines": [
+                        {
+                            "number": 6,
+                            "content": "[2023-01-17 20:24:14] [Render thread INFO] Minecraft: 1.19.3"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.19.3"
+            }
+        ]
+    }
+}

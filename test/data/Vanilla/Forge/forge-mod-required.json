@@ -1,0 +1,4763 @@
+{
+    "id": "forge\/server",
+    "name": "Forge",
+    "type": "Server Log",
+    "version": "1.7.10",
+    "title": "Forge 1.7.10 Server Log",
+    "entries": [
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:24] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[03:23:24] [main\/DEBUG] [FML\/]: Injecting tracing printstreams for STDOUT\/STDERR."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:25] [main\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[03:23:25] [main\/INFO] [FML\/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:25] [main\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[03:23:25] [main\/INFO] [FML\/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_144, running on Linux:amd64:4.4.0-141-generic, installed at \/aternos\/bin\/jdk1.8.0_144\/jre"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Java classpath at launch is forge.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Java library path at launch is \/usr\/java\/packages\/lib\/amd64:\/usr\/lib64:\/lib64:\/lib:\/usr\/lib"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Enabling runtime deobfuscation"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Instantiating coremod class FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Enqueued coremod FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Instantiating coremod class FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Enqueued coremod FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: All fundamental core mods are successfully located"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Attempting to load commandline specified mods, relative to \/aternos\/server\/."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Discovering coremods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Examining for coremod candidacy AbyssalCraft-1.7.10-1.9.1.3-FINAL.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Not found coremod data in AbyssalCraft-1.7.10-1.9.1.3-FINAL.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Examining for coremod candidacy archimedesshipsplus-1.7.10-1.7.11.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Not found coremod data in archimedesshipsplus-1.7.10-1.7.11.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Examining for coremod candidacy CustomNPCs_1.7.10d(29oct17).jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Not found coremod data in CustomNPCs_1.7.10d(29oct17).jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Examining for coremod candidacy Dalek_Mod_1710.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Not found coremod data in Dalek_Mod_1710.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Examining for coremod candidacy Ex-Astris-MC1.7.10-1.16-36.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Not found coremod data in Ex-Astris-MC1.7.10-1.16-36.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Examining for coremod candidacy Ex-Nihilo-1.38-53.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Not found coremod data in Ex-Nihilo-1.38-53.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Examining for coremod candidacy excompressum-mc1.7.10-1.2.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Not found coremod data in excompressum-mc1.7.10-1.2.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Examining for coremod candidacy LootBags-1.7.10-2.0.17.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Not found coremod data in LootBags-1.7.10-2.0.17.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Examining for coremod candidacy MCA-1.7.10-5.2.2-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Not found coremod data in MCA-1.7.10-5.2.2-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Examining for coremod candidacy ServerTools-CORE-1.7.10-2.2.0.79.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Not found coremod data in ServerTools-CORE-1.7.10-2.2.0.79.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Examining for coremod candidacy Traincraft-4.4.1_019.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Not found coremod data in Traincraft-4.4.1_019.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Examining for coremod candidacy VeinMiner-1.7.10-0.36.0.496+28a7f13.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Not found coremod data in VeinMiner-1.7.10-0.36.0.496+28a7f13.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Examining for coremod candidacy witchery-1.7.10-0.24.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Not found coremod data in witchery-1.7.10-0.24.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:25] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[03:23:25] [main\/INFO] [LaunchWrapper\/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:25] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[03:23:25] [main\/INFO] [LaunchWrapper\/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:25] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[03:23:25] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:25] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[03:23:25] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:25] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[03:23:25] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:25] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[03:23:25] [main\/TRACE] [FML\/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:25] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[03:23:25] [main\/TRACE] [FML\/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:25] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[03:23:25] [main\/TRACE] [FML\/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:25] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[03:23:25] [main\/DEBUG] [FML\/]: Running coremod plugin FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:27] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[03:23:27] [main\/DEBUG] [FML\/]: Read 527 binary patches"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:28] [main\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[03:23:28] [main\/INFO] [FML\/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[03:23:28] [main\/DEBUG] [FML\/]: Coremod plugin class FMLCorePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:28] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[03:23:28] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[03:23:28] [main\/DEBUG] [FML\/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:28] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[03:23:28] [main\/TRACE] [FML\/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[03:23:28] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[03:23:28] [main\/DEBUG] [FML\/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[03:23:28] [main\/DEBUG] [FML\/]: Running coremod plugin FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[03:23:28] [main\/DEBUG] [FML\/]: Coremod plugin class FMLForgePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:28] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[03:23:28] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[03:23:28] [main\/DEBUG] [FML\/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[03:23:28] [main\/DEBUG] [FML\/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[03:23:28] [main\/DEBUG] [FML\/]: Loaded 2 rules from AccessTransformer mod jar file \/aternos\/server\/mods\/ServerTools-CORE-1.7.10-2.2.0.79.jar!META-INF\/servertools_at.cfg"
+                },
+                {
+                    "number": 68,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[03:23:28] [main\/DEBUG] [FML\/]: Loaded 6 rules from AccessTransformer mod jar file \/aternos\/server\/mods\/witchery-1.7.10-0.24.1.jar!META-INF\/witchery_at.cfg"
+                },
+                {
+                    "number": 70,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:28] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[03:23:28] [main\/DEBUG] [FML\/]: Validating minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:29] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[03:23:29] [main\/DEBUG] [FML\/]: Minecraft validated, launching..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:29] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[03:23:29] [main\/INFO] [LaunchWrapper\/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:29] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[03:23:29] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:30] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[03:23:30] [main\/INFO] [LaunchWrapper\/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/INFO] [MinecraftForge\/]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[03:23:36] [Server thread\/INFO] [MinecraftForge\/]: Attempting early MinecraftForge initialization"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[03:23:36] [Server thread\/INFO] [FML\/]: MinecraftForge v10.13.4.1614 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[03:23:36] [Server thread\/INFO] [FML\/]: Replaced 183 ore recipies"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/INFO] [MinecraftForge\/]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[03:23:36] [Server thread\/INFO] [MinecraftForge\/]: Completed early MinecraftForge initialization"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: File \/aternos\/server\/config\/injectedDependencies.json not found. No dependencies injected"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Attempting to load mods contained in the minecraft jar file and associated classes"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Minecraft is a file at \/aternos\/server\/forge.jar, loading"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Minecraft jar mods loaded successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[03:23:36] [Server thread\/INFO] [FML\/]: Found 0 mods from the command line. Injecting into mod discoverer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[03:23:36] [Server thread\/INFO] [FML\/]: Searching \/aternos\/server\/mods for mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file AbyssalCraft-1.7.10-1.9.1.3-FINAL.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file archimedesshipsplus-1.7.10-1.7.11.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file CustomNPCs_1.7.10d(29oct17).jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file Dalek_Mod_1710.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file Ex-Astris-MC1.7.10-1.16-36.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file Ex-Nihilo-1.38-53.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file excompressum-mc1.7.10-1.2.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file LootBags-1.7.10-2.0.17.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file MCA-1.7.10-5.2.2-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file ServerTools-CORE-1.7.10-2.2.0.79.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file Traincraft-4.4.1_019.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file VeinMiner-1.7.10-0.36.0.496+28a7f13.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file witchery-1.7.10-0.24.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: Examining file forge.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:36] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[03:23:36] [Server thread\/DEBUG] [FML\/]: The mod container forge.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:37] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[03:23:37] [Server thread\/DEBUG] [FML\/]: Examining file AbyssalCraft-1.7.10-1.9.1.3-FINAL.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:37] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[03:23:37] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file AbyssalCraft-1.7.10-1.9.1.3-FINAL.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:37] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[03:23:37] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (com.shinoow.abyssalcraft.AbyssalCraft) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:37] [Server thread\/TRACE] [abyssalcraft\/]:",
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[03:23:37] [Server thread\/TRACE] [abyssalcraft\/]: Parsed dependency info : [Forge@[10.13.4.1614,)] [Forge@[10.13.4.1614,)] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:37] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "[03:23:37] [Server thread\/DEBUG] [FML\/]: Examining file archimedesshipsplus-1.7.10-1.7.11.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:37] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[03:23:37] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file archimedesshipsplus-1.7.10-1.7.11.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:37] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[03:23:37] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (darkevilmac.archimedes.ArchimedesShipMod) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:37] [Server thread\/TRACE] [ArchimedesShipsPlus\/]:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[03:23:37] [Server thread\/TRACE] [ArchimedesShipsPlus\/]: Parsed dependency info : [MovingWorld] [MovingWorld] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:37] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[03:23:37] [Server thread\/DEBUG] [FML\/]: Examining file CustomNPCs_1.7.10d(29oct17).jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:37] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[03:23:37] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file CustomNPCs_1.7.10d(29oct17).jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:37] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[03:23:37] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (noppes.npcs.CustomNpcs) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:37] [Server thread\/TRACE] [customnpcs\/]:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[03:23:37] [Server thread\/TRACE] [customnpcs\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[03:23:38] [Server thread\/DEBUG] [FML\/]: Examining file Dalek_Mod_1710.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[03:23:38] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file Dalek_Mod_1710.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[03:23:38] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (thedalekmod.client.theDalekMod) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/TRACE] [thedalekmod\/]:",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[03:23:38] [Server thread\/TRACE] [thedalekmod\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[03:23:38] [Server thread\/DEBUG] [FML\/]: Examining file Ex-Astris-MC1.7.10-1.16-36.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[03:23:38] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file Ex-Astris-MC1.7.10-1.16-36.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[03:23:38] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (ExAstris.ExAstris) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/TRACE] [exastris\/]:",
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[03:23:38] [Server thread\/TRACE] [exastris\/]: Parsed dependency info : [Forge@[10.13.0.1180,), exnihilo] [Forge@[10.13.0.1180,), exnihilo, ThermalExpansion, Thaumcraft, TConstruct, TSteelworks, RedstoneArsenal, RotaryCraft, Metallurgy, ThermalFoundation, EnderIO, chisel, CoFHAPI|energy] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "[03:23:38] [Server thread\/DEBUG] [FML\/]: Examining file Ex-Nihilo-1.38-53.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "[03:23:38] [Server thread\/DEBUG] [FML\/]: The mod container Ex-Nihilo-1.38-53.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "[03:23:38] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (exnihilo.ExNihilo) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/TRACE] [exnihilo\/]:",
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "[03:23:38] [Server thread\/TRACE] [exnihilo\/]: Parsed dependency info : [Forge@[10.13.0.1180,)] [Forge@[10.13.0.1180,)] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "[03:23:38] [Server thread\/DEBUG] [FML\/]: Examining file excompressum-mc1.7.10-1.2.0.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "[03:23:38] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file excompressum-mc1.7.10-1.2.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "[03:23:38] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (net.blay09.mods.excompressum.ExCompressum) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/TRACE] [excompressum\/]:",
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "[03:23:38] [Server thread\/TRACE] [excompressum\/]: Parsed dependency info : [exnihilo] [exnihilo] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/DEBUG] [excompressum\/]:",
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "[03:23:38] [Server thread\/DEBUG] [excompressum\/]: Attempting to load the file version.properties from excompressum-mc1.7.10-1.2.0.jar to locate a version number for excompressum"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/WARN] [excompressum\/]:",
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "[03:23:38] [Server thread\/WARN] [excompressum\/]: Mod excompressum is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.2.0"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "[03:23:38] [Server thread\/DEBUG] [FML\/]: Examining file LootBags-1.7.10-2.0.17.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "[03:23:38] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file LootBags-1.7.10-2.0.17.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "[03:23:38] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (mal.lootbags.LootBags) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/TRACE] [lootbags\/]:",
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "[03:23:38] [Server thread\/TRACE] [lootbags\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "[03:23:38] [Server thread\/DEBUG] [FML\/]: Examining file MCA-1.7.10-5.2.2-universal.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "[03:23:38] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file MCA-1.7.10-5.2.2-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "[03:23:38] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (mca.core.MCA) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:38] [Server thread\/TRACE] [MCA\/]:",
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "[03:23:38] [Server thread\/TRACE] [MCA\/]: Parsed dependency info : [RadixCore@[2.1.3,)] [RadixCore@[2.1.3,)] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [FML\/]: Examining file ServerTools-CORE-1.7.10-2.2.0.79.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "[03:23:39] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file ServerTools-CORE-1.7.10-2.2.0.79.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (info.servertools.core.ServerTools) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/TRACE] [ServerTools\/]:",
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "[03:23:39] [Server thread\/TRACE] [ServerTools\/]: Parsed dependency info : [Forge@[10.12.1.1060,)] [Forge@[10.12.1.1060,)] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [ServerTools\/]:",
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [ServerTools\/]: Attempting to load the file version.properties from ServerTools-CORE-1.7.10-2.2.0.79.jar to locate a version number for ServerTools"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [ServerTools\/]:",
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [ServerTools\/]: Found version 1.7.10-2.2.0.79 for mod ServerTools in version.properties, using"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [FML\/]: Examining file Traincraft-4.4.1_019.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "[03:23:39] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file Traincraft-4.4.1_019.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (train.common.Traincraft) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/TRACE] [tc\/]:",
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "[03:23:39] [Server thread\/TRACE] [tc\/]: Using mcmod dependency info : [Forge@[10.13.4.1558,)] [Forge@[10.13.4.1558,), Railcraft@[**.**.**.**,)] [TConstruct]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [FML\/]: Examining file VeinMiner-1.7.10-0.36.0.496+28a7f13.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "[03:23:39] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file VeinMiner-1.7.10-0.36.0.496+28a7f13.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (portablejim.veinminer.VeinMiner) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/TRACE] [VeinMiner\/]:",
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "[03:23:39] [Server thread\/TRACE] [VeinMiner\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [VeinMiner\/]:",
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [VeinMiner\/]: Attempting to load the file version.properties from VeinMiner-1.7.10-0.36.0.496+28a7f13.jar to locate a version number for VeinMiner"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [VeinMiner\/]:",
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [VeinMiner\/]: Found version 0.36.0_1.7.10-28a7f13 for mod VeinMiner in version.properties, using"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (portablejim.veinminermodsupport.VeinMinerModSupport) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/TRACE] [VeinMinerModSupport\/]:",
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "[03:23:39] [Server thread\/TRACE] [VeinMinerModSupport\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [VeinMinerModSupport\/]:",
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [VeinMinerModSupport\/]: Attempting to load the file version.properties from VeinMiner-1.7.10-0.36.0.496+28a7f13.jar to locate a version number for VeinMinerModSupport"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [VeinMinerModSupport\/]:",
+            "lines": [
+                {
+                    "number": 159,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [VeinMinerModSupport\/]: Found version 0.36.0_1.7.10-28a7f13 for mod VeinMinerModSupport in version.properties, using"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [FML\/]: Examining file witchery-1.7.10-0.24.1.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "[03:23:39] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file witchery-1.7.10-0.24.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "[03:23:39] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (com.emoniph.witchery.Witchery) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:39] [Server thread\/TRACE] [witchery\/]:",
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "[03:23:39] [Server thread\/TRACE] [witchery\/]: Parsed dependency info : [Forge@[10.13.2.1277,)] [Forge@[10.13.2.1277,), MineFactoryReloaded, NotEnoughItems, Waila, ForgeMultipart, AWWayofTime] []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "[03:23:40] [Server thread\/INFO] [FML\/]: Forge Mod Loader has identified 17 mods to load"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API com.shinoow.abyssalcraft.api.biome (owned by abyssalcraft providing AbyssalCraftAPI) embedded in abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api.block (owned by CoFHAPI providing CoFHAPI|block) embedded in excompressum"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API com.shinoow.abyssalcraft.api.item (owned by abyssalcraft providing AbyssalCraftAPI) embedded in abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API mods.railcraft.api.events (owned by RailcraftAPI|core providing RailcraftAPI|events) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API dan200.computercraft.api (owned by ComputerCraft providing ComputerCraft|API) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API mods.railcraft.api.carts.locomotive (owned by RailcraftAPI|carts providing RailcraftAPI|locomotive) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API dan200.computercraft.api.peripheral (owned by ComputerCraft providing ComputerCraft|API|Peripheral) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 172,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API com.shinoow.abyssalcraft.api.internal (owned by abyssalcraft providing AbyssalCraftAPI) embedded in abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 173,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API com.shinoow.abyssalcraft.api.ritual (owned by abyssalcraft providing AbyssalCraftAPI) embedded in abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 174,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api.item (owned by CoFHAPI providing CoFHAPI|item) embedded in excompressum"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 175,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API portablejim.veinminer.api (owned by VeinMiner providing VeinMinerApi) embedded in VeinMiner"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 176,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API portablejim.veinminer.api (owned by VeinMiner providing VeinMinerApi) embedded in VeinMinerModSupport"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 177,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API mods.railcraft.api.core.items (owned by RailcraftAPI|core providing RailcraftAPI|items) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 178,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API com.shinoow.abyssalcraft.api.necronomicon (owned by abyssalcraft providing AbyssalCraftAPI) embedded in abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 179,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API com.shinoow.abyssalcraft.api.energy (owned by abyssalcraft providing AbyssalCraftAPI) embedded in abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 180,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api.tileentity (owned by CoFHAPI providing CoFHAPI|tileentity) embedded in excompressum"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 181,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API dan200.computercraft.api.turtle (owned by ComputerCraft providing ComputerCraft|API|Turtle) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 182,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API mods.railcraft.api.helpers (owned by RailcraftAPI|core providing RailcraftAPI|helpers) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 183,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API mods.railcraft.api.carts (owned by RailcraftAPI|core providing RailcraftAPI|carts) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 184,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api.inventory (owned by CoFHAPI providing CoFHAPI|inventory) embedded in excompressum"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 185,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API com.shinoow.abyssalcraft.api.recipe (owned by abyssalcraft providing AbyssalCraftAPI) embedded in abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 186,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API mods.railcraft.api.fuel (owned by RailcraftAPI|core providing RailcraftAPI|fuel) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 187,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api.fluid (owned by CoFHAPI providing CoFHAPI|fluid) embedded in excompressum"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 188,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API com.shinoow.abyssalcraft.api.energy.disruption (owned by abyssalcraft providing AbyssalCraftAPI) embedded in abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 189,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API com.shinoow.abyssalcraft.api (owned by abyssalcraft providing AbyssalCraftAPI) embedded in abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in exastris"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 191,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API mods.railcraft.api.signals (owned by RailcraftAPI|core providing RailcraftAPI|signals) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 192,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api.block (owned by CoFHAPI providing CoFHAPI|block) embedded in exastris"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 193,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API mods.railcraft.api.crafting (owned by RailcraftAPI|core providing RailcraftAPI|crafting) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 194,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API dan200.computercraft.api.permissions (owned by ComputerCraft providing ComputerCraft|API|Permissions) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 195,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api.core (owned by CoFHAPI providing CoFHAPI|core) embedded in excompressum"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 196,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API mods.railcraft.api.electricity (owned by RailcraftAPI|core providing RailcraftAPI|electricity) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 197,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in excompressum"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 198,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api.world (owned by CoFHAPI providing CoFHAPI|world) embedded in excompressum"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 199,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 200,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api.modhelpers (owned by CoFHAPI providing CoFHAPI|modhelpers) embedded in excompressum"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 201,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API dan200.computercraft.api.lua (owned by ComputerCraft providing ComputerCraft|API|Lua) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 202,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API mods.railcraft.api.core (owned by Railcraft providing RailcraftAPI|core) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 203,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in excompressum"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 204,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API com.shinoow.abyssalcraft.api.integration (owned by abyssalcraft providing AbyssalCraftAPI) embedded in abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 205,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API dan200.computercraft.api.redstone (owned by ComputerCraft providing ComputerCraft|API|Redstone) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 206,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API mods.railcraft.api.carts.bore (owned by RailcraftAPI|carts providing RailcraftAPI|bore) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 207,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API com.shinoow.abyssalcraft.api.entity (owned by abyssalcraft providing AbyssalCraftAPI) embedded in abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 208,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API dan200.computercraft.api.filesystem (owned by ComputerCraft providing ComputerCraft|API|FileSystem) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 209,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api.transport (owned by CoFHAPI providing CoFHAPI|transport) embedded in excompressum"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 210,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 211,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API com.shinoow.abyssalcraft.api.block (owned by abyssalcraft providing AbyssalCraftAPI) embedded in abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 212,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API com.shinoow.abyssalcraft.api.event (owned by abyssalcraft providing AbyssalCraftAPI) embedded in abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 213,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API mods.railcraft.api.tracks (owned by RailcraftAPI|core providing RailcraftAPI|tracks) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 214,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found API dan200.computercraft.api.media (owned by ComputerCraft providing ComputerCraft|API|Media) embedded in tc"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 215,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|fuel:1.0.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 216,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API RailcraftAPI|fuel: owner: RailcraftAPI|core, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 217,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|core:1.7.10R1.1.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 218,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API CoFHAPI|core: owner: CoFHAPI, dependents: [excompressum]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 219,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API ComputerCraft|API|Lua: owner: ComputerCraft, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 220,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent RailcraftAPI|core from APIContainer{RailcraftAPI|locomotive:1.1.0}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 221,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|locomotive:1.1.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 222,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API RailcraftAPI|locomotive: owner: RailcraftAPI|carts, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 223,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|world:1.7.10R1.1.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 224,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API CoFHAPI|world: owner: CoFHAPI, dependents: [excompressum]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 225,
+                    "content": "[03:23:40] [Server thread\/INFO] [FML\/]: Found mod(s) [exastris] containing declared API package cofh.api.energy (owned by CoFHAPI) without associated API reference"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 226,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|energy:1.7.10R1.3.1}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 227,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API CoFHAPI|energy: owner: CoFHAPI, dependents: [tc, excompressum, exastris]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 228,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API AbyssalCraftAPI: owner: abyssalcraft, dependents: []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 229,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|tileentity:1.7.10R1.1.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 230,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API CoFHAPI|tileentity: owner: CoFHAPI, dependents: [excompressum]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 231,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|signals:2.3.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 232,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API RailcraftAPI|signals: owner: RailcraftAPI|core, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 233,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API CoFHAPI: owner: CoFHLib, dependents: [exastris, excompressum, tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 234,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|carts:1.6.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 235,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API RailcraftAPI|carts: owner: RailcraftAPI|core, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 236,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|events:1.0.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 237,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API RailcraftAPI|events: owner: RailcraftAPI|core, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 238,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API ComputerCraft|API|Peripheral: owner: ComputerCraft, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 239,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|crafting:1.0.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 240,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API RailcraftAPI|crafting: owner: RailcraftAPI|core, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 241,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|item:1.7.10R1.1.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 242,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API CoFHAPI|item: owner: CoFHAPI, dependents: [excompressum]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 243,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API ComputerCraft|API|Redstone: owner: ComputerCraft, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 244,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent RailcraftAPI|core from APIContainer{RailcraftAPI|bore:1.0.0}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 245,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|bore:1.0.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 246,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API RailcraftAPI|bore: owner: RailcraftAPI|carts, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 247,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API ComputerCraft|API|Permissions: owner: ComputerCraft, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 248,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|items:1.0.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 249,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API RailcraftAPI|items: owner: RailcraftAPI|core, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 250,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|tracks:2.3.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 251,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API RailcraftAPI|tracks: owner: RailcraftAPI|core, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 252,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|modhelpers:1.7.10R1.1.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 253,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API CoFHAPI|modhelpers: owner: CoFHAPI, dependents: [excompressum]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 254,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API ComputerCraft|API|Turtle: owner: ComputerCraft, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 255,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|block:1.7.10R1.1.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 256,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API CoFHAPI|block: owner: CoFHAPI, dependents: [excompressum, exastris]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 257,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|fluid:1.7.10R1.1.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 258,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API CoFHAPI|fluid: owner: CoFHAPI, dependents: [excompressum]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 259,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API RailcraftAPI|core: owner: Railcraft, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 260,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API ComputerCraft|API: owner: ComputerCraft, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 261,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|transport:1.7.10R1.1.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 262,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API CoFHAPI|transport: owner: CoFHAPI, dependents: [excompressum]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 263,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API ComputerCraft|API|FileSystem: owner: ComputerCraft, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 264,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|helpers:1.1.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 265,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API RailcraftAPI|helpers: owner: RailcraftAPI|core, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 266,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|electricity:2.0.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 267,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API RailcraftAPI|electricity: owner: RailcraftAPI|core, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 268,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|inventory:1.7.10R1.1.0}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 269,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API CoFHAPI|inventory: owner: CoFHAPI, dependents: [excompressum]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 270,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API VeinMinerApi: owner: VeinMiner, dependents: [VeinMinerModSupport]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 271,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API ComputerCraft|API|Media: owner: ComputerCraft, dependents: [tc]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 272,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: Received a system property request ''"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 273,
+                    "content": "[03:23:40] [Server thread\/TRACE] [FML\/]: System property request managing the state of 0 mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 274,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: After merging, found state information for 0 mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 275,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found translations in forge.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 276,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found translations in forge.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [abyssalcraft\/]:",
+            "lines": [
+                {
+                    "number": 277,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [abyssalcraft\/]: Enabling mod abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 278,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found translations in AbyssalCraft-1.7.10-1.9.1.3-FINAL.jar [en_US, fr_FR, zh_CN]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [ArchimedesShipsPlus\/]:",
+            "lines": [
+                {
+                    "number": 279,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [ArchimedesShipsPlus\/]: Enabling mod ArchimedesShipsPlus"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 280,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found translations in archimedesshipsplus-1.7.10-1.7.11.jar [cs_CZ, en_US, fr_FR, nl_NL, pt_BR, ru_RU, zh_CN]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [customnpcs\/]:",
+            "lines": [
+                {
+                    "number": 281,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [customnpcs\/]: Enabling mod customnpcs"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 282,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found translations in CustomNPCs_1.7.10d(29oct17).jar [cs_CZ, de_DE, en_US, es_AR, es_MX, fr_FR, hu_HU, id_ID, ko_KR, nl_NL, pl_PL, pt_BR, ru_RU, sv_SE, zh_CN, zh_TW]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [thedalekmod\/]:",
+            "lines": [
+                {
+                    "number": 283,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [thedalekmod\/]: Enabling mod thedalekmod"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 284,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found translations in Dalek_Mod_1710.jar [en_US]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [exastris\/]:",
+            "lines": [
+                {
+                    "number": 285,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [exastris\/]: Enabling mod exastris"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 286,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found translations in Ex-Astris-MC1.7.10-1.16-36.jar [ko_KR, ru_RU, zh_CN, en_US]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [exnihilo\/]:",
+            "lines": [
+                {
+                    "number": 287,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [exnihilo\/]: Enabling mod exnihilo"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 288,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found translations in Ex-Nihilo-1.38-53.jar [ru_RU, en_GB, en_US, zh_CN]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [excompressum\/]:",
+            "lines": [
+                {
+                    "number": 289,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [excompressum\/]: Enabling mod excompressum"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 290,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found translations in excompressum-mc1.7.10-1.2.0.jar [en_US, zh_CN]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [lootbags\/]:",
+            "lines": [
+                {
+                    "number": 291,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [lootbags\/]: Enabling mod lootbags"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 292,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [FML\/]: Found translations in LootBags-1.7.10-2.0.17.jar [en_US, ru_RU, zh_CN]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:40] [Server thread\/DEBUG] [MCA\/]:",
+            "lines": [
+                {
+                    "number": 293,
+                    "content": "[03:23:40] [Server thread\/DEBUG] [MCA\/]: Enabling mod MCA"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 294,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Found translations in MCA-1.7.10-5.2.2-universal.jar [ar_SA, de_DE, en_US, es_ES, fi_FI, fr_FR, it_IT, ja_JP, ko_KR, mt_MT, pt_PT, ru_RU, sv_SE, tr_TR, zh_CN]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [ServerTools\/]:",
+            "lines": [
+                {
+                    "number": 295,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [ServerTools\/]: Enabling mod ServerTools"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [tc\/]:",
+            "lines": [
+                {
+                    "number": 296,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [tc\/]: Enabling mod tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 297,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Found translations in Traincraft-4.4.1_019.jar [cs_CZ, de_DE, en_US, es_ES, fr_FR, it_IT, nl_NL, pl_PL, pt_BR, ru_RU, si_SI, sk_SK]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [VeinMiner\/]:",
+            "lines": [
+                {
+                    "number": 298,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [VeinMiner\/]: Enabling mod VeinMiner"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 299,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Found translations in VeinMiner-1.7.10-0.36.0.496+28a7f13.jar [fr_FR, hu_HU, en_US, zh_CN, ja_JP]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [VeinMinerModSupport\/]:",
+            "lines": [
+                {
+                    "number": 300,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [VeinMinerModSupport\/]: Enabling mod VeinMinerModSupport"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 301,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Found translations in VeinMiner-1.7.10-0.36.0.496+28a7f13.jar [fr_FR, hu_HU, en_US, zh_CN, ja_JP]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [witchery\/]:",
+            "lines": [
+                {
+                    "number": 302,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [witchery\/]: Enabling mod witchery"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 303,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Found translations in witchery-1.7.10-0.24.1.jar [de_DE, en_US, es_ES, it_IT, ru_RU, zh_CN]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 304,
+                    "content": "[03:23:41] [Server thread\/TRACE] [FML\/]: Verifying mod requirements are satisfied"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/ERROR] [FML\/]:",
+            "lines": [
+                {
+                    "number": 305,
+                    "content": "[03:23:41] [Server thread\/ERROR] [FML\/]: The mod ArchimedesShipsPlus (Archimedes' Ships Plus) requires mods [MovingWorld] to be available"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 306,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Mod sorting data"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 307,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: \tabyssalcraft(AbyssalCraft:**.**.**.**): AbyssalCraft-1.7.10-1.9.1.3-FINAL.jar (required-after:Forge@[10.13.4.1614,))"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 308,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: \tArchimedesShipsPlus(Archimedes' Ships Plus:1.7.10-ALPHA-0): archimedesshipsplus-1.7.10-1.7.11.jar (required-after:MovingWorld@)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 309,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: \tcustomnpcs(CustomNpcs:1.7.10d): CustomNPCs_1.7.10d(29oct17).jar ()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 310,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: \tthedalekmod(The Dalek Mod:39.75): Dalek_Mod_1710.jar ()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 311,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: \texastris(Ex Astris:MC1.7.10-1.16-36): Ex-Astris-MC1.7.10-1.16-36.jar (required-after:Forge@[10.13.0.1180,);required-after:exnihilo;after:ThermalExpansion;after:Thaumcraft;after:TConstruct;after:TSteelworks;after:RedstoneArsenal;after:RotaryCraft;after:Metallurgy;after:ThermalFoundation;after:EnderIO;after:chisel;after:CoFHAPI|energy)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 312,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: \texnihilo(Ex Nihilo:1.38-53): Ex-Nihilo-1.38-53.jar (required-after:Forge@[10.13.0.1180,);)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 313,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: \texcompressum(Ex Compressum:1.2.0): excompressum-mc1.7.10-1.2.0.jar (required-after:exnihilo)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 314,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: \tlootbags(Loot Bags:2.0.17): LootBags-1.7.10-2.0.17.jar ()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 315,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: \tMCA(Minecraft Comes Alive:1.7.10-5.2.2): MCA-1.7.10-5.2.2-universal.jar (required-after:RadixCore@[2.1.3,))"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 316,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: \tServerTools(ServerTools:1.7.10-2.2.0.79): ServerTools-CORE-1.7.10-2.2.0.79.jar (required-after:Forge@[10.12.1.1060,))"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 317,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: \ttc(Traincraft:4.4.1_019): Traincraft-4.4.1_019.jar ()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 318,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: \tVeinMiner(Vein Miner:0.36.0_1.7.10-28a7f13): VeinMiner-1.7.10-0.36.0.496+28a7f13.jar ()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 319,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: \tVeinMinerModSupport(Mod Support:0.36.0_1.7.10-28a7f13): VeinMiner-1.7.10-0.36.0.496+28a7f13.jar ()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 320,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: \twitchery(Witchery:0.24.1): witchery-1.7.10-0.24.1.jar (required-after:Forge@[10.13.2.1277,);after:MineFactoryReloaded;after:NotEnoughItems;after:Waila;after:ForgeMultipart;after:AWWayofTime)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/WARN] [FML\/]:",
+            "lines": [
+                {
+                    "number": 321,
+                    "content": "[03:23:41] [Server thread\/WARN] [FML\/]: Can't revert to frozen GameData state without freezing first."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [mcp\/mcp]:",
+            "lines": [
+                {
+                    "number": 322,
+                    "content": "[03:23:41] [Server thread\/TRACE] [mcp\/mcp]: Sending event FMLModIdMappingEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [mcp\/mcp]:",
+            "lines": [
+                {
+                    "number": 323,
+                    "content": "[03:23:41] [Server thread\/TRACE] [mcp\/mcp]: Sent event FMLModIdMappingEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 324,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.003s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 325,
+                    "content": "[03:23:41] [Server thread\/TRACE] [FML\/FML]: Sending event FMLModIdMappingEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 326,
+                    "content": "[03:23:41] [Server thread\/TRACE] [FML\/FML]: Sent event FMLModIdMappingEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 327,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [Forge\/Forge]:",
+            "lines": [
+                {
+                    "number": 328,
+                    "content": "[03:23:41] [Server thread\/TRACE] [Forge\/Forge]: Sending event FMLModIdMappingEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [Forge\/Forge]:",
+            "lines": [
+                {
+                    "number": 329,
+                    "content": "[03:23:41] [Server thread\/TRACE] [Forge\/Forge]: Sent event FMLModIdMappingEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 330,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Minecraft Forge took 0.008s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [abyssalcraft\/abyssalcraft]:",
+            "lines": [
+                {
+                    "number": 331,
+                    "content": "[03:23:41] [Server thread\/TRACE] [abyssalcraft\/abyssalcraft]: Sending event FMLModIdMappingEvent to mod abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [abyssalcraft\/abyssalcraft]:",
+            "lines": [
+                {
+                    "number": 332,
+                    "content": "[03:23:41] [Server thread\/TRACE] [abyssalcraft\/abyssalcraft]: Sent event FMLModIdMappingEvent to mod abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 333,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - AbyssalCraft took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [ArchimedesShipsPlus\/ArchimedesShipsPlus]:",
+            "lines": [
+                {
+                    "number": 334,
+                    "content": "[03:23:41] [Server thread\/TRACE] [ArchimedesShipsPlus\/ArchimedesShipsPlus]: Sending event FMLModIdMappingEvent to mod ArchimedesShipsPlus"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [ArchimedesShipsPlus\/ArchimedesShipsPlus]:",
+            "lines": [
+                {
+                    "number": 335,
+                    "content": "[03:23:41] [Server thread\/TRACE] [ArchimedesShipsPlus\/ArchimedesShipsPlus]: Sent event FMLModIdMappingEvent to mod ArchimedesShipsPlus"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 336,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Archimedes' Ships Plus took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [customnpcs\/customnpcs]:",
+            "lines": [
+                {
+                    "number": 337,
+                    "content": "[03:23:41] [Server thread\/TRACE] [customnpcs\/customnpcs]: Sending event FMLModIdMappingEvent to mod customnpcs"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [customnpcs\/customnpcs]:",
+            "lines": [
+                {
+                    "number": 338,
+                    "content": "[03:23:41] [Server thread\/TRACE] [customnpcs\/customnpcs]: Sent event FMLModIdMappingEvent to mod customnpcs"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 339,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - CustomNpcs took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [thedalekmod\/thedalekmod]:",
+            "lines": [
+                {
+                    "number": 340,
+                    "content": "[03:23:41] [Server thread\/TRACE] [thedalekmod\/thedalekmod]: Sending event FMLModIdMappingEvent to mod thedalekmod"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [thedalekmod\/thedalekmod]:",
+            "lines": [
+                {
+                    "number": 341,
+                    "content": "[03:23:41] [Server thread\/TRACE] [thedalekmod\/thedalekmod]: Sent event FMLModIdMappingEvent to mod thedalekmod"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 342,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - The Dalek Mod took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [exastris\/exastris]:",
+            "lines": [
+                {
+                    "number": 343,
+                    "content": "[03:23:41] [Server thread\/TRACE] [exastris\/exastris]: Sending event FMLModIdMappingEvent to mod exastris"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [exastris\/exastris]:",
+            "lines": [
+                {
+                    "number": 344,
+                    "content": "[03:23:41] [Server thread\/TRACE] [exastris\/exastris]: Sent event FMLModIdMappingEvent to mod exastris"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 345,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Ex Astris took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [exnihilo\/exnihilo]:",
+            "lines": [
+                {
+                    "number": 346,
+                    "content": "[03:23:41] [Server thread\/TRACE] [exnihilo\/exnihilo]: Sending event FMLModIdMappingEvent to mod exnihilo"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [exnihilo\/exnihilo]:",
+            "lines": [
+                {
+                    "number": 347,
+                    "content": "[03:23:41] [Server thread\/TRACE] [exnihilo\/exnihilo]: Sent event FMLModIdMappingEvent to mod exnihilo"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 348,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Ex Nihilo took 0.004s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [excompressum\/excompressum]:",
+            "lines": [
+                {
+                    "number": 349,
+                    "content": "[03:23:41] [Server thread\/TRACE] [excompressum\/excompressum]: Sending event FMLModIdMappingEvent to mod excompressum"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [excompressum\/excompressum]:",
+            "lines": [
+                {
+                    "number": 350,
+                    "content": "[03:23:41] [Server thread\/TRACE] [excompressum\/excompressum]: Sent event FMLModIdMappingEvent to mod excompressum"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 351,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Ex Compressum took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [lootbags\/lootbags]:",
+            "lines": [
+                {
+                    "number": 352,
+                    "content": "[03:23:41] [Server thread\/TRACE] [lootbags\/lootbags]: Sending event FMLModIdMappingEvent to mod lootbags"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [lootbags\/lootbags]:",
+            "lines": [
+                {
+                    "number": 353,
+                    "content": "[03:23:41] [Server thread\/TRACE] [lootbags\/lootbags]: Sent event FMLModIdMappingEvent to mod lootbags"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 354,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Loot Bags took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [MCA\/MCA]:",
+            "lines": [
+                {
+                    "number": 355,
+                    "content": "[03:23:41] [Server thread\/TRACE] [MCA\/MCA]: Sending event FMLModIdMappingEvent to mod MCA"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [MCA\/MCA]:",
+            "lines": [
+                {
+                    "number": 356,
+                    "content": "[03:23:41] [Server thread\/TRACE] [MCA\/MCA]: Sent event FMLModIdMappingEvent to mod MCA"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 357,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Minecraft Comes Alive took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [ServerTools\/ServerTools]:",
+            "lines": [
+                {
+                    "number": 358,
+                    "content": "[03:23:41] [Server thread\/TRACE] [ServerTools\/ServerTools]: Sending event FMLModIdMappingEvent to mod ServerTools"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [ServerTools\/ServerTools]:",
+            "lines": [
+                {
+                    "number": 359,
+                    "content": "[03:23:41] [Server thread\/TRACE] [ServerTools\/ServerTools]: Sent event FMLModIdMappingEvent to mod ServerTools"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 360,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - ServerTools took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [tc\/tc]:",
+            "lines": [
+                {
+                    "number": 361,
+                    "content": "[03:23:41] [Server thread\/TRACE] [tc\/tc]: Sending event FMLModIdMappingEvent to mod tc"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [tc\/tc]:",
+            "lines": [
+                {
+                    "number": 362,
+                    "content": "[03:23:41] [Server thread\/TRACE] [tc\/tc]: Sent event FMLModIdMappingEvent to mod tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 363,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Traincraft took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [VeinMiner\/VeinMiner]:",
+            "lines": [
+                {
+                    "number": 364,
+                    "content": "[03:23:41] [Server thread\/TRACE] [VeinMiner\/VeinMiner]: Sending event FMLModIdMappingEvent to mod VeinMiner"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [VeinMiner\/VeinMiner]:",
+            "lines": [
+                {
+                    "number": 365,
+                    "content": "[03:23:41] [Server thread\/TRACE] [VeinMiner\/VeinMiner]: Sent event FMLModIdMappingEvent to mod VeinMiner"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 366,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Vein Miner took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [VeinMinerModSupport\/VeinMinerModSupport]:",
+            "lines": [
+                {
+                    "number": 367,
+                    "content": "[03:23:41] [Server thread\/TRACE] [VeinMinerModSupport\/VeinMinerModSupport]: Sending event FMLModIdMappingEvent to mod VeinMinerModSupport"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [VeinMinerModSupport\/VeinMinerModSupport]:",
+            "lines": [
+                {
+                    "number": 368,
+                    "content": "[03:23:41] [Server thread\/TRACE] [VeinMinerModSupport\/VeinMinerModSupport]: Sent event FMLModIdMappingEvent to mod VeinMinerModSupport"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 369,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Mod Support took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [witchery\/witchery]:",
+            "lines": [
+                {
+                    "number": 370,
+                    "content": "[03:23:41] [Server thread\/TRACE] [witchery\/witchery]: Sending event FMLModIdMappingEvent to mod witchery"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [witchery\/witchery]:",
+            "lines": [
+                {
+                    "number": 371,
+                    "content": "[03:23:41] [Server thread\/TRACE] [witchery\/witchery]: Sent event FMLModIdMappingEvent to mod witchery"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 372,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Witchery took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 373,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Finished: ModIdMapping took 0.028s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 374,
+                    "content": "[03:23:41] [Server thread\/INFO] [FML\/]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 375,
+                    "content": "[03:23:41] [Server thread\/INFO] [FML\/]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [mcp\/mcp]:",
+            "lines": [
+                {
+                    "number": 376,
+                    "content": "[03:23:41] [Server thread\/TRACE] [mcp\/mcp]: Sending event FMLServerStoppedEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [mcp\/mcp]:",
+            "lines": [
+                {
+                    "number": 377,
+                    "content": "[03:23:41] [Server thread\/TRACE] [mcp\/mcp]: Sent event FMLServerStoppedEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 378,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.003s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 379,
+                    "content": "[03:23:41] [Server thread\/TRACE] [FML\/FML]: Sending event FMLServerStoppedEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 380,
+                    "content": "[03:23:41] [Server thread\/TRACE] [FML\/FML]: Sent event FMLServerStoppedEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 381,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Forge Mod Loader took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [Forge\/Forge]:",
+            "lines": [
+                {
+                    "number": 382,
+                    "content": "[03:23:41] [Server thread\/TRACE] [Forge\/Forge]: Sending event FMLServerStoppedEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [Forge\/Forge]:",
+            "lines": [
+                {
+                    "number": 383,
+                    "content": "[03:23:41] [Server thread\/TRACE] [Forge\/Forge]: Sent event FMLServerStoppedEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 384,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Minecraft Forge took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [abyssalcraft\/abyssalcraft]:",
+            "lines": [
+                {
+                    "number": 385,
+                    "content": "[03:23:41] [Server thread\/TRACE] [abyssalcraft\/abyssalcraft]: Sending event FMLServerStoppedEvent to mod abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [abyssalcraft\/abyssalcraft]:",
+            "lines": [
+                {
+                    "number": 386,
+                    "content": "[03:23:41] [Server thread\/TRACE] [abyssalcraft\/abyssalcraft]: Sent event FMLServerStoppedEvent to mod abyssalcraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 387,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - AbyssalCraft took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [ArchimedesShipsPlus\/ArchimedesShipsPlus]:",
+            "lines": [
+                {
+                    "number": 388,
+                    "content": "[03:23:41] [Server thread\/TRACE] [ArchimedesShipsPlus\/ArchimedesShipsPlus]: Sending event FMLServerStoppedEvent to mod ArchimedesShipsPlus"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [ArchimedesShipsPlus\/ArchimedesShipsPlus]:",
+            "lines": [
+                {
+                    "number": 389,
+                    "content": "[03:23:41] [Server thread\/TRACE] [ArchimedesShipsPlus\/ArchimedesShipsPlus]: Sent event FMLServerStoppedEvent to mod ArchimedesShipsPlus"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 390,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Archimedes' Ships Plus took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [customnpcs\/customnpcs]:",
+            "lines": [
+                {
+                    "number": 391,
+                    "content": "[03:23:41] [Server thread\/TRACE] [customnpcs\/customnpcs]: Sending event FMLServerStoppedEvent to mod customnpcs"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [customnpcs\/customnpcs]:",
+            "lines": [
+                {
+                    "number": 392,
+                    "content": "[03:23:41] [Server thread\/TRACE] [customnpcs\/customnpcs]: Sent event FMLServerStoppedEvent to mod customnpcs"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 393,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - CustomNpcs took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [thedalekmod\/thedalekmod]:",
+            "lines": [
+                {
+                    "number": 394,
+                    "content": "[03:23:41] [Server thread\/TRACE] [thedalekmod\/thedalekmod]: Sending event FMLServerStoppedEvent to mod thedalekmod"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [thedalekmod\/thedalekmod]:",
+            "lines": [
+                {
+                    "number": 395,
+                    "content": "[03:23:41] [Server thread\/TRACE] [thedalekmod\/thedalekmod]: Sent event FMLServerStoppedEvent to mod thedalekmod"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 396,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - The Dalek Mod took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [exastris\/exastris]:",
+            "lines": [
+                {
+                    "number": 397,
+                    "content": "[03:23:41] [Server thread\/TRACE] [exastris\/exastris]: Sending event FMLServerStoppedEvent to mod exastris"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [exastris\/exastris]:",
+            "lines": [
+                {
+                    "number": 398,
+                    "content": "[03:23:41] [Server thread\/TRACE] [exastris\/exastris]: Sent event FMLServerStoppedEvent to mod exastris"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 399,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Ex Astris took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [exnihilo\/exnihilo]:",
+            "lines": [
+                {
+                    "number": 400,
+                    "content": "[03:23:41] [Server thread\/TRACE] [exnihilo\/exnihilo]: Sending event FMLServerStoppedEvent to mod exnihilo"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [exnihilo\/exnihilo]:",
+            "lines": [
+                {
+                    "number": 401,
+                    "content": "[03:23:41] [Server thread\/TRACE] [exnihilo\/exnihilo]: Sent event FMLServerStoppedEvent to mod exnihilo"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 402,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Ex Nihilo took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [excompressum\/excompressum]:",
+            "lines": [
+                {
+                    "number": 403,
+                    "content": "[03:23:41] [Server thread\/TRACE] [excompressum\/excompressum]: Sending event FMLServerStoppedEvent to mod excompressum"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [excompressum\/excompressum]:",
+            "lines": [
+                {
+                    "number": 404,
+                    "content": "[03:23:41] [Server thread\/TRACE] [excompressum\/excompressum]: Sent event FMLServerStoppedEvent to mod excompressum"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 405,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Ex Compressum took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [lootbags\/lootbags]:",
+            "lines": [
+                {
+                    "number": 406,
+                    "content": "[03:23:41] [Server thread\/TRACE] [lootbags\/lootbags]: Sending event FMLServerStoppedEvent to mod lootbags"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [lootbags\/lootbags]:",
+            "lines": [
+                {
+                    "number": 407,
+                    "content": "[03:23:41] [Server thread\/TRACE] [lootbags\/lootbags]: Sent event FMLServerStoppedEvent to mod lootbags"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 408,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Loot Bags took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [MCA\/MCA]:",
+            "lines": [
+                {
+                    "number": 409,
+                    "content": "[03:23:41] [Server thread\/TRACE] [MCA\/MCA]: Sending event FMLServerStoppedEvent to mod MCA"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [MCA\/MCA]:",
+            "lines": [
+                {
+                    "number": 410,
+                    "content": "[03:23:41] [Server thread\/TRACE] [MCA\/MCA]: Sent event FMLServerStoppedEvent to mod MCA"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 411,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Minecraft Comes Alive took 0.004s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [ServerTools\/ServerTools]:",
+            "lines": [
+                {
+                    "number": 412,
+                    "content": "[03:23:41] [Server thread\/TRACE] [ServerTools\/ServerTools]: Sending event FMLServerStoppedEvent to mod ServerTools"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [ServerTools\/ServerTools]:",
+            "lines": [
+                {
+                    "number": 413,
+                    "content": "[03:23:41] [Server thread\/TRACE] [ServerTools\/ServerTools]: Sent event FMLServerStoppedEvent to mod ServerTools"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 414,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - ServerTools took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [tc\/tc]:",
+            "lines": [
+                {
+                    "number": 415,
+                    "content": "[03:23:41] [Server thread\/TRACE] [tc\/tc]: Sending event FMLServerStoppedEvent to mod tc"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [tc\/tc]:",
+            "lines": [
+                {
+                    "number": 416,
+                    "content": "[03:23:41] [Server thread\/TRACE] [tc\/tc]: Sent event FMLServerStoppedEvent to mod tc"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 417,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Traincraft took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [VeinMiner\/VeinMiner]:",
+            "lines": [
+                {
+                    "number": 418,
+                    "content": "[03:23:41] [Server thread\/TRACE] [VeinMiner\/VeinMiner]: Sending event FMLServerStoppedEvent to mod VeinMiner"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [VeinMiner\/VeinMiner]:",
+            "lines": [
+                {
+                    "number": 419,
+                    "content": "[03:23:41] [Server thread\/TRACE] [VeinMiner\/VeinMiner]: Sent event FMLServerStoppedEvent to mod VeinMiner"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 420,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Vein Miner took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [VeinMinerModSupport\/VeinMinerModSupport]:",
+            "lines": [
+                {
+                    "number": 421,
+                    "content": "[03:23:41] [Server thread\/TRACE] [VeinMinerModSupport\/VeinMinerModSupport]: Sending event FMLServerStoppedEvent to mod VeinMinerModSupport"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [VeinMinerModSupport\/VeinMinerModSupport]:",
+            "lines": [
+                {
+                    "number": 422,
+                    "content": "[03:23:41] [Server thread\/TRACE] [VeinMinerModSupport\/VeinMinerModSupport]: Sent event FMLServerStoppedEvent to mod VeinMinerModSupport"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 423,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Mod Support took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [witchery\/witchery]:",
+            "lines": [
+                {
+                    "number": 424,
+                    "content": "[03:23:41] [Server thread\/TRACE] [witchery\/witchery]: Sending event FMLServerStoppedEvent to mod witchery"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/TRACE] [witchery\/witchery]:",
+            "lines": [
+                {
+                    "number": 425,
+                    "content": "[03:23:41] [Server thread\/TRACE] [witchery\/witchery]: Sent event FMLServerStoppedEvent to mod witchery"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 426,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Witchery took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 427,
+                    "content": "[03:23:41] [Server thread\/DEBUG] [FML\/]: Bar Finished: ServerStopped took 0.021s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[03:23:41] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 428,
+                    "content": "[03:23:41] [Server thread\/INFO] [FML\/]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded."
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'Archimedes' Ships Plus' is missing the required mod 'MovingWorld'.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[03:23:41] [Server thread\/ERROR] [FML\/]:",
+                    "lines": [
+                        {
+                            "number": 305,
+                            "content": "[03:23:41] [Server thread\/ERROR] [FML\/]: The mod ArchimedesShipsPlus (Archimedes' Ships Plus) requires mods [MovingWorld] to be available"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'MovingWorld'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.7.10",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[03:23:25] [main\/INFO] [FML\/]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[03:23:25] [main\/INFO] [FML\/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.7.10"
+            },
+            {
+                "message": "Forge version: 10.13.4.1614",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[03:23:36] [Server thread\/INFO] [FML\/]:",
+                    "lines": [
+                        {
+                            "number": 77,
+                            "content": "[03:23:36] [Server thread\/INFO] [FML\/]: MinecraftForge v10.13.4.1614 Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "10.13.4.1614"
+            }
+        ]
+    }
+}

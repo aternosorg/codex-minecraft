@@ -1,0 +1,683 @@
+{
+    "id": "forge\/client",
+    "name": "Forge",
+    "type": "Client Log",
+    "version": "1.16.5",
+    "title": "Forge 1.16.5 Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:19:46] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[14:19:46] [main\/INFO]: ModLauncher running: args [--username, Test, --version, test, --gameDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft\\versions\\test, --assetsDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft\\assets, --assetIndex, 1.16, --uuid, d8d5a9237b2043d8883b1150148d6955, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 925, --height, 530, --launchTarget, fmlclient, --fml.forgeVersion, 36.2.35, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:19:46] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[14:19:46] [main\/INFO]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_341 by Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:19:46] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[14:19:46] [main\/INFO]: OptiFineTransformationService.onLoad"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:19:46] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[14:19:46] [main\/INFO]: OptiFine ZIP file: C:\\Users\\********\\AppData\\Roaming\\.minecraft\\versions\\test\\mods\\OptiFine-1.16.5_HD_U_G8_pre2.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:19:46] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[14:19:46] [main\/INFO]: Target.PRE_CLASS is available"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:19:47] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[14:19:47] [main\/INFO]: Added Lets Encrypt root certificates as additional trust"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:19:47] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[14:19:47] [main\/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:\/C:\/Users\/********\/AppData\/Roaming\/.minecraft\/libraries\/org\/spongepowered\/mixin\/0.8.4\/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:19:47] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[14:19:47] [main\/INFO]: OptiFineTransformationService.initialize"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[14:19:49] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[14:19:49] [main\/WARN]: Mod file Mod File: C:\\Users\\********\\AppData\\Roaming\\.minecraft\\versions\\test\\mods\\MouseTweaks-fabric-mc1.16.5-2.22.jar is missing mods.toml file"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[14:19:49] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[14:19:49] [main\/WARN]: File C:\\Users\\********\\AppData\\Roaming\\.minecraft\\versions\\test\\mods\\MouseTweaks-fabric-mc1.16.5-2.22.jar has been ignored - it is invalid"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:19:50] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[14:19:50] [main\/INFO]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:19:50] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[14:19:50] [main\/INFO]: OptiFineTransformationService.transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:19:50] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[14:19:50] [main\/INFO]: Targets: 308"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:19:51] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[14:19:51] [main\/INFO]: additionalClassesLocator: [optifine., net.optifine.]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:19:51] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[14:19:51] [main\/INFO]: Launching target 'fmlclient' with arguments [--version, test, --gameDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft\\versions\\test, --assetsDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft\\assets, --uuid, d8d5a9237b2043d8883b1150148d6955, --username, Test, --assetIndex, 1.16, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 925, --height, 530]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:06] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[14:20:06] [Render thread\/INFO]: Environment: authHost='https:\/\/authserver.mojang.com', accountsHost='https:\/\/api.mojang.com', sessionHost='https:\/\/sessionserver.mojang.com', servicesHost='https:\/\/api.minecraftservices.com', name='PROD'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:06] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[14:20:06] [Render thread\/INFO]: Setting user: Test"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:06] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[14:20:06] [Render thread\/INFO]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:06] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[14:20:06] [Render thread\/INFO]: Backend library: LWJGL version 3.2.2 build 10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[14:20:10] [Render thread\/INFO]: [OptiFine]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[14:20:10] [Render thread\/INFO]: [OptiFine] OptiFine_1.16.5_HD_U_G8_pre2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[14:20:10] [Render thread\/INFO]: [OptiFine] Build: 20210305-002749"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[14:20:10] [Render thread\/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[14:20:10] [Render thread\/INFO]: [OptiFine] Java: 1.8.0_341, Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[14:20:10] [Render thread\/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[14:20:10] [Render thread\/INFO]: [OptiFine] LWJGL: 3.3.0 Win32 WGL EGL OSMesa VisualC DLL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[14:20:10] [Render thread\/INFO]: [OptiFine] OpenGL: GeForce GT 720M\/PCIe\/SSE2, version 4.5.0 NVIDIA 376.54, NVIDIA Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[14:20:10] [Render thread\/INFO]: [OptiFine] OpenGL Version: 4.5.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[14:20:10] [Render thread\/INFO]: [OptiFine] Maximum texture size: 16384x16384"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [VersionCheck\/INFO]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[14:20:10] [VersionCheck\/INFO]: [OptiFine] Checking for new version"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[14:20:10] [Render thread\/INFO]: [Shaders] OpenGL Version: 4.5.0 NVIDIA 376.54"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[14:20:10] [Render thread\/INFO]: [Shaders] Vendor:  NVIDIA Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[14:20:10] [Render thread\/INFO]: [Shaders] Renderer: GeForce GT 720M\/PCIe\/SSE2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[14:20:10] [Render thread\/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[14:20:10] [Render thread\/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[14:20:10] [Render thread\/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[14:20:10] [Render thread\/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[14:20:10] [Render thread\/INFO]: [Shaders] Load shaders configuration."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[14:20:10] [Render thread\/INFO]: [Shaders] No shaderpack loaded."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:10] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[14:20:10] [Render thread\/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:11] [VersionCheck\/INFO]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[14:20:11] [VersionCheck\/INFO]: [OptiFine] Version found: G7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:11] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[14:20:11] [modloading-worker-0\/INFO]: Forge mod loading, version 36.2.35, for MC 1.16.5 with MCP 20210115.111550"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:11] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[14:20:11] [modloading-worker-0\/INFO]: MinecraftForge v36.2.35 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:12] [modloading-worker-3\/INFO]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[14:20:12] [modloading-worker-3\/INFO]: Initializing Update Checker..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:12] [ Iron Furnaces Update Checker\/INFO]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[14:20:12] [ Iron Furnaces Update Checker\/INFO]: Starting Update Check..."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14:20:34] [ Iron Furnaces Update Checker\/ERROR]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[14:20:34] [ Iron Furnaces Update Checker\/ERROR]: Update Check failed!"
+                },
+                {
+                    "number": 47,
+                    "content": "java.net.ConnectException: Connection timed out: connect"
+                },
+                {
+                    "number": 48,
+                    "content": "\tat java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 49,
+                    "content": "\tat java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 50,
+                    "content": "\tat java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 51,
+                    "content": "\tat java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 52,
+                    "content": "\tat java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 53,
+                    "content": "\tat java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 54,
+                    "content": "\tat java.net.Socket.connect(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 55,
+                    "content": "\tat sun.security.ssl.SSLSocketImpl.connect(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 56,
+                    "content": "\tat sun.security.ssl.BaseSSLSocketImpl.connect(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 57,
+                    "content": "\tat sun.net.NetworkClient.doConnect(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 58,
+                    "content": "\tat sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 59,
+                    "content": "\tat sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 60,
+                    "content": "\tat sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 61,
+                    "content": "\tat sun.net.www.protocol.https.HttpsClient.New(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 62,
+                    "content": "\tat sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 63,
+                    "content": "\tat sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 64,
+                    "content": "\tat sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 65,
+                    "content": "\tat sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 66,
+                    "content": "\tat sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 67,
+                    "content": "\tat sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 68,
+                    "content": "\tat sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 69,
+                    "content": "\tat java.net.URL.openStream(Unknown Source) ~[?:1.8.0_341]"
+                },
+                {
+                    "number": 70,
+                    "content": "\tat ironfurnaces.update.ThreadUpdateChecker.run(ThreadUpdateChecker.java:28) [ironfurnaces:2.7.7]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:34] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[14:20:34] [Render thread\/INFO]: Narrator library for x64 successfully loaded"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:38] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[14:20:38] [Render thread\/INFO]: Reloading ResourceManager: Default, Mod Resources, quark-emote-pack"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:20:38] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[14:20:38] [Render thread\/INFO]: [OptiFine] *** Reloading textures ***"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.16.5",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[14:19:46] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[14:19:46] [main\/INFO]: ModLauncher running: args [--username, Test, --version, test, --gameDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft\\versions\\test, --assetsDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft\\assets, --assetIndex, 1.16, --uuid, d8d5a9237b2043d8883b1150148d6955, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 925, --height, 530, --launchTarget, fmlclient, --fml.forgeVersion, 36.2.35, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.16.5"
+            },
+            {
+                "message": "Forge version: 36.2.35",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[14:19:46] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[14:19:46] [main\/INFO]: ModLauncher running: args [--username, Test, --version, test, --gameDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft\\versions\\test, --assetsDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft\\assets, --assetIndex, 1.16, --uuid, d8d5a9237b2043d8883b1150148d6955, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 925, --height, 530, --launchTarget, fmlclient, --fml.forgeVersion, 36.2.35, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "36.2.35"
+            }
+        ]
+    }
+}

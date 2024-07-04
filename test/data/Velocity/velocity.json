@@ -1,0 +1,149 @@
+{
+    "id": "velocity\/proxy",
+    "name": "Velocity",
+    "type": "Proxy Log",
+    "version": null,
+    "title": "Velocity Proxy Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:54:40] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[14:54:40] [main\/INFO]: Booting up Velocity 3.0.0..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:54:40] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[14:54:40] [main\/INFO]: Loading localizations..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:54:40] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[14:54:40] [main\/INFO]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 1.1.x (Linux x86_64) ciphers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:54:40] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[14:54:40] [main\/INFO]: Loading plugins..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:54:40] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[14:54:40] [main\/INFO]: Loaded plugin exaroton 1.0.0 by Aternos GmbH"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:54:40] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[14:54:40] [main\/INFO]: Loaded 1 plugins"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:54:40] [Netty epoll Boss #0\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[14:54:40] [Netty epoll Boss #0\/INFO]: Listening on \/0.0.0.0:55134"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:54:40] [Netty epoll Worker #0\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[14:54:40] [Netty epoll Worker #0\/INFO]: Listening for GS4 query on \/0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:54:40] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[14:54:40] [main\/INFO]: Done (0.88s)!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:54:46] [Thread-2\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[14:54:46] [Thread-2\/INFO]: Shutting down the proxy..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:54:46] [Thread-2\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[14:54:46] [Thread-2\/INFO]: Closing endpoint \/0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:54:46] [Thread-2\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[14:54:46] [Thread-2\/INFO]: Closing endpoint \/0.0.0.0:55134"
+                },
+                {
+                    "number": 13,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": []
+    }
+}

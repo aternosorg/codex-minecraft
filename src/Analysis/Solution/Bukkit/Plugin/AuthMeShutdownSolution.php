@@ -12,25 +12,10 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class AuthMeShutdownSolution extends FileEditSolution
 {
-    /**
-     * @var string
-     */
-    protected $path = 'plugins/AuthMe/config.yml';
-
-    /**
-     * @var bool
-     */
-    protected $relativePath = true;
-
-    /**
-     * @var string
-     */
-    protected $pattern = '/^(\s+)stopServer\: true$/';
-
-    /**
-     * @var string
-     */
-    protected $replacement = '$1stopServer: false';
+    protected ?string $path = 'plugins/AuthMe/config.yml';
+    protected bool $relativePath = true;
+    protected ?string $pattern = '/^(\s+)stopServer\: true$/';
+    protected ?string $replacement = '$1stopServer: false';
 
     /**
      * @return string

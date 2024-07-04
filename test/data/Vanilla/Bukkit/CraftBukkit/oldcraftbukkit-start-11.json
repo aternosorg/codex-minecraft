@@ -1,0 +1,207 @@
+{
+    "id": "craftbukkit\/server",
+    "name": "CraftBukkit",
+    "type": "Server Log",
+    "version": "1.1",
+    "title": "CraftBukkit 1.1 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": 1549668799,
+            "prefix": "2019-02-08 23:33:19 [INFO]",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "2019-02-08 23:33:19 [INFO] Starting minecraft server version 1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668799,
+            "prefix": "2019-02-08 23:33:19 [INFO]",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "2019-02-08 23:33:19 [INFO] Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668799,
+            "prefix": "2019-02-08 23:33:19 [INFO]",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "2019-02-08 23:33:19 [INFO] Starting Minecraft server on *:10719"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668800,
+            "prefix": "2019-02-08 23:33:20 [INFO]",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "2019-02-08 23:33:20 [INFO] This server is running CraftBukkit version git-Bukkit-1.1-R6-b1988jnks (MC: 1.1) (Implementing API version 1.1-R6)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668800,
+            "prefix": "2019-02-08 23:33:20 [INFO]",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "2019-02-08 23:33:20 [INFO] [ItemNBTAPI] Loading ItemNBTAPI v1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668800,
+            "prefix": "2019-02-08 23:33:20 [INFO]",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "2019-02-08 23:33:20 [INFO] [Admin Chat] Loading Admin Chat v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668800,
+            "prefix": "2019-02-08 23:33:20 [INFO]",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "2019-02-08 23:33:20 [INFO] Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668800,
+            "prefix": "2019-02-08 23:33:20 [INFO]",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "2019-02-08 23:33:20 [INFO] Default game type: 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668800,
+            "prefix": "2019-02-08 23:33:20 [INFO]",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "2019-02-08 23:33:20 [INFO] Preparing start region for level 0 (Seed: 2360843)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668801,
+            "prefix": "2019-02-08 23:33:21 [INFO]",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "2019-02-08 23:33:21 [INFO] Preparing spawn area: 65%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668802,
+            "prefix": "2019-02-08 23:33:22 [INFO]",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "2019-02-08 23:33:22 [INFO] Preparing start region for level 1 (Seed: 2360843)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668802,
+            "prefix": "2019-02-08 23:33:22 [INFO]",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "2019-02-08 23:33:22 [INFO] Preparing spawn area: 60%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668803,
+            "prefix": "2019-02-08 23:33:23 [INFO]",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "2019-02-08 23:33:23 [INFO] Server permissions file permissions.yml is empty, ignoring it"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668803,
+            "prefix": "2019-02-08 23:33:23 [INFO]",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "2019-02-08 23:33:23 [INFO] Done (2.709s)! For help, type \"help\" or \"?\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668803,
+            "prefix": "2019-02-08 23:33:23 [INFO]",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "2019-02-08 23:33:23 [INFO] Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1549668803,
+            "prefix": "2019-02-08 23:33:23 [INFO]",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "2019-02-08 23:33:23 [INFO] Query running on **.**.**.**:10719"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1549668799,
+                    "prefix": "2019-02-08 23:33:19 [INFO]",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "2019-02-08 23:33:19 [INFO] Starting minecraft server version 1.1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.1"
+            }
+        ]
+    }
+}

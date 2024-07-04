@@ -1,0 +1,292 @@
+{
+    "id": "pocketmine\/server",
+    "name": "Pocketmine",
+    "type": "Server Log",
+    "version": "1.10.0",
+    "title": "Pocketmine 1.10.0 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": 1553189554,
+            "prefix": "2019-03-21 [17:32:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "2019-03-21 [17:32:34] [Server thread\/INFO]: Loading pocketmine.yml..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189554,
+            "prefix": "2019-03-21 [17:32:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "2019-03-21 [17:32:34] [Server thread\/INFO]: Loading server properties..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189554,
+            "prefix": "2019-03-21 [17:32:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "2019-03-21 [17:32:34] [Server thread\/INFO]: Selected English (eng) as the base language"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189554,
+            "prefix": "2019-03-21 [17:32:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "2019-03-21 [17:32:34] [Server thread\/INFO]: Starting Minecraft: Bedrock Edition server version v1.10.0"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1553189554,
+            "prefix": "2019-03-21 [17:32:34] [Server thread\/NOTICE]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "2019-03-21 [17:32:34] [Server thread\/NOTICE]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "time": 1553189554,
+            "prefix": "2019-03-21 [17:32:34] [Server thread\/NOTICE]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "2019-03-21 [17:32:34] [Server thread\/NOTICE]: To disable authentication, set \"xbox-auth\" to \"false\" in server.properties."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189554,
+            "prefix": "2019-03-21 [17:32:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "2019-03-21 [17:32:34] [Server thread\/INFO]: Opening server on **.**.**.**:46551"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189554,
+            "prefix": "2019-03-21 [17:32:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "2019-03-21 [17:32:34] [Server thread\/INFO]: This server is running PocketMine-MP version 3.7.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189554,
+            "prefix": "2019-03-21 [17:32:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "2019-03-21 [17:32:34] [Server thread\/INFO]: PocketMine-MP is distributed under the LGPL License"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189554,
+            "prefix": "2019-03-21 [17:32:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "2019-03-21 [17:32:34] [Server thread\/INFO]: Loading resource packs..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189555,
+            "prefix": "2019-03-21 [17:32:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "2019-03-21 [17:32:35] [Server thread\/INFO]: Loading PCFly v3.0.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189555,
+            "prefix": "2019-03-21 [17:32:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "2019-03-21 [17:32:35] [Server thread\/INFO]: Loading AdvancedJoin v1.0.9"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189555,
+            "prefix": "2019-03-21 [17:32:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "2019-03-21 [17:32:35] [Server thread\/INFO]: Loading BlazinJump v1.0.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189555,
+            "prefix": "2019-03-21 [17:32:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "2019-03-21 [17:32:35] [Server thread\/INFO]: Loading 8ball v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189555,
+            "prefix": "2019-03-21 [17:32:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "2019-03-21 [17:32:35] [Server thread\/INFO]: Loading 1vs1 v1.0.1"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": 1553189555,
+            "prefix": "2019-03-21 [17:32:35] [Server thread\/CRITICAL]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "2019-03-21 [17:32:35] [Server thread\/CRITICAL]: Could not load plugin 'BankNotes': Unknown dependency: EconomyAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189555,
+            "prefix": "2019-03-21 [17:32:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "2019-03-21 [17:32:35] [Server thread\/INFO]: Loading Afterlife v3.2.9"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189555,
+            "prefix": "2019-03-21 [17:32:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "2019-03-21 [17:32:35] [Server thread\/INFO]: Loading SkyWars v1.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189555,
+            "prefix": "2019-03-21 [17:32:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "2019-03-21 [17:32:35] [Server thread\/INFO]: Loading BanWarn v1.2.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1553189555,
+            "prefix": "2019-03-21 [17:32:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "2019-03-21 [17:32:35] [Server thread\/INFO]: Loading PurePerms v1.4.2-c2a"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The plugin 'BankNotes' is missing the required plugin 'EconomyAPI'.",
+                "counter": 1,
+                "entry": {
+                    "level": 2,
+                    "time": 1553189555,
+                    "prefix": "2019-03-21 [17:32:35] [Server thread\/CRITICAL]:",
+                    "lines": [
+                        {
+                            "number": 16,
+                            "content": "2019-03-21 [17:32:35] [Server thread\/CRITICAL]: Could not load plugin 'BankNotes': Unknown dependency: EconomyAPI"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the plugin 'EconomyAPI'."
+                    },
+                    {
+                        "message": "Remove the plugin 'BankNotes'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Bedrock version: 1.10.0",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1553189554,
+                    "prefix": "2019-03-21 [17:32:34] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "2019-03-21 [17:32:34] [Server thread\/INFO]: Starting Minecraft: Bedrock Edition server version v1.10.0"
+                        }
+                    ]
+                },
+                "label": "Bedrock version",
+                "value": "1.10.0"
+            },
+            {
+                "message": "Pocketmine version: 3.7.0",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1553189554,
+                    "prefix": "2019-03-21 [17:32:34] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 8,
+                            "content": "2019-03-21 [17:32:34] [Server thread\/INFO]: This server is running PocketMine-MP version 3.7.0"
+                        }
+                    ]
+                },
+                "label": "Pocketmine version",
+                "value": "3.7.0"
+            }
+        ]
+    }
+}

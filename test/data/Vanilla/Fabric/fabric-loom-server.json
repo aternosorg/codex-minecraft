@@ -1,0 +1,862 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "1.16.5",
+    "title": "Fabric 1.16.5 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:03] [main\/INFO]",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[11:47:03] [main\/INFO] (FabricLoader\/GameProvider) Loading Minecraft 1.16.5 with Fabric Loader 0.14.10"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[11:47:03] [ForkJoinPool-1-worker-1\/WARN]",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[11:47:03] [ForkJoinPool-1-worker-1\/WARN] (FabricLoader\/Metadata) Mod mclogs uses the version dev which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'dev'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:03] [main\/INFO]",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[11:47:03] [main\/INFO] (FabricLoader) Loading 38 mods:"
+                },
+                {
+                    "number": 4,
+                    "content": "\t- fabric 0.42.0+1.16"
+                },
+                {
+                    "number": 5,
+                    "content": "\t- fabric-api-base 0.4.0+3cc0f0907d"
+                },
+                {
+                    "number": 6,
+                    "content": "\t- fabric-api-lookup-api-v1 1.3.1+3cc0f0907d"
+                },
+                {
+                    "number": 7,
+                    "content": "\t- fabric-biome-api-v1 3.1.13+3cc0f0907d"
+                },
+                {
+                    "number": 8,
+                    "content": "\t- fabric-command-api-v1 1.1.3+3cc0f0907d"
+                },
+                {
+                    "number": 9,
+                    "content": "\t- fabric-commands-v0 0.2.3+3cc0f0907d"
+                },
+                {
+                    "number": 10,
+                    "content": "\t- fabric-containers-v0 0.1.12+3cc0f0907d"
+                },
+                {
+                    "number": 11,
+                    "content": "\t- fabric-content-registries-v0 0.2.5+3cc0f0907d"
+                },
+                {
+                    "number": 12,
+                    "content": "\t- fabric-crash-report-info-v1 0.1.4+3cc0f0907d"
+                },
+                {
+                    "number": 13,
+                    "content": "\t- fabric-dimensions-v1 2.0.8+3cc0f0907d"
+                },
+                {
+                    "number": 14,
+                    "content": "\t- fabric-entity-events-v1 1.2.4+3cc0f0907d"
+                },
+                {
+                    "number": 15,
+                    "content": "\t- fabric-events-interaction-v0 0.4.5+3cc0f0907d"
+                },
+                {
+                    "number": 16,
+                    "content": "\t- fabric-events-lifecycle-v0 0.2.2+3cc0f0907d"
+                },
+                {
+                    "number": 17,
+                    "content": "\t- fabric-game-rule-api-v1 1.0.7+3cc0f0907d"
+                },
+                {
+                    "number": 18,
+                    "content": "\t- fabric-item-api-v1 1.2.2+3cc0f0907d"
+                },
+                {
+                    "number": 19,
+                    "content": "\t- fabric-item-groups-v0 0.3.1+3cc0f0907d"
+                },
+                {
+                    "number": 20,
+                    "content": "\t- fabric-lifecycle-events-v1 1.2.2+3cc0f0907d"
+                },
+                {
+                    "number": 21,
+                    "content": "\t- fabric-loot-tables-v1 1.0.3+3cc0f0907d"
+                },
+                {
+                    "number": 22,
+                    "content": "\t- fabric-mining-levels-v0 0.1.4+3cc0f0907d"
+                },
+                {
+                    "number": 23,
+                    "content": "\t- fabric-networking-api-v1 1.0.5+3cc0f0907d"
+                },
+                {
+                    "number": 24,
+                    "content": "\t- fabric-networking-blockentity-v0 0.2.9+3cc0f0907d"
+                },
+                {
+                    "number": 25,
+                    "content": "\t- fabric-networking-v0 0.3.3+3cc0f0907d"
+                },
+                {
+                    "number": 26,
+                    "content": "\t- fabric-object-builder-api-v1 1.9.6+3cc0f0907d"
+                },
+                {
+                    "number": 27,
+                    "content": "\t- fabric-object-builders-v0 0.7.3+3cc0f0907d"
+                },
+                {
+                    "number": 28,
+                    "content": "\t- fabric-particles-v1 0.2.5+3cc0f0907d"
+                },
+                {
+                    "number": 29,
+                    "content": "\t- fabric-registry-sync-v0 0.7.6+3cc0f0907d"
+                },
+                {
+                    "number": 30,
+                    "content": "\t- fabric-rendering-data-attachment-v1 0.1.6+3cc0f0907d"
+                },
+                {
+                    "number": 31,
+                    "content": "\t- fabric-rendering-fluids-v1 0.1.15+3cc0f0907d"
+                },
+                {
+                    "number": 32,
+                    "content": "\t- fabric-resource-loader-v0 0.4.8+3cc0f0907d"
+                },
+                {
+                    "number": 33,
+                    "content": "\t- fabric-screen-handler-api-v1 1.1.6+3cc0f0907d"
+                },
+                {
+                    "number": 34,
+                    "content": "\t- fabric-structure-api-v1 1.1.12+3cc0f0907d"
+                },
+                {
+                    "number": 35,
+                    "content": "\t- fabric-tag-extensions-v0 1.1.2+3cc0f0907d"
+                },
+                {
+                    "number": 36,
+                    "content": "\t- fabric-tool-attribute-api-v1 1.2.8+3cc0f0907d"
+                },
+                {
+                    "number": 37,
+                    "content": "\t- fabric-transfer-api-v1 1.5.0+3cc0f0907d"
+                },
+                {
+                    "number": 38,
+                    "content": "\t- fabricloader 0.14.10"
+                },
+                {
+                    "number": 39,
+                    "content": "\t- java 17"
+                },
+                {
+                    "number": 40,
+                    "content": "\t- mclogs dev"
+                },
+                {
+                    "number": 41,
+                    "content": "\t- minecraft 1.16.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:03] [main\/INFO]",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[11:47:03] [main\/INFO] (FabricLoader\/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:\/home\/julian\/.gradle\/caches\/modules-2\/files-2.1\/net.fabricmc\/sponge-mixin\/0.11.4+mixin.0.8.5\/c1dc27696aa4006e492c2485c9ccbcb26045a971\/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot\/Fabric Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:03] [main\/INFO]",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[11:47:03] [main\/INFO] (FabricLoader\/Mixin) Loaded Fabric development mappings for mixin remapper!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:06] [main\/INFO]",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[11:47:06] [main\/INFO] (Minecraft) Environment: authHost='https:\/\/authserver.mojang.com', accountsHost='https:\/\/api.mojang.com', sessionHost='https:\/\/sessionserver.mojang.com', servicesHost='https:\/\/api.minecraftservices.com', name='PROD'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:06] [main\/INFO]",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[11:47:06] [main\/INFO] (MclogsFabric) Registering server commands"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[11:47:06] [main\/WARN]",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[11:47:06] [main\/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[11:47:06] [main\/WARN]",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[11:47:06] [main\/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[11:47:06] [main\/WARN]",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[11:47:06] [main\/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[11:47:06] [main\/WARN]",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[11:47:06] [main\/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[11:47:06] [main\/WARN]",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[11:47:06] [main\/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:06] [main\/INFO]",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[11:47:06] [main\/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1))"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:06] [Worker-Main-9\/INFO]",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[11:47:06] [Worker-Main-9\/INFO] (Minecraft) Loaded 7 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:06] [Worker-Main-9\/INFO]",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[11:47:06] [Worker-Main-9\/INFO] (Minecraft) Loaded 927 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:07] [main\/INFO]",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[11:47:07] [main\/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 79 new biomes in 1.288 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:07] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[11:47:07] [Server thread\/INFO] (Minecraft) Starting minecraft server version 1.16.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:07] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[11:47:07] [Server thread\/INFO] (Minecraft) Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:07] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[11:47:07] [Server thread\/INFO] (Minecraft) Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:07] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[11:47:07] [Server thread\/INFO] (Minecraft) Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:07] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[11:47:07] [Server thread\/INFO] (Minecraft) Starting Minecraft server on *:25565"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:07] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[11:47:07] [Server thread\/INFO] (Minecraft) Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:07] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[11:47:07] [Server thread\/INFO] (Minecraft) Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:07] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[11:47:07] [Server thread\/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:08] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[11:47:08] [Server thread\/INFO] (Minecraft) Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:08] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[11:47:08] [Server thread\/INFO] (Minecraft) Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:10] [Worker-Main-8\/INFO]",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[11:47:10] [Worker-Main-8\/INFO] (Minecraft) Preparing spawn area: 83%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:10] [Worker-Main-13\/INFO]",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[11:47:10] [Worker-Main-13\/INFO] (Minecraft) Preparing spawn area: 83%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:10] [Worker-Main-13\/INFO]",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[11:47:10] [Worker-Main-13\/INFO] (Minecraft) Preparing spawn area: 83%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:10] [Worker-Main-10\/INFO]",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[11:47:10] [Worker-Main-10\/INFO] (Minecraft) Preparing spawn area: 95%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:10] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[11:47:10] [Server thread\/INFO] (Minecraft) Preparing spawn area: 96%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:11] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[11:47:11] [Server thread\/INFO] (Minecraft) Time elapsed: 3247 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:11] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[11:47:11] [Server thread\/INFO] (Minecraft) Done (3.313s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:24] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[11:47:24] [Server thread\/INFO] (Minecraft) Stopping the server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:24] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[11:47:24] [Server thread\/INFO] (Minecraft) Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:24] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[11:47:24] [Server thread\/INFO] (Minecraft) Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:24] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[11:47:24] [Server thread\/INFO] (Minecraft) Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:24] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[11:47:24] [Server thread\/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:25] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[11:47:25] [Server thread\/INFO] (Minecraft) ThreadedAnvilChunkStorage (world): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:25] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[11:47:25] [Server thread\/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:25] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[11:47:25] [Server thread\/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:25] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[11:47:25] [Server thread\/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:25] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[11:47:25] [Server thread\/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:25] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[11:47:25] [Server thread\/INFO] (Minecraft) ThreadedAnvilChunkStorage (world): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:25] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[11:47:25] [Server thread\/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:25] [Server thread\/INFO]",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[11:47:25] [Server thread\/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+                },
+                {
+                    "number": 85,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.16.5",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[11:47:03] [main\/INFO]",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[11:47:03] [main\/INFO] (FabricLoader\/GameProvider) Loading Minecraft 1.16.5 with Fabric Loader 0.14.10"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.16.5"
+            },
+            {
+                "message": "Java version: 17",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[11:47:03] [main\/INFO]",
+                    "lines": [
+                        {
+                            "number": 3,
+                            "content": "[11:47:03] [main\/INFO] (FabricLoader) Loading 38 mods:"
+                        },
+                        {
+                            "number": 4,
+                            "content": "\t- fabric 0.42.0+1.16"
+                        },
+                        {
+                            "number": 5,
+                            "content": "\t- fabric-api-base 0.4.0+3cc0f0907d"
+                        },
+                        {
+                            "number": 6,
+                            "content": "\t- fabric-api-lookup-api-v1 1.3.1+3cc0f0907d"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\t- fabric-biome-api-v1 3.1.13+3cc0f0907d"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\t- fabric-command-api-v1 1.1.3+3cc0f0907d"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\t- fabric-commands-v0 0.2.3+3cc0f0907d"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\t- fabric-containers-v0 0.1.12+3cc0f0907d"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t- fabric-content-registries-v0 0.2.5+3cc0f0907d"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\t- fabric-crash-report-info-v1 0.1.4+3cc0f0907d"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\t- fabric-dimensions-v1 2.0.8+3cc0f0907d"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\t- fabric-entity-events-v1 1.2.4+3cc0f0907d"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\t- fabric-events-interaction-v0 0.4.5+3cc0f0907d"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\t- fabric-events-lifecycle-v0 0.2.2+3cc0f0907d"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\t- fabric-game-rule-api-v1 1.0.7+3cc0f0907d"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\t- fabric-item-api-v1 1.2.2+3cc0f0907d"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\t- fabric-item-groups-v0 0.3.1+3cc0f0907d"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\t- fabric-lifecycle-events-v1 1.2.2+3cc0f0907d"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\t- fabric-loot-tables-v1 1.0.3+3cc0f0907d"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\t- fabric-mining-levels-v0 0.1.4+3cc0f0907d"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\t- fabric-networking-api-v1 1.0.5+3cc0f0907d"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\t- fabric-networking-blockentity-v0 0.2.9+3cc0f0907d"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\t- fabric-networking-v0 0.3.3+3cc0f0907d"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\t- fabric-object-builder-api-v1 1.9.6+3cc0f0907d"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\t- fabric-object-builders-v0 0.7.3+3cc0f0907d"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\t- fabric-particles-v1 0.2.5+3cc0f0907d"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\t- fabric-registry-sync-v0 0.7.6+3cc0f0907d"
+                        },
+                        {
+                            "number": 30,
+                            "content": "\t- fabric-rendering-data-attachment-v1 0.1.6+3cc0f0907d"
+                        },
+                        {
+                            "number": 31,
+                            "content": "\t- fabric-rendering-fluids-v1 0.1.15+3cc0f0907d"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\t- fabric-resource-loader-v0 0.4.8+3cc0f0907d"
+                        },
+                        {
+                            "number": 33,
+                            "content": "\t- fabric-screen-handler-api-v1 1.1.6+3cc0f0907d"
+                        },
+                        {
+                            "number": 34,
+                            "content": "\t- fabric-structure-api-v1 1.1.12+3cc0f0907d"
+                        },
+                        {
+                            "number": 35,
+                            "content": "\t- fabric-tag-extensions-v0 1.1.2+3cc0f0907d"
+                        },
+                        {
+                            "number": 36,
+                            "content": "\t- fabric-tool-attribute-api-v1 1.2.8+3cc0f0907d"
+                        },
+                        {
+                            "number": 37,
+                            "content": "\t- fabric-transfer-api-v1 1.5.0+3cc0f0907d"
+                        },
+                        {
+                            "number": 38,
+                            "content": "\t- fabricloader 0.14.10"
+                        },
+                        {
+                            "number": 39,
+                            "content": "\t- java 17"
+                        },
+                        {
+                            "number": 40,
+                            "content": "\t- mclogs dev"
+                        },
+                        {
+                            "number": 41,
+                            "content": "\t- minecraft 1.16.5"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17"
+            }
+        ]
+    }
+}

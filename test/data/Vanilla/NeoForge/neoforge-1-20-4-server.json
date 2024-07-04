@@ -1,0 +1,1413 @@
+{
+    "id": "neoforge\/server",
+    "name": "NeoForge",
+    "type": "Server Log",
+    "version": "1.20.4",
+    "title": "NeoForge 1.20.4 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[12:20:31] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[12:20:31] [main\/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 20.4.155-beta, --fml.fmlVersion, 2.0.11, --fml.mcVersion, 1.20.4, --fml.neoFormVersion, 20231207.154220, nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[12:20:31] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[12:20:31] [main\/INFO]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.0-88-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[12:20:31] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[12:20:31] [main\/INFO]: ImmediateWindowProvider not loading because launch target is forgeserver"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[12:20:31] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[12:20:31] [main\/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:\/server\/libraries\/org\/spongepowered\/mixin\/0.8.5\/mixin-0.8.5.jar%2379!\/ Service=ModLauncher Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[12:20:32] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[12:20:32] [main\/INFO]: Found mod file \"server-1.20.4-20231207.154220-srg.jar\" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@515ebef3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[12:20:32] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[12:20:32] [main\/INFO]: Found mod file \"neoforge-20.4.155-beta-universal.jar\" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@515ebef3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[12:20:32] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[12:20:32] [main\/INFO]: Found 1 dependencies adding them to mods collection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[12:20:32] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[12:20:32] [main\/INFO]: Found mod file \"mixinextras-neoforge-0.3.5.jar\" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@23940f86"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[12:20:33] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[12:20:33] [main\/INFO]: Launching target 'forgeserver' with arguments [nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:20:44.217] [modloading-worker-0\/INFO] [net.neoforged.neoforge.common.NeoForgeMod\/NEOFORGE-MOD]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[09Feb2024 12:20:44.217] [modloading-worker-0\/INFO] [net.neoforged.neoforge.common.NeoForgeMod\/NEOFORGE-MOD]: NeoForge mod loading, version 20.4.155-beta, for MC 1.20.4 with MCP 20231207.154220"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:20:45.041] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[09Feb2024 12:20:45.041] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]: Environment: Environment[sessionHost=https:\/\/sessionserver.mojang.com, servicesHost=https:\/\/api.minecraftservices.com, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[09Feb2024 12:20:45.103] [main\/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder\/]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[09Feb2024 12:20:45.103] [main\/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder\/]: Assets URL 'union:\/server\/libraries\/net\/minecraft\/server\/1.20.4-20231207.154220\/server-1.20.4-20231207.154220-srg.jar%23123!\/assets\/.mcassetsroot' uses unexpected schema"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[09Feb2024 12:20:45.103] [main\/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder\/]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[09Feb2024 12:20:45.103] [main\/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder\/]: Assets URL 'union:\/server\/libraries\/net\/minecraft\/server\/1.20.4-20231207.154220\/server-1.20.4-20231207.154220-srg.jar%23123!\/data\/.mcassetsroot' uses unexpected schema"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:20:46.491] [main\/INFO] [net.minecraft.server.Main\/]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[09Feb2024 12:20:46.491] [main\/INFO] [net.minecraft.server.Main\/]: No existing world data, creating new world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:20:47.913] [main\/INFO] [net.minecraft.world.item.crafting.RecipeManager\/]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[09Feb2024 12:20:47.913] [main\/INFO] [net.minecraft.world.item.crafting.RecipeManager\/]: Loaded 7 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:20:48.295] [main\/INFO] [net.minecraft.advancements.AdvancementTree\/]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[09Feb2024 12:20:48.295] [main\/INFO] [net.minecraft.advancements.AdvancementTree\/]: Loaded 1271 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:20:49.095] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[09Feb2024 12:20:49.095] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting minecraft server version 1.20.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:20:49.096] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[09Feb2024 12:20:49.096] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:20:49.096] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[09Feb2024 12:20:49.096] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:20:49.096] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[09Feb2024 12:20:49.096] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:20:49.401] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[09Feb2024 12:20:49.401] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting Minecraft server on *:20685"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:20:49.435] [Server thread\/INFO] [net.minecraft.server.network.ServerConnectionListener\/]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[09Feb2024 12:20:49.435] [Server thread\/INFO] [net.minecraft.server.network.ServerConnectionListener\/]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:20:49.536] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[09Feb2024 12:20:49.536] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:00.223] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[09Feb2024 12:21:00.223] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Preparing start region for dimension minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:01.494] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[09Feb2024 12:21:01.494] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:01.497] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[09Feb2024 12:21:01.497] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:01.498] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[09Feb2024 12:21:01.498] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:01.822] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[09Feb2024 12:21:01.822] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:02.225] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[09Feb2024 12:21:02.225] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:02.745] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[09Feb2024 12:21:02.745] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:03.422] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[09Feb2024 12:21:03.422] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:04.036] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[09Feb2024 12:21:04.036] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:04.227] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[09Feb2024 12:21:04.227] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:04.738] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[09Feb2024 12:21:04.738] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:05.298] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[09Feb2024 12:21:05.298] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:05.749] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[09Feb2024 12:21:05.749] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:06.237] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[09Feb2024 12:21:06.237] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:06.725] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[09Feb2024 12:21:06.725] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:07.232] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[09Feb2024 12:21:07.232] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:07.741] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[09Feb2024 12:21:07.741] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:08.297] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[09Feb2024 12:21:08.297] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:08.735] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[09Feb2024 12:21:08.735] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:09.225] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[09Feb2024 12:21:09.225] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:09.725] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[09Feb2024 12:21:09.725] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:10.225] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[09Feb2024 12:21:10.225] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:10.740] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[09Feb2024 12:21:10.740] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:11.231] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[09Feb2024 12:21:11.231] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:11.732] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[09Feb2024 12:21:11.732] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:12.240] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[09Feb2024 12:21:12.240] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:12.735] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[09Feb2024 12:21:12.735] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:13.237] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[09Feb2024 12:21:13.237] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:13.745] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[09Feb2024 12:21:13.745] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:14.228] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[09Feb2024 12:21:14.228] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:14.757] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[09Feb2024 12:21:14.757] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:15.241] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[09Feb2024 12:21:15.241] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:15.746] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[09Feb2024 12:21:15.746] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:16.246] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[09Feb2024 12:21:16.246] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:16.760] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[09Feb2024 12:21:16.760] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:17.225] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[09Feb2024 12:21:17.225] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:17.731] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[09Feb2024 12:21:17.731] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:18.229] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[09Feb2024 12:21:18.229] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:18.734] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[09Feb2024 12:21:18.734] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:19.253] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[09Feb2024 12:21:19.253] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:19.731] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[09Feb2024 12:21:19.731] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:20.256] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[09Feb2024 12:21:20.256] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:20.729] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[09Feb2024 12:21:20.729] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:21.239] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[09Feb2024 12:21:21.239] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:21.750] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[09Feb2024 12:21:21.750] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:22.236] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[09Feb2024 12:21:22.236] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:22.726] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[09Feb2024 12:21:22.726] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:23.296] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[09Feb2024 12:21:23.296] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 3%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:23.797] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[09Feb2024 12:21:23.797] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 15%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:24.314] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[09Feb2024 12:21:24.314] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 15%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:24.795] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[09Feb2024 12:21:24.795] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 15%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:25.225] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[09Feb2024 12:21:25.225] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 44%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:25.792] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[09Feb2024 12:21:25.792] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 44%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:26.227] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[09Feb2024 12:21:26.227] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 45%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:26.731] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[09Feb2024 12:21:26.731] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 46%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:27.257] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[09Feb2024 12:21:27.257] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 47%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:27.725] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[09Feb2024 12:21:27.725] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 48%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:28.229] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[09Feb2024 12:21:28.229] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 49%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:28.738] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[09Feb2024 12:21:28.738] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 51%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:29.228] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[09Feb2024 12:21:29.228] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 53%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:29.739] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[09Feb2024 12:21:29.739] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 54%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:30.245] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[09Feb2024 12:21:30.245] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 55%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:30.751] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[09Feb2024 12:21:30.751] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 55%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:31.232] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[09Feb2024 12:21:31.232] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 56%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:31.749] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[09Feb2024 12:21:31.749] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 57%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:32.227] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[09Feb2024 12:21:32.227] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 59%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:32.727] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[09Feb2024 12:21:32.727] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 61%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:33.232] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[09Feb2024 12:21:33.232] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 62%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:33.729] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[09Feb2024 12:21:33.729] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 64%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:34.252] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[09Feb2024 12:21:34.252] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 65%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:34.734] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[09Feb2024 12:21:34.734] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 67%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:35.265] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[09Feb2024 12:21:35.265] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 68%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:35.732] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[09Feb2024 12:21:35.732] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 69%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:36.240] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[09Feb2024 12:21:36.240] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:36.727] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[09Feb2024 12:21:36.727] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:37.255] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[09Feb2024 12:21:37.255] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:37.726] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[09Feb2024 12:21:37.726] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:38.251] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[09Feb2024 12:21:38.251] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:38.726] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[09Feb2024 12:21:38.726] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:39.226] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[09Feb2024 12:21:39.226] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:39.740] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[09Feb2024 12:21:39.740] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:40.226] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[09Feb2024 12:21:40.226] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:40.754] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "[09Feb2024 12:21:40.754] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:41.247] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[09Feb2024 12:21:41.247] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:41.739] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[09Feb2024 12:21:41.739] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:42.225] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[09Feb2024 12:21:42.225] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:42.753] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[09Feb2024 12:21:42.753] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:43.230] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[09Feb2024 12:21:43.230] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:43.728] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[09Feb2024 12:21:43.728] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:44.232] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[09Feb2024 12:21:44.232] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:44.901] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[09Feb2024 12:21:44.901] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 83%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:45.965] [Server thread\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[09Feb2024 12:21:45.965] [Server thread\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Time elapsed: 45741 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:45.966] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[09Feb2024 12:21:45.966] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Done (56.466s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:45.966] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[09Feb2024 12:21:45.966] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:45.968] [Server thread\/INFO] [net.minecraft.server.rcon.thread.GenericThread\/]:",
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[09Feb2024 12:21:45.968] [Server thread\/INFO] [net.minecraft.server.rcon.thread.GenericThread\/]: Thread Query Listener started"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:45.968] [Query Listener #1\/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4\/]:",
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[09Feb2024 12:21:45.968] [Query Listener #1\/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4\/]: Query running on 0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:45.971] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[09Feb2024 12:21:45.971] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: JMX monitoring enabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09Feb2024 12:21:45.977] [Server thread\/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI\/]:",
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[09Feb2024 12:21:45.977] [Server thread\/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI\/]: Successfully initialized permission handler neoforge:default_handler"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.20.4",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[12:20:31] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[12:20:31] [main\/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 20.4.155-beta, --fml.fmlVersion, 2.0.11, --fml.mcVersion, 1.20.4, --fml.neoFormVersion, 20231207.154220, nogui]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.20.4"
+            },
+            {
+                "message": "NeoForge version: 20.4.155-beta",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[12:20:31] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[12:20:31] [main\/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 20.4.155-beta, --fml.fmlVersion, 2.0.11, --fml.mcVersion, 1.20.4, --fml.neoFormVersion, 20231207.154220, nogui]"
+                        }
+                    ]
+                },
+                "label": "NeoForge version",
+                "value": "20.4.155-beta"
+            },
+            {
+                "message": "Java version: 17.0.10",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[12:20:31] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[12:20:31] [main\/INFO]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.0-88-generic"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17.0.10"
+            },
+            {
+                "message": "Minecraft version: 20.4.155-beta",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[09Feb2024 12:20:44.217] [modloading-worker-0\/INFO] [net.neoforged.neoforge.common.NeoForgeMod\/NEOFORGE-MOD]:",
+                    "lines": [
+                        {
+                            "number": 10,
+                            "content": "[09Feb2024 12:20:44.217] [modloading-worker-0\/INFO] [net.neoforged.neoforge.common.NeoForgeMod\/NEOFORGE-MOD]: NeoForge mod loading, version 20.4.155-beta, for MC 1.20.4 with MCP 20231207.154220"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "20.4.155-beta"
+            }
+        ]
+    }
+}

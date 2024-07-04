@@ -1,0 +1,1066 @@
+{
+    "id": "customskinloader\/client",
+    "name": "CustomSkinLoader",
+    "type": "Client Log",
+    "version": "14.11",
+    "title": "CustomSkinLoader 14.11 Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": 1588076350,
+            "prefix": "[2020-04-28 12:19:10] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[2020-04-28 12:19:10] [pool-4-thread-1 INFO] CustomSkinLoader 14.11"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076350,
+            "prefix": "[2020-04-28 12:19:10] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[2020-04-28 12:19:10] [pool-4-thread-1 INFO] DataDir: C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076350,
+            "prefix": "[2020-04-28 12:19:10] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[2020-04-28 12:19:10] [pool-4-thread-1 INFO] Minecraft: 1.12.2(1.12.2)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076350,
+            "prefix": "[2020-04-28 12:19:10] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[2020-04-28 12:19:10] [pool-4-thread-1 INFO] Config File: C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\CustomSkinLoader.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076350,
+            "prefix": "[2020-04-28 12:19:10] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[2020-04-28 12:19:10] [pool-4-thread-1 INFO] Try to load config."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076350,
+            "prefix": "[2020-04-28 12:19:10] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[2020-04-28 12:19:10] [pool-4-thread-1 INFO] Successfully load config."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO] version : 14.11"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO] enableDynamicSkull : true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO] enableTransparentSkin : true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO] ignoreHttpsCertificate : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO] forceLoadAllTextures : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO] enableCape : true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO] cacheExpiry : 10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO] enableUpdateSkull : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO] enableLocalProfileCache : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO] enableCacheAutoClean : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO]",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[2020-04-28 12:19:11] [pool-4-thread-1 INFO] loadList : 5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[2020-04-28 12:19:11] [liu_mu_han INFO] Loading liu_mu_han's profile."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[2020-04-28 12:19:11] [liu_mu_han INFO] 1\/5 Try to load profile from 'Mojang'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[2020-04-28 12:19:11] [liu_mu_han DEBUG] Try to request 'https:\/\/api.mojang.com\/users\/profiles\/minecraft\/liu_mu_han'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[2020-04-28 12:19:11] [liu_mu_han DEBUG] Cache file found (Length: 0 , Path: 'C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\376514f852b64fa383a97876cd7a08095e2838b0' , Expire: 0')"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[2020-04-28 12:19:11] [liu_mu_han INFO] Try to load from cache 'C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\376514f852b64fa383a97876cd7a08095e2838b0'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[2020-04-28 12:19:11] [liu_mu_han DEBUG] Successfully load from cache"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[2020-04-28 12:19:11] [liu_mu_han DEBUG] Content: "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[2020-04-28 12:19:11] [liu_mu_han INFO] Profile not found.(liu_mu_han's profile not found.)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[2020-04-28 12:19:11] [liu_mu_han INFO] 2\/5 Try to load profile from 'LittleSkin'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076351,
+            "prefix": "[2020-04-28 12:19:11] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[2020-04-28 12:19:11] [liu_mu_han DEBUG] Try to request 'https:\/\/mcskin.littleservice.cn\/liu_mu_han.json'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076352,
+            "prefix": "[2020-04-28 12:19:12] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[2020-04-28 12:19:12] [liu_mu_han DEBUG] Successfully request (Response Code: 200 , Content Length: 3)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076352,
+            "prefix": "[2020-04-28 12:19:12] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[2020-04-28 12:19:12] [liu_mu_han DEBUG] Saved to cache (Length: 3 , Path: 'C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\266ee27dae00b12365bfa4b49e4c358dd125ca76' , Expire: 1588047643)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076352,
+            "prefix": "[2020-04-28 12:19:12] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[2020-04-28 12:19:12] [liu_mu_han DEBUG] Content: {}"
+                },
+                {
+                    "number": 31,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076352,
+            "prefix": "[2020-04-28 12:19:12] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[2020-04-28 12:19:12] [liu_mu_han INFO] Both skin and cape not found."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076352,
+            "prefix": "[2020-04-28 12:19:12] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[2020-04-28 12:19:12] [liu_mu_han INFO] 3\/5 Try to load profile from 'BlessingSkin'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076352,
+            "prefix": "[2020-04-28 12:19:12] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[2020-04-28 12:19:12] [liu_mu_han DEBUG] Try to request 'http:\/\/skin.prinzeugen.net\/liu_mu_han.json'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076354,
+            "prefix": "[2020-04-28 12:19:14] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[2020-04-28 12:19:14] [liu_mu_han DEBUG] Failed to request (Response Code: 404)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076354,
+            "prefix": "[2020-04-28 12:19:14] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[2020-04-28 12:19:14] [liu_mu_han INFO] Profile not found."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076354,
+            "prefix": "[2020-04-28 12:19:14] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[2020-04-28 12:19:14] [liu_mu_han INFO] 4\/5 Try to load profile from 'SkinMe'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076354,
+            "prefix": "[2020-04-28 12:19:14] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[2020-04-28 12:19:14] [liu_mu_han DEBUG] Try to request 'http:\/\/www.skinme.cc\/uniskin\/liu_mu_han.json'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076355,
+            "prefix": "[2020-04-28 12:19:15] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[2020-04-28 12:19:15] [liu_mu_han DEBUG] Successfully request (Response Code: 200 , Content Length: 37)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076355,
+            "prefix": "[2020-04-28 12:19:15] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[2020-04-28 12:19:15] [liu_mu_han DEBUG] Saved to cache (Length: 37 , Path: 'C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\79df8b0591961524195bfd933025ca755bc2eff1' , Expire: 1588047649)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076355,
+            "prefix": "[2020-04-28 12:19:15] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[2020-04-28 12:19:15] [liu_mu_han DEBUG] Content: {\"errno\":404,\"msg\":\"User not found.\"}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076355,
+            "prefix": "[2020-04-28 12:19:15] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[2020-04-28 12:19:15] [liu_mu_han INFO] Error 404: User not found."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076355,
+            "prefix": "[2020-04-28 12:19:15] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[2020-04-28 12:19:15] [liu_mu_han INFO] 5\/5 Try to load profile from 'LocalSkin'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076355,
+            "prefix": "[2020-04-28 12:19:15] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[2020-04-28 12:19:15] [liu_mu_han INFO] Both skin and cape not found."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076355,
+            "prefix": "[2020-04-28 12:19:15] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[2020-04-28 12:19:15] [liu_mu_han INFO] liu_mu_han's profile not found in load list."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han INFO] Loading liu_mu_han's profile."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han INFO] 1\/5 Try to load profile from 'Mojang'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han DEBUG] Try to request 'https:\/\/api.mojang.com\/users\/profiles\/minecraft\/liu_mu_han'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han DEBUG] Cache file found (Length: 0 , Path: 'C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\376514f852b64fa383a97876cd7a08095e2838b0' , Expire: 0')"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han INFO] Try to load from cache 'C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\376514f852b64fa383a97876cd7a08095e2838b0'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han DEBUG] Successfully load from cache"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han DEBUG] Content: "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han INFO] Profile not found.(liu_mu_han's profile not found.)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han INFO] 2\/5 Try to load profile from 'LittleSkin'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han DEBUG] Try to request 'https:\/\/mcskin.littleservice.cn\/liu_mu_han.json'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han DEBUG] Cache file found (Length: 3 , Path: 'C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\266ee27dae00b12365bfa4b49e4c358dd125ca76' , Expire: 1588047643')"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han INFO] Try to load from cache 'C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\266ee27dae00b12365bfa4b49e4c358dd125ca76'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han DEBUG] Successfully load from cache"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han DEBUG] Content: {}"
+                },
+                {
+                    "number": 60,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han INFO] Both skin and cape not found."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han INFO] 3\/5 Try to load profile from 'BlessingSkin'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076403,
+            "prefix": "[2020-04-28 12:20:03] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[2020-04-28 12:20:03] [liu_mu_han DEBUG] Try to request 'http:\/\/skin.prinzeugen.net\/liu_mu_han.json'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076405,
+            "prefix": "[2020-04-28 12:20:05] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[2020-04-28 12:20:05] [liu_mu_han DEBUG] Failed to request (Response Code: 404)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076405,
+            "prefix": "[2020-04-28 12:20:05] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[2020-04-28 12:20:05] [liu_mu_han INFO] Profile not found."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076405,
+            "prefix": "[2020-04-28 12:20:05] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[2020-04-28 12:20:05] [liu_mu_han INFO] 4\/5 Try to load profile from 'SkinMe'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076405,
+            "prefix": "[2020-04-28 12:20:05] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[2020-04-28 12:20:05] [liu_mu_han DEBUG] Try to request 'http:\/\/www.skinme.cc\/uniskin\/liu_mu_han.json'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076405,
+            "prefix": "[2020-04-28 12:20:05] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[2020-04-28 12:20:05] [liu_mu_han DEBUG] Cache file found (Length: 37 , Path: 'C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\79df8b0591961524195bfd933025ca755bc2eff1' , Expire: 1588047649')"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076405,
+            "prefix": "[2020-04-28 12:20:05] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[2020-04-28 12:20:05] [liu_mu_han INFO] Try to load from cache 'C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\79df8b0591961524195bfd933025ca755bc2eff1'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076405,
+            "prefix": "[2020-04-28 12:20:05] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[2020-04-28 12:20:05] [liu_mu_han DEBUG] Successfully load from cache"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076405,
+            "prefix": "[2020-04-28 12:20:05] [liu_mu_han DEBUG]",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[2020-04-28 12:20:05] [liu_mu_han DEBUG] Content: {\"errno\":404,\"msg\":\"User not found.\"}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076405,
+            "prefix": "[2020-04-28 12:20:05] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[2020-04-28 12:20:05] [liu_mu_han INFO] Error 404: User not found."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076405,
+            "prefix": "[2020-04-28 12:20:05] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[2020-04-28 12:20:05] [liu_mu_han INFO] 5\/5 Try to load profile from 'LocalSkin'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076405,
+            "prefix": "[2020-04-28 12:20:05] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[2020-04-28 12:20:05] [liu_mu_han INFO] Both skin and cape not found."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076405,
+            "prefix": "[2020-04-28 12:20:05] [liu_mu_han INFO]",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[2020-04-28 12:20:05] [liu_mu_han INFO] liu_mu_han's profile not found in load list."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO]",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO] Loading \u8fdb\u51fb\u7684\u5de8\u4eba's profile."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO]",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO] 1\/5 Try to load profile from 'Mojang'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG]",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG] Try to request 'https:\/\/api.mojang.com\/users\/profiles\/minecraft\/\u8fdb\u51fb\u7684\u5de8\u4eba'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG]",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG] Cache file found (Length: 0 , Path: 'C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\9210ed15a6eba3108e9aa0e23ff7f8ff38a837e0' , Expire: 0')"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO]",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO] Try to load from cache 'C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\9210ed15a6eba3108e9aa0e23ff7f8ff38a837e0'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG]",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG] Successfully load from cache"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG]",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG] Content: "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO]",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO] Profile not found.(\u8fdb\u51fb\u7684\u5de8\u4eba's profile not found.)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO]",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO] 2\/5 Try to load profile from 'LittleSkin'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG]",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG] Try to request 'https:\/\/mcskin.littleservice.cn\/\u8fdb\u51fb\u7684\u5de8\u4eba.json'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG]",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG] Encoded URL: https:\/\/mcskin.littleservice.cn\/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA.json"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG]",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG] Successfully request (Response Code: 304 , Content Length: 0)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG]",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG] Cache file found (Length: 188 , Path: 'C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\bf85d9c0f8ac36880f07d5c1e9e00550a3dee531' , Expire: 0')"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO]",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO] Try to load from cache 'C:\\Users\\Administrator\\Desktop\\\u6211\u7684\u4e16\u754c1.12.2\u5929\u57df\u795e\u5947\u5b9d\u8d1d\u670d\u52a1\u5668\u5ba2\u6237\u7aef\\.minecraft\\CustomSkinLoader\\caches\\bf85d9c0f8ac36880f07d5c1e9e00550a3dee531'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG]",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG] Successfully load from cache"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076531,
+            "prefix": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG]",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[2020-04-28 12:22:11] [\u8fdb\u51fb\u7684\u5de8\u4eba DEBUG] Content: {\"username\":\"\u8fdb\u51fb\u7684\u5de8\u4eba\",\"skins\":{\"slim\":\"ff6f21a227f10d097a740a4adbb8e79433d4a2886eb92a8d09feb8de8b3e528e\"},\"cape\":\"d424e35fbb48cc8f72f90a1d159883025f5a10556db8c4365ef6c6634ff55342\"}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076532,
+            "prefix": "[2020-04-28 12:22:12] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO]",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[2020-04-28 12:22:12] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO] \u8fdb\u51fb\u7684\u5de8\u4eba's profile loaded."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1588076532,
+            "prefix": "[2020-04-28 12:22:12] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO]",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[2020-04-28 12:22:12] [\u8fdb\u51fb\u7684\u5de8\u4eba INFO] (SkinUrl: https:\/\/mcskin.littleservice.cn\/textures\/ff6f21a227f10d097a740a4adbb8e79433d4a2886eb92a8d09feb8de8b3e528e , Model: slim , CapeUrl: https:\/\/mcskin.littleservice.cn\/textures\/d424e35fbb48cc8f72f90a1d159883025f5a10556db8c4365ef6c6634ff55342  , Expiry: 1588047747)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076532,
+            "prefix": "[2020-04-28 12:22:12] [Client thread DEBUG]",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[2020-04-28 12:22:12] [Client thread DEBUG] Loading type:SKIN"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1588076532,
+            "prefix": "[2020-04-28 12:22:12] [Client thread DEBUG]",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[2020-04-28 12:22:12] [Client thread DEBUG] Loading type:CAPE"
+                },
+                {
+                    "number": 96,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "CustomSkinLoader version: 14.11",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1588076350,
+                    "prefix": "[2020-04-28 12:19:10] [pool-4-thread-1 INFO]",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[2020-04-28 12:19:10] [pool-4-thread-1 INFO] CustomSkinLoader 14.11"
+                        }
+                    ]
+                },
+                "label": "CustomSkinLoader version",
+                "value": "14.11"
+            }
+        ]
+    }
+}

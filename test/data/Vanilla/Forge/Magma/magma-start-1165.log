@@ -1,0 +1,178 @@
+[21Oct2022 19:29:49.463] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.35-b317fcad, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[21Oct2022 19:29:49.467] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_345 by Temurin
+[21Oct2022 19:29:49.577] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[21Oct2022 19:29:49.612] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/server/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[21Oct2022 19:29:49.650] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /server/config/fml.toml is not correct. Correcting
+[21Oct2022 19:29:49.656] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[21Oct2022 19:29:50.439] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[21Oct2022 19:29:55.543] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.35-b317fcad, for MC 1.16.5 with MCP 20210115.111550
+[21Oct2022 19:29:55.549] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.35-b317fcad Initialized
+[21Oct2022 19:29:55.840] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /server/config/forge-common.toml is not correct. Correcting
+[21Oct2022 19:29:55.841] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}.
+[21Oct2022 19:29:55.842] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.defaultWorldType was corrected from null to its default, default.
+[21Oct2022 19:29:55.858] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[21Oct2022 19:29:55.944] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 36.2.35-b317fcad Target: 36.2.39
+[21Oct2022 19:29:57.513] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21Oct2022 19:29:57.580] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/bukkit, loading it automatically
+[21Oct2022 19:29:58.007] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.35-b317fcad-universal.jar, bukkit
+[21Oct2022 19:29:58.560] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[21Oct2022 19:29:59.926] [main/INFO] [org.magmafoundation.magma.patcher.PatcherManager/]: 3 patches loaded!
+[21Oct2022 19:29:59.927] [main/INFO] [org.magmafoundation.magma.patcher.PatcherManager/]: dynmap [Remaps BukkitVersionHelperCB and BukkitVersionHelperGeneric to support Magma version] loaded
+[21Oct2022 19:29:59.927] [main/INFO] [org.magmafoundation.magma.patcher.PatcherManager/]: Essentials [Fixes for Essentials] loaded
+[21Oct2022 19:29:59.927] [main/INFO] [org.magmafoundation.magma.patcher.PatcherManager/]: WorldEdit [Patches WorldEdit] loaded
+[21Oct2022 19:30:00.021] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[21Oct2022 19:30:00.022] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21Oct2022 19:30:00.148] [Server thread/INFO] [Minecraft/]: This server is running Magma version git-Magma-1.16.5-b317fcad (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[21Oct2022 19:30:00.823] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[21Oct2022 19:30:00.828] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[21Oct2022 19:30:00.830] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[21Oct2022 19:30:00.846] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21Oct2022 19:30:00.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Oct2022 19:30:00.957] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:54016
+[21Oct2022 19:30:00.984] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[21Oct2022 19:30:01.095] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[21Oct2022 19:30:01.096] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}.
+[21Oct2022 19:30:01.097] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false.
+[21Oct2022 19:30:01.097] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to its default, false.
+[21Oct2022 19:30:01.097] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false.
+[21Oct2022 19:30:01.098] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1.
+[21Oct2022 19:30:01.098] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05.
+[21Oct2022 19:30:01.099] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to its default, true.
+[21Oct2022 19:30:01.099] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to its default, false.
+[21Oct2022 19:30:01.100] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to its default, 0.
+[21Oct2022 19:30:01.100] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false.
+[21Oct2022 19:30:01.101] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true.
+[21Oct2022 19:30:01.122] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21Oct2022 19:30:01.140] [Server thread/INFO] [org.magmafoundation.magma.forge.ForgeInject/]: Injected new Forge DimensionType MINECRAFT_OVERWORLD_CAVES.
+[21Oct2022 19:30:01.143] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+[21Oct2022 19:30:01.144] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[21Oct2022 19:30:01.145] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[21Oct2022 19:30:01.145] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[21Oct2022 19:30:01.146] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[21Oct2022 19:30:01.147] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[21Oct2022 19:30:01.147] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[21Oct2022 19:30:01.148] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[21Oct2022 19:30:01.148] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[21Oct2022 19:30:01.149] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[21Oct2022 19:30:01.150] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[21Oct2022 19:30:01.150] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[21Oct2022 19:30:01.150] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[21Oct2022 19:30:01.151] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[21Oct2022 19:30:01.151] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[21Oct2022 19:30:01.151] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[21Oct2022 19:30:01.152] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[21Oct2022 19:30:01.152] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[21Oct2022 19:30:01.152] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[21Oct2022 19:30:01.153] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[21Oct2022 19:30:01.153] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21Oct2022 19:30:01.154] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21Oct2022 19:30:01.155] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21Oct2022 19:30:01.155] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[21Oct2022 19:30:01.156] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21Oct2022 19:30:01.156] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21Oct2022 19:30:01.157] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[21Oct2022 19:30:01.157] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[21Oct2022 19:30:01.157] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[21Oct2022 19:30:01.158] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21Oct2022 19:30:01.158] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[21Oct2022 19:30:01.158] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[21Oct2022 19:30:06.529] [Server thread/INFO] [Minecraft/]: -------- World Settings For [DIM-1] --------
+[21Oct2022 19:30:06.530] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[21Oct2022 19:30:06.531] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[21Oct2022 19:30:06.531] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[21Oct2022 19:30:06.531] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[21Oct2022 19:30:06.531] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[21Oct2022 19:30:06.532] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[21Oct2022 19:30:06.532] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[21Oct2022 19:30:06.532] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[21Oct2022 19:30:06.532] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[21Oct2022 19:30:06.533] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[21Oct2022 19:30:06.533] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[21Oct2022 19:30:06.533] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[21Oct2022 19:30:06.534] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[21Oct2022 19:30:06.534] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[21Oct2022 19:30:06.534] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[21Oct2022 19:30:06.535] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[21Oct2022 19:30:06.535] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[21Oct2022 19:30:06.535] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[21Oct2022 19:30:06.535] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[21Oct2022 19:30:06.536] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21Oct2022 19:30:06.536] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21Oct2022 19:30:06.537] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21Oct2022 19:30:06.537] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[21Oct2022 19:30:06.538] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21Oct2022 19:30:06.538] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21Oct2022 19:30:06.539] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[21Oct2022 19:30:06.539] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[21Oct2022 19:30:06.539] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[21Oct2022 19:30:06.539] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21Oct2022 19:30:06.540] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[21Oct2022 19:30:06.540] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[21Oct2022 19:30:06.559] [Server thread/INFO] [Minecraft/]: -------- World Settings For [DIM1] --------
+[21Oct2022 19:30:06.560] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[21Oct2022 19:30:06.560] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[21Oct2022 19:30:06.561] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[21Oct2022 19:30:06.561] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[21Oct2022 19:30:06.561] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[21Oct2022 19:30:06.562] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[21Oct2022 19:30:06.562] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[21Oct2022 19:30:06.563] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[21Oct2022 19:30:06.563] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[21Oct2022 19:30:06.564] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[21Oct2022 19:30:06.564] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[21Oct2022 19:30:06.564] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[21Oct2022 19:30:06.565] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[21Oct2022 19:30:06.565] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[21Oct2022 19:30:06.565] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[21Oct2022 19:30:06.565] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[21Oct2022 19:30:06.565] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[21Oct2022 19:30:06.566] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[21Oct2022 19:30:06.566] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[21Oct2022 19:30:06.566] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21Oct2022 19:30:06.566] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21Oct2022 19:30:06.566] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21Oct2022 19:30:06.567] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[21Oct2022 19:30:06.567] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21Oct2022 19:30:06.567] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21Oct2022 19:30:06.568] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[21Oct2022 19:30:06.568] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[21Oct2022 19:30:06.568] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[21Oct2022 19:30:06.568] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21Oct2022 19:30:06.569] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[21Oct2022 19:30:06.569] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[21Oct2022 19:30:06.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Oct2022 19:30:06.754] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[21Oct2022 19:30:07.140] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[21Oct2022 19:30:07.634] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[21Oct2022 19:30:08.139] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[21Oct2022 19:30:08.641] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 4%
+[21Oct2022 19:30:09.139] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 6%
+[21Oct2022 19:30:09.634] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 10%
+[21Oct2022 19:30:10.138] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 13%
+[21Oct2022 19:30:10.635] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 17%
+[21Oct2022 19:30:11.140] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 21%
+[21Oct2022 19:30:11.638] [Worker-Main-15/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 25%
+[21Oct2022 19:30:12.135] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 30%
+[21Oct2022 19:30:12.634] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 34%
+[21Oct2022 19:30:13.134] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 38%
+[21Oct2022 19:30:13.635] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[21Oct2022 19:30:14.140] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 47%
+[21Oct2022 19:30:14.634] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 51%
+[21Oct2022 19:30:15.138] [Worker-Main-15/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 55%
+[21Oct2022 19:30:15.637] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 59%
+[21Oct2022 19:30:16.139] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 63%
+[21Oct2022 19:30:16.643] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 65%
+[21Oct2022 19:30:17.139] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 70%
+[21Oct2022 19:30:17.644] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 74%
+[21Oct2022 19:30:18.164] [Worker-Main-15/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 79%
+[21Oct2022 19:30:18.641] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 82%
+[21Oct2022 19:30:19.148] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[21Oct2022 19:30:19.637] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 92%
+[21Oct2022 19:30:20.148] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
+[21Oct2022 19:30:20.482] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 13849 ms
+[21Oct2022 19:30:20.483] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.394s)! For help, type "help"
+[21Oct2022 19:30:20.487] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting GS4 status listener
+[21Oct2022 19:30:20.494] [Server thread/INFO] [net.minecraft.network.rcon.RConThread/]: Thread Query Listener started
+[21Oct2022 19:30:20.494] [Query Listener #1/INFO] [net.minecraft.network.rcon.QueryThread/]: Query running on 0.0.0.0:9898
+[21Oct2022 19:30:20.503] [Server thread/WARN] [net.minecraftforge.server.permission.PermissionAPI/]: Replacing net.minecraftforge.server.permission.DefaultPermissionHandler with org.magmafoundation.magma.permission.MagmaPermissionHandler
+[21Oct2022 19:30:20.504] [Server thread/INFO] [org.magmafoundation.magma.Magma/]: Forwarding forge permission[magma:permission] to bukkit

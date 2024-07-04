@@ -24,13 +24,13 @@ class MohistVersionInformation extends MohistInformation
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
         return [
             '/This server is running ?Mohist ?version git-Mohist-(?:[0-9\.wa]+)-([0-9]+)/',
-            '/This server is running Mohist version (?:[0-9\.wa]+)-([0-9]+)/'
+            '/This server is running Mohist version ([0-9\.wa]+(?:-([0-9]+))?) /'
         ];
     }
 }

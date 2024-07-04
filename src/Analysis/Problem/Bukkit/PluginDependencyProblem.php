@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
@@ -13,47 +14,36 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class PluginDependencyProblem extends BukkitProblem
 {
-    /**
-     * @var string
-     */
-    protected $pluginPath;
+    protected ?string $pluginPath = null;
+    protected ?string $pluginName = null;
+    protected ?string $dependencyPluginName = null;
 
     /**
-     * @var string
+     * @return string|null
      */
-    protected $pluginName;
-
-    /**
-     * @var string
-     */
-    protected $dependencyPluginName;
-
-    /**
-     * @return string
-     */
-    public function getPluginPath(): string
+    public function getPluginPath(): ?string
     {
         return $this->pluginPath;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getPluginName()
+    public function getPluginName(): ?string
     {
         return $this->pluginName;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getDependencyPluginName(): string
+    public function getDependencyPluginName(): ?string
     {
         return $this->dependencyPluginName;
     }
 
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -70,20 +60,23 @@ class PluginDependencyProblem extends BukkitProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
-        return ['/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in folder \'[^\']+\'\norg\.bukkit\.plugin\.UnknownDependencyException\: (?:(\w+)\n|Unknown dependency (\w+)\.)/'];
+        return [
+            '/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in (?:folder )?\'[^\']+\''
+            . '\norg\.bukkit\.plugin\.UnknownDependencyException\: (?:(\w+)\n|Unknown dependency (\w+)\.)/'];
     }
 
     /**
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->pluginPath = $matches[1];
         $this->pluginName = $matches[2];
@@ -94,12 +87,13 @@ class PluginDependencyProblem extends BukkitProblem
     }
 
     /**
-     * @param static $insight
+     * @param InsightInterface $insight
      * @return bool
      */
-    public function isEqual($insight): bool
+    public function isEqual(InsightInterface $insight): bool
     {
-        return $this->getPluginName() === $insight->getPluginName()
+        return $insight instanceof static
+            && $this->getPluginName() === $insight->getPluginName()
             && $this->getPluginPath() === $insight->getPluginPath()
             && $this->getDependencyPluginName() === $insight->getDependencyPluginName();
     }

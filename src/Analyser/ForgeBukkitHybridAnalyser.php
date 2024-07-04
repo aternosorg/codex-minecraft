@@ -4,7 +4,8 @@ namespace Aternos\Codex\Minecraft\Analyser;
 
 /**
  * Class ForgeBukkitHybridAnalyser
- * Analyzes logs of a Forge+Bukkit hybrid server
+ *
+ * @package Aternos\Codex\Minecraft\Analyser
  */
 abstract class ForgeBukkitHybridAnalyser extends ForgeAnalyser
 {

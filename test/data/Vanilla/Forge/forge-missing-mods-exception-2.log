@@ -1,0 +1,356 @@
+[16:53:46] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:53:46] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:53:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:53:46] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[16:53:46] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[16:53:46] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_392, running on Linux:amd64:5.15.0-78-generic, installed at /opt/java/openjdk/jre
+[16:53:46] [main/DEBUG] [FML]: Java classpath at launch is:
+[16:53:46] [main/DEBUG] [FML]:     forge.jar
+[16:53:46] [main/DEBUG] [FML]: Java library path at launch is:
+[16:53:46] [main/DEBUG] [FML]:     /usr/java/packages/lib/amd64
+[16:53:46] [main/DEBUG] [FML]:     /usr/lib64
+[16:53:46] [main/DEBUG] [FML]:     /lib64
+[16:53:46] [main/DEBUG] [FML]:     /lib
+[16:53:46] [main/DEBUG] [FML]:     /usr/lib
+[16:53:46] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: /server/libraries
+[16:53:46] [main/DEBUG] [FML]: Cleaning up mods folder: ./mods
+[16:53:46] [main/DEBUG] [FML]: Examining file: mobultion-0.4.5.jar
+[16:53:46] [main/DEBUG] [FML]: Examining file: animania-1.12.2-farm-1.0.2.28.jar
+[16:53:46] [main/DEBUG] [FML]: Examining file: animania-1.12.2-catsdogs-1.0.0.28.jar
+[16:53:46] [main/DEBUG] [FML]: Examining file: animania-1.12.2-extra-1.0.2.28.jar
+[16:53:46] [main/DEBUG] [FML]: Examining file: CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar
+[16:53:46] [main/DEBUG] [FML]: Examining file: _MixinBootstrap-1.1.0.jar
+[16:53:46] [main/DEBUG] [FML]: Examining file: LDoH-Tweaks-1.12.2-1.1.11a.jar
+[16:53:46] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[16:53:46] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[16:53:46] [main/DEBUG] [FML]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)
+[16:53:46] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:53:46] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[16:53:46] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[16:53:46] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[16:53:46] [main/DEBUG] [FML]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)
+[16:53:46] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:53:46] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[16:53:46] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[16:53:46] [main/DEBUG] [FML]: Discovering coremods
+[16:53:46] [main/INFO] [FML]: Searching /server/./mods for mods
+[16:53:46] [main/DEBUG] [FML]:   Adding mobultion-0.4.5.jar to the mod list
+[16:53:46] [main/DEBUG] [FML]:   Adding animania-1.12.2-farm-1.0.2.28.jar to the mod list
+[16:53:46] [main/DEBUG] [FML]:   Adding animania-1.12.2-catsdogs-1.0.0.28.jar to the mod list
+[16:53:46] [main/DEBUG] [FML]:   Adding animania-1.12.2-extra-1.0.2.28.jar to the mod list
+[16:53:46] [main/DEBUG] [FML]:   Adding CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar to the mod list
+[16:53:46] [main/DEBUG] [FML]:   Adding _MixinBootstrap-1.1.0.jar to the mod list
+[16:53:46] [main/DEBUG] [FML]:   Adding LDoH-Tweaks-1.12.2-1.1.11a.jar to the mod list
+[16:53:46] [main/DEBUG] [FML]: Examining for coremod candidacy _MixinBootstrap-1.1.0.jar
+[16:53:46] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from _MixinBootstrap-1.1.0.jar
+[16:53:46] [main/DEBUG] [FML]: Examining for coremod candidacy animania-1.12.2-catsdogs-1.0.0.28.jar
+[16:53:46] [main/DEBUG] [FML]: Not found coremod data in animania-1.12.2-catsdogs-1.0.0.28.jar
+[16:53:46] [main/DEBUG] [FML]: Examining for coremod candidacy animania-1.12.2-extra-1.0.2.28.jar
+[16:53:46] [main/DEBUG] [FML]: Not found coremod data in animania-1.12.2-extra-1.0.2.28.jar
+[16:53:46] [main/DEBUG] [FML]: Examining for coremod candidacy animania-1.12.2-farm-1.0.2.28.jar
+[16:53:46] [main/DEBUG] [FML]: Not found coremod data in animania-1.12.2-farm-1.0.2.28.jar
+[16:53:46] [main/DEBUG] [FML]: Examining for coremod candidacy CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar
+[16:53:46] [main/DEBUG] [FML]: Not found coremod data in CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar
+[16:53:46] [main/DEBUG] [FML]: Examining for coremod candidacy LDoH-Tweaks-1.12.2-1.1.11a.jar
+[16:53:46] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from LDoH-Tweaks-1.12.2-1.1.11a.jar
+[16:53:46] [main/DEBUG] [FML]: Examining for coremod candidacy mobultion-0.4.5.jar
+[16:53:46] [main/DEBUG] [FML]: Not found coremod data in mobultion-0.4.5.jar
+[16:53:46] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:53:46] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[16:53:46] [main/DEBUG] [mixin]: Mixin bootstrap service org.spongepowered.asm.service.modlauncher.MixinServiceModLauncherBootstrap is not available: ModLauncher is not available
+[16:53:46] [main/DEBUG] [mixin]: MixinService [LaunchWrapper] was successfully booted in sun.misc.Launcher$AppClassLoader@18b4aac2
+[16:53:46] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/server/./mods/_MixinBootstrap-1.1.0.jar Service=LaunchWrapper Env=SERVER
+[16:53:46] [main/DEBUG] [mixin]: Error cleaning class output directory: .mixin.out
+[16:53:46] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #1
+[16:53:46] [main/DEBUG] [mixin]: Initialising Mixin Platform Manager
+[16:53:46] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/server/./mods/_MixinBootstrap-1.1.0.jar)
+[16:53:46] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/server/./mods/_MixinBootstrap-1.1.0.jar)
+[16:53:46] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy rejected container ContainerHandleURI(file:/server/./mods/_MixinBootstrap-1.1.0.jar)
+[16:53:46] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/server/./mods/_MixinBootstrap-1.1.0.jar)
+[16:53:46] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/server/./mods/_MixinBootstrap-1.1.0.jar)
+[16:53:46] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/server/./mods/_MixinBootstrap-1.1.0.jar)
+[16:53:46] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/server/./mods/_MixinBootstrap-1.1.0.jar)
+[16:53:46] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/server/forge.jar for mixin tweaker
+[16:53:46] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/server/./mods/_MixinBootstrap-1.1.0.jar for mixin tweaker
+[16:53:46] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/server/./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar for mixin tweaker
+[16:53:46] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/server/./mods/_MixinBootstrap-1.1.0.jar)
+[16:53:46] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/server/./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar)
+[16:53:46] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/server/./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar)
+[16:53:46] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/server/./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar)
+[16:53:46] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for LDoH-Tweaks-1.12.2-1.1.11a.jar, attempting force-load
+[16:53:46] [main/DEBUG] [mixin]: Adding LDoH-Tweaks-1.12.2-1.1.11a.jar to reparseable coremod collection
+[16:53:46] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy rejected container ContainerHandleURI(file:/server/./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar)
+[16:53:46] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/server/./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar)
+[16:53:46] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/server/./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar)
+[16:53:46] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/server/./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar)
+[16:53:46] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/server/./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar)
+[16:53:46] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[16:53:46] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:53:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:53:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:53:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:53:46] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[16:53:46] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[16:53:46] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[PREINIT]
+[16:53:47] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[16:53:47] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[16:53:47] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[16:53:47] [main/DEBUG] [FML]: Injection complete
+[16:53:47] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[16:53:47] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[16:53:49] [main/DEBUG] [FML]: Read 1154 binary patches
+[16:53:49] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36076 records
+[16:53:49] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:53:49] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[16:53:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:53:49] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[16:53:49] [main/DEBUG] [FML]: Injection complete
+[16:53:49] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[16:53:49] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[16:53:49] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[16:53:49] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[16:53:49] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/server/./mods/_MixinBootstrap-1.1.0.jar)]
+[16:53:49] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/server/./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar)]
+[16:53:49] [main/DEBUG] [mixin]: Registering mixin config: mixins.ldoh.json
+[16:53:50] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[16:53:50] [main/ERROR] [mixin]: Mixin config mixins.ldoh.json does not specify "minVersion" property
+[16:53:50] [main/DEBUG] [mixin]: Creating FML remapper adapter: org.spongepowered.asm.bridge.RemapperAdapterFML
+[16:53:50] [main/DEBUG] [mixin]: Checking for additional mixins for MixinEnvironment[PREINIT]
+[16:53:50] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@1dc2de84
+[16:53:50] [main/DEBUG] [mixin]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/server/./mods/_MixinBootstrap-1.1.0.jar)]
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/server/forge.jar for mixin tweaker
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/server/./mods/_MixinBootstrap-1.1.0.jar for mixin tweaker
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/server/./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar for mixin tweaker
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning asmgen:/ for mixin tweaker
+[16:53:50] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/server/./mods/_MixinBootstrap-1.1.0.jar)
+[16:53:50] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/server/./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar)
+[16:53:50] [main/DEBUG] [mixin]: inject() running with 2 agents
+[16:53:50] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/server/./mods/_MixinBootstrap-1.1.0.jar)]
+[16:53:50] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/server/./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar)]
+[16:53:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:53:50] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[16:53:50] [main/DEBUG] [FML]: Loaded 23 rules from AccessTransformer mod jar file ./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar!META-INF/ldoh_at.cfg
+[16:53:50] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #2
+[16:53:50] [main/DEBUG] [FML]: Validating minecraft
+[16:53:50] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[INIT]
+[16:53:50] [main/DEBUG] [mixin]: Selecting config mixins.ldoh.json
+[16:53:50] [main/DEBUG] [mixin]: Preparing mixins.ldoh.json (11)
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Rebuilding transformer delegation list:
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockTransformer
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockSpecialTransformer
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PotionEffectTransformer
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[16:53:50] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Transformer delegation list created with 11 entries
+[16:53:50] [main/TRACE] [mixin]: Added class metadata for net/minecraft/block/BlockPortal to metadata cache
+[16:53:50] [main/TRACE] [mixin]: Added class metadata for net/minecraft/block/BlockPumpkin to metadata cache
+[16:53:50] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/EntityLiving to metadata cache
+[16:53:50] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/EntityLivingBase to metadata cache
+[16:53:50] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/monster/EntityZombie to metadata cache
+[16:53:50] [main/TRACE] [mixin]: Added class metadata for net/minecraft/item/Item to metadata cache
+[16:53:50] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/ResourceLocation to metadata cache
+[16:53:50] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/WorldProviderEnd to metadata cache
+[16:53:50] [main/DEBUG] [mixin]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[16:53:50] [main/DEBUG] [mixin]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[16:53:50] [main/DEBUG] [mixin]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[16:53:50] [main/DEBUG] [mixin]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[16:53:50] [main/DEBUG] [mixin]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[16:53:50] [main/DEBUG] [mixin]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[16:53:50] [main/DEBUG] [mixin]: Prepared 8 mixins in 0.284 sec (35.5ms avg) (0ms load, 165ms transform, 0ms plugin)
+[16:53:50] [main/DEBUG] [FML]: Minecraft validated, launching...
+[16:53:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:53:50] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[16:53:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:53:50] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[16:53:50] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #3
+[16:53:50] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[DEFAULT]
+[16:53:51] [main/DEBUG] [mixin]: Mixing MixinEntityLivingBase from mixins.ldoh.json into net.minecraft.entity.EntityLivingBase
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Rebuilding transformer delegation list:
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockTransformer
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockSpecialTransformer
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PotionEffectTransformer
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[16:53:51] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Transformer delegation list created with 11 entries
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/Entity to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraft/command/ICommandSender to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/common/capabilities/ICapabilitySerializable to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/common/capabilities/ICapabilityProvider to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/common/util/INBTSerializable to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/smileycorp/ldoh/common/util/ModUtils to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfo to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/common/ForgeHooks to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for java/lang/Boolean to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for java/io/Serializable to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for java/lang/Comparable to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/World to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/DamageSource to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/passive/EntityTameable to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for java/lang/Math to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/math/MathHelper to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraft/advancements/CriteriaTriggers to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraft/advancements/critereon/EntityHurtPlayerTrigger to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraft/advancements/critereon/PlayerHurtEntityTrigger to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/SoundEvent to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraft/nbt/NBTTagList to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/player/EntityPlayerMP to metadata cache
+[16:53:51] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:53:51] [main/DEBUG] [mixin]: Mixing MixinResourceLocation from mixins.ldoh.json into net.minecraft.util.ResourceLocation
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for java/lang/String to metadata cache
+[16:53:51] [main/DEBUG] [mixin]: Mixing MixinItem from mixins.ldoh.json into net.minecraft.item.Item
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/registries/IForgeRegistryEntry$Impl to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/registries/IForgeRegistryEntry to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraft/inventory/EntityEquipmentSlot to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for net/minecraft/item/ItemStack to metadata cache
+[16:53:51] [main/TRACE] [mixin]: Added class metadata for com/google/common/collect/Multimap to metadata cache
+[16:53:53] [main/DEBUG] [mixin]: Mixing MixinBlockPumpkin from mixins.ldoh.json into net.minecraft.block.BlockPumpkin
+[16:53:53] [main/TRACE] [mixin]: Added class metadata for net/minecraft/block/BlockHorizontal to metadata cache
+[16:53:53] [main/TRACE] [mixin]: Added class metadata for net/minecraft/block/Block to metadata cache
+[16:53:53] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/math/BlockPos to metadata cache
+[16:53:53] [main/DEBUG] [mixin]: Mixing MixinEntityLiving from mixins.ldoh.json into net.minecraft.entity.EntityLiving
+[16:53:53] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/player/EntityPlayer to metadata cache
+[16:53:53] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/common/Loader to metadata cache
+[16:53:53] [main/TRACE] [mixin]: Added class metadata for net/smileycorp/ldoh/integration/tektopia/TektopiaUtils to metadata cache
+[16:53:53] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/EnumHand to metadata cache
+[16:53:53] [main/TRACE] [mixin]: Added class metadata for net/minecraft/scoreboard/Team to metadata cache
+[16:53:53] [main/TRACE] [mixin]: Added class metadata for net/minecraft/nbt/NBTTagCompound to metadata cache
+[16:53:53] [main/DEBUG] [mixin]: Mixing MixinBlockPortal from mixins.ldoh.json into net.minecraft.block.BlockPortal
+[16:53:53] [main/TRACE] [mixin]: Added class metadata for net/minecraft/block/BlockBreakable to metadata cache
+[16:53:53] [main/TRACE] [mixin]: Added class metadata for net/minecraft/block/material/Material to metadata cache
+[16:53:55] [main/DEBUG] [mixin]: Mixing MixinEntityZombie from mixins.ldoh.json into net.minecraft.entity.monster.EntityZombie
+[16:53:55] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/monster/EntityMob to metadata cache
+[16:53:55] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/EntityCreature to metadata cache
+[16:53:55] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/monster/IMob to metadata cache
+[16:53:55] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/passive/IAnimals to metadata cache
+[16:53:55] [main/TRACE] [mixin]: Added class metadata for java/lang/Class to metadata cache
+[16:53:55] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/monster/EntityZombieVillager to metadata cache
+[16:53:55] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/monster/EntityHusk to metadata cache
+[16:53:55] [main/TRACE] [mixin]: Added class metadata for net/smileycorp/ldoh/common/entity/zombie/EntityTF2Zombie to metadata cache
+[16:53:55] [main/TRACE] [mixin]: Added class metadata for net/smileycorp/ldoh/common/entity/zombie/EntityProfessionZombie to metadata cache
+[16:53:55] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/monster/EntityZombie$GroupData to metadata cache
+[16:53:55] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/IEntityLivingData to metadata cache
+[16:53:56] [main/DEBUG] [FML]: Creating vanilla freeze snapshot
+[16:53:56] [main/DEBUG] [FML]: Vanilla freeze snapshot created
+[16:53:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[16:53:56] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[16:53:56] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[16:53:57] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[16:53:57] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[16:53:57] [Server thread/DEBUG] [FML]: File /server/config/injectedDependencies.json not found. No dependencies injected
+[16:53:57] [Server thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[16:53:57] [Server thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[16:53:57] [Server thread/DEBUG] [FML]: Found a minecraft related file at /server/forge.jar, examining for mod candidates
+[16:53:57] [Server thread/TRACE] [FML]: Skipping known library file /server/./mods/_MixinBootstrap-1.1.0.jar
+[16:53:57] [Server thread/TRACE] [FML]: Skipping known library file /server/./mods/LDoH-Tweaks-1.12.2-1.1.11a.jar
+[16:53:57] [Server thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[16:53:57] [Server thread/INFO] [FML]: Searching /server/./mods for mods
+[16:53:57] [Server thread/DEBUG] [FML]:   Adding mobultion-0.4.5.jar to the mod list
+[16:53:57] [Server thread/DEBUG] [FML]:   Adding animania-1.12.2-farm-1.0.2.28.jar to the mod list
+[16:53:57] [Server thread/DEBUG] [FML]:   Adding animania-1.12.2-catsdogs-1.0.0.28.jar to the mod list
+[16:53:57] [Server thread/DEBUG] [FML]:   Adding animania-1.12.2-extra-1.0.2.28.jar to the mod list
+[16:53:57] [Server thread/DEBUG] [FML]:   Adding CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar to the mod list
+[16:53:57] [Server thread/DEBUG] [FML]:   Adding _MixinBootstrap-1.1.0.jar to the mod list
+[16:53:57] [Server thread/DEBUG] [FML]:   Adding LDoH-Tweaks-1.12.2-1.1.11a.jar to the mod list
+[16:53:57] [Server thread/TRACE] [FML]: Skipping already parsed coremod or tweaker _MixinBootstrap-1.1.0.jar
+[16:53:57] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file animania-1.12.2-catsdogs-1.0.0.28.jar
+[16:53:57] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file animania-1.12.2-extra-1.0.2.28.jar
+[16:53:57] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file animania-1.12.2-farm-1.0.2.28.jar
+[16:53:57] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar
+[16:53:57] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file LDoH-Tweaks-1.12.2-1.1.11a.jar
+[16:53:57] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file mobultion-0.4.5.jar
+[16:53:57] [Server thread/DEBUG] [FML]: Examining file forge.jar for potential mods
+[16:53:57] [Server thread/DEBUG] [FML]: The mod container forge.jar appears to be missing an mcmod.info file
+[16:53:58] [Server thread/DEBUG] [FML]: Examining file animania-1.12.2-catsdogs-1.0.0.28.jar for potential mods
+[16:53:58] [Server thread/DEBUG] [FML]: The mod container animania-1.12.2-catsdogs-1.0.0.28.jar appears to be missing an mcmod.info file
+[16:53:58] [Server thread/DEBUG] [FML]: Examining file animania-1.12.2-extra-1.0.2.28.jar for potential mods
+[16:53:58] [Server thread/DEBUG] [FML]: The mod container animania-1.12.2-extra-1.0.2.28.jar appears to be missing an mcmod.info file
+[16:53:58] [Server thread/DEBUG] [FML]: Examining file animania-1.12.2-farm-1.0.2.28.jar for potential mods
+[16:53:58] [Server thread/DEBUG] [FML]: The mod container animania-1.12.2-farm-1.0.2.28.jar appears to be missing an mcmod.info file
+[16:53:58] [Server thread/DEBUG] [FML]: Examining file CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar for potential mods
+[16:53:58] [Server thread/TRACE] [FML]: Located mcmod.info file in file CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar
+[16:53:58] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.leviathanstudio.craftstudio.CraftStudioApi) - loading
+[16:53:58] [Server thread/TRACE] [FML]: Parsed dependency info for craftstudioapi: Requirements: [] After:[] Before:[]
+[16:53:58] [Server thread/DEBUG] [FML]: Examining file LDoH-Tweaks-1.12.2-1.1.11a.jar for potential mods
+[16:53:58] [Server thread/TRACE] [FML]: Located mcmod.info file in file LDoH-Tweaks-1.12.2-1.1.11a.jar
+[16:53:58] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.smileycorp.ldoh.common.LDOHTweaks) - loading
+[16:53:58] [Server thread/TRACE] [FML]: Parsed dependency info for ldoh: Requirements: [realistictorches, xlfoodmod, buildcraftcore, mod_lavacow, srparasites, bibliocraft, car, animania, animania, wastelands, reccomplex, hordes@1.1.4, iguanatweaks, cfm, firstaid, cgm, biomesoplenty, cookingforblockheads, atlaslib@1.1.5, rafradek_tf2_weapons, gamestages, followme] After:[tektopia, atlaslib@1.1.5, rafradek_tf2_weapons, hordes@1.1.4, srparasites, mod_lavacow, firstaid, animania, wastelands, biomesoplenty, cgm, cfm, realistictorches, xlfoodmod, cookingforblockheads, bibliocraft, car, buildcraftcore, biometweaker, animania, followme, gamestages, reccomplex] Before:[iguanatweaks, vanillafix]
+[16:53:58] [Server thread/DEBUG] [FML]: Examining file mobultion-0.4.5.jar for potential mods
+[16:53:58] [Server thread/TRACE] [FML]: Located mcmod.info file in file mobultion-0.4.5.jar
+[16:53:58] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mcpecommander.mobultion.MobultionMod) - loading
+[16:53:58] [Server thread/TRACE] [FML]: Parsed dependency info for mobultion: Requirements: [craftstudioapi] After:[craftstudioapi, forge@[14.23.3.2650,)] Before:[]
+[16:53:58] [Server thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
+[16:53:58] [Server thread/TRACE] [FML]: Received a system property request ''
+[16:53:58] [Server thread/TRACE] [FML]: System property request managing the state of 0 mods
+[16:53:58] [Server thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[16:53:58] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[16:53:58] [Server thread/DEBUG] [FML]: Enabling mod craftstudioapi
+[16:53:58] [Server thread/WARN] [FML]: Missing English translation for craftstudioapi: assets/craftstudioapi/lang/en_us.lang
+[16:53:58] [Server thread/DEBUG] [FML]: Enabling mod ldoh
+[16:53:58] [Server thread/DEBUG] [FML]: Enabling mod mobultion
+[16:53:58] [Server thread/TRACE] [FML]: Verifying mod requirements are satisfied
+[16:53:58] [Server thread/FATAL] [FML]: net.minecraftforge.fml.common.MissingModsException: Mod ldoh (LDoH Tweaks) requires [realistictorches, xlfoodmod, buildcraftcore, mod_lavacow, srparasites, bibliocraft, car, animania, animania, wastelands, reccomplex, hordes@1.1.4, iguanatweaks, cfm, firstaid, cgm, biomesoplenty, cookingforblockheads, rafradek_tf2_weapons, atlaslib@1.1.5, gamestages, followme]
+[16:53:58] [Server thread/DEBUG] [FML]: Mod sorting data
+[16:53:58] [Server thread/DEBUG] [FML]: 	craftstudioapi(CraftStudio API:1.0.0): CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar ()
+[16:53:58] [Server thread/DEBUG] [FML]: 	ldoh(LDoH Tweaks:LDoH): LDoH-Tweaks-1.12.2-1.1.11a.jar (after:tektopia;required-after:atlaslib@1.1.5;required-after:rafradek_tf2_weapons;required-after:hordes@1.1.4;required-after:srparasites;required-after:mod_lavacow;required-after:firstaid;required-after:animania;required-after:wastelands;required-after:biomesoplenty;required-after:cgm;required-after:cfm;required-after:realistictorches;required-after:xlfoodmod;required-after:cookingforblockheads;required-after:bibliocraft;required-after:car;required-after:buildcraftcore;after:biometweaker;required-after:animania;required-after:followme;required-after:gamestages;required-after:reccomplex;required-before:iguanatweaks;before:vanillafix)
+[16:53:58] [Server thread/DEBUG] [FML]: 	mobultion(Mobultion:0.4.5): mobultion-0.4.5.jar (required-after:craftstudioapi;after:forge@[14.23.3.2650,);)
+[16:53:58] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
+net.minecraftforge.fml.common.MissingModsException: Mod ldoh (LDoH Tweaks) requires [realistictorches, xlfoodmod, buildcraftcore, mod_lavacow, srparasites, bibliocraft, car, animania, animania, wastelands, reccomplex, hordes@1.1.4, iguanatweaks, cfm, firstaid, cgm, biomesoplenty, cookingforblockheads, rafradek_tf2_weapons, atlaslib@1.1.5, gamestages, followme]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266) ~[Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572) ~[Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) ~[FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333) ~[FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) ~[nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_392]
+[16:53:58] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: /server/./crash-reports/crash-2024-01-13_16.53.58-server.txt
+[16:53:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[16:53:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[16:53:58] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod minecraft
+[16:53:58] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod minecraft
+[16:53:58] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.002s
+[16:53:58] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mcp
+[16:53:58] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mcp
+[16:53:58] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.001s
+[16:53:58] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
+[16:53:58] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
+[16:53:58] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[16:53:58] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod forge
+[16:53:58] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod forge
+[16:53:58] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[16:53:58] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod craftstudioapi
+[16:53:58] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod craftstudioapi
+[16:53:58] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - CraftStudio API took 0.000s
+[16:53:58] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod ldoh
+[16:53:58] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod ldoh
+[16:53:58] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - LDoH Tweaks took 0.000s
+[16:53:58] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mobultion
+[16:53:58] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mobultion
+[16:53:58] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Mobultion took 0.000s
+[16:53:58] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.005s
+[16:53:58] [Server thread/INFO] [FML]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded.
+[16:53:58] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[16:53:58] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds

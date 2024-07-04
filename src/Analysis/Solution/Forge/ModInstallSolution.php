@@ -11,13 +11,10 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class ModInstallSolution extends ModSolution
 {
-    /**
-     * @var string
-     */
-    protected $modVersion;
+    protected ?string $modVersion = null;
 
     /**
-     * Get the solution as a human readable message
+     * Get the solution as a human-readable message
      *
      * @return string
      */
@@ -36,7 +33,7 @@ class ModInstallSolution extends ModSolution
     /**
      * @return string|null
      */
-    public function getModVersion()
+    public function getModVersion(): ?string
     {
         return $this->modVersion;
     }
@@ -45,7 +42,7 @@ class ModInstallSolution extends ModSolution
      * @param string $modVersion
      * @return $this
      */
-    public function setModVersion(string $modVersion)
+    public function setModVersion(string $modVersion): static
     {
         $this->modVersion = $modVersion;
         return $this;

@@ -1,0 +1,2475 @@
+{
+    "id": "mohist\/server",
+    "name": "Mohist",
+    "type": "Server Log",
+    "version": "1.18.2",
+    "title": "Mohist 1.18.2 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "05Jul2022 23:41:35.352] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.1.51, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:41:35.366] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[05Jul2022 23:41:35.366] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.2 by Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:41:35.955] [main\/INFO] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[05Jul2022 23:41:35.955] [main\/INFO] [mixin\/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:\/server\/libraries\/org\/spongepowered\/mixin\/0.8.5\/mixin-0.8.5.jar%2315!\/ Service=ModLauncher Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:41:46.268] [main\/INFO] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[05Jul2022 23:41:46.268] [main\/INFO] [mixin\/]: Compatibility level set to JAVA_17"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:41:46.305] [main\/ERROR] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[05Jul2022 23:41:46.305] [main\/ERROR] [mixin\/]: Mixin config emotecraft.mixins.json does not specify \"minVersion\" property"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:41:46.310] [main\/ERROR] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[05Jul2022 23:41:46.310] [main\/ERROR] [mixin\/]: Mixin config bendylib.mixin.json does not specify \"minVersion\" property"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:41:46.316] [main\/ERROR] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[05Jul2022 23:41:46.316] [main\/ERROR] [mixin\/]: Mixin config emotecraft-arch.mixins.json does not specify \"minVersion\" property"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:41:46.431] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[05Jul2022 23:41:46.431] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:09.577] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[05Jul2022 23:42:09.577] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]: Forge mod loading, version 40.1.51, for MC 1.18.2 with MCP 20220404.173914"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:09.577] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[05Jul2022 23:42:09.577] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]: MinecraftForge v40.1.51 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:11.065] [modloading-worker-0\/INFO] [Mystical Agriculture\/]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[05Jul2022 23:42:11.065] [modloading-worker-0\/INFO] [Mystical Agriculture\/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:11.162] [modloading-worker-0\/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack\/]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[05Jul2022 23:42:11.162] [modloading-worker-0\/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack\/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.WaterEffect as a FluidEffect for Water with the ID 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:11.164] [modloading-worker-0\/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack\/]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[05Jul2022 23:42:11.164] [modloading-worker-0\/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack\/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.LavaEffect as a FluidEffect for Lava with the ID 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:11.548] [modloading-worker-0\/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod\/]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[05Jul2022 23:42:11.548] [modloading-worker-0\/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod\/]: Injecting super coyotes..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:14.727] [modloading-worker-0\/INFO] [voicechat\/]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[05Jul2022 23:42:14.727] [modloading-worker-0\/INFO] [voicechat\/]: Compatibility version 14"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:14.770] [modloading-worker-0\/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod\/]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[05Jul2022 23:42:14.770] [modloading-worker-0\/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod\/]: Overspawning lammergeiers..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:14.903] [modloading-worker-0\/INFO] [voicechat\/]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[05Jul2022 23:42:14.903] [modloading-worker-0\/INFO] [voicechat\/]: Loading plugins"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:14.991] [modloading-worker-0\/INFO] [voicechat\/]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[05Jul2022 23:42:14.991] [modloading-worker-0\/INFO] [voicechat\/]: Loaded 0 plugin(s)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:14.991] [modloading-worker-0\/INFO] [voicechat\/]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[05Jul2022 23:42:14.991] [modloading-worker-0\/INFO] [voicechat\/]: Initializing plugins"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:14.991] [modloading-worker-0\/INFO] [voicechat\/]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[05Jul2022 23:42:14.991] [modloading-worker-0\/INFO] [voicechat\/]: Initialized 0 plugin(s)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:15.667] [main\/INFO] [terrablender\/]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[05Jul2022 23:42:15.667] [main\/INFO] [terrablender\/]: Registered region minecraft:overworld to index 0 for type OVERWORLD"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:15.668] [main\/INFO] [terrablender\/]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[05Jul2022 23:42:15.668] [main\/INFO] [terrablender\/]: Registered region minecraft:nether to index 0 for type NETHER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:15.668] [main\/INFO] [terrablender\/]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[05Jul2022 23:42:15.668] [main\/INFO] [terrablender\/]: Registered region biomesoplenty:overworld_common to index 1 for type OVERWORLD"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:15.668] [main\/INFO] [terrablender\/]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[05Jul2022 23:42:15.668] [main\/INFO] [terrablender\/]: Registered region biomesoplenty:overworld_rare to index 2 for type OVERWORLD"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:15.668] [main\/INFO] [terrablender\/]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[05Jul2022 23:42:15.668] [main\/INFO] [terrablender\/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:15.669] [main\/INFO] [terrablender\/]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[05Jul2022 23:42:15.669] [main\/INFO] [terrablender\/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:15.881] [modloading-worker-0\/INFO] [xaero.common.server.XaeroMinimapServer\/]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[05Jul2022 23:42:15.881] [modloading-worker-0\/INFO] [xaero.common.server.XaeroMinimapServer\/]: Loading Xaero's Minimap - Stage 1\/2 (Server)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:15.885] [main\/INFO] [xaero.common.server.XaeroMinimapServer\/]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[05Jul2022 23:42:15.885] [main\/INFO] [xaero.common.server.XaeroMinimapServer\/]: Loading Xaero's Minimap - Stage 2\/2 (Server)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:15.933] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[05Jul2022 23:42:15.933] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [voicechat] Starting version check at https:\/\/maxhenkel.de\/update\/voicechat.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:17.462] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[05Jul2022 23:42:17.462] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [voicechat] Found status: UP_TO_DATE Current: 1.18.2-2.2.47 Target: null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:17.465] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[05Jul2022 23:42:17.465] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [forge] Starting version check at https:\/\/files.minecraftforge.net\/net\/minecraftforge\/forge\/promotions_slim.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:17.884] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[05Jul2022 23:42:17.884] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [forge] Found status: OUTDATED Current: 40.1.51 Target: 40.1.54"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:17.884] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[05Jul2022 23:42:17.884] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [gravestone] Starting version check at https:\/\/maxhenkel.de\/update\/gravestone.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:17.917] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[05Jul2022 23:42:17.917] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [gravestone] Found status: UP_TO_DATE Current: 1.18.2-1.0.2 Target: null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:17.919] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[05Jul2022 23:42:17.919] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [travelersbackpack] Starting version check at https:\/\/gist.githubusercontent.com\/Tiviacz1337\/906937677aa472285dff9d6c2a189d5e\/raw"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:18.084] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[05Jul2022 23:42:18.084] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [travelersbackpack] Found status: UP_TO_DATE Current: 7.1.2 Target: null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:22.155] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[05Jul2022 23:42:22.155] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]: Environment: authHost='https:\/\/authserver.mojang.com', accountsHost='https:\/\/api.mojang.com', sessionHost='https:\/\/sessionserver.mojang.com', servicesHost='https:\/\/api.minecraftservices.com', name='PROD'"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:26.645] [main\/WARN] [net.minecraft.server.packs.VanillaPackResources\/]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[05Jul2022 23:42:26.645] [main\/WARN] [net.minecraft.server.packs.VanillaPackResources\/]: Assets URL 'union:\/server\/libraries\/net\/minecraft\/server\/1.18.2-20220404.173914\/server-1.18.2-20220404.173914-srg.jar%2365!\/assets\/.mcassetsroot' uses unexpected schema"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:26.646] [main\/WARN] [net.minecraft.server.packs.VanillaPackResources\/]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[05Jul2022 23:42:26.646] [main\/WARN] [net.minecraft.server.packs.VanillaPackResources\/]: Assets URL 'union:\/server\/libraries\/net\/minecraft\/server\/1.18.2-20220404.173914\/server-1.18.2-20220404.173914-srg.jar%2365!\/data\/.mcassetsroot' uses unexpected schema"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:45.962] [main\/WARN] [net.minecraft.commands.Commands\/]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[05Jul2022 23:42:45.962] [main\/WARN] [net.minecraft.commands.Commands\/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:45.965] [main\/WARN] [net.minecraft.commands.Commands\/]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[05Jul2022 23:42:45.965] [main\/WARN] [net.minecraft.commands.Commands\/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:45.971] [main\/WARN] [net.minecraft.commands.Commands\/]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[05Jul2022 23:42:45.971] [main\/WARN] [net.minecraft.commands.Commands\/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:45.975] [main\/WARN] [net.minecraft.commands.Commands\/]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[05Jul2022 23:42:45.975] [main\/WARN] [net.minecraft.commands.Commands\/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:42:45.978] [main\/WARN] [net.minecraft.commands.Commands\/]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[05Jul2022 23:42:45.978] [main\/WARN] [net.minecraft.commands.Commands\/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:02.227] [Worker-Main-4\/INFO] [net.minecraft.world.item.crafting.RecipeManager\/]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[05Jul2022 23:43:02.227] [Worker-Main-4\/INFO] [net.minecraft.world.item.crafting.RecipeManager\/]: Loaded 10 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:08.575] [Worker-Main-4\/INFO] [net.minecraft.advancements.AdvancementList\/]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[05Jul2022 23:43:08.575] [Worker-Main-4\/INFO] [net.minecraft.advancements.AdvancementList\/]: Loaded 1385 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:08.642] [Worker-Main-4\/INFO] [Cucumber Library\/]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[05Jul2022 23:43:08.642] [Worker-Main-4\/INFO] [Cucumber Library\/]: Loaded cucumber-tags.json in 3 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:18.350] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[05Jul2022 23:43:18.350] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting minecraft server version 1.18.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:18.351] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[05Jul2022 23:43:18.351] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:18.357] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[05Jul2022 23:43:18.357] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:18.358] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[05Jul2022 23:43:18.358] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:19.283] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[05Jul2022 23:43:19.283] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting Minecraft server on *:13396"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:19.521] [Server thread\/INFO] [net.minecraft.server.network.ServerConnectionListener\/]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[05Jul2022 23:43:19.521] [Server thread\/INFO] [net.minecraft.server.network.ServerConnectionListener\/]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:20.194] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[05Jul2022 23:43:20.194] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer\/]: **** SERVER IS RUNNING IN OFFLINE\/INSECURE MODE!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:20.195] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[05Jul2022 23:43:20.195] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer\/]: The server will make no attempt to authenticate usernames. Beware."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:20.195] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[05Jul2022 23:43:20.195] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer\/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:20.196] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[05Jul2022 23:43:20.196] [Server thread\/WARN] [net.minecraft.server.dedicated.DedicatedServer\/]: To change this, set \"online-mode\" to \"true\" in the server.properties file."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:20.967] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[05Jul2022 23:43:20.967] [Server thread\/INFO] [Minecraft\/]: This server is running Mohist version 1.18.2 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT, Forge version 40.1.51)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:23.874] [Server thread\/INFO] [net.minecraft.server.players.PlayerList\/]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[05Jul2022 23:43:23.874] [Server thread\/INFO] [net.minecraft.server.players.PlayerList\/]: Forge Injected Bukkit!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:29.340] [Server thread\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[05Jul2022 23:43:29.340] [Server thread\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV] Loading DiscordSRV v1.25.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:29.391] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[05Jul2022 23:43:29.391] [Server thread\/INFO] [Minecraft\/]: Debug logging is enabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:29.393] [Server thread\/INFO] [\/]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[05Jul2022 23:43:29.393] [Server thread\/INFO] [\/]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:29.447] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[05Jul2022 23:43:29.447] [Server thread\/INFO] [Minecraft\/]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:32.695] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[05Jul2022 23:43:32.695] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:33.489] [Server thread\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[05Jul2022 23:43:33.489] [Server thread\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV] Enabling DiscordSRV v1.25.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:33.839] [Server thread\/INFO] [Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[05Jul2022 23:43:33.839] [Server thread\/INFO] [Minecraft\/]: Server permissions file permissions.yml is empty, ignoring it"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:33.880] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[05Jul2022 23:43:33.880] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Preparing start region for dimension minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:36.933] [pool-5-thread-1\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[05Jul2022 23:43:36.933] [pool-5-thread-1\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV] DiscordSRV is up-to-date. (339e5e81da67cfe6210679af775eb66a9b5033be)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:42.687] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[05Jul2022 23:43:42.687] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:42.738] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[05Jul2022 23:43:42.738] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:42.804] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[05Jul2022 23:43:42.804] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:42.825] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[05Jul2022 23:43:42.825] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:42.846] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[05Jul2022 23:43:42.846] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:42.858] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[05Jul2022 23:43:42.858] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:42.868] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[05Jul2022 23:43:42.868] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:42.880] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[05Jul2022 23:43:42.880] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:42.892] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[05Jul2022 23:43:42.892] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:42.904] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[05Jul2022 23:43:42.904] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:42.915] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[05Jul2022 23:43:42.915] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:42.981] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[05Jul2022 23:43:42.981] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:43.021] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[05Jul2022 23:43:43.021] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:43.111] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[05Jul2022 23:43:43.111] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:43.141] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[05Jul2022 23:43:43.141] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:43.158] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[05Jul2022 23:43:43.158] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:43.195] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[05Jul2022 23:43:43.195] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:43.219] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[05Jul2022 23:43:43.219] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:43.234] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[05Jul2022 23:43:43.234] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:43.393] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[05Jul2022 23:43:43.393] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:43.886] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[05Jul2022 23:43:43.886] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:44.396] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[05Jul2022 23:43:44.396] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:44.936] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[05Jul2022 23:43:44.936] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:45.387] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[05Jul2022 23:43:45.387] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:45.916] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[05Jul2022 23:43:45.916] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:46.407] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[05Jul2022 23:43:46.407] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:46.923] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[05Jul2022 23:43:46.923] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:47.392] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[05Jul2022 23:43:47.392] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:47.887] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[05Jul2022 23:43:47.887] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:53.989] [DiscordSRV - Initialization\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[05Jul2022 23:43:53.989] [DiscordSRV - Initialization\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV] [JDA] Login Successful!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:55.880] [JDA MainWS-ReadThread\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[05Jul2022 23:43:55.880] [JDA MainWS-ReadThread\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV] [JDA] Connected to WebSocket"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:57.315] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[05Jul2022 23:43:57.315] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV] [JDA] WebSocket connection was closed and cannot be recovered due to identification issues"
+                },
+                {
+                    "number": 101,
+                    "content": "CloseCode(4014 \/ Disallowed intents. Your bot might not be eligible to request a privileged intent such as GUILD_PRESENCES or GUILD_MEMBERS.)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:57.379] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[05Jul2022 23:43:57.379] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV] =============================================================="
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:57.380] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[05Jul2022 23:43:57.380] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:57.382] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[05Jul2022 23:43:57.382] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV]  *** PLEASE FOLLOW THE INSTRUCTIONS BELOW TO GET DiscordSRV TO WORK ***"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:57.383] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[05Jul2022 23:43:57.383] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:57.384] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "[05Jul2022 23:43:57.384] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV]  Your DiscordSRV bot is missing one or more of the following intents: Server Members Intent, Message Content Intent!"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:57.385] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[05Jul2022 23:43:57.385] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV]  DiscordSRV requires this intent to function. Instructions:"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:57.386] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[05Jul2022 23:43:57.386] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV]   1. Go to https:\/\/discord.com\/developers\/applications"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:57.387] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[05Jul2022 23:43:57.387] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV]   2. Click on the DiscordSRV bot"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:57.388] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[05Jul2022 23:43:57.388] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV]   3. Click on \"Bot\" on the left"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:57.389] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[05Jul2022 23:43:57.389] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV]   4. Enable the \"SERVER MEMBERS INTENT\" and \"MESSAGE CONTENT INTENT\""
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:57.390] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[05Jul2022 23:43:57.390] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV]   5. Restart your server"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:57.390] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[05Jul2022 23:43:57.390] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:43:57.392] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[05Jul2022 23:43:57.392] [JDA MainWS-ReadThread\/ERROR] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV] =============================================================="
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.673] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[05Jul2022 23:44:16.673] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.681] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[05Jul2022 23:44:16.681] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.683] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[05Jul2022 23:44:16.683] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.697] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[05Jul2022 23:44:16.697] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.701] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[05Jul2022 23:44:16.701] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.703] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[05Jul2022 23:44:16.703] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.706] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[05Jul2022 23:44:16.706] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.709] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "[05Jul2022 23:44:16.709] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.712] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "[05Jul2022 23:44:16.712] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.716] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "[05Jul2022 23:44:16.716] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.734] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "[05Jul2022 23:44:16.734] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.738] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "[05Jul2022 23:44:16.738] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.745] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "[05Jul2022 23:44:16.745] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.747] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "[05Jul2022 23:44:16.747] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.753] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "[05Jul2022 23:44:16.753] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.755] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "[05Jul2022 23:44:16.755] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.761] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "[05Jul2022 23:44:16.761] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.763] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "[05Jul2022 23:44:16.763] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.765] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "[05Jul2022 23:44:16.765] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.771] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "[05Jul2022 23:44:16.771] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.774] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "[05Jul2022 23:44:16.774] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.779] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "[05Jul2022 23:44:16.779] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.781] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "[05Jul2022 23:44:16.781] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.782] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "[05Jul2022 23:44:16.782] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.784] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "[05Jul2022 23:44:16.784] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.798] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "[05Jul2022 23:44:16.798] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.801] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "[05Jul2022 23:44:16.801] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.804] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "[05Jul2022 23:44:16.804] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.806] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "[05Jul2022 23:44:16.806] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.808] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "[05Jul2022 23:44:16.808] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.810] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "[05Jul2022 23:44:16.810] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.817] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "[05Jul2022 23:44:16.817] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.818] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "[05Jul2022 23:44:16.818] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.824] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "[05Jul2022 23:44:16.824] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.826] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "[05Jul2022 23:44:16.826] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.836] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "[05Jul2022 23:44:16.836] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.838] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "[05Jul2022 23:44:16.838] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.842] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "[05Jul2022 23:44:16.842] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.845] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "[05Jul2022 23:44:16.845] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.848] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "[05Jul2022 23:44:16.848] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.849] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "[05Jul2022 23:44:16.849] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.852] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "[05Jul2022 23:44:16.852] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.857] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "[05Jul2022 23:44:16.857] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.863] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "[05Jul2022 23:44:16.863] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.866] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 159,
+                    "content": "[05Jul2022 23:44:16.866] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.869] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "[05Jul2022 23:44:16.869] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.875] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "[05Jul2022 23:44:16.875] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.881] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "[05Jul2022 23:44:16.881] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.883] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "[05Jul2022 23:44:16.883] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.891] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "[05Jul2022 23:44:16.891] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.894] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "[05Jul2022 23:44:16.894] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.896] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "[05Jul2022 23:44:16.896] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.900] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "[05Jul2022 23:44:16.900] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.905] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "[05Jul2022 23:44:16.905] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.913] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "[05Jul2022 23:44:16.913] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.915] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "[05Jul2022 23:44:16.915] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.917] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "[05Jul2022 23:44:16.917] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:16.923] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 172,
+                    "content": "[05Jul2022 23:44:16.923] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:17.403] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 173,
+                    "content": "[05Jul2022 23:44:17.403] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:17.883] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 174,
+                    "content": "[05Jul2022 23:44:17.883] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 5%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:18.384] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 175,
+                    "content": "[05Jul2022 23:44:18.384] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 15%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:18.886] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 176,
+                    "content": "[05Jul2022 23:44:18.886] [Worker-Main-3\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 15%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:19.385] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 177,
+                    "content": "[05Jul2022 23:44:19.385] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 15%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:19.886] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 178,
+                    "content": "[05Jul2022 23:44:19.886] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 15%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:21.771] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 179,
+                    "content": "[05Jul2022 23:44:21.771] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 56%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:21.771] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 180,
+                    "content": "[05Jul2022 23:44:21.771] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 56%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:21.774] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 181,
+                    "content": "[05Jul2022 23:44:21.774] [Worker-Main-4\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 56%"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:22.063] [Server thread\/WARN] [net.minecraft.network.syncher.SynchedEntityData\/]:",
+            "lines": [
+                {
+                    "number": 182,
+                    "content": "[05Jul2022 23:44:22.063] [Server thread\/WARN] [net.minecraft.network.syncher.SynchedEntityData\/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityCrab from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:22.063] [Server thread\/WARN] [net.minecraft.network.syncher.SynchedEntityData\/]:",
+            "lines": [
+                {
+                    "number": 183,
+                    "content": "[05Jul2022 23:44:22.063] [Server thread\/WARN] [net.minecraft.network.syncher.SynchedEntityData\/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityCrab from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:22.175] [Server thread\/WARN] [net.minecraft.network.syncher.SynchedEntityData\/]:",
+            "lines": [
+                {
+                    "number": 184,
+                    "content": "[05Jul2022 23:44:22.175] [Server thread\/WARN] [net.minecraft.network.syncher.SynchedEntityData\/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityGoose from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:22.324] [Server thread\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 185,
+                    "content": "[05Jul2022 23:44:22.324] [Server thread\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Time elapsed: 48442 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:22.325] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 186,
+                    "content": "[05Jul2022 23:44:22.325] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Done (52.835s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:22.344] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 187,
+                    "content": "[05Jul2022 23:44:22.344] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:22.370] [Server thread\/INFO] [net.minecraft.server.rcon.thread.GenericThread\/]:",
+            "lines": [
+                {
+                    "number": 188,
+                    "content": "[05Jul2022 23:44:22.370] [Server thread\/INFO] [net.minecraft.server.rcon.thread.GenericThread\/]: Thread Query Listener started"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:22.378] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 189,
+                    "content": "[05Jul2022 23:44:22.378] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: JMX monitoring enabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:22.372] [Query Listener #1\/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4\/]:",
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "[05Jul2022 23:44:22.372] [Query Listener #1\/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4\/]: Query running on 0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:22.410] [Server thread\/INFO] [net.minecraftforge.server.permission.PermissionAPI\/]:",
+            "lines": [
+                {
+                    "number": 191,
+                    "content": "[05Jul2022 23:44:22.410] [Server thread\/INFO] [net.minecraftforge.server.permission.PermissionAPI\/]: Successfully initialized permission handler forge:default_handler"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:22.412] [Server thread\/WARN] [voicechat\/]:",
+            "lines": [
+                {
+                    "number": 192,
+                    "content": "[05Jul2022 23:44:22.412] [Server thread\/WARN] [voicechat\/]: Running in offline mode - Voice chat encryption is not secure!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:22.425] [Server thread\/INFO] [voicechat\/]:",
+            "lines": [
+                {
+                    "number": 193,
+                    "content": "[05Jul2022 23:44:22.425] [Server thread\/INFO] [voicechat\/]: Using default voicechat socket implementation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:22.463] [VoiceChatServerThread\/INFO] [voicechat\/]:",
+            "lines": [
+                {
+                    "number": 194,
+                    "content": "[05Jul2022 23:44:22.463] [VoiceChatServerThread\/INFO] [voicechat\/]: Server started at port 13396"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:22.505] [Server thread\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 195,
+                    "content": "[05Jul2022 23:44:22.505] [Server thread\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV] Disabling DiscordSRV v1.25.1"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:27.829] [DiscordSRV - Shutdown\/WARN] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 196,
+                    "content": "[05Jul2022 23:44:27.829] [DiscordSRV - Shutdown\/WARN] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV] JDA took too long to shut down, skipping"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:28.325] [DiscordSRV - Shutdown\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]:",
+            "lines": [
+                {
+                    "number": 197,
+                    "content": "[05Jul2022 23:44:28.325] [DiscordSRV - Shutdown\/INFO] [github.scarsz.discordsrv.DiscordSRV\/]: [DiscordSRV] Shutdown completed in 5820ms"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:28.651] [Server thread\/WARN] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 198,
+                    "content": "[05Jul2022 23:44:28.651] [Server thread\/WARN] [net.minecraft.server.MinecraftServer\/]: Can't keep up! Is the server overloaded? Running 6138ms or 122 ticks behind"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:28.958] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 199,
+                    "content": "[05Jul2022 23:44:28.958] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]: Encountered an unexpected exception"
+                },
+                {
+                    "number": 200,
+                    "content": "net.minecraft.ReportedException: Ticking block entity"
+                },
+                {
+                    "number": 201,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:1048) ~[server-1.18.2-20220404.173914-srg.jar%2365!\/:?]"
+                },
+                {
+                    "number": 202,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:376) ~[server-1.18.2-20220404.173914-srg.jar%2365!\/:?]"
+                },
+                {
+                    "number": 203,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:966) ~[server-1.18.2-20220404.173914-srg.jar%2365!\/:?]"
+                },
+                {
+                    "number": 204,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:789) ~[server-1.18.2-20220404.173914-srg.jar%2365!\/:?]"
+                },
+                {
+                    "number": 205,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:286) ~[server-1.18.2-20220404.173914-srg.jar%2365!\/:?]"
+                },
+                {
+                    "number": 206,
+                    "content": "\tat java.lang.Thread.run(Thread.java:833) [?:?]"
+                },
+                {
+                    "number": 207,
+                    "content": "Caused by: java.lang.NullPointerException: Cannot invoke \"org.bukkit.inventory.InventoryHolder.getInventory()\" because the return value of \"net.minecraft.world.Container.getOwner()\" is null"
+                },
+                {
+                    "number": 208,
+                    "content": "\tat net.minecraft.world.level.block.entity.HopperBlockEntity.ejectItems(HopperBlockEntity.java:194) ~[server-1.18.2-20220404.173914-srg.jar%2365!\/:?]"
+                },
+                {
+                    "number": 209,
+                    "content": "\tat net.minecraft.world.level.block.entity.HopperBlockEntity.m_155578_(HopperBlockEntity.java:140) ~[server-1.18.2-20220404.173914-srg.jar%2365!\/:?]"
+                },
+                {
+                    "number": 210,
+                    "content": "\tat net.minecraft.world.level.block.entity.HopperBlockEntity.m_155573_(HopperBlockEntity.java:126) ~[server-1.18.2-20220404.173914-srg.jar%2365!\/:?]"
+                },
+                {
+                    "number": 211,
+                    "content": "\tat net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.m_142224_(LevelChunk.java:764) ~[server-1.18.2-20220404.173914-srg.jar%2365!\/:?]"
+                },
+                {
+                    "number": 212,
+                    "content": "\tat net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.m_142224_(LevelChunk.java:857) ~[server-1.18.2-20220404.173914-srg.jar%2365!\/:?]"
+                },
+                {
+                    "number": 213,
+                    "content": "\tat net.minecraft.world.level.Level.m_46463_(Level.java:547) ~[server-1.18.2-20220404.173914-srg.jar%2365!\/:?]"
+                },
+                {
+                    "number": 214,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:344) ~[server-1.18.2-20220404.173914-srg.jar%2365!\/:?]"
+                },
+                {
+                    "number": 215,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:1044) ~[server-1.18.2-20220404.173914-srg.jar%2365!\/:?]"
+                },
+                {
+                    "number": 216,
+                    "content": "\t... 5 more"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:28.972] [Server thread\/FATAL] [net.minecraftforge.common.ForgeMod\/]:",
+            "lines": [
+                {
+                    "number": 217,
+                    "content": "[05Jul2022 23:44:28.972] [Server thread\/FATAL] [net.minecraftforge.common.ForgeMod\/]: Preparing crash report with UUID 22d89adc-ba31-4ba5-ad6c-d7e895926c32"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:28.973] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 218,
+                    "content": "[05Jul2022 23:44:28.973] [Server thread\/ERROR] [net.minecraft.server.MinecraftServer\/]: This crash report has been saved to: \/server\/.\/crash-reports\/crash-2022-07-05_23.44.28-server.txt"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:28.973] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 219,
+                    "content": "[05Jul2022 23:44:28.973] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:28.976] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 220,
+                    "content": "[05Jul2022 23:44:28.976] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:29.076] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 221,
+                    "content": "[05Jul2022 23:44:29.076] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:37.935] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 222,
+                    "content": "[05Jul2022 23:44:37.935] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:38.452] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 223,
+                    "content": "[05Jul2022 23:44:38.452] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:38.455] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 224,
+                    "content": "[05Jul2022 23:44:38.455] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:38.593] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 225,
+                    "content": "[05Jul2022 23:44:38.593] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: ThreadedAnvilChunkStorage (world): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:38.594] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 226,
+                    "content": "[05Jul2022 23:44:38.594] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:38.594] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 227,
+                    "content": "[05Jul2022 23:44:38.594] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:38.594] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 228,
+                    "content": "[05Jul2022 23:44:38.594] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[05Jul2022 23:44:38.767] [Server thread\/INFO] [net.minecraft.server.rcon.thread.GenericThread\/]:",
+            "lines": [
+                {
+                    "number": 229,
+                    "content": "[05Jul2022 23:44:38.767] [Server thread\/INFO] [net.minecraft.server.rcon.thread.GenericThread\/]: Thread Query Listener stopped"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.18.2",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": null,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "05Jul2022 23:41:35.352] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.1.51, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.18.2"
+            },
+            {
+                "message": "Java version: 17.0.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[05Jul2022 23:41:35.366] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[05Jul2022 23:41:35.366] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.2 by Oracle Corporation"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17.0.2"
+            },
+            {
+                "message": "Forge version: 40.1.51",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[05Jul2022 23:42:09.577] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
+                    "lines": [
+                        {
+                            "number": 10,
+                            "content": "[05Jul2022 23:42:09.577] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]: MinecraftForge v40.1.51 Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "40.1.51"
+            },
+            {
+                "message": "Mohist version: 1.18.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[05Jul2022 23:43:20.967] [Server thread\/INFO] [Minecraft\/]:",
+                    "lines": [
+                        {
+                            "number": 58,
+                            "content": "[05Jul2022 23:43:20.967] [Server thread\/INFO] [Minecraft\/]: This server is running Mohist version 1.18.2 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT, Forge version 40.1.51)"
+                        }
+                    ]
+                },
+                "label": "Mohist version",
+                "value": "1.18.2"
+            }
+        ]
+    }
+}

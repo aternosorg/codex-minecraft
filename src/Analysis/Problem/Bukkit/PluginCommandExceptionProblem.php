@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
@@ -13,13 +14,10 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class PluginCommandExceptionProblem extends PluginProblem
 {
-    /**
-     * @var string
-     */
-    protected $command;
+    protected ?string $command = null;
 
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -36,7 +34,7 @@ class PluginCommandExceptionProblem extends PluginProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -45,9 +43,10 @@ class PluginCommandExceptionProblem extends PluginProblem
 
     /**
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->command = $matches[1];
         $this->pluginName = $matches[2];
@@ -57,12 +56,12 @@ class PluginCommandExceptionProblem extends PluginProblem
     }
 
     /**
-     * @param static $insight
+     * @param InsightInterface $insight
      * @return bool
      */
-    public function isEqual($insight): bool
+    public function isEqual(InsightInterface $insight): bool
     {
-        return parent::isEqual($insight) && $this->getCommand() === $insight->getCommand();
+        return $insight instanceof static && parent::isEqual($insight) && $this->getCommand() === $insight->getCommand();
     }
 
     /**

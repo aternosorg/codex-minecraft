@@ -12,7 +12,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class PluginRuntimeProblem extends PluginProblem
 {
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -26,7 +26,7 @@ class PluginRuntimeProblem extends PluginProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {

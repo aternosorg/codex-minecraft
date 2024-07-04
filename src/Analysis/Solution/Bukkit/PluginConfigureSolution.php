@@ -11,13 +11,10 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class PluginConfigureSolution extends PluginSolution
 {
-    /**
-     * @var string
-     */
-    protected $suggestedFile;
+    protected ?string $suggestedFile = null;
 
     /**
-     * Get the solution as a human readable message
+     * Get the solution as a human-readable message
      *
      * @return string
      */
@@ -36,18 +33,18 @@ class PluginConfigureSolution extends PluginSolution
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getSuggestedFile(): string
+    public function getSuggestedFile(): ?string
     {
         return $this->suggestedFile;
     }
 
     /**
      * @param string $suggestedFile
-     * @return PluginConfigureSolution
+     * @return $this
      */
-    public function setSuggestedFile(string $suggestedFile)
+    public function setSuggestedFile(string $suggestedFile): static
     {
         $this->suggestedFile = $suggestedFile;
         return $this;

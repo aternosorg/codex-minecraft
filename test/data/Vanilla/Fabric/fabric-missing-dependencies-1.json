@@ -1,0 +1,405 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": null,
+    "title": "Fabric Server Log",
+    "entries": [
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[16:33:50] [main\/FATAL]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[16:33:50] [main\/FATAL]: A critical error occurred"
+                },
+                {
+                    "number": 2,
+                    "content": "net.fabricmc.loader.discovery.ModResolutionException: Errors were found!"
+                },
+                {
+                    "number": 3,
+                    "content": " - Mod 'Extra Origins' (extraorigins) requires any version of mod pehkui, which is missing!"
+                },
+                {
+                    "number": 4,
+                    "content": "\t - You must install any version of pehkui."
+                },
+                {
+                    "number": 5,
+                    "content": " - Mod 'Extra Origins' (extraorigins) requires any version of mod fabric, which is missing!"
+                },
+                {
+                    "number": 6,
+                    "content": "\t - You must install any version of fabric."
+                },
+                {
+                    "number": 7,
+                    "content": " - Mod 'Extra Origins' (extraorigins) requires version 0.4.6 or later of mod origins, which is missing!"
+                },
+                {
+                    "number": 8,
+                    "content": "\t - You must install version 0.4.6 or later of origins."
+                },
+                {
+                    "number": 9,
+                    "content": "\tat net.fabricmc.loader.discovery.ModResolver.findCompatibleSet(ModResolver.java:322) ~[fabric.jar:?]"
+                },
+                {
+                    "number": 10,
+                    "content": "\tat net.fabricmc.loader.discovery.ModResolver.resolve(ModResolver.java:787) ~[fabric.jar:?]"
+                },
+                {
+                    "number": 11,
+                    "content": "\tat net.fabricmc.loader.FabricLoader.setup(FabricLoader.java:211) ~[fabric.jar:?]"
+                },
+                {
+                    "number": 12,
+                    "content": "\tat net.fabricmc.loader.FabricLoader.load(FabricLoader.java:201) [fabric.jar:?]"
+                },
+                {
+                    "number": 13,
+                    "content": "\tat net.fabricmc.loader.launch.knot.Knot.init(Knot.java:126) [fabric.jar:?]"
+                },
+                {
+                    "number": 14,
+                    "content": "\tat net.fabricmc.loader.launch.knot.KnotServer.main(KnotServer.java:27) [fabric.jar:?]"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.launch(FabricServerLauncher.java:62) [fabric.jar:?]"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.setup(FabricServerLauncher.java:106) [fabric.jar:?]"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:50) [fabric.jar:?]"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'Extra Origins' is missing the required mod 'pehkui'.",
+                "counter": 1,
+                "entry": {
+                    "level": 2,
+                    "time": null,
+                    "prefix": "[16:33:50] [main\/FATAL]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[16:33:50] [main\/FATAL]: A critical error occurred"
+                        },
+                        {
+                            "number": 2,
+                            "content": "net.fabricmc.loader.discovery.ModResolutionException: Errors were found!"
+                        },
+                        {
+                            "number": 3,
+                            "content": " - Mod 'Extra Origins' (extraorigins) requires any version of mod pehkui, which is missing!"
+                        },
+                        {
+                            "number": 4,
+                            "content": "\t - You must install any version of pehkui."
+                        },
+                        {
+                            "number": 5,
+                            "content": " - Mod 'Extra Origins' (extraorigins) requires any version of mod fabric, which is missing!"
+                        },
+                        {
+                            "number": 6,
+                            "content": "\t - You must install any version of fabric."
+                        },
+                        {
+                            "number": 7,
+                            "content": " - Mod 'Extra Origins' (extraorigins) requires version 0.4.6 or later of mod origins, which is missing!"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\t - You must install version 0.4.6 or later of origins."
+                        },
+                        {
+                            "number": 9,
+                            "content": "\tat net.fabricmc.loader.discovery.ModResolver.findCompatibleSet(ModResolver.java:322) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\tat net.fabricmc.loader.discovery.ModResolver.resolve(ModResolver.java:787) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\tat net.fabricmc.loader.FabricLoader.setup(FabricLoader.java:211) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat net.fabricmc.loader.FabricLoader.load(FabricLoader.java:201) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat net.fabricmc.loader.launch.knot.Knot.init(Knot.java:126) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat net.fabricmc.loader.launch.knot.KnotServer.main(KnotServer.java:27) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.launch(FabricServerLauncher.java:62) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.setup(FabricServerLauncher.java:106) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:50) [fabric.jar:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'pehkui'."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'Extra Origins' is missing the required mod 'FabricAPI'.",
+                "counter": 1,
+                "entry": {
+                    "level": 2,
+                    "time": null,
+                    "prefix": "[16:33:50] [main\/FATAL]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[16:33:50] [main\/FATAL]: A critical error occurred"
+                        },
+                        {
+                            "number": 2,
+                            "content": "net.fabricmc.loader.discovery.ModResolutionException: Errors were found!"
+                        },
+                        {
+                            "number": 3,
+                            "content": " - Mod 'Extra Origins' (extraorigins) requires any version of mod pehkui, which is missing!"
+                        },
+                        {
+                            "number": 4,
+                            "content": "\t - You must install any version of pehkui."
+                        },
+                        {
+                            "number": 5,
+                            "content": " - Mod 'Extra Origins' (extraorigins) requires any version of mod fabric, which is missing!"
+                        },
+                        {
+                            "number": 6,
+                            "content": "\t - You must install any version of fabric."
+                        },
+                        {
+                            "number": 7,
+                            "content": " - Mod 'Extra Origins' (extraorigins) requires version 0.4.6 or later of mod origins, which is missing!"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\t - You must install version 0.4.6 or later of origins."
+                        },
+                        {
+                            "number": 9,
+                            "content": "\tat net.fabricmc.loader.discovery.ModResolver.findCompatibleSet(ModResolver.java:322) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\tat net.fabricmc.loader.discovery.ModResolver.resolve(ModResolver.java:787) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\tat net.fabricmc.loader.FabricLoader.setup(FabricLoader.java:211) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat net.fabricmc.loader.FabricLoader.load(FabricLoader.java:201) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat net.fabricmc.loader.launch.knot.Knot.init(Knot.java:126) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat net.fabricmc.loader.launch.knot.KnotServer.main(KnotServer.java:27) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.launch(FabricServerLauncher.java:62) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.setup(FabricServerLauncher.java:106) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:50) [fabric.jar:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'FabricAPI'."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'Extra Origins' is missing the required mod 'origins'.",
+                "counter": 1,
+                "entry": {
+                    "level": 2,
+                    "time": null,
+                    "prefix": "[16:33:50] [main\/FATAL]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[16:33:50] [main\/FATAL]: A critical error occurred"
+                        },
+                        {
+                            "number": 2,
+                            "content": "net.fabricmc.loader.discovery.ModResolutionException: Errors were found!"
+                        },
+                        {
+                            "number": 3,
+                            "content": " - Mod 'Extra Origins' (extraorigins) requires any version of mod pehkui, which is missing!"
+                        },
+                        {
+                            "number": 4,
+                            "content": "\t - You must install any version of pehkui."
+                        },
+                        {
+                            "number": 5,
+                            "content": " - Mod 'Extra Origins' (extraorigins) requires any version of mod fabric, which is missing!"
+                        },
+                        {
+                            "number": 6,
+                            "content": "\t - You must install any version of fabric."
+                        },
+                        {
+                            "number": 7,
+                            "content": " - Mod 'Extra Origins' (extraorigins) requires version 0.4.6 or later of mod origins, which is missing!"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\t - You must install version 0.4.6 or later of origins."
+                        },
+                        {
+                            "number": 9,
+                            "content": "\tat net.fabricmc.loader.discovery.ModResolver.findCompatibleSet(ModResolver.java:322) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\tat net.fabricmc.loader.discovery.ModResolver.resolve(ModResolver.java:787) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\tat net.fabricmc.loader.FabricLoader.setup(FabricLoader.java:211) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat net.fabricmc.loader.FabricLoader.load(FabricLoader.java:201) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat net.fabricmc.loader.launch.knot.Knot.init(Knot.java:126) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat net.fabricmc.loader.launch.knot.KnotServer.main(KnotServer.java:27) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.launch(FabricServerLauncher.java:62) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.setup(FabricServerLauncher.java:106) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:50) [fabric.jar:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'origins' with version >=0.4.6."
+                    }
+                ]
+            }
+        ],
+        "information": []
+    }
+}

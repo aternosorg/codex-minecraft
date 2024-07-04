@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
@@ -13,13 +14,10 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class PluginLoadProblem extends PluginProblem
 {
-    /**
-     * @var string
-     */
-    protected $pluginPath;
+    protected ?string $pluginPath = null;
 
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -33,20 +31,24 @@ class PluginLoadProblem extends PluginProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
-        return ['/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in folder \'[^\']+\'(?!\norg.bukkit.plugin.UnknownDependencyException)/'];
+        return [
+            '/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in folder \'[^\']+\''
+            . '(?!\n(org.bukkit.plugin.UnknownDependencyException|org.bukkit.plugin.InvalidPluginException\: (Unsupported API version|java\.lang\.UnsupportedClassVersionError)))/'
+        ];
     }
 
     /**
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->pluginPath = $matches[1];
         $this->pluginName = $matches[2];
@@ -56,20 +58,21 @@ class PluginLoadProblem extends PluginProblem
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getPluginPath(): string
+    public function getPluginPath(): ?string
     {
         return $this->pluginPath;
     }
 
     /**
-     * @param static $insight
+     * @param InsightInterface $insight
      * @return bool
      */
-    public function isEqual($insight): bool
+    public function isEqual(InsightInterface $insight): bool
     {
-        return $this->getPluginPath() === $insight->getPluginPath()
+        return $insight instanceof static
+            && $this->getPluginPath() === $insight->getPluginPath()
             && parent::isEqual($insight);
     }
 }

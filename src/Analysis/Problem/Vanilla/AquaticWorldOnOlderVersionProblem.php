@@ -13,9 +13,8 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class AquaticWorldOnOlderVersionProblem extends VanillaProblem
 {
-
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -29,7 +28,7 @@ class AquaticWorldOnOlderVersionProblem extends VanillaProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -40,9 +39,10 @@ class AquaticWorldOnOlderVersionProblem extends VanillaProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->addSolution(new GenerateNewWorldSolution());
         $this->addSolution(new AquaticVersionInstallSolution());

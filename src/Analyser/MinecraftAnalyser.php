@@ -11,5 +11,4 @@ use Aternos\Codex\Analyser\PatternAnalyser;
  */
 abstract class MinecraftAnalyser extends PatternAnalyser
 {
-    protected $possibleInsightClasses = [];
 }

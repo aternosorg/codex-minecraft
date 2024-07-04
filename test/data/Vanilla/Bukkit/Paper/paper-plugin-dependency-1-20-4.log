@@ -1,0 +1,49 @@
+[11:58:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:58:32] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[11:58:33] [ServerMain/INFO]: No existing world data, creating new world
+[11:58:33] [ServerMain/INFO]: Loaded 1174 recipes
+[11:58:34] [ServerMain/INFO]: Loaded 1271 advancements
+[11:58:34] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[11:58:34] [Server thread/INFO]: Loading properties
+[11:58:34] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[11:58:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:58:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:58:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[11:58:34] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[11:58:35] [Server thread/INFO]: Default game type: SURVIVAL
+[11:58:35] [Server thread/INFO]: Generating keypair
+[11:58:35] [Server thread/INFO]: Starting Minecraft server on *:49877
+[11:58:35] [Server thread/INFO]: Using epoll channel type
+[11:58:35] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[11:58:35] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[11:58:35] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/worldguard-bukkit-7.0.9-dist.jar' in 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [WorldEdit]. Please download and install these plugins to run 'WorldGuard'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:507) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:274) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[11:58:35] [Server thread/INFO]: Preparing level "world"
+[11:58:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:58:45] [Server thread/INFO]: Time elapsed: 136 ms
+[11:58:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:58:45] [Server thread/INFO]: Time elapsed: 45 ms
+[11:58:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:58:45] [Server thread/INFO]: Time elapsed: 40 ms
+[11:58:45] [Server thread/INFO]: Starting GS4 status listener
+[11:58:45] [Server thread/INFO]: Thread Query Listener started
+[11:58:45] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
+[11:58:45] [Server thread/INFO]: JMX monitoring enabled
+[11:58:45] [Server thread/INFO]: Running delayed init tasks
+[11:58:45] [Server thread/INFO]: Done (11.035s)! For help, type "help"
+[11:58:45] [Server thread/INFO]: *************************************************************************************
+[11:58:45] [Server thread/INFO]: This is the first time you're starting this server.
+[11:58:45] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[11:58:45] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[11:58:45] [Server thread/INFO]: *************************************************************************************
+[11:58:45] [Server thread/INFO]: Timings Reset

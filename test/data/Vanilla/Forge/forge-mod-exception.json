@@ -1,0 +1,3859 @@
+{
+    "id": "forge\/server",
+    "name": "Forge",
+    "type": "Server Log",
+    "version": "1.7.10",
+    "title": "Forge 1.7.10 Server Log",
+    "entries": [
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:06] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[22:50:06] [main\/DEBUG] [FML\/]: Injecting tracing printstreams for STDOUT\/STDERR."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:07] [main\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[22:50:07] [main\/INFO] [FML\/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:07] [main\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[22:50:07] [main\/INFO] [FML\/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_144, running on Linux:amd64:4.4.0-131-generic, installed at \/aternos\/bin\/jdk1.8.0_144\/jre"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Java classpath at launch is forge.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Java library path at launch is \/usr\/java\/packages\/lib\/amd64:\/usr\/lib64:\/lib64:\/lib:\/usr\/lib"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Enabling runtime deobfuscation"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Instantiating coremod class FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Enqueued coremod FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Instantiating coremod class FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Enqueued coremod FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: All fundamental core mods are successfully located"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Attempting to load commandline specified mods, relative to \/aternos\/server\/."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Discovering coremods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Examining for coremod candidacy IC2Classic Version **.**.**.**.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Not found coremod data in IC2Classic Version **.**.**.**.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Examining for coremod candidacy ironchest-1.7.10-6.0.62.742-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Not found coremod data in ironchest-1.7.10-6.0.62.742-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Examining for coremod candidacy twilightforest-1.7.10-2.3.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Not found coremod data in twilightforest-1.7.10-2.3.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Examining for coremod candidacy Xaeros_Minimap_1.16_Forge_1.7.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Not found coremod data in Xaeros_Minimap_1.16_Forge_1.7.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:07] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[22:50:07] [main\/INFO] [LaunchWrapper\/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:07] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[22:50:07] [main\/INFO] [LaunchWrapper\/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:07] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[22:50:07] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:07] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[22:50:07] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:07] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[22:50:07] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:07] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[22:50:07] [main\/TRACE] [FML\/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:07] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[22:50:07] [main\/TRACE] [FML\/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:07] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[22:50:07] [main\/TRACE] [FML\/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:07] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[22:50:07] [main\/DEBUG] [FML\/]: Running coremod plugin FMLCorePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:11] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[22:50:11] [main\/DEBUG] [FML\/]: Read 527 binary patches"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:12] [main\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[22:50:12] [main\/INFO] [FML\/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:12] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[22:50:12] [main\/DEBUG] [FML\/]: Coremod plugin class FMLCorePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:12] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[22:50:12] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:12] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[22:50:12] [main\/DEBUG] [FML\/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:12] [main\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[22:50:12] [main\/TRACE] [FML\/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:12] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[22:50:12] [main\/DEBUG] [FML\/]: Injection complete"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:12] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[22:50:12] [main\/DEBUG] [FML\/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:12] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[22:50:12] [main\/DEBUG] [FML\/]: Running coremod plugin FMLForgePlugin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:12] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[22:50:12] [main\/DEBUG] [FML\/]: Coremod plugin class FMLForgePlugin run successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:12] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[22:50:12] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:13] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[22:50:13] [main\/DEBUG] [FML\/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:13] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[22:50:13] [main\/DEBUG] [FML\/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:13] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[22:50:13] [main\/DEBUG] [FML\/]: Validating minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:15] [main\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[22:50:15] [main\/DEBUG] [FML\/]: Minecraft validated, launching..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:15] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[22:50:15] [main\/INFO] [LaunchWrapper\/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:15] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[22:50:15] [main\/INFO] [LaunchWrapper\/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:16] [main\/INFO] [LaunchWrapper\/]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[22:50:16] [main\/INFO] [LaunchWrapper\/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:26] [Server thread\/INFO] [MinecraftForge\/]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[22:50:26] [Server thread\/INFO] [MinecraftForge\/]: Attempting early MinecraftForge initialization"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:26] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[22:50:26] [Server thread\/INFO] [FML\/]: MinecraftForge v10.13.4.1614 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:26] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[22:50:26] [Server thread\/INFO] [FML\/]: Replaced 183 ore recipies"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:27] [Server thread\/INFO] [MinecraftForge\/]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[22:50:27] [Server thread\/INFO] [MinecraftForge\/]: Completed early MinecraftForge initialization"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:27] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[22:50:27] [Server thread\/DEBUG] [FML\/]: File \/aternos\/server\/config\/injectedDependencies.json not found. No dependencies injected"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:27] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[22:50:27] [Server thread\/DEBUG] [FML\/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:27] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[22:50:27] [Server thread\/DEBUG] [FML\/]: Attempting to load mods contained in the minecraft jar file and associated classes"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:27] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[22:50:27] [Server thread\/DEBUG] [FML\/]: Minecraft is a file at \/aternos\/server\/forge.jar, loading"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:27] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[22:50:27] [Server thread\/DEBUG] [FML\/]: Minecraft jar mods loaded successfully"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:27] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[22:50:27] [Server thread\/INFO] [FML\/]: Found 0 mods from the command line. Injecting into mod discoverer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:27] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[22:50:27] [Server thread\/INFO] [FML\/]: Searching \/aternos\/server\/mods for mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:27] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[22:50:27] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file IC2Classic Version **.**.**.**.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:27] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[22:50:27] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file ironchest-1.7.10-6.0.62.742-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:27] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[22:50:27] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file twilightforest-1.7.10-2.3.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:27] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[22:50:27] [Server thread\/DEBUG] [FML\/]: Found a candidate zip or jar file Xaeros_Minimap_1.16_Forge_1.7.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:27] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[22:50:27] [Server thread\/DEBUG] [FML\/]: Examining file forge.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:27] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[22:50:27] [Server thread\/DEBUG] [FML\/]: The mod container forge.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[22:50:29] [Server thread\/DEBUG] [FML\/]: Examining file IC2Classic Version **.**.**.**.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[22:50:29] [Server thread\/DEBUG] [FML\/]: The mod container IC2Classic Version **.**.**.**.jar appears to be missing an mcmod.info file"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[22:50:29] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (ic2.core.IC2) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/TRACE] [IC2\/]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[22:50:29] [Server thread\/TRACE] [IC2\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[22:50:29] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (ic2.core.util.Classic) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/TRACE] [IC2-Classic-Spmod\/]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[22:50:29] [Server thread\/TRACE] [IC2-Classic-Spmod\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[22:50:29] [Server thread\/DEBUG] [FML\/]: Examining file ironchest-1.7.10-6.0.62.742-universal.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[22:50:29] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file ironchest-1.7.10-6.0.62.742-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[22:50:29] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (cpw.mods.ironchest.IronChest) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/TRACE] [IronChest\/]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[22:50:29] [Server thread\/TRACE] [IronChest\/]: Parsed dependency info : [Forge@[10.10,), FML@[7.2,)] [Forge@[10.10,), FML@[7.2,)] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/DEBUG] [IronChest\/]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[22:50:29] [Server thread\/DEBUG] [IronChest\/]: Attempting to load the file version.properties from ironchest-1.7.10-6.0.62.742-universal.jar to locate a version number for IronChest"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/DEBUG] [IronChest\/]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[22:50:29] [Server thread\/DEBUG] [IronChest\/]: Found version **.**.**.** for mod IronChest in version.properties, using"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[22:50:29] [Server thread\/DEBUG] [FML\/]: Examining file twilightforest-1.7.10-2.3.7.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[22:50:29] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file twilightforest-1.7.10-2.3.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[22:50:29] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (twilightforest.TwilightForestMod) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:29] [Server thread\/TRACE] [TwilightForest\/]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[22:50:29] [Server thread\/TRACE] [TwilightForest\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Examining file Xaeros_Minimap_1.16_Forge_1.7.10.jar for potential mods"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[22:50:30] [Server thread\/TRACE] [FML\/]: Located mcmod.info file in file Xaeros_Minimap_1.16_Forge_1.7.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Identified a mod of type Lcpw\/mods\/fml\/common\/Mod; (xaero.minimap.XaeroMinimap) - loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/TRACE] [xaerominimap\/]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[22:50:30] [Server thread\/TRACE] [xaerominimap\/]: Parsed dependency info : [] [] []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[22:50:30] [Server thread\/INFO] [FML\/]: Forge Mod Loader has identified 8 mods to load"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api.crops (owned by IC2 providing IC2API) embedded in IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api.crops (owned by IC2 providing IC2API) embedded in IC2-Classic-Spmod"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api.energy.tile (owned by IC2 providing IC2API) embedded in IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api.event (owned by IC2 providing IC2API) embedded in IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api.energy (owned by IC2 providing IC2API) embedded in IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api.reactor (owned by IC2 providing IC2API) embedded in IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api.energy.event (owned by IC2 providing IC2API) embedded in IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api.network (owned by IC2 providing IC2API) embedded in IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api.recipe (owned by IC2 providing IC2API) embedded in IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api (owned by IC2 providing IC2API) embedded in IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api.util (owned by IC2 providing IC2API) embedded in IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api.tile (owned by IC2 providing IC2API) embedded in IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api.energy.prefab (owned by IC2 providing IC2API) embedded in IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api.item (owned by IC2 providing IC2API) embedded in IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found API ic2.api.info (owned by IC2 providing IC2API) embedded in IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Creating API container dummy for API IC2API: owner: IC2, dependents: [IC2-Classic-Spmod]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[22:50:30] [Server thread\/TRACE] [FML\/]: Received a system property request ''"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[22:50:30] [Server thread\/TRACE] [FML\/]: System property request managing the state of 0 mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: After merging, found state information for 0 mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found translations in forge.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found translations in forge.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [IC2\/]:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [IC2\/]: Enabling mod IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [FML\/]: Found translations in IC2Classic Version **.**.**.**.jar [en_US, ru_RU]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:30] [Server thread\/DEBUG] [IC2-Classic-Spmod\/]:",
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[22:50:30] [Server thread\/DEBUG] [IC2-Classic-Spmod\/]: Enabling mod IC2-Classic-Spmod"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [FML\/]: Found translations in IC2Classic Version **.**.**.**.jar [en_US, ru_RU]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [IronChest\/]:",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [IronChest\/]: Enabling mod IronChest"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [FML\/]: Found translations in ironchest-1.7.10-6.0.62.742-universal.jar [sv_SE, pl_PL, da_DK, en_US, et_EE, cs_CZ, pt_BR, en_PT, tr_TR, es_ES, fr_FR, ru_RU, nb_NO, el_GR, de_DE, zh_TW, it_IT, ko_KR, pt_PT, zh_CN, nl_NL]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [TwilightForest\/]:",
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [TwilightForest\/]: Enabling mod TwilightForest"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [FML\/]: Found translations in twilightforest-1.7.10-2.3.7.jar [de_DE, en_US, ru_RU, zh_CN, zh_TW]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [xaerominimap\/]:",
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [xaerominimap\/]: Enabling mod xaerominimap"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [FML\/]: Found translations in Xaeros_Minimap_1.16_Forge_1.7.10.jar [cs_CZ, da_DK, de_DE, el_GR, en_US, es_AR, es_ES, es_MX, fr_FR, hr_HR, hu_HU, id_ID, it_IT, ja_JP, lv_LV, nl_NL, pl_PL, pt_BR, pt_PT, ru_RU, sr_SP, tr_TR, uk_UA, zh_CN]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "[22:50:31] [Server thread\/TRACE] [FML\/]: Verifying mod requirements are satisfied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "[22:50:31] [Server thread\/TRACE] [FML\/]: All mod requirements are satisfied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "[22:50:31] [Server thread\/TRACE] [FML\/]: Sorting mods into an ordered list"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/TRACE] [FML\/]:",
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "[22:50:31] [Server thread\/TRACE] [FML\/]: Mod sorting completed successfully"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [FML\/]: Mod sorting data"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [FML\/]: IC2(IndustrialCraft 2 Classic:2.2.999): IC2Classic Version **.**.**.**.jar ()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [FML\/]: IC2API(API: IC2API:1.0): IC2Classic Version **.**.**.**.jar ()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [FML\/]: IC2-Classic-Spmod(IC2 Classic Detection Helper:**.**.**.**): IC2Classic Version **.**.**.**.jar ()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [FML\/]: IronChest(Iron Chest:**.**.**.**): ironchest-1.7.10-6.0.62.742-universal.jar (required-after:Forge@[10.10,);required-after:FML@[7.2,))"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [FML\/]: TwilightForest(The Twilight Forest:2.3.7): twilightforest-1.7.10-2.3.7.jar ()"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [FML\/]: xaerominimap(Xaero's Minimap:1.16): Xaeros_Minimap_1.16_Forge_1.7.10.jar ()"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/TRACE] [mcp\/mcp]:",
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "[22:50:31] [Server thread\/TRACE] [mcp\/mcp]: Sending event FMLConstructionEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/TRACE] [mcp\/mcp]:",
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "[22:50:31] [Server thread\/TRACE] [mcp\/mcp]: Sent event FMLConstructionEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "[22:50:31] [Server thread\/DEBUG] [FML\/]: Bar Step: Construction - Minecraft Coder Pack took 0.013s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/TRACE] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "[22:50:31] [Server thread\/TRACE] [FML\/FML]: Sending event FMLConstructionEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/TRACE] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "[22:50:31] [Server thread\/TRACE] [FML\/FML]: Mod FML is using network checker : Invoking method checkModLists"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/TRACE] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "[22:50:31] [Server thread\/TRACE] [FML\/FML]: Testing mod FML to verify it accepts its own version in a remote connection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/TRACE] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "[22:50:31] [Server thread\/TRACE] [FML\/FML]: The mod FML accepts its own version (**.**.**.**)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/INFO] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "[22:50:31] [Server thread\/INFO] [FML\/FML]: Attempting connection with missing mods [mcp, FML, Forge, IC2, IC2-Classic-Spmod, IronChest, TwilightForest, xaerominimap] at CLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:31] [Server thread\/INFO] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "[22:50:31] [Server thread\/INFO] [FML\/FML]: Attempting connection with missing mods [mcp, FML, Forge, IC2, IC2-Classic-Spmod, IronChest, TwilightForest, xaerominimap] at SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:32] [Server thread\/TRACE] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "[22:50:32] [Server thread\/TRACE] [FML\/FML]: Sent event FMLConstructionEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:32] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "[22:50:32] [Server thread\/DEBUG] [FML\/]: Bar Step: Construction - Forge Mod Loader took 1.094s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:32] [Server thread\/TRACE] [Forge\/Forge]:",
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "[22:50:32] [Server thread\/TRACE] [Forge\/Forge]: Sending event FMLConstructionEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:32] [Server thread\/TRACE] [FML\/Forge]:",
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "[22:50:32] [Server thread\/TRACE] [FML\/Forge]: Mod Forge is using network checker : No network checking performed"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:32] [Server thread\/TRACE] [FML\/Forge]:",
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "[22:50:32] [Server thread\/TRACE] [FML\/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:32] [Server thread\/TRACE] [FML\/Forge]:",
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "[22:50:32] [Server thread\/TRACE] [FML\/Forge]: The mod Forge accepts its own version (10.13.4.1614)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:32] [Server thread\/TRACE] [Forge\/Forge]:",
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "[22:50:32] [Server thread\/TRACE] [Forge\/Forge]: Sent event FMLConstructionEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:32] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "[22:50:32] [Server thread\/DEBUG] [FML\/]: Bar Step: Construction - Minecraft Forge took 0.042s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:32] [Server thread\/TRACE] [IC2\/IC2]:",
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "[22:50:32] [Server thread\/TRACE] [IC2\/IC2]: Sending event FMLConstructionEvent to mod IC2"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/ERROR] [IC2\/IC2]:",
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "[22:50:33] [Server thread\/ERROR] [IC2\/IC2]: The mod IC2 is expecting signature de041f9f6187debbc77034a344134053277aa3b0 for source IC2Classic Version **.**.**.**.jar, however there is no signature matching that description"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/IC2]:",
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/IC2]: Mod IC2 is using network checker : Accepting version 2.2.999"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/IC2]:",
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/IC2]: Testing mod IC2 to verify it accepts its own version in a remote connection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/IC2]:",
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/IC2]: The mod IC2 accepts its own version (2.2.999)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/IC2]:",
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/IC2]: Attempting to inject @SidedProxy classes into IC2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IC2\/IC2]:",
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IC2\/IC2]: Sent event FMLConstructionEvent to mod IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: Construction - IndustrialCraft 2 Classic took 1.154s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IC2-Classic-Spmod\/IC2-Classic-Spmod]:",
+            "lines": [
+                {
+                    "number": 159,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IC2-Classic-Spmod\/IC2-Classic-Spmod]: Sending event FMLConstructionEvent to mod IC2-Classic-Spmod"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/IC2-Classic-Spmod]:",
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/IC2-Classic-Spmod]: Mod IC2-Classic-Spmod is using network checker : Accepting version **.**.**.**"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/IC2-Classic-Spmod]:",
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/IC2-Classic-Spmod]: Testing mod IC2-Classic-Spmod to verify it accepts its own version in a remote connection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/IC2-Classic-Spmod]:",
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/IC2-Classic-Spmod]: The mod IC2-Classic-Spmod accepts its own version (**.**.**.**)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/IC2-Classic-Spmod]:",
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/IC2-Classic-Spmod]: Attempting to inject @SidedProxy classes into IC2-Classic-Spmod"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IC2-Classic-Spmod\/IC2-Classic-Spmod]:",
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IC2-Classic-Spmod\/IC2-Classic-Spmod]: Sent event FMLConstructionEvent to mod IC2-Classic-Spmod"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: Construction - IC2 Classic Detection Helper took 0.012s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IronChest\/IronChest]:",
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IronChest\/IronChest]: Sending event FMLConstructionEvent to mod IronChest"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/IronChest]:",
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/IronChest]: Mod IronChest is using network checker : Accepting version **.**.**.**"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/IronChest]:",
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/IronChest]: Testing mod IronChest to verify it accepts its own version in a remote connection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/IronChest]:",
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/IronChest]: The mod IronChest accepts its own version (**.**.**.**)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/IronChest]:",
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/IronChest]: Attempting to inject @SidedProxy classes into IronChest"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IronChest\/IronChest]:",
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IronChest\/IronChest]: Sent event FMLConstructionEvent to mod IronChest"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 172,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: Construction - Iron Chest took 0.024s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [TwilightForest\/TwilightForest]:",
+            "lines": [
+                {
+                    "number": 173,
+                    "content": "[22:50:33] [Server thread\/TRACE] [TwilightForest\/TwilightForest]: Sending event FMLConstructionEvent to mod TwilightForest"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/TwilightForest]:",
+            "lines": [
+                {
+                    "number": 174,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/TwilightForest]: Mod TwilightForest is using network checker : Accepting version 2.3.7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/TwilightForest]:",
+            "lines": [
+                {
+                    "number": 175,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/TwilightForest]: Testing mod TwilightForest to verify it accepts its own version in a remote connection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/TwilightForest]:",
+            "lines": [
+                {
+                    "number": 176,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/TwilightForest]: The mod TwilightForest accepts its own version (2.3.7)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/TwilightForest]:",
+            "lines": [
+                {
+                    "number": 177,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/TwilightForest]: Attempting to inject @SidedProxy classes into TwilightForest"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [TwilightForest\/TwilightForest]:",
+            "lines": [
+                {
+                    "number": 178,
+                    "content": "[22:50:33] [Server thread\/TRACE] [TwilightForest\/TwilightForest]: Sent event FMLConstructionEvent to mod TwilightForest"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 179,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: Construction - The Twilight Forest took 0.082s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [xaerominimap\/xaerominimap]:",
+            "lines": [
+                {
+                    "number": 180,
+                    "content": "[22:50:33] [Server thread\/TRACE] [xaerominimap\/xaerominimap]: Sending event FMLConstructionEvent to mod xaerominimap"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [xaerominimap\/xaerominimap]:",
+            "lines": [
+                {
+                    "number": 181,
+                    "content": "[22:50:33] [Server thread\/TRACE] [xaerominimap\/xaerominimap]: Sent event FMLConstructionEvent to mod xaerominimap"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 182,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: Construction - Xaero's Minimap took 0.139s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 183,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Finished: Construction took 2.561s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 184,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Mod signature data"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 185,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Valid Signatures:"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 186,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: (e3c3d50c7c986df74c645c0ac54639741c90a557) FML\t(Forge Mod Loader\t**.**.**.**)\tforge.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 187,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: (e3c3d50c7c986df74c645c0ac54639741c90a557) Forge\t(Minecraft Forge\t10.13.4.1614)\tforge.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 188,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Missing Signatures:"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 189,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: mcp\t(Minecraft Coder Pack\t9.05)\tminecraft.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: IC2\t(IndustrialCraft 2 Classic\t2.2.999)\tIC2Classic Version **.**.**.**.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 191,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: IC2-Classic-Spmod\t(IC2 Classic Detection Helper\t**.**.**.**)\tIC2Classic Version **.**.**.**.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 192,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: IronChest\t(Iron Chest\t**.**.**.**)\tironchest-1.7.10-6.0.62.742-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 193,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: TwilightForest\t(The Twilight Forest\t2.3.7)\ttwilightforest-1.7.10-2.3.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 194,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: xaerominimap\t(Xaero's Minimap\t1.16)\tXaeros_Minimap_1.16_Forge_1.7.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/ERROR] [FML\/]:",
+            "lines": [
+                {
+                    "number": 195,
+                    "content": "[22:50:33] [Server thread\/ERROR] [FML\/]: Fatal errors were detected during the transition from CONSTRUCTING to PREINITIALIZATION. Loading cannot continue"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/ERROR] [FML\/]:",
+            "lines": [
+                {
+                    "number": 196,
+                    "content": "[22:50:33] [Server thread\/ERROR] [FML\/]: "
+                },
+                {
+                    "number": 197,
+                    "content": "States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored"
+                },
+                {
+                    "number": 198,
+                    "content": "UC\tmcp{9.05} [Minecraft Coder Pack] (minecraft.jar) "
+                },
+                {
+                    "number": 199,
+                    "content": "UC\tFML{**.**.**.**} [Forge Mod Loader] (forge.jar) "
+                },
+                {
+                    "number": 200,
+                    "content": "UC\tForge{10.13.4.1614} [Minecraft Forge] (forge.jar) "
+                },
+                {
+                    "number": 201,
+                    "content": "UC\tIC2{2.2.999} [IndustrialCraft 2 Classic] (IC2Classic Version **.**.**.**.jar) "
+                },
+                {
+                    "number": 202,
+                    "content": "UC\tIC2-Classic-Spmod{**.**.**.**} [IC2 Classic Detection Helper] (IC2Classic Version **.**.**.**.jar) "
+                },
+                {
+                    "number": 203,
+                    "content": "UC\tIronChest{**.**.**.**} [Iron Chest] (ironchest-1.7.10-6.0.62.742-universal.jar) "
+                },
+                {
+                    "number": 204,
+                    "content": "UC\tTwilightForest{2.3.7} [The Twilight Forest] (twilightforest-1.7.10-2.3.7.jar) "
+                },
+                {
+                    "number": 205,
+                    "content": "UE\txaerominimap{1.16} [Xaero's Minimap] (Xaeros_Minimap_1.16_Forge_1.7.10.jar) "
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/ERROR] [FML\/]:",
+            "lines": [
+                {
+                    "number": 206,
+                    "content": "[22:50:33] [Server thread\/ERROR] [FML\/]: The following problems were captured during this phase"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/ERROR] [FML\/]:",
+            "lines": [
+                {
+                    "number": 207,
+                    "content": "[22:50:33] [Server thread\/ERROR] [FML\/]: Caught exception from xaerominimap"
+                },
+                {
+                    "number": 208,
+                    "content": "java.lang.NoClassDefFoundError: net\/minecraft\/client\/settings\/KeyBinding"
+                },
+                {
+                    "number": 209,
+                    "content": "at xaero.minimap.XaeroMinimap.&lt;clinit&gt;(XaeroMinimap.java:59) ~[XaeroMinimap.class:?]"
+                },
+                {
+                    "number": 210,
+                    "content": "at java.lang.Class.forName0(Native Method) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 211,
+                    "content": "at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 212,
+                    "content": "at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:440) ~[FMLModContainer.class:?]"
+                },
+                {
+                    "number": 213,
+                    "content": "at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 214,
+                    "content": "at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 215,
+                    "content": "at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 216,
+                    "content": "at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 217,
+                    "content": "at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]"
+                },
+                {
+                    "number": 218,
+                    "content": "at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]"
+                },
+                {
+                    "number": 219,
+                    "content": "at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]"
+                },
+                {
+                    "number": 220,
+                    "content": "at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]"
+                },
+                {
+                    "number": 221,
+                    "content": "at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]"
+                },
+                {
+                    "number": 222,
+                    "content": "at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[LoadController.class:?]"
+                },
+                {
+                    "number": 223,
+                    "content": "at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[LoadController.class:?]"
+                },
+                {
+                    "number": 224,
+                    "content": "at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 225,
+                    "content": "at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 226,
+                    "content": "at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 227,
+                    "content": "at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 228,
+                    "content": "at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]"
+                },
+                {
+                    "number": 229,
+                    "content": "at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]"
+                },
+                {
+                    "number": 230,
+                    "content": "at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]"
+                },
+                {
+                    "number": 231,
+                    "content": "at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]"
+                },
+                {
+                    "number": 232,
+                    "content": "at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]"
+                },
+                {
+                    "number": 233,
+                    "content": "at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) [LoadController.class:?]"
+                },
+                {
+                    "number": 234,
+                    "content": "at cpw.mods.fml.common.Loader.loadMods(Loader.java:513) [Loader.class:?]"
+                },
+                {
+                    "number": 235,
+                    "content": "at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87) [FMLServerHandler.class:?]"
+                },
+                {
+                    "number": 236,
+                    "content": "at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:314) [FMLCommonHandler.class:?]"
+                },
+                {
+                    "number": 237,
+                    "content": "at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:117) [lt.class:?]"
+                },
+                {
+                    "number": 238,
+                    "content": "at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]"
+                },
+                {
+                    "number": 239,
+                    "content": "at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]"
+                },
+                {
+                    "number": 240,
+                    "content": "Caused by: java.lang.ClassNotFoundException: net.minecraft.client.settings.KeyBinding"
+                },
+                {
+                    "number": 241,
+                    "content": "at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]"
+                },
+                {
+                    "number": 242,
+                    "content": "at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 243,
+                    "content": "at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 244,
+                    "content": "... 31 more"
+                },
+                {
+                    "number": 245,
+                    "content": "Caused by: java.lang.NullPointerException"
+                },
+                {
+                    "number": 246,
+                    "content": "at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]"
+                },
+                {
+                    "number": 247,
+                    "content": "at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 248,
+                    "content": "at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]"
+                },
+                {
+                    "number": 249,
+                    "content": "... 31 more"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/WARN] [FML\/]:",
+            "lines": [
+                {
+                    "number": 250,
+                    "content": "[22:50:33] [Server thread\/WARN] [FML\/]: Can't revert to frozen GameData state without freezing first."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [mcp\/mcp]:",
+            "lines": [
+                {
+                    "number": 251,
+                    "content": "[22:50:33] [Server thread\/TRACE] [mcp\/mcp]: Sending event FMLModIdMappingEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [mcp\/mcp]:",
+            "lines": [
+                {
+                    "number": 252,
+                    "content": "[22:50:33] [Server thread\/TRACE] [mcp\/mcp]: Sent event FMLModIdMappingEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 253,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 254,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/FML]: Sending event FMLModIdMappingEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 255,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/FML]: Sent event FMLModIdMappingEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 256,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.005s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [Forge\/Forge]:",
+            "lines": [
+                {
+                    "number": 257,
+                    "content": "[22:50:33] [Server thread\/TRACE] [Forge\/Forge]: Sending event FMLModIdMappingEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [Forge\/Forge]:",
+            "lines": [
+                {
+                    "number": 258,
+                    "content": "[22:50:33] [Server thread\/TRACE] [Forge\/Forge]: Sent event FMLModIdMappingEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 259,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Minecraft Forge took 0.003s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IC2\/IC2]:",
+            "lines": [
+                {
+                    "number": 260,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IC2\/IC2]: Sending event FMLModIdMappingEvent to mod IC2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IC2\/IC2]:",
+            "lines": [
+                {
+                    "number": 261,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IC2\/IC2]: Sent event FMLModIdMappingEvent to mod IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 262,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - IndustrialCraft 2 Classic took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IC2-Classic-Spmod\/IC2-Classic-Spmod]:",
+            "lines": [
+                {
+                    "number": 263,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IC2-Classic-Spmod\/IC2-Classic-Spmod]: Sending event FMLModIdMappingEvent to mod IC2-Classic-Spmod"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IC2-Classic-Spmod\/IC2-Classic-Spmod]:",
+            "lines": [
+                {
+                    "number": 264,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IC2-Classic-Spmod\/IC2-Classic-Spmod]: Sent event FMLModIdMappingEvent to mod IC2-Classic-Spmod"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 265,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - IC2 Classic Detection Helper took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IronChest\/IronChest]:",
+            "lines": [
+                {
+                    "number": 266,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IronChest\/IronChest]: Sending event FMLModIdMappingEvent to mod IronChest"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IronChest\/IronChest]:",
+            "lines": [
+                {
+                    "number": 267,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IronChest\/IronChest]: Sent event FMLModIdMappingEvent to mod IronChest"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 268,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Iron Chest took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [TwilightForest\/TwilightForest]:",
+            "lines": [
+                {
+                    "number": 269,
+                    "content": "[22:50:33] [Server thread\/TRACE] [TwilightForest\/TwilightForest]: Sending event FMLModIdMappingEvent to mod TwilightForest"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [TwilightForest\/TwilightForest]:",
+            "lines": [
+                {
+                    "number": 270,
+                    "content": "[22:50:33] [Server thread\/TRACE] [TwilightForest\/TwilightForest]: Sent event FMLModIdMappingEvent to mod TwilightForest"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 271,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - The Twilight Forest took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [xaerominimap\/xaerominimap]:",
+            "lines": [
+                {
+                    "number": 272,
+                    "content": "[22:50:33] [Server thread\/TRACE] [xaerominimap\/xaerominimap]: Sending event FMLModIdMappingEvent to mod xaerominimap"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [xaerominimap\/xaerominimap]:",
+            "lines": [
+                {
+                    "number": 273,
+                    "content": "[22:50:33] [Server thread\/TRACE] [xaerominimap\/xaerominimap]: Sent event FMLModIdMappingEvent to mod xaerominimap"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 274,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ModIdMapping - Xaero's Minimap took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 275,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Finished: ModIdMapping took 0.015s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 276,
+                    "content": "[22:50:33] [Server thread\/INFO] [FML\/]: Applying holder lookups"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 277,
+                    "content": "[22:50:33] [Server thread\/INFO] [FML\/]: Holder lookups applied"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [mcp\/mcp]:",
+            "lines": [
+                {
+                    "number": 278,
+                    "content": "[22:50:33] [Server thread\/TRACE] [mcp\/mcp]: Sending event FMLServerStoppedEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [mcp\/mcp]:",
+            "lines": [
+                {
+                    "number": 279,
+                    "content": "[22:50:33] [Server thread\/TRACE] [mcp\/mcp]: Sent event FMLServerStoppedEvent to mod mcp"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 280,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 281,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/FML]: Sending event FMLServerStoppedEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [FML\/FML]:",
+            "lines": [
+                {
+                    "number": 282,
+                    "content": "[22:50:33] [Server thread\/TRACE] [FML\/FML]: Sent event FMLServerStoppedEvent to mod FML"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 283,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Forge Mod Loader took 0.003s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [Forge\/Forge]:",
+            "lines": [
+                {
+                    "number": 284,
+                    "content": "[22:50:33] [Server thread\/TRACE] [Forge\/Forge]: Sending event FMLServerStoppedEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 285,
+                    "content": "[13:17:36] [Server thread\/DEBUG] [FML]: Bar Step: ServerStopped - Just Enough Items took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 286,
+                    "content": "[13:17:36] [Server thread\/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod botania"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 287,
+                    "content": "[13:17:36] [Server thread\/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod botania"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 288,
+                    "content": "[13:17:36] [Server thread\/DEBUG] [FML]: Bar Step: ServerStopped - Botania took 0.003s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 289,
+                    "content": "[13:17:36] [Server thread\/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod car"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 290,
+                    "content": "[13:17:36] [Server thread\/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod car"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 291,
+                    "content": "[13:17:36] [Server thread\/DEBUG] [FML]: Bar Step: ServerStopped - Ultimate Car Mod took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 292,
+                    "content": "[13:17:36] [Server thread\/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod codechickenlib"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 293,
+                    "content": "[13:17:36] [Server thread\/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod codechickenlib"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 294,
+                    "content": "[13:17:36] [Server thread\/DEBUG] [FML]: Bar Step: ServerStopped - CodeChicken Lib took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 295,
+                    "content": "[13:17:36] [Server thread\/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod cdm"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 296,
+                    "content": "[13:17:36] [Server thread\/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod cdm"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/DEBUG] [FML]:",
+            "lines": [
+                {
+                    "number": 297,
+                    "content": "[13:17:36] [Server thread\/DEBUG] [FML]: Bar Step: ServerStopped - MrCrayfish's Device Mod took 0.000s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/TRACE] [FML]:",
+            "lines": [
+                {
+                    "number": 298,
+                    "content": "[13:17:36] [Server thread\/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod discordchat"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 299,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Discord Chat (discordchat)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 300,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: Caused by: java.lang.NullPointerException"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 301,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.shadowfacts.discordchat.one_twelve_two.OneTwelveTwoMod.serverStopped(OneTwelveTwoMod.java:53)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 302,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 303,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 304,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 305,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at java.lang.reflect.Method.invoke(Method.java:498)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 306,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:624)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 307,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 308,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 309,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at java.lang.reflect.Method.invoke(Method.java:498)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 310,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 311,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 312,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 313,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 314,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 315,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 316,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.EventBus.post(EventBus.java:217)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 317,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 318,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 319,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 320,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 321,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 322,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at java.lang.reflect.Method.invoke(Method.java:498)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 323,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 324,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 325,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 326,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 327,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 328,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 329,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at com.google.common.eventbus.EventBus.post(EventBus.java:217)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 330,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 331,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.Loader.serverStopped(Loader.java:847)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 332,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraftforge.fml.common.FMLCommonHandler.handleServerStopped(FMLCommonHandler.java:508)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 333,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:587)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+            "lines": [
+                {
+                    "number": 334,
+                    "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: at java.lang.Thread.run(Thread.java:748)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [Forge\/Forge]:",
+            "lines": [
+                {
+                    "number": 335,
+                    "content": "[22:50:33] [Server thread\/TRACE] [Forge\/Forge]: Sent event FMLServerStoppedEvent to mod Forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 336,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Minecraft Forge took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IC2\/IC2]:",
+            "lines": [
+                {
+                    "number": 337,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IC2\/IC2]: Sending event FMLServerStoppedEvent to mod IC2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IC2\/IC2]:",
+            "lines": [
+                {
+                    "number": 338,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IC2\/IC2]: Sent event FMLServerStoppedEvent to mod IC2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 339,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - IndustrialCraft 2 Classic took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IC2-Classic-Spmod\/IC2-Classic-Spmod]:",
+            "lines": [
+                {
+                    "number": 340,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IC2-Classic-Spmod\/IC2-Classic-Spmod]: Sending event FMLServerStoppedEvent to mod IC2-Classic-Spmod"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IC2-Classic-Spmod\/IC2-Classic-Spmod]:",
+            "lines": [
+                {
+                    "number": 341,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IC2-Classic-Spmod\/IC2-Classic-Spmod]: Sent event FMLServerStoppedEvent to mod IC2-Classic-Spmod"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 342,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - IC2 Classic Detection Helper took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IronChest\/IronChest]:",
+            "lines": [
+                {
+                    "number": 343,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IronChest\/IronChest]: Sending event FMLServerStoppedEvent to mod IronChest"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [IronChest\/IronChest]:",
+            "lines": [
+                {
+                    "number": 344,
+                    "content": "[22:50:33] [Server thread\/TRACE] [IronChest\/IronChest]: Sent event FMLServerStoppedEvent to mod IronChest"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 345,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Iron Chest took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [TwilightForest\/TwilightForest]:",
+            "lines": [
+                {
+                    "number": 346,
+                    "content": "[22:50:33] [Server thread\/TRACE] [TwilightForest\/TwilightForest]: Sending event FMLServerStoppedEvent to mod TwilightForest"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [TwilightForest\/TwilightForest]:",
+            "lines": [
+                {
+                    "number": 347,
+                    "content": "[22:50:33] [Server thread\/TRACE] [TwilightForest\/TwilightForest]: Sent event FMLServerStoppedEvent to mod TwilightForest"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 348,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - The Twilight Forest took 0.001s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [xaerominimap\/xaerominimap]:",
+            "lines": [
+                {
+                    "number": 349,
+                    "content": "[22:50:33] [Server thread\/TRACE] [xaerominimap\/xaerominimap]: Sending event FMLServerStoppedEvent to mod xaerominimap"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/TRACE] [xaerominimap\/xaerominimap]:",
+            "lines": [
+                {
+                    "number": 350,
+                    "content": "[22:50:33] [Server thread\/TRACE] [xaerominimap\/xaerominimap]: Sent event FMLServerStoppedEvent to mod xaerominimap"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 351,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Step: ServerStopped - Xaero's Minimap took 0.002s"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/DEBUG] [FML\/]:",
+            "lines": [
+                {
+                    "number": 352,
+                    "content": "[22:50:33] [Server thread\/DEBUG] [FML\/]: Bar Finished: ServerStopped took 0.011s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 353,
+                    "content": "[22:50:33] [Server thread\/INFO] [FML\/]: The state engine was in incorrect state ERRORED and forced into state SERVER_STOPPED. Errors may have been discarded."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[22:50:33] [Server thread\/INFO] [FML\/]:",
+            "lines": [
+                {
+                    "number": 354,
+                    "content": "[22:50:33] [Server thread\/INFO] [FML\/]: The state engine was in incorrect state ERRORED and forced into state AVAILABLE. Errors may have been discarded."
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'Xaero's Minimap' has a fatal error.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[22:50:33] [Server thread\/ERROR] [FML\/]:",
+                    "lines": [
+                        {
+                            "number": 196,
+                            "content": "[22:50:33] [Server thread\/ERROR] [FML\/]: "
+                        },
+                        {
+                            "number": 197,
+                            "content": "States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored"
+                        },
+                        {
+                            "number": 198,
+                            "content": "UC\tmcp{9.05} [Minecraft Coder Pack] (minecraft.jar) "
+                        },
+                        {
+                            "number": 199,
+                            "content": "UC\tFML{**.**.**.**} [Forge Mod Loader] (forge.jar) "
+                        },
+                        {
+                            "number": 200,
+                            "content": "UC\tForge{10.13.4.1614} [Minecraft Forge] (forge.jar) "
+                        },
+                        {
+                            "number": 201,
+                            "content": "UC\tIC2{2.2.999} [IndustrialCraft 2 Classic] (IC2Classic Version **.**.**.**.jar) "
+                        },
+                        {
+                            "number": 202,
+                            "content": "UC\tIC2-Classic-Spmod{**.**.**.**} [IC2 Classic Detection Helper] (IC2Classic Version **.**.**.**.jar) "
+                        },
+                        {
+                            "number": 203,
+                            "content": "UC\tIronChest{**.**.**.**} [Iron Chest] (ironchest-1.7.10-6.0.62.742-universal.jar) "
+                        },
+                        {
+                            "number": 204,
+                            "content": "UC\tTwilightForest{2.3.7} [The Twilight Forest] (twilightforest-1.7.10-2.3.7.jar) "
+                        },
+                        {
+                            "number": 205,
+                            "content": "UE\txaerominimap{1.16} [Xaero's Minimap] (Xaeros_Minimap_1.16_Forge_1.7.10.jar) "
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file 'mods\/Xaeros_Minimap_1.16_Forge_1.7.10.jar'."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'Xaero's Minimap'."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'xaerominimap' has thrown an exception.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[22:50:33] [Server thread\/ERROR] [FML\/]:",
+                    "lines": [
+                        {
+                            "number": 207,
+                            "content": "[22:50:33] [Server thread\/ERROR] [FML\/]: Caught exception from xaerominimap"
+                        },
+                        {
+                            "number": 208,
+                            "content": "java.lang.NoClassDefFoundError: net\/minecraft\/client\/settings\/KeyBinding"
+                        },
+                        {
+                            "number": 209,
+                            "content": "at xaero.minimap.XaeroMinimap.&lt;clinit&gt;(XaeroMinimap.java:59) ~[XaeroMinimap.class:?]"
+                        },
+                        {
+                            "number": 210,
+                            "content": "at java.lang.Class.forName0(Native Method) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 211,
+                            "content": "at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 212,
+                            "content": "at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:440) ~[FMLModContainer.class:?]"
+                        },
+                        {
+                            "number": 213,
+                            "content": "at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 214,
+                            "content": "at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 215,
+                            "content": "at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 216,
+                            "content": "at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 217,
+                            "content": "at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]"
+                        },
+                        {
+                            "number": 218,
+                            "content": "at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]"
+                        },
+                        {
+                            "number": 219,
+                            "content": "at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]"
+                        },
+                        {
+                            "number": 220,
+                            "content": "at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]"
+                        },
+                        {
+                            "number": 221,
+                            "content": "at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]"
+                        },
+                        {
+                            "number": 222,
+                            "content": "at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[LoadController.class:?]"
+                        },
+                        {
+                            "number": 223,
+                            "content": "at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[LoadController.class:?]"
+                        },
+                        {
+                            "number": 224,
+                            "content": "at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 225,
+                            "content": "at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 226,
+                            "content": "at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 227,
+                            "content": "at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 228,
+                            "content": "at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]"
+                        },
+                        {
+                            "number": 229,
+                            "content": "at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]"
+                        },
+                        {
+                            "number": 230,
+                            "content": "at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]"
+                        },
+                        {
+                            "number": 231,
+                            "content": "at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]"
+                        },
+                        {
+                            "number": 232,
+                            "content": "at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]"
+                        },
+                        {
+                            "number": 233,
+                            "content": "at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) [LoadController.class:?]"
+                        },
+                        {
+                            "number": 234,
+                            "content": "at cpw.mods.fml.common.Loader.loadMods(Loader.java:513) [Loader.class:?]"
+                        },
+                        {
+                            "number": 235,
+                            "content": "at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87) [FMLServerHandler.class:?]"
+                        },
+                        {
+                            "number": 236,
+                            "content": "at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:314) [FMLCommonHandler.class:?]"
+                        },
+                        {
+                            "number": 237,
+                            "content": "at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:117) [lt.class:?]"
+                        },
+                        {
+                            "number": 238,
+                            "content": "at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]"
+                        },
+                        {
+                            "number": 239,
+                            "content": "at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]"
+                        },
+                        {
+                            "number": 240,
+                            "content": "Caused by: java.lang.ClassNotFoundException: net.minecraft.client.settings.KeyBinding"
+                        },
+                        {
+                            "number": 241,
+                            "content": "at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]"
+                        },
+                        {
+                            "number": 242,
+                            "content": "at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 243,
+                            "content": "at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 244,
+                            "content": "... 31 more"
+                        },
+                        {
+                            "number": 245,
+                            "content": "Caused by: java.lang.NullPointerException"
+                        },
+                        {
+                            "number": 246,
+                            "content": "at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]"
+                        },
+                        {
+                            "number": 247,
+                            "content": "at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 248,
+                            "content": "at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_144]"
+                        },
+                        {
+                            "number": 249,
+                            "content": "... 31 more"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the mod 'xaerominimap'."
+                    },
+                    {
+                        "message": "Remove the mod 'xaerominimap'."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'Discord Chat' has thrown an exception.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[13:17:36] [Server thread\/INFO] [STDERR]:",
+                    "lines": [
+                        {
+                            "number": 299,
+                            "content": "[13:17:36] [Server thread\/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Discord Chat (discordchat)"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the mod 'Discord Chat'."
+                    },
+                    {
+                        "message": "Remove the mod 'Discord Chat'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.7.10",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[22:50:07] [main\/INFO] [FML\/]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[22:50:07] [main\/INFO] [FML\/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.7.10"
+            },
+            {
+                "message": "Forge version: 10.13.4.1614",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[22:50:26] [Server thread\/INFO] [FML\/]:",
+                    "lines": [
+                        {
+                            "number": 55,
+                            "content": "[22:50:26] [Server thread\/INFO] [FML\/]: MinecraftForge v10.13.4.1614 Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "10.13.4.1614"
+            }
+        ]
+    }
+}

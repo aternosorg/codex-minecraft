@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 
@@ -12,15 +13,12 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
  */
 abstract class PluginProblem extends BukkitProblem
 {
-    /**
-     * @var string
-     */
-    protected $pluginName;
+    protected ?string $pluginName = null;
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getPluginName(): string
+    public function getPluginName(): ?string
     {
         return $this->pluginName;
     }
@@ -29,9 +27,10 @@ abstract class PluginProblem extends BukkitProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->pluginName = $matches[1];
 
@@ -40,11 +39,11 @@ abstract class PluginProblem extends BukkitProblem
     }
 
     /**
-     * @param static $insight
+     * @param InsightInterface $insight
      * @return bool
      */
-    public function isEqual($insight): bool
+    public function isEqual(InsightInterface $insight): bool
     {
-        return $this->getPluginName() === $insight->getPluginName();
+        return $insight instanceof static && $this->getPluginName() === $insight->getPluginName();
     }
 }

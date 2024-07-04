@@ -1,0 +1,463 @@
+{
+    "id": "spigot\/server",
+    "name": "Spigot",
+    "type": "Server Log",
+    "version": "1.16.1",
+    "title": "Spigot 1.16.1 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:12] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[09:59:12] [main\/INFO]: Environment: authHost='https:\/\/authserver.mojang.com', accountsHost='https:\/\/api.mojang.com', sessionHost='https:\/\/sessionserver.mojang.com', name='PROD'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:16] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[09:59:16] [main\/INFO]: Reloading ResourceManager: Default, bukkit"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:18] [Worker-Main-4\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[09:59:18] [Worker-Main-4\/INFO]: Loaded 7 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:22] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[09:59:22] [Server thread\/INFO]: Starting minecraft server version 1.16.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:22] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[09:59:22] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:23] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[09:59:23] [Server thread\/INFO]: This server is running CraftBukkit version git-Spigot-9639cf7-4b9bc9d (MC: 1.16.1) (Implementing API version 1.16.1-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:25] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[09:59:25] [Server thread\/INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:25] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[09:59:25] [Server thread\/INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:25] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[09:59:25] [Server thread\/INFO]: Debug logging is disabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:25] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[09:59:25] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:25] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[09:59:25] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:26] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[09:59:26] [Server thread\/INFO]: Starting Minecraft server on *:10341"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:26] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[09:59:26] [Server thread\/INFO]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[09:59:31] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[09:59:31] [Server thread\/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and\/or data this is a bug!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[09:59:48] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[09:59:48] [Server thread\/WARN]: Legacy plugin SetHome v1.4 does not specify an api-version."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[09:59:48] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[09:59:48] [Server thread\/WARN]: Legacy plugin GroupManagerPex v1.1.0 does not specify an api-version."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:59:48] [Server thread\/ERROR]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[09:59:48] [Server thread\/ERROR]: Could not load 'plugins\/LuckPermsChat-2.0.2.jar' in folder 'plugins'"
+                },
+                {
+                    "number": 18,
+                    "content": "org.bukkit.plugin.UnknownDependencyException: Unknown dependency LuckPerms. Please download and install LuckPerms to run this plugin."
+                },
+                {
+                    "number": 19,
+                    "content": "at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[minecraft_server.jar:git-Spigot-9639cf7-4b9bc9d]"
+                },
+                {
+                    "number": 20,
+                    "content": "at org.bukkit.craftbukkit.v1_16_R1.CraftServer.loadPlugins(CraftServer.java:382) ~[minecraft_server.jar:git-Spigot-9639cf7-4b9bc9d]"
+                },
+                {
+                    "number": 21,
+                    "content": "at net.minecraft.server.v1_16_R1.DedicatedServer.init(DedicatedServer.java:186) ~[minecraft_server.jar:git-Spigot-9639cf7-4b9bc9d]"
+                },
+                {
+                    "number": 22,
+                    "content": "at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:810) ~[minecraft_server.jar:git-Spigot-9639cf7-4b9bc9d]"
+                },
+                {
+                    "number": 23,
+                    "content": "at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$0(MinecraftServer.java:164) ~[minecraft_server.jar:git-Spigot-9639cf7-4b9bc9d]"
+                },
+                {
+                    "number": 24,
+                    "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[09:59:48] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[09:59:48] [Server thread\/WARN]: Legacy plugin GroupManager v3.3 does not specify an api-version."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[09:59:48] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[09:59:48] [Server thread\/WARN]: Legacy plugin EasySetSpawn v3.3 does not specify an api-version."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[09:59:48] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[09:59:48] [Server thread\/WARN]: Legacy plugin AdminGUI v1.0 does not specify an api-version."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[09:59:48] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[09:59:48] [Server thread\/WARN]: Legacy plugin SetHomes v1.2.7 does not specify an api-version."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[09:59:48] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[09:59:48] [Server thread\/WARN]: Legacy plugin AddLight v4.3.2 does not specify an api-version."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:49] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[09:59:49] [Server thread\/INFO]: [SimpleTpa] Loading SimpleTpa v3.9"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:49] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[09:59:49] [Server thread\/INFO]: [SetHome] Loading SetHome v1.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:49] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[09:59:49] [Server thread\/INFO]: [GroupManagerPex] Loading GroupManagerPex v1.1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:49] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[09:59:49] [Server thread\/INFO]: [GroupManager] Loading GroupManager v3.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:49] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[09:59:49] [Server thread\/INFO]: [Admin_Utils] Loading Admin_Utils v2.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:49] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[09:59:49] [Server thread\/INFO]: [EasySetSpawn] Loading EasySetSpawn v3.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:49] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[09:59:49] [Server thread\/INFO]: [AdminGUI] Loading AdminGUI v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:49] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[09:59:49] [Server thread\/INFO]: [Vault] Loading Vault v1.7.3-b131"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:49] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[09:59:49] [Server thread\/INFO]: [SetHomes] Loading SetHomes v1.2.7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:59:49] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[09:59:49] [Server thread\/INFO]: [WorldEdit] Loading WorldEdit v7.2.0-beta-02+d10d7d6"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The plugin 'LuckPermsChat-2.0.2' is missing the required plugin 'LuckPerms'.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[09:59:48] [Server thread\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 17,
+                            "content": "[09:59:48] [Server thread\/ERROR]: Could not load 'plugins\/LuckPermsChat-2.0.2.jar' in folder 'plugins'"
+                        },
+                        {
+                            "number": 18,
+                            "content": "org.bukkit.plugin.UnknownDependencyException: Unknown dependency LuckPerms. Please download and install LuckPerms to run this plugin."
+                        },
+                        {
+                            "number": 19,
+                            "content": "at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[minecraft_server.jar:git-Spigot-9639cf7-4b9bc9d]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "at org.bukkit.craftbukkit.v1_16_R1.CraftServer.loadPlugins(CraftServer.java:382) ~[minecraft_server.jar:git-Spigot-9639cf7-4b9bc9d]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "at net.minecraft.server.v1_16_R1.DedicatedServer.init(DedicatedServer.java:186) ~[minecraft_server.jar:git-Spigot-9639cf7-4b9bc9d]"
+                        },
+                        {
+                            "number": 22,
+                            "content": "at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:810) ~[minecraft_server.jar:git-Spigot-9639cf7-4b9bc9d]"
+                        },
+                        {
+                            "number": 23,
+                            "content": "at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$0(MinecraftServer.java:164) ~[minecraft_server.jar:git-Spigot-9639cf7-4b9bc9d]"
+                        },
+                        {
+                            "number": 24,
+                            "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the plugin 'LuckPerms'."
+                    },
+                    {
+                        "message": "Delete the file 'plugins\/LuckPermsChat-2.0.2.jar'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.16.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[09:59:22] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "[09:59:22] [Server thread\/INFO]: Starting minecraft server version 1.16.1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.16.1"
+            }
+        ]
+    }
+}

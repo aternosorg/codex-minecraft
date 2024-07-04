@@ -1,0 +1,358 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "1.20.1",
+    "title": "Fabric 1.20.1 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:37:10] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[11:37:10] [main\/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.23"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:37:10] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[11:37:10] [main\/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds..."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[11:37:10] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[11:37:10] [main\/WARN]: Mod resolution failed"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:37:10] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[11:37:10] [main\/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE indium 1.0.27+mc1.20.1 {depends sodium @ [0.5.3]}, ROOT_FORCELOAD_SINGLE indium 1.0.27+mc1.20.1]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:37:10] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[11:37:10] [main\/INFO]: Reason: [HARD_DEP indium 1.0.27+mc1.20.1 {depends sodium @ [0.5.3]}, HARD_DEP indium 1.0.27+mc1.20.1 {depends fabric-renderer-api-v1 @ [>=3.2.0]}]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:37:10] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[11:37:10] [main\/INFO]: Fix: add [], remove [], replace [[indium 1.0.27+mc1.20.1] -> add:indium 1 ([(-\u221e,\u221e)])]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[11:37:10] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[11:37:10] [main\/ERROR]: Incompatible mods found!"
+                },
+                {
+                    "number": 8,
+                    "content": "net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!"
+                },
+                {
+                    "number": 9,
+                    "content": "A potential solution has been determined, this may resolve your problem:"
+                },
+                {
+                    "number": 10,
+                    "content": "\t - Replace mod 'Indium' (indium) 1.0.27+mc1.20.1 with any version that is compatible with:"
+                },
+                {
+                    "number": 11,
+                    "content": "\t\t - sodium 0.4.10+build.27"
+                },
+                {
+                    "number": 12,
+                    "content": "More details:"
+                },
+                {
+                    "number": 13,
+                    "content": "\t - Mod 'Indium' (indium) 1.0.27+mc1.20.1 requires version 0.5.3 of mod 'Sodium' (sodium), but only the wrong version is present: 0.4.10+build.27!"
+                },
+                {
+                    "number": 14,
+                    "content": "\t - Mod 'Indium' (indium) 1.0.27+mc1.20.1 requires version 3.2.0 or later of fabric-renderer-api-v1, which is missing!"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.14.23.jar:?]"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:194) ~[fabric-loader-0.14.23.jar:?]"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.14.23.jar:?]"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.23.jar:?]"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.23.jar:?]"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:100) ~[?:?]"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?]"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?]"
+                },
+                {
+                    "number": 23,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'Indium' is missing the required mod 'fabric-renderer-api-v1'.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[11:37:10] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 7,
+                            "content": "[11:37:10] [main\/ERROR]: Incompatible mods found!"
+                        },
+                        {
+                            "number": 8,
+                            "content": "net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!"
+                        },
+                        {
+                            "number": 9,
+                            "content": "A potential solution has been determined, this may resolve your problem:"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\t - Replace mod 'Indium' (indium) 1.0.27+mc1.20.1 with any version that is compatible with:"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t\t - sodium 0.4.10+build.27"
+                        },
+                        {
+                            "number": 12,
+                            "content": "More details:"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\t - Mod 'Indium' (indium) 1.0.27+mc1.20.1 requires version 0.5.3 of mod 'Sodium' (sodium), but only the wrong version is present: 0.4.10+build.27!"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\t - Mod 'Indium' (indium) 1.0.27+mc1.20.1 requires version 3.2.0 or later of fabric-renderer-api-v1, which is missing!"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.14.23.jar:?]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:194) ~[fabric-loader-0.14.23.jar:?]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.14.23.jar:?]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.23.jar:?]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.23.jar:?]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:100) ~[?:?]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?]"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?]"
+                        },
+                        {
+                            "number": 23,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'fabric-renderer-api-v1' with version >=3.2.0."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'Indium' is missing the required mod 'Sodium'.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[11:37:10] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 7,
+                            "content": "[11:37:10] [main\/ERROR]: Incompatible mods found!"
+                        },
+                        {
+                            "number": 8,
+                            "content": "net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!"
+                        },
+                        {
+                            "number": 9,
+                            "content": "A potential solution has been determined, this may resolve your problem:"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\t - Replace mod 'Indium' (indium) 1.0.27+mc1.20.1 with any version that is compatible with:"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t\t - sodium 0.4.10+build.27"
+                        },
+                        {
+                            "number": 12,
+                            "content": "More details:"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\t - Mod 'Indium' (indium) 1.0.27+mc1.20.1 requires version 0.5.3 of mod 'Sodium' (sodium), but only the wrong version is present: 0.4.10+build.27!"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\t - Mod 'Indium' (indium) 1.0.27+mc1.20.1 requires version 3.2.0 or later of fabric-renderer-api-v1, which is missing!"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.14.23.jar:?]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:194) ~[fabric-loader-0.14.23.jar:?]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.14.23.jar:?]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.23.jar:?]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.23.jar:?]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:100) ~[?:?]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?]"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?]"
+                        },
+                        {
+                            "number": 23,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'Sodium' with version 0.5.3."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.20.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[11:37:10] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[11:37:10] [main\/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.23"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.20.1"
+            },
+            {
+                "message": "Fabric loader version: 0.14.23",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[11:37:10] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[11:37:10] [main\/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.23"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.14.23"
+            }
+        ]
+    }
+}

@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine;
 
+use Aternos\Codex\Analysis\InsightInterface;
+
 /**
  * Class PluginProblem
  *
@@ -9,25 +11,22 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine;
  */
 abstract class PluginProblem extends PocketmineProblem
 {
-    /**
-     * @var string
-     */
-    protected $pluginName;
+    protected ?string $pluginName = null;
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getPluginName(): string
+    public function getPluginName(): ?string
     {
         return $this->pluginName;
     }
 
     /**
-     * @param static $insight
+     * @param InsightInterface $insight
      * @return bool
      */
-    public function isEqual($insight): bool
+    public function isEqual(InsightInterface $insight): bool
     {
-        return $this->getPluginName() === $insight->getPluginName();
+        return $insight instanceof static && $this->getPluginName() === $insight->getPluginName();
     }
 }

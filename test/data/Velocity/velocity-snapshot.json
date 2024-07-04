@@ -1,0 +1,101 @@
+{
+    "id": "velocity\/proxy",
+    "name": "Velocity",
+    "type": "Proxy Log",
+    "version": null,
+    "title": "Velocity Proxy Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:17:12] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[11:17:12] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.2.0-SNAPSHOT (git-19abb909-b265)..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:17:12] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[11:17:12] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:17:13] [main\/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[11:17:13] [main\/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.0.x (Linux x86_64) ciphers"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[11:17:13] [main\/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[11:17:13] [main\/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:17:13] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[11:17:13] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:17:13] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[11:17:13] [main\/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 0 plugins"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:17:13] [Netty epoll Boss #0\/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[11:17:13] [Netty epoll Boss #0\/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on \/0.0.0.0:25577"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:17:13] [main\/INFO] [com.velocitypowered.proxy.Velocity]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[11:17:13] [main\/INFO] [com.velocitypowered.proxy.Velocity]: Done (0.7s)!"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": []
+    }
+}

@@ -12,18 +12,11 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class FileEditSolution extends FileSolution implements AutomatableSolutionInterface
 {
-    /**
-     * @var string
-     */
-    protected $pattern;
+    protected ?string $pattern = null;
+    protected ?string $replacement = null;
 
     /**
-     * @var string
-     */
-    protected $replacement;
-
-    /**
-     * Get the solution as a human readable message
+     * Get the solution as a human-readable message
      *
      * @return string
      */
@@ -44,7 +37,7 @@ class FileEditSolution extends FileSolution implements AutomatableSolutionInterf
      * @param string $pattern
      * @return $this
      */
-    public function setPattern(string $pattern)
+    public function setPattern(string $pattern): static
     {
         $this->pattern = $pattern;
         return $this;
@@ -62,7 +55,7 @@ class FileEditSolution extends FileSolution implements AutomatableSolutionInterf
      * @param string $replacement
      * @return $this
      */
-    public function setReplacement(string $replacement)
+    public function setReplacement(string $replacement): static
     {
         $this->replacement = $replacement;
         return $this;
@@ -72,9 +65,9 @@ class FileEditSolution extends FileSolution implements AutomatableSolutionInterf
      * Process the edit on a file string
      *
      * @param string $fileContent
-     * @return string|string[]|null
+     * @return string|null
      */
-    public function processEdit(string $fileContent)
+    public function processEdit(string $fileContent): ?string
     {
         return preg_replace($this->getPattern(), $this->getReplacement(), $fileContent);
     }

@@ -2,10 +2,13 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Information\Forge;
 
-use Aternos\Codex\Minecraft\Log\ForgeLog;
-use Aternos\Codex\Minecraft\Log\VanillaLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
+/**
+ * Class ForgeJavaVersionInformation
+ *
+ * @package Aternos\Codex\Minecraft\Analysis\Information\Forge
+ */
 class ForgeJavaVersionInformation extends ForgeInformation
 {
     public function __construct()
@@ -18,11 +21,11 @@ class ForgeJavaVersionInformation extends ForgeInformation
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
-        return ['/\[cpw\.mods\.modlauncher\.Launcher\/MODLAUNCHER\]: ModLauncher(?: [\w\.+]+)? starting: java version ([0-9\._]+) by Oracle Corporation/'];
+        return ['/\[[^\]]+\]: ModLauncher(?: [\w\.+]+)? starting: java version ([0-9\._]+) by/'];
     }
 
 }

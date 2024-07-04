@@ -1,0 +1,146 @@
+{
+    "id": "bedrock\/server",
+    "name": "Bedrock",
+    "type": "Server Log",
+    "version": null,
+    "title": "Bedrock Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "NO LOG FILE! - setting up server logging..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1631702125,
+            "prefix": "[2021-09-15 10:35:25 INFO]",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[2021-09-15 10:35:25 INFO] Starting Server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1631702125,
+            "prefix": "[2021-09-15 10:35:25 INFO]",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[2021-09-15 10:35:25 INFO] Version **.**.**.**"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1631702125,
+            "prefix": "[2021-09-15 10:35:25 INFO]",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[2021-09-15 10:35:25 INFO] Session ID aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1631702125,
+            "prefix": "[2021-09-15 10:35:25 INFO]",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[2021-09-15 10:35:25 INFO] Level Name: world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1631702125,
+            "prefix": "[2021-09-15 10:35:25 INFO]",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[2021-09-15 10:35:25 INFO] Game mode: 0 Survival"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1631702125,
+            "prefix": "[2021-09-15 10:35:25 INFO]",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[2021-09-15 10:35:25 INFO] Difficulty: 1 EASY"
+                },
+                {
+                    "number": 8,
+                    "content": "[INFO] opening worlds\/world\/db"
+                },
+                {
+                    "number": 9,
+                    "content": "[ERROR] DBStorage chain is invalid. Possibly encryption-related, or bad DBStorageConfig passed. Reason: Unable to decipher\/decrypt LevelDB."
+                },
+                {
+                    "number": 10,
+                    "content": "[ERROR] Network port occupied, can't start server."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": 1631702438,
+            "prefix": "[2021-09-15 10:40:38 ERROR]",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[2021-09-15 10:40:38 ERROR] [Aternos System]: Server was stopped because it took too long to start. Try reducing the load to avoid this in the future."
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "Unable to decrypt world. Marketplace worlds can't be installed on dedicated servers.",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1631702125,
+                    "prefix": "[2021-09-15 10:35:25 INFO]",
+                    "lines": [
+                        {
+                            "number": 7,
+                            "content": "[2021-09-15 10:35:25 INFO] Difficulty: 1 EASY"
+                        },
+                        {
+                            "number": 8,
+                            "content": "[INFO] opening worlds\/world\/db"
+                        },
+                        {
+                            "number": 9,
+                            "content": "[ERROR] DBStorage chain is invalid. Possibly encryption-related, or bad DBStorageConfig passed. Reason: Unable to decipher\/decrypt LevelDB."
+                        },
+                        {
+                            "number": 10,
+                            "content": "[ERROR] Network port occupied, can't start server."
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Generate a new world."
+                    }
+                ]
+            }
+        ],
+        "information": []
+    }
+}

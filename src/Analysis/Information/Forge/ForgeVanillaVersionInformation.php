@@ -18,7 +18,8 @@ class ForgeVanillaVersionInformation extends VanillaVersionInformation
     {
         return array_merge(parent::getPatterns(), [
             "/Received command line version data {0,2}: MC Version: '(". static::$vanillaVersionPattern .")'/",
-            "/--fml\.mcVersion, (". static::$vanillaVersionPattern .")/"
+            "/--fml\.mcVersion, (". static::$vanillaVersionPattern .")/",
+            "/Forge Mod Loader version ". ForgeVersionInformation::getVersionPattern() ." for Minecraft (". static::$vanillaVersionPattern.") loading/",
         ]);
     }
 }

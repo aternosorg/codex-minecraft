@@ -1,0 +1,574 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "1.16.5",
+    "title": "Fabric 1.16.5 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:22:11] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[17:22:11] [main\/INFO]: Loading for game Minecraft 1.16.5"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[17:22:11] [main\/FATAL]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[17:22:11] [main\/FATAL]: A critical error occurred"
+                },
+                {
+                    "number": 3,
+                    "content": "net.fabricmc.loader.discovery.ModResolutionException: Errors were found!"
+                },
+                {
+                    "number": 4,
+                    "content": " - Mod 'Example Mod' (modid) requires any version after 0.3.5 of mod yet-another-mod, which is missing!"
+                },
+                {
+                    "number": 5,
+                    "content": "\t - You must install any version after 0.3.5 of yet-another-mod."
+                },
+                {
+                    "number": 6,
+                    "content": " - Mod 'Example Mod' (modid) requires any version of mod fabric, which is missing!"
+                },
+                {
+                    "number": 7,
+                    "content": "\t - You must install any version of fabric."
+                },
+                {
+                    "number": 8,
+                    "content": " - Mod 'Example Mod' (modid) requires any version before 0.73 of mod other-mod, which is missing!"
+                },
+                {
+                    "number": 9,
+                    "content": "\t - You must install any version before 0.73 of other-mod."
+                },
+                {
+                    "number": 10,
+                    "content": " - Mod 'Example Mod' (modid) requires version 1.0.9 of mod specific, which is missing!"
+                },
+                {
+                    "number": 11,
+                    "content": "\t - You must install version 1.0.9 of specific."
+                },
+                {
+                    "number": 12,
+                    "content": "\tat net.fabricmc.loader.discovery.ModResolver.findCompatibleSet(ModResolver.java:322) ~[fabric.jar:?]"
+                },
+                {
+                    "number": 13,
+                    "content": "\tat net.fabricmc.loader.discovery.ModResolver.resolve(ModResolver.java:787) ~[fabric.jar:?]"
+                },
+                {
+                    "number": 14,
+                    "content": "\tat net.fabricmc.loader.FabricLoader.setup(FabricLoader.java:211) ~[fabric.jar:?]"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat net.fabricmc.loader.FabricLoader.load(FabricLoader.java:201) [fabric.jar:?]"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat net.fabricmc.loader.launch.knot.Knot.init(Knot.java:126) [fabric.jar:?]"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat net.fabricmc.loader.launch.knot.KnotServer.main(KnotServer.java:27) [fabric.jar:?]"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_265]"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_265]"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_265]"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_265]"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.launch(FabricServerLauncher.java:62) [fabric.jar:?]"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.setup(FabricServerLauncher.java:106) [fabric.jar:?]"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:50) [fabric.jar:?]"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'Example Mod' is missing the required mod 'FabricAPI'.",
+                "counter": 1,
+                "entry": {
+                    "level": 2,
+                    "time": null,
+                    "prefix": "[17:22:11] [main\/FATAL]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[17:22:11] [main\/FATAL]: A critical error occurred"
+                        },
+                        {
+                            "number": 3,
+                            "content": "net.fabricmc.loader.discovery.ModResolutionException: Errors were found!"
+                        },
+                        {
+                            "number": 4,
+                            "content": " - Mod 'Example Mod' (modid) requires any version after 0.3.5 of mod yet-another-mod, which is missing!"
+                        },
+                        {
+                            "number": 5,
+                            "content": "\t - You must install any version after 0.3.5 of yet-another-mod."
+                        },
+                        {
+                            "number": 6,
+                            "content": " - Mod 'Example Mod' (modid) requires any version of mod fabric, which is missing!"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\t - You must install any version of fabric."
+                        },
+                        {
+                            "number": 8,
+                            "content": " - Mod 'Example Mod' (modid) requires any version before 0.73 of mod other-mod, which is missing!"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\t - You must install any version before 0.73 of other-mod."
+                        },
+                        {
+                            "number": 10,
+                            "content": " - Mod 'Example Mod' (modid) requires version 1.0.9 of mod specific, which is missing!"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t - You must install version 1.0.9 of specific."
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat net.fabricmc.loader.discovery.ModResolver.findCompatibleSet(ModResolver.java:322) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat net.fabricmc.loader.discovery.ModResolver.resolve(ModResolver.java:787) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat net.fabricmc.loader.FabricLoader.setup(FabricLoader.java:211) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat net.fabricmc.loader.FabricLoader.load(FabricLoader.java:201) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat net.fabricmc.loader.launch.knot.Knot.init(Knot.java:126) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat net.fabricmc.loader.launch.knot.KnotServer.main(KnotServer.java:27) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.launch(FabricServerLauncher.java:62) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.setup(FabricServerLauncher.java:106) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:50) [fabric.jar:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'FabricAPI'."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'Example Mod' is missing the required mod 'yet-another-mod'.",
+                "counter": 1,
+                "entry": {
+                    "level": 2,
+                    "time": null,
+                    "prefix": "[17:22:11] [main\/FATAL]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[17:22:11] [main\/FATAL]: A critical error occurred"
+                        },
+                        {
+                            "number": 3,
+                            "content": "net.fabricmc.loader.discovery.ModResolutionException: Errors were found!"
+                        },
+                        {
+                            "number": 4,
+                            "content": " - Mod 'Example Mod' (modid) requires any version after 0.3.5 of mod yet-another-mod, which is missing!"
+                        },
+                        {
+                            "number": 5,
+                            "content": "\t - You must install any version after 0.3.5 of yet-another-mod."
+                        },
+                        {
+                            "number": 6,
+                            "content": " - Mod 'Example Mod' (modid) requires any version of mod fabric, which is missing!"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\t - You must install any version of fabric."
+                        },
+                        {
+                            "number": 8,
+                            "content": " - Mod 'Example Mod' (modid) requires any version before 0.73 of mod other-mod, which is missing!"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\t - You must install any version before 0.73 of other-mod."
+                        },
+                        {
+                            "number": 10,
+                            "content": " - Mod 'Example Mod' (modid) requires version 1.0.9 of mod specific, which is missing!"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t - You must install version 1.0.9 of specific."
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat net.fabricmc.loader.discovery.ModResolver.findCompatibleSet(ModResolver.java:322) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat net.fabricmc.loader.discovery.ModResolver.resolve(ModResolver.java:787) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat net.fabricmc.loader.FabricLoader.setup(FabricLoader.java:211) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat net.fabricmc.loader.FabricLoader.load(FabricLoader.java:201) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat net.fabricmc.loader.launch.knot.Knot.init(Knot.java:126) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat net.fabricmc.loader.launch.knot.KnotServer.main(KnotServer.java:27) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.launch(FabricServerLauncher.java:62) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.setup(FabricServerLauncher.java:106) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:50) [fabric.jar:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'yet-another-mod' with version >0.3.5."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'Example Mod' is missing the required mod 'other-mod'.",
+                "counter": 1,
+                "entry": {
+                    "level": 2,
+                    "time": null,
+                    "prefix": "[17:22:11] [main\/FATAL]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[17:22:11] [main\/FATAL]: A critical error occurred"
+                        },
+                        {
+                            "number": 3,
+                            "content": "net.fabricmc.loader.discovery.ModResolutionException: Errors were found!"
+                        },
+                        {
+                            "number": 4,
+                            "content": " - Mod 'Example Mod' (modid) requires any version after 0.3.5 of mod yet-another-mod, which is missing!"
+                        },
+                        {
+                            "number": 5,
+                            "content": "\t - You must install any version after 0.3.5 of yet-another-mod."
+                        },
+                        {
+                            "number": 6,
+                            "content": " - Mod 'Example Mod' (modid) requires any version of mod fabric, which is missing!"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\t - You must install any version of fabric."
+                        },
+                        {
+                            "number": 8,
+                            "content": " - Mod 'Example Mod' (modid) requires any version before 0.73 of mod other-mod, which is missing!"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\t - You must install any version before 0.73 of other-mod."
+                        },
+                        {
+                            "number": 10,
+                            "content": " - Mod 'Example Mod' (modid) requires version 1.0.9 of mod specific, which is missing!"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t - You must install version 1.0.9 of specific."
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat net.fabricmc.loader.discovery.ModResolver.findCompatibleSet(ModResolver.java:322) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat net.fabricmc.loader.discovery.ModResolver.resolve(ModResolver.java:787) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat net.fabricmc.loader.FabricLoader.setup(FabricLoader.java:211) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat net.fabricmc.loader.FabricLoader.load(FabricLoader.java:201) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat net.fabricmc.loader.launch.knot.Knot.init(Knot.java:126) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat net.fabricmc.loader.launch.knot.KnotServer.main(KnotServer.java:27) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.launch(FabricServerLauncher.java:62) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.setup(FabricServerLauncher.java:106) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:50) [fabric.jar:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'other-mod' with version <0.73."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'Example Mod' is missing the required mod 'specific'.",
+                "counter": 1,
+                "entry": {
+                    "level": 2,
+                    "time": null,
+                    "prefix": "[17:22:11] [main\/FATAL]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[17:22:11] [main\/FATAL]: A critical error occurred"
+                        },
+                        {
+                            "number": 3,
+                            "content": "net.fabricmc.loader.discovery.ModResolutionException: Errors were found!"
+                        },
+                        {
+                            "number": 4,
+                            "content": " - Mod 'Example Mod' (modid) requires any version after 0.3.5 of mod yet-another-mod, which is missing!"
+                        },
+                        {
+                            "number": 5,
+                            "content": "\t - You must install any version after 0.3.5 of yet-another-mod."
+                        },
+                        {
+                            "number": 6,
+                            "content": " - Mod 'Example Mod' (modid) requires any version of mod fabric, which is missing!"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\t - You must install any version of fabric."
+                        },
+                        {
+                            "number": 8,
+                            "content": " - Mod 'Example Mod' (modid) requires any version before 0.73 of mod other-mod, which is missing!"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\t - You must install any version before 0.73 of other-mod."
+                        },
+                        {
+                            "number": 10,
+                            "content": " - Mod 'Example Mod' (modid) requires version 1.0.9 of mod specific, which is missing!"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t - You must install version 1.0.9 of specific."
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat net.fabricmc.loader.discovery.ModResolver.findCompatibleSet(ModResolver.java:322) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat net.fabricmc.loader.discovery.ModResolver.resolve(ModResolver.java:787) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat net.fabricmc.loader.FabricLoader.setup(FabricLoader.java:211) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat net.fabricmc.loader.FabricLoader.load(FabricLoader.java:201) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat net.fabricmc.loader.launch.knot.Knot.init(Knot.java:126) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat net.fabricmc.loader.launch.knot.KnotServer.main(KnotServer.java:27) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_265]"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.launch(FabricServerLauncher.java:62) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.setup(FabricServerLauncher.java:106) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.fabricmc.loader.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:50) [fabric.jar:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'specific' with version 1.0.9."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.16.5",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:22:11] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[17:22:11] [main\/INFO]: Loading for game Minecraft 1.16.5"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.16.5"
+            }
+        ]
+    }
+}

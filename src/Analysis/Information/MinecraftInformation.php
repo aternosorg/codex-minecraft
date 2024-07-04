@@ -16,9 +16,10 @@ abstract class MinecraftInformation extends Information implements PatternInsigh
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->value = $matches[1];
     }

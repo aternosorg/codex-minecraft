@@ -1,0 +1,2231 @@
+{
+    "id": "paper\/server",
+    "name": "Paper",
+    "type": "Server Log",
+    "version": "1.8.8",
+    "title": "Paper 1.8.8 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[18:34:53] [Server thread\/INFO]: Starting minecraft server version 1.8.8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[18:34:53] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[18:34:53] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[18:34:53] [Server thread\/INFO]: This server is running CraftBukkit version git-PaperSpigot-\"4c7641d\" (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[18:34:53] [Server thread\/INFO]: Unable to find file banned-players.json, creating it."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[18:34:53] [Server thread\/INFO]: Unable to find file banned-ips.json, creating it."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[18:34:53] [Server thread\/INFO]: Unable to find file ops.json, creating it."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[18:34:53] [Server thread\/INFO]: Unable to find file whitelist.json, creating it."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[18:34:53] [Server thread\/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[18:34:53] [Server thread\/INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[18:34:53] [Server thread\/INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[18:34:53] [Server thread\/INFO]: Debug logging is disabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[18:34:53] [Server thread\/INFO]: Data value allowed items: "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[18:34:53] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[18:34:53] [Server thread\/INFO]: Starting Minecraft server on *:26185"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:53] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[18:34:53] [Server thread\/INFO]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[18:34:54] [Server thread\/INFO]: **** Beginning UUID conversion, this may take A LONG time ****"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[18:34:54] [Server thread\/INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[18:34:54] [Server thread\/INFO]: -------- World Settings For [world] --------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[18:34:54] [Server thread\/INFO]: Anti X-Ray: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[18:34:54] [Server thread\/INFO]: \tEngine Mode: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[18:34:54] [Server thread\/INFO]: \tHidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[18:34:54] [Server thread\/INFO]: \tReplace Blocks: [1, 5]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[18:34:54] [Server thread\/INFO]: Mob Spawn Range: 4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[18:34:54] [Server thread\/INFO]: Nerfing mobs spawned from spawners: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[18:34:54] [Server thread\/INFO]: Cactus Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[18:34:54] [Server thread\/INFO]: Cane Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[18:34:54] [Server thread\/INFO]: Melon Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[18:34:54] [Server thread\/INFO]: Mushroom Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[18:34:54] [Server thread\/INFO]: Pumpkin Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[18:34:54] [Server thread\/INFO]: Sapling Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[18:34:54] [Server thread\/INFO]: Wheat Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[18:34:54] [Server thread\/INFO]: NetherWart Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[18:34:54] [Server thread\/INFO]: Entity Activation Range: An 32 \/ Mo 32 \/ Mi 16"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[18:34:54] [Server thread\/INFO]: Entity Tracking Range: Pl 48 \/ An 48 \/ Mo 48 \/ Mi 32 \/ Other 64"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[18:34:54] [Server thread\/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[18:34:54] [Server thread\/INFO]: Random Lighting Updates: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[18:34:54] [Server thread\/INFO]: Structure Info Saving: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[18:34:54] [Server thread\/INFO]: Sending up to 10 chunks per packet"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[18:34:54] [Server thread\/INFO]: Max Entity Collisions: 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[18:34:54] [Server thread\/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[18:34:54] [Server thread\/INFO]: Max TNT Explosions: 100"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[18:34:54] [Server thread\/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[18:34:54] [Server thread\/INFO]: Item Merge Radius: 2.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[18:34:54] [Server thread\/INFO]: Item Despawn Rate: 6000"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[18:34:54] [Server thread\/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[18:34:54] [Server thread\/INFO]: Arrow Despawn Rate: 1200"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[18:34:54] [Server thread\/INFO]: View Distance: 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[18:34:54] [Server thread\/INFO]: Zombie Aggressive Towards Villager: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[18:34:54] [Server thread\/INFO]: Chunks to Grow per Tick: 650"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[18:34:54] [Server thread\/INFO]: Clear tick list: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[18:34:54] [Server thread\/INFO]: Experience Merge Radius: 3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[18:34:54] [Server thread\/INFO]: -------- World Settings For [world] --------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[18:34:54] [Server thread\/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[18:34:54] [Server thread\/INFO]: Player blocking damage multiplier set to 0.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[18:34:54] [Server thread\/INFO]: Remove invalid mob spawner tile entities: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[18:34:54] [Server thread\/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[18:34:54] [Server thread\/INFO]: Max height for cactus growth 3. Max height for reed growth 3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[18:34:54] [Server thread\/INFO]: Water over lava flow speed: 5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[18:34:54] [Server thread\/INFO]: Fix TNT cannons: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[18:34:54] [Server thread\/INFO]: Allow undead horse types to be leashed: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[18:34:54] [Server thread\/INFO]: Keep spawn chunk loaded: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[18:34:54] [Server thread\/INFO]: World async lighting: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[18:34:54] [Server thread\/INFO]: WorldServer TickNextTick cap set at 10000"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[18:34:54] [Server thread\/INFO]: WorldServer TickNextTickList cap always processes redstone: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[18:34:55] [Server thread\/INFO]: -------- World Settings For [world_nether] --------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[18:34:55] [Server thread\/INFO]: Anti X-Ray: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[18:34:55] [Server thread\/INFO]: \tEngine Mode: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[18:34:55] [Server thread\/INFO]: \tHidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[18:34:55] [Server thread\/INFO]: \tReplace Blocks: [1, 5]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[18:34:55] [Server thread\/INFO]: Mob Spawn Range: 4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[18:34:55] [Server thread\/INFO]: Nerfing mobs spawned from spawners: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[18:34:55] [Server thread\/INFO]: Cactus Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[18:34:55] [Server thread\/INFO]: Cane Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[18:34:55] [Server thread\/INFO]: Melon Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[18:34:55] [Server thread\/INFO]: Mushroom Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[18:34:55] [Server thread\/INFO]: Pumpkin Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[18:34:55] [Server thread\/INFO]: Sapling Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[18:34:55] [Server thread\/INFO]: Wheat Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[18:34:55] [Server thread\/INFO]: NetherWart Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[18:34:55] [Server thread\/INFO]: Entity Activation Range: An 32 \/ Mo 32 \/ Mi 16"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[18:34:55] [Server thread\/INFO]: Entity Tracking Range: Pl 48 \/ An 48 \/ Mo 48 \/ Mi 32 \/ Other 64"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[18:34:55] [Server thread\/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[18:34:55] [Server thread\/INFO]: Random Lighting Updates: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[18:34:55] [Server thread\/INFO]: Structure Info Saving: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[18:34:55] [Server thread\/INFO]: Sending up to 10 chunks per packet"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[18:34:55] [Server thread\/INFO]: Max Entity Collisions: 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[18:34:55] [Server thread\/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[18:34:55] [Server thread\/INFO]: Max TNT Explosions: 100"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[18:34:55] [Server thread\/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[18:34:55] [Server thread\/INFO]: Item Merge Radius: 2.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[18:34:55] [Server thread\/INFO]: Item Despawn Rate: 6000"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[18:34:55] [Server thread\/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[18:34:55] [Server thread\/INFO]: Arrow Despawn Rate: 1200"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[18:34:55] [Server thread\/INFO]: View Distance: 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[18:34:55] [Server thread\/INFO]: Zombie Aggressive Towards Villager: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[18:34:55] [Server thread\/INFO]: Chunks to Grow per Tick: 650"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[18:34:55] [Server thread\/INFO]: Clear tick list: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[18:34:55] [Server thread\/INFO]: Experience Merge Radius: 3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[18:34:55] [Server thread\/INFO]: -------- World Settings For [world_nether] --------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[18:34:55] [Server thread\/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[18:34:55] [Server thread\/INFO]: Player blocking damage multiplier set to 0.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[18:34:55] [Server thread\/INFO]: Remove invalid mob spawner tile entities: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[18:34:55] [Server thread\/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[18:34:55] [Server thread\/INFO]: Max height for cactus growth 3. Max height for reed growth 3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "[18:34:55] [Server thread\/INFO]: Water over lava flow speed: 5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[18:34:55] [Server thread\/INFO]: Fix TNT cannons: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[18:34:55] [Server thread\/INFO]: Allow undead horse types to be leashed: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[18:34:55] [Server thread\/INFO]: Keep spawn chunk loaded: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[18:34:55] [Server thread\/INFO]: World async lighting: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[18:34:55] [Server thread\/INFO]: WorldServer TickNextTick cap set at 10000"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[18:34:55] [Server thread\/INFO]: WorldServer TickNextTickList cap always processes redstone: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[18:34:55] [Server thread\/INFO]: -------- World Settings For [world_the_end] --------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[18:34:55] [Server thread\/INFO]: Anti X-Ray: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[18:34:55] [Server thread\/INFO]: \tEngine Mode: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[18:34:55] [Server thread\/INFO]: \tHidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[18:34:55] [Server thread\/INFO]: \tReplace Blocks: [1, 5]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[18:34:55] [Server thread\/INFO]: Mob Spawn Range: 4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[18:34:55] [Server thread\/INFO]: Nerfing mobs spawned from spawners: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[18:34:55] [Server thread\/INFO]: Cactus Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[18:34:55] [Server thread\/INFO]: Cane Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "[18:34:55] [Server thread\/INFO]: Melon Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "[18:34:55] [Server thread\/INFO]: Mushroom Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "[18:34:55] [Server thread\/INFO]: Pumpkin Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "[18:34:55] [Server thread\/INFO]: Sapling Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "[18:34:55] [Server thread\/INFO]: Wheat Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "[18:34:55] [Server thread\/INFO]: NetherWart Growth Modifier: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "[18:34:55] [Server thread\/INFO]: Entity Activation Range: An 32 \/ Mo 32 \/ Mi 16"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "[18:34:55] [Server thread\/INFO]: Entity Tracking Range: Pl 48 \/ An 48 \/ Mo 48 \/ Mi 32 \/ Other 64"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "[18:34:55] [Server thread\/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "[18:34:55] [Server thread\/INFO]: Random Lighting Updates: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "[18:34:55] [Server thread\/INFO]: Structure Info Saving: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "[18:34:55] [Server thread\/INFO]: Sending up to 10 chunks per packet"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "[18:34:55] [Server thread\/INFO]: Max Entity Collisions: 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "[18:34:55] [Server thread\/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "[18:34:55] [Server thread\/INFO]: Max TNT Explosions: 100"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "[18:34:55] [Server thread\/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "[18:34:55] [Server thread\/INFO]: Item Merge Radius: 2.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "[18:34:55] [Server thread\/INFO]: Item Despawn Rate: 6000"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "[18:34:55] [Server thread\/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "[18:34:55] [Server thread\/INFO]: Arrow Despawn Rate: 1200"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "[18:34:55] [Server thread\/INFO]: View Distance: 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "[18:34:55] [Server thread\/INFO]: Zombie Aggressive Towards Villager: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "[18:34:55] [Server thread\/INFO]: Chunks to Grow per Tick: 650"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "[18:34:55] [Server thread\/INFO]: Clear tick list: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "[18:34:55] [Server thread\/INFO]: Experience Merge Radius: 3.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "[18:34:55] [Server thread\/INFO]: -------- World Settings For [world_the_end] --------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "[18:34:55] [Server thread\/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "[18:34:55] [Server thread\/INFO]: Player blocking damage multiplier set to 0.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "[18:34:55] [Server thread\/INFO]: Remove invalid mob spawner tile entities: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "[18:34:55] [Server thread\/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "[18:34:55] [Server thread\/INFO]: Max height for cactus growth 3. Max height for reed growth 3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "[18:34:55] [Server thread\/INFO]: Water over lava flow speed: 5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "[18:34:55] [Server thread\/INFO]: Fix TNT cannons: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "[18:34:55] [Server thread\/INFO]: Allow undead horse types to be leashed: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "[18:34:55] [Server thread\/INFO]: Keep spawn chunk loaded: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "[18:34:55] [Server thread\/INFO]: World async lighting: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "[18:34:55] [Server thread\/INFO]: WorldServer TickNextTick cap set at 10000"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 159,
+                    "content": "[18:34:55] [Server thread\/INFO]: WorldServer TickNextTickList cap always processes redstone: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:55] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "[18:34:55] [Server thread\/INFO]: Preparing start region for level 0 (Seed: -4337249689357965493)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:56] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "[18:34:56] [Server thread\/INFO]: Preparing spawn area: 4%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:57] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "[18:34:57] [Server thread\/INFO]: Preparing spawn area: 7%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:58] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "[18:34:58] [Server thread\/INFO]: Preparing spawn area: 10%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:34:59] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "[18:34:59] [Server thread\/INFO]: Preparing spawn area: 15%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:00] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "[18:35:00] [Server thread\/INFO]: Preparing spawn area: 19%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:01] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "[18:35:01] [Server thread\/INFO]: Preparing spawn area: 22%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:02] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "[18:35:02] [Server thread\/INFO]: Preparing spawn area: 26%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:03] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "[18:35:03] [Server thread\/INFO]: Preparing spawn area: 31%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "[18:35:04] [Server thread\/INFO]: Preparing spawn area: 38%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "[18:35:05] [Server thread\/INFO]: Preparing spawn area: 46%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:06] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "[18:35:06] [Server thread\/INFO]: Preparing spawn area: 53%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:07] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 172,
+                    "content": "[18:35:07] [Server thread\/INFO]: Preparing spawn area: 62%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:08] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 173,
+                    "content": "[18:35:08] [Server thread\/INFO]: Preparing spawn area: 70%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:09] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 174,
+                    "content": "[18:35:09] [Server thread\/INFO]: Preparing spawn area: 77%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:10] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 175,
+                    "content": "[18:35:10] [Server thread\/INFO]: Preparing spawn area: 85%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:11] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 176,
+                    "content": "[18:35:11] [Server thread\/INFO]: Preparing spawn area: 92%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:12] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 177,
+                    "content": "[18:35:12] [Server thread\/INFO]: Preparing start region for level 1 (Seed: -4337249689357965493)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:13] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 178,
+                    "content": "[18:35:13] [Server thread\/INFO]: Preparing spawn area: 10%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:14] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 179,
+                    "content": "[18:35:14] [Server thread\/INFO]: Preparing spawn area: 17%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:15] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 180,
+                    "content": "[18:35:15] [Server thread\/INFO]: Preparing spawn area: 24%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:16] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 181,
+                    "content": "[18:35:16] [Server thread\/INFO]: Preparing spawn area: 31%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:17] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 182,
+                    "content": "[18:35:17] [Server thread\/INFO]: Preparing spawn area: 45%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:18] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 183,
+                    "content": "[18:35:18] [Server thread\/INFO]: Preparing spawn area: 63%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:19] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 184,
+                    "content": "[18:35:19] [Server thread\/INFO]: Preparing spawn area: 79%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:20] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 185,
+                    "content": "[18:35:20] [Server thread\/INFO]: Preparing spawn area: 91%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 186,
+                    "content": "[18:35:21] [Server thread\/INFO]: Preparing start region for level 2 (Seed: -4337249689357965493)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:22] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 187,
+                    "content": "[18:35:22] [Server thread\/INFO]: Preparing spawn area: 29%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:23] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 188,
+                    "content": "[18:35:23] [Server thread\/INFO]: Preparing spawn area: 53%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:24] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 189,
+                    "content": "[18:35:24] [Server thread\/INFO]: Preparing spawn area: 86%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:24] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "[18:35:24] [Server thread\/INFO]: Done (30.812s)! For help, type \"help\" or \"?\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:24] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 191,
+                    "content": "[18:35:24] [Server thread\/INFO]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:24] [Query Listener #1\/INFO]:",
+            "lines": [
+                {
+                    "number": 192,
+                    "content": "[18:35:24] [Query Listener #1\/INFO]: Query running on 0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:35:24] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 193,
+                    "content": "[18:35:24] [Server thread\/INFO]: Timings Reset"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:36:50] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 194,
+                    "content": "[18:36:50] [Server thread\/INFO]: Stopping the server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:36:50] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 195,
+                    "content": "[18:36:50] [Server thread\/INFO]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:36:50] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 196,
+                    "content": "[18:36:50] [Server thread\/INFO]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:36:50] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 197,
+                    "content": "[18:36:50] [Server thread\/INFO]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:36:50] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 198,
+                    "content": "[18:36:50] [Server thread\/INFO]: Saving chunks for level 'world'\/Overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:36:51] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 199,
+                    "content": "[18:36:51] [Server thread\/INFO]: Saving chunks for level 'world_nether'\/Nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:36:51] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 200,
+                    "content": "[18:36:51] [Server thread\/INFO]: Saving chunks for level 'world_the_end'\/The End"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.8.8",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:34:53] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[18:34:53] [Server thread\/INFO]: Starting minecraft server version 1.8.8"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.8.8"
+            }
+        ]
+    }
+}

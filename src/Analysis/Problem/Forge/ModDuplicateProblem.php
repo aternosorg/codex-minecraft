@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -12,18 +13,11 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class ModDuplicateProblem extends ModProblem
 {
-    /**
-     * @var string
-     */
-    protected $firstModPath;
+    protected ?string $firstModPath = null;
+    protected ?string $secondModPath = null;
 
     /**
-     * @var string
-     */
-    protected $secondModPath;
-
-    /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -47,7 +41,7 @@ class ModDuplicateProblem extends ModProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -58,9 +52,10 @@ class ModDuplicateProblem extends ModProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->modName = $matches[1];
         $this->firstModPath = $matches[2];
@@ -71,28 +66,29 @@ class ModDuplicateProblem extends ModProblem
     }
 
     /**
-     * @param static $insight
+     * @param InsightInterface $insight
      * @return bool
      */
-    public function isEqual($insight): bool
+    public function isEqual(InsightInterface $insight): bool
     {
         return parent::isEqual($insight)
+            && $insight instanceof static
             && $this->getFirstModPath() === $insight->getFirstModPath()
             && $this->getSecondModPath() === $insight->getSecondModPath();
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getFirstModPath(): string
+    public function getFirstModPath(): ?string
     {
         return $this->firstModPath;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getSecondModPath(): string
+    public function getSecondModPath(): ?string
     {
         return $this->secondModPath;
     }

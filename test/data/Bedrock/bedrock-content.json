@@ -1,0 +1,388 @@
+{
+    "id": "bedrock\/content",
+    "name": "Bedrock",
+    "type": "Content Log",
+    "version": null,
+    "title": "Bedrock Content Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "10:25:19[Blocks][inform]",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "10:25:19[Blocks][inform]-block_definitions | development_behavior_packs\/Ores Plus Add-On [BP] v2.1.0 | blocks\/deepslate_sapphire_ore.json | oresplus:deepslate_sapphire_ore | components | minecraft:creative_category | {"
+                },
+                {
+                    "number": 2,
+                    "content": "   \"category\" : \"Nature\","
+                },
+                {
+                    "number": 3,
+                    "content": "   \"group\" : \"itemGroup.name.ore\""
+                },
+                {
+                    "number": 4,
+                    "content": "}"
+                },
+                {
+                    "number": 5,
+                    "content": ""
+                },
+                {
+                    "number": 6,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "10:25:19[Blocks][error]",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "10:25:19[Blocks][error]-block_definitions | development_behavior_packs\/Ores Plus Add-On [BP] v2.1.0 | blocks\/deepslate_sapphire_ore.json | oresplus:deepslate_sapphire_ore | components | minecraft:creative_category | child 'minecraft:creative_category' not valid here."
+                },
+                {
+                    "number": 8,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "10:25:19[Blocks][inform]",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "10:25:19[Blocks][inform]-block_definitions | development_behavior_packs\/Ores Plus Add-On [BP] v2.1.0 | blocks\/deepslate_sapphire_ore.json | oresplus:deepslate_sapphire_ore | components | minecraft:on_player_destroyed | {"
+                },
+                {
+                    "number": 10,
+                    "content": "   \"event\" : \"destroyed\","
+                },
+                {
+                    "number": 11,
+                    "content": "   \"target\" : \"self\""
+                },
+                {
+                    "number": 12,
+                    "content": "}"
+                },
+                {
+                    "number": 13,
+                    "content": ""
+                },
+                {
+                    "number": 14,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "10:25:19[Blocks][error]",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "10:25:19[Blocks][error]-block_definitions | development_behavior_packs\/Ores Plus Add-On [BP] v2.1.0 | blocks\/deepslate_sapphire_ore.json | oresplus:deepslate_sapphire_ore | components | minecraft:on_player_destroyed | child 'minecraft:on_player_destroyed' not valid here."
+                },
+                {
+                    "number": 16,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "10:25:19[Blocks][inform]",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "10:25:19[Blocks][inform]-block_definitions | development_behavior_packs\/Ores Plus Add-On [BP] v2.1.0 | blocks\/deepslate_sapphire_ore.json | oresplus:deepslate_sapphire_ore | events | destroyed | run_command | {"
+                },
+                {
+                    "number": 18,
+                    "content": "   \"command\" : [ \"summon xp_orb ~ ~ ~\" ],"
+                },
+                {
+                    "number": 19,
+                    "content": "   \"target\" : \"self\""
+                },
+                {
+                    "number": 20,
+                    "content": "}"
+                },
+                {
+                    "number": 21,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "10:25:19[Blocks][error]",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "10:25:19[Blocks][error]-block_definitions | development_behavior_packs\/Ores Plus Add-On [BP] v2.1.0 | blocks\/deepslate_silver_ore.json | oresplus:deepslate_silver_ore | components | minecraft:creative_category | child 'minecraft:creative_category' not valid here."
+                },
+                {
+                    "number": 23,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "10:25:19[Item][error]",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "10:25:19[Item][error]-To use item 'oresplus:pyrite_knife' turn on the Holiday Creator Features toggle in settings"
+                },
+                {
+                    "number": 25,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "10:25:19[Item][error]",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "10:25:19[Item][error]-To use item 'oresplus:ambar_helmet' turn on the Holiday Creator Features toggle in settings"
+                },
+                {
+                    "number": 27,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "10:25:19[Json][error]",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "10:25:19[Json][error]-upgrade items\/alexandrite_boots.json | failed to parse file into a json document: Missing a name for object member."
+                },
+                {
+                    "number": 29,
+                    "content": ""
+                },
+                {
+                    "number": 30,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "10:25:20[Recipes][error]",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "10:25:20[Recipes][error]-recipes\/pyrite_knife.json | oresplus:pyrite_knife | The Item: oresplus:pyrite_knife is missing, cant make the recipe"
+                },
+                {
+                    "number": 32,
+                    "content": ""
+                },
+                {
+                    "number": 33,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "10:25:20[Recipes][error]",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "10:25:20[Recipes][error]-recipes\/pyrite_knife.json | oresplus:pyrite_knife | Recipe result malformed"
+                },
+                {
+                    "number": 35,
+                    "content": ""
+                },
+                {
+                    "number": 36,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "10:25:20[Recipes][error]",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "10:25:20[Recipes][error]-recipes\/pyrite_knife.json | oresplus:pyrite_knife | Recipe has no result item(s)"
+                },
+                {
+                    "number": 38,
+                    "content": ""
+                },
+                {
+                    "number": 39,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "10:25:21[Commands][warning]",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "10:25:21[Commands][warning]-Function jade_totem failed to load correctly with error(s):"
+                },
+                {
+                    "number": 41,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "10:25:21[Commands][warning]",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "10:25:21[Commands][warning]-Error on line 5: command failed to parse with error 'commands.generic.syntax'"
+                },
+                {
+                    "number": 43,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "10:25:21[Commands][warning]",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "10:25:21[Commands][warning]-Function wither_totem failed to load correctly with error(s):"
+                },
+                {
+                    "number": 45,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "10:25:21[Commands][warning]",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "10:25:21[Commands][warning]-Error on line 5: command failed to parse with error 'commands.generic.syntax'"
+                },
+                {
+                    "number": 47,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "10:25:21[Commands][warning]",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "10:25:21[Commands][warning]-Function cryo_totem failed to load correctly with error(s):"
+                },
+                {
+                    "number": 49,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "10:25:21[Commands][warning]",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "10:25:21[Commands][warning]-Error on line 5: command failed to parse with error 'commands.generic.syntax'"
+                },
+                {
+                    "number": 51,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "10:25:21[Commands][warning]",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "10:25:21[Commands][warning]-Function infernal_totem failed to load correctly with error(s):"
+                },
+                {
+                    "number": 53,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "10:25:21[Commands][warning]",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "10:25:21[Commands][warning]-Error on line 5: command failed to parse with error 'commands.generic.syntax'"
+                },
+                {
+                    "number": 55,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "10:25:21[Commands][warning]",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "10:25:21[Commands][warning]-Function spinel_totem failed to load correctly with error(s):"
+                },
+                {
+                    "number": 57,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": []
+    }
+}

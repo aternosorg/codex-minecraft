@@ -1,0 +1,86 @@
+{
+    "id": "vanilla\/server",
+    "name": "Vanilla",
+    "type": "Server Log",
+    "version": "19w34a",
+    "title": "Vanilla 19w34a Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:19:38] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[18:19:38] [Server thread\/INFO]: Starting minecraft server version 19w34a"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:19:38] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[18:19:38] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:19:38] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[18:19:38] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:19:38] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[18:19:38] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:19:39] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[18:19:39] [Server thread\/INFO]: Starting Minecraft server on *:10145"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 19w34a",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:19:38] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[18:19:38] [Server thread\/INFO]: Starting minecraft server version 19w34a"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "19w34a"
+            }
+        ]
+    }
+}

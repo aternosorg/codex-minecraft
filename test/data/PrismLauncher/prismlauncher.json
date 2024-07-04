@@ -1,0 +1,1300 @@
+{
+    "id": "prism-launcher\/client",
+    "name": "Prism Launcher",
+    "type": "Client Log",
+    "version": null,
+    "title": "Prism Launcher Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Prism Launcher version: 5.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "Launched instance in online mode"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "authserver.mojang.com resolves to:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "    [108.156.252.40, 108.156.252.46, 108.156.252.52, 108.156.252.49]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "session.minecraft.net resolves to:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "    [100.24.172.95, 35.153.153.200, 34.199.236.154]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "textures.minecraft.net resolves to:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "    [13.226.153.100, 13.226.153.69, 13.226.153.32, 13.226.153.62]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "api.mojang.com resolves to:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "    [13.226.153.25, 13.226.153.111, 13.226.153.32, 13.226.153.115]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "Minecraft folder is:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "\/home\/matthias\/.local\/share\/PrismLauncher\/instances\/22w42a\/.minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "Java path is:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "\/usr\/lib\/jvm\/java-18-openjdk\/bin\/java"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "Checking Java version..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "Java is version 18.0.2, using 64 (amd64) architecture, from N\/A."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "11th Gen Intel(R) Core(TM) i9-11900H @ 2.50GHz"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "OpenGL version string: 4.6 (Compatibility Profile) Mesa 22.1.7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "Main Class:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "  net.minecraft.client.main.Main"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "Native path:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/instances\/22w42a\/natives"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "Traits:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "traits XR:Initial"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "traits FirstThreadOnMacOS"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "Libraries:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-glfw-natives-linux\/3.3.1\/lwjgl-glfw-natives-linux-3.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-glfw\/3.3.1\/lwjgl-glfw-3.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-jemalloc-natives-linux\/3.3.1\/lwjgl-jemalloc-natives-linux-3.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-jemalloc\/3.3.1\/lwjgl-jemalloc-3.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-natives-linux\/3.3.1\/lwjgl-natives-linux-3.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-openal-natives-linux\/3.3.1\/lwjgl-openal-natives-linux-3.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-openal\/3.3.1\/lwjgl-openal-3.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-opengl-natives-linux\/3.3.1\/lwjgl-opengl-natives-linux-3.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-opengl\/3.3.1\/lwjgl-opengl-3.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-stb-natives-linux\/3.3.1\/lwjgl-stb-natives-linux-3.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-stb\/3.3.1\/lwjgl-stb-3.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-tinyfd-natives-linux\/3.3.1\/lwjgl-tinyfd-natives-linux-3.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl-tinyfd\/3.3.1\/lwjgl-tinyfd-3.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/lwjgl\/lwjgl\/3.3.1\/lwjgl-3.3.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/github\/oshi\/oshi-core\/5.8.5\/oshi-core-5.8.5.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/google\/code\/gson\/gson\/2.8.9\/gson-2.8.9.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/google\/guava\/failureaccess\/1.0.1\/failureaccess-1.0.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/google\/guava\/guava\/31.0.1-jre\/guava-31.0.1-jre.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/ibm\/icu\/icu4j\/70.1\/icu4j-70.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/authlib\/3.13.56\/authlib-3.13.56.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/blocklist\/1.0.10\/blocklist-1.0.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/brigadier\/1.0.18\/brigadier-1.0.18.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/datafixerupper\/5.0.28\/datafixerupper-5.0.28.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/javabridge\/2.0.25\/javabridge-2.0.25.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/logging\/1.0.0\/logging-1.0.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/patchy\/2.2.10\/patchy-2.2.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/text2speech\/1.13.9\/text2speech-1.13.9.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/text2speech-natives-linux\/1.13.9\/text2speech-natives-linux-1.13.9.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/commons-codec\/commons-codec\/1.15\/commons-codec-1.15.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/commons-io\/commons-io\/2.11.0\/commons-io-2.11.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/commons-logging\/commons-logging\/1.2\/commons-logging-1.2.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-buffer\/4.1.77.Final\/netty-buffer-4.1.77.Final.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-codec\/4.1.77.Final\/netty-codec-4.1.77.Final.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-common\/4.1.77.Final\/netty-common-4.1.77.Final.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-handler\/4.1.77.Final\/netty-handler-4.1.77.Final.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-resolver\/4.1.77.Final\/netty-resolver-4.1.77.Final.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-transport-classes-epoll\/4.1.77.Final\/netty-transport-classes-epoll-4.1.77.Final.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-transport-native-epoll\/4.1.77.Final\/netty-transport-native-epoll-4.1.77.Final-linux-aarch_64.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-transport-native-epoll\/4.1.77.Final\/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-transport-native-unix-common\/4.1.77.Final\/netty-transport-native-unix-common-4.1.77.Final.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/io\/netty\/netty-transport\/4.1.77.Final\/netty-transport-4.1.77.Final.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/it\/unimi\/dsi\/fastutil\/8.5.6\/fastutil-8.5.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/net\/java\/dev\/jna\/jna-platform\/5.10.0\/jna-platform-5.10.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/net\/java\/dev\/jna\/jna\/5.10.0\/jna-5.10.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/net\/sf\/jopt-simple\/jopt-simple\/5.0.4\/jopt-simple-5.0.4.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/apache\/commons\/commons-compress\/1.21\/commons-compress-1.21.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/apache\/commons\/commons-lang3\/3.12.0\/commons-lang3-3.12.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/apache\/httpcomponents\/httpclient\/4.5.13\/httpclient-4.5.13.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/apache\/httpcomponents\/httpcore\/4.4.14\/httpcore-4.4.14.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/apache\/logging\/log4j\/log4j-api\/2.17.1\/log4j-api-2.17.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/apache\/logging\/log4j\/log4j-core\/2.17.1\/log4j-core-2.17.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/apache\/logging\/log4j\/log4j-slf4j18-impl\/2.17.1\/log4j-slf4j18-impl-2.17.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/org\/slf4j\/slf4j-api\/1.8.0-beta4\/slf4j-api-1.8.0-beta4.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "  \/home\/matthias\/.local\/share\/PrismLauncher\/libraries\/com\/mojang\/minecraft\/22w42a\/minecraft-22w42a-client.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 99,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "Native libraries:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 101,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "Params:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "  --username  --version 22w42a --gameDir \/home\/matthias\/.local\/share\/PrismLauncher\/instances\/22w42a\/.minecraft --assetsDir \/home\/matthias\/.local\/share\/PrismLauncher\/assets --assetIndex 1 --uuid  --accessToken  --userType  --versionType snapshot"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 104,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "Window size: 854 x 480"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 106,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "Java Arguments:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[-Xms1024m, -Xmx8192m, -Duser.language=en]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 109,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 110,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "Minecraft process ID: 56217"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 112,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 114,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "Process exited with code 0."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "Clipboard copy at: 20 Oct 2022 14:59:36 +0200"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 117,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": []
+    }
+}

@@ -1,0 +1,580 @@
+{
+    "id": "customskinloader\/client",
+    "name": "CustomSkinLoader",
+    "type": "Client Log",
+    "version": "14.19.1",
+    "title": "CustomSkinLoader 14.19.1 Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: CustomSkinLoader 14.19.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: DataDir: C:\\Users\\Life\\Desktop\\\u5404\u79cd\u4e1c\u897f\u6587\u4ef6\u5939\\.minecraft\\.minecraft\\versions\\\u5492\u672f\u56de\u6218\uff011.20.1\u6574\u5408\u5305\uff01\\CustomSkinLoader"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Operating System: Windows 11 (amd64) version 10.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Java Version: 17.0.10, Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Minecraft: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Config File: C:\\Users\\Life\\Desktop\\\u5404\u79cd\u4e1c\u897f\u6587\u4ef6\u5939\\.minecraft\\.minecraft\\versions\\\u5492\u672f\u56de\u6218\uff011.20.1\u6574\u5408\u5305\uff01\\CustomSkinLoader\\CustomSkinLoader.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Try to load config."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Successfully load config."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Try to load Extra List.(LittleSkin.json)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Successfully load Extra List."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSKinAPIPlus"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Add a profile loader: GlitchlessAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Extra List will be ignored: Duplicate.(LittleSkin)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Successfully update config."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: version : 14.19.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: buildNumber : 26"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: loadlist : [{ \"name\": \"LittleSkin China\", \"type\": \"CustomSkinAPI\", \"root\": \"https:\/\/littleskin.cn\/csl\/\" }, { \"name\": \"Mojang\", \"type\": \"MojangAPI\", \"apiRoot\": \"https:\/\/api.mojang.com\/\", \"sessionRoot\": \"https:\/\/sessionserver.mojang.com\/\" }]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: enableDynamicSkull : true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: enableCape : true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: threadPoolSize : 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: enableLogStdOut : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: cacheExpiry : 30"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: forceDisableCache : false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [JacksonWang's skull\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[2024-03-01 19:42:25] [JacksonWang's skull\/INFO] [CustomSkinLoader Core]: Loading JacksonWang's profile."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [JacksonWang's skull\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[2024-03-01 19:42:25] [JacksonWang's skull\/INFO] [CustomSkinLoader Core]: 1\/2 Try to load profile from 'LittleSkin China'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [JacksonWang's skull\/DEBUG] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[2024-03-01 19:42:25] [JacksonWang's skull\/DEBUG] [CustomSkinLoader Core]: Try to request 'https:\/\/littleskin.cn\/csl\/JacksonWang.json'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [JacksonWang's skull\/DEBUG] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[2024-03-01 19:42:25] [JacksonWang's skull\/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 304 , Content Length: -1)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [JacksonWang's skull\/DEBUG] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[2024-03-01 19:42:25] [JacksonWang's skull\/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 125 , Path: 'C:\\Users\\Life\\Desktop\\\u5404\u79cd\u4e1c\u897f\u6587\u4ef6\u5939\\.minecraft\\.minecraft\\versions\\\u5492\u672f\u56de\u6218\uff011.20.1\u6574\u5408\u5305\uff01\\CustomSkinLoader\\caches\\4531f32917bc89137eb7df9a1b838c38a860bee6' , Expire: 0)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [JacksonWang's skull\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[2024-03-01 19:42:25] [JacksonWang's skull\/INFO] [CustomSkinLoader Core]: Try to load from cache 'C:\\Users\\Life\\Desktop\\\u5404\u79cd\u4e1c\u897f\u6587\u4ef6\u5939\\.minecraft\\.minecraft\\versions\\\u5492\u672f\u56de\u6218\uff011.20.1\u6574\u5408\u5305\uff01\\CustomSkinLoader\\caches\\4531f32917bc89137eb7df9a1b838c38a860bee6'."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [JacksonWang's skull\/DEBUG] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[2024-03-01 19:42:25] [JacksonWang's skull\/DEBUG] [CustomSkinLoader Core]: Successfully load from cache"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [JacksonWang's skull\/DEBUG] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[2024-03-01 19:42:25] [JacksonWang's skull\/DEBUG] [CustomSkinLoader Core]: Content: {\"username\":\"JacksonWang\",\"skins\":{\"default\":\"c1fbc74129d0861186c4978059546525fdd4aad4c63e7d18e4a6a90c3c5e7fe4\"},\"cape\":null}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [JacksonWang's skull\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[2024-03-01 19:42:25] [JacksonWang's skull\/INFO] [CustomSkinLoader Core]: 2\/2 Try to load profile from 'Mojang'."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [JacksonWang's skull\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[2024-03-01 19:42:25] [JacksonWang's skull\/INFO] [CustomSkinLoader Core]: Default profile will be used."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [JacksonWang's skull\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[2024-03-01 19:42:25] [JacksonWang's skull\/INFO] [CustomSkinLoader Core]: JacksonWang's profile loaded."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": 1709322145,
+            "prefix": "[2024-03-01 19:42:25] [JacksonWang's skull\/INFO] [CustomSkinLoader Core]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[2024-03-01 19:42:25] [JacksonWang's skull\/INFO] [CustomSkinLoader Core]: (SkinUrl: https:\/\/littleskin.cn\/csl\/textures\/c1fbc74129d0861186c4978059546525fdd4aad4c63e7d18e4a6a90c3c5e7fe4 , Model: default , CapeUrl: null  , Expiry: 1709293375)"
+                },
+                {
+                    "number": 49,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "CustomSkinLoader version: 14.19.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1709322145,
+                    "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: CustomSkinLoader 14.19.1"
+                        }
+                    ]
+                },
+                "label": "CustomSkinLoader version",
+                "value": "14.19.1"
+            },
+            {
+                "message": "Java version: 17.0.10",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": 1709322145,
+                    "prefix": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]:",
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "[2024-03-01 19:42:25] [Render thread\/INFO] [CustomSkinLoader Core]: Java Version: 17.0.10, Oracle Corporation"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17.0.10"
+            }
+        ]
+    }
+}

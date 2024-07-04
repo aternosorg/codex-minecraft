@@ -1,0 +1,46 @@
+[12:14:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:14:32] [ServerMain/INFO]: Loaded 1174 recipes
+[12:14:32] [ServerMain/INFO]: Loaded 1271 advancements
+[12:14:32] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[12:14:32] [Server thread/INFO]: Loading properties
+[12:14:32] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[12:14:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:14:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:14:33] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[12:14:33] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[12:14:33] [Server thread/INFO]: Default game type: SURVIVAL
+[12:14:33] [Server thread/INFO]: Generating keypair
+[12:14:33] [Server thread/INFO]: Starting Minecraft server on *:49877
+[12:14:33] [Server thread/INFO]: Using epoll channel type
+[12:14:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:14:33] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[12:14:33] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldedit-bukkit-7.3.4-beta-01.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.25
+	at org.bukkit.craftbukkit.v1_20_R3.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:389) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:119) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:507) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:274) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[12:14:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:14:33] [Server thread/INFO]: Preparing level "world"
+[12:14:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:14:34] [Server thread/INFO]: Time elapsed: 301 ms
+[12:14:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:14:34] [Server thread/INFO]: Time elapsed: 78 ms
+[12:14:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:14:34] [Server thread/INFO]: Time elapsed: 21 ms
+[12:14:34] [Server thread/INFO]: Starting GS4 status listener
+[12:14:34] [Server thread/INFO]: Thread Query Listener started
+[12:14:34] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
+[12:14:34] [Server thread/INFO]: JMX monitoring enabled
+[12:14:34] [Server thread/INFO]: Running delayed init tasks
+[12:14:34] [Server thread/INFO]: Done (1.970s)! For help, type "help"
+[12:14:34] [Server thread/INFO]: Timings Reset

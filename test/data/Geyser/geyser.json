@@ -1,0 +1,182 @@
+{
+    "id": "geyser\/proxy",
+    "name": "Geyser",
+    "type": "Proxy Log",
+    "version": null,
+    "title": "Geyser Proxy Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:15:16.779 main\/INFO]",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[15:15:16.779 main\/INFO] ******************************************"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:15:16.781 main\/INFO]",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[15:15:16.781 main\/INFO]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:15:16.784 main\/INFO]",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[15:15:16.784 main\/INFO] Loading Geyser version 1.4.1-SNAPSHOT (git-master-71e2ec9)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:15:16.784 main\/INFO]",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[15:15:16.784 main\/INFO]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:15:16.784 main\/INFO]",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[15:15:16.784 main\/INFO] ******************************************"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:15:18.578 main\/INFO]",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[15:15:18.578 main\/INFO] Started Geyser on 0.0.0.0:19132"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:15:18.581 main\/INFO]",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[15:15:18.581 main\/INFO] Done (1.804s)! Run \/geyser help for help!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:15:18.582 main\/WARN]",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[15:15:18.582 main\/WARN] Geyser doesn't translate Bedrock movements perfectly! Using Geyser in servers that have an anticheat could get you banned."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:15:18.582 main\/WARN]",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[15:15:18.582 main\/WARN] *********************************************"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:15:18.582 main\/WARN]",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[15:15:18.582 main\/WARN]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:15:18.582 main\/WARN]",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[15:15:18.582 main\/WARN] YOU ARE RUNNING AN UNSUPPORTED VERSION OF JAVA!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:15:18.582 main\/WARN]",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[15:15:18.582 main\/WARN] Geyser will not work on your version of Java in the future. Please update to Java 16. Current Java version: 1.8.0_292"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:15:18.582 main\/WARN]",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[15:15:18.582 main\/WARN]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:15:18.583 main\/WARN]",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[15:15:18.583 main\/WARN] *********************************************"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:15:19.089 ForkJoinPool.commonPool-worker-1\/INFO]",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[15:15:19.089 ForkJoinPool.commonPool-worker-1\/INFO] Downloading Minecraft JAR to extract en_us locale, please wait... (this may take some time depending on the speed of your internet connection)"
+                },
+                {
+                    "number": 16,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": []
+    }
+}

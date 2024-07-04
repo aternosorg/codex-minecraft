@@ -11,7 +11,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class ForgeVersionInformation extends ForgeInformation
 {
-    protected static $versionPattern = "[0-9\.]+";
+    protected static string $versionPattern = "[0-9\.]+";
 
     /**
      * ForgeVersionInformation constructor.
@@ -26,7 +26,7 @@ class ForgeVersionInformation extends ForgeInformation
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
@@ -34,5 +34,10 @@ class ForgeVersionInformation extends ForgeInformation
             '/MinecraftForge v('. static::$versionPattern .') Initialized/',
             '/--fml\.forgeVersion, ('. static::$versionPattern .')/'
         ];
+    }
+
+    public static function getVersionPattern(): string
+    {
+        return static::$versionPattern;
     }
 }

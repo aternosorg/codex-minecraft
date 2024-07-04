@@ -2,6 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
+use Aternos\Codex\Analysis\InsightInterface;
+
 /**
  * Class ModProblem
  *
@@ -9,10 +11,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
  */
 abstract class ModProblem extends ForgeProblem
 {
-    /**
-     * @var string
-     */
-    protected $modName;
+    protected ?string $modName = null;
 
     /**
      * @return string
@@ -23,11 +22,13 @@ abstract class ModProblem extends ForgeProblem
     }
 
     /**
-     * @param static $insight
+     * @param InsightInterface $insight
      * @return bool
      */
-    public function isEqual($insight): bool
+    public function isEqual(InsightInterface $insight): bool
     {
-        return parent::isEqual($insight) && $this->getModName() === $insight->getModName();
+        return parent::isEqual($insight)
+            && $insight instanceof static
+            && $this->getModName() === $insight->getModName();
     }
 }

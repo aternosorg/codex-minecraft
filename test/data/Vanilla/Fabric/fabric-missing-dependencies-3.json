@@ -1,0 +1,250 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "1.16.5",
+    "title": "Fabric 1.16.5 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:46:38] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[19:46:38] [main\/INFO]: Loading for game Minecraft 1.16.5"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[19:46:41] [main\/FATAL]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[19:46:41] [main\/FATAL]: A critical error occurred"
+                },
+                {
+                    "number": 3,
+                    "content": "net.fabricmc.loader.discovery.ModResolutionException: Could not find required mod: advanced-xray-fabric requires {minecraft @ [1.17.x]}"
+                },
+                {
+                    "number": 4,
+                    "content": "at net.fabricmc.loader.discovery.ModResolver.findCompatibleSet(ModResolver.java:180) ~[fabric.jar:?]"
+                },
+                {
+                    "number": 5,
+                    "content": "at net.fabricmc.loader.discovery.ModResolver.resolve(ModResolver.java:787) ~[fabric.jar:?]"
+                },
+                {
+                    "number": 6,
+                    "content": "at net.fabricmc.loader.FabricLoader.setup(FabricLoader.java:211) ~[fabric.jar:?]"
+                },
+                {
+                    "number": 7,
+                    "content": "at net.fabricmc.loader.FabricLoader.load(FabricLoader.java:201) [fabric.jar:?]"
+                },
+                {
+                    "number": 8,
+                    "content": "at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:126) [fabric.jar:?]"
+                },
+                {
+                    "number": 9,
+                    "content": "at net.fabricmc.loader.launch.knot.KnotServer.main(KnotServer.java:28) [fabric.jar:?]"
+                },
+                {
+                    "number": 10,
+                    "content": "at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_222]"
+                },
+                {
+                    "number": 11,
+                    "content": "at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_222]"
+                },
+                {
+                    "number": 12,
+                    "content": "at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_222]"
+                },
+                {
+                    "number": 13,
+                    "content": "at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_222]"
+                },
+                {
+                    "number": 14,
+                    "content": "at net.fabricmc.loader.launch.server.FabricServerLauncher.launch(FabricServerLauncher.java:62) [fabric.jar:?]"
+                },
+                {
+                    "number": 15,
+                    "content": "at net.fabricmc.loader.launch.server.FabricServerLauncher.setup(FabricServerLauncher.java:106) [fabric.jar:?]"
+                },
+                {
+                    "number": 16,
+                    "content": "at net.fabricmc.loader.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:50) [fabric.jar:?]"
+                },
+                {
+                    "number": 17,
+                    "content": "Caused by: net.fabricmc.loader.util.sat4j.specs.ContradictionException: Creating Empty clause ?"
+                },
+                {
+                    "number": 18,
+                    "content": "at net.fabricmc.loader.util.sat4j.minisat.constraints.cnf.Clauses.propagationCheck(Clauses.java:117) ~[fabric.jar:?]"
+                },
+                {
+                    "number": 19,
+                    "content": "at net.fabricmc.loader.util.sat4j.minisat.constraints.cnf.Clauses.sanityCheck(Clauses.java:97) ~[fabric.jar:?]"
+                },
+                {
+                    "number": 20,
+                    "content": "at net.fabricmc.loader.util.sat4j.minisat.constraints.MixedDataStructureDanielWL.createClause(MixedDataStructureDanielWL.java:81) ~[fabric.jar:?]"
+                },
+                {
+                    "number": 21,
+                    "content": "at net.fabricmc.loader.util.sat4j.minisat.core.Solver.addClause(Solver.java:401) ~[fabric.jar:?]"
+                },
+                {
+                    "number": 22,
+                    "content": "at net.fabricmc.loader.discovery.ModResolver.findCompatibleSet(ModResolver.java:177) ~[fabric.jar:?]"
+                },
+                {
+                    "number": 23,
+                    "content": "... 12 more"
+                },
+                {
+                    "number": 24,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'advanced-xray-fabric' is missing the required mod 'minecraft'.",
+                "counter": 1,
+                "entry": {
+                    "level": 2,
+                    "time": null,
+                    "prefix": "[19:46:41] [main\/FATAL]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[19:46:41] [main\/FATAL]: A critical error occurred"
+                        },
+                        {
+                            "number": 3,
+                            "content": "net.fabricmc.loader.discovery.ModResolutionException: Could not find required mod: advanced-xray-fabric requires {minecraft @ [1.17.x]}"
+                        },
+                        {
+                            "number": 4,
+                            "content": "at net.fabricmc.loader.discovery.ModResolver.findCompatibleSet(ModResolver.java:180) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 5,
+                            "content": "at net.fabricmc.loader.discovery.ModResolver.resolve(ModResolver.java:787) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 6,
+                            "content": "at net.fabricmc.loader.FabricLoader.setup(FabricLoader.java:211) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 7,
+                            "content": "at net.fabricmc.loader.FabricLoader.load(FabricLoader.java:201) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 8,
+                            "content": "at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:126) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 9,
+                            "content": "at net.fabricmc.loader.launch.knot.KnotServer.main(KnotServer.java:28) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 10,
+                            "content": "at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_222]"
+                        },
+                        {
+                            "number": 11,
+                            "content": "at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_222]"
+                        },
+                        {
+                            "number": 12,
+                            "content": "at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_222]"
+                        },
+                        {
+                            "number": 13,
+                            "content": "at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_222]"
+                        },
+                        {
+                            "number": 14,
+                            "content": "at net.fabricmc.loader.launch.server.FabricServerLauncher.launch(FabricServerLauncher.java:62) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 15,
+                            "content": "at net.fabricmc.loader.launch.server.FabricServerLauncher.setup(FabricServerLauncher.java:106) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "at net.fabricmc.loader.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:50) [fabric.jar:?]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "Caused by: net.fabricmc.loader.util.sat4j.specs.ContradictionException: Creating Empty clause ?"
+                        },
+                        {
+                            "number": 18,
+                            "content": "at net.fabricmc.loader.util.sat4j.minisat.constraints.cnf.Clauses.propagationCheck(Clauses.java:117) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "at net.fabricmc.loader.util.sat4j.minisat.constraints.cnf.Clauses.sanityCheck(Clauses.java:97) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "at net.fabricmc.loader.util.sat4j.minisat.constraints.MixedDataStructureDanielWL.createClause(MixedDataStructureDanielWL.java:81) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "at net.fabricmc.loader.util.sat4j.minisat.core.Solver.addClause(Solver.java:401) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 22,
+                            "content": "at net.fabricmc.loader.discovery.ModResolver.findCompatibleSet(ModResolver.java:177) ~[fabric.jar:?]"
+                        },
+                        {
+                            "number": 23,
+                            "content": "... 12 more"
+                        },
+                        {
+                            "number": 24,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'minecraft' with version 1.17.x."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.16.5",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[19:46:38] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[19:46:38] [main\/INFO]: Loading for game Minecraft 1.16.5"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.16.5"
+            }
+        ]
+    }
+}

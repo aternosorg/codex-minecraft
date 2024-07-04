@@ -1,8 +1,11 @@
 name: Tests
 
 on:
+  workflow_dispatch:
   pull_request:
   push:
+    branches:
+      - master
 
 jobs:
   tests:
@@ -10,13 +13,13 @@ jobs:
 
     strategy:
       matrix:
-        php-version: [ '8.1' ]
+        php-version: [ '8.1', '8.2' ]
 
     name: Run tests on PHP v${{ matrix.php-version }}
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -25,12 +28,12 @@ jobs:
 
       - name: Set composer cache directory
         id: composer-cache
-        run: echo "::set-output name=dir::$(composer config cache-files-dir)"
+        run: echo "COMPOSER_CACHE_DIRECTORY=$(composer config cache-files-dir)" >> $GITHUB_ENV
 
       - name: Restore composer from cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
-          path: ${{ steps.composer-cache.outputs.dir }}
+          path: ${{ env.COMPOSER_CACHE_DIRECTORY }}
           key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ runner.os }}-composer-
 

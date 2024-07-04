@@ -12,7 +12,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class PluginRemoveSolution extends PluginSolution
 {
     /**
-     * Get the solution as a human readable message
+     * Get the solution as a human-readable message
      *
      * @return string
      */

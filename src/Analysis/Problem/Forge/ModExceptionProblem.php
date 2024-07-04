@@ -14,7 +14,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class ModExceptionProblem extends ModProblem
 {
     /**
-     * Get a human readable message
+     * Get a human-readable message
      *
      * @return string
      */
@@ -28,12 +28,13 @@ class ModExceptionProblem extends ModProblem
      *
      * The array key of the pattern will be passed to setMatches()
      *
-     * @return array
+     * @return string[]
      */
     public static function getPatterns(): array
     {
         return [
-            '/Caught exception from ([^\(\n]+)/'
+            '/Caught exception from ([^\(\n]+)/',
+            '/net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: \[\s+([^\(\n]+) \([^\)]+\) encountered an error during/'
         ];
     }
 
@@ -41,9 +42,10 @@ class ModExceptionProblem extends ModProblem
      * Apply the matches from the pattern
      *
      * @param array $matches
-     * @param $patternKey
+     * @param mixed $patternKey
+     * @return void
      */
-    public function setMatches(array $matches, $patternKey): void
+    public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->modName = trim($matches[1]);
 

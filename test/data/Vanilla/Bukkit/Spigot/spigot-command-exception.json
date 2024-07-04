@@ -1,0 +1,308 @@
+{
+    "id": "spigot\/server",
+    "name": "Spigot",
+    "type": "Server Log",
+    "version": "1.8.8",
+    "title": "Spigot 1.8.8 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:42] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[11:47:42] [Server thread\/INFO]: Starting minecraft server version 1.8.8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:42] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[11:47:42] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:43] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[11:47:43] [Server thread\/INFO]: Default game type: CREATIVE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:47:43] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[11:47:43] [Server thread\/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[10:25:31] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[10:25:31] [Server thread\/INFO]: Player issued server command: \/bm enable"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[10:25:31] [Server thread\/ERROR]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[10:25:31] [Server thread\/ERROR]: null"
+                },
+                {
+                    "number": 7,
+                    "content": "org.bukkit.command.CommandException: Cannot execute command 'bm' in plugin BuildMoney v3.5 - plugin is disabled."
+                },
+                {
+                    "number": 8,
+                    "content": "at org.bukkit.command.PluginCommand.execute(PluginCommand.java:36) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 9,
+                    "content": "at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 10,
+                    "content": "at org.bukkit.craftbukkit.v1_13_R1.CraftServer.dispatchCommand(CraftServer.java:694) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 11,
+                    "content": "at net.minecraft.server.v1_13_R1.PlayerConnection.handleCommand(PlayerConnection.java:1634) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 12,
+                    "content": "at net.minecraft.server.v1_13_R1.PlayerConnection.a(PlayerConnection.java:1469) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 13,
+                    "content": "at net.minecraft.server.v1_13_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 14,
+                    "content": "at net.minecraft.server.v1_13_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 15,
+                    "content": "at net.minecraft.server.v1_13_R1.PlayerConnectionUtils.a(SourceFile:10) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 16,
+                    "content": "at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_144]"
+                },
+                {
+                    "number": 17,
+                    "content": "at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_144]"
+                },
+                {
+                    "number": 18,
+                    "content": "at net.minecraft.server.v1_13_R1.SystemUtils.a(SourceFile:198) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 19,
+                    "content": "at net.minecraft.server.v1_13_R1.MinecraftServer.w(MinecraftServer.java:884) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 20,
+                    "content": "at net.minecraft.server.v1_13_R1.DedicatedServer.w(DedicatedServer.java:411) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 21,
+                    "content": "at net.minecraft.server.v1_13_R1.MinecraftServer.v(MinecraftServer.java:819) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 22,
+                    "content": "at net.minecraft.server.v1_13_R1.MinecraftServer.run(MinecraftServer.java:717) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 23,
+                    "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[10:25:55] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[10:25:55] [Server thread\/WARN]: Unexpected exception while parsing console command \"bm enable\""
+                },
+                {
+                    "number": 25,
+                    "content": "org.bukkit.command.CommandException: Cannot execute command 'bm' in plugin BuildMoney v3.5 - plugin is disabled."
+                },
+                {
+                    "number": 26,
+                    "content": "at org.bukkit.command.PluginCommand.execute(PluginCommand.java:36) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 27,
+                    "content": "at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 28,
+                    "content": "at org.bukkit.craftbukkit.v1_13_R1.CraftServer.dispatchCommand(CraftServer.java:694) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 29,
+                    "content": "at org.bukkit.craftbukkit.v1_13_R1.CraftServer.dispatchServerCommand(CraftServer.java:679) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 30,
+                    "content": "at net.minecraft.server.v1_13_R1.DedicatedServer.aW(DedicatedServer.java:453) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 31,
+                    "content": "at net.minecraft.server.v1_13_R1.DedicatedServer.w(DedicatedServer.java:412) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 32,
+                    "content": "at net.minecraft.server.v1_13_R1.MinecraftServer.v(MinecraftServer.java:819) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 33,
+                    "content": "at net.minecraft.server.v1_13_R1.MinecraftServer.run(MinecraftServer.java:717) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                },
+                {
+                    "number": 34,
+                    "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The plugin 'BuildMoney' cannot execute the command '\/bm'.",
+                "counter": 2,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[10:25:31] [Server thread\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 6,
+                            "content": "[10:25:31] [Server thread\/ERROR]: null"
+                        },
+                        {
+                            "number": 7,
+                            "content": "org.bukkit.command.CommandException: Cannot execute command 'bm' in plugin BuildMoney v3.5 - plugin is disabled."
+                        },
+                        {
+                            "number": 8,
+                            "content": "at org.bukkit.command.PluginCommand.execute(PluginCommand.java:36) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                        },
+                        {
+                            "number": 9,
+                            "content": "at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                        },
+                        {
+                            "number": 10,
+                            "content": "at org.bukkit.craftbukkit.v1_13_R1.CraftServer.dispatchCommand(CraftServer.java:694) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                        },
+                        {
+                            "number": 11,
+                            "content": "at net.minecraft.server.v1_13_R1.PlayerConnection.handleCommand(PlayerConnection.java:1634) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                        },
+                        {
+                            "number": 12,
+                            "content": "at net.minecraft.server.v1_13_R1.PlayerConnection.a(PlayerConnection.java:1469) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                        },
+                        {
+                            "number": 13,
+                            "content": "at net.minecraft.server.v1_13_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                        },
+                        {
+                            "number": 14,
+                            "content": "at net.minecraft.server.v1_13_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                        },
+                        {
+                            "number": 15,
+                            "content": "at net.minecraft.server.v1_13_R1.PlayerConnectionUtils.a(SourceFile:10) ~[minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_144]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_144]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "at net.minecraft.server.v1_13_R1.SystemUtils.a(SourceFile:198) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "at net.minecraft.server.v1_13_R1.MinecraftServer.w(MinecraftServer.java:884) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "at net.minecraft.server.v1_13_R1.DedicatedServer.w(DedicatedServer.java:411) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "at net.minecraft.server.v1_13_R1.MinecraftServer.v(MinecraftServer.java:819) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                        },
+                        {
+                            "number": 22,
+                            "content": "at net.minecraft.server.v1_13_R1.MinecraftServer.run(MinecraftServer.java:717) [minecraft_server.jar:git-Spigot-fe3ab0d-3418f8d]"
+                        },
+                        {
+                            "number": 23,
+                            "content": "at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'BuildMoney'."
+                    },
+                    {
+                        "message": "Remove the plugin 'BuildMoney'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.8.8",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[11:47:42] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[11:47:42] [Server thread\/INFO]: Starting minecraft server version 1.8.8"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.8.8"
+            }
+        ]
+    }
+}

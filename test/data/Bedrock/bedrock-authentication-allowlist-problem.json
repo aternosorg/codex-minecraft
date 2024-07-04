@@ -1,0 +1,70 @@
+{
+    "id": "bedrock\/server",
+    "name": "Bedrock",
+    "type": "Server Log",
+    "version": null,
+    "title": "Bedrock Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[2022-03-02 22:04:05:045 INFO]",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[2022-03-02 22:04:05:045 INFO] Starting Server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[2022-03-02 22:04:05:045 INFO]",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[2022-03-02 22:04:05:045 INFO] Version **.**.**.**"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[2022-03-02 22:04:05:046 ERROR]",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[2022-03-02 22:04:05:046 ERROR] Using an allowlist but without online authentication can be dangerous and is not allowed."
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "Using an allowlist without online authentication is not allowed.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[2022-03-02 22:04:05:046 ERROR]",
+                    "lines": [
+                        {
+                            "number": 3,
+                            "content": "[2022-03-02 22:04:05:046 ERROR] Using an allowlist but without online authentication can be dangerous and is not allowed."
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Enable the online authentication."
+                    },
+                    {
+                        "message": "Disable the allowlist."
+                    }
+                ]
+            }
+        ],
+        "information": []
+    }
+}
