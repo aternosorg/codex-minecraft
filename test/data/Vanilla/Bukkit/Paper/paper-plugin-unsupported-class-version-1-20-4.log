@@ -1,0 +1,65 @@
+[16:52:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:52:44] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[16:52:44] [ServerMain/INFO]: No existing world data, creating new world
+[16:52:45] [ServerMain/INFO]: Loaded 1174 recipes
+[16:52:45] [ServerMain/INFO]: Loaded 1271 advancements
+[16:52:45] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[16:52:45] [Server thread/INFO]: Loading properties
+[16:52:45] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[16:52:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:52:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:52:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[16:52:46] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[16:52:46] [Server thread/INFO]: Default game type: SURVIVAL
+[16:52:46] [Server thread/INFO]: Generating keypair
+[16:52:46] [Server thread/INFO]: Starting Minecraft server on *:49877
+[16:52:46] [Server thread/INFO]: Using epoll channel type
+[16:52:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:52:46] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[16:52:46] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldedit-bukkit-7.3.4-beta-01.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:507) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:274) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.4.jar:git-Paper-497]
+	... 9 more
+[16:52:46] [Server thread/INFO]: Preparing level "world"
+[16:52:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:52:56] [Server thread/INFO]: Time elapsed: 118 ms
+[16:52:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:52:56] [Server thread/INFO]: Time elapsed: 65 ms
+[16:52:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:52:56] [Server thread/INFO]: Time elapsed: 80 ms
+[16:52:56] [Server thread/INFO]: Starting GS4 status listener
+[16:52:56] [Server thread/INFO]: Thread Query Listener started
+[16:52:56] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
+[16:52:56] [Server thread/INFO]: JMX monitoring enabled
+[16:52:56] [Server thread/INFO]: Running delayed init tasks
+[16:52:56] [Server thread/INFO]: Done (10.766s)! For help, type "help"
+[16:52:56] [Server thread/INFO]: *************************************************************************************
+[16:52:56] [Server thread/INFO]: This is the first time you're starting this server.
+[16:52:56] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[16:52:56] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[16:52:56] [Server thread/INFO]: *************************************************************************************
+[16:52:56] [Server thread/INFO]: Timings Reset
