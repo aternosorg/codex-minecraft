@@ -46,7 +46,10 @@ class AmbiguousPluginNameProblem extends BukkitProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Ambiguous plugin name `(\S+)\' for files `(plugins\/[^\']+)\' and `(plugins\/[^\']+)\' in `plugins\'/'];
+        return [
+            '/Ambiguous plugin name `(\S+)\' for files `(plugins\/[^\']+)\' and `(plugins\/[^\']+)\' in `plugins\'/',
+            '/Ambiguous plugin name \'(\S+)\' for files \'(plugins\/[^\']+)\' and \'(plugins\/[^\']+)\' in \'plugins\'/'
+        ];
     }
 
     /**
