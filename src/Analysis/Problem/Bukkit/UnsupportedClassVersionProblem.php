@@ -2,8 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\ServerInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\UpdateJavaSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
@@ -52,9 +50,13 @@ class UnsupportedClassVersionProblem extends PluginProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->pluginPath = $matches[1];
-        $this->pluginName = $matches[2];
-        $this->classFileVersion = $matches[3];
+        $pluginFileName = $matches[1]; // worldedit-bukkit-7.3.4-beta-01.jar
+        $pluginName = $matches[2]; // worldedit-bukkit-7.3.4-beta-01
+        $folderName = $matches[3]; // plugins
+
+        $this->pluginPath = $folderName . '/' . $pluginFileName;
+        $this->pluginName = $pluginName;
+        $this->classFileVersion = $matches[4];
 
         $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginPath()));
         $this->addSolution((new UpdateJavaSolution())->setVersion($this->getJavaVersion()));
@@ -71,7 +73,9 @@ class UnsupportedClassVersionProblem extends PluginProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in folder \'[^\']+\''
+            '/Could not load \'plugins[\/\\\](((?!\.jar).*)\.jar)\' in folder \'([^\']+)\''
+            . '\norg\.bukkit\.plugin\.InvalidPluginException\: java\.lang\.UnsupportedClassVersionError: .+ \(class file version (\d+)\.\d+\)/',
+            '/Could not load plugin \'(((?!\.jar).*)\.jar)\' in folder \'([^\']+)\''
             . '\norg\.bukkit\.plugin\.InvalidPluginException\: java\.lang\.UnsupportedClassVersionError: .+ \(class file version (\d+)\.\d+\)/'
         ];
     }
