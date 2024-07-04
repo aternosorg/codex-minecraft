@@ -1,0 +1,37 @@
+[19:23:25] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:23:25] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[19:23:26] [ServerMain/INFO]: Loaded 7 recipes
+[19:23:26] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[19:23:26] [Server thread/INFO]: Loading properties
+[19:23:26] [Server thread/INFO]: This server is running Folia version git-Folia-39 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: ca3b7ad)
+[19:23:26] [Server thread/WARN]: [!] The timings system cannot be enabled on Folia, and has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[19:23:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:23:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:23:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[19:23:27] [Server thread/INFO]: [io.papermc.paper.threadedregions.TickRegions] Regionised ticking is enabled with 1 tick threads
+[19:23:27] [Server thread/INFO]: Default game type: SURVIVAL
+[19:23:27] [Server thread/INFO]: Generating keypair
+[19:23:27] [Server thread/INFO]: Starting Minecraft server on *:49877
+[19:23:27] [Server thread/INFO]: Using epoll channel type
+[19:23:27] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:23:27] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[19:23:27] [Server thread/INFO]: Preparing level "world"
+[19:23:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:23:27] [Server thread/INFO]: Time elapsed: 8 ms
+[19:23:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:23:27] [Server thread/INFO]: Time elapsed: 5 ms
+[19:23:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:23:27] [Server thread/INFO]: Time elapsed: 17 ms
+[19:23:27] [Server thread/INFO]: Starting GS4 status listener
+[19:23:27] [Server thread/INFO]: Thread Query Listener started
+[19:23:27] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
+[19:23:27] [Server thread/INFO]: Done (1.016s)! For help, type "help"
+[19:23:28] [Region Scheduler Thread #0/INFO]: Initialising world 'world' before it can be ticked...
+[19:23:36] [Region Scheduler Thread #0/INFO]: Initialised world 'world'
+[19:23:36] [Region Scheduler Thread #0/INFO]: Timings Reset
+[19:23:36] [Region Scheduler Thread #0/INFO]: Initialising world 'world_nether' before it can be ticked...
+[19:23:37] [Region Scheduler Thread #0/INFO]: Initialised world 'world_nether'
+[19:23:37] [Region Scheduler Thread #0/INFO]: Initialising world 'world_the_end' before it can be ticked...
+[19:23:37] [Region Scheduler Thread #0/INFO]: Initialised world 'world_the_end'

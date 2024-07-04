@@ -1,0 +1,479 @@
+{
+    "id": "paper\/server",
+    "name": "Paper",
+    "type": "Server Log",
+    "version": "1.20.6",
+    "title": "Paper 1.20.6 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:33] [Paper Plugin Remapper Thread - 0\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[19:21:33] [Paper Plugin Remapper Thread - 0\/INFO]: [ReobfServer] Remapping server..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:38] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[19:21:38] [ServerMain\/INFO]: Environment: Environment[sessionHost=https:\/\/sessionserver.mojang.com, servicesHost=https:\/\/api.minecraftservices.com, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:38] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[19:21:38] [ServerMain\/INFO]: Found new data pack file\/bukkit, loading it automatically"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:38] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[19:21:38] [ServerMain\/INFO]: Found new data pack paper, loading it automatically"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:39] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[19:21:39] [ServerMain\/INFO]: No existing world data, creating new world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:39] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[19:21:39] [ServerMain\/INFO]: Loaded 1175 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:40] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[19:21:40] [ServerMain\/INFO]: Loaded 1276 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:40] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[19:21:40] [Server thread\/INFO]: Starting minecraft server version 1.20.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:40] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[19:21:40] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:40] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[19:21:40] [Server thread\/INFO]: This server is running Paper version 1.20.6-148-ver\/1.20.6@20f5165 (2024-07-02T15:37:33Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:40] [Paper Plugin Remapper Thread - 0\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[19:21:40] [Paper Plugin Remapper Thread - 0\/INFO]: [ReobfServer] Done remapping server in 6834ms."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:41] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[19:21:41] [Server thread\/INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:41] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[19:21:41] [Server thread\/INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:41] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[19:21:41] [Server thread\/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I\/O threads, 1 worker threads, and gen parallelism of 1 threads"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:21:41] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[19:21:41] [Server thread\/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future."
+                },
+                {
+                    "number": 16,
+                    "content": "    We recommend installing the spark profiler as a replacement: https:\/\/spark.lucko.me\/"
+                },
+                {
+                    "number": 17,
+                    "content": "    For more information please visit: https:\/\/github.com\/PaperMC\/Paper\/issues\/8948"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:42] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[19:21:42] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:42] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[19:21:42] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:42] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[19:21:42] [Server thread\/INFO]: Starting Minecraft server on *:49877"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:42] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[19:21:42] [Server thread\/INFO]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:42] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[19:21:42] [Server thread\/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:42] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[19:21:42] [Server thread\/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:42] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[19:21:42] [Server thread\/INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:21:54] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[19:21:54] [Server thread\/INFO]: Preparing start region for dimension minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:02] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[19:22:02] [Server thread\/INFO]: Time elapsed: 7806 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:02] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[19:22:02] [Server thread\/INFO]: Preparing start region for dimension minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[19:22:04] [Server thread\/INFO]: Time elapsed: 2275 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[19:22:04] [Server thread\/INFO]: Preparing start region for dimension minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[19:22:05] [Server thread\/INFO]: Time elapsed: 592 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[19:22:05] [Server thread\/INFO]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[19:22:05] [Server thread\/INFO]: Thread Query Listener started"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:05] [Query Listener #1\/INFO]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[19:22:05] [Query Listener #1\/INFO]: Query running on 0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[19:22:05] [Server thread\/INFO]: JMX monitoring enabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[19:22:05] [Server thread\/INFO]: Running delayed init tasks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[19:22:05] [Server thread\/INFO]: Done (25.068s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[19:22:05] [Server thread\/INFO]: *************************************************************************************"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[19:22:05] [Server thread\/INFO]: This is the first time you're starting this server."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[19:22:05] [Server thread\/INFO]: It's recommended you read our 'Getting Started' documentation for guidance."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[19:22:05] [Server thread\/INFO]: View this and more helpful information here: https:\/\/docs.papermc.io\/paper\/next-steps"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[19:22:05] [Server thread\/INFO]: *************************************************************************************"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:22:05] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[19:22:05] [Server thread\/INFO]: Timings Reset"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.20.6",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[19:21:40] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 8,
+                            "content": "[19:21:40] [Server thread\/INFO]: Starting minecraft server version 1.20.6"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.20.6"
+            }
+        ]
+    }
+}
