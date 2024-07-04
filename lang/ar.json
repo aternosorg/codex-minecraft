@@ -11,7 +11,7 @@
     "magma-version": "اصدار \"ماقما\"",
     "mohist-version": "اصدار الموهيست",
     "arclight-version": "الإصدار الضوئي",
-    "custom-skin-loader-version": "محمل السكن المخصص",
+    "custom-skin-loader-version": "إصدار CustomSkinLoader",
     "authme-shutdown-problem": "فشل تحميل الاضافة 'AuthMe' وسيتم ايقاف تشغيل السيرفر.",
     "pex-config-problem": "تكوين البلوقن'PermissionsEx' غير صالح.",
     "ambiguous-plugin-name-problem": "تم العثور على أكثر من ملف للبلوقن '{{plugin-name}}' في المكانين {{first-plugin-path}} و {{second-plugin-path}}",
