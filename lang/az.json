@@ -70,7 +70,7 @@
     "generate-new-world-solution": "Yeni bir dünya yaradın.",
     "bedrock-dbstorage-chain-problem": "Dünyanın şifrəsi açıla bilmir. Marketplace dünyaları xüsusi serverlərdə quraşdırıla bilməz.",
     "mod-incompatible-problem": "'{{first-mod-name}}' və '{{second-mod-name}}' modları uyğun gəlmir.",
-    "server-install-different-version-solution": "Server yazılımınızın {{software-version}} versiyasını quraşdır.",
+    "server-install-different-version-solution": "Server yazılımınızın '{{software-version}}' versiyasını quraşdır.",
     "plugin-api-version-problem": "'{{plugin-name}}' qoşmasına server yazılımınızın {{software-version}} versiyası lazımdır.",
     "plugin-java-version-problem": "'{{plugin-name}}' qoşmasını işə salmaq üçün {{java-version}} və ya daha yuxarı Java versiyası tələb olunur.",
     "change-java-version-solution": "Java versiyasını {{java-version}} və ya daha sonrasına dəyişdirin.",
