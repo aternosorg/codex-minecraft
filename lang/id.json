@@ -7,8 +7,11 @@
     "pocketmine-version": "Versi Pocketmine",
     "bedrock-version": "Versi Bedrock",
     "forge-version": "Versi Forge",
+    "neoforge-version": "Versi NeoForge",
     "magma-version": "Versi Magma",
     "mohist-version": "Versi Mohist",
+    "arclight-version": "Versi Arclight",
+    "custom-skin-loader-version": "Versi CustomSkinLoader",
     "authme-shutdown-problem": "Plugin 'AuthMe' gagal untuk memuat dan menutup server.",
     "pex-config-problem": "Konfigurasi plugin 'PermissionsEx' tidak valid.",
     "ambiguous-plugin-name-problem": "Ada beberapa berkas plugin untuk plugin dengan nama '{{plugin-name}}': '{{first-plugin-path}}' dan '{{second-plugin-path}} '.",
@@ -69,8 +72,15 @@
     "mod-incompatible-problem": "Mod '{{first-mod-name}}' dan '{{second-mod-name}}' tidak kompatibel.",
     "server-install-different-version-solution": "Instal versi '{{software-version}}' dari perangkat lunak server Anda.",
     "plugin-api-version-problem": "Plugin '{{plugin-name}}' membutuhkan versi '{{software-version}}' dari perangkat lunak server Anda.",
+    "plugin-java-version-problem": "Plugin '{{plugin-name}}' memerlukan versi Java {{java-version}} atau yang lebih baru untuk berjalan.",
+    "change-java-version-solution": "Ubah versi Java Anda ke {{java-version}} atau yang lebih baru.",
     "ticking-entity-problem": "Entity {{name}} di lokasi {{location}} menyebabkan masalah saat memperbaharui.",
     "remove-entity-solution": "Hapus entity {{name}} di lokasi {{location}}.",
     "type-client": "#5",
-    "type-server": "Log Peladen"
+    "type-server": "Log Peladen",
+    "type-proxy": "Catatan Proxy",
+    "type-content": "Catatan Konten",
+    "type-crash-report": "Laporan Masalah",
+    "type-unknown": "Catatan Tidak Dikenal",
+    "forge-language-provider-version-problem": "Mod '{{mod-file}}' memerlukan '{{required-version}}', tapi '{{found-version}}' yang terpasang."
 }

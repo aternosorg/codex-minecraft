@@ -63,5 +63,10 @@
     "version-downgrade-problem": "Ang iyong mundo ay nagamit sa bagong bersyon dati pa.",
     "version-downgrade-solution": "I-install ang bagong bersyon ng Minecraft.",
     "generate-new-world-solution": "Mag gawa ka ng bagong mundo.",
-    "bedrock-dbstorage-chain-problem": "Hindi ma decrypt ang world. Ang marketplace worlds ay hindi ma-Install sa server"
+    "bedrock-dbstorage-chain-problem": "Hindi ma decrypt ang world. Ang marketplace worlds ay hindi ma-Install sa server",
+    "mod-incompatible-problem": "Ang mods  '{{first-mod-name}}' at '{{second-mod-name}}' ay hindi magkatugma.",
+    "server-install-different-version-solution": "Pa install nyo ang bersyon '{{software-version}}' ng iyong server software.",
+    "plugin-api-version-problem": "Ang plugin '{{plugin-name}}' ay kinakailangan ang bersyon '{{software-version}}' ng iyong server software.",
+    "ticking-entity-problem": "Ang entity '{{name}}' sa lokasyon {{location}} ay nagdudulot ng mga isyu habang ticking.",
+    "remove-entity-solution": "Tanggalin ang entity '{{name}}' sa lokasyon {{location}}"
 }

@@ -1,1 +1,6 @@
-{}
+{
+    "minecraft-version": "Minecraft хувилбар",
+    "java-version": "Java хувилбар",
+    "fabric-version": "Fabric ачигчийн хувилбар",
+    "quilt-version": "Quilt ачаалагч хувилбар"
+}

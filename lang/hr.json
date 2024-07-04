@@ -7,8 +7,11 @@
     "pocketmine-version": "Verzija pocketmine-a",
     "bedrock-version": "Bedrock verzija",
     "forge-version": "Forge verzija",
+    "neoforge-version": "NeoForge verzija",
     "magma-version": "Magma verzija",
     "mohist-version": "Verzija Mohista",
+    "arclight-version": "Arclight verzija",
+    "custom-skin-loader-version": "CustomSkinLoader verzija",
     "authme-shutdown-problem": "Plugin 'AuthMe' se ne može učitati i gasi server.",
     "pex-config-problem": "Konfiguracija dodatka 'PermissionsEx' je nevažeća.",
     "ambiguous-plugin-name-problem": "Postoji više dodataka s nazivom '{{plugin-name}}': '{{first-plugin-path}}' i '{{second-plugin-path}}'.",
@@ -73,10 +76,13 @@
     "change-java-version-solution": "Verzija Jave mora biti {{java-version}} ili novija.",
     "ticking-entity-problem": "Stvorenje {{name}} na lokaciji {{location}} stvara probleme pri otkucavanju.",
     "remove-entity-solution": "Uklonite stvorenje {{name}} na lokaciji {{location}}.",
+    "plugin-regional-ticking-problem": "Dodatak {{plugin-name}} ne podržava regionalno označavanje.",
+    "install-non-regional-ticking-software-solution": "Instalirajte softver bez regionalnog označavanja, poput {{software-name}}.",
     "type-client": "Zapisi o klijentu",
     "type-server": "Zapisi o serveru",
     "type-proxy": "Zapisi o proxyju",
     "type-content": "Zapisi o sadržaju",
     "type-crash-report": "Izvješća o padu programa",
-    "type-unknown": "Nepoznati zapisi"
+    "type-unknown": "Nepoznati zapisi",
+    "forge-language-provider-version-problem": "Mod '{{mod-file}}' zahtijeva '{{required-version}}', ali '{{found-version}}' je instaliran."
 }

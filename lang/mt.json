@@ -21,7 +21,6 @@
     "mod-fatal-problem": "Il-mod '{{mod-name}}' għandu żball fatali.",
     "world-missing-mod-problem": "Id-dinja ġiet salvata bil-mod '{{mod-name}}' li tidher nieqsa.",
     "plugin-incompatible-problem": "Il-plugin \"{{plugin-name}}\" huwa inkompatibbli mal-verżjoni tas-server attwali tiegħek.",
-    "aquatic-world-on-older-version-problem": "121/5000Id-dinja attwali nħolqot / mgħobbija b’Mincraft 1.13 jew aktar. Il-format il-ġdid ma jistax jitgħabba fi verżjoni oħra.",
     "old-player-directory-problem": "Is-server innota direttur tal-plejer antik fid-dinja ħlief.",
     "command-run-solution": "Ħaddem il-kmand '{{command}}'.",
     "authme-shutdown-solution": "Set 'stopServer' to 'true'.",

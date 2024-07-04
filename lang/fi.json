@@ -69,6 +69,14 @@
     "mod-incompatible-problem": "Modit {{first-mod-name}}' ja '{{second-mod-name}}' ovat yhteensopimattomia.",
     "server-install-different-version-solution": "Asenna serverisi versio '{{software-version}}' .",
     "plugin-api-version-problem": "Lisäosa {{plugin-name}}' tarvitsee version '{{software-version}}' sinun palvelimen ohjelmasta.",
+    "plugin-java-version-problem": "Lisäosa '{{plugin-name}}' vaatii Java version {{java-version}} tai myöhemmän",
+    "change-java-version-solution": "Vaihda Java versiosi versioksi {{java-version}} tai myöhempään",
     "ticking-entity-problem": "Entiteetti '{{name}}' sijainti kohdassa {{location}} aiheuttaa ongelmia tikauksen aikana",
-    "remove-entity-solution": "Poista entiteetti '{{name}}' sijainnista {{location}}"
+    "remove-entity-solution": "Poista entiteetti '{{name}}' sijainnista {{location}}",
+    "type-client": "Pelaajan loki",
+    "type-server": "Palvelimen Loki",
+    "type-proxy": "Välityspalvelimen Loki",
+    "type-content": "Sisältö Loki",
+    "type-crash-report": "Kaatumis reportti",
+    "type-unknown": "TUntematon Loki"
 }
