@@ -1,0 +1,553 @@
+{
+    "id": "paper\/server",
+    "name": "Paper",
+    "type": "Server Log",
+    "version": "1.20.4",
+    "title": "Paper 1.20.4 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:32] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[11:58:32] [ServerMain\/INFO]: Environment: Environment[sessionHost=https:\/\/sessionserver.mojang.com, servicesHost=https:\/\/api.minecraftservices.com, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:32] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[11:58:32] [ServerMain\/INFO]: Found new data pack file\/bukkit, loading it automatically"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:33] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[11:58:33] [ServerMain\/INFO]: No existing world data, creating new world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:33] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[11:58:33] [ServerMain\/INFO]: Loaded 1174 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:34] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[11:58:34] [ServerMain\/INFO]: Loaded 1271 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[11:58:34] [Server thread\/INFO]: Starting minecraft server version 1.20.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[11:58:34] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[11:58:34] [Server thread\/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver\/1.20.4)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[11:58:34] [Server thread\/INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[11:58:34] [Server thread\/INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[11:58:34] [Server thread\/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I\/O threads, 1 worker threads, and gen parallelism of 1 threads"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[11:58:34] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[11:58:34] [Server thread\/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future."
+                },
+                {
+                    "number": 13,
+                    "content": "    We recommend installing the spark profiler as a replacement: https:\/\/spark.lucko.me\/"
+                },
+                {
+                    "number": 14,
+                    "content": "    For more information please visit: https:\/\/github.com\/PaperMC\/Paper\/issues\/8948"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[11:58:35] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[11:58:35] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[11:58:35] [Server thread\/INFO]: Starting Minecraft server on *:49877"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[11:58:35] [Server thread\/INFO]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[11:58:35] [Server thread\/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[11:58:35] [Server thread\/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[11:58:35] [Server thread\/ERROR]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[11:58:35] [Server thread\/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\/worldguard-bukkit-7.0.9-dist.jar' in 'plugins'"
+                },
+                {
+                    "number": 22,
+                    "content": "org.bukkit.plugin.UnknownDependencyException: Unknown\/missing dependency plugins: [WorldEdit]. Please download and install these plugins to run 'WorldGuard'."
+                },
+                {
+                    "number": 23,
+                    "content": "\tat io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.20.4.jar:git-Paper-497]"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.20.4.jar:git-Paper-497]"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.4.jar:git-Paper-497]"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:507) ~[paper-1.20.4.jar:git-Paper-497]"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:274) ~[paper-1.20.4.jar:git-Paper-497]"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-497]"
+                },
+                {
+                    "number": 29,
+                    "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat java.lang.Thread.run(Thread.java:840) ~[?:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:35] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[11:58:35] [Server thread\/INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:44] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[11:58:44] [Server thread\/INFO]: Preparing start region for dimension minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[11:58:45] [Server thread\/INFO]: Time elapsed: 136 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[11:58:45] [Server thread\/INFO]: Preparing start region for dimension minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[11:58:45] [Server thread\/INFO]: Time elapsed: 45 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[11:58:45] [Server thread\/INFO]: Preparing start region for dimension minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[11:58:45] [Server thread\/INFO]: Time elapsed: 40 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[11:58:45] [Server thread\/INFO]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[11:58:45] [Server thread\/INFO]: Thread Query Listener started"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Query Listener #1\/INFO]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[11:58:45] [Query Listener #1\/INFO]: Query running on 0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[11:58:45] [Server thread\/INFO]: JMX monitoring enabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[11:58:45] [Server thread\/INFO]: Running delayed init tasks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[11:58:45] [Server thread\/INFO]: Done (11.035s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[11:58:45] [Server thread\/INFO]: *************************************************************************************"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[11:58:45] [Server thread\/INFO]: This is the first time you're starting this server."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[11:58:45] [Server thread\/INFO]: It's recommended you read our 'Getting Started' documentation for guidance."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[11:58:45] [Server thread\/INFO]: View this and more helpful information here: https:\/\/docs.papermc.io\/paper\/next-steps"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[11:58:45] [Server thread\/INFO]: *************************************************************************************"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:58:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[11:58:45] [Server thread\/INFO]: Timings Reset"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The plugin 'worldguard-bukkit-7.0.9-dist' is missing the required plugin 'WorldEdit'.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[11:58:35] [Server thread\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 21,
+                            "content": "[11:58:35] [Server thread\/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\/worldguard-bukkit-7.0.9-dist.jar' in 'plugins'"
+                        },
+                        {
+                            "number": 22,
+                            "content": "org.bukkit.plugin.UnknownDependencyException: Unknown\/missing dependency plugins: [WorldEdit]. Please download and install these plugins to run 'WorldGuard'."
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.20.4.jar:git-Paper-497]"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.20.4.jar:git-Paper-497]"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.4.jar:git-Paper-497]"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:507) ~[paper-1.20.4.jar:git-Paper-497]"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:274) ~[paper-1.20.4.jar:git-Paper-497]"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-497]"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]"
+                        },
+                        {
+                            "number": 30,
+                            "content": "\tat java.lang.Thread.run(Thread.java:840) ~[?:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the plugin 'WorldEdit'."
+                    },
+                    {
+                        "message": "Delete the file 'plugins\/worldguard-bukkit-7.0.9-dist.jar'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.20.4",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[11:58:34] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 6,
+                            "content": "[11:58:34] [Server thread\/INFO]: Starting minecraft server version 1.20.4"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.20.4"
+            }
+        ]
+    }
+}

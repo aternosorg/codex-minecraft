@@ -1,0 +1,43 @@
+[14:02:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:02:11] [ServerMain/INFO]: Loaded 1174 recipes
+[14:02:11] [ServerMain/INFO]: Loaded 1271 advancements
+[14:02:11] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[14:02:11] [Server thread/INFO]: Loading properties
+[14:02:11] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[14:02:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:02:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:02:12] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[14:02:12] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[14:02:12] [Server thread/INFO]: Default game type: SURVIVAL
+[14:02:12] [Server thread/INFO]: Generating keypair
+[14:02:12] [Server thread/INFO]: Starting Minecraft server on *:49877
+[14:02:12] [Server thread/INFO]: Using epoll channel type
+[14:02:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:02:12] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[14:02:12] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/mclogs-bukkit-2.3.1.jar' in 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [example1, example2]. Please download and install these plugins to run 'Mclogs'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:507) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:274) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[14:02:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:02:12] [Server thread/INFO]: Preparing level "world"
+[14:02:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:02:13] [Server thread/INFO]: Time elapsed: 220 ms
+[14:02:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:02:13] [Server thread/INFO]: Time elapsed: 76 ms
+[14:02:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:02:13] [Server thread/INFO]: Time elapsed: 95 ms
+[14:02:13] [Server thread/INFO]: Starting GS4 status listener
+[14:02:13] [Server thread/INFO]: Thread Query Listener started
+[14:02:13] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
+[14:02:13] [Server thread/INFO]: JMX monitoring enabled
+[14:02:13] [Server thread/INFO]: Running delayed init tasks
+[14:02:13] [Server thread/INFO]: Done (1.935s)! For help, type "help"
+[14:02:13] [Server thread/INFO]: Timings Reset

@@ -88,7 +88,9 @@ class PluginDependenciesProblem extends BukkitProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in folder \'[^\']+\'\norg\.bukkit\.plugin\.UnknownDependencyException\: Unknown\/missing dependency plugins: \[([\w ,]+)\]/'];
+        return [
+            '/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in (?:folder )?\'[^\']+\''
+            . '\norg\.bukkit\.plugin\.UnknownDependencyException\: Unknown\/missing dependency plugins: \[([\w ,]+)\]/'];
     }
 
     /**
