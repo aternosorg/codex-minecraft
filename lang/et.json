@@ -69,7 +69,7 @@
     "version-downgrade-solution": "Installige Minecrafti uuem versioon.",
     "generate-new-world-solution": "Looge uus maailm.",
     "bedrock-dbstorage-chain-problem": "Ei saa dekrüpteerida maailma. Marketplace-i maailmad ei saa installeerida pühendunud serverile.",
-    "mod-incompatible-problem": "Modid '{{first-mod-name}}. ja '{{second-mod-name}}' ei ole ühilduvad.",
+    "mod-incompatible-problem": "Modid '{{first-mod-name}}' ja '{{second-mod-name}}' ei ole ühilduvad.",
     "server-install-different-version-solution": "Installi versioon '{{software-version}}' sinu serveri tarkvarast.",
     "plugin-api-version-problem": "Plugin '{{plugin-name}}' vajab versiooni '{{software-version}}' sinu serveri tarkvarast.",
     "plugin-java-version-problem": "Plugin '{{plugin-name}}' vajab Jaava versiooni {{java-version}} või hilisemat et töödata.",
