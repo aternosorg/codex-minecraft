@@ -51,9 +51,14 @@ class UnsupportedApiVersionProblem extends PluginProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->pluginPath = $matches[1];
-        $this->pluginName = $matches[2];
-        $this->apiVersion = $matches[3];
+        $pluginFileName = $matches[1]; // worldedit-bukkit-7.3.4-beta-01.jar
+        $pluginName = $matches[2]; // worldedit-bukkit-7.3.4-beta-01
+        $folderName = $matches[3]; // plugins
+
+        $this->pluginPath = $folderName . '/' . $pluginFileName;
+        $this->pluginName = $pluginName;
+        $this->apiVersion = $matches[4];
+
 
         $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
         $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginPath()));
@@ -71,8 +76,10 @@ class UnsupportedApiVersionProblem extends PluginProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in folder \'[^\']+\''
-            . '\norg\.bukkit\.plugin\.InvalidPluginException\: Unsupported API version ([0-9]+\.[0-9]+)/'
+            '/Could not load \'plugins[\/\\\](((?!\.jar).*)\.jar)\' in folder \'([^\']+)\''
+            . '\norg\.bukkit\.plugin\.InvalidPluginException\: Unsupported API version ([0-9]+\.[0-9]+)/',
+            '/Could not load plugin \'(((?!\.jar).*)\.jar)\' in folder \'([^\']+)\''
+            . '\norg\.bukkit\.plugin\.InvalidPluginException\: Unsupported API version ([0-9]+\.[0-9]+)/',
         ];
     }
 }
