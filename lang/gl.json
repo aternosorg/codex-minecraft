@@ -69,7 +69,7 @@
     "mod-incompatible-problem": "Os mods{{first-mod-name}} y {{second-mod-name}} son incompatibles",
     "server-install-different-version-solution": "Instala a versión {{software-version}} del software de tu servidor",
     "plugin-api-version-problem": "O plugin {{plugin-name}} necesita a versión {{software-version}} del software del servidor",
-    "plugin-java-version-problem": "O plugin{{plugin-name}} necesita a versión do Java {{java-version}} o despois para funcionar",
+    "plugin-java-version-problem": "O plugin {{plugin-name}} necesita a versión do Java {{java-version}} o despois para funcionar",
     "change-java-version-solution": "Cambia o Java á versión {{java-version}} ou mais nova.",
     "ticking-entity-problem": "A entidade {{name}} en {{location}} está a causar problemas cos ticks.",
     "remove-entity-solution": "Remove a entidade '{{name}}' en {{location}}.",
