@@ -2,7 +2,7 @@
     "minecraft-version": "Minecraft-versjon",
     "java-version": "Java versjon",
     "fabric-version": "Fabric modlaster versjon",
-    "quilt-version": "Quilt fabric modlaster versjon",
+    "quilt-version": "Quilt modlaster versjon",
     "plugin-load-problem": "Pluginen {{plugin-name}} kunne ikke lastes.",
     "pocketmine-version": "Pocketmine-versjon",
     "bedrock-version": "Bedrock-versjon",
