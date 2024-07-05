@@ -10,7 +10,7 @@
     "neoforge-version": "Bersyon ng Forge",
     "magma-version": "Bersyon ng Magma",
     "mohist-version": "Bersyon ng Mohist",
-    "arclight-version": "Buang ka",
+    "arclight-version": "Bersyon ng Arclight",
     "authme-shutdown-problem": "Hindi mai-load ang plugin na 'AuthMe' at nagsasara ang server.",
     "pex-config-problem": "Ang configuration ng plugin na 'PermissionsEx' ay mali.",
     "ambiguous-plugin-name-problem": "Maraming plugin files ang may pangalang '{{plugin-name}}': '{{first-plugin-path}}' at '{{second-plugin-path}}'.",
