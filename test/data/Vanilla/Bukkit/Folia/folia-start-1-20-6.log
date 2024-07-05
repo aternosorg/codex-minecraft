@@ -1,0 +1,36 @@
+[19:24:51] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
+[19:24:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:24:55] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[19:24:55] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[19:24:56] [ServerMain/INFO]: No existing world data, creating new world
+[19:24:56] [ServerMain/INFO]: Loaded 1175 recipes
+[19:24:57] [ServerMain/INFO]: Loaded 1276 advancements
+[19:24:57] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[19:24:57] [Server thread/INFO]: Loading properties
+[19:24:57] [Server thread/INFO]: This server is running Folia version 1.20.6-5-master@d797082 (2024-06-19T22:19:29Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[19:24:58] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 6893ms.
+[19:24:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:24:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:24:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[19:24:58] [Server thread/WARN]: [!] The timings system cannot be enabled on Folia, and has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[19:24:58] [Server thread/INFO]: [io.papermc.paper.threadedregions.TickRegions] Regionised ticking is enabled with 1 tick threads
+[19:24:59] [Server thread/INFO]: Default game type: SURVIVAL
+[19:24:59] [Server thread/INFO]: Generating keypair
+[19:24:59] [Server thread/INFO]: Starting Minecraft server on *:49877
+[19:24:59] [Server thread/INFO]: Using epoll channel type
+[19:24:59] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:24:59] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[19:24:59] [Server thread/INFO]: Preparing level "world"
+[19:24:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:24:59] [Server thread/INFO]: Time elapsed: 0 ms
+[19:24:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:24:59] [Server thread/INFO]: Time elapsed: 0 ms
+[19:24:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:24:59] [Server thread/INFO]: Time elapsed: 0 ms
+[19:24:59] [Server thread/INFO]: Starting GS4 status listener
+[19:24:59] [Server thread/INFO]: Thread Query Listener started
+[19:24:59] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
+[19:24:59] [Server thread/INFO]: Done (2.312s)! For help, type "help"
+[19:24:59] [Region Scheduler Thread #0/INFO]: Initialising world 'world' before it can be ticked...

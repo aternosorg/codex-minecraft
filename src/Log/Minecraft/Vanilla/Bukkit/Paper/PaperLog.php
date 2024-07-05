@@ -13,7 +13,8 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Spigot\SpigotLog;
  */
 abstract class PaperLog extends SpigotLog
 {
-    protected static string $logIdentifier = "(?:Paper|CraftBukkit) version git\-Paper";
+    protected static string $logIdentifier = "(?:Paper|CraftBukkit) version git\-Paper"
+    . "|This server is running Paper version";
 
     /**
      * @return AnalyserInterface

@@ -1,0 +1,42 @@
+[19:21:33] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
+[19:21:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:21:38] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[19:21:38] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[19:21:39] [ServerMain/INFO]: No existing world data, creating new world
+[19:21:39] [ServerMain/INFO]: Loaded 1175 recipes
+[19:21:40] [ServerMain/INFO]: Loaded 1276 advancements
+[19:21:40] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[19:21:40] [Server thread/INFO]: Loading properties
+[19:21:40] [Server thread/INFO]: This server is running Paper version 1.20.6-148-ver/1.20.6@20f5165 (2024-07-02T15:37:33Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[19:21:40] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 6834ms.
+[19:21:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:21:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:21:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[19:21:41] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[19:21:42] [Server thread/INFO]: Default game type: SURVIVAL
+[19:21:42] [Server thread/INFO]: Generating keypair
+[19:21:42] [Server thread/INFO]: Starting Minecraft server on *:49877
+[19:21:42] [Server thread/INFO]: Using epoll channel type
+[19:21:42] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:21:42] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[19:21:42] [Server thread/INFO]: Preparing level "world"
+[19:21:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:22:02] [Server thread/INFO]: Time elapsed: 7806 ms
+[19:22:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:22:04] [Server thread/INFO]: Time elapsed: 2275 ms
+[19:22:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:22:05] [Server thread/INFO]: Time elapsed: 592 ms
+[19:22:05] [Server thread/INFO]: Starting GS4 status listener
+[19:22:05] [Server thread/INFO]: Thread Query Listener started
+[19:22:05] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
+[19:22:05] [Server thread/INFO]: JMX monitoring enabled
+[19:22:05] [Server thread/INFO]: Running delayed init tasks
+[19:22:05] [Server thread/INFO]: Done (25.068s)! For help, type "help"
+[19:22:05] [Server thread/INFO]: *************************************************************************************
+[19:22:05] [Server thread/INFO]: This is the first time you're starting this server.
+[19:22:05] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[19:22:05] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[19:22:05] [Server thread/INFO]: *************************************************************************************
+[19:22:05] [Server thread/INFO]: Timings Reset

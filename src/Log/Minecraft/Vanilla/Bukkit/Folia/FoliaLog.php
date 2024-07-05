@@ -13,7 +13,8 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper\PaperLog;
  */
 abstract class FoliaLog extends PaperLog
 {
-    protected static string $logIdentifier = "(?:Folia|CraftBukkit) version git\-Folia";
+    protected static string $logIdentifier = "(?:Folia|CraftBukkit) version git\-Folia"
+    . "|This server is running Folia version";
 
     /**
      * @return AnalyserInterface

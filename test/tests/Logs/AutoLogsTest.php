@@ -318,6 +318,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_folia_start_1_19_4(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Folia/folia-start-1-19-4.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_folia_start_1_20_6(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Folia/folia-start-1-20-6.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_glowstone_start_1122(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Glowstone/glowstone-start-1122.log');
@@ -441,6 +461,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_paper_plugin_unsupported_class_version_1_20_4(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-unsupported-class-version-1-20-4.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_start_1_20_6(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-start-1-20-6.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
