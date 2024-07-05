@@ -7,8 +7,10 @@
     "pocketmine-version": "Pocketmine version",
     "bedrock-version": "Bedrock ვერსია",
     "forge-version": "Forge ვერსია",
+    "neoforge-version": "NeoForge ვერსია",
     "magma-version": "Magma ვერსია",
     "mohist-version": "Mohist ვერსია",
+    "arclight-version": "Arclight ვერსია",
     "authme-shutdown-problem": "პლაგინი \"AuthMe\" ვერ ჩაიტვირთა და გათიშა სერვერი.",
     "pex-config-problem": "\"PermissionsEx\"_ის კონფიგურაცია არ არის ხელმისაწვდომი.",
     "ambiguous-plugin-name-problem": "არსებობს რამოდენიმე პლუგინ ფაილი სახელწოდებებისთვის{{plugin-name}}{{first-plugin-path}} და {{second-plugin-path}}",
@@ -69,6 +71,14 @@
     "mod-incompatible-problem": "მოდიფიკაციები '{{first-mod-name}}' და '{{second-mod-name}}' შეუთავსებელია.",
     "server-install-different-version-solution": "დააინსტალირეთ თქვენი სერვერის პროგრამული უზრუნველყოფის ვერსია '{{software-version}}'.",
     "plugin-api-version-problem": "დანამატს '{{plugin-name}}' სჭირდება თქვენი სერვერის პროგრამული უზრუნველყოფის ვერსია '{{software-version}}'.",
+    "plugin-java-version-problem": "პლაგინის '{{plugin-name}}' სჭირდება Java ვერსია {{java-version}} ან შემდეგი ფუნქციისთვის",
+    "change-java-version-solution": "შეცვალეთ თქვენი Java ვერსია {{java-version}} ან შემდეგზე",
     "ticking-entity-problem": "ერთეული '{{name}}' მდებარეობაზე {{location}} იწვევს პრობლემებს მონიშვნისას.",
-    "remove-entity-solution": "წაშალეთ ერთეული '{{name}}' მდებარეობაზე {{location}}."
+    "remove-entity-solution": "წაშალეთ ერთეული '{{name}}' მდებარეობაზე {{location}}.",
+    "type-client": "კლიენტის ჟურნალი",
+    "type-server": "სერვერის ჟურნალი",
+    "type-proxy": "პროქსის ჟურნალი",
+    "type-content": "შინაარსის ჟურნალი",
+    "type-crash-report": "ავარიული დახურვის შეტყობინება",
+    "type-unknown": "უცნობი ჟურნალი"
 }

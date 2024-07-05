@@ -7,8 +7,11 @@
     "pocketmine-version": "Versión de PocketMine-MP",
     "bedrock-version": "Versión de Bedrock",
     "forge-version": "Versión de Forge",
+    "neoforge-version": "Versión de NeoForge",
     "magma-version": "Versión de Magma",
     "mohist-version": "Versión de Mohist",
+    "arclight-version": "Versión de Arclight",
+    "custom-skin-loader-version": "Versión de CustomSkinLoader",
     "authme-shutdown-problem": "El plugin 'AuthMe' falló al cargar y ha cerrado el servidor.",
     "pex-config-problem": "La configuración de la extensión 'PermissionsEx' es inválida.",
     "ambiguous-plugin-name-problem": "Hay múltiples archivos de plugins para el plugin de nombre '{{plugin-name}}': '{{first-plugin-path}}' y '{{second-plugin-path}}'.",
@@ -73,10 +76,13 @@
     "change-java-version-solution": "Cambia tu versión de Java a {{java-version}} o una más reciente.",
     "ticking-entity-problem": "La entidad '{{name}}' en la ubicación {{location}} está causando problemas durante el ticking.",
     "remove-entity-solution": "Elimina la entidad '{{name}}' en la ubicación {{location}}.",
+    "plugin-regional-ticking-problem": "El plugin {{plugin-name}} no es compatible con ticking regional.",
+    "install-non-regional-ticking-software-solution": "Instalar un software sin ticking regional, como {{software-name}}.",
     "type-client": "Registro del Cliente",
     "type-server": "Registro del Servidor",
     "type-proxy": "Registro de Proxy",
     "type-content": "Registro del Contenido",
     "type-crash-report": "Reporte de Crasheo",
-    "type-unknown": "Registro Desconocido"
+    "type-unknown": "Registro Desconocido",
+    "forge-language-provider-version-problem": "El mod '{{mod-file}}' requiere '{{required-version}}', pero {{found-version}}' está instalada."
 }

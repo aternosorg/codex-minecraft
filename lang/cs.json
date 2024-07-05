@@ -6,9 +6,12 @@
     "plugin-load-problem": "Plugin '{{plugin-name}}' nemohl být načten.",
     "pocketmine-version": "Pocketmine verze",
     "bedrock-version": "Bedrock verze",
-    "forge-version": "Forge verze",
+    "forge-version": "Verze Forge",
+    "neoforge-version": "Verze NeoForge",
     "magma-version": "Verze Magma",
     "mohist-version": "Verze Mohist",
+    "arclight-version": "Verze Arclightu",
+    "custom-skin-loader-version": "Verze CustomSkinLoaderu",
     "authme-shutdown-problem": "Plugin \"AuthMe\" se nepodařilo spustit a vypnul server.",
     "pex-config-problem": "Konfigurace pluginu 'PermissionsEx' je neplatná.",
     "ambiguous-plugin-name-problem": "Existuje více plugin souborů pro plugin jméno '{{plugin-name}}': '{{first-plugin-path}}' a '{{second-plugin-path}}'.",
@@ -73,10 +76,13 @@
     "change-java-version-solution": "Změň tvou verzi Javy na {{java-version}} nebo novější.",
     "ticking-entity-problem": "Entita „{{name}}“ na souřadnicích {{location}} způsobuje problémy při updatování.",
     "remove-entity-solution": "Odstraň entitu „{{name}}“ na souřadnicích {{location}}.",
+    "plugin-regional-ticking-problem": "Plugin {{plugin-name}} nepodporuje regional ticking.",
+    "install-non-regional-ticking-software-solution": "Nainstaluj software bez regional tickingu, jako například {{software-name}}.",
     "type-client": "Log klienta",
     "type-server": "Log serveru",
     "type-proxy": "Log proxy",
     "type-content": "Log obsahu",
     "type-crash-report": "Hlášení o pádu",
-    "type-unknown": "Neznámý log"
+    "type-unknown": "Neznámý log",
+    "forge-language-provider-version-problem": "Mód „{{mod-file}}“ vyžaduje „{{required-version}}“, ale je nainstalován „{{found-version}}“."
 }

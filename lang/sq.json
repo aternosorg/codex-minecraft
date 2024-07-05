@@ -69,6 +69,14 @@
     "mod-incompatible-problem": "Modalitetet '{{first-mod-name}}' dhe '{{second-mod-name}}' janë të papajtueshme.",
     "server-install-different-version-solution": "Instaloni versionin '{{software-version}}' të softuerit të serverit tuaj.",
     "plugin-api-version-problem": "Shtojca \"{{plugin-name}}\" ka nevojë për versionin \"{{software-version}}\" të softuerit të serverit tuaj.",
+    "plugin-java-version-problem": "Plugin '{{plugin-name}}' kërkon versionin Java {{java-version}} ose më të ri për të punuar.",
+    "change-java-version-solution": "Ndrysho versionin Java në {{java-version}} osë më të ri.",
     "ticking-entity-problem": "Subjekti '{{name}}' në vendndodhjen {{location}} po shkakton probleme gjatë shënjimit.",
-    "remove-entity-solution": "Hiqni entitetin '{{name}}' në vendndodhjen {{location}}."
+    "remove-entity-solution": "Hiqni entitetin '{{name}}' në vendndodhjen {{location}}.",
+    "type-client": "Log i klientit",
+    "type-server": "Log i server-it",
+    "type-proxy": "Log i proxy-t",
+    "type-content": "Regjistri i përmbajtjes",
+    "type-crash-report": "Raporti i përplasjes",
+    "type-unknown": "Log i panjohur"
 }

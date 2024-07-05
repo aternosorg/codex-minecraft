@@ -7,8 +7,10 @@
     "pocketmine-version": "Bersyon ng Pocketmine",
     "bedrock-version": "Bersyon ng Bedrock",
     "forge-version": "Bersyon ng Forge",
+    "neoforge-version": "Bersyon ng Forge",
     "magma-version": "Bersyon ng Magma",
     "mohist-version": "Bersyon ng Mohist",
+    "arclight-version": "Bersyon ng Arclight",
     "authme-shutdown-problem": "Hindi mai-load ang plugin na 'AuthMe' at nagsasara ang server.",
     "pex-config-problem": "Ang configuration ng plugin na 'PermissionsEx' ay mali.",
     "ambiguous-plugin-name-problem": "Maraming plugin files ang may pangalang '{{plugin-name}}': '{{first-plugin-path}}' at '{{second-plugin-path}}'.",
@@ -69,6 +71,14 @@
     "mod-incompatible-problem": "Ang mga mod na  '{{first-mod-name}}' at '{{second-mod-name}}'  ay hindi magkatugma.",
     "server-install-different-version-solution": "I-install ang version  '{{software-version}}' ng iyong server software.",
     "plugin-api-version-problem": "Ang plugin na '{{plugin-name}}' ay nangangailangan ng bersyon '{{software-version}}' ng iyong server software.",
+    "plugin-java-version-problem": "Ang plugin {{plugin-name}} ay kinakailangan ng bersyon ng Java {{java-version}} o kaya susunod para gumana.",
+    "change-java-version-solution": "Palitan ang iyong bersyon ng Java sa {{java-version}} o susunod.",
     "ticking-entity-problem": "Ang entity '{{name}}' na nasa {{location}} ay nagdudulot ng mga isyu sa habang nagti-tick.",
-    "remove-entity-solution": "Alisin ang entity '{{name}}' na nasa {{location}}."
+    "remove-entity-solution": "Alisin ang entity '{{name}}' na nasa {{location}}.",
+    "type-client": "Log ng Kliyente",
+    "type-server": "Server Log",
+    "type-proxy": "Proxy Log",
+    "type-content": "Content Log",
+    "type-crash-report": "Crash Report",
+    "type-unknown": "Hindi matukoy na log"
 }
