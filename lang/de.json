@@ -77,7 +77,7 @@
     "ticking-entity-problem": "Die Entity '{{name}}' an der Postion {{location}} verursacht ein Problem während des Ticks.",
     "remove-entity-solution": "Entferne die Entity '{{name}}' an der Position {{location}}.",
     "plugin-regional-ticking-problem": "Das Plugin {{plugin-name}} unterstützt kein regionales Ticking.",
-    "install-non-regional-ticking-software-solution": "Installiere a Software ohne regionales Ticking, wie {{software-name}}.",
+    "install-non-regional-ticking-software-solution": "Installiere eine Software ohne regionales Ticking, wie {{software-name}}.",
     "type-client": "Client-Protokoll",
     "type-server": "Server-Protokoll",
     "type-proxy": "Proxy-Log",
