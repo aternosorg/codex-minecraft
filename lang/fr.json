@@ -72,7 +72,7 @@
     "mod-incompatible-problem": "Les mods '{{first-mod-name}}' et '{{second-mod-name}}' sont incompatibles",
     "server-install-different-version-solution": "Installer la version '{{software-version}}' de votre logiciel de serveur.",
     "plugin-api-version-problem": "Le plugin '{{plugin-name}}' a besoin de la version '{{software-version}}' de votre logiciel de serveur.",
-    "plugin-java-version-problem": "Le plugin '{{plugin-name}}' a besoin de la version de JAVA {{java-version}} ou plus récent pour fonctionner.",
+    "plugin-java-version-problem": "Le plugin '{{plugin-name}}' a besoin de la version de Java {{java-version}} ou plus récent pour fonctionner.",
     "change-java-version-solution": "Changez votre version de Java en {{java-version}} ou supérieur.",
     "ticking-entity-problem": "L'entité '{{name}}' à l'emplacement {{location}} provoque des problèmes lors du ticking.",
     "remove-entity-solution": "Retirez l'entité '{{name}}' à l'emplacement {{location}}.",
