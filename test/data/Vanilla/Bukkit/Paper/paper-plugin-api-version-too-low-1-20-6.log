@@ -1,0 +1,46 @@
+[04:57:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:57:39] [ServerMain/INFO]: Loaded 1175 recipes
+[04:57:39] [ServerMain/INFO]: Loaded 1276 advancements
+[04:57:39] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[04:57:39] [Server thread/INFO]: Loading properties
+[04:57:39] [Server thread/INFO]: This server is running Paper version 1.20.6-148-ver/1.20.6@20f5165 (2024-07-02T15:37:33Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[04:57:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:57:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:57:40] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[04:57:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[04:57:41] [Server thread/INFO]: Default game type: SURVIVAL
+[04:57:41] [Server thread/INFO]: Generating keypair
+[04:57:41] [Server thread/INFO]: Starting Minecraft server on *:20774
+[04:57:41] [Server thread/INFO]: Using epoll channel type
+[04:57:41] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:57:41] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[04:57:41] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldedit-bukkit-7.3.4-beta-01.jar' in folder 'plugins/.paper-remapped'
+org.bukkit.plugin.InvalidPluginException: Plugin API version 1.20 is lower than the minimum allowed version. Please update or replace it.
+	at org.bukkit.craftbukkit.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:394) ~[paper-1.20.6.jar:1.20.6-148-20f5165]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:121) ~[paper-1.20.6.jar:1.20.6-148-20f5165]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.6.jar:1.20.6-148-20f5165]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.6.jar:1.20.6-148-20f5165]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.20.6.jar:1.20.6-148-20f5165]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.6.jar:1.20.6-148-20f5165]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:532) ~[paper-1.20.6.jar:1.20.6-148-20f5165]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:286) ~[paper-1.20.6.jar:1.20.6-148-20f5165]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1136) ~[paper-1.20.6.jar:1.20.6-148-20f5165]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-148-20f5165]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:57:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:57:41] [Server thread/INFO]: Preparing level "world"
+[04:57:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:57:43] [Server thread/INFO]: Time elapsed: 1416 ms
+[04:57:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:57:43] [Server thread/INFO]: Time elapsed: 186 ms
+[04:57:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:57:43] [Server thread/INFO]: Time elapsed: 180 ms
+[04:57:43] [Server thread/INFO]: Starting GS4 status listener
+[04:57:43] [Server thread/INFO]: Thread Query Listener started
+[04:57:43] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
+[04:57:43] [Server thread/INFO]: JMX monitoring enabled
+[04:57:43] [Server thread/INFO]: Running delayed init tasks
+[04:57:43] [Server thread/INFO]: Done (4.304s)! For help, type "help"
+[04:57:43] [Server thread/INFO]: Timings Reset
