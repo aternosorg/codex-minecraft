@@ -2,7 +2,7 @@
     "minecraft-version": "Minecraft versija",
     "java-version": "Java versija",
     "fabric-version": "Fabric loader versija",
-    "quilt-version": "Segu iekrāvēja versija",
+    "quilt-version": "Quilt loader versija",
     "plugin-load-problem": "Spraudni '{{plugin-name}}' nevarēja ielādēt.",
     "pocketmine-version": "Pocketmine versija",
     "bedrock-version": "Bedrock versija",
