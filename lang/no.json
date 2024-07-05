@@ -70,7 +70,7 @@
     "generate-new-world-solution": "Generer en ny verden",
     "bedrock-dbstorage-chain-problem": "Kan ikke dekryptere verdenen. Verdener fra markedsplassen kan ikke installeres på dedikerte servere.",
     "mod-incompatible-problem": "Moddene «{{first-mod-name}}» og «{{second-mod-name}}» er ikke kompatible.",
-    "server-install-different-version-solution": "installer {{software-version}}' versjonen av din server programvare.",
+    "server-install-different-version-solution": "installer '{{software-version}}' versjonen av din server programvare.",
     "plugin-api-version-problem": "Pluginen {{plugin-name}} trenger versjon {{software-version}} av din server programvare.",
     "plugin-java-version-problem": "Pluginen «{{plugin-name}}» krever Java versjon {{java-version}} eller nyere for å kjøre.",
     "change-java-version-solution": "Endre Java-versjonen til {{java-version}} eller nyere.",
