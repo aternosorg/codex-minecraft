@@ -1,8 +1,8 @@
 {
     "minecraft-version": "Minecraft Верси",
     "java-version": "Java верси",
-    "fabric-version": "Æрмæджы æвæрæны верси",
-    "quilt-version": "Æмбæрзæн æвæрæны верси",
+    "fabric-version": "Fabric товарач версии",
+    "quilt-version": "Quilt товарач версии",
     "plugin-load-problem": "Плагин '{{plugin-name}}' нæ бантыст æрбакæнын.",
     "pocketmine-version": "Pocketmine Верси",
     "bedrock-version": "Bedrock Верси",
