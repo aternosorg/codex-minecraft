@@ -85,5 +85,7 @@
   "type-crash-report": "Crash Report",
   "type-network-protocol-error-report": "Network Protocol Error Report",
   "type-unknown": "Unknown Log",
-  "forge-language-provider-version-problem": "The mod '{{mod-file}}' requires '{{required-version}}', but '{{found-version}}' is installed."
+  "forge-language-provider-version-problem": "The mod '{{mod-file}}' requires '{{required-version}}', but '{{found-version}}' is installed.",
+  "plugin-api-version-lower-than-allowed-problem": "The plugin '{{plugin-name}}' has an API version specified that is lower than the minimum allowed version.",
+  "change-minimum-api-version-solution": "Change 'minimum-api' in bukkit.yml to {{api-version}}, lower or even 'none'."
 }
