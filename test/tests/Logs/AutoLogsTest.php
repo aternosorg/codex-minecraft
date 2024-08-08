@@ -1538,6 +1538,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_vanilla_auth_key(): void
+    {
+        $log = new TestLog('Vanilla/vanilla-auth-key.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_vanilla_client_1_19_2(): void
     {
         $log = new TestLog('Vanilla/vanilla-client-1-19-2.log');

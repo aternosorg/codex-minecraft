@@ -7,6 +7,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\AquaticWorldOnOlderVersionP
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\MalformedEncodingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OldPlayerDirectoryProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\TickingBlockEntityProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\AuthServerProblem;
 
 /**
  * Class VanillaAnalyser
@@ -23,5 +24,6 @@ class VanillaAnalyser extends MinecraftAnalyser
         $this->addPossibleInsightClass(AquaticWorldOnOlderVersionProblem::class);
         $this->addPossibleInsightClass(TickingBlockEntityProblem::class);
         $this->addPossibleInsightClass(MalformedEncodingProblem::class);
+        $this->addPossibleInsightClass(AuthServerProblem::class);
     }
 }
