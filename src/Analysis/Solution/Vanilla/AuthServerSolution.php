@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Solution\Vanilla;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
+
 class AuthServerSolution extends VanillaSolution
 {
     /**
