@@ -42,7 +42,6 @@ class AuthServerProblem extends VanillaProblem
      * @param mixed $patternKey
      * @return void
      */
-
     public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->addSolution(new AuthServerSolution());
