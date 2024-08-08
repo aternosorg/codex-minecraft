@@ -1538,9 +1538,9 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_vanilla_auth_key(): void
+    public function test_vanilla_auth_servers_unreachable(): void
     {
-        $log = new TestLog('Vanilla/vanilla-auth-key.log');
+        $log = new TestLog('Vanilla/vanilla-auth-servers-unreachable.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
