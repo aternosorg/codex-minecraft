@@ -538,6 +538,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_purpur_1_20_6(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Purpur/purpur-1-20-6.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_purpur_1192(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Purpur/purpur-1192.log');
