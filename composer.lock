@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff0a1442e0c85a1d614e81ebe9f12ff8",
+    "content-hash": "db96acc55b7bc25d09d91d43fe0d416c",
     "packages": [
         {
             "name": "aternos/codex",
-            "version": "v2.1.1",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aternosorg/codex.git",
-                "reference": "e14a34d63bd4d16ffa46bfed6a98e2bda8e822f1"
+                "reference": "8f7615e98ff001cc7e268165c1daf717e2fdc9cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aternosorg/codex/zipball/e14a34d63bd4d16ffa46bfed6a98e2bda8e822f1",
-                "reference": "e14a34d63bd4d16ffa46bfed6a98e2bda8e822f1",
+                "url": "https://api.github.com/repos/aternosorg/codex/zipball/8f7615e98ff001cc7e268165c1daf717e2fdc9cb",
+                "reference": "8f7615e98ff001cc7e268165c1daf717e2fdc9cb",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.5"
+                "phpunit/phpunit": "^10.5"
             },
             "type": "library",
             "autoload": {
@@ -45,9 +45,9 @@
             "description": "PHP library to read, parse, print and analyse log files.",
             "support": {
                 "issues": "https://github.com/aternosorg/codex/issues",
-                "source": "https://github.com/aternosorg/codex/tree/v2.1.1"
+                "source": "https://github.com/aternosorg/codex/tree/v2.2.0"
             },
-            "time": "2024-01-09T16:20:53+00:00"
+            "time": "2024-09-11T12:33:08+00:00"
         }
     ],
     "packages-dev": [
