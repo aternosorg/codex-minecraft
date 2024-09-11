@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt;
 
 use Aternos\Codex\Detective\DetectorInterface;
-use Aternos\Codex\Detective\SinglePatternDetector;
+use Aternos\Codex\Detective\MultiPatternDetector;
 use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
 
 /**
@@ -19,7 +19,9 @@ class QuiltClientLog extends QuiltLog implements ClientLogTypeInterface
     public static function getDetectors(): array
     {
         return [
-            (new SinglePatternDetector())->setPattern('/\[[\d:]+\] \[main\/INFO\]: Loading Minecraft [^ \n]+ with Quilt Loader [^ \n]+(\n.*)*\n\[[\d:]+\] \[Render thread\/INFO\]: Setting user: \w+/'),
+            (new MultiPatternDetector())
+                ->addPattern('/^\[[\d:]+\] \[main\/INFO\]: Loading Minecraft [^ \n]+ with Quilt Loader [^ \n]+/')
+                ->addPattern('/^\[[\d:]+\] \[(?:Render thread|main)\/INFO\]: Setting user: \w+/m')
         ];
     }
 }
