@@ -1342,7 +1342,7 @@
         "information": [
             {
                 "message": "Minecraft version: 1.20.4",
-                "counter": 2,
+                "counter": 3,
                 "entry": {
                     "level": 6,
                     "time": null,
@@ -1390,23 +1390,6 @@
                 },
                 "label": "Java version",
                 "value": "17.0.10"
-            },
-            {
-                "message": "Minecraft version: 20.4.155-beta",
-                "counter": 1,
-                "entry": {
-                    "level": 6,
-                    "time": null,
-                    "prefix": "[09Feb2024 12:20:44.217] [modloading-worker-0\/INFO] [net.neoforged.neoforge.common.NeoForgeMod\/NEOFORGE-MOD]:",
-                    "lines": [
-                        {
-                            "number": 10,
-                            "content": "[09Feb2024 12:20:44.217] [modloading-worker-0\/INFO] [net.neoforged.neoforge.common.NeoForgeMod\/NEOFORGE-MOD]: NeoForge mod loading, version 20.4.155-beta, for MC 1.20.4 with MCP 20231207.154220"
-                        }
-                    ]
-                },
-                "label": "Minecraft version",
-                "value": "20.4.155-beta"
             }
         ]
     }
