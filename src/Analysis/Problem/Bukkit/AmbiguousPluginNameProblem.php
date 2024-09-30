@@ -48,7 +48,7 @@ class AmbiguousPluginNameProblem extends BukkitProblem
     {
         return [
             '/Ambiguous plugin name `(\S+)\' for files `(plugins\/[^\']+)\' and `(plugins\/[^\']+)\' in `plugins\'/',
-            '/Ambiguous plugin name \'(\S+)\' for files \'(plugins\/[^\']+)\' and \'(plugins\/[^\']+)\' in \'plugins\'/'
+            '/Ambiguous plugin name \'(\S+)\' for files \'(plugins\/[^\']+)\' and \'(plugins\/[^\']+)\' in \'(plugins[^\']*)\'/'
         ];
     }
 
