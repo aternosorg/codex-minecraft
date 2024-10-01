@@ -368,6 +368,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_ambiguous_plugin_name_1_21_1(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-ambiguous-plugin-name-1-21-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_metaspace(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-metaspace.log');
