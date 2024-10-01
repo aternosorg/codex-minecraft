@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\NeoForge;
 
 use Aternos\Codex\Detective\DetectorInterface;
-use Aternos\Codex\Detective\SinglePatternDetector;
+use Aternos\Codex\Detective\MultiPatternDetector;
 use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\MinecraftCrashReportAnalyser;
 use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\NeoForgeCrashReportAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaCrashReportTrait;
@@ -18,7 +18,11 @@ class NeoForgeCrashReportLog extends NeoForgeLog implements CrashReportLogTypeIn
      */
     public static function getDetectors(): array
     {
-        return [(new SinglePatternDetector())->setPattern("/---- Minecraft Crash Report ----(\n.*)*\n\tNeoForge:/m")];
+        return [
+            (new MultiPatternDetector())
+                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern("/^\tNeoForge: net\.neoforged:/m"),
+        ];
     }
 
 

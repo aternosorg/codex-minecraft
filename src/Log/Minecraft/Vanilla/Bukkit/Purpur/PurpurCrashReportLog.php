@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Purpur;
 
 use Aternos\Codex\Detective\DetectorInterface;
-use Aternos\Codex\Detective\SinglePatternDetector;
+use Aternos\Codex\Detective\MultiPatternDetector;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaCrashReportTrait;
 use Aternos\Codex\Minecraft\Log\Type\CrashReportLogTypeInterface;
 
@@ -21,6 +21,9 @@ class PurpurCrashReportLog extends PurpurLog implements CrashReportLogTypeInterf
      */
     public static function getDetectors(): array
     {
-        return [(new SinglePatternDetector())->setPattern("/---- Minecraft Crash Report ----(\n.*)*\n\s+Running: Purpur version git-Purpur/m")];
+        return [(new MultiPatternDetector())
+            ->addPattern("/^---- Minecraft Crash Report ----$/m")
+            ->addPattern("/^\tRunning: Purpur version git-Purpur/m")
+        ];
     }
 }

@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\NeoForge;
 
 use Aternos\Codex\Detective\DetectorInterface;
-use Aternos\Codex\Detective\SinglePatternDetector;
+use Aternos\Codex\Detective\MultiPatternDetector;
 use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
 
 class NeoForgeClientLog extends NeoForgeLog implements ClientLogTypeInterface
@@ -14,7 +14,9 @@ class NeoForgeClientLog extends NeoForgeLog implements ClientLogTypeInterface
     public static function getDetectors(): array
     {
         return [
-            (new SinglePatternDetector())->setPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: ModLauncher running: .*--fml.neoForgeVersion.*(\n.*)*\n\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: Launching target \'(fml|forge)client\' with arguments.*$/m')
+            (new MultiPatternDetector())
+                ->addPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: ModLauncher running: .*--fml.neoForgeVersion/m')
+                ->addPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: Launching target \'(fml|forge)client\' with arguments/m'),
         ];
     }
 }

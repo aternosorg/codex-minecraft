@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge;
 
 use Aternos\Codex\Detective\DetectorInterface;
-use Aternos\Codex\Detective\SinglePatternDetector;
+use Aternos\Codex\Detective\MultiPatternDetector;
 use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\ForgeCrashReportAnalyser;
 use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\MinecraftCrashReportAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaCrashReportTrait;
@@ -24,10 +24,12 @@ class ForgeCrashReportLog extends ForgeLog implements CrashReportLogTypeInterfac
     public static function getDetectors(): array
     {
         return [
-            (new SinglePatternDetector())->setPattern("/---- Minecraft Crash Report ----(\n.*)*\n\tFML:/m"),
-            (new SinglePatternDetector())->setPattern("/---- Minecraft Crash Report ----(\n.*)*\n\tIs Modded: Definitely; Client brand changed to '(?:fml,)?forge'/im"),
-            (new SinglePatternDetector())->setPattern("/---- Minecraft Crash Report ----(\n.*)*\n\tIs Modded: Definitely; Server brand changed to '(?:fml,)?forge'/im"),
-
+            (new MultiPatternDetector())
+                ->addPattern("/---- Minecraft Crash Report ----$/m")
+                ->addPattern("/^\tIs Modded: Definitely; Client brand changed to '(?:fml,)?forge'/im"),
+            (new MultiPatternDetector())
+                ->addPattern("/---- Minecraft Crash Report ----$/m")
+                ->addPattern("/^\tIs Modded: Definitely; Server brand changed to '(?:fml,)?forge'/im"),
         ];
     }
 

@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric;
 
 use Aternos\Codex\Detective\DetectorInterface;
-use Aternos\Codex\Detective\SinglePatternDetector;
+use Aternos\Codex\Detective\MultiPatternDetector;
 use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
 
 /**
@@ -19,7 +19,9 @@ class FabricClientLog extends FabricLog implements ClientLogTypeInterface
     public static function getDetectors(): array
     {
         return [
-            (new SinglePatternDetector())->setPattern('#^\[[\d:]+\] \[main\/INFO\](?:\:| \(FabricLoader/GameProvider\)) Loading Minecraft [^ \n]+ with Fabric Loader [^ \n]+(\n.*)*\n\[[\d:]+\] \[(?:Render thread|main)\/INFO\](?:\:| \(Minecraft\)) Setting user: \w+#m'),
+            (new MultiPatternDetector())
+                ->addPattern('#^\[[\d:]+\] \[main\/INFO\](?:\:| \(FabricLoader/GameProvider\)) Loading Minecraft [^ \n]+ with Fabric Loader [^ \n]+#')
+                ->addPattern('#^\[[\d:]+\] \[(?:Render thread|main)\/INFO\](?:\:| \(Minecraft\)) Setting user: \w+#m')
         ];
     }
 }
