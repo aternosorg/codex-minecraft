@@ -356,7 +356,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The plugin 'mclogs-bukkit-2.3.1' is missing the required plugins 'example2', 'example1'.",
+                "message": "The plugin 'Mclogs' is missing the required plugins 'example2', 'example1'.",
                 "counter": 1,
                 "entry": {
                     "level": 3,
@@ -399,7 +399,7 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install a different version of the plugin 'mclogs-bukkit-2.3.1'."
+                        "message": "Install a different version of the plugin 'Mclogs'."
                     },
                     {
                         "message": "Delete the file 'plugins\/mclogs-bukkit-2.3.1.jar'."

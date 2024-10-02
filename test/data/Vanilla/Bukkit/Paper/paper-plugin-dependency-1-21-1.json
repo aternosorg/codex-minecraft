@@ -753,7 +753,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The plugin 'worldguard-bukkit-7.0.12-dist' is missing the required plugin 'WorldEdit'.",
+                "message": "The plugin 'WorldGuard' is missing the required plugin 'WorldEdit'.",
                 "counter": 1,
                 "entry": {
                     "level": 3,
@@ -804,7 +804,7 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install a different version of the plugin 'worldguard-bukkit-7.0.12-dist'."
+                        "message": "Install a different version of the plugin 'WorldGuard'."
                     },
                     {
                         "message": "Delete the file 'plugins\/worldguard-bukkit-7.0.12-dist.jar'."

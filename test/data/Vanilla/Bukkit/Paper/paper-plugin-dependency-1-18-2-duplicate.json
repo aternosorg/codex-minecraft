@@ -373,7 +373,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The plugin 'ViaBackwards-4.2.1' is missing the required plugin 'ViaVersion'.",
+                "message": "The plugin 'ViaBackwards' is missing the required plugin 'ViaVersion'.",
                 "counter": 2,
                 "entry": {
                     "level": 3,
@@ -416,7 +416,7 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install a different version of the plugin 'ViaBackwards-4.2.1'."
+                        "message": "Install a different version of the plugin 'ViaBackwards'."
                     },
                     {
                         "message": "Delete the file 'plugins\/ViaBackwards-4.2.1.jar'."

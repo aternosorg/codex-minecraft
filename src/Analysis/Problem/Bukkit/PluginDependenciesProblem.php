@@ -3,7 +3,9 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 use Aternos\Codex\Analysis\InsightInterface;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveFileSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -70,7 +72,8 @@ class PluginDependenciesProblem extends BukkitPluginFileProblem
     {
         return [
             '/Could not load \'(plugins[\/\\\][^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
-            . '\norg\.bukkit\.plugin\.UnknownDependencyException\: Unknown\/missing dependency plugins: \[([\w ,]+)\]/'];
+            . '\norg\.bukkit\.plugin\.UnknownDependencyException\: Unknown\/missing dependency plugins: \[([\w ,]+)\](?:\. Please download and install these plugins to run \'([^\']+)\')?/'
+        ];
     }
 
     /**
@@ -82,7 +85,14 @@ class PluginDependenciesProblem extends BukkitPluginFileProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        parent::setMatches($matches, $patternKey);
+        if ($matches[4]) {
+            $this->pluginName = $matches[4];
+            $this->pluginFilePath = $this->correctPluginPath($matches[1]);
+            $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
+            $this->addSolution((new PluginRemoveFileSolution())->setPluginFilePath($this->getPluginFilePath())->setPluginName($this->getPluginName()));
+        } else {
+            parent::setMatches($matches, $patternKey);
+        }
 
         $this->dependencyPluginNames = preg_split("/, ?/", $matches[3]);
         foreach ($this->dependencyPluginNames as $name) {
