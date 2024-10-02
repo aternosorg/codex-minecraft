@@ -1,0 +1,49 @@
+[12:47:34] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Eclipse Adoptium Temurin-21.0.4+7) on Linux 5.15.0-117-generic (amd64)
+[12:47:34] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-116-master@e7e1ab5 (2024-09-30T23:17:54Z) for Minecraft 1.21.1
+[12:47:35] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:47:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:47:35] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - Mclogs (2.6.3)
+[12:47:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:47:40] [ServerMain/INFO]: Loaded 1290 recipes
+[12:47:41] [ServerMain/INFO]: Loaded 1399 advancements
+[12:47:41] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[12:47:41] [Server thread/INFO]: Loading properties
+[12:47:41] [Server thread/INFO]: This server is running Paper version 1.21.1-116-master@e7e1ab5 (2024-09-30T23:17:54Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[12:47:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[12:47:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:47:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:47:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[12:47:43] [Server thread/INFO]: Default game type: SURVIVAL
+[12:47:43] [Server thread/INFO]: Generating keypair
+[12:47:43] [Server thread/INFO]: Starting Minecraft server on *:16754
+[12:47:43] [Server thread/INFO]: Using epoll channel type
+[12:47:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:47:43] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[12:47:43] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/mclogs-bukkit-2.6.3.jar' in 'plugins/.paper-remapped'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [example1, example2]. Please download and install these plugins to run 'Mclogs'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:47:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:47:43] [Server thread/INFO]: Preparing level "world"
+[12:47:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:47:44] [Server thread/INFO]: Time elapsed: 1191 ms
+[12:47:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:47:45] [Server thread/INFO]: Time elapsed: 144 ms
+[12:47:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:47:45] [Server thread/INFO]: Time elapsed: 161 ms
+[12:47:45] [Server thread/INFO]: [spark] Starting background profiler...
+[12:47:45] [Server thread/INFO]: Done preparing level "world" (2.234s)
+[12:47:45] [Server thread/INFO]: Starting GS4 status listener
+[12:47:45] [Server thread/INFO]: Thread Query Listener started
+[12:47:45] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
+[12:47:45] [Server thread/INFO]: JMX monitoring enabled
+[12:47:45] [Server thread/INFO]: Running delayed init tasks
+[12:47:45] [Server thread/INFO]: Done (11.257s)! For help, type "help"
+[12:47:45] [Server thread/INFO]: Timings Reset

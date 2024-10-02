@@ -1,0 +1,971 @@
+{
+    "id": "paper\/server",
+    "name": "Paper",
+    "type": "Server Log",
+    "version": "1.21.1",
+    "title": "Paper 1.21.1 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:51] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[13:02:51] [ServerMain\/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.3+9-LTS; Eclipse Adoptium Temurin-21.0.3+9) on Linux 5.15.0-117-generic (amd64)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:51] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[13:02:51] [ServerMain\/INFO]: [bootstrap] Loading Paper 1.21.1-116-master@e7e1ab5 (2024-09-30T23:17:54Z) for Minecraft 1.21.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:52] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[13:02:52] [ServerMain\/INFO]: [PluginInitializerManager] Initializing plugins..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:52] [Paper Plugin Remapper Thread - 2\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[13:02:52] [Paper Plugin Remapper Thread - 2\/INFO]: [PluginRemapper] Remapping plugin 'plugins\/mclogs-bukkit-dev.jar'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:53] [Paper Plugin Remapper Thread - 2\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[13:02:53] [Paper Plugin Remapper Thread - 2\/INFO]: [PluginRemapper] Done remapping plugin 'plugins\/mclogs-bukkit-dev.jar' in 1015ms."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:53] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[13:02:53] [ServerMain\/INFO]: [PluginInitializerManager] Initialized 1 plugin"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:53] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[13:02:53] [ServerMain\/INFO]: [PluginInitializerManager] Bukkit plugins (1):"
+                },
+                {
+                    "number": 8,
+                    "content": " - Mclogs (dev)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:57] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[13:02:57] [ServerMain\/INFO]: Environment: Environment[sessionHost=https:\/\/sessionserver.mojang.com, servicesHost=https:\/\/api.minecraftservices.com, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:58] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[13:02:58] [ServerMain\/INFO]: Loaded 1290 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:58] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[13:02:58] [ServerMain\/INFO]: Loaded 1399 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:59] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[13:02:59] [Server thread\/INFO]: Starting minecraft server version 1.21.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:59] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[13:02:59] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:59] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[13:02:59] [Server thread\/INFO]: This server is running Paper version 1.21.1-116-master@e7e1ab5 (2024-09-30T23:17:54Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:59] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[13:02:59] [Server thread\/INFO]: [spark] This server bundles the spark profiler. For more information please visit https:\/\/docs.papermc.io\/paper\/profiling"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:59] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[13:02:59] [Server thread\/INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:02:59] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[13:02:59] [Server thread\/INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:00] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[13:03:00] [Server thread\/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I\/O threads, 1 worker threads, and population gen parallelism of 1 threads"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:01] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[13:03:01] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:01] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[13:03:01] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:01] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[13:03:01] [Server thread\/INFO]: Starting Minecraft server on *:16754"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:01] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[13:03:01] [Server thread\/INFO]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:01] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[13:03:01] [Server thread\/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:01] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[13:03:01] [Server thread\/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[13:03:01] [Server thread\/ERROR]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[13:03:01] [Server thread\/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'mclogs-bukkit-dev.jar' in folder 'plugins\/.paper-remapped'"
+                },
+                {
+                    "number": 26,
+                    "content": "org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: gs\/mclo\/bukkit\/MclogsPlugin has been compiled by a more recent version of the Java Runtime (class file version 66.0), this version of the Java Runtime only recognizes class file versions up to 65.0"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 29,
+                    "content": "\tat io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 31,
+                    "content": "\tat io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 33,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 34,
+                    "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 35,
+                    "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 36,
+                    "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1583) ~[?:?]"
+                },
+                {
+                    "number": 37,
+                    "content": "Caused by: java.lang.UnsupportedClassVersionError: gs\/mclo\/bukkit\/MclogsPlugin has been compiled by a more recent version of the Java Runtime (class file version 66.0), this version of the Java Runtime only recognizes class file versions up to 65.0"
+                },
+                {
+                    "number": 38,
+                    "content": "\tat java.base\/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 39,
+                    "content": "\tat java.base\/java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]"
+                },
+                {
+                    "number": 40,
+                    "content": "\tat java.base\/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]"
+                },
+                {
+                    "number": 41,
+                    "content": "\tat org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]"
+                },
+                {
+                    "number": 42,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]"
+                },
+                {
+                    "number": 43,
+                    "content": "\tat org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]"
+                },
+                {
+                    "number": 44,
+                    "content": "\tat org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]"
+                },
+                {
+                    "number": 45,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]"
+                },
+                {
+                    "number": 46,
+                    "content": "\tat java.base\/java.lang.Class.forName0(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 47,
+                    "content": "\tat java.base\/java.lang.Class.forName(Class.java:534) ~[?:?]"
+                },
+                {
+                    "number": 48,
+                    "content": "\tat java.base\/java.lang.Class.forName(Class.java:513) ~[?:?]"
+                },
+                {
+                    "number": 49,
+                    "content": "\tat org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]"
+                },
+                {
+                    "number": 50,
+                    "content": "\tat io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 51,
+                    "content": "\t... 9 more"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:01] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[13:03:01] [Server thread\/INFO]: Server permissions file permissions.yml is empty, ignoring it"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:01] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[13:03:01] [Server thread\/INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:02] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[13:03:02] [Server thread\/INFO]: Preparing start region for dimension minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:03] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[13:03:03] [Server thread\/INFO]: Time elapsed: 1387 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:03] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[13:03:03] [Server thread\/INFO]: Preparing start region for dimension minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:03] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[13:03:03] [Server thread\/INFO]: Time elapsed: 155 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:03] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[13:03:03] [Server thread\/INFO]: Preparing start region for dimension minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:03] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[13:03:03] [Server thread\/INFO]: Time elapsed: 200 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:03] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[13:03:03] [Server thread\/INFO]: [spark] Starting background profiler..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[13:03:04] [Server thread\/INFO]: Done preparing level \"world\" (2.650s)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[13:03:04] [Server thread\/INFO]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[13:03:04] [Server thread\/INFO]: Thread Query Listener started"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:04] [Query Listener #1\/INFO]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[13:03:04] [Query Listener #1\/INFO]: Query running on 0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[13:03:04] [Server thread\/INFO]: JMX monitoring enabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[13:03:04] [Server thread\/INFO]: Running delayed init tasks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[13:03:04] [Server thread\/INFO]: Done (12.908s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[13:03:04] [Server thread\/INFO]: Timings Reset"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[13:03:21] [Server thread\/INFO]: Stopping the server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[13:03:21] [Server thread\/INFO]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[13:03:21] [Server thread\/INFO]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[13:03:21] [Server thread\/INFO]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[13:03:21] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[13:03:21] [Server thread\/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[13:03:21] [Server thread\/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[13:03:21] [Server thread\/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[13:03:21] [Server thread\/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.35s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[13:03:21] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world_nether]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[13:03:21] [Server thread\/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[13:03:21] [Server thread\/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[13:03:21] [Server thread\/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[13:03:21] [Server thread\/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[13:03:21] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[13:03:21] [Server thread\/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[13:03:21] [Server thread\/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[13:03:21] [Server thread\/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[13:03:21] [Server thread\/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[13:03:21] [Server thread\/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[13:03:21] [Server thread\/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[13:03:21] [Server thread\/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[13:03:21] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[13:03:21] [Server thread\/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The plugin 'mclogs-bukkit-dev' requires Java version 22 or later to run.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[13:03:01] [Server thread\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 25,
+                            "content": "[13:03:01] [Server thread\/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'mclogs-bukkit-dev.jar' in folder 'plugins\/.paper-remapped'"
+                        },
+                        {
+                            "number": 26,
+                            "content": "org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: gs\/mclo\/bukkit\/MclogsPlugin has been compiled by a more recent version of the Java Runtime (class file version 66.0), this version of the Java Runtime only recognizes class file versions up to 65.0"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\tat io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 30,
+                            "content": "\tat io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 31,
+                            "content": "\tat io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\tat org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 33,
+                            "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 34,
+                            "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 35,
+                            "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 36,
+                            "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1583) ~[?:?]"
+                        },
+                        {
+                            "number": 37,
+                            "content": "Caused by: java.lang.UnsupportedClassVersionError: gs\/mclo\/bukkit\/MclogsPlugin has been compiled by a more recent version of the Java Runtime (class file version 66.0), this version of the Java Runtime only recognizes class file versions up to 65.0"
+                        },
+                        {
+                            "number": 38,
+                            "content": "\tat java.base\/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]"
+                        },
+                        {
+                            "number": 39,
+                            "content": "\tat java.base\/java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]"
+                        },
+                        {
+                            "number": 40,
+                            "content": "\tat java.base\/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]"
+                        },
+                        {
+                            "number": 41,
+                            "content": "\tat org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]"
+                        },
+                        {
+                            "number": 42,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]"
+                        },
+                        {
+                            "number": 43,
+                            "content": "\tat org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]"
+                        },
+                        {
+                            "number": 44,
+                            "content": "\tat org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]"
+                        },
+                        {
+                            "number": 45,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]"
+                        },
+                        {
+                            "number": 46,
+                            "content": "\tat java.base\/java.lang.Class.forName0(Native Method) ~[?:?]"
+                        },
+                        {
+                            "number": 47,
+                            "content": "\tat java.base\/java.lang.Class.forName(Class.java:534) ~[?:?]"
+                        },
+                        {
+                            "number": 48,
+                            "content": "\tat java.base\/java.lang.Class.forName(Class.java:513) ~[?:?]"
+                        },
+                        {
+                            "number": 49,
+                            "content": "\tat org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]"
+                        },
+                        {
+                            "number": 50,
+                            "content": "\tat io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 51,
+                            "content": "\t... 9 more"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file 'plugins\/mclogs-bukkit-dev.jar'."
+                    },
+                    {
+                        "message": "Change your Java version to 22 or later."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.21.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[13:02:59] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 12,
+                            "content": "[13:02:59] [Server thread\/INFO]: Starting minecraft server version 1.21.1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.1"
+            }
+        ]
+    }
+}
