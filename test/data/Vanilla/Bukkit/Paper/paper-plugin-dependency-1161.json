@@ -432,10 +432,13 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install the plugin 'LuckPerms'."
+                        "message": "Install a different version of the plugin 'LuckPermsChat-2.0.2'."
                     },
                     {
                         "message": "Delete the file 'plugins\/LuckPermsChat-2.0.2.jar'."
+                    },
+                    {
+                        "message": "Install the plugin 'LuckPerms'."
                     }
                 ]
             }

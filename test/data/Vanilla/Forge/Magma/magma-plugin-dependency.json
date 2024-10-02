@@ -276,10 +276,13 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install the plugin 'Vault'."
+                        "message": "Install a different version of the plugin 'FactionsShop'."
                     },
                     {
                         "message": "Delete the file 'plugins\/FactionsShop.jar'."
+                    },
+                    {
+                        "message": "Install the plugin 'Vault'."
                     }
                 ]
             },
@@ -323,10 +326,13 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install the plugin 'ProtocolLib'."
+                        "message": "Install a different version of the plugin 'BasicTab'."
                     },
                     {
                         "message": "Delete the file 'plugins\/BasicTab.jar'."
+                    },
+                    {
+                        "message": "Install the plugin 'ProtocolLib'."
                     }
                 ]
             }

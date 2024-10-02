@@ -14817,10 +14817,13 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install the plugin 'WorldGuard'."
+                        "message": "Install a different version of the plugin 'AreaShop'."
                     },
                     {
                         "message": "Delete the file 'plugins\/AreaShop.jar'."
+                    },
+                    {
+                        "message": "Install the plugin 'WorldGuard'."
                     }
                 ]
             },
