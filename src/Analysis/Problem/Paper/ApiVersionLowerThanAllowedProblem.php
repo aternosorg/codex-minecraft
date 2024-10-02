@@ -34,7 +34,7 @@ class ApiVersionLowerThanAllowedProblem extends PaperPluginProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not load plugin \'((?!\.jar).*)\.jar\' in folder \'[^\']+\''
+            '/Could not load plugin \'((?!\.jar).*\.jar)\' in folder \'[^\']+\''
             . '\norg.bukkit.plugin.InvalidPluginException: Plugin API version (\d+\.\d+) is lower than the minimum allowed version\. Please update or replace it\./'
         ];
     }
@@ -44,7 +44,7 @@ class ApiVersionLowerThanAllowedProblem extends PaperPluginProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->pluginName = $matches[1];
+        $this->pluginName = $this->extractPluginName($matches[1]);
         $this->pluginApiVersion = $matches[2];
 
         $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
