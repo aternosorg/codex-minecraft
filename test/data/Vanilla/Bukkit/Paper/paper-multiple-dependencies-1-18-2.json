@@ -399,13 +399,16 @@
                 },
                 "solutions": [
                     {
+                        "message": "Install a different version of the plugin 'mclogs-bukkit-2.3.1'."
+                    },
+                    {
+                        "message": "Delete the file 'plugins\/mclogs-bukkit-2.3.1.jar'."
+                    },
+                    {
                         "message": "Install the plugin 'example2'."
                     },
                     {
                         "message": "Install the plugin 'example1'."
-                    },
-                    {
-                        "message": "Remove the plugin 'mclogs-bukkit-2.3.1'."
                     }
                 ]
             }

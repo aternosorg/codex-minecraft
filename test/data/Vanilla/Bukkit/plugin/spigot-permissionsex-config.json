@@ -14216,7 +14216,7 @@
                         "message": "Install a different version of the plugin 'Troll_v3.8'."
                     },
                     {
-                        "message": "Remove the plugin 'Troll_v3.8'."
+                        "message": "Delete the file 'plugins\/Troll_v3.8.jar'."
                     }
                 ]
             },
@@ -14299,7 +14299,7 @@
                         "message": "Install a different version of the plugin 'AdminSystem ???'."
                     },
                     {
-                        "message": "Remove the plugin 'AdminSystem ???'."
+                        "message": "Delete the file 'plugins\/AdminSystem ???.jar'."
                     }
                 ]
             },
@@ -14358,7 +14358,7 @@
                         "message": "Install a different version of the plugin 'ChatTroll_v2.1'."
                     },
                     {
-                        "message": "Remove the plugin 'ChatTroll_v2.1'."
+                        "message": "Delete the file 'plugins\/ChatTroll_v2.1.jar'."
                     }
                 ]
             },
@@ -14464,7 +14464,7 @@
                         "message": "Install a different version of the plugin 'CommunityBETA'."
                     },
                     {
-                        "message": "Remove the plugin 'CommunityBETA'."
+                        "message": "Delete the file 'plugins\/CommunityBETA.jar'."
                     }
                 ]
             },
@@ -14546,7 +14546,7 @@
                         "message": "Install a different version of the plugin 'bstats-bukkit-1.2'."
                     },
                     {
-                        "message": "Remove the plugin 'bstats-bukkit-1.2'."
+                        "message": "Delete the file 'plugins\/bstats-bukkit-1.2.jar'."
                     }
                 ]
             },
@@ -14773,7 +14773,7 @@
                         "message": "Install a different version of the plugin 'SlashServer'."
                     },
                     {
-                        "message": "Remove the plugin 'SlashServer'."
+                        "message": "Delete the file 'plugins\/SlashServer.jar'."
                     }
                 ]
             },
@@ -14817,10 +14817,13 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install the plugin 'WorldGuard'."
+                        "message": "Install a different version of the plugin 'AreaShop'."
                     },
                     {
-                        "message": "Remove the plugin 'AreaShop'."
+                        "message": "Delete the file 'plugins\/AreaShop.jar'."
+                    },
+                    {
+                        "message": "Install the plugin 'WorldGuard'."
                     }
                 ]
             },
@@ -14951,7 +14954,7 @@
                         "message": "Install a different version of the plugin 'PortalStones1.5'."
                     },
                     {
-                        "message": "Remove the plugin 'PortalStones1.5'."
+                        "message": "Delete the file 'plugins\/PortalStones1.5.jar'."
                     }
                 ]
             },

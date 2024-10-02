@@ -821,7 +821,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The plugin 'mclogs-bukkit-dev' requires Java version 22 or later to run.",
+                "message": "The plugin 'mclogs-bukkit-dev' requires Java version -44 or later to run.",
                 "counter": 1,
                 "entry": {
                     "level": 3,
@@ -943,10 +943,10 @@
                         "message": "Install a different version of the plugin 'mclogs-bukkit-dev'."
                     },
                     {
-                        "message": "Remove the plugin 'mclogs-bukkit-dev'."
+                        "message": "Delete the file 'plugins\/mclogs-bukkit-dev.jar'."
                     },
                     {
-                        "message": "Change your Java version to 22 or later."
+                        "message": "Change your Java version to -44 or later."
                     }
                 ]
             }

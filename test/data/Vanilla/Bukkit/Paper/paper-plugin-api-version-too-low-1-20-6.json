@@ -484,10 +484,10 @@
                 },
                 "solutions": [
                     {
-                        "message": "Remove the plugin 'worldedit-bukkit-7.3.4-beta-01'."
+                        "message": "Install a different version of the plugin 'worldedit-bukkit-7.3.4-beta-01'."
                     },
                     {
-                        "message": "Install a different version of the plugin 'worldedit-bukkit-7.3.4-beta-01'."
+                        "message": "Delete the file 'plugins\/worldedit-bukkit-7.3.4-beta-01.jar'."
                     },
                     {
                         "message": "Change 'minimum-api' in bukkit.yml to 1.20, lower or even 'none'."

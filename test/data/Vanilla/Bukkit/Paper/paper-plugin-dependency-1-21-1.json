@@ -804,10 +804,13 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install the plugin 'WorldEdit'."
+                        "message": "Install a different version of the plugin 'worldguard-bukkit-7.0.12-dist'."
                     },
                     {
-                        "message": "Remove the plugin 'worldguard-bukkit-7.0.12-dist'."
+                        "message": "Delete the file 'plugins\/worldguard-bukkit-7.0.12-dist.jar'."
+                    },
+                    {
+                        "message": "Install the plugin 'WorldEdit'."
                     }
                 ]
             }

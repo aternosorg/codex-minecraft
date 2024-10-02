@@ -831,7 +831,7 @@
                         "message": "Install a different version of the plugin 'mclogs-bukkit-dev'."
                     },
                     {
-                        "message": "Remove the plugin 'mclogs-bukkit-dev'."
+                        "message": "Delete the file 'plugins\/mclogs-bukkit-dev.jar'."
                     },
                     {
                         "message": "Install the version '1.25' of your server software."

@@ -828,10 +828,10 @@
                 },
                 "solutions": [
                     {
-                        "message": "Remove the plugin 'mclogs-bukkit-dev'."
+                        "message": "Install a different version of the plugin 'mclogs-bukkit-dev'."
                     },
                     {
-                        "message": "Install a different version of the plugin 'mclogs-bukkit-dev'."
+                        "message": "Delete the file 'plugins\/mclogs-bukkit-dev.jar'."
                     },
                     {
                         "message": "Change 'minimum-api' in bukkit.yml to 1.20, lower or even 'none'."

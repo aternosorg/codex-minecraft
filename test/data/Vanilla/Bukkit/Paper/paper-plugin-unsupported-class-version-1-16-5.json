@@ -464,7 +464,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The plugin 'Slimefun4-1027' requires Java version 16 or later to run.",
+                "message": "The plugin 'Slimefun4-1027' requires Java version -44 or later to run.",
                 "counter": 1,
                 "entry": {
                     "level": 3,
@@ -574,10 +574,10 @@
                         "message": "Install a different version of the plugin 'Slimefun4-1027'."
                     },
                     {
-                        "message": "Remove the plugin 'Slimefun4-1027'."
+                        "message": "Delete the file 'plugins\/Slimefun4-1027.jar'."
                     },
                     {
-                        "message": "Change your Java version to 16 or later."
+                        "message": "Change your Java version to -44 or later."
                     }
                 ]
             }
