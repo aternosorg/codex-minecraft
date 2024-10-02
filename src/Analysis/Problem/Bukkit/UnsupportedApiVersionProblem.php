@@ -7,7 +7,7 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\ServerInstallDifferentVersi
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-class UnsupportedApiVersionProblem extends PluginProblem
+class UnsupportedApiVersionProblem extends BukkitPluginProblem
 {
     protected ?string $pluginPath = null;
 

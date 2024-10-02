@@ -11,7 +11,7 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-abstract class PluginProblem extends BukkitProblem
+abstract class BukkitPluginProblem extends BukkitProblem
 {
     protected ?string $pluginName = null;
 
@@ -45,5 +45,27 @@ abstract class PluginProblem extends BukkitProblem
     public function isEqual(InsightInterface $insight): bool
     {
         return $insight instanceof static && $this->getPluginName() === $insight->getPluginName();
+    }
+
+    /**
+     * Corrects the plugin path by removing the ".paper-remapped/" part
+     *
+     * @param string $pluginPath
+     * @return string
+     */
+    protected function correctPluginPath(string $pluginPath): string
+    {
+        return str_replace("plugins/.paper-remapped/", "plugins/", $pluginPath);
+    }
+
+    /**
+     * Extracts the plugin name from a plugin path
+     *
+     * @param string $pluginPath
+     * @return string
+     */
+    protected function extractPluginName(string $pluginPath): string
+    {
+        return pathinfo($pluginPath, PATHINFO_FILENAME);
     }
 }

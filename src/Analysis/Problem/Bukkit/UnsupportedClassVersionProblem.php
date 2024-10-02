@@ -6,7 +6,7 @@ use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\UpdateJavaSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-class UnsupportedClassVersionProblem extends PluginProblem
+class UnsupportedClassVersionProblem extends BukkitPluginProblem
 {
     protected ?string $pluginPath = null;
 

@@ -9,7 +9,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class PluginEnablingProblem extends PluginProblem
+class PluginEnablingProblem extends BukkitPluginProblem
 {
     /**
      * Get a human-readable message

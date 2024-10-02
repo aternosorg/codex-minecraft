@@ -12,7 +12,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class PluginLoadProblem extends PluginProblem
+class PluginLoadProblem extends BukkitPluginProblem
 {
     protected ?string $pluginPath = null;
 
