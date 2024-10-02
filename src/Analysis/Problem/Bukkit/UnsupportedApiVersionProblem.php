@@ -3,23 +3,13 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\ServerInstallDifferentVersionSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 class UnsupportedApiVersionProblem extends BukkitPluginProblem
 {
-    protected ?string $pluginPath = null;
-
     protected ?string $apiVersion = null;
-
-    /**
-     * @return string|null
-     */
-    public function getPluginPath(): ?string
-    {
-        return $this->pluginPath;
-    }
 
     /**
      * @return string|null
@@ -51,16 +41,11 @@ class UnsupportedApiVersionProblem extends BukkitPluginProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $pluginFileName = $matches[1]; // worldedit-bukkit-7.3.4-beta-01.jar
-        $pluginName = $matches[2]; // worldedit-bukkit-7.3.4-beta-01
-        $folderName = str_replace("plugins/.paper-remapped", "plugins", $matches[3]); // plugins or plugins/.paper-remapped
-
-        $this->pluginPath = $folderName . '/' . $pluginFileName;
-        $this->pluginName = $pluginName;
-        $this->apiVersion = $matches[4];
+        $this->pluginName = $this->extractPluginName($matches[1]);
+        $this->apiVersion = $matches[2];
 
         $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginPath()));
+        $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
         $this->addSolution((new ServerInstallDifferentVersionSolution())->setSoftwareVersion($this->getApiVersion()));
     }
 
@@ -76,10 +61,10 @@ class UnsupportedApiVersionProblem extends BukkitPluginProblem
     {
         return [
             // < 1.20
-            '/Could not load \'plugins[\/\\\](((?!\.jar).*)\.jar)\' in folder \'([^\']+)\''
+            '/Could not load \'plugins[\/\\\]([^\']+\.jar)\' in (?:folder )?\'[^\']+\''
             . '\norg\.bukkit\.plugin\.InvalidPluginException\: Unsupported API version ([0-9]+\.[0-9]+)/',
             // >= 1.20
-            '/Could not load plugin \'(((?!\.jar).*)\.jar)\' in folder \'([^\']+)\''
+            '/Could not load plugin \'((?!\.jar).*\.jar)\' in folder \'[^\']+\''
             . '\norg\.bukkit\.plugin\.InvalidPluginException\: Unsupported API version ([0-9]+\.[0-9]+)/',
         ];
     }

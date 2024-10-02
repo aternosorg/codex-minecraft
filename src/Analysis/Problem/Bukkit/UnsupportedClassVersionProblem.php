@@ -2,23 +2,14 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\UpdateJavaSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 class UnsupportedClassVersionProblem extends BukkitPluginProblem
 {
-    protected ?string $pluginPath = null;
-
     protected ?string $classFileVersion = null;
-
-    /**
-     * @return string|null
-     */
-    public function getPluginPath(): ?string
-    {
-        return $this->pluginPath;
-    }
 
     /**
      * @return string|null
@@ -50,15 +41,11 @@ class UnsupportedClassVersionProblem extends BukkitPluginProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $pluginFileName = $matches[1]; // worldedit-bukkit-7.3.4-beta-01.jar
-        $pluginName = $matches[2]; // worldedit-bukkit-7.3.4-beta-01
-        $folderName = str_replace("plugins/.paper-remapped", "plugins", $matches[3]); // plugins or plugins/.paper-remapped
+        $this->pluginName = $this->extractPluginName($matches[1]);
+        $this->classFileVersion = $matches[2];
 
-        $this->pluginPath = $folderName . '/' . $pluginFileName;
-        $this->pluginName = $pluginName;
-        $this->classFileVersion = $matches[4];
-
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginPath()));
+        $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
+        $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
         $this->addSolution((new UpdateJavaSolution())->setVersion($this->getJavaVersion()));
     }
 
@@ -74,10 +61,10 @@ class UnsupportedClassVersionProblem extends BukkitPluginProblem
     {
         return [
             // < 1.20
-            '/Could not load \'plugins[\/\\\](((?!\.jar).*)\.jar)\' in folder \'([^\']+)\''
+            '/Could not load \'plugins[\/\\\]([^\']+\.jar)\' in (?:folder )?\'[^\']+\''
             . '\norg\.bukkit\.plugin\.InvalidPluginException\: java\.lang\.UnsupportedClassVersionError: .+ \(class file version (\d+)\.\d+\)/',
             // >= 1.20
-            '/Could not load plugin \'(((?!\.jar).*)\.jar)\' in folder \'([^\']+)\''
+            '/Could not load plugin \'((?!\.jar).*\.jar)\' in folder \'[^\']+\''
             . '\norg\.bukkit\.plugin\.InvalidPluginException\: java\.lang\.UnsupportedClassVersionError: .+ \(class file version (\d+)\.\d+\)/'
         ];
     }

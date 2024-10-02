@@ -4,7 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -12,31 +12,12 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class PluginDependenciesProblem extends BukkitProblem
+class PluginDependenciesProblem extends BukkitPluginProblem
 {
-    protected ?string $pluginPath = null;
-    protected ?string $pluginName = null;
-
     /**
      * @var string[]
      */
     protected array $dependencyPluginNames = [];
-
-    /**
-     * @return string|null
-     */
-    public function getPluginPath(): ?string
-    {
-        return $this->pluginPath;
-    }
-
-    /**
-     * @return string|null
-     */
-    public function getPluginName(): ?string
-    {
-        return $this->pluginName;
-    }
 
     /**
      * get a list of missing dependencies
@@ -102,14 +83,13 @@ class PluginDependenciesProblem extends BukkitProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->pluginPath = str_replace("plugins/.paper-remapped/", "plugins/", $matches[1]);
-        $this->pluginName = pathinfo($this->pluginPath, PATHINFO_FILENAME);
+        $this->pluginName = $this->extractPluginName($matches[1]);
         $this->dependencyPluginNames = preg_split("/, ?/", $matches[2]);
 
         foreach ($this->dependencyPluginNames as $name) {
             $this->addSolution((new PluginInstallSolution())->setPluginName($name));
         }
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginPath()));
+        $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
     }
 
     /**
@@ -122,7 +102,7 @@ class PluginDependenciesProblem extends BukkitProblem
             return false;
         }
 
-        if ($this->getPluginName() !== $insight->getPluginName() || $this->getPluginPath() !== $insight->getPluginPath()) {
+        if ($this->getPluginName() !== $insight->getPluginName()) {
             return false;
         }
 

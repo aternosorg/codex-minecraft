@@ -2,9 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
-use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -14,8 +13,6 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class PluginLoadProblem extends BukkitPluginProblem
 {
-    protected ?string $pluginPath = null;
-
     /**
      * Get a human-readable message
      *
@@ -36,7 +33,7 @@ class PluginLoadProblem extends BukkitPluginProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in folder \'[^\']+\''
+            '/Could not load \'(plugins[\/\\\][^\']+\.jar)\' in (?:folder )?\'[^\']+\''
             . '(?!\n(org.bukkit.plugin.UnknownDependencyException|org.bukkit.plugin.InvalidPluginException\: (Unsupported API version|java\.lang\.UnsupportedClassVersionError)))/'
         ];
     }
@@ -50,29 +47,9 @@ class PluginLoadProblem extends BukkitPluginProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->pluginPath = str_replace("plugins/.paper-remapped/", "plugins/", $matches[1]);
-        $this->pluginName = $matches[2];
+        $this->pluginName = $this->extractPluginName($matches[1]);
 
         $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginPath()));
-    }
-
-    /**
-     * @return string|null
-     */
-    public function getPluginPath(): ?string
-    {
-        return $this->pluginPath;
-    }
-
-    /**
-     * @param InsightInterface $insight
-     * @return bool
-     */
-    public function isEqual(InsightInterface $insight): bool
-    {
-        return $insight instanceof static
-            && $this->getPluginPath() === $insight->getPluginPath()
-            && parent::isEqual($insight);
+        $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
     }
 }

@@ -4,7 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -12,27 +12,9 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class PluginDependencyProblem extends BukkitProblem
+class PluginDependencyProblem extends BukkitPluginProblem
 {
-    protected ?string $pluginPath = null;
-    protected ?string $pluginName = null;
     protected ?string $dependencyPluginName = null;
-
-    /**
-     * @return string|null
-     */
-    public function getPluginPath(): ?string
-    {
-        return $this->pluginPath;
-    }
-
-    /**
-     * @return string|null
-     */
-    public function getPluginName(): ?string
-    {
-        return $this->pluginName;
-    }
 
     /**
      * @return string|null
@@ -78,12 +60,11 @@ class PluginDependencyProblem extends BukkitProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->pluginPath = str_replace("plugins/.paper-remapped/", "plugins/", $matches[1]);
-        $this->pluginName = pathinfo($this->pluginPath, PATHINFO_FILENAME);
+        $this->pluginName = $this->extractPluginName($matches[1]);
         $this->dependencyPluginName = $matches[2] ?: $matches[3];
 
         $this->addSolution((new PluginInstallSolution())->setPluginName($this->getDependencyPluginName()));
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginPath()));
+        $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
     }
 
     /**
@@ -94,7 +75,6 @@ class PluginDependencyProblem extends BukkitProblem
     {
         return $insight instanceof static
             && $this->getPluginName() === $insight->getPluginName()
-            && $this->getPluginPath() === $insight->getPluginPath()
             && $this->getDependencyPluginName() === $insight->getDependencyPluginName();
     }
 }
