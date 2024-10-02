@@ -6103,7 +6103,7 @@
                         "message": "Install the plugin 'Languagy'."
                     },
                     {
-                        "message": "Delete the file 'plugins\/AnvilLogin.jar'."
+                        "message": "Remove the plugin 'AnvilLogin'."
                     }
                 ]
             },

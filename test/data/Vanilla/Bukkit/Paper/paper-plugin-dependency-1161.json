@@ -435,7 +435,7 @@
                         "message": "Install the plugin 'LuckPerms'."
                     },
                     {
-                        "message": "Delete the file 'plugins\/LuckPermsChat-2.0.2.jar'."
+                        "message": "Remove the plugin 'LuckPermsChat-2.0.2'."
                     }
                 ]
             }

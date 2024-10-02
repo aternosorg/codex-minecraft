@@ -419,7 +419,7 @@
                         "message": "Install the plugin 'ViaVersion'."
                     },
                     {
-                        "message": "Delete the file 'plugins\/ViaBackwards-4.2.1.jar'."
+                        "message": "Remove the plugin 'ViaBackwards-4.2.1'."
                     }
                 ]
             }

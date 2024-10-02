@@ -279,7 +279,7 @@
                         "message": "Install the plugin 'Vault'."
                     },
                     {
-                        "message": "Delete the file 'plugins\/FactionsShop.jar'."
+                        "message": "Remove the plugin 'FactionsShop'."
                     }
                 ]
             },
@@ -326,7 +326,7 @@
                         "message": "Install the plugin 'ProtocolLib'."
                     },
                     {
-                        "message": "Delete the file 'plugins\/BasicTab.jar'."
+                        "message": "Remove the plugin 'BasicTab'."
                     }
                 ]
             }

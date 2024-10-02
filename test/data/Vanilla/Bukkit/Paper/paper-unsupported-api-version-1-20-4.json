@@ -483,7 +483,7 @@
                         "message": "Install a different version of the plugin 'worldedit-bukkit-7.3.4-beta-01'."
                     },
                     {
-                        "message": "Delete the file 'plugins\/worldedit-bukkit-7.3.4-beta-01.jar'."
+                        "message": "Remove the plugin 'worldedit-bukkit-7.3.4-beta-01'."
                     },
                     {
                         "message": "Install the version '1.25' of your server software."

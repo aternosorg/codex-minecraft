@@ -255,7 +255,7 @@
                         "message": "Install a different version of the plugin 'GamenixText'."
                     },
                     {
-                        "message": "Delete the file 'plugins\/GamenixText.jar'."
+                        "message": "Remove the plugin 'GamenixText'."
                     }
                 ]
             }

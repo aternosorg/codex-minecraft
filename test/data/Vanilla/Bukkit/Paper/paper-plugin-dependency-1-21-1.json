@@ -807,7 +807,7 @@
                         "message": "Install the plugin 'WorldEdit'."
                     },
                     {
-                        "message": "Delete the file 'plugins\/worldguard-bukkit-7.0.12-dist.jar'."
+                        "message": "Remove the plugin 'worldguard-bukkit-7.0.12-dist'."
                     }
                 ]
             }

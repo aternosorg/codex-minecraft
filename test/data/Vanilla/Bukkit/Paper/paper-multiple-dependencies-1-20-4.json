@@ -462,7 +462,7 @@
                         "message": "Install the plugin 'example2'."
                     },
                     {
-                        "message": "Delete the file 'plugins\/mclogs-bukkit-2.3.1.jar'."
+                        "message": "Remove the plugin 'mclogs-bukkit-2.3.1'."
                     }
                 ]
             }

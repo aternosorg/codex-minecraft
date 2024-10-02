@@ -940,7 +940,10 @@
                 },
                 "solutions": [
                     {
-                        "message": "Delete the file 'plugins\/mclogs-bukkit-dev.jar'."
+                        "message": "Install a different version of the plugin 'mclogs-bukkit-dev'."
+                    },
+                    {
+                        "message": "Remove the plugin 'mclogs-bukkit-dev'."
                     },
                     {
                         "message": "Change your Java version to 22 or later."

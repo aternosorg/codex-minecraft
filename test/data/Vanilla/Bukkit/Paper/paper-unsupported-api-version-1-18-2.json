@@ -426,7 +426,7 @@
                         "message": "Install a different version of the plugin 'AuctionHouse-1.19-3.3.1'."
                     },
                     {
-                        "message": "Delete the file 'plugins\/AuctionHouse-1.19-3.3.1.jar'."
+                        "message": "Remove the plugin 'AuctionHouse-1.19-3.3.1'."
                     },
                     {
                         "message": "Install the version '1.19' of your server software."

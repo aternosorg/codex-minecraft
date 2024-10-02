@@ -650,7 +650,10 @@
                 },
                 "solutions": [
                     {
-                        "message": "Delete the file 'plugins\/worldedit-bukkit-7.3.4-beta-01.jar'."
+                        "message": "Install a different version of the plugin 'worldedit-bukkit-7.3.4-beta-01'."
+                    },
+                    {
+                        "message": "Remove the plugin 'worldedit-bukkit-7.3.4-beta-01'."
                     },
                     {
                         "message": "Change your Java version to 21 or later."
