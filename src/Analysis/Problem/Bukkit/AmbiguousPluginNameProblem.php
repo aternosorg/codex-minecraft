@@ -62,8 +62,8 @@ class AmbiguousPluginNameProblem extends BukkitProblem
     public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->pluginName = $matches[1];
-        $this->firstPluginPath = $matches[2];
-        $this->secondPluginPath = $matches[3];
+        $this->firstPluginPath = str_replace("plugins/.paper-remapped/", "plugins/", $matches[2]);
+        $this->secondPluginPath = str_replace("plugins/.paper-remapped/", "plugins/", $matches[3]);
 
         $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getFirstPluginPath()));
         $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getSecondPluginPath()));

@@ -50,7 +50,7 @@ class PluginLoadProblem extends PluginProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->pluginPath = $matches[1];
+        $this->pluginPath = str_replace("plugins/.paper-remapped/", "plugins/", $matches[1]);
         $this->pluginName = $matches[2];
 
         $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));

@@ -52,7 +52,7 @@ class UnsupportedClassVersionProblem extends PluginProblem
     {
         $pluginFileName = $matches[1]; // worldedit-bukkit-7.3.4-beta-01.jar
         $pluginName = $matches[2]; // worldedit-bukkit-7.3.4-beta-01
-        $folderName = $matches[3]; // plugins
+        $folderName = str_replace("plugins/.paper-remapped", "plugins", $matches[3]); // plugins or plugins/.paper-remapped
 
         $this->pluginPath = $folderName . '/' . $pluginFileName;
         $this->pluginName = $pluginName;
@@ -73,8 +73,10 @@ class UnsupportedClassVersionProblem extends PluginProblem
     public static function getPatterns(): array
     {
         return [
+            // < 1.20
             '/Could not load \'plugins[\/\\\](((?!\.jar).*)\.jar)\' in folder \'([^\']+)\''
             . '\norg\.bukkit\.plugin\.InvalidPluginException\: java\.lang\.UnsupportedClassVersionError: .+ \(class file version (\d+)\.\d+\)/',
+            // >= 1.20
             '/Could not load plugin \'(((?!\.jar).*)\.jar)\' in folder \'([^\']+)\''
             . '\norg\.bukkit\.plugin\.InvalidPluginException\: java\.lang\.UnsupportedClassVersionError: .+ \(class file version (\d+)\.\d+\)/'
         ];
