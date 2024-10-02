@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 use Aternos\Codex\Analysis\InsightInterface;
-use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveFileSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -64,8 +64,8 @@ class AmbiguousPluginNameProblem extends BukkitPluginProblem
         $this->firstPluginPath = $this->correctPluginPath($matches[2]);
         $this->secondPluginPath = $this->correctPluginPath($matches[3]);
 
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getFirstPluginPath()));
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getSecondPluginPath()));
+        $this->addSolution((new PluginRemoveFileSolution())->setPluginFilePath($this->getFirstPluginPath())->setPluginName($this->getPluginName()));
+        $this->addSolution((new PluginRemoveFileSolution())->setPluginFilePath($this->getSecondPluginPath())->setPluginName($this->getPluginName()));
     }
 
     /**

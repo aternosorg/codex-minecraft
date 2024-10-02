@@ -4,7 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -12,7 +11,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class PluginDependencyProblem extends BukkitPluginProblem
+class PluginDependencyProblem extends BukkitPluginFileProblem
 {
     protected ?string $dependencyPluginName = null;
 
@@ -47,7 +46,7 @@ class PluginDependencyProblem extends BukkitPluginProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not load \'(plugins[\/\\\][^\']+\.jar)\' in (?:folder )?\'[^\']+\''
+            '/Could not load \'(plugins[\/\\\][^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
             . '\norg\.bukkit\.plugin\.UnknownDependencyException\: (?:(\w+)\n|Unknown dependency (\w+)\.)/'];
     }
 
@@ -60,11 +59,10 @@ class PluginDependencyProblem extends BukkitPluginProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->pluginName = $this->extractPluginName($matches[1]);
-        $this->dependencyPluginName = $matches[2] ?: $matches[3];
+        parent::setMatches($matches, $patternKey);
 
+        $this->dependencyPluginName = $matches[3] ?: $matches[4];
         $this->addSolution((new PluginInstallSolution())->setPluginName($this->getDependencyPluginName()));
-        $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
     }
 
     /**

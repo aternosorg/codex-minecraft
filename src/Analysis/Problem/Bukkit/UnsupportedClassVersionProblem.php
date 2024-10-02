@@ -2,12 +2,10 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\UpdateJavaSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-class UnsupportedClassVersionProblem extends BukkitPluginProblem
+class UnsupportedClassVersionProblem extends BukkitPluginFileProblem
 {
     protected ?string $classFileVersion = null;
 
@@ -41,11 +39,9 @@ class UnsupportedClassVersionProblem extends BukkitPluginProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->pluginName = $this->extractPluginName($matches[1]);
-        $this->classFileVersion = $matches[2];
+        parent::setMatches($matches, $patternKey);
 
-        $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
-        $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
+        $this->classFileVersion = $matches[2];
         $this->addSolution((new UpdateJavaSolution())->setVersion($this->getJavaVersion()));
     }
 
@@ -61,10 +57,10 @@ class UnsupportedClassVersionProblem extends BukkitPluginProblem
     {
         return [
             // < 1.20
-            '/Could not load \'plugins[\/\\\]([^\']+\.jar)\' in (?:folder )?\'[^\']+\''
+            '/Could not load \'plugins[\/\\\]([^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
             . '\norg\.bukkit\.plugin\.InvalidPluginException\: java\.lang\.UnsupportedClassVersionError: .+ \(class file version (\d+)\.\d+\)/',
             // >= 1.20
-            '/Could not load plugin \'((?!\.jar).*\.jar)\' in folder \'[^\']+\''
+            '/Could not load plugin \'((?!\.jar).*\.jar)\' in folder \'([^\']+)\''
             . '\norg\.bukkit\.plugin\.InvalidPluginException\: java\.lang\.UnsupportedClassVersionError: .+ \(class file version (\d+)\.\d+\)/'
         ];
     }

@@ -2,8 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -11,7 +9,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class PluginLoadProblem extends BukkitPluginProblem
+class PluginLoadProblem extends BukkitPluginFileProblem
 {
     /**
      * Get a human-readable message
@@ -33,23 +31,8 @@ class PluginLoadProblem extends BukkitPluginProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not load \'(plugins[\/\\\][^\']+\.jar)\' in (?:folder )?\'[^\']+\''
+            '/Could not load \'(plugins[\/\\\][^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
             . '(?!\n(org.bukkit.plugin.UnknownDependencyException|org.bukkit.plugin.InvalidPluginException\: (Unsupported API version|java\.lang\.UnsupportedClassVersionError)))/'
         ];
-    }
-
-    /**
-     * Apply the matches from the pattern
-     *
-     * @param array $matches
-     * @param mixed $patternKey
-     * @return void
-     */
-    public function setMatches(array $matches, mixed $patternKey): void
-    {
-        $this->pluginName = $this->extractPluginName($matches[1]);
-
-        $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
-        $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
     }
 }
