@@ -753,7 +753,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The plugin '.paper-remapped\/worldguard-bukkit-7.0.12-dist' is missing the required plugin 'WorldEdit'.",
+                "message": "The plugin 'worldguard-bukkit-7.0.12-dist' is missing the required plugin 'WorldEdit'.",
                 "counter": 1,
                 "entry": {
                     "level": 3,

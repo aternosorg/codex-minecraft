@@ -89,7 +89,7 @@ class PluginDependenciesProblem extends BukkitProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in (?:folder )?\'[^\']+\''
+            '/Could not load \'(plugins[\/\\\][^\']+\.jar)\' in (?:folder )?\'[^\']+\''
             . '\norg\.bukkit\.plugin\.UnknownDependencyException\: Unknown\/missing dependency plugins: \[([\w ,]+)\]/'];
     }
 
@@ -103,8 +103,8 @@ class PluginDependenciesProblem extends BukkitProblem
     public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->pluginPath = str_replace("plugins/.paper-remapped/", "plugins/", $matches[1]);
-        $this->pluginName = $matches[2];
-        $this->dependencyPluginNames = preg_split("/, ?/", $matches[3]);
+        $this->pluginName = pathinfo($this->pluginPath, PATHINFO_FILENAME);
+        $this->dependencyPluginNames = preg_split("/, ?/", $matches[2]);
 
         foreach ($this->dependencyPluginNames as $name) {
             $this->addSolution((new PluginInstallSolution())->setPluginName($name));
