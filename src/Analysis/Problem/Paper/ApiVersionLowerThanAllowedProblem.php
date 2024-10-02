@@ -12,9 +12,8 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Paper
  */
-class ApiVersionLowerThanAllowedProblem extends PaperProblem
+class ApiVersionLowerThanAllowedProblem extends PaperPluginProblem
 {
-    protected ?string $pluginName = null;
     protected ?string $pluginApiVersion = null;
 
     /**
@@ -51,14 +50,6 @@ class ApiVersionLowerThanAllowedProblem extends PaperProblem
         $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
         $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
         $this->addSolution((new ChangeMinimumAllowedApiVersionSolution())->setApiVersion($this->getPluginApiVersion()));
-    }
-
-    /**
-     * @return string|null
-     */
-    public function getPluginName(): ?string
-    {
-        return $this->pluginName;
     }
 
     /**
