@@ -535,7 +535,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The plugin 'worldedit-bukkit-7.3.4-beta-01' requires Java version -44 or later to run.",
+                "message": "The plugin 'worldedit-bukkit-7.3.4-beta-01' requires Java version 21 or later to run.",
                 "counter": 1,
                 "entry": {
                     "level": 3,
@@ -656,7 +656,7 @@
                         "message": "Delete the file 'plugins\/worldedit-bukkit-7.3.4-beta-01.jar'."
                     },
                     {
-                        "message": "Change your Java version to -44 or later."
+                        "message": "Change your Java version to 21 or later."
                     }
                 ]
             }

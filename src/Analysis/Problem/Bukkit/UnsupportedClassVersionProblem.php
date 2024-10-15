@@ -41,7 +41,7 @@ class UnsupportedClassVersionProblem extends BukkitPluginFileProblem
     {
         parent::setMatches($matches, $patternKey);
 
-        $this->classFileVersion = $matches[2];
+        $this->classFileVersion = $matches[3];
         $this->addSolution((new UpdateJavaSolution())->setVersion($this->getJavaVersion()));
     }
 
