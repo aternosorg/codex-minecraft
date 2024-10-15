@@ -408,9 +408,9 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_paper_multiple_depepdencies_1_21_1(): void
+    public function test_paper_multiple_dependencies_1_21_1(): void
     {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-multiple-depepdencies-1-21-1.log');
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-multiple-dependencies-1-21-1.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
