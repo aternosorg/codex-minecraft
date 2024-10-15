@@ -1971,7 +1971,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The plugin motdgg-bukkit-1.2.0 does not support regional ticking.",
+                "message": "The plugin motdgg does not support regional ticking.",
                 "counter": 1,
                 "entry": {
                     "level": 3,
@@ -2034,7 +2034,7 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install a different version of the plugin 'motdgg-bukkit-1.2.0'."
+                        "message": "Install a different version of the plugin 'motdgg'."
                     },
                     {
                         "message": "Delete the file 'plugins\/motdgg-bukkit-1.2.0.jar'."
