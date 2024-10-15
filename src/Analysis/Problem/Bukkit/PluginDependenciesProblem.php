@@ -5,7 +5,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveFileSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -89,7 +89,7 @@ class PluginDependenciesProblem extends BukkitPluginFileProblem
             $this->pluginName = $matches[4];
             $this->pluginFilePath = $this->correctPluginPath($matches[1]);
             $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
-            $this->addSolution((new PluginRemoveFileSolution())->setPluginFilePath($this->getPluginFilePath())->setPluginName($this->getPluginName()));
+            $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginFilePath()));
         } else {
             parent::setMatches($matches, $patternKey);
         }

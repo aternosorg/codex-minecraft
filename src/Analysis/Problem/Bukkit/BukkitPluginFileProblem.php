@@ -4,7 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveFileSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 
 /**
  * Class BukkitPluginFileProblem
@@ -46,7 +46,7 @@ abstract class BukkitPluginFileProblem extends BukkitPluginProblem
         $this->pluginName = $this->extractPluginName($matches[1]);
 
         $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
-        $this->addSolution((new PluginRemoveFileSolution())->setPluginFilePath($this->getPluginFilePath())->setPluginName($this->getPluginName()));
+        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginFilePath()));
     }
 
     /**
