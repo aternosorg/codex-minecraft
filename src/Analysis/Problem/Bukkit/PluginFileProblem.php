@@ -10,9 +10,9 @@ use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
  * Class PluginFileProblem
  *
  * Represents a problem with a Bukkit plugin file and provides:
- *  - The file path
- *  - PluginInstallDifferentVersionSolution and PluginRemoveFileSolution
- * and extends the BukkitPluginProblem.
+ *  - The plugins' file path {@see PluginFileProblem::getPluginFilePath()}
+ *  - {@link PluginInstallDifferentVersionSolution} and {@link FileDeleteSolution}
+ *  - All features from {@link PluginProblem} (extends {@link PluginProblem})
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
