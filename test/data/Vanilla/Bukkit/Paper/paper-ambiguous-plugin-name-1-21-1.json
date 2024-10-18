@@ -688,10 +688,10 @@
                 },
                 "solutions": [
                     {
-                        "message": "Delete the file 'plugins\/.paper-remapped\/worldedit-bukkit-7.3.6.jar'."
+                        "message": "Delete the file 'plugins\/worldedit-bukkit-7.3.6.jar'."
                     },
                     {
-                        "message": "Delete the file 'plugins\/.paper-remapped\/worldedit-bukkit-7.3.4.jar'."
+                        "message": "Delete the file 'plugins\/worldedit-bukkit-7.3.4.jar'."
                     }
                 ]
             }

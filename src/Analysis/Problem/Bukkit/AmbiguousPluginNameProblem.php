@@ -11,11 +11,10 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class AmbiguousPluginNameProblem extends BukkitProblem
+class AmbiguousPluginNameProblem extends PluginProblem
 {
     protected ?string $firstPluginPath = null;
     protected ?string $secondPluginPath = null;
-    protected ?string $pluginName = null;
 
     /**
      * Get a human-readable message
@@ -62,8 +61,8 @@ class AmbiguousPluginNameProblem extends BukkitProblem
     public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->pluginName = $matches[1];
-        $this->firstPluginPath = $matches[2];
-        $this->secondPluginPath = $matches[3];
+        $this->firstPluginPath = $this->correctPluginPath($matches[2]);
+        $this->secondPluginPath = $this->correctPluginPath($matches[3]);
 
         $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getFirstPluginPath()));
         $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getSecondPluginPath()));
@@ -83,14 +82,6 @@ class AmbiguousPluginNameProblem extends BukkitProblem
     public function getSecondPluginPath(): string
     {
         return $this->secondPluginPath;
-    }
-
-    /**
-     * @return string
-     */
-    public function getPluginName(): string
-    {
-        return $this->pluginName;
     }
 
     /**

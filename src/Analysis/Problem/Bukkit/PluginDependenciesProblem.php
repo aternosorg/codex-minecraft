@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 use Aternos\Codex\Analysis\InsightInterface;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
@@ -12,31 +13,12 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class PluginDependenciesProblem extends BukkitProblem
+class PluginDependenciesProblem extends PluginFileProblem
 {
-    protected ?string $pluginPath = null;
-    protected ?string $pluginName = null;
-
     /**
      * @var string[]
      */
     protected array $dependencyPluginNames = [];
-
-    /**
-     * @return string|null
-     */
-    public function getPluginPath(): ?string
-    {
-        return $this->pluginPath;
-    }
-
-    /**
-     * @return string|null
-     */
-    public function getPluginName(): ?string
-    {
-        return $this->pluginName;
-    }
 
     /**
      * get a list of missing dependencies
@@ -89,8 +71,9 @@ class PluginDependenciesProblem extends BukkitProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not load \'(plugins[\/\\\]((?!\.jar).*)\.jar)\' in (?:folder )?\'[^\']+\''
-            . '\norg\.bukkit\.plugin\.UnknownDependencyException\: Unknown\/missing dependency plugins: \[([\w ,]+)\]/'];
+            '/Could not load \'(plugins[\/\\\][^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
+            . '\norg\.bukkit\.plugin\.UnknownDependencyException\: Unknown\/missing dependency plugins: \[([\w ,]+)\](?:\. Please download and install these plugins to run \'([^\']+)\')?/'
+        ];
     }
 
     /**
@@ -102,14 +85,19 @@ class PluginDependenciesProblem extends BukkitProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->pluginPath = $matches[1];
-        $this->pluginName = $matches[2];
-        $this->dependencyPluginNames = preg_split("/, ?/", $matches[3]);
+        if ($matches[4]) {
+            $this->pluginName = $matches[4];
+            $this->pluginFilePath = $this->correctPluginPath($matches[1]);
+            $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
+            $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginFilePath()));
+        } else {
+            parent::setMatches($matches, $patternKey);
+        }
 
+        $this->dependencyPluginNames = preg_split("/, ?/", $matches[3]);
         foreach ($this->dependencyPluginNames as $name) {
             $this->addSolution((new PluginInstallSolution())->setPluginName($name));
         }
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginPath()));
     }
 
     /**
@@ -122,7 +110,7 @@ class PluginDependenciesProblem extends BukkitProblem
             return false;
         }
 
-        if ($this->getPluginName() !== $insight->getPluginName() || $this->getPluginPath() !== $insight->getPluginPath()) {
+        if ($this->getPluginName() !== $insight->getPluginName()) {
             return false;
         }
 

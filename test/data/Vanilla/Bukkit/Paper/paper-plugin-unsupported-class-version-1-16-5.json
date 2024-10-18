@@ -571,6 +571,9 @@
                 },
                 "solutions": [
                     {
+                        "message": "Install a different version of the plugin 'Slimefun4-1027'."
+                    },
+                    {
                         "message": "Delete the file 'plugins\/Slimefun4-1027.jar'."
                     },
                     {

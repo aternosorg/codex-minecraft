@@ -2034,7 +2034,10 @@
                 },
                 "solutions": [
                     {
-                        "message": "Delete the file 'motdgg-bukkit-1.2.0.jar'."
+                        "message": "Install a different version of the plugin 'motdgg'."
+                    },
+                    {
+                        "message": "Delete the file 'plugins\/motdgg-bukkit-1.2.0.jar'."
                     },
                     {
                         "message": "Install a software without regional ticking, like Paper."

@@ -2,8 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Paper;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginFileProblem;
 use Aternos\Codex\Minecraft\Analysis\Solution\Paper\ChangeMinimumAllowedApiVersionSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -12,9 +11,8 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Paper
  */
-class ApiVersionLowerThanAllowedProblem extends PaperProblem
+class ApiVersionLowerThanAllowedProblem extends PluginFileProblem
 {
-    protected ?string $pluginName = null;
     protected ?string $pluginApiVersion = null;
 
     /**
@@ -35,7 +33,7 @@ class ApiVersionLowerThanAllowedProblem extends PaperProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not load plugin \'((?!\.jar).*)\.jar\' in folder \'[^\']+\''
+            '/Could not load plugin \'((?!\.jar).*\.jar)\' in folder \'([^\']+)\''
             . '\norg.bukkit.plugin.InvalidPluginException: Plugin API version (\d+\.\d+) is lower than the minimum allowed version\. Please update or replace it\./'
         ];
     }
@@ -45,20 +43,10 @@ class ApiVersionLowerThanAllowedProblem extends PaperProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->pluginName = $matches[1];
-        $this->pluginApiVersion = $matches[2];
+        parent::setMatches($matches, $patternKey);
 
-        $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
-        $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
+        $this->pluginApiVersion = $matches[3];
         $this->addSolution((new ChangeMinimumAllowedApiVersionSolution())->setApiVersion($this->getPluginApiVersion()));
-    }
-
-    /**
-     * @return string|null
-     */
-    public function getPluginName(): ?string
-    {
-        return $this->pluginName;
     }
 
     /**

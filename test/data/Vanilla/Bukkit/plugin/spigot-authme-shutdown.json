@@ -6100,10 +6100,13 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install the plugin 'Languagy'."
+                        "message": "Install a different version of the plugin 'AnvilLogin'."
                     },
                     {
                         "message": "Delete the file 'plugins\/AnvilLogin.jar'."
+                    },
+                    {
+                        "message": "Install the plugin 'Languagy'."
                     }
                 ]
             },
