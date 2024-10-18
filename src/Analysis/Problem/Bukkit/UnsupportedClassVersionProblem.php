@@ -5,7 +5,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 use Aternos\Codex\Minecraft\Analysis\Solution\UpdateJavaSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-class UnsupportedClassVersionProblem extends BukkitPluginFileProblem
+class UnsupportedClassVersionProblem extends PluginFileProblem
 {
     protected ?string $classFileVersion = null;
 

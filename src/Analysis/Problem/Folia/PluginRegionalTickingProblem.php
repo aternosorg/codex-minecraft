@@ -2,7 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Folia;
 
-use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\BukkitPluginFileProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginFileProblem;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Folia\InstallNonRegionalTickingSoftwareSolution;
@@ -13,7 +13,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Folia
  */
-class PluginRegionalTickingProblem extends BukkitPluginFileProblem
+class PluginRegionalTickingProblem extends PluginFileProblem
 {
 
     /**

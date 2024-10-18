@@ -11,7 +11,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class PluginDependencyProblem extends BukkitPluginFileProblem
+class PluginDependencyProblem extends PluginFileProblem
 {
     protected ?string $dependencyPluginName = null;
 

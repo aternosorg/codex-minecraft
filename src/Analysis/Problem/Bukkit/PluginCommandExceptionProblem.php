@@ -12,7 +12,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class PluginCommandExceptionProblem extends BukkitPluginProblem
+class PluginCommandExceptionProblem extends PluginProblem
 {
     protected ?string $command = null;
 

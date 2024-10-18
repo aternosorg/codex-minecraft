@@ -5,7 +5,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\ServerInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-class UnsupportedApiVersionProblem extends BukkitPluginFileProblem
+class UnsupportedApiVersionProblem extends PluginFileProblem
 {
     protected ?string $apiVersion = null;
 

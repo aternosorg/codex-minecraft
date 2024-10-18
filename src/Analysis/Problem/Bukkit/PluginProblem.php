@@ -7,7 +7,7 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersi
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 
 /**
- * Class BukkitPluginProblem
+ * Class PluginProblem
  *
  * Represents a problem with a Bukkit plugin and provides:
  *  - The plugin name
@@ -18,7 +18,7 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-abstract class BukkitPluginProblem extends BukkitProblem
+abstract class PluginProblem extends BukkitProblem
 {
     protected ?string $pluginName = null;
 

@@ -13,7 +13,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class PluginDependenciesProblem extends BukkitPluginFileProblem
+class PluginDependenciesProblem extends PluginFileProblem
 {
     /**
      * @var string[]

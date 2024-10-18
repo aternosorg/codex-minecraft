@@ -11,7 +11,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
-class AmbiguousPluginNameProblem extends BukkitPluginProblem
+class AmbiguousPluginNameProblem extends PluginProblem
 {
     protected ?string $firstPluginPath = null;
     protected ?string $secondPluginPath = null;

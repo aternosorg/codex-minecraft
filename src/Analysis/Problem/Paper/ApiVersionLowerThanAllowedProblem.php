@@ -2,7 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Paper;
 
-use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\BukkitPluginFileProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginFileProblem;
 use Aternos\Codex\Minecraft\Analysis\Solution\Paper\ChangeMinimumAllowedApiVersionSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -11,7 +11,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  *
  * @package Aternos\Codex\Minecraft\Analysis\Problem\Paper
  */
-class ApiVersionLowerThanAllowedProblem extends BukkitPluginFileProblem
+class ApiVersionLowerThanAllowedProblem extends PluginFileProblem
 {
     protected ?string $pluginApiVersion = null;
 
