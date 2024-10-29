@@ -1,0 +1,603 @@
+{
+    "id": "neoforge\/client",
+    "name": "NeoForge",
+    "type": "Client Log",
+    "version": "1.21.3",
+    "title": "NeoForge 1.21.3 Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:38] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[16:54:38] [main\/INFO]: ModLauncher running: args [--username, Aternos, --version, neoforge-21.3.5-beta, --gameDir, \/home\/paulv\/Documents\/curseforge\/minecraft\/Instances\/NeoForge 1.21.3, --assetsDir, \/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/assets, --assetIndex, 18, --uuid, ac4a2732dd44408b8d4ee0b6de14b2c1, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --clientId, H3rxt6E4CfbDHImeBFoaQM3a\/SDrPrAWTr5jBeWUTe\/PLfFDgBP7ZgIZNg==, --xuid, 2535449932625433, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, \/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/quickPlay\/java\/1730217276753.json, --fml.neoForgeVersion, 21.3.5-beta, --fml.fmlVersion, 4.0.31, --fml.mcVersion, 1.21.3, --fml.neoFormVersion, 20241023.131943, --launchTarget, forgeclient]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:38] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[16:54:38] [main\/INFO]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.3+9-LTS"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:38] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[16:54:38] [main\/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 5.15.167-1-MANJARO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:38] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[16:54:38] [main\/INFO]: Loading ImmediateWindowProvider fmlearlywindow"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:38] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[16:54:38] [main\/INFO]: Trying GL version 4.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:38] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[16:54:38] [main\/INFO]: Requested GL version 4.6 got version 4.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:38] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[16:54:38] [main\/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:\/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/libraries\/net\/fabricmc\/sponge-mixin\/0.15.2+mixin.0.8.7\/sponge-mixin-0.15.2+mixin.0.8.7.jar%23111!\/ Service=ModLauncher Env=CLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:38] [pool-2-thread-1\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[16:54:38] [pool-2-thread-1\/INFO]: GL info: Mesa Intel(R) UHD Graphics (TGL GT1) GL version 4.6 (Core Profile) Mesa 24.2.4-arch1.0.1, Intel"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:38] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[16:54:38] [main\/INFO]: Found mod file \"client-1.21.3-20241023.131943-srg.jar\" [locator: production client provider +net.neoforged:neoforge:21.3.5-beta:client]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:38] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[16:54:38] [main\/INFO]: Found mod file \"neoforge-21.3.5-beta-universal.jar\" [locator: PathBasedLocator[name=neoforge, paths=[\/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/libraries\/net\/neoforged\/neoforge\/21.3.5-beta\/neoforge-21.3.5-beta-universal.jar]], reader: mod manifest]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:38] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[16:54:38] [main\/INFO]: Found 2 dependencies adding them to mods collection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:38] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[16:54:38] [main\/INFO]: Found gamelibrary file \"mixinextras-neoforge-0.4.1.jar\" [parent: neoforge-21.3.5-beta-universal.jar, locator: jarinjar, reader: mod manifest]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:38] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[16:54:38] [main\/INFO]: Found library file \"neoforge-coremods-21.3.5-beta.jar\" [parent: neoforge-21.3.5-beta-universal.jar, locator: jarinjar, reader: mod manifest]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:38] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[16:54:38] [main\/INFO]:"
+                },
+                {
+                    "number": 15,
+                    "content": "     Mod List:"
+                },
+                {
+                    "number": 16,
+                    "content": "\t\tName Version (Mod Id)"
+                },
+                {
+                    "number": 17,
+                    "content": ""
+                },
+                {
+                    "number": 18,
+                    "content": "\t\tMinecraft 1.21.3 (minecraft)"
+                },
+                {
+                    "number": 19,
+                    "content": "\t\tNeoForge 21.3.5-beta (neoforge)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:54:39] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[16:54:39] [main\/INFO]: Launching target 'forgeclient' with arguments [--version, neoforge-21.3.5-beta, --gameDir, \/home\/paulv\/Documents\/curseforge\/minecraft\/Instances\/NeoForge 1.21.3, --assetsDir, \/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/assets, --uuid, ac4a2732dd44408b8d4ee0b6de14b2c1, --username, Aternos, --assetIndex, 18, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --clientId, H3rxt6E4CfbDHImeBFoaQM3a\/SDrPrAWTr5jBeWUTe\/PLfFDgBP7ZgIZNg==, --xuid, 2535449932625433, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, \/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/quickPlay\/java\/1730217276753.json]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:40.796] [Datafixer Bootstrap\/INFO] [com.mojang.datafixers.DataFixerBuilder\/]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[29Oct2024 16:54:40.796] [Datafixer Bootstrap\/INFO] [com.mojang.datafixers.DataFixerBuilder\/]: 240 Datafixer optimizations took 257 milliseconds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:41.074] [pool-6-thread-1\/INFO] [MixinExtras|Service\/]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[29Oct2024 16:54:41.074] [pool-6-thread-1\/INFO] [MixinExtras|Service\/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1)."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:44.858] [Render thread\/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder\/]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[29Oct2024 16:54:44.858] [Render thread\/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder\/]: Assets URL 'union:\/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/libraries\/net\/minecraft\/client\/1.21.3-20241023.131943\/client-1.21.3-20241023.131943-srg.jar%23193!\/assets\/.mcassetsroot' uses unexpected schema"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:44.859] [Render thread\/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder\/]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[29Oct2024 16:54:44.859] [Render thread\/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder\/]: Assets URL 'union:\/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/libraries\/net\/minecraft\/client\/1.21.3-20241023.131943\/client-1.21.3-20241023.131943-srg.jar%23193!\/data\/.mcassetsroot' uses unexpected schema"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:44.892] [Render thread\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[29Oct2024 16:54:44.892] [Render thread\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]: Environment: Environment[sessionHost=https:\/\/sessionserver.mojang.com, servicesHost=https:\/\/api.minecraftservices.com, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:44.901] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[29Oct2024 16:54:44.901] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]: Setting user: Aternos"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:44.969] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[29Oct2024 16:54:44.969] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]: Backend library: LWJGL version 3.3.3+5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:45.193] [modloading-worker-0\/INFO] [net.neoforged.neoforge.common.NeoForgeMod\/NEOFORGE-MOD]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[29Oct2024 16:54:45.193] [modloading-worker-0\/INFO] [net.neoforged.neoforge.common.NeoForgeMod\/NEOFORGE-MOD]: NeoForge mod loading, version 21.3.5-beta, for MC 1.21.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:45.989] [Render thread\/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager\/]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[29Oct2024 16:54:45.989] [Render thread\/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager\/]: Reloading ResourceManager: vanilla, mod_resources, mod\/neoforge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:46.053] [Worker-Main-3\/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider\/]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[29Oct2024 16:54:46.053] [Worker-Main-3\/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider\/]: Found unifont_all_no_pua-15.1.05.hex, loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:46.053] [Worker-Main-15\/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider\/]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[29Oct2024 16:54:46.053] [Worker-Main-15\/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider\/]: Found unifont_jp_patch-15.1.05.hex, loading"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.081] [Worker-Main-12\/WARN] [net.minecraft.client.resources.model.ModelManager\/]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[29Oct2024 16:54:47.081] [Worker-Main-12\/WARN] [net.minecraft.client.resources.model.ModelManager\/]: Missing textures in model neoforge:bucket_milk#inventory:"
+                },
+                {
+                    "number": 33,
+                    "content": "    minecraft:textures\/atlas\/blocks.png:neoforge:items\/bucket_base"
+                },
+                {
+                    "number": 34,
+                    "content": "    minecraft:textures\/atlas\/blocks.png:neoforge:items\/bucket_cover"
+                },
+                {
+                    "number": 35,
+                    "content": "    minecraft:textures\/atlas\/blocks.png:neoforge:items\/bucket_fluid"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.330] [Render thread\/WARN] [net.minecraft.client.sounds.SoundEngine\/]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[29Oct2024 16:54:47.330] [Render thread\/WARN] [net.minecraft.client.sounds.SoundEngine\/]: Missing sound for event: minecraft:block.spawner.fall"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.419] [Render thread\/INFO] [com.mojang.blaze3d.audio.Library\/]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[29Oct2024 16:54:47.419] [Render thread\/INFO] [com.mojang.blaze3d.audio.Library\/]: OpenAL initialized on device Built-in Audio Analog Stereo"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.420] [Render thread\/INFO] [net.minecraft.client.sounds.SoundEngine\/SOUNDS]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[29Oct2024 16:54:47.420] [Render thread\/INFO] [net.minecraft.client.sounds.SoundEngine\/SOUNDS]: Sound engine started"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.535] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[29Oct2024 16:54:47.535] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 1024x512x4 minecraft:textures\/atlas\/blocks.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.618] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[29Oct2024 16:54:47.618] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 256x256x4 minecraft:textures\/atlas\/signs.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.620] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[29Oct2024 16:54:47.620] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x512x4 minecraft:textures\/atlas\/banner_patterns.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.622] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[29Oct2024 16:54:47.622] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x512x4 minecraft:textures\/atlas\/shield_patterns.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.625] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[29Oct2024 16:54:47.625] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 1024x1024x4 minecraft:textures\/atlas\/armor_trims.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.646] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[29Oct2024 16:54:47.646] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 256x256x4 minecraft:textures\/atlas\/chest.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.647] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[29Oct2024 16:54:47.647] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 128x64x4 minecraft:textures\/atlas\/decorated_pot.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.648] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[29Oct2024 16:54:47.648] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x256x4 minecraft:textures\/atlas\/shulker_boxes.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.649] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[29Oct2024 16:54:47.649] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x256x4 minecraft:textures\/atlas\/beds.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.721] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[29Oct2024 16:54:47.721] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 64x64x0 minecraft:textures\/atlas\/map_decorations.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.809] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[29Oct2024 16:54:47.809] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x256x0 minecraft:textures\/atlas\/particles.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.813] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[29Oct2024 16:54:47.813] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x256x0 minecraft:textures\/atlas\/paintings.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.814] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[29Oct2024 16:54:47.814] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 256x128x0 minecraft:textures\/atlas\/mob_effects.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.815] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[29Oct2024 16:54:47.815] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 1024x512x0 minecraft:textures\/atlas\/gui.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:47.822] [Render thread\/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader\/]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[29Oct2024 16:54:47.822] [Render thread\/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader\/]: Loaded 0 entity animations"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:54:55.642] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[29Oct2024 16:54:55.642] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]: Stopping!"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.21.3",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:54:38] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[16:54:38] [main\/INFO]: ModLauncher running: args [--username, Aternos, --version, neoforge-21.3.5-beta, --gameDir, \/home\/paulv\/Documents\/curseforge\/minecraft\/Instances\/NeoForge 1.21.3, --assetsDir, \/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/assets, --assetIndex, 18, --uuid, ac4a2732dd44408b8d4ee0b6de14b2c1, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --clientId, H3rxt6E4CfbDHImeBFoaQM3a\/SDrPrAWTr5jBeWUTe\/PLfFDgBP7ZgIZNg==, --xuid, 2535449932625433, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, \/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/quickPlay\/java\/1730217276753.json, --fml.neoForgeVersion, 21.3.5-beta, --fml.fmlVersion, 4.0.31, --fml.mcVersion, 1.21.3, --fml.neoFormVersion, 20241023.131943, --launchTarget, forgeclient]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.3"
+            },
+            {
+                "message": "NeoForge version: 21.3.5-beta",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:54:38] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[16:54:38] [main\/INFO]: ModLauncher running: args [--username, Aternos, --version, neoforge-21.3.5-beta, --gameDir, \/home\/paulv\/Documents\/curseforge\/minecraft\/Instances\/NeoForge 1.21.3, --assetsDir, \/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/assets, --assetIndex, 18, --uuid, ac4a2732dd44408b8d4ee0b6de14b2c1, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --clientId, H3rxt6E4CfbDHImeBFoaQM3a\/SDrPrAWTr5jBeWUTe\/PLfFDgBP7ZgIZNg==, --xuid, 2535449932625433, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, \/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/quickPlay\/java\/1730217276753.json, --fml.neoForgeVersion, 21.3.5-beta, --fml.fmlVersion, 4.0.31, --fml.mcVersion, 1.21.3, --fml.neoFormVersion, 20241023.131943, --launchTarget, forgeclient]"
+                        }
+                    ]
+                },
+                "label": "NeoForge version",
+                "value": "21.3.5-beta"
+            },
+            {
+                "message": "Java version: 21.0.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:54:38] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 3,
+                            "content": "[16:54:38] [main\/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 5.15.167-1-MANJARO"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "21.0.3"
+            }
+        ]
+    }
+}

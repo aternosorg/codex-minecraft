@@ -1,0 +1,728 @@
+{
+    "id": "vanilla\/client",
+    "name": "Vanilla",
+    "type": "Client Log",
+    "version": null,
+    "title": "Vanilla Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:56] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[16:56:56] [main\/INFO]: ModLauncher running: args [--username, Aternos, --version, forge-53.0.7, --gameDir, \/home\/paulv\/Documents\/curseforge\/minecraft\/Instances\/Forge 1.21.3, --assetsDir, \/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/assets, --assetIndex, 18, --uuid, ac4a2732dd44408b8d4ee0b6de14b2c1, --accessToken, **********, --clientId, H3rxt6E4CfbDHImeBFoaQM3a\/SDrPrAWTr5jBeWUTe\/PLfFDgBP7ZgIZNg==, --xuid, 2535449932625433, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, \/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/quickPlay\/java\/1730217414833.json, --launchTarget, forge_client]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:56] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[16:56:56] [main\/INFO]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.3+9-LTS"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:56] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[16:56:56] [main\/INFO]: ModLauncher 10.2.2 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 5.15.167-1-MANJARO"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:56:56] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[16:56:56] [main\/WARN]: Configuration file \/home\/paulv\/Documents\/curseforge\/minecraft\/Instances\/Forge 1.21.3\/config\/fml.toml is not correct. Correcting"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:56] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[16:56:56] [main\/INFO]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:56] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[16:56:56] [main\/INFO]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:56] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[16:56:56] [main\/INFO]: Incorrect key [earlyWindowSquir] was corrected from null to false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:56] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[16:56:56] [main\/INFO]: Incorrect key [earlyWindowShowCPU] was corrected from null to false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:56] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[16:56:56] [main\/INFO]: Loading ImmediateWindowProvider fmlearlywindow"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:56] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[16:56:56] [main\/INFO]: Trying GL version 4.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:56] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[16:56:56] [main\/INFO]: If this message is the only thing at the bottom of your log before a crash, you probably have a driver issue."
+                },
+                {
+                    "number": 12,
+                    "content": ""
+                },
+                {
+                    "number": 13,
+                    "content": "Possible solutions:"
+                },
+                {
+                    "number": 14,
+                    "content": "A) Make sure Minecraft is set to prefer high performance graphics in the OS and\/or driver control panel"
+                },
+                {
+                    "number": 15,
+                    "content": "B) Check for driver updates on the graphics brand's website"
+                },
+                {
+                    "number": 16,
+                    "content": "C) Try reinstalling your graphics drivers"
+                },
+                {
+                    "number": 17,
+                    "content": "D) If still not working after trying all of the above, ask for further help on the Forge forums or Discord"
+                },
+                {
+                    "number": 18,
+                    "content": ""
+                },
+                {
+                    "number": 19,
+                    "content": "You can safely ignore this message if the game starts up successfully."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:56] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[16:56:56] [main\/INFO]: Requested GL version 4.6 got version 4.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:57] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[16:56:57] [main\/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:\/\/\/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/libraries\/org\/spongepowered\/mixin\/0.8.7\/mixin-0.8.7.jar!\/ Service=ModLauncher Env=CLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:57] [EarlyDisplay\/INFO]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[16:56:57] [EarlyDisplay\/INFO]: GL info: Mesa Intel(R) UHD Graphics (TGL GT1) GL version 4.6 (Core Profile) Mesa 24.2.4-arch1.0.1, Intel"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:57] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[16:56:57] [main\/INFO]: Found mod file forge-1.21.3-53.0.7-client.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@47e4d9d0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:57] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[16:56:57] [main\/INFO]: Found mod file forge-1.21.3-53.0.7-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@4beeb0e"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:57] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[16:56:57] [main\/INFO]: Found mod file javafmllanguage-1.21.3-53.0.7.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@4beeb0e"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:57] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[16:56:57] [main\/INFO]: Found mod file lowcodelanguage-1.21.3-53.0.7.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@4beeb0e"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:57] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[16:56:57] [main\/INFO]: Found mod file fmlcore-1.21.3-53.0.7.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@4beeb0e"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:57] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[16:56:57] [main\/INFO]: Found mod file mclanguage-1.21.3-53.0.7.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@4beeb0e"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:57] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[16:56:57] [main\/INFO]: No dependencies to load found. Skipping!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:57] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[16:56:57] [main\/INFO]: Launching target 'forge_client' with arguments [--version, forge-53.0.7, --gameDir, \/home\/paulv\/Documents\/curseforge\/minecraft\/Instances\/Forge 1.21.3, --assetsDir, \/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/assets, --uuid, ac4a2732dd44408b8d4ee0b6de14b2c1, --username, Aternos, --assetIndex, 18, --accessToken, **********, --clientId, H3rxt6E4CfbDHImeBFoaQM3a\/SDrPrAWTr5jBeWUTe\/PLfFDgBP7ZgIZNg==, --xuid, 2535449932625433, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, \/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/quickPlay\/java\/1730217414833.json]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:56:58] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[16:56:58] [main\/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:\/\/\/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.properties, jar:file:\/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.properties, jar:file:\/\/\/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.properties, jar:file:\/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.properties]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:56:58] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[16:56:58] [main\/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:\/\/\/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties, jar:file:\/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties, jar:file:\/\/\/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties, jar:file:\/home\/paulv\/Documents\/curseforge\/minecraft\/Install\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:56:58] [Datafixer Bootstrap\/INFO]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[16:56:58] [Datafixer Bootstrap\/INFO]: 237 Datafixer optimizations took 252 milliseconds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:03] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[16:57:03] [Render thread\/INFO]: Environment: Environment[sessionHost=https:\/\/sessionserver.mojang.com, servicesHost=https:\/\/api.minecraftservices.com, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:03] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[16:57:03] [Render thread\/INFO]: Setting user: Aternos"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:03] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[16:57:03] [Render thread\/INFO]: Backend library: LWJGL version 3.3.3+5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:03] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[16:57:03] [modloading-worker-0\/INFO]: Forge mod loading, version 53.0.7, for MC 1.21.3 with MCP 20241025.112443"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:03] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[16:57:03] [modloading-worker-0\/INFO]: MinecraftForge v53.0.7 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:03] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[16:57:03] [modloading-worker-0\/INFO]: Opening jdk.naming.dns\/com.sun.jndi.dns to java.naming"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:04] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[16:57:04] [Render thread\/INFO]: Reloading ResourceManager: vanilla, mod_resources"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:57:04] [modloading-worker-0\/WARN]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[16:57:04] [modloading-worker-0\/WARN]: Configuration file \/home\/paulv\/Documents\/curseforge\/minecraft\/Instances\/Forge 1.21.3\/config\/forge-client.toml is not correct. Correcting"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:57:04] [modloading-worker-0\/WARN]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[16:57:04] [modloading-worker-0\/WARN]: Incorrect key client was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. "
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:57:04] [modloading-worker-0\/WARN]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[16:57:04] [modloading-worker-0\/WARN]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. "
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:57:04] [modloading-worker-0\/WARN]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[16:57:04] [modloading-worker-0\/WARN]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. "
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:57:04] [modloading-worker-0\/WARN]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[16:57:04] [modloading-worker-0\/WARN]: Configuration file \/home\/paulv\/Documents\/curseforge\/minecraft\/Instances\/Forge 1.21.3\/config\/forge-common.toml is not correct. Correcting"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:57:04] [modloading-worker-0\/WARN]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[16:57:04] [modloading-worker-0\/WARN]: Incorrect key general was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. "
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:57:04] [modloading-worker-0\/WARN]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[16:57:04] [modloading-worker-0\/WARN]: Incorrect key general.logLegacyTagWarnings was corrected from null to its default, OFF. "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:04] [Worker-Main-8\/INFO]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[16:57:04] [Worker-Main-8\/INFO]: Found unifont_all_no_pua-15.1.05.hex, loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:04] [Worker-Main-3\/INFO]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[16:57:04] [Worker-Main-3\/INFO]: Found unifont_jp_patch-15.1.05.hex, loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:04] [Forge Version Check\/INFO]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[16:57:04] [Forge Version Check\/INFO]: [forge] Starting version check at https:\/\/files.minecraftforge.net\/net\/minecraftforge\/forge\/promotions_slim.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:05] [Forge Version Check\/INFO]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[16:57:05] [Forge Version Check\/INFO]: [forge] Found status: BETA Current: 53.0.7 Target: 53.0.7"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:57:05] [Worker-Main-15\/WARN]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[16:57:05] [Worker-Main-15\/WARN]: Missing textures in model forge:bucket_milk#inventory:"
+                },
+                {
+                    "number": 53,
+                    "content": "    minecraft:textures\/atlas\/blocks.png:forge:items\/bucket_base"
+                },
+                {
+                    "number": 54,
+                    "content": "    minecraft:textures\/atlas\/blocks.png:forge:items\/bucket_cover"
+                },
+                {
+                    "number": 55,
+                    "content": "    minecraft:textures\/atlas\/blocks.png:forge:items\/bucket_fluid"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:57:06] [Render thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[16:57:06] [Render thread\/WARN]: Missing sound for event: minecraft:block.spawner.fall"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:06] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[16:57:06] [Render thread\/INFO]: OpenAL initialized on device Built-in Audio Analog Stereo"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:06] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[16:57:06] [Render thread\/INFO]: Sound engine started"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:06] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[16:57:06] [Render thread\/INFO]: Created: 1024x512x4 minecraft:textures\/atlas\/blocks.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:07] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[16:57:07] [Render thread\/INFO]: Created: 256x256x4 minecraft:textures\/atlas\/signs.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:07] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[16:57:07] [Render thread\/INFO]: Created: 512x512x4 minecraft:textures\/atlas\/shield_patterns.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:07] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[16:57:07] [Render thread\/INFO]: Created: 512x512x4 minecraft:textures\/atlas\/banner_patterns.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:07] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[16:57:07] [Render thread\/INFO]: Created: 1024x1024x4 minecraft:textures\/atlas\/armor_trims.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:07] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[16:57:07] [Render thread\/INFO]: Created: 256x256x4 minecraft:textures\/atlas\/chest.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:07] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[16:57:07] [Render thread\/INFO]: Created: 128x64x4 minecraft:textures\/atlas\/decorated_pot.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:07] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[16:57:07] [Render thread\/INFO]: Created: 512x256x4 minecraft:textures\/atlas\/shulker_boxes.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:07] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[16:57:07] [Render thread\/INFO]: Created: 512x256x4 minecraft:textures\/atlas\/beds.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:07] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[16:57:07] [Render thread\/INFO]: Created: 64x64x0 minecraft:textures\/atlas\/map_decorations.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:07] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[16:57:07] [Render thread\/INFO]: Created: 512x256x0 minecraft:textures\/atlas\/particles.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:07] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[16:57:07] [Render thread\/INFO]: Created: 512x256x0 minecraft:textures\/atlas\/paintings.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:07] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[16:57:07] [Render thread\/INFO]: Created: 256x128x0 minecraft:textures\/atlas\/mob_effects.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:57:07] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[16:57:07] [Render thread\/INFO]: Created: 1024x512x0 minecraft:textures\/atlas\/gui.png-atlas"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": []
+    }
+}
