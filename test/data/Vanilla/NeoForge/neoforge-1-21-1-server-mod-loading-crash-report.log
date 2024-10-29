@@ -1,0 +1,71 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 2024-10-29 15:00:30
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: yungsmenutweaks --
+Details:
+	Mod file: /server/mods/YungsMenuTweaks-1.21.1-NeoForge-2.1.1.jar
+	Failure message: Mod yungsmenutweaks requires yungsapi 1.21.1-NeoForge-5.1.2 or above
+		Currently, yungsapi is not installed
+
+	Mod version: 1.21.1-NeoForge-2.1.1
+	Mod issues URL: https://github.com/yungnickyoung/YUNGs-Menu-Tweaks/issues
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 5.15.0-117-generic
+	Java Version: 21.0.4, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 1988100096 bytes (1896 MiB) / 2147483648 bytes (2048 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 2
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7F72 24-Core Processor
+	Identifier: AuthenticAMD Family 23 Model 49 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 24
+	Number of logical CPUs: 48
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 129820.45
+	Virtual memory used (MiB): 81876.02
+	Swap memory total (MiB): 1024.00
+	Swap memory used (MiB): 378.52
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 138518.25, total: 223120.39
+	Space in storage for workdir (MiB): available: 138518.25, total: 223120.39
+	JVM Flags: 2 total; -Xmx4096M -Xms2048M
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeserver
+	ModLauncher services:
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE
+		loader-4.0.31.jar slf4jfixer PLUGINSERVICE
+		loader-4.0.31.jar runtime_enum_extender PLUGINSERVICE
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE
+		loader-4.0.31.jar runtimedistcleaner PLUGINSERVICE
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE
+	FML Language Providers:
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List:
+		server-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.73-universal.jar                    |NeoForge                      |neoforge                      |21.1.73             |Manifest: NOSIGNATURE
