@@ -1,9 +1,9 @@
 {
-    "id": "vanilla\/client",
-    "name": "Vanilla",
+    "id": "forge\/client",
+    "name": "Forge",
     "type": "Client Log",
-    "version": null,
-    "title": "Vanilla Client Log",
+    "version": "1.21.3",
+    "title": "Forge 1.21.3 Client Log",
     "entries": [
         {
             "level": 6,
@@ -723,6 +723,58 @@
     ],
     "analysis": {
         "problems": [],
-        "information": []
+        "information": [
+            {
+                "message": "Java version: 21.0.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:56:56] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 3,
+                            "content": "[16:56:56] [main\/INFO]: ModLauncher 10.2.2 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 5.15.167-1-MANJARO"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "21.0.3"
+            },
+            {
+                "message": "Minecraft version: 1.21.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:57:03] [modloading-worker-0\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 37,
+                            "content": "[16:57:03] [modloading-worker-0\/INFO]: Forge mod loading, version 53.0.7, for MC 1.21.3 with MCP 20241025.112443"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.3"
+            },
+            {
+                "message": "Forge version: 53.0.7",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:57:03] [modloading-worker-0\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 38,
+                            "content": "[16:57:03] [modloading-worker-0\/INFO]: MinecraftForge v53.0.7 Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "53.0.7"
+            }
+        ]
     }
 }

@@ -621,6 +621,23 @@
                 "value": "21.0.4"
             },
             {
+                "message": "Minecraft version: 1.21.3",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[29Oct2024 17:00:31.096] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]:",
+                    "lines": [
+                        {
+                            "number": 10,
+                            "content": "[29Oct2024 17:00:31.096] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]: Forge mod loading, version 53.0.7, for MC 1.21.3 with MCP 20241025.112443"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.3"
+            },
+            {
                 "message": "Forge version: 53.0.7",
                 "counter": 1,
                 "entry": {
@@ -636,23 +653,6 @@
                 },
                 "label": "Forge version",
                 "value": "53.0.7"
-            },
-            {
-                "message": "Minecraft version: 1.21.3",
-                "counter": 1,
-                "entry": {
-                    "level": 6,
-                    "time": null,
-                    "prefix": "[29Oct2024 17:00:34.158] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
-                    "lines": [
-                        {
-                            "number": 19,
-                            "content": "[29Oct2024 17:00:34.158] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting minecraft server version 1.21.3"
-                        }
-                    ]
-                },
-                "label": "Minecraft version",
-                "value": "1.21.3"
             }
         ]
     }
