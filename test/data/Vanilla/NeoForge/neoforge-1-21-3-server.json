@@ -1,0 +1,635 @@
+{
+    "id": "neoforge\/server",
+    "name": "NeoForge",
+    "type": "Server Log",
+    "version": "1.21.3",
+    "title": "NeoForge 1.21.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:58:54] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[16:58:54] [main\/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.3.5-beta, --fml.fmlVersion, 4.0.31, --fml.mcVersion, 1.21.3, --fml.neoFormVersion, 20241023.131943, nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:58:54] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[16:58:54] [main\/INFO]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:58:54] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[16:58:54] [main\/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.4 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.0-117-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:58:54] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[16:58:54] [main\/INFO]: ImmediateWindowProvider not loading because launch target is forgeserver"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:58:54] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[16:58:54] [main\/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:\/server\/libraries\/net\/fabricmc\/sponge-mixin\/0.15.2+mixin.0.8.7\/sponge-mixin-0.15.2+mixin.0.8.7.jar%2387!\/ Service=ModLauncher Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:58:54] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[16:58:54] [main\/INFO]: Found mod file \"server-1.21.3-20241023.131943-srg.jar\" [locator: production server provider +net.neoforged:neoforge:21.3.5-beta:server]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:58:54] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[16:58:54] [main\/INFO]: Found mod file \"neoforge-21.3.5-beta-universal.jar\" [locator: PathBasedLocator[name=neoforge, paths=[libraries\/net\/neoforged\/neoforge\/21.3.5-beta\/neoforge-21.3.5-beta-universal.jar]], reader: mod manifest]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:58:54] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[16:58:54] [main\/INFO]: Found 2 dependencies adding them to mods collection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:58:54] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[16:58:54] [main\/INFO]: Found gamelibrary file \"mixinextras-neoforge-0.4.1.jar\" [parent: neoforge-21.3.5-beta-universal.jar, locator: jarinjar, reader: mod manifest]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:58:54] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[16:58:54] [main\/INFO]: Found library file \"neoforge-coremods-21.3.5-beta.jar\" [parent: neoforge-21.3.5-beta-universal.jar, locator: jarinjar, reader: mod manifest]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:58:54] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[16:58:54] [main\/INFO]:"
+                },
+                {
+                    "number": 12,
+                    "content": "     Mod List:"
+                },
+                {
+                    "number": 13,
+                    "content": "\t\tName Version (Mod Id)"
+                },
+                {
+                    "number": 14,
+                    "content": ""
+                },
+                {
+                    "number": 15,
+                    "content": "\t\tMinecraft 1.21.3 (minecraft)"
+                },
+                {
+                    "number": 16,
+                    "content": "\t\tNeoForge 21.3.5-beta (neoforge)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:58:55] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[16:58:55] [main\/INFO]: Launching target 'forgeserver' with arguments [nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:58:56.603] [main\/INFO] [MixinExtras|Service\/]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[29Oct2024 16:58:56.603] [main\/INFO] [MixinExtras|Service\/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1)."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:02.109] [modloading-worker-0\/INFO] [net.neoforged.neoforge.common.NeoForgeMod\/NEOFORGE-MOD]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[29Oct2024 16:59:02.109] [modloading-worker-0\/INFO] [net.neoforged.neoforge.common.NeoForgeMod\/NEOFORGE-MOD]: NeoForge mod loading, version 21.3.5-beta, for MC 1.21.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:02.437] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[29Oct2024 16:59:02.437] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]: Environment: Environment[sessionHost=https:\/\/sessionserver.mojang.com, servicesHost=https:\/\/api.minecraftservices.com, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:02.467] [main\/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder\/]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[29Oct2024 16:59:02.467] [main\/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder\/]: Assets URL 'union:\/server\/libraries\/net\/minecraft\/server\/1.21.3-20241023.131943\/server-1.21.3-20241023.131943-srg.jar%23143!\/assets\/.mcassetsroot' uses unexpected schema"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:02.467] [main\/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder\/]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[29Oct2024 16:59:02.467] [main\/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder\/]: Assets URL 'union:\/server\/libraries\/net\/minecraft\/server\/1.21.3-20241023.131943\/server-1.21.3-20241023.131943-srg.jar%23143!\/data\/.mcassetsroot' uses unexpected schema"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:03.357] [main\/INFO] [net.minecraft.server.Main\/]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[29Oct2024 16:59:03.357] [main\/INFO] [net.minecraft.server.Main\/]: No existing world data, creating new world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:04.236] [main\/INFO] [net.minecraft.world.item.crafting.RecipeManager\/]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[29Oct2024 16:59:04.236] [main\/INFO] [net.minecraft.world.item.crafting.RecipeManager\/]: Loaded 1337 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:04.250] [main\/INFO] [net.minecraft.advancements.AdvancementTree\/]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[29Oct2024 16:59:04.250] [main\/INFO] [net.minecraft.advancements.AdvancementTree\/]: Loaded 1448 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:04.379] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[29Oct2024 16:59:04.379] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting minecraft server version 1.21.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:04.380] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[29Oct2024 16:59:04.380] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:04.380] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[29Oct2024 16:59:04.380] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:04.380] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[29Oct2024 16:59:04.380] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:04.632] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[29Oct2024 16:59:04.632] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting Minecraft server on *:37065"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:04.665] [Server thread\/INFO] [net.minecraft.server.network.ServerConnectionListener\/]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[29Oct2024 16:59:04.665] [Server thread\/INFO] [net.minecraft.server.network.ServerConnectionListener\/]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:04.731] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[29Oct2024 16:59:04.731] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:15.123] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[29Oct2024 16:59:15.123] [Server thread\/INFO] [net.minecraft.server.MinecraftServer\/]: Preparing start region for dimension minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:15.209] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[29Oct2024 16:59:15.209] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:15.694] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[29Oct2024 16:59:15.694] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:16.160] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[29Oct2024 16:59:16.160] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:16.635] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[29Oct2024 16:59:16.635] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:17.127] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[29Oct2024 16:59:17.127] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:17.764] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[29Oct2024 16:59:17.764] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:18.277] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[29Oct2024 16:59:18.277] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:18.642] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[29Oct2024 16:59:18.642] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:19.130] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[29Oct2024 16:59:19.130] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:19.642] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[29Oct2024 16:59:19.642] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:20.313] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[29Oct2024 16:59:20.313] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:20.635] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[29Oct2024 16:59:20.635] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:21.242] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[29Oct2024 16:59:21.242] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:21.627] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[29Oct2024 16:59:21.627] [Worker-Main-1\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Preparing spawn area: 2%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:21.942] [Server thread\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[29Oct2024 16:59:21.942] [Server thread\/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener\/]: Time elapsed: 6820 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:21.943] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[29Oct2024 16:59:21.943] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Done (17.236s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:21.943] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[29Oct2024 16:59:21.943] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:21.945] [Server thread\/INFO] [net.minecraft.server.rcon.thread.GenericThread\/]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[29Oct2024 16:59:21.945] [Server thread\/INFO] [net.minecraft.server.rcon.thread.GenericThread\/]: Thread Query Listener started"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:21.946] [Query Listener #1\/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4\/]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[29Oct2024 16:59:21.946] [Query Listener #1\/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4\/]: Query running on 0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:21.948] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[29Oct2024 16:59:21.948] [Server thread\/INFO] [net.minecraft.server.dedicated.DedicatedServer\/]: JMX monitoring enabled"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:21.954] [LanServerPinger #1\/WARN] [net.minecraft.client.server.LanServerPinger\/]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[29Oct2024 16:59:21.954] [LanServerPinger #1\/WARN] [net.minecraft.client.server.LanServerPinger\/]: LanServerPinger: Network is unreachable"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 16:59:21.971] [Server thread\/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI\/]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[29Oct2024 16:59:21.971] [Server thread\/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI\/]: Successfully initialized permission handler neoforge:default_handler"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.21.3",
+                "counter": 3,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:58:54] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[16:58:54] [main\/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.3.5-beta, --fml.fmlVersion, 4.0.31, --fml.mcVersion, 1.21.3, --fml.neoFormVersion, 20241023.131943, nogui]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.3"
+            },
+            {
+                "message": "NeoForge version: 21.3.5-beta",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:58:54] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[16:58:54] [main\/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.3.5-beta, --fml.fmlVersion, 4.0.31, --fml.mcVersion, 1.21.3, --fml.neoFormVersion, 20241023.131943, nogui]"
+                        }
+                    ]
+                },
+                "label": "NeoForge version",
+                "value": "21.3.5-beta"
+            },
+            {
+                "message": "Java version: 21.0.4",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:58:54] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 3,
+                            "content": "[16:58:54] [main\/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.4 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.0-117-generic"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "21.0.4"
+            }
+        ]
+    }
+}
