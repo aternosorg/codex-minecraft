@@ -16,9 +16,10 @@ class NeoForgeVersionInformation extends NeoForgeInformation
     public static function getPatterns(): array
     {
         return [
-            '/NeoForge mod loading, version ('. static::$versionPattern .'),/',
-            '/--fml\.neoForgeVersion, ('. static::$versionPattern .')/',
-            '/\tNeoForge: net.neoforged:('. static::$versionPattern .')/',
+            '/NeoForge mod loading, version (' . static::$versionPattern . '),/',
+            '/--fml\.neoForgeVersion, (' . static::$versionPattern . ')/',
+            '/\tNeoForge: net.neoforged:(' . static::$versionPattern . ')/',
+            '/^\t\t\S*\s*\|\S*\s*\|neoforge\s*\|(' . static::$versionPattern . ')\s*\|/'
         ];
     }
 
