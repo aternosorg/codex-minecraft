@@ -1,0 +1,72 @@
+[16:56:56] [main/INFO]: ModLauncher running: args [--username, Aternos, --version, forge-53.0.7, --gameDir, /home/paulv/Documents/curseforge/minecraft/Instances/Forge 1.21.3, --assetsDir, /home/paulv/Documents/curseforge/minecraft/Install/assets, --assetIndex, 18, --uuid, ac4a2732dd44408b8d4ee0b6de14b2c1, --accessToken, **********, --clientId, H3rxt6E4CfbDHImeBFoaQM3a/SDrPrAWTr5jBeWUTe/PLfFDgBP7ZgIZNg==, --xuid, 2535449932625433, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, /home/paulv/Documents/curseforge/minecraft/Install/quickPlay/java/1730217414833.json, --launchTarget, forge_client]
+[16:56:56] [main/INFO]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.3+9-LTS
+[16:56:56] [main/INFO]: ModLauncher 10.2.2 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 5.15.167-1-MANJARO
+[16:56:56] [main/WARN]: Configuration file /home/paulv/Documents/curseforge/minecraft/Instances/Forge 1.21.3/config/fml.toml is not correct. Correcting
+[16:56:56] [main/INFO]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[16:56:56] [main/INFO]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[16:56:56] [main/INFO]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[16:56:56] [main/INFO]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[16:56:56] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[16:56:56] [main/INFO]: Trying GL version 4.6
+[16:56:56] [main/INFO]: If this message is the only thing at the bottom of your log before a crash, you probably have a driver issue.
+
+Possible solutions:
+A) Make sure Minecraft is set to prefer high performance graphics in the OS and/or driver control panel
+B) Check for driver updates on the graphics brand's website
+C) Try reinstalling your graphics drivers
+D) If still not working after trying all of the above, ask for further help on the Forge forums or Discord
+
+You can safely ignore this message if the game starts up successfully.
+[16:56:56] [main/INFO]: Requested GL version 4.6 got version 4.6
+[16:56:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///home/paulv/Documents/curseforge/minecraft/Install/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=CLIENT
+[16:56:57] [EarlyDisplay/INFO]: GL info: Mesa Intel(R) UHD Graphics (TGL GT1) GL version 4.6 (Core Profile) Mesa 24.2.4-arch1.0.1, Intel
+[16:56:57] [main/INFO]: Found mod file forge-1.21.3-53.0.7-client.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@47e4d9d0
+[16:56:57] [main/INFO]: Found mod file forge-1.21.3-53.0.7-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@4beeb0e
+[16:56:57] [main/INFO]: Found mod file javafmllanguage-1.21.3-53.0.7.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@4beeb0e
+[16:56:57] [main/INFO]: Found mod file lowcodelanguage-1.21.3-53.0.7.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@4beeb0e
+[16:56:57] [main/INFO]: Found mod file fmlcore-1.21.3-53.0.7.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@4beeb0e
+[16:56:57] [main/INFO]: Found mod file mclanguage-1.21.3-53.0.7.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@4beeb0e
+[16:56:57] [main/INFO]: No dependencies to load found. Skipping!
+[16:56:57] [main/INFO]: Launching target 'forge_client' with arguments [--version, forge-53.0.7, --gameDir, /home/paulv/Documents/curseforge/minecraft/Instances/Forge 1.21.3, --assetsDir, /home/paulv/Documents/curseforge/minecraft/Install/assets, --uuid, ac4a2732dd44408b8d4ee0b6de14b2c1, --username, Aternos, --assetIndex, 18, --accessToken, **********, --clientId, H3rxt6E4CfbDHImeBFoaQM3a/SDrPrAWTr5jBeWUTe/PLfFDgBP7ZgIZNg==, --xuid, 2535449932625433, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, /home/paulv/Documents/curseforge/minecraft/Install/quickPlay/java/1730217414833.json]
+[16:56:58] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///home/paulv/Documents/curseforge/minecraft/Install/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/paulv/Documents/curseforge/minecraft/Install/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///home/paulv/Documents/curseforge/minecraft/Install/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/paulv/Documents/curseforge/minecraft/Install/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[16:56:58] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///home/paulv/Documents/curseforge/minecraft/Install/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/paulv/Documents/curseforge/minecraft/Install/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///home/paulv/Documents/curseforge/minecraft/Install/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/paulv/Documents/curseforge/minecraft/Install/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[16:56:58] [Datafixer Bootstrap/INFO]: 237 Datafixer optimizations took 252 milliseconds
+[16:57:03] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:57:03] [Render thread/INFO]: Setting user: Aternos
+[16:57:03] [Render thread/INFO]: Backend library: LWJGL version 3.3.3+5
+[16:57:03] [modloading-worker-0/INFO]: Forge mod loading, version 53.0.7, for MC 1.21.3 with MCP 20241025.112443
+[16:57:03] [modloading-worker-0/INFO]: MinecraftForge v53.0.7 Initialized
+[16:57:03] [modloading-worker-0/INFO]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[16:57:04] [Render thread/INFO]: Reloading ResourceManager: vanilla, mod_resources
+[16:57:04] [modloading-worker-0/WARN]: Configuration file /home/paulv/Documents/curseforge/minecraft/Instances/Forge 1.21.3/config/forge-client.toml is not correct. Correcting
+[16:57:04] [modloading-worker-0/WARN]: Incorrect key client was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[16:57:04] [modloading-worker-0/WARN]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. 
+[16:57:04] [modloading-worker-0/WARN]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. 
+[16:57:04] [modloading-worker-0/WARN]: Configuration file /home/paulv/Documents/curseforge/minecraft/Instances/Forge 1.21.3/config/forge-common.toml is not correct. Correcting
+[16:57:04] [modloading-worker-0/WARN]: Incorrect key general was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[16:57:04] [modloading-worker-0/WARN]: Incorrect key general.logLegacyTagWarnings was corrected from null to its default, OFF. 
+[16:57:04] [Worker-Main-8/INFO]: Found unifont_all_no_pua-15.1.05.hex, loading
+[16:57:04] [Worker-Main-3/INFO]: Found unifont_jp_patch-15.1.05.hex, loading
+[16:57:04] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[16:57:05] [Forge Version Check/INFO]: [forge] Found status: BETA Current: 53.0.7 Target: 53.0.7
+[16:57:05] [Worker-Main-15/WARN]: Missing textures in model forge:bucket_milk#inventory:
+    minecraft:textures/atlas/blocks.png:forge:items/bucket_base
+    minecraft:textures/atlas/blocks.png:forge:items/bucket_cover
+    minecraft:textures/atlas/blocks.png:forge:items/bucket_fluid
+[16:57:06] [Render thread/WARN]: Missing sound for event: minecraft:block.spawner.fall
+[16:57:06] [Render thread/INFO]: OpenAL initialized on device Built-in Audio Analog Stereo
+[16:57:06] [Render thread/INFO]: Sound engine started
+[16:57:06] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[16:57:07] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[16:57:07] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16:57:07] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16:57:07] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[16:57:07] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16:57:07] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[16:57:07] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16:57:07] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16:57:07] [Render thread/INFO]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[16:57:07] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[16:57:07] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16:57:07] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16:57:07] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
