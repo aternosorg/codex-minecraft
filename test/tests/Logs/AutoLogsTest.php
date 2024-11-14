@@ -1638,9 +1638,29 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_missing_data_pack_mod(): void
+    {
+        $log = new TestLog('Vanilla/missing-data-pack-mod.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_old_vanilla_start_152(): void
     {
         $log = new TestLog('Vanilla/old-vanilla-start-152.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_overworld_settings_missing(): void
+    {
+        $log = new TestLog('Vanilla/overworld-settings-missing.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 

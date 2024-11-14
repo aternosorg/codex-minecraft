@@ -1,0 +1,14 @@
+[29Oct2024 12:58:07.579] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 52.0.24 Target: 52.0.24
+[29Oct2024 12:58:08.768] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[29Oct2024 12:58:08.897] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+commonnetworking (version 1.0.16-1.21.1 -> MISSING)
+journeymap (version 1.21.1-6.0.0-beta.28 -> MISSING)
+journeymap_api (version 2.0.0 -> MISSING)
+terralith (version 2.5.5 -> MISSING)
+Things may not work well.
+[29Oct2024 12:58:09.638] [main/DEBUG] [net.minecraftforge.resource.ResourcePackLoader/CORE]: Generating PackInfo named mod:forge for mod file /server/libraries/net/minecraftforge/forge/1.21.1-52.0.24/forge-1.21.1-52.0.24-universal.jar
+[29Oct2024 12:58:09.639] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:terralith
+[29Oct2024 12:58:09.639] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:commonnetworking
+[29Oct2024 12:58:09.639] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:journeymap_api
+[29Oct2024 12:58:09.639] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:journeymap
+[29Oct2024 12:58:10.546] [main/WARN] [net.minecraft.server.Main/]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode

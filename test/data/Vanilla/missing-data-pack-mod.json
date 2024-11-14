@@ -1,0 +1,225 @@
+{
+    "id": "forge\/server",
+    "name": "Forge",
+    "type": "Server Log",
+    "version": null,
+    "title": "Forge Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:07.579] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[29Oct2024 12:58:07.579] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [forge] Found status: BETA Current: 52.0.24 Target: 52.0.24"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:08.768] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[29Oct2024 12:58:08.768] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]: Environment: Environment[sessionHost=https:\/\/sessionserver.mojang.com, servicesHost=https:\/\/api.minecraftservices.com, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:08.897] [main\/WARN] [net.minecraftforge.common.ForgeHooks\/WP]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[29Oct2024 12:58:08.897] [main\/WARN] [net.minecraftforge.common.ForgeHooks\/WP]: The following mods have version differences that were not resolved:"
+                },
+                {
+                    "number": 4,
+                    "content": "commonnetworking (version 1.0.16-1.21.1 -> MISSING)"
+                },
+                {
+                    "number": 5,
+                    "content": "journeymap (version 1.21.1-6.0.0-beta.28 -> MISSING)"
+                },
+                {
+                    "number": 6,
+                    "content": "journeymap_api (version 2.0.0 -> MISSING)"
+                },
+                {
+                    "number": 7,
+                    "content": "terralith (version 2.5.5 -> MISSING)"
+                },
+                {
+                    "number": 8,
+                    "content": "Things may not work well."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:09.638] [main\/DEBUG] [net.minecraftforge.resource.ResourcePackLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[29Oct2024 12:58:09.638] [main\/DEBUG] [net.minecraftforge.resource.ResourcePackLoader\/CORE]: Generating PackInfo named mod:forge for mod file \/server\/libraries\/net\/minecraftforge\/forge\/1.21.1-52.0.24\/forge-1.21.1-52.0.24-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:terralith"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:commonnetworking"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:journeymap_api"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:journeymap"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:10.546] [main\/WARN] [net.minecraft.server.Main\/]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[29Oct2024 12:58:10.546] [main\/WARN] [net.minecraft.server.Main\/]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "Install the mod '{{mod-name}}'.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
+                    "lines": [
+                        {
+                            "number": 10,
+                            "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:terralith"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'terralith'."
+                    },
+                    {
+                        "message": "Do nothing. This problem might fix itself."
+                    }
+                ]
+            },
+            {
+                "message": "Install the mod '{{mod-name}}'.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
+                    "lines": [
+                        {
+                            "number": 11,
+                            "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:commonnetworking"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'commonnetworking'."
+                    },
+                    {
+                        "message": "Do nothing. This problem might fix itself."
+                    }
+                ]
+            },
+            {
+                "message": "Install the mod '{{mod-name}}'.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
+                    "lines": [
+                        {
+                            "number": 12,
+                            "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:journeymap_api"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'journeymap_api'."
+                    },
+                    {
+                        "message": "Do nothing. This problem might fix itself."
+                    }
+                ]
+            },
+            {
+                "message": "Install the mod '{{mod-name}}'.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
+                    "lines": [
+                        {
+                            "number": 13,
+                            "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:journeymap"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'journeymap'."
+                    },
+                    {
+                        "message": "Do nothing. This problem might fix itself."
+                    }
+                ]
+            }
+        ],
+        "information": []
+    }
+}

@@ -89,5 +89,6 @@
   "plugin-api-version-lower-than-allowed-problem": "The plugin '{{plugin-name}}' has an API version specified that is lower than the minimum allowed version.",
   "change-minimum-api-version-solution": "Change 'minimum-api' in bukkit.yml to {{api-version}}, lower or even 'none'.",
   "auth-server-problem": "The Mojang/Microsoft authentication servers are currently unreachable!",
-  "auth-server-solution": "Wait a few minutes and try again. If the issue persists, check the official Mojang/Microsoft channels for any known authentication server problems."
+  "auth-server-solution": "Wait a few minutes and try again. If the issue persists, check the official Mojang/Microsoft channels for any known authentication server problems.",
+  "overworld-settings-missing": "Regenerate your world."
 }
