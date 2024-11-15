@@ -128,7 +128,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "Install the mod '{{mod-name}}'.",
+                "message": "The mod '{{mod-name}}' is missing it's datapack.",
                 "counter": 1,
                 "entry": {
                     "level": 4,
@@ -151,7 +151,7 @@
                 ]
             },
             {
-                "message": "Install the mod '{{mod-name}}'.",
+                "message": "The mod '{{mod-name}}' is missing it's datapack.",
                 "counter": 1,
                 "entry": {
                     "level": 4,
@@ -174,7 +174,7 @@
                 ]
             },
             {
-                "message": "Install the mod '{{mod-name}}'.",
+                "message": "The mod '{{mod-name}}' is missing it's datapack.",
                 "counter": 1,
                 "entry": {
                     "level": 4,
@@ -197,7 +197,7 @@
                 ]
             },
             {
-                "message": "Install the mod '{{mod-name}}'.",
+                "message": "The mod '{{mod-name}}' is missing it's datapack.",
                 "counter": 1,
                 "entry": {
                     "level": 4,

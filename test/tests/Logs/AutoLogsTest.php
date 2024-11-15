@@ -1498,6 +1498,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_missing_data_pack_mod(): void
+    {
+        $log = new TestLog('Vanilla/Forge/missing-data-pack-mod.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_neoforge_1_20_1_server_report_entity(): void
     {
         $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-1-server-report-entity.log');
@@ -1631,16 +1641,6 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_quilt(): void
     {
         $log = new TestLog('Vanilla/Quilt/quilt.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_missing_data_pack_mod(): void
-    {
-        $log = new TestLog('Vanilla/missing-data-pack-mod.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 

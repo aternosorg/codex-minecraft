@@ -14,7 +14,7 @@ class OverworldSettingsMissingProblem extends VanillaProblem
      */
     public function getMessage(): string
     {
-        return Translator::getInstance()->getTranslation("overworld-settings-missing");
+        return Translator::getInstance()->getTranslation("overworld-settings-missing-problem");
     }
 
     /**

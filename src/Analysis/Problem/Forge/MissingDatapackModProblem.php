@@ -16,7 +16,7 @@ class MissingDatapackModProblem extends ModProblem
      */
     public function getMessage(): string
     {
-        return Translator::getInstance()->getTranslation("mod-install-solution");
+        return Translator::getInstance()->getTranslation("missing-datapack-mod-problem");
     }
 
     /**
@@ -41,7 +41,7 @@ class MissingDatapackModProblem extends ModProblem
     public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->modName = $matches[1];
-        $this->addSolution((new ModInstallSolution())->setModName($matches[1]));
+        $this->addSolution((new ModInstallSolution())->setModName($this->modName));
         $this->addSolution(new DoNothingSolution());
     }
 }

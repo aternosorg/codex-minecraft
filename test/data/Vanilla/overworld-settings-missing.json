@@ -208,7 +208,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "Regenerate your world.",
+                "message": "Overworld settings missing",
                 "counter": 2,
                 "entry": {
                     "level": 4,
