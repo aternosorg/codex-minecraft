@@ -1258,6 +1258,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_forge_missing_data_pack_mod(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-missing-data-pack-mod.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_forge_missing_mods_exception_2(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-missing-mods-exception-2.log');
@@ -1498,16 +1508,6 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_missing_data_pack_mod(): void
-    {
-        $log = new TestLog('Vanilla/Forge/missing-data-pack-mod.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
     public function test_neoforge_1_20_1_server_report_entity(): void
     {
         $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-1-server-report-entity.log');
@@ -1658,16 +1658,6 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_overworld_settings_missing(): void
-    {
-        $log = new TestLog('Vanilla/overworld-settings-missing.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
     public function test_vanilla_aquatic_world_on_older_version(): void
     {
         $log = new TestLog('Vanilla/vanilla-aquatic-world-on-older-version.log');
@@ -1731,6 +1721,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_vanilla_old_player_directory(): void
     {
         $log = new TestLog('Vanilla/vanilla-old-player-directory.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_vanilla_overworld_settings_missing(): void
+    {
+        $log = new TestLog('Vanilla/vanilla-overworld-settings-missing.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
