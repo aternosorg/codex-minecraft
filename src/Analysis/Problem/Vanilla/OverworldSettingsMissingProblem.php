@@ -26,7 +26,7 @@ class OverworldSettingsMissingProblem extends VanillaProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Overworld settings missing/'];
+        return ['/java.util.concurrent.ExecutionException: .+ Overworld settings missing/'];
     }
 
     /**

@@ -209,7 +209,7 @@
         "problems": [
             {
                 "message": "Overworld settings missing",
-                "counter": 2,
+                "counter": 1,
                 "entry": {
                     "level": 4,
                     "time": null,
