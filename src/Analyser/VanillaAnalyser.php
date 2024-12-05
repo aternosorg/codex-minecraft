@@ -20,6 +20,7 @@ class VanillaAnalyser extends MinecraftAnalyser
     public function __construct()
     {
         $this->addPossibleInsightClass(VanillaVersionInformation::class);
+
         $this->addPossibleInsightClass(OldPlayerDirectoryProblem::class);
         $this->addPossibleInsightClass(AquaticWorldOnOlderVersionProblem::class);
         $this->addPossibleInsightClass(TickingBlockEntityProblem::class);

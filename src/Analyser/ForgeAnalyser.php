@@ -32,6 +32,7 @@ class ForgeAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(ForgeVersionInformation::class);
         $this->overridePossibleInsightClass(VanillaVersionInformation::class, ForgeVanillaVersionInformation::class);
         $this->addPossibleInsightClass(ForgeJavaVersionInformation::class);
+
         $this->addPossibleInsightClass(FmlConfirmProblem::class);
         $this->addPossibleInsightClass(WorldMissingModProblem::class);
         $this->addPossibleInsightClass(WorldModVersionProblem::class);

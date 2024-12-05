@@ -2,16 +2,2867 @@
     "id": "forge\/server",
     "name": "Forge",
     "type": "Server Log",
-    "version": null,
-    "title": "Forge Server Log",
+    "version": "1.21.1",
+    "title": "Forge 1.21.1 Server Log",
     "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.246] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[29Oct2024 12:57:58.246] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.248] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[29Oct2024 12:57:58.248] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.3+9-LTS"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.249] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[29Oct2024 12:57:58.249] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 10.2.2 starting: java version 21.0.3 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.0-117-generic"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.263] [main\/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[29Oct2024 12:57:58.263] [main\/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]: Found launch services [forge_userdev_client,forge_dev_data,minecraft,forge_userdev_server_gametest,forge_dev_client,forge_userdev_data,forge_dev_server_gametest,testharness,forge_userdev_server,forge_client,forge_dev_server,forge_server]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.270] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[29Oct2024 12:57:58.270] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]: Found naming services : [srgtomcp]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.279] [main\/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[29Oct2024 12:57:58.279] [main\/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler\/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.286] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[29Oct2024 12:57:58.286] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Discovering transformation services"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.288] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[29Oct2024 12:57:58.288] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]: Path GAMEDIR is \/server"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.288] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[29Oct2024 12:57:58.288] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]: Path MODSDIR is \/server\/mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.288] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[29Oct2024 12:57:58.288] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]: Path CONFIGDIR is \/server\/config"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.288] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[29Oct2024 12:57:58.288] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]: Path FMLCONFIG is \/server\/config\/fml.toml"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.338] [main\/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler\/]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[29Oct2024 12:57:58.338] [main\/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler\/]: ImmediateWindowProvider not loading because launch target is forge_server"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.370] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[29Oct2024 12:57:58.370] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Found transformer service: fml: \/"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.371] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[29Oct2024 12:57:58.371] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Found transformer service: mixin: \/"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.371] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[29Oct2024 12:57:58.371] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Transformation services loading"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.372] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[29Oct2024 12:57:58.372] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Loading service mixin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.372] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[29Oct2024 12:57:58.372] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Loaded service mixin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.372] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[29Oct2024 12:57:58.372] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Loading service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.381] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[29Oct2024 12:57:58.381] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: Detected version data : VersionInfo[forgeVersion=52.0.24, mcVersion=1.21.1, mcpVersion=20240808.132146, forgeGroup=net.minecraftforge]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.382] [main\/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion\/CORE]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[29Oct2024 12:57:58.382] [main\/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion\/CORE]: Found FMLLauncher version 52.0.24"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.382] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[29Oct2024 12:57:58.382] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: FML 52.0.24 loading"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.382] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[29Oct2024 12:57:58.382] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: Found ModLauncher version: 10.2.2"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.382] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[29Oct2024 12:57:58.382] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: Found AccessTransformer version: 8.2.0"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.382] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[29Oct2024 12:57:58.382] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: Found EventBus version: 6.2.8"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.382] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[29Oct2024 12:57:58.382] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: Found RuntimeDistCleaner version: 52.0.24"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.383] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[29Oct2024 12:57:58.383] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: FML found CoreMod version : 5.1.13"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.383] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[29Oct2024 12:57:58.383] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: Found ForgeSPI version: 7.1.5"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.384] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[29Oct2024 12:57:58.384] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Loaded service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.384] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[29Oct2024 12:57:58.384] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Configuring option handling for services"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.388] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[29Oct2024 12:57:58.388] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Transformation services initializing"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.388] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[29Oct2024 12:57:58.388] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Initializing transformation service mixin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.432] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[29Oct2024 12:57:58.432] [main\/DEBUG] [mixin\/]: MixinService [ModLauncher] was successfully booted in SecureModuleClassLoader[SECURE-BOOTSTRAP]@1180858072"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.442] [main\/INFO] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[29Oct2024 12:57:58.442] [main\/INFO] [mixin\/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:\/\/\/server\/libraries\/org\/spongepowered\/mixin\/0.8.7\/mixin-0.8.7.jar!\/ Service=ModLauncher Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.444] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[29Oct2024 12:57:58.444] [main\/DEBUG] [mixin\/]: Initialising Mixin Platform Manager"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.444] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[29Oct2024 12:57:58.444] [main\/DEBUG] [mixin\/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.445] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[29Oct2024 12:57:58.445] [main\/DEBUG] [mixin\/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.445] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[29Oct2024 12:57:58.445] [main\/DEBUG] [mixin\/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.445] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[29Oct2024 12:57:58.445] [main\/DEBUG] [mixin\/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.445] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[29Oct2024 12:57:58.445] [main\/DEBUG] [mixin\/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.447] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[29Oct2024 12:57:58.447] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Initialized transformation service mixin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.447] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[29Oct2024 12:57:58.447] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Initializing transformation service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.447] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[29Oct2024 12:57:58.447] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]: Setting up basic FML game directories"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.448] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[29Oct2024 12:57:58.448] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]: Path GAMEDIR is \/server"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.448] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[29Oct2024 12:57:58.448] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]: Path MODSDIR is \/server\/mods"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.448] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[29Oct2024 12:57:58.448] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]: Path CONFIGDIR is \/server\/config"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.448] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[29Oct2024 12:57:58.448] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLPaths\/CORE]: Path FMLCONFIG is \/server\/config\/fml.toml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.448] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[29Oct2024 12:57:58.448] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]: Loading configuration"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.450] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[29Oct2024 12:57:58.450] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]: Preparing ModFile"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.452] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[29Oct2024 12:57:58.452] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]: Preparing launch handler"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.452] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[29Oct2024 12:57:58.452] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLLoader\/CORE]: Using forge_server as launch service"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.456] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[29Oct2024 12:57:58.456] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Initialized transformation service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.456] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[29Oct2024 12:57:58.456] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]: Current naming domain is 'mcp'"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.456] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[29Oct2024 12:57:58.456] [main\/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler\/MODLAUNCHER]: Identified name mapping providers {srg=net.minecraftforge.fml.loading.MCPNamingService@4aedaf61}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.456] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[29Oct2024 12:57:58.456] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Transformation services begin scanning"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.457] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[29Oct2024 12:57:58.457] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Beginning scan trigger - transformation service mixin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.457] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[29Oct2024 12:57:58.457] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: End scan trigger - transformation service mixin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.457] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[29Oct2024 12:57:58.457] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Beginning scan trigger - transformation service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.458] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[29Oct2024 12:57:58.458] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]: Initiating mod scan"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.464] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer\/CORE]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[29Oct2024 12:57:58.464] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer\/CORE]: Found Mod Locators : (mods folder:null),(minecraft:null),(classpath:null),(forge_dev_locator:null),(forge_userdev_locator:null)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.464] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer\/CORE]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[29Oct2024 12:57:58.464] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer\/CORE]: Found Dependency Locators : (JarInJar:null)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.540] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[29Oct2024 12:57:58.540] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]: Found valid mod file forge-1.21.1-52.0.24-server.jar with {minecraft} mods - versions {1.21.1}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.593] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[29Oct2024 12:57:58.593] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Considering mod file candidate \/server\/libraries\/net\/minecraftforge\/forge\/1.21.1-52.0.24\/forge-1.21.1-52.0.24-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.597] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[29Oct2024 12:57:58.597] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]: Found valid mod file forge-1.21.1-52.0.24-universal.jar with {forge} mods - versions {52.0.24}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.607] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[29Oct2024 12:57:58.607] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]: Failed to load resource META-INF\/jarjar\/metadata.json from forge-1.21.1-52.0.24-server.jar, it does not contain dependency information."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.607] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[29Oct2024 12:57:58.607] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]: Failed to load resource META-INF\/jarjar\/metadata.json from forge-1.21.1-52.0.24-universal.jar, it does not contain dependency information."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.621] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[29Oct2024 12:57:58.621] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]: Failed to load resource META-INF\/jarjar\/metadata.json from javafmllanguage-1.21.1-52.0.24.jar, it does not contain dependency information."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.621] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[29Oct2024 12:57:58.621] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]: Failed to load resource META-INF\/jarjar\/metadata.json from lowcodelanguage-1.21.1-52.0.24.jar, it does not contain dependency information."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.621] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[29Oct2024 12:57:58.621] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]: Failed to load resource META-INF\/jarjar\/metadata.json from mclanguage-1.21.1-52.0.24.jar, it does not contain dependency information."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.621] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[29Oct2024 12:57:58.621] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]: Failed to load resource META-INF\/jarjar\/metadata.json from fmlcore-1.21.1-52.0.24.jar, it does not contain dependency information."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.650] [main\/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[29Oct2024 12:57:58.650] [main\/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]: No dependencies to load found. Skipping!"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.652] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[29Oct2024 12:57:58.652] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]: Found valid mod file forge-1.21.1-52.0.24-server.jar with {minecraft} mods - versions {1.21.1}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.654] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[29Oct2024 12:57:58.654] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]: Loading mod file \/server\/libraries\/net\/minecraftforge\/forge\/1.21.1-52.0.24\/forge-1.21.1-52.0.24-server.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.655] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[29Oct2024 12:57:58.655] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Considering mod file candidate \/server\/libraries\/net\/minecraftforge\/forge\/1.21.1-52.0.24\/forge-1.21.1-52.0.24-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.656] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[29Oct2024 12:57:58.656] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo\/LOADING]: Found valid mod file forge-1.21.1-52.0.24-universal.jar with {forge} mods - versions {52.0.24}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.656] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[29Oct2024 12:57:58.656] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]: Loading mod file \/server\/libraries\/net\/minecraftforge\/forge\/1.21.1-52.0.24\/forge-1.21.1-52.0.24-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.659] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[29Oct2024 12:57:58.659] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Found coremod field_to_method with Javascript path coremods\/field_to_method.js"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.659] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[29Oct2024 12:57:58.659] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Found coremod method_redirector with Javascript path coremods\/method_redirector.js"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.659] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[29Oct2024 12:57:58.659] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]: Found coremod \/coremods\/field_to_method.js"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.659] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[29Oct2024 12:57:58.659] [main\/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile\/LOADING]: Found coremod \/coremods\/method_redirector.js"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.660] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[29Oct2024 12:57:58.660] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: End scan trigger - transformation service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.680] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[29Oct2024 12:57:58.680] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]: Found 3 language providers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.680] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[29Oct2024 12:57:58.680] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]: Found language provider minecraft, version 1.0"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.681] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[29Oct2024 12:57:58.681] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]: Found language provider lowcodefml, version 52"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.681] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[29Oct2024 12:57:58.681] [main\/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider\/CORE]: Found language provider javafml, version 52.0.24"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.684] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[29Oct2024 12:57:58.684] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/]: Configured system mods: [minecraft, forge]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.684] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[29Oct2024 12:57:58.684] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/]: Found system mod: minecraft"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.684] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[29Oct2024 12:57:58.684] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/]: Found system mod: forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.693] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/LOADING]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[29Oct2024 12:57:58.693] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/LOADING]: Found 0 mod requirements (0 mandatory, 0 optional)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.693] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/LOADING]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[29Oct2024 12:57:58.693] [main\/DEBUG] [net.minecraftforge.fml.loading.ModSorter\/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:58.973] [main\/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService\/CORE]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[29Oct2024 12:57:58.973] [main\/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService\/CORE]: Loaded 37504 method mappings from methods.csv"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.012] [main\/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService\/CORE]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[29Oct2024 12:57:59.012] [main\/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService\/CORE]: Loaded 35622 field mappings from fields.csv"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.032] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[29Oct2024 12:57:59.032] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler\/MODLAUNCHER]: Transformation services loading transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.032] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[29Oct2024 12:57:59.032] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Initializing transformers for transformation service mixin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.033] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[29Oct2024 12:57:59.033] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Initialized transformers for transformation service mixin"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.033] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[29Oct2024 12:57:59.033] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Initializing transformers for transformation service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.033] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[29Oct2024 12:57:59.033] [main\/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider\/CORE]: Loading coremod transformers"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.033] [main\/DEBUG] [net.minecraftforge.coremod.CoreModEngine\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[29Oct2024 12:57:59.033] [main\/DEBUG] [net.minecraftforge.coremod.CoreModEngine\/COREMOD]: Loading CoreMod from \/coremods\/field_to_method.js"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.234] [main\/DEBUG] [net.minecraftforge.coremod.CoreModEngine\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[29Oct2024 12:57:59.234] [main\/DEBUG] [net.minecraftforge.coremod.CoreModEngine\/COREMOD]: CoreMod loaded successfully"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.235] [main\/DEBUG] [net.minecraftforge.coremod.CoreModEngine\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[29Oct2024 12:57:59.235] [main\/DEBUG] [net.minecraftforge.coremod.CoreModEngine\/COREMOD]: Loading CoreMod from \/coremods\/method_redirector.js"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.435] [main\/DEBUG] [net.minecraftforge.coremod.CoreModEngine\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[29Oct2024 12:57:59.435] [main\/DEBUG] [net.minecraftforge.coremod.CoreModEngine\/COREMOD]: CoreMod loaded successfully"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.466] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[29Oct2024 12:57:59.466] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@61bb1e4d to Target : CLASS {Lnet\/minecraft\/world\/level\/biome\/Biome;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.467] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[29Oct2024 12:57:59.467] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5ff00507 to Target : CLASS {Lnet\/minecraft\/world\/effect\/MobEffectInstance;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@603cabc4 to Target : CLASS {Lnet\/minecraft\/world\/level\/block\/LiquidBlock;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@67fa5045 to Target : CLASS {Lnet\/minecraft\/world\/item\/BucketItem;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6f347d7 to Target : CLASS {Lnet\/minecraft\/world\/level\/block\/FlowerPotBlock;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/entity\/ai\/village\/VillageSiege;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/server\/commands\/RaidCommand;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/entity\/monster\/ZombieVillager;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/level\/levelgen\/structure\/structures\/OceanMonumentPieces$OceanMonumentPiece;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[29Oct2024 12:57:59.468] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/level\/levelgen\/structure\/templatesystem\/StructureTemplate;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.469] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[29Oct2024 12:57:59.469] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/level\/levelgen\/structure\/structures\/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.469] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[29Oct2024 12:57:59.469] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/entity\/monster\/Spider;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.469] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[29Oct2024 12:57:59.469] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/entity\/monster\/Strider;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.469] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[29Oct2024 12:57:59.469] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/level\/levelgen\/PhantomSpawner;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.469] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[29Oct2024 12:57:59.469] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/entity\/monster\/Evoker$EvokerSummonSpellGoal;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.469] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[29Oct2024 12:57:59.469] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/level\/levelgen\/PatrolSpawner;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.469] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[29Oct2024 12:57:59.469] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/level\/block\/entity\/trialspawner\/TrialSpawner;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/level\/levelgen\/structure\/structures\/SwampHutPiece;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/entity\/raid\/Raid;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/entity\/npc\/CatSpawner;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/entity\/npc\/Villager;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/entity\/animal\/horse\/SkeletonTrapGoal;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/entity\/monster\/Zombie;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/level\/NaturalSpawner;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "[29Oct2024 12:57:59.470] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/level\/levelgen\/structure\/structures\/OceanRuinPieces$OceanRuinPiece;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.471] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "[29Oct2024 12:57:59.471] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/entity\/EntityType;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.471] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "[29Oct2024 12:57:59.471] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/server\/commands\/SummonCommand;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.471] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "[29Oct2024 12:57:59.471] [main\/DEBUG] [cpw.mods.modlauncher.TransformStore\/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5974b233 to Target : CLASS {Lnet\/minecraft\/world\/entity\/animal\/frog\/Tadpole;} {} {V}"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.471] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "[29Oct2024 12:57:59.471] [main\/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator\/MODLAUNCHER]: Initialized transformers for transformation service fml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.529] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "[29Oct2024 12:57:59.529] [main\/DEBUG] [mixin\/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]: Adding mixin platform agents for container SecureJarResource(mixin.synthetic)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixin.synthetic)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixin.synthetic)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixin.synthetic)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixin.synthetic)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin.synthetic)]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "[29Oct2024 12:57:59.530] [main\/DEBUG] [mixin\/]: Adding mixin platform agents for container SecureJarResource(minecraft)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]: Adding mixin platform agents for container SecureJarResource(forge)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "[29Oct2024 12:57:59.531] [main\/DEBUG] [mixin\/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.532] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "[29Oct2024 12:57:59.532] [main\/DEBUG] [mixin\/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.532] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "[29Oct2024 12:57:59.532] [main\/DEBUG] [mixin\/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.532] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "[29Oct2024 12:57:59.532] [main\/DEBUG] [mixin\/]: inject() running with 4 agents"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.532] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "[29Oct2024 12:57:59.532] [main\/DEBUG] [mixin\/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.532] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "[29Oct2024 12:57:59.532] [main\/DEBUG] [mixin\/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin.synthetic)]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.532] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "[29Oct2024 12:57:59.532] [main\/DEBUG] [mixin\/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.532] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "[29Oct2024 12:57:59.532] [main\/DEBUG] [mixin\/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.533] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "[29Oct2024 12:57:59.533] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.563] [main\/DEBUG] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "[29Oct2024 12:57:59.563] [main\/DEBUG] [mixin\/]: Preparing mixins for MixinEnvironment[DEFAULT]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.653] [main\/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory\/]:",
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "[29Oct2024 12:57:59.653] [main\/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory\/]: Using SLF4J as the default logging framework"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.655] [main\/DEBUG] [io.netty.util.ResourceLeakDetector\/]:",
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "[29Oct2024 12:57:59.655] [main\/DEBUG] [io.netty.util.ResourceLeakDetector\/]: -Dio.netty.leakDetection.level: simple"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.655] [main\/DEBUG] [io.netty.util.ResourceLeakDetector\/]:",
+            "lines": [
+                {
+                    "number": 159,
+                    "content": "[29Oct2024 12:57:59.655] [main\/DEBUG] [io.netty.util.ResourceLeakDetector\/]: -Dio.netty.leakDetection.targetRecords: 4"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.860] [main\/WARN] [oshi.util.FileUtil\/]:",
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "[29Oct2024 12:57:59.860] [main\/WARN] [oshi.util.FileUtil\/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:\/\/\/server\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.properties, jar:file:\/server\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.properties, jar:file:\/\/\/server\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.properties, jar:file:\/server\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.properties]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.876] [main\/DEBUG] [oshi.util.FileUtil\/]:",
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "[29Oct2024 12:57:59.876] [main\/DEBUG] [oshi.util.FileUtil\/]: Reading file \/proc\/self\/auxv"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.877] [main\/DEBUG] [oshi.util.FileUtil\/]:",
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "[29Oct2024 12:57:59.877] [main\/DEBUG] [oshi.util.FileUtil\/]: Reading file \/proc\/self\/auxv"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.924] [main\/DEBUG] [oshi.util.FileUtil\/]:",
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "[29Oct2024 12:57:59.924] [main\/DEBUG] [oshi.util.FileUtil\/]: Reading file \/proc\/stat"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:57:59.935] [main\/DEBUG] [oshi.util.FileUtil\/]:",
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "[29Oct2024 12:57:59.935] [main\/DEBUG] [oshi.util.FileUtil\/]: Reading file \/sys\/devices\/system\/cpu\/cpu0\/topology\/core_id"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:00.131] [main\/DEBUG] [oshi.util.FileUtil\/]:",
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "[29Oct2024 12:58:00.131] [main\/DEBUG] [oshi.util.FileUtil\/]: Reading file \/sys\/devices\/system\/cpu\/cpu27\/cache\/index2\/leveltil\/]: Reading file \/sys\/devices\/system\/cpu\/cpu28\/cache\/index0\/level"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:00.139] [main\/DEBUG] [oshi.util.FileUtil\/]:",
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "[29Oct2024 12:58:00.139] [main\/DEBUG] [oshi.util.FileUtil\/]: Reading file \/sys\/devices\/system\/cpu\/cpu29\/cache\/index0\/level"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:00.270] [main\/DEBUG] [oshi.util.FileUtil\/]:",
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "[29Oct2024 12:58:00.270] [main\/DEBUG] [oshi.util.FileUtil\/]: Reading file \/proc\/cpuinfo"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:00.332] [main\/DEBUG] [oshi.util.FileUtil\/]:",
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "[29Oct2024 12:58:00.332] [main\/DEBUG] [oshi.util.FileUtil\/]: Reading file \/proc\/self\/auxv"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:00.334] [main\/WARN] [oshi.util.FileUtil\/]:",
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "[29Oct2024 12:58:00.334] [main\/WARN] [oshi.util.FileUtil\/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:\/\/\/server\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties, jar:file:\/server\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties, jar:file:\/\/\/server\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties, jar:file:\/server\/libraries\/com\/github\/oshi\/oshi-core\/6.4.10\/oshi-core-6.4.10.jar!\/oshi.architecture.properties]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:00.345] [main\/DEBUG] [oshi.util.FileUtil\/]:",
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "[29Oct2024 12:58:00.345] [main\/DEBUG] [oshi.util.FileUtil\/]: Reading file \/proc\/meminfo"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:00.346] [main\/DEBUG] [oshi.util.FileUtil\/]:",
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "[29Oct2024 12:58:00.346] [main\/DEBUG] [oshi.util.FileUtil\/]: Reading file \/proc\/meminfo"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:00.667] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 172,
+                    "content": "[29Oct2024 12:58:00.667] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/entity\/EntityType"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:01.252] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 173,
+                    "content": "[29Oct2024 12:58:01.252] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/level\/block\/LiquidBlock"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:01.409] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 174,
+                    "content": "[29Oct2024 12:58:01.409] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/level\/block\/FlowerPotBlock"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:01.786] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 175,
+                    "content": "[29Oct2024 12:58:01.786] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/effect\/MobEffectInstance"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:02.263] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 176,
+                    "content": "[29Oct2024 12:58:02.263] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/level\/biome\/Biome"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:03.210] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 177,
+                    "content": "[29Oct2024 12:58:03.210] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/entity\/animal\/frog\/Tadpole"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:03.267] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 178,
+                    "content": "[29Oct2024 12:58:03.267] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/item\/BucketItem"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:04.578] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 179,
+                    "content": "[29Oct2024 12:58:04.578] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/entity\/monster\/Spider"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:04.648] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 180,
+                    "content": "[29Oct2024 12:58:04.648] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/entity\/monster\/Zombie"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:04.733] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 181,
+                    "content": "[29Oct2024 12:58:04.733] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/entity\/monster\/ZombieVillager"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:04.790] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 182,
+                    "content": "[29Oct2024 12:58:04.790] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/entity\/monster\/Evoker$EvokerSummonSpellGoal"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:04.926] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 183,
+                    "content": "[29Oct2024 12:58:04.926] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/entity\/animal\/horse\/SkeletonTrapGoal"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:04.945] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 184,
+                    "content": "[29Oct2024 12:58:04.945] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/entity\/monster\/Strider"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:05.023] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 185,
+                    "content": "[29Oct2024 12:58:05.023] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/entity\/npc\/Villager"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:05.905] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 186,
+                    "content": "[29Oct2024 12:58:05.905] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/level\/levelgen\/structure\/structures\/OceanRuinPieces$OceanRuinPiece"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:05.926] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 187,
+                    "content": "[29Oct2024 12:58:05.926] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/level\/levelgen\/structure\/structures\/SwampHutPiece"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:05.948] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 188,
+                    "content": "[29Oct2024 12:58:05.948] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/level\/levelgen\/structure\/structures\/OceanMonumentPieces$OceanMonumentPiece"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:05.980] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]:",
+            "lines": [
+                {
+                    "number": 189,
+                    "content": "[29Oct2024 12:58:05.980] [main\/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer\/COREMOD]: Transforming net\/minecraft\/world\/level\/levelgen\/structure\/structures\/WoodlandMansionPieces$WoodlandMansionPiece"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.464] [main\/DEBUG] [net.minecraftforge.common.ForgeI18n\/CORE]:",
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "[29Oct2024 12:58:06.464] [main\/DEBUG] [net.minecraftforge.common.ForgeI18n\/CORE]: Loading I18N data entries: 7094"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.465] [main\/DEBUG] [net.minecraftforge.fml.ModWorkManager\/LOADING]:",
+            "lines": [
+                {
+                    "number": 191,
+                    "content": "[29Oct2024 12:58:06.465] [main\/DEBUG] [net.minecraftforge.fml.ModWorkManager\/LOADING]: Using 2 threads for parallel mod-loading"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.472] [main\/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider\/LOADING]:",
+            "lines": [
+                {
+                    "number": 192,
+                    "content": "[29Oct2024 12:58:06.472] [main\/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider\/LOADING]: Loading FMLModContainer from classloader TransformingClassLoader[TRANSFORMER]@1974379194 - got SecureModuleClassLoader[LAYER PLUGIN]@1503546689"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.475] [main\/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer\/LOADING]:",
+            "lines": [
+                {
+                    "number": 193,
+                    "content": "[29Oct2024 12:58:06.475] [main\/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer\/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.524] [modloading-worker-0\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]:",
+            "lines": [
+                {
+                    "number": 194,
+                    "content": "[29Oct2024 12:58:06.524] [modloading-worker-0\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 0.0 from TransformingClassLoader[TRANSFORMER]@1974379194"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.524] [modloading-worker-0\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]:",
+            "lines": [
+                {
+                    "number": 195,
+                    "content": "[29Oct2024 12:58:06.524] [modloading-worker-0\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]: Found Forge version 52.0.24"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.525] [modloading-worker-0\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]:",
+            "lines": [
+                {
+                    "number": 196,
+                    "content": "[29Oct2024 12:58:06.525] [modloading-worker-0\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]: Found Forge spec 0.0"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.525] [modloading-worker-0\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]:",
+            "lines": [
+                {
+                    "number": 197,
+                    "content": "[29Oct2024 12:58:06.525] [modloading-worker-0\/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion\/CORE]: Found Forge group net.minecraftforge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.525] [modloading-worker-0\/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion\/CORE]:",
+            "lines": [
+                {
+                    "number": 198,
+                    "content": "[29Oct2024 12:58:06.525] [modloading-worker-0\/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion\/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.21.1 from TransformingClassLoader[TRANSFORMER]@1974379194"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.525] [modloading-worker-0\/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion\/CORE]:",
+            "lines": [
+                {
+                    "number": 199,
+                    "content": "[29Oct2024 12:58:06.525] [modloading-worker-0\/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion\/CORE]: Found MC version information 1.21.1"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.525] [modloading-worker-0\/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion\/CORE]:",
+            "lines": [
+                {
+                    "number": 200,
+                    "content": "[29Oct2024 12:58:06.525] [modloading-worker-0\/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion\/CORE]: Found MCP version information 20240808.132146"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.525] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]:",
+            "lines": [
+                {
+                    "number": 201,
+                    "content": "[29Oct2024 12:58:06.525] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]: Forge mod loading, version 52.0.24, for MC 1.21.1 with MCP 20240808.132146"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.525] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
+            "lines": [
+                {
+                    "number": 202,
+                    "content": "[29Oct2024 12:58:06.525] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]: MinecraftForge v52.0.24 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.539] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]:",
+            "lines": [
+                {
+                    "number": 203,
+                    "content": "[29Oct2024 12:58:06.539] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]: Opening jdk.naming.dns\/com.sun.jndi.dns to java.naming"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.551] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]:",
+            "lines": [
+                {
+                    "number": 204,
+                    "content": "[29Oct2024 12:58:06.551] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]: -Dio.netty.noUnsafe: false"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.551] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]:",
+            "lines": [
+                {
+                    "number": 205,
+                    "content": "[29Oct2024 12:58:06.551] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]: Java version: 21"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.552] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]:",
+            "lines": [
+                {
+                    "number": 206,
+                    "content": "[29Oct2024 12:58:06.552] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]: sun.misc.Unsafe.theUnsafe: available"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.552] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]:",
+            "lines": [
+                {
+                    "number": 207,
+                    "content": "[29Oct2024 12:58:06.552] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]: sun.misc.Unsafe.copyMemory: available"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.552] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]:",
+            "lines": [
+                {
+                    "number": 208,
+                    "content": "[29Oct2024 12:58:06.552] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]: sun.misc.Unsafe.storeFence: available"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.552] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]:",
+            "lines": [
+                {
+                    "number": 209,
+                    "content": "[29Oct2024 12:58:06.552] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]: java.nio.Buffer.address: available"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.553] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]:",
+            "lines": [
+                {
+                    "number": 210,
+                    "content": "[29Oct2024 12:58:06.553] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]: direct buffer constructor: unavailable"
+                },
+                {
+                    "number": 211,
+                    "content": "java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled"
+                },
+                {
+                    "number": 212,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 213,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:289) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 214,
+                    "content": "\tat java.base\/java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]"
+                },
+                {
+                    "number": 215,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 216,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 217,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 218,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 219,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 220,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 221,
+                    "content": "\tat TRANSFORMER\/forge@52.0.24\/net.minecraftforge.network.NetworkInitialization.<clinit>(NetworkInitialization.java:27) ~[forge-1.21.1-52.0.24-universal.jar:?]"
+                },
+                {
+                    "number": 222,
+                    "content": "\tat TRANSFORMER\/forge@52.0.24\/net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:381) ~[forge-1.21.1-52.0.24-universal.jar:?]"
+                },
+                {
+                    "number": 223,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]"
+                },
+                {
+                    "number": 224,
+                    "content": "\tat java.base\/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]"
+                },
+                {
+                    "number": 225,
+                    "content": "\tat java.base\/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]"
+                },
+                {
+                    "number": 226,
+                    "content": "\tat LAYER PLUGIN\/net.minecraftforge.javafmlmod@1.21.1-52.0.24\/net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:71) ~[javafmllanguage-1.21.1-52.0.24.jar!\/:52.0.24]"
+                },
+                {
+                    "number": 227,
+                    "content": "\tat LAYER PLUGIN\/net.minecraftforge.fmlcore@1.21.1-52.0.24\/net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:125) ~[fmlcore-1.21.1-52.0.24.jar!\/:1.0]"
+                },
+                {
+                    "number": 228,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]"
+                },
+                {
+                    "number": 229,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]"
+                },
+                {
+                    "number": 230,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]"
+                },
+                {
+                    "number": 231,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]"
+                },
+                {
+                    "number": 232,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]"
+                },
+                {
+                    "number": 233,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]"
+                },
+                {
+                    "number": 234,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.557] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]:",
+            "lines": [
+                {
+                    "number": 235,
+                    "content": "[29Oct2024 12:58:06.557] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]: java.nio.Bits.unaligned: available, true"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.558] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]:",
+            "lines": [
+                {
+                    "number": 236,
+                    "content": "[29Oct2024 12:58:06.558] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable"
+                },
+                {
+                    "number": 237,
+                    "content": "java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common"
+                },
+                {
+                    "number": 238,
+                    "content": "\tat java.base\/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:394) ~[?:?]"
+                },
+                {
+                    "number": 239,
+                    "content": "\tat java.base\/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:714) ~[?:?]"
+                },
+                {
+                    "number": 240,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:571) ~[?:?]"
+                },
+                {
+                    "number": 241,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:411) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 242,
+                    "content": "\tat java.base\/java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]"
+                },
+                {
+                    "number": 243,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:402) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 244,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 245,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 246,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 247,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 248,
+                    "content": "\tat SECURE-BOOTSTRAP\/io.netty.common@4.1.97.Final\/io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]"
+                },
+                {
+                    "number": 249,
+                    "content": "\tat TRANSFORMER\/forge@52.0.24\/net.minecraftforge.network.NetworkInitialization.<clinit>(NetworkInitialization.java:27) ~[forge-1.21.1-52.0.24-universal.jar:?]"
+                },
+                {
+                    "number": 250,
+                    "content": "\tat TRANSFORMER\/forge@52.0.24\/net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:381) ~[forge-1.21.1-52.0.24-universal.jar:?]"
+                },
+                {
+                    "number": 251,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]"
+                },
+                {
+                    "number": 252,
+                    "content": "\tat java.base\/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]"
+                },
+                {
+                    "number": 253,
+                    "content": "\tat java.base\/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]"
+                },
+                {
+                    "number": 254,
+                    "content": "\tat LAYER PLUGIN\/net.minecraftforge.javafmlmod@1.21.1-52.0.24\/net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:71) ~[javafmllanguage-1.21.1-52.0.24.jar!\/:52.0.24]"
+                },
+                {
+                    "number": 255,
+                    "content": "\tat LAYER PLUGIN\/net.minecraftforge.fmlcore@1.21.1-52.0.24\/net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:125) ~[fmlcore-1.21.1-52.0.24.jar!\/:1.0]"
+                },
+                {
+                    "number": 256,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]"
+                },
+                {
+                    "number": 257,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]"
+                },
+                {
+                    "number": 258,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]"
+                },
+                {
+                    "number": 259,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]"
+                },
+                {
+                    "number": 260,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]"
+                },
+                {
+                    "number": 261,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]"
+                },
+                {
+                    "number": 262,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.559] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]:",
+            "lines": [
+                {
+                    "number": 263,
+                    "content": "[29Oct2024 12:58:06.559] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent0\/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.559] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent\/]:",
+            "lines": [
+                {
+                    "number": 264,
+                    "content": "[29Oct2024 12:58:06.559] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent\/]: sun.misc.Unsafe: available"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.559] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent\/]:",
+            "lines": [
+                {
+                    "number": 265,
+                    "content": "[29Oct2024 12:58:06.559] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent\/]: maxDirectMemory: 2411724800 bytes (maybe)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.560] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent\/]:",
+            "lines": [
+                {
+                    "number": 266,
+                    "content": "[29Oct2024 12:58:06.560] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent\/]: -Dio.netty.tmpdir: \/tmp (java.io.tmpdir)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.560] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent\/]:",
+            "lines": [
+                {
+                    "number": 267,
+                    "content": "[29Oct2024 12:58:06.560] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent\/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.560] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent\/]:",
+            "lines": [
+                {
+                    "number": 268,
+                    "content": "[29Oct2024 12:58:06.560] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent\/]: -Dio.netty.maxDirectMemory: -1 bytes"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.560] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent\/]:",
+            "lines": [
+                {
+                    "number": 269,
+                    "content": "[29Oct2024 12:58:06.560] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent\/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.561] [modloading-worker-0\/DEBUG] [io.netty.util.internal.CleanerJava9\/]:",
+            "lines": [
+                {
+                    "number": 270,
+                    "content": "[29Oct2024 12:58:06.561] [modloading-worker-0\/DEBUG] [io.netty.util.internal.CleanerJava9\/]: java.nio.ByteBuffer.cleaner(): available"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.561] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent\/]:",
+            "lines": [
+                {
+                    "number": 271,
+                    "content": "[29Oct2024 12:58:06.561] [modloading-worker-0\/DEBUG] [io.netty.util.internal.PlatformDependent\/]: -Dio.netty.noPreferDirect: false"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.639] [modloading-worker-0\/DEBUG] [net.minecraftforge.network.NetworkInitialization\/FORGE_NETWORK]:",
+            "lines": [
+                {
+                    "number": 272,
+                    "content": "[29Oct2024 12:58:06.639] [modloading-worker-0\/DEBUG] [net.minecraftforge.network.NetworkInitialization\/FORGE_NETWORK]: Registering Network forge:login v0"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.639] [modloading-worker-0\/DEBUG] [net.minecraftforge.network.NetworkInitialization\/FORGE_NETWORK]:",
+            "lines": [
+                {
+                    "number": 273,
+                    "content": "[29Oct2024 12:58:06.639] [modloading-worker-0\/DEBUG] [net.minecraftforge.network.NetworkInitialization\/FORGE_NETWORK]: Registering Network forge:handshake v0"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.640] [modloading-worker-0\/DEBUG] [net.minecraftforge.network.NetworkInitialization\/FORGE_NETWORK]:",
+            "lines": [
+                {
+                    "number": 274,
+                    "content": "[29Oct2024 12:58:06.640] [modloading-worker-0\/DEBUG] [net.minecraftforge.network.NetworkInitialization\/FORGE_NETWORK]: Registering Network forge:handshake v0"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.640] [modloading-worker-0\/DEBUG] [net.minecraftforge.network.NetworkInitialization\/FORGE_NETWORK]:",
+            "lines": [
+                {
+                    "number": 275,
+                    "content": "[29Oct2024 12:58:06.640] [modloading-worker-0\/DEBUG] [net.minecraftforge.network.NetworkInitialization\/FORGE_NETWORK]: Registering Network forge:channel_registration v0"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.670] [modloading-worker-0\/DEBUG] [net.minecraftforge.fml.config.ConfigTracker\/CONFIG]:",
+            "lines": [
+                {
+                    "number": 276,
+                    "content": "[29Oct2024 12:58:06.670] [modloading-worker-0\/DEBUG] [net.minecraftforge.fml.config.ConfigTracker\/CONFIG]: Config file forge-client.toml for forge tracking"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.670] [modloading-worker-0\/DEBUG] [net.minecraftforge.fml.config.ConfigTracker\/CONFIG]:",
+            "lines": [
+                {
+                    "number": 277,
+                    "content": "[29Oct2024 12:58:06.670] [modloading-worker-0\/DEBUG] [net.minecraftforge.fml.config.ConfigTracker\/CONFIG]: Config file forge-server.toml for forge tracking"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.670] [modloading-worker-0\/DEBUG] [net.minecraftforge.fml.config.ConfigTracker\/CONFIG]:",
+            "lines": [
+                {
+                    "number": 278,
+                    "content": "[29Oct2024 12:58:06.670] [modloading-worker-0\/DEBUG] [net.minecraftforge.fml.config.ConfigTracker\/CONFIG]: Config file forge-common.toml for forge tracking"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.730] [modloading-worker-0\/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber\/LOADING]:",
+            "lines": [
+                {
+                    "number": 279,
+                    "content": "[29Oct2024 12:58:06.730] [modloading-worker-0\/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber\/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.732] [modloading-worker-0\/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber\/LOADING]:",
+            "lines": [
+                {
+                    "number": 280,
+                    "content": "[29Oct2024 12:58:06.732] [modloading-worker-0\/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber\/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.908] [main\/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager\/CAPABILITIES]:",
+            "lines": [
+                {
+                    "number": 281,
+                    "content": "[29Oct2024 12:58:06.908] [main\/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager\/CAPABILITIES]: Attempting to automatically register: Lnet\/minecraftforge\/energy\/IEnergyStorage;"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.909] [main\/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager\/CAPABILITIES]:",
+            "lines": [
+                {
+                    "number": 282,
+                    "content": "[29Oct2024 12:58:06.909] [main\/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager\/CAPABILITIES]: Attempting to automatically register: Lnet\/minecraftforge\/fluids\/capability\/IFluidHandler;"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.910] [main\/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager\/CAPABILITIES]:",
+            "lines": [
+                {
+                    "number": 283,
+                    "content": "[29Oct2024 12:58:06.910] [main\/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager\/CAPABILITIES]: Attempting to automatically register: Lnet\/minecraftforge\/fluids\/capability\/IFluidHandlerItem;"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:06.910] [main\/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager\/CAPABILITIES]:",
+            "lines": [
+                {
+                    "number": 284,
+                    "content": "[29Oct2024 12:58:06.910] [main\/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager\/CAPABILITIES]: Attempting to automatically register: Lnet\/minecraftforge\/items\/IItemHandler;"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:07.125] [main\/DEBUG] [net.minecraftforge.fml.config.ConfigTracker\/CONFIG]:",
+            "lines": [
+                {
+                    "number": 285,
+                    "content": "[29Oct2024 12:58:07.125] [main\/DEBUG] [net.minecraftforge.fml.config.ConfigTracker\/CONFIG]: Loading configs type COMMON"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:07.126] [main\/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler\/CONFIG]:",
+            "lines": [
+                {
+                    "number": 286,
+                    "content": "[29Oct2024 12:58:07.126] [main\/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler\/CONFIG]: Built TOML config for \/server\/config\/forge-common.toml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:07.127] [main\/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler\/CONFIG]:",
+            "lines": [
+                {
+                    "number": 287,
+                    "content": "[29Oct2024 12:58:07.127] [main\/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler\/CONFIG]: Loaded TOML config file \/server\/config\/forge-common.toml"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:07.130] [main\/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler\/CONFIG]:",
+            "lines": [
+                {
+                    "number": 288,
+                    "content": "[29Oct2024 12:58:07.130] [main\/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler\/CONFIG]: Watching TOML config file \/server\/config\/forge-common.toml for changes"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:07.132] [main\/DEBUG] [net.minecraftforge.common.ForgeConfig\/FORGEMOD]:",
+            "lines": [
+                {
+                    "number": 289,
+                    "content": "[29Oct2024 12:58:07.132] [main\/DEBUG] [net.minecraftforge.common.ForgeConfig\/FORGEMOD]: Loaded forge config file forge-common.toml"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:07.153] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 290,
+                    "content": "[29Oct2024 12:58:07.153] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [forge] Starting version check at https:\/\/files.minecraftforge.net\/net\/minecraftforge\/forge\/promotions_slim.json"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "time": null,
+            "prefix": "[29Oct2024 12:58:07.577] [Forge Version Check\/DEBUG] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 291,
+                    "content": "[29Oct2024 12:58:07.577] [Forge Version Check\/DEBUG] [net.minecraftforge.fml.VersionChecker\/]: [forge] Received version check data:"
+                }
+            ]
+        },
         {
             "level": 6,
             "time": null,
             "prefix": "[29Oct2024 12:58:07.579] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
             "lines": [
                 {
-                    "number": 1,
+                    "number": 292,
                     "content": "[29Oct2024 12:58:07.579] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [forge] Found status: BETA Current: 52.0.24 Target: 52.0.24"
                 }
             ]
@@ -22,7 +2873,7 @@
             "prefix": "[29Oct2024 12:58:08.768] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]:",
             "lines": [
                 {
-                    "number": 2,
+                    "number": 293,
                     "content": "[29Oct2024 12:58:08.768] [main\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]: Environment: Environment[sessionHost=https:\/\/sessionserver.mojang.com, servicesHost=https:\/\/api.minecraftservices.com, name=PROD]"
                 }
             ]
@@ -33,27 +2884,27 @@
             "prefix": "[29Oct2024 12:58:08.897] [main\/WARN] [net.minecraftforge.common.ForgeHooks\/WP]:",
             "lines": [
                 {
-                    "number": 3,
+                    "number": 294,
                     "content": "[29Oct2024 12:58:08.897] [main\/WARN] [net.minecraftforge.common.ForgeHooks\/WP]: The following mods have version differences that were not resolved:"
                 },
                 {
-                    "number": 4,
+                    "number": 295,
                     "content": "commonnetworking (version 1.0.16-1.21.1 -> MISSING)"
                 },
                 {
-                    "number": 5,
+                    "number": 296,
                     "content": "journeymap (version 1.21.1-6.0.0-beta.28 -> MISSING)"
                 },
                 {
-                    "number": 6,
+                    "number": 297,
                     "content": "journeymap_api (version 2.0.0 -> MISSING)"
                 },
                 {
-                    "number": 7,
+                    "number": 298,
                     "content": "terralith (version 2.5.5 -> MISSING)"
                 },
                 {
-                    "number": 8,
+                    "number": 299,
                     "content": "Things may not work well."
                 }
             ]
@@ -64,7 +2915,7 @@
             "prefix": "[29Oct2024 12:58:09.638] [main\/DEBUG] [net.minecraftforge.resource.ResourcePackLoader\/CORE]:",
             "lines": [
                 {
-                    "number": 9,
+                    "number": 300,
                     "content": "[29Oct2024 12:58:09.638] [main\/DEBUG] [net.minecraftforge.resource.ResourcePackLoader\/CORE]: Generating PackInfo named mod:forge for mod file \/server\/libraries\/net\/minecraftforge\/forge\/1.21.1-52.0.24\/forge-1.21.1-52.0.24-universal.jar"
                 }
             ]
@@ -75,7 +2926,7 @@
             "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
-                    "number": 10,
+                    "number": 301,
                     "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:terralith"
                 }
             ]
@@ -86,7 +2937,7 @@
             "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
-                    "number": 11,
+                    "number": 302,
                     "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:commonnetworking"
                 }
             ]
@@ -97,7 +2948,7 @@
             "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
-                    "number": 12,
+                    "number": 303,
                     "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:journeymap_api"
                 }
             ]
@@ -108,7 +2959,7 @@
             "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
             "lines": [
                 {
-                    "number": 13,
+                    "number": 304,
                     "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:journeymap"
                 }
             ]
@@ -119,8 +2970,196 @@
             "prefix": "[29Oct2024 12:58:10.546] [main\/WARN] [net.minecraft.server.Main\/]:",
             "lines": [
                 {
-                    "number": 14,
+                    "number": 305,
                     "content": "[29Oct2024 12:58:10.546] [main\/WARN] [net.minecraft.server.Main\/]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode"
+                },
+                {
+                    "number": 306,
+                    "content": "java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Overworld settings missing"
+                },
+                {
+                    "number": 307,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]"
+                },
+                {
+                    "number": 308,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]"
+                },
+                {
+                    "number": 309,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.server.Main.main(Main.java:268) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                },
+                {
+                    "number": 310,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]"
+                },
+                {
+                    "number": 311,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]"
+                },
+                {
+                    "number": 312,
+                    "content": "\tat SECURE-BOOTSTRAP\/net.minecraftforge.fmlloader@1.21.1-52.0.24\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:85) ~[fmlloader-1.21.1-52.0.24.jar!\/:?]"
+                },
+                {
+                    "number": 313,
+                    "content": "\tat SECURE-BOOTSTRAP\/net.minecraftforge.fmlloader@1.21.1-52.0.24\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:69) ~[fmlloader-1.21.1-52.0.24.jar!\/:?]"
+                },
+                {
+                    "number": 314,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.2\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.2.jar!\/:?]"
+                },
+                {
+                    "number": 315,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.2\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.2.jar!\/:?]"
+                },
+                {
+                    "number": 316,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.2\/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.2.jar!\/:?]"
+                },
+                {
+                    "number": 317,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.2\/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.2.jar!\/:?]"
+                },
+                {
+                    "number": 318,
+                    "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.2\/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.2.jar!\/:?]"
+                },
+                {
+                    "number": 319,
+                    "content": "\tat net.minecraftforge.bootstrap@2.1.3\/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.3.jar!\/:?]"
+                },
+                {
+                    "number": 320,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]"
+                },
+                {
+                    "number": 321,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]"
+                },
+                {
+                    "number": 322,
+                    "content": "\tat net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.3.jar:2.1.3]"
+                },
+                {
+                    "number": 323,
+                    "content": "\tat net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.3.jar:2.1.3]"
+                },
+                {
+                    "number": 324,
+                    "content": "\tat net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.3.jar:2.1.3]"
+                },
+                {
+                    "number": 325,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]"
+                },
+                {
+                    "number": 326,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]"
+                },
+                {
+                    "number": 327,
+                    "content": "\tat net.minecraftforge.bootstrap.shim.Main.main(Main.java:97) [forge-1.21.1-52.0.24-shim.jar:2.1.3]"
+                },
+                {
+                    "number": 328,
+                    "content": "Caused by: java.lang.IllegalStateException: Overworld settings missing"
+                },
+                {
+                    "number": 329,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.world.level.levelgen.WorldDimensions.<init>(WorldDimensions.java:52) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                },
+                {
+                    "number": 330,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.codecs.RecordCodecBuilder$Instance$1.lambda$decode$0(RecordCodecBuilder.java:185) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 331,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.DataResult$Success.map(DataResult.java:175) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 332,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.codecs.RecordCodecBuilder$Instance$1.lambda$decode$1(RecordCodecBuilder.java:184) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 333,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.DataResult$Error.flatMap(DataResult.java:335) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 334,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.DataResult$Error.flatMap(DataResult.java:250) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 335,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.codecs.RecordCodecBuilder$Instance$1.decode(RecordCodecBuilder.java:183) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 336,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 337,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.codecs.RecordCodecBuilder$Instance$3.decode(RecordCodecBuilder.java:249) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 338,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 339,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 340,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.DataResult$Success.flatMap(DataResult.java:201) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 341,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 342,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:158) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 343,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.Decoder.decode(Decoder.java:22) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 344,
+                    "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.Decoder.parse(Decoder.java:26) ~[datafixerupper-8.0.16.jar:?]"
+                },
+                {
+                    "number": 345,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.world.level.storage.LevelStorageSource.getLevelDataAndDimensions(LevelStorageSource.java:140) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                },
+                {
+                    "number": 346,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.server.Main.lambda$main$1(Main.java:213) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                },
+                {
+                    "number": 347,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.server.WorldLoader.load(WorldLoader.java:40) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                },
+                {
+                    "number": 348,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.server.Main.lambda$main$2(Main.java:208) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                },
+                {
+                    "number": 349,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.Util.blockUntilDone(Util.java:863) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                },
+                {
+                    "number": 350,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.Util.blockUntilDone(Util.java:858) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                },
+                {
+                    "number": 351,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.server.Main.main(Main.java:207) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                },
+                {
+                    "number": 352,
+                    "content": "\t... 18 more"
                 }
             ]
         }
@@ -128,7 +3167,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The mod '{{mod-name}}' is missing it's datapack.",
+                "message": "Datapack is missing, because the mod '{{mod-name}}' may not be installed.",
                 "counter": 1,
                 "entry": {
                     "level": 4,
@@ -136,7 +3175,7 @@
                     "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
                     "lines": [
                         {
-                            "number": 10,
+                            "number": 301,
                             "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:terralith"
                         }
                     ]
@@ -151,7 +3190,7 @@
                 ]
             },
             {
-                "message": "The mod '{{mod-name}}' is missing it's datapack.",
+                "message": "Datapack is missing, because the mod '{{mod-name}}' may not be installed.",
                 "counter": 1,
                 "entry": {
                     "level": 4,
@@ -159,7 +3198,7 @@
                     "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
                     "lines": [
                         {
-                            "number": 11,
+                            "number": 302,
                             "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:commonnetworking"
                         }
                     ]
@@ -174,7 +3213,7 @@
                 ]
             },
             {
-                "message": "The mod '{{mod-name}}' is missing it's datapack.",
+                "message": "Datapack is missing, because the mod '{{mod-name}}' may not be installed.",
                 "counter": 1,
                 "entry": {
                     "level": 4,
@@ -182,7 +3221,7 @@
                     "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
                     "lines": [
                         {
-                            "number": 12,
+                            "number": 303,
                             "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:journeymap_api"
                         }
                     ]
@@ -197,7 +3236,7 @@
                 ]
             },
             {
-                "message": "The mod '{{mod-name}}' is missing it's datapack.",
+                "message": "Datapack is missing, because the mod '{{mod-name}}' may not be installed.",
                 "counter": 1,
                 "entry": {
                     "level": 4,
@@ -205,7 +3244,7 @@
                     "prefix": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]:",
                     "lines": [
                         {
-                            "number": 13,
+                            "number": 304,
                             "content": "[29Oct2024 12:58:09.639] [main\/WARN] [net.minecraft.server.MinecraftServer\/]: Missing data pack mod:journeymap"
                         }
                     ]
@@ -218,8 +3257,268 @@
                         "message": "Do nothing. This problem might fix itself."
                     }
                 ]
+            },
+            {
+                "message": "Overworld settings missing",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[29Oct2024 12:58:10.546] [main\/WARN] [net.minecraft.server.Main\/]:",
+                    "lines": [
+                        {
+                            "number": 305,
+                            "content": "[29Oct2024 12:58:10.546] [main\/WARN] [net.minecraft.server.Main\/]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode"
+                        },
+                        {
+                            "number": 306,
+                            "content": "java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Overworld settings missing"
+                        },
+                        {
+                            "number": 307,
+                            "content": "\tat java.base\/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]"
+                        },
+                        {
+                            "number": 308,
+                            "content": "\tat java.base\/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]"
+                        },
+                        {
+                            "number": 309,
+                            "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.server.Main.main(Main.java:268) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                        },
+                        {
+                            "number": 310,
+                            "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]"
+                        },
+                        {
+                            "number": 311,
+                            "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]"
+                        },
+                        {
+                            "number": 312,
+                            "content": "\tat SECURE-BOOTSTRAP\/net.minecraftforge.fmlloader@1.21.1-52.0.24\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:85) ~[fmlloader-1.21.1-52.0.24.jar!\/:?]"
+                        },
+                        {
+                            "number": 313,
+                            "content": "\tat SECURE-BOOTSTRAP\/net.minecraftforge.fmlloader@1.21.1-52.0.24\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:69) ~[fmlloader-1.21.1-52.0.24.jar!\/:?]"
+                        },
+                        {
+                            "number": 314,
+                            "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.2\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.2.jar!\/:?]"
+                        },
+                        {
+                            "number": 315,
+                            "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.2\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.2.jar!\/:?]"
+                        },
+                        {
+                            "number": 316,
+                            "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.2\/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.2.jar!\/:?]"
+                        },
+                        {
+                            "number": 317,
+                            "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.2\/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.2.jar!\/:?]"
+                        },
+                        {
+                            "number": 318,
+                            "content": "\tat SECURE-BOOTSTRAP\/cpw.mods.modlauncher@10.2.2\/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.2.jar!\/:?]"
+                        },
+                        {
+                            "number": 319,
+                            "content": "\tat net.minecraftforge.bootstrap@2.1.3\/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.3.jar!\/:?]"
+                        },
+                        {
+                            "number": 320,
+                            "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]"
+                        },
+                        {
+                            "number": 321,
+                            "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]"
+                        },
+                        {
+                            "number": 322,
+                            "content": "\tat net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.3.jar:2.1.3]"
+                        },
+                        {
+                            "number": 323,
+                            "content": "\tat net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.3.jar:2.1.3]"
+                        },
+                        {
+                            "number": 324,
+                            "content": "\tat net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.3.jar:2.1.3]"
+                        },
+                        {
+                            "number": 325,
+                            "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]"
+                        },
+                        {
+                            "number": 326,
+                            "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]"
+                        },
+                        {
+                            "number": 327,
+                            "content": "\tat net.minecraftforge.bootstrap.shim.Main.main(Main.java:97) [forge-1.21.1-52.0.24-shim.jar:2.1.3]"
+                        },
+                        {
+                            "number": 328,
+                            "content": "Caused by: java.lang.IllegalStateException: Overworld settings missing"
+                        },
+                        {
+                            "number": 329,
+                            "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.world.level.levelgen.WorldDimensions.<init>(WorldDimensions.java:52) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                        },
+                        {
+                            "number": 330,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.codecs.RecordCodecBuilder$Instance$1.lambda$decode$0(RecordCodecBuilder.java:185) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 331,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.DataResult$Success.map(DataResult.java:175) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 332,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.codecs.RecordCodecBuilder$Instance$1.lambda$decode$1(RecordCodecBuilder.java:184) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 333,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.DataResult$Error.flatMap(DataResult.java:335) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 334,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.DataResult$Error.flatMap(DataResult.java:250) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 335,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.codecs.RecordCodecBuilder$Instance$1.decode(RecordCodecBuilder.java:183) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 336,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 337,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.codecs.RecordCodecBuilder$Instance$3.decode(RecordCodecBuilder.java:249) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 338,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 339,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 340,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.DataResult$Success.flatMap(DataResult.java:201) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 341,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 342,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:158) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 343,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.Decoder.decode(Decoder.java:22) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 344,
+                            "content": "\tat SECURE-BOOTSTRAP\/datafixerupper@8.0.16\/com.mojang.serialization.Decoder.parse(Decoder.java:26) ~[datafixerupper-8.0.16.jar:?]"
+                        },
+                        {
+                            "number": 345,
+                            "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.world.level.storage.LevelStorageSource.getLevelDataAndDimensions(LevelStorageSource.java:140) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                        },
+                        {
+                            "number": 346,
+                            "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.server.Main.lambda$main$1(Main.java:213) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                        },
+                        {
+                            "number": 347,
+                            "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.server.WorldLoader.load(WorldLoader.java:40) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                        },
+                        {
+                            "number": 348,
+                            "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.server.Main.lambda$main$2(Main.java:208) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                        },
+                        {
+                            "number": 349,
+                            "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.Util.blockUntilDone(Util.java:863) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                        },
+                        {
+                            "number": 350,
+                            "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.Util.blockUntilDone(Util.java:858) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                        },
+                        {
+                            "number": 351,
+                            "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.server.Main.main(Main.java:207) ~[forge-1.21.1-52.0.24-server.jar:?]"
+                        },
+                        {
+                            "number": 352,
+                            "content": "\t... 18 more"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Generate a new world."
+                    }
+                ]
             }
         ],
-        "information": []
+        "information": [
+            {
+                "message": "Java version: 21.0.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[29Oct2024 12:57:58.249] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 3,
+                            "content": "[29Oct2024 12:57:58.249] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 10.2.2 starting: java version 21.0.3 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.0-117-generic"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "21.0.3"
+            },
+            {
+                "message": "Minecraft version: 1.21.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[29Oct2024 12:58:06.525] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]:",
+                    "lines": [
+                        {
+                            "number": 201,
+                            "content": "[29Oct2024 12:58:06.525] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]: Forge mod loading, version 52.0.24, for MC 1.21.1 with MCP 20240808.132146"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.1"
+            },
+            {
+                "message": "Forge version: 52.0.24",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[29Oct2024 12:58:06.525] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
+                    "lines": [
+                        {
+                            "number": 202,
+                            "content": "[29Oct2024 12:58:06.525] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]: MinecraftForge v52.0.24 Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "52.0.24"
+            }
+        ]
     }
 }
