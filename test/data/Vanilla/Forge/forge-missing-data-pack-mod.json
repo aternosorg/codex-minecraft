@@ -3167,7 +3167,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "Datapack is missing, because the mod '{{mod-name}}' may not be installed.",
+                "message": "Datapack is missing, because the mod 'terralith' may not be installed.",
                 "counter": 1,
                 "entry": {
                     "level": 4,
@@ -3190,7 +3190,7 @@
                 ]
             },
             {
-                "message": "Datapack is missing, because the mod '{{mod-name}}' may not be installed.",
+                "message": "Datapack is missing, because the mod 'commonnetworking' may not be installed.",
                 "counter": 1,
                 "entry": {
                     "level": 4,
@@ -3213,7 +3213,7 @@
                 ]
             },
             {
-                "message": "Datapack is missing, because the mod '{{mod-name}}' may not be installed.",
+                "message": "Datapack is missing, because the mod 'journeymap_api' may not be installed.",
                 "counter": 1,
                 "entry": {
                     "level": 4,
@@ -3236,7 +3236,7 @@
                 ]
             },
             {
-                "message": "Datapack is missing, because the mod '{{mod-name}}' may not be installed.",
+                "message": "Datapack is missing, because the mod 'journeymap' may not be installed.",
                 "counter": 1,
                 "entry": {
                     "level": 4,

@@ -16,7 +16,7 @@ class MissingDatapackModProblem extends ModProblem
      */
     public function getMessage(): string
     {
-        return Translator::getInstance()->getTranslation("missing-datapack-mod-problem");
+        return Translator::getInstance()->getTranslation("missing-datapack-mod-problem", ["mod-name" => $this->getModName()]);
     }
 
     /**
