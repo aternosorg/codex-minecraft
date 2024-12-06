@@ -1258,6 +1258,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_forge_missing_datapack_mod(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-missing-datapack-mod.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_forge_missing_mods_exception_2(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-missing-mods-exception-2.log');
@@ -1711,6 +1721,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_vanilla_old_player_directory(): void
     {
         $log = new TestLog('Vanilla/vanilla-old-player-directory.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_vanilla_overworld_settings_missing(): void
+    {
+        $log = new TestLog('Vanilla/vanilla-overworld-settings-missing.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
