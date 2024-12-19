@@ -45,7 +45,10 @@ class ModWrongMinecraftVersionProblem extends ModProblem
      */
     public static function getPatterns(): array
     {
-        return ['/The mod (\S+) does not wish to run in Minecraft version Minecraft ([0-9\.]+)\. You will have to remove it to play\./'];
+        return [
+            '/The mod (\S+) does not wish to run in Minecraft version Minecraft ([0-9\.]+)\. You will have to remove it to play\./',
+            '/net\.minecraftforge\.fml\.ModLoadingException: Mod \§.([^\§]+)\§. requires \§.minecraft\§. \§.([^ \§]+)[^\§]*\§./',
+        ];
     }
 
     /**
