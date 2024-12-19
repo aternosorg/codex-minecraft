@@ -1348,6 +1348,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_forge_mod_missing_minecraft(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-mod-missing-minecraft.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_forge_mod_required(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-mod-required.log');

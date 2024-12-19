@@ -1,0 +1,474 @@
+{
+    "id": "forge\/server",
+    "name": "Forge",
+    "type": "Server Log",
+    "version": null,
+    "title": "Forge Server Log",
+    "entries": [
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[27Jan2022 14:45:30.276] [main\/ERROR] [net.minecraftforge.fml.loading.ModSorter\/LOADING]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[27Jan2022 14:45:30.276] [main\/ERROR] [net.minecraftforge.fml.loading.ModSorter\/LOADING]: Missing mandatory dependencies: minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2022 14:45:35.923] [main\/INFO] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[27Jan2022 14:45:35.923] [main\/INFO] [mixin\/]: Compatibility level set to JAVA_17"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2022 14:45:35.962] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[27Jan2022 14:45:35.962] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2022 14:45:36.068] [main\/INFO] [Sodium\/]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[27Jan2022 14:45:36.068] [main\/INFO] [Sodium\/]: Loaded configuration file for Sodium: 29 options available, 0 override(s) found"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[27Jan2022 14:45:49.558] [main\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[27Jan2022 14:45:49.558] [main\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]: Error during pre-loading phase"
+                },
+                {
+                    "number": 6,
+                    "content": "net.minecraftforge.fml.ModLoadingException: Mod \u00a7emagnesium\u00a7r requires \u00a76minecraft\u00a7r \u00a7o1.18\u00a7r"
+                },
+                {
+                    "number": 7,
+                    "content": "\u00a77Currently, \u00a76minecraft\u00a7r\u00a77 is \u00a7o1.18.1"
+                },
+                {
+                    "number": 8,
+                    "content": "\tat net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:64) ~[fmlcore-1.18.1-39.0.59.jar%2355!\/:?]"
+                },
+                {
+                    "number": 9,
+                    "content": "\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]"
+                },
+                {
+                    "number": 10,
+                    "content": "\tat java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720) ~[?:?]"
+                },
+                {
+                    "number": 11,
+                    "content": "\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]"
+                },
+                {
+                    "number": 12,
+                    "content": "\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]"
+                },
+                {
+                    "number": 13,
+                    "content": "\tat java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]"
+                },
+                {
+                    "number": 14,
+                    "content": "\tat java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:108) ~[fmlcore-1.18.1-39.0.59.jar%2355!\/:?]"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat net.minecraftforge.fml.ModLoader.get(ModLoader.java:140) ~[fmlcore-1.18.1-39.0.59.jar%2355!\/:?]"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:46) ~[forge-1.18.1-39.0.59-universal.jar%2358!\/:?]"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat net.minecraft.server.Main.main(Main.java:104) ~[server-1.18.1-20211210.034407-srg.jar%2354!\/:?]"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 29,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                },
+                {
+                    "number": 31,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:46) ~[fmlloader-1.18.1-39.0.59.jar%2323!\/:?]"
+                },
+                {
+                    "number": 33,
+                    "content": "\tat cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.0.jar%235!\/:?]"
+                },
+                {
+                    "number": 34,
+                    "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.0.jar%235!\/:?]"
+                },
+                {
+                    "number": 35,
+                    "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.0.jar%235!\/:?]"
+                },
+                {
+                    "number": 36,
+                    "content": "\tat cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.0.jar%235!\/:?]"
+                },
+                {
+                    "number": 37,
+                    "content": "\tat cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.0.jar%235!\/:?]"
+                },
+                {
+                    "number": 38,
+                    "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.0.jar%235!\/:?]"
+                },
+                {
+                    "number": 39,
+                    "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.0.jar%235!\/:?]"
+                },
+                {
+                    "number": 40,
+                    "content": "\tat cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[27Jan2022 14:45:49.843] [main\/FATAL] [net.minecraftforge.server.loading.ServerModLoader\/]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[27Jan2022 14:45:49.843] [main\/FATAL] [net.minecraftforge.server.loading.ServerModLoader\/]: Crash report saved to .\/crash-reports\/crash-2022-01-27_14.45.49-fml.txt"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[27Jan2022 14:45:49.851] [main\/FATAL] [net.minecraft.server.Main\/]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[27Jan2022 14:45:49.851] [main\/FATAL] [net.minecraft.server.Main\/]: Failed to start the minecraft server"
+                },
+                {
+                    "number": 43,
+                    "content": "net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: ["
+                },
+                {
+                    "number": 44,
+                    "content": "\tMod \u00a7emagnesium\u00a7r requires \u00a76minecraft\u00a7r \u00a7o1.18\u00a7r"
+                },
+                {
+                    "number": 45,
+                    "content": "\u00a77Currently, \u00a76minecraft\u00a7r\u00a77 is \u00a7o1.18.1"
+                },
+                {
+                    "number": 46,
+                    "content": "]"
+                },
+                {
+                    "number": 47,
+                    "content": "\tat net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:160) ~[fmlcore-1.18.1-39.0.59.jar%2355!\/:?]"
+                },
+                {
+                    "number": 48,
+                    "content": "\tat net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:46) ~[forge-1.18.1-39.0.59-universal.jar%2358!\/:?]"
+                },
+                {
+                    "number": 49,
+                    "content": "\tat net.minecraft.server.Main.main(Main.java:104) ~[server-1.18.1-20211210.034407-srg.jar%2354!\/:?]"
+                },
+                {
+                    "number": 50,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 51,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]"
+                },
+                {
+                    "number": 52,
+                    "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                },
+                {
+                    "number": 53,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]"
+                },
+                {
+                    "number": 54,
+                    "content": "\tat net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:46) ~[fmlloader-1.18.1-39.0.59.jar%2323!\/:?]"
+                },
+                {
+                    "number": 55,
+                    "content": "\tat cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.0.jar%235!\/:?]"
+                },
+                {
+                    "number": 56,
+                    "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.0.jar%235!\/:?]"
+                },
+                {
+                    "number": 57,
+                    "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.0.jar%235!\/:?]"
+                },
+                {
+                    "number": 58,
+                    "content": "\tat cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.0.jar%235!\/:?]"
+                },
+                {
+                    "number": 59,
+                    "content": "\tat cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.0.jar%235!\/:?]"
+                },
+                {
+                    "number": 60,
+                    "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.0.jar%235!\/:?]"
+                },
+                {
+                    "number": 61,
+                    "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.0.jar%235!\/:?]"
+                },
+                {
+                    "number": 62,
+                    "content": "\tat cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'magnesium' is not compatible with the Minecraft version 1.18.",
+                "counter": 1,
+                "entry": {
+                    "level": 2,
+                    "time": null,
+                    "prefix": "[27Jan2022 14:45:49.558] [main\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]:",
+                    "lines": [
+                        {
+                            "number": 5,
+                            "content": "[27Jan2022 14:45:49.558] [main\/FATAL] [net.minecraftforge.fml.ModLoader\/CORE]: Error during pre-loading phase"
+                        },
+                        {
+                            "number": 6,
+                            "content": "net.minecraftforge.fml.ModLoadingException: Mod \u00a7emagnesium\u00a7r requires \u00a76minecraft\u00a7r \u00a7o1.18\u00a7r"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\u00a77Currently, \u00a76minecraft\u00a7r\u00a77 is \u00a7o1.18.1"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\tat net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:64) ~[fmlcore-1.18.1-39.0.59.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\tat java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720) ~[?:?]"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:108) ~[fmlcore-1.18.1-39.0.59.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.get(ModLoader.java:140) ~[fmlcore-1.18.1-39.0.59.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:46) ~[forge-1.18.1-39.0.59-universal.jar%2358!\/:?]"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat net.minecraft.server.Main.main(Main.java:104) ~[server-1.18.1-20211210.034407-srg.jar%2354!\/:?]"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]"
+                        },
+                        {
+                            "number": 30,
+                            "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                        },
+                        {
+                            "number": 31,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:46) ~[fmlloader-1.18.1-39.0.59.jar%2323!\/:?]"
+                        },
+                        {
+                            "number": 33,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.0.jar%235!\/:?]"
+                        },
+                        {
+                            "number": 34,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.0.jar%235!\/:?]"
+                        },
+                        {
+                            "number": 35,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.0.jar%235!\/:?]"
+                        },
+                        {
+                            "number": 36,
+                            "content": "\tat cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.0.jar%235!\/:?]"
+                        },
+                        {
+                            "number": 37,
+                            "content": "\tat cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.0.jar%235!\/:?]"
+                        },
+                        {
+                            "number": 38,
+                            "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.0.jar%235!\/:?]"
+                        },
+                        {
+                            "number": 39,
+                            "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.0.jar%235!\/:?]"
+                        },
+                        {
+                            "number": 40,
+                            "content": "\tat cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'magnesium'."
+                    },
+                    {
+                        "message": "Install a different Forge version."
+                    }
+                ]
+            }
+        ],
+        "information": []
+    }
+}
