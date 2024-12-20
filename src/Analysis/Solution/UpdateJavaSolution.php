@@ -2,7 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Solution;
 
-use Aternos\Codex\Analysis\AutomatableSolutionInterface;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
