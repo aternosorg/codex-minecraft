@@ -27,7 +27,7 @@ abstract class CustomSkinLoaderLog extends MinecraftLog
         return (new Parser())
             ->setPattern(static::$pattern)
             ->setTimeFormat('Y-m-d H:i:s')
-            ->setMatches([Parser::PREFIX, Parser::TIME, Parser::LEVEL]);;
+            ->setMatches([Parser::PREFIX, Parser::TIME, Parser::LEVEL]);
     }
 
     public static function getDefaultAnalyser(): AnalyserInterface
