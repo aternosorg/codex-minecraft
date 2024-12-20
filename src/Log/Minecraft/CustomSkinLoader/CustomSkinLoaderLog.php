@@ -5,6 +5,7 @@ namespace Aternos\Codex\Minecraft\Log\Minecraft\CustomSkinLoader;
 use Aternos\Codex\Analyser\AnalyserInterface;
 use Aternos\Codex\Minecraft\Analyser\CustomSkinLoaderAnalyser;
 use Aternos\Codex\Minecraft\Analysis\Information\CustomSkinLoader\CustomSkinLoaderVersionInformation;
+use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 use Aternos\Codex\Minecraft\Parser\Parser;
 
 /**
@@ -12,7 +13,7 @@ use Aternos\Codex\Minecraft\Parser\Parser;
  *
  * @package Aternos\Codex\Minecraft\Log\Minecraft\CustomSkinLoader
  */
-abstract class CustomSkinLoaderLog extends \Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog
+abstract class CustomSkinLoaderLog extends MinecraftLog
 {
     protected static string $prefixPattern = '\[\d{4}(?:\-\d\d){2} (?:[0-9]{2}\:?){3}(?:\] \[)?[^\]]+[ \/][A-Z]+\](?: \[[^\]]+\]:)? ';
     protected static string $pattern = '/^(\[(\d{4}(?:\-\d\d){2} (?:[0-9]{2}\:?){3})(?:\] \[)?[^\]]+[ \/]([A-Z]+)\](?: \[[^\]]+\]:)?) .*$/';
