@@ -22,7 +22,7 @@ class ReportParser extends \Aternos\Codex\Parser\Parser
 
     const PATTERN = [
         self::LEVEL_WARNING => ["/\s*WARNING: .*$/"],
-        self::LEVEL_STACKTRACE => ["/^\s+at \S+\(.+\)$/", "/^(?:Caused by: )?[a-z]+\.(?:\w+\.?)+: .*$/", "/^\\tat [a-z]+\..*$/"],
+        self::LEVEL_STACKTRACE => ["/^\s+at (?:\w+\/+)?\S+\(.+\)$/", "/^(?:Caused by: )?[a-z]+\.(?:\w+\.?)+: .*$/", "/^\\tat [a-z]+\..*$/"],
         self::LEVEL_INFO => ["/^([^|:]+:) .+$/", "/^(\w+:)$/", "/^(\\t[^:.]+:)$/"],
         self::LEVEL_TITLE => ["/^-{2,4} .* -{2,4}$/"],
         self::LEVEL_COMMENT => ["/\/\/.*$/"],
