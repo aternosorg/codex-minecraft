@@ -1,0 +1,105 @@
+---- Minecraft Crash Report ----
+// One day I will be a real crash!
+
+Time: 2024-12-30 15:34:33
+Description: Level dump
+
+java.lang.Exception: dummy
+	at knot//net.minecraft.class_3218.method_21625(class_3218.java:1434)
+	at knot//net.minecraft.server.MinecraftServer.method_21613(MinecraftServer.java:1755)
+	at knot//net.minecraft.server.MinecraftServer.method_64262(MinecraftServer.java:1845)
+	at knot//net.minecraft.class_1255.method_5386(class_1255.java:70)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at knot//net.minecraft.class_3738.run(class_3738.java:18)
+	at knot//net.minecraft.class_1255.method_18859(class_1255.java:164)
+	at knot//net.minecraft.class_4093.method_18859(class_4093.java:23)
+	at knot//net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:889)
+	at knot//net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:180)
+	at knot//net.minecraft.class_1255.method_16075(class_1255.java:138)
+	at knot//net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:871)
+	at knot//net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865)
+	at knot//net.minecraft.class_1255.method_18857(class_1255.java:147)
+	at knot//net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829)
+	at knot//net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at knot//net.minecraft.class_3218.method_8538(class_3218.java:1744)
+
+-- Affected level --
+Details:
+	All players: 0 total; []
+	Chunk stats: 841
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-64,67,48), Section: (at 0,3,0 in -4,4,3; chunk contains blocks -64,-64,48 to -49,319,63), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Level time: 260 game time, 260 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Commands: false
+	Level weather: Rain time: 112084 (now: false), thunder time: 77340 (now: false)
+	Known server brands: fabric
+	Removed feature flags:
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Loaded entity count: 6
+Stacktrace:
+	at knot//net.minecraft.class_3218.method_8538(class_3218.java:1744)
+	at knot//net.minecraft.class_3218.method_21625(class_3218.java:1435)
+	at knot//net.minecraft.server.MinecraftServer.method_21613(MinecraftServer.java:1755)
+	at knot//net.minecraft.server.MinecraftServer.method_64262(MinecraftServer.java:1845)
+	at knot//net.minecraft.class_1255.method_5386(class_1255.java:70)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at knot//net.minecraft.class_3738.run(class_3738.java:18)
+	at knot//net.minecraft.class_1255.method_18859(class_1255.java:164)
+	at knot//net.minecraft.class_4093.method_18859(class_4093.java:23)
+	at knot//net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:889)
+	at knot//net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:180)
+	at knot//net.minecraft.class_1255.method_16075(class_1255.java:138)
+	at knot//net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:871)
+	at knot//net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865)
+	at knot//net.minecraft.class_1255.method_18857(class_1255.java:147)
+	at knot//net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829)
+	at knot//net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.4
+	Minecraft Version ID: 1.21.4
+	Operating System: Linux (amd64) version 5.15.0-117-generic
+	Java Version: 21.0.4, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 1127541728 bytes (1075 MiB) / 1610612736 bytes (1536 MiB) up to 3221225472 bytes (3072 MiB)
+	CPUs: 2
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7F72 24-Core Processor
+	Identifier: AuthenticAMD Family 23 Model 49 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 24
+	Number of logical CPUs: 48
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 129820.45
+	Virtual memory used (MiB): 96157.11
+	Swap memory total (MiB): 1024.00
+	Swap memory used (MiB): 13.15
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 128077.03, total: 223120.39
+	Space in storage for workdir (MiB): available: 128077.03, total: 223120.39
+	JVM Flags: 2 total; -Xmx3072M -Xms1536M
