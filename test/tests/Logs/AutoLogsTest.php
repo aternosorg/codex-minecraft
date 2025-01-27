@@ -1378,6 +1378,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_forge_multiple_fatal_problems(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-multiple-fatal-problems.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_forge_multiple_modules_export(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-multiple-modules-export.log');
