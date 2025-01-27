@@ -1,0 +1,1230 @@
+{
+    "id": "forge\/server",
+    "name": "Forge",
+    "type": "Server Log",
+    "version": "1.20.1",
+    "title": "Forge 1.20.1 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:41.324] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[27Jan2025 10:42:41.324] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.11, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:41.327] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[27Jan2025 10:42:41.327] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.0-124-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:42.374] [main\/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler\/]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[27Jan2025 10:42:42.374] [main\/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler\/]: ImmediateWindowProvider not loading because launch target is forgeserver"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:42.382] [main\/INFO] [mixin-transmog\/]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[27Jan2025 10:42:42.382] [main\/INFO] [mixin-transmog\/]: Mixin Transmogrifier is definitely up to no good..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:42.411] [main\/INFO] [mixin-transmog\/]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[27Jan2025 10:42:42.411] [main\/INFO] [mixin-transmog\/]: crimes against java were committed"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:42.428] [main\/INFO] [mixin-transmog\/]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[27Jan2025 10:42:42.428] [main\/INFO] [mixin-transmog\/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:42.477] [main\/INFO] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[27Jan2025 10:42:42.477] [main\/INFO] [mixin\/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:\/server\/mods\/Connector-1.0.0-beta.46+1.20.1.jar%23120%23123!\/ Service=ModLauncher Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:42.830] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[27Jan2025 10:42:42.830] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Mod file \/server\/libraries\/net\/minecraftforge\/fmlcore\/1.20.1-47.3.11\/fmlcore-1.20.1-47.3.11.jar is missing mods.toml file"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:42.832] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[27Jan2025 10:42:42.832] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Mod file \/server\/libraries\/net\/minecraftforge\/javafmllanguage\/1.20.1-47.3.11\/javafmllanguage-1.20.1-47.3.11.jar is missing mods.toml file"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:42.833] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[27Jan2025 10:42:42.833] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Mod file \/server\/libraries\/net\/minecraftforge\/lowcodelanguage\/1.20.1-47.3.11\/lowcodelanguage-1.20.1-47.3.11.jar is missing mods.toml file"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:42.834] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[27Jan2025 10:42:42.834] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Mod file \/server\/libraries\/net\/minecraftforge\/mclanguage\/1.20.1-47.3.11\/mclanguage-1.20.1-47.3.11.jar is missing mods.toml file"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:43.370] [main\/WARN] [net.minecraftforge.jarjar.selection.JarSelector\/]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[27Jan2025 10:42:43.370] [main\/WARN] [net.minecraftforge.jarjar.selection.JarSelector\/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_api. Using Mod File: \/server\/mods\/fabric-api-0.92.2+1.11.8+1.20.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:43.370] [main\/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[27Jan2025 10:42:43.370] [main\/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/]: Found 59 dependencies adding them to mods collection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:44.326] [main\/INFO] [org.sinytra.connector.locator.DependencyResolver\/]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[27Jan2025 10:42:44.326] [main\/INFO] [org.sinytra.connector.locator.DependencyResolver\/]: Dependency resolution found 1 candidates to load"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:48.973] [main\/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator\/]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[27Jan2025 10:42:48.973] [main\/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator\/]: Successfully made module authlib transformable"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:49.353] [main\/INFO] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[27Jan2025 10:42:49.353] [main\/INFO] [mixin\/]: Compatibility level set to JAVA_17"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:49.438] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[27Jan2025 10:42:49.438] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:49.486] [main\/INFO] [Radium Config\/]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[27Jan2025 10:42:49.486] [main\/INFO] [Radium Config\/]: Loaded configuration file for Radium: 125 options available, 0 override(s) found"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:49.560] [main\/INFO] [Embeddium\/]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[27Jan2025 10:42:49.560] [main\/INFO] [Embeddium\/]: Loaded configuration file for Embeddium: 110 options available, 3 override(s) found"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:49.614] [main\/INFO] [Embeddium Extra\/]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[27Jan2025 10:42:49.614] [main\/INFO] [Embeddium Extra\/]: Loaded configuration file for Sodium Extra: 35 options available, 0 override(s) found"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:49.634] [main\/WARN] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[27Jan2025 10:42:49.634] [main\/WARN] [mixin\/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:49.996] [main\/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner\/DISTXFORM]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[27Jan2025 10:42:49.996] [main\/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner\/DISTXFORM]: Attempted to load class net\/minecraft\/client\/MouseHandler for invalid dist DEDICATED_SERVER"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:49.996] [main\/WARN] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[27Jan2025 10:42:49.996] [main\/WARN] [mixin\/]: Error loading class: net\/minecraft\/client\/MouseHandler (java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/MouseHandler for invalid dist DEDICATED_SERVER)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:49.997] [main\/WARN] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[27Jan2025 10:42:49.997] [main\/WARN] [mixin\/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:49.997] [main\/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner\/DISTXFORM]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[27Jan2025 10:42:49.997] [main\/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner\/DISTXFORM]: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:49.997] [main\/WARN] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[27Jan2025 10:42:49.997] [main\/WARN] [mixin\/]: Error loading class: net\/minecraft\/client\/gui\/screens\/Screen (java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:49.997] [main\/WARN] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[27Jan2025 10:42:49.997] [main\/WARN] [mixin\/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:50.256] [main\/INFO] [MixinExtras|Service\/]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[27Jan2025 10:42:50.256] [main\/INFO] [MixinExtras|Service\/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1)."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.646] [modloading-worker-0\/WARN] [Polytone\/]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[27Jan2025 10:42:54.646] [modloading-worker-0\/WARN] [Polytone\/]: Slotify has been installed on a server. This wont cause issues but mod wont do anything here as its a client mod"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.645] [modloading-worker-0\/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner\/DISTXFORM]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[27Jan2025 10:42:54.645] [modloading-worker-0\/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner\/DISTXFORM]: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.646] [modloading-worker-0\/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer\/LOADING]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[27Jan2025 10:42:54.646] [modloading-worker-0\/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer\/LOADING]: Failed to create mod instance. ModID: entity_model_features, class traben.entity_model_features.forge.EMFForge"
+                },
+                {
+                    "number": 32,
+                    "content": "java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing"
+                },
+                {
+                    "number": 33,
+                    "content": "\tat traben.entity_model_features.forge.EMFForge.<init>(EMFForge.java:39) ~[entity_model_features_forge_1.20.1-2.2.6.jar%23130!\/:?]"
+                },
+                {
+                    "number": 34,
+                    "content": "\tat jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 35,
+                    "content": "\tat jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]"
+                },
+                {
+                    "number": 36,
+                    "content": "\tat jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]"
+                },
+                {
+                    "number": 37,
+                    "content": "\tat java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]"
+                },
+                {
+                    "number": 38,
+                    "content": "\tat java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]"
+                },
+                {
+                    "number": 39,
+                    "content": "\tat net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.3.11.jar%23147!\/:?]"
+                },
+                {
+                    "number": 40,
+                    "content": "\tat net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                },
+                {
+                    "number": 41,
+                    "content": "\tat java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]"
+                },
+                {
+                    "number": 42,
+                    "content": "\tat java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]"
+                },
+                {
+                    "number": 43,
+                    "content": "\tat java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]"
+                },
+                {
+                    "number": 44,
+                    "content": "\tat java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]"
+                },
+                {
+                    "number": 45,
+                    "content": "\tat java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]"
+                },
+                {
+                    "number": 46,
+                    "content": "\tat java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]"
+                },
+                {
+                    "number": 47,
+                    "content": "\tat java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.646] [modloading-worker-0\/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer\/LOADING]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[27Jan2025 10:42:54.646] [modloading-worker-0\/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer\/LOADING]: Failed to create mod instance. ModID: entity_texture_features, class traben.entity_texture_features.forge.ETFClientForge"
+                },
+                {
+                    "number": 49,
+                    "content": "java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing"
+                },
+                {
+                    "number": 50,
+                    "content": "\tat traben.entity_texture_features.forge.ETFClientForge.<init>(ETFClientForge.java:37) ~[entity_texture_features_forge_1.20.1-6.2.5.jar%23131!\/:?]"
+                },
+                {
+                    "number": 51,
+                    "content": "\tat jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 52,
+                    "content": "\tat jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]"
+                },
+                {
+                    "number": 53,
+                    "content": "\tat jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]"
+                },
+                {
+                    "number": 54,
+                    "content": "\tat java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]"
+                },
+                {
+                    "number": 55,
+                    "content": "\tat java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]"
+                },
+                {
+                    "number": 56,
+                    "content": "\tat net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.3.11.jar%23147!\/:?]"
+                },
+                {
+                    "number": 57,
+                    "content": "\tat net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                },
+                {
+                    "number": 58,
+                    "content": "\tat java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]"
+                },
+                {
+                    "number": 59,
+                    "content": "\tat java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]"
+                },
+                {
+                    "number": 60,
+                    "content": "\tat java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]"
+                },
+                {
+                    "number": 61,
+                    "content": "\tat java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]"
+                },
+                {
+                    "number": 62,
+                    "content": "\tat java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]"
+                },
+                {
+                    "number": 63,
+                    "content": "\tat java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]"
+                },
+                {
+                    "number": 64,
+                    "content": "\tat java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.648] [modloading-worker-0\/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer\/LOADING]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[27Jan2025 10:42:54.648] [modloading-worker-0\/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer\/LOADING]: Failed to create mod instance. ModID: oculus, class net.irisshaders.iris.Iris"
+                },
+                {
+                    "number": 66,
+                    "content": "java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                },
+                {
+                    "number": 67,
+                    "content": "\tat net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:1.0]"
+                },
+                {
+                    "number": 68,
+                    "content": "\tat cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                },
+                {
+                    "number": 69,
+                    "content": "\tat cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                },
+                {
+                    "number": 70,
+                    "content": "\tat cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                },
+                {
+                    "number": 71,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]"
+                },
+                {
+                    "number": 72,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]"
+                },
+                {
+                    "number": 73,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]"
+                },
+                {
+                    "number": 74,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]"
+                },
+                {
+                    "number": 75,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]"
+                },
+                {
+                    "number": 76,
+                    "content": "\tat java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]"
+                },
+                {
+                    "number": 77,
+                    "content": "\tat java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 78,
+                    "content": "\tat java.lang.Class.privateGetDeclaredConstructors(Class.java:3373) ~[?:?]"
+                },
+                {
+                    "number": 79,
+                    "content": "\tat java.lang.Class.getConstructor0(Class.java:3578) ~[?:?]"
+                },
+                {
+                    "number": 80,
+                    "content": "\tat java.lang.Class.getDeclaredConstructor(Class.java:2754) ~[?:?]"
+                },
+                {
+                    "number": 81,
+                    "content": "\tat net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:73) ~[javafmllanguage-1.20.1-47.3.11.jar%23147!\/:?]"
+                },
+                {
+                    "number": 82,
+                    "content": "\tat net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                },
+                {
+                    "number": 83,
+                    "content": "\tat java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]"
+                },
+                {
+                    "number": 84,
+                    "content": "\tat java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]"
+                },
+                {
+                    "number": 85,
+                    "content": "\tat java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]"
+                },
+                {
+                    "number": 86,
+                    "content": "\tat java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]"
+                },
+                {
+                    "number": 87,
+                    "content": "\tat java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]"
+                },
+                {
+                    "number": 88,
+                    "content": "\tat java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]"
+                },
+                {
+                    "number": 89,
+                    "content": "\tat java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.650] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[27Jan2025 10:42:54.650] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]: Forge mod loading, version 47.3.11, for MC 1.20.1 with MCP 20230612.114412"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.651] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[27Jan2025 10:42:54.651] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]: MinecraftForge v47.3.11 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.681] [modloading-worker-0\/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner\/DISTXFORM]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[27Jan2025 10:42:54.681] [modloading-worker-0\/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner\/DISTXFORM]: Attempted to load class net\/minecraft\/client\/Options for invalid dist DEDICATED_SERVER"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.682] [modloading-worker-0\/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer\/LOADING]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[27Jan2025 10:42:54.682] [modloading-worker-0\/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer\/LOADING]: Failed to create mod instance. ModID: forgeskyboxes, class com.foopy.forgeskyboxes.FabricSkyBoxesClient"
+                },
+                {
+                    "number": 94,
+                    "content": "java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/Options for invalid dist DEDICATED_SERVER"
+                },
+                {
+                    "number": 95,
+                    "content": "\tat net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:1.0]"
+                },
+                {
+                    "number": 96,
+                    "content": "\tat cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                },
+                {
+                    "number": 97,
+                    "content": "\tat cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                },
+                {
+                    "number": 98,
+                    "content": "\tat cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                },
+                {
+                    "number": 99,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]"
+                },
+                {
+                    "number": 100,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]"
+                },
+                {
+                    "number": 101,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]"
+                },
+                {
+                    "number": 102,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]"
+                },
+                {
+                    "number": 103,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]"
+                },
+                {
+                    "number": 104,
+                    "content": "\tat java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]"
+                },
+                {
+                    "number": 105,
+                    "content": "\tat java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 106,
+                    "content": "\tat java.lang.Class.privateGetDeclaredConstructors(Class.java:3373) ~[?:?]"
+                },
+                {
+                    "number": 107,
+                    "content": "\tat java.lang.Class.getConstructor0(Class.java:3578) ~[?:?]"
+                },
+                {
+                    "number": 108,
+                    "content": "\tat java.lang.Class.getConstructor(Class.java:2271) ~[?:?]"
+                },
+                {
+                    "number": 109,
+                    "content": "\tat net.minecraftforge.eventbus.api.EventListenerHelper.computeListenerList(EventListenerHelper.java:75) ~[eventbus-6.0.5.jar%2352!\/:?]"
+                },
+                {
+                    "number": 110,
+                    "content": "\tat net.minecraftforge.eventbus.api.EventListenerHelper.lambda$getListenerListInternal$0(EventListenerHelper.java:56) ~[eventbus-6.0.5.jar%2352!\/:?]"
+                },
+                {
+                    "number": 111,
+                    "content": "\tat net.minecraftforge.eventbus.LockHelper.computeIfAbsent(LockHelper.java:61) ~[eventbus-6.0.5.jar%2352!\/:?]"
+                },
+                {
+                    "number": 112,
+                    "content": "\tat net.minecraftforge.eventbus.LockHelper.get(LockHelper.java:44) ~[eventbus-6.0.5.jar%2352!\/:?]"
+                },
+                {
+                    "number": 113,
+                    "content": "\tat net.minecraftforge.eventbus.LockHelper.computeIfAbsent(LockHelper.java:39) ~[eventbus-6.0.5.jar%2352!\/:?]"
+                },
+                {
+                    "number": 114,
+                    "content": "\tat net.minecraftforge.eventbus.api.EventListenerHelper.getListenerListInternal(EventListenerHelper.java:56) ~[eventbus-6.0.5.jar%2352!\/:?]"
+                },
+                {
+                    "number": 115,
+                    "content": "\tat net.minecraftforge.eventbus.api.EventListenerHelper.getListenerList(EventListenerHelper.java:50) ~[eventbus-6.0.5.jar%2352!\/:?]"
+                },
+                {
+                    "number": 116,
+                    "content": "\tat net.minecraftforge.eventbus.EventBus.addToListeners(EventBus.java:276) ~[eventbus-6.0.5.jar%2352!\/:?]"
+                },
+                {
+                    "number": 117,
+                    "content": "\tat net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:252) ~[eventbus-6.0.5.jar%2352!\/:?]"
+                },
+                {
+                    "number": 118,
+                    "content": "\tat net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:244) ~[eventbus-6.0.5.jar%2352!\/:?]"
+                },
+                {
+                    "number": 119,
+                    "content": "\tat net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:199) ~[eventbus-6.0.5.jar%2352!\/:?]"
+                },
+                {
+                    "number": 120,
+                    "content": "\tat net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:193) ~[eventbus-6.0.5.jar%2352!\/:?]"
+                },
+                {
+                    "number": 121,
+                    "content": "\tat net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:187) ~[eventbus-6.0.5.jar%2352!\/:?]"
+                },
+                {
+                    "number": 122,
+                    "content": "\tat com.foopy.forgeskyboxes.FabricSkyBoxesClient.<init>(FabricSkyBoxesClient.java:54) ~[forgeskyboxes-0.0.2-1.20.2-new.jar%23135!\/:0.0.2-1.20.2]"
+                },
+                {
+                    "number": 123,
+                    "content": "\tat jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 124,
+                    "content": "\tat jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]"
+                },
+                {
+                    "number": 125,
+                    "content": "\tat jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]"
+                },
+                {
+                    "number": 126,
+                    "content": "\tat java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]"
+                },
+                {
+                    "number": 127,
+                    "content": "\tat java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]"
+                },
+                {
+                    "number": 128,
+                    "content": "\tat net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.3.11.jar%23147!\/:?]"
+                },
+                {
+                    "number": 129,
+                    "content": "\tat net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                },
+                {
+                    "number": 130,
+                    "content": "\tat java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]"
+                },
+                {
+                    "number": 131,
+                    "content": "\tat java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]"
+                },
+                {
+                    "number": 132,
+                    "content": "\tat java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]"
+                },
+                {
+                    "number": 133,
+                    "content": "\tat java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]"
+                },
+                {
+                    "number": 134,
+                    "content": "\tat java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]"
+                },
+                {
+                    "number": 135,
+                    "content": "\tat java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]"
+                },
+                {
+                    "number": 136,
+                    "content": "\tat java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.699] [modloading-worker-0\/INFO] [YetAnotherConfigLib\/]:",
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "[27Jan2025 10:42:54.699] [modloading-worker-0\/INFO] [YetAnotherConfigLib\/]: Deserializing YACLConfig from '\/server\/config\/yacl.json5'"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.797] [main\/FATAL] [net.minecraftforge.fml.ModLoader\/LOADING]:",
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "[27Jan2025 10:42:54.797] [main\/FATAL] [net.minecraftforge.fml.ModLoader\/LOADING]: Failed to complete lifecycle event CONSTRUCT, 4 errors found"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.914] [main\/FATAL] [net.minecraftforge.common.ForgeMod\/]:",
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "[27Jan2025 10:42:54.914] [main\/FATAL] [net.minecraftforge.common.ForgeMod\/]: Preparing crash report with UUID bc9baf7f-8b3b-4f94-99a4-62ff0d8a359a"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.915] [main\/FATAL] [net.minecraftforge.server.loading.ServerModLoader\/]:",
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "[27Jan2025 10:42:54.915] [main\/FATAL] [net.minecraftforge.server.loading.ServerModLoader\/]: Crash report saved to .\/crash-reports\/crash-2025-01-27_10.42.54-fml.txt"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.920] [main\/FATAL] [net.minecraftforge.common.ForgeMod\/]:",
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "[27Jan2025 10:42:54.920] [main\/FATAL] [net.minecraftforge.common.ForgeMod\/]: Preparing crash report with UUID b40f0e36-0981-4558-b577-b6d4912cbdb8"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[27Jan2025 10:42:54.921] [main\/ERROR] [net.minecraft.server.Main\/FATAL]:",
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "[27Jan2025 10:42:54.921] [main\/ERROR] [net.minecraft.server.Main\/FATAL]: Failed to start the minecraft server"
+                },
+                {
+                    "number": 143,
+                    "content": "net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: ["
+                },
+                {
+                    "number": 144,
+                    "content": "\tForgeSkyboxes (forgeskyboxes) has failed to load correctly"
+                },
+                {
+                    "number": 145,
+                    "content": "\u00a77java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/Options for invalid dist DEDICATED_SERVER,"
+                },
+                {
+                    "number": 146,
+                    "content": "\tEntity Model Features (entity_model_features) has failed to load correctly"
+                },
+                {
+                    "number": 147,
+                    "content": "\u00a77java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing,"
+                },
+                {
+                    "number": 148,
+                    "content": "\tEntity Texture Features (entity_texture_features) has failed to load correctly"
+                },
+                {
+                    "number": 149,
+                    "content": "\u00a77java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing,"
+                },
+                {
+                    "number": 150,
+                    "content": "\tOculus (oculus) has failed to load correctly"
+                },
+                {
+                    "number": 151,
+                    "content": "\u00a77java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                },
+                {
+                    "number": 152,
+                    "content": "]"
+                },
+                {
+                    "number": 153,
+                    "content": "\tat net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                },
+                {
+                    "number": 154,
+                    "content": "\tat net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                },
+                {
+                    "number": 155,
+                    "content": "\tat java.util.Optional.ifPresent(Optional.java:178) ~[?:?]"
+                },
+                {
+                    "number": 156,
+                    "content": "\tat net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                },
+                {
+                    "number": 157,
+                    "content": "\tat net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                },
+                {
+                    "number": 158,
+                    "content": "\tat java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]"
+                },
+                {
+                    "number": 159,
+                    "content": "\tat net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                },
+                {
+                    "number": 160,
+                    "content": "\tat net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.11-universal.jar%23150!\/:?]"
+                },
+                {
+                    "number": 161,
+                    "content": "\tat net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23145!\/:?]"
+                },
+                {
+                    "number": 162,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 163,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]"
+                },
+                {
+                    "number": 164,
+                    "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                },
+                {
+                    "number": 165,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]"
+                },
+                {
+                    "number": 166,
+                    "content": "\tat net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                },
+                {
+                    "number": 167,
+                    "content": "\tat net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                },
+                {
+                    "number": 168,
+                    "content": "\tat net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                },
+                {
+                    "number": 169,
+                    "content": "\tat cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                },
+                {
+                    "number": 170,
+                    "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                },
+                {
+                    "number": 171,
+                    "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                },
+                {
+                    "number": 172,
+                    "content": "\tat cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                },
+                {
+                    "number": 173,
+                    "content": "\tat cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                },
+                {
+                    "number": 174,
+                    "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                },
+                {
+                    "number": 175,
+                    "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                },
+                {
+                    "number": 176,
+                    "content": "\tat cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod '\tForgeSkyboxes' has a fatal error.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[27Jan2025 10:42:54.921] [main\/ERROR] [net.minecraft.server.Main\/FATAL]:",
+                    "lines": [
+                        {
+                            "number": 142,
+                            "content": "[27Jan2025 10:42:54.921] [main\/ERROR] [net.minecraft.server.Main\/FATAL]: Failed to start the minecraft server"
+                        },
+                        {
+                            "number": 143,
+                            "content": "net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: ["
+                        },
+                        {
+                            "number": 144,
+                            "content": "\tForgeSkyboxes (forgeskyboxes) has failed to load correctly"
+                        },
+                        {
+                            "number": 145,
+                            "content": "\u00a77java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/Options for invalid dist DEDICATED_SERVER,"
+                        },
+                        {
+                            "number": 146,
+                            "content": "\tEntity Model Features (entity_model_features) has failed to load correctly"
+                        },
+                        {
+                            "number": 147,
+                            "content": "\u00a77java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing,"
+                        },
+                        {
+                            "number": 148,
+                            "content": "\tEntity Texture Features (entity_texture_features) has failed to load correctly"
+                        },
+                        {
+                            "number": 149,
+                            "content": "\u00a77java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing,"
+                        },
+                        {
+                            "number": 150,
+                            "content": "\tOculus (oculus) has failed to load correctly"
+                        },
+                        {
+                            "number": 151,
+                            "content": "\u00a77java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                        },
+                        {
+                            "number": 152,
+                            "content": "]"
+                        },
+                        {
+                            "number": 153,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 154,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 155,
+                            "content": "\tat java.util.Optional.ifPresent(Optional.java:178) ~[?:?]"
+                        },
+                        {
+                            "number": 156,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 157,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 158,
+                            "content": "\tat java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]"
+                        },
+                        {
+                            "number": 159,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 160,
+                            "content": "\tat net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.11-universal.jar%23150!\/:?]"
+                        },
+                        {
+                            "number": 161,
+                            "content": "\tat net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23145!\/:?]"
+                        },
+                        {
+                            "number": 162,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                        },
+                        {
+                            "number": 163,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]"
+                        },
+                        {
+                            "number": 164,
+                            "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                        },
+                        {
+                            "number": 165,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]"
+                        },
+                        {
+                            "number": 166,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                        },
+                        {
+                            "number": 167,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                        },
+                        {
+                            "number": 168,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                        },
+                        {
+                            "number": 169,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 170,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 171,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 172,
+                            "content": "\tat cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 173,
+                            "content": "\tat cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 174,
+                            "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 175,
+                            "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 176,
+                            "content": "\tat cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod '\tForgeSkyboxes'."
+                    },
+                    {
+                        "message": "Install a different version of the mod '\tForgeSkyboxes'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.20.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[27Jan2025 10:42:41.324] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[27Jan2025 10:42:41.324] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.11, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.20.1"
+            },
+            {
+                "message": "Forge version: 47.3.11",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[27Jan2025 10:42:41.324] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[27Jan2025 10:42:41.324] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.11, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "47.3.11"
+            },
+            {
+                "message": "Java version: 17.0.13",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[27Jan2025 10:42:41.327] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[27Jan2025 10:42:41.327] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.0-124-generic"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17.0.13"
+            }
+        ]
+    }
+}
