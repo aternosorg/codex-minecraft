@@ -1014,7 +1014,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The mod '\tForgeSkyboxes' has a fatal error.",
+                "message": "The mod 'ForgeSkyboxes' has a fatal error.",
                 "counter": 1,
                 "entry": {
                     "level": 3,
@@ -1165,10 +1165,10 @@
                 },
                 "solutions": [
                     {
-                        "message": "Remove the mod '\tForgeSkyboxes'."
+                        "message": "Remove the mod 'ForgeSkyboxes'."
                     },
                     {
-                        "message": "Install a different version of the mod '\tForgeSkyboxes'."
+                        "message": "Install a different version of the mod 'ForgeSkyboxes'."
                     }
                 ]
             }

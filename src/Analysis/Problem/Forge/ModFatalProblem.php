@@ -39,7 +39,7 @@ class ModFatalProblem extends ModProblem
     {
         return [
             '/\s*U[LCHIJAD]*E\s+(\w+)\{([^\}]+)\} \[([^\]]+)\] \(([^\)]+)\)/',
-            '/Loading errors encountered: \[\n([^\(]+) \(([^\)]+)\) has failed to load correctly/'
+            '/Loading errors encountered: \[\s*([^\(]+) \(([^\)]+)\) has failed to load correctly/'
         ];
     }
 
