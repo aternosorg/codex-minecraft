@@ -2,7 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Fabric;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 

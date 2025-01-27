@@ -3,7 +3,6 @@
 namespace Aternos\Codex\Minecraft\Analysis\Information\Fabric;
 
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric\FabricLog;
-use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
