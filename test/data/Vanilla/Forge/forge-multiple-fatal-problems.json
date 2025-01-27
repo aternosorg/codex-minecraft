@@ -1171,6 +1171,483 @@
                         "message": "Install a different version of the mod 'ForgeSkyboxes'."
                     }
                 ]
+            },
+            {
+                "message": "The mod 'Entity Model Features' has a fatal error.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[27Jan2025 10:42:54.921] [main\/ERROR] [net.minecraft.server.Main\/FATAL]:",
+                    "lines": [
+                        {
+                            "number": 142,
+                            "content": "[27Jan2025 10:42:54.921] [main\/ERROR] [net.minecraft.server.Main\/FATAL]: Failed to start the minecraft server"
+                        },
+                        {
+                            "number": 143,
+                            "content": "net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: ["
+                        },
+                        {
+                            "number": 144,
+                            "content": "\tForgeSkyboxes (forgeskyboxes) has failed to load correctly"
+                        },
+                        {
+                            "number": 145,
+                            "content": "\u00a77java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/Options for invalid dist DEDICATED_SERVER,"
+                        },
+                        {
+                            "number": 146,
+                            "content": "\tEntity Model Features (entity_model_features) has failed to load correctly"
+                        },
+                        {
+                            "number": 147,
+                            "content": "\u00a77java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing,"
+                        },
+                        {
+                            "number": 148,
+                            "content": "\tEntity Texture Features (entity_texture_features) has failed to load correctly"
+                        },
+                        {
+                            "number": 149,
+                            "content": "\u00a77java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing,"
+                        },
+                        {
+                            "number": 150,
+                            "content": "\tOculus (oculus) has failed to load correctly"
+                        },
+                        {
+                            "number": 151,
+                            "content": "\u00a77java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                        },
+                        {
+                            "number": 152,
+                            "content": "]"
+                        },
+                        {
+                            "number": 153,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 154,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 155,
+                            "content": "\tat java.util.Optional.ifPresent(Optional.java:178) ~[?:?]"
+                        },
+                        {
+                            "number": 156,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 157,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 158,
+                            "content": "\tat java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]"
+                        },
+                        {
+                            "number": 159,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 160,
+                            "content": "\tat net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.11-universal.jar%23150!\/:?]"
+                        },
+                        {
+                            "number": 161,
+                            "content": "\tat net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23145!\/:?]"
+                        },
+                        {
+                            "number": 162,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                        },
+                        {
+                            "number": 163,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]"
+                        },
+                        {
+                            "number": 164,
+                            "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                        },
+                        {
+                            "number": 165,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]"
+                        },
+                        {
+                            "number": 166,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                        },
+                        {
+                            "number": 167,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                        },
+                        {
+                            "number": 168,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                        },
+                        {
+                            "number": 169,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 170,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 171,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 172,
+                            "content": "\tat cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 173,
+                            "content": "\tat cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 174,
+                            "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 175,
+                            "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 176,
+                            "content": "\tat cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'Entity Model Features'."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'Entity Model Features'."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'Entity Texture Features' has a fatal error.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[27Jan2025 10:42:54.921] [main\/ERROR] [net.minecraft.server.Main\/FATAL]:",
+                    "lines": [
+                        {
+                            "number": 142,
+                            "content": "[27Jan2025 10:42:54.921] [main\/ERROR] [net.minecraft.server.Main\/FATAL]: Failed to start the minecraft server"
+                        },
+                        {
+                            "number": 143,
+                            "content": "net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: ["
+                        },
+                        {
+                            "number": 144,
+                            "content": "\tForgeSkyboxes (forgeskyboxes) has failed to load correctly"
+                        },
+                        {
+                            "number": 145,
+                            "content": "\u00a77java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/Options for invalid dist DEDICATED_SERVER,"
+                        },
+                        {
+                            "number": 146,
+                            "content": "\tEntity Model Features (entity_model_features) has failed to load correctly"
+                        },
+                        {
+                            "number": 147,
+                            "content": "\u00a77java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing,"
+                        },
+                        {
+                            "number": 148,
+                            "content": "\tEntity Texture Features (entity_texture_features) has failed to load correctly"
+                        },
+                        {
+                            "number": 149,
+                            "content": "\u00a77java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing,"
+                        },
+                        {
+                            "number": 150,
+                            "content": "\tOculus (oculus) has failed to load correctly"
+                        },
+                        {
+                            "number": 151,
+                            "content": "\u00a77java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                        },
+                        {
+                            "number": 152,
+                            "content": "]"
+                        },
+                        {
+                            "number": 153,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 154,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 155,
+                            "content": "\tat java.util.Optional.ifPresent(Optional.java:178) ~[?:?]"
+                        },
+                        {
+                            "number": 156,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 157,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 158,
+                            "content": "\tat java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]"
+                        },
+                        {
+                            "number": 159,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 160,
+                            "content": "\tat net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.11-universal.jar%23150!\/:?]"
+                        },
+                        {
+                            "number": 161,
+                            "content": "\tat net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23145!\/:?]"
+                        },
+                        {
+                            "number": 162,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                        },
+                        {
+                            "number": 163,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]"
+                        },
+                        {
+                            "number": 164,
+                            "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                        },
+                        {
+                            "number": 165,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]"
+                        },
+                        {
+                            "number": 166,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                        },
+                        {
+                            "number": 167,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                        },
+                        {
+                            "number": 168,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                        },
+                        {
+                            "number": 169,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 170,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 171,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 172,
+                            "content": "\tat cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 173,
+                            "content": "\tat cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 174,
+                            "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 175,
+                            "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 176,
+                            "content": "\tat cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'Entity Texture Features'."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'Entity Texture Features'."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'Oculus' has a fatal error.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[27Jan2025 10:42:54.921] [main\/ERROR] [net.minecraft.server.Main\/FATAL]:",
+                    "lines": [
+                        {
+                            "number": 142,
+                            "content": "[27Jan2025 10:42:54.921] [main\/ERROR] [net.minecraft.server.Main\/FATAL]: Failed to start the minecraft server"
+                        },
+                        {
+                            "number": 143,
+                            "content": "net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: ["
+                        },
+                        {
+                            "number": 144,
+                            "content": "\tForgeSkyboxes (forgeskyboxes) has failed to load correctly"
+                        },
+                        {
+                            "number": 145,
+                            "content": "\u00a77java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/Options for invalid dist DEDICATED_SERVER,"
+                        },
+                        {
+                            "number": 146,
+                            "content": "\tEntity Model Features (entity_model_features) has failed to load correctly"
+                        },
+                        {
+                            "number": 147,
+                            "content": "\u00a77java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing,"
+                        },
+                        {
+                            "number": 148,
+                            "content": "\tEntity Texture Features (entity_texture_features) has failed to load correctly"
+                        },
+                        {
+                            "number": 149,
+                            "content": "\u00a77java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing,"
+                        },
+                        {
+                            "number": 150,
+                            "content": "\tOculus (oculus) has failed to load correctly"
+                        },
+                        {
+                            "number": 151,
+                            "content": "\u00a77java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                        },
+                        {
+                            "number": 152,
+                            "content": "]"
+                        },
+                        {
+                            "number": 153,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 154,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 155,
+                            "content": "\tat java.util.Optional.ifPresent(Optional.java:178) ~[?:?]"
+                        },
+                        {
+                            "number": 156,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 157,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 158,
+                            "content": "\tat java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]"
+                        },
+                        {
+                            "number": 159,
+                            "content": "\tat net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.11.jar%23146!\/:?]"
+                        },
+                        {
+                            "number": 160,
+                            "content": "\tat net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.11-universal.jar%23150!\/:?]"
+                        },
+                        {
+                            "number": 161,
+                            "content": "\tat net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23145!\/:?]"
+                        },
+                        {
+                            "number": 162,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                        },
+                        {
+                            "number": 163,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]"
+                        },
+                        {
+                            "number": 164,
+                            "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                        },
+                        {
+                            "number": 165,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]"
+                        },
+                        {
+                            "number": 166,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                        },
+                        {
+                            "number": 167,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                        },
+                        {
+                            "number": 168,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.11.jar%2369!\/:?]"
+                        },
+                        {
+                            "number": 169,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 170,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 171,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 172,
+                            "content": "\tat cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 173,
+                            "content": "\tat cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 174,
+                            "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 175,
+                            "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!\/:?]"
+                        },
+                        {
+                            "number": 176,
+                            "content": "\tat cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'Oculus'."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'Oculus'."
+                    }
+                ]
             }
         ],
         "information": [
