@@ -1354,15 +1354,15 @@
             },
             {
                 "message": "NeoForge version: 20.4.155-beta",
-                "counter": 1,
+                "counter": 2,
                 "entry": {
                     "level": 6,
                     "time": null,
-                    "prefix": "\tNeoForge:",
+                    "prefix": null,
                     "lines": [
                         {
-                            "number": 119,
-                            "content": "\tNeoForge: net.neoforged:20.4.155-beta"
+                            "number": 116,
+                            "content": "\t\tneoforge-20.4.155-beta-universal.jar              |NeoForge                      |neoforge                      |20.4.155-beta       |DONE      |Manifest: NOSIGNATURE"
                         }
                     ]
                 },

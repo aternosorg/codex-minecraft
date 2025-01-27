@@ -1,0 +1,846 @@
+{
+    "id": "neoforge\/crash-report",
+    "name": "NeoForge",
+    "type": "Crash Report",
+    "version": "1.21.1",
+    "title": "NeoForge 1.21.1 Crash Report",
+    "entries": [
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "---- Minecraft Crash Report ----"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "\/\/ Don't do that."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Time:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "Time: 2024-10-29 15:00:30"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Description:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "Description: Mod loading failures have occurred; consult the issue messages for more details"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "A detailed walkthrough of the error, its code path and all known details is as follows:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "---------------------------------------------------------------------------------------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "-- Mod loading issue for:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "-- Mod loading issue for: yungsmenutweaks --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMod file:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "\tMod file: \/server\/mods\/YungsMenuTweaks-1.21.1-NeoForge-2.1.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFailure message:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "\tFailure message: Mod yungsmenutweaks requires yungsapi 1.21.1-NeoForge-5.1.2 or above"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "\t\tCurrently, yungsapi is not installed"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMod version:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "\tMod version: 1.21.1-NeoForge-2.1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMod issues URL:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "\tMod issues URL: https:\/\/github.com\/yungnickyoung\/YUNGs-Menu-Tweaks\/issues"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tException message:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "\tException message: <No associated exception found>"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "-- System Details --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "\tMinecraft Version: 1.21.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version ID:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "\tMinecraft Version ID: 1.21.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tOperating System:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "\tOperating System: Linux (amd64) version 5.15.0-117-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava Version:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "\tJava Version: 21.0.4, Eclipse Adoptium"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava VM Version:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "\tJava VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "\tMemory: 1988100096 bytes (1896 MiB) \/ 2147483648 bytes (2048 MiB) up to 4294967296 bytes (4096 MiB)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCPUs:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "\tCPUs: 2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Vendor:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "\tProcessor Vendor: AuthenticAMD"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Name:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "\tProcessor Name: AMD EPYC 7F72 24-Core Processor"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIdentifier:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "\tIdentifier: AuthenticAMD Family 23 Model 49 Stepping 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMicroarchitecture:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "\tMicroarchitecture: Zen 2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFrequency (GHz):",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "\tFrequency (GHz): -0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical packages:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "\tNumber of physical packages: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical CPUs:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "\tNumber of physical CPUs: 24"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of logical CPUs:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "\tNumber of logical CPUs: 48"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 name:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "\tGraphics card #0 name: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 vendor:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "\tGraphics card #0 vendor: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 VRAM (MiB):",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "\tGraphics card #0 VRAM (MiB): 0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 deviceId:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "\tGraphics card #0 deviceId: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 versionInfo:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "\tGraphics card #0 versionInfo: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory max (MiB):",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "\tVirtual memory max (MiB): 129820.45"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory used (MiB):",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "\tVirtual memory used (MiB): 81876.02"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory total (MiB):",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "\tSwap memory total (MiB): 1024.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory used (MiB):",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "\tSwap memory used (MiB): 378.52"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for jna.tmpdir (MiB):",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "\tSpace in storage for jna.tmpdir (MiB): <path not set>"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB):",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "\tSpace in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for io.netty.native.workdir (MiB):",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "\tSpace in storage for io.netty.native.workdir (MiB): <path not set>"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for java.io.tmpdir (MiB):",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "\tSpace in storage for java.io.tmpdir (MiB): available: 138518.25, total: 223120.39"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for workdir (MiB):",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "\tSpace in storage for workdir (MiB): available: 138518.25, total: 223120.39"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJVM Flags:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "\tJVM Flags: 2 total; -Xmx4096M -Xms2048M"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "\tModLauncher: 11.0.4+main.d2e20e43"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher launch target:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "\tModLauncher launch target: forgeserver"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher services:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "\tModLauncher services:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "\t\tsponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "\t\tloader-4.0.31.jar slf4jfixer PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "\t\tloader-4.0.31.jar runtime_enum_extender PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "\t\tat-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "\t\tloader-4.0.31.jar runtimedistcleaner PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "\t\tmodlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "\t\tmodlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFML Language Providers:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "\tFML Language Providers:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "\t\tjavafml@4.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "\t\tlowcodefml@4.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "\t\tminecraft@4.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMod List:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "\tMod List:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "\t\tserver-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "\t\tneoforge-21.1.73-universal.jar                    |NeoForge                      |neoforge                      |21.1.73             |Manifest: NOSIGNATURE"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.21.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tMinecraft Version:",
+                    "lines": [
+                        {
+                            "number": 25,
+                            "content": "\tMinecraft Version: 1.21.1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.1"
+            },
+            {
+                "message": "Java version: 21.0.4",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tJava Version:",
+                    "lines": [
+                        {
+                            "number": 28,
+                            "content": "\tJava Version: 21.0.4, Eclipse Adoptium"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "21.0.4"
+            },
+            {
+                "message": "NeoForge version: 21.1.73",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": null,
+                    "lines": [
+                        {
+                            "number": 71,
+                            "content": "\t\tneoforge-21.1.73-universal.jar                    |NeoForge                      |neoforge                      |21.1.73             |Manifest: NOSIGNATURE"
+                        }
+                    ]
+                },
+                "label": "NeoForge version",
+                "value": "21.1.73"
+            }
+        ]
+    }
+}

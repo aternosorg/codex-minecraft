@@ -1,0 +1,55 @@
+[16:58:54] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.3.5-beta, --fml.fmlVersion, 4.0.31, --fml.mcVersion, 1.21.3, --fml.neoFormVersion, 20241023.131943, nogui]
+[16:58:54] [main/INFO]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[16:58:54] [main/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.4 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.0-117-generic
+[16:58:54] [main/INFO]: ImmediateWindowProvider not loading because launch target is forgeserver
+[16:58:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2387!/ Service=ModLauncher Env=SERVER
+[16:58:54] [main/INFO]: Found mod file "server-1.21.3-20241023.131943-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.3.5-beta:server]
+[16:58:54] [main/INFO]: Found mod file "neoforge-21.3.5-beta-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.3.5-beta/neoforge-21.3.5-beta-universal.jar]], reader: mod manifest]
+[16:58:54] [main/INFO]: Found 2 dependencies adding them to mods collection
+[16:58:54] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.3.5-beta-universal.jar, locator: jarinjar, reader: mod manifest]
+[16:58:54] [main/INFO]: Found library file "neoforge-coremods-21.3.5-beta.jar" [parent: neoforge-21.3.5-beta-universal.jar, locator: jarinjar, reader: mod manifest]
+[16:58:54] [main/INFO]:
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.3 (minecraft)
+		NeoForge 21.3.5-beta (neoforge)
+[16:58:55] [main/INFO]: Launching target 'forgeserver' with arguments [nogui]
+[29Oct2024 16:58:56.603] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[29Oct2024 16:59:02.109] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.3.5-beta, for MC 1.21.3
+[29Oct2024 16:59:02.437] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[29Oct2024 16:59:02.467] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/server/libraries/net/minecraft/server/1.21.3-20241023.131943/server-1.21.3-20241023.131943-srg.jar%23143!/assets/.mcassetsroot' uses unexpected schema
+[29Oct2024 16:59:02.467] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/server/libraries/net/minecraft/server/1.21.3-20241023.131943/server-1.21.3-20241023.131943-srg.jar%23143!/data/.mcassetsroot' uses unexpected schema
+[29Oct2024 16:59:03.357] [main/INFO] [net.minecraft.server.Main/]: No existing world data, creating new world
+[29Oct2024 16:59:04.236] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1337 recipes
+[29Oct2024 16:59:04.250] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1448 advancements
+[29Oct2024 16:59:04.379] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.3
+[29Oct2024 16:59:04.380] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29Oct2024 16:59:04.380] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29Oct2024 16:59:04.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29Oct2024 16:59:04.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:37065
+[29Oct2024 16:59:04.665] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[29Oct2024 16:59:04.731] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29Oct2024 16:59:15.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29Oct2024 16:59:15.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Oct2024 16:59:15.694] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Oct2024 16:59:16.160] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Oct2024 16:59:16.635] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Oct2024 16:59:17.127] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Oct2024 16:59:17.764] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Oct2024 16:59:18.277] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Oct2024 16:59:18.642] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Oct2024 16:59:19.130] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Oct2024 16:59:19.642] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Oct2024 16:59:20.313] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Oct2024 16:59:20.635] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Oct2024 16:59:21.242] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Oct2024 16:59:21.627] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Oct2024 16:59:21.942] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6820 ms
+[29Oct2024 16:59:21.943] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (17.236s)! For help, type "help"
+[29Oct2024 16:59:21.943] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting GS4 status listener
+[29Oct2024 16:59:21.945] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread Query Listener started
+[29Oct2024 16:59:21.946] [Query Listener #1/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4/]: Query running on 0.0.0.0:9898
+[29Oct2024 16:59:21.948] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JMX monitoring enabled
+[29Oct2024 16:59:21.954] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Network is unreachable
+[29Oct2024 16:59:21.971] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
