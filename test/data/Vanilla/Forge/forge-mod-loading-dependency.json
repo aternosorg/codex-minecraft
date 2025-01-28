@@ -1773,8 +1773,8 @@
                 ]
             },
             {
-                "message": "The mod 'car' is missing the required mod 'minecraft'.",
-                "counter": 2,
+                "message": "The mod 'car' is not compatible with the Minecraft version 1.15.1.",
+                "counter": 1,
                 "entry": {
                     "level": 2,
                     "time": null,
@@ -1884,7 +1884,10 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install the mod 'minecraft' with version 1.15.1."
+                        "message": "Remove the mod 'car'."
+                    },
+                    {
+                        "message": "Install a different Forge version."
                     }
                 ]
             }
