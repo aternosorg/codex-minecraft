@@ -378,6 +378,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_generic_plugin_error_1_21(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-generic-plugin-error-1-21.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_metaspace(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-metaspace.log');
