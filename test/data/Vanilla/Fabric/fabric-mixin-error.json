@@ -921,7 +921,156 @@
         }
     ],
     "analysis": {
-        "problems": [],
+        "problems": [
+            {
+                "message": "The mod 'expandability' has a fatal error.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[19:11:26] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 172,
+                            "content": "[19:11:26] [main\/ERROR]: Failed to start the minecraft server"
+                        },
+                        {
+                            "number": 173,
+                            "content": "java.lang.RuntimeException: Mixin transformation of net.minecraft.class_1297 failed"
+                        },
+                        {
+                            "number": 174,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427) ~[fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 175,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 176,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 177,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 178,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]"
+                        },
+                        {
+                            "number": 179,
+                            "content": "\tat knot\/net.minecraft.class_2966.method_12851(class_2966.java:55) ~[server-intermediary.jar:?]"
+                        },
+                        {
+                            "number": 180,
+                            "content": "\tat knot\/net.minecraft.server.Main.main(Main.java:110) [server-intermediary.jar:?]"
+                        },
+                        {
+                            "number": 181,
+                            "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 182,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 183,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 184,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 185,
+                            "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered"
+                        },
+                        {
+                            "number": 186,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 187,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 188,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 189,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 190,
+                            "content": "\t... 10 more"
+                        },
+                        {
+                            "number": 191,
+                            "content": "Caused by: org.spongepowered.asm.mixin.injection.throwables.InjectionError: Critical injection failure: Callback method setInWater(Z)Z in expandability-common.mixins.json:swimming.EntityMixin from mod expandability failed injection check, (3\/4) succeeded. Scanned 0 target(s). Using refmap expandability-common-refmap.json"
+                        },
+                        {
+                            "number": 192,
+                            "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.postInject(InjectionInfo.java:531) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 193,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1490) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 194,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:752) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 195,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:330) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 196,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 197,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 198,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 199,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 200,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 201,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 202,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 203,
+                            "content": "\t... 10 more"
+                        },
+                        {
+                            "number": 204,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'expandability'."
+                    }
+                ]
+            }
+        ],
         "information": [
             {
                 "message": "Minecraft version: 1.21.4",

@@ -9,6 +9,7 @@ use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformati
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricDuplicateModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricEntryStageProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricIncompatibleModsProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricMixinProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem;
 
 /**
@@ -25,6 +26,7 @@ class FabricAnalyser extends VanillaAnalyser
         $this->overridePossibleInsightClass(VanillaVersionInformation::class, FabricVanillaVersionInformation::class);
         $this->addPossibleInsightClass(FabricJavaVersionInformation::class);
         $this->addPossibleInsightClass(FabricModDependencyProblem::class);
+        $this->addPossibleInsightClass(FabricMixinProblem::class);
         $this->addPossibleInsightClass(FabricIncompatibleModsProblem::class);
         $this->addPossibleInsightClass(FabricDuplicateModProblem::class);
         $this->addPossibleInsightClass(FabricEntryStageProblem::class);
