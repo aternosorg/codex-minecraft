@@ -1008,6 +1008,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_mixin_error(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-mixin-error.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_mod_names(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-mod-names.log');
