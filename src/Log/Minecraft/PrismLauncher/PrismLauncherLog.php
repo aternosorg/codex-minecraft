@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Log\Minecraft\PrismLauncher;
 
 use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
+use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 use Aternos\Codex\Minecraft\Parser\Parser;
 
 /**
@@ -11,7 +12,7 @@ use Aternos\Codex\Minecraft\Parser\Parser;
  *
  * @package Aternos\Codex\Minecraft\Log\Minecraft\PrismLauncherLog
  */
-abstract class PrismLauncherLog extends \Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog
+abstract class PrismLauncherLog extends MinecraftLog
 {
     /**
      * @return Parser
