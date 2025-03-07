@@ -1,0 +1,1111 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "1.21.4",
+    "title": "Fabric 1.21.4 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:11:21] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[19:11:21] [main\/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:11:22] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[19:11:22] [main\/INFO]: Loading 138 mods:"
+                },
+                {
+                    "number": 3,
+                    "content": "\t- appleskin 3.0.6+mc1.21.3"
+                },
+                {
+                    "number": 4,
+                    "content": "\t- architectury 15.0.1"
+                },
+                {
+                    "number": 5,
+                    "content": "\t- artifacts 12.0.6"
+                },
+                {
+                    "number": 6,
+                    "content": "\t   |-- com_electronwill_night-config_core 3.8.0"
+                },
+                {
+                    "number": 7,
+                    "content": "\t   |-- com_electronwill_night-config_toml 3.8.0"
+                },
+                {
+                    "number": 8,
+                    "content": "\t   \\-- expandability 12.0.0"
+                },
+                {
+                    "number": 9,
+                    "content": "\t- balm-fabric 21.4.6"
+                },
+                {
+                    "number": 10,
+                    "content": "\t   \\-- kuma_api 21.4.4"
+                },
+                {
+                    "number": 11,
+                    "content": "\t- betterthanmending 2.2.3"
+                },
+                {
+                    "number": 12,
+                    "content": "\t- cardinal-components 6.2.2"
+                },
+                {
+                    "number": 13,
+                    "content": "\t   |-- cardinal-components-base 6.2.2"
+                },
+                {
+                    "number": 14,
+                    "content": "\t   |-- cardinal-components-block 6.2.2"
+                },
+                {
+                    "number": 15,
+                    "content": "\t   |-- cardinal-components-chunk 6.2.2"
+                },
+                {
+                    "number": 16,
+                    "content": "\t   |-- cardinal-components-entity 6.2.2"
+                },
+                {
+                    "number": 17,
+                    "content": "\t   |-- cardinal-components-item 6.2.2"
+                },
+                {
+                    "number": 18,
+                    "content": "\t   |-- cardinal-components-level 6.2.2"
+                },
+                {
+                    "number": 19,
+                    "content": "\t   |-- cardinal-components-scoreboard 6.2.2"
+                },
+                {
+                    "number": 20,
+                    "content": "\t   \\-- cardinal-components-world 6.2.2"
+                },
+                {
+                    "number": 21,
+                    "content": "\t- carryon 2.3.0"
+                },
+                {
+                    "number": 22,
+                    "content": "\t- catalogue 1.12.0"
+                },
+                {
+                    "number": 23,
+                    "content": "\t- chunky 1.4.27"
+                },
+                {
+                    "number": 24,
+                    "content": "\t- cloth-config 17.0.144"
+                },
+                {
+                    "number": 25,
+                    "content": "\t   \\-- cloth-basic-math 0.6.1"
+                },
+                {
+                    "number": 26,
+                    "content": "\t- cristellib 1.2.10"
+                },
+                {
+                    "number": 27,
+                    "content": "\t   \\-- blue_endless_jankson 1.2.3"
+                },
+                {
+                    "number": 28,
+                    "content": "\t- cupboard 1.21-2.9"
+                },
+                {
+                    "number": 29,
+                    "content": "\t- dynamiccrosshair 9.3"
+                },
+                {
+                    "number": 30,
+                    "content": "\t   |-- dynamiccrosshair-api 1.1"
+                },
+                {
+                    "number": 31,
+                    "content": "\t   \\-- libbamboo 2.2"
+                },
+                {
+                    "number": 32,
+                    "content": "\t- fabric-api 0.115.0+1.21.4"
+                },
+                {
+                    "number": 33,
+                    "content": "\t   |-- fabric-api-base 0.4.54+b47eab6b04"
+                },
+                {
+                    "number": 34,
+                    "content": "\t   |-- fabric-api-lookup-api-v1 1.6.86+b1caf1e904"
+                },
+                {
+                    "number": 35,
+                    "content": "\t   |-- fabric-biome-api-v1 15.0.6+b1c29d8e04"
+                },
+                {
+                    "number": 36,
+                    "content": "\t   |-- fabric-block-api-v1 1.0.31+7feeb73304"
+                },
+                {
+                    "number": 37,
+                    "content": "\t   |-- fabric-block-view-api-v2 1.0.19+7feeb73304"
+                },
+                {
+                    "number": 38,
+                    "content": "\t   |-- fabric-blockrenderlayer-v1 2.0.8+7feeb73304"
+                },
+                {
+                    "number": 39,
+                    "content": "\t   |-- fabric-client-tags-api-v1 1.1.29+20ea1e2304"
+                },
+                {
+                    "number": 40,
+                    "content": "\t   |-- fabric-command-api-v1 1.2.62+f71b366f04"
+                },
+                {
+                    "number": 41,
+                    "content": "\t   |-- fabric-command-api-v2 2.2.41+e496eb1504"
+                },
+                {
+                    "number": 42,
+                    "content": "\t   |-- fabric-commands-v0 0.2.79+df3654b304"
+                },
+                {
+                    "number": 43,
+                    "content": "\t   |-- fabric-content-registries-v0 9.1.16+7feeb73304"
+                },
+                {
+                    "number": 44,
+                    "content": "\t   |-- fabric-convention-tags-v1 2.1.14+7f945d5b04"
+                },
+                {
+                    "number": 45,
+                    "content": "\t   |-- fabric-convention-tags-v2 2.12.0+2f1398f104"
+                },
+                {
+                    "number": 46,
+                    "content": "\t   |-- fabric-crash-report-info-v1 0.3.6+7feeb73304"
+                },
+                {
+                    "number": 47,
+                    "content": "\t   |-- fabric-data-attachment-api-v1 1.5.1+8212661004"
+                },
+                {
+                    "number": 48,
+                    "content": "\t   |-- fabric-data-generation-api-v1 22.2.8+20ea1e2304"
+                },
+                {
+                    "number": 49,
+                    "content": "\t   |-- fabric-dimensions-v1 4.0.10+7feeb73304"
+                },
+                {
+                    "number": 50,
+                    "content": "\t   |-- fabric-entity-events-v1 2.0.13+1934821104"
+                },
+                {
+                    "number": 51,
+                    "content": "\t   |-- fabric-events-interaction-v0 4.0.3+a4eebcf004"
+                },
+                {
+                    "number": 52,
+                    "content": "\t   |-- fabric-game-rule-api-v1 1.0.63+7d48d43904"
+                },
+                {
+                    "number": 53,
+                    "content": "\t   |-- fabric-item-api-v1 11.1.16+203e6b2304"
+                },
+                {
+                    "number": 54,
+                    "content": "\t   |-- fabric-item-group-api-v1 4.1.25+9a56a7cd04"
+                },
+                {
+                    "number": 55,
+                    "content": "\t   |-- fabric-key-binding-api-v1 1.0.57+7d48d43904"
+                },
+                {
+                    "number": 56,
+                    "content": "\t   |-- fabric-keybindings-v0 0.2.55+df3654b304"
+                },
+                {
+                    "number": 57,
+                    "content": "\t   |-- fabric-lifecycle-events-v1 2.5.4+bf2a60eb04"
+                },
+                {
+                    "number": 58,
+                    "content": "\t   |-- fabric-loot-api-v2 3.0.35+3f89f5a504"
+                },
+                {
+                    "number": 59,
+                    "content": "\t   |-- fabric-loot-api-v3 1.0.23+203e6b2304"
+                },
+                {
+                    "number": 60,
+                    "content": "\t   |-- fabric-message-api-v1 6.0.25+7feeb73304"
+                },
+                {
+                    "number": 61,
+                    "content": "\t   |-- fabric-model-loading-api-v1 4.2.1+8041d50704"
+                },
+                {
+                    "number": 62,
+                    "content": "\t   |-- fabric-networking-api-v1 4.3.10+8998135104"
+                },
+                {
+                    "number": 63,
+                    "content": "\t   |-- fabric-object-builder-api-v1 18.0.10+7d48d43904"
+                },
+                {
+                    "number": 64,
+                    "content": "\t   |-- fabric-particles-v1 4.0.14+7feeb73304"
+                },
+                {
+                    "number": 65,
+                    "content": "\t   |-- fabric-recipe-api-v1 8.0.9+160b66fa04"
+                },
+                {
+                    "number": 66,
+                    "content": "\t   |-- fabric-registry-sync-v0 6.1.6+9a56a7cd04"
+                },
+                {
+                    "number": 67,
+                    "content": "\t   |-- fabric-renderer-api-v1 5.0.3+50f0feb204"
+                },
+                {
+                    "number": 68,
+                    "content": "\t   |-- fabric-renderer-indigo 2.0.3+50f0feb204"
+                },
+                {
+                    "number": 69,
+                    "content": "\t   |-- fabric-rendering-data-attachment-v1 0.3.57+73761d2e04"
+                },
+                {
+                    "number": 70,
+                    "content": "\t   |-- fabric-rendering-fluids-v1 3.1.19+7feeb73304"
+                },
+                {
+                    "number": 71,
+                    "content": "\t   |-- fabric-rendering-v1 10.1.2+b874120c04"
+                },
+                {
+                    "number": 72,
+                    "content": "\t   |-- fabric-resource-conditions-api-v1 5.0.13+203e6b2304"
+                },
+                {
+                    "number": 73,
+                    "content": "\t   |-- fabric-resource-loader-v0 3.0.13+9a56a7cd04"
+                },
+                {
+                    "number": 74,
+                    "content": "\t   |-- fabric-screen-api-v1 2.0.38+7feeb73304"
+                },
+                {
+                    "number": 75,
+                    "content": "\t   |-- fabric-screen-handler-api-v1 1.3.113+7feeb73304"
+                },
+                {
+                    "number": 76,
+                    "content": "\t   |-- fabric-sound-api-v1 1.0.32+7feeb73304"
+                },
+                {
+                    "number": 77,
+                    "content": "\t   |-- fabric-tag-api-v1 1.0.4+7d48d43904"
+                },
+                {
+                    "number": 78,
+                    "content": "\t   |-- fabric-transfer-api-v1 5.4.9+efa825c904"
+                },
+                {
+                    "number": 79,
+                    "content": "\t   \\-- fabric-transitive-access-wideners-v1 6.3.2+56e78b9b04"
+                },
+                {
+                    "number": 80,
+                    "content": "\t- fabric-language-kotlin 1.13.0+kotlin.2.1.0"
+                },
+                {
+                    "number": 81,
+                    "content": "\t   |-- org_jetbrains_kotlin_kotlin-reflect 2.1.0"
+                },
+                {
+                    "number": 82,
+                    "content": "\t   |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.0"
+                },
+                {
+                    "number": 83,
+                    "content": "\t   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.0"
+                },
+                {
+                    "number": 84,
+                    "content": "\t   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.0"
+                },
+                {
+                    "number": 85,
+                    "content": "\t   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.26.1"
+                },
+                {
+                    "number": 86,
+                    "content": "\t   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.9.0"
+                },
+                {
+                    "number": 87,
+                    "content": "\t   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.9.0"
+                },
+                {
+                    "number": 88,
+                    "content": "\t   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1"
+                },
+                {
+                    "number": 89,
+                    "content": "\t   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.6.0"
+                },
+                {
+                    "number": 90,
+                    "content": "\t   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.6.0"
+                },
+                {
+                    "number": 91,
+                    "content": "\t   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.3"
+                },
+                {
+                    "number": 92,
+                    "content": "\t   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.3"
+                },
+                {
+                    "number": 93,
+                    "content": "\t   \\-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.3"
+                },
+                {
+                    "number": 94,
+                    "content": "\t- fabricloader 0.16.10"
+                },
+                {
+                    "number": 95,
+                    "content": "\t   \\-- mixinextras 0.4.1"
+                },
+                {
+                    "number": 96,
+                    "content": "\t- fallingtree **.**.**.**"
+                },
+                {
+                    "number": 97,
+                    "content": "\t- inventorysorter 1.9.1-1.21.4"
+                },
+                {
+                    "number": 98,
+                    "content": "\t   \\-- kyrptconfig 1.6.1-1.21.4"
+                },
+                {
+                    "number": 99,
+                    "content": "\t- jade 17.2.0+fabric"
+                },
+                {
+                    "number": 100,
+                    "content": "\t- java 21"
+                },
+                {
+                    "number": 101,
+                    "content": "\t- jei **.**.**.**"
+                },
+                {
+                    "number": 102,
+                    "content": "\t- justhammers 21.4.0"
+                },
+                {
+                    "number": 103,
+                    "content": "\t- lootintegration_townsandtowers 1"
+                },
+                {
+                    "number": 104,
+                    "content": "\t- lootintegrations 1.21-4.0"
+                },
+                {
+                    "number": 105,
+                    "content": "\t- minecraft 1.21.4"
+                },
+                {
+                    "number": 106,
+                    "content": "\t- mr_dungeons_andtaverns 1-v4.6.3"
+                },
+                {
+                    "number": 107,
+                    "content": "\t- mr_tidal_towns 1.3.4"
+                },
+                {
+                    "number": 108,
+                    "content": "\t- mr_villager_transportation 1.3.3"
+                },
+                {
+                    "number": 109,
+                    "content": "\t- owo 0.12.20+1.21.4"
+                },
+                {
+                    "number": 110,
+                    "content": "\t   |-- io_wispforest_endec 0.1.9"
+                },
+                {
+                    "number": 111,
+                    "content": "\t   |-- io_wispforest_endec_gson 0.1.6"
+                },
+                {
+                    "number": 112,
+                    "content": "\t   |-- io_wispforest_endec_jankson 0.1.6"
+                },
+                {
+                    "number": 113,
+                    "content": "\t   \\-- io_wispforest_endec_netty 0.1.5"
+                },
+                {
+                    "number": 114,
+                    "content": "\t- polymer-bundled 0.11.5+1.21.4"
+                },
+                {
+                    "number": 115,
+                    "content": "\t   |-- polymer-autohost 0.11.5+1.21.4"
+                },
+                {
+                    "number": 116,
+                    "content": "\t   |    \\-- io_netty_netty-codec-http 4.1.82"
+                },
+                {
+                    "number": 117,
+                    "content": "\t   |-- polymer-blocks 0.11.5+1.21.4"
+                },
+                {
+                    "number": 118,
+                    "content": "\t   |-- polymer-common 0.11.5+1.21.4"
+                },
+                {
+                    "number": 119,
+                    "content": "\t   |    \\-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3"
+                },
+                {
+                    "number": 120,
+                    "content": "\t   |-- polymer-core 0.11.5+1.21.4"
+                },
+                {
+                    "number": 121,
+                    "content": "\t   |    |-- polymer-networking 0.11.5+1.21.4"
+                },
+                {
+                    "number": 122,
+                    "content": "\t   |    |    \\-- polymer-common 0.11.5+1.21.4"
+                },
+                {
+                    "number": 123,
+                    "content": "\t   |    |         \\-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3"
+                },
+                {
+                    "number": 124,
+                    "content": "\t   |    \\-- polymer-registry-sync-manipulator 0.11.5+1.21.4"
+                },
+                {
+                    "number": 125,
+                    "content": "\t   |-- polymer-resource-pack 0.11.5+1.21.4"
+                },
+                {
+                    "number": 126,
+                    "content": "\t   |    \\-- polymer-common 0.11.5+1.21.4"
+                },
+                {
+                    "number": 127,
+                    "content": "\t   |         \\-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3"
+                },
+                {
+                    "number": 128,
+                    "content": "\t   |-- polymer-resource-pack-extras 0.11.5+1.21.4"
+                },
+                {
+                    "number": 129,
+                    "content": "\t   \\-- polymer-virtual-entity 0.11.5+1.21.4"
+                },
+                {
+                    "number": 130,
+                    "content": "\t        \\-- polymer-common 0.11.5+1.21.4"
+                },
+                {
+                    "number": 131,
+                    "content": "\t             \\-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3"
+                },
+                {
+                    "number": 132,
+                    "content": "\t- roughlyenoughitems 18.0.796"
+                },
+                {
+                    "number": 133,
+                    "content": "\t   \\-- error_notifier 1.0.11"
+                },
+                {
+                    "number": 134,
+                    "content": "\t- silk-all 1.11.0"
+                },
+                {
+                    "number": 135,
+                    "content": "\t   |-- silk-commands 1.11.0"
+                },
+                {
+                    "number": 136,
+                    "content": "\t   |-- silk-core 1.11.0"
+                },
+                {
+                    "number": 137,
+                    "content": "\t   |-- silk-game 1.11.0"
+                },
+                {
+                    "number": 138,
+                    "content": "\t   |-- silk-igui 1.11.0"
+                },
+                {
+                    "number": 139,
+                    "content": "\t   |-- silk-nbt 1.11.0"
+                },
+                {
+                    "number": 140,
+                    "content": "\t   |-- silk-network 1.11.0"
+                },
+                {
+                    "number": 141,
+                    "content": "\t   \\-- silk-persistence 1.11.0"
+                },
+                {
+                    "number": 142,
+                    "content": "\t- t_and_t 1.13.3"
+                },
+                {
+                    "number": 143,
+                    "content": "\t- trashslot 21.4.3"
+                },
+                {
+                    "number": 144,
+                    "content": "\t- travelersbackpack 10.4.2"
+                },
+                {
+                    "number": 145,
+                    "content": "\t- trinkets 3.10.0"
+                },
+                {
+                    "number": 146,
+                    "content": "\t- universal-graves 3.6.0+1.21.4"
+                },
+                {
+                    "number": 147,
+                    "content": "\t   |-- common-protection-api 1.0.0"
+                },
+                {
+                    "number": 148,
+                    "content": "\t   |-- fabric-permissions-api-v0 0.3.3"
+                },
+                {
+                    "number": 149,
+                    "content": "\t   |-- placeholder-api 2.5.1+1.21.3"
+                },
+                {
+                    "number": 150,
+                    "content": "\t   |-- predicate-api 0.6.0+1.21.2"
+                },
+                {
+                    "number": 151,
+                    "content": "\t   |-- server_translations_api 2.4.0+1.21.2-rc1"
+                },
+                {
+                    "number": 152,
+                    "content": "\t   |    \\-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3"
+                },
+                {
+                    "number": 153,
+                    "content": "\t   \\-- sgui 1.8.0+1.21.4"
+                },
+                {
+                    "number": 154,
+                    "content": "\t- veinminer 2.3.0"
+                },
+                {
+                    "number": 155,
+                    "content": "\t   |-- de_miraculixx_core 2.3.0"
+                },
+                {
+                    "number": 156,
+                    "content": "\t   \\-- fabric-permissions-api-v0 0.3.3"
+                },
+                {
+                    "number": 157,
+                    "content": "\t- voicechat 1.21.4-2.5.27"
+                },
+                {
+                    "number": 158,
+                    "content": "\t   \\-- fabric-key-binding-api-v1 1.0.55+7feeb73382"
+                },
+                {
+                    "number": 159,
+                    "content": "\t- xaerominimap 25.0.0"
+                },
+                {
+                    "number": 160,
+                    "content": "\t- xaeroworldmap 1.39.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:11:22] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "[19:11:22] [main\/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:\/server\/libraries\/net\/fabricmc\/sponge-mixin\/0.15.4+mixin.0.8.7\/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot\/Fabric Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:11:22] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "[19:11:22] [main\/INFO]: Compatibility level set to JAVA_21"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:11:23] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "[19:11:23] [main\/WARN]: Reference map 'just-hammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:11:23] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "[19:11:23] [main\/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:11:23] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "[19:11:23] [main\/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:11:23] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "[19:11:23] [main\/WARN]: Error loading class: net\/minecraft\/class_287 (java.lang.ClassNotFoundException: net\/minecraft\/class_287)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:11:23] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "[19:11:23] [main\/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:11:23] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "[19:11:23] [main\/WARN]: Error loading class: net\/minecraft\/class_437 (java.lang.ClassNotFoundException: net\/minecraft\/class_437)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:11:23] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "[19:11:23] [main\/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:11:23] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "[19:11:23] [main\/WARN]: Error loading class: com\/simibubi\/create\/content\/kinetics\/base\/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com\/simibubi\/create\/content\/kinetics\/base\/BlockBreakingKineticBlockEntity)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:11:24] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "[19:11:24] [main\/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1)."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[19:11:26] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 172,
+                    "content": "[19:11:26] [main\/ERROR]: Failed to start the minecraft server"
+                },
+                {
+                    "number": 173,
+                    "content": "java.lang.RuntimeException: Mixin transformation of net.minecraft.class_1297 failed"
+                },
+                {
+                    "number": 174,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427) ~[fabric-loader-0.16.10.jar:?]"
+                },
+                {
+                    "number": 175,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.10.jar:?]"
+                },
+                {
+                    "number": 176,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.16.10.jar:?]"
+                },
+                {
+                    "number": 177,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.16.10.jar:?]"
+                },
+                {
+                    "number": 178,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]"
+                },
+                {
+                    "number": 179,
+                    "content": "\tat knot\/net.minecraft.class_2966.method_12851(class_2966.java:55) ~[server-intermediary.jar:?]"
+                },
+                {
+                    "number": 180,
+                    "content": "\tat knot\/net.minecraft.server.Main.main(Main.java:110) [server-intermediary.jar:?]"
+                },
+                {
+                    "number": 181,
+                    "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.10.jar:?]"
+                },
+                {
+                    "number": 182,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.10.jar:?]"
+                },
+                {
+                    "number": 183,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.10.jar:?]"
+                },
+                {
+                    "number": 184,
+                    "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.10.jar:?]"
+                },
+                {
+                    "number": 185,
+                    "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered"
+                },
+                {
+                    "number": 186,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                },
+                {
+                    "number": 187,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                },
+                {
+                    "number": 188,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                },
+                {
+                    "number": 189,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.10.jar:?]"
+                },
+                {
+                    "number": 190,
+                    "content": "\t... 10 more"
+                },
+                {
+                    "number": 191,
+                    "content": "Caused by: org.spongepowered.asm.mixin.injection.throwables.InjectionError: Critical injection failure: Callback method setInWater(Z)Z in expandability-common.mixins.json:swimming.EntityMixin from mod expandability failed injection check, (3\/4) succeeded. Scanned 0 target(s). Using refmap expandability-common-refmap.json"
+                },
+                {
+                    "number": 192,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.postInject(InjectionInfo.java:531) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                },
+                {
+                    "number": 193,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1490) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                },
+                {
+                    "number": 194,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:752) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                },
+                {
+                    "number": 195,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:330) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                },
+                {
+                    "number": 196,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                },
+                {
+                    "number": 197,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                },
+                {
+                    "number": 198,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                },
+                {
+                    "number": 199,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                },
+                {
+                    "number": 200,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                },
+                {
+                    "number": 201,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                },
+                {
+                    "number": 202,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.10.jar:?]"
+                },
+                {
+                    "number": 203,
+                    "content": "\t... 10 more"
+                },
+                {
+                    "number": 204,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'expandability' has a fatal error.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[19:11:26] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 172,
+                            "content": "[19:11:26] [main\/ERROR]: Failed to start the minecraft server"
+                        },
+                        {
+                            "number": 173,
+                            "content": "java.lang.RuntimeException: Mixin transformation of net.minecraft.class_1297 failed"
+                        },
+                        {
+                            "number": 174,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427) ~[fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 175,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 176,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 177,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 178,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]"
+                        },
+                        {
+                            "number": 179,
+                            "content": "\tat knot\/net.minecraft.class_2966.method_12851(class_2966.java:55) ~[server-intermediary.jar:?]"
+                        },
+                        {
+                            "number": 180,
+                            "content": "\tat knot\/net.minecraft.server.Main.main(Main.java:110) [server-intermediary.jar:?]"
+                        },
+                        {
+                            "number": 181,
+                            "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 182,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 183,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 184,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 185,
+                            "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered"
+                        },
+                        {
+                            "number": 186,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 187,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 188,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 189,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 190,
+                            "content": "\t... 10 more"
+                        },
+                        {
+                            "number": 191,
+                            "content": "Caused by: org.spongepowered.asm.mixin.injection.throwables.InjectionError: Critical injection failure: Callback method setInWater(Z)Z in expandability-common.mixins.json:swimming.EntityMixin from mod expandability failed injection check, (3\/4) succeeded. Scanned 0 target(s). Using refmap expandability-common-refmap.json"
+                        },
+                        {
+                            "number": 192,
+                            "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.postInject(InjectionInfo.java:531) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 193,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1490) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 194,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:752) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 195,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:330) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 196,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 197,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 198,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 199,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 200,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 201,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]"
+                        },
+                        {
+                            "number": 202,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.10.jar:?]"
+                        },
+                        {
+                            "number": 203,
+                            "content": "\t... 10 more"
+                        },
+                        {
+                            "number": 204,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'expandability'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.21.4",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[19:11:21] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[19:11:21] [main\/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.4"
+            },
+            {
+                "message": "Fabric loader version: 0.16.10",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[19:11:21] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[19:11:21] [main\/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.16.10"
+            }
+        ]
+    }
+}
