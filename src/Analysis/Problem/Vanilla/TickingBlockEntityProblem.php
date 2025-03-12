@@ -2,10 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Vanilla;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\BlockRemoveSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\WorldRepairSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
