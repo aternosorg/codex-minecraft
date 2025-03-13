@@ -1,0 +1,62 @@
+[27Jan2022 14:45:30.276] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing mandatory dependencies: minecraft
+[27Jan2022 14:45:35.923] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[27Jan2022 14:45:35.962] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[27Jan2022 14:45:36.068] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 29 options available, 0 override(s) found
+[27Jan2022 14:45:49.558] [main/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §emagnesium§r requires §6minecraft§r §o1.18§r
+§7Currently, §6minecraft§r§7 is §o1.18.1
+	at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:64) ~[fmlcore-1.18.1-39.0.59.jar%2355!/:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:108) ~[fmlcore-1.18.1-39.0.59.jar%2355!/:?]
+	at net.minecraftforge.fml.ModLoader.get(ModLoader.java:140) ~[fmlcore-1.18.1-39.0.59.jar%2355!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:46) ~[forge-1.18.1-39.0.59-universal.jar%2358!/:?]
+	at net.minecraft.server.Main.main(Main.java:104) ~[server-1.18.1-20211210.034407-srg.jar%2354!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:46) ~[fmlloader-1.18.1-39.0.59.jar%2323!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.0.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.0.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.0.jar%235!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.0.jar%235!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.0.jar%235!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.0.jar%235!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.0.jar%235!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
+[27Jan2022 14:45:49.843] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2022-01-27_14.45.49-fml.txt
+[27Jan2022 14:45:49.851] [main/FATAL] [net.minecraft.server.Main/]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Mod §emagnesium§r requires §6minecraft§r §o1.18§r
+§7Currently, §6minecraft§r§7 is §o1.18.1
+]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:160) ~[fmlcore-1.18.1-39.0.59.jar%2355!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:46) ~[forge-1.18.1-39.0.59-universal.jar%2358!/:?]
+	at net.minecraft.server.Main.main(Main.java:104) ~[server-1.18.1-20211210.034407-srg.jar%2354!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:46) ~[fmlloader-1.18.1-39.0.59.jar%2323!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.0.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.0.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.0.jar%235!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.0.jar%235!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.0.jar%235!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.0.jar%235!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.0.jar%235!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
