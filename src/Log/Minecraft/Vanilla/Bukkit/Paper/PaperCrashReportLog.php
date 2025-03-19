@@ -30,7 +30,7 @@ class PaperCrashReportLog extends PaperLog implements CrashReportLogTypeInterfac
                 ->addPattern("/^\s+BrandInfo: Paper \(papermc:paper\) version/m"),
             (new MultiPatternDetector())
                 ->addPattern("/^---- Minecraft Crash Report ----$/m")
-                ->addPattern("/^\s+Is Modded: Definitely; Server brand changed to 'Paper'/m")
+                ->addPattern("/^\s+Is Modded: Definitely; Server brand changed to 'Paper'$/m")
         ];
     }
 }
