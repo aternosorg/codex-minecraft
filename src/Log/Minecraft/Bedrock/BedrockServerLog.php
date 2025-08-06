@@ -7,6 +7,7 @@ use Aternos\Codex\Minecraft\Analysis\Information\Bedrock\BedrockVersionInformati
 use Aternos\Codex\Minecraft\Log\Type\ServerLogTypeInterface;
 use Aternos\Codex\Minecraft\Parser\Parser;
 use Aternos\Codex\Parser\ParserInterface;
+use Aternos\Codex\Parser\PatternParser;
 
 /**
  * Class BedrockServerLog
@@ -26,7 +27,7 @@ class BedrockServerLog extends BedrockLog implements ServerLogTypeInterface
         return (new Parser())
             ->setPattern(static::$pattern)
             ->setTimeFormat('Y-m-d H:i:s')
-            ->setMatches([Parser::PREFIX, Parser::TIME, Parser::LEVEL]);
+            ->setMatches([Parser::PREFIX, PatternParser::TIME, PatternParser::LEVEL]);
     }
 
     /**

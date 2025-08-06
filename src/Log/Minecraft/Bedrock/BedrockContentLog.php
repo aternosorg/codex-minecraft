@@ -6,6 +6,7 @@ use Aternos\Codex\Minecraft\Analyser\BedrockContentAnalyser;
 use Aternos\Codex\Minecraft\Log\Type\ContentLogTypeInterface;
 use Aternos\Codex\Minecraft\Parser\Parser;
 use Aternos\Codex\Parser\ParserInterface;
+use Aternos\Codex\Parser\PatternParser;
 
 /**
  * Class BedrockContentLog
@@ -23,7 +24,7 @@ class BedrockContentLog extends BedrockLog implements ContentLogTypeInterface
     {
         return (new Parser())
             ->setPattern(static::$pattern)
-            ->setMatches([Parser::PREFIX, Parser::LEVEL]);
+            ->setMatches([Parser::PREFIX, PatternParser::LEVEL]);
     }
 
     /**

@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla;
 
 use Aternos\Codex\Minecraft\Parser\Parser;
 use Aternos\Codex\Parser\ParserInterface;
+use Aternos\Codex\Parser\PatternParser;
 
 /**
  * Class OldVanillaServerLog
@@ -23,6 +24,6 @@ abstract class OldVanillaLog extends VanillaLog
         return (new Parser())
             ->setPattern(static::$pattern)
             ->setTimeFormat('Y-m-d H:i:s')
-            ->setMatches([Parser::PREFIX, Parser::TIME, Parser::LEVEL]);
+            ->setMatches([Parser::PREFIX, PatternParser::TIME, PatternParser::LEVEL]);
     }
 }
