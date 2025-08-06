@@ -9,11 +9,6 @@ use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 use Aternos\Codex\Minecraft\Parser\Parser;
 use Aternos\Codex\Parser\PatternParser;
 
-/**
- * Class CustomSkinLoaderLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\CustomSkinLoader
- */
 abstract class CustomSkinLoaderLog extends MinecraftLog
 {
     protected static string $prefixPattern = '\[\d{4}(?:\-\d\d){2} (?:[0-9]{2}\:?){3}(?:\] \[)?[^\]]+[ \/][A-Z]+\](?: \[[^\]]+\]:)? ';

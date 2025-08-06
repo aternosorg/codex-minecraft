@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Quilt;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class QuiltJavaVersionInformation
- *
- * @package Aternos\Codex\Minecraft\Analysis\Information\Quilt
- */
 class QuiltJavaVersionInformation extends QuiltInformation
 {
     public function __construct()
@@ -26,7 +21,7 @@ class QuiltJavaVersionInformation extends QuiltInformation
      */
     public static function getPatterns(): array
     {
-        return ['/'. VanillaServerLog::getPrefixPattern() .'Loading [0-9]+ mods:[\s\n](?:\s*- .+\n ?)*(?:\s+- )?java[ @](\d+)/'];
+        return ['/' . VanillaServerLog::getPrefixPattern() . 'Loading [0-9]+ mods:[\s\n](?:\s*- .+\n ?)*(?:\s+- )?java[ @](\d+)/'];
     }
 
     /**

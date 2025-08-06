@@ -6,11 +6,6 @@ use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\MultiPatternDetector;
 use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
 
-/**
- * Class FabricClientLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric
- */
 class FabricClientLog extends FabricLog implements ClientLogTypeInterface
 {
     /**

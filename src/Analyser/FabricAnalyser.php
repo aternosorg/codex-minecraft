@@ -12,11 +12,6 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricIncompatibleModsProble
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricMixinProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem;
 
-/**
- * Class FabricAnalyser
- *
- * @package Aternos\Codex\Minecraft\Analyser
- */
 class FabricAnalyser extends VanillaAnalyser
 {
     public function __construct()

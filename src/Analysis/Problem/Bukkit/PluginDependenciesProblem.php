@@ -8,11 +8,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class PluginDependencyProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
- */
 class PluginDependenciesProblem extends PluginFileProblem
 {
     /**

@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Bukkit;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class PluginConfigureSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\Bukkit
- */
 class PluginConfigureSolution extends PluginSolution
 {
     protected ?string $suggestedFile = null;

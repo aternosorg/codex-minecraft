@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Vanilla;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class WorldRepairSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\Vanilla
- */
 class WorldRepairSolution extends VanillaSolution
 {
     protected ?string $worldName = null;

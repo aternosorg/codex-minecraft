@@ -7,11 +7,6 @@ use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\GeyserAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 
-/**
- * Class GeyserLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Geyser
- */
 abstract class GeyserLog extends MinecraftLog
 {
     protected static string $pattern = '/^(\[(?:[0-9]{2}\:?){3}\.[0-9]{3} [^\/]+\/(\w+)\]).*$/';

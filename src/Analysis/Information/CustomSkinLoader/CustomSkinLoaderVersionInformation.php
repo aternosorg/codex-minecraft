@@ -23,7 +23,7 @@ class CustomSkinLoaderVersionInformation extends CustomSkinLoaderInformation
      */
     public static function getPatterns(): array
     {
-        return [ '/^' . CustomSkinLoaderLog::getPrefixPattern() . 'CustomSkinLoader ('. static::$versionPattern .')$/'];
+        return ['/^' . CustomSkinLoaderLog::getPrefixPattern() . 'CustomSkinLoader (' . static::$versionPattern . ')$/'];
     }
 
     /**

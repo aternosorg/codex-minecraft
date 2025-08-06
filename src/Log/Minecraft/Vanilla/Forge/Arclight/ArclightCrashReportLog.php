@@ -7,11 +7,6 @@ use Aternos\Codex\Detective\MultiPatternDetector;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaCrashReportTrait;
 use Aternos\Codex\Minecraft\Log\Type\CrashReportLogTypeInterface;
 
-/**
- * Class ArclightCrashReportLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Mohist
- */
 class ArclightCrashReportLog extends ArclightLog implements CrashReportLogTypeInterface
 {
     use VanillaCrashReportTrait;

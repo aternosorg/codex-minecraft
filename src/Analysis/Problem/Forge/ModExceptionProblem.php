@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallDifferentVersionSo
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class ModExceptionProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Forge
- */
 class ModExceptionProblem extends ModProblem
 {
     /**

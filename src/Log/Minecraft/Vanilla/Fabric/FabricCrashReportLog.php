@@ -9,11 +9,6 @@ use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\MinecraftCrashReportAnal
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaCrashReportTrait;
 use Aternos\Codex\Minecraft\Log\Type\CrashReportLogTypeInterface;
 
-/**
- * Class FabricCrashReportLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric
- */
 class FabricCrashReportLog extends FabricLog implements CrashReportLogTypeInterface
 {
     use VanillaCrashReportTrait;

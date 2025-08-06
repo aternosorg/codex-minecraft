@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Vanilla;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class VanillaVersionInformation
- *
- * @package Aternos\Codex\Minecraft\Analysis\Information\Vanilla
- */
 class VanillaVersionInformation extends VanillaInformation
 {
     protected static string $vanillaVersionPattern = '[0-9\.w]+(?:[a-z]|-(?:pre|rc)\d+)?';

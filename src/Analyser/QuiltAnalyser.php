@@ -7,11 +7,6 @@ use Aternos\Codex\Minecraft\Analysis\Information\Quilt\QuiltVanillaVersionInform
 use Aternos\Codex\Minecraft\Analysis\Information\Quilt\QuiltVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
 
-/**
- * Class QuiltAnalyser
- *
- * @package Aternos\Codex\Minecraft\Analyser
- */
 class QuiltAnalyser extends VanillaAnalyser
 {
     public function __construct()

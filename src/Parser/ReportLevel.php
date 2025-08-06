@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Parser;
 
 use Aternos\Codex\Log\LevelInterface;
 
-/**
- * Class CrashReportLevel
- *
- * @package Aternos\Codex\Minecraft\Log\CrashReport
- */
 enum ReportLevel: int implements LevelInterface
 {
     case WARNING = 4;

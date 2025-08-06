@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class UndefinedModDependencyProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Forge
- */
 abstract class UndefinedModDependencyProblem extends ModProblem
 {
     /**

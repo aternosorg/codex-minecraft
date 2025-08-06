@@ -6,11 +6,6 @@ use Aternos\Codex\Analyser\AnalyserInterface;
 use Aternos\Codex\Minecraft\Analyser\FoliaAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper\PaperLog;
 
-/**
- * Class FoliaLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Bukkit\Folia
- */
 abstract class FoliaLog extends PaperLog
 {
     protected static string $logIdentifier = "(?:Folia|CraftBukkit) version git\-Folia"

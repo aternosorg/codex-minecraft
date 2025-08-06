@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Fabric;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class FabricEntryStageProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Fabric
- */
 class FabricEntryStageProblem extends FabricModProblem
 {
     /**
@@ -26,7 +21,7 @@ class FabricEntryStageProblem extends FabricModProblem
     public static function getPatterns(): array
     {
         return [
-            "/java.lang.RuntimeException: Could not execute entrypoint stage '[^']+' due to errors, provided by '(".static::$modIDPattern.")'!/"
+            "/java.lang.RuntimeException: Could not execute entrypoint stage '[^']+' due to errors, provided by '(" . static::$modIDPattern . ")'!/"
         ];
     }
 

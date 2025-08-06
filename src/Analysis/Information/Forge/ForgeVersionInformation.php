@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Forge;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class ForgeVersionInformation
- *
- * @package Aternos\Codex\Minecraft\Analysis\Information\Forge
- */
 class ForgeVersionInformation extends ForgeInformation
 {
     protected static string $versionPattern = "[0-9\.]+";
@@ -31,8 +26,8 @@ class ForgeVersionInformation extends ForgeInformation
     public static function getPatterns(): array
     {
         return [
-            '/MinecraftForge v('. static::$versionPattern .') Initialized/',
-            '/--fml\.forgeVersion, ('. static::$versionPattern .')/'
+            '/MinecraftForge v(' . static::$versionPattern . ') Initialized/',
+            '/--fml\.forgeVersion, (' . static::$versionPattern . ')/'
         ];
     }
 

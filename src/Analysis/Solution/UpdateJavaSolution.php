@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class UpdateJavaSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution
- */
 class UpdateJavaSolution extends MinecraftSolution
 {
     protected ?string $version = null;

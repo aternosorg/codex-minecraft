@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class PluginRemoveSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine
- */
 class PluginRemoveSolution extends PluginSolution
 {
     /**

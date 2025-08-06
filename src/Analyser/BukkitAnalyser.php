@@ -19,11 +19,6 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\UnsupportedApiVersionProblem
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\UnsupportedClassVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\WorldDuplicateProblem;
 
-/**
- * Class BukkitAnalyser
- *
- * @package Aternos\Codex\Minecraft\Analyser
- */
 class BukkitAnalyser extends VanillaAnalyser
 {
     /**

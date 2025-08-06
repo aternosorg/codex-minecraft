@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Paper;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class ChangeMinimumAllowedApiVersionSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\Paper
- */
 class ChangeMinimumAllowedApiVersionSolution extends PaperSolution
 {
 

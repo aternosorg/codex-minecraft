@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution;
 use Aternos\Codex\Analysis\AutomatableSolutionInterface;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class CommandRunSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution
- */
 class CommandRunSolution extends MinecraftSolution implements AutomatableSolutionInterface
 {
     protected ?string $command = null;

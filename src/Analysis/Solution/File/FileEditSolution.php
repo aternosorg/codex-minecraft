@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\File;
 use Aternos\Codex\Analysis\AutomatableSolutionInterface;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class FileEditSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\File
- */
 class FileEditSolution extends FileSolution implements AutomatableSolutionInterface
 {
     protected ?string $pattern = null;

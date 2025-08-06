@@ -2,11 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Log;
 
-/**
- * Class Entry
- *
- * @package Aternos\Codex\Minecraft\Log
- */
 class Entry extends \Aternos\Codex\Log\Entry
 {
     protected ?string $prefix = null;

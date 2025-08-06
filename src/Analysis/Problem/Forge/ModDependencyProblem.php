@@ -6,11 +6,6 @@ use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class ModDependencyProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Forge
- */
 class ModDependencyProblem extends ModProblem
 {
     /**

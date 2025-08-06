@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Vanilla;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\ChangeMOTDSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class MalformedEncodingProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Vanilla
- */
 class MalformedEncodingProblem extends VanillaProblem
 {
     /**

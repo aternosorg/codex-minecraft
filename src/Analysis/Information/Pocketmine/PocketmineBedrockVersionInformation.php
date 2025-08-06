@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Pocketmine;
 use Aternos\Codex\Minecraft\Analysis\Information\Bedrock\BedrockVersionInformationInterface;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class PocketmineBedrockVersionInformation
- *
- * @package Aternos\Codex\Minecraft\Analysis\Information\Pocketmine
- */
 class PocketmineBedrockVersionInformation extends PocketmineInformation implements BedrockVersionInformationInterface
 {
     /**

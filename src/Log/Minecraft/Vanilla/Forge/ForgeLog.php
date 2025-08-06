@@ -12,11 +12,6 @@ use Aternos\Codex\Minecraft\Parser\Parser;
 use Aternos\Codex\Parser\ParserInterface;
 use Aternos\Codex\Parser\PatternParser;
 
-/**
- * Class ForgeLog
- *
- * @package Aternos\Codex\Minecraft\Log
- */
 abstract class ForgeLog extends VanillaLog
 {
     protected static string $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[([^\]]+)\])?\:).*$/';
