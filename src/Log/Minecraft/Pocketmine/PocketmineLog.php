@@ -9,6 +9,7 @@ use Aternos\Codex\Minecraft\Analysis\Information\Pocketmine\PocketmineBedrockVer
 use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 use Aternos\Codex\Minecraft\Parser\Parser;
 use Aternos\Codex\Parser\ParserInterface;
+use Aternos\Codex\Parser\PatternParser;
 
 /**
  * Class PocketmineLog
@@ -28,7 +29,7 @@ abstract class PocketmineLog extends MinecraftLog
         return (new Parser())
             ->setPattern(static::$pattern)
             ->setTimeFormat('Y-m-d [H:i:s')
-            ->setMatches([Parser::PREFIX, Parser::TIME, Parser::LEVEL]);
+            ->setMatches([Parser::PREFIX, PatternParser::TIME, PatternParser::LEVEL]);
     }
 
     /**

@@ -17,6 +17,7 @@ use Aternos\Codex\Minecraft\Log\Type\ServerLogTypeInterface;
 use Aternos\Codex\Minecraft\Parser\Parser;
 use Aternos\Codex\Minecraft\Translator\Translator;
 use Aternos\Codex\Parser\ParserInterface;
+use Aternos\Codex\Parser\PatternParser;
 
 /**
  * Class MinecraftLog
@@ -45,7 +46,7 @@ class MinecraftLog extends AnalysableLog implements DetectableLogInterface
     {
         return (new Parser())
             ->setPattern(static::$pattern)
-            ->setMatches([Parser::PREFIX, Parser::LEVEL]);
+            ->setMatches([Parser::PREFIX, PatternParser::LEVEL]);
     }
 
     /**

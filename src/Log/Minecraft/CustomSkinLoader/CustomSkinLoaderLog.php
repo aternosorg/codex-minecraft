@@ -7,6 +7,7 @@ use Aternos\Codex\Minecraft\Analyser\CustomSkinLoaderAnalyser;
 use Aternos\Codex\Minecraft\Analysis\Information\CustomSkinLoader\CustomSkinLoaderVersionInformation;
 use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 use Aternos\Codex\Minecraft\Parser\Parser;
+use Aternos\Codex\Parser\PatternParser;
 
 /**
  * Class CustomSkinLoaderLog
@@ -27,7 +28,7 @@ abstract class CustomSkinLoaderLog extends MinecraftLog
         return (new Parser())
             ->setPattern(static::$pattern)
             ->setTimeFormat('Y-m-d H:i:s')
-            ->setMatches([Parser::PREFIX, Parser::TIME, Parser::LEVEL]);
+            ->setMatches([Parser::PREFIX, PatternParser::TIME, PatternParser::LEVEL]);
     }
 
     public static function getDefaultAnalyser(): AnalyserInterface
