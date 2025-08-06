@@ -22,7 +22,7 @@ abstract class QuiltLog extends VanillaLog
     public static function getDetectors(): array
     {
         return array_merge(parent::getDetectors(), [
-            (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . 'Loading Minecraft '. VanillaVersionInformation::getVersionPattern() . ' with Quilt Loader/m')
+            (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . 'Loading Minecraft ' . VanillaVersionInformation::getVersionPattern() . ' with Quilt Loader/m')
         ]);
     }
 

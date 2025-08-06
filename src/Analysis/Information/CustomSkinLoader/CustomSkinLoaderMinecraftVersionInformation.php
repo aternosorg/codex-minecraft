@@ -22,6 +22,6 @@ class CustomSkinLoaderMinecraftVersionInformation extends CustomSkinLoaderInform
      */
     public static function getPatterns(): array
     {
-        return [ '/^' . CustomSkinLoaderLog::getPrefixPattern() . 'Minecraft: (' . VanillaVersionInformation::getVersionPattern() . ')$/'];
+        return ['/^' . CustomSkinLoaderLog::getPrefixPattern() . 'Minecraft: (' . VanillaVersionInformation::getVersionPattern() . ')$/'];
     }
 }

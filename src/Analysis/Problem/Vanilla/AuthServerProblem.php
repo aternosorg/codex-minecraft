@@ -2,8 +2,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Vanilla;
 
-use Aternos\Codex\Minecraft\Translator\Translator;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\AuthServerSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
  * Class AuthServerProblem

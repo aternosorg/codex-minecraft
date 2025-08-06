@@ -15,7 +15,7 @@ class CustomSkinLoaderClientLog extends CustomSkinLoaderLog implements ClientLog
     public static function getDetectors(): array
     {
         return [(new SinglePatternDetector())
-            ->setPattern("/^". static::$prefixPattern . "CustomSkinLoader "
+            ->setPattern("/^" . static::$prefixPattern . "CustomSkinLoader "
                 . CustomSkinLoaderVersionInformation::getVersionPattern() . "$/m")];
     }
 }

@@ -26,7 +26,7 @@ class QuiltJavaVersionInformation extends QuiltInformation
      */
     public static function getPatterns(): array
     {
-        return ['/'. VanillaServerLog::getPrefixPattern() .'Loading [0-9]+ mods:[\s\n](?:\s*- .+\n ?)*(?:\s+- )?java[ @](\d+)/'];
+        return ['/' . VanillaServerLog::getPrefixPattern() . 'Loading [0-9]+ mods:[\s\n](?:\s*- .+\n ?)*(?:\s+- )?java[ @](\d+)/'];
     }
 
     /**

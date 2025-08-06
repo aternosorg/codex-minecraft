@@ -7,8 +7,8 @@ class ForgeVersionInformation extends \Aternos\Codex\Minecraft\Analysis\Informat
     public static function getPatterns(): array
     {
         return [
-            '/FML: MCP (?:'. static::$versionPattern .') Powered by Forge ('. static::$versionPattern .')/',
-            '/Forge: net.minecraftforge:('. static::$versionPattern .')/',
+            '/FML: MCP (?:' . static::$versionPattern . ') Powered by Forge (' . static::$versionPattern . ')/',
+            '/Forge: net.minecraftforge:(' . static::$versionPattern . ')/',
         ];
     }
 }
