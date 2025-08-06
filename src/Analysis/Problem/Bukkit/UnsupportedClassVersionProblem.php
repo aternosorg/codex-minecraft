@@ -7,14 +7,18 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class UnsupportedClassVersionProblem extends PluginFileProblem
 {
-    protected ?string $classFileVersion = null;
+    protected ?int $classFileVersion = null;
 
     /**
-     * @return string|null
+     * @return int|null
      */
-    public function getJavaVersion(): ?string
+    public function getJavaVersion(): ?int
     {
-        return (int)$this->classFileVersion - 44;
+        if ($this->classFileVersion === null) {
+            return null;
+        }
+
+        return $this->classFileVersion - 44;
     }
 
     /**
@@ -41,7 +45,10 @@ class UnsupportedClassVersionProblem extends PluginFileProblem
     {
         parent::setMatches($matches, $patternKey);
 
-        $this->classFileVersion = $matches[3];
+        if ($matches[3] && is_numeric($matches[3])) {
+            $this->classFileVersion = intval($matches[3]);
+        }
+
         $this->addSolution((new UpdateJavaSolution())->setVersion($this->getJavaVersion()));
     }
 
