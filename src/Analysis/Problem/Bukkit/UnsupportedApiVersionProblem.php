@@ -7,12 +7,12 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class UnsupportedApiVersionProblem extends PluginFileProblem
 {
-    protected ?string $apiVersion = null;
+    protected string $apiVersion;
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getApiVersion(): ?string
+    public function getApiVersion(): string
     {
         return $this->apiVersion;
     }

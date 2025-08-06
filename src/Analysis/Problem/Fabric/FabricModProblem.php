@@ -16,12 +16,12 @@ abstract class FabricModProblem extends FabricProblem
     protected static string $modNamePattern = "(?:'([^\']+)' \((?:[^\)]+)\)|([\w-]+))";
     protected static string $modIDPattern = "([^ ,]+)";
 
-    protected ?string $modName = null;
+    protected string $modName;
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getModName(): ?string
+    public function getModName(): string
     {
         return $this->modName;
     }

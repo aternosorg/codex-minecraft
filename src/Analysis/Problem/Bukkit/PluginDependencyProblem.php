@@ -13,7 +13,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class PluginDependencyProblem extends PluginFileProblem
 {
-    protected ?string $dependencyPluginName = null;
+    protected string $dependencyPluginName;
 
     /**
      * @return string|null
