@@ -78,5 +78,16 @@
     "type-proxy": "Välityspalvelimen Loki",
     "type-content": "Sisältö Loki",
     "type-crash-report": "Kaatumis reportti",
-    "type-unknown": "TUntematon Loki"
+    "type-unknown": "TUntematon Loki",
+    "neoforge-version": "NeoForge versio",
+    "arclight-version": "Arclight versio",
+    "custom-skin-loader-version": "CustomSkinLoader versio",
+    "install-non-regional-ticking-software-solution": "Asenna ohjelmisto ilman alueellista ajankulua, kuten {{software-name}}.",
+    "type-network-protocol-error-report": "Verkkoyhteys Protokollan Virheraportti",
+    "forge-language-provider-version-problem": "Tämä modi '{{mod-file}}' tarvitsee version '{{required-version}}', mutta '{{found-version}}' versio on asennettu",
+    "plugin-api-version-lower-than-allowed-problem": "Liitännällä '{{plugin-name}}' on määritelty API-versio, joka on pienempi kuin pienin sallittu versio.",
+    "auth-server-problem": "Mojang/Microsoft todennuspalvelimet ovet tällä hetkellä saavuttamattomissa!",
+    "auth-server-solution": "Odota muutama minuutti ja yritä uudelleen. Jos ongelma toistuu, tarkista viralliset Mojang/Microsoft kanavat tiedettyjen todennuspalvelinongelmien varalta.",
+    "overworld-settings-missing-problem": "Ylämaailman asetukset puuttuvat.",
+    "missing-datapack-mod-problem": "Tietopaketti puuttuu, koska modia '{{mod-name}}' ei voida asentaa."
 }

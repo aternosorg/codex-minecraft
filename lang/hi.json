@@ -83,5 +83,11 @@
     "type-content": "कंटेंट लॉग",
     "type-crash-report": "क्रैश रिपोर्ट",
     "type-unknown": "अज्ञान लॉग",
-    "forge-language-provider-version-problem": "मॉड '{{mod-file}}' को '{{required-version}}' की आवश्यकता है, लेकिन '{{found-version}}' स्थापित है।"
+    "forge-language-provider-version-problem": "मॉड '{{mod-file}}' को '{{required-version}}' की आवश्यकता है, लेकिन '{{found-version}}' स्थापित है।",
+    "type-network-protocol-error-report": "नेटवर्क प्रोटोकॉल त्रुटि रिपोर्ट",
+    "plugin-api-version-lower-than-allowed-problem": "प्लगइन '{{plugin-name}}' में एक एपीआई संस्करण निर्दिष्ट है जो न्यूनतम अनुमत संस्करण से कम है।",
+    "auth-server-problem": "Mojang/Microsoft प्रमाणीकरण सर्वर वर्तमान में पहुंच योग्य नहीं हैं!",
+    "auth-server-solution": "कुछ मिनट प्रतीक्षा करें और पुनः प्रयास करें। यदि समस्या बनी रहती है, तो किसी भी ज्ञात प्रमाणीकरण सर्वर समस्या के लिए आधिकारिक Mojang/Microsoft चैनल की जाँच करें।",
+    "overworld-settings-missing-problem": "ओवरवर्ल्ड सेटिंग्स गायब हैं",
+    "missing-datapack-mod-problem": "डेटापैक गायब है, क्योंकि मॉड '{{mod-name}}' संभवतः स्थापित नहीं है।"
 }

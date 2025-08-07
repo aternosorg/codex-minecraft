@@ -78,5 +78,8 @@
     "type-proxy": "Rexistro do proxy",
     "type-content": "Contendo do log",
     "type-crash-report": "Reporte do colapso súbito",
-    "type-unknown": "Log descoñecido"
+    "type-unknown": "Log descoñecido",
+    "neoforge-version": "Versión de Neoforge.",
+    "arclight-version": "Versión de Arclight.",
+    "auth-server-solution": "Agarda uns minutos e volve a tentar. Se o problema persiste, comproba os canais oficiais de Mojang/microsoft para calquera erro de autenticación de servidores coñecido"
 }

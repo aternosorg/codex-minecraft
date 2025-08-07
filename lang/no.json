@@ -84,5 +84,12 @@
     "type-content": "inneholdslogg",
     "type-crash-report": "Krasj-rapport",
     "type-unknown": "Ukjent logg",
-    "forge-language-provider-version-problem": "Modden '{{mod-file}}' krever '{{required-version}}', men '{{found-version}}' er installert."
+    "forge-language-provider-version-problem": "Modden '{{mod-file}}' krever '{{required-version}}', men '{{found-version}}' er installert.",
+    "type-network-protocol-error-report": "Netverks protokoll feil raport",
+    "plugin-api-version-lower-than-allowed-problem": "Programtillegget '{{plugin-name}}' har en API-versjon spesifisert som er lavere enn den minimum tillatte versjonen.",
+    "change-minimum-api-version-solution": "Endre 'minimum-api' i bukkit.yml til {{api-version}}, lavere eller til og med 'ingen'.",
+    "auth-server-problem": "Mojang/Microsoft-autentiseringsserverne er for tiden utilgjengelige!",
+    "auth-server-solution": "Vent noen minutter og prøv igjen. Hvis problemet vedvarer, sjekk de offisielle Mojang/Microsoft kanalene for eventuelle problemer med en kjent autentiseringstjeneren.",
+    "overworld-settings-missing-problem": "Innstillinger for oververden mangler",
+    "missing-datapack-mod-problem": "Datapack mangler, fordi moden '{{mod-name}}' kanskje ikke er installert."
 }

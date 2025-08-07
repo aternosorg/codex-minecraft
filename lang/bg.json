@@ -78,5 +78,12 @@
     "type-proxy": "Лог на прохито",
     "type-content": "Лог на контента",
     "type-crash-report": "Доклад за Срив",
-    "type-unknown": "Незнаен лог"
+    "type-unknown": "Незнаен лог",
+    "neoforge-version": "Версия на Neoforge",
+    "arclight-version": "Версия на Arclight",
+    "custom-skin-loader-version": "Версия на CustomSkinLoader",
+    "plugin-regional-ticking-problem": "Плъгинът {{plugin-name}} не поддържа регионално тиктакане.",
+    "install-non-regional-ticking-software-solution": "Инсталирайте софтуер без регионално тиктакане като {{software-name}}",
+    "type-network-protocol-error-report": "Доклад за грешка в мрежовия протокол",
+    "forge-language-provider-version-problem": "Модификация '{{mod-file}}'  изисква '{{required-version}}', но инсталирана '{{found-version}}'."
 }

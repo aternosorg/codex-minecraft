@@ -82,5 +82,13 @@
     "type-content": "Catatan Konten",
     "type-crash-report": "Laporan Masalah",
     "type-unknown": "Catatan Tidak Dikenal",
-    "forge-language-provider-version-problem": "Mod '{{mod-file}}' memerlukan '{{required-version}}', tapi '{{found-version}}' yang terpasang."
+    "forge-language-provider-version-problem": "Mod '{{mod-file}}' memerlukan '{{required-version}}', tapi '{{found-version}}' yang terpasang.",
+    "plugin-regional-ticking-problem": "Plugin {{plugin-name}} tidak mendukung detak regional.",
+    "install-non-regional-ticking-software-solution": "Instal perangkat lunak tanpa centang regional, seperti {{software-name}}.",
+    "type-network-protocol-error-report": "Laporan Kesalahan Protokol Jaringan",
+    "plugin-api-version-lower-than-allowed-problem": "Plugin '{{plugin-name}}' memiliki versi API yang ditentukan yang lebih rendah dari versi minimum yang diizinkan.",
+    "auth-server-problem": "Server autentikasi Mojang/Microsoft saat ini tidak dapat dijangkau!",
+    "auth-server-solution": "Tunggu beberapa menit dan coba lagi. Jika masalah berlanjut, periksa saluran resmi Mojang/Microsoft untuk masalah server otentikasi yang diketahui.",
+    "overworld-settings-missing-problem": "Settingan Overworld hilang",
+    "missing-datapack-mod-problem": "Datapack hilang, karena kemungkinan mod '{{mod-name}}' tidak terinstall."
 }

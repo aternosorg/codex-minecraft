@@ -84,5 +84,12 @@
     "type-content": "Log obsahu",
     "type-crash-report": "Hlášení o pádu",
     "type-unknown": "Neznámý log",
-    "forge-language-provider-version-problem": "Mód „{{mod-file}}“ vyžaduje „{{required-version}}“, ale je nainstalován „{{found-version}}“."
+    "forge-language-provider-version-problem": "Mód „{{mod-file}}“ vyžaduje „{{required-version}}“, ale je nainstalován „{{found-version}}“.",
+    "type-network-protocol-error-report": "Zpráva o chybě síťového protokolu",
+    "plugin-api-version-lower-than-allowed-problem": "Plugin ‚{{plugin-name}}‘ používá nižší verzi API, než je minimální povolená verze.",
+    "change-minimum-api-version-solution": "Změň ‚minimum-api‘ v bukkit.yml na {{api-version}}, nižší, nebo dokonce ‚none‘.",
+    "auth-server-problem": "Autentizační servery Mojangu/Microsoftu jsou momentálně nedostupné!",
+    "auth-server-solution": "Počkej několik minut a zkus to znovu. Pokud problém přetrvává, podívej se na oficiální kanály Mojangu/Microsoftu, zda neinformují o nějakých známých problémech s autentizačními servery.",
+    "overworld-settings-missing-problem": "Chybí nastavení overworldu",
+    "missing-datapack-mod-problem": "Datapack chybí, protože mód ‚{{mod-name}}‘ možná není nainstalovaný."
 }

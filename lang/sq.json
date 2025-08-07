@@ -78,5 +78,16 @@
     "type-proxy": "Log i proxy-t",
     "type-content": "Regjistri i përmbajtjes",
     "type-crash-report": "Raporti i përplasjes",
-    "type-unknown": "Log i panjohur"
+    "type-unknown": "Log i panjohur",
+    "arclight-version": "Versioni Arclight",
+    "custom-skin-loader-version": "Versioni CustomSkinLoader",
+    "plugin-regional-ticking-problem": "Shtojca {{plugin-name}} nuk mbështet tik-takimin rajonal.",
+    "install-non-regional-ticking-software-solution": "Instaloni një softuer pa tik-takimin rajonal, si {{software-name}}.",
+    "type-network-protocol-error-report": "Raporti i gabimit të protokollit të rrjetit",
+    "forge-language-provider-version-problem": "Modi \"{{mod-file}}\" kërkon \"{{required-version}}\", por \"{{found-version}}\" është i instaluar.",
+    "plugin-api-version-lower-than-allowed-problem": "Shtojca '{{plugin-name}}' ka një version të specifikuar të API që është më i ulët se versioni minimal i lejuar.",
+    "auth-server-problem": "Serverët e vërtetimit të Mojang/Microsoft janë aktualisht të paarritshëm!",
+    "auth-server-solution": "Prisni disa minuta dhe provoni përsëri. Nëse problemi vazhdon, kontrolloni kanalet zyrtare të Mojang/Microsoft për çdo problem të njohur të serverit të vërtetimit.",
+    "overworld-settings-missing-problem": "Mungojnë cilësimet e botës",
+    "missing-datapack-mod-problem": "Paketa e të dhënave mungon, sepse modaliteti '{{mod-name}}' mund të mos jetë i instaluar."
 }

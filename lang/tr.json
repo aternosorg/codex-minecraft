@@ -84,5 +84,12 @@
     "type-content": "İçerik Günlüğü",
     "type-crash-report": "Çökme raporu",
     "type-unknown": "Bilinmeyen Günlük",
-    "forge-language-provider-version-problem": "{{mod-file}} modu {{required-version}} sürümü gerektiriyor ancak {{found-version}} sürümü yüklü."
+    "forge-language-provider-version-problem": "{{mod-file}} modu {{required-version}} sürümü gerektiriyor ancak {{found-version}} sürümü yüklü.",
+    "type-network-protocol-error-report": "Ağ Protokol Hatası Raporu",
+    "plugin-api-version-lower-than-allowed-problem": "'{{plugin-name}}' adlı eklentinin belirtilen API sürümü, izin verilen minimum sürümden daha düşük.",
+    "change-minimum-api-version-solution": "bukkit.yml'deki 'minimum-api' kısmını ya {{api-version}} ya daha düşüğü ya da 'none' ile değiştirin.",
+    "auth-server-problem": "Mojang/Microsoft kimlik doğrulama sunucuları şu anlık erişilemez durumda!",
+    "auth-server-solution": "Birkaç dakika bekleyin ve tekrar deneyin. Eğer ki sorun hâlâ sürerse bilinen herhangi bir kimlik doğrulama sunucusu problemi için resmî Mojang/Microsoft kanallarını kontrol edin.",
+    "overworld-settings-missing-problem": "Dünya ayarları eksik",
+    "missing-datapack-mod-problem": "Kaynak paketi bulunamadı, '{{mod-name}}' adlı mod yüklü olmadığı için olabilir."
 }

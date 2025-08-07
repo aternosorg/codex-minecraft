@@ -84,5 +84,10 @@
     "type-content": "Inhoudlogboek",
     "type-crash-report": "Crash Report",
     "type-unknown": "Onbekende logboek",
-    "forge-language-provider-version-problem": "Die mod '{{mod-file}}' vereis '{{required-version}}', maar '{{found-version}}' is geïnstalleer."
+    "forge-language-provider-version-problem": "Die mod '{{mod-file}}' vereis '{{required-version}}', maar '{{found-version}}' is geïnstalleer.",
+    "type-network-protocol-error-report": "Netwerkprotokolfoutverslag",
+    "plugin-api-version-lower-than-allowed-problem": "Die inprop '{{plugin-name}}' het 'n API-weergawe gespesifiseer wat laer is as die minimum toegelate weergawe.",
+    "change-minimum-api-version-solution": "Verander 'minimum-api' in bukkit.yml na {{api-version}}, laer of selfs 'geen'.",
+    "auth-server-problem": "Die Mojang/Microsoft-verifikasiebedieners is tans onbereikbaar!",
+    "auth-server-solution": "Wag 'n paar minute en probeer weer. As die probleem voortduur, kyk na die amptelike Mojang/Microsoft-kanale vir enige bekende stawingbedienerprobleme."
 }

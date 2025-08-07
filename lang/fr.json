@@ -84,5 +84,12 @@
     "type-content": "Content Log",
     "type-crash-report": "Rapport d'incident",
     "type-unknown": "Log de source inconnu",
-    "forge-language-provider-version-problem": "Le mod '{{mod-file}}' nécessite '{{required-version}}', mais la version '{{found-version}}' est actuellement installé."
+    "forge-language-provider-version-problem": "Le mod '{{mod-file}}' nécessite '{{required-version}}', mais la version '{{found-version}}' est actuellement installé.",
+    "type-network-protocol-error-report": "Rapport d'erreur du protocole réseau",
+    "plugin-api-version-lower-than-allowed-problem": "La version de l'API demandée par le plugin '{{plugin-name}}' est antérieure à la version minimale autorisée.",
+    "change-minimum-api-version-solution": "Remplacez la valeur du champ 'minimum-api' dans le fichier bukkit.yml par {{api-version}}, une version antérieure de l'API ou bien 'none'.",
+    "auth-server-problem": "Les serveurs d'authentification de Mojang/Microsoft sont actuellement injoignables.",
+    "auth-server-solution": "Réessayez après quelques minutes. Si l'erreur persiste, vérifiez que les serveurs d'authentification de Mojang/Microsoft sont opérationnels auprès des canaux officiels.",
+    "overworld-settings-missing-problem": "Paramètres Overworld manquants",
+    "missing-datapack-mod-problem": "Le pack de données est manquant, car le mod '{{mod-name}}' n'est peut être pas installé."
 }

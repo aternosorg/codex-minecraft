@@ -68,5 +68,6 @@
     "server-install-different-version-solution": "Pa install nyo ang bersyon '{{software-version}}' ng iyong server software.",
     "plugin-api-version-problem": "Ang plugin '{{plugin-name}}' ay kinakailangan ang bersyon '{{software-version}}' ng iyong server software.",
     "ticking-entity-problem": "Ang entity '{{name}}' sa lokasyon {{location}} ay nagdudulot ng mga isyu habang ticking.",
-    "remove-entity-solution": "Tanggalin ang entity '{{name}}' sa lokasyon {{location}}"
+    "remove-entity-solution": "Tanggalin ang entity '{{name}}' sa lokasyon {{location}}",
+    "plugin-dependencies-problem": "Ang plugin na '{{plugin-name}}' ay nagkukulang ng kinakailangang plugin na '{{dependency-plugin-name}}'."
 }

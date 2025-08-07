@@ -80,5 +80,14 @@
     "type-proxy": "Proxy Log",
     "type-content": "Content Log",
     "type-crash-report": "Crash Report",
-    "type-unknown": "Hindi matukoy na log"
+    "type-unknown": "Hindi matukoy na log",
+    "custom-skin-loader-version": "Bersyon ng CustomSkinLeader",
+    "plugin-regional-ticking-problem": "Ang plugin {{plugin-name}} ay hindi sumusuporta sa regional ticking.",
+    "install-non-regional-ticking-software-solution": "Mag-install ng software nang walang regional ticking, tulad ng {{software-name}}.",
+    "type-network-protocol-error-report": "Ulat ng Error sa Network Protocol",
+    "forge-language-provider-version-problem": "Ang mod '{{mod-file}}' ay kailangan ng '{{required-version}}', pero '{{found-version}}' ang naka-install.",
+    "plugin-api-version-lower-than-allowed-problem": "Ang plugin '{{plugin-name}}' ay may bersyon ng API na mas mababa kaysa sa minimum na pinapayagang bersyon.",
+    "change-minimum-api-version-solution": "Baguhin ang 'minimum-api' sa bukkit.yml to {{api-version}}, lower o 'none'.",
+    "auth-server-problem": "Ang authentication servers ng Mojang/Microsoft ay kasalukuyang di-maabot!",
+    "auth-server-solution": "Maghintay ng ilang minuto, at subukan muli. Kung magpapatuloy ang isyu, suriin ang opisyal na mga channel ng Mojang/Microsoft para sa anumang kilalang mga problema sa authentication server."
 }

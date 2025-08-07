@@ -84,5 +84,12 @@
     "type-content": "-> typ-treśćEdycja Bedrock zawartość dziennika: https://docs.microsoft.com/en-us/minecraft/creator/documents/contenterrorlog",
     "type-crash-report": "Raport awarii",
     "type-unknown": "Nieznany dziennik",
-    "forge-language-provider-version-problem": "Mod '{{mod-file}}' wymaga '{{required-version}}', a zainstalowana jest '{{found-version}}'."
+    "forge-language-provider-version-problem": "Mod '{{mod-file}}' wymaga '{{required-version}}', a zainstalowana jest '{{found-version}}'.",
+    "type-network-protocol-error-report": "Raport o błędach protokołu sieci",
+    "plugin-api-version-lower-than-allowed-problem": "Plugin '{{plugin-name}}' ma określoną wersję API, która jest niższa niż minimalna dozwolona wersja.",
+    "change-minimum-api-version-solution": "Zamień 'minimum-api' w pliku bukkit.yml na {{api-version}}, na wartość mniejszą albo nawet na 'none'.",
+    "auth-server-problem": "Systemy uwierzytelniania Mojang/Microsoft są aktualnie niedostępne!",
+    "auth-server-solution": "Poczekaj kilka minut i spróbuj ponownie. Jeśli problem będzie się powtarzał, sprawdź oficjalne kanały Mojang/Microsoft pod kątem znanych problemów z serwerem uwierzytelniania.",
+    "overworld-settings-missing-problem": "Brakujące ustawienia overworldu",
+    "missing-datapack-mod-problem": "Brakuje datapacku, ponieważ mod '{{mod-name}}' może nie być zainstalowany."
 }

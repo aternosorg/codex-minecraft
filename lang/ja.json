@@ -84,5 +84,10 @@
     "type-content": "コンテンツログ",
     "type-crash-report": "クラッシュレポート",
     "type-unknown": "不明なログ",
-    "forge-language-provider-version-problem": "mod '{{mod-file}}' は '{{required-version}}' が必要ですが、'{{found-version}}' がインストールされています。"
+    "forge-language-provider-version-problem": "mod '{{mod-file}}' は '{{required-version}}' が必要ですが、'{{found-version}}' がインストールされています。",
+    "change-minimum-api-version-solution": "Bukkit.ymlの「minimum-api」を{{api-version}}、低く、または「none」に変更します。",
+    "auth-server-problem": "Mojang/Microsoft認証サーバーは現在到達できません!",
+    "auth-server-solution": "数分待ってからもう一度やり直してください。問題が解決しない場合は、公式のMojang/Microsoftチャンネルで既知の認証サーバーの問題を確認してください。",
+    "overworld-settings-missing-problem": "オーバーワールドの設定がありません",
+    "missing-datapack-mod-problem": "mod '{{mod-name}}' がインストールされない可能性があるため、データパックが不足しています。"
 }

@@ -84,5 +84,12 @@
     "type-content": "ข้อมูล ลอการิทึม",
     "type-crash-report": "รายงานความผิดพลาดของระบบ",
     "type-unknown": "ลอการิทึมไม่ทราบ",
-    "forge-language-provider-version-problem": "ม็อด {{mod-file}} ต้องการ {{required-version}} แต่ {{found-version}} นั้นถูกติดตั้งอยู่"
+    "forge-language-provider-version-problem": "ม็อด {{mod-file}} ต้องการ {{required-version}} แต่ {{found-version}} นั้นถูกติดตั้งอยู่",
+    "type-network-protocol-error-report": "รายงานข้อผิดพลาดโปรโตคอลเครือข่าย",
+    "plugin-api-version-lower-than-allowed-problem": "ปลั๊กอิน '{{plugin-name}}' มีการระบุเวอร์ชัน API ที่ต่ำกว่าเวอร์ชันขั้นต่ำที่อนุญาต",
+    "change-minimum-api-version-solution": "เปลี่ยน 'minimum-api' ใน bukkit.yml เป็น {{api-version}} ต่ำกว่า หรือแม้แต่ 'none'",
+    "auth-server-problem": "ไม่สามารถเข้าถึงเซิร์ฟเวอร์การตรวจสอบสิทธิ์ของ Mojang/Microsoft ได้ในขณะนี้!",
+    "auth-server-solution": "รอสักครู่แล้วลองอีกครั้ง หากปัญหายังคงอยู่ ให้ตรวจสอบช่องทาง Mojang/Microsoft อย่างเป็นทางการเพื่อดูปัญหาเซิร์ฟเวอร์การตรวจสอบสิทธิ์ที่ทราบ",
+    "overworld-settings-missing-problem": "ขาดการตั้งค่าโลกปกติ (Overworld)",
+    "missing-datapack-mod-problem": "Datapack ขาดหายไปเนื่องจากอาจไม่ได้ติดตั้ง mod '{{mod-name}}'"
 }
