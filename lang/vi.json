@@ -84,5 +84,12 @@
     "type-content": "Nhật trình nội dung",
     "type-crash-report": "Báo cáo crash",
     "type-unknown": "Nhật trình không xác định",
-    "forge-language-provider-version-problem": "Mod '{{mod-file}}' cần phiên bản '{{required-version}}', nhưng phiên bản '{{found-version}}' đã được cài đặt."
+    "forge-language-provider-version-problem": "Mod '{{mod-file}}' cần phiên bản '{{required-version}}', nhưng phiên bản '{{found-version}}' đã được cài đặt.",
+    "type-network-protocol-error-report": "Báo cáo lỗi giao thức mạng",
+    "plugin-api-version-lower-than-allowed-problem": "Plugin '{{plugin-name}}' có phiên bản API chỉ định thấp hơn phiên bản tối thiểu được cho phép.",
+    "change-minimum-api-version-solution": "Thay đổi 'minimum-api' trong bukkit.yml thành {{api-version}}, thấp hơn hoặc thậm chí là 'none'.",
+    "auth-server-problem": "Máy chủ xác thực Mojang/Microsoft hiện không thể truy cập!",
+    "auth-server-solution": "Đợi vài phút và thử lại. Nếu sự cố vẫn tồn tại, hãy kiểm tra các kênh Mojang/Microsoft chính thức để biết thêm các vấn đề với máy chủ xác thực.",
+    "overworld-settings-missing-problem": "Thiếu cài đặt thế giới bên ngoài",
+    "missing-datapack-mod-problem": "Gói dữ liệu bị thiếu vì mod '{{mod-name}}' có thể chưa được cài đặt."
 }

@@ -82,5 +82,10 @@
     "type-content": "Satura žurnāls",
     "type-crash-report": "Avārijas ziņojums",
     "type-unknown": "Nezināms žurnāls",
-    "forge-language-provider-version-problem": "Modam '{{mod-file}}' vajag '{{required-version}}', bet '{{found-version}}' ir instalēta."
+    "forge-language-provider-version-problem": "Modam '{{mod-file}}' vajag '{{required-version}}', bet '{{found-version}}' ir instalēta.",
+    "install-non-regional-ticking-software-solution": "Instalējiet programmatūru bez reģionālās atzīmēšanas, kā piemēram {{software-name}}.",
+    "type-network-protocol-error-report": "Tīkla protokola kļūdas ziņojums",
+    "plugin-api-version-lower-than-allowed-problem": "Spraudnim '{{plugin-name}}' ir norādīta API versija, kas ir zemāka par minimālo atļauto versiju.",
+    "auth-server-problem": "Mojang/Microsoft autentifikācijas serveri pašlaik nav sasniedzami!",
+    "auth-server-solution": "Uzgaidiet dažas minūtes un mēģiniet vēlreiz. Ja problēma vēljoprojām pastāv, pārbaudiet vai oficiālajos Mojang/Microsoft kanālos nav zināmu autentifikācijas servera problēmu."
 }

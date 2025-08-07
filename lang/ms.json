@@ -84,5 +84,12 @@
     "type-content": "Log Kandungan",
     "type-crash-report": "Laporan Ranap",
     "type-unknown": "Log Tidak Diketahui",
-    "forge-language-provider-version-problem": "Mod '{{mod-file}}' memerlukan '{{required-version}}', tapi '{{found-version}}' dipasang."
+    "forge-language-provider-version-problem": "Mod '{{mod-file}}' memerlukan '{{required-version}}', tapi '{{found-version}}' dipasang.",
+    "type-network-protocol-error-report": "Laporan Ralat Protokol Rangkaian",
+    "plugin-api-version-lower-than-allowed-problem": "Pemalam '{{plugin-name}}' mempunyai versi API dinyatakan yang lebih rendah daripada versi minimum yang dibenarkan.",
+    "change-minimum-api-version-solution": "Tukar 'minimum-api' dalam bukkit.yml kepada {{api-version}}, lebih rendah atau malah 'none'.",
+    "auth-server-problem": "Pelayan pengesahan Mojang/Microsoft tidak dapat dicapai pada masa ini!",
+    "auth-server-solution": "Tunggu beberapa minit dan cuba lagi. Jika isu berterusan, semak saluran Mojang/Microsoft rasmi untuk sebarang masalah pelayan pengesahan yang diketahui.",
+    "overworld-settings-missing-problem": "Tetapan Permukaan hilang",
+    "missing-datapack-mod-problem": "Pek data hilang, kerana mod '{{mod-name}}' mungkin tidak dipasang."
 }

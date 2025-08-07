@@ -84,5 +84,12 @@
     "type-content": "Indholdslogbog",
     "type-crash-report": "Logbog over nedbrud",
     "type-unknown": "Ukendt logbog",
-    "forge-language-provider-version-problem": "Mod'et '{{mod-file}}' kræver '{{required-version}}', men '{{found-version}}' er installeret."
+    "forge-language-provider-version-problem": "Mod'et '{{mod-file}}' kræver '{{required-version}}', men '{{found-version}}' er installeret.",
+    "type-network-protocol-error-report": "Fejl I Netværksprotokol",
+    "plugin-api-version-lower-than-allowed-problem": "Plugin'et '{{plugin-name}}' har en API-version, der er lavere end den mindste tilladte version.",
+    "change-minimum-api-version-solution": "Skift 'minimum-api' i bukkit.yml til {{api-version}}, lavere eller endda 'intet'.",
+    "auth-server-problem": "Mojang/Microsoft godkendelses servere er i øjeblikket utilgængelige!",
+    "auth-server-solution": "Vent et par minutter og prøv igen. Hvis problemet fortsætter, tjek de officielle Mojang / Microsoft kanaler for eventuelle kendte autentificeringsserver problemer.",
+    "overworld-settings-missing-problem": "Overworld indstillinger mangler",
+    "missing-datapack-mod-problem": "Datapack mangler, fordi mod'{{mod-name}}' muligvis ikke er installeret."
 }

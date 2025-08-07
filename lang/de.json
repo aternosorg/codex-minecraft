@@ -84,5 +84,12 @@
     "type-content": "Content-Log",
     "type-crash-report": "Absturzbericht",
     "type-unknown": "Unbekannter Log",
-    "forge-language-provider-version-problem": "Die Mod '{{mod-file}}' benötigt '{{required-version}}', aber '{{found-version}}' ist installiert."
+    "forge-language-provider-version-problem": "Die Mod '{{mod-file}}' benötigt '{{required-version}}', aber '{{found-version}}' ist installiert.",
+    "type-network-protocol-error-report": "Netzwerkprotokoll-Fehlerbericht",
+    "plugin-api-version-lower-than-allowed-problem": "Für das Plugin „{{plugin-name}}“ ist eine API-Version angegeben, die niedriger ist als die zulässige Mindestversion.",
+    "change-minimum-api-version-solution": "Ändere 'minimum-api' in bukkit.yml zu {{api-version}}, niedriger oder sogar 'none'.",
+    "auth-server-problem": "Die Mojang/Microsoft Server sind aktuell nicht erreichbar!",
+    "auth-server-solution": "Warte einige Minuten und versuche es erneut. Wenn das Problem weiterhin besteht, überprüfe die offiziellen Mojang/Microsoft-Kanäle auf bekannte Serverauthentifizierungsprobleme.",
+    "overworld-settings-missing-problem": "Oberwelt-Einstellungen fehlen",
+    "missing-datapack-mod-problem": "Datenpaket fehlt, weil die Modifikation '{{mod-name}}' möglicherweise nicht installiert ist."
 }

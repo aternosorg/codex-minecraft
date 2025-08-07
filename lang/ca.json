@@ -84,5 +84,11 @@
     "type-content": "Registre del contingut",
     "type-crash-report": "Report de fallada",
     "type-unknown": "Registre desconegut",
-    "forge-language-provider-version-problem": "El mod '{{mod-file}}' necessita '{{required-version}}', però '{{found-version}}' està instal·lada."
+    "forge-language-provider-version-problem": "El mod '{{mod-file}}' necessita '{{required-version}}', però '{{found-version}}' està instal·lada.",
+    "type-network-protocol-error-report": "Informe d'error del protocol de xarxa",
+    "plugin-api-version-lower-than-allowed-problem": "El plugin \"{{plugin-name}}\" té una versió de l'API especificada que és inferior a la versió mínima permesa.",
+    "auth-server-problem": "Els servidors d'autenticació de Mojang/Microsoft no són accessibles actualment!",
+    "auth-server-solution": "Espereu uns minuts i torneu-ho a provar. Si el problema persisteix, comproveu els canals oficials de Mojang/Microsoft per detectar qualsevol problema conegut del servidor d'autenticació.",
+    "overworld-settings-missing-problem": "Falta la configuració de l'Overworld.",
+    "missing-datapack-mod-problem": "Falta el paquet de dades, perquè és possible que el mod '{{mod-name}}' no estigui instal·lat."
 }

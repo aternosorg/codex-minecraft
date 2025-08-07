@@ -84,5 +84,12 @@
     "type-content": "Лог Контента",
     "type-crash-report": "Отчёт об ошибке",
     "type-unknown": "Неизвестный Лог",
-    "forge-language-provider-version-problem": "Мод '{{mod-file}}' требует '{{required-version}}', но '{{found-version}}' установленна."
+    "forge-language-provider-version-problem": "Мод '{{mod-file}}' требует '{{required-version}}', но '{{found-version}}' установленна.",
+    "type-network-protocol-error-report": "Отчет об ошибке сетевого протокола",
+    "plugin-api-version-lower-than-allowed-problem": "В плагине '{{plugin-name}}' указана версия API, которая ниже минимально допустимой версии.",
+    "change-minimum-api-version-solution": "Измените 'minimum-api' в файле bukkit.yml на {{api-version}}, ниже, или 'none‘",
+    "auth-server-problem": "Серверы аутентификации Mojang/Microsoft временно недоступны!",
+    "auth-server-solution": "Повторите попытку через несколько минут. Если проблема повторится, попробуйте поискать об известных проблемах с серверами аутентификации на официальных каналах Mojang/Microsoft.",
+    "overworld-settings-missing-problem": "Отсутствуют настройки верхнего мира",
+    "missing-datapack-mod-problem": "Дата пак отсутствует, так как мод '{{mod-name}}' не может быть установлен."
 }

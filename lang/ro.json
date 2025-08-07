@@ -84,5 +84,12 @@
     "type-content": "Jurnal client",
     "type-crash-report": "Rapoarte Erori",
     "type-unknown": "Jurnal necunoscut",
-    "forge-language-provider-version-problem": "Modul '{{mod-file}}' are nevoie de '{{required-version}}', dar '{{found-version}}' este instalată."
+    "forge-language-provider-version-problem": "Modul '{{mod-file}}' are nevoie de '{{required-version}}', dar '{{found-version}}' este instalată.",
+    "type-network-protocol-error-report": "Network Protocol Error Report",
+    "plugin-api-version-lower-than-allowed-problem": "Plugin-ul '{{plugin-name}}' are o versiune API specificată care este mai mică decât versiunea minimă permisă.",
+    "change-minimum-api-version-solution": "Schimbă 'minimum-api' în bukkit.yml la {{api-version}}, mai mic sau chiar 'none'.",
+    "auth-server-problem": "Serverele Mojang/Microsoft de autentificare nu pot fi accesate momentan!",
+    "auth-server-solution": "Așteaptă câteva minute și încearcă din nou. Dacă problema persistă, vezi canalele oficiale Mojang/Microsoft pentru oricare probleme ale serverului de autentificare.",
+    "overworld-settings-missing-problem": "Setările din overworld lipsesc",
+    "missing-datapack-mod-problem": "Lipsește pachetul de date, deoarece este posibil ca modul '{{mod-name}}' să nu fie instalat."
 }
