@@ -1598,6 +1598,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_neoforge_1_21_1_crash_report_invalid_dist_dedicated_server(): void
+    {
+        $log = new TestLog('Vanilla/NeoForge/neoforge-1-21-1-crash-report-invalid-dist-dedicated-server.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_neoforge_1_21_1_server_mod_loading_crash_report(): void
     {
         $log = new TestLog('Vanilla/NeoForge/neoforge-1-21-1-server-mod-loading-crash-report.log');
