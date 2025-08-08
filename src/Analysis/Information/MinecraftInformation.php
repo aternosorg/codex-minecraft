@@ -13,11 +13,7 @@ use Aternos\Codex\Analysis\PatternInsightInterface;
 abstract class MinecraftInformation extends Information implements PatternInsightInterface
 {
     /**
-     * Apply the matches from the pattern
-     *
-     * @param array $matches
-     * @param mixed $patternKey
-     * @return void
+     * @inheritDoc
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {

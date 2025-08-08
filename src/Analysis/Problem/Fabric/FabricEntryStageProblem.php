@@ -31,9 +31,7 @@ class FabricEntryStageProblem extends FabricModProblem
     }
 
     /**
-     * @param array $matches
-     * @param mixed $patternKey
-     * @return void
+     * @inheritDoc
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {

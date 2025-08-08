@@ -9,6 +9,9 @@ class FabricIncompatibleModsProblem extends FabricModProblem
 {
     protected ?string $secondModName = null;
 
+    /**
+     * @inheritDoc
+     */
     public function getMessage(): string
     {
         return Translator::getInstance()->getTranslation("mod-incompatible-problem", [
@@ -45,6 +48,9 @@ class FabricIncompatibleModsProblem extends FabricModProblem
         ];
     }
 
+    /**
+     * @inheritDoc
+     */
     public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->setModName($matches[1]);
