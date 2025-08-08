@@ -37,7 +37,7 @@ class TickingEntityProblem extends CrashReportProblem
     }
 
     /**
-     * @return string[]
+     * @inheritDoc
      */
     public static function getPatterns(): array
     {

@@ -34,11 +34,7 @@ class MultiverseLoadProblem extends SpecificPluginProblem
     }
 
     /**
-     * Get an array of possible patterns
-     *
-     * The array key of the pattern will be passed to setMatches()
-     *
-     * @return string[]
+     * @inheritDoc
      */
     public static function getPatterns(): array
     {

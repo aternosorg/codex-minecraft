@@ -26,7 +26,7 @@ class MultipleModulesExportProblem extends ModProblem
     }
 
     /**
-     * @return string[]
+     * @inheritDoc
      */
     public static function getPatterns(): array
     {

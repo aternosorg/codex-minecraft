@@ -35,6 +35,9 @@ class FabricIncompatibleModsProblem extends FabricModProblem
         return $this;
     }
 
+    /**
+     * @inheritDoc
+     */
     public static function getPatterns(): array
     {
         return [

@@ -23,7 +23,7 @@ class FabricDuplicateModProblem extends FabricModProblem
     }
 
     /**
-     * @return string[]
+     * @inheritDoc
      */
     public static function getPatterns(): array
     {
