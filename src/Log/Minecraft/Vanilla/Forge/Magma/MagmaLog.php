@@ -2,7 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Magma;
 
-use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\MagmaAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\ForgeLog;
@@ -15,7 +14,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\ForgeLog;
 abstract class MagmaLog extends ForgeLog
 {
     /**
-     * @return DetectorInterface[]
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

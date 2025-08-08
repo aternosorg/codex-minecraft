@@ -25,7 +25,7 @@ abstract class VelocityLog extends MinecraftLog
     }
 
     /**
-     * @return array
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

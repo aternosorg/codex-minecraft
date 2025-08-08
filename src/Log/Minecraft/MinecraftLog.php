@@ -50,9 +50,7 @@ class MinecraftLog extends AnalysableLog implements DetectableLogInterface
     }
 
     /**
-     * Get an array of detectors matching DetectorInterface
-     *
-     * @return array
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

@@ -24,7 +24,7 @@ abstract class OldCraftBukkitLog extends OldVanillaLog
     }
 
     /**
-     * @return array
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

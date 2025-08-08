@@ -2,7 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt;
 
-use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\MultiPatternDetector;
 use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\MinecraftCrashReportAnalyser;
 use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\QuiltCrashReportAnalyser;
@@ -14,7 +13,7 @@ class QuiltCrashReportLog extends QuiltLog implements CrashReportLogTypeInterfac
     use VanillaCrashReportTrait;
 
     /**
-     * @return DetectorInterface[]
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

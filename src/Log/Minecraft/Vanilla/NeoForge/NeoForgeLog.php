@@ -3,7 +3,6 @@
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\NeoForge;
 
 use Aternos\Codex\Analyser\AnalyserInterface;
-use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\NeoForgeAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaLog;
@@ -17,7 +16,7 @@ abstract class NeoForgeLog extends VanillaLog
     protected static string $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[([^\]]+)\])?\:).*$/';
 
     /**
-     * @return DetectorInterface[]
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {
