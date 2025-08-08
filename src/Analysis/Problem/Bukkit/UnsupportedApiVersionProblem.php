@@ -30,10 +30,7 @@ class UnsupportedApiVersionProblem extends PluginFileProblem
     }
 
     /**
-     * Apply the matches from the pattern
-     *
-     * @param array $matches
-     * @param mixed $patternKey
+     * @inheritDoc
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {

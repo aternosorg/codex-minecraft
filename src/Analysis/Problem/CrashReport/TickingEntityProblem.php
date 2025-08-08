@@ -170,9 +170,7 @@ class TickingEntityProblem extends CrashReportProblem
     }
 
     /**
-     * @param array $matches
-     * @param mixed $patternKey
-     * @return void
+     * @inheritDoc
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {

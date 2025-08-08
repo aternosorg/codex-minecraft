@@ -36,11 +36,7 @@ class ChunkLoadExceptionProblem extends BukkitProblem
     }
 
     /**
-     * Apply the matches from the pattern
-     *
-     * @param array $matches
-     * @param mixed $patternKey
-     * @return void
+     * @inheritDoc
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
