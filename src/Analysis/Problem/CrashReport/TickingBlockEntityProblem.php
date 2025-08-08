@@ -16,7 +16,7 @@ class TickingBlockEntityProblem extends TickingEntityProblem
     const PATTERN_ENTITY_LOCATION = "/-- Block entity being ticked --\nDetails:(?:\n\s.*)*\n\s+Block location: World: \(([\d-]+),([\d-]+),([\d-]+)\)/";
 
     /**
-     * @return string[]
+     * @inheritDoc
      */
     public static function getPatterns(): array
     {
