@@ -1148,6 +1148,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_forge_1_20_1_duplicate_mods(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-1-20-1-duplicate-mods.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_forge_1_21_3_client(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-1-21-3-client.log');

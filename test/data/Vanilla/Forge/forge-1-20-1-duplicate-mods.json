@@ -1,0 +1,477 @@
+{
+    "id": "forge\/server",
+    "name": "Forge",
+    "type": "Server Log",
+    "version": "1.20.1",
+    "title": "Forge 1.20.1 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:03.532] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[14Apr2025 11:43:03.532] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--username, NutellaGolem, --version, 1.20.1, --gameDir, \/home\/julian\/.local\/share\/PrismLauncher\/instances\/Duplicate Mods Test\/minecraft, --assetsDir, \/home\/julian\/.local\/share\/PrismLauncher\/assets, --assetIndex, 5, --uuid, abcd9e565ac2490c8bc96c1cad18f506, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:03.534] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[14Apr2025 11:43:03.534] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by JetBrains s.r.o.; OS Linux arch amd64 version 6.13.8-200.fc41.x86_64"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:03.602] [main\/WARN] [net.minecraftforge.fml.loading.FMLConfig\/CORE]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[14Apr2025 11:43:03.602] [main\/WARN] [net.minecraftforge.fml.loading.FMLConfig\/CORE]: Configuration file \/home\/julian\/.local\/share\/PrismLauncher\/instances\/Duplicate Mods Test\/minecraft\/config\/fml.toml is not correct. Correcting"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:03.603] [main\/INFO] [net.minecraftforge.fml.loading.FMLConfig\/CORE]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[14Apr2025 11:43:03.603] [main\/INFO] [net.minecraftforge.fml.loading.FMLConfig\/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:03.604] [main\/INFO] [net.minecraftforge.fml.loading.FMLConfig\/CORE]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[14Apr2025 11:43:03.604] [main\/INFO] [net.minecraftforge.fml.loading.FMLConfig\/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:03.604] [main\/INFO] [net.minecraftforge.fml.loading.FMLConfig\/CORE]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[14Apr2025 11:43:03.604] [main\/INFO] [net.minecraftforge.fml.loading.FMLConfig\/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:03.605] [main\/INFO] [net.minecraftforge.fml.loading.FMLConfig\/CORE]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[14Apr2025 11:43:03.605] [main\/INFO] [net.minecraftforge.fml.loading.FMLConfig\/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:03.630] [main\/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler\/]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[14Apr2025 11:43:03.630] [main\/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler\/]: Loading ImmediateWindowProvider fmlearlywindow"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:03.729] [main\/INFO] [EARLYDISPLAY\/]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[14Apr2025 11:43:03.729] [main\/INFO] [EARLYDISPLAY\/]: Trying GL version 4.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:03.729] [main\/INFO] [EARLYDISPLAY\/]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[14Apr2025 11:43:03.729] [main\/INFO] [EARLYDISPLAY\/]: If this message is the only thing at the bottom of your log before a crash, you probably have a driver issue."
+                },
+                {
+                    "number": 11,
+                    "content": ""
+                },
+                {
+                    "number": 12,
+                    "content": "Possible solutions:"
+                },
+                {
+                    "number": 13,
+                    "content": "A) Make sure Minecraft is set to prefer high performance graphics in the OS and\/or driver control panel"
+                },
+                {
+                    "number": 14,
+                    "content": "B) Check for driver updates on the graphics brand's website"
+                },
+                {
+                    "number": 15,
+                    "content": "C) Try reinstalling your graphics drivers"
+                },
+                {
+                    "number": 16,
+                    "content": "D) If still not working after trying all of the above, ask for further help on the Forge forums or Discord"
+                },
+                {
+                    "number": 17,
+                    "content": ""
+                },
+                {
+                    "number": 18,
+                    "content": "You can safely ignore this message if the game starts up successfully."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:03.855] [main\/INFO] [EARLYDISPLAY\/]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[14Apr2025 11:43:03.855] [main\/INFO] [EARLYDISPLAY\/]: Requested GL version 4.6 got version 4.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:03.923] [main\/INFO] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[14Apr2025 11:43:03.923] [main\/INFO] [mixin\/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:\/home\/julian\/.local\/share\/PrismLauncher\/libraries\/org\/spongepowered\/mixin\/0.8.5\/mixin-0.8.5.jar%23140!\/ Service=ModLauncher Env=CLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:03.988] [pool-2-thread-1\/INFO] [EARLYDISPLAY\/]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[14Apr2025 11:43:03.988] [pool-2-thread-1\/INFO] [EARLYDISPLAY\/]: GL info: NVIDIA GeForce RTX 3050 Ti Laptop GPU\/PCIe\/SSE2 GL version 4.6.0 NVIDIA 570.133.07, NVIDIA Corporation"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:04.095] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[14Apr2025 11:43:04.095] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Mod file \/home\/julian\/.local\/share\/PrismLauncher\/libraries\/net\/minecraftforge\/fmlcore\/1.20.1-47.4.0\/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:04.096] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[14Apr2025 11:43:04.096] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Mod file \/home\/julian\/.local\/share\/PrismLauncher\/libraries\/net\/minecraftforge\/javafmllanguage\/1.20.1-47.4.0\/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:04.097] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[14Apr2025 11:43:04.097] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Mod file \/home\/julian\/.local\/share\/PrismLauncher\/libraries\/net\/minecraftforge\/lowcodelanguage\/1.20.1-47.4.0\/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:04.098] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[14Apr2025 11:43:04.098] [main\/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser\/LOADING]: Mod file \/home\/julian\/.local\/share\/PrismLauncher\/libraries\/net\/minecraftforge\/mclanguage\/1.20.1-47.4.0\/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:04.120] [main\/ERROR] [net.minecraftforge.fml.loading.UniqueModListBuilder\/LOADING]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[14Apr2025 11:43:04.120] [main\/ERROR] [net.minecraftforge.fml.loading.UniqueModListBuilder\/LOADING]: Found duplicate mods:"
+                },
+                {
+                    "number": 27,
+                    "content": "\tMod ID: 'rubidium' from mod files: rubidium-mc1.20.1-0.7.1.jar, embeddium-0.3.31+mc1.20.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:04.121] [main\/ERROR] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer\/SCAN]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[14Apr2025 11:43:04.121] [main\/ERROR] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer\/SCAN]: Failed to build unique mod list after mod discovery."
+                },
+                {
+                    "number": 29,
+                    "content": "net.minecraftforge.fml.loading.EarlyLoadingException: Duplicate mods found"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat net.minecraftforge.fml.loading.UniqueModListBuilder.buildUniqueList(UniqueModListBuilder.java:87) ~[fmlloader-1.20.1-47.4.0.jar:1.0]"
+                },
+                {
+                    "number": 31,
+                    "content": "\tat net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer.discoverMods(ModDiscoverer.java:125) ~[fmlloader-1.20.1-47.4.0.jar:?]"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat net.minecraftforge.fml.loading.FMLLoader.beginModScan(FMLLoader.java:173) ~[fmlloader-1.20.1-47.4.0.jar:1.0]"
+                },
+                {
+                    "number": 33,
+                    "content": "\tat net.minecraftforge.fml.loading.FMLServiceProvider.beginScanning(FMLServiceProvider.java:86) ~[fmlloader-1.20.1-47.4.0.jar:1.0]"
+                },
+                {
+                    "number": 34,
+                    "content": "\tat cpw.mods.modlauncher.TransformationServiceDecorator.runScan(TransformationServiceDecorator.java:112) ~[modlauncher-10.0.9.jar:?]"
+                },
+                {
+                    "number": 35,
+                    "content": "\tat cpw.mods.modlauncher.TransformationServicesHandler.lambda$runScanningTransformationServices$8(TransformationServicesHandler.java:100) ~[modlauncher-10.0.9.jar:?]"
+                },
+                {
+                    "number": 36,
+                    "content": "\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]"
+                },
+                {
+                    "number": 37,
+                    "content": "\tat java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779) ~[?:?]"
+                },
+                {
+                    "number": 38,
+                    "content": "\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]"
+                },
+                {
+                    "number": 39,
+                    "content": "\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]"
+                },
+                {
+                    "number": 40,
+                    "content": "\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?]"
+                },
+                {
+                    "number": 41,
+                    "content": "\tat java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?]"
+                },
+                {
+                    "number": 42,
+                    "content": "\tat java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?]"
+                },
+                {
+                    "number": 43,
+                    "content": "\tat java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?]"
+                },
+                {
+                    "number": 44,
+                    "content": "\tat java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?]"
+                },
+                {
+                    "number": 45,
+                    "content": "\tat cpw.mods.modlauncher.TransformationServicesHandler.runScanningTransformationServices(TransformationServicesHandler.java:102) ~[modlauncher-10.0.9.jar:?]"
+                },
+                {
+                    "number": 46,
+                    "content": "\tat cpw.mods.modlauncher.TransformationServicesHandler.initializeTransformationServices(TransformationServicesHandler.java:55) ~[modlauncher-10.0.9.jar:?]"
+                },
+                {
+                    "number": 47,
+                    "content": "\tat cpw.mods.modlauncher.Launcher.run(Launcher.java:88) ~[modlauncher-10.0.9.jar:?]"
+                },
+                {
+                    "number": 48,
+                    "content": "\tat cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]"
+                },
+                {
+                    "number": 49,
+                    "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]"
+                },
+                {
+                    "number": 50,
+                    "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]"
+                },
+                {
+                    "number": 51,
+                    "content": "\tat cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]"
+                },
+                {
+                    "number": 52,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 53,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]"
+                },
+                {
+                    "number": 54,
+                    "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]"
+                },
+                {
+                    "number": 55,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]"
+                },
+                {
+                    "number": 56,
+                    "content": "\tat io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) ~[?:?]"
+                },
+                {
+                    "number": 57,
+                    "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:105) ~[?:?]"
+                },
+                {
+                    "number": 58,
+                    "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?]"
+                },
+                {
+                    "number": 59,
+                    "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14Apr2025 11:43:04.130] [main\/ERROR] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer\/SCAN]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[14Apr2025 11:43:04.130] [main\/ERROR] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer\/SCAN]: Mod Discovery failed. Skipping dependency discovery."
+                },
+                {
+                    "number": 61,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "There are multiple mod files for the mod name ' 'rubidium'': 'rubidium-mc1.20.1-0.7.1.jar' and 'embeddium-0.3.31+mc1.20.1.jar'.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[14Apr2025 11:43:04.120] [main\/ERROR] [net.minecraftforge.fml.loading.UniqueModListBuilder\/LOADING]:",
+                    "lines": [
+                        {
+                            "number": 26,
+                            "content": "[14Apr2025 11:43:04.120] [main\/ERROR] [net.minecraftforge.fml.loading.UniqueModListBuilder\/LOADING]: Found duplicate mods:"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tMod ID: 'rubidium' from mod files: rubidium-mc1.20.1-0.7.1.jar, embeddium-0.3.31+mc1.20.1.jar"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file 'rubidium-mc1.20.1-0.7.1.jar'."
+                    },
+                    {
+                        "message": "Delete the file 'embeddium-0.3.31+mc1.20.1.jar'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.20.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[14Apr2025 11:43:03.532] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[14Apr2025 11:43:03.532] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--username, NutellaGolem, --version, 1.20.1, --gameDir, \/home\/julian\/.local\/share\/PrismLauncher\/instances\/Duplicate Mods Test\/minecraft, --assetsDir, \/home\/julian\/.local\/share\/PrismLauncher\/assets, --assetIndex, 5, --uuid, abcd9e565ac2490c8bc96c1cad18f506, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.20.1"
+            },
+            {
+                "message": "Forge version: 47.4.0",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[14Apr2025 11:43:03.532] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[14Apr2025 11:43:03.532] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--username, NutellaGolem, --version, 1.20.1, --gameDir, \/home\/julian\/.local\/share\/PrismLauncher\/instances\/Duplicate Mods Test\/minecraft, --assetsDir, \/home\/julian\/.local\/share\/PrismLauncher\/assets, --assetIndex, 5, --uuid, abcd9e565ac2490c8bc96c1cad18f506, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "47.4.0"
+            },
+            {
+                "message": "Java version: 17.0.12",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[14Apr2025 11:43:03.534] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[14Apr2025 11:43:03.534] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by JetBrains s.r.o.; OS Linux arch amd64 version 6.13.8-200.fc41.x86_64"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17.0.12"
+            }
+        ]
+    }
+}
