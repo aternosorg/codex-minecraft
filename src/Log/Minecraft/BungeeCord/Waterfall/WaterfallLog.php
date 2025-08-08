@@ -16,7 +16,7 @@ abstract class WaterfallLog extends BungeeCordLog
     protected static string $prefixPattern = '(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\]\:) ';
 
     /**
-     * @return array
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

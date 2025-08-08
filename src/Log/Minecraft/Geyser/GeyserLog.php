@@ -2,7 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Geyser;
 
-use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\GeyserAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
@@ -26,7 +25,7 @@ abstract class GeyserLog extends MinecraftLog
     }
 
     /**
-     * @return DetectorInterface[]
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

@@ -3,7 +3,6 @@
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt;
 
 use Aternos\Codex\Analyser\AnalyserInterface;
-use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\QuiltAnalyser;
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
@@ -17,7 +16,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaLog;
 abstract class QuiltLog extends VanillaLog
 {
     /**
-     * @return DetectorInterface[]
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

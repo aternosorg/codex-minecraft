@@ -2,7 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\PrismLauncher;
 
-use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 use Aternos\Codex\Minecraft\Parser\Parser;
@@ -23,7 +22,7 @@ abstract class PrismLauncherLog extends MinecraftLog
     }
 
     /**
-     * @return DetectorInterface[]
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

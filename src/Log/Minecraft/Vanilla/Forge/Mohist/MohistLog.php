@@ -3,7 +3,6 @@
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Mohist;
 
 use Aternos\Codex\Analyser\AnalyserInterface;
-use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\MohistAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\ForgeLog;
@@ -18,7 +17,7 @@ abstract class MohistLog extends ForgeLog
     protected static string $prefixPattern = '(\[(?:[0-9]{2}[a-zA-Z]+[0-9]+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?\:) ';
 
     /**
-     * @return DetectorInterface[]
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

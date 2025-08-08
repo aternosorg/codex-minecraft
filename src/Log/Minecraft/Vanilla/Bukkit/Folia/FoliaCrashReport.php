@@ -2,7 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Folia;
 
-use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\MultiPatternDetector;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaCrashReportTrait;
 use Aternos\Codex\Minecraft\Log\Type\CrashReportLogTypeInterface;
@@ -17,7 +16,7 @@ class FoliaCrashReport extends FoliaLog implements CrashReportLogTypeInterface
     use VanillaCrashReportTrait;
 
     /**
-     * @return DetectorInterface[]
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

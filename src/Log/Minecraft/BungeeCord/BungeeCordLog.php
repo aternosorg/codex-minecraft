@@ -2,7 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\BungeeCord;
 
-use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\BungeeCordAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
@@ -26,7 +25,7 @@ abstract class BungeeCordLog extends MinecraftLog implements ProxyLogTypeInterfa
     }
 
     /**
-     * @return DetectorInterface[]
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

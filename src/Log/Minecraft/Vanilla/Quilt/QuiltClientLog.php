@@ -2,7 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt;
 
-use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\MultiPatternDetector;
 use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
 
@@ -14,7 +13,7 @@ use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
 class QuiltClientLog extends QuiltLog implements ClientLogTypeInterface
 {
     /**
-     * @return DetectorInterface[]
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

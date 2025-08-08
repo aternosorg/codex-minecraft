@@ -2,7 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\CustomSkinLoader;
 
-use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analysis\Information\CustomSkinLoader\CustomSkinLoaderVersionInformation;
 use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
@@ -10,7 +9,7 @@ use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
 class CustomSkinLoaderClientLog extends CustomSkinLoaderLog implements ClientLogTypeInterface
 {
     /**
-     * @return DetectorInterface[]
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

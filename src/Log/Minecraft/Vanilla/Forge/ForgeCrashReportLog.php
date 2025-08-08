@@ -2,7 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge;
 
-use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\MultiPatternDetector;
 use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\ForgeCrashReportAnalyser;
 use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\MinecraftCrashReportAnalyser;
@@ -19,7 +18,7 @@ class ForgeCrashReportLog extends ForgeLog implements CrashReportLogTypeInterfac
     use VanillaCrashReportTrait;
 
     /**
-     * @return DetectorInterface[]
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {

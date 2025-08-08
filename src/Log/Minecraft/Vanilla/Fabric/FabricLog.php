@@ -3,7 +3,6 @@
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric;
 
 use Aternos\Codex\Analyser\AnalyserInterface;
-use Aternos\Codex\Detective\DetectorInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\FabricAnalyser;
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
@@ -20,7 +19,7 @@ abstract class FabricLog extends VanillaLog
     protected static string $prefixPattern = '(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\]\:?) ';
 
     /**
-     * @return DetectorInterface[]
+     * @inheritDoc
      */
     public static function getDetectors(): array
     {
