@@ -13,7 +13,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class ModWrongMinecraftVersionProblem extends ModProblem
 {
-    protected ?string $minecraftVersion = null;
+    protected string $minecraftVersion;
 
     /**
      * @return string

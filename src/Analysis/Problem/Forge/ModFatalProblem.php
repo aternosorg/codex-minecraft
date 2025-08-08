@@ -14,9 +14,10 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class ModFatalProblem extends ModProblem
 {
+    protected string $modId;
+
     protected ?string $modFileName = null;
     protected ?string $modVersion = null;
-    protected ?string $modId = null;
 
     /**
      * Get a human-readable message
@@ -87,9 +88,9 @@ class ModFatalProblem extends ModProblem
     }
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getModId(): ?string
+    public function getModId(): string
     {
         return $this->modId;
     }

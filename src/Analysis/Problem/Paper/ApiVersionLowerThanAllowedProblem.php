@@ -13,7 +13,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class ApiVersionLowerThanAllowedProblem extends PluginFileProblem
 {
-    protected ?string $pluginApiVersion = null;
+    protected string $pluginApiVersion;
 
     /**
      * Get a human-readable message
@@ -50,9 +50,9 @@ class ApiVersionLowerThanAllowedProblem extends PluginFileProblem
     }
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getPluginApiVersion(): ?string
+    public function getPluginApiVersion(): string
     {
         return $this->pluginApiVersion;
     }

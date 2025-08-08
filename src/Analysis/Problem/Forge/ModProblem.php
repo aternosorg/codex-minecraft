@@ -11,7 +11,7 @@ use Aternos\Codex\Analysis\InsightInterface;
  */
 abstract class ModProblem extends ForgeProblem
 {
-    protected ?string $modName = null;
+    protected string $modName;
 
     /**
      * @return string

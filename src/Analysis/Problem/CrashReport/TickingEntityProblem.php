@@ -32,7 +32,7 @@ class TickingEntityProblem extends CrashReportProblem
     {
         return Translator::getInstance()->getTranslation("ticking-entity-problem", [
             "name" => $this->getName(),
-            "location" => $this->getLocationX() . ", " . $this->getLocationY() . ", " . $this->getLocationZ()
+            "location" => sprintf("%s, %s, %s", $this->getLocationX(), $this->getLocationY(), $this->getLocationZ())
         ]);
     }
 
