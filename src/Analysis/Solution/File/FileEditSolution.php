@@ -21,10 +21,10 @@ class FileEditSolution extends FileSolution implements AutomatableSolutionInterf
      * @param string $replacement The replacement string for the matched pattern.
      */
     public function __construct(
-        protected string       $path,
-        protected FilePathType $type = FilePathType::RELATIVE,
-        protected string       $pattern,
-        protected string       $replacement
+        string           $path,
+        FilePathType     $type = FilePathType::RELATIVE,
+        protected string $pattern,
+        protected string $replacement
     )
     {
         parent::__construct($path, $type);
