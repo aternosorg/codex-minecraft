@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\WorldRepairSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class MultiverseLoadProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin
- */
 class MultiverseLoadProblem extends SpecificPluginProblem
 {
     protected ?string $worldName = null;

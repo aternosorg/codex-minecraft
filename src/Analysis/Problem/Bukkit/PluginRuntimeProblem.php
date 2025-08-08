@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class PluginRuntimeProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
- */
 class PluginRuntimeProblem extends PluginProblem
 {
     /**

@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\CrashReport;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\CrashReport\RemoveBlockEntitySolution;
 
-/**
- * Class TickingBlockEntityProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\CrashReport
- */
 class TickingBlockEntityProblem extends TickingEntityProblem
 {
     const PATTERN_ENTITY_NAME = "/-- Block entity being ticked --\nDetails:(?:\n\t.*)*\n\s+Name: ([\w\.]+:[\w\.]+)/";

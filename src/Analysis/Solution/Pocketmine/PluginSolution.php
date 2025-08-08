@@ -2,11 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine;
 
-/**
- * Class PluginSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine
- */
 abstract class PluginSolution extends PocketmineSolution
 {
     protected ?string $pluginName = null;

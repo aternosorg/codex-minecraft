@@ -2,16 +2,10 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Fabric;
 
-
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class FabricDuplicateModProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Fabric
- */
 class FabricDuplicateModProblem extends FabricModProblem
 {
     /**

@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Folia;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class InstallNonRegionalTickingSoftwareSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\Folia
- */
 class InstallNonRegionalTickingSoftwareSolution extends FoliaSolution
 {
     /**

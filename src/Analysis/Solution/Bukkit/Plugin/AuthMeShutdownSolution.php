@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\Plugin;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileEditSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class AuthMeShutdownSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\Plugin
- */
 class AuthMeShutdownSolution extends FileEditSolution
 {
     protected ?string $path = 'plugins/AuthMe/config.yml';

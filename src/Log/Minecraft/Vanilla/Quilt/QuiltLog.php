@@ -8,11 +8,6 @@ use Aternos\Codex\Minecraft\Analyser\QuiltAnalyser;
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaLog;
 
-/**
- * Class QuiltLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Quilt
- */
 abstract class QuiltLog extends VanillaLog
 {
     /**

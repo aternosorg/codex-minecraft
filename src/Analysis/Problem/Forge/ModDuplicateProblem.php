@@ -6,11 +6,6 @@ use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class ModDuplicateProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Forge
- */
 class ModDuplicateProblem extends ModProblem
 {
     protected ?string $firstModPath = null;

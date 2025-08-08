@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine;
 
 use Aternos\Codex\Analysis\InsightInterface;
 
-/**
- * Class PluginProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine
- */
 abstract class PluginProblem extends PocketmineProblem
 {
     protected ?string $pluginName = null;

@@ -6,11 +6,6 @@ use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class AmbiguousPluginNameProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
- */
 class AmbiguousPluginNameProblem extends PluginProblem
 {
     protected ?string $firstPluginPath = null;

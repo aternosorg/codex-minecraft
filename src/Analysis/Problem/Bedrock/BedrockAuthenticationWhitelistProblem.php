@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bedrock\DisableWhitelistSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bedrock\EnableAuthenticationSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class BedrockAuthenticationWhitelistProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Bedrock
- */
 class BedrockAuthenticationWhitelistProblem extends BedrockProblem
 {
     /**

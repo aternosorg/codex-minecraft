@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Forge;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class ModRemoveSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\Forge
- */
 class ModRemoveSolution extends ModSolution
 {
     /**

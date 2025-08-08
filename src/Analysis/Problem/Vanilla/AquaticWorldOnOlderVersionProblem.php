@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\AquaticVersionInstallSolut
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class AquaticWorldOnOlderVersionProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Vanilla
- */
 class AquaticWorldOnOlderVersionProblem extends VanillaProblem
 {
     /**

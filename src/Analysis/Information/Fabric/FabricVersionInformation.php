@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformati
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class FabricVersionInformation
- *
- * @package Aternos\Codex\Minecraft\Analysis\Information\Forge
- */
 class FabricVersionInformation extends FabricInformation
 {
     protected static string $fabricVersionPattern = "[0-9\.]+";

@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Magma;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class MagmaVersionInformation
- *
- * @package Aternos\Codex\Minecraft\Analysis\Information\Magma
- */
 class MagmaVersionInformation extends MagmaInformation
 {
     /**

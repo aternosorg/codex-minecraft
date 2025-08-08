@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine\PluginInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class PluginRuntimeProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine
- */
 class PluginRuntimeProblem extends PluginProblem
 {
     protected ?string $pluginPath = null;

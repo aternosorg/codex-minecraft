@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Forge;
 
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
 
-/**
- * Class ForgeVanillaVersionInformation
- *
- * @package Aternos\Codex\Minecraft\Analysis\Information\Forge
- */
 class ForgeVanillaVersionInformation extends VanillaVersionInformation
 {
     /**

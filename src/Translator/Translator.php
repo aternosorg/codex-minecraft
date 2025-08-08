@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Translator;
 
 use InvalidArgumentException;
 
-/**
- * Class Translator
- *
- * @package Aternos\Codex\Minecraft\Translator
- */
 class Translator
 {
     protected const DEFAULT_LANGUAGE = "en";

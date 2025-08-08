@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Quilt;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class QuiltJavaVersionInformation
- *
- * @package Aternos\Codex\Minecraft\Analysis\Information\Quilt
- */
 class QuiltJavaVersionInformation extends QuiltInformation
 {
     public function __construct()

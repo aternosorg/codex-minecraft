@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine\PluginInstallSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class PluginDependencyProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine
- */
 class PluginDependencyProblem extends PluginProblem
 {
     protected ?string $dependencyPluginName = null;

@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\CraftBukkit;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\BukkitLog;
 
-/**
- * Class CraftBukkitServerLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Bukkit\CraftBukkit
- */
 abstract class CraftBukkitLog extends BukkitLog
 {
     protected static string $logIdentifier = "CraftBukkit version git\-Bukkit";

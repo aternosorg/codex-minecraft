@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\File;
 use Aternos\Codex\Analysis\AutomatableSolutionInterface;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class FileDeleteSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\File
- */
 class FileDeleteSolution extends FileSolution implements AutomatableSolutionInterface
 {
     /**

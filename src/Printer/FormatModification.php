@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Printer;
 
 use Aternos\Codex\Printer\Modification;
 
-/**
- * Class FormatModification
- *
- * @package Aternos\Codex\Minecraft\Printer
- */
 abstract class FormatModification extends Modification
 {
     /**

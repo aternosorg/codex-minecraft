@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\DoNothingSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class WorldModVersionProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Forge
- */
 class WorldModVersionProblem extends ModProblem
 {
     protected ?string $currentVersion = null;

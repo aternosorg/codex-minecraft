@@ -46,11 +46,6 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaNetworkProtocolErrorRep
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Velocity\VelocityProxyLog;
 
-/**
- * Class Detective
- *
- * @package Aternos\Codex\Minecraft\Detective
- */
 class Detective extends \Aternos\Codex\Detective\Detective
 {
     protected string $defaultLogClass = MinecraftLog::class;

@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginConfigureSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class PermissionsExConfigProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin
- */
 class PermissionsExConfigProblem extends SpecificPluginProblem
 {
     /**

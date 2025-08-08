@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Forge;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class ForgeJavaVersionInformation
- *
- * @package Aternos\Codex\Minecraft\Analysis\Information\Forge
- */
 class ForgeJavaVersionInformation extends ForgeInformation
 {
     public function __construct()

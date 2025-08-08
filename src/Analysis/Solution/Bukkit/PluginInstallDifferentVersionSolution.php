@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Bukkit;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class PluginInstallDifferentVersionSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\Bukkit
- */
 class PluginInstallDifferentVersionSolution extends PluginInstallSolution
 {
     /**

@@ -7,11 +7,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersi
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class PluginCommandExceptionProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
- */
 class PluginCommandExceptionProblem extends PluginProblem
 {
     protected ?string $command = null;

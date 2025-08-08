@@ -8,11 +8,6 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine\PluginDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine\PluginIncompatibleProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine\PluginRuntimeProblem;
 
-/**
- * Class PocketmineAnalyser
- *
- * @package Aternos\Codex\Minecraft\Analyser
- */
 class PocketmineAnalyser extends MinecraftAnalyser
 {
     public function __construct()

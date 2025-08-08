@@ -6,11 +6,6 @@ use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\VelocityAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 
-/**
- * Class VelocityLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Velocity
- */
 abstract class VelocityLog extends MinecraftLog
 {
     protected static string $pattern = '/^(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?\:).*$/';

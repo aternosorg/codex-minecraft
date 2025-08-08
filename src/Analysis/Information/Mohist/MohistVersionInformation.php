@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Mohist;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class MohistVersionInformation
- *
- * @package Aternos\Codex\Minecraft\Analysis\Information\Mohist
- */
 class MohistVersionInformation extends MohistInformation
 {
     /**

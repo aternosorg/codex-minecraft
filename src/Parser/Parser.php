@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Parser;
 use Aternos\Codex\Log\Entry;
 use Aternos\Codex\Parser\PatternParser;
 
-/**
- * Class Parser
- *
- * @package Aternos\Codex\Minecraft\Parser
- */
 class Parser extends PatternParser
 {
     const PREFIX = "prefix";

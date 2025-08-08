@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class MultipleModulesExportProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Forge
- */
 class MultipleModulesExportProblem extends ModProblem
 {
     protected ?string $secondModName = null;

@@ -19,11 +19,6 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Forge\PTRLibDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldMissingModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldModVersionProblem;
 
-/**
- * Class ForgeAnalyser
- *
- * @package Aternos\Codex\Minecraft\Analyser
- */
 class ForgeAnalyser extends VanillaAnalyser
 {
     public function __construct()

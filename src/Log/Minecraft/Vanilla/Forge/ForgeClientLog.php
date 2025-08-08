@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge;
 use Aternos\Codex\Detective\MultiPatternDetector;
 use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
 
-/**
- * Class ForgeClientLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge
- */
 class ForgeClientLog extends ForgeLog implements ClientLogTypeInterface
 {
     /**

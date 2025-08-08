@@ -7,11 +7,6 @@ use Aternos\Codex\Minecraft\Analyser\VanillaAnalyser;
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
 use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 
-/**
- * Class VanillaLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Vanilla
- */
 abstract class VanillaLog extends MinecraftLog
 {
     protected static string $pattern = '/^(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\]\:).*$/';

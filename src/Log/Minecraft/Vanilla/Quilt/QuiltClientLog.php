@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt;
 use Aternos\Codex\Detective\MultiPatternDetector;
 use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
 
-/**
- * Class QuiltClientLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt
- */
 class QuiltClientLog extends QuiltLog implements ClientLogTypeInterface
 {
     /**

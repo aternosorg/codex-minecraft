@@ -8,11 +8,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersi
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class AuthMeShutdownProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin
- */
 class AuthMeShutdownProblem extends SpecificPluginProblem
 {
     /**

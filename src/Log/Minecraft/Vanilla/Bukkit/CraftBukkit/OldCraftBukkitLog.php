@@ -6,11 +6,6 @@ use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\BukkitAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\OldVanillaLog;
 
-/**
- * Class OldCraftBukkitLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Bukkit\CraftBukkit
- */
 abstract class OldCraftBukkitLog extends OldVanillaLog
 {
     protected static string $logIdentifier = "CraftBukkit version git\-Bukkit";
