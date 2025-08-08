@@ -40,8 +40,8 @@ class ChunkLoadExceptionProblem extends BukkitProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->addSolution((new WorldRepairSolution())->setWorldName("world"));
-        $this->addSolution((new FileDeleteSolution())->setRelativePath("world"));
-        $this->addSolution((new ChunkRemoveSolution()));
+        $this->addSolution(new WorldRepairSolution("world"));
+        $this->addSolution(new FileDeleteSolution("world"));
+        $this->addSolution(new ChunkRemoveSolution());
     }
 }

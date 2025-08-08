@@ -11,7 +11,12 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class UpdateJavaSolution extends MinecraftSolution
 {
-    protected ?string $version = null;
+    /**
+     * @param string $version
+     */
+    public function __construct(protected string $version)
+    {
+    }
 
     /**
      * @inheritDoc
@@ -22,9 +27,9 @@ class UpdateJavaSolution extends MinecraftSolution
     }
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getVersion(): ?string
+    public function getVersion(): string
     {
         return $this->version;
     }

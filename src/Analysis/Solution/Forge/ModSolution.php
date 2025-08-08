@@ -9,12 +9,17 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Forge;
  */
 abstract class ModSolution extends ForgeSolution
 {
-    protected ?string $modName = null;
+    /**
+     * @param string $modName
+     */
+    public function __construct(protected string $modName)
+    {
+    }
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getModName(): ?string
+    public function getModName(): string
     {
         return $this->modName;
     }

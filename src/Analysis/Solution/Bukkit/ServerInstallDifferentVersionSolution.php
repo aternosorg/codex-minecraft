@@ -6,7 +6,12 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class ServerInstallDifferentVersionSolution extends BukkitSolution
 {
-    protected ?string $softwareVersion = null;
+    /**
+     * @param string $softwareVersion
+     */
+    public function __construct(protected string $softwareVersion)
+    {
+    }
 
     /**
      * Returns the suggested server software version that should be installed.

@@ -36,7 +36,7 @@ class WorldMissingModProblem extends ModProblem
     {
         $this->modName = $matches[1];
 
-        $this->addSolution((new ModInstallSolution())->setModName($this->getModName()));
-        $this->addSolution((new DoNothingSolution()));
+        $this->addSolution(new ModInstallSolution($this->getModName()));
+        $this->addSolution(new DoNothingSolution());
     }
 }
