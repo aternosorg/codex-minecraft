@@ -12,12 +12,17 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class ChangeMinimumAllowedApiVersionSolution extends PaperSolution
 {
 
-    protected ?string $apiVersion = null;
+    /**
+     * @param string $apiVersion
+     */
+    public function __construct(protected string $apiVersion)
+    {
+    }
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getApiVersion(): ?string
+    public function getApiVersion(): string
     {
         return $this->apiVersion;
     }

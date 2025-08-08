@@ -9,7 +9,12 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine;
  */
 abstract class PluginSolution extends PocketmineSolution
 {
-    protected ?string $pluginName = null;
+    /**
+     * @param string $pluginName
+     */
+    public function __construct(protected string $pluginName)
+    {
+    }
 
     /**
      * @param string $pluginName
@@ -22,9 +27,9 @@ abstract class PluginSolution extends PocketmineSolution
     }
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getPluginName(): ?string
+    public function getPluginName(): string
     {
         return $this->pluginName;
     }

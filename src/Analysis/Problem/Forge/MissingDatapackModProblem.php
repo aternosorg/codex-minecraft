@@ -41,7 +41,7 @@ class MissingDatapackModProblem extends ModProblem
     public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->modName = $matches[1];
-        $this->addSolution((new ModInstallSolution())->setModName($this->modName));
+        $this->addSolution(new ModInstallSolution($this->modName));
         $this->addSolution(new DoNothingSolution());
     }
 }

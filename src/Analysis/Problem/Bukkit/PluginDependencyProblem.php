@@ -62,7 +62,7 @@ class PluginDependencyProblem extends PluginFileProblem
         parent::setMatches($matches, $patternKey);
 
         $this->dependencyPluginName = $matches[3] ?: $matches[4];
-        $this->addSolution((new PluginInstallSolution())->setPluginName($this->getDependencyPluginName()));
+        $this->addSolution(new PluginInstallSolution($this->getDependencyPluginName()));
     }
 
     /**

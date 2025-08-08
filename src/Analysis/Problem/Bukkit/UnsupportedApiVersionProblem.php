@@ -42,7 +42,7 @@ class UnsupportedApiVersionProblem extends PluginFileProblem
         parent::setMatches($matches, $patternKey);
 
         $this->apiVersion = $matches[3];
-        $this->addSolution((new ServerInstallDifferentVersionSolution())->setSoftwareVersion($this->getApiVersion()));
+        $this->addSolution(new ServerInstallDifferentVersionSolution($this->getApiVersion()));
     }
 
 

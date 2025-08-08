@@ -44,7 +44,7 @@ class TickingBlockEntityProblem extends VanillaProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->addSolution((new GenerateNewWorldSolution()));
-        $this->addSolution((new BlockRemoveSolution()));
+        $this->addSolution(new GenerateNewWorldSolution());
+        $this->addSolution(new BlockRemoveSolution());
     }
 }

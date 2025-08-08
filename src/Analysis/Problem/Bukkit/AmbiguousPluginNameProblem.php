@@ -64,8 +64,8 @@ class AmbiguousPluginNameProblem extends PluginProblem
         $this->firstPluginPath = $this->correctPluginPath($matches[2]);
         $this->secondPluginPath = $this->correctPluginPath($matches[3]);
 
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getFirstPluginPath()));
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getSecondPluginPath()));
+        $this->addSolution(new FileDeleteSolution($this->getFirstPluginPath()));
+        $this->addSolution(new FileDeleteSolution($this->getSecondPluginPath()));
     }
 
     /**

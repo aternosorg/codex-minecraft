@@ -49,7 +49,7 @@ class LanguageProviderVersionProblem extends ModProblem
         $this->requiredVersion = $matches[3];
         $this->foundVersion = $matches[4];
 
-        $this->addSolution((new ModRemoveSolution())->setModName($this->getModName()));
-        $this->addSolution((new ForgeInstallDifferentVersionSolution()));
+        $this->addSolution(new ModRemoveSolution($this->getModName()));
+        $this->addSolution(new ForgeInstallDifferentVersionSolution());
     }
 }

@@ -38,6 +38,6 @@ class FabricEntryStageProblem extends FabricModProblem
     public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->setModName($matches[1]);
-        $this->addSolution((new ModRemoveSolution())->setModName($this->getModName()));
+        $this->addSolution(new ModRemoveSolution($this->getModName()));
     }
 }

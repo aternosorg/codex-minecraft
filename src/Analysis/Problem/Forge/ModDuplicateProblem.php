@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
 use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\File\FilePathType;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -61,8 +62,8 @@ class ModDuplicateProblem extends ModProblem
         $this->firstModPath = $matches[2];
         $this->secondModPath = $matches[3];
 
-        $this->addSolution((new FileDeleteSolution())->setAbsolutePath($this->getFirstModPath()));
-        $this->addSolution((new FileDeleteSolution())->setAbsolutePath($this->getSecondModPath()));
+        $this->addSolution(new FileDeleteSolution($this->getFirstModPath(), FilePathType::ABSOLUTE));
+        $this->addSolution(new FileDeleteSolution($this->getSecondModPath(), FilePathType::ABSOLUTE));
     }
 
     /**

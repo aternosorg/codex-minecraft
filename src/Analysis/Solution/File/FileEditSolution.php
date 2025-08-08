@@ -12,8 +12,23 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class FileEditSolution extends FileSolution implements AutomatableSolutionInterface
 {
-    protected ?string $pattern = null;
-    protected ?string $replacement = null;
+
+    /**
+     * @param string $path The relative path (without a starting slash) or absolute path to the file.
+     *                     If the path is relative, it will be treated as relative to the Minecraft server root directory.
+     * @param FilePathType $type Is the path relative or absolute?
+     * @param string $pattern The regex pattern to search for in the file content.
+     * @param string $replacement The replacement string for the matched pattern.
+     */
+    public function __construct(
+        protected string       $path,
+        protected FilePathType $type = FilePathType::RELATIVE,
+        protected string       $pattern,
+        protected string       $replacement
+    )
+    {
+        parent::__construct($path, $type);
+    }
 
     /**
      * Get the solution as a human-readable message

@@ -46,9 +46,9 @@ class AuthMeShutdownProblem extends SpecificPluginProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->addSolution((new AuthMeShutdownSolution()));
-        $this->addSolution((new PluginConfigureSolution())->setPluginName("AuthMe")->setSuggestedFile("plugins/AuthMe/config.yml"));
-        $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName("AuthMe"));
-        $this->addSolution((new PluginRemoveSolution())->setPluginName("AuthMe"));
+        $this->addSolution(new AuthMeShutdownSolution());
+        $this->addSolution(new PluginConfigureSolution("AuthMe", "plugins/AuthMe/config.yml"));
+        $this->addSolution(new PluginInstallDifferentVersionSolution("AuthMe"));
+        $this->addSolution(new PluginRemoveSolution("AuthMe"));
     }
 }

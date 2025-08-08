@@ -43,6 +43,6 @@ class MalformedEncodingProblem extends VanillaProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->addSolution((new ChangeMOTDSolution()));
+        $this->addSolution(new ChangeMOTDSolution());
     }
 }

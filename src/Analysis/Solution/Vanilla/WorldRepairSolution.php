@@ -11,7 +11,12 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  */
 class WorldRepairSolution extends VanillaSolution
 {
-    protected ?string $worldName = null;
+    /**
+     * @param string $worldName
+     */
+    public function __construct(protected string $worldName)
+    {
+    }
 
     /**
      * Get the solution as a human-readable message
@@ -34,9 +39,9 @@ class WorldRepairSolution extends VanillaSolution
     }
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getWorldName(): ?string
+    public function getWorldName(): string
     {
         return $this->worldName;
     }

@@ -56,7 +56,7 @@ class MultiverseLoadProblem extends SpecificPluginProblem
     {
         $this->worldName = $matches[1];
 
-        $this->addSolution((new WorldRepairSolution())->setWorldName($this->getWorldName()));
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getWorldName()));
+        $this->addSolution(new WorldRepairSolution($this->getWorldName()));
+        $this->addSolution(new FileDeleteSolution($this->getWorldName()));
     }
 }

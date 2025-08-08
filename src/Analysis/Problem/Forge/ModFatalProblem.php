@@ -58,16 +58,16 @@ class ModFatalProblem extends ModProblem
                 $this->modVersion = $matches[2];
                 $this->modName = $matches[3];
                 $this->modFileName = $matches[4];
-                $this->addSolution((new FileDeleteSolution())->setRelativePath("mods/" . $this->getModFileName()));
+                $this->addSolution(new FileDeleteSolution("mods/" . $this->getModFileName()));
                 break;
             case 1:
                 $this->modId = $matches[2];
                 $this->modName = $matches[1];
-                $this->addSolution((new ModRemoveSolution())->setModName($this->getModName()));
+                $this->addSolution(new ModRemoveSolution($this->getModName()));
                 break;
         }
 
-        $this->addSolution((new ModInstallDifferentVersionSolution())->setModName($this->getModName()));
+        $this->addSolution(new ModInstallDifferentVersionSolution($this->getModName()));
     }
 
     /**

@@ -45,8 +45,8 @@ class PluginRuntimeProblem extends PluginProblem
         $this->pluginPath = $matches[1];
         $this->pluginName = $matches[2];
 
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginPath()));
-        $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
+        $this->addSolution(new FileDeleteSolution($this->getPluginPath()));
+        $this->addSolution(new PluginInstallDifferentVersionSolution($this->getPluginName()));
     }
 
     /**
