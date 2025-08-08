@@ -21,6 +21,6 @@ class CustomSkinLoaderJavaVersionInformation extends CustomSkinLoaderInformation
      */
     public static function getPatterns(): array
     {
-        return [ '/^' . CustomSkinLoaderLog::getPrefixPattern() . 'Java Version: ([0-9\.]+(?:_\d+)?)/'];
+        return ['/^' . CustomSkinLoaderLog::getPrefixPattern() . 'Java Version: ([0-9\.]+(?:_\d+)?)/'];
     }
 }

@@ -38,7 +38,7 @@ class FabricIncompatibleModsProblem extends FabricModProblem
     public static function getPatterns(): array
     {
         return [
-            "/\s*- Mod ". static::$modNamePattern ." [^\\n]+ (?:is incompatible|conflicts) with [^\\n]+ of (?:mod )?". static::$modNamePattern .",/"
+            "/\s*- Mod " . static::$modNamePattern . " [^\\n]+ (?:is incompatible|conflicts) with [^\\n]+ of (?:mod )?" . static::$modNamePattern . ",/"
         ];
     }
 

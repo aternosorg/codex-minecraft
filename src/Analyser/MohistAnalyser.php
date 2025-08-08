@@ -17,6 +17,6 @@ class MohistAnalyser extends ForgeBukkitHybridAnalyser
     {
         parent::__construct();
         $this->addPossibleInsightClass(MohistVersionInformation::class);
-        $this->overridePossibleInsightClass(ForgeVersionInformation::class ,MohistForgeVersionInformation::class);
+        $this->overridePossibleInsightClass(ForgeVersionInformation::class, MohistForgeVersionInformation::class);
     }
 }

@@ -30,8 +30,8 @@ class FabricJavaVersionInformation extends FabricInformation
     public static function getPatterns(): array
     {
         return [
-            '/'. FabricLog::getPrefixPattern() .'[\[(]FabricLoader[\])] Loading [0-9]+ mods:[\s\n](?:\s*[^,]+, ?)*(?:\s+- )?java[ @](\d+)/',
-            '/'. FabricLog::getPrefixPattern() .'(?:[\[(]FabricLoader[\])] )?Loading [0-9]+ mods:[\s\n](?:\s*- .+\n ?)*(?:\s+- )?java[ @](\d+)/'
+            '/' . FabricLog::getPrefixPattern() . '[\[(]FabricLoader[\])] Loading [0-9]+ mods:[\s\n](?:\s*[^,]+, ?)*(?:\s+- )?java[ @](\d+)/',
+            '/' . FabricLog::getPrefixPattern() . '(?:[\[(]FabricLoader[\])] )?Loading [0-9]+ mods:[\s\n](?:\s*- .+\n ?)*(?:\s+- )?java[ @](\d+)/'
         ];
     }
 

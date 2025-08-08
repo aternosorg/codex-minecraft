@@ -27,7 +27,7 @@ class QuiltVersionInformation extends QuiltInformation
     public static function getPatterns(): array
     {
         return [
-            '/'. VanillaServerLog::getPrefixPattern() .'Loading Minecraft '. VanillaVersionInformation::getVersionPattern() .' with Quilt Loader ('. static::$quiltVersionInformation .')/'
+            '/' . VanillaServerLog::getPrefixPattern() . 'Loading Minecraft ' . VanillaVersionInformation::getVersionPattern() . ' with Quilt Loader (' . static::$quiltVersionInformation . ')/'
         ];
     }
 

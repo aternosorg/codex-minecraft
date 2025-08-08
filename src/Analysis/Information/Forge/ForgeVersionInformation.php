@@ -31,8 +31,8 @@ class ForgeVersionInformation extends ForgeInformation
     public static function getPatterns(): array
     {
         return [
-            '/MinecraftForge v('. static::$versionPattern .') Initialized/',
-            '/--fml\.forgeVersion, ('. static::$versionPattern .')/'
+            '/MinecraftForge v(' . static::$versionPattern . ') Initialized/',
+            '/--fml\.forgeVersion, (' . static::$versionPattern . ')/'
         ];
     }
 

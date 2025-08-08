@@ -10,7 +10,7 @@ class ServerInstallDifferentVersionSolution extends BukkitSolution
 
     /**
      * Returns the suggested server software version that should be installed.
-     * 
+     *
      * @return string
      */
     public function getSoftwareVersion(): string

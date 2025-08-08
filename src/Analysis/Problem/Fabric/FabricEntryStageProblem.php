@@ -26,7 +26,7 @@ class FabricEntryStageProblem extends FabricModProblem
     public static function getPatterns(): array
     {
         return [
-            "/java.lang.RuntimeException: Could not execute entrypoint stage '[^']+' due to errors, provided by '(".static::$modIDPattern.")'!/"
+            "/java.lang.RuntimeException: Could not execute entrypoint stage '[^']+' due to errors, provided by '(" . static::$modIDPattern . ")'!/"
         ];
     }
 

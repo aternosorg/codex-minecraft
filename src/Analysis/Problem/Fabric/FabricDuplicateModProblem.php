@@ -28,7 +28,7 @@ class FabricDuplicateModProblem extends FabricModProblem
     public static function getPatterns(): array
     {
         return [
-            "/". VanillaServerLog::getPrefixPattern() . "A critical error occurred\nnet\.fabricmc\.loader\.discovery\.ModResolutionException: Duplicate versions for mod ID '([^']+)': \[[^ ]+ at ([^\]]+)\]/"
+            "/" . VanillaServerLog::getPrefixPattern() . "A critical error occurred\nnet\.fabricmc\.loader\.discovery\.ModResolutionException: Duplicate versions for mod ID '([^']+)': \[[^ ]+ at ([^\]]+)\]/"
         ];
     }
 

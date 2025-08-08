@@ -7,7 +7,7 @@ class FabricVersionInformation extends \Aternos\Codex\Minecraft\Analysis\Informa
     public static function getPatterns(): array
     {
         return [
-            '/\t\tfabricloader: Fabric Loader ('. static::$fabricVersionPattern .')/'
+            '/\t\tfabricloader: Fabric Loader (' . static::$fabricVersionPattern . ')/'
         ];
     }
 
