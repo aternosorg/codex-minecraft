@@ -84,5 +84,12 @@
     "type-content": "内容日志",
     "type-crash-report": "崩溃报告",
     "type-unknown": "未知日志",
-    "forge-language-provider-version-problem": "模组“{{mod-file}}” 需要 “{{required-version}}”，但 “{{found-version}}”已安装。"
+    "forge-language-provider-version-problem": "模组“{{mod-file}}” 需要 “{{required-version}}”，但 “{{found-version}}”已安装。",
+    "type-network-protocol-error-report": "网络协议错误报告",
+    "plugin-api-version-lower-than-allowed-problem": "插件 '{{plugin-name}}' 指定的 API 版本低于允许的最低版本。",
+    "change-minimum-api-version-solution": "在 bukkit.yml 中将 'minimum-api' 更改为 {{api-version}}、更低版本或甚至 'none'。",
+    "auth-server-problem": "Mojang/Microsoft 的身份验证服务器目前无法访问！",
+    "auth-server-solution": "请等待几分钟后再试。如果问题仍然存在，请查看 Mojang/Microsoft 官方渠道，了解是否有已知的身份验证服务器问题。",
+    "overworld-settings-missing-problem": "缺少主世界设置",
+    "missing-datapack-mod-problem": "缺少数据包，因为可能未安装模组 '{{mod-name}}'。"
 }

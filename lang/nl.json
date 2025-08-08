@@ -84,5 +84,12 @@
     "type-content": "Content Log",
     "type-crash-report": "Crash rapport",
     "type-unknown": "Onbekende log",
-    "forge-language-provider-version-problem": "De mod '{{mod-file}}' vereist '{{required-version}}', maar '{{found-version}}' is geïnstalleerd."
+    "forge-language-provider-version-problem": "De mod '{{mod-file}}' vereist '{{required-version}}', maar '{{found-version}}' is geïnstalleerd.",
+    "type-network-protocol-error-report": "Netwerkprotocol Fout Report",
+    "plugin-api-version-lower-than-allowed-problem": "De plugin '{{plugin-name}}' heeft een API versie gespecificeerd dat lager is dan de minimale toegestane versie",
+    "change-minimum-api-version-solution": "Verander 'minimum-api' in bukkit.yml naar {{api-version}}, lager of naar 'none'.",
+    "auth-server-problem": "De Mojang/Microsoft verificatie servers zijn momenteel niet bereikbaar!",
+    "auth-server-solution": "Wacht een paar minuten en probeer opnieuw. Als het probleem zich voorblijft doen, controleer de officiële Mojang/Microsoft kanalen voor bekende problemen met de verificatie servers.",
+    "overworld-settings-missing-problem": "Instelling van de bovenwereld ontbreken",
+    "missing-datapack-mod-problem": "Datapack ontbreekt, omdat de mod '{{mod-name}}' mogelijk niet geïnstalleerd is."
 }

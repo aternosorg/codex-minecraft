@@ -84,5 +84,10 @@
     "type-content": "سجل المحتوى",
     "type-crash-report": "تقرير عن خطأ",
     "type-unknown": "سجل غير معروف",
-    "forge-language-provider-version-problem": "الإضافة '{{mod-file}}' تتطلب '{{required-version}}' لكن هذه الإضافة  '{{found-version}}' محملة"
+    "forge-language-provider-version-problem": "الإضافة '{{mod-file}}' تتطلب '{{required-version}}' لكن هذه الإضافة  '{{found-version}}' محملة",
+    "type-network-protocol-error-report": "تقرير عن خطأ بروتوكول الشبكة",
+    "auth-server-problem": "لا يمكن الوصول إلى خوادم المصادقة Mojang/Microsoft حاليا!",
+    "auth-server-solution": "انتظر بضع دقائق ثم حاول مرة أخرى. إذا استمرت المشكلة، تحقق من قنوات Mojang/Microsoft الرسمية لمعرفة أي مشاكل معروفة في خادم المصادقة.",
+    "overworld-settings-missing-problem": "إعدادات العالم مفقودة",
+    "missing-datapack-mod-problem": "الداتا باك مفقود؛ بسبب {{mod-name}} لم يتم تحميله"
 }

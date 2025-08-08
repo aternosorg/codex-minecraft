@@ -84,5 +84,12 @@
     "type-content": "Tartalom napló",
     "type-crash-report": "Összeomlási jelentés",
     "type-unknown": "Ismeretlen napló",
-    "forge-language-provider-version-problem": "A '{{mod-file}}' modnak '{{required-version}} kell, de '{{found-version}}' van telepítve."
+    "forge-language-provider-version-problem": "A '{{mod-file}}' modnak '{{required-version}} kell, de '{{found-version}}' van telepítve.",
+    "type-network-protocol-error-report": "Hálózati Protocol Hiba Jelentés",
+    "plugin-api-version-lower-than-allowed-problem": "A pluginnak '{{plugin-name}}' van egy API verziója ami alacsonyabb mint a minimum engedélyezett verzió.",
+    "change-minimum-api-version-solution": "Változtasd meg a 'minimum-api'-t a bukkit.yml-ben  {{api-version}}, kisebbre vagy akár 'none'.",
+    "auth-server-problem": "A Mojang/Microsoft hitelesítési szerverek jelenleg elérhetetlenek!",
+    "auth-server-solution": "Várj egy pár percet és próbáld újra. Ha a probléma továbbra is fennáll, nézd meg a Mojang és a Minecraft hivatalos hírcsatornáit a jelenlegi problémákról.",
+    "overworld-settings-missing-problem": "Overworld beállításai hiányoznak",
+    "missing-datapack-mod-problem": "Datacsomag hiányzik, mert a(z) '{{mod-name}}' nevű mod lehet nincs letöltve."
 }

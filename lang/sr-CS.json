@@ -84,5 +84,11 @@
     "type-content": "Evidencija sadržaja",
     "type-crash-report": "Izveštaj o otkazivanju",
     "type-unknown": "Nepoznata evidencija",
-    "forge-language-provider-version-problem": "Mod „{{mod-file}}” zahteva „{{required-version}}”, ali „{{found-version}}” je instaliran."
+    "forge-language-provider-version-problem": "Mod „{{mod-file}}” zahteva „{{required-version}}”, ali „{{found-version}}” je instaliran.",
+    "type-network-protocol-error-report": "Izveštaj o grešci mrežnog protokola",
+    "plugin-api-version-lower-than-allowed-problem": "Dodatak '{{plugin-name}}' ima navedenu verziju API-ja koja je niža od minimalno dozvoljene verzije.",
+    "change-minimum-api-version-solution": "Promenite 'minimum-api' u fajlu bukkit.yml u verziju {{api-version}}, nižu ili čak 'none'.",
+    "auth-server-problem": "Mojang/Microsoft serveri za autentifikaciju su trenutno nedostupni!",
+    "auth-server-solution": "Sačekajte nekoliko minuta i pokušajte ponovo. Ako se problem nastavi, proverite zvanične Mojang/Microsoft kanale kako biste proverili postoje li poznati problemi sa serverom za autentifikaciju.",
+    "missing-datapack-mod-problem": "Paket podataka nedostaje, jer mod '{{mod-name}}' možda nije instaliran."
 }

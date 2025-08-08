@@ -84,5 +84,12 @@
     "type-content": "Registro del contenuto",
     "type-crash-report": "Rapporto crash",
     "type-unknown": "Registro sconosciuto",
-    "forge-language-provider-version-problem": "La mod '{{mod-file}}' richiede '{{required-version}}', ma '{{found-version}}' è installata."
+    "forge-language-provider-version-problem": "La mod '{{mod-file}}' richiede '{{required-version}}', ma '{{found-version}}' è installata.",
+    "type-network-protocol-error-report": "Resoconto Errore Protocollo Di Rete",
+    "plugin-api-version-lower-than-allowed-problem": "Il plugin '{{plugin-name}}' ha una versione API specificata più bassa della minima versione consentita.",
+    "change-minimum-api-version-solution": "Cambia 'minimum-api' in bukkit.yml in {{api-version}}, più basso o anche 'none'.",
+    "auth-server-problem": "I server di autenticazione di Mojang/Microsoft sono attualmente irraggiungibili!",
+    "auth-server-solution": "Aspetta qualche minuto e riprova. Se il problema persiste, controlla i canali ufficiali di Mojang/Microsoft per problemi noti del server di autenticazione.",
+    "overworld-settings-missing-problem": "Impostazioni Overworld mancanti",
+    "missing-datapack-mod-problem": "Il datapack non viene caricato, perché la mod {{mod-name}} potrebbe non essere installata"
 }

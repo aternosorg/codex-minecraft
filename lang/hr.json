@@ -84,5 +84,11 @@
     "type-content": "Zapisi o sadržaju",
     "type-crash-report": "Izvješća o padu programa",
     "type-unknown": "Nepoznati zapisi",
-    "forge-language-provider-version-problem": "Mod '{{mod-file}}' zahtijeva '{{required-version}}', ali '{{found-version}}' je instaliran."
+    "forge-language-provider-version-problem": "Mod '{{mod-file}}' zahtijeva '{{required-version}}', ali '{{found-version}}' je instaliran.",
+    "type-network-protocol-error-report": "Mrežni Protokol error Izvješće",
+    "plugin-api-version-lower-than-allowed-problem": "Plugin '{{plugin-name}}' ima API verziju specifičnu koja je niža od najmanje dozvoljene verzije.",
+    "auth-server-problem": "Mojang/Microsoft poslužitelji za provjeru autentičnosti trenutno su nedostupni!",
+    "auth-server-solution": "Pričekajte nekoliko minuta i pokušajte ponovno. Ako se problem nastavi, provjerite službene Mojang/Microsoft kanale za poznate probleme s autentifikacijskim poslužiteljem.",
+    "overworld-settings-missing-problem": "Nedostaju postavke za Overworld",
+    "missing-datapack-mod-problem": "Datapack nedostaje jer {{mod-name}} možda nije instaliran."
 }

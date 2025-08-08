@@ -84,5 +84,11 @@
     "type-content": "Məzmun jurnalı",
     "type-crash-report": "Çökmə hesabatı",
     "type-unknown": "Bilinməyən jurnal",
-    "forge-language-provider-version-problem": "'{{mod-file}}' modu, '{{required-version}}' tələb edir, ancaq '{{found-version}}' quraşdırılıb."
+    "forge-language-provider-version-problem": "'{{mod-file}}' modu, '{{required-version}}' tələb edir, ancaq '{{found-version}}' quraşdırılıb.",
+    "type-network-protocol-error-report": "Şəbəkə protokol xətası üzrə hesabat",
+    "plugin-api-version-lower-than-allowed-problem": "'{{plugin-name}}' qoşması, icazə verilən minimum versiyadan daha aşağı bir API versiyasına sahibdir.",
+    "change-minimum-api-version-solution": "\"bukkit.yml\"dəki 'minimum-api'ni {{api-version}}, daha aşağı və ya 'none' olaraq dəyişdirin.",
+    "auth-server-problem": "Mojang/Microsoft kimlik doğrulama serverləri hazırda əlçatmazdır!",
+    "auth-server-solution": "Bir neçə dəqiqə gözləyib yenidən sınayın. Əgər problem davam etsə, məlum kimlik doğrulama server problemləri üçün rəsmi Mojang/Microsoft kanallarını yoxlayın.",
+    "missing-datapack-mod-problem": "Datapack əskikdir, çünki '{{mod-name}}' modu quraşdırılmamış ola bilər."
 }

@@ -84,5 +84,12 @@
     "type-content": "Turinio žurnalas",
     "type-crash-report": "Strigčio pranešimas",
     "type-unknown": "Nežinomas žurnalas",
-    "forge-language-provider-version-problem": "Modifikacijai '{{mod-file}}' reikia '{{required-version}}' versijos, bet parsiųsta '{{found-version}}' versija."
+    "forge-language-provider-version-problem": "Modifikacijai '{{mod-file}}' reikia '{{required-version}}' versijos, bet parsiųsta '{{found-version}}' versija.",
+    "type-network-protocol-error-report": "Tinklo Protokolo Klaidų Ataskaita",
+    "plugin-api-version-lower-than-allowed-problem": "Papildinys „{{plugin-name}}“ API versiją yra žemesnė už minimalią leistiną versiją.",
+    "change-minimum-api-version-solution": "Pakeiskite „minimum-api“ bukkit.yml faile į „{{api-version}}“, mažiau arba net „none“",
+    "auth-server-problem": "Mojang/Minecraft autentikacijos serveriai yra nepasiekiami!",
+    "auth-server-solution": "Palaukite keletą minučiu ir pabandykite dar kartą. Jeigu problema tesis, patikrinkite officialius Mojang/Microsoft kanalus apie žinomas autentikacijos serverio problemas.",
+    "overworld-settings-missing-problem": "Trūksta pasaulio nustatymų",
+    "missing-datapack-mod-problem": "Datapack nerasta , gal del to kad{{mod-name}} mod'as nėra parsiūstas"
 }

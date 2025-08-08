@@ -84,5 +84,11 @@
     "type-content": "Αρχείο Καταγραφής Περιεχομένου",
     "type-crash-report": "Αναφορά Κατάρρευσης",
     "type-unknown": "Άγνωστο Αρχείο Καταγραφής",
-    "forge-language-provider-version-problem": "Το mod '{{mod-file}}' απαιτεί την '{{required-version}}', αλλά η '{{found-version}}' είναι εγκατεστημένη."
+    "forge-language-provider-version-problem": "Το mod '{{mod-file}}' απαιτεί την '{{required-version}}', αλλά η '{{found-version}}' είναι εγκατεστημένη.",
+    "type-network-protocol-error-report": "Αναφορά Σφάλματος Πρωτοκόλλου Δικτύου",
+    "plugin-api-version-lower-than-allowed-problem": "Το πρόσθετο '{{plugin-name}}' έχει καθορισμένη έκδοση API, μικρότερη από την ελάχιστη επιτρεπόμενη έκδοση.",
+    "change-minimum-api-version-solution": "Αλλαγή 'minimum-api' στο αρχείο bukkit.yml σε {{api-version}}, μικρότερο αυτού ή ακόμα και 'none'.",
+    "auth-server-problem": "Οι διακομιστές ελέγχου ταυτότητας της Mojang/Microsoft είναι προσωρινά απρόσιτοι!",
+    "auth-server-solution": "Περιμένετε λίγα λεπτά και προσπαθήστε ξανά. Εάν το πρόβλημα παραμένει, ελέγξτε τα επίσημα κανάλια Mojang/Microsoft για οποιαδήποτε γνωστά προβλήματα υπηρεσιών ταυτοποίησης.",
+    "missing-datapack-mod-problem": "Λείπει το Datapack, επειδή το mod '{{mod-name}}' μπορεί να μην έχει εγκατασταθεί"
 }

@@ -84,5 +84,12 @@
     "type-content": "Registo de Conteúdo",
     "type-crash-report": "Relatório de Falha",
     "type-unknown": "Registo desconhecido",
-    "forge-language-provider-version-problem": "O mod '{{mod-file}}' requer '{{required-version}}', mas '{{found-version}}' está instalado."
+    "forge-language-provider-version-problem": "O mod '{{mod-file}}' requer '{{required-version}}', mas '{{found-version}}' está instalado.",
+    "type-network-protocol-error-report": "Relatório de erro do protocolo de rede.",
+    "plugin-api-version-lower-than-allowed-problem": "O plugin '{{plugin-name}}' tem uma versão da API especificada que é inferior à versão mínima permitida.",
+    "change-minimum-api-version-solution": "Altere 'minimum-api' em bukkit.yml para {{api-version}}, menor ou mesmo 'none'.",
+    "auth-server-problem": "Os servidores de autenticação Mojang/Microsoft estão atualmente inacessíveis!",
+    "auth-server-solution": "Aguarde alguns minutos e tente novamente. Se o problema persistir, verifique os canais oficiais Mojang/Microsoft para quaisquer problemas conhecidos no servidor de autenticação.",
+    "overworld-settings-missing-problem": "Faltando configuração do mundo superior",
+    "missing-datapack-mod-problem": "Um pacote de dados esta faltando, o mod. '{{mod-name}}' pode não estar instalado"
 }

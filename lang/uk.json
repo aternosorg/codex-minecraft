@@ -84,5 +84,12 @@
     "type-content": "Журнал вмісту",
     "type-crash-report": "Звіт про виліт",
     "type-unknown": "Невідомий журнал",
-    "forge-language-provider-version-problem": "Мод '{{mod-file}}' потребує '{{required-version}}', але  '{{found-version}}' встановлено"
+    "forge-language-provider-version-problem": "Мод '{{mod-file}}' потребує '{{required-version}}', але  '{{found-version}}' встановлено",
+    "type-network-protocol-error-report": "Звіт про помилку мережевого протоколу",
+    "plugin-api-version-lower-than-allowed-problem": "Для плаґіна '{{plugin-name}}' указана версія API, нижча за мінімально дозволену версію.",
+    "change-minimum-api-version-solution": "Змініть 'minimum-api' у bukkit.yml на {{api-version}}, нижче або навіть 'none'.",
+    "auth-server-problem": "Сервери автентифікації Mojang/Microsoft наразі недоступні!",
+    "auth-server-solution": "Зачекайте кілька хвилин і повторіть спробу. Якщо проблема не зникає, перевірте офіційні канали Mojang/Microsoft на наявність відомих проблем із сервером автентифікації.",
+    "overworld-settings-missing-problem": "Відсутні налаштування верхнього світу",
+    "missing-datapack-mod-problem": "Дата пак відсутній, оскільки мод '{{mod-name}}' не може бути встановлений."
 }

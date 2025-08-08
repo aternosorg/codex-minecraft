@@ -84,5 +84,11 @@
     "type-content": "內容日誌",
     "type-crash-report": "當機報告",
     "type-unknown": "未知的日誌",
-    "forge-language-provider-version-problem": "這模組「{{mod-file}}」需用版本「{{required-version}}」，但現在安裝了版本「{{found-version}}」。"
+    "forge-language-provider-version-problem": "這模組「{{mod-file}}」需用版本「{{required-version}}」，但現在安裝了版本「{{found-version}}」。",
+    "type-network-protocol-error-report": "網路協議回報錯誤",
+    "plugin-api-version-lower-than-allowed-problem": "該插件'{{plugin-name}}'指定的 API 版本低於允許的最低版本。",
+    "auth-server-problem": "Mojang/Microsoft 的身份驗證伺服器目前無法連線！",
+    "auth-server-solution": "請稍等幾分鐘後再試。如果問題仍然存在，請檢查 Mojang/Microsoft 的官方頻道是否有任何已知的身份驗證伺服器問題。",
+    "overworld-settings-missing-problem": "主世界設定遺失",
+    "missing-datapack-mod-problem": "缺少資料包，因為模組'{{mod-name}}'可能尚未安裝。"
 }
