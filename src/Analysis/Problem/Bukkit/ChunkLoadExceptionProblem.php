@@ -15,9 +15,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class ChunkLoadExceptionProblem extends BukkitProblem
 {
     /**
-     * Get a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

@@ -17,9 +17,7 @@ class ModDuplicateProblem extends ModProblem
     protected ?string $secondModPath = null;
 
     /**
-     * Get a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

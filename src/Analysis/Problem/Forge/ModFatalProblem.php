@@ -19,9 +19,7 @@ class ModFatalProblem extends ModProblem
     protected ?string $modId = null;
 
     /**
-     * Get a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

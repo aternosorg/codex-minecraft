@@ -14,9 +14,7 @@ class WorldRepairSolution extends VanillaSolution
     protected ?string $worldName = null;
 
     /**
-     * Get the solution as a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

@@ -17,9 +17,7 @@ class AmbiguousPluginNameProblem extends PluginProblem
     protected ?string $secondPluginPath = null;
 
     /**
-     * Get a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

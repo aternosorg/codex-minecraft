@@ -22,9 +22,7 @@ class UnsupportedClassVersionProblem extends PluginFileProblem
     }
 
     /**
-     * Get a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

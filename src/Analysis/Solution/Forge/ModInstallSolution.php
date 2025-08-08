@@ -14,9 +14,7 @@ class ModInstallSolution extends ModSolution
     protected ?string $modVersion = null;
 
     /**
-     * Get the solution as a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

@@ -12,9 +12,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class PluginLoadProblem extends PluginFileProblem
 {
     /**
-     * Get a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {
