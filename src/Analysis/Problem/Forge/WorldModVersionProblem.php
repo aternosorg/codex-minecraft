@@ -17,9 +17,7 @@ class WorldModVersionProblem extends ModProblem
     protected ?string $expectedVersion = null;
 
     /**
-     * Get a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

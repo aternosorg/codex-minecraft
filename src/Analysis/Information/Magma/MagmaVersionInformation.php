@@ -20,11 +20,7 @@ class MagmaVersionInformation extends MagmaInformation
     }
 
     /**
-     * Get an array of possible patterns
-     *
-     * The array key of the pattern will be passed to setMatches()
-     *
-     * @return array
+     * @inheritDoc
      */
     public static function getPatterns(): array
     {

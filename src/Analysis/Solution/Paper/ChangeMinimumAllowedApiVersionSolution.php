@@ -33,9 +33,7 @@ class ChangeMinimumAllowedApiVersionSolution extends PaperSolution
     }
 
     /**
-     * Get the solution as a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

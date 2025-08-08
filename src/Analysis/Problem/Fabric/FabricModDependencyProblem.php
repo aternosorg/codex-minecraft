@@ -16,9 +16,7 @@ class FabricModDependencyProblem extends FabricModProblem
     protected ?string $dependency = null;
 
     /**
-     * Get a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

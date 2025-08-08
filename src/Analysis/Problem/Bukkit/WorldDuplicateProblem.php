@@ -23,9 +23,7 @@ class WorldDuplicateProblem extends BukkitProblem
     }
 
     /**
-     * Get a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

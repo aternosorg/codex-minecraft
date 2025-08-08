@@ -31,9 +31,7 @@ class ServerInstallDifferentVersionSolution extends BukkitSolution
     }
 
     /**
-     * Get the solution as a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

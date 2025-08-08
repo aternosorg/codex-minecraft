@@ -15,9 +15,7 @@ class CommandRunSolution extends MinecraftSolution implements AutomatableSolutio
     protected ?string $command = null;
 
     /**
-     * Get the solution as a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

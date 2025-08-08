@@ -14,9 +14,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class WorldMissingModProblem extends ModProblem
 {
     /**
-     * Get a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

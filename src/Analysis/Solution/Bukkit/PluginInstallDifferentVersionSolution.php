@@ -12,9 +12,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class PluginInstallDifferentVersionSolution extends PluginInstallSolution
 {
     /**
-     * Get the solution as a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

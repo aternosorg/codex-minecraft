@@ -14,9 +14,7 @@ class UpdateJavaSolution extends MinecraftSolution
     protected ?string $version = null;
 
     /**
-     * Get the solution as a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

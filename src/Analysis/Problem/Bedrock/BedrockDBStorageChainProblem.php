@@ -13,9 +13,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 class BedrockDBStorageChainProblem extends BedrockProblem
 {
     /**
-     * Get a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

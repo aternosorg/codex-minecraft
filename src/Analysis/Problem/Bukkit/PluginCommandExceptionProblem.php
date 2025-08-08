@@ -17,9 +17,7 @@ class PluginCommandExceptionProblem extends PluginProblem
     protected ?string $command = null;
 
     /**
-     * Get a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {

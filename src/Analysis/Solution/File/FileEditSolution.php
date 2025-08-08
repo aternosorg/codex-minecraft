@@ -16,9 +16,7 @@ class FileEditSolution extends FileSolution implements AutomatableSolutionInterf
     protected ?string $replacement = null;
 
     /**
-     * Get the solution as a human-readable message
-     *
-     * @return string
+     * @inheritDoc
      */
     public function getMessage(): string
     {
