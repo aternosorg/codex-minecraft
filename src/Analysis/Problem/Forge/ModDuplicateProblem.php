@@ -39,7 +39,10 @@ class ModDuplicateProblem extends ModProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Found a duplicate mod (.+) at \[([^,\n]+), ([^,\n]+)\]/'];
+        return [
+            '/Found a duplicate mod (.+) at \[([^,\n]+), ([^,\n]+)[,\]]/',
+            '/^\s+Mod ID:(.+) from mod files: ([^,\n]+), ([^,\n]+)/m',
+        ];
     }
 
     /**
