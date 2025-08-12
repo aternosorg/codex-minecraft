@@ -7,7 +7,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class FabricIncompatibleModsProblem extends FabricModProblem
 {
-    protected ?string $secondModName = null;
+    protected string $secondModName;
 
     /**
      * @inheritDoc
@@ -21,9 +21,9 @@ class FabricIncompatibleModsProblem extends FabricModProblem
     }
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getSecondModName(): ?string
+    public function getSecondModName(): string
     {
         return $this->secondModName;
     }

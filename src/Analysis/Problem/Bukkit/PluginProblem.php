@@ -20,12 +20,12 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
  */
 abstract class PluginProblem extends BukkitProblem
 {
-    protected ?string $pluginName = null;
+    protected string $pluginName;
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getPluginName(): ?string
+    public function getPluginName(): string
     {
         return $this->pluginName;
     }
