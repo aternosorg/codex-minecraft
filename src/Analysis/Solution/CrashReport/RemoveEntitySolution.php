@@ -6,13 +6,27 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class RemoveEntitySolution extends CrashReportSolution
 {
-    protected ?string $name;
-    protected ?string $type;
-    protected ?float $locationX;
-    protected ?float $locationY;
-    protected ?float $locationZ;
-    protected ?string $dimension = null;
-    protected ?string $levelName = null;
+    /**
+     * @param string|null $name
+     * @param string|null $type
+     * @param float|null $locationX
+     * @param float|null $locationY
+     * @param float|null $locationZ
+     * @param string|null $dimension
+     * @param string|null $levelName
+     */
+    public function __construct(
+        protected ?string $name = null,
+        protected ?string $type = null,
+        protected ?float  $locationX = null,
+        protected ?float  $locationY = null,
+        protected ?float  $locationZ = null,
+        protected ?string $dimension = null,
+        protected ?string $levelName = null
+    )
+    {
+    }
+
 
     /**
      * @inheritDoc
@@ -21,7 +35,7 @@ class RemoveEntitySolution extends CrashReportSolution
     {
         return Translator::getInstance()->getTranslation("remove-entity-solution", [
             "name" => $this->getName(),
-            "location" => $this->getLocationX() . ", " . $this->getLocationY() . ", " . $this->getLocationZ()
+            "location" => sprintf("%s, %s, %s", $this->getLocationX(), $this->getLocationY(), $this->getLocationZ())
         ]);
     }
 

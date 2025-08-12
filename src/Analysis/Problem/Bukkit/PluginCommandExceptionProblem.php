@@ -38,8 +38,8 @@ class PluginCommandExceptionProblem extends PluginProblem
         $this->command = $matches[1];
         $this->pluginName = $matches[2];
 
-        $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
-        $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
+        $this->addSolution(new PluginInstallDifferentVersionSolution($this->getPluginName()));
+        $this->addSolution(new PluginRemoveSolution($this->getPluginName()));
     }
 
     /**

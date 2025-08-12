@@ -73,15 +73,15 @@ class PluginDependenciesProblem extends PluginFileProblem
         if ($matches[4]) {
             $this->pluginName = $matches[4];
             $this->pluginFilePath = $this->correctPluginPath($matches[1]);
-            $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
-            $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginFilePath()));
+            $this->addSolution(new PluginInstallDifferentVersionSolution($this->getPluginName()));
+            $this->addSolution(new FileDeleteSolution($this->getPluginFilePath()));
         } else {
             parent::setMatches($matches, $patternKey);
         }
 
         $this->dependencyPluginNames = preg_split("/, ?/", $matches[3]);
         foreach ($this->dependencyPluginNames as $name) {
-            $this->addSolution((new PluginInstallSolution())->setPluginName($name));
+            $this->addSolution(new PluginInstallSolution($name));
         }
     }
 

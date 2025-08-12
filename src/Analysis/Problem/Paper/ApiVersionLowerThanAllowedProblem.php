@@ -39,7 +39,7 @@ class ApiVersionLowerThanAllowedProblem extends PluginFileProblem
         parent::setMatches($matches, $patternKey);
 
         $this->pluginApiVersion = $matches[3];
-        $this->addSolution((new ChangeMinimumAllowedApiVersionSolution())->setApiVersion($this->getPluginApiVersion()));
+        $this->addSolution(new ChangeMinimumAllowedApiVersionSolution($this->getPluginApiVersion()));
     }
 
     /**

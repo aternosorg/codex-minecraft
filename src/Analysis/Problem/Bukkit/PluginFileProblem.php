@@ -41,8 +41,8 @@ abstract class PluginFileProblem extends PluginProblem
         $this->pluginFilePath = $folderPath . '/' . $pluginFileName;
         $this->pluginName = $this->extractPluginName($matches[1]);
 
-        $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->getPluginFilePath()));
+        $this->addSolution(new PluginInstallDifferentVersionSolution($this->getPluginName()));
+        $this->addSolution(new FileDeleteSolution($this->getPluginFilePath()));
     }
 
     /**

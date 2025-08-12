@@ -6,7 +6,10 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class PluginConfigureSolution extends PluginSolution
 {
-    protected ?string $suggestedFile = null;
+    public function __construct(string $pluginName, protected ?string $suggestedFile = null)
+    {
+        parent::__construct($pluginName);
+    }
 
     /**
      * @inheritDoc

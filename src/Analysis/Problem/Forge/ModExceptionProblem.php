@@ -34,7 +34,7 @@ class ModExceptionProblem extends ModProblem
     {
         $this->modName = trim($matches[1]);
 
-        $this->addSolution((new ModInstallDifferentVersionSolution())->setModName($this->getModName()));
-        $this->addSolution((new ModRemoveSolution())->setModName($this->getModName()));
+        $this->addSolution(new ModInstallDifferentVersionSolution($this->getModName()));
+        $this->addSolution(new ModRemoveSolution($this->getModName()));
     }
 }

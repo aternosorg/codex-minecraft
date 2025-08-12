@@ -45,7 +45,7 @@ class PluginDependencyProblem extends PluginProblem
         $this->pluginName = $matches[1];
         $this->dependencyPluginName = $matches[2];
 
-        $this->addSolution((new PluginInstallSolution())->setPluginName($this->getDependencyPluginName()));
-        $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
+        $this->addSolution(new PluginInstallSolution($this->getDependencyPluginName()));
+        $this->addSolution(new PluginRemoveSolution($this->getPluginName()));
     }
 }

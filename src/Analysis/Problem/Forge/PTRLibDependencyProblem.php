@@ -22,6 +22,6 @@ class PTRLibDependencyProblem extends UndefinedModDependencyProblem
     public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->modName = "PTRLib";
-        $this->addSolution((new ModInstallSolution())->setModName($this->modName));
+        $this->addSolution(new ModInstallSolution($this->modName));
     }
 }

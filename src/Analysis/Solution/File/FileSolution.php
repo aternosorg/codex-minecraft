@@ -6,12 +6,20 @@ use Aternos\Codex\Minecraft\Analysis\Solution\MinecraftSolution;
 
 abstract class FileSolution extends MinecraftSolution
 {
-    protected ?string $path = null;
-    protected bool $relativePath = true;
+    /**
+     * @param string $path The relative path (without a starting slash) or absolute path to the file.
+     *                     If the path is relative, it will be treated as relative to the Minecraft server root directory.
+     * @param FilePathType $type Is the path relative or absolute?
+     */
+    public function __construct(
+        protected string       $path,
+        protected FilePathType $type = FilePathType::RELATIVE
+    )
+    {
+    }
 
     /**
      * Set the relative path
-     *
      * The path is relative to the Minecraft server root directory without a starting slash
      *
      * @param string $path
@@ -20,7 +28,7 @@ abstract class FileSolution extends MinecraftSolution
     public function setRelativePath(string $path): static
     {
         $this->path = $path;
-        $this->relativePath = true;
+        $this->type = FilePathType::RELATIVE;
         return $this;
     }
 
@@ -33,13 +41,12 @@ abstract class FileSolution extends MinecraftSolution
     public function setAbsolutePath(string $path): static
     {
         $this->path = $path;
-        $this->relativePath = false;
+        $this->type = FilePathType::ABSOLUTE;
         return $this;
     }
 
     /**
      * Get the path
-     *
      * If isRelative() the path is relative to the Minecraft server root directory without a starting slash
      *
      * @return string
@@ -50,15 +57,24 @@ abstract class FileSolution extends MinecraftSolution
     }
 
     /**
-     * Check if the path is relative
+     * Get the type of the path (absolute or relative)
      *
+     * @return FilePathType
+     */
+    public function getType(): FilePathType
+    {
+        return $this->type;
+    }
+
+    /**
+     * Check if the path is relative
      * The path is relative to the Minecraft server root directory without a starting slash
      *
      * @return bool
      */
-    public function isRelativePath(): bool
+    public function isRelative(): bool
     {
-        return $this->relativePath;
+        return $this->getType() === FilePathType::RELATIVE;
     }
 
     /**
@@ -68,6 +84,6 @@ abstract class FileSolution extends MinecraftSolution
      */
     public function isAbsolutePath(): bool
     {
-        return !$this->relativePath;
+        return $this->getType() === FilePathType::ABSOLUTE;
     }
 }
