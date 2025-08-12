@@ -1,0 +1,103 @@
+[11:27:05] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7; Red Hat, Inc. (Red_Hat-21.**.**.**.**-1)) on Linux 6.12.11-200.fc41.x86_64 (amd64)
+[11:27:05] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[11:27:06] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:27:06] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin '/home/********/workspace/Aternos/mclogs-mc/bukkit/build/libs/mclogs-bukkit-1.21-3.0.0-all.jar'...
+[11:27:07] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin '/home/********/workspace/Aternos/mclogs-mc/bukkit/build/libs/mclogs-bukkit-1.21-3.0.0-all.jar' in 825ms.
+[11:27:07] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[11:27:07] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - mclo.gs (3.0.0)
+[11:27:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:27:10] [ServerMain/INFO]: Loaded 1290 recipes
+[11:27:10] [ServerMain/INFO]: Loaded 1399 advancements
+[11:27:10] [Server thread/INFO]: Starting minecraft server version 1.21
+[11:27:10] [Server thread/INFO]: Loading properties
+[11:27:10] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[11:27:11] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:27:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:27:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:27:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 5 worker threads, and population gen parallelism of 5 threads
+[11:27:11] [Server thread/INFO]: Default game type: SURVIVAL
+[11:27:11] [Server thread/INFO]: Generating keypair
+[11:27:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:27:11] [Server thread/INFO]: Using epoll channel type
+[11:27:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[11:27:11] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[11:27:11] [Server thread/INFO]: [mclo.gs] Loading server plugin mclo.gs v3.0.0
+[11:27:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:27:11] [Server thread/INFO]: Preparing level "world"
+[11:27:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:27:12] [Server thread/INFO]: Time elapsed: 554 ms
+[11:27:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:27:12] [Server thread/INFO]: Time elapsed: 50 ms
+[11:27:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:27:12] [Server thread/INFO]: Time elapsed: 21 ms
+[11:27:12] [Server thread/INFO]: [mclo.gs] Enabling mclo.gs v3.0.0
+[11:27:13] [Server thread/ERROR]: Error occurred while enabling mclo.gs v3.0.0 (Is it up to date?)
+gs.mclo.nightconfig.core.io.ParsingException: YAML parsing failed
+	at mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar/gs.mclo.nightconfig.yaml.YamlParser.parse(YamlParser.java:73) ~[mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar:?]
+	at mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar/gs.mclo.nightconfig.yaml.YamlParser.parse(YamlParser.java:52) ~[mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar:?]
+	at mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar/gs.mclo.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:99) ~[mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar:?]
+	at mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar/gs.mclo.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:216) ~[mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar:?]
+	at mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar/gs.mclo.nightconfig.core.file.AsyncFileConfig.loadNow(AsyncFileConfig.java:182) ~[mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar:?]
+	at mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar/gs.mclo.nightconfig.core.file.AsyncFileConfig.load(AsyncFileConfig.java:267) ~[mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar:?]
+	at mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar/gs.mclo.nightconfig.core.file.AutoreloadFileConfig.load(AutoreloadFileConfig.java:47) ~[mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar:?]
+	at mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar/gs.mclo.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:131) ~[mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar:?]
+	at mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar/gs.mclo.MclogsCommon.init(MclogsCommon.java:30) ~[mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar:?]
+	at mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar/gs.mclo.MclogsPlugin.onEnable(MclogsPlugin.java:24) ~[mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.Map.entrySet()" because "map" is null
+	at mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar/gs.mclo.nightconfig.yaml.YamlParser.parse(YamlParser.java:69) ~[mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar:?]
+	... 21 more
+[11:27:13] [Server thread/INFO]: [mclo.gs] Disabling mclo.gs v3.0.0
+[11:27:13] [Server thread/INFO]: [spark] Starting background profiler...
+[11:27:13] [config-file-watcher-0-0/WARN]: Exception in thread "config-file-watcher-0-0" java.lang.IllegalStateException: zip file closed
+[11:27:13] [config-file-watcher-0-0/WARN]: 	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+[11:27:13] [config-file-watcher-0-0/WARN]: 	at java.base/java.util.zip.ZipFile.getMetaInfVersions(ZipFile.java:1091)
+[11:27:13] [config-file-watcher-0-0/WARN]: 	at java.base/java.util.zip.ZipFile$1.getMetaInfVersions(ZipFile.java:1133)
+[11:27:13] [config-file-watcher-0-0/WARN]: 	at java.base/java.util.jar.JarFile.getVersionedEntry(JarFile.java:601)
+[11:27:13] [config-file-watcher-0-0/WARN]: 	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:510)
+[11:27:13] [config-file-watcher-0-0/WARN]: 	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+[11:27:13] [config-file-watcher-0-0/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:209)
+[11:27:13] [config-file-watcher-0-0/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[11:27:13] [config-file-watcher-0-0/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169)
+[11:27:13] [config-file-watcher-0-0/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164)
+[11:27:13] [config-file-watcher-0-0/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[11:27:13] [config-file-watcher-0-0/WARN]: 	at mclogs-bukkit-1.21-3.0.0-all-1739442426762.jar//gs.mclo.nightconfig.core.file.FileWatcher$FsWatcher.run(FileWatcher.java:472)
+[11:27:13] [config-file-watcher-0-0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[11:27:13] [Server thread/INFO]: Done preparing level "world" (1.625s)
+[11:27:13] [Server thread/INFO]: Running delayed init tasks
+[11:27:13] [Server thread/INFO]: Done (8.930s)! For help, type "help"
+[11:27:13] [Server thread/INFO]: Timings Reset
+[11:28:26] [Server thread/INFO]: Stopping server
+[11:28:26] [Server thread/INFO]: Saving players
+[11:28:26] [Server thread/INFO]: Saving worlds
+[11:28:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:28:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[11:28:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[11:28:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[11:28:26] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.10s
+[11:28:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:28:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[11:28:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[11:28:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[11:28:26] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
+[11:28:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:28:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[11:28:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[11:28:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[11:28:26] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[11:28:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:28:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:28:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:28:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
