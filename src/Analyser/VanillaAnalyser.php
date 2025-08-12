@@ -10,11 +10,6 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OldPlayerDirectoryProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OverworldSettingsMissingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\TickingBlockEntityProblem;
 
-/**
- * Class VanillaAnalyser
- *
- * @package Aternos\Codex\Minecraft\Analyser
- */
 class VanillaAnalyser extends MinecraftAnalyser
 {
     public function __construct()

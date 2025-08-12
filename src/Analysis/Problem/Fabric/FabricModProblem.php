@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Fabric;
 
 use Aternos\Codex\Analysis\InsightInterface;
 
-/**
- * Class FabricModProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Fabric
- */
 abstract class FabricModProblem extends FabricProblem
 {
     const MOD_NAME_REPLACEMENTS = ["fabric" => "FabricAPI"];

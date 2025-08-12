@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Information\Mohist\MohistForgeVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Information\Mohist\MohistVersionInformation;
 
-/**
- * Class MohistAnalyser
- *
- * @package Aternos\Codex\Minecraft\Analyser
- */
 class MohistAnalyser extends ForgeBukkitHybridAnalyser
 {
     public function __construct()

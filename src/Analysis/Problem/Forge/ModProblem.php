@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
 use Aternos\Codex\Analysis\InsightInterface;
 
-/**
- * Class ModProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Forge
- */
 abstract class ModProblem extends ForgeProblem
 {
     protected ?string $modName = null;

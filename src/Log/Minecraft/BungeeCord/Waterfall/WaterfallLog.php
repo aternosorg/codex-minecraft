@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Log\Minecraft\BungeeCord\Waterfall;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Log\Minecraft\BungeeCord\BungeeCordLog;
 
-/**
- * Class WaterfallLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\BungeeCord\Waterfall
- */
 abstract class WaterfallLog extends BungeeCordLog
 {
     protected static string $pattern = '/^(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\]\:).*$/';

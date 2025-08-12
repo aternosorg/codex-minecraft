@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Paper\VersionDowngradeSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class VersionDowngradeProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Paper
- */
 class VersionDowngradeProblem extends PaperProblem
 {
     /**

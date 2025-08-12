@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformati
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class QuiltJavaVersionInformation
- *
- * @package Aternos\Codex\Minecraft\Analysis\Information\Quilt
- */
 class QuiltVersionInformation extends QuiltInformation
 {
     protected static string $quiltVersionInformation = "[\d\.]+(?:-beta.\d+)?";

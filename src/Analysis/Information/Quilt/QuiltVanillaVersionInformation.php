@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Quilt;
 
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
 
-/**
- * Class QuiltVanillaVersionInformation
- *
- * @package Aternos\Codex\Minecraft\Analysis\Information\Quilt
- */
 class QuiltVanillaVersionInformation extends VanillaVersionInformation
 {
     /**

@@ -6,11 +6,6 @@ use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\MagmaAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\ForgeLog;
 
-/**
- * Class MagmaLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\Magma
- */
 abstract class MagmaLog extends ForgeLog
 {
     /**

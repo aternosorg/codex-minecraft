@@ -8,11 +8,6 @@ use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\MinecraftCrashReportAnal
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaCrashReportTrait;
 use Aternos\Codex\Minecraft\Log\Type\CrashReportLogTypeInterface;
 
-/**
- * Class ForgeCrashReportLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge
- */
 class ForgeCrashReportLog extends ForgeLog implements CrashReportLogTypeInterface
 {
     use VanillaCrashReportTrait;

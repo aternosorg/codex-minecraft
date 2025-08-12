@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Parser;
 use Aternos\Codex\Log\Entry;
 use Aternos\Codex\Log\Level;
 
-/**
- * Class ForgeParser
- *
- * @package Aternos\Codex\Minecraft\Parser
- */
 class ForgeParser extends Parser
 {
     const CHANNEL = "channel";

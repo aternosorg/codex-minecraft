@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Forge;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class ModInstallSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\Forge
- */
 class ModInstallSolution extends ModSolution
 {
     protected ?string $modVersion = null;

@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 use Aternos\Codex\Minecraft\Analysis\Solution\CommandRunSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class FmlConfirmProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Forge
- */
 class FmlConfirmProblem extends ForgeProblem
 {
     /**

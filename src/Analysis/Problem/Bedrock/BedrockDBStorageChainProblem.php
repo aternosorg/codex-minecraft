@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Bedrock;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class BedrockDBStorageChainProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Bedrock
- */
 class BedrockDBStorageChainProblem extends BedrockProblem
 {
     /**

@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Fabric;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class FabricEntryStageProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Fabric
- */
 class FabricEntryStageProblem extends FabricModProblem
 {
     /**

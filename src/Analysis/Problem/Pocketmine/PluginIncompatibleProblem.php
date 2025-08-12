@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine\PluginInstallDifferentV
 use Aternos\Codex\Minecraft\Analysis\Solution\Pocketmine\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class PluginIncompatibleProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Pocketmine
- */
 class PluginIncompatibleProblem extends PluginProblem
 {
     /**

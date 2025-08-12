@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Information\Fabric;
 
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
 
-/**
- * Class FabricVanillaVersionInformation
- *
- * @package Aternos\Codex\Minecraft\Analysis\Information\Forge
- */
 class FabricVanillaVersionInformation extends VanillaVersionInformation
 {
     /**

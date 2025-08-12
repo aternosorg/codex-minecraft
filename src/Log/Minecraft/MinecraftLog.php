@@ -19,11 +19,6 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 use Aternos\Codex\Parser\ParserInterface;
 use Aternos\Codex\Parser\PatternParser;
 
-/**
- * Class MinecraftLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft
- */
 class MinecraftLog extends AnalysableLog implements DetectableLogInterface
 {
     protected static string $pattern = "//";

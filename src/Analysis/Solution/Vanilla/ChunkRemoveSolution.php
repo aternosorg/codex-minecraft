@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\Vanilla;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class ChunkRemoveSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\Vanilla
- */
 class ChunkRemoveSolution extends VanillaSolution
 {
     /**

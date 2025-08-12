@@ -5,11 +5,6 @@ namespace Aternos\Codex\Minecraft\Parser;
 use Aternos\Codex\Log\Line;
 use Aternos\Codex\Minecraft\Log\Entry;
 
-/**
- * Class CrashReportParser
- *
- * @package Aternos\Codex\Minecraft\Parser
- */
 class ReportParser extends \Aternos\Codex\Parser\Parser
 {
     const LEVEL_INFO = "info";

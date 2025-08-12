@@ -6,11 +6,6 @@ use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 use Aternos\Codex\Minecraft\Parser\Parser;
 
-/**
- * Class PrismLauncherLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\PrismLauncherLog
- */
 abstract class PrismLauncherLog extends MinecraftLog
 {
     /**

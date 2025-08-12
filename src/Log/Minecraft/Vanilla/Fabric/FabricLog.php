@@ -8,11 +8,6 @@ use Aternos\Codex\Minecraft\Analyser\FabricAnalyser;
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaLog;
 
-/**
- * Class FabricLog
- *
- * @package Aternos\Codex\Minecraft\Log\Minecraft\Fabric
- */
 abstract class FabricLog extends VanillaLog
 {
     protected static string $pattern = '/^(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\]\:?).*$/';

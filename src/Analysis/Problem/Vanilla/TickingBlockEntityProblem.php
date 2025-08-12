@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\BlockRemoveSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\GenerateNewWorldSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class TickingBlockEntityProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Vanilla
- */
 class TickingBlockEntityProblem extends VanillaProblem
 {
     /**

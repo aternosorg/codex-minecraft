@@ -6,11 +6,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ForgeInstallDifferentVersion
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class ModWrongMinecraftVersionProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Forge
- */
 class ModWrongMinecraftVersionProblem extends ModProblem
 {
     protected ?string $minecraftVersion = null;

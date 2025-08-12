@@ -7,11 +7,6 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\ChunkRemoveSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\WorldRepairSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-/**
- * Class ChunkLoadExceptionProblem
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
- */
 class ChunkLoadExceptionProblem extends BukkitProblem
 {
     /**

@@ -4,11 +4,6 @@ namespace Aternos\Codex\Minecraft\Analysis\Solution\File;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\MinecraftSolution;
 
-/**
- * Class FileSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\File
- */
 abstract class FileSolution extends MinecraftSolution
 {
     protected ?string $path = null;

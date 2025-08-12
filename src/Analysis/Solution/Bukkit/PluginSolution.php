@@ -2,11 +2,6 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Solution\Bukkit;
 
-/**
- * Class PluginSolution
- *
- * @package Aternos\Codex\Minecraft\Analysis\Solution\Bukkit
- */
 abstract class PluginSolution extends BukkitSolution
 {
     protected ?string $pluginName = null;

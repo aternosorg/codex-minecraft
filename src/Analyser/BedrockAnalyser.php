@@ -7,11 +7,6 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Bedrock\BedrockAuthenticationAllowl
 use Aternos\Codex\Minecraft\Analysis\Problem\Bedrock\BedrockAuthenticationWhitelistProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bedrock\BedrockDBStorageChainProblem;
 
-/**
- * Class BedrockAnalyser
- *
- * @package Aternos\Codex\Minecraft\Analyser
- */
 class BedrockAnalyser extends MinecraftAnalyser
 {
     public function __construct()
