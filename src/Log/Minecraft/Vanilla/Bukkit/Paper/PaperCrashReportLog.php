@@ -15,9 +15,16 @@ class PaperCrashReportLog extends PaperLog implements CrashReportLogTypeInterfac
      */
     public static function getDetectors(): array
     {
-        return [(new MultiPatternDetector())
-            ->addPattern("/^---- Minecraft Crash Report ----$/m")
-            ->addPattern("/^\s+Running: Paper version git-Paper/m")
+        return [
+            (new MultiPatternDetector())
+                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern("/^\s+Running: Paper version git-Paper/m"),
+            (new MultiPatternDetector())
+                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern("/^\s+BrandInfo: Paper \(papermc:paper\) version/m"),
+            (new MultiPatternDetector())
+                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern("/^\s+Is Modded: Definitely; Server brand changed to 'Paper'$/m")
         ];
     }
 }
