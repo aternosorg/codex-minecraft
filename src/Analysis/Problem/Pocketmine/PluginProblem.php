@@ -6,12 +6,12 @@ use Aternos\Codex\Analysis\InsightInterface;
 
 abstract class PluginProblem extends PocketmineProblem
 {
-    protected ?string $pluginName = null;
+    protected string $pluginName;
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getPluginName(): ?string
+    public function getPluginName(): string
     {
         return $this->pluginName;
     }

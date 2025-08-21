@@ -9,7 +9,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class PluginCommandExceptionProblem extends PluginProblem
 {
-    protected ?string $command = null;
+    protected string $command;
 
     /**
      * @inheritDoc

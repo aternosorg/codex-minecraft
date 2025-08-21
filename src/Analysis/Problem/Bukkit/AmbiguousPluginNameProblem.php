@@ -8,8 +8,8 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class AmbiguousPluginNameProblem extends PluginProblem
 {
-    protected ?string $firstPluginPath = null;
-    protected ?string $secondPluginPath = null;
+    protected string $firstPluginPath;
+    protected string $secondPluginPath;
 
     /**
      * @inheritDoc

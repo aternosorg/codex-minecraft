@@ -8,8 +8,8 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class WorldModVersionProblem extends ModProblem
 {
-    protected ?string $currentVersion = null;
-    protected ?string $expectedVersion = null;
+    protected string $currentVersion;
+    protected string $expectedVersion;
 
     /**
      * @inheritDoc
@@ -45,17 +45,17 @@ class WorldModVersionProblem extends ModProblem
     }
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getCurrentVersion(): ?string
+    public function getCurrentVersion(): string
     {
         return $this->currentVersion;
     }
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getExpectedVersion(): ?string
+    public function getExpectedVersion(): string
     {
         return $this->expectedVersion;
     }

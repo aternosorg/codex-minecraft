@@ -7,7 +7,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class MultipleModulesExportProblem extends ModProblem
 {
-    protected ?string $secondModName = null;
+    protected string $secondModName;
 
     /**
      * @return string
