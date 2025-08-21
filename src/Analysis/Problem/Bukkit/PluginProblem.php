@@ -63,14 +63,21 @@ abstract class PluginProblem extends BukkitProblem
     }
 
     /**
-     * Extracts the plugin name without the file extension (usually .jar) from a plugin path
+     * Extracts the plugin name without the .jar file extension from a plugin path
      *
-     * @param string $pluginPath
+     * @param string $pluginPath Can be a path to a plugin file or a plugin name
      * @return string
      */
     protected function extractPluginName(string $pluginPath): string
     {
-        return pathinfo($pluginPath, PATHINFO_FILENAME);
+        $fileName = $this->extractPluginFileName($pluginPath);
+        // plugin names can contain a . (dot)
+        // when using pathinfo($pluginPath, PATHINFO_FILENAME) on a plugin name with a ., the wrong plugin name would be returned.
+        // since the file extension of a plugin is always .jar, we can simply remove it to get the plugin name from the file name.
+        if (str_ends_with($fileName, ".jar")) {
+            $fileName = substr($fileName, 0, -4);
+        }
+        return $fileName;
     }
 
     /**
