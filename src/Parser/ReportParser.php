@@ -7,15 +7,15 @@ use Aternos\Codex\Minecraft\Log\Entry;
 
 class ReportParser extends \Aternos\Codex\Parser\Parser
 {
-    const LEVEL_INFO = "info";
-    const LEVEL_WARNING = "warn";
-    const LEVEL_TITLE = "title";
-    const LEVEL_COMMENT = "comment";
-    const LEVEL_STACKTRACE = "stacktrace";
+    protected const string LEVEL_INFO = "info";
+    protected const string LEVEL_WARNING = "warn";
+    protected const string LEVEL_TITLE = "title";
+    protected const string LEVEL_COMMENT = "comment";
+    protected const string LEVEL_STACKTRACE = "stacktrace";
 
-    const DEFAULT_LEVEL = self::LEVEL_INFO;
+    protected const string DEFAULT_LEVEL = self::LEVEL_INFO;
 
-    const PATTERN = [
+    protected const array PATTERN = [
         self::LEVEL_WARNING => ["/\s*WARNING: .*$/"],
         self::LEVEL_STACKTRACE => ["/^\s+at (?:\w+\/+)?\S+\(.+\)$/", "/^(?:Caused by: )?[a-z]+\.(?:\w+\.?)+: .*$/", "/^\\tat [a-z]+\..*$/"],
         self::LEVEL_INFO => ["/^([^|:]+:) .+$/", "/^(\w+:)$/", "/^(\\t[^:.]+:)$/"],

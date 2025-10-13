@@ -6,7 +6,7 @@ use InvalidArgumentException;
 
 class Translator
 {
-    protected const DEFAULT_LANGUAGE = "en";
+    protected const string DEFAULT_LANGUAGE = "en";
 
     protected static ?Translator $instance = null;
     protected static ?Translator $fallbackInstance = null;

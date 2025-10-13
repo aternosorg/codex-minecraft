@@ -7,7 +7,7 @@ use Aternos\Codex\Parser\PatternParser;
 
 class Parser extends PatternParser
 {
-    const PREFIX = "prefix";
+    public const string PREFIX = "prefix";
     protected string $entryClass = \Aternos\Codex\Minecraft\Log\Entry::class;
 
     /**
