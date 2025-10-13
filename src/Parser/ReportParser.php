@@ -15,6 +15,9 @@ class ReportParser extends \Aternos\Codex\Parser\Parser
 
     protected const string DEFAULT_LEVEL = self::LEVEL_INFO;
 
+    /**
+     * @var array<string, array<string>> Regular expression patterns to match log lines to levels
+     */
     protected const array PATTERN = [
         self::LEVEL_WARNING => ["/\s*WARNING: .*$/"],
         self::LEVEL_STACKTRACE => ["/^\s+at (?:\w+\/+)?\S+\(.+\)$/", "/^(?:Caused by: )?[a-z]+\.(?:\w+\.?)+: .*$/", "/^\\tat [a-z]+\..*$/"],
