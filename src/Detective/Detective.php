@@ -21,6 +21,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper\PaperServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Purpur\PurpurCrashReportLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Purpur\PurpurServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Spigot\OldSpigotServerLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Spigot\SpigotCrashReportLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Spigot\SpigotServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric\FabricClientLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric\FabricCrashReportLog;
@@ -81,6 +82,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
         GlowstoneServerLog::class,
         QuiltServerLog::class,
 
+        SpigotCrashReportLog::class,
         PaperCrashReportLog::class,
         PurpurCrashReportLog::class,
         FoliaCrashReport::class,
