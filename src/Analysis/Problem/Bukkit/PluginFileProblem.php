@@ -18,12 +18,12 @@ use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
  */
 abstract class PluginFileProblem extends PluginProblem
 {
-    protected ?string $pluginFilePath = null;
+    protected string $pluginFilePath;
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getPluginFilePath(): ?string
+    public function getPluginFilePath(): string
     {
         return $this->pluginFilePath;
     }

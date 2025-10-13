@@ -7,12 +7,12 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class WorldDuplicateProblem extends BukkitProblem
 {
-    protected ?string $worldName = null;
+    protected string $worldName;
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getWorldName(): ?string
+    public function getWorldName(): string
     {
         return $this->worldName;
     }

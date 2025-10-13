@@ -9,8 +9,8 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class ModDuplicateProblem extends ModProblem
 {
-    protected ?string $firstModPath = null;
-    protected ?string $secondModPath = null;
+    protected string $firstModPath;
+    protected string $secondModPath;
 
     /**
      * @inheritDoc
@@ -67,17 +67,17 @@ class ModDuplicateProblem extends ModProblem
     }
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getFirstModPath(): ?string
+    public function getFirstModPath(): string
     {
         return $this->firstModPath;
     }
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getSecondModPath(): ?string
+    public function getSecondModPath(): string
     {
         return $this->secondModPath;
     }

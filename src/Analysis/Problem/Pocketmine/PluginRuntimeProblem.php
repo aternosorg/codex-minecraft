@@ -8,7 +8,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class PluginRuntimeProblem extends PluginProblem
 {
-    protected ?string $pluginPath = null;
+    protected string $pluginPath;
 
     /**
      * @inheritDoc
@@ -39,9 +39,9 @@ class PluginRuntimeProblem extends PluginProblem
     }
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getPluginPath(): ?string
+    public function getPluginPath(): string
     {
         return $this->pluginPath;
     }
