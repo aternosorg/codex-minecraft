@@ -7,7 +7,7 @@ use Aternos\Codex\Log\Level;
 
 class ForgeParser extends Parser
 {
-    const CHANNEL = "channel";
+    public const string CHANNEL = "channel";
 
     /**
      * Parse an entry match

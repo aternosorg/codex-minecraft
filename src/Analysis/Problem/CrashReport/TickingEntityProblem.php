@@ -9,11 +9,11 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class TickingEntityProblem extends CrashReportProblem
 {
-    const PATTERN_ENTITY_TYPE = "/Entity Type: ([\w:_]+)/";
-    const PATTERN_ENTITY_NAME = "/Entity Name: (.+)/";
-    const PATTERN_ENTITY_LOCATION = "/Entity's Exact location: (-?[\d.]+), (-?[\d.]+), (-?[\d.]+)/";
-    const PATTERN_DIMENSION = "/Level dimension: ([\w:-]+)/";
-    const PATTERN_LEVEL_NAME = "/Level name: (.+)/";
+    protected const string PATTERN_ENTITY_TYPE = "/Entity Type: ([\w:_]+)/";
+    protected const string PATTERN_ENTITY_NAME = "/Entity Name: (.+)/";
+    protected const string PATTERN_ENTITY_LOCATION = "/Entity's Exact location: (-?[\d.]+), (-?[\d.]+), (-?[\d.]+)/";
+    protected const string PATTERN_DIMENSION = "/Level dimension: ([\w:-]+)/";
+    protected const string PATTERN_LEVEL_NAME = "/Level name: (.+)/";
 
     protected ?string $type = null;
     protected ?string $name = null;

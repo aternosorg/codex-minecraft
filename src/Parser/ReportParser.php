@@ -7,20 +7,18 @@ use Aternos\Codex\Minecraft\Log\Entry;
 
 class ReportParser extends \Aternos\Codex\Parser\Parser
 {
-    const LEVEL_INFO = "info";
-    const LEVEL_WARNING = "warn";
-    const LEVEL_TITLE = "title";
-    const LEVEL_COMMENT = "comment";
-    const LEVEL_STACKTRACE = "stacktrace";
 
-    const DEFAULT_LEVEL = self::LEVEL_INFO;
+    protected const ReportLevel DEFAULT_LEVEL = ReportLevel::INFO;
 
-    const PATTERN = [
-        self::LEVEL_WARNING => ["/\s*WARNING: .*$/"],
-        self::LEVEL_STACKTRACE => ["/^\s+at (?:\w+\/+)?\S+\(.+\)$/", "/^(?:Caused by: )?[a-z]+\.(?:\w+\.?)+: .*$/", "/^\\tat [a-z]+\..*$/"],
-        self::LEVEL_INFO => ["/^([^|:]+:) .+$/", "/^(\w+:)$/", "/^(\\t[^:.]+:)$/"],
-        self::LEVEL_TITLE => ["/^-{2,4} .* -{2,4}$/"],
-        self::LEVEL_COMMENT => ["/\/\/.*$/"],
+    /**
+     * @var array<int, array<string>> Regular expression patterns to match log lines to levels
+     */
+    protected const array PATTERN = [
+        ReportLevel::WARNING->value => ["/\s*WARNING: .*$/"],
+        ReportLevel::STACKTRACE->value => ["/^\s+at (?:\w+\/+)?\S+\(.+\)$/", "/^(?:Caused by: )?[a-z]+\.(?:\w+\.?)+: .*$/", "/^\\tat [a-z]+\..*$/"],
+        ReportLevel::INFO->value => ["/^([^|:]+:) .+$/", "/^(\w+:)$/", "/^(\\t[^:.]+:)$/"],
+        ReportLevel::TITLE->value => ["/^-{2,4} .* -{2,4}$/"],
+        ReportLevel::COMMENT->value => ["/\/\/.*$/"],
     ];
 
     /**
@@ -37,13 +35,13 @@ class ReportParser extends \Aternos\Codex\Parser\Parser
             foreach (static::PATTERN as $level => $patterns) {
                 foreach ($patterns as $pattern) {
                     if (preg_match($pattern, $lineString, $matches)) {
-                        $entry->setLevel(ReportLevel::fromString($level));
+                        $entry->setLevel(ReportLevel::from($level));
                         if (isset($matches[1])) {
                             $entry->setPrefix($matches[1]);
                         }
                         continue 3;
                     }
-                    $entry->setLevel(ReportLevel::fromString(static::DEFAULT_LEVEL));
+                    $entry->setLevel(static::DEFAULT_LEVEL);
                 }
             }
         }

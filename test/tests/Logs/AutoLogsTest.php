@@ -688,9 +688,9 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_spigot_plugin_dependency(): void
+    public function test_spigot_exception_ticking_world_1_21_4(): void
     {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-plugin-dependency.log');
+        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-exception-ticking-world-1-21-4.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -698,9 +698,9 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_spigot_exception_ticking_world_1_21_4(): void
+    public function test_spigot_plugin_dependency(): void
     {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-exception-ticking-world-1-21-4.log');
+        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-plugin-dependency.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 

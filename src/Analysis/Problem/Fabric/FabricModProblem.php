@@ -6,7 +6,10 @@ use Aternos\Codex\Analysis\InsightInterface;
 
 abstract class FabricModProblem extends FabricProblem
 {
-    const MOD_NAME_REPLACEMENTS = ["fabric" => "FabricAPI"];
+    /**
+     * @var array<string, string> Mod name replacements (e.g. "fabric" to "FabricAPI")
+     */
+    protected const array MOD_NAME_REPLACEMENTS = ["fabric" => "FabricAPI"];
 
     protected static string $modNamePattern = "(?:'([^\']+)' \((?:[^\)]+)\)|([\w-]+))";
     protected static string $modIDPattern = "([^ ,]+)";
