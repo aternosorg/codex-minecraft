@@ -8,7 +8,7 @@ use Exception;
 
 class TestLog
 {
-    const BASE_PATH = __DIR__ . "/../../data/";
+    protected const string BASE_PATH = __DIR__ . "/../../data/";
     protected string $logPath;
 
     /**
