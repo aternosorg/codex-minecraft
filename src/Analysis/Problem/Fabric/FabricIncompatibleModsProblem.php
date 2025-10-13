@@ -55,7 +55,7 @@ class FabricIncompatibleModsProblem extends FabricModProblem
     {
         $this->setModName($matches[1]);
         $this->setSecondModName($matches[3]);
-        $this->addSolution((new ModRemoveSolution())->setModName($this->getModName()));
-        $this->addSolution((new ModRemoveSolution())->setModName($this->getSecondModName()));
+        $this->addSolution(new ModRemoveSolution($this->getModName()));
+        $this->addSolution(new ModRemoveSolution($this->getSecondModName()));
     }
 }

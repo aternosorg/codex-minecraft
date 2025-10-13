@@ -45,7 +45,7 @@ class FabricModDependencyProblem extends FabricModProblem
             case 'short-error':
                 $this->setModName($matches[2]);
                 $this->setDependency($matches[empty($matches[3]) ? 4 : 3]);
-                $solution = (new ModInstallSolution())->setModName($this->getDependency());
+                $solution = (new ModInstallSolution($this->getDependency()));
                 if ($matches[5] != '*') {
                     $solution->setModVersion($matches[5]);
                 }
@@ -55,7 +55,7 @@ class FabricModDependencyProblem extends FabricModProblem
             case 'any':
                 $this->setModName($matches[1]);
                 $this->setDependency($matches[empty($matches[3]) ? 4 : 3]);
-                $this->addSolution((new ModInstallSolution())->setModName($this->getDependency()));
+                $this->addSolution(new ModInstallSolution($this->getDependency()));
                 return;
 
             case 'minimum':
@@ -76,10 +76,9 @@ class FabricModDependencyProblem extends FabricModProblem
 
                 $firstSymbol = $matches[4] === "exclusive" ? ">" : ">=";
                 $secondSymbol = $matches[6] === "exclusive" ? "<" : "<=";
+                $modVersion = $firstSymbol . $matches[3] . ", " . $secondSymbol . $matches[5];
 
-                $this->addSolution((new ModInstallSolution())
-                    ->setModName($this->getDependency())
-                    ->setModVersion($firstSymbol . $matches[3] . ", " . $secondSymbol . $matches[5]));
+                $this->addSolution(new ModInstallSolution($this->getDependency(), $modVersion));
                 return;
 
             default:
@@ -89,7 +88,8 @@ class FabricModDependencyProblem extends FabricModProblem
 
         $this->setModName($matches[1]);
         $this->setDependency($matches[empty($matches[4]) ? 5 : 4]);
-        $this->addSolution((new ModInstallSolution())->setModName($this->getDependency())->setModVersion($symbol . $matches[3]));
+        $modVersion = $symbol . $matches[3];
+        $this->addSolution(new ModInstallSolution($this->getDependency(), $modVersion));
     }
 
     /**

@@ -34,7 +34,7 @@ class PluginIncompatibleProblem extends PluginProblem
     {
         $this->pluginName = $matches[1];
 
-        $this->addSolution((new PluginInstallDifferentVersionSolution())->setPluginName($this->getPluginName()));
-        $this->addSolution((new PluginRemoveSolution())->setPluginName($this->getPluginName()));
+        $this->addSolution(new PluginInstallDifferentVersionSolution($this->getPluginName()));
+        $this->addSolution(new PluginRemoveSolution($this->getPluginName()));
     }
 }

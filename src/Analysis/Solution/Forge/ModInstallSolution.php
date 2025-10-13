@@ -6,7 +6,15 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class ModInstallSolution extends ModSolution
 {
-    protected ?string $modVersion = null;
+
+    /**
+     * @param string $modName
+     * @param string|null $modVersion
+     */
+    public function __construct(string $modName, protected ?string $modVersion = null)
+    {
+        parent::__construct($modName);
+    }
 
     /**
      * @inheritDoc

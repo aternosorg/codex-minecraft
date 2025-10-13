@@ -40,8 +40,8 @@ class WorldModVersionProblem extends ModProblem
         $this->expectedVersion = $matches[2];
         $this->currentVersion = $matches[3];
 
-        $this->addSolution((new ModInstallSolution())->setModName($this->getModName())->setModVersion($this->getExpectedVersion()));
-        $this->addSolution((new DoNothingSolution()));
+        $this->addSolution(new ModInstallSolution($this->getModName(), $this->getExpectedVersion()));
+        $this->addSolution(new DoNothingSolution());
     }
 
     /**

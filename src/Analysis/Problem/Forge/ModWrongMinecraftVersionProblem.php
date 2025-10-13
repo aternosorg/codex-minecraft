@@ -45,7 +45,7 @@ class ModWrongMinecraftVersionProblem extends ModProblem
         $this->modName = $matches[1];
         $this->minecraftVersion = $matches[2];
 
-        $this->addSolution((new ModRemoveSolution())->setModName($this->getModName()));
-        $this->addSolution((new ForgeInstallDifferentVersionSolution()));
+        $this->addSolution(new ModRemoveSolution($this->getModName()));
+        $this->addSolution(new ForgeInstallDifferentVersionSolution());
     }
 }

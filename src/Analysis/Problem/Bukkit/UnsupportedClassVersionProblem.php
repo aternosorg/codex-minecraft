@@ -44,7 +44,7 @@ class UnsupportedClassVersionProblem extends PluginFileProblem
             $this->classFileVersion = intval($matches[3]);
         }
 
-        $this->addSolution((new UpdateJavaSolution())->setVersion($this->getJavaVersion()));
+        $this->addSolution(new UpdateJavaSolution($this->getJavaVersion()));
     }
 
 

@@ -40,7 +40,7 @@ class WorldDuplicateProblem extends BukkitProblem
     {
         $this->worldName = $matches[1];
 
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->worldName . "/uid.dat"));
-        $this->addSolution((new FileDeleteSolution())->setRelativePath($this->worldName));
+        $this->addSolution(new FileDeleteSolution($this->worldName . "/uid.dat"));
+        $this->addSolution(new FileDeleteSolution($this->worldName));
     }
 }
