@@ -11,7 +11,7 @@ class ReportParser extends \Aternos\Codex\Parser\Parser
     protected const ReportLevel DEFAULT_LEVEL = ReportLevel::INFO;
 
     /**
-     * @var array<string, array<string>> Regular expression patterns to match log lines to levels
+     * @var array<int, array<string>> Regular expression patterns to match log lines to levels
      */
     protected const array PATTERN = [
         ReportLevel::WARNING->value => ["/\s*WARNING: .*$/"],
@@ -35,7 +35,7 @@ class ReportParser extends \Aternos\Codex\Parser\Parser
             foreach (static::PATTERN as $level => $patterns) {
                 foreach ($patterns as $pattern) {
                     if (preg_match($pattern, $lineString, $matches)) {
-                        $entry->setLevel(ReportLevel::fromString($level));
+                        $entry->setLevel(ReportLevel::from($level));
                         if (isset($matches[1])) {
                             $entry->setPrefix($matches[1]);
                         }
