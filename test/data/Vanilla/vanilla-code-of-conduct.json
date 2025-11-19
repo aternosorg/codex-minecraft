@@ -1,0 +1,287 @@
+{
+    "id": "vanilla\/server",
+    "name": "Vanilla",
+    "type": "Server Log",
+    "version": "1.10.2",
+    "title": "Vanilla 1.10.2 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:20:04] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[16:20:04] [Server thread\/INFO]: Starting minecraft server version 1.10.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:21:57] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[16:21:57] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:21:57] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[16:21:57] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:21:57] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[16:21:57] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:21:57] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[16:21:57] [Server thread\/INFO]: Starting Minecraft server on *:10272"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:21:57] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[16:21:57] [Server thread\/INFO]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:34] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[16:22:34] [Server thread\/INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[16:22:39] [Server thread\/INFO]: Preparing start region for level 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[16:22:41] [Server thread\/INFO]: Preparing spawn area: 0%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:42] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[16:22:42] [Server thread\/INFO]: Preparing spawn area: 8%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:43] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[16:22:43] [Server thread\/INFO]: Preparing spawn area: 23%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:44] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[16:22:44] [Server thread\/INFO]: Preparing spawn area: 37%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:45] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[16:22:45] [Server thread\/INFO]: Preparing spawn area: 56%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:46] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[16:22:46] [Server thread\/INFO]: Preparing spawn area: 71%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:47] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[16:22:47] [Server thread\/INFO]: Preparing spawn area: 87%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:48] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[16:22:48] [Server thread\/INFO]: Preparing spawn area: 98%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:48] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[16:22:48] [Server thread\/INFO]: Done (14.532s)! For help, type \"help\" or \"?\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:48] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[16:22:48] [Server thread\/INFO]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:48] [Query Listener #1\/INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[16:22:48] [Query Listener #1\/INFO]: Query running on **.**.**.**:10272"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14:20:41] [ServerMain\/ERROR]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[14:20:41] [ServerMain\/ERROR]: Failed to start the minecraft server"
+                },
+                {
+                    "number": 21,
+                    "content": "java.lang.IllegalArgumentException: Code of Conduct folder does not exist: codeofconduct"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat aro.bU(SourceFile:119) ~[server-1.21.10.jar:?]"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat aro.<init>(SourceFile:110) ~[server-1.21.10.jar:?]"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat net.minecraft.server.Main.a(SourceFile:221) ~[server-1.21.10.jar:?]"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat net.minecraft.server.MinecraftServer.a(SourceFile:304) ~[server-1.21.10.jar:?]"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat net.minecraft.server.Main.main(SourceFile:220) ~[server-1.21.10.jar:?]"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1583) [?:?]"
+                },
+                {
+                    "number": 29,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.10.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:20:04] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[16:20:04] [Server thread\/INFO]: Starting minecraft server version 1.10.2"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.10.2"
+            }
+        ]
+    }
+}

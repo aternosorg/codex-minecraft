@@ -1,0 +1,28 @@
+[16:20:04] [Server thread/INFO]: Starting minecraft server version 1.10.2
+[16:21:57] [Server thread/INFO]: Loading properties
+[16:21:57] [Server thread/INFO]: Default game type: SURVIVAL
+[16:21:57] [Server thread/INFO]: Generating keypair
+[16:21:57] [Server thread/INFO]: Starting Minecraft server on *:10272
+[16:21:57] [Server thread/INFO]: Using epoll channel type
+[16:22:34] [Server thread/INFO]: Preparing level "world"
+[16:22:39] [Server thread/INFO]: Preparing start region for level 0
+[16:22:41] [Server thread/INFO]: Preparing spawn area: 0%
+[16:22:42] [Server thread/INFO]: Preparing spawn area: 8%
+[16:22:43] [Server thread/INFO]: Preparing spawn area: 23%
+[16:22:44] [Server thread/INFO]: Preparing spawn area: 37%
+[16:22:45] [Server thread/INFO]: Preparing spawn area: 56%
+[16:22:46] [Server thread/INFO]: Preparing spawn area: 71%
+[16:22:47] [Server thread/INFO]: Preparing spawn area: 87%
+[16:22:48] [Server thread/INFO]: Preparing spawn area: 98%
+[16:22:48] [Server thread/INFO]: Done (14.532s)! For help, type "help" or "?"
+[16:22:48] [Server thread/INFO]: Starting GS4 status listener
+[16:22:48] [Query Listener #1/INFO]: Query running on **.**.**.**:10272
+[14:20:41] [ServerMain/ERROR]: Failed to start the minecraft server
+java.lang.IllegalArgumentException: Code of Conduct folder does not exist: codeofconduct
+	at aro.bU(SourceFile:119) ~[server-1.21.10.jar:?]
+	at aro.<init>(SourceFile:110) ~[server-1.21.10.jar:?]
+	at net.minecraft.server.Main.a(SourceFile:221) ~[server-1.21.10.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:304) ~[server-1.21.10.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:220) ~[server-1.21.10.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]

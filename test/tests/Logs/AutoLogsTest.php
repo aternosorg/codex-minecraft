@@ -1758,6 +1758,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_vanilla_code_of_conduct(): void
+    {
+        $log = new TestLog('Vanilla/vanilla-code-of-conduct.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_vanilla_forge_ticking_entity(): void
     {
         $log = new TestLog('Vanilla/vanilla-forge-ticking-entity.log');
