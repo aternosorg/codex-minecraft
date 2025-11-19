@@ -11,13 +11,13 @@ class FileEditSolution extends FileSolution implements AutomatableSolutionInterf
     /**
      * @param string $path The relative path (without a starting slash) or absolute path to the file.
      *                     If the path is relative, it will be treated as relative to the Minecraft server root directory.
-     * @param FilePathType $type Is the path relative or absolute?
+     * @param PathType $type Is the path relative or absolute?
      * @param string $pattern The regex pattern to search for in the file content.
      * @param string $replacement The replacement string for the matched pattern.
      */
     public function __construct(
         string           $path,
-        FilePathType     $type = FilePathType::RELATIVE,
+        PathType         $type = PathType::RELATIVE,
         protected string $pattern,
         protected string $replacement
     )

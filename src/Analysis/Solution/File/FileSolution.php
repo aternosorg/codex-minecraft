@@ -9,11 +9,11 @@ abstract class FileSolution extends MinecraftSolution
     /**
      * @param string $path The relative path (without a starting slash) or absolute path to the file.
      *                     If the path is relative, it will be treated as relative to the Minecraft server root directory.
-     * @param FilePathType $type Is the path relative or absolute?
+     * @param PathType $type Is the path relative or absolute?
      */
     public function __construct(
         protected string       $path,
-        protected FilePathType $type = FilePathType::RELATIVE
+        protected PathType $type = PathType::RELATIVE
     )
     {
     }
@@ -28,7 +28,7 @@ abstract class FileSolution extends MinecraftSolution
     public function setRelativePath(string $path): static
     {
         $this->path = $path;
-        $this->type = FilePathType::RELATIVE;
+        $this->type = PathType::RELATIVE;
         return $this;
     }
 
@@ -41,7 +41,7 @@ abstract class FileSolution extends MinecraftSolution
     public function setAbsolutePath(string $path): static
     {
         $this->path = $path;
-        $this->type = FilePathType::ABSOLUTE;
+        $this->type = PathType::ABSOLUTE;
         return $this;
     }
 
@@ -59,9 +59,9 @@ abstract class FileSolution extends MinecraftSolution
     /**
      * Get the type of the path (absolute or relative)
      *
-     * @return FilePathType
+     * @return PathType
      */
-    public function getType(): FilePathType
+    public function getType(): PathType
     {
         return $this->type;
     }
@@ -74,7 +74,7 @@ abstract class FileSolution extends MinecraftSolution
      */
     public function isRelative(): bool
     {
-        return $this->getType() === FilePathType::RELATIVE;
+        return $this->getType() === PathType::RELATIVE;
     }
 
     /**
@@ -84,6 +84,6 @@ abstract class FileSolution extends MinecraftSolution
      */
     public function isAbsolutePath(): bool
     {
-        return $this->getType() === FilePathType::ABSOLUTE;
+        return $this->getType() === PathType::ABSOLUTE;
     }
 }
