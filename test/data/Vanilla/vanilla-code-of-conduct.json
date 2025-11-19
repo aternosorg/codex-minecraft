@@ -87,7 +87,64 @@
         }
     ],
     "analysis": {
-        "problems": [],
+        "problems": [
+            {
+                "message": "The Code of Conduct folder does not exist.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[14:20:41] [ServerMain\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "[14:20:41] [ServerMain\/ERROR]: Failed to start the minecraft server"
+                        },
+                        {
+                            "number": 5,
+                            "content": "java.lang.IllegalArgumentException: Code of Conduct folder does not exist: codeofconduct"
+                        },
+                        {
+                            "number": 6,
+                            "content": "\tat aro.bU(SourceFile:119) ~[server-1.21.10.jar:?]"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\tat aro.<init>(SourceFile:110) ~[server-1.21.10.jar:?]"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\tat net.minecraft.server.Main.a(SourceFile:221) ~[server-1.21.10.jar:?]"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\tat net.minecraft.server.MinecraftServer.a(SourceFile:304) ~[server-1.21.10.jar:?]"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\tat net.minecraft.server.Main.main(SourceFile:220) ~[server-1.21.10.jar:?]"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\tat net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1583) [?:?]"
+                        },
+                        {
+                            "number": 13,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Create the folder 'codeofconduct'."
+                    }
+                ]
+            }
+        ],
         "information": []
     }
 }

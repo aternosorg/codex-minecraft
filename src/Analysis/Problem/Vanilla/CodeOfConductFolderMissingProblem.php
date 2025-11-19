@@ -21,7 +21,7 @@ class CodeOfConductFolderMissingProblem extends VanillaProblem
     public static function getPatterns(): array
     {
         return [
-            '/Failed to start the minecraft server\njava\.lang\.IllegalArgumentException\: Code of Conduct folder does not exist: (.*)$/'
+            '/Failed to start the minecraft server\njava\.lang\.IllegalArgumentException\: Code of Conduct folder does not exist: (.*)/'
         ];
     }
 
