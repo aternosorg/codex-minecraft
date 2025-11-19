@@ -2,7 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Solution\File;
 
-enum PathType
+enum FilePathType
 {
     case RELATIVE;
     case ABSOLUTE;

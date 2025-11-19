@@ -2,7 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Solution\Folder;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\File\PathType;
+use Aternos\Codex\Minecraft\Analysis\Solution\File\FilePathType;
 use Aternos\Codex\Minecraft\Analysis\Solution\MinecraftSolution;
 
 abstract class FolderSolution extends MinecraftSolution
@@ -10,11 +10,11 @@ abstract class FolderSolution extends MinecraftSolution
     /**
      * @param string $path The relative path (without a starting slash) or absolute path to the folder.
      *                     If the path is relative, it will be treated as relative to the Minecraft server root directory.
-     * @param PathType $type Is the path relative or absolute?
+     * @param FilePathType $type Is the path relative or absolute?
      */
     public function __construct(
         protected string   $path,
-        protected PathType $type = PathType::RELATIVE
+        protected FilePathType $type = FilePathType::RELATIVE
     )
     {
     }
@@ -29,7 +29,7 @@ abstract class FolderSolution extends MinecraftSolution
     public function setRelativePath(string $path): static
     {
         $this->path = $path;
-        $this->type = PathType::RELATIVE;
+        $this->type = FilePathType::RELATIVE;
         return $this;
     }
 
@@ -42,7 +42,7 @@ abstract class FolderSolution extends MinecraftSolution
     public function setAbsolutePath(string $path): static
     {
         $this->path = $path;
-        $this->type = PathType::ABSOLUTE;
+        $this->type = FilePathType::ABSOLUTE;
         return $this;
     }
 
@@ -60,9 +60,9 @@ abstract class FolderSolution extends MinecraftSolution
     /**
      * Get the type of the path (absolute or relative)
      *
-     * @return PathType
+     * @return FilePathType
      */
-    public function getType(): PathType
+    public function getType(): FilePathType
     {
         return $this->type;
     }
@@ -75,7 +75,7 @@ abstract class FolderSolution extends MinecraftSolution
      */
     public function isRelative(): bool
     {
-        return $this->getType() === PathType::RELATIVE;
+        return $this->getType() === FilePathType::RELATIVE;
     }
 
     /**
@@ -85,6 +85,6 @@ abstract class FolderSolution extends MinecraftSolution
      */
     public function isAbsolutePath(): bool
     {
-        return $this->getType() === PathType::ABSOLUTE;
+        return $this->getType() === FilePathType::ABSOLUTE;
     }
 }
