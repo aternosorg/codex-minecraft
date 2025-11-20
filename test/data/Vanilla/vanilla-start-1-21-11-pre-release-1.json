@@ -1,0 +1,420 @@
+{
+    "id": "vanilla\/server",
+    "name": "Vanilla",
+    "type": "Server Log",
+    "version": "1.21.11 Pre-Release 1",
+    "title": "Vanilla 1.21.11 Pre-Release 1 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:16] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[11:00:16] [ServerMain\/INFO]: Environment: Environment[sessionHost=https:\/\/sessionserver.mojang.com, servicesHost=https:\/\/api.minecraftservices.com, profilesHost=https:\/\/api.mojang.com, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:17] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[11:00:17] [ServerMain\/INFO]: No existing world data, creating new world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:17] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[11:00:17] [ServerMain\/INFO]: Loaded 1470 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:17] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[11:00:17] [ServerMain\/INFO]: Loaded 1584 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:17] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[11:00:17] [Server thread\/INFO]: Starting json RPC server on 0.0.0.0:9900"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:17] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[11:00:17] [Server thread\/INFO]: Json-RPC Management connection listening on 0.0.0.0:9900"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:17] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[11:00:17] [Server thread\/INFO]: Starting minecraft server version 1.21.11 Pre-Release 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:17] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[11:00:17] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:17] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[11:00:17] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:17] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[11:00:17] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:17] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[11:00:17] [Server thread\/INFO]: Starting Minecraft server on *:49877"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:17] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[11:00:17] [Server thread\/INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:17] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[11:00:17] [Server thread\/INFO]: Selecting global world spawn..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:17] [Management server IO #1\/INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[11:00:17] [Management server IO #1\/INFO]: RPC Connection #1: Management connection opened for \/**.**.**.**:10874"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:18] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[11:00:18] [Server thread\/INFO]: Loading 0 persistent chunks..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:18] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[11:00:18] [Server thread\/INFO]: Preparing spawn area: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:18] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[11:00:18] [Server thread\/INFO]: Time elapsed: 1320 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:18] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[11:00:18] [Server thread\/INFO]: Done (1.430s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:18] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[11:00:18] [Server thread\/INFO]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:18] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[11:00:18] [Server thread\/INFO]: Thread Query Listener started"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:18] [Query Listener #1\/INFO]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[11:00:18] [Query Listener #1\/INFO]: Query running on 0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:18] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[11:00:18] [Server thread\/INFO]: JMX monitoring enabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:23] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[11:00:23] [Server thread\/INFO]: Stopping the server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:23] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[11:00:23] [Server thread\/INFO]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:23] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[11:00:23] [Server thread\/INFO]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:23] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[11:00:23] [Server thread\/INFO]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:23] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[11:00:23] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:23] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[11:00:23] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:23] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[11:00:23] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:23] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[11:00:23] [Server thread\/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:23] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[11:00:23] [Server thread\/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:23] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[11:00:23] [Server thread\/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:23] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[11:00:23] [Server thread\/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:23] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[11:00:23] [Server thread\/INFO]: Thread Query Listener stopped"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[11:00:23] [Management server IO #1\/INFO]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[11:00:23] [Management server IO #1\/INFO]: RPC Connection #1: Management connection closed for \/**.**.**.**:10874"
+                },
+                {
+                    "number": 36,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.21.11 Pre-Release 1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[11:00:17] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 7,
+                            "content": "[11:00:17] [Server thread\/INFO]: Starting minecraft server version 1.21.11 Pre-Release 1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.11 Pre-Release 1"
+            }
+        ]
+    }
+}
