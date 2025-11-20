@@ -1768,6 +1768,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_vanilla_crash_report_1_21_10_release_candidate_1(): void
+    {
+        $log = new TestLog('Vanilla/vanilla-crash-report-1-21-10-release-candidate-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_vanilla_crash_report_1_21_11_pre_release_1(): void
+    {
+        $log = new TestLog('Vanilla/vanilla-crash-report-1-21-11-pre-release-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_vanilla_forge_ticking_entity(): void
     {
         $log = new TestLog('Vanilla/vanilla-forge-ticking-entity.log');
@@ -1831,6 +1851,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_vanilla_snapshot_21w05b(): void
     {
         $log = new TestLog('Vanilla/vanilla-snapshot-21w05b.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_vanilla_start_1_21_11_pre_release_1(): void
+    {
+        $log = new TestLog('Vanilla/vanilla-start-1-21-11-pre-release-1.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 

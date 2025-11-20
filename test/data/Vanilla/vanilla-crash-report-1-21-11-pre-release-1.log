@@ -1,0 +1,96 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 2025-11-19 13:22:30
+Description: Initializing game
+
+java.lang.NullPointerException: Cannot invoke "hoh.p()" because "gfj.V().e" is null
+	at gfo.b(SourceFile:1635)
+	at gfn.a(SourceFile:154)
+	at gfb.a(SourceFile:113)
+	at gfb.a(SourceFile:66)
+	at gfo.a(SourceFile:210)
+	at gfj.<init>(SourceFile:537)
+	at net.minecraft.client.main.Main.main(SourceFile:234)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at gfo.b(SourceFile:1635)
+	at gfn.a(SourceFile:154)
+	at gfb.a(SourceFile:113)
+	at gfb.a(SourceFile:66)
+	at gfo.a(SourceFile:210)
+	at gfj.<init>(SourceFile:537)
+
+-- Initialization --
+Details:
+	Modules:
+Stacktrace:
+	at net.minecraft.client.main.Main.main(SourceFile:234)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.11 Pre-Release 1
+	Minecraft Version ID: 1.21.11-pre1
+	Operating System: Linux (amd64) version 6.17.8-300.fc43.x86_64
+	Java Version: 21.0.8, Azul Systems, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+	Memory: 205622888 bytes (196 MiB) / 455081984 bytes (434 MiB) up to 2147483648 bytes (2048 MiB)
+	CPUs: 20
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i9-12900HK
+	Identifier: Intel64 Family 6 Model 154 Stepping 3
+	Microarchitecture: Alder Lake
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 14
+	Number of logical CPUs: 20
+	Graphics card #0 name: Alder Lake-P GT2 [Iris Xe Graphics]
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MiB): 256.00
+	Graphics card #0 deviceId: 0x46a6
+	Graphics card #0 versionInfo: unknown
+	Graphics card #1 name: GA107M [GeForce RTX 3050 Ti Mobile]
+	Graphics card #1 vendor: NVIDIA Corporation (0x10de)
+	Graphics card #1 VRAM (MiB): 4128.00
+	Graphics card #1 deviceId: 0x25a0
+	Graphics card #1 versionInfo: unknown
+	Virtual memory max (MiB): 40171.74
+	Virtual memory used (MiB): 25404.43
+	Swap memory total (MiB): 8192.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): available: 185838.28, total: 975121.00
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 185838.28, total: 975121.00
+	Space in storage for io.netty.native.workdir (MiB): available: 185838.28, total: 975121.00
+	Space in storage for java.io.tmpdir (MiB): available: 6395.06, total: 6395.95
+	Space in storage for workdir (MiB): available: 185838.28, total: 975121.00
+	JVM Flags: 1 total; -Xmx2048M
+	Debug Flags: 0 total;
+	Launched Version: 1.21.11-pre1
+	Launcher name: theseus
+	Backend library: LWJGL version 3.3.3+5
+	Backend API: Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2) GL version 4.6 (Core Profile) Mesa 25.2.6 (git-3f12436d80), Intel
+	Window size: <not initialized>
+	GFLW Platform: x11
+	Render Extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+	GL debug messages:
+	Is Modded: Probably not. Client jar signature and brand is untouched
+	Universe: 404
+	Type: Client (map_client.txt)
+	Locale: en_US
+	System encoding: UTF-8
+	File encoding: UTF-8
+	CPU: 20x 12th Gen Intel(R) Core(TM) i9-12900HK

@@ -1,0 +1,35 @@
+[11:00:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[11:00:17] [ServerMain/INFO]: No existing world data, creating new world
+[11:00:17] [ServerMain/INFO]: Loaded 1470 recipes
+[11:00:17] [ServerMain/INFO]: Loaded 1584 advancements
+[11:00:17] [Server thread/INFO]: Starting json RPC server on 0.0.0.0:9900
+[11:00:17] [Server thread/INFO]: Json-RPC Management connection listening on 0.0.0.0:9900
+[11:00:17] [Server thread/INFO]: Starting minecraft server version 1.21.11 Pre-Release 1
+[11:00:17] [Server thread/INFO]: Loading properties
+[11:00:17] [Server thread/INFO]: Default game type: SURVIVAL
+[11:00:17] [Server thread/INFO]: Generating keypair
+[11:00:17] [Server thread/INFO]: Starting Minecraft server on *:49877
+[11:00:17] [Server thread/INFO]: Preparing level "world"
+[11:00:17] [Server thread/INFO]: Selecting global world spawn...
+[11:00:17] [Management server IO #1/INFO]: RPC Connection #1: Management connection opened for /**.**.**.**:10874
+[11:00:18] [Server thread/INFO]: Loading 0 persistent chunks...
+[11:00:18] [Server thread/INFO]: Preparing spawn area: 100%
+[11:00:18] [Server thread/INFO]: Time elapsed: 1320 ms
+[11:00:18] [Server thread/INFO]: Done (1.430s)! For help, type "help"
+[11:00:18] [Server thread/INFO]: Starting GS4 status listener
+[11:00:18] [Server thread/INFO]: Thread Query Listener started
+[11:00:18] [Query Listener #1/INFO]: Query running on 0.0.0.0:9898
+[11:00:18] [Server thread/INFO]: JMX monitoring enabled
+[11:00:23] [Server thread/INFO]: Stopping the server
+[11:00:23] [Server thread/INFO]: Stopping server
+[11:00:23] [Server thread/INFO]: Saving players
+[11:00:23] [Server thread/INFO]: Saving worlds
+[11:00:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:00:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11:00:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11:00:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:00:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:00:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:00:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:00:23] [Server thread/INFO]: Thread Query Listener stopped
+[11:00:23] [Management server IO #1/INFO]: RPC Connection #1: Management connection closed for /**.**.**.**:10874
