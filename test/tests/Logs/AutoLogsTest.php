@@ -1768,6 +1768,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_vanilla_crash_report_1_21_10_release_candidate_1(): void
+    {
+        $log = new TestLog('Vanilla/vanilla-crash-report-1-21-10-release-candidate-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_vanilla_crash_report_1_21_11_pre_release_1(): void
     {
         $log = new TestLog('Vanilla/vanilla-crash-report-1-21-11-pre-release-1.log');
