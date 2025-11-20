@@ -1,18 +1,19 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analysis\Solution\File;
+namespace Aternos\Codex\Minecraft\Analysis\Solution\Folder;
 
+use Aternos\Codex\Minecraft\Analysis\Solution\File\FilePathType;
 use Aternos\Codex\Minecraft\Analysis\Solution\MinecraftSolution;
 
-abstract class FileSolution extends MinecraftSolution
+abstract class FolderSolution extends MinecraftSolution
 {
     /**
-     * @param string $path The relative path (without a starting slash) or absolute path to the file.
+     * @param string $path The relative path (without a starting slash) or absolute path to the folder.
      *                     If the path is relative, it will be treated as relative to the Minecraft server root directory.
      * @param FilePathType $type Is the path relative or absolute?
      */
     public function __construct(
-        protected string       $path,
+        protected string   $path,
         protected FilePathType $type = FilePathType::RELATIVE
     )
     {
