@@ -91,5 +91,7 @@
     "auth-server-problem": "Сервери автентифікації Mojang/Microsoft наразі недоступні!",
     "auth-server-solution": "Зачекайте кілька хвилин і повторіть спробу. Якщо проблема не зникає, перевірте офіційні канали Mojang/Microsoft на наявність відомих проблем із сервером автентифікації.",
     "overworld-settings-missing-problem": "Відсутні налаштування верхнього світу",
-    "missing-datapack-mod-problem": "Дата пак відсутній, оскільки мод '{{mod-name}}' не може бути встановлений."
+    "missing-datapack-mod-problem": "Дата пак відсутній, оскільки мод '{{mod-name}}' не може бути встановлений.",
+    "folder-create-solution": "Створити теку '{{folder-path}}'.",
+    "code-of-conduct-folder-missing-problem": "Тека Кодексу поведінки не існує."
 }

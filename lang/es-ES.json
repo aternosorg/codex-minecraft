@@ -91,5 +91,7 @@
     "auth-server-problem": "¡Los servidores de autenticación de Mojang/Microsoft no se encuentran disponibles!",
     "auth-server-solution": "Espera un par de minutos e inténtalo de nuevo. Si el problema persiste, revisa los canales oficiales de Mojang/Microsoft por si hay algún problema en los servidores de autenticación.",
     "overworld-settings-missing-problem": "Faltan configuraciones del mundo",
-    "missing-datapack-mod-problem": "Falta un datapack, porque el mod '{{mod-name}}' puede no estar instalado."
+    "missing-datapack-mod-problem": "Falta un datapack, porque el mod '{{mod-name}}' puede no estar instalado.",
+    "folder-create-solution": "Crear la carpeta '{{folder-path}}'.",
+    "code-of-conduct-folder-missing-problem": "La carpeta del Código de Conducta no existe."
 }

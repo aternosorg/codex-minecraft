@@ -89,5 +89,7 @@
     "auth-server-problem": "Mojang/Microsoft認証サーバーは現在到達できません!",
     "auth-server-solution": "数分待ってからもう一度やり直してください。問題が解決しない場合は、公式のMojang/Microsoftチャンネルで既知の認証サーバーの問題を確認してください。",
     "overworld-settings-missing-problem": "オーバーワールドの設定がありません",
-    "missing-datapack-mod-problem": "mod '{{mod-name}}' がインストールされない可能性があるため、データパックが不足しています。"
+    "missing-datapack-mod-problem": "mod '{{mod-name}}' がインストールされない可能性があるため、データパックが不足しています。",
+    "type-network-protocol-error-report": "ネットワークプロトコルエラーレポート",
+    "plugin-api-version-lower-than-allowed-problem": "プラグイン '{{plugin-name}}' の API バージョンが、サーバーで許可されている最小バージョンを下回っています。"
 }

@@ -89,5 +89,8 @@
     "auth-server-problem": "Mojang/Microsoft प्रमाणीकरण सर्वर वर्तमान में पहुंच योग्य नहीं हैं!",
     "auth-server-solution": "कुछ मिनट प्रतीक्षा करें और पुनः प्रयास करें। यदि समस्या बनी रहती है, तो किसी भी ज्ञात प्रमाणीकरण सर्वर समस्या के लिए आधिकारिक Mojang/Microsoft चैनल की जाँच करें।",
     "overworld-settings-missing-problem": "ओवरवर्ल्ड सेटिंग्स गायब हैं",
-    "missing-datapack-mod-problem": "डेटापैक गायब है, क्योंकि मॉड '{{mod-name}}' संभवतः स्थापित नहीं है।"
+    "missing-datapack-mod-problem": "डेटापैक गायब है, क्योंकि मॉड '{{mod-name}}' संभवतः स्थापित नहीं है।",
+    "folder-create-solution": "फ़ोल्डर बनाएँ '{{folder-path}}'.",
+    "code-of-conduct-folder-missing-problem": "कोड ऑफ़ कंडक्ट फ़ोल्डर मौजूद नहीं है।",
+    "change-minimum-api-version-solution": "‘bukkit.yml’ में ‘minimum-api’ को बदलकर {{api-version}}, उससे कम या फिर ‘none’ कर दो।"
 }

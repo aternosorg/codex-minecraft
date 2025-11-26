@@ -91,5 +91,7 @@
     "auth-server-problem": "Mojang/Microsoft 的身份验证服务器目前无法访问！",
     "auth-server-solution": "请等待几分钟后再试。如果问题仍然存在，请查看 Mojang/Microsoft 官方渠道，了解是否有已知的身份验证服务器问题。",
     "overworld-settings-missing-problem": "缺少主世界设置",
-    "missing-datapack-mod-problem": "缺少数据包，因为可能未安装模组 '{{mod-name}}'。"
+    "missing-datapack-mod-problem": "缺少数据包，因为可能未安装模组 '{{mod-name}}'。",
+    "folder-create-solution": "创建文件夹 “{{folder-path}}”。",
+    "code-of-conduct-folder-missing-problem": "行为守则文件夹不存在。"
 }

@@ -91,5 +91,7 @@
     "auth-server-problem": "Autentizační servery Mojangu/Microsoftu jsou momentálně nedostupné!",
     "auth-server-solution": "Počkej několik minut a zkus to znovu. Pokud problém přetrvává, podívej se na oficiální kanály Mojangu/Microsoftu, zda neinformují o nějakých známých problémech s autentizačními servery.",
     "overworld-settings-missing-problem": "Chybí nastavení overworldu",
-    "missing-datapack-mod-problem": "Datapack chybí, protože mód ‚{{mod-name}}‘ možná není nainstalovaný."
+    "missing-datapack-mod-problem": "Datapack chybí, protože mód ‚{{mod-name}}‘ možná není nainstalovaný.",
+    "folder-create-solution": "Vytvoř složku ‚{{folder-path}}‘.",
+    "code-of-conduct-folder-missing-problem": "Složka s Kodexem chování neexistuje."
 }

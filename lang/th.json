@@ -91,5 +91,6 @@
     "auth-server-problem": "ไม่สามารถเข้าถึงเซิร์ฟเวอร์การตรวจสอบสิทธิ์ของ Mojang/Microsoft ได้ในขณะนี้!",
     "auth-server-solution": "รอสักครู่แล้วลองอีกครั้ง หากปัญหายังคงอยู่ ให้ตรวจสอบช่องทาง Mojang/Microsoft อย่างเป็นทางการเพื่อดูปัญหาเซิร์ฟเวอร์การตรวจสอบสิทธิ์ที่ทราบ",
     "overworld-settings-missing-problem": "ขาดการตั้งค่าโลกปกติ (Overworld)",
-    "missing-datapack-mod-problem": "Datapack ขาดหายไปเนื่องจากอาจไม่ได้ติดตั้ง mod '{{mod-name}}'"
+    "missing-datapack-mod-problem": "Datapack ขาดหายไปเนื่องจากอาจไม่ได้ติดตั้ง mod '{{mod-name}}'",
+    "folder-create-solution": "สร้างโฟลเดอร์ '{{folder-path}}'"
 }

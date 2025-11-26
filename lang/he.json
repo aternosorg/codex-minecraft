@@ -90,5 +90,6 @@
     "change-minimum-api-version-solution": "שנה 'minimum-api' בקובץ bukkit.yml ל-{{api-version}}, נמוך יותר, או אפילו 'none'.",
     "auth-server-problem": "שרתי האימות של Mojang/Microsoft כרגע לא זמינים!",
     "auth-server-solution": "חכה כמה דקות ונסה שוב, אם השגיאה חוזרת, בדוק אם יש דיווחים רשמיים על בעיות ידועות על שרת האימות.",
-    "missing-datapack-mod-problem": "חבילת נתונים חסרה, בגלל שהמוד '{{mod-name}}' כנראה לא מותקן."
+    "missing-datapack-mod-problem": "חבילת נתונים חסרה, בגלל שהמוד '{{mod-name}}' כנראה לא מותקן.",
+    "overworld-settings-missing-problem": "הגדרות עולם עליון חסרים"
 }

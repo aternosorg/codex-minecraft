@@ -89,5 +89,7 @@
     "auth-server-problem": "لا يمكن الوصول إلى خوادم المصادقة Mojang/Microsoft حاليا!",
     "auth-server-solution": "انتظر بضع دقائق ثم حاول مرة أخرى. إذا استمرت المشكلة، تحقق من قنوات Mojang/Microsoft الرسمية لمعرفة أي مشاكل معروفة في خادم المصادقة.",
     "overworld-settings-missing-problem": "إعدادات العالم مفقودة",
-    "missing-datapack-mod-problem": "الداتا باك مفقود؛ بسبب {{mod-name}} لم يتم تحميله"
+    "missing-datapack-mod-problem": "الداتا باك مفقود؛ بسبب {{mod-name}} لم يتم تحميله",
+    "plugin-api-version-lower-than-allowed-problem": "الملحق '{{plugin-name}}' لديه إصدار API محدد أقل من الإصدار الأدنى المسموح به.",
+    "change-minimum-api-version-solution": "غيير 'minimum-api' في bukkit.yml إلى {{api-version}}، أقل أو حتى 'none'."
 }

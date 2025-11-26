@@ -91,5 +91,6 @@
     "auth-server-problem": "Серверы аутентификации Mojang/Microsoft временно недоступны!",
     "auth-server-solution": "Повторите попытку через несколько минут. Если проблема повторится, попробуйте поискать об известных проблемах с серверами аутентификации на официальных каналах Mojang/Microsoft.",
     "overworld-settings-missing-problem": "Отсутствуют настройки верхнего мира",
-    "missing-datapack-mod-problem": "Дата пак отсутствует, так как мод '{{mod-name}}' не может быть установлен."
+    "missing-datapack-mod-problem": "Дата пак отсутствует, так как мод '{{mod-name}}' не может быть установлен.",
+    "folder-create-solution": "Создать папку '{{folder-path}}'."
 }
