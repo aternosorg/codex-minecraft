@@ -89,5 +89,6 @@
     "auth-server-problem": "Mojang/Microsoft todennuspalvelimet ovet tällä hetkellä saavuttamattomissa!",
     "auth-server-solution": "Odota muutama minuutti ja yritä uudelleen. Jos ongelma toistuu, tarkista viralliset Mojang/Microsoft kanavat tiedettyjen todennuspalvelinongelmien varalta.",
     "overworld-settings-missing-problem": "Ylämaailman asetukset puuttuvat.",
-    "missing-datapack-mod-problem": "Tietopaketti puuttuu, koska modia '{{mod-name}}' ei voida asentaa."
+    "missing-datapack-mod-problem": "Tietopaketti puuttuu, koska modia '{{mod-name}}' ei voida asentaa.",
+    "plugin-regional-ticking-problem": "Laajennus {{plugin-name}} ei tue alueellista päivityssykliä"
 }

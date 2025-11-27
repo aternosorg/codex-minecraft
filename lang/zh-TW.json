@@ -90,5 +90,6 @@
     "auth-server-problem": "Mojang/Microsoft 的身份驗證伺服器目前無法連線！",
     "auth-server-solution": "請稍等幾分鐘後再試。如果問題仍然存在，請檢查 Mojang/Microsoft 的官方頻道是否有任何已知的身份驗證伺服器問題。",
     "overworld-settings-missing-problem": "主世界設定遺失",
-    "missing-datapack-mod-problem": "缺少資料包，因為模組'{{mod-name}}'可能尚未安裝。"
+    "missing-datapack-mod-problem": "缺少資料包，因為模組'{{mod-name}}'可能尚未安裝。",
+    "change-minimum-api-version-solution": "在 bukkit.yml 中將 'minimum-api' 更改為 {{api-version}}、更低版本或甚至 'none'。"
 }

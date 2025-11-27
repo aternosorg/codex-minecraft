@@ -88,5 +88,6 @@
     "change-minimum-api-version-solution": "تغییر 'minimum-api'  در bukkit.yml به {{api-version}} ، کمتر و یا حتی 'none'.",
     "auth-server-problem": "سرورهای احراز هویت Mojang/Microsoft در حال حاضر غیرقابل دسترسی هستند!",
     "auth-server-solution": "چند دقیقه صبر کنید و دوباره تلاش کنید. اگر مشکل همچنان ادامه داشت، به کانال‌های رسمی Mojang/Microsoft مراجعه کنید تا از وجود هرگونه مشکل در سرورهای احراز هویت مطلع شوید.",
-    "missing-datapack-mod-problem": "دیتاپک گم شده است، چون مود '{{mod-name}}' ممکن است نصب نشده باشد."
+    "missing-datapack-mod-problem": "دیتاپک گم شده است، چون مود '{{mod-name}}' ممکن است نصب نشده باشد.",
+    "overworld-settings-missing-problem": "تنظیمات Overworld وجود ندارد"
 }

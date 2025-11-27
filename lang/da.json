@@ -91,5 +91,7 @@
     "auth-server-problem": "Mojang/Microsoft godkendelses servere er i øjeblikket utilgængelige!",
     "auth-server-solution": "Vent et par minutter og prøv igen. Hvis problemet fortsætter, tjek de officielle Mojang / Microsoft kanaler for eventuelle kendte autentificeringsserver problemer.",
     "overworld-settings-missing-problem": "Overworld indstillinger mangler",
-    "missing-datapack-mod-problem": "Datapack mangler, fordi mod'{{mod-name}}' muligvis ikke er installeret."
+    "missing-datapack-mod-problem": "Datapack mangler, fordi mod'{{mod-name}}' muligvis ikke er installeret.",
+    "folder-create-solution": "Lav folder '{{folder-path}}'",
+    "code-of-conduct-folder-missing-problem": "\"The Code of Conduct\" folderen eksistere ikke."
 }

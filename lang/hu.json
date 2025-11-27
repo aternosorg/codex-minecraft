@@ -91,5 +91,7 @@
     "auth-server-problem": "A Mojang/Microsoft hitelesítési szerverek jelenleg elérhetetlenek!",
     "auth-server-solution": "Várj egy pár percet és próbáld újra. Ha a probléma továbbra is fennáll, nézd meg a Mojang és a Minecraft hivatalos hírcsatornáit a jelenlegi problémákról.",
     "overworld-settings-missing-problem": "Overworld beállításai hiányoznak",
-    "missing-datapack-mod-problem": "Datacsomag hiányzik, mert a(z) '{{mod-name}}' nevű mod lehet nincs letöltve."
+    "missing-datapack-mod-problem": "Datacsomag hiányzik, mert a(z) '{{mod-name}}' nevű mod lehet nincs letöltve.",
+    "folder-create-solution": "Hoz létre egy mappát itt '{{folder-path}}'.",
+    "code-of-conduct-folder-missing-problem": "A Code of Conduct mappa nem létezik."
 }

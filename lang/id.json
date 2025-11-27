@@ -90,5 +90,6 @@
     "auth-server-problem": "Server autentikasi Mojang/Microsoft saat ini tidak dapat dijangkau!",
     "auth-server-solution": "Tunggu beberapa menit dan coba lagi. Jika masalah berlanjut, periksa saluran resmi Mojang/Microsoft untuk masalah server otentikasi yang diketahui.",
     "overworld-settings-missing-problem": "Settingan Overworld hilang",
-    "missing-datapack-mod-problem": "Datapack hilang, karena kemungkinan mod '{{mod-name}}' tidak terinstall."
+    "missing-datapack-mod-problem": "Datapack hilang, karena kemungkinan mod '{{mod-name}}' tidak terinstall.",
+    "change-minimum-api-version-solution": "Mengganti 'minimum-api' di bukkit.yml terhadap {{api-version}}, kebawah atau bahkan 'tidak ada'"
 }

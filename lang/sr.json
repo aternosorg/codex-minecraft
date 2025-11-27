@@ -90,5 +90,6 @@
     "change-minimum-api-version-solution": "Промените 'minimum-api' у фајлу bukkit.yml у верзију {{api-version}}, нижу или чак 'none'.",
     "auth-server-problem": "Mojang/Microsoft сервери за аутентификацију су тренутно недоступни!",
     "auth-server-solution": "Сачекајте неколико минута и покушајте поново. Ако се проблем настави, проверите званичне Mojang/Microsoft канале како бисте проверили постоје ли познати проблеми са сервером за аутентификацију.",
-    "missing-datapack-mod-problem": "Пакет података недостаје, јер мод '{{mod-name}}' можда није инсталиран."
+    "missing-datapack-mod-problem": "Пакет података недостаје, јер мод '{{mod-name}}' можда није инсталиран.",
+    "overworld-settings-missing-problem": "Недостају подешавања света"
 }

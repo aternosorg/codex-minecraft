@@ -91,5 +91,6 @@
     "auth-server-problem": "Systemy uwierzytelniania Mojang/Microsoft są aktualnie niedostępne!",
     "auth-server-solution": "Poczekaj kilka minut i spróbuj ponownie. Jeśli problem będzie się powtarzał, sprawdź oficjalne kanały Mojang/Microsoft pod kątem znanych problemów z serwerem uwierzytelniania.",
     "overworld-settings-missing-problem": "Brakujące ustawienia overworldu",
-    "missing-datapack-mod-problem": "Brakuje datapacku, ponieważ mod '{{mod-name}}' może nie być zainstalowany."
+    "missing-datapack-mod-problem": "Brakuje datapacku, ponieważ mod '{{mod-name}}' może nie być zainstalowany.",
+    "folder-create-solution": "Utwórz folder '{{folder-path}}'."
 }

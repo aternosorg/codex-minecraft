@@ -91,5 +91,7 @@
     "auth-server-problem": "Serverele Mojang/Microsoft de autentificare nu pot fi accesate momentan!",
     "auth-server-solution": "Așteaptă câteva minute și încearcă din nou. Dacă problema persistă, vezi canalele oficiale Mojang/Microsoft pentru oricare probleme ale serverului de autentificare.",
     "overworld-settings-missing-problem": "Setările din overworld lipsesc",
-    "missing-datapack-mod-problem": "Lipsește pachetul de date, deoarece este posibil ca modul '{{mod-name}}' să nu fie instalat."
+    "missing-datapack-mod-problem": "Lipsește pachetul de date, deoarece este posibil ca modul '{{mod-name}}' să nu fie instalat.",
+    "folder-create-solution": "Creați folderul '{{folder-path}}'.",
+    "code-of-conduct-folder-missing-problem": "Dosarul codului de conduită nu există."
 }
