@@ -6,7 +6,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class VanillaVersionInformation extends VanillaInformation
 {
-    protected static string $vanillaVersionPattern = '[0-9\.w]+(?:[a-z]|(?:-|\s)?(?:pre|rc|Pre-Release|Release Candidate)\s?\d+)?';
+    protected static string $vanillaVersionPattern = '[0-9\.w]+(?:[a-z]|(?:-|\s)?(?:pre|rc|Pre-Release|Release Candidate|Snapshot)\s?\d+|-(?:snapshot|pre|rc)-\d+)?';
 
     /**
      * @inheritDoc
