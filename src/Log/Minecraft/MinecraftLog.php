@@ -118,9 +118,9 @@ class MinecraftLog extends AnalysableLog implements DetectableLogInterface
     }
 
     /**
-     * @return string|null
+     * @inheritDoc
      */
-    public function getTitle(): ?string
+    public function getTitle(): string
     {
         $title = "";
         if ($name = $this->getName()) {

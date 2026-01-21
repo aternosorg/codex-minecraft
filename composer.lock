@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e2a51411464e3bedc620bc9e01556a55",
+    "content-hash": "6b3ab6b264e0c9c6834ac0d45f311e75",
     "packages": [
         {
             "name": "aternos/codex",
-            "version": "v4.0.0",
+            "version": "v4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aternosorg/codex.git",
-                "reference": "5450270570e354a62a018f232f0e1888d5e42837"
+                "reference": "2d0b1930464d9c5129e90c5e69314b1da22c7c4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aternosorg/codex/zipball/5450270570e354a62a018f232f0e1888d5e42837",
-                "reference": "5450270570e354a62a018f232f0e1888d5e42837",
+                "url": "https://api.github.com/repos/aternosorg/codex/zipball/2d0b1930464d9c5129e90c5e69314b1da22c7c4a",
+                "reference": "2d0b1930464d9c5129e90c5e69314b1da22c7c4a",
                 "shasum": ""
             },
             "require": {
@@ -45,9 +45,9 @@
             "description": "PHP library to read, parse, print and analyse log files.",
             "support": {
                 "issues": "https://github.com/aternosorg/codex/issues",
-                "source": "https://github.com/aternosorg/codex/tree/v4.0.0"
+                "source": "https://github.com/aternosorg/codex/tree/v4.1.0"
             },
-            "time": "2026-01-21T12:59:37+00:00"
+            "time": "2026-01-21T14:12:19+00:00"
         }
     ],
     "packages-dev": [
