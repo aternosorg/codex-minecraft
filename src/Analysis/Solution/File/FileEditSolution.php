@@ -17,7 +17,7 @@ class FileEditSolution extends FileSolution implements AutomatableSolutionInterf
      */
     public function __construct(
         string           $path,
-        FilePathType     $type = FilePathType::RELATIVE,
+        FilePathType     $type,
         protected string $pattern,
         protected string $replacement
     )
