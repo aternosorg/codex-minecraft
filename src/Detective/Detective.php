@@ -8,6 +8,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\BungeeCord\BungeeCordProxyLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\BungeeCord\Waterfall\WaterFallProxyLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\CustomSkinLoader\CustomSkinLoaderClientLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Geyser\GeyserProxyLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLauncher\MinecraftLauncherClientLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Pocketmine\PocketmineServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\PrismLauncher\PrismLauncherClientLog;
@@ -97,6 +98,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
         VanillaNetworkProtocolErrorReportLog::class,
 
         PrismLauncherClientLog::class,
+        MinecraftLauncherClientLog::class,
         CustomSkinLoaderClientLog::class,
     ];
 
