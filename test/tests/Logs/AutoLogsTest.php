@@ -768,6 +768,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_spigot_start_26_1(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-start-26-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_spigot_authme_shutdown(): void
     {
         $log = new TestLog('Vanilla/Bukkit/plugin/spigot-authme-shutdown.log');
