@@ -1678,6 +1678,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_neoforge_26_1_client(): void
+    {
+        $log = new TestLog('Vanilla/NeoForge/neoforge-26-1-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_quilt_client_1_19_2(): void
     {
         $log = new TestLog('Vanilla/Quilt/quilt-client-1-19-2.log');
