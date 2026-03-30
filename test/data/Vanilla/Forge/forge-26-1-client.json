@@ -1,0 +1,1471 @@
+{
+    "id": "forge\/client",
+    "name": "Forge",
+    "type": "Client Log",
+    "version": "26.1",
+    "title": "Forge 26.1 Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:43.238] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[30Mar2026 12:28:43.238] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--username, NutellaGolem, --version, 26.1-forge-62.0.3, --gameDir, \/Users\/********\/Library\/Application Support\/minecraft, --assetsDir, \/Users\/********\/Library\/Application Support\/minecraft\/assets, --assetIndex, 30, --uuid, abcd9e565ac2490c8bc96c1cad18f506, --accessToken, **********, --clientId, QkRCMDJGMkYtNjI5QS01MEQxLUFFN0MtQ0JENTlDNkU1OTBC, --xuid, 2535455846162098, --versionType, release, --quickPlayPath, \/Users\/********\/Library\/Application Support\/minecraft\/quickPlay\/java\/1774866521719.json, --launchTarget, forge_client]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:43.242] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[30Mar2026 12:28:43.242] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 25.0.1+8-LTS"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:43.242] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[30Mar2026 12:28:43.242] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 25.0.1 by Microsoft; OS Mac OS X arch aarch64 version 26.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:43.272] [main\/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler\/]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[30Mar2026 12:28:43.272] [main\/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler\/]: Loading ImmediateWindowProvider fmlearlywindow"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:43.437] [main\/INFO] [EARLYDISPLAY\/]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[30Mar2026 12:28:43.437] [main\/INFO] [EARLYDISPLAY\/]: Trying GL version 4.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:43.484] [main\/INFO] [EARLYDISPLAY\/]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[30Mar2026 12:28:43.484] [main\/INFO] [EARLYDISPLAY\/]: Trying GL version 4.5"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:43.493] [main\/INFO] [EARLYDISPLAY\/]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[30Mar2026 12:28:43.493] [main\/INFO] [EARLYDISPLAY\/]: Trying GL version 4.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:43.499] [main\/INFO] [EARLYDISPLAY\/]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[30Mar2026 12:28:43.499] [main\/INFO] [EARLYDISPLAY\/]: Trying GL version 4.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:43.504] [main\/INFO] [EARLYDISPLAY\/]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[30Mar2026 12:28:43.504] [main\/INFO] [EARLYDISPLAY\/]: Trying GL version 4.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:43.513] [main\/INFO] [EARLYDISPLAY\/]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[30Mar2026 12:28:43.513] [main\/INFO] [EARLYDISPLAY\/]: Trying GL version 4.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:43.531] [main\/INFO] [EARLYDISPLAY\/]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[30Mar2026 12:28:43.531] [main\/INFO] [EARLYDISPLAY\/]: Requested GL version 4.1 got version 4.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:43.615] [main\/INFO] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[30Mar2026 12:28:43.615] [main\/INFO] [mixin\/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:\/\/\/Users\/********\/Library\/Application%20Support\/minecraft\/libraries\/org\/spongepowered\/mixin\/0.8.7\/mixin-0.8.7.jar!\/ Service=ModLauncher Env=CLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:43.634] [EarlyDisplay\/INFO] [EARLYDISPLAY\/]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[30Mar2026 12:28:43.634] [EarlyDisplay\/INFO] [EARLYDISPLAY\/]: GL info: Apple M5 Pro GL version 4.1 Metal - 90.5, Apple"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:44.003] [main\/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/JAR-JAR]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[30Mar2026 12:28:44.003] [main\/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/JAR-JAR]: JarJar Candidated for gs.mclo:api"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:44.003] [main\/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/JAR-JAR]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[30Mar2026 12:28:44.003] [main\/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/JAR-JAR]: \t*mclo.gs-forge-26.1-3.1.2-SNAPSHOT.jar!\/META-INF\/jarjar\/api-6.2.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:44.003] [main\/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/JAR-JAR]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[30Mar2026 12:28:44.003] [main\/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator\/JAR-JAR]: Found 1 dependencies adding them to mods collection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:44.068] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[30Mar2026 12:28:44.068] [main\/INFO] [cpw.mods.modlauncher.LaunchServiceHandler\/MODLAUNCHER]: Launching target 'forge_client' with arguments [--version, 26.1-forge-62.0.3, --gameDir, \/Users\/********\/Library\/Application Support\/minecraft, --assetsDir, \/Users\/********\/Library\/Application Support\/minecraft\/assets, --uuid, abcd9e565ac2490c8bc96c1cad18f506, --username, NutellaGolem, --assetIndex, 30, --accessToken, **********, --clientId, QkRCMDJGMkYtNjI5QS01MEQxLUFFN0MtQ0JENTlDNkU1OTBC, --xuid, 2535455846162098, --versionType, release, --quickPlayPath, \/Users\/********\/Library\/Application Support\/minecraft\/quickPlay\/java\/1774866521719.json]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:44.651] [Datafixer Bootstrap\/INFO] [com.mojang.datafixers.DataFixerBuilder\/]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[30Mar2026 12:28:44.651] [Datafixer Bootstrap\/INFO] [com.mojang.datafixers.DataFixerBuilder\/]: 291 Datafixer optimizations took 247 milliseconds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:46.482] [Render thread\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[30Mar2026 12:28:46.482] [Render thread\/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService\/]: Environment: Environment[sessionHost=https:\/\/sessionserver.mojang.com, servicesHost=https:\/\/api.minecraftservices.com, profilesHost=https:\/\/api.mojang.com, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:46.489] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[30Mar2026 12:28:46.489] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]: Setting user: NutellaGolem"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:46.525] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[30Mar2026 12:28:46.525] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]: Backend library: LWJGL version 3.4.1+2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:46.944] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[30Mar2026 12:28:46.944] [Render thread\/INFO] [net.minecraft.client.Minecraft\/]: Using optional rendering extensions: GL_EXT_texture_filter_anisotropic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:47.002] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[30Mar2026 12:28:47.002] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]: Forge mod loading, version 62.0.3, for MC 26.1 with MCP 20260324.123823"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:47.003] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[30Mar2026 12:28:47.003] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]: MinecraftForge v62.0.3 Initialized"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:47.009] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[30Mar2026 12:28:47.009] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]: Opening jdk.naming.dns\/com.sun.jndi.dns to java.naming"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:47.697] [Render thread\/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager\/]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[30Mar2026 12:28:47.697] [Render thread\/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager\/]: Reloading ResourceManager: vanilla, mod_resources"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:47.791] [Worker-Main-5\/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider\/]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[30Mar2026 12:28:47.791] [Worker-Main-5\/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider\/]: Found unifont_all_no_pua-17.0.01.hex, loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:47.791] [Worker-Main-8\/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider\/]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[30Mar2026 12:28:47.791] [Worker-Main-8\/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider\/]: Found unifont_pua-17.0.01.hex, loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:48.040] [Worker-Main-5\/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider\/]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[30Mar2026 12:28:48.040] [Worker-Main-5\/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider\/]: Found unifont_jp_patch-17.0.01.hex, loading"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:48.196] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[30Mar2026 12:28:48.196] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [mclogs] Starting version check at https:\/\/api.modrinth.com\/updates\/mclogs\/forge_updates.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:48.442] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[30Mar2026 12:28:48.442] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [mclogs] Found status: BETA Current: 3.1.2-SNAPSHOT Target: null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:48.442] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[30Mar2026 12:28:48.442] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [forge] Starting version check at https:\/\/files.minecraftforge.net\/net\/minecraftforge\/forge\/promotions_slim.json"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:48.600] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[30Mar2026 12:28:48.600] [Forge Version Check\/INFO] [net.minecraftforge.fml.VersionChecker\/]: [forge] Found status: BETA_OUTDATED Current: 62.0.3 Target: 62.0.9"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.266] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[30Mar2026 12:28:49.266] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/entity and FS minecraft:core\/entity. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 35,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.267] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[30Mar2026 12:28:49.267] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/entity and FS minecraft:core\/entity. Log output: WARNING: Could not find vertex shader attribute 'UV1' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 37,
+                    "content": "WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 38,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.272] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[30Mar2026 12:28:49.272] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/item and FS minecraft:core\/item. Log output: WARNING: Could not find vertex shader attribute 'UV1' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 40,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.281] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[30Mar2026 12:28:49.281] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/entity and FS minecraft:core\/entity. Log output: WARNING: Could not find vertex shader attribute 'UV1' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 42,
+                    "content": "WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 43,
+                    "content": "WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 44,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.292] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[30Mar2026 12:28:49.292] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/rendertype_text_see_through and FS minecraft:core\/rendertype_text_see_through. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 46,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.295] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[30Mar2026 12:28:49.295] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/entity and FS minecraft:core\/entity. Log output: WARNING: Could not find vertex shader attribute 'UV1' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 48,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.309] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[30Mar2026 12:28:49.309] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/entity and FS minecraft:core\/entity. Log output: WARNING: Could not find vertex shader attribute 'UV1' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 50,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.312] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[30Mar2026 12:28:49.312] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/rendertype_entity_shadow and FS minecraft:core\/rendertype_entity_shadow. Log output: WARNING: Could not find vertex shader attribute 'UV1' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 52,
+                    "content": "WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 53,
+                    "content": "WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 54,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.315] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[30Mar2026 12:28:49.315] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/rendertype_text_intensity_see_through and FS minecraft:core\/rendertype_text_intensity_see_through. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 56,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.315] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[30Mar2026 12:28:49.315] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/rendertype_text_background_see_through and FS minecraft:core\/rendertype_text_background_see_through. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 58,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.316] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[30Mar2026 12:28:49.316] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/item and FS minecraft:core\/item. Log output: WARNING: Could not find vertex shader attribute 'UV1' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 60,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.319] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[30Mar2026 12:28:49.319] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/entity and FS minecraft:core\/entity. Log output: WARNING: Could not find vertex shader attribute 'UV1' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 62,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.324] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[30Mar2026 12:28:49.324] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/rendertype_beacon_beam and FS minecraft:core\/rendertype_beacon_beam. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 64,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.326] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[30Mar2026 12:28:49.326] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/rendertype_beacon_beam and FS minecraft:core\/rendertype_beacon_beam. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 66,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.328] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[30Mar2026 12:28:49.328] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/rendertype_crumbling and FS minecraft:core\/rendertype_crumbling. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 68,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.333] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[30Mar2026 12:28:49.333] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/entity and FS minecraft:core\/entity. Log output: WARNING: Could not find vertex shader attribute 'UV1' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 70,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.334] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[30Mar2026 12:28:49.334] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/animate_sprite and FS minecraft:core\/animate_sprite_blit. Log output: WARNING: Output of vertex shader 'fAnimationProgress' not read by fragment shader"
+                },
+                {
+                    "number": 72,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.337] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[30Mar2026 12:28:49.337] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/entity and FS minecraft:core\/entity. Log output: WARNING: Could not find vertex shader attribute 'UV1' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 74,
+                    "content": "WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 75,
+                    "content": "WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 76,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.338] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[30Mar2026 12:28:49.338] [Render thread\/INFO] [com.mojang.blaze3d.opengl.GlProgram\/]: Info log when linking program containing VS minecraft:core\/entity and FS minecraft:core\/entity. Log output: WARNING: Could not find vertex shader attribute 'UV1' to match BindAttributeLocation request."
+                },
+                {
+                    "number": 78,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.369] [Render thread\/INFO] [com.mojang.blaze3d.audio.Library\/]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[30Mar2026 12:28:49.369] [Render thread\/INFO] [com.mojang.blaze3d.audio.Library\/]: OpenAL initialized on device MacBook Pro Speakers"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.371] [Render thread\/INFO] [net.minecraft.client.sounds.SoundEngine\/SOUNDS]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[30Mar2026 12:28:49.371] [Render thread\/INFO] [net.minecraft.client.sounds.SoundEngine\/SOUNDS]: Sound engine started"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.371] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[30Mar2026 12:28:49.371] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x256x0 minecraft:textures\/atlas\/particles.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.379] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[30Mar2026 12:28:49.379] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 128x128x0 minecraft:textures\/atlas\/decorated_pot.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.380] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[30Mar2026 12:28:49.380] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 2048x1024x0 minecraft:textures\/atlas\/armor_trims.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.387] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[30Mar2026 12:28:49.387] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x256x0 minecraft:textures\/atlas\/paintings.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.388] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[30Mar2026 12:28:49.388] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 1024x512x0 minecraft:textures\/atlas\/shield_patterns.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.389] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[30Mar2026 12:28:49.389] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 2048x2048x4 minecraft:textures\/atlas\/blocks.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.421] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[30Mar2026 12:28:49.421] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x512x0 minecraft:textures\/atlas\/chest.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.422] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[30Mar2026 12:28:49.422] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 256x128x0 minecraft:textures\/atlas\/celestials.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.422] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[30Mar2026 12:28:49.422] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 1024x512x0 minecraft:textures\/atlas\/banner_patterns.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.423] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[30Mar2026 12:28:49.423] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x512x0 minecraft:textures\/atlas\/beds.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.423] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[30Mar2026 12:28:49.423] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 1024x512x0 minecraft:textures\/atlas\/items.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.430] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[30Mar2026 12:28:49.430] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 1024x1024x0 minecraft:textures\/atlas\/gui.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.435] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[30Mar2026 12:28:49.435] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 128x64x0 minecraft:textures\/atlas\/map_decorations.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.435] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[30Mar2026 12:28:49.435] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x256x0 minecraft:textures\/atlas\/signs.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.436] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[30Mar2026 12:28:49.436] [Render thread\/INFO] [net.minecraft.client.renderer.texture.TextureAtlas\/]: Created: 512x512x0 minecraft:textures\/atlas\/shulker_boxes.png-atlas"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:28:49.732] [pool-8-thread-1\/INFO] [mclogs\/]:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[30Mar2026 12:28:49.732] [pool-8-thread-1\/INFO] [mclogs\/]: Reloaded configuration."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:30.517] [Render thread\/INFO] [net.minecraft.client.gui.screens.ConnectScreen\/]:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[30Mar2026 12:29:30.517] [Render thread\/INFO] [net.minecraft.client.gui.screens.ConnectScreen\/]: Connecting to Jtesting.exaroton.me, 25565"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:34.384] [Render thread\/INFO] [net.minecraft.client.gui.screens.ConnectScreen\/]:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[30Mar2026 12:29:34.384] [Render thread\/INFO] [net.minecraft.client.gui.screens.ConnectScreen\/]: Connecting to Jtesting.exaroton.me, 25565"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:43.528] [Render thread\/INFO] [net.minecraft.client.gui.screens.ConnectScreen\/]:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[30Mar2026 12:29:43.528] [Render thread\/INFO] [net.minecraft.client.gui.screens.ConnectScreen\/]: Connecting to Jtesting.exaroton.me, 25565"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:46.211] [Render thread\/INFO] [mclogs\/]:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[30Mar2026 12:29:46.211] [Render thread\/INFO] [mclogs\/]: Registering command mclogsc"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:46.225] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[30Mar2026 12:29:46.225] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player c1e2351b-3fc7-3c60-b0f8-67ffd0ac6858 ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:46.232] [Render thread\/INFO] [net.minecraft.advancements.AdvancementTree\/]:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[30Mar2026 12:29:46.232] [Render thread\/INFO] [net.minecraft.advancements.AdvancementTree\/]: Loaded 2 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:46.264] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[30Mar2026 12:29:46.264] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:46.284] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[30Mar2026 12:29:46.284] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:46.637] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "[30Mar2026 12:29:46.637] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player e8890663-bd8b-3e6f-be0b-55b9ec55ecb0 ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:46.653] [Render thread\/INFO] [mclogs\/]:",
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "[30Mar2026 12:29:46.653] [Render thread\/INFO] [mclogs\/]: Registering command mclogsc"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:47.208] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]:",
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[30Mar2026 12:29:47.208] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]: Resizing Chunk Sections UBO, capacity limit of 2 reached during a single frame. New capacity will be 4."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:47.215] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]:",
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[30Mar2026 12:29:47.215] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]: Resizing Chunk Sections UBO, capacity limit of 4 reached during a single frame. New capacity will be 8."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:47.261] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[30Mar2026 12:29:47.261] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]: Resizing Chunk Sections UBO, capacity limit of 8 reached during a single frame. New capacity will be 16."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:48.230] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[30Mar2026 12:29:48.230] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player c3be9775-8401-33ec-b790-fcb08b133f35 ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:49.629] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[30Mar2026 12:29:49.629] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player af1944f1-e1cb-306c-9a70-97a1824386f1 ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:50.962] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[30Mar2026 12:29:50.962] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player d7f3cc7f-787a-3b22-85c0-44fa4e6191c3 ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:51.954] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[30Mar2026 12:29:51.954] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player 00000000-0000-0000-0009-01f14871441c ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:52.787] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[30Mar2026 12:29:52.787] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player 6e389ae1-00f4-3372-8d55-74aac1ac4086 ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:54.788] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "[30Mar2026 12:29:54.788] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player 3ab77178-5fe5-3f79-a515-0a3698810332 ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:57.980] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "[30Mar2026 12:29:57.980] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player 00000000-0000-0000-0009-01fc63a66125 ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:29:59.589] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "[30Mar2026 12:29:59.589] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player 00000000-0000-0000-0009-01f774679659 ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:00.163] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "[30Mar2026 12:30:00.163] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player 00000000-0000-0000-0009-01fcf88409f5 ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:03.388] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "[30Mar2026 12:30:03.388] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player 9a732356-75bd-3232-b67b-4e15182edbfc ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:04.145] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "[30Mar2026 12:30:04.145] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player 00000000-0000-0000-0009-01fcacd7553d ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:06.838] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "[30Mar2026 12:30:06.838] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player 0d02175d-fb4f-3970-a0d0-eaa72520dd19 ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:09.912] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]:",
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "[30Mar2026 12:30:09.912] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientPacketListener\/]: Ignoring player info update for unknown player 4a76dd8b-bd6c-339f-b225-21130f5dc5a3 ([UPDATE_GAME_MODE])"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:11.521] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientCommonPacketListenerImpl\/]:",
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "[30Mar2026 12:30:11.521] [Render thread\/WARN] [net.minecraft.client.multiplayer.ClientCommonPacketListenerImpl\/]: Client disconnected with reason: Transferred to another server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:11.535] [Render thread\/INFO] [net.minecraft.client.gui.screens.ConnectScreen\/]:",
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "[30Mar2026 12:30:11.535] [Render thread\/INFO] [net.minecraft.client.gui.screens.ConnectScreen\/]: Connecting to **.**.**.**, 20685"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:11.535] [Render thread\/WARN] [net.minecraft.network.Connection\/]:",
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "[30Mar2026 12:30:11.535] [Render thread\/WARN] [net.minecraft.network.Connection\/]: handleDisconnection() called twice"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:11.536] [Render thread\/ERROR] [net.minecraft.client.gui.screens.ConnectScreen\/]:",
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "[30Mar2026 12:30:11.536] [Render thread\/ERROR] [net.minecraft.client.gui.screens.ConnectScreen\/]: Attempt to connect while already connecting"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:16.529] [Render thread\/INFO] [mclogs\/]:",
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "[30Mar2026 12:30:16.529] [Render thread\/INFO] [mclogs\/]: Registering command mclogsc"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:16.539] [Render thread\/INFO] [mclogs\/]:",
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "[30Mar2026 12:30:16.539] [Render thread\/INFO] [mclogs\/]: Registering command mclogsc"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:16.568] [Render thread\/INFO] [net.minecraft.advancements.AdvancementTree\/]:",
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "[30Mar2026 12:30:16.568] [Render thread\/INFO] [net.minecraft.advancements.AdvancementTree\/]: Loaded 2 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:17.780] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]:",
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "[30Mar2026 12:30:17.780] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]: Resizing Chunk Sections UBO, capacity limit of 16 reached during a single frame. New capacity will be 32."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:19.135] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]:",
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "[30Mar2026 12:30:19.135] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]: Resizing Chunk Sections UBO, capacity limit of 32 reached during a single frame. New capacity will be 64."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:20.624] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]:",
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "[30Mar2026 12:30:20.624] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]: Resizing Chunk Sections UBO, capacity limit of 64 reached during a single frame. New capacity will be 128."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:24.284] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]:",
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "[30Mar2026 12:30:24.284] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]: Resizing Chunk Sections UBO, capacity limit of 128 reached during a single frame. New capacity will be 256."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:24.578] [Render thread\/INFO] [mclogs\/]:",
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "[30Mar2026 12:30:24.578] [Render thread\/INFO] [mclogs\/]: Sharing logs\/latest.log"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:24.771] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]:",
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "[30Mar2026 12:30:24.771] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] Your log has been uploaded: https:\/\/mclo.gs\/R153Mqv [delete]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:26.357] [Render thread\/INFO] [mclogs\/]:",
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "[30Mar2026 12:30:26.357] [Render thread\/INFO] [mclogs\/]: Command: \/mclogsc share 2026-03-26-2.log.gz"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:26.358] [Render thread\/INFO] [mclogs\/]:",
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "[30Mar2026 12:30:26.358] [Render thread\/INFO] [mclogs\/]: Command: \/mclogsc share 2026-03-26-3.log.gz"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:26.358] [Render thread\/INFO] [mclogs\/]:",
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "[30Mar2026 12:30:26.358] [Render thread\/INFO] [mclogs\/]: Command: \/mclogsc share debug-1.log.gz"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:26.358] [Render thread\/INFO] [mclogs\/]:",
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "[30Mar2026 12:30:26.358] [Render thread\/INFO] [mclogs\/]: Command: \/mclogsc share debug.log"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:26.358] [Render thread\/INFO] [mclogs\/]:",
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "[30Mar2026 12:30:26.358] [Render thread\/INFO] [mclogs\/]: Command: \/mclogsc share latest.log"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:26.360] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]:",
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "[30Mar2026 12:30:26.360] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] Logs:\\n2026-03-26-2.log.gz\\n2026-03-26-3.log.gz\\ndebug-1.log.gz\\ndebug.log\\nlatest.log"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:30:31.875] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]:",
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "[30Mar2026 12:30:31.875] [Render thread\/INFO] [net.minecraft.client.renderer.DynamicUniformStorage\/]: Resizing Chunk Sections UBO, capacity limit of 256 reached during a single frame. New capacity will be 512."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:31:32.262] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]:",
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "[30Mar2026 12:31:32.262] [Render thread\/INFO] [net.minecraft.client.gui.components.ChatComponent\/]: [System] [CHAT] Log with ID R153Mqv has been deleted."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[30Mar2026 12:31:38.060] [Render thread\/INFO] [mclogs\/]:",
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "[30Mar2026 12:31:38.060] [Render thread\/INFO] [mclogs\/]: Sharing logs\/latest.log"
+                },
+                {
+                    "number": 145,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Java version: 25.0.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[30Mar2026 12:28:43.242] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 3,
+                            "content": "[30Mar2026 12:28:43.242] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 25.0.1 by Microsoft; OS Mac OS X arch aarch64 version 26.4"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "25.0.1"
+            },
+            {
+                "message": "Minecraft version: 26.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[30Mar2026 12:28:47.002] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]:",
+                    "lines": [
+                        {
+                            "number": 23,
+                            "content": "[30Mar2026 12:28:47.002] [modloading-worker-0\/INFO] [net.minecraftforge.common.ForgeMod\/FORGEMOD]: Forge mod loading, version 62.0.3, for MC 26.1 with MCP 20260324.123823"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.1"
+            },
+            {
+                "message": "Forge version: 62.0.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[30Mar2026 12:28:47.003] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]:",
+                    "lines": [
+                        {
+                            "number": 24,
+                            "content": "[30Mar2026 12:28:47.003] [modloading-worker-0\/INFO] [net.minecraftforge.common.MinecraftForge\/FORGE]: MinecraftForge v62.0.3 Initialized"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "62.0.3"
+            }
+        ]
+    }
+}
