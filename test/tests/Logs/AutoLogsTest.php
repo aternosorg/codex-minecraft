@@ -1118,6 +1118,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_prism_fabric_26_1(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/prism-fabric-26-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_arclight_1192(): void
     {
         $log = new TestLog('Vanilla/Forge/Arclight/arclight-1192.log');
