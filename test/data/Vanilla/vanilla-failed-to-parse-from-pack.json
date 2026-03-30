@@ -6609,7 +6609,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The datapack '{{datapack}}' could not be parsed.",
+                "message": "The datapack 'far-end-ender-expansion-2-0-3-v1-17-1.zip' could not be parsed.",
                 "counter": 91,
                 "entry": {
                     "level": 3,

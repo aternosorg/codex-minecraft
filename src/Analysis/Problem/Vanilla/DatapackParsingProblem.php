@@ -14,7 +14,9 @@ class DatapackParsingProblem extends VanillaProblem
      */
     public function getMessage(): string
     {
-        return Translator::getInstance()->getTranslation("datapack-parsing-problem");
+        return Translator::getInstance()->getTranslation("datapack-parsing-problem", [
+            "datapack" => $this->getDatapack()
+        ]);
     }
 
     /**
@@ -32,5 +34,10 @@ class DatapackParsingProblem extends VanillaProblem
     {
         $this->datapack = $matches[1];
         $this->addSolution(new FileDeleteSolution($this->datapack));
+    }
+
+    public function getDatapack(): string
+    {
+        return $this->datapack;
     }
 }
