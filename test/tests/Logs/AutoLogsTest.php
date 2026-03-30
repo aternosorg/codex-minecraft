@@ -188,6 +188,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_launcher_log(): void
+    {
+        $log = new TestLog('MinecraftLauncher/launcher_log.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_pocketmine_incompatible_api(): void
     {
         $log = new TestLog('Pocketmine/pocketmine-incompatible-api.log');
