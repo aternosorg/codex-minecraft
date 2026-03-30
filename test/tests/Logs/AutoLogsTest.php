@@ -1808,6 +1808,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_vanilla_failed_to_parse_from_pack(): void
+    {
+        $log = new TestLog('Vanilla/vanilla-failed-to-parse-from-pack.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_vanilla_forge_ticking_entity(): void
     {
         $log = new TestLog('Vanilla/vanilla-forge-ticking-entity.log');
