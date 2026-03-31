@@ -1,0 +1,5388 @@
+{
+    "id": "forge\/crash-report",
+    "name": "Forge",
+    "type": "Crash Report",
+    "version": "1.10.2",
+    "title": "Forge 1.10.2 Crash Report",
+    "entries": [
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "---- Minecraft Crash Report ----"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "WARNING: coremods are present:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "  SoundUnpack (OpenSecurity-MC1.10.2-1.0-25.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "  BookshelfLoadingPlugin (Bookshelf-1.10.2-1.4.4.347.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "  CoreMod (Aroma1997Core-1.9.4-1.1.1.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "  ForgelinPlugin (Forgelin-1.5.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "  SimpleCore (SimpleQuarry-1.10.2_1.0.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "  CoFH Loading Plugin (CoFHCore-1.10.2-4.1.12.17-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "  OFMDepLoader (OpenFM-1.9.4-0.1.0.22.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "  LoadingPlugin (RandomThings-MC1.10.2-3.7.7.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "  MalisisCorePlugin (malisiscore-1.10.2-4.4.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "  LoadingPlugin (ResourceLoader-MC1.9.4-1.5.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "  EnderCorePlugin (EnderCore-1.10.2-0.4.1.66-beta.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "  AdvancedRocketryPlugin (AdvancedRocketry-1.10.2-1.2.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "  TransformerLoader (OpenComputers-MC1.10.2-1.6.2.7.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "  Do not report to Forge! Remove FoamFixAPI (or replace with FoamFixAPI-Lawful) and try again. (foamfix-0.7.0-anarchy.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "  MicdoodlePlugin (MicdoodleCore-1.10.2-4.0.0.117.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "  CCLCorePlugin (CodeChickenLib-1.10.2-2.5.9.283-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "  Default Options (DefaultOptions_1.10.2-6.1.5.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "  BlurPlugin (Blur-1.0.4-14.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "  CTMCorePlugin (CTM-MC1.10.2-0.2.2.24.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "  LoadingPlugin (Quark-r1.1-70.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "  RebornCoreASM (RebornCore-1.10.2-2.13.6.142-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "  FMLPlugin (InventoryTweaks-1.61-58.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "  IvToolkit (IvToolkit-1.3.3-1.10.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "Contact their authors BEFORE contacting forge"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "\/\/ I bet Cylons wouldn't have this problem."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Time:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "Time: 2\/6\/26 3:28 PM"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Description:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "Description: Ticking block entity"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "java.lang.NullPointerException: Ticking block entity"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "\tat mekanism.common.util.MinerUtils.getDrops(MinerUtils.java:35)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "\tat mekanism.common.tile.TileEntityDigitalMiner.onUpdate(TileEntityDigitalMiner.java:267)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "\tat mekanism.common.tile.prefab.TileEntityBasicBlock.func_73660_a(TileEntityBasicBlock.java:78)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "\tat net.minecraft.world.World.func_72939_s(World.java:1804)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "\tat net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:620)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "\tat net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "\tat java.lang.Thread.run(Thread.java:750)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "A detailed walkthrough of the error, its code path and all known details is as follows:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "---------------------------------------------------------------------------------------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "-- Head --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Thread:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "Thread: Server thread"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "\tat mekanism.common.util.MinerUtils.getDrops(MinerUtils.java:35)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "\tat mekanism.common.tile.TileEntityDigitalMiner.onUpdate(TileEntityDigitalMiner.java:267)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "\tat mekanism.common.tile.prefab.TileEntityBasicBlock.func_73660_a(TileEntityBasicBlock.java:78)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "-- Block entity being ticked --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tName:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "\tName: DigitalMiner \/\/ mekanism.common.tile.TileEntityDigitalMiner"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tBlock type:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "\tBlock type: ID #1256 (tile.MachineBlock \/\/ null)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tBlock data value:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "\tBlock data value: 4 \/ 0x4 \/ 0b0100"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tBlock location:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "\tBlock location: World: (88,52,485), Chunk: (at 8,3,5 in 5,30; contains blocks 80,0,480 to 95,255,495), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tActual block type:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "\tActual block type: ID #1256 (tile.MachineBlock \/\/ null)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tActual block data value:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "\tActual block data value: 4 \/ 0x4 \/ 0b0100"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "\tat net.minecraft.world.World.func_72939_s(World.java:1804)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "\tat net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:620)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "-- Affected level --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel name:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "\tLevel name: world"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tAll players:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "\tAll players: 0 total; []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tChunk stats:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "\tChunk stats: ServerChunkCache: 636 Drop: 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel seed:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "\tLevel seed: -1717606487502747617"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel generator:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "\tLevel generator: ID 00 - default, ver 1. Features enabled: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel generator options:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "\tLevel generator options:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel spawn location:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "\tLevel spawn location: World: (120,64,248), Chunk: (at 8,4,8 in 7,15; contains blocks 112,0,240 to 127,255,255), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel time:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "\tLevel time: 4315010 game time, 4911598 day time"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel dimension:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "\tLevel dimension: 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel storage version:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "\tLevel storage version: 0x04ABD - Anvil"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel weather:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "\tLevel weather: Rain time: 51236 (now: false), thunder time: 85796 (now: false)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLevel game mode:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "\tLevel game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:709)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "\tat net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "\tat net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "\tat java.lang.Thread.run(Thread.java:750)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 89,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "-- System Details --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "\tMinecraft Version: 1.10.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tOperating System:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "\tOperating System: Linux (amd64) version 6.8.0-88-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava Version:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "\tJava Version: 1.8.0_482, Temurin"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava VM Version:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "\tJava VM Version: OpenJDK 64-Bit Server VM (mixed mode), Temurin"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "\tMemory: 979974784 bytes (934 MB) \/ 2116026368 bytes (2018 MB) up to 2143813632 bytes (2044 MB)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJVM Flags:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "\tJVM Flags: 3 total; -XX:MaxMetaspaceSize=400M -Xmx2300M -Xms1150M"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIntCache:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "\tIntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFML:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "\tFML: MCP 9.32 Powered by Forge 12.18.3.2422 158 mods loaded, 158 mods active"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tStates:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "\tStates: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "\tUCHIJAAAA\tmcp{9.19} [Minecraft Coder Pack] (minecraft.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "\tUCHIJAAAA\tFML{**.**.**.**} [Forge Mod Loader] (server.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "\tUCHIJAAAA\tForge{12.18.3.2422} [Minecraft Forge] (server.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "\tUCHIJAAAA\tAdvancedRocketryCore{1} [Advanced Rocketry] (minecraft.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "\tUCHIJAAAA\tAroma1997Core{${version}} [Aroma1997Core] (Aroma1997Core-1.9.4-1.1.1.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "\tUCHIJAAAA\tivtoolkit{1.3.3-1.10} [IvToolkit] (minecraft.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "\tUCHIJAAAA\tMicdoodlecore{} [Micdoodle8 Core] (minecraft.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "\tUCHIJAAAA\tOpenComputers|Core{**.**.**.**} [OpenComputers (Core)] (minecraft.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "\tUCHIJAAAA\t<CoFH ASM>{000} [CoFH ASM] (minecraft.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "\tUCHIJAAAA\tfoamfixcore{7.7.4} [FoamFixCore] (minecraft.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "\tUCHIJAAAA\tccl-entityhook{1.0} [ccl-entityhook] (CodeChickenLib-1.10.2-2.5.9.283-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "\tUCHIJAAAA\tbettercombatmod{1.4.0} [Better Combat] ([MC 1.10.X] BetterCombatMod 1.4.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "\tUCHIJAAAA\tlibVulpes{0.2.5.} [libVulpes] (LibVulpes-1.10.2-0.2.5-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "\tUCHIJAAAA\tadvancedRocketry{1.2.2} [Advanced Rocketry] (AdvancedRocketry-1.10.2-1.2.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "\tUCHIJAAAA\tJEI{**.**.**.**} [Just Enough Items] (jei_1.10.2-3.14.7.420.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "\tUCHIJAAAA\tappleskin{1.0.7} [AppleSkin] (AppleSkin-mc1.10.2-1.0.7.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "\tUCHIJAAAA\tarchitecturecraft{1.7.3} [ArchitectureCraft] (ArchitectureCraft-1.7.3-mc1.10.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "\tUCHIJAAAA\tAroma1997CoreHelper{**.**.**.**} [Aroma1997Core|Helper] (Aroma1997Core-1.9.4-1.1.1.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "\tUCHIJAAAA\tAroma1997sDimension{1.0} [Aroma1997's Dimensional World] (Aroma1997s-Dimensional-World-1.9.4-1.2.0.7.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "\tUCHIJAAAA\tPsi{r1.0-42} [Psi] (Psi-r1.0-42.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "\tUCHIJAAAA\tQuark{r1.1-70} [Quark] (Quark-r1.1-70.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "\tUCHIJAAAA\tAutoRegLib{1.0-2} [AutoRegLib] (AutoRegLib-1.0-2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 123,
+                    "content": "\tUCHIJAAAA\tbackport{1.3} [Backport] (backport-1.3-patch2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 124,
+                    "content": "\tUCHIJAAAA\tBaubles{1.3.11} [Baubles] (Baubles-1.10.2-1.3.11.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 125,
+                    "content": "\tUCHIJAAAA\tbdlib{**.**.**.**} [BD Lib] (bdlib-1.12.4.24-mc1.10.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 126,
+                    "content": "\tUCHIJAAAA\tbedbugs{@VERSION@} [Bed Bugs] (BedBugs-1.10.2-1.1.6.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 127,
+                    "content": "\tUCHIJAAAA\tbetteragriculture{1.0.1} [Better Agriculture] (BetterAgriculture-[1.10.2]-1.0.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 128,
+                    "content": "\tUCHIJAAAA\tbetterbuilderswands{0.11.1} [Better Builder's Wands] (BetterBuildersWands-1.10.2-0.11.1.220+f8232fe.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 129,
+                    "content": "\tUCHIJAAAA\tBiomesOPlenty{5.0.0.2236} [Biomes O' Plenty] (BiomesOPlenty-1.10.2-5.0.0.2236-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 130,
+                    "content": "\tUCHIJAAAA\tbookshelf{**.**.**.**} [Bookshelf] (Bookshelf-1.10.2-1.4.4.347.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 131,
+                    "content": "\tUCHIJAAAA\tcarryon{1.3} [Carry On] (CarryOn MC1.10.2 v1.3.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 132,
+                    "content": "\tUCHIJAAAA\tChameleon{1.10.2-2.3.0} [Chameleon] (Chameleon-1.10.2-2.3.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 133,
+                    "content": "\tUCHIJAAAA\tchancecubes{1.10.2-3.0.1.204} [Chance Cubes] (ChanceCubes-1.10.2-3.0.1.204.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 134,
+                    "content": "\tUCHIJAAAA\tCodeChickenLib{**.**.**.**} [CodeChicken Lib] (CodeChickenLib-1.10.2-2.5.9.283-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 135,
+                    "content": "\tUCHIJAAAA\tCodeChickenCore{**.**.**.**} [CodeChicken Core] (CodeChickenCore-1.10.2-2.4.1.102-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 136,
+                    "content": "\tUCHIJAAAA\tChickenChunks{**.**.**.**} [ChickenChunks] (ChickenChunks-1.10.2-2.2.0.52-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 137,
+                    "content": "\tUCHIJAAAA\tchisel{MC1.10.2-0.0.13.30} [Chisel] (Chisel-MC1.10.2-0.0.13.30.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 138,
+                    "content": "\tUCHIJAAAA\tmcmultipart{1.3.0_87} [MCMultiPart] (MCMultiPart-experimental-2.0.0_88-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 139,
+                    "content": "\tUCHIJAAAA\tchiselsandbits{12.15} [Chisels & Bits] (chiselsandbits-12.15.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 140,
+                    "content": "\tUCHIJAAAA\tcm2{1.0} [Compact Machines 2] (cm2-2.0.0-b104.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 141,
+                    "content": "\tUCHIJAAAA\tcofhcore{4.1.12} [CoFH Core] (CoFHCore-1.10.2-4.1.12.17-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 142,
+                    "content": "\tUCHIJAAAA\tcyclopscore{0.10.8} [Cyclops Core] (CyclopsCore-1.9.4-0.10.8.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 143,
+                    "content": "\tUCHIJAAAA\tcommoncapabilities{1.3.3} [CommonCapabilities] (CommonCapabilities-1.9.4-1.3.3.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 144,
+                    "content": "\tUCHIJAAAA\tcraftingtweaks{6.1.16} [Crafting Tweaks] (CraftingTweaks_1.10.2-6.1.16.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 145,
+                    "content": "\tUCHIJAAAA\tcrafttweakerjei{1.0.1} [CraftTweaker JEI Support] (CraftTweaker-1.10.2-3.0.26.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 146,
+                    "content": "\tUCHIJAAAA\tMineTweaker3{3.0.26} [MineTweaker 3] (CraftTweaker-1.10.2-3.0.26.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 147,
+                    "content": "\tUCHIJAAAA\tcustomstartinggear{1.0.0} [Custom Starting Gear] (CustomStartingGear-1.10.2-1.0.0.7-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 148,
+                    "content": "\tUCHIJAAAA\tcyberware{beta-0.2.10} [Cyberware] (cyberware-1.9.4-1.10.2-beta-0.2.10.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 149,
+                    "content": "\tUCHIJAAAA\tWaila{1.8.17-B31_1.10.2} [Waila] (Hwyla-1.8.17-B31_1.10.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 150,
+                    "content": "\tUCHIJAAAA\tdarkutils{1.1.8.finalrc2} [Dark Utilities] (DarkUtilities-1.1.8.finalrc2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 151,
+                    "content": "\tUCHIJAAAA\tdrones{0.1.17} [drones] (Drones-0.1.17.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 152,
+                    "content": "\tUCHIJAAAA\tendercore{1.10.2-0.4.1.66-beta} [EnderCore] (EnderCore-1.10.2-0.4.1.66-beta.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 153,
+                    "content": "\tUCHIJAAAA\tEnderIO{1.10.2-3.1.193} [Ender IO] (EnderIO-1.10.2-3.1.193.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 154,
+                    "content": "\tUCHIJAAAA\tthermalfoundation{2.1.5} [Thermal Foundation] (ThermalFoundation-1.10.2-2.1.5.12-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 155,
+                    "content": "\tUCHIJAAAA\tthermalexpansion{5.1.10} [Thermal Expansion] (ThermalExpansion-1.10.2-5.1.10.25-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 156,
+                    "content": "\tUCHIJAAAA\teiorteis{1.10.2-2.2} [EIORecipesTEInductionSmelter] (eiorteis-2.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 157,
+                    "content": "\tUCHIJAAAA\televatorid{1.3.0} [Elevator Mod] (ElevatorMod[V.1.3.0][MC.1.10.2].jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 158,
+                    "content": "\tUCHIJAAAA\teplus{**.**.**.**} [Enchanting Plus] (EnchantingPlus-1.10.2-4.1.0.115.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 159,
+                    "content": "\tUCHIJAAAA\tEnderStorage{**.**.**.**} [EnderStorage] (EnderStorage-1.10.2-2.2.1.106-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 160,
+                    "content": "\tUCHIJAAAA\tengineersworkshop{1.3.6-1.10.2} [Engineer's Workshop] (EngineersWorkshop-1.3.6-1.10.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 161,
+                    "content": "\tUCHIJAAAA\tgalacticraftcore{4.0.0} [Galacticraft Core] (GalacticraftCore-1.10.2-4.0.0.117.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 162,
+                    "content": "\tUCHIJAAAA\tMekanism{9.2.3} [Mekanism] (Mekanism-1.10.2-9.2.3.97.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 163,
+                    "content": "\tUCHIJAAAA\texchangers{1.10.2-1.5} [Exchangers] (Exchangers-1.10.2-1.5.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 164,
+                    "content": "\tUCHIJAAAA\tgalacticraftplanets{4.0.0} [Galacticraft Planets] (Galacticraft-Planets-1.10.2-4.0.0.117.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 165,
+                    "content": "\tUCHIJAAAA\textraplanets{0.6.7} [Extra Planets] (ExtraPlanets-0.6.7.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 166,
+                    "content": "\tUCHIJAAAA\textrautils2{1.0} [Extra Utilities 2] (extrautils2-1.10.2-1.5.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 167,
+                    "content": "\tUCHIJAAAA\tFastLeaveDecay{1.2.3} [Fast Leave Decay] (FastLeaveDecay-MC1.10.2-1.2.3.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 168,
+                    "content": "\tUCHIJAAAA\tsonarcore{3.2.8} [SonarCore] (SonarCore-1.10.2-3.2.9.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 169,
+                    "content": "\tUCHIJAAAA\tfluxnetworks{1.2.5} [FluxNetworks] (FluxNetworks-1.10.2-1.2.6.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 170,
+                    "content": "\tUCHIJAAAA\tfoamfix{@VERSION@} [FoamFix] (foamfix-0.7.0-anarchy.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 171,
+                    "content": "\tUCHIJAAAA\tforgelin{1.5.1} [Shadowfacts' Forgelin] (Forgelin-1.5.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 172,
+                    "content": "\tUCHIJAAAA\tftbl{0.0.0} [FTBLib] (FTBLib-1.1x-3.6.5.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 173,
+                    "content": "\tUCHIJAAAA\tftbu{0.0.0} [FTBUtilities] (FTBUtilities-1.1x-3.6.5.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 174,
+                    "content": "\tUCHIJAAAA\tgravestone{1.5.13} [Gravestone Mod] (gravestone-1.5.13.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 175,
+                    "content": "\tUCHIJAAAA\tichunutil{6.5.0} [iChunUtil] (iChunUtil-1.10.2-6.5.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 176,
+                    "content": "\tUCHIJAAAA\tgravitygun{6.0.1} [GravityGun] (GravityGun-1.10.2-6.0.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 177,
+                    "content": "\tUCHIJAAAA\thardcorequesting{1.10.2-5.1.0alpha4} [Hardcore Questing Mode] (HQM-New Heights-1.10.2-5.1.0alpha4.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 178,
+                    "content": "\tUCHIJAAAA\tintegrateddynamics{0.7.10} [Integrated Dynamics] (IntegratedDynamics-1.10.2-0.7.10.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 179,
+                    "content": "\tUCHIJAAAA\tintegratedtunnels{1.2.4} [Integrated Tunnels] (IntegratedTunnels-1.10.2-1.2.4.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 180,
+                    "content": "\tUCHIJAAAA\tinventorytweaks{1.61-58-a1fd884} [Inventory Tweaks] (InventoryTweaks-1.61-58.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 181,
+                    "content": "\tUCHIJAAAA\tironbackpacks{1.10.2-2.2.31} [Iron Backpacks] (IronBackpacks-1.10.2-2.2.31.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 182,
+                    "content": "\tUCHIJAAAA\tironchest{1.10.2-7.0.15.804} [Iron Chest] (ironchest-1.10.2-7.0.15.804.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 183,
+                    "content": "\tUCHIJAAAA\tjourneymap{1.10.2-5.4.7} [JourneyMap] (journeymap-1.10.2-5.4.7.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 184,
+                    "content": "\tUCHIJAAAA\tk4lib{1.10.2-1.0.74} [K4Lib] (k4lib-1.10.2-1.0.74-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 185,
+                    "content": "\tUCHIJAAAA\tlcrdrfs{1.2.10} [Laser Creeper Robot Dino Riders From Space] (LaserCreeperRobotDinoRidersFromSpace-1.2.10.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 186,
+                    "content": "\tUCHIJAAAA\tlimelib{1.3.5} [LimeLib] (limelib-1.10.2-1.3.5.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 187,
+                    "content": "\tUCHIJAAAA\tmalisiscore{1.10.2-4.4.0} [MalisisCore] (malisiscore-1.10.2-4.4.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 188,
+                    "content": "\tUCHIJAAAA\tmalisisdoors{1.10.2-5.2.0} [MalisisDoors] (malisisdoors-1.10.2-5.2.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 189,
+                    "content": "\tUCHIJAAAA\tmantle{1.10.2-1.1.5.205} [Mantle] (Mantle-1.10.2-1.1.5.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 190,
+                    "content": "\tUCHIJAAAA\tMekanismGenerators{9.2.3} [MekanismGenerators] (MekanismGenerators-1.10.2-9.2.3.97.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 191,
+                    "content": "\tUCHIJAAAA\tminefactoryreloaded{2.9.0B1} [MineFactory Reloaded] (MineFactoryReloaded-[1.10.2]2.9.0B1-226.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 192,
+                    "content": "\tUCHIJAAAA\tMineFactoryReloaded|CompatVanilla{2.9.0B1} [MFR Compat: Vanilla] (MineFactoryReloaded-[1.10.2]2.9.0B1-226.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 193,
+                    "content": "\tUCHIJAAAA\tminicoal{1.1.0} [MiniCoal] (minicoal-1.1.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 194,
+                    "content": "\tUCHIJAAAA\tStorageDrawers{1.10.2-3.7.10} [Storage Drawers] (StorageDrawers-1.10.2-3.7.10.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 195,
+                    "content": "\tUCHIJAAAA\trefinedstorage{1.2.26} [Refined Storage] (refinedstorage-1.2.26.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 196,
+                    "content": "\tUCHIJAAAA\ttconstruct{1.10.2-2.6.5.10} [Tinkers' Construct] (TConstruct-1.10.2-2.6.5.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 197,
+                    "content": "\tUCHIJAAAA\tmoartinkers{0.4.1} [Moar Tinkers] (moartinkers-0.4.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 198,
+                    "content": "\tUCHIJAAAA\tnumina{1.4.0} [numina] (ModularPowersuits-1.10.2-1.2.124.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 199,
+                    "content": "\tUCHIJAAAA\tpowersuits{1.10.2-1.2.124} [MachineMuse's Modular Powersuits] (ModularPowersuits-1.10.2-1.2.124.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 200,
+                    "content": "\tUCHIJAAAA\tmoreplayermodels{1.10.2} [MorePlayerModels] (MorePlayerModels_1.10.2(16jul17).jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 201,
+                    "content": "\tUCHIJAAAA\tMorpheus{1.10.2-3.1.13} [Morpheus] (Morpheus-1.10.2-3.1.13.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 202,
+                    "content": "\tUCHIJAAAA\tmtlib{@VERSION@} [MTLib] (MTLib-1.0.3.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 203,
+                    "content": "\tUCHIJAAAA\tmysticalagriculture{1.5.8} [Mystical Agriculture] (mysticalagriculture[1.10.2]-1.5.8.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 204,
+                    "content": "\tUCHIJAAAA\tmysticalagradditions{1.0.3} [Mystical Agradditions] (mysticalagradditions[1.10.2]-1.0.3.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 205,
+                    "content": "\tUCHIJAAAA\tmysticalmfrcompat{1.0.0} [Mystical MFR Compat] (mysticalmfrcompat[1.10.2]-1.0.0a.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 206,
+                    "content": "\tUCHIJAAAA\tnice{0.1.0} [Nice] (nice-0.1.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 207,
+                    "content": "\tUCHIJAAAA\tOpenComputers{**.**.**.**} [OpenComputers] (OpenComputers-MC1.10.2-1.6.2.7.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 208,
+                    "content": "\tUCHIJAAAA\tocrsdriver{1.0} [OC RS Driver] (ocrsdriver-1.0.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 209,
+                    "content": "\tUCHIJAAAA\tocsensors{1.0.0} [OpenComputers Sensors] (ocsensors-1.0.1-b7.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 210,
+                    "content": "\tUCHIJAAAA\tomlib{3.0.0-126} [OMLib] (omlib-1.10.2-3.0.0-126.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 211,
+                    "content": "\tUCHIJAAAA\topenfm{**.**.**.**} [OpenFM] (OpenFM-1.9.4-0.1.0.22.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 212,
+                    "content": "\tUCHIJAAAA\topenglasses{1.4.2} [OC Glasses] (OpenGlasses-1.4.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 213,
+                    "content": "\tUCHIJAAAA\topenglider{@VERSION@} [Open Glider] (OpenGlider-1.10.2-1.0.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 214,
+                    "content": "\tUCHIJAAAA\topenlights{**.**.**.**} [OpenLights] (OpenLights-MC1.9.4-0.1.0.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 215,
+                    "content": "\tUCHIJAAAA\topenmodularturrets{3.0.0-210} [Open Modular Turrets] (openmodularturrets-1.10.2-3.0.0-210.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 216,
+                    "content": "\tUCHIJAAAA\topenprinter{**.**.**.**} [OpenPrinter] (OpenPrinter-1.9.4-0.1.0.5.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 217,
+                    "content": "\tUCHIJAAAA\topenradio{0.9.4} [OpenRadio] (OpenRadio-0.9.4-MC1.10.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 218,
+                    "content": "\tUCHIJAAAA\topensecurity{MC1.10.2-1.0.25} [OpenSecurity] (OpenSecurity-MC1.10.2-1.0-25.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 219,
+                    "content": "\tUCHIJAAAA\tfodc{1.9.1} [Ore Dictionary Converter] (OreDictionaryConverter-1.9.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 220,
+                    "content": "\tUCHIJAAAA\toreexcavation{1.2.102} [OreExcavation] (OreExcavation-1.2.102.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 221,
+                    "content": "\tUCHIJAAAA\ttesla{**.**.**.**} [TESLA] (Tesla-1.10.2-1.2.1.49.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 222,
+                    "content": "\tUCHIJAAAA\tp455w0rdslib{1.0.13} [p455w0rd's Library] (p455w0rdslib-1.10.2-1.0.13.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 223,
+                    "content": "\tUCHIJAAAA\tportalgun{6.0.1} [PortalGun] (PortalGun-1.10.2-6.0.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 224,
+                    "content": "\tUCHIJAAAA\tpracticallogistics2{2.0.2} [Practical Logistics 2] (PracticalLogistics2-1.10.2-2.0.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 225,
+                    "content": "\tUCHIJAAAA\tpsionup{15.1} [PSIonic Upgrades] (PSIonicUpgrades-r1.15.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 226,
+                    "content": "\tUCHIJAAAA\tPvpToggle{1.10-1.0.36} [PVP Toggle] (pvpToggle-1.10-1.0.36-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 227,
+                    "content": "\tUCHIJAAAA\treborncore{**.**.**.**} [RebornCore] (RebornCore-1.10.2-2.13.6.142-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 228,
+                    "content": "\tUCHIJAAAA\tquantumstorage{3.3.4} [QuantumStorage] (QuantumStorage-1.10.2-3.3.4.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 229,
+                    "content": "\tUCHIJAAAA\trandomthings{**.**.**.**} [Random Things] (RandomThings-MC1.10.2-3.7.7.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 230,
+                    "content": "\tUCHIJAAAA\treborncore-mcmultipart{**.**.**.**} [reborncore-MCMultiPart] (RebornCore-1.10.2-2.13.6.142-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 231,
+                    "content": "\tUCHIJAAAA\trebornstorage{1.0.0} [RebornStorage] (RebornStorage-1.10.2-1.0.3.30.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 232,
+                    "content": "\tUCHIJAAAA\treccomplex{1.4.5-1.10} [Recurrent Complex] (RecurrentComplex-1.4.5-1.10.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 233,
+                    "content": "\tUCHIJAAAA\tredstonearsenal{2.1.3} [Redstone Arsenal] (RedstoneArsenal-1.10.2-2.1.3.8-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 234,
+                    "content": "\tUCHIJAAAA\trftools{6.13} [RFTools] (rftools-1.1x-6.13.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 235,
+                    "content": "\tUCHIJAAAA\trftoolscontrol{1.6.8} [RFTools Control] (rftoolsctrl-1.1x-1.6.8.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 236,
+                    "content": "\tUCHIJAAAA\tshadowmc{3.6.1} [ShadowMC] (ShadowMC-1.10.2-3.6.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 237,
+                    "content": "\tUCHIJAAAA\tsimplequarry{1.10.2_1.0.2} [Simple Quarry] (SimpleQuarry-1.10.2_1.0.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 238,
+                    "content": "\tUCHIJAAAA\tsimplyjetpacks{**.**.**.**} [Simply Jetpacks 2] (SimplyJetpacks2-1.10.2-2.1.3.55.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 239,
+                    "content": "\tUCHIJAAAA\tskeleton{1.0.3} [Skeleton] (skeleton-1.10.2-1.0.3.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 240,
+                    "content": "\tUCHIJAAAA\tsimplyjuices{1.0.4} [Simply Juices] (simplyjuices-1.10.2-1.0.4.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 241,
+                    "content": "\tUCHIJAAAA\tstevescarts{**.**.**.**} [Steve's Carts 2] (StevesCarts-1.10.2-2.2.0.86.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 242,
+                    "content": "\tUCHIJAAAA\tStevesFactoryManager{1.0.12} [Steve's Factory Manager] (StevesFactoryManager-1.10.2-1.0.12.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 243,
+                    "content": "\tUCHIJAAAA\tstoragenetwork{2.0.9} [StorageNetwork] (storagenetwork-2.0.9.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 244,
+                    "content": "\tUCHIJAAAA\tsubcommonlib{**.**.**.**} [Subaraki's Common Library] (sublib-1.10.2-1.1.3.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 245,
+                    "content": "\tUCHIJAAAA\tthermaldynamics{2.0.11} [Thermal Dynamics] (ThermalDynamics-1.10.2-2.0.11.17-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 246,
+                    "content": "\tUCHIJAAAA\tthermalsmeltery{2.0.2} [Thermal Smeltery] (ThermalSmeltery-2.0.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 247,
+                    "content": "\tUCHIJAAAA\ttinkertoolleveling{1.10.2-1.0.1.DEV.f5def58} [Tinkers Tool Leveling] (TinkerToolLeveling-1.10.2-1.0.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 248,
+                    "content": "\tUCHIJAAAA\ttp{1.2.3} [Tiny Progressions] (tinyprogressions-1.10.2-1.2.3a.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 249,
+                    "content": "\tUCHIJAAAA\ttorchmaster{**.**.**.**} [TorchMaster] (torchmaster_1.10.2-1.4.1.34.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 250,
+                    "content": "\tUCHIJAAAA\tts2k16{1.0.3} [Twerk-Sim 2K16] (TS2K16-1.0.3.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 251,
+                    "content": "\tUCHIJAAAA\tusefulnullifiers{1.3.5} [Useful Nullifiers] (usefulnullifiers-1.3.5.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 252,
+                    "content": "\tUCHIJAAAA\ticse{**.**.**.**} [I Can See Everything] (Wawla-1.10.2-2.3.2.215.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 253,
+                    "content": "\tUCHIJAAAA\twawla{**.**.**.**} [What Are We Looking At] (Wawla-1.10.2-2.3.2.215.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 254,
+                    "content": "\tUCHIJAAAA\twcg{1.0.0} [Wireless Crafting Grid] (WirelessCraftingGrid-1.10.2-1.0.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 255,
+                    "content": "\tUCHIJAAAA\txlfoodmod{1.10.2-0.7.1} [XL Food Mod] (XL Food Mod-1.10.2-0.7.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 256,
+                    "content": "\tUCHIJAAAA\txnet{1.4.0} [XNet] (xnet-1.4.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 257,
+                    "content": "\tUCHIJAAAA\txtones{1.10.2-1.0.1-3} [Xtones] (Xtones-1.10.2-1.0.1-3.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 258,
+                    "content": "\tUCHIJAAAA\tzerocore{1.10.2-0.1.0.6} [Zero CORE] (zerocore-1.10.2-0.1.0.6.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tLoaded coremods (and transformers):",
+            "lines": [
+                {
+                    "number": 259,
+                    "content": "\tLoaded coremods (and transformers):"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 260,
+                    "content": "SoundUnpack (OpenSecurity-MC1.10.2-1.0-25.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 261,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 262,
+                    "content": "BookshelfLoadingPlugin (Bookshelf-1.10.2-1.4.4.347.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 263,
+                    "content": "  net.darkhax.bookshelf.asm.BookshelfTransformerManager"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 264,
+                    "content": "CoreMod (Aroma1997Core-1.9.4-1.1.1.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 265,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 266,
+                    "content": "ForgelinPlugin (Forgelin-1.5.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 267,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 268,
+                    "content": "SimpleCore (SimpleQuarry-1.10.2_1.0.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 269,
+                    "content": "  com.mrdimka.simplequarry.core.SimpleClassTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 270,
+                    "content": "CoFH Loading Plugin (CoFHCore-1.10.2-4.1.12.17-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 271,
+                    "content": "  cofh.asm.CoFHClassTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 272,
+                    "content": "  cofh.asm.repack.codechicken.lib.asm.ClassHierarchyManager"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 273,
+                    "content": "OFMDepLoader (OpenFM-1.9.4-0.1.0.22.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 274,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 275,
+                    "content": "LoadingPlugin (RandomThings-MC1.10.2-3.7.7.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 276,
+                    "content": "  lumien.randomthings.asm.ClassTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 277,
+                    "content": "MalisisCorePlugin (malisiscore-1.10.2-4.4.0.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 278,
+                    "content": "  net.malisis.core.util.chunkcollision.ChunkCollisionTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 279,
+                    "content": "  net.malisis.core.util.chunkblock.ChunkBlockTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 280,
+                    "content": "  net.malisis.core.renderer.transformer.MalisisRendererTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 281,
+                    "content": "  net.malisis.core.renderer.icon.asm.TextureMapTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 282,
+                    "content": "  net.malisis.core.util.clientnotif.ClientNotifTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 283,
+                    "content": "LoadingPlugin (ResourceLoader-MC1.9.4-1.5.1.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 284,
+                    "content": "  lumien.resourceloader.asm.ClassTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 285,
+                    "content": "EnderCorePlugin (EnderCore-1.10.2-0.4.1.66-beta.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 286,
+                    "content": "  com.enderio.core.common.transform.EnderCoreTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 287,
+                    "content": "AdvancedRocketryPlugin (AdvancedRocketry-1.10.2-1.2.2.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 288,
+                    "content": "  zmaster587.advancedRocketry.asm.ClassTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 289,
+                    "content": "TransformerLoader (OpenComputers-MC1.10.2-1.6.2.7.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 290,
+                    "content": "  li.cil.oc.common.asm.ClassTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 291,
+                    "content": "Do not report to Forge! Remove FoamFixAPI (or replace with FoamFixAPI-Lawful) and try again. (foamfix-0.7.0-anarchy.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 292,
+                    "content": "  pl.asie.foamfix.coremod.FoamFixTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 293,
+                    "content": "MicdoodlePlugin (MicdoodleCore-1.10.2-4.0.0.117.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 294,
+                    "content": "  micdoodle8.mods.miccore.MicdoodleTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 295,
+                    "content": "CCLCorePlugin (CodeChickenLib-1.10.2-2.5.9.283-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 296,
+                    "content": "  codechicken.lib.asm.ClassHeirachyManager"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 297,
+                    "content": "  codechicken.lib.asm.CCL_ASMTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 298,
+                    "content": "Default Options (DefaultOptions_1.10.2-6.1.5.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 299,
+                    "content": "  net.blay09.mods.defaultoptions.coremod.DefaultOptionsClassTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 300,
+                    "content": "BlurPlugin (Blur-1.0.4-14.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 301,
+                    "content": "  com.tterrag.blur.BlurTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 302,
+                    "content": "CTMCorePlugin (CTM-MC1.10.2-0.2.2.24.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 303,
+                    "content": "  team.chisel.ctm.client.asm.CTMTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 304,
+                    "content": "LoadingPlugin (Quark-r1.1-70.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 305,
+                    "content": "  vazkii.quark.base.asm.ClassTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 306,
+                    "content": "RebornCoreASM (RebornCore-1.10.2-2.13.6.142-universal.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 307,
+                    "content": "  reborncore.mixin.transformer.MixinTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 308,
+                    "content": "FMLPlugin (InventoryTweaks-1.61-58.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 309,
+                    "content": "  invtweaks.forge.asm.ContainerTransformer"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 310,
+                    "content": "IvToolkit (IvToolkit-1.3.3-1.10.jar)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 311,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tminefactoryreloaded:",
+            "lines": [
+                {
+                    "number": 312,
+                    "content": "\tminefactoryreloaded: -[1.10.2]2.9.0B1-226"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tPulsar\/tconstruct loaded Pulses:",
+            "lines": [
+                {
+                    "number": 313,
+                    "content": "\tPulsar\/tconstruct loaded Pulses:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 314,
+                    "content": "\t\t- TinkerCommons (Enabled\/Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 315,
+                    "content": "\t\t- TinkerWorld (Enabled\/Not Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 316,
+                    "content": "\t\t- TinkerTools (Enabled\/Not Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 317,
+                    "content": "\t\t- TinkerHarvestTools (Enabled\/Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 318,
+                    "content": "\t\t- TinkerMeleeWeapons (Enabled\/Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 319,
+                    "content": "\t\t- TinkerRangedWeapons (Enabled\/Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 320,
+                    "content": "\t\t- TinkerModifiers (Enabled\/Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 321,
+                    "content": "\t\t- TinkerSmeltery (Enabled\/Not Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 322,
+                    "content": "\t\t- TinkerGadgets (Enabled\/Not Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 323,
+                    "content": "\t\t- TinkerOredict (Enabled\/Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 324,
+                    "content": "\t\t- TinkerIntegration (Enabled\/Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 325,
+                    "content": "\t\t- TinkerFluids (Enabled\/Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 326,
+                    "content": "\t\t- TinkerMaterials (Enabled\/Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 327,
+                    "content": "\t\t- TinkerModelRegister (Enabled\/Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 328,
+                    "content": "\t\t- chiselsandbitsIntegration (Enabled\/Not Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 329,
+                    "content": "\t\t- craftingtweaksIntegration (Enabled\/Not Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 330,
+                    "content": "\t\t- WailaIntegration (Enabled\/Not Forced)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 331,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tList of loaded APIs:",
+            "lines": [
+                {
+                    "number": 332,
+                    "content": "\tList of loaded APIs:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 333,
+                    "content": "\t\t* Baubles|API (**.**.**.**) from Baubles-1.10.2-1.3.11.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 334,
+                    "content": "\t\t* Chisel-API (0.0.1) from Chisel-MC1.10.2-0.0.13.30.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 335,
+                    "content": "\t\t* ChiselAPI|Carving (0.0.1) from Chisel-MC1.10.2-0.0.13.30.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 336,
+                    "content": "\t\t* ChiselsAndBitsAPI (12.10.0) from chiselsandbits-12.15.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 337,
+                    "content": "\t\t* CoFHAPI (1.8.9R1.2.0B1) from p455w0rdslib-1.10.2-1.0.13.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 338,
+                    "content": "\t\t* cofhapi (1.6.0) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 339,
+                    "content": "\t\t* cofhapi|block (1.7.0) from CoFHCore-1.10.2-4.1.12.17-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 340,
+                    "content": "\t\t* cofhapi|core (1.6.0) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 341,
+                    "content": "\t\t* CoFHAPI|energy (1.8.9R1.2.0B1) from limelib-1.10.2-1.3.5.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 342,
+                    "content": "\t\t* cofhapi|energy (1.5.0) from moartinkers-0.4.1.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 343,
+                    "content": "\t\t* CoFHAPI|item (1.8.9R1.2.0B1) from mcjtylib-1.1x-2.4.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 344,
+                    "content": "\t\t* cofhapi|item (1.6.0) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 345,
+                    "content": "\t\t* cofhapi|tileentity (1.6.0) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 346,
+                    "content": "\t\t* cofhapi|util (1.7.0) from CoFHCore-1.10.2-4.1.12.17-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 347,
+                    "content": "\t\t* cofhlib (1.7.6) from CoFHCore-1.10.2-4.1.12.17-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 348,
+                    "content": "\t\t* cofhlib|audio (1.7.6) from CoFHCore-1.10.2-4.1.12.17-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 349,
+                    "content": "\t\t* cofhlib|gui (1.7.6) from CoFHCore-1.10.2-4.1.12.17-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 350,
+                    "content": "\t\t* cofhlib|gui|container (1.7.6) from CoFHCore-1.10.2-4.1.12.17-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 351,
+                    "content": "\t\t* cofhlib|gui|element (1.7.6) from CoFHCore-1.10.2-4.1.12.17-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 352,
+                    "content": "\t\t* cofhlib|gui|element|listbox (1.7.6) from CoFHCore-1.10.2-4.1.12.17-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 353,
+                    "content": "\t\t* cofhlib|gui|slot (1.7.6) from CoFHCore-1.10.2-4.1.12.17-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 354,
+                    "content": "\t\t* cofhlib|inventory (1.7.6) from CoFHCore-1.10.2-4.1.12.17-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 355,
+                    "content": "\t\t* cofhlib|util (1.7.6) from CoFHCore-1.10.2-4.1.12.17-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 356,
+                    "content": "\t\t* cofhlib|util|helpers (1.7.6) from CoFHCore-1.10.2-4.1.12.17-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 357,
+                    "content": "\t\t* cofhlib|world (1.7.6) from CoFHCore-1.10.2-4.1.12.17-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 358,
+                    "content": "\t\t* cofhlib|world|feature (1.7.6) from CoFHCore-1.10.2-4.1.12.17-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 359,
+                    "content": "\t\t* commoncapabilities|api (0.0.1) from CommonCapabilities-1.9.4-1.3.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 360,
+                    "content": "\t\t* compatlayer (0.2.9) from compatlayer-1.10-0.2.9.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 361,
+                    "content": "\t\t* ComputerCraft|API (1.80pr0) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 362,
+                    "content": "\t\t* ComputerCraft|API|FileSystem (1.80pr0) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 363,
+                    "content": "\t\t* ComputerCraft|API|Lua (1.80pr0) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 364,
+                    "content": "\t\t* ComputerCraft|API|Media (1.80pr0) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 365,
+                    "content": "\t\t* ComputerCraft|API|Peripheral (1.80pr0) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 366,
+                    "content": "\t\t* ComputerCraft|API|Permissions (1.80pr0) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 367,
+                    "content": "\t\t* ComputerCraft|API|Redstone (1.80pr0) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 368,
+                    "content": "\t\t* ComputerCraft|API|Turtle (1.80pr0) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 369,
+                    "content": "\t\t* CraftingTweaks|API (4.1) from CraftingTweaks_1.10.2-6.1.16.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 370,
+                    "content": "\t\t* ctm-api (0.1.0) from CTM-MC1.10.2-0.2.2.24.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 371,
+                    "content": "\t\t* ctm-api-models (0.1.0) from CTM-MC1.10.2-0.2.2.24.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 372,
+                    "content": "\t\t* ctm-api-textures (0.1.0) from CTM-MC1.10.2-0.2.2.24.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 373,
+                    "content": "\t\t* ctm-api-utils (0.1.0) from CTM-MC1.10.2-0.2.2.24.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 374,
+                    "content": "\t\t* EnderIOAPI (0.0.2) from EnderIO-1.10.2-3.1.193.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 375,
+                    "content": "\t\t* EnderIOAPI|Redstone (0.0.2) from EnderIO-1.10.2-3.1.193.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 376,
+                    "content": "\t\t* EnderIOAPI|Teleport (0.0.2) from EnderIO-1.10.2-3.1.193.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 377,
+                    "content": "\t\t* EnderIOAPI|Tools (0.0.2) from EnderIO-1.10.2-3.1.193.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 378,
+                    "content": "\t\t* fluxapi (1.0) from FluxNetworks-1.10.2-1.2.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 379,
+                    "content": "\t\t* Galacticraft API (1.1) from GalacticraftCore-1.10.2-4.0.0.117.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 380,
+                    "content": "\t\t* iChunUtil API (1.2.0) from iChunUtil-1.10.2-6.5.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 381,
+                    "content": "\t\t* integrateddynamics|api (0.2.0) from IntegratedDynamics-1.10.2-0.7.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 382,
+                    "content": "\t\t* IronBackpacks|API (0.5) from IronBackpacks-1.10.2-2.2.31.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 383,
+                    "content": "\t\t* jeresources|API (**.**.**.**) from JustEnoughResources-1.10.2-0.5.9.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 384,
+                    "content": "\t\t* journeymap|client-api (1.3) from journeymap-1.10.2-5.4.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 385,
+                    "content": "\t\t* journeymap|client-api-display (1.3) from journeymap-1.10.2-5.4.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 386,
+                    "content": "\t\t* journeymap|client-api-event (1.3) from journeymap-1.10.2-5.4.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 387,
+                    "content": "\t\t* journeymap|client-api-model (1.3) from journeymap-1.10.2-5.4.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 388,
+                    "content": "\t\t* journeymap|client-api-util (1.3) from journeymap-1.10.2-5.4.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 389,
+                    "content": "\t\t* JustEnoughItemsAPI (4.10.1) from jei_1.10.2-3.14.7.420.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 390,
+                    "content": "\t\t* mcjtylib_ng (2.4.3) from mcjtylib-1.1x-2.4.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 391,
+                    "content": "\t\t* MekanismAPI|core (9.0.0) from Mekanism-1.10.2-9.2.3.97.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 392,
+                    "content": "\t\t* MekanismAPI|energy (9.0.0) from Mekanism-1.10.2-9.2.3.97.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 393,
+                    "content": "\t\t* MekanismAPI|gas (9.0.0) from Mekanism-1.10.2-9.2.3.97.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 394,
+                    "content": "\t\t* MekanismAPI|infuse (9.0.0) from Mekanism-1.10.2-9.2.3.97.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 395,
+                    "content": "\t\t* MekanismAPI|laser (9.0.0) from Mekanism-1.10.2-9.2.3.97.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 396,
+                    "content": "\t\t* MekanismAPI|transmitter (9.0.0) from Mekanism-1.10.2-9.2.3.97.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 397,
+                    "content": "\t\t* MekanismAPI|util (9.0.0) from Mekanism-1.10.2-9.2.3.97.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 398,
+                    "content": "\t\t* MouseTweaks|API (1.0) from MouseTweaks-2.8-mc1.10.2.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 399,
+                    "content": "\t\t* Open Glider|API (0.1) from OpenGlider-1.10.2-1.0.0.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 400,
+                    "content": "\t\t* OpenComputersAPI|Component (6.0.0-alpha) from OpenComputers-MC1.10.2-1.6.2.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 401,
+                    "content": "\t\t* OpenComputersAPI|Core (6.0.0-alpha) from OpenComputers-MC1.10.2-1.6.2.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 402,
+                    "content": "\t\t* OpenComputersAPI|Driver (6.0.0-alpha) from OpenComputers-MC1.10.2-1.6.2.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 403,
+                    "content": "\t\t* OpenComputersAPI|Driver|Item (6.0.0-alpha) from OpenComputers-MC1.10.2-1.6.2.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 404,
+                    "content": "\t\t* OpenComputersAPI|Event (6.0.0-alpha) from OpenComputers-MC1.10.2-1.6.2.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 405,
+                    "content": "\t\t* OpenComputersAPI|FileSystem (6.0.0-alpha) from OpenComputers-MC1.10.2-1.6.2.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 406,
+                    "content": "\t\t* OpenComputersAPI|Internal (6.0.0-alpha) from OpenComputers-MC1.10.2-1.6.2.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 407,
+                    "content": "\t\t* OpenComputersAPI|Machine (6.0.0-alpha) from OpenComputers-MC1.10.2-1.6.2.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 408,
+                    "content": "\t\t* OpenComputersAPI|Manual (6.0.0-alpha) from OpenComputers-MC1.10.2-1.6.2.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 409,
+                    "content": "\t\t* OpenComputersAPI|Network (6.0.0-alpha) from OpenComputers-MC1.10.2-1.6.2.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 410,
+                    "content": "\t\t* OpenComputersAPI|Prefab (6.0.0-alpha) from OpenComputers-MC1.10.2-1.6.2.7.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 411,
+                    "content": "\t\t* practicallogistics2api (1.1) from PracticalLogistics2-1.10.2-2.0.2.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 412,
+                    "content": "\t\t* ProjectEAPI (1.9.4-1.0.0) from p455w0rdslib-1.10.2-1.0.13.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 413,
+                    "content": "\t\t* PsiAPI (2) from Psi-r1.0-42.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 414,
+                    "content": "\t\t* PSIonicUpgradesAPI (1) from PSIonicUpgrades-r1.15.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 415,
+                    "content": "\t\t* reborncoreAPI (**.**.**.**) from RebornCore-1.10.2-2.13.6.142-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 416,
+                    "content": "\t\t* reborncoreAPI|Fuel (**.**.**.**) from RebornCore-1.10.2-2.13.6.142-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 417,
+                    "content": "\t\t* reborncoreAPI|Power (**.**.**.**) from RebornCore-1.10.2-2.13.6.142-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 418,
+                    "content": "\t\t* reborncoreAPI|Recipe (**.**.**.**) from RebornCore-1.10.2-2.13.6.142-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 419,
+                    "content": "\t\t* reborncoreAPI|Tile (**.**.**.**) from RebornCore-1.10.2-2.13.6.142-universal.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 420,
+                    "content": "\t\t* SimpleQuarry|API (1) from SimpleQuarry-1.10.2_1.0.2.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 421,
+                    "content": "\t\t* sonarapi (1.0.1) from SonarCore-1.10.2-3.2.9.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 422,
+                    "content": "\t\t* stevescartsAPI (**.**.**.**) from StevesCarts-1.10.2-2.2.0.86.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 423,
+                    "content": "\t\t* stevescartsAPI|FARMS (**.**.**.**) from StevesCarts-1.10.2-2.2.0.86.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 424,
+                    "content": "\t\t* StorageDrawersAPI (1.7.10-1.2.0) from refinedstorage-1.2.26.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 425,
+                    "content": "\t\t* StorageDrawersAPI|config (1.10.2-1.3.0) from StorageDrawers-1.10.2-3.7.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 426,
+                    "content": "\t\t* StorageDrawersAPI|event (1.10.2-1.3.0) from StorageDrawers-1.10.2-3.7.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 427,
+                    "content": "\t\t* StorageDrawersAPI|inventory (1.7.10-1.2.0) from refinedstorage-1.2.26.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 428,
+                    "content": "\t\t* StorageDrawersAPI|pack (1.7.10-1.2.0) from refinedstorage-1.2.26.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 429,
+                    "content": "\t\t* StorageDrawersAPI|registry (1.10.2-1.3.0) from StorageDrawers-1.10.2-3.7.10.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 430,
+                    "content": "\t\t* StorageDrawersAPI|render (1.7.10-1.2.0) from refinedstorage-1.2.26.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 431,
+                    "content": "\t\t* StorageDrawersAPI|storage (1.7.10-1.2.0) from refinedstorage-1.2.26.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 432,
+                    "content": "\t\t* StorageDrawersAPI|storage-attribute (1.7.10-1.2.0) from refinedstorage-1.2.26.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 433,
+                    "content": "\t\t* WailaAPI (1.3) from Hwyla-1.8.17-B31_1.10.2.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 434,
+                    "content": "\t\t* zerocore|API|multiblock (1.10.2-0.0.2) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 435,
+                    "content": "\t\t* zerocore|API|multiblock|rectangular (1.10.2-0.0.2) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 436,
+                    "content": "\t\t* zerocore|API|multiblock|tier (1.10.2-0.0.2) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 437,
+                    "content": "\t\t* zerocore|API|multiblock|validation (1.10.2-0.0.2) from zerocore-1.10.2-0.1.0.6.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCodeChickenLib Invalid Fingerprint Reports:",
+            "lines": [
+                {
+                    "number": 438,
+                    "content": "\tCodeChickenLib Invalid Fingerprint Reports:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCodeChickenCore Invalid Fingerprint Reports:",
+            "lines": [
+                {
+                    "number": 439,
+                    "content": "\tCodeChickenCore Invalid Fingerprint Reports:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tChickenChunks Invalid Fingerprint Reports:",
+            "lines": [
+                {
+                    "number": 440,
+                    "content": "\tChickenChunks Invalid Fingerprint Reports:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEnderIO:",
+            "lines": [
+                {
+                    "number": 441,
+                    "content": "\tEnderIO: Found the following problem(s) with your installation (That does NOT mean that Ender IO caused the crash or was involved in it in any way. We add this information to help finding common problems, not as an invitation to post any crash you encounter to Ender IO's issue tracker. Always check the stack trace above to see which mod is most likely failing.):"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 442,
+                    "content": "                  * An unsupportted RF API is installed (1.7.0 from (guessing) jar:file:\/server\/mods\/CoFHCore-1.10.2-4.1.12.17-universal.jar!\/cofh\/api\/CoFHAPIProps.class)."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 443,
+                    "content": "                    Ender IO needs at least 1.4.0 and will NOT work with older versions."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 444,
+                    "content": "                 This may (look up the meaning of 'may' in the dictionary if you're not sure what it means) have caused the error. Try reproducing the crash WITHOUT this\/these mod(s) before reporting it."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tDetailed RF API diagnostics:",
+            "lines": [
+                {
+                    "number": 445,
+                    "content": "\tDetailed RF API diagnostics:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * RF API class 'EnergyStorage' is loaded from:",
+            "lines": [
+                {
+                    "number": 446,
+                    "content": "                  * RF API class 'EnergyStorage' is loaded from: jar:file:\/server\/mods\/CoFHCore-1.10.2-4.1.12.17-universal.jar!\/cofh\/api\/energy\/EnergyStorage.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * RF API class 'IEnergyConnection' is loaded from:",
+            "lines": [
+                {
+                    "number": 447,
+                    "content": "                  * RF API class 'IEnergyConnection' is loaded from: jar:file:\/server\/mods\/CoFHCore-1.10.2-4.1.12.17-universal.jar!\/cofh\/api\/energy\/IEnergyConnection.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * RF API class 'IEnergyContainerItem' is loaded from:",
+            "lines": [
+                {
+                    "number": 448,
+                    "content": "                  * RF API class 'IEnergyContainerItem' is loaded from: jar:file:\/server\/mods\/CoFHCore-1.10.2-4.1.12.17-universal.jar!\/cofh\/api\/energy\/IEnergyContainerItem.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * RF API class 'IEnergyHandler' is loaded from:",
+            "lines": [
+                {
+                    "number": 449,
+                    "content": "                  * RF API class 'IEnergyHandler' is loaded from: jar:file:\/server\/mods\/CoFHCore-1.10.2-4.1.12.17-universal.jar!\/cofh\/api\/energy\/IEnergyHandler.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * RF API class 'IEnergyProvider' is loaded from:",
+            "lines": [
+                {
+                    "number": 450,
+                    "content": "                  * RF API class 'IEnergyProvider' is loaded from: jar:file:\/server\/mods\/CoFHCore-1.10.2-4.1.12.17-universal.jar!\/cofh\/api\/energy\/IEnergyProvider.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * RF API class 'IEnergyReceiver' is loaded from:",
+            "lines": [
+                {
+                    "number": 451,
+                    "content": "                  * RF API class 'IEnergyReceiver' is loaded from: jar:file:\/server\/mods\/CoFHCore-1.10.2-4.1.12.17-universal.jar!\/cofh\/api\/energy\/IEnergyReceiver.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * RF API class 'IEnergyStorage' is loaded from:",
+            "lines": [
+                {
+                    "number": 452,
+                    "content": "                  * RF API class 'IEnergyStorage' is loaded from: jar:file:\/server\/mods\/CoFHCore-1.10.2-4.1.12.17-universal.jar!\/cofh\/api\/energy\/IEnergyStorage.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * RF API class 'ItemEnergyContainer' is loaded from:",
+            "lines": [
+                {
+                    "number": 453,
+                    "content": "                  * RF API class 'ItemEnergyContainer' is loaded from: jar:file:\/server\/mods\/CoFHCore-1.10.2-4.1.12.17-universal.jar!\/cofh\/api\/energy\/ItemEnergyContainer.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * RF API class 'TileEnergyHandler' is loaded from:",
+            "lines": [
+                {
+                    "number": 454,
+                    "content": "                  * RF API class 'TileEnergyHandler' is loaded from: jar:file:\/server\/mods\/CoFHCore-1.10.2-4.1.12.17-universal.jar!\/cofh\/api\/energy\/TileEnergyHandler.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tDetailed Tesla API diagnostics:",
+            "lines": [
+                {
+                    "number": 455,
+                    "content": "\tDetailed Tesla API diagnostics:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * Tesla API class 'Tesla' is loaded from:",
+            "lines": [
+                {
+                    "number": 456,
+                    "content": "                  * Tesla API class 'Tesla' is loaded from: jar:file:\/server\/mods\/Tesla-1.10.2-1.2.1.49.jar!\/net\/darkhax\/tesla\/Tesla.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * Tesla API class 'TeslaCapabilities' is loaded from:",
+            "lines": [
+                {
+                    "number": 457,
+                    "content": "                  * Tesla API class 'TeslaCapabilities' is loaded from: jar:file:\/server\/mods\/Tesla-1.10.2-1.2.1.49.jar!\/net\/darkhax\/tesla\/capability\/TeslaCapabilities.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * Tesla API class 'ITeslaConsumer' is loaded from:",
+            "lines": [
+                {
+                    "number": 458,
+                    "content": "                  * Tesla API class 'ITeslaConsumer' is loaded from: jar:file:\/server\/mods\/Tesla-1.10.2-1.2.1.49.jar!\/net\/darkhax\/tesla\/api\/ITeslaConsumer.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * Tesla API class 'ITeslaHolder' is loaded from:",
+            "lines": [
+                {
+                    "number": 459,
+                    "content": "                  * Tesla API class 'ITeslaHolder' is loaded from: jar:file:\/server\/mods\/Tesla-1.10.2-1.2.1.49.jar!\/net\/darkhax\/tesla\/api\/ITeslaHolder.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * Tesla API class 'ITeslaProducer' is loaded from:",
+            "lines": [
+                {
+                    "number": 460,
+                    "content": "                  * Tesla API class 'ITeslaProducer' is loaded from: jar:file:\/server\/mods\/Tesla-1.10.2-1.2.1.49.jar!\/net\/darkhax\/tesla\/api\/ITeslaProducer.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * Tesla API class 'BaseTeslaContainer' is loaded from:",
+            "lines": [
+                {
+                    "number": 461,
+                    "content": "                  * Tesla API class 'BaseTeslaContainer' is loaded from: jar:file:\/server\/mods\/Tesla-1.10.2-1.2.1.49.jar!\/net\/darkhax\/tesla\/api\/implementation\/BaseTeslaContainer.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * Tesla API class 'BaseTeslaContainerProvider' is loaded from:",
+            "lines": [
+                {
+                    "number": 462,
+                    "content": "                  * Tesla API class 'BaseTeslaContainerProvider' is loaded from: jar:file:\/server\/mods\/Tesla-1.10.2-1.2.1.49.jar!\/net\/darkhax\/tesla\/api\/implementation\/BaseTeslaContainerProvider.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * Tesla API class 'InfiniteTeslaConsumer' is loaded from:",
+            "lines": [
+                {
+                    "number": 463,
+                    "content": "                  * Tesla API class 'InfiniteTeslaConsumer' is loaded from: jar:file:\/server\/mods\/Tesla-1.10.2-1.2.1.49.jar!\/net\/darkhax\/tesla\/api\/implementation\/InfiniteTeslaConsumer.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * Tesla API class 'InfiniteTeslaConsumerProvider' is loaded from:",
+            "lines": [
+                {
+                    "number": 464,
+                    "content": "                  * Tesla API class 'InfiniteTeslaConsumerProvider' is loaded from: jar:file:\/server\/mods\/Tesla-1.10.2-1.2.1.49.jar!\/net\/darkhax\/tesla\/api\/implementation\/InfiniteTeslaConsumerProvider.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * Tesla API class 'InfiniteTeslaProducer' is loaded from:",
+            "lines": [
+                {
+                    "number": 465,
+                    "content": "                  * Tesla API class 'InfiniteTeslaProducer' is loaded from: jar:file:\/server\/mods\/Tesla-1.10.2-1.2.1.49.jar!\/net\/darkhax\/tesla\/api\/implementation\/InfiniteTeslaProducer.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "                  * Tesla API class 'InfiniteTeslaProducerProvider' is loaded from:",
+            "lines": [
+                {
+                    "number": 466,
+                    "content": "                  * Tesla API class 'InfiniteTeslaProducerProvider' is loaded from: jar:file:\/server\/mods\/Tesla-1.10.2-1.2.1.49.jar!\/net\/darkhax\/tesla\/api\/implementation\/InfiniteTeslaProducerProvider.class"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 467,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 468,
+                    "content": "\t!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 469,
+                    "content": "\t!!!You are looking at the diagnostics information, not at the crash. Scroll up!!!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 470,
+                    "content": "\t!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 471,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEnderStorage Invalid Fingerprint Reports:",
+            "lines": [
+                {
+                    "number": 472,
+                    "content": "\tEnderStorage Invalid Fingerprint Reports:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tRebornCore:",
+            "lines": [
+                {
+                    "number": 473,
+                    "content": "\tRebornCore:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tPlugin Engine:",
+            "lines": [
+                {
+                    "number": 474,
+                    "content": "\t\tPlugin Engine: 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tRebornCore Version:",
+            "lines": [
+                {
+                    "number": 475,
+                    "content": "\t\tRebornCore Version: 2.13.6.142"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tMixin Status:",
+            "lines": [
+                {
+                    "number": 476,
+                    "content": "\t\tMixin Status: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 477,
+                    "content": "\t\tRuntime Debofucsation 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProfiler Position:",
+            "lines": [
+                {
+                    "number": 478,
+                    "content": "\tProfiler Position: N\/A (disabled)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tPlayer Count:",
+            "lines": [
+                {
+                    "number": 479,
+                    "content": "\tPlayer Count: 0 \/ 20; []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIs Modded:",
+            "lines": [
+                {
+                    "number": 480,
+                    "content": "\tIs Modded: Definitely; Server brand changed to 'fml,forge'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tType:",
+            "lines": [
+                {
+                    "number": 481,
+                    "content": "\tType: Dedicated Server (map_server.txt)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 482,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The entity 'DigitalMiner' at the location 88, 52, 485 is causing issues while ticking.",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "Description:",
+                    "lines": [
+                        {
+                            "number": 32,
+                            "content": "Description: Ticking block entity"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the entity 'DigitalMiner' at the location 88, 52, 485."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.10.2",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tMinecraft Version:",
+                    "lines": [
+                        {
+                            "number": 92,
+                            "content": "\tMinecraft Version: 1.10.2"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.10.2"
+            },
+            {
+                "message": "Java version: 1.8.0_482",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tJava Version:",
+                    "lines": [
+                        {
+                            "number": 94,
+                            "content": "\tJava Version: 1.8.0_482, Temurin"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "1.8.0_482"
+            },
+            {
+                "message": "Forge version: 12.18.3.2422",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tFML:",
+                    "lines": [
+                        {
+                            "number": 99,
+                            "content": "\tFML: MCP 9.32 Powered by Forge 12.18.3.2422 158 mods loaded, 158 mods active"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "12.18.3.2422"
+            }
+        ]
+    }
+}
