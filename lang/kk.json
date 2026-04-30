@@ -25,7 +25,7 @@
     "world-missing-mod-problem": "Әлем '{{mod-name}}' модымен сақталған, бірақ қазір ол мод табылмады.",
     "world-mod-version-problem": "Бұл әлем '{{mod-name}}' модының {{mod-expected-version}} нұсқасымен сақталған, ал қазіргі қолданыстағы нұсқа — {{mod-current-version}}.",
     "plugin-incompatible-problem": "'{{plugin-name}}' плагині сервердің қазіргі нұсқасымен үйлесімсіз.",
-    "aquatic-world-on-older-version-problem": "Бұл әлем Minecraft 1,13 немесе одан жоғары нұсқасында жасалған/жүктелген. Жаңа форматты ескі нұсқаларда ашу мүмкін емес.",
+    "aquatic-world-on-older-version-problem": "Бұл әлем Minecraft 1.13 немесе одан жоғары нұсқасында жасалған/жүктелген. Жаңа форматты ескі нұсқаларда ашу мүмкін емес.",
     "old-player-directory-problem": "Сервер әлем сақтау файлынан ескі ойыншылар директориясын (каталогын) анықтады.",
     "command-run-solution": "'{{command}}' командасыны іске қосыңыз.",
     "authme-shutdown-solution": "'stopServer' 'true'-ға қойыңыз.",
