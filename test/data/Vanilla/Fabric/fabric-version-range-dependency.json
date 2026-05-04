@@ -134,7 +134,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The mod 'Fabric API' is missing the required mod 'Minecraft'.",
+                "message": "The mod 'Fabric API' is not compatible with the Minecraft version 1.18.2.",
                 "counter": 1,
                 "entry": {
                     "level": 3,
@@ -197,12 +197,15 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install the mod 'Minecraft' with version >=1.19-alpha.22.18.a, <1.20-."
+                        "message": "Install the version '>=1.19-alpha.22.18.a, <1.20-' of your server software."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'Fabric API'."
                     }
                 ]
             },
             {
-                "message": "The mod 'Fabric Command API (v2)' is missing the required mod 'Minecraft'.",
+                "message": "The mod 'Fabric Command API (v2)' is not compatible with the Minecraft version 1.18.2.",
                 "counter": 1,
                 "entry": {
                     "level": 3,
@@ -265,7 +268,10 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install the mod 'Minecraft' with version >=1.19-alpha.22.11.a, <1.20-."
+                        "message": "Install the version '>=1.19-alpha.22.11.a, <1.20-' of your server software."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'Fabric Command API (v2)'."
                     }
                 ]
             }
