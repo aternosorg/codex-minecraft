@@ -91,5 +91,7 @@
     "auth-server-problem": "I server di autenticazione di Mojang/Microsoft sono attualmente irraggiungibili!",
     "auth-server-solution": "Aspetta qualche minuto e riprova. Se il problema persiste, controlla i canali ufficiali di Mojang/Microsoft per problemi noti del server di autenticazione.",
     "overworld-settings-missing-problem": "Impostazioni Overworld mancanti",
-    "missing-datapack-mod-problem": "Il datapack non viene caricato, perché la mod {{mod-name}} potrebbe non essere installata"
+    "missing-datapack-mod-problem": "Il datapack non viene caricato, perché la mod {{mod-name}} potrebbe non essere installata",
+    "folder-create-solution": "Crea la cartella '{{folder-path}}'.",
+    "code-of-conduct-folder-missing-problem": "La cartella del Codice di Condotta non è stata trovata"
 }

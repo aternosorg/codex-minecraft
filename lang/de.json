@@ -92,5 +92,6 @@
     "auth-server-solution": "Warte einige Minuten und versuche es erneut. Wenn das Problem weiterhin besteht, überprüfe die offiziellen Mojang/Microsoft-Kanäle auf bekannte Serverauthentifizierungsprobleme.",
     "overworld-settings-missing-problem": "Oberwelt-Einstellungen fehlen",
     "missing-datapack-mod-problem": "Datenpaket fehlt, weil die Modifikation '{{mod-name}}' möglicherweise nicht installiert ist.",
-    "folder-create-solution": "Erstelle den Ordner '{{folder-path}}'"
+    "folder-create-solution": "Erstelle den Ordner '{{folder-path}}'",
+    "code-of-conduct-folder-missing-problem": "Der Code von Conduct Ordner existiert nicht."
 }

@@ -91,5 +91,6 @@
     "auth-server-problem": "Mojang/Microsoft-autentiseringsservrarna går för närvarande inte att nå",
     "auth-server-solution": "Vänta några minuter och försök igen. Om problemet kvarstår, kontrollera de officiella Mojang/Microsoft-kanalerna för kända problem med autentiseringsservern.",
     "overworld-settings-missing-problem": "'Overworld' inställningar saknas",
-    "missing-datapack-mod-problem": "Datapack saknas eftersom '{{mod-name}}' Kanske inte är installerat"
+    "missing-datapack-mod-problem": "Datapack saknas eftersom '{{mod-name}}' Kanske inte är installerat",
+    "code-of-conduct-folder-missing-problem": "Mappen 'Uppförandekod' finns inte"
 }

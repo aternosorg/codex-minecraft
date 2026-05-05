@@ -91,5 +91,7 @@
     "auth-server-problem": "Mojang/Microsoft 인증 서버는 현재 도달할 수 없습니다!",
     "auth-server-solution": "몇 분 기다렸다가 다시 시도하세요. 문제가 지속되면, 공식 Mojang/Microsoft 채널에서 알려진 인증 서버 문제를 확인하세요.",
     "overworld-settings-missing-problem": "오버월드 설정이 없음",
-    "missing-datapack-mod-problem": "'{{mod-name}}' 모드가 설치되어있지 않아 데이터팩이 없습니다."
+    "missing-datapack-mod-problem": "'{{mod-name}}' 모드가 설치되어있지 않아 데이터팩이 없습니다.",
+    "folder-create-solution": "{{folder-path}} 폴더 만들기",
+    "code-of-conduct-folder-missing-problem": "행동 강령 폴더가 존재하지 않습니다."
 }

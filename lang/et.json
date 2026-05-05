@@ -84,5 +84,6 @@
     "type-content": "Sisu Logi",
     "type-crash-report": "Crashide Raport",
     "type-unknown": "Mitte tundutud logi",
-    "forge-language-provider-version-problem": "Mod \"{{mod-file}}\" vajab versiooni {{required-version}}, aga installitud on {{found-version}} versioon."
+    "forge-language-provider-version-problem": "Mod \"{{mod-file}}\" vajab versiooni {{required-version}}, aga installitud on {{found-version}} versioon.",
+    "code-of-conduct-folder-missing-problem": "Käitumisjuhendi kausta pole olemas."
 }

@@ -91,5 +91,7 @@
     "overworld-settings-missing-problem": "オーバーワールドの設定がありません",
     "missing-datapack-mod-problem": "mod '{{mod-name}}' がインストールされない可能性があるため、データパックが不足しています。",
     "type-network-protocol-error-report": "ネットワークプロトコルエラーレポート",
-    "plugin-api-version-lower-than-allowed-problem": "プラグイン '{{plugin-name}}' の API バージョンが、サーバーで許可されている最小バージョンを下回っています。"
+    "plugin-api-version-lower-than-allowed-problem": "プラグイン '{{plugin-name}}' の API バージョンが、サーバーで許可されている最小バージョンを下回っています。",
+    "folder-create-solution": "「{{folder-path}}」という名前のフォルダを作成してください。",
+    "code-of-conduct-folder-missing-problem": "行動規範のコードが格納されているフォルダが存在しません。"
 }
