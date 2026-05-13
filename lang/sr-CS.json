@@ -91,5 +91,7 @@
     "auth-server-problem": "Mojang/Microsoft serveri za autentifikaciju su trenutno nedostupni!",
     "auth-server-solution": "Sačekajte nekoliko minuta i pokušajte ponovo. Ako se problem nastavi, proverite zvanične Mojang/Microsoft kanale kako biste proverili postoje li poznati problemi sa serverom za autentifikaciju.",
     "missing-datapack-mod-problem": "Paket podataka nedostaje, jer mod '{{mod-name}}' možda nije instaliran.",
-    "overworld-settings-missing-problem": "Nedostaju podešavanja sveta"
+    "overworld-settings-missing-problem": "Nedostaju podešavanja sveta",
+    "folder-create-solution": "Napravite folder {{folder-path}}",
+    "code-of-conduct-folder-missing-problem": "Code of Conduct fascikla ne postoji."
 }

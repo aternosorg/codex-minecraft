@@ -91,5 +91,7 @@
     "auth-server-problem": "De Mojang/Microsoft verificatie servers zijn momenteel niet bereikbaar!",
     "auth-server-solution": "Wacht een paar minuten en probeer opnieuw. Als het probleem zich voorblijft doen, controleer de officiële Mojang/Microsoft kanalen voor bekende problemen met de verificatie servers.",
     "overworld-settings-missing-problem": "Instelling van de bovenwereld ontbreken",
-    "missing-datapack-mod-problem": "Datapack ontbreekt, omdat de mod '{{mod-name}}' mogelijk niet geïnstalleerd is."
+    "missing-datapack-mod-problem": "Datapack ontbreekt, omdat de mod '{{mod-name}}' mogelijk niet geïnstalleerd is.",
+    "folder-create-solution": "Maak de map {{folder-path}} aan.",
+    "code-of-conduct-folder-missing-problem": "De gedragscode map bestaat niet"
 }

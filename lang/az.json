@@ -91,5 +91,7 @@
     "auth-server-problem": "Mojang/Microsoft kimlik doğrulama serverləri hazırda əlçatmazdır!",
     "auth-server-solution": "Bir neçə dəqiqə gözləyib yenidən sınayın. Əgər problem davam etsə, məlum kimlik doğrulama server problemləri üçün rəsmi Mojang/Microsoft kanallarını yoxlayın.",
     "missing-datapack-mod-problem": "Datapack əskikdir, çünki '{{mod-name}}' modu quraşdırılmamış ola bilər.",
-    "overworld-settings-missing-problem": "Üst dünya ayarları əskikdir"
+    "overworld-settings-missing-problem": "Üst dünya ayarları əskikdir",
+    "folder-create-solution": "'{{folder-path}}' qovluğunu yarat.",
+    "code-of-conduct-folder-missing-problem": "The Code of Conduct qovluğu mövcud deyil."
 }

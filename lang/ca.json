@@ -91,5 +91,7 @@
     "auth-server-solution": "Espereu uns minuts i torneu-ho a provar. Si el problema persisteix, comproveu els canals oficials de Mojang/Microsoft per detectar qualsevol problema conegut del servidor d'autenticació.",
     "overworld-settings-missing-problem": "Falta la configuració de l'Overworld.",
     "missing-datapack-mod-problem": "Falta el paquet de dades, perquè és possible que el mod '{{mod-name}}' no estigui instal·lat.",
-    "change-minimum-api-version-solution": "Canvia 'minimum-api' a bukkit.yml per {{api-version}}, una versió inferior o fins i tot 'none'."
+    "change-minimum-api-version-solution": "Canvia 'minimum-api' a bukkit.yml per {{api-version}}, una versió inferior o fins i tot 'none'.",
+    "folder-create-solution": "Crea la carpeta '{{folder-path}}'.",
+    "code-of-conduct-folder-missing-problem": "La carpeta del Codi de Conducta no existeix."
 }

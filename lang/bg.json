@@ -85,5 +85,11 @@
     "plugin-regional-ticking-problem": "Плъгинът {{plugin-name}} не поддържа регионално тиктакане.",
     "install-non-regional-ticking-software-solution": "Инсталирайте софтуер без регионално тиктакане като {{software-name}}",
     "type-network-protocol-error-report": "Доклад за грешка в мрежовия протокол",
-    "forge-language-provider-version-problem": "Модификация '{{mod-file}}'  изисква '{{required-version}}', но инсталирана '{{found-version}}'."
+    "forge-language-provider-version-problem": "Модификация '{{mod-file}}'  изисква '{{required-version}}', но инсталирана '{{found-version}}'.",
+    "folder-create-solution": "Създаване на папката '{{folder-path}}'.",
+    "plugin-api-version-lower-than-allowed-problem": "За плъгина '{{plugin-name}}' е зададена версия на API, която е по-ниска от минимално допустимата версия.",
+    "change-minimum-api-version-solution": "Променете 'minimum-api' в bukkit.yml на {{api-version}}, по-ниска стойност или дори 'none'.",
+    "auth-server-problem": "Сървърите за автентикация на Mojang/Microsoft в момента са недостъпни!",
+    "auth-server-solution": "Изчакайте няколко минути и опитайте отново. Ако проблемът продължава, проверете официалните канали на Mojang/Microsoft за информация относно известни проблеми със сървърите за автентикация.",
+    "missing-datapack-mod-problem": "Датапак липсва, тъй като модът '{{mod-name}}' може да не е инсталиран."
 }

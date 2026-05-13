@@ -91,5 +91,7 @@
     "auth-server-problem": "שרתי האימות של Mojang/Microsoft כרגע לא זמינים!",
     "auth-server-solution": "חכה כמה דקות ונסה שוב, אם השגיאה חוזרת, בדוק אם יש דיווחים רשמיים על בעיות ידועות על שרת האימות.",
     "missing-datapack-mod-problem": "חבילת נתונים חסרה, בגלל שהמוד '{{mod-name}}' כנראה לא מותקן.",
-    "overworld-settings-missing-problem": "הגדרות עולם עליון חסרים"
+    "overworld-settings-missing-problem": "הגדרות עולם עליון חסרים",
+    "folder-create-solution": "צור את התיקייה '{{folder-path}}'.",
+    "code-of-conduct-folder-missing-problem": "תיקיית כללי ההתנהגות בשרת לא קיימת."
 }

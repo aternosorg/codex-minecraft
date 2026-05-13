@@ -91,5 +91,6 @@
     "auth-server-problem": "Mojang/Microsoft kimlik doğrulama sunucuları şu anlık erişilemez durumda!",
     "auth-server-solution": "Birkaç dakika bekleyin ve tekrar deneyin. Eğer ki sorun hâlâ sürerse bilinen herhangi bir kimlik doğrulama sunucusu problemi için resmî Mojang/Microsoft kanallarını kontrol edin.",
     "overworld-settings-missing-problem": "Dünya ayarları eksik",
-    "missing-datapack-mod-problem": "Kaynak paketi bulunamadı, '{{mod-name}}' adlı mod yüklü olmadığı için olabilir."
+    "missing-datapack-mod-problem": "Kaynak paketi bulunamadı, '{{mod-name}}' adlı mod yüklü olmadığı için olabilir.",
+    "folder-create-solution": "\"{{folder-path}}\" klasörünü oluşturun."
 }

@@ -91,5 +91,7 @@
     "auth-server-problem": "Mojang/Minecraft autentikacijos serveriai yra nepasiekiami!",
     "auth-server-solution": "Palaukite keletą minučiu ir pabandykite dar kartą. Jeigu problema tesis, patikrinkite officialius Mojang/Microsoft kanalus apie žinomas autentikacijos serverio problemas.",
     "overworld-settings-missing-problem": "Trūksta pasaulio nustatymų",
-    "missing-datapack-mod-problem": "Datapack nerasta , gal del to kad{{mod-name}} mod'as nėra parsiūstas"
+    "missing-datapack-mod-problem": "Datapack nerasta , gal del to kad{{mod-name}} mod'as nėra parsiūstas",
+    "folder-create-solution": "Sukurti aplanką '{{folder-path}}'.",
+    "code-of-conduct-folder-missing-problem": "Elgesio kodekso aplankas neegzistuoja."
 }

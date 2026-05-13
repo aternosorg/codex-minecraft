@@ -81,5 +81,17 @@
     "type-unknown": "Log descoñecido",
     "neoforge-version": "Versión de Neoforge.",
     "arclight-version": "Versión de Arclight.",
-    "auth-server-solution": "Agarda uns minutos e volve a tentar. Se o problema persiste, comproba os canais oficiais de Mojang/microsoft para calquera erro de autenticación de servidores coñecido"
+    "auth-server-solution": "Agarda uns minutos e volve a tentar. Se o problema persiste, comproba os canais oficiais de Mojang/microsoft para calquera erro de autenticación de servidores coñecido",
+    "custom-skin-loader-version": "Versión de CustomSkinLoader",
+    "folder-create-solution": "Crea o cartafol '{{folder-path}}'.",
+    "code-of-conduct-folder-missing-problem": "O cartafol de Código de Conduta non existe.",
+    "plugin-regional-ticking-problem": "O plugin {{plugin-name}} non admite o “ticking” rexional.",
+    "install-non-regional-ticking-software-solution": "Instala un software sen “ticking” rexional, como {{software-name}}.",
+    "type-network-protocol-error-report": "Informe de erro do protocolo de rede",
+    "forge-language-provider-version-problem": "O mod '{{mod-file}}' require '{{required-version}}', pero está instalada a versión '{{found-version}}'.",
+    "plugin-api-version-lower-than-allowed-problem": "O plugin '{{plugin-name}}' ten especificada unha versión da API inferior á versión mínima permitida.",
+    "change-minimum-api-version-solution": "Cambia 'minimum-api' en bukkit.yml a {{api-version}}, inferior ou mesmo 'none'.",
+    "auth-server-problem": "Os servidores de autenticación de Mojang/Microsoft non están dispoñibles neste momento.",
+    "overworld-settings-missing-problem": "Faltan as configuracións do Overworld",
+    "missing-datapack-mod-problem": "Falta o datapack, porque o mod '{{mod-name}}' pode non estar instalado."
 }

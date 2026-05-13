@@ -90,5 +90,7 @@
     "change-minimum-api-version-solution": "Αλλαγή 'minimum-api' στο αρχείο bukkit.yml σε {{api-version}}, μικρότερο αυτού ή ακόμα και 'none'.",
     "auth-server-problem": "Οι διακομιστές ελέγχου ταυτότητας της Mojang/Microsoft είναι προσωρινά απρόσιτοι!",
     "auth-server-solution": "Περιμένετε λίγα λεπτά και προσπαθήστε ξανά. Εάν το πρόβλημα παραμένει, ελέγξτε τα επίσημα κανάλια Mojang/Microsoft για οποιαδήποτε γνωστά προβλήματα υπηρεσιών ταυτοποίησης.",
-    "missing-datapack-mod-problem": "Λείπει το Datapack, επειδή το mod '{{mod-name}}' μπορεί να μην έχει εγκατασταθεί"
+    "missing-datapack-mod-problem": "Λείπει το Datapack, επειδή το mod '{{mod-name}}' μπορεί να μην έχει εγκατασταθεί",
+    "code-of-conduct-folder-missing-problem": "Το αρχείο του Κώδικα Δεοντολογίας δε βρέθηκε.",
+    "overworld-settings-missing-problem": "Οι ρυθμίσεις υπερκόσμιου λείπουν"
 }

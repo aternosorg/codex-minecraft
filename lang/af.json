@@ -91,5 +91,6 @@
     "auth-server-problem": "Die Mojang/Microsoft-verifikasiebedieners is tans onbereikbaar!",
     "auth-server-solution": "Wag 'n paar minute en probeer weer. As die probleem voortduur, kyk na die amptelike Mojang/Microsoft-kanale vir enige bekende stawingbedienerprobleme.",
     "overworld-settings-missing-problem": "Oorwêreld-instellings ontbreek",
-    "missing-datapack-mod-problem": "Datapack ontbreek, want die mod '{{mod-name}}' is dalk nie geïnstalleer nie."
+    "missing-datapack-mod-problem": "Datapack ontbreek, want die mod '{{mod-name}}' is dalk nie geïnstalleer nie.",
+    "folder-create-solution": "maak die folder {{folder-path}}"
 }

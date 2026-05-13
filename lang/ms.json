@@ -91,5 +91,7 @@
     "auth-server-problem": "Pelayan pengesahan Mojang/Microsoft tidak dapat dicapai pada masa ini!",
     "auth-server-solution": "Tunggu beberapa minit dan cuba lagi. Jika isu berterusan, semak saluran Mojang/Microsoft rasmi untuk sebarang masalah pelayan pengesahan yang diketahui.",
     "overworld-settings-missing-problem": "Tetapan Permukaan hilang",
-    "missing-datapack-mod-problem": "Pek data hilang, kerana mod '{{mod-name}}' mungkin tidak dipasang."
+    "missing-datapack-mod-problem": "Pek data hilang, kerana mod '{{mod-name}}' mungkin tidak dipasang.",
+    "folder-create-solution": "Cipta folder '{{folder-path}}'.",
+    "code-of-conduct-folder-missing-problem": "Folder Tatakelakuan (Code of Conduct) tidak wujud"
 }
