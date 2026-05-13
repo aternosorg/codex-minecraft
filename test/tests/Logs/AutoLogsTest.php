@@ -968,6 +968,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_incompatible_minecraft_version(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-incompatible-minecraft-version.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_incompatible_mods(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-incompatible-mods.log');
