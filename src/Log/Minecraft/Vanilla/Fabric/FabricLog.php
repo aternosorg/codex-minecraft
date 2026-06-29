@@ -19,12 +19,18 @@ abstract class FabricLog extends VanillaLog
     public static function getDetectors(): array
     {
         return array_merge(parent::getDetectors(), [
-            (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . '(?:\(FabricLoader\/GameProvider\) )?Loading Minecraft ' . VanillaVersionInformation::getVersionPattern() . ' with Fabric Loader/m'),
+            (new SinglePatternDetector())->setPattern('/' . static::getLoadingMinecraftPattern() . '/m'),
             (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . '[[(]FabricLoader[\])] Loading \d+ mods:/m'),
             (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . 'A critical error occurred\nnet.fabricmc.loader/m'),
             (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . 'Found new data pack Fabric Mods, loading it automatically$/m'),
             (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . 'Reloading ResourceManager: Default, Fabric Mods \(Fabric Tool Attribute API/m')
         ]);
+    }
+
+    protected static function getLoadingMinecraftPattern(): string
+    {
+        return '^' . static::$prefixPattern . '(?:\(FabricLoader\/GameProvider\) )?Loading Minecraft '
+            . VanillaVersionInformation::getVersionPattern() . ' with Fabric Loader(?: [^ \n]+)?';
     }
 
     /**
