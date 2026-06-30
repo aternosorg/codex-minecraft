@@ -1,0 +1,48 @@
+Prism Launcher version: 10.0.5 (official)
+
+
+Launched instance in online mode
+
+session.minecraft.net resolves to:
+    [127.0.0.1]
+
+
+Minecraft folder is:
+/home/user/.local/share/PrismLauncher/instances/test/.minecraft
+
+
+Java path is:
+/usr/lib/jvm/java-21/bin/java
+
+
+Checking Java version...
+Java is version 21.0.1, using 64 (amd64) architecture, from N/A.
+
+
+Main Class:
+  net.minecraft.client.main.Main
+
+Native path:
+  /home/user/.local/share/PrismLauncher/instances/test/natives
+
+Traits:
+traits FirstThreadOnMacOS
+
+Libraries:
+
+Native libraries:
+
+Params:
+  --username user --version 1.21
+
+Window size: 854 x 480
+
+Java Arguments:
+[-Xms512m, -Xmx2048m]
+
+
+Minecraft process ID: 12345
+
+...
+
+Process exited with code 0.

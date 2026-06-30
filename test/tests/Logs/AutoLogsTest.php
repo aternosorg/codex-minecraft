@@ -258,6 +258,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_prismlauncher_official(): void
+    {
+        $log = new TestLog('PrismLauncher/prismlauncher-official.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_prismlauncher(): void
     {
         $log = new TestLog('PrismLauncher/prismlauncher.log');

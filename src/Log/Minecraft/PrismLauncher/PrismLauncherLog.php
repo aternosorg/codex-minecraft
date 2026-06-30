@@ -21,7 +21,7 @@ abstract class PrismLauncherLog extends MinecraftLog
      */
     public static function getDetectors(): array
     {
-        return [(new SinglePatternDetector())->setPattern("/^Prism Launcher version: [\d\.]+$/m")];
+        return [(new SinglePatternDetector())->setPattern("/^Prism Launcher version: [\d\.]+/m")];
     }
 
     /**
