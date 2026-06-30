@@ -14,7 +14,7 @@ class FabricClientLog extends FabricLog implements ClientLogTypeInterface
     {
         return [
             (new MultiPatternDetector())
-                ->addPattern('#^\[[\d:]+\] \[main\/INFO\](?:\:| \(FabricLoader/GameProvider\)) Loading Minecraft [^ \n]+ with Fabric Loader [^ \n]+#')
+                ->addPattern('/' . static::getLoadingMinecraftPattern() . '/m')
                 ->addPattern('#^\[[\d:]+\] \[(?:Render thread|main)\/INFO\](?:\:| \((?:net\.minecraft\.client\.)?Minecraft\)) Setting user: \w+#m')
         ];
     }
