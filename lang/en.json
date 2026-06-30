@@ -27,6 +27,7 @@
   "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "mod-exception-problem": "The mod '{{mod-name}}' has thrown an exception.",
   "mod-fatal-problem": "The mod '{{mod-name}}' has a fatal error.",
+  "mod-invalid-dist-dedicated-server-problem": "The mod '{{mod-name}}' tries to load clientside features on a dedicated server. It is probably a clientside only mod.",
   "world-missing-mod-problem": "The world was saved with mod '{{mod-name}}' which appears to be missing.",
   "world-mod-version-problem": "This world was saved with mod '{{mod-name}}' version {{mod-expected-version}} and it is now at version {{mod-current-version}}.",
   "plugin-incompatible-problem": "The plugin '{{plugin-name}}' is incompatible with your current server version.",
