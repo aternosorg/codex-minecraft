@@ -1,9 +1,9 @@
 {
-    "id": "vanilla\/crash-report",
-    "name": "Vanilla",
+    "id": "forge\/crash-report",
+    "name": "Forge",
     "type": "Crash Report",
     "version": "1.7.10",
-    "title": "Vanilla 1.7.10 Crash Report",
+    "title": "Forge 1.7.10 Crash Report",
     "entries": [
         {
             "level": 8,
