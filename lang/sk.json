@@ -92,5 +92,6 @@
     "overworld-settings-missing-problem": "Chýba nastavenie Overworldu",
     "missing-datapack-mod-problem": "Dátový balík chýba, pretože mód '{{mod-name}}' nemusí byť nainštalovaný.",
     "change-minimum-api-version-solution": "Zmeňte 'minimum-api' v súbore bukkit.yml na {{api-version}}, nižšiu alebo dokonca 'none'.",
-    "folder-create-solution": "Vytvoriť priečinok '{{folder-path}}'."
+    "folder-create-solution": "Vytvoriť priečinok '{{folder-path}}'.",
+    "code-of-conduct-folder-missing-problem": "Priečinok s kódexom správania neexistuje."
 }

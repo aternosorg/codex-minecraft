@@ -1,7 +1,7 @@
 {
     "minecraft-version": "Версия на Minecraft",
-    "java-version": "Java версия",
-    "fabric-version": "Версия на Fabric зареждане",
+    "java-version": "Версия на Java",
+    "fabric-version": "Версия на Fabric loader",
     "quilt-version": "Версия за зареждане на одеяла",
     "plugin-load-problem": "Плъгинът '{{plugin-name}}' не можа да бъде зареден.",
     "pocketmine-version": "Версия на Pocketmine",
@@ -9,7 +9,7 @@
     "forge-version": "Версия на Forge",
     "magma-version": "Магма версия",
     "mohist-version": "Мохистска версия",
-    "authme-shutdown-problem": "Плъгинът 'AuthMe' не може да зареди и спира сървъра.",
+    "authme-shutdown-problem": "Плъгинът 'AuthMe' не може да бъде зареден и спира сървъра.",
     "pex-config-problem": "Конфигурацията на плъгина \"PermissionsEx\" е невалидна.",
     "ambiguous-plugin-name-problem": "Има повече от един файл за плъгина с име '{{plugin-name}}': '{{first-plugin-path}}' и '{{second-plugin-path}}'.",
     "plugin-dependency-problem": "Плъгинът '{{plugin-name}}' се нуждае от плъгина '{{dependency-plugin-name}}'.",
@@ -79,7 +79,7 @@
     "type-content": "Лог на контента",
     "type-crash-report": "Доклад за Срив",
     "type-unknown": "Незнаен лог",
-    "neoforge-version": "Версия на Neoforge",
+    "neoforge-version": "Версия на NeoForge",
     "arclight-version": "Версия на Arclight",
     "custom-skin-loader-version": "Версия на CustomSkinLoader",
     "plugin-regional-ticking-problem": "Плъгинът {{plugin-name}} не поддържа регионално тиктакане.",
@@ -91,5 +91,7 @@
     "change-minimum-api-version-solution": "Променете 'minimum-api' в bukkit.yml на {{api-version}}, по-ниска стойност или дори 'none'.",
     "auth-server-problem": "Сървърите за автентикация на Mojang/Microsoft в момента са недостъпни!",
     "auth-server-solution": "Изчакайте няколко минути и опитайте отново. Ако проблемът продължава, проверете официалните канали на Mojang/Microsoft за информация относно известни проблеми със сървърите за автентикация.",
-    "missing-datapack-mod-problem": "Датапак липсва, тъй като модът '{{mod-name}}' може да не е инсталиран."
+    "missing-datapack-mod-problem": "Датапак липсва, тъй като модът '{{mod-name}}' може да не е инсталиран.",
+    "code-of-conduct-folder-missing-problem": "Папката „Кодекс за поведение“ не съществува.",
+    "overworld-settings-missing-problem": "Липсват настройки на Overworld"
 }

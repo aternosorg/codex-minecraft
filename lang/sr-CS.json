@@ -49,7 +49,7 @@
     "plugin-command-exception-problem": "Dodatak „{{plugin-name}}” ne može da izvrši komandu „{{command}}”.",
     "ticking-block-entity-problem": "Blok u svetu stvara probleme.",
     "remove-block-solution": "Uklonite blok iz sveta, npr. sa MCEdit-om.",
-    "do-nothing-solution": "Ne radite ništa. Ovaj problem će se možda sam rešiti.",
+    "do-nothing-solution": "Ne radite ništa. Možda će se ovaj problem sam popraviti.",
     "chunk-load-exception-problem": "Došlo je do izuzetka pri učitavanju delova sveta.",
     "remove-chunk-solution": "Uklonite problematičan deo sveta, npr. sa MCEdit-om ili uklanjanjem fajla regiona.",
     "multiverse-load-problem": "Nije moguće učitati svet „{{world-name}}”, jer sadrži greške i verovatno je oštećen.",

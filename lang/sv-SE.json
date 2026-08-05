@@ -1,8 +1,8 @@
 {
     "minecraft-version": "Minecraft-version",
     "java-version": "Java version",
-    "fabric-version": "Fabric-loader version",
-    "quilt-version": "Quilt-loader version",
+    "fabric-version": "Fabric lastarversion",
+    "quilt-version": "Quilt lastarversion",
     "plugin-load-problem": "Plugin '{{plugin-name}}' kunde inte laddas.",
     "pocketmine-version": "Pocketmine version",
     "bedrock-version": "Bedrock version",

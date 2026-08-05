@@ -1,10 +1,10 @@
 {
-    "minecraft-version": "Minecraft kur",
-    "java-version": "ჯავა ვერსია",
+    "minecraft-version": "Minecraft-ის ვერსია",
+    "java-version": "Java-ს ვერსია",
     "fabric-version": "ქსოვილის მტვირთავი ვერსია",
     "quilt-version": "ქსოვილის მტვირთავი ვერსია",
     "plugin-load-problem": "'{{plugin-name}}' -ის ჩატვირთვა შეუძლებელია.",
-    "pocketmine-version": "Pocketmine version",
+    "pocketmine-version": "Pocketmine ვერსია",
     "bedrock-version": "Bedrock ვერსია",
     "forge-version": "Forge ვერსია",
     "neoforge-version": "NeoForge ვერსია",

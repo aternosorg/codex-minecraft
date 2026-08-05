@@ -78,7 +78,7 @@
     "remove-entity-solution": "Fjern enheden '{{name}}' på adressen {{location}}.",
     "plugin-regional-ticking-problem": "Plugin {{plugin-name}} understøtter ikke regional afkrydsning.",
     "install-non-regional-ticking-software-solution": "Installer en software uden regional afkrydsning, som {{software-name}}.",
-    "type-client": "Logbog for klienter",
+    "type-client": "Klientlog",
     "type-server": "Serverlogbog",
     "type-proxy": "Proxy- Log",
     "type-content": "Indholdslogbog",

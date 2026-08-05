@@ -81,5 +81,11 @@
     "auth-server-problem": "Mojang/Microsoft аутентификация серверлеріне қазір қосылу мүмкін емес!",
     "auth-server-solution": "Бірнеше минут күтіп, қайта көріңіз. Егер мәселе шешілмесе, аутентификация серверіндегі белгілі ақаулар туралы ақпаратты Mojang/Microsoft ресми арналарынан тексеріңіз.",
     "overworld-settings-missing-problem": "Негізгі әлем параметрлері жетіспейді",
-    "missing-datapack-mod-problem": "Мәліметтер жинағы (datapack) жетіспейді, себебі '{{mod-name}}' моды орнатылмаған болуы мүмкін."
+    "missing-datapack-mod-problem": "Мәліметтер жинағы (datapack) жетіспейді, себебі '{{mod-name}}' моды орнатылмаған болуы мүмкін.",
+    "forge-confirm-problem": "Forge өзгертулерді қабылдап серверді қосу үшін сіздің қабылдауыңызды сұрайды.",
+    "mod-duplicate-problem-no-path": "'{{mod-name}}' мод атына тым көп мод файлдары бар.",
+    "file-edit-solution": "'{{file-path}}' файлын өзгертіңіз.",
+    "ticking-entity-problem": "'{{name}}' субьекті {{location}} аумағында тиктелу кезінде мәселе туғызып тұр.",
+    "remove-entity-solution": "{{location}} аумағынан '{{name}}' субьектін алып тастаңыз.",
+    "plugin-regional-ticking-problem": "{{plugin-name}} плагины regional ticking-ты қабылдамайды."
 }

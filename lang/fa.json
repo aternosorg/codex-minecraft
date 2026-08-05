@@ -2,7 +2,7 @@
     "minecraft-version": "نسخهٔ ماین کرفت",
     "java-version": "نسخه جاوا",
     "fabric-version": "نسخه Fabric loader",
-    "quilt-version": "نسخه Quilt loader",
+    "quilt-version": "نسخه بارگذار Quilt",
     "plugin-load-problem": "افزونه '{{plugin-name}}' قادر به بارگیری نمی باشد.",
     "pocketmine-version": "نسخه Pocketmine",
     "bedrock-version": "نسخهٔ بدراک",
@@ -91,5 +91,6 @@
     "missing-datapack-mod-problem": "دیتاپک گم شده است، چون مود '{{mod-name}}' ممکن است نصب نشده باشد.",
     "overworld-settings-missing-problem": "تنظیمات Overworld وجود ندارد",
     "arclight-version": "نسخه Arclight",
-    "folder-create-solution": "پوشه مد نظر را ایجاد کنید '{{folder-path}}'."
+    "folder-create-solution": "پوشه مد نظر را ایجاد کنید '{{folder-path}}'.",
+    "code-of-conduct-folder-missing-problem": "پوشه «آیین‌نامه رفتار» وجود ندارد."
 }

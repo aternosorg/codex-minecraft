@@ -12,7 +12,7 @@
     "mohist-version": "Mohist sürümü",
     "arclight-version": "Arclight sürümü",
     "custom-skin-loader-version": "CustomSkinLoader sürümü",
-    "authme-shutdown-problem": "'AuthMe' eklentisinin yüklenmesi başarısız oldu ve sunucuyu kapandı.",
+    "authme-shutdown-problem": "'AuthMe' eklentisinin yüklenmesi başarısız oldu ve sunucuyu kapattı.",
     "pex-config-problem": "\"PermissionsEx\" eklentisinin yapılandırması geçersiz.",
     "ambiguous-plugin-name-problem": "'{{plugin-name}}' adlı eklenti için birden çok eklenti dosyası bulunmaktadır: '{{first-plugin-path}}' ve '{{second-plugin-path}} '.",
     "plugin-dependency-problem": "\"{{plugin-name}}\" eklentisinin çalışması için \"{{dependency-plugin-name}}\" adlı eklenti gerekli.",
@@ -48,7 +48,7 @@
     "aquatic-version-install-solution": "Sunucu sürümünü 1.13 veya daha yüksek bir sürüme yükseltin.",
     "plugin-command-exception-problem": "'{{plugin-name}}' eklentisi '{{command}} ' komudunu yürütemiyor.",
     "ticking-block-entity-problem": "Dünyadaki bir blok sorun çıkartıyor.",
-    "remove-block-solution": "Bloğu dünyadan kaldırın. Örn. MCEdit kullanabilirsin.",
+    "remove-block-solution": "Bloğu dünyadan kaldırın. Örneğin MCEdit kullanabilirsin.",
     "do-nothing-solution": "Hiçbir şey yapmayın. Bu sorun kendisini düzeltebilir.",
     "chunk-load-exception-problem": "Dünya chunklarını yüklerken bir sorun oluştu.",
     "remove-chunk-solution": "Sorunlu chunk bölgesini MCEdit gibi bir program kullanarak veya bölge dosyasını silerek düzeltiniz.",
@@ -92,5 +92,6 @@
     "auth-server-solution": "Birkaç dakika bekleyin ve tekrar deneyin. Eğer ki sorun hâlâ sürerse bilinen herhangi bir kimlik doğrulama sunucusu problemi için resmî Mojang/Microsoft kanallarını kontrol edin.",
     "overworld-settings-missing-problem": "Dünya ayarları eksik",
     "missing-datapack-mod-problem": "Kaynak paketi bulunamadı, '{{mod-name}}' adlı mod yüklü olmadığı için olabilir.",
-    "folder-create-solution": "\"{{folder-path}}\" klasörünü oluşturun."
+    "folder-create-solution": "\"{{folder-path}}\" klasörünü oluşturun.",
+    "code-of-conduct-folder-missing-problem": "Davranış Kuralları klasörü mevcut değil."
 }
