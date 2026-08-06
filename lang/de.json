@@ -11,7 +11,7 @@
     "magma-version": "Magma Version",
     "mohist-version": "Mohist Version",
     "arclight-version": "Arclight Version",
-    "custom-skin-loader-version": "CustomSkinLoader Version",
+    "custom-skin-loader-version": "Custom-Skin-Loader Version",
     "authme-shutdown-problem": "Das Plugin \"AuthMe\" konnte nicht geladen werden und hat den Server ausgeschaltet.",
     "pex-config-problem": "Die Konfiguration des Plugins 'PermissionsEx' ist ungültig.",
     "ambiguous-plugin-name-problem": "Es gibt mehrere Plugin-Dateien für den Plugin-Namen '{{plugin-name}}': '{{first-plugin-path}}' und '{{second-plugin-path}}'.",

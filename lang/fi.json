@@ -44,7 +44,7 @@
     "mod-remove-solution": "Poista modi '{{mod-name}}'.",
     "aquatic-version-install-solution": "Päivitä palvelimen ohjelmisto versioon 1.13 tai uudempaan.",
     "plugin-command-exception-problem": "Laajennus '{{plugin-name}}' ei voi suorittaa komentoa '{{command}}'.",
-    "ticking-block-entity-problem": "Kuutio maailmassa aiheuttaa ongelmia.",
+    "ticking-block-entity-problem": "Kuutio aiheuttaa ongelmia maailmassa.",
     "remove-block-solution": "Poista kuutio maailmasta esim. MCEdit -ohjelman avulla.",
     "do-nothing-solution": "Älä tee mitään. Tämä ongelma saattaa korjata itsensä.",
     "chunk-load-exception-problem": "Maailman lohkojen lataamisessa ilmeni poikkeama.",
