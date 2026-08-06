@@ -27,7 +27,7 @@
     "mod-duplicate-problem-no-path": "Ada beberapa file mod untuk nama mod '{{mod-name}}'.",
     "mod-exception-problem": "Mod ‘{{mod-name}}’ telah menimbulkan eksepsi.",
     "mod-fatal-problem": "Mod ‘{{mod-name}}’ mengalami kesalahan fatal.",
-    "world-missing-mod-problem": "World yang disimpan dengan mod '{{mod-name}}' nampaknya hilang.",
+    "world-missing-mod-problem": "Dunia yang disimpan dengan mod ‘{{mod-name}}’ tetapi mod tersebut tampaknya hilang.",
     "world-mod-version-problem": "Dunia ini disimpan dengan mod ‘{{mod-name}}’ versi {{mod-expected-version}} dan saat ini berada pada versi {{mod-current-version}}.",
     "plugin-incompatible-problem": "Plugin '{{plugin-name}}' tidak kompatibel dengan versi Server Anda.",
     "aquatic-world-on-older-version-problem": "Dunia saat ini dibuat/dimuat dengan Minecraft versi 1.13 atau yang lebih baru. Format baru ini tidak dapat dimuat di versi yang lebih lama.",

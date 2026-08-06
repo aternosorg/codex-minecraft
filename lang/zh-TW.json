@@ -25,7 +25,7 @@
     "mod-dependency-problem-plural": "模組「{{mod-name}}」缺少必要的模組：{{dependency-mod-list}}。",
     "mod-duplicate-problem": "模組「{{mod-name}}」有多個模組檔案：「{{first-mod-path}}}」和「{{second-mod-path}}}」。",
     "mod-duplicate-problem-no-path": "有多個模組檔案使用了相同的名稱「{{mod-name}} 」 。",
-    "mod-exception-problem": "模組'{{mod-name}}'出現異常",
+    "mod-exception-problem": "模組「{{mod-name}}」發生錯誤。",
     "mod-fatal-problem": "模組「{{mod-name}}」發生嚴重錯誤。",
     "world-missing-mod-problem": "無法找到與該世界一同儲存的模組「{{mod-name}}」。",
     "world-mod-version-problem": "這個世界儲存時曾使用模組「{{mod-name}}」的 {{mod-expected-version}} 版本，但現在使用的版本是 {{mod-current-version}}。",

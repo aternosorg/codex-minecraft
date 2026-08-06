@@ -87,5 +87,7 @@
     "file-edit-solution": "'{{file-path}}' файлын өзгертіңіз.",
     "ticking-entity-problem": "'{{name}}' субьекті {{location}} аумағында тиктелу кезінде мәселе туғызып тұр.",
     "remove-entity-solution": "{{location}} аумағынан '{{name}}' субьектін алып тастаңыз.",
-    "plugin-regional-ticking-problem": "{{plugin-name}} плагины regional ticking-ты қабылдамайды."
+    "plugin-regional-ticking-problem": "{{plugin-name}} плагины regional ticking-ты қабылдамайды.",
+    "plugin-enabling-problem": "'{{plugin-name}}' плагинын қосу мүмкін емес.",
+    "install-non-regional-ticking-software-solution": "Regional ticking-сыз БЖ-ны жүктеңіз, {{software-name}} сияқты."
 }

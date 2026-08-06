@@ -54,7 +54,7 @@
     "remove-chunk-solution": "MCEdit을 이용하거나 지역(region) 파일을 삭제함으로써 문제가 있는 월드 파일을 없애주세요.",
     "multiverse-load-problem": "'{{world-name}}' 세계는 손상되었기 때문에 불러올 수 없습니다.",
     "world-repair-solution": "Minecraft Region Fixer 또는 MCEdit 등을 이용하여 '{{world-name}}' 세계를 복구하세요.",
-    "world-duplicate-problem": "'{{world-name}}' 월드는 다른 월드와 중복되어 불러오지 못했습니다.",
+    "world-duplicate-problem": "'{{world-name}}' 세계는 다른 세계와 중복되어 불러오지 못했습니다.",
     "mod-wrong-minecraft-version-problem": "'{{mod-name}}' 모드는 현재 사용 중인 Minecraft 버전 {{minecraft-version}})와 호환되지 않습니다.",
     "forge-install-different-version-solution": "다른 Forge 버전을 설치하세요.",
     "malformed-encoding-problem": "MOTD로 추정되는 무언가에 잘못된 형식 코드가 포함되어 있습니다.",

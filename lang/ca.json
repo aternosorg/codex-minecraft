@@ -30,7 +30,7 @@
     "world-missing-mod-problem": "El món es va desar amb el mod '{{mod-name}}' que sembla estar absent.",
     "world-mod-version-problem": "El món es va guardar amb la versió {{mod-expected-version}} del mod '{{mod-name}}' i ara la versió és la {{mod-current-version}}.",
     "plugin-incompatible-problem": "El plugin '{{plugin-name}}' és incompatible amb la versió del teu servidor.",
-    "aquatic-world-on-older-version-problem": "El món actual va ser creat/carregat amb la versió de Minecraft 1.13 o superior. El nou format no pot ser utilitzat en cap altre versió anterior.",
+    "aquatic-world-on-older-version-problem": "El món actual va ser creat/carregat amb la versió 1.13 o superior de Minecraft. El nou format no pot ser utilitzat en cap altra versió anterior.",
     "old-player-directory-problem": "El servidor ha detectat un directori d'un jugador antic quan s'ha desat el món.",
     "command-run-solution": "Executa el comandament '{{command}}'.",
     "authme-shutdown-solution": "Defineix 'stopServer'  a 'true'.",

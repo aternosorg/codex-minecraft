@@ -71,7 +71,7 @@
     "plugin-api-version-problem": "Laajennus '{{plugin-name}}' tarvitsee palvelimesi ohjelmisto-version '{{software-version}}'.",
     "plugin-java-version-problem": "Laajennus '{{plugin-name}}' vaatii Java-version {{java-version}} tai myöhemmän toimiakseen.",
     "change-java-version-solution": "Vaihda Java-versiosi versioksi {{java-version}} tai myöhempään.",
-    "ticking-entity-problem": "Entiteetti '{{name}}' sijainti kohdassa {{location}} aiheuttaa ongelmia tikauksen aikana",
+    "ticking-entity-problem": "Entiteetti '{{name}}' sijainti kohdassa {{location}} aiheuttaa ongelmia tikauksen aikana.",
     "remove-entity-solution": "Poista entiteetti '{{name}}' sijainnista {{location}}.",
     "type-client": "Pelaajan loki",
     "type-server": "Palvelimen loki",
