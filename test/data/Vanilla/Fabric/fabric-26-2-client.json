@@ -1637,7 +1637,668 @@
         }
     ],
     "analysis": {
-        "problems": [],
+        "problems": [
+            {
+                "message": "The mod 'caxton' has thrown an exception.",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:36:09] [Render thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 223,
+                            "content": "[16:36:09] [Render thread\/INFO]: [Indigo] Registering Indigo renderer!"
+                        },
+                        {
+                            "number": 224,
+                            "content": "---- Minecraft Crash Report ----"
+                        },
+                        {
+                            "number": 225,
+                            "content": "\/\/ Oops."
+                        },
+                        {
+                            "number": 226,
+                            "content": "Time: 2026-06-29 16:36:09"
+                        },
+                        {
+                            "number": 227,
+                            "content": "Description: Initializing game"
+                        },
+                        {
+                            "number": 228,
+                            "content": "java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to errors, provided by 'caxton' at 'xyz.flirora.caxton.fabric.CaxtonModGlyphContainerFlavor'!"
+                        },
+                        {
+                            "number": 229,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:413)"
+                        },
+                        {
+                            "number": 230,
+                            "content": "\tat net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)"
+                        },
+                        {
+                            "number": 231,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:411)"
+                        },
+                        {
+                            "number": 232,
+                            "content": "\tat net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)"
+                        },
+                        {
+                            "number": 233,
+                            "content": "\tat knot\/\/net.minecraft.client.Minecraft.<init>(Minecraft.java:456)"
+                        },
+                        {
+                            "number": 234,
+                            "content": "\tat knot\/\/net.minecraft.client.main.Main.main(Main.java:278)"
+                        },
+                        {
+                            "number": 235,
+                            "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)"
+                        },
+                        {
+                            "number": 236,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)"
+                        },
+                        {
+                            "number": 237,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)"
+                        },
+                        {
+                            "number": 238,
+                            "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)"
+                        },
+                        {
+                            "number": 239,
+                            "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)"
+                        },
+                        {
+                            "number": 240,
+                            "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70)"
+                        },
+                        {
+                            "number": 241,
+                            "content": "Caused by: java.lang.ExceptionInInitializerError"
+                        },
+                        {
+                            "number": 242,
+                            "content": "\tat knot\/\/xyz.flirora.caxton.CaxtonModClient.init(CaxtonModClient.java:105)"
+                        },
+                        {
+                            "number": 243,
+                            "content": "\tat knot\/\/xyz.flirora.caxton.fabric.CaxtonModGlyphContainerFlavor.onInitializeClient(CaxtonModGlyphContainerFlavor.java:19)"
+                        },
+                        {
+                            "number": 244,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:409)"
+                        },
+                        {
+                            "number": 245,
+                            "content": "\t... 9 more"
+                        },
+                        {
+                            "number": 246,
+                            "content": "Caused by: java.util.NoSuchElementException: Symbol not found: caxton1_version"
+                        },
+                        {
+                            "number": 247,
+                            "content": "\tat java.base\/java.lang.foreign.SymbolLookup.findOrThrow(SymbolLookup.java:180)"
+                        },
+                        {
+                            "number": 248,
+                            "content": "\tat knot\/\/xyz.flirora.caxton.dll.Caxton1.getVersion(Caxton1.java:493)"
+                        },
+                        {
+                            "number": 249,
+                            "content": "\tat knot\/\/xyz.flirora.caxton.dll.Caxton1.<clinit>(Caxton1.java:23)"
+                        },
+                        {
+                            "number": 250,
+                            "content": "\t... 12 more"
+                        },
+                        {
+                            "number": 251,
+                            "content": "A detailed walkthrough of the error, its code path and all known details is as follows:"
+                        },
+                        {
+                            "number": 252,
+                            "content": "---------------------------------------------------------------------------------------"
+                        },
+                        {
+                            "number": 253,
+                            "content": "-- Head --"
+                        },
+                        {
+                            "number": 254,
+                            "content": "Thread: Render thread"
+                        },
+                        {
+                            "number": 255,
+                            "content": "Stacktrace:"
+                        },
+                        {
+                            "number": 256,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:413)"
+                        },
+                        {
+                            "number": 257,
+                            "content": "\tat net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)"
+                        },
+                        {
+                            "number": 258,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:411)"
+                        },
+                        {
+                            "number": 259,
+                            "content": "\tat net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)"
+                        },
+                        {
+                            "number": 260,
+                            "content": "\tat knot\/\/net.minecraft.client.Minecraft.<init>(Minecraft.java:456)"
+                        },
+                        {
+                            "number": 261,
+                            "content": "-- Initialization --"
+                        },
+                        {
+                            "number": 262,
+                            "content": "Details:"
+                        },
+                        {
+                            "number": 263,
+                            "content": "\tModules: "
+                        },
+                        {
+                            "number": 264,
+                            "content": "Stacktrace:"
+                        },
+                        {
+                            "number": 265,
+                            "content": "\tat knot\/\/net.minecraft.client.main.Main.main(Main.java:278)"
+                        },
+                        {
+                            "number": 266,
+                            "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)"
+                        },
+                        {
+                            "number": 267,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)"
+                        },
+                        {
+                            "number": 268,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)"
+                        },
+                        {
+                            "number": 269,
+                            "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)"
+                        },
+                        {
+                            "number": 270,
+                            "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)"
+                        },
+                        {
+                            "number": 271,
+                            "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70)"
+                        },
+                        {
+                            "number": 272,
+                            "content": "-- System Details --"
+                        },
+                        {
+                            "number": 273,
+                            "content": "Details:"
+                        },
+                        {
+                            "number": 274,
+                            "content": "\tMinecraft Version: 26.2"
+                        },
+                        {
+                            "number": 275,
+                            "content": "\tMinecraft Version ID: 26.2"
+                        },
+                        {
+                            "number": 276,
+                            "content": "\tOperating System: Mac OS X (aarch64) version 26.5.1"
+                        },
+                        {
+                            "number": 277,
+                            "content": "\tJava Version: 25.0.1, Microsoft"
+                        },
+                        {
+                            "number": 278,
+                            "content": "\tJava VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft"
+                        },
+                        {
+                            "number": 279,
+                            "content": "\tMemory: 1973477888 bytes (1882 MiB) \/ 2147483648 bytes (2048 MiB) up to 4294967296 bytes (4096 MiB)"
+                        },
+                        {
+                            "number": 280,
+                            "content": "\tMemory (heap): init: 2048MiB, used: 163MiB, committed: 2048MiB, max: 4096MiB"
+                        },
+                        {
+                            "number": 281,
+                            "content": "\tMemory (non-head): init: 007MiB, used: 132MiB, committed: 133MiB, max: 000MiB"
+                        },
+                        {
+                            "number": 282,
+                            "content": "\tCPUs: 8"
+                        },
+                        {
+                            "number": 283,
+                            "content": "\tProcessor Vendor: Apple Inc."
+                        },
+                        {
+                            "number": 284,
+                            "content": "\tProcessor Name: Apple M1"
+                        },
+                        {
+                            "number": 285,
+                            "content": "\tIdentifier: Apple Inc. Family 0x1b588bb3 Model 0 Stepping 0"
+                        },
+                        {
+                            "number": 286,
+                            "content": "\tMicroarchitecture: ARM64 SoC: Firestorm   Icestorm"
+                        },
+                        {
+                            "number": 287,
+                            "content": "\tFrequency (GHz): 3.20"
+                        },
+                        {
+                            "number": 288,
+                            "content": "\tNumber of physical packages: 1"
+                        },
+                        {
+                            "number": 289,
+                            "content": "\tNumber of physical CPUs: 8"
+                        },
+                        {
+                            "number": 290,
+                            "content": "\tNumber of logical CPUs: 8"
+                        },
+                        {
+                            "number": 291,
+                            "content": "\tGraphics card #0 name: Apple M1"
+                        },
+                        {
+                            "number": 292,
+                            "content": "\tGraphics card #0 vendor: Apple (0x106b)"
+                        },
+                        {
+                            "number": 293,
+                            "content": "\tGraphics card #0 VRAM (MiB): 0.00"
+                        },
+                        {
+                            "number": 294,
+                            "content": "\tGraphics card #0 deviceId: unknown"
+                        },
+                        {
+                            "number": 295,
+                            "content": "\tGraphics card #0 versionInfo: unknown"
+                        },
+                        {
+                            "number": 296,
+                            "content": "\tMemory slot #0 capacity (MiB): 0.00"
+                        },
+                        {
+                            "number": 297,
+                            "content": "\tMemory slot #0 clockSpeed (GHz): 0.00"
+                        },
+                        {
+                            "number": 298,
+                            "content": "\tMemory slot #0 type: unknown"
+                        },
+                        {
+                            "number": 299,
+                            "content": "\tVirtual memory max (MiB): 12288.00"
+                        },
+                        {
+                            "number": 300,
+                            "content": "\tVirtual memory used (MiB): 9554.02"
+                        },
+                        {
+                            "number": 301,
+                            "content": "\tSwap memory total (MiB): 4096.00"
+                        },
+                        {
+                            "number": 302,
+                            "content": "\tSwap memory used (MiB): 2849.63"
+                        },
+                        {
+                            "number": 303,
+                            "content": "\tSpace in storage for jna.tmpdir (MiB): <path not set>"
+                        },
+                        {
+                            "number": 304,
+                            "content": "\tSpace in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>"
+                        },
+                        {
+                            "number": 305,
+                            "content": "\tSpace in storage for io.netty.native.workdir (MiB): <path not set>"
+                        },
+                        {
+                            "number": 306,
+                            "content": "\tSpace in storage for java.io.tmpdir (MiB): available: 15123.25, total: 233752.44"
+                        },
+                        {
+                            "number": 307,
+                            "content": "\tSpace in storage for workdir (MiB): available: 15123.25, total: 233752.44"
+                        },
+                        {
+                            "number": 308,
+                            "content": "\tOperating System Version: Apple macOS 26.5.1 (Tahoe) build 25F80"
+                        },
+                        {
+                            "number": 309,
+                            "content": "\tProcess Elevated: false"
+                        },
+                        {
+                            "number": 310,
+                            "content": "\tProcess Loads: Uptime: 7s, user: 13s (179.88%), kernel: 1s (19.23%), total: 14s (199.11%)"
+                        },
+                        {
+                            "number": 311,
+                            "content": "\tProcess Virtual Size (MiB): 430940.34"
+                        },
+                        {
+                            "number": 312,
+                            "content": "\tProcess Resident Size (MiB): 1067.59"
+                        },
+                        {
+                            "number": 313,
+                            "content": "\tJVM Flags: 3 total; -XX: UseG1GC -Xms2048m -Xmx4096m"
+                        },
+                        {
+                            "number": 314,
+                            "content": "\tDebug Flags: 0 total; "
+                        },
+                        {
+                            "number": 315,
+                            "content": "\tFabric Mods: "
+                        },
+                        {
+                            "number": 316,
+                            "content": "\t\tcaxton: Caxton 1.1.0-alpha.2"
+                        },
+                        {
+                            "number": 317,
+                            "content": "\t\t\tcom_github_ben-manes_caffeine_caffeine: caffeine 3.1.2"
+                        },
+                        {
+                            "number": 318,
+                            "content": "\t\tfabric-api: Fabric API 0.153.0 26.2"
+                        },
+                        {
+                            "number": 319,
+                            "content": "\t\t\tfabric-api-base: Fabric API Base 2.0.4 ece063239e"
+                        },
+                        {
+                            "number": 320,
+                            "content": "\t\t\tfabric-api-lookup-api-v1: Fabric API Lookup API (v1) 2.0.17 11e1c9a39e"
+                        },
+                        {
+                            "number": 321,
+                            "content": "\t\t\tfabric-biome-api-v1: Fabric Biome API (v1) 18.0.6 c7bd5b8e9e"
+                        },
+                        {
+                            "number": 322,
+                            "content": "\t\t\tfabric-block-api-v1: Fabric Block API (v1) 3.0.3 ec56b6019e"
+                        },
+                        {
+                            "number": 323,
+                            "content": "\t\t\tfabric-block-getter-api-v2: Fabric BlockGetter API (v2) 2.0.7 ec56b6019e"
+                        },
+                        {
+                            "number": 324,
+                            "content": "\t\t\tfabric-command-api-v2: Fabric Command API (v2) 3.1.0 00cb03469e"
+                        },
+                        {
+                            "number": 325,
+                            "content": "\t\t\tfabric-content-registries-v0: Fabric Content Registries (v0) 11.2.2 b7a678a99e"
+                        },
+                        {
+                            "number": 326,
+                            "content": "\t\t\tfabric-convention-tags-v2: Fabric Convention Tags (v2) 4.7.0 1f023a9e9e"
+                        },
+                        {
+                            "number": 327,
+                            "content": "\t\t\tfabric-crash-report-info-v1: Fabric Crash Report Info (v1) 1.0.5 086d547a9e"
+                        },
+                        {
+                            "number": 328,
+                            "content": "\t\t\tfabric-creative-tab-api-v1: Fabric Creative Tab API (v1) 5.0.14 d871b99e9e"
+                        },
+                        {
+                            "number": 329,
+                            "content": "\t\t\tfabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 2.2.16 aa0fd6fe9e"
+                        },
+                        {
+                            "number": 330,
+                            "content": "\t\t\tfabric-data-generation-api-v1: Fabric Data Generation API (v1) 25.4.3 5e56e5409e"
+                        },
+                        {
+                            "number": 331,
+                            "content": "\t\t\tfabric-debug-api-v1: Fabric Debug API (v1) 1.0.2 c792624d9e"
+                        },
+                        {
+                            "number": 332,
+                            "content": "\t\t\tfabric-dimensions-v1: Fabric Dimensions API (v1) 5.1.9 9cbf5da59e"
+                        },
+                        {
+                            "number": 333,
+                            "content": "\t\t\tfabric-entity-events-v1: Fabric Entity Events (v1) 5.0.5 06488ac19e"
+                        },
+                        {
+                            "number": 334,
+                            "content": "\t\t\tfabric-events-interaction-v0: Fabric Events Interaction (v0) 5.2.6 8f57f7ee9e"
+                        },
+                        {
+                            "number": 335,
+                            "content": "\t\t\tfabric-game-rule-api-v1: Fabric Game Rule API (v1) 4.0.8 46a6d00c9e"
+                        },
+                        {
+                            "number": 336,
+                            "content": "\t\t\tfabric-item-api-v1: Fabric Item API (v1) 14.2.0 7aec7be39e"
+                        },
+                        {
+                            "number": 337,
+                            "content": "\t\t\tfabric-key-mapping-api-v1: Fabric Key Mapping API (v1) 2.0.5 e2bdee789e"
+                        },
+                        {
+                            "number": 338,
+                            "content": "\t\t\tfabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 4.1.3 4575b05f9e"
+                        },
+                        {
+                            "number": 339,
+                            "content": "\t\t\tfabric-loot-api-v3: Fabric Loot API (v3) 3.0.17 06488ac19e"
+                        },
+                        {
+                            "number": 340,
+                            "content": "\t\t\tfabric-menu-api-v1: Fabric Menu API (v1) 2.0.16 086d547a9e"
+                        },
+                        {
+                            "number": 341,
+                            "content": "\t\t\tfabric-message-api-v1: Fabric Message API (v1) 7.0.7 086d547a9e"
+                        },
+                        {
+                            "number": 342,
+                            "content": "\t\t\tfabric-model-loading-api-v1: Fabric Model Loading API (v1) 8.0.13 c80601bb9e"
+                        },
+                        {
+                            "number": 343,
+                            "content": "\t\t\tfabric-networking-api-v1: Fabric Networking API (v1) 6.3.3 72073ef09e"
+                        },
+                        {
+                            "number": 344,
+                            "content": "\t\t\tfabric-object-builder-api-v1: Fabric Object Builder API (v1) 24.0.6 46a6d00c9e"
+                        },
+                        {
+                            "number": 345,
+                            "content": "\t\t\tfabric-particles-v1: Fabric Particles (v1) 5.0.18 d1756aa99e"
+                        },
+                        {
+                            "number": 346,
+                            "content": "\t\t\tfabric-permission-api-v1: Fabric Permission API (v1) 1.0.2 7c33558a9e"
+                        },
+                        {
+                            "number": 347,
+                            "content": "\t\t\tfabric-recipe-api-v1: Fabric Recipe API (v1) 9.0.20 11e1c9a39e"
+                        },
+                        {
+                            "number": 348,
+                            "content": "\t\t\tfabric-registry-sync-v0: Fabric Registry Sync (v0) 7.1.0 c7bd5b8e9e"
+                        },
+                        {
+                            "number": 349,
+                            "content": "\t\t\tfabric-renderer-api-v1: Fabric Renderer API (v1) 14.1.0 2b0d8a229e"
+                        },
+                        {
+                            "number": 350,
+                            "content": "\t\t\tfabric-renderer-indigo: Fabric Renderer - Indigo 9.1.0 2b0d8a229e"
+                        },
+                        {
+                            "number": 351,
+                            "content": "\t\t\tfabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 6.0.4 06488ac19e"
+                        },
+                        {
+                            "number": 352,
+                            "content": "\t\t\tfabric-rendering-v1: Fabric Rendering (v1) 25.2.0 2b0d8a229e"
+                        },
+                        {
+                            "number": 353,
+                            "content": "\t\t\tfabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 6.1.0 10e9a28b9e"
+                        },
+                        {
+                            "number": 354,
+                            "content": "\t\t\tfabric-resource-loader-v0: Fabric Resource Loader (v0) 3.3.20 4fc5413f9e"
+                        },
+                        {
+                            "number": 355,
+                            "content": "\t\t\tfabric-resource-loader-v1: Fabric Resource Loader (v1) 2.0.13 9edec1269e"
+                        },
+                        {
+                            "number": 356,
+                            "content": "\t\t\tfabric-screen-api-v1: Fabric Screen API (v1) 5.0.4 ffbe97199e"
+                        },
+                        {
+                            "number": 357,
+                            "content": "\t\t\tfabric-serialization-api-v1: Fabric Serialization API (v1) 2.0.4 11a26f319e"
+                        },
+                        {
+                            "number": 358,
+                            "content": "\t\t\tfabric-sound-api-v1: Fabric Sound API (v1) 2.0.5 11a26f319e"
+                        },
+                        {
+                            "number": 359,
+                            "content": "\t\t\tfabric-tag-api-v1: Fabric Tag API (v1) 2.1.3 794df31d9e"
+                        },
+                        {
+                            "number": 360,
+                            "content": "\t\t\tfabric-transfer-api-v1: Fabric Transfer API (v1) 8.0.11 39b5a3929e"
+                        },
+                        {
+                            "number": 361,
+                            "content": "\t\t\tfabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 8.1.3 e098252d9e"
+                        },
+                        {
+                            "number": 362,
+                            "content": "\t\tfabricloader: Fabric Loader 0.19.3"
+                        },
+                        {
+                            "number": 363,
+                            "content": "\t\t\tmixinextras: MixinExtras 0.5.4"
+                        },
+                        {
+                            "number": 364,
+                            "content": "\t\tjava: OpenJDK 64-Bit Server VM 25"
+                        },
+                        {
+                            "number": 365,
+                            "content": "\t\tminecraft: Minecraft 26.2"
+                        },
+                        {
+                            "number": 366,
+                            "content": "\tLaunched Version: 26.2"
+                        },
+                        {
+                            "number": 367,
+                            "content": "\tLauncher name: PrismLauncher"
+                        },
+                        {
+                            "number": 368,
+                            "content": "\tBackend library: LWJGL version 3.4.1-snapshot"
+                        },
+                        {
+                            "number": 369,
+                            "content": "\tWindow size: <not initialized>"
+                        },
+                        {
+                            "number": 370,
+                            "content": "\tSurface Info: <no surface>"
+                        },
+                        {
+                            "number": 371,
+                            "content": "\tGFLW Platform: null"
+                        },
+                        {
+                            "number": 372,
+                            "content": "\tGraphics Device: <none>"
+                        },
+                        {
+                            "number": 373,
+                            "content": "\tGL debug messages: <no renderer available>"
+                        },
+                        {
+                            "number": 374,
+                            "content": "\tIs Modded: Definitely; Client brand changed to 'fabric'"
+                        },
+                        {
+                            "number": 375,
+                            "content": "\tUniverse: 404"
+                        },
+                        {
+                            "number": 376,
+                            "content": "\tType: Client"
+                        },
+                        {
+                            "number": 377,
+                            "content": "\tLocale: en_US"
+                        },
+                        {
+                            "number": 378,
+                            "content": "\tSystem encoding: UTF-8"
+                        },
+                        {
+                            "number": 379,
+                            "content": "\tFile encoding: UTF-8"
+                        },
+                        {
+                            "number": 380,
+                            "content": "\tCPU: 8x Apple M1"
+                        },
+                        {
+                            "number": 381,
+                            "content": "#@!@# Game crashed! Crash report saved to: #@!@# \/Users\/********\/Library\/Application Support\/PrismLauncher\/instances\/Dev 26.2\/minecraft\/crash-reports\/crash-2026-06-29_16.36.09-client.txt"
+                        },
+                        {
+                            "number": 382,
+                            "content": "Process exited with code 255."
+                        },
+                        {
+                            "number": 383,
+                            "content": "Log upload triggered at: 29 Jun 2026 16:36:27  0200"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'caxton'."
+                    }
+                ]
+            }
+        ],
         "information": [
             {
                 "message": "Minecraft version: 26.2",
