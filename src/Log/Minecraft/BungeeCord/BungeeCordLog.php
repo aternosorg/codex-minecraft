@@ -7,10 +7,6 @@ use Aternos\Codex\Minecraft\Analyser\BungeeCordAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 use Aternos\Codex\Minecraft\Log\Type\ProxyLogTypeInterface;
 
-/**
- * Class BungeeCordLog
- * @package Aternos\Codex\Minecraft\Log
- */
 abstract class BungeeCordLog extends MinecraftLog implements ProxyLogTypeInterface
 {
     protected static string $pattern = '/^((?:[0-9]{2}\:?){3} \[(\w+)\]).*$/';

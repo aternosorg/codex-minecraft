@@ -6,12 +6,6 @@ use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Analysis\PatternInsightInterface;
 use Aternos\Codex\Analysis\Problem;
 
-/**
- * Class MinecraftProblem
- *
- * @author Matthias Neid
- * @package Aternos\Codex\Minecraft\Analysis\MinecraftProblem
- */
 abstract class MinecraftProblem extends Problem implements PatternInsightInterface
 {
     /**
