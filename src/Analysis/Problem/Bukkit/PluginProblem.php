@@ -7,16 +7,12 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersi
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 
 /**
- * Class PluginProblem
- *
  * Represents a problem with a Bukkit plugin and provides:
  *  - The plugin name {@see PluginProblem::getPluginName()}
  *  - {@link PluginInstallDifferentVersionSolution} and {@link PluginRemoveSolution}
  *  - Utility function to correct the plugin path {@see PluginProblem::correctPluginPath()}
  *  - Utility function to extract the plugin name (without the file extension) from a plugin path {@see PluginProblem::extractPluginName()}
  *  - Utility function to extract the file name (with the file extension) from a plugin path {@see PluginProblem::extractPluginFileName()}
- *
- * @package Aternos\Codex\Minecraft\Analysis\Problem\Bukkit
  */
 abstract class PluginProblem extends BukkitProblem
 {
