@@ -22,6 +22,6 @@ abstract class MinecraftProblem extends Problem implements PatternInsightInterfa
      */
     public function isEqual(InsightInterface $insight): bool
     {
-        return get_class($this) === get_class($insight);
+        return $insight instanceof static;
     }
 }

@@ -11,9 +11,9 @@ class PluginDependencyProblem extends PluginFileProblem
     protected string $dependencyPluginName;
 
     /**
-     * @return string|null
+     * @return string
      */
-    public function getDependencyPluginName(): ?string
+    public function getDependencyPluginName(): string
     {
         return $this->dependencyPluginName;
     }

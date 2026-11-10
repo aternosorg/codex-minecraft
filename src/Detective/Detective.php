@@ -77,7 +77,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
         BedrockContentLog::class,
         FabricServerLog::class,
         BungeeCordProxyLog::class,
-        WaterfallProxyLog::class,
+        WaterFallProxyLog::class,
         VelocityProxyLog::class,
         GeyserProxyLog::class,
         GlowstoneServerLog::class,
