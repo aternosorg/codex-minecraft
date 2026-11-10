@@ -59,6 +59,7 @@
     "forge-install-different-version-solution": "Installera en annan version av Forge.",
     "malformed-encoding-problem": "Någonting (troligen serverns MOTD) innehåller felformaterade koder.",
     "change-motd-solution": "Ändra serverns MOTD.",
+    "code-of-conduct-folder-missing-problem": "Mappen 'Uppförandekod' finns inte",
     "bedrock-authentication-whitelist-problem": "Användning av whitelist utan online autentisering är ej tillåtet.",
     "bedrock-authentication-allowlist-problem": "Att använda en allowlist utan online-autentisering är inte tillåtet.",
     "disable-whitelist-solution": "Inaktivera whitelisten.",
@@ -83,14 +84,13 @@
     "type-proxy": "Proxylogg",
     "type-content": "Innehållslogg",
     "type-crash-report": "Kraschrapport",
+    "type-network-protocol-error-report": "Felrapport för nätverksprotokoll",
     "type-unknown": "Okänd logg",
     "forge-language-provider-version-problem": "Moddet '{{mod-file}}' kräver '{{required-version}}', men '{{found-version}}' är installerad.",
-    "type-network-protocol-error-report": "Felrapport för nätverksprotokoll",
     "plugin-api-version-lower-than-allowed-problem": "Plugin-programmet '{{plugin-name}}' har en API-version specificerad som är lägre än den lägsta tillåtna versionen.",
     "change-minimum-api-version-solution": "Ändra 'minimum-api' i bukkit.yml till {{api-version}}, lägre eller till och med 'none'.",
     "auth-server-problem": "Mojang/Microsoft-autentiseringsservrarna går för närvarande inte att nå",
     "auth-server-solution": "Vänta några minuter och försök igen. Om problemet kvarstår, kontrollera de officiella Mojang/Microsoft-kanalerna för kända problem med autentiseringsservern.",
     "overworld-settings-missing-problem": "'Overworld' inställningar saknas",
-    "missing-datapack-mod-problem": "Datapack saknas eftersom '{{mod-name}}' Kanske inte är installerat",
-    "code-of-conduct-folder-missing-problem": "Mappen 'Uppförandekod' finns inte"
+    "missing-datapack-mod-problem": "Datapack saknas eftersom '{{mod-name}}' Kanske inte är installerat"
 }

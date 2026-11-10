@@ -41,6 +41,7 @@
     "plugin-remove-solution": "Eliminar el plugin '{{plugin-name}}'.",
     "file-delete-solution": "Eliminar el archivo '{{file-path}}'.",
     "file-edit-solution": "Editar el archivo '{{file-path}}'.",
+    "folder-create-solution": "Crear la carpeta '{{folder-path}}'.",
     "mod-install-different-version-solution": "Instalar una versión diferente del mod '{{mod-name}}'.",
     "mod-install-solution": "Instale el mod '{{mod-name}}'.",
     "mod-install-solution-with-version": "Instale el mod '{{mod-name}}' con la version {{mod-version}}.",
@@ -59,6 +60,7 @@
     "forge-install-different-version-solution": "El mod '{{mod-name}}' no es compatible con la versión de Minecraft {{minecraft-version}}.",
     "malformed-encoding-problem": "Algo (probablemente el MOTD) contiene códigos de formato incorrecto.",
     "change-motd-solution": "Cambia el MOTD del servidor.",
+    "code-of-conduct-folder-missing-problem": "La carpeta del Código de Conducta no existe.",
     "bedrock-authentication-whitelist-problem": "No está permitido el uso de la whitelist sin autentificación en linea.",
     "bedrock-authentication-allowlist-problem": "Usar una lista de acceso sin la autentificación en línea no está permitido.",
     "disable-whitelist-solution": "Desactivar la whitelist.",
@@ -83,15 +85,13 @@
     "type-proxy": "Registro de Proxy",
     "type-content": "Registro del Contenido",
     "type-crash-report": "Reporte de Crasheo",
+    "type-network-protocol-error-report": "Reporte de Error de Protocolo de Red",
     "type-unknown": "Registro Desconocido",
     "forge-language-provider-version-problem": "El mod '{{mod-file}}' requiere '{{required-version}}', pero {{found-version}}' está instalada.",
-    "type-network-protocol-error-report": "Reporte de Error de Protocolo de Red",
     "plugin-api-version-lower-than-allowed-problem": "El plugin '{{plugin-name}}' tiene una versión de API especificada que es menor a la versión mínima permitida.",
     "change-minimum-api-version-solution": "Cambia 'minimum-api' en bukkit.yml a {{api-version}}, una versión menor o incluso 'none'.",
     "auth-server-problem": "¡Los servidores de autenticación de Mojang/Microsoft no se encuentran disponibles!",
     "auth-server-solution": "Espera un par de minutos e inténtalo de nuevo. Si el problema persiste, revisa los canales oficiales de Mojang/Microsoft por si hay algún problema en los servidores de autenticación.",
     "overworld-settings-missing-problem": "Faltan configuraciones del mundo",
-    "missing-datapack-mod-problem": "Falta un datapack, porque el mod '{{mod-name}}' puede no estar instalado.",
-    "folder-create-solution": "Crear la carpeta '{{folder-path}}'.",
-    "code-of-conduct-folder-missing-problem": "La carpeta del Código de Conducta no existe."
+    "missing-datapack-mod-problem": "Falta un datapack, porque el mod '{{mod-name}}' puede no estar instalado."
 }

@@ -41,6 +41,7 @@
     "plugin-remove-solution": "Șterge plugin-ul '{{plugin-name}}'.",
     "file-delete-solution": "Șterge fișierul '{{file-path}}'.",
     "file-edit-solution": "Editează fișierul '{{file-path}}'.",
+    "folder-create-solution": "Creați folderul '{{folder-path}}'.",
     "mod-install-different-version-solution": "Instalează o alta versiune a modului '{{mod-name}}'.",
     "mod-install-solution": "Instalează modul '{{mod-name}}'.",
     "mod-install-solution-with-version": "Instalează modul '{{mod-name}}' cu versiunea {{mod-version}}.",
@@ -59,6 +60,7 @@
     "forge-install-different-version-solution": "Instalează o altă versiune de Forge.",
     "malformed-encoding-problem": "Ceva (probabil MOTD) contine coduri de formatare malformat.",
     "change-motd-solution": "Schimbă MOTD server.",
+    "code-of-conduct-folder-missing-problem": "Dosarul codului de conduită nu există.",
     "bedrock-authentication-whitelist-problem": "Folosirea unui whitelist fără autentificare online nu este permisă.",
     "bedrock-authentication-allowlist-problem": "Nu este permisă utilizarea unei liste de permise fără autentificare online.",
     "disable-whitelist-solution": "Dezactivează lista albă",
@@ -83,15 +85,13 @@
     "type-proxy": "Port Proxy",
     "type-content": "Jurnal client",
     "type-crash-report": "Rapoarte Erori",
+    "type-network-protocol-error-report": "Network Protocol Error Report",
     "type-unknown": "Jurnal necunoscut",
     "forge-language-provider-version-problem": "Modul '{{mod-file}}' are nevoie de '{{required-version}}', dar '{{found-version}}' este instalată.",
-    "type-network-protocol-error-report": "Network Protocol Error Report",
     "plugin-api-version-lower-than-allowed-problem": "Plugin-ul '{{plugin-name}}' are o versiune API specificată care este mai mică decât versiunea minimă permisă.",
     "change-minimum-api-version-solution": "Schimbă 'minimum-api' în bukkit.yml la {{api-version}}, mai mic sau chiar 'none'.",
     "auth-server-problem": "Serverele Mojang/Microsoft de autentificare nu pot fi accesate momentan!",
     "auth-server-solution": "Așteaptă câteva minute și încearcă din nou. Dacă problema persistă, vezi canalele oficiale Mojang/Microsoft pentru oricare probleme ale serverului de autentificare.",
     "overworld-settings-missing-problem": "Setările din overworld lipsesc",
-    "missing-datapack-mod-problem": "Lipsește pachetul de date, deoarece este posibil ca modul '{{mod-name}}' să nu fie instalat.",
-    "folder-create-solution": "Creați folderul '{{folder-path}}'.",
-    "code-of-conduct-folder-missing-problem": "Dosarul codului de conduită nu există."
+    "missing-datapack-mod-problem": "Lipsește pachetul de date, deoarece este posibil ca modul '{{mod-name}}' să nu fie instalat."
 }

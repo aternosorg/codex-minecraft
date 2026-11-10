@@ -41,6 +41,7 @@
     "plugin-remove-solution": "Rimuovi il plugin '{{plugin-name}}'.",
     "file-delete-solution": "Elimina il file '{{file-path}}'.",
     "file-edit-solution": "Modifica il file '{{file-path}}'.",
+    "folder-create-solution": "Crea la cartella '{{folder-path}}'.",
     "mod-install-different-version-solution": "Installa una versione diversa della mod '{{mod-name}}'.",
     "mod-install-solution": "Installa la mod '{{mod-name}}'.",
     "mod-install-solution-with-version": "Installa la mod '{{mod-name}}' con la versione {{mod-version}}.",
@@ -59,6 +60,7 @@
     "forge-install-different-version-solution": "Installa una versione diversa di forge.",
     "malformed-encoding-problem": "Qualcosa (probabilmente il MOTD) contiene codici di formattazione malformati.",
     "change-motd-solution": "Cambia la descrizione del server.",
+    "code-of-conduct-folder-missing-problem": "La cartella del Codice di Condotta non è stata trovata",
     "bedrock-authentication-whitelist-problem": "Usare la whitelist senza autenticazione online non e' permesso.",
     "bedrock-authentication-allowlist-problem": "Utilizzare una allowlist senza autenticazione online non è permesso.",
     "disable-whitelist-solution": "Disabilita la whitelist.",
@@ -83,15 +85,13 @@
     "type-proxy": "Registro Proxy",
     "type-content": "Registro del contenuto",
     "type-crash-report": "Rapporto crash",
+    "type-network-protocol-error-report": "Resoconto Errore Protocollo Di Rete",
     "type-unknown": "Registro sconosciuto",
     "forge-language-provider-version-problem": "La mod '{{mod-file}}' richiede '{{required-version}}', ma '{{found-version}}' è installata.",
-    "type-network-protocol-error-report": "Resoconto Errore Protocollo Di Rete",
     "plugin-api-version-lower-than-allowed-problem": "Il plugin '{{plugin-name}}' ha una versione API specificata più bassa della minima versione consentita.",
     "change-minimum-api-version-solution": "Cambia 'minimum-api' in bukkit.yml in {{api-version}}, più basso o anche 'none'.",
     "auth-server-problem": "I server di autenticazione di Mojang/Microsoft sono attualmente irraggiungibili!",
     "auth-server-solution": "Aspetta qualche minuto e riprova. Se il problema persiste, controlla i canali ufficiali di Mojang/Microsoft per problemi noti del server di autenticazione.",
     "overworld-settings-missing-problem": "Impostazioni Overworld mancanti",
-    "missing-datapack-mod-problem": "Il datapack non viene caricato, perché la mod {{mod-name}} potrebbe non essere installata",
-    "folder-create-solution": "Crea la cartella '{{folder-path}}'.",
-    "code-of-conduct-folder-missing-problem": "La cartella del Codice di Condotta non è stata trovata"
+    "missing-datapack-mod-problem": "Pacchetto di dati mancante, perché la mod {{mod-name}} potrebbe non essere installata"
 }

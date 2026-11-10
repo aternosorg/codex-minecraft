@@ -41,6 +41,7 @@
     "plugin-remove-solution": "Odstraň plugin ‚{{plugin-name}}‘.",
     "file-delete-solution": "Odstraň soubor ‚{{file-path}}‘.",
     "file-edit-solution": "Uprav soubor ‚{{file-path}}‘.",
+    "folder-create-solution": "Vytvoř složku ‚{{folder-path}}‘.",
     "mod-install-different-version-solution": "Nainstaluj jinou verzi módu ‚{{mod-name}}‘.",
     "mod-install-solution": "Nainstaluj mód ‚{{mod-name}}‘.",
     "mod-install-solution-with-version": "Nainstaluj mód ‚{{mod-name}}‘ verze {{mod-version}}.",
@@ -59,6 +60,7 @@
     "forge-install-different-version-solution": "Nainstaluj jinou verzi Forge.",
     "malformed-encoding-problem": "Něco (pravděpodobně MOTD) obsahuje chybně zadané formátovací kódy.",
     "change-motd-solution": "Změň MOTD serveru.",
+    "code-of-conduct-folder-missing-problem": "Složka s Kodexem chování neexistuje.",
     "bedrock-authentication-whitelist-problem": "Použití bílé listiny bez online autentizace není dovoleno.",
     "bedrock-authentication-allowlist-problem": "Použití seznamu povolených bez online autentizace není dovoleno.",
     "disable-whitelist-solution": "Vypni bílou listinu.",
@@ -83,15 +85,13 @@
     "type-proxy": "Log proxy",
     "type-content": "Log obsahu",
     "type-crash-report": "Hlášení o pádu",
+    "type-network-protocol-error-report": "Zpráva o chybě síťového protokolu",
     "type-unknown": "Neznámý log",
     "forge-language-provider-version-problem": "Mód ‚{{mod-file}}‘ vyžaduje ‚{{required-version}}‘, ale je nainstalován ‚{{found-version}}‘.",
-    "type-network-protocol-error-report": "Zpráva o chybě síťového protokolu",
     "plugin-api-version-lower-than-allowed-problem": "Plugin ‚{{plugin-name}}‘ používá nižší verzi API, než je minimální povolená verze.",
     "change-minimum-api-version-solution": "Změň ‚minimum-api‘ v bukkit.yml na {{api-version}}, nižší, nebo dokonce ‚none‘.",
     "auth-server-problem": "Autentizační servery Mojangu/Microsoftu jsou momentálně nedostupné!",
     "auth-server-solution": "Počkej několik minut a zkus to znovu. Pokud problém přetrvává, podívej se na oficiální kanály Mojangu/Microsoftu, zda neinformují o nějakých známých problémech s autentizačními servery.",
     "overworld-settings-missing-problem": "Chybí nastavení overworldu",
-    "missing-datapack-mod-problem": "Datapack chybí, protože mód ‚{{mod-name}}‘ možná není nainstalovaný.",
-    "folder-create-solution": "Vytvoř složku ‚{{folder-path}}‘.",
-    "code-of-conduct-folder-missing-problem": "Složka s Kodexem chování neexistuje."
+    "missing-datapack-mod-problem": "Datapack chybí, protože mód ‚{{mod-name}}‘ možná není nainstalovaný."
 }

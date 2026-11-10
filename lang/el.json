@@ -59,6 +59,7 @@
     "forge-install-different-version-solution": "Εγκατέστησε μια διαφορετική έκδοση Forge.",
     "malformed-encoding-problem": "Κάτι (πιθανώς το MOTD) περιέχει δύσμορφους κωδικούς μορφοποίησης.",
     "change-motd-solution": "Αλλαγή MOTD του διακομιστή.",
+    "code-of-conduct-folder-missing-problem": "Το αρχείο του Κώδικα Δεοντολογίας δε βρέθηκε.",
     "bedrock-authentication-whitelist-problem": "Δεν επιτρέπεται η χρήση whitelist χωρίς online αυθεντικοποίηση.",
     "bedrock-authentication-allowlist-problem": "Η χρήση μιας λίστας επιτρεπτών χωρίς online έλεγχο ταυτότητας δεν επιτρέπεται.",
     "disable-whitelist-solution": "Απενεργοποίησε το whitelist.",
@@ -83,14 +84,13 @@
     "type-proxy": "Αρχείο Καταγραφής Διαμεσολαβητή",
     "type-content": "Αρχείο Καταγραφής Περιεχομένου",
     "type-crash-report": "Αναφορά Κατάρρευσης",
+    "type-network-protocol-error-report": "Αναφορά Σφάλματος Πρωτοκόλλου Δικτύου",
     "type-unknown": "Άγνωστο Αρχείο Καταγραφής",
     "forge-language-provider-version-problem": "Το mod '{{mod-file}}' απαιτεί την '{{required-version}}', αλλά η '{{found-version}}' είναι εγκατεστημένη.",
-    "type-network-protocol-error-report": "Αναφορά Σφάλματος Πρωτοκόλλου Δικτύου",
     "plugin-api-version-lower-than-allowed-problem": "Το πρόσθετο '{{plugin-name}}' έχει καθορισμένη έκδοση API, μικρότερη από την ελάχιστη επιτρεπόμενη έκδοση.",
     "change-minimum-api-version-solution": "Αλλαγή 'minimum-api' στο αρχείο bukkit.yml σε {{api-version}}, μικρότερο αυτού ή ακόμα και 'none'.",
     "auth-server-problem": "Οι διακομιστές ελέγχου ταυτότητας της Mojang/Microsoft είναι προσωρινά απρόσιτοι!",
     "auth-server-solution": "Περιμένετε λίγα λεπτά και προσπαθήστε ξανά. Εάν το πρόβλημα παραμένει, ελέγξτε τα επίσημα κανάλια Mojang/Microsoft για οποιαδήποτε γνωστά προβλήματα υπηρεσιών ταυτοποίησης.",
-    "missing-datapack-mod-problem": "Λείπει το Datapack, επειδή το mod '{{mod-name}}' μπορεί να μην έχει εγκατασταθεί",
-    "code-of-conduct-folder-missing-problem": "Το αρχείο του Κώδικα Δεοντολογίας δε βρέθηκε.",
-    "overworld-settings-missing-problem": "Οι ρυθμίσεις υπερκόσμιου λείπουν"
+    "overworld-settings-missing-problem": "Οι ρυθμίσεις υπερκόσμιου λείπουν",
+    "missing-datapack-mod-problem": "Λείπει το Datapack, επειδή το mod '{{mod-name}}' μπορεί να μην έχει εγκατασταθεί"
 }

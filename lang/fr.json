@@ -41,6 +41,7 @@
     "plugin-remove-solution": "Supprimer le plugin '{{plugin-name}}'.",
     "file-delete-solution": "Supprimer le fichier '{{file-path}}'.",
     "file-edit-solution": "Modifier le fichier '{{file-path}}'.",
+    "folder-create-solution": "Créez le dossier \"{{folder-path}}\".",
     "mod-install-different-version-solution": "Installer une version différente du mod '{{mod-name}}'.",
     "mod-install-solution": "Installer le mod '{{mod-name}}'.",
     "mod-install-solution-with-version": "Installer le mod '{{mod-name}}' avec la version {{mod-version}}.",
@@ -59,6 +60,7 @@
     "forge-install-different-version-solution": "Installez une version différente de Forge.",
     "malformed-encoding-problem": "Quelque chose (surement le MOTD) contiendrait des caractères invalides et / ou mal formés.",
     "change-motd-solution": "Changer le MOTD (texte d'accueil) du serveur.",
+    "code-of-conduct-folder-missing-problem": "Le dossier Code de Conduite n'existe pas.",
     "bedrock-authentication-whitelist-problem": "L'utilisation de la liste blanche sans authentification en ligne est interdit.",
     "bedrock-authentication-allowlist-problem": "L'utilisation de la liste des autorisés sans authentification en ligne est interdit.",
     "disable-whitelist-solution": "Désactiver la liste blanche.",
@@ -83,15 +85,13 @@
     "type-proxy": "Log du proxy",
     "type-content": "Log du contenu",
     "type-crash-report": "Rapport d'incident",
+    "type-network-protocol-error-report": "Rapport d'erreur du protocole réseau",
     "type-unknown": "Log de source inconnu",
     "forge-language-provider-version-problem": "Le mod '{{mod-file}}' nécessite '{{required-version}}', mais la version '{{found-version}}' est actuellement installé.",
-    "type-network-protocol-error-report": "Rapport d'erreur du protocole réseau",
     "plugin-api-version-lower-than-allowed-problem": "La version de l'API demandée par le plugin '{{plugin-name}}' est antérieure à la version minimale autorisée.",
     "change-minimum-api-version-solution": "Remplacez la valeur du champ 'minimum-api' dans le fichier bukkit.yml par {{api-version}}, une version antérieure de l'API ou bien 'none'.",
     "auth-server-problem": "Les serveurs d'authentification de Mojang/Microsoft sont actuellement injoignables.",
     "auth-server-solution": "Réessayez après quelques minutes. Si l'erreur persiste, vérifiez que les serveurs d'authentification de Mojang/Microsoft sont opérationnels auprès des canaux officiels.",
     "overworld-settings-missing-problem": "Paramètres Overworld manquants",
-    "missing-datapack-mod-problem": "Le pack de données est manquant, car le mod '{{mod-name}}' n'est peut être pas installé.",
-    "folder-create-solution": "Créez le dossier \"{{folder-path}}\".",
-    "code-of-conduct-folder-missing-problem": "Le dossier Code de Conduite n'existe pas."
+    "missing-datapack-mod-problem": "Le pack de données est manquant, car le mod '{{mod-name}}' n'est peut être pas installé."
 }

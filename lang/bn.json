@@ -84,5 +84,6 @@
     "type-content": "বিষয়বস্তু লগ",
     "type-crash-report": "ক্র্যাশ রিপোর্ট",
     "type-unknown": "অজানা লগ",
-    "forge-language-provider-version-problem": "'{{mod-file}}' মডটি ব্যবহারের জন্য '{{required-version}}' ভার্সনটি দরকার, কিন্তু এখানে '{{found-version}}' ভার্সনটি ইন্সটল করা রয়েছে।"
+    "forge-language-provider-version-problem": "'{{mod-file}}' মডটি ব্যবহারের জন্য '{{required-version}}' ভার্সনটি দরকার, কিন্তু এখানে '{{found-version}}' ভার্সনটি ইন্সটল করা রয়েছে।",
+    "missing-datapack-mod-problem": "ডেটাপ্যাকটি অনুপস্থিত, কারণ '{{mod-name}}' মডটি সম্ভবত ইনস্টল করা নেই।"
 }

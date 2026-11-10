@@ -41,6 +41,7 @@
     "plugin-remove-solution": "Pašalinkite įskiepį „{{plugin-name}}“.",
     "file-delete-solution": "Panaikinkite failą „{{file-path}}“.",
     "file-edit-solution": "Redaguokite failą „{{file-path}}“.",
+    "folder-create-solution": "Sukurti aplanką '{{folder-path}}'.",
     "mod-install-different-version-solution": "Įdiekite kitą modifikacijos „{{mod-name}}“ versiją.",
     "mod-install-solution": "Įdiekite modifikaciją „{{mod-name}}“.",
     "mod-install-solution-with-version": "Įdiekite modifikaciją „{{mod-name}}“ su versiją {{mod-version}}.",
@@ -59,6 +60,7 @@
     "forge-install-different-version-solution": "Įdiekite kitą Forge versiją.",
     "malformed-encoding-problem": "Tikėtina, kad serverio dienos pranešimas turi netinkamų formatavimo kodų.",
     "change-motd-solution": "Pakeiskite serverio dienos pranešimą.",
+    "code-of-conduct-folder-missing-problem": "Elgesio kodekso aplankas neegzistuoja.",
     "bedrock-authentication-whitelist-problem": "Baltojo sąrašo naudojimas be internetinio autentifikavimo yra neleidžiamas.",
     "bedrock-authentication-allowlist-problem": "Baltojo sąrašo naudojimas be internetinio autentifikavimo yra neleidžiamas.",
     "disable-whitelist-solution": "Išjunkite baltąjį sąrašą.",
@@ -83,15 +85,13 @@
     "type-proxy": "Įgaliotojo serverio žurnalas",
     "type-content": "Turinio žurnalas",
     "type-crash-report": "Strigčio pranešimas",
+    "type-network-protocol-error-report": "Tinklo Protokolo Klaidų Ataskaita",
     "type-unknown": "Nežinomas žurnalas",
     "forge-language-provider-version-problem": "Modifikacijai '{{mod-file}}' reikia '{{required-version}}' versijos, bet parsiųsta '{{found-version}}' versija.",
-    "type-network-protocol-error-report": "Tinklo Protokolo Klaidų Ataskaita",
     "plugin-api-version-lower-than-allowed-problem": "Papildinys „{{plugin-name}}“ API versiją yra žemesnė už minimalią leistiną versiją.",
     "change-minimum-api-version-solution": "Pakeiskite „minimum-api“ bukkit.yml faile į „{{api-version}}“, mažiau arba net „none“",
     "auth-server-problem": "Mojang/Minecraft autentikacijos serveriai yra nepasiekiami!",
     "auth-server-solution": "Palaukite keletą minučiu ir pabandykite dar kartą. Jeigu problema tesis, patikrinkite officialius Mojang/Microsoft kanalus apie žinomas autentikacijos serverio problemas.",
     "overworld-settings-missing-problem": "Trūksta pasaulio nustatymų",
-    "missing-datapack-mod-problem": "Datapack nerasta , gal del to kad{{mod-name}} mod'as nėra parsiūstas",
-    "folder-create-solution": "Sukurti aplanką '{{folder-path}}'.",
-    "code-of-conduct-folder-missing-problem": "Elgesio kodekso aplankas neegzistuoja."
+    "missing-datapack-mod-problem": "Datapack nerasta , gal del to kad{{mod-name}} mod'as nėra parsiūstas"
 }

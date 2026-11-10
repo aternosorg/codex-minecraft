@@ -41,6 +41,7 @@
     "plugin-remove-solution": "Удалите плагин '{{plugin-name}}'.",
     "file-delete-solution": "Удалите файл '{{file-path}}'.",
     "file-edit-solution": "Отредактируйте файл '{{file-path}}'.",
+    "folder-create-solution": "Создать папку '{{folder-path}}'.",
     "mod-install-different-version-solution": "Установите другую версию мода '{{mod-name}}'.",
     "mod-install-solution": "Установите мод '{{mod-name}}'.",
     "mod-install-solution-with-version": "Установите мод '{{mod-name}}' версии {{mod-version}}.",
@@ -59,6 +60,7 @@
     "forge-install-different-version-solution": "Установите другую версию Forge.",
     "malformed-encoding-problem": "Что-то (возможно, MOTD) содержит неверные коды форматирования.",
     "change-motd-solution": "Измените MOTD сервера.",
+    "code-of-conduct-folder-missing-problem": "Папки кодекса поведения не существует.",
     "bedrock-authentication-whitelist-problem": "Использование белого списка без онлайн-аутентификации не допускается.",
     "bedrock-authentication-allowlist-problem": "Использование белого списка без онлайн-аутентификации не допускается.",
     "disable-whitelist-solution": "Отключите белый список.",
@@ -83,15 +85,13 @@
     "type-proxy": "Журнал прокси",
     "type-content": "Журнал контента",
     "type-crash-report": "Отчёт об ошибке",
+    "type-network-protocol-error-report": "Отчет об ошибке сетевого протокола",
     "type-unknown": "Неизвестный лог",
     "forge-language-provider-version-problem": "Мод '{{mod-file}}' требует '{{required-version}}', но '{{found-version}}' установленна.",
-    "type-network-protocol-error-report": "Отчет об ошибке сетевого протокола",
     "plugin-api-version-lower-than-allowed-problem": "В плагине '{{plugin-name}}' указана версия API, которая ниже минимально допустимой версии.",
     "change-minimum-api-version-solution": "Измените 'minimum-api' в файле bukkit.yml на {{api-version}}, ниже, или 'none‘",
     "auth-server-problem": "Серверы аутентификации Mojang/Microsoft временно недоступны!",
     "auth-server-solution": "Повторите попытку через несколько минут. Если проблема повторится, попробуйте поискать об известных проблемах с серверами аутентификации на официальных каналах Mojang/Microsoft.",
     "overworld-settings-missing-problem": "Отсутствуют настройки верхнего мира",
-    "missing-datapack-mod-problem": "Дата пак отсутствует, так как мод '{{mod-name}}' не может быть установлен.",
-    "folder-create-solution": "Создать папку '{{folder-path}}'.",
-    "code-of-conduct-folder-missing-problem": "Папки кодекса поведения не существует."
+    "missing-datapack-mod-problem": "Дата пак отсутствует, так как мод '{{mod-name}}' не может быть установлен."
 }

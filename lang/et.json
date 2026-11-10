@@ -59,6 +59,7 @@
     "forge-install-different-version-solution": "Installi teistsugune Forge versioon.",
     "malformed-encoding-problem": "Mingi asi (ilmselt MOTD) sisaldab vigaseid vormingukoode.",
     "change-motd-solution": "Muuda serveri MOTD.",
+    "code-of-conduct-folder-missing-problem": "Käitumisjuhendi kausta pole olemas.",
     "bedrock-authentication-whitelist-problem": "Valge nimekirja kasutamine ilma veebipõhise autentimiseta pole lubatud.",
     "bedrock-authentication-allowlist-problem": "Lubatud nimekirja kasutamine ilma veebipõhise autentimiseta pole lubatud.",
     "disable-whitelist-solution": "Keela valge nimekiri.",
@@ -84,6 +85,5 @@
     "type-content": "Sisu Logi",
     "type-crash-report": "Crashide Raport",
     "type-unknown": "Mitte tundutud logi",
-    "forge-language-provider-version-problem": "Mod \"{{mod-file}}\" vajab versiooni {{required-version}}, aga installitud on {{found-version}} versioon.",
-    "code-of-conduct-folder-missing-problem": "Käitumisjuhendi kausta pole olemas."
+    "forge-language-provider-version-problem": "Mod \"{{mod-file}}\" vajab versiooni {{required-version}}, aga installitud on {{found-version}} versioon."
 }

@@ -41,6 +41,7 @@
     "plugin-remove-solution": "Уклоните додатак „{{plugin-name}}”.",
     "file-delete-solution": "Избришите фајл „{{file-path}}”.",
     "file-edit-solution": "Измените фајл „{{file-path}}”.",
+    "folder-create-solution": "Креирај фолдер '{{folder-path}}'",
     "mod-install-different-version-solution": "Инсталирајте другу верзију мода „{{mod-name}}”.",
     "mod-install-solution": "Инсталирајте мод „{{mod-name}}”.",
     "mod-install-solution-with-version": "Инсталирајте мод „{{mod-name}}”, верзију „{{mod-version}}”.",
@@ -59,6 +60,7 @@
     "forge-install-different-version-solution": "Инсталирајте другу Forge верзију.",
     "malformed-encoding-problem": "Нешто (вероватно опис) садржи погрешно обликоване кодове за форматирање.",
     "change-motd-solution": "Промените опис сервера.",
+    "code-of-conduct-folder-missing-problem": "Фолдер кодекса понашања не постоји.",
     "bedrock-authentication-whitelist-problem": "Коришћење беле листе без онлајн аутентификације није дозвољено.",
     "bedrock-authentication-allowlist-problem": "Коришћење листе дозвољених без онлајн аутентификације није дозвољено.",
     "disable-whitelist-solution": "Онемогућите белу листу.",
@@ -83,13 +85,13 @@
     "type-proxy": "Евиденција проксија",
     "type-content": "Евиденција садржаја",
     "type-crash-report": "Извештај о отказивању",
+    "type-network-protocol-error-report": "Извештај о грешци мрежног протокола",
     "type-unknown": "Непозната евиденција",
     "forge-language-provider-version-problem": "Мод „{{mod-file}}” захтева „{{required-version}}”, али „{{found-version}}” је инсталиран.",
-    "type-network-protocol-error-report": "Извештај о грешци мрежног протокола",
     "plugin-api-version-lower-than-allowed-problem": "Додатак '{{plugin-name}}' има наведену верзију API-ја која је нижа од минимално дозвољене верзије.",
     "change-minimum-api-version-solution": "Промените 'minimum-api' у фајлу bukkit.yml у верзију {{api-version}}, нижу или чак 'none'.",
     "auth-server-problem": "Mojang/Microsoft сервери за аутентификацију су тренутно недоступни!",
     "auth-server-solution": "Сачекајте неколико минута и покушајте поново. Ако се проблем настави, проверите званичне Mojang/Microsoft канале како бисте проверили постоје ли познати проблеми са сервером за аутентификацију.",
-    "missing-datapack-mod-problem": "Пакет података недостаје, јер мод '{{mod-name}}' можда није инсталиран.",
-    "overworld-settings-missing-problem": "Недостају подешавања света"
+    "overworld-settings-missing-problem": "Недостају подешавања света",
+    "missing-datapack-mod-problem": "Пакет података недостаје, јер мод '{{mod-name}}' можда није инсталиран."
 }

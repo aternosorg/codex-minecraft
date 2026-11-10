@@ -41,6 +41,7 @@
     "plugin-remove-solution": "תמחק את הפלאגין '{{plugin-name}}'.",
     "file-delete-solution": "מחק את הקובץ '{{file-path}}'.",
     "file-edit-solution": "ערוך את הקובץ '{{file-path}}'.",
+    "folder-create-solution": "צור את התיקייה '{{folder-path}}'.",
     "mod-install-different-version-solution": "התקן גרסה אחרת של המוד '{{mod-name}}'.",
     "mod-install-solution": "התקן את המוד '{{mod-name}}'.",
     "mod-install-solution-with-version": "התקן את המוד '{{mod-name}}' עם גרסה {{mod-version}}.",
@@ -59,6 +60,7 @@
     "forge-install-different-version-solution": "התקן גירסא אחרת של Forge.",
     "malformed-encoding-problem": "משהו (כנראה הודעת היום, MOTD) מכיל קוד אירגוני שגוי.",
     "change-motd-solution": "שנה את הודעת היום של השרת.",
+    "code-of-conduct-folder-missing-problem": "תיקיית כללי ההתנהגות בשרת לא קיימת.",
     "bedrock-authentication-whitelist-problem": "אסור להשתמש ברשימת מורשים ללא אימות מקוון.",
     "bedrock-authentication-allowlist-problem": "אסור להשתמש ברשימת מורשים ללא אימות מקוון.",
     "disable-whitelist-solution": "בטל את רשימת המורשים.",
@@ -83,15 +85,13 @@
     "type-proxy": "יומן פרוקסי",
     "type-content": "יומן תוכן",
     "type-crash-report": "דיווח קריסה",
+    "type-network-protocol-error-report": "דוח שגיאה בפרוטוקול רשת",
     "type-unknown": "יומן לא ידוע",
     "forge-language-provider-version-problem": "המוד '{{mod-file}}' צריך '{{required-version}}', אבל '{{found-version}}', מותקן.",
-    "type-network-protocol-error-report": "דוח שגיאה בפרוטוקול רשת",
     "plugin-api-version-lower-than-allowed-problem": "בפלאגין '{{plugin-name}}' הוגדר גרסת API שנמוכה יותר מהמינימום המותר.",
     "change-minimum-api-version-solution": "שנה 'minimum-api' בקובץ bukkit.yml ל-{{api-version}}, נמוך יותר, או אפילו 'none'.",
     "auth-server-problem": "שרתי האימות של Mojang/Microsoft כרגע לא זמינים!",
     "auth-server-solution": "חכה כמה דקות ונסה שוב, אם השגיאה חוזרת, בדוק אם יש דיווחים רשמיים על בעיות ידועות על שרת האימות.",
-    "missing-datapack-mod-problem": "חבילת נתונים חסרה, בגלל שהמוד '{{mod-name}}' כנראה לא מותקן.",
     "overworld-settings-missing-problem": "הגדרות עולם עליון חסרים",
-    "folder-create-solution": "צור את התיקייה '{{folder-path}}'.",
-    "code-of-conduct-folder-missing-problem": "תיקיית כללי ההתנהגות בשרת לא קיימת."
+    "missing-datapack-mod-problem": "חבילת נתונים חסרה, בגלל שהמוד '{{mod-name}}' כנראה לא מותקן."
 }
