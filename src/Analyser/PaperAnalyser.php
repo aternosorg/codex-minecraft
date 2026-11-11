@@ -12,6 +12,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Paper\MisconfiguredUpdateDirectoryP
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\AmbiguousProvidedNameProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\PluginBootstrapperProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\PluginDataFolderProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\EventListenerMissingClassProblem;
 
 class PaperAnalyser extends BukkitAnalyser
 {
@@ -28,5 +29,6 @@ class PaperAnalyser extends BukkitAnalyser
         $this->addPossibleInsightClass(PluginBootstrapperProblem::class);
         $this->addPossibleInsightClass(PluginDataFolderProblem::class);
         $this->addPossibleInsightClass(PluginWithoutDescriptorProblem::class);
+        $this->addPossibleInsightClass(EventListenerMissingClassProblem::class);
     }
 }
