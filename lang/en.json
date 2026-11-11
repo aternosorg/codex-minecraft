@@ -95,5 +95,6 @@
   "overworld-settings-missing-problem": "Overworld settings missing",
   "missing-datapack-mod-problem": "Datapack is missing, because the mod '{{mod-name}}' may not be installed.",
   "datapack-parsing-problem": "The datapack '{{datapack}}' could not be parsed.",
-  "server-jar-in-plugin-folder-problem": "The server jar '{{file-path}}' is in the plugins folder. Server jars do not belong in the plugins folder."
+  "server-jar-in-plugin-folder-problem": "The server jar '{{file-path}}' is in the plugins folder. Server jars do not belong in the plugins folder.",
+  "unregistered-classloader-problem": "The plugin '{{plugin-name}}' was enabled through a classloader that is not registered with Paper. The plugin is loading other plugins on its own."
 }
