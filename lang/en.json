@@ -94,5 +94,6 @@
   "auth-server-solution": "Wait a few minutes and try again. If the issue persists, check the official Mojang/Microsoft channels for any known authentication server problems.",
   "overworld-settings-missing-problem": "Overworld settings missing",
   "missing-datapack-mod-problem": "Datapack is missing, because the mod '{{mod-name}}' may not be installed.",
-  "datapack-parsing-problem": "The datapack '{{datapack}}' could not be parsed."
+  "datapack-parsing-problem": "The datapack '{{datapack}}' could not be parsed.",
+  "server-jar-in-plugin-folder-problem": "The server jar '{{file-path}}' is in the plugins folder. Server jars do not belong in the plugins folder."
 }
