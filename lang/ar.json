@@ -59,6 +59,7 @@
     "forge-install-different-version-solution": "قم بتحميل اصدار اخر من فورج.",
     "malformed-encoding-problem": "شئ (غالبًا الMOTD) يحتوي على رموز تنسيق مشوهة.",
     "change-motd-solution": "غير MOTD الخادم.",
+    "code-of-conduct-folder-missing-problem": "مِلَفّ ميثاق السلوك غير موجود",
     "bedrock-authentication-whitelist-problem": "لا يسمح باستخدام القائمة البيضاء بدون المصادقة عبر الإنترنت.",
     "bedrock-authentication-allowlist-problem": "استخدام قائمة السماح بدون المصادقة عبر الإنترنت غير مسموح به.",
     "disable-whitelist-solution": "تعطيل القائمة البيضاء.",
@@ -83,14 +84,13 @@
     "type-proxy": "سجل البروكسي",
     "type-content": "سجل المحتوى",
     "type-crash-report": "تقرير عن خطأ",
+    "type-network-protocol-error-report": "تقرير عن خطأ بروتوكول الشبكة",
     "type-unknown": "سجل غير معروف",
     "forge-language-provider-version-problem": "الإضافة '{{mod-file}}' تتطلب '{{required-version}}' لكن هذه الإضافة  '{{found-version}}' محملة",
-    "type-network-protocol-error-report": "تقرير عن خطأ بروتوكول الشبكة",
+    "plugin-api-version-lower-than-allowed-problem": "الملحق '{{plugin-name}}' لديه إصدار API محدد أقل من الإصدار الأدنى المسموح به.",
+    "change-minimum-api-version-solution": "غيير 'minimum-api' في bukkit.yml إلى {{api-version}}، أقل أو حتى 'none'.",
     "auth-server-problem": "لا يمكن الوصول إلى خوادم المصادقة Mojang/Microsoft حاليا!",
     "auth-server-solution": "انتظر بضع دقائق ثم حاول مرة أخرى. إذا استمرت المشكلة، تحقق من قنوات Mojang/Microsoft الرسمية لمعرفة أي مشاكل معروفة في خادم المصادقة.",
     "overworld-settings-missing-problem": "إعدادات العالم مفقودة",
-    "missing-datapack-mod-problem": "الداتا باك مفقود؛ بسبب {{mod-name}} لم يتم تحميله",
-    "plugin-api-version-lower-than-allowed-problem": "الملحق '{{plugin-name}}' لديه إصدار API محدد أقل من الإصدار الأدنى المسموح به.",
-    "change-minimum-api-version-solution": "غيير 'minimum-api' في bukkit.yml إلى {{api-version}}، أقل أو حتى 'none'.",
-    "code-of-conduct-folder-missing-problem": "مِلَفّ ميثاق السلوك غير موجود"
+    "missing-datapack-mod-problem": "الداتا باك مفقود؛ بسبب {{mod-name}} لم يتم تحميله"
 }

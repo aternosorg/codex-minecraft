@@ -41,6 +41,7 @@
     "plugin-remove-solution": "Uklonite dodatak „{{plugin-name}}”.",
     "file-delete-solution": "Izbrišite fajl „{{file-path}}”.",
     "file-edit-solution": "Izmenite fajl „{{file-path}}”.",
+    "folder-create-solution": "Napravite folder {{folder-path}}",
     "mod-install-different-version-solution": "Instalirajte drugu verziju moda „{{mod-name}}”.",
     "mod-install-solution": "Instalirajte mod „{{mod-name}}”.",
     "mod-install-solution-with-version": "Instalirajte mod „{{mod-name}}”, verziju {{mod-version}}.",
@@ -59,6 +60,7 @@
     "forge-install-different-version-solution": "Instalirajte drugu Forge verziju.",
     "malformed-encoding-problem": "Nešto (verovatno opis) sadrži pogrešno oblikovane kodove za formatiranje.",
     "change-motd-solution": "Promenite opis servera.",
+    "code-of-conduct-folder-missing-problem": "Code of Conduct fascikla ne postoji.",
     "bedrock-authentication-whitelist-problem": "Korišćenje bele liste bez onlajn autentifikacije nije dozvoljeno.",
     "bedrock-authentication-allowlist-problem": "Korišćenje liste dozvoljenih bez onlajn autentifikacije nije dozvoljeno.",
     "disable-whitelist-solution": "Onemogućite belu listu.",
@@ -83,15 +85,13 @@
     "type-proxy": "Evidencija proksija",
     "type-content": "Evidencija sadržaja",
     "type-crash-report": "Izveštaj o otkazivanju",
+    "type-network-protocol-error-report": "Izveštaj o grešci mrežnog protokola",
     "type-unknown": "Nepoznata evidencija",
     "forge-language-provider-version-problem": "Mod „{{mod-file}}” zahteva „{{required-version}}”, ali „{{found-version}}” je instaliran.",
-    "type-network-protocol-error-report": "Izveštaj o grešci mrežnog protokola",
     "plugin-api-version-lower-than-allowed-problem": "Dodatak '{{plugin-name}}' ima navedenu verziju API-ja koja je niža od minimalno dozvoljene verzije.",
     "change-minimum-api-version-solution": "Promenite 'minimum-api' u fajlu bukkit.yml u verziju {{api-version}}, nižu ili čak 'none'.",
     "auth-server-problem": "Mojang/Microsoft serveri za autentifikaciju su trenutno nedostupni!",
     "auth-server-solution": "Sačekajte nekoliko minuta i pokušajte ponovo. Ako se problem nastavi, proverite zvanične Mojang/Microsoft kanale kako biste proverili postoje li poznati problemi sa serverom za autentifikaciju.",
-    "missing-datapack-mod-problem": "Paket podataka nedostaje, jer mod '{{mod-name}}' možda nije instaliran.",
     "overworld-settings-missing-problem": "Nedostaju podešavanja sveta",
-    "folder-create-solution": "Napravite folder {{folder-path}}",
-    "code-of-conduct-folder-missing-problem": "Code of Conduct fascikla ne postoji."
+    "missing-datapack-mod-problem": "Paket podataka nedostaje, jer mod '{{mod-name}}' možda nije instaliran."
 }

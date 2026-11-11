@@ -12,6 +12,7 @@
     "pex-config-problem": "Ang configuration ng plugin na 'PermissionsEx' ay mali.",
     "ambiguous-plugin-name-problem": "Maraming plugin files ang may pangalang '{{plugin-name}}': '{{first-plugin-path}}' at '{{second-plugin-path}}'.",
     "plugin-dependency-problem": "Ang plugin na '{{plugin-name}}' ay nagkukulang ng kinakailangang plugin na '{{dependency-plugin-name}}'.",
+    "plugin-dependencies-problem": "Ang plugin na '{{plugin-name}}' ay nagkukulang ng kinakailangang plugin na '{{dependency-plugin-names}}'.",
     "plugin-disabling-problem": "Hindi mapawalang gana ang plugin na '{{plugin-name}}'.",
     "plugin-enabling-problem": "Hindi mapagana ang plugin na '{{plugin-name}}'.",
     "plugin-runtime-problem": "Nagkaroon ng problema ang plugin na '{{plugin-name}}' habang gumagana ito.",
@@ -68,6 +69,5 @@
     "server-install-different-version-solution": "Pa install nyo ang bersyon '{{software-version}}' ng iyong server software.",
     "plugin-api-version-problem": "Ang plugin '{{plugin-name}}' ay kinakailangan ang bersyon '{{software-version}}' ng iyong server software.",
     "ticking-entity-problem": "Ang entity '{{name}}' sa lokasyon {{location}} ay nagdudulot ng mga isyu habang ticking.",
-    "remove-entity-solution": "Tanggalin ang entity '{{name}}' sa lokasyon {{location}}",
-    "plugin-dependencies-problem": "Ang plugin na '{{plugin-name}}' ay nagkukulang ng kinakailangang plugin na '{{dependency-plugin-names}}'."
+    "remove-entity-solution": "Tanggalin ang entity '{{name}}' sa lokasyon {{location}}"
 }

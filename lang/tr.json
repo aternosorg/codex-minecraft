@@ -41,6 +41,7 @@
     "plugin-remove-solution": "\"{{plugin-name}}\" adlı eklentiyi silin.",
     "file-delete-solution": "{{file-path}} dosyasını sil",
     "file-edit-solution": "'{{file-path}} ' adlı dosyayı düzenleyin.",
+    "folder-create-solution": "\"{{folder-path}}\" klasörünü oluşturun.",
     "mod-install-different-version-solution": "{{mod-name}} modunun farklı bir sürümünü yükleyin.",
     "mod-install-solution": "{{mod-name}} modunu kurun.",
     "mod-install-solution-with-version": "{{mod-name}} modunu {{mod-version}} sürümüyle kurun.",
@@ -59,6 +60,7 @@
     "forge-install-different-version-solution": "Başka bir forge sürümü indirin.",
     "malformed-encoding-problem": "Bir şey (muhtemelen MOTD Sunucu Açıklaması) hatalı biçimlendirme kodları içeriyor.",
     "change-motd-solution": "Sunucu MOTD(Açıklama)'unu değiştirin.",
+    "code-of-conduct-folder-missing-problem": "Davranış Kuralları klasörü mevcut değil.",
     "bedrock-authentication-whitelist-problem": "Beyaz liste için internet bağlantısı zorunludur.",
     "bedrock-authentication-allowlist-problem": "Kimlik doğrulama olmadan beyaz liste kullanılamaz.",
     "disable-whitelist-solution": "Beyaz liste’yi devre dışı bırakın.",
@@ -83,15 +85,13 @@
     "type-proxy": "Proxy Günlüğü",
     "type-content": "İçerik Günlüğü",
     "type-crash-report": "Çökme raporu",
+    "type-network-protocol-error-report": "Ağ Protokol Hatası Raporu",
     "type-unknown": "Bilinmeyen Günlük",
     "forge-language-provider-version-problem": "{{mod-file}} modu {{required-version}} sürümü gerektiriyor ancak {{found-version}} sürümü yüklü.",
-    "type-network-protocol-error-report": "Ağ Protokol Hatası Raporu",
     "plugin-api-version-lower-than-allowed-problem": "'{{plugin-name}}' adlı eklentinin belirtilen API sürümü, izin verilen minimum sürümden daha düşük.",
     "change-minimum-api-version-solution": "bukkit.yml'deki 'minimum-api' kısmını ya {{api-version}} ya daha düşüğü ya da 'none' ile değiştirin.",
     "auth-server-problem": "Mojang/Microsoft kimlik doğrulama sunucuları şu anlık erişilemez durumda!",
     "auth-server-solution": "Birkaç dakika bekleyin ve tekrar deneyin. Eğer ki sorun hâlâ sürerse bilinen herhangi bir kimlik doğrulama sunucusu problemi için resmî Mojang/Microsoft kanallarını kontrol edin.",
     "overworld-settings-missing-problem": "Dünya ayarları eksik",
-    "missing-datapack-mod-problem": "Kaynak paketi bulunamadı, '{{mod-name}}' adlı mod yüklü olmadığı için olabilir.",
-    "folder-create-solution": "\"{{folder-path}}\" klasörünü oluşturun.",
-    "code-of-conduct-folder-missing-problem": "Davranış Kuralları klasörü mevcut değil."
+    "missing-datapack-mod-problem": "Kaynak paketi bulunamadı, '{{mod-name}}' adlı mod yüklü olmadığı için olabilir."
 }

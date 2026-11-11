@@ -41,6 +41,7 @@
     "plugin-remove-solution": "移除插件: '{{plugin-name}}'.",
     "file-delete-solution": "删除文件: '{{file-path}}'.",
     "file-edit-solution": "修改文件'{{file-path}}'",
+    "folder-create-solution": "创建文件夹 “{{folder-path}}”。",
     "mod-install-different-version-solution": "安装另一个版本的 mod '{{mod-name}}'.",
     "mod-install-solution": "安装 mod:'{{mod-name}} '。",
     "mod-install-solution-with-version": "安装 mod '{{mod-name}}' 的 '{{mod-version}}'版本。",
@@ -59,6 +60,7 @@
     "forge-install-different-version-solution": "安装一个不同的 Forge 版本",
     "malformed-encoding-problem": "有些不正确的代码存在 (可能是MOTD标语)。",
     "change-motd-solution": "更改服务器的 MOTD.",
+    "code-of-conduct-folder-missing-problem": "行为守则文件夹不存在。",
     "bedrock-authentication-whitelist-problem": "不允许使用无正版验证的白名单。",
     "bedrock-authentication-allowlist-problem": "禁止使用没有在线身份验证的许可名单",
     "disable-whitelist-solution": "禁用白名单。",
@@ -83,15 +85,13 @@
     "type-proxy": "代理日志",
     "type-content": "内容日志",
     "type-crash-report": "崩溃报告",
+    "type-network-protocol-error-report": "网络协议错误报告",
     "type-unknown": "未知日志",
     "forge-language-provider-version-problem": "模组“{{mod-file}}” 需要 “{{required-version}}”，但 “{{found-version}}”已安装。",
-    "type-network-protocol-error-report": "网络协议错误报告",
     "plugin-api-version-lower-than-allowed-problem": "插件 '{{plugin-name}}' 指定的 API 版本低于允许的最低版本。",
     "change-minimum-api-version-solution": "在 bukkit.yml 中将 'minimum-api' 更改为 {{api-version}}、更低版本或甚至 'none'。",
     "auth-server-problem": "Mojang/Microsoft 的身份验证服务器目前无法访问！",
     "auth-server-solution": "请等待几分钟后再试。如果问题仍然存在，请查看 Mojang/Microsoft 官方渠道，了解是否有已知的身份验证服务器问题。",
     "overworld-settings-missing-problem": "缺少主世界设置",
-    "missing-datapack-mod-problem": "缺少数据包，因为可能未安装模组 '{{mod-name}}'。",
-    "folder-create-solution": "创建文件夹 “{{folder-path}}”。",
-    "code-of-conduct-folder-missing-problem": "行为守则文件夹不存在。"
+    "missing-datapack-mod-problem": "缺少数据包，因为可能未安装模组 '{{mod-name}}'。"
 }

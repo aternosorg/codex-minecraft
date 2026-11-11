@@ -59,6 +59,7 @@
     "forge-install-different-version-solution": "Instale uma versão diferente do Forge.",
     "malformed-encoding-problem": "Algo (Provavelmente o MOTD) contém códigos de formatação defeituosos.",
     "change-motd-solution": "Altere o MOTD do servidor.",
+    "code-of-conduct-folder-missing-problem": "A pasta do Código de Conduta não existe.",
     "bedrock-authentication-whitelist-problem": "Não é permitido usar uma whitelist sem autenticação online.",
     "bedrock-authentication-allowlist-problem": "Não é permitido usar uma lista de permissão sem autenticação online.",
     "disable-whitelist-solution": "Desative a whitelist.",
@@ -83,14 +84,13 @@
     "type-proxy": "Registro de proxy",
     "type-content": "Registro de conteúdo",
     "type-crash-report": "Relatório de crash",
+    "type-network-protocol-error-report": "Relatório de Erro de Protocolo de Rede",
     "type-unknown": "Registro desconhecido",
     "forge-language-provider-version-problem": "O mod '{{mod-file}}' requer '{{required-version}}', mas '{{found-version}}' está instalado.",
-    "type-network-protocol-error-report": "Relatório de Erro de Protocolo de Rede",
     "plugin-api-version-lower-than-allowed-problem": "O plugin '{{plugin-name}}' tem uma versão de API especificada que é inferior à versão mínima permitida.",
     "change-minimum-api-version-solution": "Altere 'minimum-api' em bukkit.yml para {{api-version}}, menor ou mesmo 'none'.",
     "auth-server-problem": "Os servidores de autenticação da Mojang/Microsoft estão atualmente inacessíveis!",
     "auth-server-solution": "Aguarde alguns minutos e tente novamente. Se o problema persistir, verifique os canais oficiais da Mojang/Microsoft para quaisquer problemas conhecidos no servidor de autenticação.",
     "overworld-settings-missing-problem": "Configurações do Overworld estão faltando",
-    "missing-datapack-mod-problem": "Datapack está faltando, porque o mod '{{mod-name}}' não pode ser instalado",
-    "code-of-conduct-folder-missing-problem": "A pasta do Código de Conduta não existe."
+    "missing-datapack-mod-problem": "Datapack está faltando, porque o mod '{{mod-name}}' não pode ser instalado"
 }
