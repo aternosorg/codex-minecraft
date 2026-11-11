@@ -2,7 +2,6 @@
     "minecraft-version": "Minecraft バージョン",
     "java-version": "Java バージョン",
     "fabric-version": "Fabric loader バージョン",
-    "quilt-version": "Fabric loader バージョン",
     "plugin-load-problem": "プラグイン '{{plugin-name}}' を読み込めませんでした。",
     "pocketmine-version": "PocketMine バージョン",
     "bedrock-version": "Bedrock バージョン",

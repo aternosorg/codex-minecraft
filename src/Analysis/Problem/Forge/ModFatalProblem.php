@@ -28,8 +28,8 @@ class ModFatalProblem extends ModProblem
     public static function getPatterns(): array
     {
         return [
-            '/\s*U[LCHIJAD]*E\s+(\w+)\{([^\}]+)\} \[([^\]]+)\] \(([^\)]+)\)/',
-            '/^\s*([^\(\n]+) \(([^\)]+)\) has failed to load correctly/m'
+            'mod-state' => '/\s*U[LCHIJAD]*E\s+(\w+)\{([^\}]+)\} \[([^\]]+)\] \(([^\)]+)\)/',
+            'failed-to-load' => '/^\s*([^\(\n]+) \(([^\)]+)\) has failed to load correctly/m'
         ];
     }
 
@@ -39,14 +39,14 @@ class ModFatalProblem extends ModProblem
     public function setMatches(array $matches, mixed $patternKey): void
     {
         switch ($patternKey) {
-            case 0:
+            case 'mod-state':
                 $this->modId = $matches[1];
                 $this->modVersion = $matches[2];
                 $this->modName = $matches[3];
                 $this->modFileName = $matches[4];
                 $this->addSolution(new FileDeleteSolution("mods/" . $this->getModFileName()));
                 break;
-            case 1:
+            case 'failed-to-load':
                 $this->modId = $matches[2];
                 $this->modName = $matches[1];
                 $this->addSolution(new ModRemoveSolution($this->getModName()));

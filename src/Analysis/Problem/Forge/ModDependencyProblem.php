@@ -33,10 +33,10 @@ class ModDependencyProblem extends ModProblem
     public static function getPatterns(): array
     {
         return [
-            '/The mod \S+ \(([^\)]+)\) requires mods \[([^\]]+)\] to be available/',
-            '/net\.minecraftforge\.fml\.common\.MissingModsException: Mod \S+ \((.+)\) requires (.+)/',
-            '/net\.minecraftforge\.fml\.ModLoadingException: Mod \§.([^\§]+)\§. requires \§.([^\§]+)\§. \§.([^ \§]+)[^\§]*\§./',
-            '/net\.minecraftforge\.fml\.LoadingFailedException: Loading errors encountered: \[\n(?:.*\n)*Mod \§.([^\§]+)§. requires \§.([^\§]+)\§. \§.([^ \§]+)[^\§]*\§./'
+            'requires-mods' => '/The mod \S+ \(([^\)]+)\) requires mods \[([^\]]+)\] to be available/',
+            'missing-mods-exception' => '/net\.minecraftforge\.fml\.common\.MissingModsException: Mod \S+ \((.+)\) requires (.+)/',
+            'mod-loading-exception' => '/net\.minecraftforge\.fml\.ModLoadingException: Mod \§.([^\§]+)\§. requires \§.([^\§]+)\§. \§.([^ \§]+)[^\§]*\§./',
+            'loading-failed-exception' => '/net\.minecraftforge\.fml\.LoadingFailedException: Loading errors encountered: \[\n(?:.*\n)*Mod \§.([^\§]+)§. requires \§.([^\§]+)\§. \§.([^ \§]+)[^\§]*\§./'
         ];
     }
 
@@ -48,11 +48,11 @@ class ModDependencyProblem extends ModProblem
         $this->modName = $matches[1];
 
         switch ($patternKey) {
-            case 0:
+            case 'requires-mods':
                 $this->dependencyMods[] = $matches[2];
                 $this->addSolution(new ModInstallSolution($matches[2]));
                 break;
-            case 1:
+            case 'missing-mods-exception':
                 $count = preg_match_all('/(\w+)(?:@\[?([0-9\.]+))?[,\]]/', $matches[2], $dependencyMatches);
                 if (!$count) {
                     if (preg_match('/\[(\S+)\]/', $matches[2], $dependencyMatches)) {
@@ -74,8 +74,8 @@ class ModDependencyProblem extends ModProblem
                     $this->addSolution($solution);
                 }
                 break;
-            case 2:
-            case 3:
+            case 'mod-loading-exception':
+            case 'loading-failed-exception':
                 $this->dependencyMods[] = $matches[2];
                 $this->addSolution(new ModInstallSolution($matches[2], $matches[3]));
                 break;
