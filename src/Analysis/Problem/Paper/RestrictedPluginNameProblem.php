@@ -3,7 +3,8 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Paper;
 
 use Aternos\Codex\Analysis\InsightInterface;
-use Aternos\Codex\Minecraft\Analysis\Solution\Paper\PaperRenamePluginSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -49,7 +50,12 @@ class RestrictedPluginNameProblem extends PaperProblem
         }
 
         $this->pluginName = $name;
-        $this->addSolution(new PaperRenamePluginSolution($this->pluginName));
+        // The name comes from the "name" entry of the plugin descriptor, not from the jar file name.
+        // Only the plugin author can change it, so the operator can install a different version or remove the plugin.
+        if ($this->pluginName !== null) {
+            $this->addSolution(new PluginInstallDifferentVersionSolution($this->pluginName));
+            $this->addSolution(new PluginRemoveSolution($this->pluginName));
+        }
     }
 
     /**

@@ -723,7 +723,10 @@
                 },
                 "solutions": [
                     {
-                        "message": "Rename the plugin 'bukkit' so that its name is not reserved and does not contain spaces."
+                        "message": "Install a different version of the plugin 'bukkit'."
+                    },
+                    {
+                        "message": "Remove the plugin 'bukkit'."
                     }
                 ]
             }
