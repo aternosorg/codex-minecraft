@@ -574,6 +574,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_server_jar_in_plugin_folder_1_21_1(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-server-jar-in-plugin-folder-1-21-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_start_1_20_6(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-start-1-20-6.log');
@@ -927,6 +937,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_fabric_client_1_19_2(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-client-1-19-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_conflicting_mods_unquoted(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-conflicting-mods-unquoted.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 

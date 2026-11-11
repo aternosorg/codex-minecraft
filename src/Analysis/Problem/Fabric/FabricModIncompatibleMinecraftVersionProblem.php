@@ -83,14 +83,14 @@ class FabricModIncompatibleMinecraftVersionProblem extends FabricModProblem
                 break;
 
             case 'between':
-                $wrongVersion = $matches[7];
+                $wrongVersion = $matches[6];
                 $this->setMinecraftVersion($wrongVersion);
 
                 $this->setModName($matches[1]);
 
-                $firstSymbol = $matches[4] === "exclusive" ? ">" : ">=";
-                $secondSymbol = $matches[6] === "exclusive" ? "<" : "<=";
-                $version = $firstSymbol . $matches[3] . ", " . $secondSymbol . $matches[5];
+                $firstSymbol = $matches[3] === "exclusive" ? ">" : ">=";
+                $secondSymbol = $matches[5] === "exclusive" ? "<" : "<=";
+                $version = $firstSymbol . $matches[2] . ", " . $secondSymbol . $matches[4];
 
                 $this->addSolution(new ServerInstallDifferentVersionSolution($version));
                 $this->addSolution(new ModInstallDifferentVersionSolution($this->getModName()));
@@ -101,11 +101,11 @@ class FabricModIncompatibleMinecraftVersionProblem extends FabricModProblem
                 break;
         }
 
-        $wrongVersion = $matches[4];
+        $wrongVersion = $matches[3];
         $this->setMinecraftVersion($wrongVersion);
 
         $this->setModName($matches[1]);
-        $version = $symbol . $matches[3];
+        $version = $symbol . $matches[2];
 
         $this->addSolution(new ServerInstallDifferentVersionSolution($version));
         $this->addSolution(new ModInstallDifferentVersionSolution($this->getModName()));

@@ -1,0 +1,848 @@
+{
+    "id": "paper\/server",
+    "name": "Paper",
+    "type": "Server Log",
+    "version": "1.21.1",
+    "title": "Paper 1.21.1 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:46:58] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[14:46:58] [ServerMain\/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.3+9-LTS; Eclipse Adoptium Temurin-21.0.3+9) on Linux 5.15.0-117-generic (amd64)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:46:58] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[14:46:58] [ServerMain\/INFO]: [bootstrap] Loading Paper 1.21.1-116-master@e7e1ab5 (2024-09-30T23:17:54Z) for Minecraft 1.21.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:46:59] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[14:46:59] [ServerMain\/INFO]: [PluginInitializerManager] Initializing plugins..."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14:46:59] [ServerMain\/ERROR]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[14:46:59] [ServerMain\/ERROR]: [DirectoryProviderSource] Error loading plugin: plugins\/server.jar appears to be a server jar! Server jars do not belong in the plugin folder."
+                },
+                {
+                    "number": 5,
+                    "content": "java.lang.IllegalArgumentException: plugins\/server.jar appears to be a server jar! Server jars do not belong in the plugin folder."
+                },
+                {
+                    "number": 6,
+                    "content": "\tat io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:70) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 7,
+                    "content": "\tat io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$registerProviders$1(DirectoryProviderSource.java:60) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 8,
+                    "content": "\tat java.base\/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]"
+                },
+                {
+                    "number": 9,
+                    "content": "\tat io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:58) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 10,
+                    "content": "\tat io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:24) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 11,
+                    "content": "\tat io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 12,
+                    "content": "\tat io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:110) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 13,
+                    "content": "\tat net.minecraft.server.Main.main(Main.java:125) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 14,
+                    "content": "\tat org.bukkit.craftbukkit.Main.main(Main.java:328) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat io.papermc.paperclip.PaperclipKt.main(Paperclip.kt:28) ~[app:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:46:59] [Paper Plugin Remapper Thread - 2\/INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[14:46:59] [Paper Plugin Remapper Thread - 2\/INFO]: [PluginRemapper] Remapping plugin 'plugins\/mclogs-bukkit-dev.jar'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:00] [Paper Plugin Remapper Thread - 2\/INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[14:47:00] [Paper Plugin Remapper Thread - 2\/INFO]: [PluginRemapper] Done remapping plugin 'plugins\/mclogs-bukkit-dev.jar' in 991ms."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:00] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[14:47:00] [ServerMain\/INFO]: [PluginInitializerManager] Initialized 1 plugin"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:00] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[14:47:00] [ServerMain\/INFO]: [PluginInitializerManager] Bukkit plugins (1):"
+                },
+                {
+                    "number": 20,
+                    "content": " - Mclogs (dev)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:04] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[14:47:04] [ServerMain\/INFO]: Environment: Environment[sessionHost=https:\/\/sessionserver.mojang.com, servicesHost=https:\/\/api.minecraftservices.com, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:06] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[14:47:06] [ServerMain\/INFO]: Loaded 1290 recipes"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:06] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[14:47:06] [ServerMain\/INFO]: Loaded 1399 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:06] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[14:47:06] [Server thread\/INFO]: Starting minecraft server version 1.21.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:06] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[14:47:06] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:06] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[14:47:06] [Server thread\/INFO]: This server is running Paper version 1.21.1-116-master@e7e1ab5 (2024-09-30T23:17:54Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:07] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[14:47:07] [Server thread\/INFO]: [spark] This server bundles the spark profiler. For more information please visit https:\/\/docs.papermc.io\/paper\/profiling"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:07] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[14:47:07] [Server thread\/INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:07] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[14:47:07] [Server thread\/INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:08] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[14:47:08] [Server thread\/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I\/O threads, 1 worker threads, and population gen parallelism of 1 threads"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:08] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[14:47:08] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:08] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[14:47:08] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:08] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[14:47:08] [Server thread\/INFO]: Starting Minecraft server on *:16754"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:09] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[14:47:09] [Server thread\/INFO]: Using epoll channel type"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:09] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[14:47:09] [Server thread\/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:09] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[14:47:09] [Server thread\/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:09] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[14:47:09] [Server thread\/INFO]: Server permissions file permissions.yml is empty, ignoring it"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:09] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[14:47:09] [Server thread\/INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:09] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[14:47:09] [Server thread\/INFO]: Preparing start region for dimension minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:11] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[14:47:11] [Server thread\/INFO]: Time elapsed: 1513 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:11] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[14:47:11] [Server thread\/INFO]: Preparing start region for dimension minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:11] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[14:47:11] [Server thread\/INFO]: Time elapsed: 203 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:11] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[14:47:11] [Server thread\/INFO]: Preparing start region for dimension minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:11] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[14:47:11] [Server thread\/INFO]: Time elapsed: 208 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:11] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[14:47:11] [Server thread\/INFO]: [spark] Starting background profiler..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:12] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[14:47:12] [Server thread\/INFO]: Done preparing level \"world\" (3.015s)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:12] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[14:47:12] [Server thread\/INFO]: Starting GS4 status listener"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:12] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[14:47:12] [Server thread\/INFO]: Thread Query Listener started"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:12] [Query Listener #1\/INFO]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[14:47:12] [Query Listener #1\/INFO]: Query running on 0.0.0.0:9898"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:12] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[14:47:12] [Server thread\/INFO]: JMX monitoring enabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:12] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[14:47:12] [Server thread\/INFO]: Running delayed init tasks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:12] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[14:47:12] [Server thread\/INFO]: Done (13.897s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:12] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[14:47:12] [Server thread\/INFO]: Timings Reset"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[14:47:29] [Server thread\/INFO]: Stopping the server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[14:47:29] [Server thread\/INFO]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[14:47:29] [Server thread\/INFO]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[14:47:29] [Server thread\/INFO]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[14:47:29] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[14:47:29] [Server thread\/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[14:47:29] [Server thread\/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[14:47:29] [Server thread\/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[14:47:30] [Server thread\/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.39s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[14:47:30] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world_nether]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[14:47:30] [Server thread\/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[14:47:30] [Server thread\/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[14:47:30] [Server thread\/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[14:47:30] [Server thread\/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[14:47:30] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[14:47:30] [Server thread\/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[14:47:30] [Server thread\/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[14:47:30] [Server thread\/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[14:47:30] [Server thread\/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[14:47:30] [Server thread\/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[14:47:30] [Server thread\/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[14:47:30] [Server thread\/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:47:30] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[14:47:30] [Server thread\/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The server jar 'plugins\/server.jar' is in the plugins folder. Server jars do not belong in the plugins folder.",
+                "counter": 2,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[14:46:59] [ServerMain\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "[14:46:59] [ServerMain\/ERROR]: [DirectoryProviderSource] Error loading plugin: plugins\/server.jar appears to be a server jar! Server jars do not belong in the plugin folder."
+                        },
+                        {
+                            "number": 5,
+                            "content": "java.lang.IllegalArgumentException: plugins\/server.jar appears to be a server jar! Server jars do not belong in the plugin folder."
+                        },
+                        {
+                            "number": 6,
+                            "content": "\tat io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:70) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\tat io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$registerProviders$1(DirectoryProviderSource.java:60) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\tat java.base\/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\tat io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:58) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\tat io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:24) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\tat io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:110) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat net.minecraft.server.Main.main(Main.java:125) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat org.bukkit.craftbukkit.Main.main(Main.java:328) ~[paper-1.21.1.jar:1.21.1-116-e7e1ab5]"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat io.papermc.paperclip.PaperclipKt.main(Paperclip.kt:28) ~[app:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file 'plugins\/server.jar'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.21.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[14:47:06] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 24,
+                            "content": "[14:47:06] [Server thread\/INFO]: Starting minecraft server version 1.21.1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.1"
+            }
+        ]
+    }
+}

@@ -11,7 +11,11 @@ abstract class FabricModProblem extends FabricProblem
      */
     protected const array MOD_NAME_REPLACEMENTS = ["fabric" => "FabricAPI"];
 
-    protected static string $modNamePattern = "(?:'(?!Minecraft')([^']+)' \((?:[^\)]+)\)|([\w-]+))";
+    /**
+     * Matches a mod as "'Name' (id)" or as a plain id
+     * The branch reset group `(?|...)` makes both alternatives capture the name in the same single group
+     */
+    protected static string $modNamePattern = "(?|'(?!Minecraft')([^']+)' \((?:[^\)]+)\)|([\w-]+))";
     protected static string $modIDPattern = "([^ ,]+)";
 
     protected string $modName;
