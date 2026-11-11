@@ -96,5 +96,8 @@
   "missing-datapack-mod-problem": "Datapack is missing, because the mod '{{mod-name}}' may not be installed.",
   "datapack-parsing-problem": "The datapack '{{datapack}}' could not be parsed.",
   "server-jar-in-plugin-folder-problem": "The server jar '{{file-path}}' is in the plugins folder. Server jars do not belong in the plugins folder.",
-  "unregistered-classloader-problem": "The plugin '{{plugin-name}}' was enabled through a classloader that is not registered with Paper. The plugin is loading other plugins on its own."
+  "unregistered-classloader-problem": "The plugin '{{plugin-name}}' was enabled through a classloader that is not registered with Paper. The plugin is loading other plugins on its own.",
+  "circular-plugin-dependency-problem": "Circular plugin dependencies detected: {{cycle}}. At least one plugin in the cycle must remove its dependency.",
+  "circular-plugin-dependency-unknown-problem": "Circular plugin dependencies detected. At least one plugin in the cycle must remove its dependency.",
+  "remove-dependency-solution": "Remove one of the dependencies that form the cycle '{{cycle}}'."
 }
