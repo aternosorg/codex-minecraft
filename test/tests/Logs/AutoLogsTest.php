@@ -534,6 +534,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_plugin_unregistered_classloader_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-unregistered-classloader-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_plugin_unsupported_class_version_1_16_5(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-unsupported-class-version-1-16-5.log');
