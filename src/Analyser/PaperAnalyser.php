@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analyser;
 
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ApiVersionLowerThanAllowedProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ServerJarInPluginFolderProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\VersionDowngradeProblem;
 
 class PaperAnalyser extends BukkitAnalyser
@@ -12,5 +13,6 @@ class PaperAnalyser extends BukkitAnalyser
         parent::__construct();
         $this->addPossibleInsightClass(VersionDowngradeProblem::class);
         $this->addPossibleInsightClass(ApiVersionLowerThanAllowedProblem::class);
+        $this->addPossibleInsightClass(ServerJarInPluginFolderProblem::class);
     }
 }
