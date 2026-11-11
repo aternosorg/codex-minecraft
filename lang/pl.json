@@ -19,8 +19,6 @@
     "plugin-runtime-problem": "Wtyczka \"{{plugin-name}}\" ma problem podczas działania.",
     "mod-dependency-problem": "Modyfikacja \"{{mod-name}}\" nie posiada wymaganego moda {{dependency-mod-name}}.",
     "mod-dependency-problem-plural": "Modyfikacja „{{mod-name}}” wymaga zainstalowania modyfikacji {{dependency-mod-list}}.",
-    "mod-duplicate-problem": "Dla moda o nazwie \"{{mod-name}}\" istnieje wiele plików modów: \"{{first-mod-path}}\" i \"{{second-mod-path}}\"! ⭐",
-    "mod-duplicate-problem-no-path": "Istnieje wiele plików modów dla nazwy moda '{{mod-name}}'! ⭐",
     "mod-exception-problem": "Modyfikacja '{{mod-name}}' posiada nieznany błąd.",
     "mod-fatal-problem": "Mod '{{mod-name}}' ma krytyczny błąd.",
     "plugin-incompatible-problem": "Wtyczka '{{plugin-name}}' nie jest kompatybilna z aktualną wersją twojego serwera.",
