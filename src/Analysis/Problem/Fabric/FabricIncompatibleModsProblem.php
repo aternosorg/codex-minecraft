@@ -54,7 +54,7 @@ class FabricIncompatibleModsProblem extends FabricModProblem
     public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->setModName($matches[1]);
-        $this->setSecondModName($matches[3]);
+        $this->setSecondModName($matches[2]);
         $this->addSolution(new ModRemoveSolution($this->getModName()));
         $this->addSolution(new ModRemoveSolution($this->getSecondModName()));
     }
