@@ -57,7 +57,7 @@
     "world-repair-solution": "Repare el mundo '{{world-name}}', por ejemplo usando Minecraft Region Fixer o MCEdit.",
     "world-duplicate-problem": "El mundo '{{world-name}}' es un duplicado de otro mundo y ha sido prevenido de cargar.",
     "mod-wrong-minecraft-version-problem": "El mod '{{mod-name}}' no es compatible con la versión de Minecraft {{minecraft-version}}.",
-    "forge-install-different-version-solution": "El mod '{{mod-name}}' no es compatible con la versión de Minecraft {{minecraft-version}}.",
+    "forge-install-different-version-solution": "Instala una versión diferente de Forge.",
     "malformed-encoding-problem": "Algo (probablemente el MOTD) contiene códigos de formato incorrecto.",
     "change-motd-solution": "Cambia el MOTD del servidor.",
     "code-of-conduct-folder-missing-problem": "La carpeta del Código de Conducta no existe.",

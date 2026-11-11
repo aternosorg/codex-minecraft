@@ -16,7 +16,7 @@
     "plugin-enabling-problem": "پلگ ان '{{plugin-name}}' کو اہل نہیں کیا جاسکا۔.",
     "plugin-runtime-problem": "پلگ ان '{{plugin-name}}' چلتے وقت ایک مسئلہ ہے۔.",
     "forge-confirm-problem": "فورج کو تبدیلیاں لاگو کرنے اور سرور شروع کرنے کے ل your آپ کی تصدیق کی ضرورت ہے۔.",
-    "mod-dependency-problem": "{{dependency-mod-name}}",
+    "mod-dependency-problem": "موڈ '{{mod-name}}' کے لیے درکار موڈ '{{dependency-mod-name}}' موجود نہیں ہے۔",
     "mod-dependency-problem-plural": "{{mod-name}}",
     "mod-duplicate-problem-no-path": "موڈ نام '{{mod-name}}' کیلئے متعدد موڈ فائلیں ہیں۔",
     "aquatic-world-on-older-version-problem": "موجودہ دنیا Minecraft 1.13 یا اس سے زیادہ کے ساتھ تخلیق / بھری ہوئی تھی۔ نئے فارمیٹ کو کسی پرانے ورژن میں لوڈ نہیں کیا جاسکتا۔",

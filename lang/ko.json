@@ -64,7 +64,7 @@
     "bedrock-authentication-whitelist-problem": "Xbox 온라인 인증 없이 화이트리스트를 사용하는 것은 허용되지 않습니다.",
     "bedrock-authentication-allowlist-problem": "온라인 인증절차 없이 화이트리스트를 사용하는 것은 허용되지 않습니다.",
     "disable-whitelist-solution": "화이트리스트를 비활성화합니다.",
-    "disable-allowlist-solution": "화이트리스트 비활성화됨",
+    "disable-allowlist-solution": "화이트리스트를 비활성화합니다.",
     "enable-authentication-solution": "Xbox 온라인 인증을 켜 주세요.",
     "undefined-mod-dependency-problem": "해당 모드에 필요한 {{dependency-mod-name}} 모드가 존재하지 않습니다.",
     "version-downgrade-problem": "당신의 세계는 상위 버전에서 사용되었습니다.",
