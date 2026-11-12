@@ -1,0 +1,1407 @@
+{
+    "id": "neoforge\/crash-report",
+    "name": "NeoForge",
+    "type": "Crash Report",
+    "version": "1.21.1",
+    "title": "NeoForge 1.21.1 Crash Report",
+    "entries": [
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "---- Minecraft Crash Report ----"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "\/\/ Don't do that."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Time:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "Time: 2025-07-31 09:57:45"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Description:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "Description: Mod loading failures have occurred; consult the issue messages for more details"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "A detailed walkthrough of the error, its code path and all known details is as follows:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "---------------------------------------------------------------------------------------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "-- Head --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Thread:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "Thread: main"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.41\/net.neoforged.fml.common.asm.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:60) ~[loader-4.0.41.jar%2359!\/:4.0] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "-- Mod loading issue for:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "-- Mod loading issue for: smithingtemplateviewer --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCaused by 0:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "\tCaused by 0: java.lang.BootstrapMethodError: java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "\t\tat TRANSFORMER\/smithingtemplateviewer@1.0.3\/com.buuz135.smithingtemplateviewer.SmithingTemplateViewer.<init>(SmithingTemplateViewer.java:24) ~[smithingtemplateviewer-1.0.3.jar%23120!\/:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "\t\tat java.base\/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "\t\tat java.base\/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "\t\tat java.base\/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "\t\tat MC-BOOTSTRAP\/fml_loader@4.0.41\/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:115) ~[loader-4.0.41.jar%2359!\/:4.0] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "\t\tat MC-BOOTSTRAP\/fml_loader@4.0.41\/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:153) ~[loader-4.0.41.jar%2359!\/:4.0] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "\t\tat MC-BOOTSTRAP\/fml_loader@4.0.41\/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:231) ~[loader-4.0.41.jar%2359!\/:4.0] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "\t\tat java.base\/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "\t\tat java.base\/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "\t\tat java.base\/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "\t\tat java.base\/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "\t\tat java.base\/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "\t\tat java.base\/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "\t\tat java.base\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "\t\tat java.base\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMod file:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "\tMod file: \/server\/mods\/smithingtemplateviewer-1.0.3.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFailure message:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "\tFailure message: SmithingTemplateViewer (smithingtemplateviewer) has failed to load correctly"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\t\tjava.lang.BootstrapMethodError:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "\t\tjava.lang.BootstrapMethodError: java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMod version:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "\tMod version: 1.0.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMod issues URL:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "\tMod issues URL: <No issues URL found>"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tException message:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "\tException message: java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Stacktrace:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "Stacktrace:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.41\/net.neoforged.fml.common.asm.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:60) ~[loader-4.0.41.jar%2359!\/:4.0] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94) ~[modlauncher-11.0.5.jar%2364!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-11.0.5.jar%2364!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57) ~[modlauncher-11.0.5.jar%2364!\/:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190) ~[securejarhandler-3.0.8.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311) ~[securejarhandler-3.0.8.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214) ~[securejarhandler-3.0.8.jar:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "\tat TRANSFORMER\/smithingtemplateviewer@1.0.3\/com.buuz135.smithingtemplateviewer.SmithingTemplateViewer.<init>(SmithingTemplateViewer.java:24) ~[smithingtemplateviewer-1.0.3.jar%23120!\/:?] {re:classloading}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "\tat java.base\/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "\tat java.base\/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.41\/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:115) ~[loader-4.0.41.jar%2359!\/:4.0] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.41\/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:153) ~[loader-4.0.41.jar%2359!\/:4.0] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.41\/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:231) ~[loader-4.0.41.jar%2359!\/:4.0] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "-- System Details --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "\tMinecraft Version: 1.21.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version ID:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "\tMinecraft Version ID: 1.21.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tOperating System:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "\tOperating System: Linux (amd64) version 6.8.0-59-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava Version:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "\tJava Version: 21.0.7, Eclipse Adoptium"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava VM Version:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "\tJava VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "\tMemory: 8011495104 bytes (7640 MiB) \/ 8589934592 bytes (8192 MiB) up to 17179869184 bytes (16384 MiB)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCPUs:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "\tCPUs: 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Vendor:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "\tProcessor Vendor: AuthenticAMD"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Name:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "\tProcessor Name: AMD EPYC 7F72 24-Core Processor"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIdentifier:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "\tIdentifier: AuthenticAMD Family 23 Model 49 Stepping 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMicroarchitecture:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "\tMicroarchitecture: Zen 2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFrequency (GHz):",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "\tFrequency (GHz): -0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical packages:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "\tNumber of physical packages: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical CPUs:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "\tNumber of physical CPUs: 24"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of logical CPUs:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "\tNumber of logical CPUs: 48"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 name:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "\tGraphics card #0 name: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 vendor:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "\tGraphics card #0 vendor: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 VRAM (MiB):",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "\tGraphics card #0 VRAM (MiB): 0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 deviceId:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "\tGraphics card #0 deviceId: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 versionInfo:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "\tGraphics card #0 versionInfo: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory max (MiB):",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "\tVirtual memory max (MiB): 129820.46"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory used (MiB):",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "\tVirtual memory used (MiB): 27630.98"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory total (MiB):",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "\tSwap memory total (MiB): 1024.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory used (MiB):",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "\tSwap memory used (MiB): 5.50"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for jna.tmpdir (MiB):",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "\tSpace in storage for jna.tmpdir (MiB): <path not set>"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB):",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "\tSpace in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for io.netty.native.workdir (MiB):",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "\tSpace in storage for io.netty.native.workdir (MiB): <path not set>"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for java.io.tmpdir (MiB):",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "\tSpace in storage for java.io.tmpdir (MiB): available: 171145.19, total: 223120.39"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for workdir (MiB):",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "\tSpace in storage for workdir (MiB): available: 171145.19, total: 223120.39"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJVM Flags:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "\tJVM Flags: 2 total; -Xmx16384M -Xms8192M"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "\tModLauncher: 11.0.5+main.901c6ea8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher launch target:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "\tModLauncher launch target: forgeserver"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher services:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "\tModLauncher services:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "\t\tsponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "\t\tloader-4.0.41.jar slf4jfixer PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "\t\tloader-4.0.41.jar runtime_enum_extender PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "\t\tat-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "\t\tloader-4.0.41.jar runtimedistcleaner PLUGINSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "\t\tmodlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "\t\tmodlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFML Language Providers:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "\tFML Language Providers:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "\t\tjavafml@4.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "\t\tlowcodefml@4.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "\t\tminecraft@4.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMod List:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "\tMod List:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "\t\tserver-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 118,
+                    "content": "\t\tneoforge-21.1.196-universal.jar                   |NeoForge                      |neoforge                      |21.1.196            |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 119,
+                    "content": "\t\tsmithingtemplateviewer-1.0.3.jar                  |SmithingTemplateViewer        |smithingtemplateviewer        |1.0.3               |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCrash Report UUID:",
+            "lines": [
+                {
+                    "number": 120,
+                    "content": "\tCrash Report UUID: b2d75645-9fb9-4fca-92bb-90e6d526e1fa"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFML:",
+            "lines": [
+                {
+                    "number": 121,
+                    "content": "\tFML: 4.0.41"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNeoForge:",
+            "lines": [
+                {
+                    "number": 122,
+                    "content": "\tNeoForge: 21.1.196"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.21.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tMinecraft Version:",
+                    "lines": [
+                        {
+                            "number": 72,
+                            "content": "\tMinecraft Version: 1.21.1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.1"
+            },
+            {
+                "message": "Java version: 21.0.7",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tJava Version:",
+                    "lines": [
+                        {
+                            "number": 75,
+                            "content": "\tJava Version: 21.0.7, Eclipse Adoptium"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "21.0.7"
+            },
+            {
+                "message": "NeoForge version: 21.1.196",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": null,
+                    "lines": [
+                        {
+                            "number": 118,
+                            "content": "\t\tneoforge-21.1.196-universal.jar                   |NeoForge                      |neoforge                      |21.1.196            |Manifest: NOSIGNATURE"
+                        }
+                    ]
+                },
+                "label": "NeoForge version",
+                "value": "21.1.196"
+            }
+        ]
+    }
+}
