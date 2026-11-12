@@ -30,7 +30,7 @@ class MisconfiguredUpdateDirectoryProblem extends PaperProblem
                 "path" => $this->path,
                 "plugin-path" => $this->pluginPath
             ]),
-            default => Translator::getInstance()->getTranslation("update-directory-compare-problem"),
+            default => Translator::getInstance()->getTranslation("misconfigured-update-directory-access-problem"),
         };
     }
 
