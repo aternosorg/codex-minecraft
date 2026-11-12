@@ -360,6 +360,43 @@
                 },
                 "label": "Fabric loader version",
                 "value": "0.20.1"
+            },
+            {
+                "message": "Java version: 25",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:57:39] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "[18:57:39] [main\/INFO]: Loading 5 mods:"
+                        },
+                        {
+                            "number": 5,
+                            "content": "\t- fabricloader 0.20.1"
+                        },
+                        {
+                            "number": 6,
+                            "content": "\t   \\-- mixinextras 0.5.5"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\t- foo 1.0.0"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\t- java 25"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\t- minecraft 26.3"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "25"
             }
         ]
     }
