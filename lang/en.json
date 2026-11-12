@@ -108,5 +108,6 @@
   "plugin-bootstrapper-problem": "The bootstrapper of the plugin '{{plugin-path}}' failed. The plugin will not be loaded.",
   "plugin-data-folder-not-directory-problem": "The data folder '{{path}}' for the plugin '{{plugin-name}}' exists, but it is not a directory.",
   "plugin-data-folder-rename-problem": "The old data folder '{{path}}' could not be renamed to '{{new-path}}'.",
-  "plugin-without-descriptor-problem": "The file '{{file-path}}' is not a valid plugin, because it contains neither a plugin.yml nor a paper-plugin.yml."
+  "plugin-without-descriptor-problem": "The file '{{file-path}}' is not a valid plugin, because it contains neither a plugin.yml nor a paper-plugin.yml.",
+  "event-listener-missing-class-problem": "The plugin '{{plugin-name}}' could not register the event listener '{{listener}}', because the class '{{missing-class}}' it references does not exist."
 }
