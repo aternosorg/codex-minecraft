@@ -23,14 +23,20 @@ class ModFatalProblem extends ModProblem
     }
 
     /**
+     * Matches a mod that ended in the errored state in the old Forge mod state table:
+     * UCE Techguns{0.1.2_alphatest4.1} [Techguns] (Techguns.beta.1.2_alphatest4.1.jar)
+     *
+     * or a mod that failed to load on newer Forge versions:
+     * Oculus (oculus) has failed to load correctly
+     *
      * @inheritDoc
      */
     public static function getPatterns(): array
     {
         return [
-            'mod-state' => '/\s*U[LCHIJAD]*E\s+(\w+)\{([^\}]+)\} \[([^\]]+)\] \(([^\)]+)\)/',
+            'mod-state' => '/\s*U[LCHIJAD]*E\s+(?<modId>\w+)\{(?<modVersion>[^\}]+)\} \[(?<modName>[^\]]+)\] \((?<modFileName>[^\)]+)\)/',
             // client-only causes are handled by ClientOnlyModProblem
-            'failed-to-load' => '/^\s*([^\(\n]+) \(([^\)]+)\) has failed to load correctly(?!\n' . ClientOnlyModProblem::CLIENT_ONLY_CAUSE . ')/m'
+            'failed-to-load' => '/^\s*(?<modName>[^\(\n]+) \((?<modId>[^\)]+)\) has failed to load correctly(?!\n' . ClientOnlyModProblem::CLIENT_ONLY_CAUSE . ')/m'
         ];
     }
 
@@ -39,17 +45,16 @@ class ModFatalProblem extends ModProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
+        $this->modId = $matches['modId'];
+        $this->modName = $matches['modName'];
+
         switch ($patternKey) {
             case 'mod-state':
-                $this->modId = $matches[1];
-                $this->modVersion = $matches[2];
-                $this->modName = $matches[3];
-                $this->modFileName = $matches[4];
+                $this->modVersion = $matches['modVersion'];
+                $this->modFileName = $matches['modFileName'];
                 $this->addSolution(new FileDeleteSolution("mods/" . $this->getModFileName()));
                 break;
             case 'failed-to-load':
-                $this->modId = $matches[2];
-                $this->modName = $matches[1];
                 $this->addSolution(new ModRemoveSolution($this->getModName()));
                 break;
         }
