@@ -61,7 +61,7 @@ class PluginDependenciesProblem extends PluginFileProblem
     {
         return [
             '/Could not load \'(plugins[\/\\\][^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
-            . '\norg\.bukkit\.plugin\.UnknownDependencyException\: Unknown\/missing dependency plugins: \[([\w ,]+)\](?:\. Please download and install these plugins to run \'([^\']+)\')?/'
+            . '\norg\.bukkit\.plugin\.UnknownDependencyException\: Unknown\/missing dependency plugins: \[(' . static::PLUGIN_NAME . '(?:, ' . static::PLUGIN_NAME . ')*)\](?:\. Please download and install these plugins to run \'([^\']+)\')?/'
         ];
     }
 

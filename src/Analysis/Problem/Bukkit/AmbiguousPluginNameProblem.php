@@ -35,8 +35,8 @@ class AmbiguousPluginNameProblem extends PluginProblem
     public static function getPatterns(): array
     {
         return [
-            '/Ambiguous plugin name `(\S+)\' for files `(plugins\/[^\']+)\' and `(plugins\/[^\']+)\' in `plugins\'/',
-            '/Ambiguous plugin name \'(\S+)\' for files \'(plugins\/[^\']+)\' and \'(plugins\/[^\']+)\' in \'(plugins[^\']*)\'/'
+            '/Ambiguous plugin name `(' . static::PLUGIN_NAME . ')\' for files `(plugins\/[^\']+)\' and `(plugins\/[^\']+)\' in `plugins\'/',
+            '/Ambiguous plugin name \'(' . static::PLUGIN_NAME . ')\' for files \'(plugins\/[^\']+)\' and \'(plugins\/[^\']+)\' in \'(plugins[^\']*)\'/'
         ];
     }
 
