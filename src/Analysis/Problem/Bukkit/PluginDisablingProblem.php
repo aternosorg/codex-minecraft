@@ -19,6 +19,6 @@ class PluginDisablingProblem extends PluginProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Error occurred while disabling (\S+)/'];
+        return ['/Error occurred while disabling (' . static::PLUGIN_NAME . ')/'];
     }
 }

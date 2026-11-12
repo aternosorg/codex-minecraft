@@ -284,6 +284,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_craftbukkit_plugin_event_plugin_name_with_dash(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/CraftBukkit/craftbukkit-plugin-event-plugin-name-with-dash.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_craftbukkit_plugin_event(): void
     {
         $log = new TestLog('Vanilla/Bukkit/CraftBukkit/craftbukkit-plugin-event.log');
@@ -357,6 +367,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_folia_start_1_20_6(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Folia/folia-start-1-20-6.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_folia_unsupported_plugin_name_with_dot(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Folia/folia-unsupported-plugin-name-with-dot.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -494,6 +514,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_multiple_dependencies_plugin_names_with_dash_and_dot(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-multiple-dependencies-plugin-names-with-dash-and-dot.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_plugin_api_version_too_low_1_20_6(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-api-version-too-low-1-20-6.log');
@@ -577,6 +607,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_paper_plugin_dependency_1161(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-dependency-1161.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_dependency_plugin_name_with_dash(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-dependency-plugin-name-with-dash.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -824,6 +864,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_spigot_command_exception_plugin_name_with_dash(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-command-exception-plugin-name-with-dash.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_spigot_command_exception(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-command-exception.log');
@@ -837,6 +887,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_spigot_exception_ticking_world_1_21_4(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-exception-ticking-world-1-21-4.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_plugin_dependency_plugin_name_with_dash(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-plugin-dependency-plugin-name-with-dash.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -867,6 +927,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_spigot_plugin_load(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-plugin-load.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_plugin_task_exception_plugin_name_with_dash(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-plugin-task-exception-plugin-name-with-dash.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 

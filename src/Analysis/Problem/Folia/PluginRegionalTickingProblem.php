@@ -28,7 +28,7 @@ class PluginRegionalTickingProblem extends PluginFileProblem
     {
         return [
             '/Could not load plugin \'((?!\.jar).*\.jar)\' in folder \'([^\']+)\''
-            . '\norg.bukkit.plugin.InvalidPluginException: Plugin (\w+) v(?:[^\n]*) is not marked as supporting regionised multithreading/'
+            . '\norg.bukkit.plugin.InvalidPluginException: Plugin (' . static::PLUGIN_NAME . ') v(?:[^\n]*) is not marked as supporting regionised multithreading/'
         ];
     }
 

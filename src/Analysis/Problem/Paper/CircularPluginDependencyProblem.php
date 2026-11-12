@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Paper;
 
 use Aternos\Codex\Analysis\InsightInterface;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginProblem;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -29,8 +30,8 @@ class CircularPluginDependencyProblem extends PaperProblem
     public static function getPatterns(): array
     {
         return [
-            '/\[LoadOrderTree\] \d+\) (\S+(?: -> \S+)+)/',
-            '/Circular load order:\n\s*(\S+(?: -> \S+)+)/'
+            '/\[LoadOrderTree\] \d+\) (' . PluginProblem::PLUGIN_NAME . '(?: -> ' . PluginProblem::PLUGIN_NAME . ')+)/',
+            '/Circular load order:\n\s*(' . PluginProblem::PLUGIN_NAME . '(?: -> ' . PluginProblem::PLUGIN_NAME . ')+)/'
         ];
     }
 

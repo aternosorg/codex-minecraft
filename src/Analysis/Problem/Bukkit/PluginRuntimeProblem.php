@@ -20,8 +20,8 @@ class PluginRuntimeProblem extends PluginProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not pass event \w+ to (\w+) .*/',
-            '/Task \S+ for (\w+) \S+ generated an exception/'
+            '/Could not pass event \w+ to (' . static::PLUGIN_NAME . ') .*/',
+            '/Task \S+ for (' . static::PLUGIN_NAME . ') \S+ generated an exception/'
         ];
     }
 }

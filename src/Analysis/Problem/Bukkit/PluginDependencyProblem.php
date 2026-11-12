@@ -36,7 +36,7 @@ class PluginDependencyProblem extends PluginFileProblem
     {
         return [
             '/Could not load \'(plugins[\/\\\][^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
-            . '\norg\.bukkit\.plugin\.UnknownDependencyException\: (?:(\w+)\n|Unknown dependency (\w+)\.)/'];
+            . '\norg\.bukkit\.plugin\.UnknownDependencyException\: (?:(' . static::PLUGIN_NAME . ')\n|Unknown dependency (' . static::PLUGIN_NAME . ')\.)/'];
     }
 
     /**
