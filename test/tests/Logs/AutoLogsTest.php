@@ -304,6 +304,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_craftbukkit_world_duplicate_multiple(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/CraftBukkit/craftbukkit-world-duplicate-multiple.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_craftbukkit_world_duplicate(): void
     {
         $log = new TestLog('Vanilla/Bukkit/CraftBukkit/craftbukkit-world-duplicate.log');
@@ -1114,6 +1124,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_incompatible_mods_multiple(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-incompatible-mods-multiple.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_incompatible_mods(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-incompatible-mods.log');
@@ -1634,6 +1654,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_forge_multiple_modules_export_multiple(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-multiple-modules-export-multiple.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_forge_multiple_modules_export(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-multiple-modules-export.log');
@@ -1997,6 +2027,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_vanilla_crash_report_1_21_11_pre_release_1(): void
     {
         $log = new TestLog('Vanilla/vanilla-crash-report-1-21-11-pre-release-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_vanilla_failed_to_parse_from_multiple_packs(): void
+    {
+        $log = new TestLog('Vanilla/vanilla-failed-to-parse-from-multiple-packs.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
