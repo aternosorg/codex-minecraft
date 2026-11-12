@@ -414,6 +414,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_misconfigured_update_directory_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-misconfigured-update-directory-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_multiple_dependencies_1_18_2(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-multiple-dependencies-1-18-2.log');

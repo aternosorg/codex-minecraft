@@ -7,6 +7,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ServerJarInPluginFolderProble
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\VersionDowngradeProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\UnregisteredClassLoaderProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\PluginUpdateProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\MisconfiguredUpdateDirectoryProblem;
 
 class PaperAnalyser extends BukkitAnalyser
 {
@@ -18,5 +19,6 @@ class PaperAnalyser extends BukkitAnalyser
         $this->addPossibleInsightClass(ServerJarInPluginFolderProblem::class);
         $this->addPossibleInsightClass(UnregisteredClassLoaderProblem::class);
         $this->addPossibleInsightClass(PluginUpdateProblem::class);
+        $this->addPossibleInsightClass(MisconfiguredUpdateDirectoryProblem::class);
     }
 }

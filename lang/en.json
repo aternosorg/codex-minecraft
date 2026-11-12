@@ -100,5 +100,8 @@
   "plugin-update-copy-problem": "The plugin file '{{source-path}}' could not be copied to '{{target-path}}' during the update process.",
   "plugin-update-rename-problem": "The plugin file '{{source-path}}' could not be renamed to '{{target-path}}' during the update process.",
   "plugin-update-delete-problem": "The plugin file '{{source-path}}' could not be deleted from the update folder during the update process.",
+  "misconfigured-update-directory-non-directory-problem": "The update directory '{{path}}' is not a directory. Auto updating will not work.",
+  "misconfigured-update-directory-same-problem": "The update directory '{{path}}' is the same location as the plugin directory '{{plugin-path}}'. Auto updating is disabled.",
+  "misconfigured-update-directory-access-problem": "The server could not access the plugin update folder or the plugins folder. Plugin updates placed in the update folder will not be installed.",
   "check-permissions-solution": "Check the file permissions of '{{path}}'."
 }
