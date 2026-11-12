@@ -5991,7 +5991,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The mod 'Backpacked' has a fatal error.",
+                "message": "The mod 'Backpacked' cannot run on a server. It is either a client-only mod or uses client-only code.",
                 "counter": 1,
                 "entry": {
                     "level": 3,
