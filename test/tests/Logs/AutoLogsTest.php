@@ -1044,6 +1044,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_client_only_entrypoint(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-client-only-entrypoint.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_client_only_mixin(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-client-only-mixin.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_conflicting_mods_unquoted(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-conflicting-mods-unquoted.log');
