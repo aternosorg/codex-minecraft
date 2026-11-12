@@ -104,5 +104,6 @@
   "misconfigured-update-directory-same-problem": "The update directory '{{path}}' is the same location as the plugin directory '{{plugin-path}}'. Auto updating is disabled.",
   "misconfigured-update-directory-access-problem": "The server could not access the plugin update folder or the plugins folder. Plugin updates placed in the update folder will not be installed.",
   "check-permissions-solution": "Check the file permissions of '{{path}}'.",
-  "plugin-name-conflict-problem": "Multiple plugins use the plugin name '{{name}}'. Only one of them can be loaded."
+  "plugin-name-conflict-problem": "Multiple plugins use the plugin name '{{name}}'. Only one of them can be loaded.",
+  "plugin-bootstrapper-problem": "The bootstrapper of the plugin '{{plugin-path}}' failed. The plugin will not be loaded."
 }

@@ -9,6 +9,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Paper\UnregisteredClassLoaderProble
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\PluginUpdateProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\MisconfiguredUpdateDirectoryProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\AmbiguousProvidedNameProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\PluginBootstrapperProblem;
 
 class PaperAnalyser extends BukkitAnalyser
 {
@@ -22,5 +23,6 @@ class PaperAnalyser extends BukkitAnalyser
         $this->addPossibleInsightClass(PluginUpdateProblem::class);
         $this->addPossibleInsightClass(MisconfiguredUpdateDirectoryProblem::class);
         $this->addPossibleInsightClass(AmbiguousProvidedNameProblem::class);
+        $this->addPossibleInsightClass(PluginBootstrapperProblem::class);
     }
 }
