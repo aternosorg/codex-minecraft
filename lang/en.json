@@ -107,5 +107,6 @@
   "plugin-name-conflict-problem": "Multiple plugins use the plugin name '{{name}}'. Only one of them can be loaded.",
   "plugin-bootstrapper-problem": "The bootstrapper of the plugin '{{plugin-path}}' failed. The plugin will not be loaded.",
   "plugin-data-folder-not-directory-problem": "The data folder '{{path}}' for the plugin '{{plugin-name}}' exists, but it is not a directory.",
-  "plugin-data-folder-rename-problem": "The old data folder '{{path}}' could not be renamed to '{{new-path}}'."
+  "plugin-data-folder-rename-problem": "The old data folder '{{path}}' could not be renamed to '{{new-path}}'.",
+  "plugin-without-descriptor-problem": "The file '{{file-path}}' is not a valid plugin, because it contains neither a plugin.yml nor a paper-plugin.yml."
 }

@@ -4,6 +4,7 @@ namespace Aternos\Codex\Minecraft\Analyser;
 
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ApiVersionLowerThanAllowedProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ServerJarInPluginFolderProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\PluginWithoutDescriptorProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\VersionDowngradeProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\UnregisteredClassLoaderProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\PluginUpdateProblem;
@@ -26,5 +27,6 @@ class PaperAnalyser extends BukkitAnalyser
         $this->addPossibleInsightClass(AmbiguousProvidedNameProblem::class);
         $this->addPossibleInsightClass(PluginBootstrapperProblem::class);
         $this->addPossibleInsightClass(PluginDataFolderProblem::class);
+        $this->addPossibleInsightClass(PluginWithoutDescriptorProblem::class);
     }
 }
