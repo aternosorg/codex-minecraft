@@ -8,6 +8,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Paper\VersionDowngradeProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\UnregisteredClassLoaderProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\PluginUpdateProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\MisconfiguredUpdateDirectoryProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\AmbiguousProvidedNameProblem;
 
 class PaperAnalyser extends BukkitAnalyser
 {
@@ -20,5 +21,6 @@ class PaperAnalyser extends BukkitAnalyser
         $this->addPossibleInsightClass(UnregisteredClassLoaderProblem::class);
         $this->addPossibleInsightClass(PluginUpdateProblem::class);
         $this->addPossibleInsightClass(MisconfiguredUpdateDirectoryProblem::class);
+        $this->addPossibleInsightClass(AmbiguousProvidedNameProblem::class);
     }
 }
