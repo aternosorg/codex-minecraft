@@ -29,7 +29,8 @@ class ModFatalProblem extends ModProblem
     {
         return [
             'mod-state' => '/\s*U[LCHIJAD]*E\s+(\w+)\{([^\}]+)\} \[([^\]]+)\] \(([^\)]+)\)/',
-            'failed-to-load' => '/^\s*([^\(\n]+) \(([^\)]+)\) has failed to load correctly/m'
+            // client-only causes are handled by ClientOnlyModProblem
+            'failed-to-load' => '/^\s*([^\(\n]+) \(([^\)]+)\) has failed to load correctly(?!\n' . ClientOnlyModProblem::CLIENT_ONLY_CAUSE . ')/m'
         ];
     }
 

@@ -3203,7 +3203,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The mod 'Lees Creatures' has thrown an exception.",
+                "message": "The mod 'Lees Creatures' cannot run on a server. It is either a client-only mod or uses client-only code.",
                 "counter": 1,
                 "entry": {
                     "level": 2,
@@ -3306,10 +3306,10 @@
                 },
                 "solutions": [
                     {
-                        "message": "Install a different version of the mod 'Lees Creatures'."
+                        "message": "Remove the mod 'Lees Creatures'."
                     },
                     {
-                        "message": "Remove the mod 'Lees Creatures'."
+                        "message": "Install a different version of the mod 'Lees Creatures'."
                     }
                 ]
             }
