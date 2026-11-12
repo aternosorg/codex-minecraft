@@ -1944,6 +1944,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_neoforge_1_20_4_server_early_jvm_warning(): void
+    {
+        $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-4-server-early-jvm-warning.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_neoforge_1_20_4_server_early(): void
     {
         $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-4-server-early.log');
@@ -2007,6 +2017,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_neoforge_26_1_client(): void
     {
         $log = new TestLog('Vanilla/NeoForge/neoforge-26-1-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_quilt_client_1_19_2_jvm_warning(): void
+    {
+        $log = new TestLog('Vanilla/Quilt/quilt-client-1-19-2-jvm-warning.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
