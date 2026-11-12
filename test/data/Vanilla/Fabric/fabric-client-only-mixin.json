@@ -1,0 +1,598 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Fabric 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:58:10] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[18:58:10] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:58:10] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[18:58:10] [main\/INFO]: Mappings not present!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:58:10] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[18:58:10] [main\/INFO]: Loading 5 mods:"
+                },
+                {
+                    "number": 5,
+                    "content": "\t- fabricloader 0.20.1"
+                },
+                {
+                    "number": 6,
+                    "content": "\t   \\-- mixinextras 0.5.5"
+                },
+                {
+                    "number": 7,
+                    "content": "\t- foo 1.0.0"
+                },
+                {
+                    "number": 8,
+                    "content": "\t- java 25"
+                },
+                {
+                    "number": 9,
+                    "content": "\t- minecraft 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:58:10] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[18:58:10] [main\/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:\/srv\/server\/libraries\/net\/fabricmc\/sponge-mixin\/0.17.5+mixin.0.8.7\/sponge-mixin-0.17.5+mixin.0.8.7.jar Service=Knot\/Fabric Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[18:58:10] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[18:58:10] [main\/ERROR]: Mixin prepare for mod foo failed preparing MinecraftMixin in foo.mixins.json: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException Cannot load class foo.mixin.MinecraftMixin in environment type SERVER"
+                },
+                {
+                    "number": 12,
+                    "content": "org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Cannot load class foo.mixin.MinecraftMixin in environment type SERVER"
+                },
+                {
+                    "number": 13,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:886)"
+                },
+                {
+                    "number": 14,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:935)"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:858)"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:587)"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:509)"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:485)"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.lockAndSelect(MixinProcessor.java:437)"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.couldTransformClass(MixinProcessor.java:397)"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.couldTransformClass(MixinTransformer.java:265)"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:233)"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:436)"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:337)"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:232)"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:490)"
+                },
+                {
+                    "number": 29,
+                    "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:510)"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)"
+                },
+                {
+                    "number": 31,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                },
+                {
+                    "number": 33,
+                    "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                },
+                {
+                    "number": 34,
+                    "content": "Caused by: java.lang.RuntimeException: Cannot load class foo.mixin.MinecraftMixin in environment type SERVER"
+                },
+                {
+                    "number": 35,
+                    "content": "\tat net.fabricmc.loader.impl.transformer.FabricTransformer.transform(FabricTransformer.java:64)"
+                },
+                {
+                    "number": 36,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassByteArray(KnotClassDelegate.java:476)"
+                },
+                {
+                    "number": 37,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassBytes(KnotClassDelegate.java:447)"
+                },
+                {
+                    "number": 38,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.getClassByteArray(Knot.java:308)"
+                },
+                {
+                    "number": 39,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.MixinServiceKnot.getClassBytes(MixinServiceKnot.java:63)"
+                },
+                {
+                    "number": 40,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.MixinServiceKnot.getClassNode(MixinServiceKnot.java:84)"
+                },
+                {
+                    "number": 41,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinInfo.loadMixinClass(MixinInfo.java:1332)"
+                },
+                {
+                    "number": 42,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:879)"
+                },
+                {
+                    "number": 43,
+                    "content": "\t... 20 more"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[18:58:10] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[18:58:10] [main\/ERROR]: Uncaught exception in thread \"main\""
+                },
+                {
+                    "number": 45,
+                    "content": "java.lang.RuntimeException: An exception occurred when launching the server!"
+                },
+                {
+                    "number": 46,
+                    "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:71)"
+                },
+                {
+                    "number": 47,
+                    "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                },
+                {
+                    "number": 48,
+                    "content": "Caused by: java.lang.RuntimeException: Mixin transformation of net.minecraft.server.Main failed"
+                },
+                {
+                    "number": 49,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:441)"
+                },
+                {
+                    "number": 50,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:337)"
+                },
+                {
+                    "number": 51,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:232)"
+                },
+                {
+                    "number": 52,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)"
+                },
+                {
+                    "number": 53,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:490)"
+                },
+                {
+                    "number": 54,
+                    "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:510)"
+                },
+                {
+                    "number": 55,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)"
+                },
+                {
+                    "number": 56,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                },
+                {
+                    "number": 57,
+                    "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                },
+                {
+                    "number": 58,
+                    "content": "\t... 1 more"
+                },
+                {
+                    "number": 59,
+                    "content": "Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [foo.mixins.json:MinecraftMixin from mod foo] from phase [DEFAULT] in config [foo.mixins.json] FAILED during PREPARE"
+                },
+                {
+                    "number": 60,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:685)"
+                },
+                {
+                    "number": 61,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinPrepareError(MixinProcessor.java:632)"
+                },
+                {
+                    "number": 62,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:590)"
+                },
+                {
+                    "number": 63,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:509)"
+                },
+                {
+                    "number": 64,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:485)"
+                },
+                {
+                    "number": 65,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.lockAndSelect(MixinProcessor.java:437)"
+                },
+                {
+                    "number": 66,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.couldTransformClass(MixinProcessor.java:397)"
+                },
+                {
+                    "number": 67,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.couldTransformClass(MixinTransformer.java:265)"
+                },
+                {
+                    "number": 68,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:233)"
+                },
+                {
+                    "number": 69,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)"
+                },
+                {
+                    "number": 70,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:436)"
+                },
+                {
+                    "number": 71,
+                    "content": "\t... 9 more"
+                },
+                {
+                    "number": 72,
+                    "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Cannot load class foo.mixin.MinecraftMixin in environment type SERVER"
+                },
+                {
+                    "number": 73,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:886)"
+                },
+                {
+                    "number": 74,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:935)"
+                },
+                {
+                    "number": 75,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:858)"
+                },
+                {
+                    "number": 76,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:587)"
+                },
+                {
+                    "number": 77,
+                    "content": "\t... 17 more"
+                },
+                {
+                    "number": 78,
+                    "content": "Caused by: java.lang.RuntimeException: Cannot load class foo.mixin.MinecraftMixin in environment type SERVER"
+                },
+                {
+                    "number": 79,
+                    "content": "\tat net.fabricmc.loader.impl.transformer.FabricTransformer.transform(FabricTransformer.java:64)"
+                },
+                {
+                    "number": 80,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassByteArray(KnotClassDelegate.java:476)"
+                },
+                {
+                    "number": 81,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassBytes(KnotClassDelegate.java:447)"
+                },
+                {
+                    "number": 82,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.getClassByteArray(Knot.java:308)"
+                },
+                {
+                    "number": 83,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.MixinServiceKnot.getClassBytes(MixinServiceKnot.java:63)"
+                },
+                {
+                    "number": 84,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.MixinServiceKnot.getClassNode(MixinServiceKnot.java:84)"
+                },
+                {
+                    "number": 85,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinInfo.loadMixinClass(MixinInfo.java:1332)"
+                },
+                {
+                    "number": 86,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:879)"
+                },
+                {
+                    "number": 87,
+                    "content": "\t... 20 more"
+                },
+                {
+                    "number": 88,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'foo' cannot run on a server. It is either a client-only mod or uses client-only code.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[18:58:10] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 11,
+                            "content": "[18:58:10] [main\/ERROR]: Mixin prepare for mod foo failed preparing MinecraftMixin in foo.mixins.json: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException Cannot load class foo.mixin.MinecraftMixin in environment type SERVER"
+                        },
+                        {
+                            "number": 12,
+                            "content": "org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Cannot load class foo.mixin.MinecraftMixin in environment type SERVER"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:886)"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:935)"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:858)"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:587)"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:509)"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:485)"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.lockAndSelect(MixinProcessor.java:437)"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.couldTransformClass(MixinProcessor.java:397)"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.couldTransformClass(MixinTransformer.java:265)"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:233)"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:436)"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:337)"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:232)"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:490)"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:510)"
+                        },
+                        {
+                            "number": 30,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)"
+                        },
+                        {
+                            "number": 31,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 33,
+                            "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 34,
+                            "content": "Caused by: java.lang.RuntimeException: Cannot load class foo.mixin.MinecraftMixin in environment type SERVER"
+                        },
+                        {
+                            "number": 35,
+                            "content": "\tat net.fabricmc.loader.impl.transformer.FabricTransformer.transform(FabricTransformer.java:64)"
+                        },
+                        {
+                            "number": 36,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassByteArray(KnotClassDelegate.java:476)"
+                        },
+                        {
+                            "number": 37,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassBytes(KnotClassDelegate.java:447)"
+                        },
+                        {
+                            "number": 38,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.getClassByteArray(Knot.java:308)"
+                        },
+                        {
+                            "number": 39,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.MixinServiceKnot.getClassBytes(MixinServiceKnot.java:63)"
+                        },
+                        {
+                            "number": 40,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.MixinServiceKnot.getClassNode(MixinServiceKnot.java:84)"
+                        },
+                        {
+                            "number": 41,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinInfo.loadMixinClass(MixinInfo.java:1332)"
+                        },
+                        {
+                            "number": 42,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:879)"
+                        },
+                        {
+                            "number": 43,
+                            "content": "\t... 20 more"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'foo'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:58:10] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[18:58:10] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            },
+            {
+                "message": "Fabric loader version: 0.20.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:58:10] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[18:58:10] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.20.1"
+            }
+        ]
+    }
+}
