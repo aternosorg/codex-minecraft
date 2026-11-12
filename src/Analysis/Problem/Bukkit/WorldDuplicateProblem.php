@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -42,5 +43,17 @@ class WorldDuplicateProblem extends BukkitProblem
 
         $this->addSolution(new FileDeleteSolution($this->worldName . "/uid.dat"));
         $this->addSolution(new FileDeleteSolution($this->worldName));
+    }
+
+    /**
+     * Duplicate worlds with different names are different problems with different solutions
+     *
+     * @inheritDoc
+     */
+    public function isEqual(InsightInterface $insight): bool
+    {
+        return parent::isEqual($insight)
+            && $insight instanceof static
+            && $this->getWorldName() === $insight->getWorldName();
     }
 }

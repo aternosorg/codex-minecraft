@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\WorldRepairSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
@@ -43,5 +44,17 @@ class MultiverseLoadProblem extends SpecificPluginProblem
 
         $this->addSolution(new WorldRepairSolution($this->getWorldName()));
         $this->addSolution(new FileDeleteSolution($this->getWorldName()));
+    }
+
+    /**
+     * Corrupt worlds with different names are different problems with different solutions
+     *
+     * @inheritDoc
+     */
+    public function isEqual(InsightInterface $insight): bool
+    {
+        return parent::isEqual($insight)
+            && $insight instanceof static
+            && $this->getWorldName() === $insight->getWorldName();
     }
 }

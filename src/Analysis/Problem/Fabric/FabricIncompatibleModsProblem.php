@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Fabric;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -57,5 +58,17 @@ class FabricIncompatibleModsProblem extends FabricModProblem
         $this->setSecondModName($matches[2]);
         $this->addSolution(new ModRemoveSolution($this->getModName()));
         $this->addSolution(new ModRemoveSolution($this->getSecondModName()));
+    }
+
+    /**
+     * The same mod can be incompatible with several other mods, so the second mod has to match too
+     *
+     * @inheritDoc
+     */
+    public function isEqual(InsightInterface $insight): bool
+    {
+        return parent::isEqual($insight)
+            && $insight instanceof static
+            && $this->getSecondModName() === $insight->getSecondModName();
     }
 }
