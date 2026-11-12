@@ -394,16 +394,6 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_paper_event_listener_missing_class_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-event-listener-missing-class-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
     public function test_paper_ambiguous_provided_name_26_3(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-ambiguous-provided-name-26-3.log');
@@ -417,6 +407,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_paper_circular_plugin_dependency_26_3(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-circular-plugin-dependency-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_event_listener_missing_class_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-event-listener-missing-class-26-3.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -567,6 +567,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_paper_plugin_dependency_1161(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-dependency-1161.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_dependency_without_plugin_name(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-dependency-without-plugin-name.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
