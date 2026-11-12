@@ -105,5 +105,7 @@
   "misconfigured-update-directory-access-problem": "The server could not access the plugin update folder or the plugins folder. Plugin updates placed in the update folder will not be installed.",
   "check-permissions-solution": "Check the file permissions of '{{path}}'.",
   "plugin-name-conflict-problem": "Multiple plugins use the plugin name '{{name}}'. Only one of them can be loaded.",
-  "plugin-bootstrapper-problem": "The bootstrapper of the plugin '{{plugin-path}}' failed. The plugin will not be loaded."
+  "plugin-bootstrapper-problem": "The bootstrapper of the plugin '{{plugin-path}}' failed. The plugin will not be loaded.",
+  "plugin-data-folder-not-directory-problem": "The data folder '{{path}}' for the plugin '{{plugin-name}}' exists, but it is not a directory.",
+  "plugin-data-folder-rename-problem": "The old data folder '{{path}}' could not be renamed to '{{new-path}}'."
 }
