@@ -16,13 +16,19 @@ class FabricJavaVersionInformation extends FabricInformation
     }
 
     /**
+     * Matches the Java version in the list of loaded mods, either inline or one mod per line:
+     * [14:04:09] [main/INFO]: [FabricLoader] Loading 3 mods: minecraft@1.16.5, java@11, fabricloader@0.11.1
+     * [11:47:03] [main/INFO] (FabricLoader) Loading 38 mods:
+     *     - fabric 0.42.0+1.16
+     *     - java 17
+     *
      * @inheritDoc
      */
     public static function getPatterns(): array
     {
         return [
-            '/' . FabricLog::getPrefixPattern() . '[\[(]FabricLoader[\])] Loading [0-9]+ mods:[\s\n](?:\s*[^,]+, ?)*(?:\s+- )?java[ @](\d+)/',
-            '/' . FabricLog::getPrefixPattern() . '(?:[\[(]FabricLoader[\])] )?Loading [0-9]+ mods:[\s\n](?:\s*- .+\n ?)*(?:\s+- )?java[ @](\d+)/'
+            '/' . FabricLog::getPrefixPattern() . '[\[(]FabricLoader[\])] Loading [0-9]+ mods:[\s\n](?:\s*[^,]+, ?)*(?:\s+- )?java[ @](?<version>\d+)/',
+            '/' . FabricLog::getPrefixPattern() . '(?:[\[(]FabricLoader[\])] )?Loading [0-9]+ mods:[\s\n](?:\s*- .+\n ?)*(?:\s+- )?java[ @](?<version>\d+)/'
         ];
     }
 
@@ -31,6 +37,6 @@ class FabricJavaVersionInformation extends FabricInformation
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->value = $matches[3];
+        $this->value = $matches['version'];
     }
 }

@@ -13,11 +13,15 @@ class QuiltJavaVersionInformation extends QuiltInformation
     }
 
     /**
+     * Matches the Java version in the list of loaded mods:
+     * [19:33:44] [main/INFO]: Loading 3 mods:
+     *     - java 17
+     *
      * @inheritDoc
      */
     public static function getPatterns(): array
     {
-        return ['/' . VanillaServerLog::getPrefixPattern() . 'Loading [0-9]+ mods:[\s\n](?:\s*- .+\n ?)*(?:\s+- )?java[ @](\d+)/'];
+        return ['/' . VanillaServerLog::getPrefixPattern() . 'Loading [0-9]+ mods:[\s\n](?:\s*- .+\n ?)*(?:\s+- )?java[ @](?<version>\d+)/'];
     }
 
     /**
@@ -25,6 +29,6 @@ class QuiltJavaVersionInformation extends QuiltInformation
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->value = $matches[3];
+        $this->value = $matches['version'];
     }
 }

@@ -9,7 +9,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 abstract class GeyserLog extends MinecraftLog
 {
     protected static string $pattern = '/^(\[(?:[0-9]{2}\:?){3}\.[0-9]{3} [^\/]+\/(\w+)\]).*$/';
-    protected static string $prefixPattern = '(\[(?:[0-9]{2}\:?){3}\.[0-9]{3} [^\/]+\/(\w+)\]) ';
+    protected static string $prefixPattern = '\[(?:[0-9]{2}\:?){3}\.[0-9]{3} [^\/]+\/\w+\] ';
 
     /**
      * @return GeyserAnalyser
