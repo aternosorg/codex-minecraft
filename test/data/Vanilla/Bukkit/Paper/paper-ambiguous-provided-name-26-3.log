@@ -1,0 +1,85 @@
+Starting org.bukkit.craftbukkit.Main
+2026-11-11T14:08:47.398130Z ServerMain WARN Advanced terminal features are not available in this environment
+[15:08:47 INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.3+1-LTS-2; Oracle Corporation null) on Mac OS X 27.2.1 (aarch64)
+[15:08:47 INFO]: [bootstrap] Loading Paper 26.3-248-main@0727243 (2026-11-10T11:35:52Z) for Minecraft 26.3
+[15:08:47 INFO]: [PluginInitializerManager] Initializing plugins...
+[15:08:47 INFO]: [PluginInitializerManager] Initialized 2 plugins
+[15:08:47 INFO]: [PluginInitializerManager] Paper plugins (2):
+ - Bar (1.0), Baz (1.0)
+[15:08:47 WARN]: [oshi.software.os.mac.MacOperatingSystem] Unable to parse version 27.2 to a codename.
+[15:08:48 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:08:48 INFO]: [com.destroystokyo.paper.profile.PaperServicesDiscoveryService] Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[15:08:49 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 153,0ms
+[15:08:49 INFO]: Loaded 1866 advancements
+[15:08:49 INFO]: Starting minecraft server version 26.3
+[15:08:49 INFO]: Loading properties
+[15:08:49 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)
+[15:08:49 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:08:49 INFO]: Server Ping Player Sample Count: 12
+[15:08:49 INFO]: Using 4 threads for Netty based IO
+[15:08:49 INFO]: [ca.spottedleaf.moonrise.common.util.FMA] FMA supported: true for all ARMv8 platforms
+[15:08:49 INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[15:08:49 INFO]: Default game type: SURVIVAL
+[15:08:49 INFO]: Generating keypair
+[15:08:49 INFO]: Starting Minecraft server on *:25599
+[15:08:49 INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[15:08:49 INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[15:08:49 WARN]: [ModernPluginLoadingStrategy] `Foo' is provided by both `Bar' and `Baz'
+[15:08:49 INFO]: [Bar] Loading server plugin Bar v1.0
+[15:08:49 INFO]: [Baz] Loading server plugin Baz v1.0
+[15:08:49 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:08:49 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:08:49 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:08:49 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:08:49 INFO]: Preparing level "world"
+[15:08:50 INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[15:08:50 INFO]: Preparing spawn area: 100%
+[15:08:50 INFO]: Prepared spawn area in 1 ms
+[15:08:50 INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[15:08:50 INFO]: Prepared spawn area in 0 ms
+[15:08:50 INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[15:08:50 INFO]: Prepared spawn area in 0 ms
+[15:08:50 INFO]: Done preparing level "world" (0.116s)
+[15:08:50 INFO]: [Bar] Enabling Bar v1.0
+[15:08:50 INFO]: [Bar] EmptyPlugin enabled
+[15:08:50 INFO]: [Baz] Enabling Baz v1.0
+[15:08:50 INFO]: [Baz] EmptyPlugin enabled
+[15:08:50 INFO]: [spark] Starting background profiler...
+[15:08:50 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:08:50 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:08:50 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:08:50 INFO]: Running delayed init tasks
+[15:08:50 INFO]: Done (3.230s)! For help, type "help"
+[15:08:51 INFO]: System chat: Stopping the server
+[15:08:51 INFO]: Stopping server
+[15:08:51 INFO]: [Baz] Disabling Baz v1.0
+[15:08:51 INFO]: [Baz] EmptyPlugin disabled
+[15:08:51 INFO]: [Bar] Disabling Bar v1.0
+[15:08:51 INFO]: [Bar] EmptyPlugin disabled
+[15:08:51 INFO]: Saving players
+[15:08:51 INFO]: Saving worlds
+[15:08:51 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:08:51 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[15:08:51 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[15:08:51 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[15:08:51 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0,00s
+[15:08:51 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[15:08:51 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[15:08:51 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:08:51 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[15:08:51 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[15:08:51 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[15:08:51 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0,00s
+[15:08:51 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[15:08:51 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[15:08:51 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:08:51 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[15:08:51 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[15:08:51 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[15:08:51 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0,00s
+[15:08:51 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[15:08:51 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[15:08:51 INFO]: Waiting for all RegionFile I/O tasks to complete...
+[15:08:51 INFO]: All RegionFile I/O tasks to complete
+[15:08:51 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[15:08:51 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
