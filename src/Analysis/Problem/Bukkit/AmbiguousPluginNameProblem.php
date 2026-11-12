@@ -36,7 +36,7 @@ class AmbiguousPluginNameProblem extends PluginProblem
     {
         return [
             '/Ambiguous plugin name `(' . static::PLUGIN_NAME . ')\' for files `(plugins\/[^\']+)\' and `(plugins\/[^\']+)\' in `plugins\'/',
-            '/Ambiguous plugin name \'(' . static::PLUGIN_NAME . ')\' for files \'(plugins\/[^\']+)\' and \'(plugins\/[^\']+)\' in \'(plugins[^\']*)\'/'
+            '/Ambiguous plugin name \'(' . static::PLUGIN_NAME . ')\' for files \'(plugins\/[^\']+)\' and \'(plugins\/[^\']+)\' in \'plugins[^\']*\'/'
         ];
     }
 

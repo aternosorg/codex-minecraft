@@ -27,12 +27,12 @@ class FabricModDependencyProblem extends FabricModProblem
     {
         return [
             'short-error' => '/net\.fabricmc\.loader\.discovery\.ModResolutionException: Could not find required mod: ' . static::$modNamePattern . ' requires {' . static::$modNamePattern . ' @ \[([^\]]+)\]}/',
-            'any' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version of (?:mod )?" . static::$modNamePattern . ",/",
-            'minimum' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires version ([^ ]+) or later of (?:mod )?" . static::$modNamePattern . ",/",
-            'any-after' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version after ([^ ]+) of (?:mod )?" . static::$modNamePattern . ",/",
-            'any-before' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version before ([^ ]+) of (?:mod )?" . static::$modNamePattern . ",/",
-            'specific' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires version ([^ ]+) of (?:mod )?" . static::$modNamePattern . ",/",
-            'between' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version between ([^ ]+) \((inclusive|exclusive)\) and ([^ ]+) \((inclusive|exclusive)\) of (?:mod )?" . static::$modNamePattern . ",/"
+            'any' => "/- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version of (?:mod )?" . static::$modNamePattern . ",/",
+            'minimum' => "/- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires version ([^ ]+) or later of (?:mod )?" . static::$modNamePattern . ",/",
+            'any-after' => "/- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version after ([^ ]+) of (?:mod )?" . static::$modNamePattern . ",/",
+            'any-before' => "/- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version before ([^ ]+) of (?:mod )?" . static::$modNamePattern . ",/",
+            'specific' => "/- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires version ([^ ]+) of (?:mod )?" . static::$modNamePattern . ",/",
+            'between' => "/- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version between ([^ ]+) \((inclusive|exclusive)\) and ([^ ]+) \((inclusive|exclusive)\) of (?:mod )?" . static::$modNamePattern . ",/"
         ];
     }
 

@@ -31,7 +31,7 @@ class WorldDuplicateProblem extends BukkitProblem
      */
     public static function getPatterns(): array
     {
-        return ['/World (.*) is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from .*\'s world directory if you want to be able to load the duplicate world./'];
+        return ['/World (.*) is a duplicate of another world and has been prevented from loading\./'];
     }
 
     /**

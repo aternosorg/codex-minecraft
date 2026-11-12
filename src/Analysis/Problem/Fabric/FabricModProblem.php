@@ -15,7 +15,7 @@ abstract class FabricModProblem extends FabricProblem
      * Matches a mod as "'Name' (id)" or as a plain id
      * The branch reset group `(?|...)` makes both alternatives capture the name in the same single group
      */
-    protected static string $modNamePattern = "(?|'(?!Minecraft')([^']+)' \((?:[^\)]+)\)|([\w-]+))";
+    protected static string $modNamePattern = "(?|'(?!Minecraft')([^']+)' \([^)]+\)|([\w-]+))";
     protected static string $modIDPattern = "([^ ,]+)";
 
     protected string $modName;

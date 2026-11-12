@@ -14,11 +14,11 @@ class ReportParser extends \Aternos\Codex\Parser\Parser
      * @var array<int, array<string>> Regular expression patterns to match log lines to levels
      */
     protected const array PATTERN = [
-        ReportLevel::WARNING->value => ["/\s*WARNING: .*$/"],
+        ReportLevel::WARNING->value => ["/WARNING: /"],
         ReportLevel::STACKTRACE->value => ["/^\s+at (?:\w+\/+)?\S+\(.+\)$/", "/^(?:Caused by: )?[a-z]+\.(?:\w+\.?)+: .*$/", "/^\\tat [a-z]+\..*$/"],
         ReportLevel::INFO->value => ["/^([^|:]+:) .+$/", "/^(\w+:)$/", "/^(\\t[^:.]+:)$/"],
         ReportLevel::TITLE->value => ["/^-{2,4} .* -{2,4}$/"],
-        ReportLevel::COMMENT->value => ["/\/\/.*$/"],
+        ReportLevel::COMMENT->value => ["/^\/\/ /"],
     ];
 
     /**
