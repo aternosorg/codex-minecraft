@@ -594,6 +594,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_plugin_disabling_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-disabling-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_plugin_disabling(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-disabling.log');
