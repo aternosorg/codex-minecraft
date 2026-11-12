@@ -360,7 +360,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The name 'Foo' is provided by both 'Bar' and 'Baz'.",
+                "message": "Multiple plugins use the plugin name 'Foo'. Only one of them can be loaded.",
                 "counter": 1,
                 "entry": {
                     "level": 6,
