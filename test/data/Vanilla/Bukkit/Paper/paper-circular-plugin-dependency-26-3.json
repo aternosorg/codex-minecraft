@@ -974,7 +974,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "Circular plugin dependencies detected: CycleA -> CycleB -> CycleA. At least one plugin in the cycle must remove its dependency.",
+                "message": "Circular plugin dependencies detected: CycleA -> CycleB -> CycleA.",
                 "counter": 1,
                 "entry": {
                     "level": 3,
@@ -989,7 +989,10 @@
                 },
                 "solutions": [
                     {
-                        "message": "Remove one of the dependencies that form the cycle 'CycleA -> CycleB -> CycleA'."
+                        "message": "Remove the plugin 'CycleA'."
+                    },
+                    {
+                        "message": "Remove the plugin 'CycleB'."
                     }
                 ]
             }

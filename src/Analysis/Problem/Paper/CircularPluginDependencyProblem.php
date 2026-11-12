@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Paper;
 
 use Aternos\Codex\Analysis\InsightInterface;
-use Aternos\Codex\Minecraft\Analysis\Solution\Paper\PaperRemoveDependencySolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**
@@ -18,10 +18,6 @@ class CircularPluginDependencyProblem extends PaperProblem
      */
     public function getMessage(): string
     {
-        if ($this->cycle === "") {
-            return Translator::getInstance()->getTranslation("circular-plugin-dependency-unknown-problem");
-        }
-
         return Translator::getInstance()->getTranslation("circular-plugin-dependency-problem", [
             "cycle" => $this->cycle
         ]);
@@ -34,8 +30,7 @@ class CircularPluginDependencyProblem extends PaperProblem
     {
         return [
             '/\[LoadOrderTree\] \d+\) (\S+(?: -> \S+)+)/',
-            '/Circular load order:\n\s*(\S+(?: -> \S+)+)/',
-            '/Cannot import plugin that causes cyclic dependencies!/'
+            '/Circular load order:\n\s*(\S+(?: -> \S+)+)/'
         ];
     }
 
@@ -44,9 +39,13 @@ class CircularPluginDependencyProblem extends PaperProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->cycle = $matches[1] ?? "";
+        $this->cycle = $matches[1];
 
-        $this->addSolution(new PaperRemoveDependencySolution($this->cycle));
+        // "A -> B -> A" contains the first plugin twice
+        $pluginNames = array_unique(explode(" -> ", $this->cycle));
+        foreach ($pluginNames as $pluginName) {
+            $this->addSolution(new PluginRemoveSolution($pluginName));
+        }
     }
 
     /**

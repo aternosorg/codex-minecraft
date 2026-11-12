@@ -109,7 +109,5 @@
   "plugin-data-folder-not-directory-problem": "The data folder '{{path}}' for the plugin '{{plugin-name}}' exists, but it is not a directory.",
   "plugin-data-folder-rename-problem": "The old data folder '{{path}}' could not be renamed to '{{new-path}}'.",
   "plugin-without-descriptor-problem": "The file '{{file-path}}' is not a valid plugin, because it contains neither a plugin.yml nor a paper-plugin.yml.",
-  "circular-plugin-dependency-problem": "Circular plugin dependencies detected: {{cycle}}. At least one plugin in the cycle must remove its dependency.",
-  "circular-plugin-dependency-unknown-problem": "Circular plugin dependencies detected. At least one plugin in the cycle must remove its dependency.",
-  "remove-dependency-solution": "Remove one of the dependencies that form the cycle '{{cycle}}'."
+  "circular-plugin-dependency-problem": "Circular plugin dependencies detected: {{cycle}}."
 }
