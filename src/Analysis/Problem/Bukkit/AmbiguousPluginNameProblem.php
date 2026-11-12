@@ -30,13 +30,17 @@ class AmbiguousPluginNameProblem extends PluginProblem
     }
 
     /**
+     * Bukkit/Spigot quote with a backtick and a quote, Paper's ModernPluginLoadingStrategy with quotes only:
+     * Ambiguous plugin name `WorldEdit' for files `plugins/worldedit-bukkit-7.0.0-beta-05.jar' and `plugins/worldedit-bukkit-7.0.0-beta-01.jar' in `plugins'
+     * Ambiguous plugin name 'WorldEdit' for files 'plugins/.paper-remapped/worldedit-bukkit-7.3.6.jar' and 'plugins/.paper-remapped/worldedit-bukkit-7.3.4.jar' in 'plugins/.paper-remapped'
+     *
      * @inheritDoc
      */
     public static function getPatterns(): array
     {
         return [
-            '/Ambiguous plugin name `(' . static::PLUGIN_NAME . ')\' for files `(plugins\/[^\']+)\' and `(plugins\/[^\']+)\' in `plugins\'/',
-            '/Ambiguous plugin name \'(' . static::PLUGIN_NAME . ')\' for files \'(plugins\/[^\']+)\' and \'(plugins\/[^\']+)\' in \'(plugins[^\']*)\'/'
+            '/Ambiguous plugin name `(?<plugin>' . static::PLUGIN_NAME . ')\' for files `(?<first>plugins\/[^\']+)\' and `(?<second>plugins\/[^\']+)\' in `plugins\'/',
+            '/Ambiguous plugin name \'(?<plugin>' . static::PLUGIN_NAME . ')\' for files \'(?<first>plugins\/[^\']+)\' and \'(?<second>plugins\/[^\']+)\' in \'plugins[^\']*\'/'
         ];
     }
 
@@ -45,9 +49,9 @@ class AmbiguousPluginNameProblem extends PluginProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->pluginName = $matches[1];
-        $this->firstPluginPath = $this->correctPluginPath($matches[2]);
-        $this->secondPluginPath = $this->correctPluginPath($matches[3]);
+        $this->pluginName = $matches["plugin"];
+        $this->firstPluginPath = $this->correctPluginPath($matches["first"]);
+        $this->secondPluginPath = $this->correctPluginPath($matches["second"]);
 
         $this->addSolution(new FileDeleteSolution($this->getFirstPluginPath()));
         $this->addSolution(new FileDeleteSolution($this->getSecondPluginPath()));

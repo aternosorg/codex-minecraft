@@ -36,14 +36,19 @@ class PluginUpdateProblem extends PaperProblem
     }
 
     /**
+     * The pattern key is the variant used in getMessage():
+     * Could not copy 'plugins/update/TestPlugin-1.1.jar' to 'plugins/TestPlugin.jar' in update plugin process
+     * Could not rename 'plugins/update/TestPlugin-1.1.jar' to 'plugins/TestPlugin.jar' in update plugin process
+     * Could not delete 'plugins/update/TestPlugin-1.1.jar' from update folder in update plugin process
+     *
      * @inheritDoc
      */
     public static function getPatterns(): array
     {
         return [
-            '/Could not copy \'([^\']+)\' to \'([^\']+)\' in update plugin process/',
-            '/Could not rename \'([^\']+)\' to \'([^\']+)\' in update plugin process/',
-            '/Could not delete \'([^\']+)\' from update folder in update plugin process/'
+            '/Could not copy \'(?<source>[^\']+)\' to \'(?<target>[^\']+)\' in update plugin process/',
+            '/Could not rename \'(?<source>[^\']+)\' to \'(?<target>[^\']+)\' in update plugin process/',
+            '/Could not delete \'(?<source>[^\']+)\' from update folder in update plugin process/'
         ];
     }
 
@@ -53,11 +58,8 @@ class PluginUpdateProblem extends PaperProblem
     public function setMatches(array $matches, mixed $patternKey): void
     {
         $this->variant = $patternKey;
-        $this->sourcePath = $matches[1];
-
-        if ($patternKey !== 2) {
-            $this->targetPath = $matches[2];
-        }
+        $this->sourcePath = $matches["source"];
+        $this->targetPath = $matches["target"] ?? "";
 
         $this->addSolution(new PaperCheckPermissionsSolution("plugins"));
     }
