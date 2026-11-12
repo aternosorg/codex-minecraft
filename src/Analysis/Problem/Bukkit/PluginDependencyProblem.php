@@ -42,8 +42,8 @@ class PluginDependencyProblem extends PluginFileProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not load \'(plugins[\/\\\][^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
-            . '\norg\.bukkit\.plugin\.UnknownDependencyException\: (?|(?<dependency>' . static::PLUGIN_NAME . ')\n'
+            '/Could not load \'(plugins[\/\\\\][^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
+            . '\norg\.bukkit\.plugin\.UnknownDependencyException: (?|(?<dependency>' . static::PLUGIN_NAME . ')\n'
             . '|Unknown dependency (?<dependency>' . static::PLUGIN_NAME . ')\.)/'];
     }
 

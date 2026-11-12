@@ -19,6 +19,6 @@ class BedrockVersionInformation extends BedrockInformation
      */
     public static function getPatterns(): array
     {
-        return ['/Version ([0-9\.]+)/'];
+        return ['/Version ([0-9.]+)/'];
     }
 }

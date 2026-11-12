@@ -21,7 +21,7 @@ class AquaticWorldOnOlderVersionProblem extends VanillaProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Encountered an unexpected exception\njava\.lang\.IllegalArgumentException\: ChunkNibbleArrays should be 2048 bytes not\: 0/'];
+        return ['/Encountered an unexpected exception\njava\.lang\.IllegalArgumentException: ChunkNibbleArrays should be 2048 bytes not: 0/'];
     }
 
     /**

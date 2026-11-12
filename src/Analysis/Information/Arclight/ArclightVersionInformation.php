@@ -21,7 +21,7 @@ class ArclightVersionInformation extends ArclightInformation
     public static function getPatterns(): array
     {
         return [
-            '/This server is running Arclight version arclight-[0-9\.wa]+-[\.0-9]+(?:-SNAPSHOT)?-([0-9a-f]+) /'
+            '/This server is running Arclight version arclight-[0-9.wa]+-[.0-9]+(?:-SNAPSHOT)?-([0-9a-f]+) /'
         ];
     }
 }

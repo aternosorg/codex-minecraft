@@ -27,7 +27,7 @@ class PluginCommandExceptionProblem extends PluginProblem
      */
     public static function getPatterns(): array
     {
-        return ['/org\.bukkit\.command\.CommandException\: Cannot execute command \'([^\']+)\' in plugin (' . static::PLUGIN_NAME . ')/'];
+        return ['/org\.bukkit\.command\.CommandException: Cannot execute command \'([^\']+)\' in plugin (' . static::PLUGIN_NAME . ')/'];
     }
 
     /**

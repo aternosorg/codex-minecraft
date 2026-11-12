@@ -6,7 +6,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper\PaperLog;
 
 abstract class PurpurLog extends PaperLog
 {
-    protected static string $logIdentifier = "(?:Purpur|CraftBukkit) version git\-Purpur"
+    protected static string $logIdentifier = "(?:Purpur|CraftBukkit) version git-Purpur"
     . "|This server is running Purpur version";
 
     /**
