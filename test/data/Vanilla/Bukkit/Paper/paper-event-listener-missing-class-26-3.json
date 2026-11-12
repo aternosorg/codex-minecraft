@@ -336,7 +336,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The event listener 'com.repro.MissingEventHandlerPlugin' could not be registered, because the class 'com\/repro\/MissingEvent' it references does not exist.",
+                "message": "The plugin 'MissingEvent' could not register the event listener 'com.repro.MissingEventHandlerPlugin', because the class 'com\/repro\/MissingEvent' it references does not exist.",
                 "counter": 1,
                 "entry": {
                     "level": 6,

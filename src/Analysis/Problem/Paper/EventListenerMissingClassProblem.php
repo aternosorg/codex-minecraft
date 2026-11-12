@@ -16,7 +16,7 @@ class EventListenerMissingClassProblem extends PaperProblem
 {
     protected string $listener;
     protected string $missingClass;
-    protected ?string $pluginName = null;
+    protected string $pluginName;
 
     /**
      * @inheritDoc
@@ -24,6 +24,7 @@ class EventListenerMissingClassProblem extends PaperProblem
     public function getMessage(): string
     {
         return Translator::getInstance()->getTranslation("event-listener-missing-class-problem", [
+            "plugin-name" => $this->pluginName,
             "listener" => $this->listener,
             "missing-class" => $this->missingClass,
         ]);
@@ -35,7 +36,7 @@ class EventListenerMissingClassProblem extends PaperProblem
     public static function getPatterns(): array
     {
         return [
-            '/(?:\[(\S+)\] )?Failed to register events for (?:class )?(\S+) because (\S+) does not exist\./',
+            '/\[([^\]]+)\] Failed to register events for (?:class )?(\S+) because (\S+) does not exist\./',
         ];
     }
 
@@ -44,14 +45,20 @@ class EventListenerMissingClassProblem extends PaperProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->pluginName = ($matches[1] ?? '') !== '' ? $matches[1] : null;
+        $this->pluginName = $matches[1];
         $this->listener = $matches[2];
         $this->missingClass = $matches[3];
 
-        if ($this->pluginName !== null) {
-            $this->addSolution(new PluginInstallDifferentVersionSolution($this->pluginName));
-            $this->addSolution(new PluginRemoveSolution($this->pluginName));
-        }
+        $this->addSolution(new PluginInstallDifferentVersionSolution($this->pluginName));
+        $this->addSolution(new PluginRemoveSolution($this->pluginName));
+    }
+
+    /**
+     * @return string
+     */
+    public function getPluginName(): string
+    {
+        return $this->pluginName;
     }
 
     /**
@@ -77,6 +84,7 @@ class EventListenerMissingClassProblem extends PaperProblem
     public function isEqual(InsightInterface $insight): bool
     {
         return $insight instanceof static
+            && $this->getPluginName() === $insight->getPluginName()
             && $this->getListener() === $insight->getListener()
             && $this->getMissingClass() === $insight->getMissingClass();
     }
