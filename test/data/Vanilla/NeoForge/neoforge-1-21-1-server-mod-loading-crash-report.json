@@ -72,9 +72,9 @@
             ]
         },
         {
-            "level": 6,
+            "level": 10,
             "time": null,
-            "prefix": "net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 7,
