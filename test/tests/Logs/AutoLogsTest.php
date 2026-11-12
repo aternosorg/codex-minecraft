@@ -304,6 +304,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_craftbukkit_world_duplicate_multiple(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/CraftBukkit/craftbukkit-world-duplicate-multiple.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_craftbukkit_world_duplicate(): void
     {
         $log = new TestLog('Vanilla/Bukkit/CraftBukkit/craftbukkit-world-duplicate.log');
@@ -394,6 +404,36 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_ambiguous_provided_name_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-ambiguous-provided-name-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_circular_plugin_dependency_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-circular-plugin-dependency-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_event_listener_missing_class_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-event-listener-missing-class-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_exception_in_server_tick_loop_1_20_4(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-exception-in-server-tick-loop-1-20-4.log');
@@ -407,6 +447,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_paper_metaspace(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-metaspace.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_misconfigured_update_directory_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-misconfigured-update-directory-26-3.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -464,6 +514,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_plugin_bootstrapper_failed_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-bootstrapper-failed-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_datafolder_not_directory_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-datafolder-not-directory-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_plugin_dependency_1_18_2_duplicate(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-dependency-1-18-2-duplicate.log');
@@ -507,6 +577,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_paper_plugin_dependency_1161(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-dependency-1161.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_dependency_without_plugin_name(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-dependency-without-plugin-name.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -577,6 +657,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_paper_plugin_unsupported_class_version_1_21_1(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-unsupported-class-version-1-21-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_update_failed_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-update-failed-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_without_descriptor_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-without-descriptor-26-3.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -954,6 +1054,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_client_only_entrypoint(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-client-only-entrypoint.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_client_only_mixin(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-client-only-mixin.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_conflicting_mods_unquoted(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-conflicting-mods-unquoted.log');
@@ -1027,6 +1147,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_fabric_incompatible_minecraft_version(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-incompatible-minecraft-version.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_incompatible_mods_multiple(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-incompatible-mods-multiple.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1554,6 +1684,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_forge_multiple_modules_export_multiple(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-multiple-modules-export-multiple.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_forge_multiple_modules_export(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-multiple-modules-export.log');
@@ -1917,6 +2057,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_vanilla_crash_report_1_21_11_pre_release_1(): void
     {
         $log = new TestLog('Vanilla/vanilla-crash-report-1-21-11-pre-release-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_vanilla_failed_to_parse_from_multiple_packs(): void
+    {
+        $log = new TestLog('Vanilla/vanilla-failed-to-parse-from-multiple-packs.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 

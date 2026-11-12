@@ -1,0 +1,47 @@
+[14:14:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[14:14:08] [ServerMain/INFO]: Found new data pack file/far-end-ender-expansion-2-0-3-v1-17-1.zip, loading it automatically
+[14:14:08] [Worker-Main-3/ERROR]: Carver: Failed to parse either. First: Not a string: {"air":[]}; Second: Failed to parse either. First: Not a json array: {"air":[]}; Second: No key type in MapLike[{"air":[]}]
+[14:14:08] [Worker-Main-4/ERROR]: Carver: Failed to parse either. First: Not a string: {"air":[]}; Second: Failed to parse either. First: Not a json array: {"air":[]}; Second: No key type in MapLike[{"air":[]}]
+[14:14:08] [Worker-Main-3/ERROR]: Carver: Failed to parse either. First: Not a string: {}; Second: Failed to parse either. First: Not a json array: {}; Second: No key type in MapLike[{}]
+[14:14:08] [Worker-Main-1/ERROR]: Carver: Failed to parse either. First: Not a string: {"air":["far_end:surface_scar"]}; Second: Failed to parse either. First: Not a json array: {"air":["far_end:surface_scar"]}; Second: No key type in MapLike[{"air":["far_end:surface_scar"]}]
+[14:14:08] [Worker-Main-3/ERROR]: Carver: Failed to parse either. First: Not a string: {"air":["far_end:surface_scar"]}; Second: Failed to parse either. First: Not a json array: {"air":["far_end:surface_scar"]}; Second: No key type in MapLike[{"air":["far_end:surface_scar"]}]
+[14:14:08] [Worker-Main-1/ERROR]: Carver: Failed to parse either. First: Not a string: {"air":["far_end:surface_scar"]}; Second: Failed to parse either. First: Not a json array: {"air":["far_end:surface_scar"]}; Second: No key type in MapLike[{"air":["far_end:surface_scar"]}]
+[14:14:08] [Worker-Main-1/ERROR]: Carver: Failed to parse either. First: Not a string: {"air":["far_end:surface_scar"]}; Second: Failed to parse either. First: Not a json array: {"air":["far_end:surface_scar"]}; Second: No key type in MapLike[{"air":["far_end:surface_scar"]}]
+[14:14:08] [Worker-Main-1/ERROR]: Carver: Failed to parse either. First: Not a string: {"air":["far_end:surface_scar"]}; Second: Failed to parse either. First: Not a json array: {"air":["far_end:surface_scar"]}; Second: No key type in MapLike[{"air":["far_end:surface_scar"]}]
+[14:14:08] [Worker-Main-7/ERROR]: Registry loading errors:
+> Errors in registry minecraft:dimension_type:
+>> Errors in element minecraft:the_end:
+java.lang.IllegalStateException: Failed to parse minecraft:the_end from pack file/far-end-ender-expansion-2-0-3-v1-17-1.zip
+	at net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:115)
+	at net.minecraft.resources.ResourceManagerRegistryLoadTask.lambda$load$2(ResourceManagerRegistryLoadTask.java:46)
+	at net.minecraft.util.thread.ParallelMapTransform$Container.applyOperation(ParallelMapTransform.java:89)
+	at net.minecraft.util.thread.ParallelMapTransform$SingleTaskSplitter.lambda$scheduleBatch$0(ParallelMapTransform.java:160)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1825)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1817)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.lang.IllegalStateException: No key monster_spawn_block_light_limit in MapLike[{"ultrawarm":false,"natural":false,"piglin_safe":false,"respawn_anchor_works":true,"bed_works":false,"has_raids":true,"has_skylight":false,"has_ceiling":false,"coordinate_scale":1,"ambient_light":0,"logical_height":320,"effects":"minecraft:the_end","infiniburn":"minecraft:infiniburn_end","min_y":-128,"height":320}]; No key monster_spawn_light_level in MapLike[{"ultrawarm":false,"natural":false,"piglin_safe":false,"respawn_anchor_works":true,"bed_works":false,"has_raids":true,"has_skylight":false,"has_ceiling":false,"coordinate_scale":1,"ambient_light":0,"logical_height":320,"effects":"minecraft:the_end","infiniburn":"minecraft:infiniburn_end","min_y":-128,"height":320}]; Not a tag id; No key has_ender_dragon_fight in MapLike[{"ultrawarm":false,"natural":false,"piglin_safe":false,"respawn_anchor_works":true,"bed_works":false,"has_raids":true,"has_skylight":false,"has_ceiling":false,"coordinate_scale":1,"ambient_light":0,"logical_height":320,"effects":"minecraft:the_end","infiniburn":"minecraft:infiniburn_end","min_y":-128,"height":320}]
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:113)
+	... 9 more
+> Errors in registry minecraft:root:
+java.lang.IllegalStateException: Failed to parse minecraft:overworld from pack file/terralith-2-0-v1-17.zip
+	at net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:115)
+	at net.minecraft.resources.ResourceManagerRegistryLoadTask.lambda$load$2(ResourceManagerRegistryLoadTask.java:46)
+	at net.minecraft.util.thread.ParallelMapTransform$Container.applyOperation(ParallelMapTransform.java:89)
+	at net.minecraft.util.thread.ParallelMapTransform$SingleTaskSplitter.lambda$scheduleBatch$0(ParallelMapTransform.java:160)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1825)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1817)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.lang.IllegalStateException: No key monster_spawn_block_light_limit in MapLike[{"ultrawarm":false,"natural":false,"piglin_safe":false,"respawn_anchor_works":true,"bed_works":false,"has_raids":true,"has_skylight":false,"has_ceiling":false,"coordinate_scale":1,"ambient_light":0,"logical_height":320,"effects":"minecraft:the_end","infiniburn":"minecraft:infiniburn_end","min_y":-128,"height":320}]; No key monster_spawn_light_level in MapLike[{"ultrawarm":false,"natural":false,"piglin_safe":false,"respawn_anchor_works":true,"bed_works":false,"has_raids":true,"has_skylight":false,"has_ceiling":false,"coordinate_scale":1,"ambient_light":0,"logical_height":320,"effects":"minecraft:the_end","infiniburn":"minecraft:infiniburn_end","min_y":-128,"height":320}]; Not a tag id; No key has_ender_dragon_fight in MapLike[{"ultrawarm":false,"natural":false,"piglin_safe":false,"respawn_anchor_works":true,"bed_works":false,"has_raids":true,"has_skylight":false,"has_ceiling":false,"coordinate_scale":1,"ambient_light":0,"logical_height":320,"effects":"minecraft:the_end","infiniburn":"minecraft:infiniburn_end","min_y":-128,"height":320}]
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:113)
+	... 9 more
+> Errors in registry minecraft:root:

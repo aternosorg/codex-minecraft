@@ -1,0 +1,85 @@
+Starting org.bukkit.craftbukkit.Main
+2026-11-11T14:07:37.777243Z ServerMain WARN Advanced terminal features are not available in this environment
+[15:07:37 INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.3+1-LTS-2; Oracle Corporation null) on Mac OS X 27.2.1 (aarch64)
+[15:07:37 INFO]: [bootstrap] Loading Paper 26.3-248-main@0727243 (2026-11-10T11:35:52Z) for Minecraft 26.3
+[15:07:37 INFO]: [PluginInitializerManager] Initializing plugins...
+[15:07:37 ERROR]: [DirectoryProviderSource] Error loading plugin: java.lang.IllegalArgumentException: Directory 'plugins/nodescriptor.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: Directory 'plugins/nodescriptor.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:74) ~[paper-26.3.jar:26.3-248-0727243]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:58) ~[paper-26.3.jar:26.3-248-0727243]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-26.3.jar:26.3-248-0727243]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-26.3.jar:26.3-248-0727243]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:104) ~[paper-26.3.jar:26.3-248-0727243]
+	at net.minecraft.server.Main.main(Main.java:113) ~[paper-26.3.jar:26.3-248-0727243]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:25) ~[paper-26.3.jar:26.3-248-0727243]
+	at org.bukkit.craftbukkit.Main.main(Main.java:209) ~[paper-26.3.jar:26.3-248-0727243]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Directory 'plugins/nodescriptor.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	... 10 more
+[15:07:37 INFO]: [PluginInitializerManager] Initialized 0 plugins
+[15:07:38 WARN]: [oshi.software.os.mac.MacOperatingSystem] Unable to parse version 27.2 to a codename.
+[15:07:39 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:07:39 INFO]: [com.destroystokyo.paper.profile.PaperServicesDiscoveryService] Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[15:07:39 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 154,2ms
+[15:07:39 INFO]: Loaded 1866 advancements
+[15:07:39 INFO]: Starting minecraft server version 26.3
+[15:07:39 INFO]: Loading properties
+[15:07:39 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)
+[15:07:39 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:07:39 INFO]: Server Ping Player Sample Count: 12
+[15:07:39 INFO]: Using 4 threads for Netty based IO
+[15:07:40 INFO]: [ca.spottedleaf.moonrise.common.util.FMA] FMA supported: true for all ARMv8 platforms
+[15:07:40 INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[15:07:40 INFO]: Default game type: SURVIVAL
+[15:07:40 INFO]: Generating keypair
+[15:07:40 INFO]: Starting Minecraft server on *:25599
+[15:07:40 INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[15:07:40 INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[15:07:40 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:07:40 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:07:40 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:07:40 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:07:40 INFO]: Preparing level "world"
+[15:07:40 INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[15:07:40 INFO]: Prepared spawn area in 0 ms
+[15:07:40 INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[15:07:40 INFO]: Prepared spawn area in 0 ms
+[15:07:40 INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[15:07:40 INFO]: Prepared spawn area in 0 ms
+[15:07:40 INFO]: Done preparing level "world" (0.104s)
+[15:07:40 INFO]: [spark] Starting background profiler...
+[15:07:40 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:07:40 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:07:40 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:07:40 INFO]: Running delayed init tasks
+[15:07:40 INFO]: Done (3.146s)! For help, type "help"
+[15:07:41 INFO]: System chat: Stopping the server
+[15:07:41 INFO]: Stopping server
+[15:07:41 INFO]: Saving players
+[15:07:41 INFO]: Saving worlds
+[15:07:41 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:07:41 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[15:07:41 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[15:07:41 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[15:07:41 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0,00s
+[15:07:41 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[15:07:41 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[15:07:41 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:07:41 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[15:07:41 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[15:07:41 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[15:07:41 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0,00s
+[15:07:41 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[15:07:41 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[15:07:41 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:07:41 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[15:07:41 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[15:07:41 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[15:07:41 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0,00s
+[15:07:41 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[15:07:41 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[15:07:41 INFO]: Waiting for all RegionFile I/O tasks to complete...
+[15:07:41 INFO]: All RegionFile I/O tasks to complete
+[15:07:41 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[15:07:41 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

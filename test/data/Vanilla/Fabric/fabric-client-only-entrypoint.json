@@ -1,0 +1,366 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Fabric 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:57:39] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[18:57:39] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:57:39] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[18:57:39] [main\/INFO]: Mappings not present!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:57:39] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[18:57:39] [main\/INFO]: Loading 5 mods:"
+                },
+                {
+                    "number": 5,
+                    "content": "\t- fabricloader 0.20.1"
+                },
+                {
+                    "number": 6,
+                    "content": "\t   \\-- mixinextras 0.5.5"
+                },
+                {
+                    "number": 7,
+                    "content": "\t- foo 1.0.0"
+                },
+                {
+                    "number": 8,
+                    "content": "\t- java 25"
+                },
+                {
+                    "number": 9,
+                    "content": "\t- minecraft 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:57:39] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[18:57:39] [main\/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:\/srv\/server\/libraries\/net\/fabricmc\/sponge-mixin\/0.17.5+mixin.0.8.7\/sponge-mixin-0.17.5+mixin.0.8.7.jar Service=Knot\/Fabric Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[18:57:40] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[18:57:40] [main\/WARN]: Unable to parse version 27.2 to a codename."
+                },
+                {
+                    "number": 12,
+                    "content": "WARNING: A terminally deprecated method in sun.misc.Unsafe has been called"
+                },
+                {
+                    "number": 13,
+                    "content": "WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.joml.MemUtil$MemUtilUnsafe (file:\/srv\/server\/libraries\/org\/joml\/joml\/1.10.9\/joml-1.10.9.jar)"
+                },
+                {
+                    "number": 14,
+                    "content": "WARNING: Please consider reporting this to the maintainers of class org.joml.MemUtil$MemUtilUnsafe"
+                },
+                {
+                    "number": 15,
+                    "content": "WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[18:57:42] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[18:57:42] [main\/ERROR]: Failed to start the minecraft server"
+                },
+                {
+                    "number": 17,
+                    "content": "java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'foo' at 'foo.FooMain'!"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:418)"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:416)"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63)"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat knot\/\/net.minecraft.server.Main.main(Main.java:114)"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:517)"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                },
+                {
+                    "number": 28,
+                    "content": "Caused by: java.lang.RuntimeException: Cannot load class foo.FooClient in environment type SERVER"
+                },
+                {
+                    "number": 29,
+                    "content": "\tat net.fabricmc.loader.impl.transformer.FabricTransformer.transform(FabricTransformer.java:64)"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassByteArray(KnotClassDelegate.java:476)"
+                },
+                {
+                    "number": 31,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:429)"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:337)"
+                },
+                {
+                    "number": 33,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:232)"
+                },
+                {
+                    "number": 34,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)"
+                },
+                {
+                    "number": 35,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:490)"
+                },
+                {
+                    "number": 36,
+                    "content": "\tat knot\/\/foo.FooMain.onInitialize(FooMain.java:8)"
+                },
+                {
+                    "number": 37,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:414)"
+                },
+                {
+                    "number": 38,
+                    "content": "\t... 7 more"
+                },
+                {
+                    "number": 39,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'foo' cannot run on a server. It is either a client-only mod or uses client-only code.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[18:57:42] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 16,
+                            "content": "[18:57:42] [main\/ERROR]: Failed to start the minecraft server"
+                        },
+                        {
+                            "number": 17,
+                            "content": "java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'foo' at 'foo.FooMain'!"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:418)"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:416)"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63)"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat knot\/\/net.minecraft.server.Main.main(Main.java:114)"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:517)"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 28,
+                            "content": "Caused by: java.lang.RuntimeException: Cannot load class foo.FooClient in environment type SERVER"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\tat net.fabricmc.loader.impl.transformer.FabricTransformer.transform(FabricTransformer.java:64)"
+                        },
+                        {
+                            "number": 30,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassByteArray(KnotClassDelegate.java:476)"
+                        },
+                        {
+                            "number": 31,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:429)"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:337)"
+                        },
+                        {
+                            "number": 33,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:232)"
+                        },
+                        {
+                            "number": 34,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)"
+                        },
+                        {
+                            "number": 35,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:490)"
+                        },
+                        {
+                            "number": 36,
+                            "content": "\tat knot\/\/foo.FooMain.onInitialize(FooMain.java:8)"
+                        },
+                        {
+                            "number": 37,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:414)"
+                        },
+                        {
+                            "number": 38,
+                            "content": "\t... 7 more"
+                        },
+                        {
+                            "number": 39,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'foo'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:57:39] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[18:57:39] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            },
+            {
+                "message": "Fabric loader version: 0.20.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:57:39] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[18:57:39] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.20.1"
+            }
+        ]
+    }
+}
