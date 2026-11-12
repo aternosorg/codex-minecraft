@@ -19,6 +19,6 @@ class PluginDisablingProblem extends PluginProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Error occurred while disabling (\S+)(?: [^(\n]+)?(?: \(Is it up to date\?\))?/'];
+        return ['/Error occurred while disabling (\S+)/'];
     }
 }
