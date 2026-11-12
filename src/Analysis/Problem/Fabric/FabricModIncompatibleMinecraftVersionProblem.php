@@ -48,7 +48,7 @@ class FabricModIncompatibleMinecraftVersionProblem extends FabricModProblem
     {
         return [
             'any' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version of (?:mod )?'Minecraft' \(minecraft\), but only the wrong version is present: (" . FabricVanillaVersionInformation::getVersionPattern() . ")!/",
-            'minimum' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires version ([^ ]+) or later of (?:mod )'Minecraft' \(minecraft\), but only the wrong version is present: (" . FabricVanillaVersionInformation::getVersionPattern() . ")!/",
+            'minimum' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires version ([^ ]+) or later of (?:mod )?'Minecraft' \(minecraft\), but only the wrong version is present: (" . FabricVanillaVersionInformation::getVersionPattern() . ")!/",
             'any-after' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version after ([^ ]+) of (?:mod )?'Minecraft' \(minecraft\), but only the wrong version is present: (" . FabricVanillaVersionInformation::getVersionPattern() . ")!/",
             'any-before' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version before ([^ ]+) of (?:mod )?'Minecraft' \(minecraft\), but only the wrong version is present: (" . FabricVanillaVersionInformation::getVersionPattern() . ")!/",
             'specific' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires version ([^ ]+) of (?:mod )?'Minecraft' \(minecraft\), but only the wrong version is present: (" . FabricVanillaVersionInformation::getVersionPattern() . ")!/",
