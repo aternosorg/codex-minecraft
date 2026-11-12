@@ -334,6 +334,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_folia_crash_report_1_21_4(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Folia/folia-crash-report-1-21-4.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_folia_crash_report_git(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Folia/folia-crash-report-git.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_folia_start_1_19_4(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Folia/folia-start-1-19-4.log');
@@ -394,16 +414,6 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_paper_event_listener_missing_class_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-event-listener-missing-class-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
     public function test_paper_ambiguous_provided_name_26_3(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-ambiguous-provided-name-26-3.log');
@@ -417,6 +427,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_paper_circular_plugin_dependency_26_3(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-circular-plugin-dependency-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_event_listener_missing_class_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-event-listener-missing-class-26-3.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
