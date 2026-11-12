@@ -22,7 +22,7 @@ abstract class NeoForgeLog extends VanillaLog
     {
         return array_merge(parent::getDetectors(), [
             (new SinglePatternDetector())->setPattern('/NeoForge mod loading/'),
-            (new SinglePatternDetector())->setPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: ModLauncher running: .*--fml.neoForgeVersion/')
+            (new SinglePatternDetector())->setPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: ModLauncher running: .*--fml.neoForgeVersion/m')
         ]);
     }
 
