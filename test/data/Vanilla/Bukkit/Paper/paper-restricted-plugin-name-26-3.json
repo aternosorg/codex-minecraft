@@ -364,7 +364,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The plugin 'bukkit' has a name that is not allowed. Plugin names must not be reserved and must not contain spaces.",
+                "message": "A plugin has a name that is not allowed.",
                 "counter": 2,
                 "entry": {
                     "level": 6,

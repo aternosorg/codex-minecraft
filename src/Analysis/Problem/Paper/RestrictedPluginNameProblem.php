@@ -19,13 +19,7 @@ class RestrictedPluginNameProblem extends PaperProblem
      */
     public function getMessage(): string
     {
-        if ($this->pluginName === null) {
-            return Translator::getInstance()->getTranslation("restricted-plugin-name-unknown-problem");
-        }
-
-        return Translator::getInstance()->getTranslation("restricted-plugin-name-problem", [
-            "plugin-name" => $this->pluginName
-        ]);
+        return Translator::getInstance()->getTranslation("restricted-plugin-name-problem");
     }
 
     /**
