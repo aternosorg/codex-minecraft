@@ -13,6 +13,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricIncompatibleModsProble
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricMixinProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModIncompatibleMinecraftVersionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModJavaVersionProblem;
 
 class FabricAnalyser extends VanillaAnalyser
 {
@@ -24,6 +25,7 @@ class FabricAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(FabricJavaVersionInformation::class);
         $this->addPossibleInsightClass(FabricModDependencyProblem::class);
         $this->addPossibleInsightClass(FabricModIncompatibleMinecraftVersionProblem::class);
+        $this->addPossibleInsightClass(FabricModJavaVersionProblem::class);
         $this->addPossibleInsightClass(FabricMixinProblem::class);
         $this->addPossibleInsightClass(FabricIncompatibleModsProblem::class);
         $this->addPossibleInsightClass(FabricDuplicateModProblem::class);
