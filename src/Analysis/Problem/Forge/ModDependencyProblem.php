@@ -36,7 +36,8 @@ class ModDependencyProblem extends ModProblem
             'requires-mods' => '/The mod \S+ \(([^\)]+)\) requires mods \[([^\]]+)\] to be available/',
             'missing-mods-exception' => '/net\.minecraftforge\.fml\.common\.MissingModsException: Mod \S+ \((.+)\) requires (.+)/',
             'mod-loading-exception' => '/net\.minecraftforge\.fml\.ModLoadingException: Mod §.([^§]+)§. requires §.([^§]+)§. §.([^ §]+)[^§]*§./',
-            'loading-failed-exception' => '/net\.minecraftforge\.fml\.LoadingFailedException: Loading errors encountered: \[\n(?:.*\n)*Mod §.([^§]+)§. requires §.([^§]+)§. §.([^ §]+)[^§]*§./'
+            // whole lines are skipped possessively, so a long stack trace doesn't exhaust the backtrack limit
+            'loading-failed-exception' => '/net\.minecraftforge\.fml\.LoadingFailedException: Loading errors encountered: \[\n(?:.*+\n)*Mod §.([^§]+)§. requires §.([^§]+)§. §.([^ §]+)[^§]*§./'
         ];
     }
 
