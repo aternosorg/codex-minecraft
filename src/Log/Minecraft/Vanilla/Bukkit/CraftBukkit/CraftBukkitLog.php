@@ -7,7 +7,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\BukkitLog;
 
 abstract class CraftBukkitLog extends BukkitLog
 {
-    protected static string $logIdentifier = "CraftBukkit version git\-Bukkit";
+    protected static string $logIdentifier = "CraftBukkit version git-Bukkit";
 
     /**
      * @inheritDoc

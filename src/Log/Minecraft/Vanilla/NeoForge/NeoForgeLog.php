@@ -13,7 +13,7 @@ use Aternos\Codex\Parser\PatternParser;
 
 abstract class NeoForgeLog extends VanillaLog
 {
-    protected static string $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[([^\]]+)\])?\:).*$/';
+    protected static string $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[([^\]]+)\])?:).*$/';
 
     /**
      * @inheritDoc
@@ -22,7 +22,7 @@ abstract class NeoForgeLog extends VanillaLog
     {
         return array_merge(parent::getDetectors(), [
             (new SinglePatternDetector())->setPattern('/NeoForge mod loading/'),
-            (new SinglePatternDetector())->setPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: ModLauncher running: .*--fml.neoForgeVersion/m')
+            (new SinglePatternDetector())->setPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: ModLauncher running: .*--fml\.neoForgeVersion/m')
         ]);
     }
 

@@ -8,7 +8,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class QuiltVersionInformation extends QuiltInformation
 {
-    protected static string $quiltVersionInformation = "[\d\.]+(?:-beta.\d+)?";
+    protected static string $quiltVersionInformation = "[\d.]+(?:-beta\.\d+)?";
 
     public function __construct()
     {

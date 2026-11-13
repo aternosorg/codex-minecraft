@@ -13,7 +13,7 @@ use Aternos\Codex\Parser\PatternParser;
 
 abstract class ForgeLog extends VanillaLog
 {
-    protected static string $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[([^\]]+)\])?\:).*$/';
+    protected static string $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[([^\]]+)\])?:).*$/';
 
     /**
      * @inheritDoc
@@ -21,7 +21,7 @@ abstract class ForgeLog extends VanillaLog
     public static function getDetectors(): array
     {
         return array_merge(parent::getDetectors(), [
-            (new WeightedSinglePatternDetector())->setPattern('/MinecraftForge v[0-9\.]+ Initialized/')->setWeight(1)
+            (new WeightedSinglePatternDetector())->setPattern('/MinecraftForge v[0-9.]+ Initialized/')->setWeight(1)
         ]);
     }
 

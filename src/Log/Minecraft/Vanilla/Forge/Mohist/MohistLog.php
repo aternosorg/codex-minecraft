@@ -9,7 +9,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\ForgeLog;
 
 abstract class MohistLog extends ForgeLog
 {
-    protected static string $prefixPattern = '(\[(?:[0-9]{2}[a-zA-Z]+[0-9]+ )?(?:[0-9]{2}\:?){3}(?:\.[0-9]+)?\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?\:) ';
+    protected static string $prefixPattern = '(\[(?:[0-9]{2}[a-zA-Z]+[0-9]+ )?(?:[0-9]{2}:?){3}(?:\.[0-9]+)?\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?:) ';
 
     /**
      * @inheritDoc

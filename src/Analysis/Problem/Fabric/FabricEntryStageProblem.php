@@ -22,7 +22,7 @@ class FabricEntryStageProblem extends FabricModProblem
     {
         return [
             // client-only causes are handled by FabricClientOnlyModProblem
-            "/java.lang.RuntimeException: Could not execute entrypoint stage '[^']+' due to errors, provided by '(" . static::$modIDPattern . ")'"
+            "/java\.lang\.RuntimeException: Could not execute entrypoint stage '[^']+' due to errors, provided by '(" . static::$modIDPattern . ")'"
                 . "(?![^\n]*\n" . FabricClientOnlyModProblem::STACK_TRACE_LINES . "Caused by: " . FabricClientOnlyModProblem::CLIENT_ONLY_CAUSE . ")/"
         ];
     }

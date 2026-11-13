@@ -48,11 +48,11 @@ class UnsupportedApiVersionProblem extends PluginFileProblem
     {
         return [
             // < 1.20
-            '/Could not load \'plugins[\/\\\]([^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
-            . '\norg\.bukkit\.plugin\.InvalidPluginException\: Unsupported API version ([0-9]+\.[0-9]+)/',
+            '/Could not load \'plugins[\/\\\\]([^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
+            . '\norg\.bukkit\.plugin\.InvalidPluginException: Unsupported API version ([0-9]+\.[0-9]+)/',
             // >= 1.20
             '/Could not load plugin \'((?!\.jar).*\.jar)\' in folder \'([^\']+)\''
-            . '\norg\.bukkit\.plugin\.InvalidPluginException\: Unsupported API version ([0-9]+\.[0-9]+)/',
+            . '\norg\.bukkit\.plugin\.InvalidPluginException: Unsupported API version ([0-9]+\.[0-9]+)/',
         ];
     }
 }

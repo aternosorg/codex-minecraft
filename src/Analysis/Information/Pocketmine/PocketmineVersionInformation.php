@@ -19,6 +19,6 @@ class PocketmineVersionInformation extends PocketmineInformation
      */
     public static function getPatterns(): array
     {
-        return ['/This server is running PocketMine-MP version ([0-9\.]+)/'];
+        return ['/This server is running PocketMine-MP version ([0-9.]+)/'];
     }
 }

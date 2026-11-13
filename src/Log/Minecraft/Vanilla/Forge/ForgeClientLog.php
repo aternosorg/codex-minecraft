@@ -15,7 +15,7 @@ class ForgeClientLog extends ForgeLog implements ClientLogTypeInterface
     {
         return [
             (new MultiPatternDetector())
-                ->addPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: ModLauncher running: .*--fml.forgeVersion/m')
+                ->addPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: ModLauncher running: .*--fml\.forgeVersion/m')
                 ->addPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: Launching target \'(fml|forge)client\' with arguments/m'),
             (new MultiPatternDetector())
                 ->addPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: ModLauncher running: .*--version, (?:' . VanillaVersionInformation::getVersionPattern() . '-)?forge-/m')
