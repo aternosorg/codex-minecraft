@@ -814,6 +814,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_world_defaults_missing_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-world-defaults-missing-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_purpur_1_19_2(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Purpur/purpur-1-19-2.log');
