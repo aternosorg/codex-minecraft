@@ -1,0 +1,272 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Fabric 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:57:49] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[18:57:49] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:57:49] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[18:57:49] [main\/INFO]: Mappings not present!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[18:57:49] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[18:57:49] [main\/WARN]: Mod resolution failed"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:57:49] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[18:57:49] [main\/INFO]: Immediate reason: [HARD_DEP_INCOMPATIBLE_PRESELECTED foo 1.0.0 {depends java @ [99]}, ROOT_FORCELOAD_SINGLE foo 1.0.0]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:57:49] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[18:57:49] [main\/INFO]: Reason: [HARD_DEP foo 1.0.0 {depends java @ [99]}]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:57:49] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[18:57:49] [main\/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-model-loading-api-v1, fabric-key-mapping-api-v1, fabric-screen-api-v1, fabric-sound-api-v1, fabric-rendering-v1, fabric-renderer-indigo]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:57:49] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[18:57:49] [main\/INFO]: Fix: add [], remove [], replace [[java 25] -> add:java 99 ([[99,99]])]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[18:57:49] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[18:57:49] [main\/ERROR]: Incompatible mods found!"
+                },
+                {
+                    "number": 10,
+                    "content": "net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!"
+                },
+                {
+                    "number": 11,
+                    "content": "A potential solution has been determined, this may resolve your problem:"
+                },
+                {
+                    "number": 12,
+                    "content": "\t - Replace 'Java HotSpot(TM) 64-Bit Server VM' (java) 25 with version 99."
+                },
+                {
+                    "number": 13,
+                    "content": "More details:"
+                },
+                {
+                    "number": 14,
+                    "content": "\t - Mod 'Foo' (foo) 1.0.0 requires version 99 of 'Java HotSpot(TM) 64-Bit Server VM' (java), but only the wrong version is present: 25!"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207)"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                },
+                {
+                    "number": 22,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'Foo' requires Java version 99 or later to run.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[18:57:49] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 9,
+                            "content": "[18:57:49] [main\/ERROR]: Incompatible mods found!"
+                        },
+                        {
+                            "number": 10,
+                            "content": "net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!"
+                        },
+                        {
+                            "number": 11,
+                            "content": "A potential solution has been determined, this may resolve your problem:"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\t - Replace 'Java HotSpot(TM) 64-Bit Server VM' (java) 25 with version 99."
+                        },
+                        {
+                            "number": 13,
+                            "content": "More details:"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\t - Mod 'Foo' (foo) 1.0.0 requires version 99 of 'Java HotSpot(TM) 64-Bit Server VM' (java), but only the wrong version is present: 25!"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207)"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 22,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Change your Java version to 99 or later."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:57:49] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[18:57:49] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            },
+            {
+                "message": "Fabric loader version: 0.20.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:57:49] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[18:57:49] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.20.1"
+            }
+        ]
+    }
+}

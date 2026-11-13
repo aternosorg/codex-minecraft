@@ -2,21 +2,28 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\CraftBukkit;
 
-use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\BukkitLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\VersionLineDetectorTrait;
 
 abstract class CraftBukkitLog extends BukkitLog
 {
-    protected static string $logIdentifier = "CraftBukkit version git-Bukkit";
+    use VersionLineDetectorTrait;
+
+    /**
+     * Patterns for the server version that follows "This server is running " in the startup line,
+     * each one gets its own detector, e.g.
+     * [18:14:48] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-8b1588e (MC: 1.13.2)
+     *
+     * @var string[]
+     */
+    protected static array $logIdentifiers = ["CraftBukkit version git-Bukkit"];
 
     /**
      * @inheritDoc
      */
     public static function getDetectors(): array
     {
-        return array_merge(parent::getDetectors(), [
-            (new SinglePatternDetector())->setPattern('/' . static::$prefixPattern . 'This server is running ' . static::$logIdentifier . '/')
-        ]);
+        return [...parent::getDetectors(), ...static::getVersionLineDetectors()];
     }
 
     /**
