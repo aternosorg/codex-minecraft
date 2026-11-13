@@ -5,7 +5,6 @@ namespace Aternos\Codex\Minecraft\Test\Performance;
 use Aternos\Codex\Analysis\PatternInsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\ChunkLoadExceptionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem;
-use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ServerJarInPluginFolderProblem;
 use Aternos\Codex\Minecraft\Test\Logs\TestLog;
 use FilesystemIterator;
 use Generator;
@@ -76,7 +75,6 @@ class PatternSafetyTest extends TestCase
     protected const array KNOWN_UNSAFE_PATTERNS = [
         ChunkLoadExceptionProblem::class => [0, 1, 2],
         ModDependencyProblem::class => ["loading-failed-exception"],
-        ServerJarInPluginFolderProblem::class => [0],
     ];
 
     /**
