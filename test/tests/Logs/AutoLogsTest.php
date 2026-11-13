@@ -1174,6 +1174,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_client_modrinth_app(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-client-modrinth-app.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_client_only_entrypoint(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-client-only-entrypoint.log');
