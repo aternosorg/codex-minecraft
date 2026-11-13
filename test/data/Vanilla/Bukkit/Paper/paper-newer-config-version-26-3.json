@@ -1,0 +1,593 @@
+{
+    "id": "paper\/server",
+    "name": "Paper",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Paper 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting org.bukkit.craftbukkit.Main"
+                },
+                {
+                    "number": 2,
+                    "content": "2026-11-13T15:42:04.958017Z ServerMain WARN Advanced terminal features are not available in this environment"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:05 INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[16:42:05 INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.3+1-LTS-2; Oracle Corporation null) on Mac OS X 27.2.1 (aarch64)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:05 INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[16:42:05 INFO]: [bootstrap] Loading Paper 26.3-248-main@0727243 (2026-11-10T11:35:52Z) for Minecraft 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:05 INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[16:42:05 INFO]: [PluginInitializerManager] Initializing plugins..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:05 INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[16:42:05 INFO]: [PluginInitializerManager] Initialized 0 plugins"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:42:05 WARN]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[16:42:05 WARN]: [oshi.software.os.mac.MacOperatingSystem] Unable to parse version 27.2 to a codename."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:06 INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[16:42:06 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:06 INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[16:42:06 INFO]: [com.destroystokyo.paper.profile.PaperServicesDiscoveryService] Environment: Environment[discoveryUrl=https:\/\/discovery.minecraftservices.com\/minecraft\/client, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:06 INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[16:42:06 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 184,4ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[16:42:07 INFO]: Loaded 1866 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[16:42:07 INFO]: Starting minecraft server version 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[16:42:07 INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[16:42:07 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[16:42:07 INFO]: [spark] This server bundles the spark profiler. For more information please visit https:\/\/docs.papermc.io\/paper\/profiling"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[16:42:07 INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[16:42:07 INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[16:42:07 ERROR]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[16:42:07 ERROR]: [Configurations] Loading a newer configuration than is supported (999 > 31)! You may have to backup & delete your global config file to start the server."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[16:42:07 INFO]: [ca.spottedleaf.moonrise.common.util.FMA] FMA supported: true for all ARMv8 platforms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[16:42:07 INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I\/O threads"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[16:42:07 ERROR]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[16:42:07 ERROR]: [Configurations] Loading a newer configuration than is supported (999 > 31)! You may have to backup & delete the world defaults config file to start the server."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[16:42:07 INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[16:42:07 INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[16:42:07 INFO]: Starting Minecraft server on *:25599"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[16:42:07 INFO]: Paper: Using libdeflate (macOS ARM64 \/ Apple Silicon) compression from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[16:42:07 INFO]: Paper: Using native (macOS ARM64 \/ Apple Silicon) cipher from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:42:07 WARN]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[16:42:07 WARN]: **** SERVER IS RUNNING IN OFFLINE\/INSECURE MODE!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:42:07 WARN]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[16:42:07 WARN]: The server will make no attempt to authenticate usernames. Beware."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:42:07 WARN]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[16:42:07 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:42:07 WARN]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[16:42:07 WARN]: To change this, set \"online-mode\" to \"true\" in the server.properties file."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[16:42:07 INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[16:42:07 ERROR]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[16:42:07 ERROR]: [Configurations] Loading a newer configuration than is supported (999 > 31)! You may have to backup & delete the minecraft:the_nether config file to start the server."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[16:42:07 INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[16:42:07 INFO]: Prepared spawn area in 0 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[16:42:07 INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[16:42:07 INFO]: Prepared spawn area in 1 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[16:42:07 INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[16:42:07 INFO]: Prepared spawn area in 0 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[16:42:07 INFO]: Done preparing level \"world\" (0.116s)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:07 INFO]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[16:42:07 INFO]: [spark] Starting background profiler..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:08 INFO]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[16:42:08 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:08 INFO]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[16:42:08 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:08 INFO]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[16:42:08 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:08 INFO]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[16:42:08 INFO]: Running delayed init tasks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:42:08 INFO]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[16:42:08 INFO]: Done (4.404s)! For help, type \"help\""
+                },
+                {
+                    "number": 46,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The Paper config file 'config\/paper-global.yml' was created by a newer Paper version (config version 999, this server supports up to 31). Settings in it might not work.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[16:42:07 ERROR]:",
+                    "lines": [
+                        {
+                            "number": 18,
+                            "content": "[16:42:07 ERROR]: [Configurations] Loading a newer configuration than is supported (999 > 31)! You may have to backup & delete your global config file to start the server."
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Back up and delete the file 'config\/paper-global.yml'. Paper creates it again with default settings."
+                    },
+                    {
+                        "message": "Install the newer Paper version that created this config file."
+                    }
+                ]
+            },
+            {
+                "message": "The Paper config file 'config\/paper-world-defaults.yml' was created by a newer Paper version (config version 999, this server supports up to 31). Settings in it might not work.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[16:42:07 ERROR]:",
+                    "lines": [
+                        {
+                            "number": 21,
+                            "content": "[16:42:07 ERROR]: [Configurations] Loading a newer configuration than is supported (999 > 31)! You may have to backup & delete the world defaults config file to start the server."
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Back up and delete the file 'config\/paper-world-defaults.yml'. Paper creates it again with default settings."
+                    },
+                    {
+                        "message": "Install the newer Paper version that created this config file."
+                    }
+                ]
+            },
+            {
+                "message": "The Paper config file of the world 'minecraft:the_nether' was created by a newer Paper version (config version 999, this server supports up to 31). Settings in it might not work.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[16:42:07 ERROR]:",
+                    "lines": [
+                        {
+                            "number": 32,
+                            "content": "[16:42:07 ERROR]: [Configurations] Loading a newer configuration than is supported (999 > 31)! You may have to backup & delete the minecraft:the_nether config file to start the server."
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Back up and delete the file 'paper-world.yml' of the world 'minecraft:the_nether'. Paper creates it again with default settings."
+                    },
+                    {
+                        "message": "Install the newer Paper version that created this config file."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:42:07 INFO]:",
+                    "lines": [
+                        {
+                            "number": 12,
+                            "content": "[16:42:07 INFO]: Starting minecraft server version 26.3"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            }
+        ]
+    }
+}
