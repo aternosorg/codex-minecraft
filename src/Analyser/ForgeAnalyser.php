@@ -9,6 +9,7 @@ use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformati
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ClientOnlyModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\FmlConfirmProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\LanguageProviderVersionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Forge\MixinApplyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\MissingDatapackModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDuplicateProblem;
@@ -42,5 +43,6 @@ class ForgeAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(LanguageProviderVersionProblem::class);
         $this->addPossibleInsightClass(MissingDatapackModProblem::class);
         $this->addPossibleInsightClass(ClientOnlyModProblem::class);
+        $this->addPossibleInsightClass(MixinApplyProblem::class);
     }
 }
