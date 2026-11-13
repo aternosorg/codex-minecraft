@@ -13,6 +13,10 @@ class FabricCrashReportLog extends FabricLog implements CrashReportLogTypeInterf
     use VanillaCrashReportTrait;
 
     /**
+     * The last detector catches a client log that ends in a crash report without its system details,
+     * like a launcher console cut off after the stack trace. Then only the loader line names Fabric:
+     * [02:24:31] [main/INFO]: Loading Minecraft 26.1.2 with Fabric Loader 0.19.3
+     *
      * @inheritDoc
      */
     public static function getDetectors(): array
@@ -27,6 +31,9 @@ class FabricCrashReportLog extends FabricLog implements CrashReportLogTypeInterf
             (new MultiPatternDetector())
                 ->addPattern("/^---- Minecraft Crash Report ----$/m")
                 ->addPattern("/^\tIs Modded: Definitely; Server brand changed to 'fabric'$/im"),
+            (new MultiPatternDetector())
+                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern('/' . static::getLoadingMinecraftPattern() . '/m'),
         ];
     }
 

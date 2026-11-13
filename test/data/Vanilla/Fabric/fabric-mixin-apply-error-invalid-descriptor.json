@@ -1,14 +1,14 @@
 {
-    "id": "fabric\/client",
+    "id": "fabric\/crash-report",
     "name": "Fabric",
-    "type": "Client Log",
-    "version": "26.1.2",
-    "title": "Fabric 26.1.2 Client Log",
+    "type": "Crash Report",
+    "version": null,
+    "title": "Fabric Crash Report",
     "entries": [
         {
             "level": 6,
             "time": null,
-            "prefix": "[02:24:31] [main\/INFO]:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 1,
@@ -19,40 +19,96 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "[02:24:31] [main\/INFO]:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 2,
                     "content": "[02:24:31] [main\/INFO]: Loading 214 mods:"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 3,
                     "content": "\t- enhanced_storage 1.1.0"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 4,
                     "content": "\t   \\-- midnightlib 1.9.3"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 5,
                     "content": "\t- fabric-api 0.155.2 26.1.2"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 6,
                     "content": "\t- fabricloader 0.19.3"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 7,
                     "content": "\t   \\-- mixinextras 0.5.4"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 8,
                     "content": "\t- java 25"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 9,
                     "content": "\t- minecraft 26.1.2"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 10,
                     "content": "\t- rrv 8.7.0 26.1.2"
@@ -62,7 +118,7 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "[02:24:32] [main\/INFO]:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 11,
@@ -73,7 +129,7 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "[02:24:32] [main\/INFO]:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 12,
@@ -84,7 +140,7 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "[02:24:32] [main\/INFO]:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 13,
@@ -95,200 +151,536 @@
         {
             "level": 6,
             "time": null,
-            "prefix": "[02:24:42] [Render thread\/INFO]:",
+            "prefix": null,
             "lines": [
                 {
                     "number": 14,
                     "content": "[02:24:42] [Render thread\/INFO]: Setting user: Player"
-                },
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 15,
                     "content": "---- Minecraft Crash Report ----"
-                },
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 16,
                     "content": "\/\/ On the bright side, I bought you a teddy bear!"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Time:",
+            "lines": [
                 {
                     "number": 17,
                     "content": "Time: 2026-08-03 02:24:55"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Description:",
+            "lines": [
                 {
                     "number": 18,
                     "content": "Description: Initializing game"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 19,
                     "content": "java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to errors, provided by 'rrv' at 'cc.cassian.rrv.fabric.FabricClientEntrypoint'!"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 20,
                     "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:413)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 21,
                     "content": "\tat net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 22,
                     "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:411)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 23,
                     "content": "\tat net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 24,
                     "content": "\tat knot\/\/net.minecraft.client.Minecraft.<init>(Minecraft.java:477)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 25,
                     "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 26,
                     "content": "Caused by: java.lang.RuntimeException: Mixin transformation of cc.cassian.rrv.common.overlay.itemlist.view.ItemViewOverlay failed"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 27,
                     "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:440)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 28,
                     "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 29,
                     "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 30,
                     "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 31,
                     "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:490)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 32,
                     "content": "\tat knot\/\/cc.cassian.rrv.fabric.FabricClientEntrypoint.onInitializeClient(FabricClientEntrypoint.java:34)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 33,
                     "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:409)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 34,
                     "content": "\t... 3 more"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 35,
                     "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 36,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:380)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 37,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 38,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 39,
                     "content": "\tat knot\/\/dev.jfronny.libjf.unsafe.asm.AsmTransformer.transformClassBytes(AsmTransformer.java:128)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 40,
                     "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 41,
                     "content": "\t... 9 more"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 42,
                     "content": "Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [enhancedstorage.mixins.json:compat.RRVItemViewOverlayMixin from mod enhanced_storage] from phase [DEFAULT] in config [enhancedstorage.mixins.json] FAILED during APPLY"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 43,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:685)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 44,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:636)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 45,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:367)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 46,
                     "content": "\t... 13 more"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 47,
                     "content": "Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Invalid descriptor on enhancedstorage.mixins.json:compat.RRVItemViewOverlayMixin from mod enhanced_storage->@Inject::enhancedstorage$deferHighlight(Lnet\/minecraft\/client\/gui\/screens\/inventory\/AbstractContainerScreen;Lnet\/minecraft\/client\/gui\/GuiGraphicsExtractor;IIFLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfo;)V! Expected (Lnet\/minecraft\/client\/gui\/screens\/Screen;Lnet\/minecraft\/client\/gui\/GuiGraphicsExtractor;IIFLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfo;)V but found (Lnet\/minecraft\/client\/gui\/screens\/inventory\/AbstractContainerScreen;Lnet\/minecraft\/client\/gui\/GuiGraphicsExtractor;IIFLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfo;)V [INJECT_APPLY Applicator Phase -> enhancedstorage.mixins.json:compat.RRVItemViewOverlayMixin from mod enhanced_storage -> Apply Injections ->  -> Inject -> enhancedstorage.mixins.json:compat.RRVItemViewOverlayMixin from mod enhanced_storage->@Inject::enhancedstorage$deferHighlight(Lnet\/minecraft\/client\/gui\/screens\/inventory\/AbstractContainerScreen;Lnet\/minecraft\/client\/gui\/GuiGraphicsExtractor;IIFLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfo;)V]"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 48,
                     "content": "\tat org.spongepowered.asm.mixin.injection.callback.CallbackInjector.inject(CallbackInjector.java:563)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 49,
                     "content": "\tat org.spongepowered.asm.mixin.injection.callback.CallbackInjector.inject(CallbackInjector.java:493)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 50,
                     "content": "\tat org.spongepowered.asm.mixin.injection.code.Injector.inject(Injector.java:284)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 51,
                     "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.inject(InjectionInfo.java:508)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 52,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1470)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 53,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:832)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 54,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.lambda$runApplicatorPass$7(MixinApplicatorStandard.java:362)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 55,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.processMixins(MixinApplicatorStandard.java:381)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 56,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.runApplicatorPass(MixinApplicatorStandard.java:360)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 57,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:240)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 58,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 59,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 60,
                     "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:351)"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 61,
                     "content": "\t... 13 more"
-                },
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
                 {
                     "number": 62,
                     "content": ""
@@ -299,208 +691,36 @@
     "analysis": {
         "problems": [
             {
-                "message": "The mod 'enhanced_storage' has a fatal error.",
+                "message": "The mod 'rrv' has thrown an exception.",
                 "counter": 1,
                 "entry": {
-                    "level": 6,
+                    "level": 10,
                     "time": null,
-                    "prefix": "[02:24:42] [Render thread\/INFO]:",
+                    "prefix": null,
                     "lines": [
-                        {
-                            "number": 14,
-                            "content": "[02:24:42] [Render thread\/INFO]: Setting user: Player"
-                        },
-                        {
-                            "number": 15,
-                            "content": "---- Minecraft Crash Report ----"
-                        },
-                        {
-                            "number": 16,
-                            "content": "\/\/ On the bright side, I bought you a teddy bear!"
-                        },
-                        {
-                            "number": 17,
-                            "content": "Time: 2026-08-03 02:24:55"
-                        },
-                        {
-                            "number": 18,
-                            "content": "Description: Initializing game"
-                        },
                         {
                             "number": 19,
                             "content": "java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to errors, provided by 'rrv' at 'cc.cassian.rrv.fabric.FabricClientEntrypoint'!"
-                        },
-                        {
-                            "number": 20,
-                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:413)"
-                        },
-                        {
-                            "number": 21,
-                            "content": "\tat net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)"
-                        },
-                        {
-                            "number": 22,
-                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:411)"
-                        },
-                        {
-                            "number": 23,
-                            "content": "\tat net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)"
-                        },
-                        {
-                            "number": 24,
-                            "content": "\tat knot\/\/net.minecraft.client.Minecraft.<init>(Minecraft.java:477)"
-                        },
-                        {
-                            "number": 25,
-                            "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474)"
-                        },
-                        {
-                            "number": 26,
-                            "content": "Caused by: java.lang.RuntimeException: Mixin transformation of cc.cassian.rrv.common.overlay.itemlist.view.ItemViewOverlay failed"
-                        },
-                        {
-                            "number": 27,
-                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:440)"
-                        },
-                        {
-                            "number": 28,
-                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336)"
-                        },
-                        {
-                            "number": 29,
-                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231)"
-                        },
-                        {
-                            "number": 30,
-                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)"
-                        },
-                        {
-                            "number": 31,
-                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:490)"
-                        },
-                        {
-                            "number": 32,
-                            "content": "\tat knot\/\/cc.cassian.rrv.fabric.FabricClientEntrypoint.onInitializeClient(FabricClientEntrypoint.java:34)"
-                        },
-                        {
-                            "number": 33,
-                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:409)"
-                        },
-                        {
-                            "number": 34,
-                            "content": "\t... 3 more"
-                        },
-                        {
-                            "number": 35,
-                            "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered"
-                        },
-                        {
-                            "number": 36,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:380)"
-                        },
-                        {
-                            "number": 37,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237)"
-                        },
-                        {
-                            "number": 38,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)"
-                        },
-                        {
-                            "number": 39,
-                            "content": "\tat knot\/\/dev.jfronny.libjf.unsafe.asm.AsmTransformer.transformClassBytes(AsmTransformer.java:128)"
-                        },
-                        {
-                            "number": 40,
-                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435)"
-                        },
-                        {
-                            "number": 41,
-                            "content": "\t... 9 more"
-                        },
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'rrv'."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'enhanced_storage' has a fatal error.",
+                "counter": 1,
+                "entry": {
+                    "level": 10,
+                    "time": null,
+                    "prefix": null,
+                    "lines": [
                         {
                             "number": 42,
                             "content": "Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [enhancedstorage.mixins.json:compat.RRVItemViewOverlayMixin from mod enhanced_storage] from phase [DEFAULT] in config [enhancedstorage.mixins.json] FAILED during APPLY"
-                        },
-                        {
-                            "number": 43,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:685)"
-                        },
-                        {
-                            "number": 44,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:636)"
-                        },
-                        {
-                            "number": 45,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:367)"
-                        },
-                        {
-                            "number": 46,
-                            "content": "\t... 13 more"
-                        },
-                        {
-                            "number": 47,
-                            "content": "Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Invalid descriptor on enhancedstorage.mixins.json:compat.RRVItemViewOverlayMixin from mod enhanced_storage->@Inject::enhancedstorage$deferHighlight(Lnet\/minecraft\/client\/gui\/screens\/inventory\/AbstractContainerScreen;Lnet\/minecraft\/client\/gui\/GuiGraphicsExtractor;IIFLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfo;)V! Expected (Lnet\/minecraft\/client\/gui\/screens\/Screen;Lnet\/minecraft\/client\/gui\/GuiGraphicsExtractor;IIFLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfo;)V but found (Lnet\/minecraft\/client\/gui\/screens\/inventory\/AbstractContainerScreen;Lnet\/minecraft\/client\/gui\/GuiGraphicsExtractor;IIFLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfo;)V [INJECT_APPLY Applicator Phase -> enhancedstorage.mixins.json:compat.RRVItemViewOverlayMixin from mod enhanced_storage -> Apply Injections ->  -> Inject -> enhancedstorage.mixins.json:compat.RRVItemViewOverlayMixin from mod enhanced_storage->@Inject::enhancedstorage$deferHighlight(Lnet\/minecraft\/client\/gui\/screens\/inventory\/AbstractContainerScreen;Lnet\/minecraft\/client\/gui\/GuiGraphicsExtractor;IIFLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfo;)V]"
-                        },
-                        {
-                            "number": 48,
-                            "content": "\tat org.spongepowered.asm.mixin.injection.callback.CallbackInjector.inject(CallbackInjector.java:563)"
-                        },
-                        {
-                            "number": 49,
-                            "content": "\tat org.spongepowered.asm.mixin.injection.callback.CallbackInjector.inject(CallbackInjector.java:493)"
-                        },
-                        {
-                            "number": 50,
-                            "content": "\tat org.spongepowered.asm.mixin.injection.code.Injector.inject(Injector.java:284)"
-                        },
-                        {
-                            "number": 51,
-                            "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.inject(InjectionInfo.java:508)"
-                        },
-                        {
-                            "number": 52,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1470)"
-                        },
-                        {
-                            "number": 53,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:832)"
-                        },
-                        {
-                            "number": 54,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.lambda$runApplicatorPass$7(MixinApplicatorStandard.java:362)"
-                        },
-                        {
-                            "number": 55,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.processMixins(MixinApplicatorStandard.java:381)"
-                        },
-                        {
-                            "number": 56,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.runApplicatorPass(MixinApplicatorStandard.java:360)"
-                        },
-                        {
-                            "number": 57,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:240)"
-                        },
-                        {
-                            "number": 58,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)"
-                        },
-                        {
-                            "number": 59,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)"
-                        },
-                        {
-                            "number": 60,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:351)"
-                        },
-                        {
-                            "number": 61,
-                            "content": "\t... 13 more"
-                        },
-                        {
-                            "number": 62,
-                            "content": ""
                         }
                     ]
                 },
@@ -512,304 +732,8 @@
                         "message": "Install a different version of the mod 'enhanced_storage'."
                     }
                 ]
-            },
-            {
-                "message": "The mod 'rrv' has thrown an exception.",
-                "counter": 1,
-                "entry": {
-                    "level": 6,
-                    "time": null,
-                    "prefix": "[02:24:42] [Render thread\/INFO]:",
-                    "lines": [
-                        {
-                            "number": 14,
-                            "content": "[02:24:42] [Render thread\/INFO]: Setting user: Player"
-                        },
-                        {
-                            "number": 15,
-                            "content": "---- Minecraft Crash Report ----"
-                        },
-                        {
-                            "number": 16,
-                            "content": "\/\/ On the bright side, I bought you a teddy bear!"
-                        },
-                        {
-                            "number": 17,
-                            "content": "Time: 2026-08-03 02:24:55"
-                        },
-                        {
-                            "number": 18,
-                            "content": "Description: Initializing game"
-                        },
-                        {
-                            "number": 19,
-                            "content": "java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to errors, provided by 'rrv' at 'cc.cassian.rrv.fabric.FabricClientEntrypoint'!"
-                        },
-                        {
-                            "number": 20,
-                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:413)"
-                        },
-                        {
-                            "number": 21,
-                            "content": "\tat net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)"
-                        },
-                        {
-                            "number": 22,
-                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:411)"
-                        },
-                        {
-                            "number": 23,
-                            "content": "\tat net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)"
-                        },
-                        {
-                            "number": 24,
-                            "content": "\tat knot\/\/net.minecraft.client.Minecraft.<init>(Minecraft.java:477)"
-                        },
-                        {
-                            "number": 25,
-                            "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474)"
-                        },
-                        {
-                            "number": 26,
-                            "content": "Caused by: java.lang.RuntimeException: Mixin transformation of cc.cassian.rrv.common.overlay.itemlist.view.ItemViewOverlay failed"
-                        },
-                        {
-                            "number": 27,
-                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:440)"
-                        },
-                        {
-                            "number": 28,
-                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336)"
-                        },
-                        {
-                            "number": 29,
-                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231)"
-                        },
-                        {
-                            "number": 30,
-                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)"
-                        },
-                        {
-                            "number": 31,
-                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:490)"
-                        },
-                        {
-                            "number": 32,
-                            "content": "\tat knot\/\/cc.cassian.rrv.fabric.FabricClientEntrypoint.onInitializeClient(FabricClientEntrypoint.java:34)"
-                        },
-                        {
-                            "number": 33,
-                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:409)"
-                        },
-                        {
-                            "number": 34,
-                            "content": "\t... 3 more"
-                        },
-                        {
-                            "number": 35,
-                            "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered"
-                        },
-                        {
-                            "number": 36,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:380)"
-                        },
-                        {
-                            "number": 37,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237)"
-                        },
-                        {
-                            "number": 38,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)"
-                        },
-                        {
-                            "number": 39,
-                            "content": "\tat knot\/\/dev.jfronny.libjf.unsafe.asm.AsmTransformer.transformClassBytes(AsmTransformer.java:128)"
-                        },
-                        {
-                            "number": 40,
-                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435)"
-                        },
-                        {
-                            "number": 41,
-                            "content": "\t... 9 more"
-                        },
-                        {
-                            "number": 42,
-                            "content": "Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [enhancedstorage.mixins.json:compat.RRVItemViewOverlayMixin from mod enhanced_storage] from phase [DEFAULT] in config [enhancedstorage.mixins.json] FAILED during APPLY"
-                        },
-                        {
-                            "number": 43,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:685)"
-                        },
-                        {
-                            "number": 44,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:636)"
-                        },
-                        {
-                            "number": 45,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:367)"
-                        },
-                        {
-                            "number": 46,
-                            "content": "\t... 13 more"
-                        },
-                        {
-                            "number": 47,
-                            "content": "Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Invalid descriptor on enhancedstorage.mixins.json:compat.RRVItemViewOverlayMixin from mod enhanced_storage->@Inject::enhancedstorage$deferHighlight(Lnet\/minecraft\/client\/gui\/screens\/inventory\/AbstractContainerScreen;Lnet\/minecraft\/client\/gui\/GuiGraphicsExtractor;IIFLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfo;)V! Expected (Lnet\/minecraft\/client\/gui\/screens\/Screen;Lnet\/minecraft\/client\/gui\/GuiGraphicsExtractor;IIFLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfo;)V but found (Lnet\/minecraft\/client\/gui\/screens\/inventory\/AbstractContainerScreen;Lnet\/minecraft\/client\/gui\/GuiGraphicsExtractor;IIFLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfo;)V [INJECT_APPLY Applicator Phase -> enhancedstorage.mixins.json:compat.RRVItemViewOverlayMixin from mod enhanced_storage -> Apply Injections ->  -> Inject -> enhancedstorage.mixins.json:compat.RRVItemViewOverlayMixin from mod enhanced_storage->@Inject::enhancedstorage$deferHighlight(Lnet\/minecraft\/client\/gui\/screens\/inventory\/AbstractContainerScreen;Lnet\/minecraft\/client\/gui\/GuiGraphicsExtractor;IIFLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfo;)V]"
-                        },
-                        {
-                            "number": 48,
-                            "content": "\tat org.spongepowered.asm.mixin.injection.callback.CallbackInjector.inject(CallbackInjector.java:563)"
-                        },
-                        {
-                            "number": 49,
-                            "content": "\tat org.spongepowered.asm.mixin.injection.callback.CallbackInjector.inject(CallbackInjector.java:493)"
-                        },
-                        {
-                            "number": 50,
-                            "content": "\tat org.spongepowered.asm.mixin.injection.code.Injector.inject(Injector.java:284)"
-                        },
-                        {
-                            "number": 51,
-                            "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.inject(InjectionInfo.java:508)"
-                        },
-                        {
-                            "number": 52,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1470)"
-                        },
-                        {
-                            "number": 53,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:832)"
-                        },
-                        {
-                            "number": 54,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.lambda$runApplicatorPass$7(MixinApplicatorStandard.java:362)"
-                        },
-                        {
-                            "number": 55,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.processMixins(MixinApplicatorStandard.java:381)"
-                        },
-                        {
-                            "number": 56,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.runApplicatorPass(MixinApplicatorStandard.java:360)"
-                        },
-                        {
-                            "number": 57,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:240)"
-                        },
-                        {
-                            "number": 58,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)"
-                        },
-                        {
-                            "number": 59,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)"
-                        },
-                        {
-                            "number": 60,
-                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:351)"
-                        },
-                        {
-                            "number": 61,
-                            "content": "\t... 13 more"
-                        },
-                        {
-                            "number": 62,
-                            "content": ""
-                        }
-                    ]
-                },
-                "solutions": [
-                    {
-                        "message": "Remove the mod 'rrv'."
-                    }
-                ]
             }
         ],
-        "information": [
-            {
-                "message": "Minecraft version: 26.1.2",
-                "counter": 1,
-                "entry": {
-                    "level": 6,
-                    "time": null,
-                    "prefix": "[02:24:31] [main\/INFO]:",
-                    "lines": [
-                        {
-                            "number": 1,
-                            "content": "[02:24:31] [main\/INFO]: Loading Minecraft 26.1.2 with Fabric Loader 0.19.3"
-                        }
-                    ]
-                },
-                "label": "Minecraft version",
-                "value": "26.1.2"
-            },
-            {
-                "message": "Fabric loader version: 0.19.3",
-                "counter": 1,
-                "entry": {
-                    "level": 6,
-                    "time": null,
-                    "prefix": "[02:24:31] [main\/INFO]:",
-                    "lines": [
-                        {
-                            "number": 1,
-                            "content": "[02:24:31] [main\/INFO]: Loading Minecraft 26.1.2 with Fabric Loader 0.19.3"
-                        }
-                    ]
-                },
-                "label": "Fabric loader version",
-                "value": "0.19.3"
-            },
-            {
-                "message": "Java version: 25",
-                "counter": 1,
-                "entry": {
-                    "level": 6,
-                    "time": null,
-                    "prefix": "[02:24:31] [main\/INFO]:",
-                    "lines": [
-                        {
-                            "number": 2,
-                            "content": "[02:24:31] [main\/INFO]: Loading 214 mods:"
-                        },
-                        {
-                            "number": 3,
-                            "content": "\t- enhanced_storage 1.1.0"
-                        },
-                        {
-                            "number": 4,
-                            "content": "\t   \\-- midnightlib 1.9.3"
-                        },
-                        {
-                            "number": 5,
-                            "content": "\t- fabric-api 0.155.2 26.1.2"
-                        },
-                        {
-                            "number": 6,
-                            "content": "\t- fabricloader 0.19.3"
-                        },
-                        {
-                            "number": 7,
-                            "content": "\t   \\-- mixinextras 0.5.4"
-                        },
-                        {
-                            "number": 8,
-                            "content": "\t- java 25"
-                        },
-                        {
-                            "number": 9,
-                            "content": "\t- minecraft 26.1.2"
-                        },
-                        {
-                            "number": 10,
-                            "content": "\t- rrv 8.7.0 26.1.2"
-                        }
-                    ]
-                },
-                "label": "Java version",
-                "value": "25"
-            }
-        ]
+        "information": []
     }
 }
