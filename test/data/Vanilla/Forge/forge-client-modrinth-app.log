@@ -1,0 +1,19 @@
+Ignoring duplicate module on SecureModuleFinder: jtracy: Jar[jar:file:///Users/********/Library/Application%20Support/ModrinthApp/meta/libraries/com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-macos.jar!/]
+Ignoring duplicate module on SecureModuleFinder: jtracy: Jar[jar:file:///Users/********/Library/Application%20Support/ModrinthApp/meta/libraries/com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-macos-arm64.jar!/]
+[23:18:06] [main] [cpw.mods.modlauncher.Launcher/INFO]: ModLauncher running: args [--username, {MINECRAFT_USERNAME}, --version, 26.3, --gameDir, /Users/********/Library/Application Support/ModrinthApp/profiles/Forge 26.3, --assetsDir, /Users/********/Library/Application Support/ModrinthApp/meta/assets, --assetIndex, 34, --uuid, {MINECRAFT_UUID}, --accessToken, **********, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --versionType, release, --width, 854, --height, 480, --launchTarget, forge_client]
+[23:18:06] [main] [cpw.mods.modlauncher.Launcher/INFO]: JVM identified as Azul Systems, Inc. OpenJDK 64-Bit Server VM **.**.**.**.3+1-LTS
+[23:18:06] [main] [cpw.mods.modlauncher.Launcher/INFO]: ModLauncher 10.2.6 starting: java version 25.**.**.**.** by Azul Systems, Inc.; OS Mac OS X arch aarch64 version 27.2.1
+[23:18:06] [main] [net.minecraftforge.fml.loading.FMLConfig/WARN]: Configuration file /Users/********/Library/Application Support/ModrinthApp/profiles/Forge 26.3/config/fml.toml is not correct. Correcting
+[23:18:06] [main] [net.minecraftforge.fml.loading.ImmediateWindowHandler/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[23:18:06] [main] [net.minecraftforge.fml.loading.ImmediateWindowHandler/INFO]: ImmediateWindowProvider fmlearlywindow does not support default, switching to dummyprovider
+[23:18:06] [main] [mixin/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///Users/********/Library/Application%20Support/ModrinthApp/meta/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=CLIENT
+[23:18:07] [main] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file forge-26.3-66.1.8-client.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@344344fa
+[23:18:07] [main] [cpw.mods.modlauncher.LaunchServiceHandler/INFO]: Launching target 'forge_client' with arguments [--version, 26.3, --gameDir, /Users/********/Library/Application Support/ModrinthApp/profiles/Forge 26.3, --assetsDir, /Users/********/Library/Application Support/ModrinthApp/meta/assets, --uuid, {MINECRAFT_UUID}, --username, {MINECRAFT_USERNAME}, --assetIndex, 34, --accessToken, **********, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --versionType, release, --width, 854, --height, 480]
+[23:18:09] [Datafixer Bootstrap #0] [com.mojang.datafixers.DataFixerBuilder/INFO]: 307 Datafixer optimizations took 302 milliseconds
+[23:18:10] [main] [oshi.software.os.mac.MacOperatingSystem/WARN]: Unable to parse version 27.2 to a codename.
+[23:18:14] [Render thread] [com.mojang.blaze3d.platform.SdlDebug/INFO]: SDL [SYSTEM]: App ID: com.mojang.minecraft
+[23:18:14] [Render thread] [com.mojang.blaze3d.platform.SdlDebug/INFO]: SDL [SYSTEM]: SDL revision: SDL-3.4.14-62f10da
+[23:18:14] [Render thread] [com.mojang.renderpearl.backend.vulkan.VulkanBackend/WARN]: Device [Apple M5 Pro] supports all extensions from FeatureSet [Vulkan Portability Subset], making required
+[23:18:15] [modloading-worker-0] [net.minecraftforge.common.ForgeMod/INFO]: Forge mod loading, version 66.1.8, for MC 26.3 with MCP 20260918.230105
+[23:18:15] [modloading-worker-0] [net.minecraftforge.common.MinecraftForge/INFO]: MinecraftForge v66.1.8 Initialized
+[23:18:15] [modloading-worker-0] [net.minecraftforge.common.ForgeMod/INFO]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming

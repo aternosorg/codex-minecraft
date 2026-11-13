@@ -1,0 +1,181 @@
+{
+    "id": "neoforge\/client",
+    "name": "NeoForge",
+    "type": "Client Log",
+    "version": "1.21.1",
+    "title": "NeoForge 1.21.1 Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:20:37] [main] [cpw.mods.modlauncher.Launcher\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[23:20:37] [main] [cpw.mods.modlauncher.Launcher\/INFO]: ModLauncher running: args [--username, {MINECRAFT_USERNAME}, --version, 1.21.1, --gameDir, \/Users\/********\/Library\/Application Support\/ModrinthApp\/profiles\/NeoForge 1.21.1, --assetsDir, \/Users\/********\/Library\/Application Support\/ModrinthApp\/meta\/assets, --assetIndex, 17, --uuid, {MINECRAFT_UUID}, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480, --fml.neoForgeVersion, 21.1.266, --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:20:37] [main] [cpw.mods.modlauncher.Launcher\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[23:20:37] [main] [cpw.mods.modlauncher.Launcher\/INFO]: JVM identified as Azul Systems, Inc. OpenJDK 64-Bit Server VM **.**.**.**.3+1-LTS"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:20:37] [main] [cpw.mods.modlauncher.Launcher\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[23:20:37] [main] [cpw.mods.modlauncher.Launcher\/INFO]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.**.**.**.** by Azul Systems, Inc.; OS Mac OS X arch aarch64 version 27.2.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:20:37] [main] [net.neoforged.fml.loading.ImmediateWindowHandler\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[23:20:37] [main] [net.neoforged.fml.loading.ImmediateWindowHandler\/INFO]: Loading ImmediateWindowProvider fmlearlywindow"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:20:40] [main] [cpw.mods.modlauncher.LaunchServiceHandler\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[23:20:40] [main] [cpw.mods.modlauncher.LaunchServiceHandler\/INFO]: Launching target 'forgeclient' with arguments [--version, 1.21.1, --gameDir, \/Users\/********\/Library\/Application Support\/ModrinthApp\/profiles\/NeoForge 1.21.1, --assetsDir, \/Users\/********\/Library\/Application Support\/ModrinthApp\/meta\/assets, --uuid, {MINECRAFT_UUID}, --username, {MINECRAFT_USERNAME}, --assetIndex, 17, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480]"
+                },
+                {
+                    "number": 6,
+                    "content": "WARN StatusConsoleListener Error parsing URI \/Users\/********\/Library\/Application Support\/ModrinthApp\/meta\/log_configs\/client-1.12.xml"
+                },
+                {
+                    "number": 7,
+                    "content": "WARN StatusConsoleListener Advanced terminal features are not available in this environment"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:20:41] [Datafixer Bootstrap\/INFO] [mojang\/DataFixerBuilder]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[23:20:41] [Datafixer Bootstrap\/INFO] [mojang\/DataFixerBuilder]: 229 Datafixer optimizations took 316 milliseconds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:20:43] [pool-6-thread-1\/INFO] [MixinExtras|Service\/]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[23:20:43] [pool-6-thread-1\/INFO] [MixinExtras|Service\/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5)."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[23:20:48] [Render thread\/WARN] [minecraft\/VanillaPackResourcesBuilder]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[23:20:48] [Render thread\/WARN] [minecraft\/VanillaPackResourcesBuilder]: Assets URL 'union:\/Users\/********\/Library\/Application%20Support\/ModrinthApp\/meta\/libraries\/net\/minecraft\/client\/1.21.1-20240808.144430\/client-1.21.1-20240808.144430-srg.jar%23185!\/assets\/.mcassetsroot' uses unexpected schema"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:20:48] [Render thread\/INFO] [minecraft\/Minecraft]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[23:20:48] [Render thread\/INFO] [minecraft\/Minecraft]: Setting user: {MINECRAFT_USERNAME}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:20:48] [modloading-worker-0\/INFO] [ne.ne.ne.co.NeoForgeMod\/NEOFORGE-MOD]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[23:20:48] [modloading-worker-0\/INFO] [ne.ne.ne.co.NeoForgeMod\/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.266, for MC 1.21.1"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[23:20:52] [Render thread\/WARN] [minecraft\/SoundEngine]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[23:20:52] [Render thread\/WARN] [minecraft\/SoundEngine]: Missing sound for event: minecraft:item.goat_horn.play"
+                },
+                {
+                    "number": 14,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.21.1",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[23:20:37] [main] [cpw.mods.modlauncher.Launcher\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[23:20:37] [main] [cpw.mods.modlauncher.Launcher\/INFO]: ModLauncher running: args [--username, {MINECRAFT_USERNAME}, --version, 1.21.1, --gameDir, \/Users\/********\/Library\/Application Support\/ModrinthApp\/profiles\/NeoForge 1.21.1, --assetsDir, \/Users\/********\/Library\/Application Support\/ModrinthApp\/meta\/assets, --assetIndex, 17, --uuid, {MINECRAFT_UUID}, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480, --fml.neoForgeVersion, 21.1.266, --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.1"
+            },
+            {
+                "message": "NeoForge version: 21.1.266",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[23:20:37] [main] [cpw.mods.modlauncher.Launcher\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[23:20:37] [main] [cpw.mods.modlauncher.Launcher\/INFO]: ModLauncher running: args [--username, {MINECRAFT_USERNAME}, --version, 1.21.1, --gameDir, \/Users\/********\/Library\/Application Support\/ModrinthApp\/profiles\/NeoForge 1.21.1, --assetsDir, \/Users\/********\/Library\/Application Support\/ModrinthApp\/meta\/assets, --assetIndex, 17, --uuid, {MINECRAFT_UUID}, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480, --fml.neoForgeVersion, 21.1.266, --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]"
+                        }
+                    ]
+                },
+                "label": "NeoForge version",
+                "value": "21.1.266"
+            }
+        ]
+    }
+}
