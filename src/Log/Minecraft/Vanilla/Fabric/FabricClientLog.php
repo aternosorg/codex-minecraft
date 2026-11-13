@@ -15,7 +15,12 @@ class FabricClientLog extends FabricLog implements ClientLogTypeInterface
         return [
             (new MultiPatternDetector())
                 ->addPattern('/' . static::getLoadingMinecraftPattern() . '/m')
-                ->addPattern('#^\[[\d:]+\] \[(?:Render thread|main)\/INFO\](?::| \((?:net\.minecraft\.client\.)?Minecraft\)) Setting user: \w+#m')
+                ->addPattern('#^\[[\d:]+\] \[(?:Render thread|main)\/INFO\](?::| \((?:net\.minecraft\.client\.)?Minecraft\)) Setting user: \w+#m'),
+            // Modrinth App, logger in its own bracket:
+            // [09:45:51] [Render thread] [net.minecraft.class_310/INFO]: Setting user: Player
+            (new MultiPatternDetector())
+                ->addPattern('/' . static::getLoadingMinecraftPattern() . '/m')
+                ->addPattern('/^\[[\d:]+\] \[Render thread\] \[[^\]\/]+\/INFO\]: Setting user: \w+/m')
         ];
     }
 }
