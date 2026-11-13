@@ -1334,6 +1334,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_minecraft_version_range(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-minecraft-version-range.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_missing_dependencies_1(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-missing-dependencies-1.log');
