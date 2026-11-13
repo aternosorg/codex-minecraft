@@ -1254,6 +1254,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_java_version_dependency_exact(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-java-version-dependency-exact.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_java_version_dependency(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-java-version-dependency.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_java11(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-java11.log');
