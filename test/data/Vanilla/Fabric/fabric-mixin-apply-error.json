@@ -1,0 +1,1058 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "1.21.11",
+    "title": "Fabric 1.21.11 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:24:10] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[09:24:10] [main\/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.5"
+                },
+                {
+                    "number": 2,
+                    "content": " - Mod 'Sounds' (sounds) 2.4.23+edge recommends any version of rsls, which is missing!"
+                },
+                {
+                    "number": 3,
+                    "content": "\t- fabric-api 0.141.3+1.21.11"
+                },
+                {
+                    "number": 4,
+                    "content": "\t- fabricloader 0.18.5"
+                },
+                {
+                    "number": 5,
+                    "content": "\t   \\-- mixinextras 0.5.3"
+                },
+                {
+                    "number": 6,
+                    "content": "\t- java 21"
+                },
+                {
+                    "number": 7,
+                    "content": "\t- minecraft 1.21.11"
+                },
+                {
+                    "number": 8,
+                    "content": "\t- subtle_effects 1.14.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:24:15] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[09:24:15] [main\/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:\/C:\/Users\/********\/AppData\/Roaming\/PrismLauncher\/libraries\/net\/fabricmc\/sponge-mixin\/0.17.0+mixin.0.8.7\/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot\/Fabric Env=CLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:24:15] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[09:24:15] [main\/INFO]: Compatibility level set to JAVA_17"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:24:15] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[09:24:15] [main\/INFO]: Compatibility level set to JAVA_21"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:24:21] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[09:24:21] [main\/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3)."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:24:22] [Datafixer Bootstrap\/ERROR]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[09:24:22] [Datafixer Bootstrap\/ERROR]: ETF_load: Config was null, using defaults"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:24:23] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[09:24:23] [main\/ERROR]: ETF_load: Config was null, using defaults"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:24:23] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[09:24:23] [main\/INFO]: Loading Generated Config Loaders..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:24:23] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[09:24:23] [main\/INFO]: Loaded 'neruina'"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[09:24:23] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[09:24:23] [main\/WARN]: Method overwrite conflict for equals in moonrise.mixins.json:blockstate_propertyaccess.PropertyMixin from mod moonrise, previously written by org.embeddedt.modernfix.common.mixin.perf.model_optimizations.PropertyMixin. Skipping method."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:24:23] [Datafixer Bootstrap\/INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[09:24:23] [Datafixer Bootstrap\/INFO]: 287 Datafixer optimizations took 743 milliseconds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:24:23] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[09:24:23] [main\/INFO]: Instancing error handler class dev.isxander.debugify.error.DebugifyErrorHandler"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:24:23] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[09:24:23] [main\/INFO]: Instancing error handler class gg.essential.mixins.MixinErrorHandler"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:24:23] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[09:24:23] [main\/ERROR]: Mixin apply for mod subtle_effects failed subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> net.minecraft.class_1297: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException @At(\"INVOKE\") on net\/minecraft\/class_1297::storeFluidPairHeight with priority 1000 cannot inject into net\/minecraft\/class_1297::method_5692(Lnet\/minecraft\/class_6862;D)Z merged by ca.spottedleaf.moonrise.fabric.mixin.collisions.EntityMixin with priority 1000 [INJECT_PREPARE Applicator Phase -> subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> Prepare Injections -> handler$hal000$subtle_effects$storeFluidPairHeight(Lnet\/minecraft\/class_6862;DLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfoReturnable;Lnet\/minecraft\/class_3610;Lcom\/llamalad7\/mixinextras\/sugar\/ref\/LocalRef;)V -> Prepare ->  -> { target: method_5692(Lnet\/minecraft\/class_6862;D)Z }]"
+                },
+                {
+                    "number": 22,
+                    "content": "org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: @At(\"INVOKE\") on net\/minecraft\/class_1297::storeFluidPairHeight with priority 1000 cannot inject into net\/minecraft\/class_1297::method_5692(Lnet\/minecraft\/class_6862;D)Z merged by ca.spottedleaf.moonrise.fabric.mixin.collisions.EntityMixin with priority 1000 [INJECT_PREPARE Applicator Phase -> subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> Prepare Injections -> handler$hal000$subtle_effects$storeFluidPairHeight(Lnet\/minecraft\/class_6862;DLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfoReturnable;Lnet\/minecraft\/class_3610;Lcom\/llamalad7\/mixinextras\/sugar\/ref\/LocalRef;)V -> Prepare ->  -> { target: method_5692(Lnet\/minecraft\/class_6862;D)Z }]"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.code.Injector.findTargetNodes(Injector.java:312)"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.code.Injector.find(Injector.java:248)"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.prepare(InjectionInfo.java:475)"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat knot\/\/com.llamalad7.mixinextras.wrapper.InjectorWrapperImpl.prepare(InjectorWrapperImpl.java:56)"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat knot\/\/com.llamalad7.mixinextras.sugar.impl.SugarWrapperImpl.prepare(SugarWrapperImpl.java:70)"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat knot\/\/com.llamalad7.mixinextras.wrapper.WrapperInjectionInfo.prepare(WrapperInjectionInfo.java:64)"
+                },
+                {
+                    "number": 29,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1404)"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:731)"
+                },
+                {
+                    "number": 31,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:315)"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246)"
+                },
+                {
+                    "number": 33,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)"
+                },
+                {
+                    "number": 34,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)"
+                },
+                {
+                    "number": 35,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:352)"
+                },
+                {
+                    "number": 36,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237)"
+                },
+                {
+                    "number": 37,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)"
+                },
+                {
+                    "number": 38,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435)"
+                },
+                {
+                    "number": 39,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336)"
+                },
+                {
+                    "number": 40,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231)"
+                },
+                {
+                    "number": 41,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)"
+                },
+                {
+                    "number": 42,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526)"
+                },
+                {
+                    "number": 43,
+                    "content": "\tat net.minecraft.Bootstrap.initialize(Bootstrap.java:57)"
+                },
+                {
+                    "number": 44,
+                    "content": "\tat net.minecraft.client.main.Main.main(Main.java:135)"
+                },
+                {
+                    "number": 45,
+                    "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)"
+                },
+                {
+                    "number": 46,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)"
+                },
+                {
+                    "number": 47,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)"
+                },
+                {
+                    "number": 48,
+                    "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)"
+                },
+                {
+                    "number": 49,
+                    "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)"
+                },
+                {
+                    "number": 50,
+                    "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:24:24] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[09:24:24] [main\/INFO]: Instancing error handler class dev.isxander.debugify.error.DebugifyErrorHandler"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[09:24:24] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[09:24:24] [main\/INFO]: Instancing error handler class gg.essential.mixins.MixinErrorHandler"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:24:24] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[09:24:24] [main\/ERROR]: Mixin apply for mod subtle_effects failed subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> net.minecraft.class_1297: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException @At(\"INVOKE\") on net\/minecraft\/class_1297::storeFluidPairHeight with priority 1000 cannot inject into net\/minecraft\/class_1297::method_5692(Lnet\/minecraft\/class_6862;D)Z merged by ca.spottedleaf.moonrise.fabric.mixin.collisions.EntityMixin with priority 1000 [INJECT_PREPARE Applicator Phase -> subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> Prepare Injections -> handler$hal000$subtle_effects$storeFluidPairHeight(Lnet\/minecraft\/class_6862;DLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfoReturnable;Lnet\/minecraft\/class_3610;Lcom\/llamalad7\/mixinextras\/sugar\/ref\/LocalRef;)V -> Prepare ->  -> { target: method_5692(Lnet\/minecraft\/class_6862;D)Z }]"
+                },
+                {
+                    "number": 54,
+                    "content": "org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: @At(\"INVOKE\") on net\/minecraft\/class_1297::storeFluidPairHeight with priority 1000 cannot inject into net\/minecraft\/class_1297::method_5692(Lnet\/minecraft\/class_6862;D)Z merged by ca.spottedleaf.moonrise.fabric.mixin.collisions.EntityMixin with priority 1000 [INJECT_PREPARE Applicator Phase -> subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> Prepare Injections -> handler$hal000$subtle_effects$storeFluidPairHeight(Lnet\/minecraft\/class_6862;DLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfoReturnable;Lnet\/minecraft\/class_3610;Lcom\/llamalad7\/mixinextras\/sugar\/ref\/LocalRef;)V -> Prepare ->  -> { target: method_5692(Lnet\/minecraft\/class_6862;D)Z }]"
+                },
+                {
+                    "number": 55,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.code.Injector.findTargetNodes(Injector.java:312)"
+                },
+                {
+                    "number": 56,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.code.Injector.find(Injector.java:248)"
+                },
+                {
+                    "number": 57,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.prepare(InjectionInfo.java:475)"
+                },
+                {
+                    "number": 58,
+                    "content": "\tat knot\/\/com.llamalad7.mixinextras.wrapper.InjectorWrapperImpl.prepare(InjectorWrapperImpl.java:56)"
+                },
+                {
+                    "number": 59,
+                    "content": "\tat knot\/\/com.llamalad7.mixinextras.sugar.impl.SugarWrapperImpl.prepare(SugarWrapperImpl.java:70)"
+                },
+                {
+                    "number": 60,
+                    "content": "\tat knot\/\/com.llamalad7.mixinextras.wrapper.WrapperInjectionInfo.prepare(WrapperInjectionInfo.java:64)"
+                },
+                {
+                    "number": 61,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1404)"
+                },
+                {
+                    "number": 62,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:731)"
+                },
+                {
+                    "number": 63,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:315)"
+                },
+                {
+                    "number": 64,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246)"
+                },
+                {
+                    "number": 65,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)"
+                },
+                {
+                    "number": 66,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)"
+                },
+                {
+                    "number": 67,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:352)"
+                },
+                {
+                    "number": 68,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237)"
+                },
+                {
+                    "number": 69,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)"
+                },
+                {
+                    "number": 70,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435)"
+                },
+                {
+                    "number": 71,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336)"
+                },
+                {
+                    "number": 72,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231)"
+                },
+                {
+                    "number": 73,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)"
+                },
+                {
+                    "number": 74,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526)"
+                },
+                {
+                    "number": 75,
+                    "content": "\tat knot\/\/dev.yumi.mc.core.api.CrashReportEvents.lambda$static$5(CrashReportEvents.java:76)"
+                },
+                {
+                    "number": 76,
+                    "content": "\tat knot\/\/dev.yumi.commons.event.Event.update(Event.java:287)"
+                },
+                {
+                    "number": 77,
+                    "content": "\tat knot\/\/dev.yumi.commons.event.Event.<init>(Event.java:173)"
+                },
+                {
+                    "number": 78,
+                    "content": "\tat knot\/\/dev.yumi.commons.event.EventManager.create(EventManager.java:127)"
+                },
+                {
+                    "number": 79,
+                    "content": "\tat knot\/\/dev.yumi.mc.core.api.CrashReportEvents.<clinit>(CrashReportEvents.java:74)"
+                },
+                {
+                    "number": 80,
+                    "content": "\tat net.minecraft.util.SystemDetails.handler$hkm000$yumi_mc_core$yumi$onInit(SystemDetails.java:1031)"
+                },
+                {
+                    "number": 81,
+                    "content": "\tat net.minecraft.util.SystemDetails.<init>(SystemDetails.java:64)"
+                },
+                {
+                    "number": 82,
+                    "content": "\tat net.minecraft.util.crash.CrashReport.<init>(CrashReport.java:35)"
+                },
+                {
+                    "number": 83,
+                    "content": "\tat net.minecraft.util.crash.CrashReport.create(CrashReport.java:225)"
+                },
+                {
+                    "number": 84,
+                    "content": "\tat net.minecraft.client.main.Main.main(Main.java:204)"
+                },
+                {
+                    "number": 85,
+                    "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)"
+                },
+                {
+                    "number": 86,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)"
+                },
+                {
+                    "number": 87,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)"
+                },
+                {
+                    "number": 88,
+                    "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)"
+                },
+                {
+                    "number": 89,
+                    "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)"
+                },
+                {
+                    "number": 90,
+                    "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[09:24:24] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[09:24:24] [main\/ERROR]: Minecraft has crashed!"
+                },
+                {
+                    "number": 92,
+                    "content": "net.fabricmc.loader.impl.FormattedException: java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_1297 failed"
+                },
+                {
+                    "number": 93,
+                    "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:63)"
+                },
+                {
+                    "number": 94,
+                    "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:516)"
+                },
+                {
+                    "number": 95,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)"
+                },
+                {
+                    "number": 96,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)"
+                },
+                {
+                    "number": 97,
+                    "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)"
+                },
+                {
+                    "number": 98,
+                    "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)"
+                },
+                {
+                    "number": 99,
+                    "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70)"
+                },
+                {
+                    "number": 100,
+                    "content": "Caused by: java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_1297 failed"
+                },
+                {
+                    "number": 101,
+                    "content": "\tat knot\/\/dev.yumi.mc.core.api.CrashReportEvents.lambda$static$5(CrashReportEvents.java:76)"
+                },
+                {
+                    "number": 102,
+                    "content": "\tat knot\/\/dev.yumi.commons.event.Event.update(Event.java:287)"
+                },
+                {
+                    "number": 103,
+                    "content": "\tat knot\/\/dev.yumi.commons.event.Event.<init>(Event.java:173)"
+                },
+                {
+                    "number": 104,
+                    "content": "\tat knot\/\/dev.yumi.commons.event.EventManager.create(EventManager.java:127)"
+                },
+                {
+                    "number": 105,
+                    "content": "\tat knot\/\/dev.yumi.mc.core.api.CrashReportEvents.<clinit>(CrashReportEvents.java:74)"
+                },
+                {
+                    "number": 106,
+                    "content": "\tat net.minecraft.util.SystemDetails.handler$hkm000$yumi_mc_core$yumi$onInit(SystemDetails.java:1031)"
+                },
+                {
+                    "number": 107,
+                    "content": "\tat net.minecraft.util.SystemDetails.<init>(SystemDetails.java:64)"
+                },
+                {
+                    "number": 108,
+                    "content": "\tat net.minecraft.util.crash.CrashReport.<init>(CrashReport.java:35)"
+                },
+                {
+                    "number": 109,
+                    "content": "\tat net.minecraft.util.crash.CrashReport.create(CrashReport.java:225)"
+                },
+                {
+                    "number": 110,
+                    "content": "\tat net.minecraft.client.main.Main.main(Main.java:204)"
+                },
+                {
+                    "number": 111,
+                    "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)"
+                },
+                {
+                    "number": 112,
+                    "content": "\t... 5 more"
+                },
+                {
+                    "number": 113,
+                    "content": "Caused by: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_1297 failed"
+                },
+                {
+                    "number": 114,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:440)"
+                },
+                {
+                    "number": 115,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336)"
+                },
+                {
+                    "number": 116,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231)"
+                },
+                {
+                    "number": 117,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)"
+                },
+                {
+                    "number": 118,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526)"
+                },
+                {
+                    "number": 119,
+                    "content": "\t... 16 more"
+                },
+                {
+                    "number": 120,
+                    "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered"
+                },
+                {
+                    "number": 121,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:381)"
+                },
+                {
+                    "number": 122,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237)"
+                },
+                {
+                    "number": 123,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)"
+                },
+                {
+                    "number": 124,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435)"
+                },
+                {
+                    "number": 125,
+                    "content": "\t... 20 more"
+                },
+                {
+                    "number": 126,
+                    "content": "Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects] from phase [DEFAULT] in config [subtle_effects.fabric.mixins.json] FAILED during APPLY"
+                },
+                {
+                    "number": 127,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:686)"
+                },
+                {
+                    "number": 128,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:637)"
+                },
+                {
+                    "number": 129,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:368)"
+                },
+                {
+                    "number": 130,
+                    "content": "\t... 23 more"
+                },
+                {
+                    "number": 131,
+                    "content": "Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: @At(\"INVOKE\") on net\/minecraft\/class_1297::storeFluidPairHeight with priority 1000 cannot inject into net\/minecraft\/class_1297::method_5692(Lnet\/minecraft\/class_6862;D)Z merged by ca.spottedleaf.moonrise.fabric.mixin.collisions.EntityMixin with priority 1000 [INJECT_PREPARE Applicator Phase -> subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> Prepare Injections -> handler$hal000$subtle_effects$storeFluidPairHeight(Lnet\/minecraft\/class_6862;DLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfoReturnable;Lnet\/minecraft\/class_3610;Lcom\/llamalad7\/mixinextras\/sugar\/ref\/LocalRef;)V -> Prepare ->  -> { target: method_5692(Lnet\/minecraft\/class_6862;D)Z }]"
+                },
+                {
+                    "number": 132,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.code.Injector.findTargetNodes(Injector.java:312)"
+                },
+                {
+                    "number": 133,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.code.Injector.find(Injector.java:248)"
+                },
+                {
+                    "number": 134,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.prepare(InjectionInfo.java:475)"
+                },
+                {
+                    "number": 135,
+                    "content": "\tat knot\/\/com.llamalad7.mixinextras.wrapper.InjectorWrapperImpl.prepare(InjectorWrapperImpl.java:56)"
+                },
+                {
+                    "number": 136,
+                    "content": "\tat knot\/\/com.llamalad7.mixinextras.sugar.impl.SugarWrapperImpl.prepare(SugarWrapperImpl.java:70)"
+                },
+                {
+                    "number": 137,
+                    "content": "\tat knot\/\/com.llamalad7.mixinextras.wrapper.WrapperInjectionInfo.prepare(WrapperInjectionInfo.java:64)"
+                },
+                {
+                    "number": 138,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1404)"
+                },
+                {
+                    "number": 139,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:731)"
+                },
+                {
+                    "number": 140,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:315)"
+                },
+                {
+                    "number": 141,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246)"
+                },
+                {
+                    "number": 142,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)"
+                },
+                {
+                    "number": 143,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)"
+                },
+                {
+                    "number": 144,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:352)"
+                },
+                {
+                    "number": 145,
+                    "content": "\t... 23 more"
+                },
+                {
+                    "number": 146,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'subtle_effects' has a fatal error.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[09:24:24] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 91,
+                            "content": "[09:24:24] [main\/ERROR]: Minecraft has crashed!"
+                        },
+                        {
+                            "number": 92,
+                            "content": "net.fabricmc.loader.impl.FormattedException: java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_1297 failed"
+                        },
+                        {
+                            "number": 93,
+                            "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:63)"
+                        },
+                        {
+                            "number": 94,
+                            "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:516)"
+                        },
+                        {
+                            "number": 95,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)"
+                        },
+                        {
+                            "number": 96,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)"
+                        },
+                        {
+                            "number": 97,
+                            "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)"
+                        },
+                        {
+                            "number": 98,
+                            "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)"
+                        },
+                        {
+                            "number": 99,
+                            "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70)"
+                        },
+                        {
+                            "number": 100,
+                            "content": "Caused by: java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_1297 failed"
+                        },
+                        {
+                            "number": 101,
+                            "content": "\tat knot\/\/dev.yumi.mc.core.api.CrashReportEvents.lambda$static$5(CrashReportEvents.java:76)"
+                        },
+                        {
+                            "number": 102,
+                            "content": "\tat knot\/\/dev.yumi.commons.event.Event.update(Event.java:287)"
+                        },
+                        {
+                            "number": 103,
+                            "content": "\tat knot\/\/dev.yumi.commons.event.Event.<init>(Event.java:173)"
+                        },
+                        {
+                            "number": 104,
+                            "content": "\tat knot\/\/dev.yumi.commons.event.EventManager.create(EventManager.java:127)"
+                        },
+                        {
+                            "number": 105,
+                            "content": "\tat knot\/\/dev.yumi.mc.core.api.CrashReportEvents.<clinit>(CrashReportEvents.java:74)"
+                        },
+                        {
+                            "number": 106,
+                            "content": "\tat net.minecraft.util.SystemDetails.handler$hkm000$yumi_mc_core$yumi$onInit(SystemDetails.java:1031)"
+                        },
+                        {
+                            "number": 107,
+                            "content": "\tat net.minecraft.util.SystemDetails.<init>(SystemDetails.java:64)"
+                        },
+                        {
+                            "number": 108,
+                            "content": "\tat net.minecraft.util.crash.CrashReport.<init>(CrashReport.java:35)"
+                        },
+                        {
+                            "number": 109,
+                            "content": "\tat net.minecraft.util.crash.CrashReport.create(CrashReport.java:225)"
+                        },
+                        {
+                            "number": 110,
+                            "content": "\tat net.minecraft.client.main.Main.main(Main.java:204)"
+                        },
+                        {
+                            "number": 111,
+                            "content": "\tat net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)"
+                        },
+                        {
+                            "number": 112,
+                            "content": "\t... 5 more"
+                        },
+                        {
+                            "number": 113,
+                            "content": "Caused by: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_1297 failed"
+                        },
+                        {
+                            "number": 114,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:440)"
+                        },
+                        {
+                            "number": 115,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336)"
+                        },
+                        {
+                            "number": 116,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231)"
+                        },
+                        {
+                            "number": 117,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)"
+                        },
+                        {
+                            "number": 118,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526)"
+                        },
+                        {
+                            "number": 119,
+                            "content": "\t... 16 more"
+                        },
+                        {
+                            "number": 120,
+                            "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered"
+                        },
+                        {
+                            "number": 121,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:381)"
+                        },
+                        {
+                            "number": 122,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237)"
+                        },
+                        {
+                            "number": 123,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)"
+                        },
+                        {
+                            "number": 124,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435)"
+                        },
+                        {
+                            "number": 125,
+                            "content": "\t... 20 more"
+                        },
+                        {
+                            "number": 126,
+                            "content": "Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects] from phase [DEFAULT] in config [subtle_effects.fabric.mixins.json] FAILED during APPLY"
+                        },
+                        {
+                            "number": 127,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:686)"
+                        },
+                        {
+                            "number": 128,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:637)"
+                        },
+                        {
+                            "number": 129,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:368)"
+                        },
+                        {
+                            "number": 130,
+                            "content": "\t... 23 more"
+                        },
+                        {
+                            "number": 131,
+                            "content": "Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: @At(\"INVOKE\") on net\/minecraft\/class_1297::storeFluidPairHeight with priority 1000 cannot inject into net\/minecraft\/class_1297::method_5692(Lnet\/minecraft\/class_6862;D)Z merged by ca.spottedleaf.moonrise.fabric.mixin.collisions.EntityMixin with priority 1000 [INJECT_PREPARE Applicator Phase -> subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> Prepare Injections -> handler$hal000$subtle_effects$storeFluidPairHeight(Lnet\/minecraft\/class_6862;DLorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfoReturnable;Lnet\/minecraft\/class_3610;Lcom\/llamalad7\/mixinextras\/sugar\/ref\/LocalRef;)V -> Prepare ->  -> { target: method_5692(Lnet\/minecraft\/class_6862;D)Z }]"
+                        },
+                        {
+                            "number": 132,
+                            "content": "\tat org.spongepowered.asm.mixin.injection.code.Injector.findTargetNodes(Injector.java:312)"
+                        },
+                        {
+                            "number": 133,
+                            "content": "\tat org.spongepowered.asm.mixin.injection.code.Injector.find(Injector.java:248)"
+                        },
+                        {
+                            "number": 134,
+                            "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.prepare(InjectionInfo.java:475)"
+                        },
+                        {
+                            "number": 135,
+                            "content": "\tat knot\/\/com.llamalad7.mixinextras.wrapper.InjectorWrapperImpl.prepare(InjectorWrapperImpl.java:56)"
+                        },
+                        {
+                            "number": 136,
+                            "content": "\tat knot\/\/com.llamalad7.mixinextras.sugar.impl.SugarWrapperImpl.prepare(SugarWrapperImpl.java:70)"
+                        },
+                        {
+                            "number": 137,
+                            "content": "\tat knot\/\/com.llamalad7.mixinextras.wrapper.WrapperInjectionInfo.prepare(WrapperInjectionInfo.java:64)"
+                        },
+                        {
+                            "number": 138,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1404)"
+                        },
+                        {
+                            "number": 139,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:731)"
+                        },
+                        {
+                            "number": 140,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:315)"
+                        },
+                        {
+                            "number": 141,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246)"
+                        },
+                        {
+                            "number": 142,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)"
+                        },
+                        {
+                            "number": 143,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)"
+                        },
+                        {
+                            "number": 144,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:352)"
+                        },
+                        {
+                            "number": 145,
+                            "content": "\t... 23 more"
+                        },
+                        {
+                            "number": 146,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'subtle_effects'."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'subtle_effects'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.21.11",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[09:24:10] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[09:24:10] [main\/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.5"
+                        },
+                        {
+                            "number": 2,
+                            "content": " - Mod 'Sounds' (sounds) 2.4.23+edge recommends any version of rsls, which is missing!"
+                        },
+                        {
+                            "number": 3,
+                            "content": "\t- fabric-api 0.141.3+1.21.11"
+                        },
+                        {
+                            "number": 4,
+                            "content": "\t- fabricloader 0.18.5"
+                        },
+                        {
+                            "number": 5,
+                            "content": "\t   \\-- mixinextras 0.5.3"
+                        },
+                        {
+                            "number": 6,
+                            "content": "\t- java 21"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\t- minecraft 1.21.11"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\t- subtle_effects 1.14.0"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.11"
+            },
+            {
+                "message": "Fabric loader version: 0.18.5",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[09:24:10] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[09:24:10] [main\/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.5"
+                        },
+                        {
+                            "number": 2,
+                            "content": " - Mod 'Sounds' (sounds) 2.4.23+edge recommends any version of rsls, which is missing!"
+                        },
+                        {
+                            "number": 3,
+                            "content": "\t- fabric-api 0.141.3+1.21.11"
+                        },
+                        {
+                            "number": 4,
+                            "content": "\t- fabricloader 0.18.5"
+                        },
+                        {
+                            "number": 5,
+                            "content": "\t   \\-- mixinextras 0.5.3"
+                        },
+                        {
+                            "number": 6,
+                            "content": "\t- java 21"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\t- minecraft 1.21.11"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\t- subtle_effects 1.14.0"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.18.5"
+            }
+        ]
+    }
+}

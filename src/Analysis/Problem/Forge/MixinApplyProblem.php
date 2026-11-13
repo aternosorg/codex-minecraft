@@ -22,6 +22,12 @@ class MixinApplyProblem extends ModProblem
      */
     protected const string UNKNOWN_MOD_ID = "(unknown)";
 
+    /**
+     * Matches the error Mixin throws when a mixin fails to apply, e.g.
+     * "Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0] from phase [DEFAULT] in config [fabric-resource-loader-v0.mixins.json] FAILED during APPLY"
+     */
+    protected const string MIXIN_APPLY_ERROR = 'MixinApplyError: Mixin \[(?<mixinConfig>[^:\]\n]+):[^ \]\n]+ from mod (?<modId>[^\]\n]+)\] from phase';
+
     protected string $mixinConfig;
 
     /**
@@ -36,15 +42,12 @@ class MixinApplyProblem extends ModProblem
     }
 
     /**
-     * Matches the error Mixin throws when a mixin fails to apply, e.g.
-     * "Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0] from phase [DEFAULT] in config [fabric-resource-loader-v0.mixins.json] FAILED during APPLY"
-     *
      * @inheritDoc
      */
     public static function getPatterns(): array
     {
         return [
-            '/MixinApplyError: Mixin \[(?<mixinConfig>[^:\]\n]+):[^ \]\n]+ from mod (?<modId>[^\]\n]+)\] from phase/'
+            '/' . static::MIXIN_APPLY_ERROR . '/'
         ];
     }
 
