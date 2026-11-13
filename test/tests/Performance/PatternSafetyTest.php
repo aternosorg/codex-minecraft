@@ -3,7 +3,6 @@
 namespace Aternos\Codex\Minecraft\Test\Performance;
 
 use Aternos\Codex\Analysis\PatternInsightInterface;
-use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\ChunkLoadExceptionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ClientOnlyModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModFatalProblem;
@@ -76,7 +75,6 @@ class PatternSafetyTest extends TestCase
      * Which of them actually fails depends on whether PCRE JIT is enabled.
      */
     protected const array KNOWN_UNSAFE_PATTERNS = [
-        ChunkLoadExceptionProblem::class => [0, 1, 2],
         ClientOnlyModProblem::class => [0],
         ModDependencyProblem::class => ["loading-failed-exception"],
         ModFatalProblem::class => ["failed-to-load"],
