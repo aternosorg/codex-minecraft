@@ -14,6 +14,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Paper\PluginBootstrapperProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\PluginDataFolderProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\EventListenerMissingClassProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\CircularPluginDependencyProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\RestrictedPluginNameProblem;
 
 class PaperAnalyser extends BukkitAnalyser
 {
@@ -32,5 +33,6 @@ class PaperAnalyser extends BukkitAnalyser
         $this->addPossibleInsightClass(PluginWithoutDescriptorProblem::class);
         $this->addPossibleInsightClass(EventListenerMissingClassProblem::class);
         $this->addPossibleInsightClass(CircularPluginDependencyProblem::class);
+        $this->addPossibleInsightClass(RestrictedPluginNameProblem::class);
     }
 }

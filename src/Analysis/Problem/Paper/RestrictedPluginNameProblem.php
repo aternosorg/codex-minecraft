@@ -1,0 +1,72 @@
+<?php
+
+namespace Aternos\Codex\Minecraft\Analysis\Problem\Paper;
+
+use Aternos\Codex\Analysis\InsightInterface;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
+use Aternos\Codex\Minecraft\Translator\Translator;
+
+/**
+ * Paper refused a plugin because its name is reserved or contains a space.
+ */
+class RestrictedPluginNameProblem extends PaperProblem
+{
+    protected ?string $pluginName = null;
+
+    /**
+     * @inheritDoc
+     */
+    public function getMessage(): string
+    {
+        return Translator::getInstance()->getTranslation("restricted-plugin-name-problem");
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public static function getPatterns(): array
+    {
+        return ['/Restricted name, cannot use (.+?) as a plugin name\./'];
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function setMatches(array $matches, mixed $patternKey): void
+    {
+        $name = trim($matches[1], "'");
+
+        // Paper 26.3 formats the annotation instead of the actual name for reserved
+        // Paper plugin names, and the space message never contains the name at all.
+        if (str_contains($name, '@io.papermc') || str_starts_with($name, '0x20')) {
+            $name = null;
+        }
+
+        $this->pluginName = $name;
+        // The name comes from the "name" entry of the plugin descriptor, not from the jar file name.
+        // Only the plugin author can change it, so the operator can install a different version or remove the plugin.
+        if ($this->pluginName !== null) {
+            $this->addSolution(new PluginInstallDifferentVersionSolution($this->pluginName));
+            $this->addSolution(new PluginRemoveSolution($this->pluginName));
+        }
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getPluginName(): ?string
+    {
+        return $this->pluginName;
+    }
+
+    /**
+     * @param InsightInterface $insight
+     * @return bool
+     */
+    public function isEqual(InsightInterface $insight): bool
+    {
+        return $insight instanceof static
+            && $this->getPluginName() === $insight->getPluginName();
+    }
+}

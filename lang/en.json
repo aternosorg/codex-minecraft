@@ -111,5 +111,6 @@
   "plugin-without-descriptor-problem": "The file '{{file-path}}' is not a valid plugin, because it contains neither a plugin.yml nor a paper-plugin.yml.",
   "event-listener-missing-class-problem": "The plugin '{{plugin-name}}' could not register the event listener '{{listener}}', because the class '{{missing-class}}' it references does not exist.",
   "client-only-mod-problem": "The mod '{{mod-name}}' cannot run on a server. It is either a client-only mod or uses client-only code.",
-  "circular-plugin-dependency-problem": "Circular plugin dependencies detected: {{cycle}}."
+  "circular-plugin-dependency-problem": "Circular plugin dependencies detected: {{cycle}}.",
+  "restricted-plugin-name-problem": "A plugin has a name that is not allowed."
 }
