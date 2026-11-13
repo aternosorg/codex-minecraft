@@ -17,12 +17,15 @@ class QuiltVersionInformation extends QuiltInformation
 
 
     /**
+     * Matches the Quilt Loader version:
+     * [19:33:44] [main/INFO]: Loading Minecraft 1.18.2 with Quilt Loader 0.16.1-beta.3
+     *
      * @inheritDoc
      */
     public static function getPatterns(): array
     {
         return [
-            '/' . VanillaServerLog::getPrefixPattern() . 'Loading Minecraft ' . VanillaVersionInformation::getVersionPattern() . ' with Quilt Loader (' . static::$quiltVersionInformation . ')/'
+            '/' . VanillaServerLog::getPrefixPattern() . 'Loading Minecraft ' . VanillaVersionInformation::getVersionPattern() . ' with Quilt Loader (?<version>' . static::$quiltVersionInformation . ')/'
         ];
     }
 
@@ -31,6 +34,6 @@ class QuiltVersionInformation extends QuiltInformation
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->value = $matches[3];
+        $this->value = $matches['version'];
     }
 }

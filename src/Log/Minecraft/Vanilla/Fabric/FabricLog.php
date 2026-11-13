@@ -11,7 +11,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaLog;
 abstract class FabricLog extends VanillaLog
 {
     protected static string $pattern = '/^(\[(?:[0-9]{2}:?){3}\] \[[^\/]+\/(\w+)\]:?).*$/';
-    protected static string $prefixPattern = '(\[(?:[0-9]{2}:?){3}\] \[[^\/]+\/(\w+)\]:?) ';
+    protected static string $prefixPattern = '\[(?:[0-9]{2}:?){3}\] \[[^\/]+\/\w+\]:? ';
 
     /**
      * @inheritDoc
