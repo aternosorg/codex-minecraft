@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Vanilla;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -24,7 +25,7 @@ class DatapackParsingProblem extends VanillaProblem
      */
     public static function getPatterns(): array
     {
-        return ['/java.lang.IllegalStateException: Failed to parse .+ from pack file\/(.*)/'];
+        return ['/java\.lang\.IllegalStateException: Failed to parse .+ from pack file\/(.*)/'];
     }
 
     /**
@@ -39,5 +40,17 @@ class DatapackParsingProblem extends VanillaProblem
     public function getDatapack(): string
     {
         return $this->datapack;
+    }
+
+    /**
+     * Errors in different datapacks are different problems with different solutions
+     *
+     * @inheritDoc
+     */
+    public function isEqual(InsightInterface $insight): bool
+    {
+        return parent::isEqual($insight)
+            && $insight instanceof static
+            && $this->getDatapack() === $insight->getDatapack();
     }
 }

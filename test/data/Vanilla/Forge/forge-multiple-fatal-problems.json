@@ -1014,7 +1014,7 @@
     "analysis": {
         "problems": [
             {
-                "message": "The mod 'ForgeSkyboxes' has a fatal error.",
+                "message": "The mod 'ForgeSkyboxes' cannot run on a server. It is either a client-only mod or uses client-only code.",
                 "counter": 1,
                 "entry": {
                     "level": 3,
@@ -1173,7 +1173,7 @@
                 ]
             },
             {
-                "message": "The mod 'Entity Model Features' has a fatal error.",
+                "message": "The mod 'Entity Model Features' cannot run on a server. It is either a client-only mod or uses client-only code.",
                 "counter": 1,
                 "entry": {
                     "level": 3,
@@ -1332,7 +1332,7 @@
                 ]
             },
             {
-                "message": "The mod 'Entity Texture Features' has a fatal error.",
+                "message": "The mod 'Entity Texture Features' cannot run on a server. It is either a client-only mod or uses client-only code.",
                 "counter": 1,
                 "entry": {
                     "level": 3,
@@ -1491,7 +1491,7 @@
                 ]
             },
             {
-                "message": "The mod 'Oculus' has a fatal error.",
+                "message": "The mod 'Oculus' cannot run on a server. It is either a client-only mod or uses client-only code.",
                 "counter": 1,
                 "entry": {
                     "level": 3,

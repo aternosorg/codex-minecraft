@@ -23,7 +23,8 @@ class ModExceptionProblem extends ModProblem
     {
         return [
             '/Caught exception from ([^\(\n]+)/',
-            '/net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: \[\s+([^\(\n]+) \([^\)]+\) encountered an error during/'
+            // client-only causes are handled by ClientOnlyModProblem
+            '/net\.minecraftforge\.fml\.LoadingFailedException: Loading errors encountered: \[\s+([^\(\n]+) \([^\)]+\) encountered an error during(?![^\n]*\n' . ClientOnlyModProblem::CLIENT_ONLY_CAUSE . ')/'
         ];
     }
 

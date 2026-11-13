@@ -60,8 +60,8 @@ class PluginDependenciesProblem extends PluginFileProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not load \'(plugins[\/\\\][^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
-            . '\norg\.bukkit\.plugin\.UnknownDependencyException\: Unknown\/missing dependency plugins: \[([\w ,]+)\](?:\. Please download and install these plugins to run \'([^\']+)\')?/'
+            '/Could not load \'(plugins[\/\\\\][^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
+            . '\norg\.bukkit\.plugin\.UnknownDependencyException: Unknown\/missing dependency plugins: \[(' . static::PLUGIN_NAME . '(?:, ' . static::PLUGIN_NAME . ')*)\](?:\. Please download and install these plugins to run \'([^\']+)\')?/'
         ];
     }
 
@@ -70,7 +70,8 @@ class PluginDependenciesProblem extends PluginFileProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        if ($matches[4]) {
+        // the plugin name is only logged with the "Please download and install ..." suffix
+        if (isset($matches[4])) {
             $this->pluginName = $matches[4];
             $this->pluginFilePath = $this->correctPluginPath($matches[1]);
             $this->addSolution(new PluginInstallDifferentVersionSolution($this->getPluginName()));

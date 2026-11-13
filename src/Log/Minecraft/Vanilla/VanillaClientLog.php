@@ -13,7 +13,7 @@ class VanillaClientLog extends VanillaLog implements ClientLogTypeInterface
     public static function getDetectors(): array
     {
         return [
-            (new SinglePatternDetector())->setPattern('/^(\[(?:[0-9]{2}\:?){3}\] \[Render thread\/INFO]:) Setting user: \w+$/m'),
+            (new SinglePatternDetector())->setPattern('/^(\[(?:[0-9]{2}:?){3}\] \[Render thread\/INFO]:) Setting user: \w+$/m'),
         ];
     }
 }

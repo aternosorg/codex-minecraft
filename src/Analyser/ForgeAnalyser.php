@@ -6,6 +6,7 @@ use Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeJavaVersionInformati
 use Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVanillaVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
+use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ClientOnlyModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\FmlConfirmProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\LanguageProviderVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\MissingDatapackModProblem;
@@ -40,5 +41,6 @@ class ForgeAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(MultipleModulesExportProblem::class);
         $this->addPossibleInsightClass(LanguageProviderVersionProblem::class);
         $this->addPossibleInsightClass(MissingDatapackModProblem::class);
+        $this->addPossibleInsightClass(ClientOnlyModProblem::class);
     }
 }

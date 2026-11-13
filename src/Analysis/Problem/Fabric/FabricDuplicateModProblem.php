@@ -18,12 +18,16 @@ class FabricDuplicateModProblem extends FabricModProblem
     }
 
     /**
+     * Matches the duplicate mod and the path of one of its files:
+     * [16:33:50] [main/FATAL]: A critical error occurred
+     * net.fabricmc.loader.discovery.ModResolutionException: Duplicate versions for mod ID 'fabric': [0.30.3+1.16 at /server/mods/fabric-api-0.30.3+1.16.jar]
+     *
      * @inheritDoc
      */
     public static function getPatterns(): array
     {
         return [
-            "/" . VanillaServerLog::getPrefixPattern() . "A critical error occurred\nnet\.fabricmc\.loader\.discovery\.ModResolutionException: Duplicate versions for mod ID '([^']+)': \[[^ ]+ at ([^\]]+)\]/"
+            "/" . VanillaServerLog::getPrefixPattern() . "A critical error occurred\nnet\.fabricmc\.loader\.discovery\.ModResolutionException: Duplicate versions for mod ID '(?<mod>[^']+)': \[[^ ]+ at (?<path>[^\]]+)\]/"
         ];
     }
 
@@ -32,7 +36,7 @@ class FabricDuplicateModProblem extends FabricModProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->setModName($matches[3]);
-        $this->addSolution(new FileDeleteSolution($matches[4], FilePathType::ABSOLUTE));
+        $this->setModName($matches['mod']);
+        $this->addSolution(new FileDeleteSolution($matches['path'], FilePathType::ABSOLUTE));
     }
 }

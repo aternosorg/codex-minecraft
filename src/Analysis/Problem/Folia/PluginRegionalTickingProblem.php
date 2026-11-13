@@ -27,8 +27,8 @@ class PluginRegionalTickingProblem extends PluginFileProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not load plugin \'((?!\.jar).*\.jar)\' in folder \'([^\']+)\''
-            . '\norg.bukkit.plugin.InvalidPluginException: Plugin (\w+) v(?:[^\n]*) is not marked as supporting regionised multithreading/'
+            '/Could not load plugin \'([^\']+\.jar)\' in folder \'([^\']+)\''
+            . '\norg.bukkit.plugin.InvalidPluginException: Plugin (' . static::PLUGIN_NAME . ') v.* is not marked as supporting regionised multithreading/'
         ];
     }
 
