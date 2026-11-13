@@ -112,5 +112,10 @@
   "event-listener-missing-class-problem": "The plugin '{{plugin-name}}' could not register the event listener '{{listener}}', because the class '{{missing-class}}' it references does not exist.",
   "client-only-mod-problem": "The mod '{{mod-name}}' cannot run on a server. It is either a client-only mod or uses client-only code.",
   "circular-plugin-dependency-problem": "Circular plugin dependencies detected: {{cycle}}.",
-  "restricted-plugin-name-problem": "A plugin has a name that is not allowed."
+  "restricted-plugin-name-problem": "A plugin has a name that is not allowed.",
+  "paper-newer-config-file-problem": "The Paper config file '{{file-path}}' was created by a newer Paper version (config version {{config-version}}, this server supports up to {{supported-version}}). Settings in it might not work.",
+  "paper-newer-world-config-problem": "The Paper config file of the world '{{world-name}}' was created by a newer Paper version (config version {{config-version}}, this server supports up to {{supported-version}}). Settings in it might not work.",
+  "paper-config-reset-solution": "Back up and delete the file '{{file-path}}'. Paper creates it again with default settings.",
+  "paper-world-config-reset-solution": "Back up and delete the file 'paper-world.yml' of the world '{{world-name}}'. Paper creates it again with default settings.",
+  "paper-install-newer-version-solution": "Install the newer Paper version that created this config file."
 }
