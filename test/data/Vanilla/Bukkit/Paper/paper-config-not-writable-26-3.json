@@ -1,0 +1,1117 @@
+{
+    "id": "paper\/server",
+    "name": "Paper",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Paper 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting org.bukkit.craftbukkit.Main"
+                },
+                {
+                    "number": 2,
+                    "content": "2026-11-13T15:52:51.841959Z ServerMain WARN Advanced terminal features are not available in this environment"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:51 INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[16:52:51 INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.3+1-LTS-2; Oracle Corporation null) on Mac OS X 27.2.1 (aarch64)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:51 INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[16:52:51 INFO]: [bootstrap] Loading Paper 26.3-248-main@0727243 (2026-11-10T11:35:52Z) for Minecraft 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:51 INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[16:52:51 INFO]: [PluginInitializerManager] Initializing plugins..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:52 INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[16:52:52 INFO]: [PluginInitializerManager] Initialized 1 plugin"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:52 INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[16:52:52 INFO]: [PluginInitializerManager] Bukkit plugins (1):"
+                },
+                {
+                    "number": 8,
+                    "content": " - TestPlugin (1.1)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:52:52 WARN]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[16:52:52 WARN]: [oshi.software.os.mac.MacOperatingSystem] Unable to parse version 27.2 to a codename."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:53 INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[16:52:53 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:54 INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[16:52:54 INFO]: [com.destroystokyo.paper.profile.PaperServicesDiscoveryService] Environment: Environment[discoveryUrl=https:\/\/discovery.minecraftservices.com\/minecraft\/client, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:54 INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[16:52:54 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 226,3ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:54 INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[16:52:54 INFO]: Loaded 1866 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:54 INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[16:52:54 INFO]: Starting minecraft server version 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:54 INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[16:52:54 INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:54 INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[16:52:54 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[16:52:55 INFO]: [spark] This server bundles the spark profiler. For more information please visit https:\/\/docs.papermc.io\/paper\/profiling"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[16:52:55 INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[16:52:55 INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[16:52:55 INFO]: [ca.spottedleaf.moonrise.common.util.FMA] FMA supported: true for all ARMv8 platforms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[16:52:55 INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I\/O threads"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:52:55 WARN]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[16:52:55 WARN]: [Configurations] Could not save config\/paper-global.yml: Paper could not persist the full set of configuration settings in the configuration file. Any setting missing from the configuration file will be set with its default value in memory. Admins should make sure to review the configuration documentation at https:\/\/docs.papermc.io\/paper\/configuration for more details."
+                },
+                {
+                    "number": 23,
+                    "content": "org.spongepowered.configurate.ConfigurateException: []: java.nio.file.AccessDeniedException: \/home\/container\/config\/.118220814970875303942195paper-global.yml.tmp"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat org.spongepowered.configurate.loader.AbstractConfigurationLoader.save(AbstractConfigurationLoader.java:211) ~[configurate-core-4.2.0.jar:?]"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat io.papermc.paper.configuration.Configurations.trySaveFileNode(Configurations.java:112) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat io.papermc.paper.configuration.Configurations.initializeGlobalConfiguration(Configurations.java:137) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat io.papermc.paper.configuration.Configurations.initializeGlobalConfiguration(Configurations.java:107) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat io.papermc.paper.configuration.PaperConfigurations.initializeGlobalConfiguration(PaperConfigurations.java:227) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 29,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:238) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 31,
+                    "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474) ~[?:?]"
+                },
+                {
+                    "number": 33,
+                    "content": "Caused by: java.nio.file.AccessDeniedException: \/home\/container\/config\/.118220814970875303942195paper-global.yml.tmp"
+                },
+                {
+                    "number": 34,
+                    "content": "\tat java.base\/sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]"
+                },
+                {
+                    "number": 35,
+                    "content": "\tat java.base\/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]"
+                },
+                {
+                    "number": 36,
+                    "content": "\tat java.base\/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]"
+                },
+                {
+                    "number": 37,
+                    "content": "\tat java.base\/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:213) ~[?:?]"
+                },
+                {
+                    "number": 38,
+                    "content": "\tat java.base\/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:244) ~[?:?]"
+                },
+                {
+                    "number": 39,
+                    "content": "\tat java.base\/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:426) ~[?:?]"
+                },
+                {
+                    "number": 40,
+                    "content": "\tat java.base\/java.nio.file.Files.newOutputStream(Files.java:215) ~[?:?]"
+                },
+                {
+                    "number": 41,
+                    "content": "\tat java.base\/java.nio.file.Files.newBufferedWriter(Files.java:2725) ~[?:?]"
+                },
+                {
+                    "number": 42,
+                    "content": "\tat org.spongepowered.configurate.loader.AtomicFiles.atomicBufferedWriter(AtomicFiles.java:89) ~[configurate-core-4.2.0.jar:?]"
+                },
+                {
+                    "number": 43,
+                    "content": "\tat org.spongepowered.configurate.loader.AtomicFiles.lambda$atomicWriterFactory$0(AtomicFiles.java:58) ~[configurate-core-4.2.0.jar:?]"
+                },
+                {
+                    "number": 44,
+                    "content": "\tat org.spongepowered.configurate.loader.AbstractConfigurationLoader.save(AbstractConfigurationLoader.java:194) ~[configurate-core-4.2.0.jar:?]"
+                },
+                {
+                    "number": 45,
+                    "content": "\t... 8 more"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[16:52:55 INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[16:52:55 INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[16:52:55 INFO]: Starting Minecraft server on *:25599"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[16:52:55 INFO]: Paper: Using libdeflate (macOS ARM64 \/ Apple Silicon) compression from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[16:52:55 INFO]: Paper: Using native (macOS ARM64 \/ Apple Silicon) cipher from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[16:52:55 INFO]: [TestPlugin] Loading server plugin TestPlugin v1.1"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:52:55 WARN]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[16:52:55 WARN]: **** SERVER IS RUNNING IN OFFLINE\/INSECURE MODE!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:52:55 WARN]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[16:52:55 WARN]: The server will make no attempt to authenticate usernames. Beware."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:52:55 WARN]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[16:52:55 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:52:55 WARN]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[16:52:55 WARN]: To change this, set \"online-mode\" to \"true\" in the server.properties file."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[16:52:55 INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[16:52:55 INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[16:52:55 INFO]: Prepared spawn area in 0 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[16:52:55 INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[16:52:55 INFO]: Prepared spawn area in 0 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[16:52:55 INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[16:52:55 INFO]: Prepared spawn area in 0 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[16:52:55 INFO]: Done preparing level \"world\" (0.157s)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[16:52:55 INFO]: [TestPlugin] Enabling TestPlugin v1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[16:52:55 INFO]: [TestPlugin] TestPlugin enabled, data folder: plugins\/TestPlugin"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:55 INFO]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[16:52:55 INFO]: [spark] Starting background profiler..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:56 INFO]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[16:52:56 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:56 INFO]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[16:52:56 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:56 INFO]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[16:52:56 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:56 INFO]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[16:52:56 INFO]: Running delayed init tasks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:56 INFO]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[16:52:56 INFO]: Done (5.352s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:56 INFO]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[16:52:56 INFO]: *** Currently you are 1 build behind ***"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:56 INFO]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[16:52:56 INFO]: *** It is highly recommended to download the latest build from https:\/\/papermc.io\/downloads\/paper ***"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[16:52:57 INFO]: System chat: Stopping the server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[16:52:57 INFO]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[16:52:57 INFO]: [TestPlugin] Disabling TestPlugin v1.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[16:52:57 INFO]: [TestPlugin] TestPlugin disabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[16:52:57 INFO]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[16:52:57 INFO]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[16:52:57 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0,00s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Waiting 60s for chunk I\/O to halt for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Halted I\/O scheduler for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[16:52:57 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0,00s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Waiting 60s for chunk I\/O to halt for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Halted I\/O scheduler for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[16:52:57 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0,00s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Waiting 60s for chunk I\/O to halt for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "[16:52:57 INFO]: [ChunkHolderManager] Halted I\/O scheduler for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "[16:52:57 INFO]: Waiting for all RegionFile I\/O tasks to complete..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "[16:52:57 INFO]: All RegionFile I\/O tasks to complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "[16:52:57 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:52:57 INFO]:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "[16:52:57 INFO]: [MoonriseCommon] Awaiting termination of I\/O pool for up to 60s..."
+                },
+                {
+                    "number": 105,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The configuration file 'config\/paper-global.yml' could not be saved. Settings missing from the file use their default values.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[16:52:55 WARN]:",
+                    "lines": [
+                        {
+                            "number": 22,
+                            "content": "[16:52:55 WARN]: [Configurations] Could not save config\/paper-global.yml: Paper could not persist the full set of configuration settings in the configuration file. Any setting missing from the configuration file will be set with its default value in memory. Admins should make sure to review the configuration documentation at https:\/\/docs.papermc.io\/paper\/configuration for more details."
+                        },
+                        {
+                            "number": 23,
+                            "content": "org.spongepowered.configurate.ConfigurateException: []: java.nio.file.AccessDeniedException: \/home\/container\/config\/.118220814970875303942195paper-global.yml.tmp"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat org.spongepowered.configurate.loader.AbstractConfigurationLoader.save(AbstractConfigurationLoader.java:211) ~[configurate-core-4.2.0.jar:?]"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat io.papermc.paper.configuration.Configurations.trySaveFileNode(Configurations.java:112) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat io.papermc.paper.configuration.Configurations.initializeGlobalConfiguration(Configurations.java:137) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat io.papermc.paper.configuration.Configurations.initializeGlobalConfiguration(Configurations.java:107) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat io.papermc.paper.configuration.PaperConfigurations.initializeGlobalConfiguration(PaperConfigurations.java:227) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:238) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 30,
+                            "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 31,
+                            "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474) ~[?:?]"
+                        },
+                        {
+                            "number": 33,
+                            "content": "Caused by: java.nio.file.AccessDeniedException: \/home\/container\/config\/.118220814970875303942195paper-global.yml.tmp"
+                        },
+                        {
+                            "number": 34,
+                            "content": "\tat java.base\/sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]"
+                        },
+                        {
+                            "number": 35,
+                            "content": "\tat java.base\/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]"
+                        },
+                        {
+                            "number": 36,
+                            "content": "\tat java.base\/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]"
+                        },
+                        {
+                            "number": 37,
+                            "content": "\tat java.base\/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:213) ~[?:?]"
+                        },
+                        {
+                            "number": 38,
+                            "content": "\tat java.base\/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:244) ~[?:?]"
+                        },
+                        {
+                            "number": 39,
+                            "content": "\tat java.base\/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:426) ~[?:?]"
+                        },
+                        {
+                            "number": 40,
+                            "content": "\tat java.base\/java.nio.file.Files.newOutputStream(Files.java:215) ~[?:?]"
+                        },
+                        {
+                            "number": 41,
+                            "content": "\tat java.base\/java.nio.file.Files.newBufferedWriter(Files.java:2725) ~[?:?]"
+                        },
+                        {
+                            "number": 42,
+                            "content": "\tat org.spongepowered.configurate.loader.AtomicFiles.atomicBufferedWriter(AtomicFiles.java:89) ~[configurate-core-4.2.0.jar:?]"
+                        },
+                        {
+                            "number": 43,
+                            "content": "\tat org.spongepowered.configurate.loader.AtomicFiles.lambda$atomicWriterFactory$0(AtomicFiles.java:58) ~[configurate-core-4.2.0.jar:?]"
+                        },
+                        {
+                            "number": 44,
+                            "content": "\tat org.spongepowered.configurate.loader.AbstractConfigurationLoader.save(AbstractConfigurationLoader.java:194) ~[configurate-core-4.2.0.jar:?]"
+                        },
+                        {
+                            "number": 45,
+                            "content": "\t... 8 more"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Check the file permissions of 'config\/paper-global.yml'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:52:54 INFO]:",
+                    "lines": [
+                        {
+                            "number": 14,
+                            "content": "[16:52:54 INFO]: Starting minecraft server version 26.3"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            }
+        ]
+    }
+}

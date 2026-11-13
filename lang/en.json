@@ -121,5 +121,6 @@
   "paper-world-config-reset-solution": "Back up and delete the file 'paper-world.yml' of the world '{{world-name}}'. Paper creates it again with default settings.",
   "paper-install-newer-version-solution": "Install the newer Paper version that created this config file.",
   "mod-fabric-loader-version-problem": "The mod '{{mod-name}}' requires Fabric Loader version {{loader-version}} or later, but version {{installed-version}} is installed.",
-  "fabric-loader-update-solution": "Update Fabric Loader to version {{loader-version}} or later."
+  "fabric-loader-update-solution": "Update Fabric Loader to version {{loader-version}} or later.",
+  "paper-config-not-writable-problem": "The configuration file '{{path}}' could not be saved. Settings missing from the file use their default values."
 }
