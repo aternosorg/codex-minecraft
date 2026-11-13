@@ -52,6 +52,18 @@ class Detective extends \Aternos\Codex\Detective\Detective
 {
     protected string $defaultLogClass = MinecraftLog::class;
     protected array $possibleLogClasses = [
+        SpigotCrashReportLog::class,
+        PaperCrashReportLog::class,
+        PurpurCrashReportLog::class,
+        FoliaCrashReport::class,
+        FabricCrashReportLog::class,
+        QuiltCrashReportLog::class,
+        NeoForgeCrashReportLog::class,
+        ForgeCrashReportLog::class,
+        VanillaCrashReportLog::class,
+        MohistCrashReportLog::class,
+        ArclightCrashReportLog::class,
+
         FabricClientLog::class,
         QuiltClientLog::class,
         ForgeClientLog::class,
@@ -82,18 +94,6 @@ class Detective extends \Aternos\Codex\Detective\Detective
         GeyserProxyLog::class,
         GlowstoneServerLog::class,
         QuiltServerLog::class,
-
-        SpigotCrashReportLog::class,
-        PaperCrashReportLog::class,
-        PurpurCrashReportLog::class,
-        FoliaCrashReport::class,
-        FabricCrashReportLog::class,
-        QuiltCrashReportLog::class,
-        NeoForgeCrashReportLog::class,
-        ForgeCrashReportLog::class,
-        VanillaCrashReportLog::class,
-        MohistCrashReportLog::class,
-        ArclightCrashReportLog::class,
 
         VanillaNetworkProtocolErrorReportLog::class,
 
