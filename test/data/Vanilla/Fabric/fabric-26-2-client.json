@@ -4220,7 +4220,28 @@
         }
     ],
     "analysis": {
-        "problems": [],
+        "problems": [
+            {
+                "message": "The mod 'caxton' has thrown an exception.",
+                "counter": 1,
+                "entry": {
+                    "level": 10,
+                    "time": null,
+                    "prefix": null,
+                    "lines": [
+                        {
+                            "number": 228,
+                            "content": "java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to errors, provided by 'caxton' at 'xyz.flirora.caxton.fabric.CaxtonModGlyphContainerFlavor'!"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'caxton'."
+                    }
+                ]
+            }
+        ],
         "information": [
             {
                 "message": "Minecraft version: 26.2",
