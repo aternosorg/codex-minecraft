@@ -6,7 +6,10 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\CraftBukkit\CraftBukkit
 
 abstract class SpigotLog extends CraftBukkitLog
 {
-    protected static string $logIdentifier = "(?:CraftBukkit|Spigot) version (?:git|\d+(?:-[a-zA-Z]+)?)-Spigot";
+    /**
+     * @inheritDoc
+     */
+    protected static array $logIdentifiers = ["(?:CraftBukkit|Spigot) version (?:git|\d+(?:-[a-zA-Z]+)?)-Spigot"];
 
     /**
      * @return string
