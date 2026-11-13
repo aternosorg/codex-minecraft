@@ -35,7 +35,8 @@ class FabricModDependencyProblem extends FabricModProblem
     public static function getPatterns(): array
     {
         $mod = "/- Mod " . static::getModNamePattern() . "(?: [^ ]+)? ";
-        $dependency = " of (?:mod )?" . static::getModNamePattern("dependency") . ",/";
+        // the Fabric Loader has its own problem, FabricLoaderVersionProblem
+        $dependency = " of (?!" . FabricLoaderVersionProblem::LOADER_MOD . ")(?:mod )?" . static::getModNamePattern("dependency") . ",/";
 
         return [
             'short-error' => '/net\.fabricmc\.loader\.discovery\.ModResolutionException: Could not find required mod: ' . static::getModNamePattern()
