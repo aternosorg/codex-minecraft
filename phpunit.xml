@@ -15,6 +15,9 @@
         <testsuite name="translator">
             <directory>test/tests/Translator/</directory>
         </testsuite>
+        <testsuite name="performance">
+            <directory>test/tests/Performance/</directory>
+        </testsuite>
     </testsuites>
     <source>
         <include>

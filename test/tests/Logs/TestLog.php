@@ -4,11 +4,12 @@ namespace Aternos\Codex\Minecraft\Test\Logs;
 
 use Aternos\Codex\Log\File\PathLogFile;
 use Aternos\Codex\Minecraft\Detective\Detective;
+use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 use Exception;
 
 class TestLog
 {
-    protected const string BASE_PATH = __DIR__ . "/../../data/";
+    public const string BASE_PATH = __DIR__ . "/../../data/";
     protected string $logPath;
 
     /**
@@ -36,15 +37,26 @@ class TestLog
     }
 
     /**
-     * @return string
+     * Detect the type of the log and parse it, without analysing it
+     *
+     * @return MinecraftLog
      */
-    public function getOutput(): string
+    public function getParsedLog(): MinecraftLog
     {
         $logFile = new PathLogFile($this->getFullLogPath());
         $detective = new Detective();
         $detective->setLogFile($logFile);
         $log = $detective->detect();
         $log->parse();
+        return $log;
+    }
+
+    /**
+     * @return string
+     */
+    public function getOutput(): string
+    {
+        $log = $this->getParsedLog();
         $log->analyse();
         return json_encode($log, JSON_PRETTY_PRINT);
     }
