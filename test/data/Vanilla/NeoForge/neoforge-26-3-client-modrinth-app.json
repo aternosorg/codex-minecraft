@@ -1,0 +1,454 @@
+{
+    "id": "neoforge\/client",
+    "name": "NeoForge",
+    "type": "Client Log",
+    "version": "26.3",
+    "title": "NeoForge 26.3 Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:17] [main] [net.neoforged.fml.startup.Entrypoint\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[23:15:17] [main] [net.neoforged.fml.startup.Entrypoint\/INFO]: JVM Uptime at startup: 542ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:17] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[23:15:17] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]: Starting FancyModLoader version 12.0.12 (CLIENT in PROD)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:17] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[23:15:17] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]: Game directory: \/Users\/********\/Library\/Application Support\/ModrinthApp\/profiles\/NeoForge 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:18] [main] [net.neoforged.fml.loading.EarlyServiceDiscovery\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[23:15:18] [main] [net.neoforged.fml.loading.EarlyServiceDiscovery\/INFO]: Found 2 early service jars (out of 108) in 42ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:18] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[23:15:18] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]: Loading FML Early Services:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:18] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[23:15:18] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]: - \/Users\/********\/Library\/Application Support\/ModrinthApp\/meta\/libraries\/net\/neoforged\/fancymodloader\/loader\/12.0.12\/loader-12.0.12.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:18] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[23:15:18] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]: - \/Users\/********\/Library\/Application Support\/ModrinthApp\/meta\/libraries\/net\/neoforged\/fancymodloader\/earlydisplay\/12.0.12\/earlydisplay-12.0.12.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:18] [main] [net.neoforged.fml.loading.ImmediateWindowHandler\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[23:15:18] [main] [net.neoforged.fml.loading.ImmediateWindowHandler\/INFO]: Loading ImmediateWindowProvider fmlearlywindow"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:19] [main] [net.neoforged.fml.earlydisplay.render.backend.opengl.GlRenderer\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[23:15:19] [main] [net.neoforged.fml.earlydisplay.render.backend.opengl.GlRenderer\/INFO]: GL info: Apple M5 Pro GL version 4.1 Metal - 91.7, Apple"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:19] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[23:15:19] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator\/INFO]: Marking unmodified client jar as claimed to prevent loading: \/Users\/********\/Library\/Application Support\/ModrinthApp\/meta\/versions\/26.3-26.3.0.103\/26.3-26.3.0.103.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:19] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[23:15:19] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator\/INFO]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer\/INFO]: Found mod file \"minecraft-client-patched-26.3.0.103.jar\" [locator: game locator, reader: mod manifest]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer\/INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer\/INFO]: Found mod file \"neoforge-26.3.0.103-universal.jar\" [locator: game locator, reader: mod manifest]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator\/INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator\/INFO]: Found 2 dependencies adding them to mods collection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer\/INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer\/INFO]: Found gamelibrary file \"mixinextras-neoforge-0.5.5.jar\" [parent: neoforge-26.3.0.103-universal.jar, locator: jarinjar, reader: mod manifest]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer\/INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer\/INFO]: Found library file \"net.neoforged.neoforge-coremods-26.3.0.103.jar\" [parent: neoforge-26.3.0.103-universal.jar, locator: jarinjar, reader: mod manifest]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer\/INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer\/INFO]: Mod List:"
+                },
+                {
+                    "number": 18,
+                    "content": "\t\tName Version (Mod Id)"
+                },
+                {
+                    "number": 19,
+                    "content": "\t\tMinecraft 26.3 (minecraft)"
+                },
+                {
+                    "number": 20,
+                    "content": "\t\tNeoForge **.**.**.** (neoforge)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:20] [main] [mixin\/INFO]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[23:15:20] [main] [mixin\/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:\/Users\/********\/Library\/Application%20Support\/ModrinthApp\/meta\/libraries\/net\/fabricmc\/sponge-mixin\/0.17.4+mixin.0.8.7\/sponge-mixin-0.17.4+mixin.0.8.7.jar Service=FML Env=CLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:20] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[23:15:20] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]: Loading FML Plugins:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:20] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[23:15:20] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]: - ~libraries\/net\/neoforged\/neoforge\/**.**.**.**\/neoforge-26.3.0.103-universal.jar > net.neoforged.neoforge-coremods-26.3.0.103.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:20] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[23:15:20] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]: Building game content classloader:"
+                },
+                {
+                    "number": 25,
+                    "content": " - minecraft (jar(~libraries\/net\/neoforged\/minecraft-client-patched\/**.**.**.**\/minecraft-client-patched-26.3.0.103.jar))"
+                },
+                {
+                    "number": 26,
+                    "content": " - mixinextras.neoforge (jar(~libraries\/net\/neoforged\/neoforge\/**.**.**.**\/neoforge-26.3.0.103-universal.jar > mixinextras-neoforge-0.5.5.jar))"
+                },
+                {
+                    "number": 27,
+                    "content": " - neoforge (jar(~libraries\/net\/neoforged\/neoforge\/**.**.**.**\/neoforge-26.3.0.103-universal.jar))"
+                },
+                {
+                    "number": 28,
+                    "content": " - net.neoforged.fml.generated (empty(VirtualJar\/net.neoforged.fml.generated))"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:20] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[23:15:20] [main] [net.neoforged.fml.loading.FMLLoader\/INFO]: Built game content classloader in 11ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:22] [Datafixer Bootstrap #0] [com.mojang.datafixers.DataFixerBuilder\/INFO]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[23:15:22] [Datafixer Bootstrap #0] [com.mojang.datafixers.DataFixerBuilder\/INFO]: 310 Datafixer optimizations took 257 milliseconds"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[23:15:22] [main] [oshi.software.os.mac.MacOperatingSystem\/WARN]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[23:15:22] [main] [oshi.software.os.mac.MacOperatingSystem\/WARN]: Unable to parse version 27.2 to a codename."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:22] [pool-7-thread-1] [MixinExtras|Service\/INFO]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[23:15:22] [pool-7-thread-1] [MixinExtras|Service\/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5)."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:26] [modloading-worker-0] [net.neoforged.neoforge.common.NeoForgeMod\/INFO]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[23:15:26] [modloading-worker-0] [net.neoforged.neoforge.common.NeoForgeMod\/INFO]: NeoForge mod loading, version 26.3.0.103, for MC 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:27] [Render thread] [com.mojang.authlib.services.MinecraftServicesDiscoveryService\/INFO]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[23:15:27] [Render thread] [com.mojang.authlib.services.MinecraftServicesDiscoveryService\/INFO]: Environment: Environment[discoveryUrl=https:\/\/discovery.minecraftservices.com\/minecraft\/client, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:27] [Render thread] [net.minecraft.client.Minecraft\/INFO]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[23:15:27] [Render thread] [net.minecraft.client.Minecraft\/INFO]: Setting user: {MINECRAFT_USERNAME}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:27] [Render thread] [net.minecraft.client.Minecraft\/INFO]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[23:15:27] [Render thread] [net.minecraft.client.Minecraft\/INFO]: Backend library: LWJGL version 3.4.3+4"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[23:15:27] [Render thread] [com.mojang.renderpearl.backend.vulkan.VulkanBackend\/WARN]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[23:15:27] [Render thread] [com.mojang.renderpearl.backend.vulkan.VulkanBackend\/WARN]: Device [Apple M5 Pro] supports all extensions from FeatureSet [Vulkan Portability Subset], making required"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:27] [Render thread] [net.minecraft.client.Minecraft\/INFO]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[23:15:27] [Render thread] [net.minecraft.client.Minecraft\/INFO]: Using graphics backend OpenGL, using drivers: 4.1 Metal - 91.7"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:27] [Render thread] [net.minecraft.client.Minecraft\/INFO]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[23:15:27] [Render thread] [net.minecraft.client.Minecraft\/INFO]: Using graphics device: Apple M5 Pro (Apple)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:27] [Render thread] [net.minecraft.client.Minecraft\/INFO]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[23:15:27] [Render thread] [net.minecraft.client.Minecraft\/INFO]: Using graphics device extensions: GL_ARB_draw_indirect, GL_EXT_texture_filter_anisotropic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[23:15:27] [Render thread] [com.mojang.blaze3d.platform.Window\/INFO]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[23:15:27] [Render thread] [com.mojang.blaze3d.platform.Window\/INFO]: Created window using SDL video driver: cocoa"
+                },
+                {
+                    "number": 42,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[23:15:26] [modloading-worker-0] [net.neoforged.neoforge.common.NeoForgeMod\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 33,
+                            "content": "[23:15:26] [modloading-worker-0] [net.neoforged.neoforge.common.NeoForgeMod\/INFO]: NeoForge mod loading, version 26.3.0.103, for MC 26.3"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            },
+            {
+                "message": "NeoForge version: 26.3.0.103",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[23:15:26] [modloading-worker-0] [net.neoforged.neoforge.common.NeoForgeMod\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 33,
+                            "content": "[23:15:26] [modloading-worker-0] [net.neoforged.neoforge.common.NeoForgeMod\/INFO]: NeoForge mod loading, version 26.3.0.103, for MC 26.3"
+                        }
+                    ]
+                },
+                "label": "NeoForge version",
+                "value": "26.3.0.103"
+            }
+        ]
+    }
+}
