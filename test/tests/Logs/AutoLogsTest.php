@@ -1324,6 +1324,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_loader_outdated(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-loader-outdated.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_loom_client(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-loom-client.log');

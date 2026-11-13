@@ -119,5 +119,7 @@
   "paper-newer-world-config-problem": "The Paper config file of the world '{{world-name}}' was created by a newer Paper version (config version {{config-version}}, this server supports up to {{supported-version}}). Settings in it might not work.",
   "paper-config-reset-solution": "Back up and delete the file '{{file-path}}'. Paper creates it again with default settings.",
   "paper-world-config-reset-solution": "Back up and delete the file 'paper-world.yml' of the world '{{world-name}}'. Paper creates it again with default settings.",
-  "paper-install-newer-version-solution": "Install the newer Paper version that created this config file."
+  "paper-install-newer-version-solution": "Install the newer Paper version that created this config file.",
+  "mod-fabric-loader-version-problem": "The mod '{{mod-name}}' requires Fabric Loader version {{loader-version}} or later, but version {{installed-version}} is installed.",
+  "fabric-loader-update-solution": "Update Fabric Loader to version {{loader-version}} or later."
 }

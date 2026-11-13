@@ -35,8 +35,10 @@ class FabricModDependencyProblem extends FabricModProblem
     public static function getPatterns(): array
     {
         $mod = "/- Mod " . static::getModNamePattern() . "(?: [^ ]+)? ";
-        // Java has its own problem, FabricModJavaVersionProblem
-        $dependency = " of (?:mod )?(?!" . FabricModJavaVersionProblem::JAVA_MOD . ")" . static::getModNamePattern("dependency") . ",/";
+        // Java and the Fabric Loader have their own problems, FabricModJavaVersionProblem and FabricLoaderVersionProblem
+        $dependency = " of (?!" . FabricModJavaVersionProblem::JAVA_MOD
+            . "|" . FabricLoaderVersionProblem::LOADER_MOD . ")(?:mod )?"
+            . static::getModNamePattern("dependency") . ",/";
 
         return [
             'short-error' => '/net\.fabricmc\.loader\.discovery\.ModResolutionException: Could not find required mod: ' . static::getModNamePattern()
