@@ -1744,6 +1744,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_forge_mixin_apply_error(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-mixin-apply-error.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_forge_mod_dependency(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-mod-dependency.log');
@@ -2107,6 +2117,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_neoforge_26_1_client(): void
     {
         $log = new TestLog('Vanilla/NeoForge/neoforge-26-1-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_mixin_apply_error_unknown_mod(): void
+    {
+        $log = new TestLog('Vanilla/NeoForge/neoforge-mixin-apply-error-unknown-mod.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 

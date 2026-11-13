@@ -6,6 +6,7 @@ use Aternos\Codex\Minecraft\Analysis\Information\NeoForge\NeoForgeJavaVersionInf
 use Aternos\Codex\Minecraft\Analysis\Information\NeoForge\NeoForgeVanillaVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Information\NeoForge\NeoForgeVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
+use Aternos\Codex\Minecraft\Analysis\Problem\Forge\MixinApplyProblem;
 
 class NeoForgeAnalyser extends VanillaAnalyser
 {
@@ -15,5 +16,6 @@ class NeoForgeAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(NeoForgeVersionInformation::class);
         $this->overridePossibleInsightClass(VanillaVersionInformation::class, NeoForgeVanillaVersionInformation::class);
         $this->addPossibleInsightClass(NeoForgeJavaVersionInformation::class);
+        $this->addPossibleInsightClass(MixinApplyProblem::class);
     }
 }
