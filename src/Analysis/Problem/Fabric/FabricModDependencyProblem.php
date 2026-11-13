@@ -21,18 +21,32 @@ class FabricModDependencyProblem extends FabricModProblem
     }
 
     /**
+     * Examples, in the order of the patterns:
+     * net.fabricmc.loader.discovery.ModResolutionException: Could not find required mod: advanced-xray-fabric requires {minecraft @ [1.17.x]}
+     *  - Mod 'Example Mod' (modid) requires any version of mod fabric, which is missing!
+     *  - Mod 'Extra Origins' (extraorigins) requires version 0.4.6 or later of mod origins, which is missing!
+     *  - Mod 'Example Mod' (modid) requires any version after 0.3.5 of mod yet-another-mod, which is missing!
+     *  - Mod 'Example Mod' (modid) requires any version before 0.73 of mod other-mod, which is missing!
+     *  - Mod 'Indium' (indium) 1.0.27+mc1.20.1 requires version 0.5.3 of mod 'Sodium' (sodium), but only the wrong version is present: 0.4.10+build.27!
+     *  - Mod 'Example Mod' (modid) requires any version between 1.0 (inclusive) and 2.0 (exclusive) of mod other-mod, which is missing!
+     *
      * @inheritDoc
      */
     public static function getPatterns(): array
     {
+        $mod = "/\\s*- Mod " . static::getModNamePattern() . "(?: [^ ]+)? ";
+        $dependency = " of (?:mod )?" . static::getModNamePattern("dependency") . ",/";
+
         return [
-            'short-error' => '/net\.fabricmc\.loader\.discovery\.ModResolutionException: Could not find required mod: ' . static::$modNamePattern . ' requires {' . static::$modNamePattern . ' @ \[([^\]]+)\]}/',
-            'any' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version of (?:mod )?" . static::$modNamePattern . ",/",
-            'minimum' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires version ([^ ]+) or later of (?:mod )?" . static::$modNamePattern . ",/",
-            'any-after' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version after ([^ ]+) of (?:mod )?" . static::$modNamePattern . ",/",
-            'any-before' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version before ([^ ]+) of (?:mod )?" . static::$modNamePattern . ",/",
-            'specific' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires version ([^ ]+) of (?:mod )?" . static::$modNamePattern . ",/",
-            'between' => "/\s*- Mod " . static::$modNamePattern . "(?: [^ ]+)? requires any version between ([^ ]+) \((inclusive|exclusive)\) and ([^ ]+) \((inclusive|exclusive)\) of (?:mod )?" . static::$modNamePattern . ",/"
+            'short-error' => '/net\.fabricmc\.loader\.discovery\.ModResolutionException: Could not find required mod: ' . static::getModNamePattern()
+                . ' requires {' . static::getModNamePattern("dependency") . ' @ \[(?<version>[^\]]+)\]}/',
+            'any' => $mod . "requires any version" . $dependency,
+            'minimum' => $mod . "requires version (?<version>[^ ]+) or later" . $dependency,
+            'any-after' => $mod . "requires any version after (?<version>[^ ]+)" . $dependency,
+            'any-before' => $mod . "requires any version before (?<version>[^ ]+)" . $dependency,
+            'specific' => $mod . "requires version (?<version>[^ ]+)" . $dependency,
+            'between' => $mod . "requires any version between (?<min>[^ ]+) \\((?<minBound>inclusive|exclusive)\\)"
+                . " and (?<max>[^ ]+) \\((?<maxBound>inclusive|exclusive)\\)" . $dependency
         ];
     }
 
@@ -41,54 +55,41 @@ class FabricModDependencyProblem extends FabricModProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
+        $this->setModName($matches["mod"]);
+        $this->setDependency($matches["dependency"]);
+
         switch ($patternKey) {
             case 'short-error':
-                $this->setModName($matches[1]);
-                $this->setDependency($matches[2]);
-                $solution = (new ModInstallSolution($this->getDependency()));
-                if ($matches[3] !== '*') {
-                    $solution->setModVersion($matches[3]);
-                }
-                $this->addSolution($solution);
-                return;
+                $modVersion = $matches["version"] !== '*' ? $matches["version"] : null;
+                break;
 
             case 'any':
-                $this->setModName($matches[1]);
-                $this->setDependency($matches[2]);
-                $this->addSolution(new ModInstallSolution($this->getDependency()));
-                return;
+                $modVersion = null;
+                break;
 
             case 'minimum':
-                $symbol = ">=";
+                $modVersion = ">=" . $matches["version"];
                 break;
 
             case 'any-after':
-                $symbol = ">";
+                $modVersion = ">" . $matches["version"];
                 break;
 
             case 'any-before':
-                $symbol = "<";
+                $modVersion = "<" . $matches["version"];
                 break;
 
             case 'between':
-                $this->setModName($matches[1]);
-                $this->setDependency($matches[6]);
-
-                $firstSymbol = $matches[3] === "exclusive" ? ">" : ">=";
-                $secondSymbol = $matches[5] === "exclusive" ? "<" : "<=";
-                $modVersion = $firstSymbol . $matches[2] . ", " . $secondSymbol . $matches[4];
-
-                $this->addSolution(new ModInstallSolution($this->getDependency(), $modVersion));
-                return;
+                $minSymbol = $matches["minBound"] === "exclusive" ? ">" : ">=";
+                $maxSymbol = $matches["maxBound"] === "exclusive" ? "<" : "<=";
+                $modVersion = $minSymbol . $matches["min"] . ", " . $maxSymbol . $matches["max"];
+                break;
 
             default:
-                $symbol = "";
+                $modVersion = $matches["version"];
                 break;
         }
 
-        $this->setModName($matches[1]);
-        $this->setDependency($matches[3]);
-        $modVersion = $symbol . $matches[2];
         $this->addSolution(new ModInstallSolution($this->getDependency(), $modVersion));
     }
 

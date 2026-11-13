@@ -20,7 +20,7 @@ class MalformedEncodingProblem extends VanillaProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Failed to start the minecraft server\njava\.lang\.IllegalArgumentException\: Malformed \\\\uxxxx encoding\./'];
+        return ['/Failed to start the minecraft server\njava\.lang\.IllegalArgumentException: Malformed \\\\uxxxx encoding\./'];
     }
 
     /**

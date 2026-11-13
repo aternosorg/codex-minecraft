@@ -15,7 +15,7 @@ class ReportParser extends \Aternos\Codex\Parser\Parser
      */
     protected const array PATTERN = [
         ReportLevel::WARNING->value => ["/\s*WARNING: .*$/"],
-        ReportLevel::STACKTRACE->value => ["/^\s+at (?:\w+\/+)?\S+\(.+\)$/", "/^(?:Caused by: )?[a-z]+\.(?:\w+\.?)+: .*$/", "/^\\tat [a-z]+\..*$/"],
+        ReportLevel::STACKTRACE->value => ["/^\s+at (?:\w+\/+)?\S+\(.+\)$/", "/^(?:Caused by: )?[a-z]+(?:\.[\w$]+)+: /", "/^\\tat [a-z]+\..*$/"],
         ReportLevel::INFO->value => ["/^([^|:]+:) .+$/", "/^(\w+:)$/", "/^(\\t[^:.]+:)$/"],
         ReportLevel::TITLE->value => ["/^-{2,4} .* -{2,4}$/"],
         ReportLevel::COMMENT->value => ["/\/\/.*$/"],

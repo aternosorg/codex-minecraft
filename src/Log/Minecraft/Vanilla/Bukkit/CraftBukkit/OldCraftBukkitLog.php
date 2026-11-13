@@ -8,7 +8,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\OldVanillaLog;
 
 abstract class OldCraftBukkitLog extends OldVanillaLog
 {
-    protected static string $logIdentifier = "CraftBukkit version git\-Bukkit";
+    protected static string $logIdentifier = "CraftBukkit version git-Bukkit";
 
     /**
      * @return BukkitAnalyser

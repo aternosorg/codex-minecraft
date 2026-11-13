@@ -25,7 +25,7 @@ class DatapackParsingProblem extends VanillaProblem
      */
     public static function getPatterns(): array
     {
-        return ['/java.lang.IllegalStateException: Failed to parse .+ from pack file\/(.*)/'];
+        return ['/java\.lang\.IllegalStateException: Failed to parse .+ from pack file\/(.*)/'];
     }
 
     /**

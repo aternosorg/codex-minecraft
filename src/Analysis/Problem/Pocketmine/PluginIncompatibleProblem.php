@@ -22,8 +22,8 @@ class PluginIncompatibleProblem extends PluginProblem
     public static function getPatterns(): array
     {
         return [
-            "/Could not load plugin \'([^\']+)\'\: Incompatible API version/",
-            "/Could not load plugin \'([^\']+)\'\: Incompatible network protocol version/"
+            "/Could not load plugin '([^']+)': Incompatible API version/",
+            "/Could not load plugin '([^']+)': Incompatible network protocol version/"
         ];
     }
 

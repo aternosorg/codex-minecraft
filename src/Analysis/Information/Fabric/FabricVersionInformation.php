@@ -8,7 +8,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class FabricVersionInformation extends FabricInformation
 {
-    protected static string $fabricVersionPattern = "[0-9\.]+";
+    protected static string $fabricVersionPattern = "[0-9.]+";
 
     /**
      * FabricVersionInformation constructor.

@@ -6,7 +6,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class NeoForgeVersionInformation extends NeoForgeInformation
 {
-    protected static string $versionPattern = "[0-9\.]+(?:-beta)?";
+    protected static string $versionPattern = "[0-9.]+(?:-beta)?";
 
     public function __construct()
     {
@@ -18,7 +18,7 @@ class NeoForgeVersionInformation extends NeoForgeInformation
         return [
             '/NeoForge mod loading, version (' . static::$versionPattern . '),/',
             '/--fml\.neoForgeVersion, (' . static::$versionPattern . ')/',
-            '/\tNeoForge: net.neoforged:(' . static::$versionPattern . ')/',
+            '/\tNeoForge: net\.neoforged:(' . static::$versionPattern . ')/',
             '/^\t\t\S*\s*\|\S*\s*\|neoforge\s*\|(' . static::$versionPattern . ')\s*\|/'
         ];
     }

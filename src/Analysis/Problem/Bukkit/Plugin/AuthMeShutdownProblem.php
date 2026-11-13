@@ -23,7 +23,7 @@ class AuthMeShutdownProblem extends SpecificPluginProblem
      */
     public static function getPatterns(): array
     {
-        return ['/\[AuthMe\] THE SERVER IS GOING TO SHUT DOWN AS DEFINED IN THE CONFIGURATION\!/'];
+        return ['/\[AuthMe\] THE SERVER IS GOING TO SHUT DOWN AS DEFINED IN THE CONFIGURATION!/'];
     }
 
     /**
