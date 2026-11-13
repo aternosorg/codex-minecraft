@@ -1,0 +1,151 @@
+[17:15:10] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, Player, --version, 1.20.1, --gameDir, C:/Users/********/AppData/Roaming/PrismLauncher/instances/Gizmo Modpack/minecraft, --assetsDir, C:/Users/********/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, <PROFILE ID>, --accessToken, ????????, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
+[17:15:10] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 10.0.9 10.0.9 main.dcd20f30 starting: java version 17.0.8 by Microsoft; OS Windows 11 arch amd64 version 10.0
+[17:15:10] [main/INFO] [ne.mi.fm.lo.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[17:15:18] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, C:\Users\********\AppData\Roaming\PrismLauncher\instances\Gizmo Modpack\minecraft, --assetsDir, C:\Users\********\AppData\Roaming\PrismLauncher\assets, --uuid, <PROFILE ID>, --username, Player, --assetIndex, 5, --accessToken, ????????, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[17:15:30] [main/FATAL] [mixin/]: Mixin apply for mod fabric_resource_loader_v0 failed fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0 -> net.minecraft.server.packs.resources.ReloadableResourceManager: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on getResourcePackNames could not find any targets matching 'Lnet/minecraft/server/packs/resources/ReloadableResourceManager;m_203825_(Ljava/util/List;)Ljava/lang/Object;' in net.minecraft.server.packs.resources.ReloadableResourceManager. Using refmap fabric-resource-loader-v0-refmap.json [PREINJECT Applicator Phase -> fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0 -> Prepare Injections ->  -> handler$dcj000$fabric_resource_loader_v0$getResourcePackNames(Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse]
+org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on getResourcePackNames could not find any targets matching 'Lnet/minecraft/server/packs/resources/ReloadableResourceManager;m_203825_(Ljava/util/List;)Ljava/lang/Object;' in net.minecraft.server.packs.resources.ReloadableResourceManager. Using refmap fabric-resource-loader-v0-refmap.json [PREINJECT Applicator Phase -> fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0 -> Prepare Injections ->  -> handler$dcj000$fabric_resource_loader_v0$getResourcePackNames(Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.validateTargets(InjectionInfo.java:656) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findTargets(InjectionInfo.java:587) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:330) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:316) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:308) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:46) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at jdk.internal.reflect.GeneratedConstructorAccessor53.newInstance(Unknown Source) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?] {}
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:149) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:708) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1329) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1053) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:395) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar:10.0.9 10.0.9 main.dcd20f30] {}
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[?:?] {re:mixin}
+	at java.lang.Class.privateGetDeclaredFields(Class.java:3297) ~[?:?] {re:mixin}
+	at java.lang.Class.getDeclaredFields(Class.java:2371) ~[?:?] {re:mixin}
+	at net.optifine.reflect.FieldLocatorTypes.<init>(FieldLocatorTypes.java:25) ~[OptiFine_1.20.1_HD_U_I6.jar#775!/:?] {re:classloading}
+	at net.optifine.reflect.Reflector.<clinit>(Reflector.java:550) ~[OptiFine_1.20.1_HD_U_I6.jar#775!/:?] {re:classloading}
+	at net.minecraft.CrashReport.m_127526_(CrashReport.java:176) ~[client-1.20.1-20230612.114412-srg.jar#412!/:?] {re:computing_frames,xf:OptiFine:default,pl:connector_pre_launch:A,re:mixin,xf:OptiFine:default,pl:connector_pre_launch:A,re:classloading,xf:OptiFine:default,pl:mixin:APP:mixins.essential.json:crash.MixinCrashReport from mod (unknown),pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.CrashReport.m_127529_(CrashReport.java:346) ~[client-1.20.1-20230612.114412-srg.jar#412!/:?] {re:computing_frames,xf:OptiFine:default,pl:connector_pre_launch:A,re:mixin,xf:OptiFine:default,pl:connector_pre_launch:A,re:classloading,xf:OptiFine:default,pl:mixin:APP:mixins.essential.json:crash.MixinCrashReport from mod (unknown),pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.client.main.Main.main(Main.java:149) ~[minecraft-1.20.1-client.jar:?] {re:classloading,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.10.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.10.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.4.10.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) ~[?:?] {}
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115) ~[?:?] {}
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?] {}
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?] {}
+Exception caught from launcher
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:32)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+	... 8 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.10/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.10/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.10/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+	... 15 more
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3297)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2371)
+	at TRANSFORMER/net.optifine/net.optifine.reflect.FieldLocatorTypes.<init>(FieldLocatorTypes.java:25)
+	at TRANSFORMER/net.optifine/net.optifine.reflect.Reflector.<clinit>(Reflector.java:550)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.CrashReport.m_127526_(CrashReport.java:176)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.CrashReport.m_127529_(CrashReport.java:346)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.main.Main.main(Main.java:149)
+	... 23 more
+Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0] from phase [DEFAULT] in config [fabric-resource-loader-v0.mixins.json] FAILED during APPLY
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:638)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:589)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379)
+	... 44 more
+Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on getResourcePackNames could not find any targets matching 'Lnet/minecraft/server/packs/resources/ReloadableResourceManager;m_203825_(Ljava/util/List;)Ljava/lang/Object;' in net.minecraft.server.packs.resources.ReloadableResourceManager. Using refmap fabric-resource-loader-v0-refmap.json [PREINJECT Applicator Phase -> fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0 -> Prepare Injections ->  -> handler$dcj000$fabric_resource_loader_v0$getResourcePackNames(Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.validateTargets(InjectionInfo.java:656)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findTargets(InjectionInfo.java:587)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:330)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:316)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:308)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:46)
+	at jdk.internal.reflect.GeneratedConstructorAccessor53.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:149)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:708)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1329)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1053)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:395)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+	... 44 more
+Exiting with ERROR
+Process exited with code 2.

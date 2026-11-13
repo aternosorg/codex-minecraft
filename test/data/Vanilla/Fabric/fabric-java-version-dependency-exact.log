@@ -1,0 +1,21 @@
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[18:57:49] [main/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1
+[18:57:49] [main/INFO]: Mappings not present!
+[18:57:49] [main/WARN]: Mod resolution failed
+[18:57:49] [main/INFO]: Immediate reason: [HARD_DEP_INCOMPATIBLE_PRESELECTED foo 1.0.0 {depends java @ [99]}, ROOT_FORCELOAD_SINGLE foo 1.0.0]
+[18:57:49] [main/INFO]: Reason: [HARD_DEP foo 1.0.0 {depends java @ [99]}]
+[18:57:49] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-model-loading-api-v1, fabric-key-mapping-api-v1, fabric-screen-api-v1, fabric-sound-api-v1, fabric-rendering-v1, fabric-renderer-indigo]
+[18:57:49] [main/INFO]: Fix: add [], remove [], replace [[java 25] -> add:java 99 ([[99,99]])]
+[18:57:49] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Replace 'Java HotSpot(TM) 64-Bit Server VM' (java) 25 with version 99.
+More details:
+	 - Mod 'Foo' (foo) 1.0.0 requires version 99 of 'Java HotSpot(TM) 64-Bit Server VM' (java), but only the wrong version is present: 25!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)

@@ -444,6 +444,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_config_not_writable_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-config-not-writable-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_event_listener_missing_class_26_3(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-event-listener-missing-class-26-3.log');
@@ -457,6 +467,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_paper_exception_in_server_tick_loop_1_20_4(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-exception-in-server-tick-loop-1-20-4.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_legacy_plugin_conversion_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-legacy-plugin-conversion-26-3.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -517,6 +537,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_paper_multiple_dependencies_plugin_names_with_dash_and_dot(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-multiple-dependencies-plugin-names-with-dash-and-dot.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_newer_config_version_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-newer-config-version-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_newer_world_config_version_26_1_1(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-newer-world-config-version-26-1-1.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1254,6 +1294,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_java_version_dependency_exact(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-java-version-dependency-exact.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_java_version_dependency(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-java-version-dependency.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_java11(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-java11.log');
@@ -1274,6 +1334,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_loader_outdated(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-loader-outdated.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_loom_client(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-loom-client.log');
@@ -1287,6 +1357,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_fabric_loom_server(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-loom-server.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_minecraft_version_range(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-minecraft-version-range.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1674,6 +1754,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_forge_mixin_apply_error(): void
+    {
+        $log = new TestLog('Vanilla/Forge/forge-mixin-apply-error.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_forge_mod_dependency(): void
     {
         $log = new TestLog('Vanilla/Forge/forge-mod-dependency.log');
@@ -2037,6 +2127,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_neoforge_26_1_client(): void
     {
         $log = new TestLog('Vanilla/NeoForge/neoforge-26-1-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_mixin_apply_error_unknown_mod(): void
+    {
+        $log = new TestLog('Vanilla/NeoForge/neoforge-mixin-apply-error-unknown-mod.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 

@@ -49,6 +49,10 @@ class FabricModIncompatibleMinecraftVersionProblem extends FabricModProblem
      *  - Mod 'Example Mod' (modid) requires any version before 1.17 of 'Minecraft' (minecraft), but only the wrong version is present: 1.18.2!
      *  - Mod 'Example Mod' (modid) requires version 1.18.2 of 'Minecraft' (minecraft), but only the wrong version is present: 1.16.5!
      *  - Mod 'Fabric API' (fabric) 0.53.4+1.19 requires any version between 1.19-alpha.22.18.a (inclusive) and 1.20- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.18.2!
+     *  - Mod 'Foo3' (foovcany) 1.0.0 requires any 1.x version of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!
+     *  - Mod 'Foo4' (foovcmax) 1.0.0 requires version 26.1 or earlier of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!
+     *  - Mod 'Foo5' (foovclist) 1.0.0 requires version 26.1 or version 26.2 of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!
+     *    (three or more versions are listed as "version 26.1, version 26.2 or version 26.3")
      *
      * @inheritDoc
      */
@@ -65,6 +69,9 @@ class FabricModIncompatibleMinecraftVersionProblem extends FabricModProblem
             'specific' => $mod . "requires version (?<version>[^ ]+)" . $minecraft,
             'between' => $mod . "requires any version between (?<min>[^ ]+) \((?<minBound>inclusive|exclusive)\)"
                 . " and (?<max>[^ ]+) \((?<maxBound>inclusive|exclusive)\)" . $minecraft,
+            'wildcard' => $mod . "requires any (?<version>[^ ]+\.x) version" . $minecraft,
+            'maximum' => $mod . "requires version (?<version>[^ ]+) or earlier" . $minecraft,
+            'list' => $mod . "requires (?<versions>version [^ ,]+(?:, version [^ ,]+)* or version [^ ]+)" . $minecraft,
         ];
     }
 
@@ -91,6 +98,15 @@ class FabricModIncompatibleMinecraftVersionProblem extends FabricModProblem
 
             case 'any-before':
                 $version = "<" . $matches["version"];
+                break;
+
+            case 'maximum':
+                $version = "<=" . $matches["version"];
+                break;
+
+            case 'list':
+                // "version 26.1 or version 26.2" becomes "26.1 or 26.2"
+                $version = str_replace("version ", "", $matches["versions"]);
                 break;
 
             case 'between':
