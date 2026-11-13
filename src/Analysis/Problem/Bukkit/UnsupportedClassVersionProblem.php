@@ -58,11 +58,11 @@ class UnsupportedClassVersionProblem extends PluginFileProblem
     {
         return [
             // < 1.20
-            '/Could not load \'plugins[\/\\\]([^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
-            . '\norg\.bukkit\.plugin\.InvalidPluginException\: java\.lang\.UnsupportedClassVersionError: .+ \(class file version (\d+)\.\d+\)/',
+            '/Could not load \'plugins[\/\\\\]([^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
+            . '\norg\.bukkit\.plugin\.InvalidPluginException: java\.lang\.UnsupportedClassVersionError: .+ \(class file version (\d+)\.\d+\)/',
             // >= 1.20
             '/Could not load plugin \'([^\']+\.jar)\' in folder \'([^\']+)\''
-            . '\norg\.bukkit\.plugin\.InvalidPluginException\: java\.lang\.UnsupportedClassVersionError: .+ \(class file version (\d+)\.\d+\)/'
+            . '\norg\.bukkit\.plugin\.InvalidPluginException: java\.lang\.UnsupportedClassVersionError: .+ \(class file version (\d+)\.\d+\)/'
         ];
     }
 }

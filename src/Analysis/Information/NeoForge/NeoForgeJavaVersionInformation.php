@@ -16,6 +16,6 @@ class NeoForgeJavaVersionInformation extends NeoForgeInformation
      */
     public static function getPatterns(): array
     {
-        return ['/\[[^\]]+\]: ModLauncher(?: [\w\.+]+)? starting: java version ([0-9\._]+) by/'];
+        return ['/\[[^\]]+\]: ModLauncher(?: [\w.+]+)? starting: java version ([0-9._]+) by/'];
     }
 }

@@ -20,7 +20,7 @@ class JavaVersionInformation extends VanillaInformation
      */
     public static function getPatterns(): array
     {
-        return ['/\tJava Version: ([0-9\.]+(?:_\d+)?)/'];
+        return ['/\tJava Version: ([0-9.]+(?:_\d+)?)/'];
     }
 
     /**

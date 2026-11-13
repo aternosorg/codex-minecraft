@@ -6,7 +6,7 @@ use Aternos\Codex\Minecraft\Translator\Translator;
 
 class ForgeVersionInformation extends ForgeInformation
 {
-    protected static string $versionPattern = "[0-9\.]+";
+    protected static string $versionPattern = "[0-9.]+";
 
     /**
      * ForgeVersionInformation constructor.

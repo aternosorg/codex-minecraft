@@ -8,8 +8,8 @@ use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
 
 abstract class VelocityLog extends MinecraftLog
 {
-    protected static string $pattern = '/^(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?\:).*$/';
-    protected static string $prefixPattern = '(\[(?:[0-9]{2}\:?){3}\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?\:)\s+';
+    protected static string $pattern = '/^(\[(?:[0-9]{2}:?){3}\] \[[^\/]+\/(\w+)\](?: \[[^\]]+\])?:).*$/';
+    protected static string $prefixPattern = '\[(?:[0-9]{2}:?){3}\] \[[^\/]+\/\w+\](?: \[[^\]]+\])?:\s+';
 
     /**
      * @return VelocityAnalyser
@@ -25,7 +25,7 @@ abstract class VelocityLog extends MinecraftLog
     public static function getDetectors(): array
     {
         return [
-            (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . 'Booting up Velocity [0-9\.]+/m')
+            (new SinglePatternDetector())->setPattern('/^' . static::$prefixPattern . 'Booting up Velocity [0-9.]+/m')
         ];
     }
 

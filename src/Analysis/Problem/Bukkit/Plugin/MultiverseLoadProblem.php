@@ -32,7 +32,7 @@ class MultiverseLoadProblem extends SpecificPluginProblem
      */
     public static function getPatterns(): array
     {
-        return ['/The world \'([^\']+)\' could NOT be loaded because it contains errors and is probably corrupt\!/'];
+        return ['/The world \'([^\']+)\' could NOT be loaded because it contains errors and is probably corrupt!/'];
     }
 
     /**

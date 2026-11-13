@@ -60,8 +60,8 @@ class PluginDependenciesProblem extends PluginFileProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not load \'(plugins[\/\\\][^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
-            . '\norg\.bukkit\.plugin\.UnknownDependencyException\: Unknown\/missing dependency plugins: \[(' . static::PLUGIN_NAME . '(?:, ' . static::PLUGIN_NAME . ')*)\](?:\. Please download and install these plugins to run \'([^\']+)\')?/'
+            '/Could not load \'(plugins[\/\\\\][^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
+            . '\norg\.bukkit\.plugin\.UnknownDependencyException: Unknown\/missing dependency plugins: \[(' . static::PLUGIN_NAME . '(?:, ' . static::PLUGIN_NAME . ')*)\](?:\. Please download and install these plugins to run \'([^\']+)\')?/'
         ];
     }
 

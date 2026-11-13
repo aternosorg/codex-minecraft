@@ -14,7 +14,7 @@ class QuiltClientLog extends QuiltLog implements ClientLogTypeInterface
     {
         return [
             (new MultiPatternDetector())
-                ->addPattern('/^\[[\d:]+\] \[main\/INFO\]: Loading Minecraft [^ \n]+ with Quilt Loader [^ \n]+/')
+                ->addPattern('/^\[[\d:]+\] \[main\/INFO\]: Loading Minecraft [^ \n]+ with Quilt Loader [^ \n]+/m')
                 ->addPattern('/^\[[\d:]+\] \[(?:Render thread|main)\/INFO\]: Setting user: \w+/m')
         ];
     }

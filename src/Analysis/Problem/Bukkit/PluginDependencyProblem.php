@@ -30,13 +30,21 @@ class PluginDependencyProblem extends PluginFileProblem
     }
 
     /**
+     * Matches both formats of the dependency name; the branch reset puts it into one group:
+     * Could not load 'plugins/Example.jar' in folder 'plugins'
+     * org.bukkit.plugin.UnknownDependencyException: Languagy
+     *
+     * Could not load 'plugins/LuckPermsChat-2.0.2.jar' in folder 'plugins'
+     * org.bukkit.plugin.UnknownDependencyException: Unknown dependency Multiverse-Core. Please download and install Multiverse-Core to run this plugin.
+     *
      * @inheritDoc
      */
     public static function getPatterns(): array
     {
         return [
-            '/Could not load \'(plugins[\/\\\][^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
-            . '\norg\.bukkit\.plugin\.UnknownDependencyException\: (?:(' . static::PLUGIN_NAME . ')\n|Unknown dependency (' . static::PLUGIN_NAME . ')\.)/'];
+            '/Could not load \'(plugins[\/\\\\][^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
+            . '\norg\.bukkit\.plugin\.UnknownDependencyException: (?|(?<dependency>' . static::PLUGIN_NAME . ')\n'
+            . '|Unknown dependency (?<dependency>' . static::PLUGIN_NAME . ')\.)/'];
     }
 
     /**
@@ -46,7 +54,7 @@ class PluginDependencyProblem extends PluginFileProblem
     {
         parent::setMatches($matches, $patternKey);
 
-        $this->dependencyPluginName = $matches[3] ?: $matches[4];
+        $this->dependencyPluginName = $matches["dependency"];
         $this->addSolution(new PluginInstallSolution($this->getDependencyPluginName()));
     }
 
