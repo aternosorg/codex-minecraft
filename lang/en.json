@@ -112,5 +112,7 @@
   "event-listener-missing-class-problem": "The plugin '{{plugin-name}}' could not register the event listener '{{listener}}', because the class '{{missing-class}}' it references does not exist.",
   "client-only-mod-problem": "The mod '{{mod-name}}' cannot run on a server. It is either a client-only mod or uses client-only code.",
   "circular-plugin-dependency-problem": "Circular plugin dependencies detected: {{cycle}}.",
-  "restricted-plugin-name-problem": "A plugin has a name that is not allowed."
+  "restricted-plugin-name-problem": "A plugin has a name that is not allowed.",
+  "paper-world-defaults-missing-problem": "The file '{{path}}' with the default world settings does not exist. Paper cannot load new worlds without it.",
+  "paper-world-defaults-restore-solution": "Restore the file '{{path}}' from a backup or restart the server to create it again with default values."
 }

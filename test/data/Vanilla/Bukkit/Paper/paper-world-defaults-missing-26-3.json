@@ -1,0 +1,1047 @@
+{
+    "id": "paper\/server",
+    "name": "Paper",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Paper 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting org.bukkit.craftbukkit.Main"
+                },
+                {
+                    "number": 2,
+                    "content": "2026-11-13T15:59:00.562109Z ServerMain WARN Advanced terminal features are not available in this environment"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:00 INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[16:59:00 INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.3+1-LTS-2; Oracle Corporation null) on Mac OS X 27.2.1 (aarch64)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:00 INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[16:59:00 INFO]: [bootstrap] Loading Paper 26.3-248-main@0727243 (2026-11-10T11:35:52Z) for Minecraft 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:00 INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[16:59:00 INFO]: [PluginInitializerManager] Initializing plugins..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:00 INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[16:59:00 INFO]: [PluginInitializerManager] Initialized 1 plugin"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:00 INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[16:59:00 INFO]: [PluginInitializerManager] Bukkit plugins (1):"
+                },
+                {
+                    "number": 8,
+                    "content": " - WorldDefaultsMissing (1.0)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:59:01 WARN]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[16:59:01 WARN]: [oshi.software.os.mac.MacOperatingSystem] Unable to parse version 27.2 to a codename."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:02 INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[16:59:02 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:02 INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[16:59:02 INFO]: [com.destroystokyo.paper.profile.PaperServicesDiscoveryService] Environment: Environment[discoveryUrl=https:\/\/discovery.minecraftservices.com\/minecraft\/client, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:02 INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[16:59:02 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 176,8ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:02 INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[16:59:02 INFO]: Loaded 1866 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:02 INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[16:59:02 INFO]: Starting minecraft server version 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:02 INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[16:59:02 INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:02 INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[16:59:02 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:02 INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[16:59:02 INFO]: [spark] This server bundles the spark profiler. For more information please visit https:\/\/docs.papermc.io\/paper\/profiling"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[16:59:03 INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[16:59:03 INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[16:59:03 INFO]: [ca.spottedleaf.moonrise.common.util.FMA] FMA supported: true for all ARMv8 platforms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[16:59:03 INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I\/O threads"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[16:59:03 INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[16:59:03 INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[16:59:03 INFO]: Starting Minecraft server on *:25599"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[16:59:03 INFO]: Paper: Using libdeflate (macOS ARM64 \/ Apple Silicon) compression from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[16:59:03 INFO]: Paper: Using native (macOS ARM64 \/ Apple Silicon) cipher from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[16:59:03 INFO]: [WorldDefaultsMissing] Loading server plugin WorldDefaultsMissing v1.0"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:59:03 WARN]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[16:59:03 WARN]: **** SERVER IS RUNNING IN OFFLINE\/INSECURE MODE!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:59:03 WARN]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[16:59:03 WARN]: The server will make no attempt to authenticate usernames. Beware."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:59:03 WARN]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[16:59:03 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:59:03 WARN]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[16:59:03 WARN]: To change this, set \"online-mode\" to \"true\" in the server.properties file."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[16:59:03 INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[16:59:03 INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[16:59:03 INFO]: Prepared spawn area in 0 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[16:59:03 INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[16:59:03 INFO]: Prepared spawn area in 0 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[16:59:03 INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[16:59:03 INFO]: Prepared spawn area in 0 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[16:59:03 INFO]: Done preparing level \"world\" (0.121s)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[16:59:03 INFO]: [WorldDefaultsMissing] Enabling WorldDefaultsMissing v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:03 INFO]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[16:59:03 INFO]: [spark] Starting background profiler..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:04 INFO]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[16:59:04 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:04 INFO]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[16:59:04 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:04 INFO]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[16:59:04 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:04 INFO]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[16:59:04 INFO]: Running delayed init tasks"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:59:04 WARN]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[16:59:04 WARN]: [WorldDefaultsMissing] Task #2 for WorldDefaultsMissing v1.0 generated an exception"
+                },
+                {
+                    "number": 47,
+                    "content": "java.lang.IllegalStateException: World defaults configuration file 'config\/paper-world-defaults.yml' doesn't exist"
+                },
+                {
+                    "number": 48,
+                    "content": "\tat io.papermc.paper.configuration.Configurations.createDefaultWorldLoader(Configurations.java:183) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 49,
+                    "content": "\tat io.papermc.paper.configuration.Configurations.createWorldConfig(Configurations.java:214) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 50,
+                    "content": "\tat io.papermc.paper.configuration.Configurations.createWorldConfig(Configurations.java:208) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 51,
+                    "content": "\tat io.papermc.paper.configuration.PaperConfigurations.createWorldConfig(PaperConfigurations.java:323) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 52,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.lambda$new$0(ServerLevel.java:639) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 53,
+                    "content": "\tat net.minecraft.world.level.Level.<init>(Level.java:853) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 54,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.<init>(ServerLevel.java:639) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 55,
+                    "content": "\tat org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1279) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 56,
+                    "content": "\tat org.bukkit.Bukkit.createWorld(Bukkit.java:828) ~[paper-api-26.3.build.248-stable.jar:?]"
+                },
+                {
+                    "number": 57,
+                    "content": "\tat org.bukkit.WorldCreator.createWorld(WorldCreator.java:605) ~[paper-api-26.3.build.248-stable.jar:?]"
+                },
+                {
+                    "number": 58,
+                    "content": "\tat p21-world-defaults-missing.jar\/\/com.repro.WorldDefaultsMissingPlugin.lambda$onEnable$0(WorldDefaultsMissingPlugin.java:22) ~[?:?]"
+                },
+                {
+                    "number": 59,
+                    "content": "\tat org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 60,
+                    "content": "\tat org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 61,
+                    "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1263) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 62,
+                    "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 63,
+                    "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474) ~[?:?]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:04 INFO]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[16:59:04 INFO]: Done (4.633s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:05 INFO]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[16:59:05 INFO]: *** Currently you are 1 build behind ***"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:05 INFO]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[16:59:05 INFO]: *** It is highly recommended to download the latest build from https:\/\/papermc.io\/downloads\/paper ***"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:12 INFO]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[16:59:12 INFO]: System chat: Stopping the server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[16:59:13 INFO]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[16:59:13 INFO]: [WorldDefaultsMissing] Disabling WorldDefaultsMissing v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[16:59:13 INFO]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[16:59:13 INFO]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[16:59:13 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0,00s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Waiting 60s for chunk I\/O to halt for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Halted I\/O scheduler for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[16:59:13 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0,00s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Waiting 60s for chunk I\/O to halt for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Halted I\/O scheduler for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[16:59:13 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0,00s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Waiting 60s for chunk I\/O to halt for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[16:59:13 INFO]: [ChunkHolderManager] Halted I\/O scheduler for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[16:59:13 INFO]: Waiting for all RegionFile I\/O tasks to complete..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "[16:59:13 INFO]: All RegionFile I\/O tasks to complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "[16:59:13 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:59:13 INFO]:",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "[16:59:13 INFO]: [MoonriseCommon] Awaiting termination of I\/O pool for up to 60s..."
+                },
+                {
+                    "number": 97,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The file 'config\/paper-world-defaults.yml' with the default world settings does not exist. Paper cannot load new worlds without it.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[16:59:04 WARN]:",
+                    "lines": [
+                        {
+                            "number": 46,
+                            "content": "[16:59:04 WARN]: [WorldDefaultsMissing] Task #2 for WorldDefaultsMissing v1.0 generated an exception"
+                        },
+                        {
+                            "number": 47,
+                            "content": "java.lang.IllegalStateException: World defaults configuration file 'config\/paper-world-defaults.yml' doesn't exist"
+                        },
+                        {
+                            "number": 48,
+                            "content": "\tat io.papermc.paper.configuration.Configurations.createDefaultWorldLoader(Configurations.java:183) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 49,
+                            "content": "\tat io.papermc.paper.configuration.Configurations.createWorldConfig(Configurations.java:214) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 50,
+                            "content": "\tat io.papermc.paper.configuration.Configurations.createWorldConfig(Configurations.java:208) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 51,
+                            "content": "\tat io.papermc.paper.configuration.PaperConfigurations.createWorldConfig(PaperConfigurations.java:323) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 52,
+                            "content": "\tat net.minecraft.server.level.ServerLevel.lambda$new$0(ServerLevel.java:639) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 53,
+                            "content": "\tat net.minecraft.world.level.Level.<init>(Level.java:853) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 54,
+                            "content": "\tat net.minecraft.server.level.ServerLevel.<init>(ServerLevel.java:639) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 55,
+                            "content": "\tat org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1279) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 56,
+                            "content": "\tat org.bukkit.Bukkit.createWorld(Bukkit.java:828) ~[paper-api-26.3.build.248-stable.jar:?]"
+                        },
+                        {
+                            "number": 57,
+                            "content": "\tat org.bukkit.WorldCreator.createWorld(WorldCreator.java:605) ~[paper-api-26.3.build.248-stable.jar:?]"
+                        },
+                        {
+                            "number": 58,
+                            "content": "\tat p21-world-defaults-missing.jar\/\/com.repro.WorldDefaultsMissingPlugin.lambda$onEnable$0(WorldDefaultsMissingPlugin.java:22) ~[?:?]"
+                        },
+                        {
+                            "number": 59,
+                            "content": "\tat org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 60,
+                            "content": "\tat org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 61,
+                            "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1263) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 62,
+                            "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 63,
+                            "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474) ~[?:?]"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Restore the file 'config\/paper-world-defaults.yml' from a backup or restart the server to create it again with default values."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:59:02 INFO]:",
+                    "lines": [
+                        {
+                            "number": 14,
+                            "content": "[16:59:02 INFO]: Starting minecraft server version 26.3"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            }
+        ]
+    }
+}
