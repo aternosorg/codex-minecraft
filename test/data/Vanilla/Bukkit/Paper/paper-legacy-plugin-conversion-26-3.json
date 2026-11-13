@@ -1,0 +1,690 @@
+{
+    "id": "paper\/server",
+    "name": "Paper",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Paper 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting org.bukkit.craftbukkit.Main"
+                },
+                {
+                    "number": 2,
+                    "content": "2026-11-11T15:24:27.488146Z ServerMain WARN Advanced terminal features are not available in this environment"
+                },
+                {
+                    "number": 3,
+                    "content": "[16:24:27 INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.3+1-LTS-2; Oracle Corporation null) on Mac OS X 27.2.1 (aarch64)"
+                },
+                {
+                    "number": 4,
+                    "content": "[16:24:27 INFO]: [bootstrap] Loading Paper 26.3-248-main@0727243 (2026-11-10T11:35:52Z) for Minecraft 26.3"
+                },
+                {
+                    "number": 5,
+                    "content": "[16:24:27 INFO]: [PluginInitializerManager] Initializing plugins..."
+                },
+                {
+                    "number": 6,
+                    "content": "[16:24:27 INFO]: [PluginInitializerManager] Initialized 1 plugin"
+                },
+                {
+                    "number": 7,
+                    "content": "[16:24:27 INFO]: [PluginInitializerManager] Bukkit plugins (1):"
+                },
+                {
+                    "number": 8,
+                    "content": " - LegacyBrokenClass (1.0)"
+                },
+                {
+                    "number": 9,
+                    "content": "[16:24:30 INFO]: Loaded 1866 advancements"
+                },
+                {
+                    "number": 10,
+                    "content": "[16:24:30 INFO]: Starting minecraft server version 26.3"
+                },
+                {
+                    "number": 11,
+                    "content": "[16:24:30 INFO]: Loading properties"
+                },
+                {
+                    "number": 12,
+                    "content": "[16:24:30 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)"
+                },
+                {
+                    "number": 13,
+                    "content": "[16:24:31 WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and\/or data this is a bug!"
+                },
+                {
+                    "number": 14,
+                    "content": "[16:24:35 WARN]: Legacy plugin LegacyBrokenClass v1.0 does not specify an api-version."
+                },
+                {
+                    "number": 15,
+                    "content": "[16:24:35 INFO]: [LegacyBrokenClass] Loading server plugin LegacyBrokenClass v1.0"
+                },
+                {
+                    "number": 16,
+                    "content": "[16:24:35 INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'..."
+                },
+                {
+                    "number": 17,
+                    "content": "[16:24:35 INFO]: Prepared spawn area in 0 ms"
+                },
+                {
+                    "number": 18,
+                    "content": "[16:24:35 INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'..."
+                },
+                {
+                    "number": 19,
+                    "content": "[16:24:35 INFO]: Prepared spawn area in 0 ms"
+                },
+                {
+                    "number": 20,
+                    "content": "[16:24:35 INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'..."
+                },
+                {
+                    "number": 21,
+                    "content": "[16:24:35 INFO]: Prepared spawn area in 0 ms"
+                },
+                {
+                    "number": 22,
+                    "content": "[16:24:35 INFO]: Done preparing level \"world\" (0.155s)"
+                },
+                {
+                    "number": 23,
+                    "content": "[16:24:35 INFO]: [LegacyBrokenClass] Enabling LegacyBrokenClass v1.0*"
+                },
+                {
+                    "number": 24,
+                    "content": "[16:24:35 ERROR]: Fatal error trying to convert LegacyBrokenClass v1.0:com\/repro\/BrokenClass.class"
+                },
+                {
+                    "number": 25,
+                    "content": "java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat org.objectweb.asm.ClassReader.getItem(ClassReader.java:3578) ~[asm-9.9.1.jar:9.9.1]"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat org.objectweb.asm.SymbolTable.<init>(SymbolTable.java:167) ~[asm-9.9.1.jar:9.9.1]"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat org.objectweb.asm.ClassWriter.<init>(ClassWriter.java:266) ~[asm-9.9.1.jar:9.9.1]"
+                },
+                {
+                    "number": 29,
+                    "content": "\tat org.bukkit.craftbukkit.util.Commodore.convert(Commodore.java:210) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat org.bukkit.craftbukkit.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:407) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 31,
+                    "content": "\tat org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:240) ~[paper-api-26.3.build.248-stable.jar:?]"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]"
+                },
+                {
+                    "number": 33,
+                    "content": "\tat org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.3.build.248-stable.jar:?]"
+                },
+                {
+                    "number": 34,
+                    "content": "\tat org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.3.build.248-stable.jar:?]"
+                },
+                {
+                    "number": 35,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]"
+                },
+                {
+                    "number": 36,
+                    "content": "\tat java.base\/java.lang.Class.forName0(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 37,
+                    "content": "\tat java.base\/java.lang.Class.forName(Class.java:467) ~[?:?]"
+                },
+                {
+                    "number": 38,
+                    "content": "\tat java.base\/java.lang.Class.forName(Class.java:458) ~[?:?]"
+                },
+                {
+                    "number": 39,
+                    "content": "\tat p17-legacy-broken-class.jar\/\/com.repro.LegacyBrokenClassPlugin.onEnable(LegacyBrokenClassPlugin.java:13) ~[?:?]"
+                },
+                {
+                    "number": 40,
+                    "content": "\tat org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-26.3.build.248-stable.jar:?]"
+                },
+                {
+                    "number": 41,
+                    "content": "\tat io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 42,
+                    "content": "\tat io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 43,
+                    "content": "\tat org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.3.build.248-stable.jar:?]"
+                },
+                {
+                    "number": 44,
+                    "content": "\tat org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:616) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 45,
+                    "content": "\tat org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:573) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 46,
+                    "content": "\tat net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:642) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 47,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:343) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 48,
+                    "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 49,
+                    "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299) ~[paper-26.3.jar:26.3-248-0727243]"
+                },
+                {
+                    "number": 50,
+                    "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474) ~[?:?]"
+                },
+                {
+                    "number": 51,
+                    "content": "[16:24:35 WARN]: [LegacyBrokenClass] could not load BrokenClass: java.lang.ClassFormatError: Illegal class modifiers in class com\/repro\/BrokenClass: 0x201"
+                },
+                {
+                    "number": 52,
+                    "content": "[16:24:36 INFO]: [spark] Starting background profiler..."
+                },
+                {
+                    "number": 53,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The legacy plugin 'LegacyBrokenClass' could not be converted for this server version.",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": null,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "Starting org.bukkit.craftbukkit.Main"
+                        },
+                        {
+                            "number": 2,
+                            "content": "2026-11-11T15:24:27.488146Z ServerMain WARN Advanced terminal features are not available in this environment"
+                        },
+                        {
+                            "number": 3,
+                            "content": "[16:24:27 INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.3+1-LTS-2; Oracle Corporation null) on Mac OS X 27.2.1 (aarch64)"
+                        },
+                        {
+                            "number": 4,
+                            "content": "[16:24:27 INFO]: [bootstrap] Loading Paper 26.3-248-main@0727243 (2026-11-10T11:35:52Z) for Minecraft 26.3"
+                        },
+                        {
+                            "number": 5,
+                            "content": "[16:24:27 INFO]: [PluginInitializerManager] Initializing plugins..."
+                        },
+                        {
+                            "number": 6,
+                            "content": "[16:24:27 INFO]: [PluginInitializerManager] Initialized 1 plugin"
+                        },
+                        {
+                            "number": 7,
+                            "content": "[16:24:27 INFO]: [PluginInitializerManager] Bukkit plugins (1):"
+                        },
+                        {
+                            "number": 8,
+                            "content": " - LegacyBrokenClass (1.0)"
+                        },
+                        {
+                            "number": 9,
+                            "content": "[16:24:30 INFO]: Loaded 1866 advancements"
+                        },
+                        {
+                            "number": 10,
+                            "content": "[16:24:30 INFO]: Starting minecraft server version 26.3"
+                        },
+                        {
+                            "number": 11,
+                            "content": "[16:24:30 INFO]: Loading properties"
+                        },
+                        {
+                            "number": 12,
+                            "content": "[16:24:30 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)"
+                        },
+                        {
+                            "number": 13,
+                            "content": "[16:24:31 WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and\/or data this is a bug!"
+                        },
+                        {
+                            "number": 14,
+                            "content": "[16:24:35 WARN]: Legacy plugin LegacyBrokenClass v1.0 does not specify an api-version."
+                        },
+                        {
+                            "number": 15,
+                            "content": "[16:24:35 INFO]: [LegacyBrokenClass] Loading server plugin LegacyBrokenClass v1.0"
+                        },
+                        {
+                            "number": 16,
+                            "content": "[16:24:35 INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'..."
+                        },
+                        {
+                            "number": 17,
+                            "content": "[16:24:35 INFO]: Prepared spawn area in 0 ms"
+                        },
+                        {
+                            "number": 18,
+                            "content": "[16:24:35 INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'..."
+                        },
+                        {
+                            "number": 19,
+                            "content": "[16:24:35 INFO]: Prepared spawn area in 0 ms"
+                        },
+                        {
+                            "number": 20,
+                            "content": "[16:24:35 INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'..."
+                        },
+                        {
+                            "number": 21,
+                            "content": "[16:24:35 INFO]: Prepared spawn area in 0 ms"
+                        },
+                        {
+                            "number": 22,
+                            "content": "[16:24:35 INFO]: Done preparing level \"world\" (0.155s)"
+                        },
+                        {
+                            "number": 23,
+                            "content": "[16:24:35 INFO]: [LegacyBrokenClass] Enabling LegacyBrokenClass v1.0*"
+                        },
+                        {
+                            "number": 24,
+                            "content": "[16:24:35 ERROR]: Fatal error trying to convert LegacyBrokenClass v1.0:com\/repro\/BrokenClass.class"
+                        },
+                        {
+                            "number": 25,
+                            "content": "java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat org.objectweb.asm.ClassReader.getItem(ClassReader.java:3578) ~[asm-9.9.1.jar:9.9.1]"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat org.objectweb.asm.SymbolTable.<init>(SymbolTable.java:167) ~[asm-9.9.1.jar:9.9.1]"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat org.objectweb.asm.ClassWriter.<init>(ClassWriter.java:266) ~[asm-9.9.1.jar:9.9.1]"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\tat org.bukkit.craftbukkit.util.Commodore.convert(Commodore.java:210) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 30,
+                            "content": "\tat org.bukkit.craftbukkit.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:407) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 31,
+                            "content": "\tat org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:240) ~[paper-api-26.3.build.248-stable.jar:?]"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]"
+                        },
+                        {
+                            "number": 33,
+                            "content": "\tat org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.3.build.248-stable.jar:?]"
+                        },
+                        {
+                            "number": 34,
+                            "content": "\tat org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.3.build.248-stable.jar:?]"
+                        },
+                        {
+                            "number": 35,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]"
+                        },
+                        {
+                            "number": 36,
+                            "content": "\tat java.base\/java.lang.Class.forName0(Native Method) ~[?:?]"
+                        },
+                        {
+                            "number": 37,
+                            "content": "\tat java.base\/java.lang.Class.forName(Class.java:467) ~[?:?]"
+                        },
+                        {
+                            "number": 38,
+                            "content": "\tat java.base\/java.lang.Class.forName(Class.java:458) ~[?:?]"
+                        },
+                        {
+                            "number": 39,
+                            "content": "\tat p17-legacy-broken-class.jar\/\/com.repro.LegacyBrokenClassPlugin.onEnable(LegacyBrokenClassPlugin.java:13) ~[?:?]"
+                        },
+                        {
+                            "number": 40,
+                            "content": "\tat org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-26.3.build.248-stable.jar:?]"
+                        },
+                        {
+                            "number": 41,
+                            "content": "\tat io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 42,
+                            "content": "\tat io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 43,
+                            "content": "\tat org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.3.build.248-stable.jar:?]"
+                        },
+                        {
+                            "number": 44,
+                            "content": "\tat org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:616) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 45,
+                            "content": "\tat org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:573) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 46,
+                            "content": "\tat net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:642) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 47,
+                            "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:343) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 48,
+                            "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 49,
+                            "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 50,
+                            "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474) ~[?:?]"
+                        },
+                        {
+                            "number": 51,
+                            "content": "[16:24:35 WARN]: [LegacyBrokenClass] could not load BrokenClass: java.lang.ClassFormatError: Illegal class modifiers in class com\/repro\/BrokenClass: 0x201"
+                        },
+                        {
+                            "number": 52,
+                            "content": "[16:24:36 INFO]: [spark] Starting background profiler..."
+                        },
+                        {
+                            "number": 53,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'LegacyBrokenClass'."
+                    },
+                    {
+                        "message": "Remove the plugin 'LegacyBrokenClass'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": null,
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "Starting org.bukkit.craftbukkit.Main"
+                        },
+                        {
+                            "number": 2,
+                            "content": "2026-11-11T15:24:27.488146Z ServerMain WARN Advanced terminal features are not available in this environment"
+                        },
+                        {
+                            "number": 3,
+                            "content": "[16:24:27 INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.3+1-LTS-2; Oracle Corporation null) on Mac OS X 27.2.1 (aarch64)"
+                        },
+                        {
+                            "number": 4,
+                            "content": "[16:24:27 INFO]: [bootstrap] Loading Paper 26.3-248-main@0727243 (2026-11-10T11:35:52Z) for Minecraft 26.3"
+                        },
+                        {
+                            "number": 5,
+                            "content": "[16:24:27 INFO]: [PluginInitializerManager] Initializing plugins..."
+                        },
+                        {
+                            "number": 6,
+                            "content": "[16:24:27 INFO]: [PluginInitializerManager] Initialized 1 plugin"
+                        },
+                        {
+                            "number": 7,
+                            "content": "[16:24:27 INFO]: [PluginInitializerManager] Bukkit plugins (1):"
+                        },
+                        {
+                            "number": 8,
+                            "content": " - LegacyBrokenClass (1.0)"
+                        },
+                        {
+                            "number": 9,
+                            "content": "[16:24:30 INFO]: Loaded 1866 advancements"
+                        },
+                        {
+                            "number": 10,
+                            "content": "[16:24:30 INFO]: Starting minecraft server version 26.3"
+                        },
+                        {
+                            "number": 11,
+                            "content": "[16:24:30 INFO]: Loading properties"
+                        },
+                        {
+                            "number": 12,
+                            "content": "[16:24:30 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)"
+                        },
+                        {
+                            "number": 13,
+                            "content": "[16:24:31 WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and\/or data this is a bug!"
+                        },
+                        {
+                            "number": 14,
+                            "content": "[16:24:35 WARN]: Legacy plugin LegacyBrokenClass v1.0 does not specify an api-version."
+                        },
+                        {
+                            "number": 15,
+                            "content": "[16:24:35 INFO]: [LegacyBrokenClass] Loading server plugin LegacyBrokenClass v1.0"
+                        },
+                        {
+                            "number": 16,
+                            "content": "[16:24:35 INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'..."
+                        },
+                        {
+                            "number": 17,
+                            "content": "[16:24:35 INFO]: Prepared spawn area in 0 ms"
+                        },
+                        {
+                            "number": 18,
+                            "content": "[16:24:35 INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'..."
+                        },
+                        {
+                            "number": 19,
+                            "content": "[16:24:35 INFO]: Prepared spawn area in 0 ms"
+                        },
+                        {
+                            "number": 20,
+                            "content": "[16:24:35 INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'..."
+                        },
+                        {
+                            "number": 21,
+                            "content": "[16:24:35 INFO]: Prepared spawn area in 0 ms"
+                        },
+                        {
+                            "number": 22,
+                            "content": "[16:24:35 INFO]: Done preparing level \"world\" (0.155s)"
+                        },
+                        {
+                            "number": 23,
+                            "content": "[16:24:35 INFO]: [LegacyBrokenClass] Enabling LegacyBrokenClass v1.0*"
+                        },
+                        {
+                            "number": 24,
+                            "content": "[16:24:35 ERROR]: Fatal error trying to convert LegacyBrokenClass v1.0:com\/repro\/BrokenClass.class"
+                        },
+                        {
+                            "number": 25,
+                            "content": "java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat org.objectweb.asm.ClassReader.getItem(ClassReader.java:3578) ~[asm-9.9.1.jar:9.9.1]"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat org.objectweb.asm.SymbolTable.<init>(SymbolTable.java:167) ~[asm-9.9.1.jar:9.9.1]"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat org.objectweb.asm.ClassWriter.<init>(ClassWriter.java:266) ~[asm-9.9.1.jar:9.9.1]"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\tat org.bukkit.craftbukkit.util.Commodore.convert(Commodore.java:210) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 30,
+                            "content": "\tat org.bukkit.craftbukkit.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:407) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 31,
+                            "content": "\tat org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:240) ~[paper-api-26.3.build.248-stable.jar:?]"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]"
+                        },
+                        {
+                            "number": 33,
+                            "content": "\tat org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.3.build.248-stable.jar:?]"
+                        },
+                        {
+                            "number": 34,
+                            "content": "\tat org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.3.build.248-stable.jar:?]"
+                        },
+                        {
+                            "number": 35,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]"
+                        },
+                        {
+                            "number": 36,
+                            "content": "\tat java.base\/java.lang.Class.forName0(Native Method) ~[?:?]"
+                        },
+                        {
+                            "number": 37,
+                            "content": "\tat java.base\/java.lang.Class.forName(Class.java:467) ~[?:?]"
+                        },
+                        {
+                            "number": 38,
+                            "content": "\tat java.base\/java.lang.Class.forName(Class.java:458) ~[?:?]"
+                        },
+                        {
+                            "number": 39,
+                            "content": "\tat p17-legacy-broken-class.jar\/\/com.repro.LegacyBrokenClassPlugin.onEnable(LegacyBrokenClassPlugin.java:13) ~[?:?]"
+                        },
+                        {
+                            "number": 40,
+                            "content": "\tat org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-26.3.build.248-stable.jar:?]"
+                        },
+                        {
+                            "number": 41,
+                            "content": "\tat io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 42,
+                            "content": "\tat io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 43,
+                            "content": "\tat org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.3.build.248-stable.jar:?]"
+                        },
+                        {
+                            "number": 44,
+                            "content": "\tat org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:616) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 45,
+                            "content": "\tat org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:573) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 46,
+                            "content": "\tat net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:642) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 47,
+                            "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:343) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 48,
+                            "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 49,
+                            "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299) ~[paper-26.3.jar:26.3-248-0727243]"
+                        },
+                        {
+                            "number": 50,
+                            "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474) ~[?:?]"
+                        },
+                        {
+                            "number": 51,
+                            "content": "[16:24:35 WARN]: [LegacyBrokenClass] could not load BrokenClass: java.lang.ClassFormatError: Illegal class modifiers in class com\/repro\/BrokenClass: 0x201"
+                        },
+                        {
+                            "number": 52,
+                            "content": "[16:24:36 INFO]: [spark] Starting background profiler..."
+                        },
+                        {
+                            "number": 53,
+                            "content": ""
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            }
+        ]
+    }
+}
