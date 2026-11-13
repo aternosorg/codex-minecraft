@@ -1424,6 +1424,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_mixin_apply_error_invalid_descriptor(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-mixin-apply-error-invalid-descriptor.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mixin_apply_error(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-mixin-apply-error.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_mixin_error(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-mixin-error.log');
