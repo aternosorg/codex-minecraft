@@ -26,7 +26,7 @@ class ApiVersionLowerThanAllowedProblem extends PluginFileProblem
     public static function getPatterns(): array
     {
         return [
-            '/Could not load plugin \'((?!\.jar).*\.jar)\' in folder \'([^\']+)\''
+            '/Could not load plugin \'([^\']+\.jar)\' in folder \'([^\']+)\''
             . '\norg.bukkit.plugin.InvalidPluginException: Plugin API version (\d+\.\d+) is lower than the minimum allowed version\. Please update or replace it\./'
         ];
     }

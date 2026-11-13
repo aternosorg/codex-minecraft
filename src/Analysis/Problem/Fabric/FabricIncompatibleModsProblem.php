@@ -49,7 +49,7 @@ class FabricIncompatibleModsProblem extends FabricModProblem
     public static function getPatterns(): array
     {
         return [
-            "/\s*- Mod " . static::getModNamePattern() . " [^\\n]+ (?:is incompatible|conflicts) with [^\\n]+ of (?:mod )?" . static::getModNamePattern("secondMod") . ",/"
+            "/- Mod " . static::getModNamePattern() . " [^\\n]+ (?:is incompatible|conflicts) with [^\\n]+ of (?:mod )?" . static::getModNamePattern("secondMod") . ",/"
         ];
     }
 

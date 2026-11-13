@@ -54,7 +54,7 @@ class FabricModIncompatibleMinecraftVersionProblem extends FabricModProblem
      */
     public static function getPatterns(): array
     {
-        $mod = "/\s*- Mod " . static::getModNamePattern() . "(?: [^ ]+)? ";
+        $mod = "/- Mod " . static::getModNamePattern() . "(?: [^ ]+)? ";
         $minecraft = " of (?:mod )?'Minecraft' \(minecraft\), but only the wrong version is present: (?<present>" . FabricVanillaVersionInformation::getVersionPattern() . ")!/";
 
         return [

@@ -34,7 +34,7 @@ class ModFatalProblem extends ModProblem
     public static function getPatterns(): array
     {
         return [
-            'mod-state' => '/\s*U[LCHIJAD]*E\s+(?<modId>\w+)\{(?<modVersion>[^\}]+)\} \[(?<modName>[^\]]+)\] \((?<modFileName>[^\)]+)\)/',
+            'mod-state' => '/U[LCHIJAD]*E\s+(?<modId>\w+)\{(?<modVersion>[^\}]+)\} \[(?<modName>[^\]]+)\] \((?<modFileName>[^\)]+)\)/',
             // client-only causes are handled by ClientOnlyModProblem
             'failed-to-load' => '/^\s*(?<modName>[^\(\n]+) \((?<modId>[^\)]+)\) has failed to load correctly(?!\n' . ClientOnlyModProblem::CLIENT_ONLY_CAUSE . ')/m'
         ];

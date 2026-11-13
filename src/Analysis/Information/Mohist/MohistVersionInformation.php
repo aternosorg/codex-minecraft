@@ -21,7 +21,7 @@ class MohistVersionInformation extends MohistInformation
     {
         return [
             '/This server is running ?Mohist ?version git-Mohist-(?:[0-9.wa]+)-([0-9]+)/',
-            '/This server is running Mohist version ([0-9.wa]+(?:-([0-9]+))?) /'
+            '/This server is running Mohist version ([0-9.wa]+(?:-[0-9]+)?) /'
         ];
     }
 }

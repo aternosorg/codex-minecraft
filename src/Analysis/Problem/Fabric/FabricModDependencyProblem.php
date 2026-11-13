@@ -34,7 +34,7 @@ class FabricModDependencyProblem extends FabricModProblem
      */
     public static function getPatterns(): array
     {
-        $mod = "/\\s*- Mod " . static::getModNamePattern() . "(?: [^ ]+)? ";
+        $mod = "/- Mod " . static::getModNamePattern() . "(?: [^ ]+)? ";
         $dependency = " of (?:mod )?" . static::getModNamePattern("dependency") . ",/";
 
         return [

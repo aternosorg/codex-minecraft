@@ -61,7 +61,7 @@ class UnsupportedClassVersionProblem extends PluginFileProblem
             '/Could not load \'plugins[\/\\\\]([^\']+\.jar)\' in (?:folder )?\'([^\']+)\''
             . '\norg\.bukkit\.plugin\.InvalidPluginException: java\.lang\.UnsupportedClassVersionError: .+ \(class file version (\d+)\.\d+\)/',
             // >= 1.20
-            '/Could not load plugin \'((?!\.jar).*\.jar)\' in folder \'([^\']+)\''
+            '/Could not load plugin \'([^\']+\.jar)\' in folder \'([^\']+)\''
             . '\norg\.bukkit\.plugin\.InvalidPluginException: java\.lang\.UnsupportedClassVersionError: .+ \(class file version (\d+)\.\d+\)/'
         ];
     }
