@@ -1,0 +1,939 @@
+{
+    "id": "arclight\/crash-report",
+    "name": "Arclight",
+    "type": "Crash Report",
+    "version": "1.19.4",
+    "title": "Arclight 1.19.4 Crash Report",
+    "entries": [
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "---- Minecraft Crash Report ----"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "\/\/ Why is it breaking :("
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Time:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "Time: 2024-01-12 10:14:44"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Description:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "Description: Exception in server tick loop"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "java.lang.IllegalStateException: Failed to initialize server"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2038) ~[server-1.19.4-20230314.122934-srg.jar%23163!\/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "\tat net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:252) ~[server-1.19.4-20230314.122934-srg.jar%23163!\/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "\tat java.lang.Thread.run(Thread.java:842) ~[?:?] {re:mixin}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "A detailed walkthrough of the error, its code path and all known details is as follows:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "---------------------------------------------------------------------------------------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "-- System Details --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "\tMinecraft Version: 1.19.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version ID:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "\tMinecraft Version ID: 1.19.4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tOperating System:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "\tOperating System: Linux (amd64) version 5.19.0-46-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava Version:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "\tJava Version: 17.0.9, Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava VM Version:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "\tJava VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "\tMemory: 626063192 bytes (597 MiB) \/ 1447034880 bytes (1380 MiB) up to 8388608000 bytes (8000 MiB)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCPUs:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "\tCPUs: 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Vendor:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "\tProcessor Vendor: GenuineIntel"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Name:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "\tProcessor Name: Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIdentifier:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "\tIdentifier: Intel64 Family 6 Model 165 Stepping 3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMicroarchitecture:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "\tMicroarchitecture: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFrequency (GHz):",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "\tFrequency (GHz): 3.60"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical packages:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "\tNumber of physical packages: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical CPUs:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "\tNumber of physical CPUs: 4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of logical CPUs:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "\tNumber of logical CPUs: 8"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 name:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "\tGraphics card #0 name: TU106 [GeForce RTX 2060 SUPER]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 vendor:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "\tGraphics card #0 vendor: NVIDIA Corporation (0x10de)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 VRAM (MB):",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "\tGraphics card #0 VRAM (MB): 288.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 deviceId:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "\tGraphics card #0 deviceId: 0x1f06"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 versionInfo:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "\tGraphics card #0 versionInfo: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory slot #0 capacity (MB):",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "\tMemory slot #0 capacity (MB): 16384.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory slot #0 clockSpeed (GHz):",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "\tMemory slot #0 clockSpeed (GHz): -0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory slot #0 type:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "\tMemory slot #0 type: DDR4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory slot #1 capacity (MB):",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "\tMemory slot #1 capacity (MB): 16384.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory slot #1 clockSpeed (GHz):",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "\tMemory slot #1 clockSpeed (GHz): -0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory slot #1 type:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "\tMemory slot #1 type: DDR4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory max (MB):",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "\tVirtual memory max (MB): 18047.21"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory used (MB):",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "\tVirtual memory used (MB): 19121.06"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory total (MB):",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "\tSwap memory total (MB): 2048.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory used (MB):",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "\tSwap memory used (MB): 11.25"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJVM Flags:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "\tJVM Flags: 0 total; "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tServer Running:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "\tServer Running: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tData Packs:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "\tData Packs: vanilla, mod:forge, mod:arclight (incompatible)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEnabled Feature Flags:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "\tEnabled Feature Flags: minecraft:vanilla"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tWorld Generation:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "\tWorld Generation: Stable"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIs Modded:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "\tIs Modded: Definitely; Server brand changed to 'forge arclight\/Executions'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tType:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "\tType: Dedicated Server (map_server.txt)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "\tModLauncher: 10.0.8+10.0.8+main.0ef7e830"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher launch target:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "\tModLauncher launch target: forgeserver"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tModLauncher naming:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "\tModLauncher naming: srg"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "\tModLauncher services: "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "\t\tmixin-0.8.5.jar mixin PLUGINSERVICE "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "\t\tarclight-forge-1.19.4-1.0.6.jar arclight_implementer PLUGINSERVICE "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "\t\teventbus-6.0.3.jar eventbus PLUGINSERVICE "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "\t\tfmlloader-1.19.4-45.2.6.jar slf4jfixer PLUGINSERVICE "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "\t\tfmlloader-1.19.4-45.2.6.jar object_holder_definalize PLUGINSERVICE "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "\t\tfmlloader-1.19.4-45.2.6.jar runtime_enum_extender PLUGINSERVICE "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "\t\tfmlloader-1.19.4-45.2.6.jar capability_token_subclass PLUGINSERVICE "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "\t\taccesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "\t\tfmlloader-1.19.4-45.2.6.jar runtimedistcleaner PLUGINSERVICE "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "\t\tmodlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "\t\tmodlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "\tFML Language Providers: "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "\t\tminecraft@1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "\t\tlowcodefml@null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "\t\tjavafml@null"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "\tMod List: "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "\t\tserver-1.19.4-20230314.122934-srg.jar             |Minecraft                     |minecraft                     |1.19.4              |DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "\t\tforge-1.19.4-45.2.6-universal.jar                 |Forge                         |forge                         |45.2.6              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "\t\tarclight-1.19.4-1.0.6-0437196.jar                 |Arclight Mod                  |arclight                      |1.19.4-1.0.6-0437196|DONE      |Manifest: NOSIGNATURE"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCrash Report UUID:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "\tCrash Report UUID: 19321def-9681-44c0-8919-fe4637145bef"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFML:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "\tFML: 45.2"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tForge:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "\tForge: net.minecraftforge:45.2.6"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 81,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Minecraft version: 1.19.4",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tMinecraft Version:",
+                    "lines": [
+                        {
+                            "number": 18,
+                            "content": "\tMinecraft Version: 1.19.4"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.19.4"
+            },
+            {
+                "message": "Java version: 17.0.9",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tJava Version:",
+                    "lines": [
+                        {
+                            "number": 21,
+                            "content": "\tJava Version: 17.0.9, Oracle Corporation"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "17.0.9"
+            }
+        ]
+    }
+}

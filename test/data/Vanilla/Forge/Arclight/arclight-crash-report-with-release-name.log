@@ -1,0 +1,80 @@
+---- Minecraft Crash Report ----
+// Why is it breaking :(
+
+Time: 2024-01-12 10:14:44
+Description: Exception in server tick loop
+
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2038) ~[server-1.19.4-20230314.122934-srg.jar%23163!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:252) ~[server-1.19.4-20230314.122934-srg.jar%23163!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:842) ~[?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.4
+	Minecraft Version ID: 1.19.4
+	Operating System: Linux (amd64) version 5.19.0-46-generic
+	Java Version: 17.0.9, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 626063192 bytes (597 MiB) / 1447034880 bytes (1380 MiB) up to 8388608000 bytes (8000 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz
+	Identifier: Intel64 Family 6 Model 165 Stepping 3
+	Microarchitecture: unknown
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: TU106 [GeForce RTX 2060 SUPER]
+	Graphics card #0 vendor: NVIDIA Corporation (0x10de)
+	Graphics card #0 VRAM (MB): 288.00
+	Graphics card #0 deviceId: 0x1f06
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): -0.00
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): -0.00
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 18047.21
+	Virtual memory used (MB): 19121.06
+	Swap memory total (MB): 2048.00
+	Swap memory used (MB): 11.25
+	JVM Flags: 0 total; 
+	Server Running: true
+	Data Packs: vanilla, mod:forge, mod:arclight (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'forge arclight/Executions'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		arclight-forge-1.19.4-1.0.6.jar arclight_implementer PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.4-45.2.6.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.4-45.2.6.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.4-45.2.6.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.4-45.2.6.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.4-45.2.6.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		server-1.19.4-20230314.122934-srg.jar             |Minecraft                     |minecraft                     |1.19.4              |DONE      |Manifest: NOSIGNATURE
+		forge-1.19.4-45.2.6-universal.jar                 |Forge                         |forge                         |45.2.6              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		arclight-1.19.4-1.0.6-0437196.jar                 |Arclight Mod                  |arclight                      |1.19.4-1.0.6-0437196|DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 19321def-9681-44c0-8919-fe4637145bef
+	FML: 45.2
+	Forge: net.minecraftforge:45.2.6

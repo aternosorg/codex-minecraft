@@ -1514,6 +1514,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_arclight_crash_report_with_release_name(): void
+    {
+        $log = new TestLog('Vanilla/Forge/Arclight/arclight-crash-report-with-release-name.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_arclight_crash_report(): void
+    {
+        $log = new TestLog('Vanilla/Forge/Arclight/arclight-crash-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_magma_mod_dependency(): void
     {
         $log = new TestLog('Vanilla/Forge/Magma/magma-mod-dependency.log');
