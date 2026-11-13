@@ -6,6 +6,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ApiVersionLowerThanAllowedPro
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ServerJarInPluginFolderProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\PluginWithoutDescriptorProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\VersionDowngradeProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\InvalidEventHandlerSignatureProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\UnregisteredClassLoaderProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\PluginUpdateProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\MisconfiguredUpdateDirectoryProblem;
@@ -34,5 +35,6 @@ class PaperAnalyser extends BukkitAnalyser
         $this->addPossibleInsightClass(EventListenerMissingClassProblem::class);
         $this->addPossibleInsightClass(CircularPluginDependencyProblem::class);
         $this->addPossibleInsightClass(RestrictedPluginNameProblem::class);
+        $this->addPossibleInsightClass(InvalidEventHandlerSignatureProblem::class);
     }
 }

@@ -112,5 +112,6 @@
   "event-listener-missing-class-problem": "The plugin '{{plugin-name}}' could not register the event listener '{{listener}}', because the class '{{missing-class}}' it references does not exist.",
   "client-only-mod-problem": "The mod '{{mod-name}}' cannot run on a server. It is either a client-only mod or uses client-only code.",
   "circular-plugin-dependency-problem": "Circular plugin dependencies detected: {{cycle}}.",
-  "restricted-plugin-name-problem": "A plugin has a name that is not allowed."
+  "restricted-plugin-name-problem": "A plugin has a name that is not allowed.",
+  "invalid-event-handler-signature-problem": "The plugin '{{plugin-name}}' declares the event handler '{{signature}}' in '{{class-name}}' with an invalid signature. Paper ignores this method."
 }
