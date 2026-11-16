@@ -1,0 +1,1096 @@
+{
+    "id": "forge\/client",
+    "name": "Forge",
+    "type": "Client Log",
+    "version": "26.3",
+    "title": "Forge 26.3 Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:05] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[17:55:05] [main\/INFO]: ModLauncher running: args [--username, Steve, --version, 26.3, --gameDir, D:\\ATL\\ATLauncher\\instances\\263, --assetsDir, D:\\ATL\\ATLauncher\\assets, --assetIndex, 34, --uuid, 00000000-0000-0000-0000-000000000000, --accessToken, **********, --versionType, release, --launchTarget, forge_client, --width=854, --height=480]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:05] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[17:55:05] [main\/INFO]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 25.0.1+8-LTS"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:05] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[17:55:05] [main\/INFO]: ModLauncher 10.2.6 starting: java version 25.0.1 by Microsoft; OS Windows 10 arch amd64 version 10.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[17:55:06] [main\/INFO]: Loading ImmediateWindowProvider fmlearlywindow"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[17:55:06] [main\/INFO]: ImmediateWindowProvider fmlearlywindow does not support default, switching to dummyprovider"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[17:55:06] [main\/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:\/\/\/D:\/ATL\/ATLauncher\/libraries\/org\/spongepowered\/mixin\/0.8.7\/mixin-0.8.7.jar!\/ Service=ModLauncher Env=CLIENT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file carryon-forge-26.3-2.12.0.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file collective-26.3.0-8.42.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file cyclopscore-26.3-forge-1.30.0-1183.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file dynamiclights-26.3.2.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file elytraslot-forge-26.3-3.1.0.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file everlastingabilities-26.3-forge-2.5.10-413.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file FallingTree-26.3-25.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file farm-3x3-2.3.2.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file grassseeds-26.3.0-3.5.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file graves-3.0.1.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file infinitetrading-26.3.0-5.1.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file inventorymanagement-forge-2.0.3+26.3.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file inventorymending-26.3.0-1.3.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file inventorytotem-26.3.0-3.5.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file last-durability-saver_1.1_forge_26.3.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file mc-armor-hud-8.1.1.7-26.3-forge.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file mineable-spawner-v2.4.1.0.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file MouseTweaks-forge-mc26.3-2.31.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file no-pet-friendly-fire_1.0.0_forge_26.3.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file ore-vein-miner-3.2.0.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file Overstack-26.3.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file shulkerpeek-forge-26.3-1.4.0.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file stickyenchantinglapis-26.3.0-1.6.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file StringDuper-1.0.3.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file thetruepaxels-forge-26.3-1.1.2.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file trade-cycling-forge-1.0.22+26.3.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file unlimited-enchantments-1.2.3+26.3-neoforge-forge.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file xaerominimap-forge-26.3-26.6.0.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file xaeroworldmap-forge-26.3-1.47.0.jar of type MOD with provider {mods folder locator at D:\\ATL\\ATLauncher\\instances\\263\\mods}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file forge-26.3-66.0.8-client.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@1b9c1b51"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file mclanguage-26.3-66.0.8.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@6818d900"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file fmlcore-26.3-66.0.8.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@6818d900"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file lowcodelanguage-26.3-66.0.8.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@6818d900"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file forge-26.3-66.0.8-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@6818d900"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file javafmllanguage-26.3-66.0.8.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@6818d900"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[17:55:06] [main\/INFO]: Closeing unselected FileSystem xaerominimap-forge-26.3-26.6.0.jar!\/META-INF\/jarjar\/xaerolib-forge-26.3-1.7.17.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[17:55:06] [main\/INFO]: Closeing unselected FileSystem mixinextras-forge-0.5.4.jar!\/META-INF\/jars\/MixinExtras-0.5.4.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[17:55:06] [main\/INFO]: Found 3 dependencies adding them to mods collection"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file \/MixinExtras-0.5.5.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@4d774249"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file \/xaerolib-forge-26.3-1.7.17.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@4d774249"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:06] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[17:55:06] [main\/INFO]: Found mod file \/mixinextras-forge-0.5.5.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@4d774249"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:07] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[17:55:07] [main\/INFO]: Compatibility level set to JAVA_21"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:07] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[17:55:07] [main\/INFO]: Launching target 'forge_client' with arguments [--version, 26.3, --gameDir, D:\\ATL\\ATLauncher\\instances\\263, --assetsDir, D:\\ATL\\ATLauncher\\assets, --uuid, 00000000-0000-0000-0000-000000000000, --username, Steve, --assetIndex, 34, --accessToken, **********, --versionType, release, --width=854, --height=480]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:55:07] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[17:55:07] [main\/WARN]: Reference map 'trade_cycling.refmap.json' for trade_cycling.mixins.json could not be read. If this is a development environment you can ignore this message"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:55:07] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[17:55:07] [main\/WARN]: Reference map 'xaerolib.refmap.json' for xaerolib.mixins.json could not be read. If this is a development environment you can ignore this message"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:55:07] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[17:55:07] [main\/WARN]: Reference map 'xaerolib.refmap.json' for xaerolib.forge.mixins.json could not be read. If this is a development environment you can ignore this message"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:55:07] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[17:55:07] [main\/WARN]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:55:07] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[17:55:07] [main\/WARN]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.forge.mixins.json could not be read. If this is a development environment you can ignore this message"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:55:07] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[17:55:07] [main\/WARN]: Reference map 'carryon.refmap.json' for carryon.mixins.json could not be read. If this is a development environment you can ignore this message"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:55:07] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[17:55:07] [main\/WARN]: Reference map 'stringduper.refmap.json' for stringduper.mixins.json could not be read. If this is a development environment you can ignore this message"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:08] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[17:55:08] [main\/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5)."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:11] [Datafixer Bootstrap #0\/INFO]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[17:55:11] [Datafixer Bootstrap #0\/INFO]: 307 Datafixer optimizations took 1133 milliseconds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:17] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[17:55:17] [Render thread\/INFO]: Environment: Environment[discoveryUrl=https:\/\/discovery.minecraftservices.com\/minecraft\/client, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:17] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[17:55:17] [Render thread\/INFO]: Setting user: Steve"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:17] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[17:55:17] [Render thread\/INFO]: Backend library: LWJGL version 3.4.3+4"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:17] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[17:55:17] [Render thread\/INFO]: SDL [SYSTEM]: App name: Minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:17] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[17:55:17] [Render thread\/INFO]: SDL [SYSTEM]: App version: 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:17] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[17:55:17] [Render thread\/INFO]: SDL [SYSTEM]: App ID: com.mojang.minecraft"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:17] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[17:55:17] [Render thread\/INFO]: SDL [SYSTEM]: SDL revision: SDL-3.4.14-62f10da"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:18] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[17:55:18] [Render thread\/INFO]: Using graphics backend OpenGL, using drivers: 3.3.0 NVIDIA 582.78"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:18] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[17:55:18] [Render thread\/INFO]: Using graphics device: NVIDIA GeForce GT 1030\/PCIe\/SSE2 (NVIDIA Corporation)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:18] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[17:55:18] [Render thread\/INFO]: Using graphics device extensions: GL_ARB_multi_draw_indirect, GL_ARB_shader_draw_parameters, GL_ARB_base_instance, GL_KHR_debug, GL_ARB_draw_indirect, GL_ARB_clip_control, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:18] [Render thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[17:55:18] [Render thread\/INFO]: Created window using SDL video driver: windows"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:18] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[17:55:18] [modloading-worker-0\/INFO]: Elytra Slot initialized; active elytra host: builtin"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Loading Collective version 8.42."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Registering Mod Items for thetruepaxels"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Registering Item Groups for thetruepaxels"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Registering common data for channel xaeroworldmap:main!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Registering client data for channel xaeroworldmap:main!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Loading primary common config for channel xaeroworldmap:main!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Xaero's Minimap: World Map found!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: No Optifine!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Xaero's Minimap: No Vivecraft!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Loading server config profiles for channel xaeroworldmap:main!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Loading primary client config for channel xaeroworldmap:main!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Loading client config profiles for channel xaeroworldmap:main!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Registering common data for channel xaerolib:main!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Registering client data for channel xaerolib:main!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Loading primary common config for channel xaerolib:main!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Loading server config profiles for channel xaerolib:main!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Loading primary client config for channel xaerolib:main!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Loading client config profiles for channel xaerolib:main!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Registering common data for channel xaerominimap:main!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Overstack loaded - infinite item stacks enabled (26.3)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Registering client data for channel xaerominimap:main!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: Forge mod loading, version 66.0.8, for MC 26.3 with MCP 20260918.230105"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "[17:55:19] [modloading-worker-0\/INFO]: MinecraftForge v66.0.8 Initialized"
+                },
+                {
+                    "number": 94,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [],
+        "information": [
+            {
+                "message": "Java version: 25.0.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:55:05] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 3,
+                            "content": "[17:55:05] [main\/INFO]: ModLauncher 10.2.6 starting: java version 25.0.1 by Microsoft; OS Windows 10 arch amd64 version 10.0"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "25.0.1"
+            },
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 92,
+                            "content": "[17:55:19] [modloading-worker-0\/INFO]: Forge mod loading, version 66.0.8, for MC 26.3 with MCP 20260918.230105"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            },
+            {
+                "message": "Forge version: 66.0.8",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:55:19] [modloading-worker-0\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 93,
+                            "content": "[17:55:19] [modloading-worker-0\/INFO]: MinecraftForge v66.0.8 Initialized"
+                        },
+                        {
+                            "number": 94,
+                            "content": ""
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "66.0.8"
+            }
+        ]
+    }
+}
